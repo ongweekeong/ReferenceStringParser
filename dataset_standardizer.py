@@ -50,7 +50,7 @@ def replaceTags(standardized_tags, tag_mapping, reference):
         reference_tag = tag_mapping[standardized_tag]
         standardized_reference = re.sub(r'(?<=\<)' + reference_tag + r'(?=\>)', standardized_tag, standardized_reference)
         standardized_reference = re.sub(r'(?<=\<\/)' + reference_tag + r'(?=\>)', standardized_tag, standardized_reference)
-    return standardized_reference
+    return str.rstrip(standardized_reference)
 
 
 standardized_references = []
@@ -62,9 +62,12 @@ for dataset in dataset_paths:
             standardized_references.append(replaceTags(dataset_tags["cora"], tag_mapping[dataset], reference))
 
 output_file = "./dataset/standardized_dataset.txt"
-with open(output_file, 'a', errors='ignore') as f:
-    for reference in standardized_references:
-        f.write(reference)
+with open(output_file, 'w', errors='ignore') as f:
+    f.write("\n".join(standardized_references))
+    
+tag_file = "./utils/tags.txt"
+with open(tag_file, 'w', errors='ignore') as f:
+    f.write("\n".join(dataset_tags["cora"]))
 
 """
 For reference:
