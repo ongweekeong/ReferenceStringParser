@@ -44,30 +44,27 @@ tag_mapping = {
     "umass_3": cora_to_umass_mapping
 }
 
-def extractTagValues(standardized_tags, tag_mapping, reference):
-    result = {standardized_tag : "" for standardized_tag in standardized_tags}
+def replaceTags(standardized_tags, tag_mapping, reference):
+    standardized_reference = reference
     for standardized_tag in standardized_tags:
         reference_tag = tag_mapping[standardized_tag]
-        regex = r'(?<=\<(' + reference_tag + r')\>).*(?=\<\/\1\>)'
-        match = re.search(regex, reference)
-        if match:
-            match = re.sub(r'</?[\w-]+>', '', match.group(0)) # remove any intermediate labels
-            result[standardized_tag] = match
-    return result
+        standardized_reference = re.sub(r'(?<=\<)' + reference_tag + r'(?=\>)', standardized_tag, standardized_reference)
+        standardized_reference = re.sub(r'(?<=\<\/)' + reference_tag + r'(?=\>)', standardized_tag, standardized_reference)
+    return standardized_reference
 
-result = defaultdict(lambda: "")
+
+standardized_references = []
 
 for dataset in dataset_paths:
     with open(dataset_paths[dataset], encoding='utf-8', errors='ignore') as f:
         references = f.readlines()
         for reference in references:
-            reference_tagged_dict = extractTagValues(dataset_tags["cora"], tag_mapping[dataset], reference)
-            reference = str.rstrip(re.sub(r'</?[\w-]+>', '', reference)) # strip newline character and remove labels
-            result[reference] = reference_tagged_dict 
+            standardized_references.append(replaceTags(dataset_tags["cora"], tag_mapping[dataset], reference))
 
-output_file = "./dataset/standardized_dataset.json"
-with open(output_file, 'w', errors='ignore') as f:
-    json.dump(result, f)
+output_file = "./dataset/standardized_dataset.txt"
+with open(output_file, 'a', errors='ignore') as f:
+    for reference in standardized_references:
+        f.write(reference)
 
 """
 For reference:
