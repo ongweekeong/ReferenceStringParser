@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260304</issue-id>
+         <article-id pub-id-type="jstor">1391176</article-id>
+         
+         <title-group>
+            <article-title>Flexible Spatial Models for Kriging and Cokriging Using Moving Averages and the Fast Fourier Transform (FFT)</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>Jay M. Ver Hoef</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Noel</given-names>
+                  <surname>Cressie</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ronald Paul</given-names>
+                  <surname>Barry</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>265</fpage>
+         <lpage>282</lpage>
+         <page-range>265-282</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391176"/>
+         
+         
+         <abstract>
+            <p>Models for spatial autocorrelation and cross-correlation depend on the distance and direction separating two locations, and are constrained so that for all possible sets of locations, the covariance matrices implied from the models remain nonnegative-definite. Based on spatial correlation, optimal linear predictors can be constructed that yield complete maps of spatial fields from incomplete and noisy spatial data. This methodology is called kriging if the data are of only one variable type, and it is called cokriging if it is of two or more variable types. Historically, to satisfy the nonnegative-definite condition, cokriging has used coregionalization models for cross-variograms, even though this class of models is not very flexible. Recent research has shown that moving-average functions may be used to generate a large class of valid, flexible variogram models, and that they can also be used to generate valid cross-variograms that are compatible with component variograms. There are several problems with the moving-average approach, including large numbers of parameters and difficulties with integration. This article shows how the fast Fourier Transform (FFT) solves these problems. The flexible moving-average function that we consider is composed of many small rectangles, which eliminates the integration problem. The FFT allows us to compute the cross-variogram on a set of discrete lags; we show how to interpolate the cross-variogram for any continuous lag, which allows us to fit flexible models using standard minimization routines. Simulation examples are given to demonstrate the methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Geostatistics</kwd>
+            <kwd>Spatial statistics</kwd>
+            <kwd>Variogram</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d432232e178a1310">
+               
+               <mixed-citation id="d432232e182" publication-type="journal">
+Barry, R.P., and Ver Hoef, J.M. (1996), "Blackbox Kriging: Spatial Prediction Without Specifying Variogram
+Models," Journal of Agricultural, Biological, and Environmental Statistics, 3, 1-25.<person-group>
+                     <string-name>
+                     <surname>Barry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>3</volume>
+               <source>Biological, and Environmental Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e214a1310">
+               
+               <mixed-citation id="d432232e218" publication-type="book">
+Brigham, E. 0. (1988), The Fast Fourier Transform and Its Applications, Englewood Cliffs, NJ: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Brigham</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Fast Fourier Transform and Its Applications</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e240a1310">
+               
+               <mixed-citation id="d432232e244" publication-type="book">
+Cressie, N. (1993), Statistics for Spatial Data (rev. ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistics for Spatial Data</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e266a1310">
+               
+               <mixed-citation id="d432232e270" publication-type="journal">
+Cressie, N., and Pavlicova, M. (2002), "Calibrated Spatial Moving Average Simulations," Statistical Modelling,
+2, 1-13.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>2</volume>
+               <source>Statistical Modelling</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e303a1310">
+               
+               <mixed-citation id="d432232e307" publication-type="journal">
+Cressie, N., and Ver Hoef, J.M. (2001), "Multivariate Geostatistics for Precision Agriculture" (with discussion),
+Bulletin of the International Statistical Institute, Invited Papers Volume 59, Book 1, 407-410.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>407</fpage>
+               <volume>59</volume>
+               <source>Bulletin of the International Statistical Institute</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e339a1310">
+               
+               <mixed-citation id="d432232e343" publication-type="journal">
+Cressie, N., and Wikle, C.K. (1998), "The Variance-Based Cross-Variogram: You Can Add Apples and Oranges,"
+Mathematical Geology30, 789-799.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>789</fpage>
+               <volume>30</volume>
+               <source>Mathematical Geology</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e375a1310">
+               
+               <mixed-citation id="d432232e379" publication-type="book">
+Daley, R. (1991), Atmospheric Data Analysis, New York: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Daley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Atmospheric Data Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e401a1310">
+               
+               <mixed-citation id="d432232e405" publication-type="journal">
+Gaspari, G., and Cohn, S.E. (1999), "Construction of Correlation Functions in Two and Three Dimensions,"
+Quarterly Journal of the Royal Meteorological Society, 125, 723-757.<person-group>
+                     <string-name>
+                     <surname>Gaspari</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>723</fpage>
+               <volume>125</volume>
+               <source>Quarterly Journal of the Royal Meteorological Society</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e437a1310">
+               
+               <mixed-citation id="d432232e441" publication-type="book">
+Goovaerts, P. (1997), Geostatistics for Natural Resources Evaluation, New York: Oxford University Press.<person-group>
+                     <string-name>
+                     <surname>Goovaerts</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geostatistics for Natural Resources Evaluation</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e463a1310">
+               
+               <mixed-citation id="d432232e467" publication-type="journal">
+Gotway, C.A., and Hartford, A.H. (1996), "Geostatistical Methods for Incorporating Auxiliary Information in the
+Prediction of Spatial Variables," Journal of Agricultural, Biological, and Environmental Statistics, 1, 17-39.<object-id pub-id-type="doi">10.2307/1400558</object-id>
+               <fpage>17</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e484a1310">
+               
+               <mixed-citation id="d432232e488" publication-type="journal">
+Helterbrand, J.D., and Cressie, N. (1994), "Universal Cokriging Under Intrinsic Coregionalization," Mathematical
+Geology, 26, 205-226.<person-group>
+                     <string-name>
+                     <surname>Helterbrand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>26</volume>
+               <source>Mathematical Geology</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e520a1310">
+               
+               <mixed-citation id="d432232e524" publication-type="journal">
+Higdon, D. (1998), "A Process-Convolution Approach to Modelling Temperatures in the North Atlantic Ocean,"
+Environmental and Ecological Statistics, 5, 173-190.<person-group>
+                     <string-name>
+                     <surname>Higdon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>5</volume>
+               <source>Environmental and Ecological Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e556a1310">
+               
+               <mixed-citation id="d432232e560" publication-type="book">
+Higdon, D., Swall, J., and Kern, J. (1999), "Non-stationary Spatial Modeling," in Bayesian Statistics 6, New York:
+Oxford University Press, pp. 761-768.<person-group>
+                     <string-name>
+                     <surname>Higdon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Non-stationary Spatial Modeling</comment>
+               <fpage>761</fpage>
+               <source>Bayesian Statistics 6</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e592a1310">
+               
+               <mixed-citation id="d432232e596" publication-type="book">
+Isaaks, E.H., and Srivastava, R.M. (1989), An Introduction to Applied Geostatistics, New York: Oxford University
+Press.<person-group>
+                     <string-name>
+                     <surname>Isaaks</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to Applied Geostatistics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e621a1310">
+               
+               <mixed-citation id="d432232e625" publication-type="book">
+Journel, A.G., and Huijbregts, C.J. (1978), Mining Geostatistics, London: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Journel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mining Geostatistics</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e647a1310">
+               
+               <mixed-citation id="d432232e651" publication-type="journal">
+Lindstrom, T. (1993), "Fractional Brownian Fields as Integrals of White Noise," The Bulletin of the London
+Mathematical Society, 25, 83-88.<person-group>
+                     <string-name>
+                     <surname>Lindstrom</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>83</fpage>
+               <volume>25</volume>
+               <source>The Bulletin of the London Mathematical Society</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e684a1310">
+               
+               <mixed-citation id="d432232e688" publication-type="book">
+Matern, B. (1986), Spatial Variation (2nd ed.), New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Matern</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Spatial Variation</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e713a1310">
+               
+               <mixed-citation id="d432232e717" publication-type="journal">
+Mockus, A. (1998), "Estimating Dependencies From Spatial Averages," Journal of Computational and Graphical
+Statistics7, 501-513.<object-id pub-id-type="doi">10.2307/1390679</object-id>
+               <fpage>501</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e733a1310">
+               
+               <mixed-citation id="d432232e737" publication-type="journal">
+Myers, D.E. (1991), "Pseudo Crossvariograms, Positive-Definiteness, and Cokriging," Mathematical Geology
+23, 805-816.<person-group>
+                     <string-name>
+                     <surname>Myers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>805</fpage>
+               <volume>23</volume>
+               <source>Mathematical Geology</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e769a1310">
+               
+               <mixed-citation id="d432232e773" publication-type="journal">
+Oliver, D.S. (1995), "Moving Averages for Gaussian Simulation in Two and Three Dimensions," Mathematical
+Geology, 27, 939-960.<person-group>
+                     <string-name>
+                     <surname>Oliver</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>939</fpage>
+               <volume>27</volume>
+               <source>Mathematical Geology</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e805a1310">
+               
+               <mixed-citation id="d432232e809" publication-type="journal">
+Papritz, A., Kunsch, H.R., and Webster, R. (1993), "On the Pseudo Cross-Variogram," Mathematical Geology,
+25, 1015-1026.<person-group>
+                     <string-name>
+                     <surname>Papritz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1015</fpage>
+               <volume>25</volume>
+               <source>Mathematical Geology</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e841a1310">
+               
+               <mixed-citation id="d432232e845" publication-type="book">
+Royle, J.A. (2000), "Multivariate Spatial Models," in Studies in the Atmospheric Sciences, eds. M. L. Berliner,
+D. Nychka, and T. Hoar, New York: Springer, pp. 23-44.<person-group>
+                     <string-name>
+                     <surname>Royle</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multivariate Spatial Models</comment>
+               <fpage>23</fpage>
+               <source>Studies in the Atmospheric Sciences</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e878a1310">
+               
+               <mixed-citation id="d432232e882" publication-type="journal">
+Royle, J.A., and Berliner, M. (1999), "A Hierarchical Approach to Multivariate Spatial Modeling and Prediction,"
+Journal of Agricultural, Biological, and Environmental Statistics, 4, 29-56.<object-id pub-id-type="doi">10.2307/1400420</object-id>
+               <fpage>29</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e898a1310">
+               
+               <mixed-citation id="d432232e902" publication-type="book">
+Stein, M.L. (1999), Interpolation of Spatial Data: Some Theory for Kriging, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Stein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interpolation of Spatial Data: Some Theory for Kriging</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e924a1310">
+               
+               <mixed-citation id="d432232e928" publication-type="book">
+Thiebaux, H.J., and Pedder, M.A. (1987), Spatial Objective Analysis: with Applications in Atmospheric Science,
+San Diego: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Thiebaux</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spatial Objective Analysis: with Applications in Atmospheric Science</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e953a1310">
+               
+               <mixed-citation id="d432232e957" publication-type="journal">
+Ver Hoef, J.M., and Barry, R.P. (1998), "Constructing and Fitting Models for Cokriging and Multivariable Spatial
+Prediction," Journal of Statistical Planning and Inference, 69, 275-294.<person-group>
+                     <string-name>
+                     <surname>Ver Hoef</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>275</fpage>
+               <volume>69</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e989a1310">
+               
+               <mixed-citation id="d432232e993" publication-type="journal">
+Ver Hoef, J.M., and Cressie, N. (1993), "Multivariable Spatial Prediction," Mathematical Geology, 25: 219-240;<person-group>
+                     <string-name>
+                     <surname>Ver Hoef</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>219</fpage>
+               <volume>25</volume>
+               <source>Mathematical Geology</source>
+               <year>1993</year>
+            </mixed-citation>
+               <mixed-citation id="d432232e1021" publication-type="journal">
+Correction (1994), Mathematical Geology, 26, 273-275.<fpage>273</fpage>
+               <volume>26</volume>
+               <source>Mathematical Geology</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e1040a1310">
+               
+               <mixed-citation id="d432232e1044" publication-type="book">
+Wackernagel, H. (1998), Multivariate Geostatistics (2nd ed.), Berlin: Springer.<person-group>
+                     <string-name>
+                     <surname>Wackernagel</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Multivariate Geostatistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e1070a1310">
+               
+               <mixed-citation id="d432232e1074" publication-type="journal">
+Wolpert, R., and Ickstadt, K. (1998), "Poisson/Gamma Random Field Models for Spatial Statistics," Biometrika,
+85, 251-267.<object-id pub-id-type="jstor">10.2307/2337356</object-id>
+               <fpage>251</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e1090a1310">
+               
+               <mixed-citation id="d432232e1094" publication-type="book">
+Yaglom, A.M. (1987a), Correlation Theory of Stationary and Related Random Functions (vol. I), New York:
+Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Yaglom</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Correlation Theory of Stationary and Related Random Functions</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e1123a1310">
+               
+               <mixed-citation id="d432232e1127" publication-type="book">
+(1987b), Correlation Theory of Stationary and Related Random Functions (vol. II.), New York: Springer-
+Verlag.<person-group>
+                     <string-name>
+                     <surname>Yaglom</surname>
+                  </string-name>
+                  </person-group>
+               <volume>II</volume>
+               <source>Correlation Theory of Stationary and Related Random Functions</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432232e1156a1310">
+               
+               <mixed-citation id="d432232e1160" publication-type="journal">
+Yao, T., and Journel, A.G. (1998), "Automatic Modeling of (Cross) Covariance Tables Using Fast Fourier Trans-
+form," Mathematical Geology, 30, 589-615.<person-group>
+                     <string-name>
+                     <surname>Yao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>589</fpage>
+               <volume>30</volume>
+               <source>Mathematical Geology</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

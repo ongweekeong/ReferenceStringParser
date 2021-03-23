@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">8</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260284</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390637</article-id>
+         
+         <title-group>
+            <article-title>A Computationally Efficient Oracle Estimator for Additive Nonparametric Regression with Bootstrap Confidence Intervals</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Woocheol</given-names>
+                  <surname>Kim</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Oliver B.</given-names>
+                  <surname>Linton</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Niklaus W.</given-names>
+                  <surname>Hengartner</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>278</fpage>
+         <lpage>297</lpage>
+         <page-range>278-297</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390637"/>
+         
+         
+         <abstract>
+            <p>This article makes three contributions. First, we introduce a computationally efficient estimator for the component functions in additive nonparametric regression exploiting a different motivation from the marginal integration estimator of Linton and Nielsen. Our method provides a reduction in computation of order n, which is highly significant in practice. Second, we define an efficient estimator of the additive components, by inserting the preliminary estimator into a backfitting algorithm but taking one step only, and establish that it is equivalent, in various senses, to the oracle estimator based on knowing the other components. Our two-step estimator is minimax superior to that considered in Opsomer and Ruppert, due to its better bias. Third, we define a bootstrap algorithm for computing pointwise confidence intervals and show that it achieves the correct coverage.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Instrumental variables</kwd>
+            <kwd>Kernel estimation</kwd>
+            <kwd>Marginal integration</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1196340e156a1310">
+               
+               <mixed-citation id="d1196340e160" publication-type="journal">
+Angrist, J.D., Imbens, G.W., and Rubin, D.B. (1996), "Identification of Causal Effects Using Instrumental
+Variables" (with discussion), Journal of the American Statistical Association, 91, 444-473.<object-id pub-id-type="doi">10.2307/2291629</object-id>
+               <fpage>444</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e176a1310">
+               
+               <mixed-citation id="d1196340e180" publication-type="book">
+Auestad, B., and Tjøstheim, D. (1991), "Functional Identification in Nonlinear Time Series," in Nonparametric
+Functional Estimation and Related Topics, ed. G. Roussas, Kluwer Academic: Amsterdam, pp. 493-507.<person-group>
+                     <string-name>
+                     <surname>Auestad</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Functional Identification in Nonlinear Time Series</comment>
+               <fpage>493</fpage>
+               <source>Nonparametric Functional Estimation and Related Topics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e212a1310">
+               
+               <mixed-citation id="d1196340e216" publication-type="journal">
+Breiman, L., and Friedman, J.H. (1985), "Estimating Optimal Transformations for Multiple Regression and
+Correlation" (with discussion), Journal of the American Statistical Association, 80, 580-619.<object-id pub-id-type="doi">10.2307/2288473</object-id>
+               <fpage>580</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e232a1310">
+               
+               <mixed-citation id="d1196340e236" publication-type="journal">
+Buja, A., Hastie, T., and Tibshirani, R. (1989), "Linear Smoothers and Additive Models" (with discussion),
+The Annals of Statistics, 17, 453-555.<object-id pub-id-type="jstor">10.2307/2241560</object-id>
+               <fpage>453</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e253a1310">
+               
+               <mixed-citation id="d1196340e257" publication-type="conference">
+Chen, R., Härdle, W., Linton, O. B., and Severance-Lossin, E. (1996), "Estimation in Additive Nonparametric
+Regression," in Proceedings of the COMPSTAT Conference Semmering, eds. W. Härdle and M. Schimek,
+Heidelberg: Physika Verlag, pp. 247-265.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Estimation in Additive Nonparametric Regression</comment>
+               <fpage>247</fpage>
+               <source>Proceedings of the COMPSTAT Conference Semmering</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e292a1310">
+               
+               <mixed-citation id="d1196340e296" publication-type="journal">
+Fan, J. (1992), "Design-Adaptive Nonparametric Regression," Journal of the American Statistical Association,
+82, 998-1004.<object-id pub-id-type="doi">10.2307/2290637</object-id>
+               <fpage>998</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e312a1310">
+               
+               <mixed-citation id="d1196340e316" publication-type="journal">
+(1993), "Local Linear Regression Smoothers and Their Minimax Efficiencies," The Annals of Statistics,
+21, 196-216.<object-id pub-id-type="jstor">10.2307/3035587</object-id>
+               <fpage>196</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e332a1310">
+               
+               <mixed-citation id="d1196340e336" publication-type="journal">
+Fan, J., and Gijbels, I. (1992), "Variable Bandwidth and Local Linear Regression Smoothers," The Annals of
+Statistics, 20, 2008-2036.<object-id pub-id-type="jstor">10.2307/2242378</object-id>
+               <fpage>2008</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e352a1310">
+               
+               <mixed-citation id="d1196340e356" publication-type="book">
+Hall, P. (1992), The Bootstrap and Edgeworth Expansion, Berlin: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Hall</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Bootstrap and Edgeworth Expansion</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e378a1310">
+               
+               <mixed-citation id="d1196340e382" publication-type="book">
+Härdle, W. (1990), Applied Nonparametric Regression. Econometric Monograph Series 19, Cambridge: Cam-
+bridge University Press.<person-group>
+                     <string-name>
+                     <surname>Härdle</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied Nonparametric Regression. Econometric Monograph Series 19</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e408a1310">
+               
+               <mixed-citation id="d1196340e412" publication-type="journal">
+Härdle, W., and Marron, E. (1991), "Bootstrap Simultaneous Error Bars for Nonparametric Regression," The
+Annals of Statistics, 19, 778-796.<person-group>
+                     <string-name>
+                     <surname>Härdle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>778</fpage>
+               <volume>19</volume>
+               <source>The Annals of Statistics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e444a1310">
+               
+               <mixed-citation id="d1196340e448" publication-type="book">
+Hastie, T., and Tibshirani, R. (1990), Generalized Additive Models, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Hastie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Additive Models</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e470a1310">
+               
+               <mixed-citation id="d1196340e474" publication-type="book">
+Hengartner, N. W. (1996), "Rate Optimal Estimation of Additive Regression via the Integration
+Method in the Presence of Many Covariates," Preprint, Department of Statistics, Yale University,
+http:\\www.stat.yale.edu.<person-group>
+                     <string-name>
+                     <surname>Hengartner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Rate Optimal Estimation of Additive Regression via the Integration Method in the Presence of Many Covariates</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e503a1310">
+               
+               <mixed-citation id="d1196340e507" publication-type="journal">
+Jones, M.C., Davies, S.J., and Park, B.U. (1994), "Versions of Kernel-Type Regression Estimators," Journal
+of the American Statistical Association, 89, 825-832.<object-id pub-id-type="doi">10.2307/2290908</object-id>
+               <fpage>825</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e523a1310">
+               
+               <mixed-citation id="d1196340e527" publication-type="journal">
+Jones, M.C., Marron, J.S., and Sheather, S.J. (1996), "A Brief Survey of Bandwidth Selection for Density
+Estimation," Journal of the American Statistical Association, 91, 401-407.<object-id pub-id-type="doi">10.2307/2291420</object-id>
+               <fpage>401</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e543a1310">
+               
+               <mixed-citation id="d1196340e547" publication-type="journal">
+Linton, O B. (1996), "Efficient Estimation of Additive Nonparametric Regression Models," Biometrika, 84,
+469-474.<object-id pub-id-type="jstor">10.2307/2337471</object-id>
+               <fpage>469</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e564a1310">
+               
+               <mixed-citation id="d1196340e568" publication-type="journal">
+Linton, O B., and Haarde, W. (1996), "Estimating Additive Regression Models With Known Links," Biometrika,
+83, 529-540.<object-id pub-id-type="jstor">10.2307/2337506</object-id>
+               <fpage>529</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e584a1310">
+               
+               <mixed-citation id="d1196340e588" publication-type="journal">
+Linton, O. B., and Nielsen, J. P. (1995), "A Kernel Method of Estimating Structured Nonparametric Regression
+Based on Marginal Integration," Biometrika, 82, 93-100.<object-id pub-id-type="doi">10.2307/2337630</object-id>
+               <fpage>93</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e604a1310">
+               
+               <mixed-citation id="d1196340e608" publication-type="journal">
+Linton, O. B., Wang, N., Chen, R., and Hardle, W. (1997), "An Analysis of Transformation for Additive
+Nonparametric Regression," Journal of the American Statistical Association, 92, 1512-1521.<object-id pub-id-type="doi">10.2307/2965422</object-id>
+               <fpage>1512</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e624a1310">
+               
+               <mixed-citation id="d1196340e628" publication-type="journal">
+Masry, E. (1996), "Multivariate Local Polynomial Regression for Time Series: Uniform Strong Consistency
+and Rates," Journal of Time Series Analysis, 17, 571-599.<person-group>
+                     <string-name>
+                     <surname>Masry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>571</fpage>
+               <volume>17</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e660a1310">
+               
+               <mixed-citation id="d1196340e664" publication-type="journal">
+Newey, W.K. (1994), "Kernel Estimation of Partial Means," Econometric Theory, 10, 233-253.<person-group>
+                     <string-name>
+                     <surname>Newey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>233</fpage>
+               <volume>10</volume>
+               <source>Econometric Theory</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e693a1310">
+               
+               <mixed-citation id="d1196340e697" publication-type="other">
+Nielsen, J. P., and Linton, O. B. (1997), "Multiplicative Marker Dependent Hazard Estimation," unpublished
+manuscript.</mixed-citation>
+            </ref>
+            <ref id="d1196340e708a1310">
+               
+               <mixed-citation id="d1196340e712" publication-type="journal">
+Opsomer, J.D., and Ruppert, D. (1997), "On the Existence and Asymptotic Properties of Backfitting Estima-
+tors," The Annals of Statistics, 25, 186-211.<object-id pub-id-type="jstor">10.2307/2242717</object-id>
+               <fpage>186</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e728a1310">
+               
+               <mixed-citation id="d1196340e732" publication-type="journal">
+Stone, C.J. (1985), "Additive Regression and Other Nonparametric Models," The Annals of Statistics, 13,
+685-705.<object-id pub-id-type="jstor">10.2307/2241204</object-id>
+               <fpage>685</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e748a1310">
+               
+               <mixed-citation id="d1196340e752" publication-type="journal">
+(1986), "The Dimensionality Reduction Principle for Generalized Additive Models," The Annals of
+Statistics, 14, 592-606.<person-group>
+                     <string-name>
+                     <surname>Stone</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>592</fpage>
+               <volume>14</volume>
+               <source>The Annals of Statistics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e784a1310">
+               
+               <mixed-citation id="d1196340e788" publication-type="journal">
+Tjøstheim, D., and Auestad, B. (1994), "Nonparametric Identification of Nonlinear Time Series Projections,"
+Journal of the American Statistical Association, 89, 1398-1409.<person-group>
+                     <string-name>
+                     <surname>Tjøstheim</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1398</fpage>
+               <volume>89</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e820a1310">
+               
+               <mixed-citation id="d1196340e824" publication-type="book">
+Wand, M.P., and Jones' M. C. (1995), Kernel Smoothing, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Wand</surname>
+                  </string-name>
+                  </person-group>
+               <source>Kernel Smoothing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1196340e846a1310">
+               
+               <mixed-citation id="d1196340e850" publication-type="journal">
+Wu, C.J.F. (1986), "Jacknife, Bootstrap and Other Resampling Methods in Regression Analysis," The Annals
+of Statistics, 14, 1261-1343.<object-id pub-id-type="jstor">10.2307/2241454</object-id>
+               <fpage>1261</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

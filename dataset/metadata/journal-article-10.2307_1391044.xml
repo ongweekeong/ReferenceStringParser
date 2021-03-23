@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260301</issue-id>
+         <article-id pub-id-type="jstor">1391044</article-id>
+         
+         <title-group>
+            <article-title>Higher Order Asymptotics Unleashed: Software Design for Nonlinear Heteroscedastic Regression</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ruggero</given-names>
+                  <surname>Bellio</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Alessandra R.</given-names>
+                  <surname>Brazzale</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>682</fpage>
+         <lpage>697</lpage>
+         <page-range>682-697</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391044"/>
+         
+         
+         <abstract>
+            <p>One of the main criticisms against the use of higher order asymptotics is that the algebraic expressions involved are far too complex to be derived by hand in a reasonable amount of time. A further drawback is that the results are so closely tuned to the specific problem at hand that they almost always exclude the possibility of transferring available computer code to a different though similar problem. The aim of this article is to show that higher order asymptotics can be implemented in a general and flexible way so as to provide easy-to-use and self-contained software useful in routine data analysis. The programming strategy we develop easily applies to many parametric models. We illustrate it by describing the design of the core routines of the nlreg section of the S-Plus library HOA which implements higher order solutions for nonlinear heteroscedastic regression models.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Asymptotic theory</kwd>
+            <kwd>Higher order solution</kwd>
+            <kwd>Symbolic computation</kwd>
+            <kwd>S-Plus</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1022004e147a1310">
+               
+               <mixed-citation id="d1022004e151" publication-type="book">
+Andrews, D.F., and Stafford, J.E. (2000), Symbolic Computation for Statistical Inference, Oxford: Oxford
+University Press.<person-group>
+                     <string-name>
+                     <surname>Andrews</surname>
+                  </string-name>
+                  </person-group>
+               <source>Symbolic Computation for Statistical Inference</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e176a1310">
+               
+               <mixed-citation id="d1022004e180" publication-type="book">
+Barndorff-Nielsen, 0. E., and Cox, D. R. (1994), Inference and Asymptotics, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Barndorff-Nielsen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Inference and Asymptotics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e202a1310">
+               
+               <mixed-citation id="d1022004e206" publication-type="book">
+Bates, D.M., and Watts, D.G. (1988), Nonlinear Regression Analysis and its Applications, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Bates</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression Analysis and its Applications</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e228a1310">
+               
+               <mixed-citation id="d1022004e232" publication-type="book">
+Becker, R.A., Chambers, J.M., and Wilks, A.R. (1988), The New S Language: A Programming Environment for
+Data Analysis and Graphics, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <source>The New S Language: A Programming Environment for Data Analysis and Graphics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e258a1310">
+               
+               <mixed-citation id="d1022004e262" publication-type="other">
+Bellio, R. (2000), Likelihood Asymptotics: Applications in Biostatistics, Ph.D. Thesis, Department of Statistics,
+University of Padova.</mixed-citation>
+            </ref>
+            <ref id="d1022004e272a1310">
+               
+               <mixed-citation id="d1022004e276" publication-type="journal">
+Bellio, R., Jensen, J.E., and Seiden, P. (2000), "Applications of Likelihood Asymptotics for Nonlinear Regression
+in Herbicide Bioassays," Biometrics, 56, 191-199.<object-id pub-id-type="jstor">10.2307/2677058</object-id>
+               <fpage>191</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e292a1310">
+               
+               <mixed-citation id="d1022004e296" publication-type="journal">
+Brazzale, A.R. (1999a), "Approximate Conditional Inference in Logistic and Loglinear Models," Journal of
+Computational and Graphical Statistics, 8, 653-661.<object-id pub-id-type="doi">10.2307/1390882</object-id>
+               <fpage>653</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e312a1310">
+               
+               <mixed-citation id="d1022004e316" publication-type="journal">
+(1999b), "Conditional Simulation for Regression-Scale Models," Journal of the Italian Statistical Soci-
+ety, 8, 101-114.<person-group>
+                     <string-name>
+                     <surname>Brazzale</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>8</volume>
+               <source>Journal of the Italian Statistical Society</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e348a1310">
+               
+               <mixed-citation id="d1022004e352" publication-type="other">
+(2000), "Practical Small-Sample Parametric Inference," Ph.D. Thesis, Department of Mathematics, Swiss
+Federal Institute of Technology, Lausanne, Switzerland.</mixed-citation>
+            </ref>
+            <ref id="d1022004e362a1310">
+               
+               <mixed-citation id="d1022004e366" publication-type="book">
+Carroll, R.J., and Ruppert, D. (1988), Transformation and Weighting in Regression, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Carroll</surname>
+                  </string-name>
+                  </person-group>
+               <source>Transformation and Weighting in Regression</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e389a1310">
+               
+               <mixed-citation id="d1022004e393" publication-type="book">
+Cook, R.D., and Weisberg, S. (1982), Residuals and Influence in Regression, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Cook</surname>
+                  </string-name>
+                  </person-group>
+               <source>Residuals and Influence in Regression</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e415a1310">
+               
+               <mixed-citation id="d1022004e419" publication-type="book">
+Davidian, M., and Giltinan, D.M. (1995), Nonlinear Models for Measurement Data, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Davidian</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Models for Measurement Data</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e441a1310">
+               
+               <mixed-citation id="d1022004e445" publication-type="journal">
+Davison, A.C. (1988), "Approximate Conditional Inference in Generalized Linear Models," Journal of the Royal
+Statistical Society, Series B, 50, 445-461.<person-group>
+                     <string-name>
+                     <surname>Davison</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <volume>50</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e477a1310">
+               
+               <mixed-citation id="d1022004e481" publication-type="journal">
+Fraser, D.A.S., Reid, N., and Wu, J. (1999), "A Simple General Formula for Tail Probabilities for Frequentist
+and Bayesian Inference," Biometrika, 86, 249-264.<object-id pub-id-type="jstor">10.2307/2673509</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e497a1310">
+               
+               <mixed-citation id="d1022004e501" publication-type="book">
+Huet, S., Bouvier, A., Gruet, M.A., and Jolivet, E. (1996). Statistical Tools for Nonlinear Regression. New York:
+Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Huet</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Tools for Nonlinear Regression</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e526a1310">
+               
+               <mixed-citation id="d1022004e530" publication-type="journal">
+Ihaka, R., and Gentleman, R. (1996), "R: A Language for Data Analysis and Graphics," Journal of Computational
+and Graphical Statistics, 5, 299-314.<object-id pub-id-type="doi">10.2307/1390807</object-id>
+               <fpage>299</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e547a1310">
+               
+               <mixed-citation id="d1022004e551" publication-type="book">
+Kendall, W.S. (1998), "Computer Algebra," in Encyclopedia of Biostatistics, eds. P. Armitage and T. Colton,
+Chichester: Wiley, pp. 839-845.<person-group>
+                     <string-name>
+                     <surname>Kendall</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computer Algebra</comment>
+               <fpage>839</fpage>
+               <source>Encyclopedia of Biostatistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e583a1310">
+               
+               <mixed-citation id="d1022004e587" publication-type="book">
+Seber, G.A.F., and Wild, C.J. (1989), Nonlinear Regression, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Seber</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e609a1310">
+               
+               <mixed-citation id="d1022004e613" publication-type="journal">
+Seiden, P., Kappel, D., and Streibig, J.C. (1998), "Response of Brassica napus L. Tissue Culture to Metsulfuron
+Methyl and Chlorsulfuron," Weed Research, 38, 221-228.<person-group>
+                     <string-name>
+                     <surname>Seiden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>38</volume>
+               <source>Weed Research</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e645a1310">
+               
+               <mixed-citation id="d1022004e649" publication-type="journal">
+Severini, T.A. (1998), "An Approximation to the Modified Profile Likelihood Function," Biometrika, 85,403-411.<object-id pub-id-type="jstor">10.2307/2337366</object-id>
+               <fpage>403</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e662a1310">
+               
+               <mixed-citation id="d1022004e666" publication-type="journal">
+Skovgaard, I.M. (1996), "An Explicit Large-Deviation Approximation to One-Parameter Tests," Bernoulli, 2,
+145-165.<object-id pub-id-type="doi">10.2307/3318548</object-id>
+               <fpage>145</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e682a1310">
+               
+               <mixed-citation id="d1022004e686" publication-type="journal">
+(2001), "Likelihood Asymptotics," Scandinavian Journal of Statistics, 28, 3-32.<person-group>
+                     <string-name>
+                     <surname>Skovgaard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>28</volume>
+               <source>Scandinavian Journal of Statistics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022004e716a1310">
+               
+               <mixed-citation id="d1022004e720" publication-type="book">
+Venables, W.N., and Ripley, B.R. (1999), Modern Applied Statistics with S-Plus (3rd ed.), New York: Springer-
+Verlag.<person-group>
+                     <string-name>
+                     <surname>Venables</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Modern Applied Statistics with S-Plus</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

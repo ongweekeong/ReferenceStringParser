@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">5</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i40000447</issue-id>
+         <article-id pub-id-type="jstor">40008383</article-id>
+         <title-group>
+            <article-title>How to Realize a Concept: Lexical Selection and the Conceptual Network in Text Generation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Norman</given-names>
+                  <surname>Sondheimer</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Susanna</given-names>
+                  <surname>Cumming</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Robert</given-names>
+                  <surname>Albano</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>57</fpage>
+         <lpage>78</lpage>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1990 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40008383"/>
+         
+         
+         <abstract>
+            <p>The task of natural language generation by computer requires a method for the selection of lexical items that refer to concepts. A generation system cannot assume that every concept will have an appropriate lexical entry associated with it. Similarly, a generation system must avoid redundant text and must strive for the most specific descrip-tions possible. This paper presents an algorithm for lexical selection that takes advantage of a conceptual network in which we represent the relationships between concepts (such as which concepts subsume each other and what differentiates concepts at different levels of generality). When the algorithm chooses a lexical realization for a concept, it first checks to see if the concept to be expressed is associated with a lexical entry. If so, that entry is used. If the concept does not have the appropriate lexical associations, the algorithm generates a phrase with a more general head term and restrictive modifiers. It does this by using the conceptual network to compute a semantically appropriate head term, and then modifying the request for generation by adding restrictions that differentiate the concept associated with the head term from the concept initially requested. Similarly, the conceptual network is used to eliminate redundant modifiers by computing the information contained in a lexi-cal item that is chosen as a head term. Here the algorithm modifies the generation request to avoid restating the extra information. This algorithm is being implemented within Penman, a computerized system for the generation of English text from statements in a first-order predicate calculus language.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>concepts</kwd>
+            <kwd>English</kwd>
+            <kwd>first-order logic</kwd>
+            <kwd>knowledge representation</kwd>
+            <kwd>lexical selection</kwd>
+            <kwd>meaning postulates</kwd>
+            <kwd>natural-language generation</kwd>
+            <kwd>nouns</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1067251e221a1310">
+               <label>1</label>
+               
+               <p>
+               <mixed-citation id="d1067251e228" publication-type="other">
+Defense Advanced Research Projects Agency under Contract No. MDA903-8 1-
+C-0535</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1067251e237" publication-type="other">
+Air Force Office of Scientific Research under Contract No. F49609620-87-C-0005.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1067251e244a1310">
+               <label>4</label>
+               
+               <p>
+               <mixed-citation id="d1067251e251" publication-type="other">
+Hovy, 1987.</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d1067251e267a1310">
+               
+               <mixed-citation id="d1067251e271" publication-type="other">
+Appelt, Douglas E. 1985. Planning English Sentences. Cambridge: Cambridge
+University Press.</mixed-citation>
+            </ref>
+            <ref id="d1067251e281a1310">
+               
+               <mixed-citation id="d1067251e285" publication-type="other">
+Brachman, R J., and J.G. Schmolze. 1985. An Overview of the KL-ONE Knowledge
+Representation System. Cognitive Science. 171-216.</mixed-citation>
+            </ref>
+            <ref id="d1067251e295a1310">
+               
+               <mixed-citation id="d1067251e299" publication-type="other">
+Carnap, Rudolph. 1956. Meaning and Necessity: A Study in Semantics and Modal
+Logic. Chicago: University of Chicago Press.</mixed-citation>
+            </ref>
+            <ref id="d1067251e309a1310">
+               
+               <mixed-citation id="d1067251e313" publication-type="other">
+Cumming, Susanna. 1986. Design of a Master Lexicon. University of Southern
+California, Information Sciences Institute, Technical Report ISI/RR-85-163.</mixed-citation>
+            </ref>
+            <ref id="d1067251e324a1310">
+               
+               <mixed-citation id="d1067251e328" publication-type="other">
+Danlos, Laurence. 1985. Generation Automatique de Textes en Langues Na-
+turelles. Paris: Masson.</mixed-citation>
+            </ref>
+            <ref id="d1067251e338a1310">
+               
+               <mixed-citation id="d1067251e342" publication-type="other">
+Davidson, D. 1967. The Logical Form of Action Sentences. In: N. Rescher (Ed.), The
+Logic of Decision and Action. Pittsburgh: University of Pittsburgh Press, 81-95.</mixed-citation>
+            </ref>
+            <ref id="d1067251e352a1310">
+               
+               <mixed-citation id="d1067251e356" publication-type="other">
+Goldman, N.M. 1975. Conceptual Generation. In: R. C. Schank (Ed.), Conceptual
+Information Processing. Amsterdam: North-Holland.</mixed-citation>
+            </ref>
+            <ref id="d1067251e366a1310">
+               
+               <mixed-citation id="d1067251e370" publication-type="other">
+Halliday, M.A.K. 1985. An Introduction to Functional Grammar. London: Edward
+Arnold.</mixed-citation>
+            </ref>
+            <ref id="d1067251e380a1310">
+               
+               <mixed-citation id="d1067251e384" publication-type="other">
+Halliday, M.A.K. 1976. System and Function in Language. London: Oxford
+University Press.</mixed-citation>
+            </ref>
+            <ref id="d1067251e394a1310">
+               
+               <mixed-citation id="d1067251e398" publication-type="other">
+Hendrix, G. 1975. Expanding the Utility of Semantic Networks through Pardoning. In:
+Advanced Papers of the Fourth International Joint Conference on Artificial Intelligence.
+Tbilisi, 115-121.</mixed-citation>
+            </ref>
+            <ref id="d1067251e412a1310">
+               
+               <mixed-citation id="d1067251e416" publication-type="other">
+Hoeppner, Wolfgang, Thomas Christaller, Heinz Marburger, Katharina Morik, Bern-
+hard Nebel, Mike O'Leary and Wolfgang Wahlster. 1983. Beyond Domain-Independence:
+Experience With the Development of a German Natural Language Access System to
+Highly Diverse Background Systems. Proceedings of IJCAI-83, Karlsruhe, 588-594.</mixed-citation>
+            </ref>
+            <ref id="d1067251e432a1310">
+               
+               <mixed-citation id="d1067251e436" publication-type="other">
+Hovy, E. 1987. Generating Natural Language under Pragmatic Constraints. Journal
+of Pragmatics 11: 689-719.</mixed-citation>
+            </ref>
+            <ref id="d1067251e446a1310">
+               
+               <mixed-citation id="d1067251e450" publication-type="other">
+Jacobs, Paul S. 1985a. PHRED: A Generator for Natural Language Interfaces. Compu-
+tational Linguistics 11: 219-242.</mixed-citation>
+            </ref>
+            <ref id="d1067251e460a1310">
+               
+               <mixed-citation id="d1067251e464" publication-type="other">
+Jacobs, Paul. 1985b. A Knowledge-Based Approach to Language Production, Ph.D.
+thesis. University of California, Berkeley.</mixed-citation>
+            </ref>
+            <ref id="d1067251e474a1310">
+               
+               <mixed-citation id="d1067251e478" publication-type="other">
+Kaczmarek, T., W. Mark and N. Sondheimer. 1983. The Consul/CUE Interface: An
+Integrated Interactive Environment. In Proceedings of CHI '83, Human Factors in
+Computing Systems. ACM. 98-102.</mixed-citation>
+            </ref>
+            <ref id="d1067251e491a1310">
+               
+               <mixed-citation id="d1067251e495" publication-type="other">
+Kaczmarek, T., R. Bates and G. Robins. 1986. Recent Developments in NIKL. Pro-
+ceedings of AAAI-86, Philadelphia, 978-985.</mixed-citation>
+            </ref>
+            <ref id="d1067251e506a1310">
+               
+               <mixed-citation id="d1067251e510" publication-type="other">
+Kukich, Karen. 1983. Knowledge-Based Report Generation, Ph.D. thesis. University
+of Pittsburgh, Interdisciplinary Department of Information Science.</mixed-citation>
+            </ref>
+            <ref id="d1067251e520a1310">
+               
+               <mixed-citation id="d1067251e524" publication-type="other">
+Mann, W. C. 1983a. An Overview of the Penman Text Generation System. In Pro-
+ceedings of the National Conference on Artificial Intelligence, 261-265.</mixed-citation>
+            </ref>
+            <ref id="d1067251e534a1310">
+               
+               <mixed-citation id="d1067251e538" publication-type="other">
+Mann, W. C. 1983b. Inquiry Semantics: A Functional Semantics of Natural Language
+Grammar. In Proceedings of the ACL, European Chapter.</mixed-citation>
+            </ref>
+            <ref id="d1067251e548a1310">
+               
+               <mixed-citation id="d1067251e552" publication-type="other">
+Mann, William C., and Christian M.I.M. Matthiessen. 1983. Nigel: A Systemic
+Grammar for Text Generation. Information Sciences Institute, University of Southern
+California, Technical Report ISI/RR-83-105.</mixed-citation>
+            </ref>
+            <ref id="d1067251e565a1310">
+               
+               <mixed-citation id="d1067251e569" publication-type="other">
+McAllester, D.A. 1982. Reasoning Utility Package User's Manual. MIT, Technical
+Report.</mixed-citation>
+            </ref>
+            <ref id="d1067251e579a1310">
+               
+               <mixed-citation id="d1067251e583" publication-type="other">
+McDonald, David D. 1981. Language Production: The Source of the Dictionary. In
+Proceedings of ACL-81, Stanford, 57-62.</mixed-citation>
+            </ref>
+            <ref id="d1067251e594a1310">
+               
+               <mixed-citation id="d1067251e598" publication-type="other">
+McDonald, David D. 1985. Description-Directed Natural Language Generation. In
+Proceedings of IJCAI-85, Los Angeles, 799-805.</mixed-citation>
+            </ref>
+            <ref id="d1067251e608a1310">
+               
+               <mixed-citation id="d1067251e612" publication-type="other">
+McKeown, Kathleen R. 1985. Text Generation: Using Discourse Strategies and
+Focus Constraints to Generate Natural Language Text. Cambridge: Cambridge
+University Press.</mixed-citation>
+            </ref>
+            <ref id="d1067251e625a1310">
+               
+               <mixed-citation id="d1067251e629" publication-type="other">
+Montague, R. 1974. Formal Philosophy. New Haven: Yale University Press.</mixed-citation>
+            </ref>
+            <ref id="d1067251e636a1310">
+               
+               <mixed-citation id="d1067251e640" publication-type="other">
+Shapiro, S. C. 1979. Generalized Augmented Transition Network Grammars for Gen-
+eration from Semantic Networks. In Proceedings of ACL-79, 25-29.</mixed-citation>
+            </ref>
+            <ref id="d1067251e650a1310">
+               
+               <mixed-citation id="d1067251e654" publication-type="other">
+Sondheimer, Norman, and Bernhard Nebel. 1986. A Logical-Form and Knowledge-
+Base Design for Natural Language Generation. In Proceedings of AAAI-86, Philadel-
+phia, 612-618.</mixed-citation>
+            </ref>
+            <ref id="d1067251e667a1310">
+               
+               <mixed-citation id="d1067251e671" publication-type="other">
+Vilain, M. 1985. The Restricted Language Architecture of a Hybrid Representation
+System. In Proceedings of IJCAI-85, Los Angeles, 547-551.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

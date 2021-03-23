@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">74</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">249</issue>
+         <issue-id>i379545</issue-id>
+         <article-id pub-id-type="jstor">4100245</article-id>
+         
+         <title-group>
+            <article-title>Improved Methods and Starting Values to Solve the Matrix Equations <tex-math>$X \pm A^{*} X^{-1} A = I$</tex-math> Iteratively</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>Ivan G. Ivanov</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Vejdi I. Hasanov</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Frank</given-names>
+                  <surname>Uhlig</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>263</fpage>
+         <lpage>278</lpage>
+         <page-range>263-278</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2005 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100245"/>
+         
+         
+         <abstract>
+            <p>The two matrix iterations <tex-math>$X_{k+1} = I \mp A^{*} X_{k}^{-1} A$</tex-math> are known to converge linearly to a positive definite solution of the matrix equations <tex-math>$X \pm A^{*} X^{-1} A = I$</tex-math>, respectively, for known choices of X<sub>0</sub> and under certain restrictions on A. The convergence for previously suggested starting matrices X<sub>0</sub> is generally very slow. This paper explores different initial choices of X<sub>0</sub> in both iterations that depend on the extreme singular values of A and lead to much more rapid convergence. Further, the paper offers a new algorithm for solving the minus sign equation and explores mixed algorithms that use Newton's method in part.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65F10</kwd>
+            <kwd>Matrix Equation</kwd>
+            <kwd>Positive Definite Solution</kwd>
+            <kwd>Iterative Method</kwd>
+            <kwd>Newton's Method</kwd>
+            <kwd>S 0025-5718(04)01636-9</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1467992e200a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1467992e207" publication-type="journal">
+W. N. Anderson, T. D. Morley and G. E. Trapp, Positive Solution to &lt;latex&gt;$X = A - BX^{-1}B^\ast$&lt;/latex&gt;,
+Linear Algebra Appl., 134 (1990), 53-62. MR 91c:47031<person-group>
+                     <string-name>
+                     <surname>Anderson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>134</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e239a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1467992e246" publication-type="journal">
+B. L. Buzbee, G. H. Golub and C. W. Nielson, On Direct Methods for Solving Poisson's
+Equations, SIAM J. Numer. Anal., 7 (1970), 627-656. MR 44:4920<object-id pub-id-type="jstor">10.2307/2949380</object-id>
+               <fpage>627</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e262a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1467992e269" publication-type="book">
+S. M. El-Sayed, Theorems for the Existence and Computing of Positive Definite Solutions for
+Two Nonlinear Matrix Equation, Proc. of &lt;latex&gt;$25^{th}$&lt;/latex&gt; Spring Conference of the Union of Bulgarian
+Mathematicians, Kazanlak, 1996, pp. 155-161, (in Bulgarian).<person-group>
+                     <string-name>
+                     <surname>El-Sayed</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Theorems for the Existence and Computing of Positive Definite Solutions for Two Nonlinear Matrix Equation</comment>
+               <fpage>155</fpage>
+               <source>Proc. of &lt;latex&gt;$25^{th}$&lt;/latex&gt; Spring Conference of the Union of Bulgarian Mathematicians, Kazanlak, 1996</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e304a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1467992e311" publication-type="journal">
+S. M. El-Sayed and A. C. M. Ran, On an Iteration Method for Solving a Class of Nonlinear
+Matrix Equations, SIAM J. Matrix Anal. Appl., 23 (2001), 632-645. MR 2002m:15023<person-group>
+                     <string-name>
+                     <surname>El-Sayed</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>632</fpage>
+               <volume>23</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e344a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1467992e351" publication-type="journal">
+J. C. Engwerda, A. C. M. Ran and A. L. Rijkeboer, Necessary and Sufficient Conditions for
+the Existence of a Positive Definite Solution of the Matrix Equation &lt;latex&gt;$X + A^\ast X^{-1}A = Q$&lt;/latex&gt;,
+Linear Algebra Appl., 186 (1993), 255-275. MR 94j:15012<person-group>
+                     <string-name>
+                     <surname>Engwerda</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>186</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e386a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1467992e393" publication-type="journal">
+J. C. Engwerda, On the Existence of a Positive Definite Solution of the Matrix Equation
+&lt;latex&gt;$X + A^TX^{-1}A = I$&lt;/latex&gt;, Linear Algebra Appl., 194 (1993), 91-108. MR 94j:15013<person-group>
+                     <string-name>
+                     <surname>Engwerda</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>194</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e425a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1467992e432" publication-type="journal">
+A. Ferrante and B. Levy, Hermitian Solutions of the Equation &lt;latex&gt;$X = Q + NX^{-1}N^\ast$&lt;/latex&gt;, Linear
+Algebra Appl., 247 (1996) 359-373. MR 97m:93071<person-group>
+                     <string-name>
+                     <surname>Ferrante</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>359</fpage>
+               <volume>247</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e464a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1467992e471" publication-type="book">
+C. H. Golub and C. F. Van Loan, Matrix Computations, Second Edition, John Hopkins
+University Press, Baltimore, 1989. MR 90d:65055<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Matrix Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e500a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1467992e507" publication-type="journal">
+C.-H. Guo and P. Lancaster, Iterative Solution of Two Matrix Equations, Math. Comp., 68
+(1999), 1589-1603. MR 99m:65061<object-id pub-id-type="jstor">10.2307/2584925</object-id>
+               <fpage>1589</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e523a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1467992e530" publication-type="book">
+A. S. Householder, The Theory of Matrices in Numerical Analysis, Blaisdell, New York, 1964.
+MR 30:5475<person-group>
+                     <string-name>
+                     <surname>Householder</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Theory of Matrices in Numerical Analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e556a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1467992e563" publication-type="journal">
+I. G. Ivanov and S. M. El-Sayed, Properties of Positive Definite Solutions of the Equation
+&lt;latex&gt;$X + A^\astX^{-2}A = I$&lt;/latex&gt;, Linear Algebra Appl., 279 (1998), 303-316. MR 99c:15019<person-group>
+                     <string-name>
+                     <surname>Ivanov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>303</fpage>
+               <volume>279</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e595a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1467992e602" publication-type="book">
+J. M. Ortega and W. C. Rheinboldt, Iterative Solution of Nonlinear Equations in Several
+Variables, Academic Press, New York, 1970 (in Russian 1975). MR 42:8686<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e627a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1467992e634" publication-type="journal">
+O. Taussky, Matrices C with &lt;latex&gt;$C^n \longrightarrow 0$&lt;/latex&gt;, J. Algebra, 1 (1965), 5-10. MR 28:5069<person-group>
+                     <string-name>
+                     <surname>Taussky</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>5</fpage>
+               <volume>1</volume>
+               <source>J. Algebra</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e663a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1467992e670" publication-type="book">
+J. H. Wilkinson, The Algebraic Eigenvalue Problem, Oxford University Press, London, 1965.
+MR 32:1894<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Algebraic Eigenvalue Problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467992e695a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1467992e702" publication-type="journal">
+X. Zhan, Computing the Extremal Positive Definite Solutions of a Matrix Equation, SIAM J.
+Sci. Computing, 17 (1996), 1167-1174. MR 97g:65074<person-group>
+                     <string-name>
+                     <surname>Zhan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1167</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Sci. Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

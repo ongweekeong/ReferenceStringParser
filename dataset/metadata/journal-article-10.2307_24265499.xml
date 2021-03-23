@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">computermusicj</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100532</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Computer Music Journal</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>MIT Press</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">01489267</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15315169</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">39</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i24265490</issue-id>
+         <article-id pub-id-type="doi">10.2307/24265499</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Music Information Retrieval</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Bayesian Audio-to-Score Alignment Based on Joint Inference of Timbre, Volume, Tempo, and Note Onset Timings</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Akira</given-names>
+                  <surname>Maezawa</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hiroshi G.</given-names>
+                  <surname>Okuno</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>74</fpage>
+         <lpage>87</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>©2015 Massachusetts Institute of Technology</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24265499"/>
+      
+      
+         <abstract>
+            <p>This article presents an offline method for aligning an audio signal to individual instrumental parts constituting a musical score. The proposed method is based on fitting multiple hidden semi-Markov models (HSMMs) to the observed audio signal. The emission probability of each state of the HSMM is described using latent harmonic allocation (LHA), a Bayesian model of a harmonic sound mixture. Each HSMM corresponds to one musical instrument's part, and the state duration probability is conditioned on a linear dynamics system (LDS) tempo model. Variational Bayesian inference is used to jointly infer LHA, HSMM, and the LDS. We evaluate the capability of the method to align musical audio to its score, under reverberation, structural variations, and fluctuations in onset timing among different parts.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d826e199a1310">
+          
+            <mixed-citation id="d826e203" publication-type="other">
+Arzt, A., G. Widmer, and S. Dixon. 2008. "Automatic
+Page Turning for Musicians via Real-Time Machine
+Listening." In Proceedings of the European Conference
+on Artificial Intelligence, pp. 241-245.</mixed-citation>
+        </ref>
+        <ref id="d826e219a1310">
+          
+            <mixed-citation id="d826e223" publication-type="other">
+Bryan, N. J., and G. J. Mysore. 2013. "An Efficient Posterior
+Regularized Latent Variable Model for Interactive
+Source Separation." In Proceedings of the International
+Conference on Machine Learning, pp. 208-216.</mixed-citation>
+        </ref>
+        <ref id="d826e239a1310">
+          
+            <mixed-citation id="d826e243" publication-type="other">
+Cho, T., R. J. Weiss, and J. P. Bello. 2010. "Exploring
+Common Variations in State of the Art Chord Recogni-
+tion Systems." In Proceedings of the Sound and Music
+Computing Conference, pp. 1-8.</mixed-citation>
+        </ref>
+        <ref id="d826e259a1310">
+          
+            <mixed-citation id="d826e263" publication-type="other">
+Cont, A. 2010. "A Coupled Duration-Focused Archi-
+tecture for Real-Time Music-to-Score Alignment."
+IEEE Transactions on Pattern Analysis and Machine
+Intelligence 32(6):974-987.</mixed-citation>
+        </ref>
+        <ref id="d826e280a1310">
+          
+            <mixed-citation id="d826e284" publication-type="other">
+Devaney, J., and D. P. W. Ellis. 2009. "Handling Asyn-
+chrony in Audio-Score Alignment." In Proceedings
+of the International Computer Music Conference,
+pp. 29-32.</mixed-citation>
+        </ref>
+        <ref id="d826e300a1310">
+          
+            <mixed-citation id="d826e304" publication-type="other">
+Duan, Z., and B. Pardo. 2011a. "Soundprism: An Online
+System for Score-Informed Source Separation of Music
+Audio." IEEE Journal of Selected Topics in Signal
+Processing 5(6):1205—1215.</mixed-citation>
+        </ref>
+        <ref id="d826e320a1310">
+          
+            <mixed-citation id="d826e324" publication-type="other">
+Duan, Z., and B. Pardo. 201 lb. "A State Space Model for
+Online Polyphonic Audio-Score Alignment." In Pro-
+ceedings of the International Conference on Acoustics,
+Speech, and Signal Processing, pp. 197-200.</mixed-citation>
+        </ref>
+        <ref id="d826e340a1310">
+          
+            <mixed-citation id="d826e344" publication-type="other">
+Ewert, S., and M. Muller. 2011. "Score-Informed Voice
+Separation for Piano Recordings." In Proceedings of
+the International Conference on Music Information
+Retrieval, pp. 245-250.</mixed-citation>
+        </ref>
+        <ref id="d826e360a1310">
+          
+            <mixed-citation id="d826e364" publication-type="other">
+Ewert, S., and M. Muller. 2012. "Using Score-Informed
+Constraints for NMF-Based Source Separation." In Pro-
+ceedings of the International Conference on Acoustics,
+Speech, and Signal Processing, pp. 129-132.</mixed-citation>
+        </ref>
+        <ref id="d826e380a1310">
+          
+            <mixed-citation id="d826e384" publication-type="other">
+Ewert, S., M. Muller, and P. Grosche. 2009. "High Res-
+olution Audio Synchronization Using Chroma Onset
+Features." In Proceedings of the International Con-
+ference on Acoustics, Speech, and Signal Processing,
+pp. 1869-1872.</mixed-citation>
+        </ref>
+        <ref id="d826e404a1310">
+          
+            <mixed-citation id="d826e408" publication-type="other">
+Fremerey, C., et al. 2007. "A Demonstration of the
+SyncPlayer System." In Proceedings of the International
+Conference on Music Information Retrieval, pp. 131—
+132.</mixed-citation>
+        </ref>
+        <ref id="d826e424a1310">
+          
+            <mixed-citation id="d826e428" publication-type="other">
+Fremerey, C., et al. 2009. "Sheet Music-Audio Identi-
+fication." In Proceedings of the International Con-
+ference on Music Information Retrieval, pp. 645-
+650.</mixed-citation>
+        </ref>
+        <ref id="d826e444a1310">
+          
+            <mixed-citation id="d826e448" publication-type="other">
+Fujishima, T. 1999. "Realtime Chord Recognition of
+Musical Sound: A System Using Common Lisp Music."
+In Proceedings of the International Computer Music
+Conference, pp. 464-467.</mixed-citation>
+        </ref>
+        <ref id="d826e464a1310">
+          
+            <mixed-citation id="d826e468" publication-type="other">
+Goto, M. 2004. "Development of the RWC Music
+Database." In Proceedings of the International Congress
+on Acoustics, vol. I, pp. 553-556.</mixed-citation>
+        </ref>
+        <ref id="d826e481a1310">
+          
+            <mixed-citation id="d826e485" publication-type="other">
+Han, Y., and C. Raphael. 2007. "Desoloing Monaural
+Audio using Mixture Models." In Proceedings of
+the International Conference on Music Information
+Retrieval, pp. 145-148.</mixed-citation>
+        </ref>
+        <ref id="d826e501a1310">
+          
+            <mixed-citation id="d826e505" publication-type="other">
+Hu, N., R. B. Dannenberg, and G. Tzanetakis. 2003.
+"Polyphonic Audio Matching and Alignment for
+Music Retrieval." In Proceedings of the Workshop
+on Applications of Signal Processing to Audio and
+Acoustics, pp. 185-188.</mixed-citation>
+        </ref>
+        <ref id="d826e525a1310">
+          
+            <mixed-citation id="d826e529" publication-type="other">
+Itoyama, K., et al. 2007. "Integration and Adaptation
+of Harmonic and Inharmonic Models for Separating
+Polyphonic Musical Signals." In Proceedings of the
+International Conference on Acoustics, Speech, and
+Signal Processing, vol. 1, pp. 57-60.</mixed-citation>
+        </ref>
+        <ref id="d826e548a1310">
+          
+            <mixed-citation id="d826e552" publication-type="other">
+Joder, C., et al. 2010. "An Improved Hierarchical Ap-
+proach for Music-to-Symbolic Score Alignment." In
+Proceedings of the International Conference on Music
+Information Retrieval, pp. 39-44.</mixed-citation>
+        </ref>
+        <ref id="d826e568a1310">
+          
+            <mixed-citation id="d826e572" publication-type="other">
+Macrae, R., and S. Dixon. 2010. "Accurate Real-Time
+Windowed Time Warping." In Proceedings of the Inter-
+national Conference on Music Information Retrieval,
+pp. 423-428.</mixed-citation>
+        </ref>
+        <ref id="d826e588a1310">
+          
+            <mixed-citation id="d826e592" publication-type="other">
+Maezawa, A., M. Goto, and H. G. Okuno. 2010. "Query-
+by-Conducting: An Interface to Retrieve Classical-
+Music Interpretations by Real-Time Tempo Input." In
+Proceedings of the International Conference on Music
+Information Retrieval, pp. 477-482.</mixed-citation>
+        </ref>
+        <ref id="d826e611a1310">
+          
+            <mixed-citation id="d826e615" publication-type="other">
+Maezawa, A., et al. 2011. "Polyphonic Audio-to-Score
+Alignment Based on Bayesian Latent Harmonic Allo-
+cation Hidden Markov Model." In Proceedings of the
+International Conference on Acoustics, Speech, and
+Signal Processing, pp. 185-188.</mixed-citation>
+        </ref>
+        <ref id="d826e634a1310">
+          
+            <mixed-citation id="d826e638" publication-type="other">
+Maezawa, A., et al. 2014. "Nonparametric Bayesian
+Dereverberation of Power Spectrograms Based on
+Infinite-Order Autoregressive Processes." IEEE/ACM
+Transactions on Audio, Speech, and Language Process-
+ing 22(12):1918-1930.</mixed-citation>
+        </ref>
+        <ref id="d826e658a1310">
+          
+            <mixed-citation id="d826e662" publication-type="other">
+Merimaa, J., T. Peltonen, andT. Lokki. 2005. "Concert Hall
+Impulse Responses, Pori, Finland: Reference." Avail-
+able online at www.acoustics.hut.fi/projects/poririrs.
+Accessed 27 January 2013.</mixed-citation>
+        </ref>
+        <ref id="d826e678a1310">
+          
+            <mixed-citation id="d826e682" publication-type="other">
+Molina-Solana, M.( and G. Widmer. 2010. "Evidence for
+Pianist-Specific Rubato style in Chopin Nocturnes." In
+Proceedings of the International Conference on Music
+Information Retrieval, pp. 225-230.</mixed-citation>
+        </ref>
+        <ref id="d826e698a1310">
+          
+            <mixed-citation id="d826e702" publication-type="other">
+Montecchio, N., and A. Cont. 2011. "A Unified Approach
+to Real Time Audio-to-Score And Audio-to-Audio
+Alignment Using Sequential Montecarlo Inference
+Techniques." In Proceedings of the International Con-
+ference on Acoustics, Speech, and Signal Processing,
+pp. 193-196.</mixed-citation>
+        </ref>
+        <ref id="d826e725a1310">
+          
+            <mixed-citation id="d826e729" publication-type="other">
+Miiller, M., and S. Ewert. 2008. "Joint Structure Analysis
+With Applications to Music Annotation and Syn-
+chronization." In Proceedings of the International
+Conference on Music Information Retrieval, pp. 389-
+394.</mixed-citation>
+        </ref>
+        <ref id="d826e748a1310">
+          
+            <mixed-citation id="d826e752" publication-type="other">
+Miiller, M., and S. Ewert. 2010. "Towards Timbre-
+Invariant Audio Features for Harmony-Based Music."
+IEEE Transactions on Audio, Speech, and Language
+Processing 18(3):649—662.</mixed-citation>
+        </ref>
+        <ref id="d826e768a1310">
+          
+            <mixed-citation id="d826e772" publication-type="other">
+Miiller, M., and F. Kurth. 2006. "Enhancing Similarity
+Matrices for Music Audio Analysis." In Proceedings
+of the International Conference on Acoustics, Speech,
+and Signal Processing, pp. 9-12.</mixed-citation>
+        </ref>
+        <ref id="d826e789a1310">
+          
+            <mixed-citation id="d826e793" publication-type="other">
+Niedermayer, B.; and G. Widmer. 2010. "A Multi-
+pass Algorithm for Accurate Audio-to-Score
+Alignment." In Proceedings of the International
+Conference on Music Information Retrieval, pp. 417-
+422.</mixed-citation>
+        </ref>
+        <ref id="d826e812a1310">
+          
+            <mixed-citation id="d826e816" publication-type="other">
+Orio, N., S. Lemouton, and D. Schwartz. 2003. "Score
+Following: State of the Art and New Developments."
+In Proceedings of the of the International Conference
+on New Interfaces for Music Expression, pp. 36-41.</mixed-citation>
+        </ref>
+        <ref id="d826e832a1310">
+          
+            <mixed-citation id="d826e836" publication-type="other">
+Otsuka, T.( et al. 2011. "Real-Time Audio-to-Score
+Alignment Using Particle Filter for Coplayer Mu-
+sic Robots." EURASIP Journal on Advances in
+Signal Processing 2011(1): 13. Available online at
+asp.eurasipjournals.com/content/2011/1/384651. Ac-
+cessed July 2014.</mixed-citation>
+        </ref>
+        <ref id="d826e859a1310">
+          
+            <mixed-citation id="d826e863" publication-type="other">
+Peeling, P., A. Cemgil, and S. Godsill. 2007. "A Probabilis-
+tic Framework for Matching Music Representations."
+In Proceedings of the International Conference on
+Music Information Retrieval, pp. 267-272.</mixed-citation>
+        </ref>
+        <ref id="d826e879a1310">
+          
+            <mixed-citation id="d826e883" publication-type="other">
+Raphael, C. 2004. "A Hybrid Graphical Model for Aligning
+Polyphonic Audio with Musical Scores." In Proceedings
+of the International Conference on Music Information
+Retrieval, pp. 387-394.</mixed-citation>
+        </ref>
+        <ref id="d826e899a1310">
+          
+            <mixed-citation id="d826e903" publication-type="other">
+Sapp, C. S. 2007. "Comparative Analysis of Multiple
+Musical Performances." In Proceedings of the Inter-
+national Conference on Music Information Retrieval,
+pp. 2-5.</mixed-citation>
+        </ref>
+        <ref id="d826e920a1310">
+          
+            <mixed-citation id="d826e924" publication-type="other">
+Walsh, E. A. 2013. "Freepats Project." Available online at
+freepats.zenvoid.org. Accessed 1 August 2013.</mixed-citation>
+        </ref>
+        <ref id="d826e934a1310">
+          
+            <mixed-citation id="d826e938" publication-type="other">
+Yoshii, K., and M. Goto. 2012. "A Nonparametric Bayesian
+Multipitch Analyzer Based on Infinite Latent Harmonic
+Allocation." IEEE Transactions on Audio, Speech, and
+Language Processing 20(3):717-730.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">74</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">249</issue>
+         <issue-id>i379545</issue-id>
+         <article-id pub-id-type="jstor">4100241</article-id>
+         
+         <title-group>
+            <article-title>Absorbing Boundary Conditions for the Wave Equation and Parallel Computing</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Martin J.</given-names>
+                  <surname>Gander</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Laurence</given-names>
+                  <surname>Halpern</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>153</fpage>
+         <lpage>176</lpage>
+         <page-range>153-176</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2005 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100241"/>
+         
+         
+         <abstract>
+            <p>Absorbing boundary conditions have been developed for various types of problems to truncate infinite domains in order to perform computations. But absorbing boundary conditions have a second, recent and important application: parallel computing. We show that absorbing boundary conditions are essential for a good performance of the Schwarz waveform relaxation algorithm applied to the wave equation. In turn this application gives the idea of introducing a layer close to the truncation boundary which leads to a new way of optimizing absorbing boundary conditions for truncating domains. We optimize the conditions in the case of straight boundaries and illustrate our analysis with numerical experiments both for truncating domains and the Schwarz waveform relaxation algorithm.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65M55</kwd>
+            <kwd>Primary 35L20</kwd>
+            <kwd>S 0025-5718(04)01635-7</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1467618e424a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1467618e431" publication-type="journal">
+Alain Bamberger, Roland Glowinski, and Quang H. Tran, A domain decomposition method
+for the acoustic wave equation with discontinuous coefficients and grid change, SIAM Journal
+on Numerical Analysis 34 (1997), no. 2, 603-639. MR 98c:65161<object-id pub-id-type="jstor">10.2307/2951997</object-id>
+               <fpage>603</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e450a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1467618e457" publication-type="journal">
+A. Bayliss and E. Turkel, Radiation boundary conditions for wave-like equations, Comm. Pure
+and Appl. Math. 33 (1980), no. 6, 707-725. MR 82b:65091<person-group>
+                     <string-name>
+                     <surname>Bayliss</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>707</fpage>
+               <volume>33</volume>
+               <source>Comm. Pure and Appl. Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e492a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1467618e499" publication-type="journal">
+J. D. Benamou and B. Despr&amp;#x00E9;s, A domain decomposition method for the Helmholtz equation
+and related optimal control problems, J. of Comp. Physics 136 (1997), 68-82. MR 98c:65162<person-group>
+                     <string-name>
+                     <surname>Benamou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>68</fpage>
+               <volume>136</volume>
+               <source>J. of Comp. Physics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e531a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1467618e538" publication-type="other">
+Morten Bj&amp;#x00F8;rhus, On domain decomposition, subdomain iteration and waveform relaxation,
+Ph.D. thesis, University of Trondheim, Norway, 1995.</mixed-citation>
+            </ref>
+            <ref id="d1467618e549a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1467618e556" publication-type="journal">
+Xiao-Chuan Cai, Additive Schwarz algorithms for parabolic convection-diffusion equations,
+Numer. Math. 60 (1991), no. 1, 41-61. MR 93a:65127<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>41</fpage>
+               <volume>60</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e591a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1467618e598" publication-type="journal">
+---, Multiplicative Schwarz methods for parabolic problems, SIAM J. Sci Comput. 15
+(1994), no. 3, 587-603. MR 95c:65178<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>587</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e633a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1467618e640" publication-type="book">
+Xiao-Chuan Cai, Mario A. Casarin, Frank W. Elliott Jr., and Olof B. Widlund, Overlapping
+Schwarz algorithms for solving Helmholtz's equation, Domain decomposition methods, 10
+(Boulder, CO, 1997), Amer. Math. Soc., Providence, RI, 1998, pp. 391-399.<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping Schwarz algorithms for solving Helmholtz's equation</comment>
+               <fpage>391</fpage>
+               <volume>10</volume>
+               <source>Domain decomposition methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e678a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1467618e685" publication-type="journal">
+Philippe Charton, Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, and Francois Rogier, M&amp;#x00E9;thode de d&amp;#x00E9;composition de domaine
+pour l'&amp;#x00E9;quation d'advection-diffusion, C. R. Acad. Sci. 313 (1991), no. 9, 623-626. MR
+92j:65192<person-group>
+                     <string-name>
+                     <surname>Charton</surname>
+                  </string-name>
+                  </person-group>
+               <issue>9</issue>
+               <fpage>623</fpage>
+               <volume>313</volume>
+               <source>C. R. Acad. Sci.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e723a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1467618e730" publication-type="book">
+Philippe Chevalier and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Symmetrized method with optimized second-order con-
+ditions for the Helmholtz equation, Domain decomposition methods, 10 (Boulder, CO, 1997),
+Amer. Math. Soc., Providence, RI, 1998, pp. 400-407.<person-group>
+                     <string-name>
+                     <surname>Chevalier</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Symmetrized method with optimized second-order conditions for the Helmholtz equation</comment>
+               <fpage>400</fpage>
+               <volume>10</volume>
+               <source>Domain decomposition methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e768a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1467618e775" publication-type="journal">
+P. Collino, G. Delbue, P. Joly, and A. Piacentini, A new interface condition in the nonoverlap-
+ping domain decomposition for the Maxwell equations Helmholtz equation and related optimal
+control, Comput. Methods Appl. Mech. Engrg. 148 (1997), 195-207. MR 98f:78001<person-group>
+                     <string-name>
+                     <surname>Collino</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>195</fpage>
+               <volume>148</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e811a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1467618e818" publication-type="book">
+Armel de La Bourdonnaye, Charbel Farhat, Antonini Macedo, Fr&amp;#x00E9;d&amp;#x00E9;ric Magoul&amp;#x00E8;s, and
+Fran&amp;#x00E7;ois-Xavier Roux, A nonoverlapping domain decomposition method for exterior
+Helmholtz problems, Domain decomposition methods, 10 (Boulder, CO, 1997) (Providence,
+RI), Amer. Math. Soc., 1998, pp. 42-66. MR 99f:65190<person-group>
+                     <string-name>
+                     <surname>de La Bourdonnaye</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A nonoverlapping domain decomposition method for exterior Helmholtz problems</comment>
+               <fpage>42</fpage>
+               <volume>10</volume>
+               <source>Domain decomposition methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e859a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1467618e866" publication-type="book">
+Bruno Despr&amp;#x00E9;s, Patrick Joly, and Jean E. Roberts, A domain decomposition method for the
+harmonic Maxwell equations, Iterative methods in linear algebra (Brussels, 1991) (Amster-
+dam), North-Holland, 1992, pp. 475-484.<person-group>
+                     <string-name>
+                     <surname>Despr&amp;#x00E9;s</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A domain decomposition method for the harmonic Maxwell equations</comment>
+               <fpage>475</fpage>
+               <source>Iterative methods in linear algebra</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e901a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1467618e908" publication-type="book">
+J. Douglas, Jr. and D. B. Meade, Second-order transmission conditions for the Helmholtz
+equation, Ninth International Conference on Domain Decomposition Methods (P. E. Bj&amp;#x00F8;rstad,
+M. Espedal, and D. Keyes, eds.), ddm.org, 1997, pp. 434-440.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Second-order transmission conditions for the Helmholtz equation</comment>
+               <fpage>434</fpage>
+               <source>Ninth International Conference on Domain Decomposition Methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e943a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1467618e950" publication-type="journal">
+B. Engquist and L. Halpern, Long-time behaviour of absorbing boundary conditions, Math.
+Methods Appl. Sci. 13 (1990), no. 3, 189-203. MR 91m:35045<person-group>
+                     <string-name>
+                     <surname>Engquist</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>189</fpage>
+               <volume>13</volume>
+               <source>Math. Methods Appl. Sci.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e985a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1467618e992" publication-type="journal">
+B. Engquist and A. Majda, Absorbing boundary conditions for the numerical simulation of
+waves, Math. Comp. 31 (1977), no. 139, 629-651. MR 55:9555<object-id pub-id-type="doi">10.2307/2005997</object-id>
+               <fpage>629</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1008a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1467618e1015" publication-type="book">
+Martin J. Gander, Overlapping Schwarz for parabolic problems, Ninth International Confer-
+ence on Domain Decomposition Methods (Petter E. Bj&amp;#x00F8;rstad, Magne Espedal, and David
+Keyes, eds.), ddm.org, 1997, pp. 97-104.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping Schwarz for parabolic problems</comment>
+               <fpage>97</fpage>
+               <source>Ninth International Conference on Domain Decomposition Methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1051a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1467618e1058" publication-type="book">
+---, Overlapping Schwarz waveform relaxation for parabolic problems, Tenth International
+Conference on Domain Decomposition Methods (J. Mandel, C. Farhat, and X.-C. Cai, eds.),
+AMS, Contemporary Mathematics 218, 1998. MR 99f:65005<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping Schwarz waveform relaxation for parabolic problems</comment>
+               <source>Tenth International Conference on Domain Decomposition Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1090a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1467618e1097" publication-type="journal">
+---, A waveform relaxation algorithm with overlapping splitting for reaction diffusion
+equations, Numerical Linear Algebra with Applications 6 (1998), 125-145. MR 2000m:65110<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>125</fpage>
+               <volume>6</volume>
+               <source>Numerical Linear Algebra with Applications</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1129a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1467618e1136" publication-type="book">
+---, Optimized Schwarz methods for Helmholtz problems, Thirteenth international con-
+ference on domain decomposition, 2001, pp. 245-252.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Optimized Schwarz methods for Helmholtz problems</comment>
+               <fpage>245</fpage>
+               <source>Thirteenth international conference on domain decomposition</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1168a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1467618e1175" publication-type="journal">
+Martin J. Gander and Laurence Halpern, M&amp;#x00E9;thodes de d&amp;#x00E9;composition de domaines pour
+l'&amp;#x00E9;quation des ondes en dimension 1, C. R. Acad. Sci. Paris I (2001), no. 333, 589-592.
+MR 2002i:65096<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <issue>333</issue>
+               <fpage>589</fpage>
+               <volume>I</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1213a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1467618e1220" publication-type="journal">
+---, Un algorithme discret de d&amp;#x00E9;composition de domaines pour l'&amp;#x00E9;quation des ondes en
+dimension 1, C. R. Acad. Sci. Paris I (2001), no. 333, 699-702. MR 2002i:65097<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <issue>333</issue>
+               <fpage>699</fpage>
+               <volume>I</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1255a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1467618e1262" publication-type="book">
+Martin J. Gander, Laurence Halpern, and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Optimal convergence for overlap-
+ping and nonoverlapping Schwarz waveform relaxation, Eleventh international Conference of
+Domain Decomposition Methods (C-H. Lai, P. Bj&amp;#x00F8;rstad, M. Cross, and O. Widlund, eds.),
+ddm.org, 1999.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Laurence Halpern, and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Optimal convergence for overlapping and nonoverlapping Schwarz waveform relaxation</comment>
+               <source>Eleventh international Conference of Domain Decomposition Methods</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1298a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1467618e1305" publication-type="book">
+Martin J. Gander, Laurence Halpern, and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Optimized Schwarz methods,
+Twelfth International Conference on Domain Decomposition Methods, Chiba, Japan (Bergen)
+(Tony Chan, Takashi Kako, Hideo Kawarada, and Olivier Pironneau, eds.), Domain Decom-
+position Press, 2001, pp. 15-28.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Laurence Halpern, and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Optimized Schwarz methods</comment>
+               <fpage>15</fpage>
+               <source>Twelfth International Conference on Domain Decomposition Methods, Chiba, Japan</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1343a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1467618e1350" publication-type="journal">
+Martin J. Gander, Fr&amp;#x00E9;d&amp;#x00E9;ric Magoul&amp;#x00E8;s, and Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Optimized Schwarz methods without
+overlap for the Helmholtz equation, SIAM J. Sci. Comput. 24 (2002), no. 1, 38-60.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>38</fpage>
+               <volume>24</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1385a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1467618e1392" publication-type="journal">
+Martin J. Gander and Andrew M. Stuart, Space time continuous analysis of waveform relax-
+ation for the heat equation, SIAM J. 19 (1998), 2014-2031. MR 99h:65164<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2014</fpage>
+               <volume>19</volume>
+               <source>SIAM J.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1424a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1467618e1431" publication-type="book">
+Martin J. Gander and Hongkai Zhao, Overlapping Schwarz waveform relaxation for parabolic
+problems in higher dimension, Proceedings of Algoritmy 14 (A. Handlovi&amp;#x010D;ov&amp;#x00E1;, Magda Ko-
+morn&amp;#x00ED;kova, and Karol Mikula, eds.), Slovak Technical University, September 1997, pp. 42-51.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping Schwarz waveform relaxation for parabolic problems in higher dimension</comment>
+               <fpage>42</fpage>
+               <source>Proceedings of Algoritmy 14</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1466a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1467618e1473" publication-type="journal">
+Eldar Giladi and Herbert Keller, Space time domain decomposition for parabolic problems,
+Numerische Mathematik 93 (2002), no. 2, 279-313.<person-group>
+                     <string-name>
+                     <surname>Giladi</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>279</fpage>
+               <volume>93</volume>
+               <source>Numerische Mathematik</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1508a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1467618e1515" publication-type="journal">
+Laurence Halpern, Absorbing boundary conditions for the discretization schemes of the one-
+dimensional wave equation, Mathematics of Computation 38 (1982), no. 158, 415-429. MR
+83d:65245<object-id pub-id-type="doi">10.2307/2007278</object-id>
+               <fpage>415</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1535a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1467618e1542" publication-type="journal">
+---, Artificial boundary conditions for the advection-diffusion equations, Math. Comp.
+174 (1986), 425-438. MR 87e:76005<object-id pub-id-type="doi">10.2307/2007985</object-id>
+               <fpage>425</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1558a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1467618e1565" publication-type="journal">
+Robert L. Higdon, Initial-boundary value problems for linear hyperbolic systems, SIAM Rev.
+28 (1986), no. 2, 177-217. MR 88a:35138<object-id pub-id-type="jstor">10.2307/2030466</object-id>
+               <fpage>177</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1581a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1467618e1588" publication-type="book">
+Caroline Japhet, Optimized Krylov-Ventcell method. Application to convection-diffusion prob-
+lems, Proceedings of the 9th international conference on domain decomposition methods (Pet-
+ter E. Bj&amp;#x00F8;rstad, Magne S. Espedal, and David E. Keyes, eds.), ddm.org, 1998, pp. 382-389.<person-group>
+                     <string-name>
+                     <surname>Japhet</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Optimized Krylov-Ventcell method. Application to convection-diffusion problems</comment>
+               <fpage>382</fpage>
+               <source>Proceedings of the 9th international conference on domain decomposition methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1623a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1467618e1630" publication-type="journal">
+Caroline Japhet, Frederic Nataf, and Francois Rogier, The optimized order 2 method. Appli-
+cation to convection-diffusion problems, Future Generation Computer Systems FUTURE 18
+(2001).<person-group>
+                     <string-name>
+                     <surname>Japhet</surname>
+                  </string-name>
+                  </person-group>
+               <volume>18</volume>
+               <source>Future Generation Computer Systems FUTURE</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1662a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1467618e1669" publication-type="book">
+Caroline Japhet, Frederic Nataf, and Francois-Xavier Roux, The Optimized Order 2 Method
+with a coarse grid preconditioner. Application to convection-diffusion problems, Ninth Interna-
+tional Conference on Domain Decomposition Methods in Science and Engineering (P. Bjorstad,
+M. Espedal, and D. Keyes, eds.), John Wiley &amp; Sons, 1998, pp. 382-389.<person-group>
+                     <string-name>
+                     <surname>Japhet</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Frederic Nataf, and Francois-Xavier Roux, The Optimized Order 2 Method with a coarse grid preconditioner. Application to convection-diffusion problems</comment>
+               <fpage>382</fpage>
+               <source>Ninth International Conference on Domain Decomposition Methods in Science and Engineering</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1707a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1467618e1714" publication-type="journal">
+Jacques-Louis Lions and Enrico Magenes, Probl&amp;#x00E8;mes aux limites non homog&amp;#x00E8;nes et appli-
+cations, Travaux et recherches math&amp;#x00E9;matiques, vol. 17-18, Dunod, 1968. MR 40:512 MR
+40:513<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <volume>17</volume>
+               <source>Travaux et recherches math&amp;#x00E9;matiques</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1747a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1467618e1754" publication-type="book">
+Lois C. McInnes, Romeo F. Susan-Resigna, David E. Keyes, and Hafiz M. Atassi, Addi-
+tive Schwarz methods with nonreflecting boundary conditions for the parallel computation of
+Helmholtz problems, Domain decomposition methods, 10 (Boulder, CO, 1997), Amer. Math.
+Soc., 1998, pp. 325-333.<person-group>
+                     <string-name>
+                     <surname>McInnes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Additive Schwarz methods with nonreflecting boundary conditions for the parallel computation of Helmholtz problems</comment>
+               <fpage>325</fpage>
+               <volume>10</volume>
+               <source>Domain decomposition methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1795a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1467618e1802" publication-type="book">
+G&amp;#x00E9;rard A. Meurant, Numerical experiments with a domain decomposition method for parabolic
+problems on parallel computers, Fourth International Symposium on Domain Decomposition
+Methods for Partial Differential Equations (Philadelphia, PA) (Roland Glowinski, Yuri A.
+Kuznetsov, G&amp;#x00E9;rard A. Meurant, Jacques P&amp;#x00E9;riaux, and Olof Widlund, eds.), SIAM, 1991. MR
+92a:65023<person-group>
+                     <string-name>
+                     <surname>Meurant</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical experiments with a domain decomposition method for parabolic problems on parallel computers</comment>
+               <source>Fourth International Symposium on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1840a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1467618e1847" publication-type="journal">
+Ulla Miekkala and Olavi Nevanlinna, Convergence of dynamic iteration methods for initial
+value problems, SIAM J. Sci. Stat. Comput. 8 (1987), 459-482. MR 89f:65076<person-group>
+                     <string-name>
+                     <surname>Miekkala</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>459</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1879a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1467618e1886" publication-type="journal">
+Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf, Absorbing boundary conditions in block Gauss-Seidel methods for convection
+problems, Math. Models Methods Appl. Sci. 6 (1996), no. 4, 481-502. MR 97g:65259<person-group>
+                     <string-name>
+                     <surname>Nataf</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>481</fpage>
+               <volume>6</volume>
+               <source>Math. Models Methods Appl. Sci.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1921a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1467618e1928" publication-type="journal">
+Fr&amp;#x00E9;d&amp;#x00E9;ric Nataf and Francis Nier, Convergence rate of some domain decomposition methods
+for overlapping and nonoverlapping subdomains, Numerische Mathematik 75 (1997), no. 3,
+357-77. MR 98m:65219<person-group>
+                     <string-name>
+                     <surname>Nataf</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>357</fpage>
+               <volume>75</volume>
+               <source>Numerische Mathematik</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e1966a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1467618e1973" publication-type="journal">
+Donald J. Newman, Rational approximation to &amp;#x00A6;x&amp;#x00A6;, Michigan Math. J. 11 (1964), 11-14. MR
+30:1344<person-group>
+                     <string-name>
+                     <surname>Newman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>11</fpage>
+               <volume>11</volume>
+               <source>Michigan Math. J.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2006a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1467618e2013" publication-type="book">
+Alfio Quarteroni and Alberto Valli, Domain decomposition methods for partial differential
+equations, Oxford Science Publications, 1999. MR 2002i:65002<person-group>
+                     <string-name>
+                     <surname>Quarteroni</surname>
+                  </string-name>
+                  </person-group>
+               <source>Domain decomposition methods for partial differential equations</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2038a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1467618e2045" publication-type="book">
+Andrea Toselli, Some results on overlapping Schwarz methods for the Helmholtz equation
+employing perfectly matched layers, Tech. Report 765, Courant Institute, New York, June
+1998.<person-group>
+                     <string-name>
+                     <surname>Toselli</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some results on overlapping Schwarz methods for the Helmholtz equation employing perfectly matched layers</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2074a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1467618e2081" publication-type="book">
+Loic Tourrette and Laurence Halpern (eds.), Absorbing boundaries and layers, domain de-
+composition methods, application to large scale computations, Novascience, 2001.<person-group>
+                     <string-name>
+                     <surname>Tourrette</surname>
+                  </string-name>
+                  </person-group>
+               <source>Absorbing boundaries and layers, domain decomposition methods, application to large scale computations</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2106a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1467618e2113" publication-type="journal">
+Lloyd N. Trefethen and Laurence Halpern, Well-posedness of one-way wave equations and
+absorbing boundary conditions, Math. of Comp. 47 (1986), no. 167, 421-435. MR 88b:65148<object-id pub-id-type="doi">10.2307/2008165</object-id>
+               <fpage>421</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2129a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1467618e2136" publication-type="journal">
+Eugene L. Wachspress, Optimum alternating-direction-implicit iteration parameters for a
+model problem, J. Soc. Indust. Appl. Math. 10 (1962), 339-350. MR 27:921<object-id pub-id-type="jstor">10.2307/2099110</object-id>
+               <fpage>339</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467618e2152a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1467618e2159" publication-type="book">
+Yunhai Wu, Xiao-Chuan Cai, and David E. Keyes, Additive Schwarz methods for hyperbolic
+equations, Tenth International Conference on Domain Decomposition Methods (J. Mandel,
+C. Farhat, and X.-C. Cai, eds.), AMS, Contemporary Mathematics 218, 1998, pp. 513-521.<person-group>
+                     <string-name>
+                     <surname>Wu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Additive Schwarz methods for hyperbolic equations</comment>
+               <fpage>513</fpage>
+               <source>Tenth International Conference on Domain Decomposition Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

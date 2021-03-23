@@ -1,0 +1,557 @@
+
+
+<book xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      dtd-version="0.2"
+      xml:lang="eng">
+   <collection-meta>
+      <collection-id collection-id-type="jstor">books</collection-id>
+   </collection-meta>
+   <book-meta>
+      <book-id book-id-type="doi">10.2307/j.ctv15wxqh7</book-id>
+      <subj-group subj-group-type="discipline">
+         <subject>Computer Science</subject>
+      </subj-group>
+      <book-title-group>
+         <book-title>Start Concurrent</book-title>
+         <subtitle>An Introduction to Problem Solving in Java with a Focus on Concurrency, 2014</subtitle>
+      </book-title-group>
+      <contrib-group>
+         <contrib contrib-type="author" id="contrib1">
+            <name name-style="western">
+               <surname>Wittman</surname>
+               <given-names>Barry</given-names>
+            </name>
+         </contrib>
+         <contrib contrib-type="author" id="contrib2">
+            <name name-style="western">
+               <surname>Mathur</surname>
+               <given-names>Aditya</given-names>
+            </name>
+         </contrib>
+         <contrib contrib-type="author" id="contrib3">
+            <name name-style="western">
+               <surname>Korb</surname>
+               <given-names>Tim</given-names>
+            </name>
+         </contrib>
+      </contrib-group>
+      <pub-date>
+         <day>31</day>
+         <month>12</month>
+         <year>2013</year>
+      </pub-date>
+      <isbn content-type="ppub">9781626710092</isbn>
+      <isbn content-type="epub">9781626710115</isbn>
+      <isbn content-type="epub">1626710112</isbn>
+      <publisher>
+         <publisher-name>Purdue University Press</publisher-name>
+      </publisher>
+      <permissions>
+         <copyright-year>2014</copyright-year>
+         <copyright-holder>Barry Wittman</copyright-holder>
+         <copyright-holder>Aditya Mathur</copyright-holder>
+         <copyright-holder>Tim Korb</copyright-holder>
+      </permissions>
+      <self-uri xlink:href="https://www.jstor.org/stable/j.ctv15wxqh7"/>
+      <abstract abstract-type="short">
+         <p>
+&lt;p&gt;Multicore microprocessors are now at the heart of nearly all
+desktop and laptop computers. While these chips offer exciting
+opportunities for the creation of newer and faster applications,
+they also challenge students and educators. How can the new
+generation of computer scientists growing up with multicore chips
+learn to program applications that exploit this latent processing
+power? This unique book is an attempt to introduce concurrent
+programming to first-year computer science students, much earlier
+than most competing products.&lt;/p&gt;
+
+&lt;p&gt;This book assumes no programming background but offers a broad
+coverage of Java. It includes over 150 numbered and numerous inline
+examples as well as more than 300 exercises categorized as
+"conceptual," "programming," and "experiments." The
+problem-oriented approach presents a problem, explains supporting
+concepts, outlines necessary syntax, and finally provides its
+solution. All programs in the book are available for download and
+experimentation. A substantial index of at least 5000 entries makes
+it easy for readers to locate relevant information.&lt;/p&gt;
+
+&lt;p&gt;In a fast-changing field, this book is continually updated and
+refined. The 2014 version is the seventh "draft edition" of this
+volume, and features numerous revisions based on student
+feedback.&lt;/p&gt;
+
+&lt;p&gt;A list of errata for this version can be found on the Purdue
+University Department of Computer Science website.&lt;/p&gt;
+</p>
+      </abstract>
+      <counts>
+         <page-count count="596"/>
+      </counts>
+      <custom-meta-group>
+         <custom-meta>
+            <meta-name>
+                    lang
+                </meta-name>
+            <meta-value>eng</meta-value>
+         </custom-meta>
+      </custom-meta-group>
+   </book-meta>
+   <body>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.1</book-part-id>
+                  <title-group>
+                     <title>Front Matter</title>
+                  </title-group>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.2</book-part-id>
+                  <title-group>
+                     <title>Table of Contents</title>
+                  </title-group>
+                  <fpage>i</fpage>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.3</book-part-id>
+                  <title-group>
+                     <title>Preface to Draft 6.0</title>
+                  </title-group>
+                  <fpage>xii</fpage>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.4</book-part-id>
+                  <title-group>
+                     <title>Acknowledgements</title>
+                  </title-group>
+                  <fpage>xvi</fpage>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.5</book-part-id>
+                  <title-group>
+                     <label>Chapter 1</label>
+                     <title>Computer Basics</title>
+                  </title-group>
+                  <fpage>1</fpage>
+                  <abstract>
+                     <p>We begin almost every chapter of this book with a motivating problem. Why? Sometimes it helps to see how tools can be applied in order to see why they’re useful. As we move through each chapter, we cover background concepts needed to solve the problem in the Concepts section, the specific technical details (usually in the form of Java syntax) required in the Syntax and Semantics section, and eventually the solution to the problem in the Solution sections. If you’re not interested in the problem, that’s fine! Feel free to skip ahead to the Concepts section or directly to the</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.6</book-part-id>
+                  <title-group>
+                     <label>Chapter 2</label>
+                     <title>Problem Solving and Programming</title>
+                  </title-group>
+                  <fpage>35</fpage>
+                  <abstract>
+                     <p>How do we solve problems in general? This question is the motivating problem (or meta-problem, even) for this chapter. In fact, this question is the motivating problem for this book. We want to understand the process of solving problems with computers.</p>
+                     <p>As we mentioned in the previous chapter, many computer programs such as business applications and web browsers have already been created to help people solve problems, but we want to solve new problems by writing our own programs. The art of writing these programs is called computer programming or just programming.</p>
+                     <p>Many people reading this book will be computer</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.7</book-part-id>
+                  <title-group>
+                     <label>Chapter 3</label>
+                     <title>Primitive Types and Strings</title>
+                  </title-group>
+                  <fpage>65</fpage>
+                  <abstract>
+                     <p>Perhaps you’re a student. Perhaps you aren’t. In either case, you must be aware of the rapidly rising cost of a college education. The motivating problem for this chapter is to create a Java program that can estimate the cost of a college education, including room and board. It starts by reading a first name, a last name, the per-semester cost of tuition, the monthly cost of rent, and the monthly cost of food as input from a user. Many students take out loans for college. In fact, student debt has surpassed credit card debt in the United States. We</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.8</book-part-id>
+                  <title-group>
+                     <label>Chapter 4</label>
+                     <title>Selection</title>
+                  </title-group>
+                  <fpage>109</fpage>
+                  <abstract>
+                     <p>There is a famous mathematical puzzle called the Monty Hall problem, based on the television show <italic>Let’s Make a Deal</italic> hosted by the eponymous Monty Hall. In this problem, you are presented with three doors. Two of the three doors have junk behind them. One randomly selected door conceals something like a pile of gold. If you can choose that door, you win the gold. After you make an initial choice, Monty, who knows which door the pile of gold is behind, will open one of the two other doors, always picking a door with junk behind it. If you</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.9</book-part-id>
+                  <title-group>
+                     <label>Chapter 5</label>
+                     <title>Repetition</title>
+                  </title-group>
+                  <fpage>138</fpage>
+                  <abstract>
+                     <p>The world of bioinformatics is the intersection between biology and computer science. Mapping the human genome would have been impossible without computers. Sequencing genomes, determining the function of specific genes, the analysis and prediction of protein structures, and biomedical imaging are just a few of the areas under the umbrella of bioinformatics. Much fascinating research is being done in this area as biologists become better programmers and computer scientists learn more about biology.</p>
+                     <p>Because of its fundamental importance and the incredible amount of information involved, with tens or hundreds of millions of base pairs of DNA in each human chromosome,</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.10</book-part-id>
+                  <title-group>
+                     <label>Chapter 6</label>
+                     <title>Arrays</title>
+                  </title-group>
+                  <fpage>165</fpage>
+                  <abstract>
+                     <p>With one exception, all of the types we have talked about in this book have held a single value. For example, an int variable can only contain a single int value. If you try to put a second int value into a variable, it will overwrite the first.</p>
+                     <p>The String type, of course, is the exception. String objects can contain char sequences of any length from 0 up to a practically limitless size (the theoretical maximum length of a Java String is Integer. MAX_ INT, more than 650 times the length of <italic>War and Peace</italic>). As remarkable as String objects</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.11</book-part-id>
+                  <title-group>
+                     <label>Chapter 7</label>
+                     <title>Simple Graphical User Interfaces</title>
+                  </title-group>
+                  <fpage>202</fpage>
+                  <abstract>
+                     <p>Recall from Chapter 5 that we can record DNA as a sequence of nucleotide bases A, C, G, and T. Using this idea, we can represent any sequence of DNA using a String made up of those four letters, such as "ATGGAAGTATTTAAATAG" .</p>
+                     <p>This particular sequence contains 18 bases and six codons . A codon is a three-base subsequence in DNA. Biologists are interested in dividing DNA into codons because a single codon usually maps to the production of a specific amino acid. Amino acids, in turn, are the building blocks of proteinS. The DNA sequence above contains the six</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.12</book-part-id>
+                  <title-group>
+                     <label>Chapter 8</label>
+                     <title>Methods</title>
+                  </title-group>
+                  <fpage>219</fpage>
+                  <abstract>
+                     <p>Gambling has held a fascination for humankind since its invention. As long as there have been mathematicians, they have studied the underlying mechanisms of probability and statistics that drive games of chance. A classic game of both statistics and strategy is poker. The problem we want to solve is programming one of the many variations of poker, called three card poker. Instead of bluffing, a player competes only with the house according to fixed rules without any room for psychology. A player is dealt three cards. If the player’s hand contains a pair or better, he or she wins a</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.13</book-part-id>
+                  <title-group>
+                     <label>Chapter 9</label>
+                     <title>Classes</title>
+                  </title-group>
+                  <fpage>238</fpage>
+                  <abstract>
+                     <p>How does the compiler check the Java code that you write and find errors? Syntax checking and type checking are involved processes that are key parts of compiler design. Compilers are some of the most complex programs of any kind, and building one is beyond the scope of the material covered in this book. However, we can get insight into some problems faced by compiler designers by considering the problem of correctly nested expressions.</p>
+                     <p>There are many rules for forming correct Java code, but it is always the case that grouping symbols ((, ) , [, ] , {, }</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.14</book-part-id>
+                  <title-group>
+                     <label>Chapter 10</label>
+                     <title>Interfaces</title>
+                  </title-group>
+                  <fpage>260</fpage>
+                  <abstract>
+                     <p>Defining classes as we did in Chapter 9 provides us with useful tools. First, we can group related data together. Then, we can encapsulate that data so that it can only be changed in carefully controlled ways. But these ideas are only a fraction of the true power of object orientation that becomes apparent when we exploit relationships between different classes. Eventually, in Chapter 11, we will talk about hierarchical relationships, in which one class can be the parent of many other child classes. However, there is a simpler relationship that classes can share, the ability to do some specific</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.15</book-part-id>
+                  <title-group>
+                     <label>Chapter 11</label>
+                     <title>Inheritance</title>
+                  </title-group>
+                  <fpage>275</fpage>
+                  <abstract>
+                     <p>In Chapter 4, we talked extensively about Boolean algebra and how it can be applied to if statements in order to control the flow of execution in your program. The commands that we give in software must be executed by hardware in order to have an effect. It should not be surprising that computer hardware is built out of digital circuits that behave according to the same rules as Boolean logic. Each component of these circuits is called a logic gate. There are logic gates corresponding to all the Boolean operations you are used to: AND, OR, XOR, NOT, and</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.16</book-part-id>
+                  <title-group>
+                     <label>Chapter 12</label>
+                     <title>Exceptions</title>
+                  </title-group>
+                  <fpage>295</fpage>
+                  <abstract>
+                     <p>Let’s consider a problem in which various aspects of a bank burglary are modeled as objects in Java. You want to write some code that will accomplish the following steps:</p>
+                     <p>1. Disable the burglar alarm</p>
+                     <p>2. Break into the bank</p>
+                     <p>3. Find the vault</p>
+                     <p>4. Open the vault</p>
+                     <p>5. Carry away the loot</p>
+                     <p>But any number of things could go wrong! When trying to disable the burglar alarm, you might set it off. When you try to break into the bank, you might have thought that you’d disabled the burglar alarm but actually failed to do so. The door of</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.17</book-part-id>
+                  <title-group>
+                     <label>Chapter 13</label>
+                     <title>Concurrent Programming</title>
+                  </title-group>
+                  <fpage>312</fpage>
+                  <abstract>
+                     <p>So far we have focused mostly on writing sequential programs. Such programs are executed sequentially by a computer. Sequential execution implies that program statements are executed one at a time in a sequence determined by program logic and input data. While it is common for programmers to write sequential programs, the widespread availability of multicore processors in a single computer has led to an increase in the demand for programmers who can write <italic>concurrent</italic> programs. More than one program statement can be executed independently by a multicore processor.</p>
+                     <p>A concurrent program is one in which several statements can be executed</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.18</book-part-id>
+                  <title-group>
+                     <label>Chapter 14</label>
+                     <title>Synchronization</title>
+                  </title-group>
+                  <fpage>342</fpage>
+                  <abstract>
+                     <p>Concurrent programs allow multiple threads to be scheduled and executed, but the programmer does not have a great deal of control over when threads execute. As explained in Section 13.6, the JVM and the underlying OS are responsible for scheduling threads onto processor cores.</p>
+                     <p>While writing a concurrent program, you have to ensure that the program will work correctly even though different executions of the same program will likely lead to different sequences of thread execution. The problem we introduce next illustrates why one thread execution sequence might be perfectly fine while another might lead to unexpected and incorrect behavior</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.19</book-part-id>
+                  <title-group>
+                     <label>Chapter 15</label>
+                     <title>Constructing Graphical User Interfaces</title>
+                  </title-group>
+                  <fpage>361</fpage>
+                  <abstract>
+                     <p>An <italic>applet</italic> is a graphical Java program that runs inside of a special environment, usually a web browser. The beauty of an applet is that anyone with a Java-enabled web browser can run the program without any special knowledge or computer skills. Most users don’t even realize they are running a program. Let’s write an applet that will allow young math students to practice their arithmetic. Specifically, we are interested in addition, subtraction, multiplication, and division with small, positive integers. For this program, we will consider addition and subtraction basic and multiplication and division advanced. Our applet should allow the</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.20</book-part-id>
+                  <title-group>
+                     <label>Chapter 16</label>
+                     <title>Testing and Debugging</title>
+                  </title-group>
+                  <fpage>406</fpage>
+                  <abstract>
+                     <p>This chapter is about finding, fixing, and, more importantly, preventing bugs in software. This chapter is unique in that it is not based on clearly stated concrete problems with straightforward solutions. As it stands now, finding and fixing bugs in software, especially concurrent software, is a problem which no one has solved completely. The first half of this chapter will focus on common bugs and how to fix them. The second half will focus on design techniques for preventing bugs and testing to see if any hidden bugs remain in your code.</p>
+                     <p>We will begin with bugs commonly found in</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.21</book-part-id>
+                  <title-group>
+                     <label>Chapter 17</label>
+                     <title>Polymorphism</title>
+                  </title-group>
+                  <fpage>439</fpage>
+                  <abstract>
+                     <p>In Chapter 14, we introduced the SynchronizedAccount class that guarantees that checking the balance, making deposits, and making withdrawals will all be safe even in a multi-threaded environment. Unfortunately, SynchronizedAccount gives very few of the options a full bank account should have. The problem we present to you now is to create an entire line of bank accounts which all inherit from SynchronizedAccount . Because of inheritance, all accounts will at least have getBalance(), deposit(), and withdraw() methods.</p>
+                     <p>You must create three new account classes. The constructor for each class must take a String which gives the name of the</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.22</book-part-id>
+                  <title-group>
+                     <label>Chapter 18</label>
+                     <title>Dynamic Data Structures</title>
+                  </title-group>
+                  <fpage>458</fpage>
+                  <abstract>
+                     <p>If a math teacher writes the expression (1+7×8-6×(4+5)÷3) on the blackboard and asks a group of 10 year old children to solve it, different children may give different answers. The difficulty is that the children may not understand the order of operations. Modern graphing a calculators and many computer programs can, of course, evaluate such expressions correctly, but how do they do it? You intuitively grasp order of a operations (left to right, multiplication and division take higher precedence than addition and subtraction), but encoding that intuition into a computer program is more difficult.</p>
+                     <p>One way a computer scientist a</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.23</book-part-id>
+                  <title-group>
+                     <label>Chapter 19</label>
+                     <title>Recursion</title>
+                  </title-group>
+                  <fpage>495</fpage>
+                  <abstract>
+                     <p>The evil mastermind from Chapter 13 has returned with a new attempt at world domination. Since he now knows that you can use concurrency to crack his security code, this time he has hidden his deadly virus in a secret location protected by a complex maze of walls and passageways. Fortunately, you’ve been able to get a copy of the maze floor plan, but now you must write a program to find a path through the maze so you can steal the deadly virus before the evil mastermind releases it on the world.</p>
+                     <p>Finding a path through a maze involves</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.24</book-part-id>
+                  <title-group>
+                     <label>Chapter 20</label>
+                     <title>File I/O</title>
+                  </title-group>
+                  <fpage>524</fpage>
+                  <abstract>
+                     <p>If you are familiar with bitmap (bmp) files, you know that they can get very large. People often use a technique called data compression to reduce the size of large files for storage. There are many different kinds of compression and many which are tailored to work well on images. Your task is to write a program that will do a particular kind of compression called run length encoding (RLE), which we will test on bitmaps. The idea behind RLE is simple: Imagine a file as a stream of bytes. As you look through the stream, replace repeating sequences of</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.25</book-part-id>
+                  <title-group>
+                     <label>Chapter 21</label>
+                     <title>Network Communication</title>
+                  </title-group>
+                  <fpage>540</fpage>
+                  <abstract>
+                     <p>It is no accident that the previous chapter about file I/O is followed by this one about networking. At first glance, the two probably seem unrelated. As it happens, both files and networks are used for input and output, and the designers of Java were careful to create an API with a similar interface for both.</p>
+                     <p>In the next two sections, we discuss how this API works, but first we introduce the problem: You need to create a web server application. The term <italic>server</italic> is used to describe a computer on a network which other computers, called <italic>clients</italic>, connect to</p>
+                  </abstract>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.26</book-part-id>
+                  <title-group>
+                     <title>Index</title>
+                  </title-group>
+                  <fpage>553</fpage>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+      <book-part indexed="true" xlink:type="simple">
+         <body>
+            <book-part>
+               <book-part-meta>
+                  <book-part-id book-part-id-type="doi">10.2307/j.ctv15wxqh7.27</book-part-id>
+                  <title-group>
+                     <title>Back Matter</title>
+                  </title-group>
+                  <fpage>578</fpage>
+               </book-part-meta>
+            </book-part>
+         </body>
+      </book-part>
+   </body>
+</book>

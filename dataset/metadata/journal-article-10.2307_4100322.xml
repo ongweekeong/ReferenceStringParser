@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">75</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">254</issue>
+         <issue-id>i379564</issue-id>
+         <article-id pub-id-type="jstor">4100322</article-id>
+         
+         <title-group>
+            <article-title>Complexity of Inverting the Euler Function</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>Scott Contini</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Ernie Croot</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Igor E.</given-names>
+                  <surname>Shparlinski</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>983</fpage>
+         <lpage>996</lpage>
+         <page-range>983-996</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2006 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100322"/>
+         
+         
+         <abstract>
+            <p>Given an integer n, how hard is it to find the set of all integers m such that <tex-math>$\varphi(m) = n$</tex-math>, where φ is the Euler totient function? We present a certain basic algorithm which, given the prime number factorization of n, in polynomial time "on average" (that is, <tex-math>$(log n)^{O(1)}$</tex-math>), finds the set of all such solutions m. In fact, in the worst case this set of solutions is exponential in log n, and so cannot be constructed by a polynomial time algorithm. In the opposite direction, we show, under a widely accepted number theoretic conjecture, that the Partition Problem, an NP-complete problem, can be reduced in polynomial (in the input size) time to the problem of deciding whether <tex-math>$\varphi(m) = n$</tex-math> has a solution, for polynomially (in the input size of the Partition Problem) many values of n (where the prime factorizations of these n are given). What this means is that the problem of deciding whether there even exists a solution m to <tex-math>$\varphi(m) = n$</tex-math>, let alone finding any or all such solutions, is very likely to be intractable. Finally, we establish close links between the problem of inverting the Euler function and the integer factorization problem.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 11A51</kwd>
+            <kwd>Primary 11Y16</kwd>
+            <kwd>Primary 68Q17</kwd>
+            <kwd>Primary 68Q25</kwd>
+            <kwd>Euler Function</kwd>
+            <kwd>Integer Factorisation</kwd>
+            <kwd>Partition Problem</kwd>
+            <kwd>NP-Completeness</kwd>
+            <kwd>S 0025-5718(06)01826-6</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3502718e175a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3502718e182" publication-type="journal">
+M. Agrawal, N. Kayal and N. Saxena, 'PRIMES is in P', Ann. of Math. (2) 160 (2004),
+781-793. MR2123939<object-id pub-id-type="jstor">10.2307/3597229</object-id>
+               <fpage>781</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e198a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3502718e205" publication-type="journal">
+W. R. Alford, A. Granville and C. Pomerance, 'There are infinitely many Carmichael
+numbers', Annals of Math., 140 (1994), 703-722. MR1283874 (95k:11114)<object-id pub-id-type="doi">10.2307/2118576</object-id>
+               <fpage>703</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e221a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3502718e228" publication-type="journal">
+R. C. Baker and G. Harman, 'Shifted primes without large prime factors', Acta Arith., 83
+(1998), 331-361. MR1610553 (99b:11104)<person-group>
+                     <string-name>
+                     <surname>Baker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>83</volume>
+               <source>Acta Arith.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e260a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3502718e267" publication-type="book">
+A. Balog, 'The prime k-tuplets conjecture on average', Analytic Number Theory, Progress
+in Mathematics 85, Birkh&amp;#x00E4;user, Boston, 1990, 47-75. MR1084173 (92e:11105)<person-group>
+                     <string-name>
+                     <surname>Balog</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The prime k-tuplets conjecture on average</comment>
+               <fpage>47</fpage>
+               <volume>85</volume>
+               <source>Analytic Number Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e303a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3502718e310" publication-type="book">
+W. Banks, J. B. Friedlander, C. Pomerance and I. E. Shparlinski, 'Multiplicative structure
+of values of the Euler function', High Primes and Misdemeanours: Lectures in Honour
+of the 60th Birthday of Hugh Cowie Williams, Fields Institute Communications, vol. 41,
+Amer. Math. Soc., 2004, 29-48. MR2075645 (2005f:11217)<person-group>
+                     <string-name>
+                     <surname>Banks</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multiplicative structure of values of the Euler function</comment>
+               <fpage>29</fpage>
+               <volume>41</volume>
+               <source>High Primes and Misdemeanours: Lectures in Honour of the 60th Birthday of Hugh Cowie Williams</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e351a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3502718e358" publication-type="journal">
+W. Banks, K. Ford, F. Luca, F. Pappalardi and I. E. Shparlinski, 'Values of the Euler
+function in various sequences', Monatsh. Math., 146 (2005), 1-19.<person-group>
+                     <string-name>
+                     <surname>Banks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>146</volume>
+               <source>Monatsh. Math.</source>
+               <year>2005</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e390a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3502718e397" publication-type="journal">
+P. T. Bateman, 'On the distribution of values of the Euler function', Acta Arith., 21 (1972),
+329-345. MR0302586 (46:1730)<person-group>
+                     <string-name>
+                     <surname>Bateman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>21</volume>
+               <source>Acta Arith.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e429a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3502718e436" publication-type="journal">
+W. Bosma, 'Some computational experiments in number theory', Preprint, 2004.<person-group>
+                     <string-name>
+                     <surname>Bosma</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some computational experiments in number theory</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e458a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3502718e465" publication-type="book">
+R. Crandall and C. Pomerance, Prime numbers: A Computational perspective, Springer-
+Verlag, Berlin, 2001. MR1821158 (2002a:11007)<person-group>
+                     <string-name>
+                     <surname>Crandall</surname>
+                  </string-name>
+                  </person-group>
+               <source>Prime numbers: A Computational perspective</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e490a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3502718e497" publication-type="journal">
+T. Dence and C. Pomerance, 'Euler's function in residue classes', The Ramanujan J., 2
+(1998), 7-20. MR1642868 (99k:11148)<person-group>
+                     <string-name>
+                     <surname>Dence</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>7</fpage>
+               <volume>2</volume>
+               <source>The Ramanujan J.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e530a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3502718e537" publication-type="journal">
+L. E. Dickson, 'A new extension of Dirichlet's theorem on prime numbers', Messenger of
+Mathematics, 33 (1904), 155-161.<person-group>
+                     <string-name>
+                     <surname>Dickson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>33</volume>
+               <source>Messenger of Mathematics</source>
+               <year>1904</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e569a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3502718e576" publication-type="journal">
+P. Erd&amp;#x0151;s, 'On the normal number of prime factors of p - 1 and some related problems
+concerning Euler's &amp;#x00F8;-function', Quart. J. Math., 6 (1935), 205-213.<person-group>
+                     <string-name>
+                     <surname>Erd&amp;#x0151;s</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>6</volume>
+               <source>Quart. J. Math.</source>
+               <year>1935</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e608a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3502718e615" publication-type="journal">
+P. Erd&amp;#x0151;s and C. Pomerance, 'On the normal number of prime factors of &amp;#x03C6;(n)', Rocky
+Mountain J. Math., 15 (1985), 343-352. MR0823246 (87e:11112)<person-group>
+                     <string-name>
+                     <surname>Erd&amp;#x0151;s</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>343</fpage>
+               <volume>15</volume>
+               <source>Rocky Mountain J. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e647a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3502718e654" publication-type="journal">
+K. Ford, 'The number of solutions of &amp;#x03C6;(x) = m', Annals of Math., 150 (1999), 283-311.
+MR1715326 (2001e:11099)<object-id pub-id-type="doi">10.2307/121103</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e670a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3502718e677" publication-type="book">
+K. Ford, S. Konyagin and C. Pomerance, 'Residue classes free of values of Euler's function',
+Proc. Number Theory in Progress, Walter de Gruyter, Berlin, 1999, 805-812. MR1689545
+(2000f:11120)<person-group>
+                     <string-name>
+                     <surname>Ford</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Residue classes free of values of Euler's function</comment>
+               <fpage>805</fpage>
+               <source>Proc. Number Theory in Progress</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e712a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3502718e719" publication-type="journal">
+H. W. Lenstra, Jr., 'Factoring integers with elliptic curves' Annals of Math., 126 (1987),
+649-673. MR0916721 (89g:11125)<object-id pub-id-type="doi">10.2307/1971363</object-id>
+               <fpage>649</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e736a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3502718e743" publication-type="journal">
+H. W. Lenstra, Jr., J. Pila and C. Pomerance, 'A hyperelliptic smoothness test, I', Phil.
+Trans, of the Royal Society of London, Ser. A., 345 (1993), 397-408. MR1253501
+(94m:11107)<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="series title">Ser. A.</comment>
+               <fpage>397</fpage>
+               <volume>345</volume>
+               <source>Phil. Trans, of the Royal Society of London</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e781a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3502718e788" publication-type="journal">
+N. S. Mendelsohn, 'The equation &amp;#x03C6;(x) = k', Math. Magazine, 49 (1976), 37-39.
+MR0396385 (53:252)<object-id pub-id-type="jstor">10.2307/2689883</object-id>
+               <fpage>37</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e804a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3502718e811" publication-type="journal">
+G. L. Miller, 'Riemann's hypothesis and tests for primality', J. Comput. System Sci., 13
+(1976), 300-317. MR0480295 (58:470a)<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>300</fpage>
+               <volume>13</volume>
+               <source>J. Comput. System Sci.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e843a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3502718e850" publication-type="journal">
+L. L. Pennesi, 'A method for solving &amp;#x03C6;(x) = n', Amer. Math. Monthly, 74 (1957), 497-499.<person-group>
+                     <string-name>
+                     <surname>Pennesi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>497</fpage>
+               <volume>74</volume>
+               <source>Amer. Math. Monthly</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e879a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3502718e886" publication-type="journal">
+C. Pomerance, 'Popular values of Euler's function', Mathematika, 27 (1980), 84-89.
+MR0581999 (81k:10076)<person-group>
+                     <string-name>
+                     <surname>Pomerance</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>84</fpage>
+               <volume>27</volume>
+               <source>Mathematika</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e918a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3502718e925" publication-type="book">
+C. Pomerance, 'Two methods in elementary analytic number theory', Number theory and
+application, R. A. Mollin, ed., Kluwer Acad. Publ., Dordrecht, 1989, 135-161. MR1123073
+(92j:11107)<person-group>
+                     <string-name>
+                     <surname>Pomerance</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Two methods in elementary analytic number theory</comment>
+               <fpage>135</fpage>
+               <source>Number theory and application</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3502718e961a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3502718e968" publication-type="book">
+G. Tenenbaum, Introduction to analytic and probabilistic number theory, Cambridge Uni-
+versity Press, UK, 1995. MR1342300 (97e:11005b)<person-group>
+                     <string-name>
+                     <surname>Tenenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to analytic and probabilistic number theory</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

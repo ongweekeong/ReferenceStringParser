@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">75</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">253</issue>
+         <issue-id>i379557</issue-id>
+         <article-id pub-id-type="jstor">4100153</article-id>
+         
+         <title-group>
+            <article-title>Wavelet-Based Filters for Accurate Computation of Derivatives</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>Maurice Hasson</string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>259</fpage>
+         <lpage>280</lpage>
+         <page-range>259-280</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2006 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100153"/>
+         
+         
+         <abstract>
+            <p>Let f(x) be a smooth function whose derivative of a given order must be computed. The signal f(x) is affected by two kinds of perturbation. The perturbation caused by the presence of the machine epsilon <tex-math>$\epsilon_M$</tex-math> of the computer may be considered to be an extremely high-frequency noise of very small amplitude. The way to minimize its effect consists of choosing an appropriate value for the step size of the difference quotient. The second perturbation, caused by the presence of noise, requires first the signal to be treated in some way. It is the purpose of this work to construct a wavelet-based band-pass filter that deals with the two cited perturbations simultaneously. In effect our wavelet acts like a "smoothed difference quotient" whose stepsize is of the same order as that of the usual difference quotient. Moreover the wavelet effectively removes the noise and computes the derivative with an accuracy equal to the one obtained by the corresponding difference quotient in the absence of noise.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 41A40</kwd>
+            <kwd>Primary 42A85</kwd>
+            <kwd>Primary 65D25</kwd>
+            <kwd>Primary 65T60</kwd>
+            <kwd>Wavelets</kwd>
+            <kwd>Band-Pass Filters</kwd>
+            <kwd>High-Frequency Noise</kwd>
+            <kwd>S 0025-5718(05)01767-9</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1037981e230a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1037981e237" publication-type="journal">
+Robert S. Anderssen and Markus Hegland, For numerical differentiation, dimensionality can
+be a blessing!, Math. Comp. 227 (1999), 1121-1141. MR1620207 (99i:65019)<object-id pub-id-type="jstor">10.2307/2584954</object-id>
+               <fpage>1121</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e253a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1037981e260" publication-type="book">
+E. Atkinson, An introduction to numerical analysis, Wiley, New York, 1989. MR1007135
+(90m:65001)<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>An introduction to numerical analysis</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e285a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1037981e292" publication-type="book">
+Michèle Basseville and Igor Nikiforov, Detection of abrupt changes: Theory and application,
+Prentice Hall, Inc., Englewood Cliffs, NJ, 1993. MR1210954 (95g:62153)<person-group>
+                     <string-name>
+                     <surname>Basseville</surname>
+                  </string-name>
+                  </person-group>
+               <source>Detection of abrupt changes: Theory and application</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e317a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1037981e324" publication-type="book">
+Carl M. Bender and Steven I. Orszag, Advanced mathematical methods for scientists and
+engineers. I. Asymptotic methods and perturbation theory, Springer-Verlag, New York, 1999.
+MR1721985 (2000m:34116)<person-group>
+                     <string-name>
+                     <surname>Bender</surname>
+                  </string-name>
+                  </person-group>
+               <source>Advanced mathematical methods for scientists and engineers. I. Asymptotic methods and perturbation theory</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e354a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1037981e361" publication-type="journal">
+Franca Calio, Marco Frontini, and Gradimir Milovanovic, Numerical differentiation of ana-
+lytic functions using quadratures on the semicircle, Comput. Math. Appl. 10 (1991), 99-106.
+MR1136179 (92i:65047)<person-group>
+                     <string-name>
+                     <surname>Calio</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>10</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e396a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1037981e403" publication-type="book">
+François Chaplais and Sylvain Faure, Wavelets and differentiation, Internal Report, Centre
+Automatique et Systèmes, École Nationale des Mines de Paris (2000), 1-14.<person-group>
+                     <string-name>
+                     <surname>Chaplais</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <source>Wavelets and differentiation</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e432a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1037981e439" publication-type="book">
+Ingrid Daubechies, Ten lectures on wavelets., SIAM, Philadelphia, 1992. MR1162107
+(93e:42045)<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ten lectures on wavelets</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e464a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1037981e471" publication-type="other">
+David L. Donoho, Private communication, 2003.</mixed-citation>
+            </ref>
+            <ref id="d1037981e478a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1037981e485" publication-type="book">
+Dan E. Dudgeon and Russell M. Mersereau, Multidimensional digital signal processing,
+Prentice-Hall, Englewood Cliffs, N.J., 1984.<person-group>
+                     <string-name>
+                     <surname>Dudgeon</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multidimensional digital signal processing</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e510a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1037981e517" publication-type="book">
+Sylvain Faure, Implémentation sous simulux de la dérivation des signaux à partir des coef-
+ficients d'ondelettes, Internal Report, Centre Automatique et Systèmes, École Nationale des
+Mines de Paris (1999), 1-12.<person-group>
+                     <string-name>
+                     <surname>Faure</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <source>Implémentation sous simulux de la dérivation des signaux à partir des coefficients d'ondelettes</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e550a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1037981e557" publication-type="journal">
+Michael Floater, Error formulas for divided difference expansions and numerical differentia-
+tion, J. Approximation Theory 122 (2003), 1-9. MR1976120 (2004b:65027)<person-group>
+                     <string-name>
+                     <surname>Floater</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>122</volume>
+               <source>J. Approximation Theory</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e589a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1037981e596" publication-type="book">
+Gerald B. Folland, Introduction to partial differential equations, second edition, Princeton,
+NJ, Princeton University Press, 1995. MR1357411 (96h:35001)<person-group>
+                     <string-name>
+                     <surname>Folland</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Introduction to partial differential equations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e625a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1037981e632" publication-type="book">
+Michael Frazier, Bjorn Jawerth, and Guido Weiss, Littlewood-Paley theory and the study of
+function spaces, CBMS regional conference series in mathematics, 79, American Mathematical
+Society, Providence, RI, 1991. MR1107300 (92m:42021)<person-group>
+                     <string-name>
+                     <surname>Frazier</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Littlewood-Paley theory and the study of function spaces</comment>
+               <fpage>79</fpage>
+               <source>CBMS regional conference series in mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e667a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1037981e674" publication-type="journal">
+Martin Hanke and Otmar Scherzer, Inverse problems light: numerical differentiation, Amer.
+Math. Monthly 6 (2001), 512-521. MR1840657 (2002e:65089)<object-id pub-id-type="doi">10.2307/2695705</object-id>
+               <fpage>512</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e690a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1037981e697" publication-type="book">
+Wolfgang Hardie, Gerard Kerkyacharian, Dominique Picard, and Alexander Tsybakov,
+Wavelets, approximation, and statistical applications. Lecture Notes in Statistics, 129.,
+Springer-Verlag, New York, 1998. MR1618204 (99f:42065)<person-group>
+                     <string-name>
+                     <surname>Hardie</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Wavelets, approximation, and statistical applications</comment>
+               <fpage>129</fpage>
+               <source>Lecture Notes in Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e732a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1037981e739" publication-type="book">
+Eugenio Hernandez and Guido Weiss, A first course on wavelets, CRC Press, Boca Raton,
+FL, 1996. MR1408902 (97i:42015)<person-group>
+                     <string-name>
+                     <surname>Hernandez</surname>
+                  </string-name>
+                  </person-group>
+               <source>A first course on wavelets</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e765a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1037981e772" publication-type="journal">
+Peter Hoffman and K. C. Reddy, Numerical differentiation by high order interpolation., SIAM
+J. Sci. Statist. Comput. 6 (1987), 979-987. MR0911068 (89a:65032)<person-group>
+                     <string-name>
+                     <surname>Hoffman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>979</fpage>
+               <volume>6</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e804a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1037981e811" publication-type="journal">
+Ian Knowles and Robert Wallace, A variational method for numerical differentiation, Numer.
+Math. 1 (1995), 91-110. MR1320703 (96h:65031)<person-group>
+                     <string-name>
+                     <surname>Knowles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>1</volume>
+               <source>Numer. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e843a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1037981e850" publication-type="journal">
+Alexandru Lupac and Detlef H. Mache, On the numerical differentiation, Rev. Anal. Numer.
+Theor. Approx. 26 (1997), 109-115. MR1703928 (2000d:65039)<person-group>
+                     <string-name>
+                     <surname>Lupac</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>26</volume>
+               <source>Rev. Anal. Numer. Theor. Approx.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e882a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1037981e889" publication-type="journal">
+Malcon T. McGregor, Numerical differentiation of analytic functions, Univ. Beograd. Publ.
+Elektrotehn. Fak. Ser. Mat. 2 (1991), 11-17. MR1162961 (93k:65020)<person-group>
+                     <string-name>
+                     <surname>McGregor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>11</fpage>
+               <volume>2</volume>
+               <source>Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e921a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1037981e928" publication-type="book">
+Yves Meyer, Ondelettes et opérateurs, Hermann, Paris, 1990. MR1085487 (93i:42002)<person-group>
+                     <string-name>
+                     <surname>Meyer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ondelettes et opérateurs</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e950a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1037981e957" publication-type="journal">
+D. A. Murio, C. E. Meja, and S. Zhan, Discrete mollification and automatic numerical dif-
+ferentiation, Comput. Math. Appl. 5 (1998), 1-16. MR1612285 (99d:65066)<person-group>
+                     <string-name>
+                     <surname>Murio</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>5</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e990a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1037981e997" publication-type="journal">
+Alexander G. Ramm and Alexandra Smirnova, On stable numerical differentiation, Math.
+Comp. 70 (2001), 1131-1153. MR1826578 (2002a:65046)<object-id pub-id-type="jstor">10.2307/2698803</object-id>
+               <fpage>1131</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1013a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1037981e1020" publication-type="book">
+Harold S. Shapiro, Smoothing and approximation of functions, Van Nostrand Reinhold Co.,
+New York, 1969. MR0412669 (54:791)<person-group>
+                     <string-name>
+                     <surname>Shapiro</surname>
+                  </string-name>
+                  </person-group>
+               <source>Smoothing and approximation of functions</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1045a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1037981e1052" publication-type="journal">
+M. R. Skrzipek, Generalized associated polynomials and their application in numerical differ-
+entiation and quadrature, Calcolo 40 (2003), 131-147. MR2025599<person-group>
+                     <string-name>
+                     <surname>Skrzipek</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>40</volume>
+               <source>Calcolo</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1084a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1037981e1091" publication-type="book">
+Robert S. Strichartz, A guide to distribution theory and Fourier transforms, CRC Press, Boca
+Raton, FL, 1994. MR1276724 (95f:42001)<person-group>
+                     <string-name>
+                     <surname>Strichartz</surname>
+                  </string-name>
+                  </person-group>
+               <source>A guide to distribution theory and Fourier transforms</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1116a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1037981e1123" publication-type="journal">
+O. L. Vinogradov and V. V. Zhuk, Sharp estimates for errors of numerical differentiation type
+formulas on trigonometric polynomials. Function theory and partial differential equations, J.
+Math. Sci. (New York) 105 (2003), 2347-2376. MR1855438 (2002f:65032)<person-group>
+                     <string-name>
+                     <surname>Vinogradov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2347</fpage>
+               <volume>105</volume>
+               <source>J. Math. Sci. (New York)</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1158a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1037981e1165" publication-type="journal">
+Y. B. Wang, X. Z. Jia, and J. Cheng, A numerical differentiation method and its applica-
+tion to reconstruction of discontinuity, Inverse Problems 6 (2002), 1461-1476. MR1955897
+(2004b:65086)<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1461</fpage>
+               <volume>6</volume>
+               <source>Inverse Problems</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1201a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1037981e1208" publication-type="journal">
+Yazhen Wang, Jump and sharp cusp detection by wavelets, Biometrika 82 (1995), 385-397.
+MR1354236 (96k:62120)<object-id pub-id-type="doi">10.2307/2337415</object-id>
+               <fpage>385</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1037981e1224a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1037981e1231" publication-type="journal">
+J. A. C. Weideman, Numerical integration of periodic functions: a few examples, Amer. Math.
+Monthly 109 (2002), 21-36. MR1903510 (2003c:65017)<object-id pub-id-type="doi">10.2307/2695765</object-id>
+               <fpage>21</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

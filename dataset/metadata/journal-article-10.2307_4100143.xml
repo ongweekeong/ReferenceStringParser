@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">75</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">253</issue>
+         <issue-id>i379557</issue-id>
+         <article-id pub-id-type="jstor">4100143</article-id>
+         
+         <title-group>
+            <article-title>Sharp L<sup>1</sup> a Posteriori Error Analysis for Nonlinear Convection-Diffusion Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Zhiming</given-names>
+                  <surname>Chen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Guanghua Ji</string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>43</fpage>
+         <lpage>71</lpage>
+         <page-range>43-71</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2006 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100143"/>
+         
+         
+         <abstract>
+            <p>We derive sharp <tex-math>$L^{\infty}(L^{1})$</tex-math> a posteriori error estimates for initial boundary value problems of nonlinear convection-diffusion equations of the form <tex-math>$\frac{\partial u}{\partial t} + div f(u) - \Delta A(u) = g$</tex-math> under the nondegeneracy assumption A'(s) &gt; 0 for any s ∈ R. The problem displays both parabolic and hyperbolic behavior in a way that depends on the solution itself. It is discretized implicitly in time via the method of characteristic and in space via continuous piecewise linear finite elements. The analysis is based on the <tex-math>$Kru\check{z}kov$</tex-math> "doubling of variables" device and the recently introduced "boundary layer sequence" technique to derive the entropy error inequality on bounded domains. The derived a posteriori error estimators have the correct convergence order in the region where the solution is smooth and recover the standard a posteriori error estimators known for parabolic equations with strong diffusions.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65N15</kwd>
+            <kwd>Primary 65N30</kwd>
+            <kwd>Primary 65N50</kwd>
+            <kwd>S 0025-5718(05)01778-3</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1038001e262a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1038001e269" publication-type="journal">
+T. Arbogast and M.F. Wheeler, A characteristic-mixed finite element method for advection-
+dominated transport problems, SIAM J. Numer. Anal. 32 (1995), 404-424. MR1324295
+(95m:65151)<object-id pub-id-type="jstor">10.2307/2158404</object-id>
+               <fpage>404</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e288a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1038001e295" publication-type="journal">
+H.W. Alt and S. Luckhaus, Quasilinear elliptic-parabolic differential equations, Math. Z. 183
+(1983), 311-341. MR0706391 (85c:35059)<person-group>
+                     <string-name>
+                     <surname>Alt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>311</fpage>
+               <volume>183</volume>
+               <source>Math. Z.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e327a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1038001e334" publication-type="journal">
+I. Babuška and C. Rheinboldt, Error estimates for adaptive finite element computations,
+SIAM J. Numer. Anal. 15 (1978), 736-754. MR0483395 (58:3400)<object-id pub-id-type="jstor">10.2307/2156851</object-id>
+               <fpage>736</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e350a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1038001e357" publication-type="journal">
+J. Carrillo, Entropy solutions for nonlinear degenerate problems, Arch. Rational Mech. Anal.
+147 (1999), 269-361. MR1709116 (2000m:35132)<person-group>
+                     <string-name>
+                     <surname>Carrillo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <volume>147</volume>
+               <source>Arch. Rational Mech. Anal.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e390a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1038001e397" publication-type="journal">
+Z. Chen and S. Dai, Adaptive Galerkin methods with error control for a dynamical Ginzburg-
+Landau model in superconductivity, SIAM J. Numer. Anal. 38 (2001), 1961-1985. MR1856238
+(2002g:65114)<object-id pub-id-type="jstor">10.2307/3061975</object-id>
+               <fpage>1961</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e416a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1038001e423" publication-type="journal">
+Z. Chen and S. Dai. On the efficiency of adaptive finite element methods for elliptic prob-
+lems with discontinuous coefficients, SIAM J. Sci. Comput. 24 (2002), 443-462. MR1951050
+(2003k:65160)<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>24</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e458a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1038001e465" publication-type="journal">
+Z. Chen and F. Jia, An adaptive finite element method with reliable and efficient error control
+for linear elliptic problems, Math. Comp. 73 (2004), 1163-1197. MR2047083<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1163</fpage>
+               <volume>73</volume>
+               <source>Math. Comp.</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e497a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1038001e504" publication-type="journal">
+Z. Chen, R.H. Nochetto and A. Schmidt, A characteristic Galerkin method with adaptive
+error control for the continuous casting problem, Comput. Methods Appl. Mech. Engrg. 189
+(2000), 249-276. MR1779683 (2001f:80003)<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>249</fpage>
+               <volume>189</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e539a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1038001e546" publication-type="journal">
+Ph. Clément, Approximation by finite element functions using local regularization, RAIRO
+Anal. Numer. 9 (1975), 77-84. MR0400739 (53:4569)<person-group>
+                     <string-name>
+                     <surname>Clément</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>9</volume>
+               <source>RAIRO Anal. Numer.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e578a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1038001e585" publication-type="book">
+B. Cockburn, A simple introduction to error estimation for nonlinear hyperbolic
+conservation laws, Department of Mathematics, University of Minnesota, 2003.
+http://www.math.umn.edu/ cockburn/LectureNotes.html<person-group>
+                     <string-name>
+                     <surname>Cockburn</surname>
+                  </string-name>
+                  </person-group>
+               <source>A simple introduction to error estimation for nonlinear hyperbolic conservation laws</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e615a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1038001e622" publication-type="journal">
+B. Cockburn, F. Coquel and P.G. Lefloch, An error estimate for finite volume meth-
+ods for multidimensional conservation laws, Math. Comp. 63 (1994), 77-103. MR1240657
+(95d:65078)<object-id pub-id-type="doi">10.2307/2153563</object-id>
+               <fpage>77</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e641a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1038001e648" publication-type="journal">
+B. Cockburn and P.-A. Gremaud, Error estimates for finite element methods for scalar
+conservation laws, SIAM J. Numer. Anal. 33 (1996), 522-554. MR1388487 (97e:65096)<object-id pub-id-type="jstor">10.2307/2158386</object-id>
+               <fpage>522</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e664a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1038001e671" publication-type="journal">
+C.N. Dawson, T.F. Russell and M.F. Wheeler, Some improved error estimates for the mod-
+ified method of characteristics, SIAM J. Numer. Anal. 26 (1989), 1487-1512. MR1025101
+(91a:65229)<object-id pub-id-type="jstor">10.2307/2157752</object-id>
+               <fpage>1487</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e690a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1038001e697" publication-type="journal">
+W. Dörfler, A convergent adaptive algorithm for Possion's equations, SIAM J. Numer. Anal.
+33 (1996), 1106-1124. MR1393904 (97e:65139)<object-id pub-id-type="jstor">10.2307/2158497</object-id>
+               <fpage>1106</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e713a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1038001e720" publication-type="journal">
+W. Dörfler, A time and space adaptive algorithm for the linear time-dependent Schrödinger
+equation, Numer. Math. 73 (1996), 419-448. MR1393174 (97g:65183)<person-group>
+                     <string-name>
+                     <surname>Dörfler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>419</fpage>
+               <volume>73</volume>
+               <source>Numer. Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e752a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1038001e759" publication-type="journal">
+J. Douglas, Jr. and T.F. Russell, Numerical methods for convection-dominated diffusion prob-
+lem based on combining the method of characteristics with finite element or finite difference
+procedures, SIAM J. Numer. Anal. 19 (1982), pp. 871-885. MR0672564 (84b:65093)<object-id pub-id-type="jstor">10.2307/2156980</object-id>
+               <fpage>871</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e779a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1038001e786" publication-type="journal">
+K. Eriksson and C. Johnson, Adaptive finite element methods for parabolic problems I: A
+linear model problem, SIAM J. Numer. Anal. 28 (1991), 43-77. MR1083324 (91m:65274)<object-id pub-id-type="jstor">10.2307/2157933</object-id>
+               <fpage>43</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e802a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1038001e809" publication-type="journal">
+R. Eymard, T. Gallouët and R. Herbin, Error estimate for approximate solutions of a
+nonlinear convection-diffusion problem, Adv. Differ. Equ. 7 (2002), 419-440. MR1869118
+(2002h:35156)<person-group>
+                     <string-name>
+                     <surname>Eymard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>419</fpage>
+               <volume>7</volume>
+               <source>Adv. Differ. Equ.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e844a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1038001e851" publication-type="journal">
+R. Eymard, T. Gallouët, R. Herbin and A. Michel, Convergence of a finite volume scheme
+for nonlinear degenerate parabolic equations, Numer. Math. 92 (2002), 41-82. MR1917365
+(2003e:65159)<person-group>
+                     <string-name>
+                     <surname>Eymard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>92</volume>
+               <source>Numer. Math.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e886a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1038001e893" publication-type="journal">
+C. Johnson and A. Szepessy, Adaptive finite element methods for conservation laws based on
+a posteriori error estimates, Comm. Pure Appl. Math. XLVIII (1995), 199-234. MR1322810
+(97b:76084)<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>XLVIII</volume>
+               <source>Comm. Pure Appl. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e928a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1038001e935" publication-type="journal">
+P. Houston and E. Süli, Adaptive Lagrange-Galerkin methods for unsteady convection-
+diffusion problems, Math. Comp. 70 (2000), 77-106. MR1681108 (2001f:65114)<object-id pub-id-type="jstor">10.2307/2698925</object-id>
+               <fpage>77</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e951a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1038001e958" publication-type="journal">
+K. Huang, R. Zhang and M.T. van Genuchten, An Eulerian-Lagrangian approach with an
+adaptively corrected method of characteristic to simulate variably saturated water flow, Water
+Resource Research 30 (1994), 499-507.<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>499</fpage>
+               <volume>30</volume>
+               <source>Water Resource Research</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e994a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1038001e1001" publication-type="journal">
+J. Kačur, Solution of degenerate convection-diffusion problems by the method of character-
+istics, SIAM J. Numer. Anal. 39 (2001), 858-879. MR1860448 (2002h:65144)<object-id pub-id-type="jstor">10.2307/3061936</object-id>
+               <fpage>858</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1017a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1038001e1024" publication-type="journal">
+K.H. Karlsen and N.H. Risebro, On the uniqueness and stability of entropy solutions of
+nonlinear degenerate parabolic equations with rough coefficients, Discrete Contin. Dynam.
+Systems - Series A 9 (2003), 1081-1104. MR1974417 (2004h:35102)<person-group>
+                     <string-name>
+                     <surname>Karlsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1081</fpage>
+               <volume>9</volume>
+               <source>Discrete Contin. Dynam. Systems - Series A</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1059a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1038001e1066" publication-type="journal">
+D. Kröner and M. Ohlberger, A posteriori error estimates for upwind finite volume schemes
+for nonlinear conservation laws in multi-dimensions, Math. Comp. 69 (2000), 25-39.
+MR1659843 (2000i:65135)<person-group>
+                     <string-name>
+                     <surname>Kröner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>25</fpage>
+               <volume>69</volume>
+               <source>Math. Comp.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1101a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1038001e1108" publication-type="journal">
+N.N. Kružkov, First order quasi-linear equations in several independent variables, Math.
+USSR Sbornik 10 (1970), 217-243. MR0267257 (42:2159)<person-group>
+                     <string-name>
+                     <surname>Kružkov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>10</volume>
+               <source>Math. USSR Sbornik</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1140a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1038001e1147" publication-type="journal">
+C. Mascia, A. Porretta and A. Terracina, Nonhomogeneous Dirichlet problems for degenerate
+parabolic-hyperbolic equations, Arch. Rational Mech. Anal. 163 (2002), 87-124. MR1911095
+(2003e:35217)<person-group>
+                     <string-name>
+                     <surname>Mascia</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>163</volume>
+               <source>Arch. Rational Mech. Anal.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1182a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1038001e1189" publication-type="journal">
+M. Ohlberger, A posteriori error estimates for vertex centered finite volume approximations
+of convection-diffusion-reaction equations, Math. Model. Numer. Anal. 35 (2001), 355-387.
+MR1825703 (2002a:65142)<person-group>
+                     <string-name>
+                     <surname>Ohlberger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>355</fpage>
+               <volume>35</volume>
+               <source>Math. Model. Numer. Anal.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1225a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1038001e1232" publication-type="journal">
+F. Otto, &lt;latex&gt;$L^1-contraction$&lt;/latex&gt; and uniqueness for quasilinear elliptic-parabolic equations, J. Diff.
+Equations 131 (1996), 20-38. MR1415045 (97i:35125)<person-group>
+                     <string-name>
+                     <surname>Otto</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>20</fpage>
+               <volume>131</volume>
+               <source>J. Diff. Equations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1264a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1038001e1271" publication-type="journal">
+M. Picasso, Adaptive finite elements for a linear parabolic problem, Comput. Methods Appl.
+Mech. Engrg. 167 (1998), 223-237. MR1673951 (2000b:65188)<person-group>
+                     <string-name>
+                     <surname>Picasso</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>167</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1303a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1038001e1310" publication-type="journal">
+O. Pironneau, On the transport-diffusion algorithm and its application to the Navier-Stokes
+equations, Numer. Math. 38 (1982), 309-332. MR0654100 (83d:65258)<person-group>
+                     <string-name>
+                     <surname>Pironneau</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>38</volume>
+               <source>Numer. Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1038001e1342a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1038001e1349" publication-type="book">
+A. Schmidt and K.G. Siebert, ALBERT: An adaptive hierarchical finite ele-
+ment toolbox, IAM, University of Freiburg, 2000. http://www.mathematik.uni-
+freiburg.de/IAM/Research/projectsdz/albert.<person-group>
+                     <string-name>
+                     <surname>Schmidt</surname>
+                  </string-name>
+                  </person-group>
+               <source>ALBERT: An adaptive hierarchical finite element toolbox</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260305</issue-id>
+         <article-id pub-id-type="jstor">1391000</article-id>
+         
+         <title-group>
+            <article-title>Benchmark Estimation for Markov Chain Monte Carlo Samples</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Subharup</given-names>
+                  <surname>Guha</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Steven N.</given-names>
+                  <surname>MacEachern</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mario</given-names>
+                  <surname>Peruggia</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>683</fpage>
+         <lpage>701</lpage>
+         <page-range>683-701</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391000"/>
+         
+         
+         <abstract>
+            <p>While studying various features of the posterior distribution of a vector-valued parameter using an MCMC sample, a subsample is often all that is available for analysis. The goal of benchmark estimation is to use the best available information, that is, the full MCMC sample, to improve future estimates made on the basis of the subsample. We discuss a simple approach to do this and provide a theoretical basis for the method. The methodology and benefits of benchmark estimation are illustrated using a well-known example from the literature. We obtain nearly a 90% reduction in MSE with the technique based on a 1-in-10 subsample and show that greater benefits accrue with the thinner subsamples that are often used in practice.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Calibration estimation</kwd>
+            <kwd>Maximum entropy</kwd>
+            <kwd>Post-stratification</kwd>
+            <kwd>Rao-Blackwellization</kwd>
+            <kwd>Variance reduction</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d172075e186a1310">
+               
+               <mixed-citation id="d172075e190" publication-type="book">
+Billingsley, P. (1968), Convergence of Probability Measures, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Billingsley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Convergence of Probability Measures</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e212a1310">
+               
+               <mixed-citation id="d172075e216" publication-type="book">
+Cochran, W.G. (1977), Sampling Techniques (3rd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cochran</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Sampling Techniques</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e241a1310">
+               
+               <mixed-citation id="d172075e245" publication-type="journal">
+Deville,J., and Särndal, C. (1992), "Calibration Estimators in Survey Sampling," Journal of the American Statistical
+Association, 87, 376-382.<object-id pub-id-type="doi">10.2307/2290268</object-id>
+               <fpage>376</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e261a1310">
+               
+               <mixed-citation id="d172075e265" publication-type="journal">
+Gelfand, A.E., and Smith, A.F.M. (1990), "Sampling-Based Approaches to Calculating Marginal Densities,"
+Journal of the American Statistical Association, 85, 398-409.<object-id pub-id-type="doi">10.2307/2289776</object-id>
+               <fpage>398</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e282a1310">
+               
+               <mixed-citation id="d172075e286" publication-type="journal">
+George, E.I., Makov, U.E., and Smith, A.F.M. (1993), "Conjugate Likelihood Distributions," Scandanavian
+Journal of Statistics, 20, 147-156.<person-group>
+                     <string-name>
+                     <surname>George</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>20</volume>
+               <source>Scandanavian Journal of Statistics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e318a1310">
+               
+               <mixed-citation id="d172075e322" publication-type="journal">
+Geyer, C.J. (1992), "Practical Markov Chain Monte Carlo," Statistical Science, 7, 473-483.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e335a1310">
+               
+               <mixed-citation id="d172075e339" publication-type="book">
+Lohr, S. (1999), Sampling: Design and Analysis, Pacific Grove, CA: Duxbury.<person-group>
+                     <string-name>
+                     <surname>Lohr</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sampling: Design and Analysis</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e361a1310">
+               
+               <mixed-citation id="d172075e365" publication-type="journal">
+MacEachemr, S.N., and Berliner, L.M. (1994), "Subsampling the Gibbs Sampler," The American Statistician,
+48, 188-190.<person-group>
+                     <string-name>
+                     <surname>MacEachern</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>188</fpage>
+               <volume>48</volume>
+               <source>The American Statistician</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e397a1310">
+               
+               <mixed-citation id="d172075e401" publication-type="journal">
+MacEachemr, S.N., and Peruggia, M. (2000), "Subsampling the Gibbs Sampler: Variance Reduction," Statistics
+and Probability Letters, 47, 91-98.<person-group>
+                     <string-name>
+                     <surname>MacEachern</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>47</volume>
+               <source>Statistics and Probability Letters</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e433a1310">
+               
+               <mixed-citation id="d172075e437" publication-type="book">
+Pollard, D. (1984), Convergence of Stochastic Processes, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Pollard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Convergence of Stochastic Processes</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e460a1310">
+               
+               <mixed-citation id="d172075e464" publication-type="book">
+Spiegelhalter, J., Thomas, A., Best, N.G., and Gilks, W.R. (1996), BUGS: Bayesian Inference Using Gibbs
+Sampling, Version 0.5, (version ii), Cambridge, UK: MRC Biostatistics Unit.<person-group>
+                     <string-name>
+                     <surname>Spiegelhalter</surname>
+                  </string-name>
+                  </person-group>
+               <source>BUGS: Bayesian Inference Using Gibbs Sampling, Version 0.5, (version ii)</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e489a1310">
+               
+               <mixed-citation id="d172075e493" publication-type="journal">
+Tierney, L. (1994), "Markov Chains forExploring Posterior Distributions," TheAnnals of Statistics, 22, 1701-1728.<person-group>
+                     <string-name>
+                     <surname>Tierney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1701</fpage>
+               <volume>22</volume>
+               <source>The Annals of Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172075e522a1310">
+               
+               <mixed-citation id="d172075e526" publication-type="book">
+Vanderhoeft, C. (2001), "Generalized Calibration at Statistics Belgium: SPSS Module g-CALIB-S and Current
+Practices," Working Paper, Statistics Belgium.<person-group>
+                     <string-name>
+                     <surname>Vanderhoeft</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Calibration at Statistics Belgium: SPSS Module g-CALIB-S and Current Practices</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

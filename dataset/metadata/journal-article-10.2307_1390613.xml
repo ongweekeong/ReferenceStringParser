@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260287</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390613</article-id>
+         
+         <title-group>
+            <article-title>Quantile Regression via an MM Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David R.</given-names>
+                  <surname>Hunter</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Kenneth</given-names>
+                  <surname>Lange</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>60</fpage>
+         <lpage>77</lpage>
+         <page-range>60-77</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390613"/>
+         
+         
+         <abstract>
+            <p>Quantile regression is an increasingly popular method for estimating the quantiles of a distribution conditional on the values of covariates. Regression quantiles are robust against the influence of outliers and, taken several at a time, they give a more complete picture of the conditional distribution than a single estimate of the center. This article first presents an iterative algorithm for finding sample quantiles without sorting and then explores a generalization of the algorithm to nonlinear quantile regression. Our quantile regression algorithm is termed an MM, or majorize-minimize, algorithm because it entails majorizing the objective function by a quadratic function followed by minimizing that quadratic. The algorithm is conceptually simple and easy to code, and our numerical tests suggest that it is computationally competitive with a recent interior point algorithm for most problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>EM algorithm</kwd>
+            <kwd>Gauss-Newton method</kwd>
+            <kwd>L&lt;sub&gt;1&lt;/sub&gt; regression</kwd>
+            <kwd>Majorization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3200034e147a1310">
+               
+               <mixed-citation id="d3200034e151" publication-type="journal">
+Bassett, G., and Koenker, R. (1978), "Asymptotic Theory of Least Absolute Error Regression," Journal of the
+American Statistical Association, 73, 618-622.<object-id pub-id-type="doi">10.2307/2286611</object-id>
+               <fpage>618</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e167a1310">
+               
+               <mixed-citation id="d3200034e171" publication-type="journal">
+(1982), "An Empirical Quantile Function for Linear Models with iid Errors," Journal of the American
+Statistical Association, 77, 407-415.<object-id pub-id-type="doi">10.2307/2287261</object-id>
+               <fpage>407</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e187a1310">
+               
+               <mixed-citation id="d3200034e191" publication-type="journal">
+Becker, M.P., Yang, I., and Lange, K. (1997), "EM Algorithms Without Missing Data," Statistical Methods
+in Medical Research, 6, 37-53.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>37</fpage>
+               <volume>6</volume>
+               <source>Statistical Methods in Medical Research</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e223a1310">
+               
+               <mixed-citation id="d3200034e227" publication-type="book">
+Borg, I., and Groenen, P. (1997), Modern Multidimensional Scaling, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Borg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Modern Multidimensional Scaling</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e250a1310">
+               
+               <mixed-citation id="d3200034e254" publication-type="journal">
+Buchinsky, M. (1995), "Quantile Regression, Box-Cox Transformation Model, and the U.S. Wage Structure,"
+Journal of Econometrics, 65, 109-154.<person-group>
+                     <string-name>
+                     <surname>Buchinsky</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>65</volume>
+               <source>Journal of Econometrics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e286a1310">
+               
+               <mixed-citation id="d3200034e290" publication-type="book">
+Casella, G., and Berger, R.L. (1990), Statistical Inference, Pacific Grove, CA: Wadsworth &amp; Brooks/Cole.<person-group>
+                     <string-name>
+                     <surname>Casella</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Inference</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e312a1310">
+               
+               <mixed-citation id="d3200034e316" publication-type="journal">
+Cole, T.J. (1988), "Fitting Smoothed Centile Curves to Reference Data," Journal of the Royal Statistical
+Society, Series A, 151, 385-418.<person-group>
+                     <string-name>
+                     <surname>Cole</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>385</fpage>
+               <volume>151</volume>
+               <source>Journal of the Royal Statistical Society, Series A</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e348a1310">
+               
+               <mixed-citation id="d3200034e352" publication-type="book">
+de Leeuw, J. (1994), "Block-Relaxation Algorithms in Statistics," in Information Systems and Data Analysis,
+eds. H. H. Bock et al., Berlin: Springer-Verlag, pp. 308-325.<person-group>
+                     <string-name>
+                     <surname>de Leeuw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Block-Relaxation Algorithms in Statistics</comment>
+               <fpage>308</fpage>
+               <source>Information Systems and Data Analysis</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e384a1310">
+               
+               <mixed-citation id="d3200034e388" publication-type="journal">
+Dempster, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood From Incomplete Data via the
+EM Algorithm," Journal of the Royal Statistical Society, Series B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e420a1310">
+               
+               <mixed-citation id="d3200034e424" publication-type="journal">
+Efron, B. (1991), "Regression Percentiles Using Asymmetric Squared Error Loss," Statistica Sinica, 1, 93-125.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>1</volume>
+               <source>Statistica Sinica</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e454a1310">
+               
+               <mixed-citation id="d3200034e458" publication-type="journal">
+Eide, E., and Showalter, M.H. (1998), "The Effect of School Quality on Student Performance: A Quantile
+Regression Approach," Economics Letters, 58, 345-350.<person-group>
+                     <string-name>
+                     <surname>Eide</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>345</fpage>
+               <volume>58</volume>
+               <source>Economics Letters</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e490a1310">
+               
+               <mixed-citation id="d3200034e494" publication-type="journal">
+El-Attar, R.A., Vidyasagar, M., and Dutta, S.R.K. (1979), "An Algorithm for LI -norm Minimization With
+Application to Nonlinear L, Approximation," SIAM Journal of Numerical Analysis, 16, 70-86.<object-id pub-id-type="jstor">10.2307/2156897</object-id>
+               <fpage>70</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e510a1310">
+               
+               <mixed-citation id="d3200034e514" publication-type="journal">
+Erdoǧan, H., and Fessler, J.A. (1999), "Monotonic Algorithms for Transmission Tomography," IEEE Trans-
+actions on Medical Imaging, 18, 801-814.<person-group>
+                     <string-name>
+                     <surname>Erdoǧan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>801</fpage>
+               <volume>18</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e546a1310">
+               
+               <mixed-citation id="d3200034e550" publication-type="book">
+Ferguson, T.S. (1967), Mathematical Statistics: A Decision Theoretic Approach, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Ferguson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical Statistics: A Decision Theoretic Approach</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e572a1310">
+               
+               <mixed-citation id="d3200034e576" publication-type="journal">
+He, X. (1997), "Quantile Curves Without Crossing," The American Statistician, 51, 186-192.<person-group>
+                     <string-name>
+                     <surname>He</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>186</fpage>
+               <volume>51</volume>
+               <source>The American Statistician</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e605a1310">
+               
+               <mixed-citation id="d3200034e609" publication-type="book">
+Heiser, W.J. (1995), "Convergent Computation by Iterative Majorization," in Recent Advances in Descriptive
+Multivariate Analysis, ed. W. J. Krzanowski, New York: Oxford University Press, pp. 157-189.<person-group>
+                     <string-name>
+                     <surname>Heiser</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Convergent Computation by Iterative Majorization</comment>
+               <fpage>157</fpage>
+               <source>Recent Advances in Descriptive Multivariate Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e642a1310">
+               
+               <mixed-citation id="d3200034e646" publication-type="book">
+Kennedy, W.J.Jr., and Gentle, J.E. (1980), Statistical Computing, New York: Marcel Dekker.<person-group>
+                     <string-name>
+                     <surname>Kennedy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Computing</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e668a1310">
+               
+               <mixed-citation id="d3200034e672" publication-type="journal">
+Koenker, R., and Bassett, G. (1978), "Regression Quantiles," Econometrica, 46, 33-50.<object-id pub-id-type="doi">10.2307/1913643</object-id>
+               <fpage>33</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e685a1310">
+               
+               <mixed-citation id="d3200034e689" publication-type="journal">
+(1982), "Robust Tests for Heteroscedasticity Based on Regression Quantiles," Econometrica, 50, 43-61.<object-id pub-id-type="doi">10.2307/1912528</object-id>
+               <fpage>43</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e702a1310">
+               
+               <mixed-citation id="d3200034e706" publication-type="journal">
+Koenker, R., and Park, B.J. (1996), "An Interior Point Algorithm for Nonlinear Quantile Regression," Journal
+of Econometrics, 71, 265-283.<person-group>
+                     <string-name>
+                     <surname>Koenker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>71</volume>
+               <source>Journal of Econometrics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e738a1310">
+               
+               <mixed-citation id="d3200034e742" publication-type="journal">
+Lange, K. (1995), "A Gradient Algorithm Locally Equivalent to the EM Algorithm," Journal of the Royal
+Statistical Society, Series B, 57, 425-437.<person-group>
+                     <string-name>
+                     <surname>Lange</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>425</fpage>
+               <volume>57</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e774a1310">
+               
+               <mixed-citation id="d3200034e778" publication-type="journal">
+Lange, K., and Sinsheimer, J. (1993), "Normal/Independent Distributions and Their Applications in Robust
+Regression," Journal of Computational and Statistical Graphics, 2, 175-198.<person-group>
+                     <string-name>
+                     <surname>Lange</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>175</fpage>
+               <volume>2</volume>
+               <source>Journal of Computational and Statistical Graphics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e811a1310">
+               
+               <mixed-citation id="d3200034e815" publication-type="journal">
+Lange, K., Hunter, D.R., and Yang, I. (2000), "Optimization Transfer Using Surrogate Objective Functions"
+(with discussion), Journal of Computational and Graphical Statistics, 9, 1-59.<object-id pub-id-type="doi">10.2307/1390605</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e831a1310">
+               
+               <mixed-citation id="d3200034e835" publication-type="journal">
+Madsen, K., and Nielsen, H.B. (1990), "Finite Algorithms for Robust Linear Regression," Bit, 30, 682-699.<person-group>
+                     <string-name>
+                     <surname>Madsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>682</fpage>
+               <volume>30</volume>
+               <source>Bit</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e864a1310">
+               
+               <mixed-citation id="d3200034e868" publication-type="book">
+McLachlan, G.J., and Krishnan, T. (1996), The EM Algorithm and Extensions, Wiley: New York.<person-group>
+                     <string-name>
+                     <surname>McLachlan</surname>
+                  </string-name>
+                  </person-group>
+               <source>The EM Algorithm and Extensions</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e890a1310">
+               
+               <mixed-citation id="d3200034e894" publication-type="journal">
+Merle, G., and Spath, H. (1974), "Computational Experiences with Discrete lp Approximation," Computing,
+12, 315-321.<person-group>
+                     <string-name>
+                     <surname>Merle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>12</volume>
+               <source>Computing</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e926a1310">
+               
+               <mixed-citation id="d3200034e930" publication-type="book">
+Mosteller, F., and Tukey, J.W. (1977), Data Analysis and Regression: A Second Course in Statistics, Reading,
+MA: Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Mosteller</surname>
+                  </string-name>
+                  </person-group>
+               <source>Data Analysis and Regression: A Second Course in Statistics</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e955a1310">
+               
+               <mixed-citation id="d3200034e959" publication-type="book">
+Ortega, J.M., and Rheinboldt, W.C. (1970), Iterative Solution of Nonlinear Equations in Several Variables,
+Orlando: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e985a1310">
+               
+               <mixed-citation id="d3200034e989" publication-type="journal">
+Portnoy, S., and Koenker, R. (1997), "The Gaussian Hare and the Laplacian Tortoise: Computability of Squared-
+Error Versus Absolute-Error Estimators," Statistical Science, 12, 279-300.<object-id pub-id-type="jstor">10.2307/2246216</object-id>
+               <fpage>279</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1005a1310">
+               
+               <mixed-citation id="d3200034e1009" publication-type="journal">
+Powell, J.L. (1986), "Censored Regression Quantiles," Journal of Econometrics, 32, 143-155.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>143</fpage>
+               <volume>32</volume>
+               <source>Journal of Econometrics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1038a1310">
+               
+               <mixed-citation id="d3200034e1042" publication-type="book">
+Press, W., Flannery, B., Teukolsky, S., and Vetterling, W. (1986), Numerical Recipes, Cambridge: Cambridge
+University Press.<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Recipes</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1067a1310">
+               
+               <mixed-citation id="d3200034e1071" publication-type="book">
+Rousseeuw, P.J., and Leroy, A.M. (1987), Robust Regression and Outlier Detection, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression and Outlier Detection</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1093a1310">
+               
+               <mixed-citation id="d3200034e1097" publication-type="journal">
+Schlossmacher, E.J. (1973), "An Iterative Technique for Absolute Deviations Curve Fitting," Journal of the
+American Statistical Association, 68, 857-859.<object-id pub-id-type="doi">10.2307/2284512</object-id>
+               <fpage>857</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1113a1310">
+               
+               <mixed-citation id="d3200034e1117" publication-type="journal">
+Taylor, J.W., and Bunn, D.W. (1998), "Combining Forecast Quantiles Using Quantile Regression: Investigating
+the Derived Weights, Estimator Bias and Imposing Constraints," Journal of Applied Statistics, 25, 193-
+206.<person-group>
+                     <string-name>
+                     <surname>Taylor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>25</volume>
+               <source>Journal of Applied Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3200034e1153a1310">
+               
+               <mixed-citation id="d3200034e1157" publication-type="book">
+Verboon, P. (1994), A Robust Approach to Nonlinear Multivariate Analysis, Leiden, the Netherlands: DSWO
+Press.<person-group>
+                     <string-name>
+                     <surname>Verboon</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Robust Approach to Nonlinear Multivariate Analysis</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

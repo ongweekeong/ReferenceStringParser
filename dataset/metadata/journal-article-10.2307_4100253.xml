@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">74</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">249</issue>
+         <issue-id>i379545</issue-id>
+         <article-id pub-id-type="jstor">4100253</article-id>
+         
+         <title-group>
+            <article-title>The Arithmetic of Jacobian Groups of Superelliptic Cubics</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>Abdolali Basiri</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Andreas</given-names>
+                  <surname>Enge</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                   Jean-Charles Faugère 
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                   Nicolas Gürel 
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>389</fpage>
+         <lpage>410</lpage>
+         <page-range>389-410</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2005 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100253"/>
+         
+         
+         <abstract>
+            <p>
+               We present two algorithms for the arithmetic of cubic curves with a totally ramified prime at infinity. The first algorithm, inspired by Cantor's reduction for hyperelliptic curves, is easily implemented with a few lines of code, making use of a polynomial arithmetic package. We prove explicit reducedness criteria for superelliptic curves of genus 3 and 4, which show the correctness of the algorithm. The second approach, quite general in nature and applicable to further classes of curves, uses the FGLM algorithm for switching between Gröbner bases for different orderings. Carrying out the computations symbolically, we obtain explicit reduction formulae in terms of the input data. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 11G20</kwd>
+            <kwd>Primary 14Q05</kwd>
+            <kwd>Primary 14H40</kwd>
+            <kwd>Primary 14H45</kwd>
+            <kwd>Primary 68W30</kwd>
+            <kwd>Secondary 11T71</kwd>
+            <kwd>Secondary 13P10</kwd>
+            <kwd>Superelliptic Curve</kwd>
+            <kwd>
+               <tex-math>$C_{ab}$</tex-math> Curve</kwd>
+            <kwd>Jacobian</kwd>
+            <kwd>Arithmetic</kwd>
+            <kwd>
+               <tex-math>$Gr\ddot{o}bner$</tex-math> Basis</kwd>
+            <kwd>S 0025-5718(04)01699-0</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1467382e239a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1467382e246" publication-type="book">
+Leonard M. Adleman, Jonathan DeMarrais, and Ming-Deh Huang. A subexponential al-
+gorithm for discrete logarithms over the rational subgroup of the Jacobians of large genus
+hyperelliptic curves over finite fields. In Leonard M. Adleman and Ming-Deh Huang, editors,
+Algorithmic Number Theory - ANTS-I, volume 877 of Lecture Notes in Computer Science,
+pages 28-40, Berlin, 1994. Springer-Verlag. MR96b: 11078<person-group>
+                     <string-name>
+                     <surname>Adleman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A subexponential algorithm for discrete logarithms over the rational subgroup of the Jacobians of large genus hyperelliptic curves over finite fields</comment>
+               <fpage>28</fpage>
+               <source>Algorithmic Number Theory - ANTS-I</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e287a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1467382e294" publication-type="journal">
+Seigo Arita. Algorithms for computations in Jacobian group of &lt;latex&gt;$C_{ab}$&lt;/latex&gt; curve and their appli-
+cation to discrete-log based public key cryptosystems. IEICE Transactions, J82-A(8):1291-
+1299, 1999<person-group>
+                     <string-name>
+                     <surname>Arita</surname>
+                  </string-name>
+                  </person-group>
+               <issue>8</issue>
+               <fpage>1291</fpage>
+               <volume>J82-A</volume>
+               <source>IEICE Transactions</source>
+               <year>1999</year>
+            </mixed-citation>
+               <mixed-citation id="d1467382e331" publication-type="other">
+Conference on The
+Mathematics of Public Key Cryptography, Toronto 1999</mixed-citation>
+            </ref>
+            <ref id="d1467382e341a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1467382e348" publication-type="journal">
+Seigo Arita. An addition algorithm in Jacobian of &lt;latex&gt;$C_{ab}$&lt;/latex&gt; curves. Discrete Applied Mathematics,
+130(1):13-31, 2003.<person-group>
+                     <string-name>
+                     <surname>Arita</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>13</fpage>
+               <volume>130</volume>
+               <source>Discrete Applied Mathematics</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e383a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1467382e390" publication-type="book">
+Abdolali Basiri, Andreas Enge, Jean-Charles Faug&amp;#x00E8;re, and Nicolas G&amp;#x00FC;rel. Implementing the
+arithmetic of &lt;latex&gt;$C_{3, 4}$&lt;/latex&gt; curves. In Duncan Buell, editor, Algorithmic Number Theory - ANTS-VI,
+Lecture Notes in Computer Science, Berlin, 2004. Springer-Verlag, vol. 3076, pp. 87-101.<person-group>
+                     <string-name>
+                     <surname>Basiri</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Implementing the arithmetic of &lt;latex&gt;$C_{3,4}$&lt;/latex&gt; curves</comment>
+               <fpage>87</fpage>
+               <volume>3076</volume>
+               <source>Algorithmic Number Theory - ANTS-VI</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e429a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1467382e436" publication-type="journal">
+Mark L. Bauer. The arithmetic of certain cubic function fields. Mathematics of Computation,
+73(245):387-413, 2004.<person-group>
+                     <string-name>
+                     <surname>Bauer</surname>
+                  </string-name>
+                  </person-group>
+               <issue>245</issue>
+               <fpage>387</fpage>
+               <volume>73</volume>
+               <source>Mathematics of Computation</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e471a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1467382e478" publication-type="journal">
+David G. Cantor. Computing in the Jacobian of a hyperelliptic curve. Mathematics of Com-
+putation, 48(177):95-101, 1987. MR88f:11118<object-id pub-id-type="doi">10.2307/2007876</object-id>
+               <fpage>95</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e494a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1467382e501" publication-type="journal">
+Andreas Enge. The extended Euclidian algorithm on polynomials, and the computational ef-
+ficiency of hyperelliptic cryptosystems. Designs, Codes and Cryptography, 23(1):53-74, 2001.
+MR2002e:94096<person-group>
+                     <string-name>
+                     <surname>Enge</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>53</fpage>
+               <volume>23</volume>
+               <source>Designs, Codes and Cryptography</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e539a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1467382e546" publication-type="book">
+Andreas Enge. A general framework for subexponential discrete logarithm algorithms in
+groups of unknown order. In A. Blokhuis, J. W. P. Hirschfeld, D. Jungnickel, and J. A.
+Thas, editors, Finite Geometries, volume 3 of Developments in Mathematics, pages 133-146,
+Dordrecht, 2001. Kluwer Academic Publishers.<person-group>
+                     <string-name>
+                     <surname>Enge</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A general framework for subexponential discrete logarithm algorithms in groups of unknown order</comment>
+               <fpage>133</fpage>
+               <source>Finite Geometries</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e584a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1467382e591" publication-type="journal">
+Andreas Enge. Computing discrete logarithms in high-genus hyperelliptic Jacobians
+in provably subexponential time. Mathematics of Computation, 71 (238):729-742, 2002.
+MR2003b:68083<object-id pub-id-type="jstor">10.2307/2698843</object-id>
+               <fpage>729</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e610a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1467382e617" publication-type="journal">
+Andreas Enge and Pierrick Gaudry. A general framework for subexponential discrete loga-
+rithm algorithms. Acta Arithmetica, 102(l):83-103, 2002. MR2002k:11225<person-group>
+                     <string-name>
+                     <surname>Enge</surname>
+                  </string-name>
+                  </person-group>
+               <issue>l</issue>
+               <fpage>83</fpage>
+               <volume>102</volume>
+               <source>Acta Arithmetica</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e653a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1467382e660" publication-type="journal">
+Jean-Charles Faug&amp;#x00E8;re, Patrizia Gianni, Daniel Lazard, and Teo Mora. Efficient computation
+of zero-dimensional Gr&amp;#x00F6;bner bases by change of ordering. Journal of Symbolic Computation,
+16:329-344, 1993. MR94k:68095<person-group>
+                     <string-name>
+                     <surname>Faug&amp;#x00E8;re</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>16</volume>
+               <source>Journal of Symbolic Computation</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e695a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1467382e702" publication-type="journal">
+Steven D. Galbraith, Sachar Paulus, and Nigel P. Smart. Arithmetic on superelliptic curves.
+Mathematics of Computation, 71(237):393-405, 2002. MR2002h:14102<object-id pub-id-type="jstor">10.2307/2698881</object-id>
+               <fpage>393</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e718a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1467382e725" publication-type="book">
+Pierrick Gaudry. An algorithm for solving the discrete log problem on hyperelliptic curves. In
+Bart Preneel, editor, Advances in Cryptology - EUROCRYPT 2000, volume 1807 of Lecture
+Notes in Computer Science, pages 19-34, Berlin, 2000. Springer-Verlag. MR2001b:94028<person-group>
+                     <string-name>
+                     <surname>Gaudry</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An algorithm for solving the discrete log problem on hyperelliptic curves</comment>
+               <fpage>19</fpage>
+               <source>Advances in Cryptology - EUROCRYPT 2000</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e760a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1467382e767" publication-type="book">
+Pierrick Gaudry and Nicolas G&amp;#x00FC;rel. An extension of Kedlaya's point counting algorithm to
+superelliptic curves. In Colin Boyd, editor, Advances in Cryptology - ASIACRYPT 2001,
+volume 2248 of Lecture Notes in Computer Science, pages 480-494, Berlin, 2001. Springer-
+Verlag. MR2003h:11159<person-group>
+                     <string-name>
+                     <surname>Gaudry</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An extension of Kedlaya's point counting algorithm to superelliptic curves</comment>
+               <fpage>480</fpage>
+               <source>Advances in Cryptology - ASIACRYPT 2001</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e805a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1467382e812" publication-type="book">
+Ryuichi Harasawa and Joe Suzuki. Fast Jacobian group arithmetic on &lt;latex&gt;$C_{ab}$&lt;/latex&gt; curves. In Wieb
+Bosma, editor, Algorithmic Number Theory - ANTS-IV, volume 1838 of Lecture Notes in
+Computer Science, pages 359-376, Berlin, 2000. Springer-Verlag. MR2002f:11073<person-group>
+                     <string-name>
+                     <surname>Harasawa</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Jacobian group arithmetic on &lt;latex&gt;$C_{ab}$&lt;/latex&gt; curves</comment>
+               <fpage>359</fpage>
+               <source>Algorithmic Number Theory - ANTS-IV</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e847a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1467382e854" publication-type="journal">
+Florian He&amp;#x00DF;. Computing Riemann-Roch spaces in algebraic function fields and related topics.
+Journal of Symbolic Computation, 33(4):425-445, 2002. MR2003j:14032<person-group>
+                     <string-name>
+                     <surname>He&amp;#x00DF;</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>425</fpage>
+               <volume>33</volume>
+               <source>Journal of Symbolic Computation</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e890a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1467382e897" publication-type="journal">
+Ming-Deh Huang and Doug Ierardi. Efficient algorithms for the Riemann-Roch problem and
+for addition in the Jacobian of a curve. Journal of Symbolic Computation, 18:519-539, 1994.
+MR96h:14077<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>519</fpage>
+               <volume>18</volume>
+               <source>Journal of Symbolic Computation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e932a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1467382e939" publication-type="journal">
+Neal Koblitz. Hyperelliptic cryptosystems. Journal of Cryptology, 1:139-150, 1989.
+MR90k:11165<person-group>
+                     <string-name>
+                     <surname>Koblitz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>1</volume>
+               <source>Journal of Cryptology</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e971a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1467382e978" publication-type="journal">
+Shinji Miura. Linear codes on affine algebraic curves. IEICE Transactions, J81-A:1398-
+1421, 1998. In Japanese. English summary by Ryutaroh Matsumoto available at http://
+www.rmatsumoto.org/cab.html.<person-group>
+                     <string-name>
+                     <surname>Miura</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1398</fpage>
+               <volume>J81-A</volume>
+               <source>IEICE Transactions</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e1013a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1467382e1020" publication-type="journal">
+Volker M&amp;#x00FC;ller, Andreas Stein, and Christoph Thiel. Computing discrete logarithms in
+real quadratic congruence function fields of large genus. Mathematics of Computation,
+68(226):807-822, 1999. MR99i:11119<person-group>
+                     <string-name>
+                     <surname>M&amp;#x00FC;ller</surname>
+                  </string-name>
+                  </person-group>
+               <issue>226</issue>
+               <fpage>807</fpage>
+               <volume>68</volume>
+               <source>Mathematics of Computation</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e1058a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1467382e1065" publication-type="book">
+Sachar Paulus. Lattice basis reduction in function fields. In J. P. Buhler, editor, Algorithmic
+Number Theory - ANTS-III, volume 1423 of Lecture Notes in Computer Science, pages
+567-575, Berlin, 1998. Springer-Verlag. MR2000i:11193<person-group>
+                     <string-name>
+                     <surname>Paulus</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Lattice basis reduction in function fields</comment>
+               <fpage>567</fpage>
+               <source>Algorithmic Number Theory - ANTS-III</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e1100a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1467382e1107" publication-type="journal">
+Renate Scheidler. Ideal arithmetic and infrastructure in purely cubic function fields. Journal
+de Th&amp;#x00E9;orie des Nombres de Bordeaux, 13:609-631, 2001. MR2002k:11209<person-group>
+                     <string-name>
+                     <surname>Scheidler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>609</fpage>
+               <volume>13</volume>
+               <source>Journal de Th&amp;#x00E9;orie des Nombres de Bordeaux</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e1140a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1467382e1147" publication-type="book">
+Emil Volcheck. Computing in the Jacobian of a plane algebraic curve (extended abstract). In
+Leonard M. Adleman and Ming-Deh Huang, editors, Algorithmic Number Theory - ANTS-I,
+volume 877 of Lecture Notes in Computer Science, pages 221-233, Berlin, 1994. Springer-
+Verlag. MR96a:14033<person-group>
+                     <string-name>
+                     <surname>Volcheck</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computing in the Jacobian of a plane algebraic curve (extended abstract)</comment>
+               <fpage>221</fpage>
+               <source>Algorithmic Number Theory - ANTS-I</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467382e1185a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1467382e1192" publication-type="book">
+Andr&amp;#x00E9; Weil. Sur les courbes alg&amp;#x00E9;briques et les vari&amp;#x00E9;t&amp;#x00E9;s qui s'en d&amp;#x00E9;duisent. In Courbes
+alg&amp;#x00E9;briques et vari&amp;#x00E9;t&amp;#x00E9;s ab&amp;#x00E9;liennes. Hermann, Paris 1971, 1948. MR10:262c<person-group>
+                     <string-name>
+                     <surname>Weil</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Sur les courbes alg&amp;#x00E9;briques et les vari&amp;#x00E9;t&amp;#x00E9;s qui s'en d&amp;#x00E9;duisent</comment>
+               <source>Courbes alg&amp;#x00E9;briques et vari&amp;#x00E9;t&amp;#x00E9;s ab&amp;#x00E9;liennes</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

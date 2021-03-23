@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">75</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">254</issue>
+         <issue-id>i379564</issue-id>
+         <article-id pub-id-type="jstor">4100324</article-id>
+         
+         <title-group>
+            <article-title>Approximating the Number of Integers without Large Prime Factors</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Koji</given-names>
+                  <surname>Suzuki</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>1015</fpage>
+         <lpage>1024</lpage>
+         <page-range>1015-1024</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2006 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100324"/>
+         
+         
+         <abstract>
+            <p>Ψ(x,y) denotes the number of positive integers ≤ x and free of prime factors &gt; y. Hildebrand and Tenenbaum gave a smooth approximation formula for Ψ(x,y) in the range <tex-math>$(\log x)^{1+\epsilon} &lt; y \leq x$</tex-math>, where ε is a fixed positive number <tex-math>$\leq 1/2$</tex-math>. In this paper, by modifying their approximation formula, we provide a fast algorithm to approximate Ψ(x,y). The computational complexity of this algorithm is <tex-math>$O(\sqrt{(log x)(log y)})$</tex-math>. We give numerical results which show that this algorithm provides accurate estimates for Ψ(x,y) and is faster than conventional methods such as algorithms exploiting Dickman's function.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 11N25</kwd>
+            <kwd>Secondary 11Y05</kwd>
+            <kwd>Computational Number Theory</kwd>
+            <kwd>Analytic Number Theory</kwd>
+            <kwd>Asymptotic Estimates</kwd>
+            <kwd>Factoring Problem</kwd>
+            <kwd>S 0025-5718(05)01798-9</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3503105e209a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3503105e216" publication-type="journal">
+A. Atkin and D. Bernstein, Prime sieves using binary quadratic forms, Math. Comp. 73,
+1023-1030, 2004. MR2031423 (2004i:11147)<person-group>
+                     <string-name>
+                     <surname>Atkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1023</fpage>
+               <volume>73</volume>
+               <source>Math. Comp.</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e248a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3503105e255" publication-type="journal">
+E. Bach and R. Peralta, Asymptotic semismoothness probabilities, Math. Comp. 65, 1701-
+1715, 1996. MR1370848 (98a:11123)<object-id pub-id-type="jstor">10.2307/2153733</object-id>
+               <fpage>1701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e271a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3503105e278" publication-type="book">
+D. Bernstein, Bounding smooth integers, NTS-III proceedings, Lecture Notes in Compt.
+Sci. 1423, Springer, New York, 128-130, 1998. MR1726065<person-group>
+                     <string-name>
+                     <surname>Bernstein</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bounding smooth integers</comment>
+               <fpage>128</fpage>
+               <volume>1423</volume>
+               <source>NTS-III proceedings</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e313a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3503105e320" publication-type="journal">
+E. R. Canfield, P. Erd&amp;#x00F6;s, and C. Pomerance, On a problem of Oppenheim concerning "fac-
+torisatio numerorum," J. Number Theory 17, 1-28, 1983. MR0712964 (85j:11012)<person-group>
+                     <string-name>
+                     <surname>Canfield</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>17</volume>
+               <source>J. Number Theory</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e353a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3503105e360" publication-type="journal">
+A. Y. Cheer and D. A. Goldston, A differential delay equation arising from the sieve of
+Eratosthenes, Math. Comp. 55, 129-141, 1990. MR1023043 (90j:11091)<object-id pub-id-type="doi">10.2307/2008795</object-id>
+               <fpage>129</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e376a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3503105e383" publication-type="journal">
+N. G. de Bruijn, On the number of positive integers &amp;#x2264; x and free of prime factors &gt; y,
+Nederl. Akad. Wetensch. Proc. Ser. A54, 50-60, 1951. MR0046375 (13:724e)<person-group>
+                     <string-name>
+                     <surname>de Bruijn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>50</fpage>
+               <volume>A54</volume>
+               <source>Nederl. Akad. Wetensch. Proc. Ser.</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e415a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3503105e422" publication-type="journal">
+N. G. de Bruijn, The asymptotic behavior of a function occurring in the theory of primes,
+Journal of the Indian Mathematical Society (New Series) 15 (1951), 25-32. 50-60, 1951.
+MR0043838 (13:326f)<person-group>
+                     <string-name>
+                     <surname>de Bruijn</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="series title">New Series</comment>
+               <fpage>25</fpage>
+               <volume>15</volume>
+               <source>Journal of the Indian Mathematical Society</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e460a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3503105e467" publication-type="journal">
+K. Dickman, On the frequency of numbers containing prime factors of a certain relative
+magnitude, Arkiv F&amp;#x00F6;r Matematik, Astromi Fysik. Band 22 A, no. 10, 1-14, 1930.<person-group>
+                     <string-name>
+                     <surname>Dickman</surname>
+                  </string-name>
+                  </person-group>
+               <issue>10</issue>
+               <fpage>1</fpage>
+               <volume>22 A</volume>
+               <source>Arkiv F&amp;#x00F6;r Matematik, Astromi Fysik.</source>
+               <year>1930</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e502a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3503105e509" publication-type="journal">
+A. Hildebrand, On the number of positive integers &amp;#x2264; x and free of prime factors &gt; y, J.
+Number Theory 22, 289-307, 1986. MR0831874 (87d:11066)<person-group>
+                     <string-name>
+                     <surname>Hildebrand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>289</fpage>
+               <volume>22</volume>
+               <source>J. Number Theory</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e541a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3503105e548" publication-type="journal">
+A. Hildebrand, On the local behavior of &amp;#x03A8;(x,y) Trans. Amer. Math. Soc. 297, 729-751, 1986.
+MR0854096 (87k: 11099)<object-id pub-id-type="doi">10.2307/2000551</object-id>
+               <fpage>729</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e565a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3503105e572" publication-type="journal">
+A. Hildebrand and G. Tenenbaum, On integers free of large prime factors, Trans. Amer.
+Math. Soc. 296, 265-290, 1986. MR0837811 (87f:11066)<object-id pub-id-type="doi">10.2307/2000573</object-id>
+               <fpage>265</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e588a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3503105e595" publication-type="journal">
+A. Hildebrand and G. Tenenbaum, On integers without large prime factors, Journal de
+Th&amp;#x00E9;orie des Nombres de Bordeaux 5, 411-484, 1993. MR1265913 (95d:11116)<person-group>
+                     <string-name>
+                     <surname>Hildebrand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>411</fpage>
+               <volume>5</volume>
+               <source>Journal de Th&amp;#x00E9;orie des Nombres de Bordeaux</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e627a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3503105e634" publication-type="journal">
+S. Hunter and J. Sorenson, Approximating the number of integers free of large prime factors,
+Math. Comp. 66, 1729-1741, 1997. MR1423076 (98c:11093)<object-id pub-id-type="jstor">10.2307/2153697</object-id>
+               <fpage>1729</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e650a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3503105e657" publication-type="journal">
+G. Marsaglia, A. Zaman, and J. C. W. Marsaglia, Numerical solution of some classical
+differential-difference equations, Math. Comp. 53, 191-201, 1989. MR0969490 (90h:65124)<object-id pub-id-type="doi">10.2307/2008355</object-id>
+               <fpage>191</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e673a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3503105e680" publication-type="journal">
+K. K. Norton, Numbers with small prime factors, and the least kth power nonresidue, Mem.
+Amer. Math. Soc. 106, 9-27, 1971. MR0286739 (44:3948)<person-group>
+                     <string-name>
+                     <surname>Norton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>9</fpage>
+               <volume>106</volume>
+               <source>Mem. Amer. Math. Soc.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e712a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3503105e719" publication-type="journal">
+R. A. Rankin, The difference between consecutive prime numbers, J. London Math. Soc. 13,
+242-247, 1938.<person-group>
+                     <string-name>
+                     <surname>Rankin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>242</fpage>
+               <volume>13</volume>
+               <source>J. London Math. Soc.</source>
+               <year>1938</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e752a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3503105e759" publication-type="book">
+J. P. Sorenson, A fast algorithm for approximately counting smooth numbers, ANTS-IV pro-
+ceedings, Lecture Notes in Compt. Sci. 1838, Springer, New York, 539-549, 2000. MR1850632
+(2002e:11123)<person-group>
+                     <string-name>
+                     <surname>Sorenson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A fast algorithm for approximately counting smooth numbers</comment>
+               <fpage>539</fpage>
+               <volume>1838</volume>
+               <source>ANTS-IV proceedings</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503105e797a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3503105e804" publication-type="journal">
+K. Suzuki, An estimate for the number of integers without large prime factors, Math. Comp.,
+73, 1013-1022, 2004. MR2031422 (2005a:11142)<person-group>
+                     <string-name>
+                     <surname>Suzuki</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1013</fpage>
+               <volume>73</volume>
+               <source>Math. Comp.</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">16</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i27594241</issue-id>
+         <article-id pub-id-type="jstor">27594243</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186007X208768</article-id>
+         <title-group>
+            <article-title>Spatially Adaptive Bayesian Penalized Splines with Heteroscedastic Errors</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Ciprian M.</given-names>
+                  <surname>Crainiceanu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>David</given-names>
+                  <surname>Ruppert</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Raymond J.</given-names>
+                  <surname>Carroll</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Adarsh</given-names>
+                  <surname>Joshi</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Billy</given-names>
+                  <surname>Goodner</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2007</year>
+         </pub-date>
+         <fpage>265</fpage>
+         <lpage>288</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2007 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/27594243"/>
+      
+      
+         <abstract>
+            <p>Penalized splines have become an increasingly popular tool for nonparametric smoothing because of their use of low-rank spline bases, which makes computations tractable while maintaining accuracy as good as smoothing splines. This article extends penalized spline methodology by both modeling the variance function nonparametrically and using a spatially adaptive smoothing parameter. This combination is needed for satisfactory inference and can be implemented effectively by Bayesian MCMC. The variance process controlling the spatially adaptive shrinkage of the mean and the variance of the heteroscedastic error process are modeled as log-penalized splines. We discuss the choice of priors and extensions of the methodology, in particular, to multivariate smoothing. A fully Bayesian approach provides the joint posterior distribution of all parameters, in particular, of the error standard deviation and penalty functions. MATLAB, C, and FORTRAN programs implementing our methodology are publicly available.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Heteroscedasticity</kwd>
+            <kwd>MCMC</kwd>
+            <kwd>Multivariate smoothing</kwd>
+            <kwd>Regression splines</kwd>
+            <kwd>Spatially adaptive penalty</kwd>
+            <kwd>Thin-plate splines</kwd>
+            <kwd>Variance functions</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d933450e232a1310">
+          
+            <mixed-citation id="d933450e236" publication-type="other">
+Baladandayuthapani, V., Mallick, B. K., and Carroll, R. J. (2005), "Spatially Adaptive Bayesian Regression
+Splines," Journal of Computational and Graphical Statistics, 14, 378–394.</mixed-citation>
+        </ref>
+        <ref id="d933450e246a1310">
+          
+            <mixed-citation id="d933450e250" publication-type="other">
+Besag, J., Green, P., Higdon, D., and Mengersen, K. (1995), "Bayesian Computation and Stochastic Systems"
+(with discussions), Statistical Science, 10, 3–66.</mixed-citation>
+        </ref>
+        <ref id="d933450e260a1310">
+          
+            <mixed-citation id="d933450e264" publication-type="other">
+Carroll, R. J. (2003), "Variances Are Not Always Nuisance Parameters: The 2002 R. A. Fisher Lecture," Biometrics,
+59,211–220.</mixed-citation>
+        </ref>
+        <ref id="d933450e274a1310">
+          
+            <mixed-citation id="d933450e278" publication-type="other">
+Carroll, R. J., and Ruppert, D. (1988), Transformation and Weighting in Regression, New York: Chapman and
+Hall.</mixed-citation>
+        </ref>
+        <ref id="d933450e289a1310">
+          
+            <mixed-citation id="d933450e293" publication-type="other">
+Cleveland, W. S., and Grosse, E. (1991), "Computational Methods for Local Regression," Statistics and Computing,
+1,47–62.</mixed-citation>
+        </ref>
+        <ref id="d933450e303a1310">
+          
+            <mixed-citation id="d933450e307" publication-type="other">
+Crainiceanu, C., and Ruppert, D. (2004), "Likelihood Ratio Tests in Linear Mixed Models With One Variance
+Component," Journal of the Royal Statistical Society, Series B, 66, 165–185.</mixed-citation>
+        </ref>
+        <ref id="d933450e317a1310">
+          
+            <mixed-citation id="d933450e321" publication-type="other">
+Crainiceanu, C. M., Ruppert, D., and Wand, M. P. (2005), "Bayesian Analysis for Penalized Spline Regression
+using WinBUGS," Journal of Statistical Software, 14. Available online at http.V/www.jstatsoft.org/v14/i14/</mixed-citation>
+        </ref>
+        <ref id="d933450e331a1310">
+          
+            <mixed-citation id="d933450e335" publication-type="other">
+Donoho, D. L., and Johnstone, I. M. (1994), "Ideal Spatial Adaptation by Wavelet Shrinkage," Biometrika, 81,
+425–455.</mixed-citation>
+        </ref>
+        <ref id="d933450e345a1310">
+          
+            <mixed-citation id="d933450e349" publication-type="other">
+Eilers, P. H. C, and Marx, B. D. (1996), "Flexible Smoothing With B-Splines and Penalties" (with discussion),
+Statistical Science, 11, 89–121.</mixed-citation>
+        </ref>
+        <ref id="d933450e359a1310">
+          
+            <mixed-citation id="d933450e363" publication-type="other">
+—(2002), "Generalized Linear Additive Smooth Structures," Journal of Computational and Graphical Statis-
+tics, 11,758–783.</mixed-citation>
+        </ref>
+        <ref id="d933450e374a1310">
+          
+            <mixed-citation id="d933450e378" publication-type="other">
+—(2004), "Splines, Knots, and Penalties," unpublished manuscript.</mixed-citation>
+        </ref>
+        <ref id="d933450e385a1310">
+          
+            <mixed-citation id="d933450e389" publication-type="other">
+Fields Development Team (2006), fields: Tools for Spatial Data, National Center for Atmospheric Research,
+Boulder, CO. Available online at http://www.cgd.ucar.edu/Software/Fields.</mixed-citation>
+        </ref>
+        <ref id="d933450e399a1310">
+          
+            <mixed-citation id="d933450e403" publication-type="other">
+Friedman, J. H. (1991), "Multivariate Adaptive Regression Splines" (with discussion), The Annals of Statistics,
+19, 1–141.</mixed-citation>
+        </ref>
+        <ref id="d933450e413a1310">
+          
+            <mixed-citation id="d933450e417" publication-type="other">
+Gelman, A. (2006), "Prior Distributions for Variance Parameters in Hierarchical Models," Bayesian Analysis, 1,
+515–533.</mixed-citation>
+        </ref>
+        <ref id="d933450e427a1310">
+          
+            <mixed-citation id="d933450e431" publication-type="other">
+Gray, R. J. (1994), "Spline-Based Tests in Survival Analysis," Biometrics, 50, 640–652.</mixed-citation>
+        </ref>
+        <ref id="d933450e438a1310">
+          
+            <mixed-citation id="d933450e442" publication-type="other">
+Hoist, U., Hössjer, O., Björklund, C, Ragnarson, P., and Edner, H. (1996), "Locally Weighted Least Squares
+Kernel Regression and Statistical Evaluation of LIDAR Measurements," Environmetrics, 7, 401–416.</mixed-citation>
+        </ref>
+        <ref id="d933450e453a1310">
+          
+            <mixed-citation id="d933450e457" publication-type="other">
+Jullion, A., and Lambert, P. (2006), Discussion paper DP0534, UCL.</mixed-citation>
+        </ref>
+        <ref id="d933450e464a1310">
+          
+            <mixed-citation id="d933450e468" publication-type="other">
+Kammann, E. E., and Wand, M. P. (2003), "Geoadditive Models," Applied Statistics, 52, 1–18.</mixed-citation>
+        </ref>
+        <ref id="d933450e475a1310">
+          
+            <mixed-citation id="d933450e479" publication-type="other">
+Kauermann, G. (2002), "A Note on Bandwidth Selection for Penalised Spline Smoothing," Technical Report 02-13,
+Department of Statistics, University of Glasgow.</mixed-citation>
+        </ref>
+        <ref id="d933450e489a1310">
+          
+            <mixed-citation id="d933450e493" publication-type="other">
+Krivobokova, T., Crainiceanu, C. M., and Kauermann, G. (2007), "Fast Adaptive Penalized Splines," Journal of
+Computational and Graphical Statistics, to appear.</mixed-citation>
+        </ref>
+        <ref id="d933450e503a1310">
+          
+            <mixed-citation id="d933450e507" publication-type="other">
+Lang, S., and Bretzger, A. (2004), "Bayesian P-Splines," Journal of Compuational and Graphical Statistics, 13,
+183–212.</mixed-citation>
+        </ref>
+        <ref id="d933450e517a1310">
+          
+            <mixed-citation id="d933450e521" publication-type="other">
+Lang, S., Fronk, E. M., and Fahrmeir, L. (2002), "Function Estimation with Locally Adaptive Dynamic Models,"
+Computational Statistics, 17, 479–499.</mixed-citation>
+        </ref>
+        <ref id="d933450e532a1310">
+          
+            <mixed-citation id="d933450e536" publication-type="other">
+Marx, B. D., and Eilers, P.H.C. (1998), "Direct Generalized Additive Modeling With Penalized Likelihood,"
+Computational Statistics &amp;amp; Data Analysis, 28, 193–209.</mixed-citation>
+        </ref>
+        <ref id="d933450e546a1310">
+          
+            <mixed-citation id="d933450e550" publication-type="other">
+Natarajan, R., and Kass, R. E. (2000), "Reference Bayesian Methods for Generalized Linear Mixed Models,"
+Journal of the American Statistical Association, 95, 227–237.</mixed-citation>
+        </ref>
+        <ref id="d933450e560a1310">
+          
+            <mixed-citation id="d933450e564" publication-type="other">
+Ngo, L., and Wand, M. P. (2004), "Smoothing With Mixed Model Software," Journal of Statistical Software, 9.
+Available online at http://www.jstatsoft.org/v09/i01/.</mixed-citation>
+        </ref>
+        <ref id="d933450e574a1310">
+          
+            <mixed-citation id="d933450e578" publication-type="other">
+Nychka, D., Haaland, P., O'Connell, M., and Ellner, S. (1998), "FUNFITS, Data Analysis and Statistical Tools
+for Estimating Functions," in Case Studies in Environmental Statistics, Lecture Notes in Statistics, vol. 132,
+eds. D. Nychka, W. W. Piegorsch, and L. H. Cox, New York: Springer Verlag, pp. 159–179. Online at
+http:// www. cgd. ucar. edu/stats/Software/Funfits/</mixed-citation>
+        </ref>
+        <ref id="d933450e594a1310">
+          
+            <mixed-citation id="d933450e598" publication-type="other">
+Nychka, D., and Saltzman, N. (1998), "Design of Air Quality Monitoring Networks," in Case studies in Environ-
+mental Statistics, Lecture Notes in Statistics, vol. 132, eds. D. Nychka, W. W. Piegorsch, and L. H. Cox, New
+York: Springer Verlag, pp. 51–76.</mixed-citation>
+        </ref>
+        <ref id="d933450e611a1310">
+          
+            <mixed-citation id="d933450e615" publication-type="other">
+Pintore, A., Speckman, P., and Holmes, C. C. (2006), "Spatially Adaptive Smoothing Splines," Biometrika, 93,
+113–125.</mixed-citation>
+        </ref>
+        <ref id="d933450e626a1310">
+          
+            <mixed-citation id="d933450e630" publication-type="other">
+Ruppert, D. (1997), "Local Polynomial Regression and its Applications in Environmental Statistics," in Statistics
+for the Environment (vol. 3), eds. V. Barnett and F. Turkman, Chicester: Wiley, pp. 155–173.</mixed-citation>
+        </ref>
+        <ref id="d933450e640a1310">
+          
+            <mixed-citation id="d933450e644" publication-type="other">
+—(2002), "Selecting the Number of Knots for Penalized Splines," Journal of Computational and Graphical
+Statistics, 11,735–757.</mixed-citation>
+        </ref>
+        <ref id="d933450e654a1310">
+          
+            <mixed-citation id="d933450e658" publication-type="other">
+Ruppert, D., and Carroll, R. J., (2000), "Spatially-Adaptive Penalties for Spline Fitting," Australian and New
+Zealand Journal of Statistics, 42, 205–223.</mixed-citation>
+        </ref>
+        <ref id="d933450e668a1310">
+          
+            <mixed-citation id="d933450e672" publication-type="other">
+Ruppert, D., Wand, M. P., Hoist, and U., Hössier, O. (1997), Technometrics, 39, 262–273.</mixed-citation>
+        </ref>
+        <ref id="d933450e679a1310">
+          
+            <mixed-citation id="d933450e683" publication-type="other">
+Ruppert, D., Wand, M. P., and Carroll, R. J. (2003), Semiparametric Regression, Cambridge: Cambridge University
+Press.</mixed-citation>
+        </ref>
+        <ref id="d933450e693a1310">
+          
+            <mixed-citation id="d933450e697" publication-type="other">
+Smith, M., and Kohn, R. (1997), "A Bayesian Approach to Nonparametric Bivariate Regression," Journal of the
+American Statistical Association, 92, 1522–1535.</mixed-citation>
+        </ref>
+        <ref id="d933450e708a1310">
+          
+            <mixed-citation id="d933450e712" publication-type="other">
+Wood, S. (2006), Generalized Additive Models. An Introduction with R, New York: Chapman &amp;amp; Hall/CRC.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

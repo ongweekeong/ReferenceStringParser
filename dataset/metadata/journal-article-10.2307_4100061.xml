@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">73</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">248</issue>
+         <issue-id>i379544</issue-id>
+         <article-id pub-id-type="jstor">4100061</article-id>
+         
+         <title-group>
+            <article-title>Multivariate Refinable Hermite Interpolant</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bin</given-names>
+                  <surname>Han</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Thomas P. -Y. Yu</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bruce</given-names>
+                  <surname>Piper</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>1913</fpage>
+         <lpage>1935</lpage>
+         <page-range>1913-1935</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100061"/>
+         
+         
+         <abstract>
+            <p>
+               We introduce a general definition of refinable Hermite interpolants and investigate their general properties. We also study a notion of symmetry of these refinable interpolants. Results and ideas from the extensive theory of general refinement equations are applied to obtain results on refinable Hermite interpolants. The theory developed here is constructive and yields an easy-to-use construction method for multivariate refinable Hermite interpolants. Using this method, several new refinable Hermite interpolants with respect to different dilation matrices and symmetry groups are constructed and analyzed. Some of the Hermite interpolants constructed here are related to well-known spline interpolation schemes developed in the computer-aided geometric design community (e.g., the Powell-Sabin scheme). We make some of these connections precise. A spline connection allows us to determine critical Hölder regularity in a trivial way (as opposed to the case of general refinable functions, whose critical Hölder regularity exponents are often difficult to compute). While it is often mentioned in published articles that "refinable functions are important for subdivision surfaces in CAGD applications", it is rather unclear whether an arbitrary refinable function vector can be meaningfully applied to build free-form subdivision surfaces. The bivariate symmetric refinable Hermite interpolants constructed in this article, along with algorithmic developments elsewhere, give an application of vector refinability to subdivision surfaces. We briefly discuss several potential advantages offered by such Hermite subdivision surfaces. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 41A05</kwd>
+            <kwd>Primary 41A15</kwd>
+            <kwd>Primary 41A63</kwd>
+            <kwd>Primary 42C40</kwd>
+            <kwd>Primary 65T60</kwd>
+            <kwd>Primary 65F15</kwd>
+            <kwd>Hermite Interpolation</kwd>
+            <kwd>Refinable Function</kwd>
+            <kwd>Vector Refinability</kwd>
+            <kwd>Subdivision Scheme</kwd>
+            <kwd>Shift Invariant Subspace</kwd>
+            <kwd>Multivariate Spline</kwd>
+            <kwd>
+               Bernstein-Bézier Form 
+            </kwd>
+            <kwd>Wavelet</kwd>
+            <kwd>Subdivision Surface</kwd>
+            <kwd>S 0025-5718(03)01623-5</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4694989e285a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4694989e292" publication-type="book">
+C. de Boor, A practical guide to splines, Applied Mathematical Sciences, no. 27, Springer-
+Verlag, New York, 1978. MR 80a:65027<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A practical guide to splines</comment>
+               <source>Applied Mathematical Sciences</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e321a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4694989e328" publication-type="journal">
+G.C. Donovan, J.S. Geronimo, D.P. Hardin, and P.R. Massopust, Construction of orthogonal
+wavelets using fractal interpolation functions, SIAM J. Math. Anal. 27 (1996), no. 4, 1158-92.
+MR 97f:42053<person-group>
+                     <string-name>
+                     <surname>Donovan</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>1158</fpage>
+               <volume>27</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e366a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4694989e373" publication-type="journal">
+S. Mallat, A theory for multiresolution signal decomposition: The wavelet representation,
+IEEE Trans. on Patt. Anal. and Mach. Intell. 11 (1989), no. 7, 674-693.<person-group>
+                     <string-name>
+                     <surname>Mallat</surname>
+                  </string-name>
+                  </person-group>
+               <issue>7</issue>
+               <fpage>674</fpage>
+               <volume>11</volume>
+               <source>IEEE Trans. on Patt. Anal. and Mach. Intell.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e408a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4694989e415" publication-type="book">
+Y. Meyer, Wavelets and operators, Cambridge University Press, 1992. MR 94f:42001<person-group>
+                     <string-name>
+                     <surname>Meyer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Wavelets and operators</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e438a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4694989e445" publication-type="journal">
+G. Strang and V. Strela, Short wavelets and matrix dilation equations, IEEE Trans. on Signal
+Process. (1995), 108-115.<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>108</fpage>
+               <source>IEEE Trans. on Signal Process.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e474a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4694989e481" publication-type="journal">
+R. E. Barnhill and J. A. Gregory, Polynomial interpolation to boundary data on triangles,
+Math. Comp. 29 (1975), no. 131, 726-735. MR 51:11925<object-id pub-id-type="doi">10.2307/2005283</object-id>
+               <fpage>726</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e497a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4694989e504" publication-type="journal">
+J. V. Burke, A. S. Lewis, and M. L. Overton, Two numerical methods for optimizing matrix
+stability, Linear Algebra Appl. 351/352 (2002), 117-145. MR 2003f:93066<person-group>
+                     <string-name>
+                     <surname>Burke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>117</fpage>
+               <volume>351</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e536a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4694989e543" publication-type="journal">
+C. Cabrelli, C. Heil, and U. Molter, Accuracy of lattice translates of several multidimensional
+refinable functions, J. Approx. Th. 95 (1998), no. 1, 5-52. MR 99g:42038<person-group>
+                     <string-name>
+                     <surname>Cabrelli</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>5</fpage>
+               <volume>95</volume>
+               <source>J. Approx. Th.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e578a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4694989e585" publication-type="journal">
+E. Catmull and J. Clark, Recurssive generated B-spline surfaces on arbitrary topological
+meshes, Comp. Aid. Geom. Des. 10 (1978), no. 6, 350-355.<person-group>
+                     <string-name>
+                     <surname>Catmull</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>350</fpage>
+               <volume>10</volume>
+               <source>Comp. Aid. Geom. Des.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e620a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4694989e627" publication-type="book">
+A.S. Cavaretta, W. Dahmen, and C.A. Micchelli, Stationary subdivision, Mem. Amer. Math.
+Soc. 453 (1991), Amer. Math. Soc, Providence. MR 92h:65017<person-group>
+                     <string-name>
+                     <surname>Cavaretta</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Stationary subdivision</comment>
+               <volume>453</volume>
+               <source>Mem. Amer. Math. Soc.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e660a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4694989e667" publication-type="journal">
+D.-R. Chen, R. Q. Jia, and S. D. Riemenschneider, Convergence of vector subdivision schemes
+in sobolev spaces, Appl. Comput. Harmon. Anal. 12 (2002), no. 1, 128-149. MR 2002k:65220<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>128</fpage>
+               <volume>12</volume>
+               <source>Appl. Comput. Harmon. Anal.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e702a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4694989e709" publication-type="other">
+C. de Boor, Personal Communication, 2001.</mixed-citation>
+            </ref>
+            <ref id="d4694989e716a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4694989e723" publication-type="journal">
+C. de Boor, Multivariate piecewise polynimials, Acta Numerica (1993), 65-109.<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <source>Acta Numerica</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e748a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4694989e755" publication-type="journal">
+D. Doo and M. Sabin, Analysis of the behavoir of recursive division surfaces near extraordi-
+nary points, Comp. Aid. Geom. Des. 10 (1978), no. 6, 356-360.<person-group>
+                     <string-name>
+                     <surname>Doo</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>356</fpage>
+               <volume>10</volume>
+               <source>Comp. Aid. Geom. Des.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e790a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4694989e797" publication-type="journal">
+S. Dubuc and J. L. Merrien, Dyadic Hermite interpolants on a rectangular mesh, Adv. Comp.
+Math. 10 (1999), no. 3-4, 343-365. MR 2000b:41004<person-group>
+                     <string-name>
+                     <surname>Dubuc</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>343</fpage>
+               <volume>10</volume>
+               <source>Adv. Comp. Math.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e832a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4694989e839" publication-type="book">
+N. Dyn and D. Levin, Analysis of Hermite-interpolatory subdivision schemes, Spline Functions
+and the Theory of Wavelets (S. Dubuc and G. Deslauriers, eds.), 1999, CRM (Centre de
+Recherches Math&amp;#x00E9;matiques, Universit&amp;#x00E9; de Montr&amp;#x00E9;al) Proceedings &amp; Lectures Notes, Volume
+18, pp. 105-113. MR 99j:42040<person-group>
+                     <string-name>
+                     <surname>Dyn</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analysis of Hermite-interpolatory subdivision schemes</comment>
+               <fpage>105</fpage>
+               <source>Spline Functions and the Theory of Wavelets</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e878a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4694989e885" publication-type="journal">
+N. Dyn, D. Levin, and J. A. Gregory, A butterfly subdivision scheme for surface interpolation
+with tension control, ACM Trans. Graph. 9 (1990), no. 2.<person-group>
+                     <string-name>
+                     <surname>Dyn</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <volume>9</volume>
+               <source>ACM Trans. Graph.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e917a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4694989e924" publication-type="journal">
+N. Dyn and T. Lyche, Hermite subdivision scheme for the evaluation of the Powell-Sabin
+12-split element, Approximation Theory IX (C. Chui and L.L. Schmaker, eds.), 1999, pp. 1-6.<person-group>
+                     <string-name>
+                     <surname>Dyn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>IX</volume>
+               <source>Approximation Theory</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e956a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4694989e963" publication-type="journal">
+G. Farin, Triangular Bernstein-B&amp;#x00E9;zier patches, Comp. Aid. Geom. Des. 3 (1986), 83-127. MR
+87k:65014<person-group>
+                     <string-name>
+                     <surname>Farin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>83</fpage>
+               <volume>3</volume>
+               <source>Comp. Aid. Geom. Des.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e995a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4694989e1002" publication-type="book">
+B. Han, Hermite interpolants and biorthogonal multiwavelets with arbitrary order of vanish-
+ing moments, Proc. SPIE 3813, Wavelet Applications in Signal and Image Processing VII
+(A. Aldroubi M. A. Unser and A. F. Laine, eds.), 1999, pp. 147-161. MR 2000m:42032<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Hermite interpolants and biorthogonal multiwavelets with arbitrary order of vanishing moments</comment>
+               <fpage>147</fpage>
+               <volume>3813</volume>
+               <source>Proc. SPIE</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1040a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4694989e1047" publication-type="journal">
+---, Analysis and construction of optimal multivariate biorthogonal wavelets with compact
+support, SIAM J. Math. Anal. 31 (2000), no. 2, 274-304. MR 2000m:42032<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>274</fpage>
+               <volume>31</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1082a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4694989e1089" publication-type="journal">
+---, Approximation properties and construction of Hermite interpolants and biorthogonal
+multiwavelets, J. Approx. Theory 110 (2001), no. 1, 18-53. MR 2002e:41008<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>18</fpage>
+               <volume>110</volume>
+               <source>J. Approx. Theory</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1125a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4694989e1132" publication-type="book">
+---, The initial functions in a cascade algorithm, Wavelet Analysis: Twenty Years' De-
+velopments, Proceedings of International Conference on Computational Harmonic Analysis
+(D.X. Zhou, ed.), 2002, pp. 154-178.<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The initial functions in a cascade algorithm, Wavelet Analysis: Twenty Years' Developments</comment>
+               <fpage>154</fpage>
+               <source>Proceedings of International Conference on Computational Harmonic Analysis</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1167a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4694989e1174" publication-type="other">
+---, Vector cascade algorithms and refinable function vectors in Sobolev spaces, Preprint,
+available at http://www.ualberta.ca/~bhan/publ.htm, July 2002.</mixed-citation>
+            </ref>
+            <ref id="d4694989e1184a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4694989e1191" publication-type="journal">
+---, Computing the smoothness exponent of a symmetric multivariate refinable function,
+SIAM J. Matrix Anal. and Appl. 24 (2003), no. 3, 693-714.<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>693</fpage>
+               <volume>24</volume>
+               <source>SIAM J. Matrix Anal. and Appl.</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1226a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4694989e1233" publication-type="journal">
+B. Han, M. Overton, and T. P.-Y. Yu, Design of Hermite subdivision schemes aided by spectral
+radius optimization, SIAM J. Sci. Comput. 25 (2003), no. 2, 643-656.<person-group>
+                     <string-name>
+                     <surname>Han</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>643</fpage>
+               <volume>25</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1268a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4694989e1275" publication-type="journal">
+R. Q. Jia, Approximation properties of multivariate wavelets, Math. Comp. 67 (1998), no. 222,
+647-665. MR 98g:41020<object-id pub-id-type="jstor">10.2307/2585142</object-id>
+               <fpage>647</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1291a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d4694989e1298" publication-type="journal">
+R. Q. Jia and Q. T. Jiang, Spectral analysis of the transition operator and its applications to
+smoothness analysis of wavelets, SIAM J. Matrix Anal. and Appl. 24 (2003), no. 4, 1071-1109.<person-group>
+                     <string-name>
+                     <surname>Jia</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>1071</fpage>
+               <volume>24</volume>
+               <source>SIAM J. Matrix Anal. and Appl.</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1334a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d4694989e1341" publication-type="journal">
+J. M. Lane and R. F. Risenfeld, A theoretical development for the computer generation and
+display of piecewise polynomial functions, IEEE Trans. on Patt. Anal. and Mach. Intell. 2
+(1980), no. 1, 35-46.<person-group>
+                     <string-name>
+                     <surname>Lane</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>35</fpage>
+               <volume>2</volume>
+               <source>IEEE Trans. on Patt. Anal. and Mach. Intell.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1379a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d4694989e1386" publication-type="journal">
+J. L. Merrien, A family of Hermite interpolants by bisection algorithms, Numer. Alg. 2 (1992),
+187-200. MR 93b:41005<person-group>
+                     <string-name>
+                     <surname>Merrien</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>2</volume>
+               <source>Numer. Alg.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1418a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d4694989e1425" publication-type="journal">
+---, Dyadic Hermite interpolants on a triangulation, Numer. Alg. 7 (1994), no. 2-4, 391-
+410. MR 95c:41012<person-group>
+                     <string-name>
+                     <surname>Merrien</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>391</fpage>
+               <volume>7</volume>
+               <source>Numer. Alg.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1460a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d4694989e1467" publication-type="journal">
+M. J. D. Powell and M. A. Sabin, Piecewise quadratic approximations on triangles, ACM
+Trans. Math. Software 3 (1977), 316-325. MR 58:3319<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>316</fpage>
+               <volume>3</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1499a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d4694989e1506" publication-type="journal">
+A. Ron, Smooth refinable functions provide good approximation orders, SIAM J. Math. Anal.
+28 (1997), no. 3, 511-523. MR 98g:42057<person-group>
+                     <string-name>
+                     <surname>Ron</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>511</fpage>
+               <volume>28</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1541a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d4694989e1548" publication-type="book">
+N. S. Sapidis, Designing fair curves and surfaces: Shape quality in geometric modeling and
+computer-aided design, SIAM, 1994. MR 95m:65035<person-group>
+                     <string-name>
+                     <surname>Sapidis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Designing fair curves and surfaces: Shape quality in geometric modeling and computer-aided design</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1574a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d4694989e1581" publication-type="book">
+J. Warren and H. Weimer, Subdivision methods for geometric design: A constructive approach,
+Morgan Kaufmann, 2001.<person-group>
+                     <string-name>
+                     <surname>Warren</surname>
+                  </string-name>
+                  </person-group>
+               <source>Subdivision methods for geometric design: A constructive approach</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1606a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d4694989e1613" publication-type="book">
+T. P.-Y. Yu, Approximation order/smoothness tradeoff in Hermite subdivision schemes, Proc.
+SPIE, Wavelets: Applications in Signal and Image Processing IX (A. F. Laine, M. A. Unser,
+and A. Aldroubi, eds.), vol. 4478, 2001, pp. 117-128.<person-group>
+                     <string-name>
+                     <surname>Yu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Approximation order/smoothness tradeoff in Hermite subdivision schemes</comment>
+               <fpage>117</fpage>
+               <volume>4478</volume>
+               <source>Proc. SPIE, Wavelets: Applications in Signal and Image Processing IX</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1651a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d4694989e1658" publication-type="book">
+---, Hermite subdivision surfaces: Applications of vector refinability to free-form surfaces,
+In preparation, 2001.<person-group>
+                     <string-name>
+                     <surname>Yu</surname>
+                  </string-name>
+                  </person-group>
+               <source>Hermite subdivision surfaces: Applications of vector refinability to free-form surfaces</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694989e1683a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d4694989e1690" publication-type="journal">
+D. X. Zhou, Multiple refinable Hermite interpolants, J. Approx. Theory 102 (2000), 46-71.
+MR 2000k:41026<person-group>
+                     <string-name>
+                     <surname>Zhou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>46</fpage>
+               <volume>102</volume>
+               <source>J. Approx. Theory</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

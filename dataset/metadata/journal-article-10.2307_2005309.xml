@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">29</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">131</issue>
+         <issue-id>i334554</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005309</article-id>
+         
+         <title-group>
+            <article-title>Factoring Multivariate Polynomials Over the Integers</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul S.</given-names>
+                  <surname>Wang</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Linda Preiss</given-names>
+                  <surname>Rothschild</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1975</year>
+         </pub-date>
+         <fpage>935</fpage>
+         <lpage>950</lpage>
+         <page-range>935-950</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1975 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005309"/>
+         
+         
+         <abstract>
+            <p>An algorithm for the irreducible factorization of any multivariate polynomial over the integers is given. It is much faster than the classical method ascribed to Kronecker. The algorithm begins by making substitutions for all but one of the variables with selected integers, giving a polynomial in just one variable. This univariate polynomial is then factored by a known method, which uses an algorithm of Berlekamp for factoring univariate polynomials over finite fields. The multivariate factors are constructed from the univariate ones by a kind of Hensel algorithm. The procedure has been implemented in the algebraic manipulation systems MACSYMA and SCRATCHPAD. A number of machine examples with timing are included.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>10M05</kwd>
+            <kwd>12-04</kwd>
+            <kwd>12C05</kwd>
+            <kwd>10D05</kwd>
+            <kwd>12E05</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d677969e150a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d677969e157" publication-type="journal">
+E. R. BERLEKAMP, "Factoring polynomials over finite fields," Bell System Tech. J., v.
+46, 1967, pp. 1853-1859. MR 36 #2314.<person-group>
+                     <string-name>
+                     <surname>Berlekamp</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1853</fpage>
+               <volume>46</volume>
+               <source>Bell System Tech. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e189a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d677969e196" publication-type="journal">
+E. R. BERLEKAMP, "Factoring polynomials over large finite fields," Math. Comp., v. 24,
+1970, pp. 713-735. MR 43 # 1948.<object-id pub-id-type="doi">10.2307/2004849</object-id>
+               <fpage>713</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e212a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d677969e219" publication-type="journal">
+W. S. BROWN, "On Euclid's algorithm and the computation of polynomial greatest com-
+mon divisors," J. Assoc. Comput. Mach., v. 18, 1971, pp. 478-504. MR 46 #6570.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>478</fpage>
+               <volume>18</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e251a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d677969e258" publication-type="book">
+G. E. COLLINS, SAC-1 Modular Arithmetic System, University of Wisconsin Technical Re-
+port No. 10, June 1969.<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <source>SAC-1 Modular Arithmetic System</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e284a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d677969e291" publication-type="book">
+A. 0. GEL'FOND, Transcendental and Algebraic Numbers, GITTL, Moscow, 1952<person-group>
+                     <string-name>
+                     <surname>Gel'fond</surname>
+                  </string-name>
+                  </person-group>
+               <source>Transcendental and Algebraic Numbers</source>
+               <year>1952</year>
+            </mixed-citation>
+               <mixed-citation id="d677969e312" publication-type="other">
+English
+transl., Dover, New York, 1960. MR 15, 292; 22 #2598.</mixed-citation>
+            </ref>
+            <ref id="d677969e322a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d677969e329" publication-type="book">
+D. E. KNUTH, The Art of Computer Programming. Vol. 2: Seminumerical Algorithms,
+Addison-Wesley, Reading, Mass., 1969. MR 44 #3531.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Art of Computer Programming. Vol. 2: Seminumerical Algorithms</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e354a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d677969e361" publication-type="book">
+J. McCARTHY et al., LISP 1.5 Programmer's Manual, M.I.T. Press, Cambridge, Mass.,
+1963.<person-group>
+                     <string-name>
+                     <surname>McCarthy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Programmer's Manual</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e386a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d677969e393" publication-type="conference">
+J. MOSES &amp; D. Y. Y. YUN, "The EZ GCD algorithm," Proceedings of ACM Annual Con-
+ference, August1973.<person-group>
+                     <string-name>
+                     <surname>Moses</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The EZ GCD algorithm</comment>
+               <source>Proceedings of ACM Annual Conference</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e422a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d677969e429" publication-type="other">
+D. R. MUSSER, Algorithms for Polynomial Factorization, Ph. D. Thesis, Computer Science
+Department, The University of Wisconsin, Madison, Wis., 1971.</mixed-citation>
+            </ref>
+            <ref id="d677969e439a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d677969e446" publication-type="book">
+B. L. VAN DER WAERDEN, Modern Algebra Vol. 1, Springer, Berlin, 1930<person-group>
+                     <string-name>
+                     <surname>van der Waerden</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1</volume>
+               <source>Modern Algebra</source>
+               <year>1930</year>
+            </mixed-citation>
+               <mixed-citation id="d677969e470" publication-type="other">
+English
+transl., Ungar, New York, 1949. MR 10, 587.</mixed-citation>
+            </ref>
+            <ref id="d677969e481a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d677969e488" publication-type="other">
+D. Y. Y. YUN, The Hensel Lemma in Algebraic Manipulation, Ph. D. Thesis, Department
+of Mathematics, M.I.T., Nov. 1973 (also Project MAC TR-138, November 1974).</mixed-citation>
+            </ref>
+            <ref id="d677969e498a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d677969e505" publication-type="journal">
+H. ZASSENHAUS, "On Hensel factorization. I," J. Number Theory, v. 1, 1969, pp. 291-
+311. MR 39 #4120.<person-group>
+                     <string-name>
+                     <surname>Zassenhaus</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>291</fpage>
+               <volume>1</volume>
+               <source>J. Number Theory</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d677969e537a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d677969e544" publication-type="other">
+MACSYMA Reference Manual, the MATHLAB group, Project MAC, M.I.T., Cambridge,
+Mass., Sept. 1974.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

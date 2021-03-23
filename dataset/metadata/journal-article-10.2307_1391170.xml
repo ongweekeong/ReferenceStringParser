@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260298</issue-id>
+         <article-id pub-id-type="jstor">1391170</article-id>
+         
+         <title-group>
+            <article-title>Computing Multivariate Normal Probabilities: A New Look</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>H. I.</given-names>
+                  <surname>Gassmann</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>I.</given-names>
+                     <surname>Deák</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>T.</given-names>
+                     <surname>Szántai</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>920</fpage>
+         <lpage>949</lpage>
+         <page-range>920-949</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391170"/>
+         
+         
+         <abstract>
+            <p>
+               This article describes and compares several numerical methods for finding multivariate probabilities over a rectangle. A large computational study shows how the computation times depend on the problem dimensions, the correlation structure, the magnitude of the sought probability, and the required accuracy. No method is uniformly best for all problems and--unlike previous work--this article gives some guidelines to help establish the most promising method a priori. Numerical tests were conducted on approximately 3,000 problems generated randomly in up to 20 dimensions. Our findings indicate that direct integration methods give acceptable results for up to 12-dimensional problems, provided that the probability mass of the rectangle is not too large (less than about 0.9). For problems with small probabilities (less than 0.3) a crude Monte Carlo method gives reasonable results quickly, while bounding procedures perform best on problems with large probabilities (&gt; 0.9). For larger problems numerical integration with quasirandom Korobov points may be considered, as may a decomposition method due to Deák. The best method found four-digit accurate probabilities for every 20-dimensional problem in less than six minutes on a 533MHz Pentium III computer. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Computation</kwd>
+            <kwd>Multivariate normal distribution</kwd>
+            <kwd>Rectangular probability</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d805702e274a1310">
+               
+               <mixed-citation id="d805702e278" publication-type="journal">
+Anderson, J.A., and Pemberton, J.D. (1985), "The Grouped Continuous Model for Multivariate Ordered Cate-
+gorical Variables and Covariate Adjustment'" Biometrics, 41, 875-885.<object-id pub-id-type="doi">10.2307/2530960</object-id>
+               <fpage>875</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e294a1310">
+               
+               <mixed-citation id="d805702e298" publication-type="book">
+Beckers, M., and Haegemans, A. (1992), "Comparison of Numerical Integration Techniques for Multivariate Nor-
+mal Integrals," Working Paper, Department of Computer Science, Catholic University of Leuven, Belgium.<person-group>
+                     <string-name>
+                     <surname>Beckers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Comparison of Numerical Integration Techniques for Multivariate Normal Integrals</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e323a1310">
+               
+               <mixed-citation id="d805702e327" publication-type="journal">
+Berntsen, J., Espelid, T.O., and Genz, A. (1991), "Algorithm 698: DCUHRE-An Adaptive Multidimensional
+Integration Routine for a Vector of Integrals," ACM Transactions on Mathematical Software, 17, 452-456.<person-group>
+                     <string-name>
+                     <surname>Berntsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>452</fpage>
+               <volume>17</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e359a1310">
+               
+               <mixed-citation id="d805702e363" publication-type="journal">
+Bockenholt, U. (1992), "Thurstonian Representation for Partial Ranking Data," British Journal of Mathematical
+and Statistical Psychology, 45, 31-49.<person-group>
+                     <string-name>
+                     <surname>Bockenholt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>45</volume>
+               <source>British Journal of Mathematical and Statistical Psychology</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e396a1310">
+               
+               <mixed-citation id="d805702e400" publication-type="journal">
+Bukszár, J., and Prékopa, A. (2001), "Probability Bounds With Cherry Trees," Mathematics of Operations Re-
+search, 26, 174-192.<person-group>
+                     <string-name>
+                     <surname>Bukszár</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>174</fpage>
+               <volume>26</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e432a1310">
+               
+               <mixed-citation id="d805702e436" publication-type="book">
+Bukszár, J., and Szantai, T. (1999), "Probability Bounds Given by Hyper-Cherry Trees," Alkalmazott Matematikai
+Lapok, 19, 69-85. (in Hungarian); (English translation to appear in Optimization Methods and Software.)<person-group>
+                     <string-name>
+                     <surname>Bukszár</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Probability Bounds Given by Hyper-Cherry Trees</comment>
+               <fpage>69</fpage>
+               <volume>19</volume>
+               <source>Alkalmazott Matematikai Lapok</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e471a1310">
+               
+               <mixed-citation id="d805702e475" publication-type="journal">
+Deak, I. (1980), "Three Digit Accurate Multiple Normal Probabilities," Numerische Mathematik, 35, 369-380.<person-group>
+                     <string-name>
+                     <surname>Deak</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>35</volume>
+               <source>Numerische Mathematik</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e504a1310">
+               
+               <mixed-citation id="d805702e508" publication-type="book">
+(1990), Random Number Generators and Simulation, Budapest: Akademiai Kiad6.<person-group>
+                     <string-name>
+                     <surname>Deak</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random Number Generators and Simulation</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e530a1310">
+               
+               <mixed-citation id="d805702e534" publication-type="book">
+(in press), "Probabilities of Simple n-dimensional Sets for the Normal Distribution," lIE Transactions.<comment content-type="section">Probabilities of Simple n-dimensional Sets for the Normal Distribution</comment>
+               <source>lIE Transactions</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e547a1310">
+               
+               <mixed-citation id="d805702e551" publication-type="journal">
+Donnelly, T.G. (1973) "Algorithm 462: Bivariate Normal Distribution," Communications of the ACM, 16, 638.<person-group>
+                     <string-name>
+                     <surname>Donnelly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>638</fpage>
+               <volume>16</volume>
+               <source>Communications of the ACM</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e581a1310">
+               
+               <mixed-citation id="d805702e585" publication-type="journal">
+Drezner, Z., and Wesolowsky, G. 0. (1990), "On the Computation of the Bivariate Normal Integral," Journal of
+Statistical Computation and Simulation, 35, 101-107.<person-group>
+                     <string-name>
+                     <surname>Drezner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>35</volume>
+               <source>Journal of Statistical Computation and Simulation</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e617a1310">
+               
+               <mixed-citation id="d805702e621" publication-type="book">
+Gassmann, H. (1988), "Conditional Probability and Conditional Expectation of a Random Vector," in Numerical
+Techniquesfor Stochastic Optimization, eds. Yu. Ermoliev, and R.J-B Wets, Springer Series in Computational
+Mathematics, Vol. 10, New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Gassmann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Conditional Probability and Conditional Expectation of a Random Vector</comment>
+               <volume>10</volume>
+               <source>Numerical Techniquesfor Stochastic Optimization</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e656a1310">
+               
+               <mixed-citation id="d805702e660" publication-type="journal">
+Genz, A. (1992), "Numerical Computation of Multivariate Normal Probabilities," Journal of Computational and
+Graphical Statistics, 1, 141-149.<object-id pub-id-type="doi">10.2307/1390838</object-id>
+               <fpage>141</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e676a1310">
+               
+               <mixed-citation id="d805702e680" publication-type="journal">
+(1993), "Comparison of Methods for the Computation of Multivariate Normal Probabilities," Computing
+Science and Statistics, 25, 400-405.<person-group>
+                     <string-name>
+                     <surname>Genz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>400</fpage>
+               <volume>25</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e712a1310">
+               
+               <mixed-citation id="d805702e716" publication-type="other">
+(1998), Personal homepage, http://www.sci.wsu.edu/math/faculty/genz/homepage.</mixed-citation>
+            </ref>
+            <ref id="d805702e723a1310">
+               
+               <mixed-citation id="d805702e727" publication-type="journal">
+Gupta, S.S., (1963), "Probability Integrals of Multivariate Normal and Multivariate t," Annals of Mathematical
+Statistics, 34, 792-828.<object-id pub-id-type="jstor">10.2307/2238463</object-id>
+               <fpage>792</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e744a1310">
+               
+               <mixed-citation id="d805702e748" publication-type="journal">
+Hajivassilou, V., McFadden, D., and Ruud, P. (1996), "Simulation of Multivariate Normal Rectangle Probabilities:
+Theoretical and Computational Results," Journal of Econometrics, 72, 85-134.<person-group>
+                     <string-name>
+                     <surname>Hajivassilou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>85</fpage>
+               <volume>72</volume>
+               <source>Journal of Econometrics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e780a1310">
+               
+               <mixed-citation id="d805702e784" publication-type="journal">
+Harris, B., and Soms, A.P. (1980), "The Use of the Tetrachoric Series for Evaluating Multivariate Normal
+Probabilities," Journal of Multivariate Analysis, 10, 252-267.<person-group>
+                     <string-name>
+                     <surname>Harris</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>252</fpage>
+               <volume>10</volume>
+               <source>Journal of Multivariate Analysis</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e816a1310">
+               
+               <mixed-citation id="d805702e820" publication-type="book">
+Hart, J.F., Cheney, E. W., Lawson, C. L., Maehly, H. J., Mesztenyi, C. K., Rice, J. R., Thatcher, Jr., H. G., and
+Witzgall, C. (1968), Computer Approximations, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Hart</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Approximations</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e845a1310">
+               
+               <mixed-citation id="d805702e849" publication-type="journal">
+Hill, I.D., and Joyce, S.A. (1967), "Algorithm 304: Normal Curve Integral," Communications of the ACM, 10,
+374.<person-group>
+                     <string-name>
+                     <surname>Hill</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>374</fpage>
+               <volume>10</volume>
+               <source>Communications of the ACM</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e881a1310">
+               
+               <mixed-citation id="d805702e885" publication-type="journal">
+Hunter, D. (1976), "Bounds for the Probability of a Union," Journal of Applied Probability, 13, 597-603.<object-id pub-id-type="doi">10.2307/3212481</object-id>
+               <fpage>597</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e898a1310">
+               
+               <mixed-citation id="d805702e902" publication-type="journal">
+Joe, H. (1995), "Approximations to Multivariate Normal Rectangle Probabilities Based on Conditional Expecta-
+tions," Journal of the American Statistical Association, 90, 957-964.<object-id pub-id-type="doi">10.2307/2291331</object-id>
+               <fpage>957</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e919a1310">
+               
+               <mixed-citation id="d805702e923" publication-type="journal">
+Keast, P. (1973), "Optimal Parameters for Multidimensional Integration," SIAM Journal on Numerical Analysis,
+10, 831-838.<object-id pub-id-type="jstor">10.2307/2156317</object-id>
+               <fpage>831</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e939a1310">
+               
+               <mixed-citation id="d805702e943" publication-type="journal">
+Kendall, M.G. (1941), "Proof of Relations Connected With the Tetrachoric Series and its Generalizations,"
+Biometrika, 32, 196-198.<object-id pub-id-type="doi">10.2307/2332214</object-id>
+               <fpage>196</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e959a1310">
+               
+               <mixed-citation id="d805702e963" publication-type="journal">
+Korobov, N.M. (1959), "On Approximate Calculations of Multiple Integrals," Doklady Akademii Nauk SSSR,
+124, 1207-1210, (in Russian).<person-group>
+                     <string-name>
+                     <surname>Korobov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1207</fpage>
+               <volume>124</volume>
+               <source>Doklady Akademii Nauk SSSR</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e995a1310">
+               
+               <mixed-citation id="d805702e999" publication-type="journal">
+(1960), "Properties and Calculation of Optimal Coefficients," Soviet Mathematical Doklady, 1, 696-700.<person-group>
+                     <string-name>
+                     <surname>Korobov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>696</fpage>
+               <volume>1</volume>
+               <source>Soviet Mathematical Doklady</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1028a1310">
+               
+               <mixed-citation id="d805702e1032" publication-type="journal">
+Marsaglia, G., and Olkin, I. (1984), "Generating Correlation Matrices," SIAM Journal of Scientific and Statistical
+Computing, 5, 470-475.<person-group>
+                     <string-name>
+                     <surname>Marsaglia</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>470</fpage>
+               <volume>5</volume>
+               <source>SIAM Journal of Scientific and Statistical Computing</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1064a1310">
+               
+               <mixed-citation id="d805702e1068" publication-type="journal">
+Ochi, Y., and Prentice, R.L. (1984), "Likelihood Inference in a Correlated Probit Regression Model," Biometrika,
+71, 531-543.<object-id pub-id-type="doi">10.2307/2336562</object-id>
+               <fpage>531</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1085a1310">
+               
+               <mixed-citation id="d805702e1089" publication-type="journal">
+Prékopa, A. (1974), "Programming Under Probabilistic Constraints with a Random Technology Matrix," Math-
+ematische Operationsforschung und Statistik, 5, 109-116.<person-group>
+                     <string-name>
+                     <surname>Prékopa</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>5</volume>
+               <source>Mathematische Operationsforschung und Statistik</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1121a1310">
+               
+               <mixed-citation id="d805702e1125" publication-type="book">
+(1995), Stochastic Programming, London: Kluwer Academic Publishers.<person-group>
+                     <string-name>
+                     <surname>Prékopa</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stochastic Programming</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1147a1310">
+               
+               <mixed-citation id="d805702e1151" publication-type="conference">
+Prékopa, A., Deak, I., Ganczer, S., and Patyi, K. (1980), "The STABIL Stochastic Programming Model and
+its Experimental Application to the Electrical Energy Sector of the Hungarian Economy," in Stochastic
+programming, Proceedings of the International Conference Oxford 1974, ed. M. A. H. Dempster, Oxford:
+Oxford University Press, pp. 369-385.<person-group>
+                     <string-name>
+                     <surname>Prékopa</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The STABIL Stochastic Programming Model and its Experimental Application to the Electrical Energy Sector of the Hungarian Economy</comment>
+               <fpage>369</fpage>
+               <source>Stochastic programming, Proceedings of the International Conference Oxford 1974</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1189a1310">
+               
+               <mixed-citation id="d805702e1193" publication-type="journal">
+Prékopa, A., and Szantai, T. (1978), "Flood Control Reservoir System Design Using Stochastic Programming,"
+Mathematical Programming Study, 9, 138-151.<person-group>
+                     <string-name>
+                     <surname>Prékopa</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>138</fpage>
+               <volume>9</volume>
+               <source>Mathematical Programming Study</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1225a1310">
+               
+               <mixed-citation id="d805702e1229" publication-type="journal">
+Saltykov, A.I. (1963), "Tables for the Computation of Multiple Integrals Using the Method of Optimal Coeffi-
+cients," USSR Computational Mathematics and Mathematical Physics, 3, 181-186.<person-group>
+                     <string-name>
+                     <surname>Saltykov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>181</fpage>
+               <volume>3</volume>
+               <source>USSR Computational Mathematics and Mathematical Physics</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1261a1310">
+               
+               <mixed-citation id="d805702e1265" publication-type="journal">
+Schervish, M.J. (1984), "Multivariate Normal Probabilities With Error Bound," Applied Statistics, 33, 81-87.<object-id pub-id-type="doi">10.2307/2347670</object-id>
+               <fpage>81</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1279a1310">
+               
+               <mixed-citation id="d805702e1283" publication-type="journal">
+Somerville, P.N. (1998), "Numerical Computation of Multivariate Normal and Multivariate t Probabilities Over
+Convex Regions," Journal of Computational and Graphical Statistics, 7, 529-544.<object-id pub-id-type="doi">10.2307/1390681</object-id>
+               <fpage>529</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1299a1310">
+               
+               <mixed-citation id="d805702e1303" publication-type="journal">
+Szántai, T. (1976), "An Algorithm for Calculating Values and Gradient Vectors for the Multiple Normal Distribution
+Function," Alkalmazott Matematikai Lapok, 2, 27-39 (in Hungarian).<person-group>
+                     <string-name>
+                     <surname>Szántai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>27</fpage>
+               <volume>2</volume>
+               <source>Alkalmazott Matematikai Lapok</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1335a1310">
+               
+               <mixed-citation id="d805702e1339" publication-type="journal">
+(1986), "Evaluation of a Special Multivariate Gamma Distribution Function," Mathematical Programming
+Study, 27, 1-16.<person-group>
+                     <string-name>
+                     <surname>Szántai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>27</volume>
+               <source>Mathematical Programming Study</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1371a1310">
+               
+               <mixed-citation id="d805702e1375" publication-type="journal">
+(2000), "Improved Bounds and Simulation Procedures on the Value of the Multivariate Normal Probability
+Distribution Function," Annals of Operations Research, 100, 85-101.<person-group>
+                     <string-name>
+                     <surname>Szántai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>85</fpage>
+               <volume>100</volume>
+               <source>Annals of Operations Research</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1407a1310">
+               
+               <mixed-citation id="d805702e1411" publication-type="journal">
+Tomescu, I. (1986), "Hypertrees and Bonferroni Inequalities," Journal of Combinatorial Theory, Series B, 41,
+209-217.<person-group>
+                     <string-name>
+                     <surname>Tomescu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>209</fpage>
+               <volume>41</volume>
+               <source>Journal of Combinatorial Theory, Series B</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1443a1310">
+               
+               <mixed-citation id="d805702e1447" publication-type="book">
+Tong, Y.L. (1990), The Multivariate Normal Distribution, New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Multivariate Normal Distribution</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1470a1310">
+               
+               <mixed-citation id="d805702e1474" publication-type="journal">
+Vijverberg, W.P.M. (1997), "Monte Carlo Evaluation of Multivariate Normal Probabilities," Journal of Econo-
+metrics, 76, 281-307.<person-group>
+                     <string-name>
+                     <surname>Vijverberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>76</volume>
+               <source>Journal of Econometrics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805702e1506a1310">
+               
+               <mixed-citation id="d805702e1510" publication-type="journal">
+Worsley, K.J. (1982), "An Improved Bonferroni Inequality and Applications," Biometrika, 69, 297-302.<object-id pub-id-type="doi">10.2307/2335402</object-id>
+               <fpage>297</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

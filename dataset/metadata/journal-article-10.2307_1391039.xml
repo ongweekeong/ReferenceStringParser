@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260301</issue-id>
+         <article-id pub-id-type="jstor">1391039</article-id>
+         
+         <title-group>
+            <article-title>A Gridding Method for Bayesian Sequential Decision Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Anthony E.</given-names>
+                  <surname>Brockwell</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Joseph B.</given-names>
+                  <surname>Kadane</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>566</fpage>
+         <lpage>584</lpage>
+         <page-range>566-584</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391039"/>
+         
+         
+         <abstract>
+            <p>This article introduces a numerical method for finding optimal or approximately optimal decision rules and corresponding expected losses in Bayesian sequential decision problems. The method, based on the classical backward induction method, constructs a grid approximation to the expected loss at each decision time, viewed as a function of certain statistics of the posterior distribution of the parameter of interest. In contrast with most existing techniques, this method has a computation time which is linear in the number of stages in the sequential problem. It can also be applied to problems with insufficient statistics for the parameters of interest. Furthermore, it is well-suited to be implemented using parallel processors.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Backward induction</kwd>
+            <kwd>Batch sequential</kwd>
+            <kwd>Bayesian sequential analysis</kwd>
+            <kwd>Fully sequential</kwd>
+            <kwd>Monte Carlo integration</kwd>
+            <kwd>Parallel computing</kwd>
+            <kwd>Stochastic dynamic programming</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1021980e185a1310">
+               
+               <mixed-citation id="d1021980e189" publication-type="book">
+Berger, J.O., (1985), Statistical Decision Theory and Bayesian Analysis (2nd ed.), New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Statistical Decision Theory and Bayesian Analysis</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e214a1310">
+               
+               <mixed-citation id="d1021980e218" publication-type="journal">
+Berry, D.A., and Ho, C.H. (1988), "One-Sided Sequential Stopping Boundaries for Clinical Trials: A Decision-
+Theoretic Approach," Biometrics, 44, 219-227.<object-id pub-id-type="doi">10.2307/2531909</object-id>
+               <fpage>219</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e234a1310">
+               
+               <mixed-citation id="d1021980e238" publication-type="book">
+Berry, D.A., Muller, P., Grieve, A.P., Smith, M., Parke, T., Blazek, R., Mitchard, N., and Krams, M. (2001),
+"Adaptive Bayesian Designs for Dose-Ranging Drug Trials," in Case Studies in Bayesian Statistics, eds. C.
+Gatsonis, R. E. Kass, B. Carlin, A. Carriquiry, A. Gelman, I. Verdinelli, and M. West, pp. 155-165.<person-group>
+                     <string-name>
+                     <surname>Berry</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Adaptive Bayesian Designs for Dose-Ranging Drug Trials</comment>
+               <fpage>155</fpage>
+               <source>Case Studies in Bayesian Statistics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e273a1310">
+               
+               <mixed-citation id="d1021980e277" publication-type="journal">
+Berry, D.A., and Pearson, L.M. (1985), "Optimal Designs for Two-Stage Clinical Trials With Dichotomous
+Responses," Statistics in Medicine, 4, 487-508.<person-group>
+                     <string-name>
+                     <surname>Berry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>487</fpage>
+               <volume>4</volume>
+               <source>Statistics in Medicine</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e310a1310">
+               
+               <mixed-citation id="d1021980e314" publication-type="book">
+Brockwell, A.E., and Kadane, J.B. (2001), "Sequential Analysis by Gridding Sufficient Statistics," Technical
+Report 756, Carnegie Mellon University, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Brockwell</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sequential Analysis by Gridding Sufficient Statistics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e339a1310">
+               
+               <mixed-citation id="d1021980e343" publication-type="journal">
+Carlin, B.P., Kadane, J.B., and Gelfand, A.E. (1998), "Approaches for Optimal Sequential Decision Analysis in
+Clinical Trials," Biometrics, 54, 964-975.<object-id pub-id-type="doi">10.2307/2533849</object-id>
+               <fpage>964</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e359a1310">
+               
+               <mixed-citation id="d1021980e363" publication-type="journal">
+Chernoff, H., and Petkau, A.J. (1986), "Numerical Solutions for Bayes Sequential Decision Problems," SIAM
+Journal of Scientific and Statistical Computing, 7,46-59.<person-group>
+                     <string-name>
+                     <surname>Chernoff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>46</fpage>
+               <volume>7</volume>
+               <source>SIAM Journal of Scientific and Statistical Computing</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e395a1310">
+               
+               <mixed-citation id="d1021980e399" publication-type="journal">
+Christen, J.A., and Nakamura, M. (2003), "Sequential Stopping Rules for Species Accumulation," Journal of
+Agricultural, Biological, and Environmental Statistics, 8, 184-195.<object-id pub-id-type="jstor">10.2307/1400427</object-id>
+               <fpage>184</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e415a1310">
+               
+               <mixed-citation id="d1021980e419" publication-type="book">
+DeGroot, M.H. (1970), Optimal Statistical Decisions, New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>DeGroot</surname>
+                  </string-name>
+                  </person-group>
+               <source>Optimal Statistical Decisions</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e441a1310">
+               
+               <mixed-citation id="d1021980e445" publication-type="book">
+Gilks, W.R., Richardson, S., and Spiegelhalter, D.J. (1996), Markov Chain Monte Carlo in Practice, Boca Raton,
+FL: CRC Press.<person-group>
+                     <string-name>
+                     <surname>Gilks</surname>
+                  </string-name>
+                  </person-group>
+               <source>Markov Chain Monte Carlo in Practice</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e471a1310">
+               
+               <mixed-citation id="d1021980e475" publication-type="book">
+Hardwick, J.P., and Stout, Q.F. (1995), "Exact Computational Analyses for Adaptive Designs," in Adaptive
+Designs, 25, Hayward, CA: IMS, pp. 223-237.<person-group>
+                     <string-name>
+                     <surname>Hardwick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Exact Computational Analyses for Adaptive Designs</comment>
+               <fpage>223</fpage>
+               <volume>25</volume>
+               <source>Adaptive Designs</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e510a1310">
+               
+               <mixed-citation id="d1021980e514" publication-type="journal">
+Kadane, J.B., and Vlachos, P. (2002), "Hybrid Methods for Calculating Optimal Few-Stage Sequential Strategies:
+Data Monitoring for a Clinical Trial," Statistics and Computing, 12, 147-152.<person-group>
+                     <string-name>
+                     <surname>Kadane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>12</volume>
+               <source>Statistics and Computing</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e546a1310">
+               
+               <mixed-citation id="d1021980e550" publication-type="journal">
+Kadane, J.B., and Wolfson, L.J. (1998), "Experiences in Elicitation," Journal of the Royal Statistical Society,
+Ser. D, 47, 3-19.<person-group>
+                     <string-name>
+                     <surname>Kadane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>47</volume>
+               <source>Journal of the Royal Statistical Society, Ser. D</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e582a1310">
+               
+               <mixed-citation id="d1021980e586" publication-type="journal">
+Müller, P., and Parmigiani, G. (1995), "Optimal Design via Curve Fitting of Monte Carlo Experiments," Journal
+of the American Statistical Association, 90, 1322-1330.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1322</fpage>
+               <volume>90</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e618a1310">
+               
+               <mixed-citation id="d1021980e622" publication-type="book">
+Ross, S. (1983), Introduction to Stochastic Dynamic Programming, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Ross</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Stochastic Dynamic Programming</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1021980e644a1310">
+               
+               <mixed-citation id="d1021980e648" publication-type="journal">
+Stallard, N. (1998), "Sample Size Determination for Phase II Clinical Trials Based on Bayesian Decision Theory,"
+Biometrics, 54, 279-294.<object-id pub-id-type="doi">10.2307/2534014</object-id>
+               <fpage>279</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

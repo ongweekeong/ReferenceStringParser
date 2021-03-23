@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260296</issue-id>
+         <article-id pub-id-type="jstor">1391056</article-id>
+         
+         <title-group>
+            <article-title>Using Spatial Statistics to Select Model Complexity</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Stephen P.</given-names>
+                  <surname>Ellner</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Yodit</given-names>
+                  <surname>Seifu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>348</fpage>
+         <lpage>369</lpage>
+         <page-range>348-369</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391056"/>
+         
+         
+         <abstract>
+            <p>Testing for nonindependence among the residuals from a regression or time series model is a common approach to evaluating the adequacy of a fitted model. This idea underlies the familiar Durbin-Watson statistic, and previous works illustrate how the spatial autocorrelation among residuals can be used to test a candidate linear model. We propose here that a version of Moran's I statistic for spatial autocorrelation, applied to residuals from a fitted model, is a practical general tool for selecting model complexity under the assumption of iid additive errors. The "space" is defined by the independent variables, and the presence of significant spatial autocorrelation in residuals is evidence that a more complex model is needed to capture all of the structure in the data. An advantage of this approach is its generality, which results from the fact that no properties of the fitted model are used other than consistency. The problem of smoothing parameter selection in nonparametric regression is used to illustrate the performance of model selection based on residual spatial autocorrelation (RSA). In simulation trials comparing RSA with established selection criteria based on minimizing mean square prediction error, smooths selected by RSA exhibit fewer spurious features such as minima and maxima. In some cases, at higher noise levels, RSA smooths achieved a lower average mean square error than smooths selected by GCV. We also briefly describe a possible modification of the method for non-iid errors having short-range correlations, for example, time-series errors or spatial data. Some other potential applications are suggested, including variable selection in regression models.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Model selection</kwd>
+            <kwd>Nonparametric regression</kwd>
+            <kwd>Regression splines</kwd>
+            <kwd>Residual spatial autocorrelation</kwd>
+            <kwd>Smoothing parameter</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2511447e168a1310">
+               
+               <mixed-citation id="d2511447e172" publication-type="book">
+Cliff, A.D., and Ord, J.K. (1973), Spatial Autocorrelation, London: Pion.<person-group>
+                     <string-name>
+                     <surname>Cliff</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spatial Autocorrelation</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e194a1310">
+               
+               <mixed-citation id="d2511447e198" publication-type="book">
+Efron, B., and Tibshirani, R.J. (1993), An Introduction to the Bootstrap, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Bootstrap</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e220a1310">
+               
+               <mixed-citation id="d2511447e224" publication-type="journal">
+Eilers, P.H.C., and Marx, B.D. (1996), "Flexible Smoothing With B-Splines and Penalties" (with discussion),
+Statistical Science, 11, 89-12 1.<object-id pub-id-type="jstor">10.2307/2246049</object-id>
+               <fpage>89</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e240a1310">
+               
+               <mixed-citation id="d2511447e244" publication-type="book">
+Fan, J., and Gijbels, I. (1996), Local Polynomial Regression and its Applications, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Fan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Local Polynomial Regression and its Applications</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e267a1310">
+               
+               <mixed-citation id="d2511447e271" publication-type="journal">
+Laslett, G.M. (1994), "Kriging and Splines: An Empirical Comparison of Their Predictive Performance in Some
+Applications," Journal of the American Statistical Association, 89, 392-409.<object-id pub-id-type="doi">10.2307/2290837</object-id>
+               <fpage>392</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e287a1310">
+               
+               <mixed-citation id="d2511447e291" publication-type="journal">
+Marron, J.S., and Chaudhuri, P. (1998), "When is a Feature Really There? The SiZer Approach," Proceedings of
+the SPIE, 3371, 306-312.<person-group>
+                     <string-name>
+                     <surname>Marron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>306</fpage>
+               <volume>3371</volume>
+               <source>Proceedings of the SPIE</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e323a1310">
+               
+               <mixed-citation id="d2511447e327" publication-type="journal">
+Marron, J.S., and Tsybakov, A.B. (1995), "Visual Error Criteria for Qualitative Smoothing," Journal of the
+American Statistical Association, 90, 499-507.<object-id pub-id-type="doi">10.2307/2291060</object-id>
+               <fpage>499</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e343a1310">
+               
+               <mixed-citation id="d2511447e347" publication-type="journal">
+Opsomer, J.-D., Wang, Y, and Yang, Y. (2001), "Nonparametric Regression With Correlated Errors," Statistical
+Science, 16, 134-153.<object-id pub-id-type="jstor">10.2307/2676791</object-id>
+               <fpage>134</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e363a1310">
+               
+               <mixed-citation id="d2511447e367" publication-type="book">
+Ripley, B.D. (1996), Pattern Recognition and Neural Networks, Cambridge: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Ripley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Pattern Recognition and Neural Networks</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e389a1310">
+               
+               <mixed-citation id="d2511447e393" publication-type="book">
+Ruppert, D., and Carroll, R.J. (1997), "Penalized Regression Splines," Preprint, School of Operations Research
+and Industrial Engineering, Cornell University.<person-group>
+                     <string-name>
+                     <surname>Ruppert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Penalized Regression Splines</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e419a1310">
+               
+               <mixed-citation id="d2511447e423" publication-type="journal">
+(2000), "Spatially Adaptive Penalties for Spline Fitting," Australian and New Zealand Journal of Statistics,
+42, 205-223.<person-group>
+                     <string-name>
+                     <surname>Ruppert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>42</volume>
+               <source>Australian and New Zealand Journal of Statistics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e455a1310">
+               
+               <mixed-citation id="d2511447e459" publication-type="journal">
+Ruppert, D., Sheather, S.J., and Wand, M.P. (1995), "An Effective Bandwidth Selector for Local Least Squares
+Regression," Journal of the American Statistical Association, 90, 1257-1270.<object-id pub-id-type="doi">10.2307/2291516</object-id>
+               <fpage>1257</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e475a1310">
+               
+               <mixed-citation id="d2511447e479" publication-type="journal">
+Schmoyer, R.L. (1994), "Permutation Tests for Correlation in Regression Errors," Journal of the American
+Statistical Association, 89, 1507-1516.<object-id pub-id-type="doi">10.2307/2291013</object-id>
+               <fpage>1507</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e495a1310">
+               
+               <mixed-citation id="d2511447e499" publication-type="book">
+Seber, G.A.F., and Wild, C.J. (1989), Nonlinear Regression, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Seber</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e521a1310">
+               
+               <mixed-citation id="d2511447e525" publication-type="conference">
+Smith, L.A. (1996), "Locally Optimized Prediction of Nonlinear Systems: Stochastic and Deterministic," in
+Chaos and Forecasting: Proceedings of the Royal Society Discussion Meeting, ed. H. Tong, Singapore:
+World Scientific, pp. 87-108.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Locally Optimized Prediction of Nonlinear Systems: Stochastic and Deterministic</comment>
+               <fpage>87</fpage>
+               <source>Chaos and Forecasting: Proceedings of the Royal Society Discussion Meeting</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e560a1310">
+               
+               <mixed-citation id="d2511447e564" publication-type="book">
+Venables, W.N., and Ripley, B.D. (1997), Modern Applied Statistics with S-Plus, (2nd ed.), New York: Springer-
+Verlag.<person-group>
+                     <string-name>
+                     <surname>Venables</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Modern Applied Statistics with S-Plus</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e594a1310">
+               
+               <mixed-citation id="d2511447e598" publication-type="journal">
+Wand, M.P. (2000), "A Comparison of Regression Spline Smoothing Procedures," Computational Statistics, 15,
+443-462.<person-group>
+                     <string-name>
+                     <surname>Wand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>15</volume>
+               <source>Computational Statistics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e630a1310">
+               
+               <mixed-citation id="d2511447e634" publication-type="journal">
+Wang, Y (1998), "Smoothing Spline Models With Correlated Random Errors," Journal of the American Statistical
+Association, 93, 341-348.<object-id pub-id-type="doi">10.2307/2669630</object-id>
+               <fpage>341</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2511447e650a1310">
+               
+               <mixed-citation id="d2511447e654" publication-type="book">
+Weigend, A.S., and Gershenfeld, N.D. (1994), Time Series Prediction: Forecasting the Future and Understanding
+the Past, New York: Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Weigend</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time Series Prediction: Forecasting the Future and Understanding the Past</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

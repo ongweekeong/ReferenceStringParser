@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">73</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">248</issue>
+         <issue-id>i379544</issue-id>
+         <article-id pub-id-type="jstor">4100056</article-id>
+         
+         <title-group>
+            <article-title>Spectral Division Methods for Block Generalized Schur Decompositions</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Xiaobai</given-names>
+                  <surname>Sun</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                   Enrique S. Quintana-Ortí 
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>1827</fpage>
+         <lpage>1847</lpage>
+         <page-range>1827-1847</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100056"/>
+         
+         
+         <abstract>
+            <p>We provide a different perspective of the spectral division methods for block generalized Schur decompositions of matrix pairs. The new approach exposes more algebraic structures of the successive matrix pairs in the spectral division iterations and reveals some potential computational difficulties. We present modified algorithms to reduce the arithmetic cost by nearly 50%, remove inconsistency in spectral subspace extraction from different sides (left and right), and improve the accuracy of subspaces. In application problems that only require a single-sided deflating subspace, our algorithms can be used to obtain a posteriori estimates on the backward accuracy of the computed subspaces with little extra cost.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65F15</kwd>
+            <kwd>Secondary 15A18</kwd>
+            <kwd>Secondary 15A22</kwd>
+            <kwd>Generalized Eigenproblem</kwd>
+            <kwd>Matrix Sign and Disc Functions</kwd>
+            <kwd>Spectral Divide-and-Conquer Algorithms</kwd>
+            <kwd>S 0025-5718(04)01667-9</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4694972e270a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4694972e277" publication-type="journal">
+W. F. Arnold and A. J. Laub. Generalized eigenproblem algorithms and software for algebraic
+Riccati equations. Proc. IEEE, 72:1746-1754, 1984.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1746</fpage>
+               <volume>72</volume>
+               <source>Proc. IEEE</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e309a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4694972e316" publication-type="journal">
+Z. Bai and J. Demmel. Using the matrix sign function to compute invariant subspaces. SIAM
+J. Matrix Anal. Appl., 19(1):205-225, 1998. MR 99c:65066<person-group>
+                     <string-name>
+                     <surname>Bai</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>205</fpage>
+               <volume>19</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e351a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4694972e358" publication-type="journal">
+Z. Bai, J. Demmel, and M. Gu. An inverse free parallel spectral divide and conquer algorithm
+for nonsymmetric eigenproblems. Numer. Math., 76(3):279-308, 1997. MR 98d:65043<person-group>
+                     <string-name>
+                     <surname>Bai</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>279</fpage>
+               <volume>76</volume>
+               <source>Numer. Math.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e393a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4694972e400" publication-type="journal">
+Z. Bai, J. W. Demmel, J. Dongarra, A. Petitet, and H. Robinson. The spectral decomposition
+of nonsymmetric matrices on distributed memory multiprocessors. SIAM J. Sci. Comp.,
+18:1446-1461, 1997. MR 98d:65027<person-group>
+                     <string-name>
+                     <surname>Bai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1446</fpage>
+               <volume>18</volume>
+               <source>SIAM J. Sci. Comp.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e436a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4694972e443" publication-type="book">
+P. Benner. Contributions to the Numerical Solution of Algebraic Riccati Equations and Re-
+lated Eigenvalue Problems. Logos-Verlag, Berlin, Germany, 1997.<person-group>
+                     <string-name>
+                     <surname>Benner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Contributions to the Numerical Solution of Algebraic Riccati Equations and Related Eigenvalue Problems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e468a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4694972e475" publication-type="journal">
+P. Benner and E. S. Quintana-Ort&amp;#x00ED;. Solving stable generalized Lyapunov equations with the
+matrix sign function. Numer. Alg., 20(1):75-100, 1999.<person-group>
+                     <string-name>
+                     <surname>Benner</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>75</fpage>
+               <volume>20</volume>
+               <source>Numer. Alg.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e510a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4694972e517" publication-type="book">
+C. H. Bischof and G. Quintana-Ort&amp;#x00ED;. Computing rank-revealing QR factorizations of dense
+matrices. Technical Report MCS-P559-0196, Mathematics and Computer Science Division,
+Argonne National Laboratory, 1996. ACM Trans. Math. Soft., 24(2): 226-253, 1998.<person-group>
+                     <string-name>
+                     <surname>Bischof</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computing rank-revealing QR factorizations of dense matrices</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e546a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4694972e553" publication-type="journal">
+A. Y. Bulgakov and S. K. Godunov. Circular dichotomy of the spectrum of a matrix. Siberian
+Math. J., 29(5):734-744, 1988. MR 89m: 15005<person-group>
+                     <string-name>
+                     <surname>Bulgakov</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>734</fpage>
+               <volume>29</volume>
+               <source>Siberian Math. J.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e588a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4694972e595" publication-type="journal">
+T. Chan. Rank-revealing QR factorizations. Lin. Alg. Appl., 88/89:67-82, 1987. MR
+88c:15011<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>67</fpage>
+               <volume>88</volume>
+               <source>Lin. Alg. Appl.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e627a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4694972e634" publication-type="journal">
+J. Gardiner and A. J. Laub. A generalization of the matrix sign function solution for algebraic
+Riccati equations. Int. J. Control, 44:823-832, 1986.<person-group>
+                     <string-name>
+                     <surname>Gardiner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>823</fpage>
+               <volume>44</volume>
+               <source>Int. J. Control</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e667a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4694972e674" publication-type="journal">
+S. K. Godunov. The problem of dichotomy of the spectrum of a matrix. Siberian Math. J.,
+27(5):649-660, 1986. MR 88d:34066<person-group>
+                     <string-name>
+                     <surname>Godunov</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>649</fpage>
+               <volume>27</volume>
+               <source>Siberian Math. J.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e709a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4694972e716" publication-type="book">
+G. Golub and C. Van Loan. Matrix Computations. The Johns Hopkins University Press, 1989.
+MR 90d:65055<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e741a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4694972e748" publication-type="journal">
+P. Hong and C. T. Pan. The rank revealing QR and SVD. Math. Comp., 58:213-232, 1992.
+MR 93d:65031<object-id pub-id-type="doi">10.2307/2153029</object-id>
+               <fpage>213</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e764a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4694972e771" publication-type="journal">
+C. Kenney and A. J. Laub. Rational iterative methods for the matrix sign function. SIAM
+J. Mat. Anal. Appl., 12:273-291, 1991. MR 92j:15009<person-group>
+                     <string-name>
+                     <surname>Kenney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>273</fpage>
+               <volume>12</volume>
+               <source>SIAM J. Mat. Anal. Appl.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e803a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4694972e810" publication-type="book">
+V. N. Kublanovskaya. An approach to solving the spectral problem of A-&amp;#x03BB;B. In B. K&amp;#x00E5;agstr&amp;#x00F6;m
+and A. Ruhe, editors, Matrix Pencils, pages 17-29. Springer-Verlag, New York, 1983. MR
+84c:65009<person-group>
+                     <string-name>
+                     <surname>Kublanovskaya</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An approach to solving the spectral problem of A-&amp;#x03BB;B</comment>
+               <fpage>17</fpage>
+               <source>Matrix Pencils</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e845a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4694972e852" publication-type="journal">
+V. N. Kublanovskaya. AB algorithm and its modifications for the spectral problem of linear
+pencils of matrices. Numer. Math., 43:329-342, 1984. MR 85k:65034<person-group>
+                     <string-name>
+                     <surname>Kublanovskaya</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>43</volume>
+               <source>Numer. Math.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e885a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4694972e892" publication-type="book">
+H. Kwakernaak and R. Sivan. Linear Optimal Control Systems. Wiley-Interscience, New
+York, 1972. MR 53:10394<person-group>
+                     <string-name>
+                     <surname>Kwakernaak</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Optimal Control Systems</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e917a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4694972e924" publication-type="journal">
+A. N. Malyshev. Parallel algorithm for solving some spectral problems of linear algebra. Lin.
+Alg. Appl., 188/189:489-520, 1993. MR 94i:65052<person-group>
+                     <string-name>
+                     <surname>Malyshev</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>489</fpage>
+               <volume>188</volume>
+               <source>Lin. Alg. Appl.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e956a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4694972e963" publication-type="journal">
+C. Moler and G. W. Stewart. An algorithm for generalized matrix eigenvalue problems. SIAM
+J. Numer. Anal., 10:241-256, 1973. MR 49:10135<object-id pub-id-type="jstor">10.2307/2156353</object-id>
+               <fpage>241</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e979a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4694972e986" publication-type="book">
+G. Quintana-Ortf and E. S. Quintana-Ort&amp;#x00ED;. Parallel algorithms for computing rank-revealing
+QR factorizations. In G. Cooperman, G. Micher, and H. Vinck, editors, High Performance
+Computing and Networking, pages 122-137. Springer-Verlag, Berlin, 1997.<person-group>
+                     <string-name>
+                     <surname>Quintana-Ortf</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Parallel algorithms for computing rank-revealing QR factorizations</comment>
+               <fpage>122</fpage>
+               <source>High Performance Computing and Networking</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1021a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4694972e1028" publication-type="journal">
+G. Quintana-Ort&amp;#x00ED;, X. Sun, and C. H. Bischof. A BLAS-3 version of the QR factorization with
+column pivoting. SIAM J. Sci. Comp., 19(5): 1486-1494, 1998.<person-group>
+                     <string-name>
+                     <surname>Quintana-Ort&amp;#x00ED;</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>1486</fpage>
+               <volume>19</volume>
+               <source>SIAM J. Sci. Comp.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1063a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4694972e1070" publication-type="journal">
+J. Roberts. Linear model reduction and solution of algebraic Riccati equations by the use of
+the sign function. Int. J. Control, 32:677-687, 1980. MR 81m:93042<person-group>
+                     <string-name>
+                     <surname>Roberts</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>677</fpage>
+               <volume>32</volume>
+               <source>Int. J. Control</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1103a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4694972e1110" publication-type="journal">
+G. W. Stewart. On the sensitivity of the eigenvalue problem. SIAM J. Numer. Anal., 9:669-
+686, 1972. MR 47:244<object-id pub-id-type="jstor">10.2307/2156219</object-id>
+               <fpage>669</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1126a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4694972e1133" publication-type="book">
+G. W. Stewart. Perturbation theory for the generalized eigenvalue problem. In G. Golub C. de
+Boor, editor, Recent Advances in Numerical Analysis, pages 193-206. Academic Press, New
+York, 1978. MR 80c:65092<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Perturbation theory for the generalized eigenvalue problem</comment>
+               <fpage>193</fpage>
+               <source>Recent Advances in Numerical Analysis</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1168a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4694972e1175" publication-type="book">
+G. W. Stewart and J. G. Sun. Matrix Perturbation Theory. Academic Press, New York, 1990.
+MR 92a:65017<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Perturbation Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1200a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4694972e1207" publication-type="book">
+P. Van Dooren. Reducing subspaces: Definitions, properties and algorithms. In B. K&amp;#x00E5;gstr&amp;#x00F6;m
+and A. Ruhe, editors, Matrix Pencils, pages 17-29. Springer-Verlag, New York, 1983. MR
+84c:65009<person-group>
+                     <string-name>
+                     <surname>Van Dooren</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Reducing subspaces: Definitions, properties and algorithms</comment>
+               <fpage>17</fpage>
+               <source>Matrix Pencils</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694972e1242a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4694972e1249" publication-type="journal">
+A. Varga. On stabilization methods of descriptor systems. System Control Let., 24:133-138,
+1995. MR 95i:93130<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>24</volume>
+               <source>System Control Let.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260305</issue-id>
+         <article-id pub-id-type="jstor">1390996</article-id>
+         
+         <title-group>
+            <article-title>A Haar-Fisz Algorithm for Poisson Intensity Estimation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Piotr</given-names>
+                  <surname>Fryzlewicz</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Guy P.</given-names>
+                  <surname>Nason</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>621</fpage>
+         <lpage>638</lpage>
+         <page-range>621-638</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390996"/>
+         
+         
+         <abstract>
+            <p>This article introduces a new method for the estimation of the intensity of an inhomogeneous one-dimensional Poisson process. The Haar-Fisz transformation transforms a vector of binned Poisson counts to approximate normality with variance one. Hence we can use any suitable Gaussian wavelet shrinkage method to estimate the Poisson intensity. Since the Haar-Fisz operator does not commute with the shift operator we can dramatically improve accuracy by always cycle spinning before the Haar-Fisz transform as well as optionally after. Extensive simulations show that our approach usually significantly out-performed state-of-the-art competitors but was occasionally comparable. Our method is fast, simple, automatic, and easy to code. Our technique is applied to the estimation of the intensity of earthquakes in northern California. We show that our technique gives visually similar results to the current state-of-the-art.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Cycle spinning</kwd>
+            <kwd>Denoising</kwd>
+            <kwd>Poisson process</kwd>
+            <kwd>Transform to Gaussian</kwd>
+            <kwd>Variance stabilizing transform</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d172164e174a1310">
+               
+               <mixed-citation id="d172164e178" publication-type="journal">
+Anscombe, F.J. (1948), "The Transformation of Poisson, Binomial and Negative-Binomial Data," Biometrika,
+35, 246-254.<object-id pub-id-type="doi">10.2307/2332343</object-id>
+               <fpage>246</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e194a1310">
+               
+               <mixed-citation id="d172164e198" publication-type="journal">
+Antoniadis, A., and Sapatinas, T. (2001), "Wavelet Shrinkage for Natural Exponential Families with Quadratic
+Variance Functions," Biometrika, 88, 805-820.<object-id pub-id-type="jstor">10.2307/2673448</object-id>
+               <fpage>805</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e214a1310">
+               
+               <mixed-citation id="d172164e218" publication-type="book">
+Baraniuk, R.G. (1999), "Optimal Tree Approximation with Wavelets," in Wavelet Applications in Signal and
+Image Processing VII, Proceedings of SPIE, eds. M. A. Unser, A. Aldroubi, and A. F. Laine, 3813, pp.
+206-214.<person-group>
+                     <string-name>
+                     <surname>Baraniuk</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Optimal Tree Approximation with Wavelets</comment>
+               <fpage>206</fpage>
+               <source>Wavelet Applications in Signal and Image Processing VII</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e253a1310">
+               
+               <mixed-citation id="d172164e257" publication-type="book">
+Besbeas, P., De Feis, I., and Sapatinas, T. (2002), "A Comparative Simulation Study of Wavelet Shrinkage
+Estimators for Poisson Counts," Rapporto Tecnico, 240/02, Istituto per le Applicazioni del Calcolo "Mauro
+Picone"-Sezione di Napoli, Consiglio Nazionale delle Ricerche, Italy.<person-group>
+                     <string-name>
+                     <surname>Besbeas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Comparative Simulation Study of Wavelet Shrinkage Estimators for Poisson Counts</comment>
+               <source>Rapporto Tecnico</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e290a1310">
+               
+               <mixed-citation id="d172164e294" publication-type="conference">
+Brillinger, D.R. (1998), "Some Wavelet Analyses of Point Process Data," in Conference Record of the Thirty-First
+Asilomar Conference on Signals, Systems and Computers, 1997, 2, pp. 1087-1091 .<person-group>
+                     <string-name>
+                     <surname>Brillinger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Wavelet Analyses of Point Process Data</comment>
+               <fpage>1087</fpage>
+               <volume>2</volume>
+               <source>Conference Record of the Thirty-First Asilomar Conference on Signals, Systems and Computers, 1997</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e329a1310">
+               
+               <mixed-citation id="d172164e333" publication-type="book">
+Coifman, R.R., and Donoho, D.L. (1995), "Translation-Invariant De-noising," in Wavelets and Statistics, eds.
+A. Antoniadis and G. Oppenheim, New York: Springer-Verlag, pp. 125-150.<person-group>
+                     <string-name>
+                     <surname>Coifman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Translation-Invariant De-noising</comment>
+               <fpage>125</fpage>
+               <source>Wavelets and Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e365a1310">
+               
+               <mixed-citation id="d172164e369" publication-type="book">
+Daubechies, I. (1992), Ten Lectures on Wavelets, Philadelphia: SIAM.<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ten Lectures on Wavelets</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e391a1310">
+               
+               <mixed-citation id="d172164e395" publication-type="conference">
+Donoho, D.L. (1993), "Nonlinear Wavelet Methods for Recovery of Signals, Densities, and Spectra from Indirect
+and Noisy Data," in Proceedings of Symposia in Applied Mathematics, 47, Providence, RI: American
+Mathematical Society.<person-group>
+                     <string-name>
+                     <surname>Donoho</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Nonlinear Wavelet Methods for Recovery of Signals, Densities, and Spectra from Indirect and Noisy Data</comment>
+               <volume>47</volume>
+               <source>Proceedings of Symposia in Applied Mathematics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e430a1310">
+               
+               <mixed-citation id="d172164e434" publication-type="journal">
+Donoho, D.L., and Johnstone, I.M. (1994), "Ideal Spatial Adaptation by Wavelet Shrinkage," Biometrika, 81,
+425-455.<object-id pub-id-type="doi">10.2307/2337118</object-id>
+               <fpage>425</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e450a1310">
+               
+               <mixed-citation id="d172164e454" publication-type="journal">
+Downie, T., and Silverman, B. (1998), "The Discrete Multiple Wavelet Transform and Thresholding Methods,"
+IEEE Transactions on Signal Processing, 46, 2558-2561.<person-group>
+                     <string-name>
+                     <surname>Downie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2558</fpage>
+               <volume>46</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e487a1310">
+               
+               <mixed-citation id="d172164e491" publication-type="journal">
+Fisz, M. (1955), "The Limiting Distribution of a Function of Two Independent Random Variables and its Statistical
+Application," Colloquium Mathematicum, 3, 138-146.<person-group>
+                     <string-name>
+                     <surname>Fisz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>138</fpage>
+               <volume>3</volume>
+               <source>Colloquium Mathematicum</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e523a1310">
+               
+               <mixed-citation id="d172164e527" publication-type="book">
+Fryzlewicz, P., and Nason, G.P. (2003), "Some Comments on the Haar-Fisz Algorithm for Poisson Intensity
+Estimation," Technical Report 03:04, Statistics Group, Department of Mathematics, University of Bristol.
+Available at http://www.amstat.org/publications/jcgs/ in the data archive section.<person-group>
+                     <string-name>
+                     <surname>Fryzlewicz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some Comments on the Haar-Fisz Algorithm for Poisson Intensity Estimation</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e556a1310">
+               
+               <mixed-citation id="d172164e560" publication-type="other">
+Johnstone, I. M., and Silverman, B. W. (2001), "Risk Bounds for Empirical Bayes Estimates of Sparse Sequences
+With Applications to Wavelet Smoothing," unpublished manuscript.</mixed-citation>
+            </ref>
+            <ref id="d172164e570a1310">
+               
+               <mixed-citation id="d172164e574" publication-type="journal">
+Kolaczyk, E.D. (1997), "Non-parametric Estimation of Gamma-ray Burst Intensities using Haar Wavelets," The
+Astrophysical Journal, 483, 340-349.<person-group>
+                     <string-name>
+                     <surname>Kolaczyk</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>340</fpage>
+               <volume>483</volume>
+               <source>The Astrophysical Journal</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e606a1310">
+               
+               <mixed-citation id="d172164e610" publication-type="journal">
+Kolaczyk, E.D. (1999a), "Bayesian Multiscale Models for Poisson Processes," Journal of the American Statistical
+Association, 94, 920-933.<object-id pub-id-type="doi">10.2307/2670007</object-id>
+               <fpage>920</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e626a1310">
+               
+               <mixed-citation id="d172164e630" publication-type="journal">
+(1999b), "Wavelet Shrinkage Estimation of Certain Poisson Intensity Signals using Corrected Thresholds,"
+Statistica Sinica, 9, 119-135.<person-group>
+                     <string-name>
+                     <surname>Kolaczyk</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>119</fpage>
+               <volume>9</volume>
+               <source>Statistica Sinica</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e663a1310">
+               
+               <mixed-citation id="d172164e667" publication-type="journal">
+Lina, J-M. (1997), "Image Processing with Complex Daubechies Wavelets," Journal of Mathematical Imaging
+and Vision, 7, 211-223.<person-group>
+                     <string-name>
+                     <surname>Lina</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>211</fpage>
+               <volume>7</volume>
+               <source>Journal of Mathematical Imaging and Vision</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e699a1310">
+               
+               <mixed-citation id="d172164e703" publication-type="journal">
+Mallat, S.G. (1989), "A Theory for Multiresolution Signal Decomposition: The Wavelet Representation," IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 11, 674-693.<person-group>
+                     <string-name>
+                     <surname>Mallat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>674</fpage>
+               <volume>11</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e735a1310">
+               
+               <mixed-citation id="d172164e739" publication-type="journal">
+Nason, G.P. (1996), "Wavelet Shrinkage Using Cross-Validation," Journal of the Royal Statistical Society, Series
+B, 58, 463-479.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>463</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e771a1310">
+               
+               <mixed-citation id="d172164e775" publication-type="book">
+(1998), WaveThresh3 Software, Department of Mathematics, University of Bristol, Bristol, UK.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <source>WaveThresh3 Software</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e797a1310">
+               
+               <mixed-citation id="d172164e801" publication-type="book">
+Nason, G.P., and Silverman, B.W. (1995), "The Stationary Wavelet Transform and Some Statistical Applications,"
+in Lecture Notes in Statistics, 103, New York: Springer-Verlag, 281-299.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Stationary Wavelet Transform and Some Statistical Applications</comment>
+               <fpage>281</fpage>
+               <volume>103</volume>
+               <source>Lecture Notes in Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e836a1310">
+               
+               <mixed-citation id="d172164e840" publication-type="journal">
+Nason, G.P., von Sachs, R., and Kroisandt, G. (2000), "Wavelet Processes and Adaptive Estimation of the
+Evolutionary Wavelet Spectrum," Journal of the Royal Statistical Society, Series B, 62, 271-292.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>271</fpage>
+               <volume>62</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e873a1310">
+               
+               <mixed-citation id="d172164e877" publication-type="journal">
+Nowak, R.D., and Baraniuk, R.G. (1999), "Wavelet Domain Filtering for Photon Imaging Systems," IEEE
+Transactions on Image Processing, 8, 666-678.<person-group>
+                     <string-name>
+                     <surname>Nowak</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>666</fpage>
+               <volume>8</volume>
+               <source>IEEE Transactions on Image Processing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e909a1310">
+               
+               <mixed-citation id="d172164e913" publication-type="journal">
+Patil, P.N., and Wood, A.T.A. (2004), "Counting Process Intensity Estimation by Orthogonal Wavelet Methods,"
+Bernoulli, 10, 1-24.<object-id pub-id-type="jstor">10.2307/3318828</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e929a1310">
+               
+               <mixed-citation id="d172164e933" publication-type="book">
+Priestley, M.B. (1981), Spectral Analysis and Time Series, London: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Priestley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spectral Analysis and Time Series</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e955a1310">
+               
+               <mixed-citation id="d172164e959" publication-type="journal">
+Sardy, S., Antoniadis, A., and Tseng, P. (2004), "Automatic Smoothing With Wavelets for a Wide Class of
+Distributions," Journal of Computational and Graphical Statistics, 13, 399-421.<object-id pub-id-type="jstor">10.2307/1391183</object-id>
+               <fpage>399</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e975a1310">
+               
+               <mixed-citation id="d172164e979" publication-type="conference">
+Timmermann, K.E., and Nowak, R.D. (1997), "Multiscale Bayesian Estimation of Poisson Intensities," Proceed-
+ings of the Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, CA: IEEE Computer
+Press, pp. 85-90.<person-group>
+                     <string-name>
+                     <surname>Timmermann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multiscale Bayesian Estimation of Poisson Intensities</comment>
+               <fpage>85</fpage>
+               <source>Proceedings of the Asilomar Conference on Signals, Systems, and Computers</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e1014a1310">
+               
+               <mixed-citation id="d172164e1018" publication-type="journal">
+(1999), "Multiscale Modeling and Estimation of Poisson Processes With Application to Photon-Limited
+Imaging," IEEE Transactions on Information Theory, 45, 846-862.<person-group>
+                     <string-name>
+                     <surname>Timmermann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>846</fpage>
+               <volume>45</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172164e1051a1310">
+               
+               <mixed-citation id="d172164e1055" publication-type="book">
+Vidakovic, B. (1999), Statistical Modeling by Wavelets, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Vidakovic</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Modeling by Wavelets</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

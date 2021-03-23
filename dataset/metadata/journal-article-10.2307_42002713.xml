@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">82</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">283</issue>
+         <issue-id>i40094340</issue-id>
+         <article-id pub-id-type="jstor">42002713</article-id>
+         <title-group>
+            <article-title>A FAST ALGORITHM FOR BROWNIAN DYNAMICS SIMULATION WITH HYDRODYNAMIC INTERACTIONS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>SHIDONG</given-names>
+                  <surname>JIANG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>ZHI</given-names>
+                  <surname>LIANG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>JINGFANG</given-names>
+                  <surname>HUANG</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2013</year>
+         </pub-date>
+         <fpage>1631</fpage>
+         <lpage>1645</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2013 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/42002713"/>
+      
+      
+         <abstract>
+            <p>One of the critical steps in Brownian dynamics simulation with hydrodynamic interactions is to generate a normally distributed random vector whose covariance is determined by the Rotne-Prager-Yamakawa tensor. The standard algorithm for generating such a random vector calls for the Cholesky decomposition of a 3N × 3N matrix and thus requires O(N³) operations for N particles, which is prohibitively slow for large scale simulations. In this paper, we present a fast algorithm for generating such random vectors. Our algorithm combines the Chebyshev spectral approximation for the square root of a positive definite matrix and kernel independent fast multipole method. The overall complexity of the algorithm is $O(\sqrt k N)$ with κ the condition number of the matrix and N the size of the particle system. Numerical experiments show that the algorithm can be applied to various particle configurations with essentially O(N) operations since κ is usually small and independent of N. Thus, our fast algorithm will be useful for the study of diffusion limited reactions, polymer dynamics, protein folding, and particle coagulation as it enables large scale Brownian dynamics simulations. Finally, the algorithm can be extended to speed up the computation involving the matrix square root for many other matrices, which has potential applications on areas such as statistical analysis with certain spatial correlations and model reduction in dynamic control theory.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3092443e192a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d3092443e199" publication-type="other">
+G. K. Batchelor, Brownian Diffusion of Particles with Hydrodynamic Interaction. J. Fluid
+Mech. 74 (1976), 1-29. MR0406082 (53:9874)</mixed-citation>
+        </ref>
+        <ref id="d3092443e209a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d3092443e216" publication-type="other">
+S. H. Cheng, N. J. Higham, C. S. Kenney, and A. J. Laub, Approximating the Logarithm of a
+Matrix to Specified Accuracy. SIAM J. Matrix Anal. Appl. 22 (2001), 1112-1125. MR1825853
+(2002a:65069)</mixed-citation>
+        </ref>
+        <ref id="d3092443e229a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d3092443e236" publication-type="other">
+G. Dahlquist and A. Bjorck, Numerical Methods, Prentice Hall, Englewood Cliffs (1974).
+MR0368379 (51:4620)</mixed-citation>
+        </ref>
+        <ref id="d3092443e246a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d3092443e253" publication-type="other">
+M. H. DeGroot and M. J. Schervish, Probability and Statistics, third edition, Addison Wesley,
+2002.</mixed-citation>
+        </ref>
+        <ref id="d3092443e264a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d3092443e271" publication-type="other">
+J. M. Deutch and I. Oppenheim, Molecular Theory of Brownian Motion for Several Particles.
+J. Chem. Phys. 54 (1971), 3547-3554.</mixed-citation>
+        </ref>
+        <ref id="d3092443e281a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d3092443e288" publication-type="other">
+D. L. Ermak and J. A. McCammon, Brownian Dynamics with Hydrodynamic Interactions.
+J. Chem. Phys. 69 (1978), 1352-1360.</mixed-citation>
+        </ref>
+        <ref id="d3092443e298a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d3092443e305" publication-type="other">
+B. U. Felderhof and J. M. Deutch, Fractional Properties of Dilute Polymer Solutions I.
+Rotational Friction Coefficient. J. Chem. Phys. 62 (1975), 2391-2397.</mixed-citation>
+        </ref>
+        <ref id="d3092443e315a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d3092443e322" publication-type="other">
+M. Fixman, Implicit Algorithm for Brownian Dynamics of Polymers. Macromolecules 19
+(1986), 1195-1204.</mixed-citation>
+        </ref>
+        <ref id="d3092443e332a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d3092443e339" publication-type="other">
+W. Fong and E. Darve, The Black-Box Fast Multipole Method. J. Comp. Phys. 228 (2009),
+8712-8725. MR2558773 (2010m:65009)</mixed-citation>
+        </ref>
+        <ref id="d3092443e349a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d3092443e356" publication-type="other">
+B. Fornberg, A Practical Guide to Pseudo spectral Methods, Cambridge University Press,
+1998. MR1386891 (97g:65001)</mixed-citation>
+        </ref>
+        <ref id="d3092443e367a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d3092443e374" publication-type="other">
+H. L. Friedman, A Hydrodynamic Effect in the Rates of Diffusion Controlled Reactions. J.
+Chem. Phys. 70 (1966), 3931-3933.</mixed-citation>
+        </ref>
+        <ref id="d3092443e384a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d3092443e391" publication-type="other">
+P. G. de Gennes, Passive Entry of a DNA Molecule into a Small Pore. Proc. Natl. Acad.
+Sci. USA 96 (1999), 7262-7264.</mixed-citation>
+        </ref>
+        <ref id="d3092443e401a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d3092443e408" publication-type="other">
+T. Geyer and U. Winter, An O(N²) Approximation for Hydrodynamic Interactions in Brow-
+nian Dynamics Simulations. J. Chem. Phys. 130 (2009), 114905.</mixed-citation>
+        </ref>
+        <ref id="d3092443e418a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d3092443e425" publication-type="other">
+Z. Gimbutas and V. Rokhlin, A Generalized Fast Multipole Method for Nono s dilatory Ker-
+nels. SIAM J. Sci. Comput. 24 (2003), 796-817. MR1950512 (2004a:65176)</mixed-citation>
+        </ref>
+        <ref id="d3092443e435a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d3092443e442" publication-type="other">
+G. H. Golub and C. F. Van Loan, Matrix Computations, The Johns Hopkins University Press
+(1996). MR1417720 (97g:65006)</mixed-citation>
+        </ref>
+        <ref id="d3092443e452a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d3092443e459" publication-type="other">
+L. Greengard, D. Gueyffier, P.G. Martinsson and V. Rokhlin, Fast Direct Solvers for Inte-
+gral Equations in Complex Three-Dimensional Domains. Acta Numerica 18 (2009), 243-275.
+MR2506042 (2010e:65252)</mixed-citation>
+        </ref>
+        <ref id="d3092443e473a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d3092443e480" publication-type="other">
+L. Greengard and V. Rokhlin, A Fast Algorithm for Particle Simulations. J. Comp. Phys.
+73 (1987), 325-348. MR918448 (88k:82007)</mixed-citation>
+        </ref>
+        <ref id="d3092443e490a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d3092443e497" publication-type="other">
+L. Greengard and V. Rokhlin, A New Version of the Fast Multipole Method for the Laplace
+Equation in Three Dimensions. Acta Numerica 6 (1997), 229-269. MR1489257 (99c:65012)</mixed-citation>
+        </ref>
+        <ref id="d3092443e507a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d3092443e514" publication-type="other">
+B. B. Haab and R. A. Mathies, Single-Molecule Detection of DNA Separations in Microfab-
+ricated Capillary Electrophoresis Chips Employing Focused Molecular Streams. Anal. Chem.
+71 (1999), 5137-5145.</mixed-citation>
+        </ref>
+        <ref id="d3092443e527a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d3092443e534" publication-type="other">
+J. P. Hernandez-Ortiz, J. J. de Pablo, and M. D. Graham, Fast Computation of Many-
+Particle Hydrodynamic and Electrostatic Interactions. Phys. Rev. Letters 98 (2007), 140602.</mixed-citation>
+        </ref>
+        <ref id="d3092443e544a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d3092443e551" publication-type="other">
+G.A. Huber, and J. A. McCammon, Browndye: A Software Package for Brownian Dynamics.
+Computer Physics Communications 181 (2010), 1896-1905.</mixed-citation>
+        </ref>
+        <ref id="d3092443e561a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d3092443e568" publication-type="other">
+M. Karplus and D. L. Weaver, Protein Folding Dynamics. Nature 260 (1976), 404-406.</mixed-citation>
+        </ref>
+        <ref id="d3092443e576a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d3092443e583" publication-type="other">
+R. G. Larson, H. Hua, D. E. Smith, and S. Chu, Brownian Dynamics Simulations of a DNA
+Molecule in an Extensional Flow Field. J. Rheol. 43 (1999), 267-304.</mixed-citation>
+        </ref>
+        <ref id="d3092443e593a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d3092443e600" publication-type="other">
+P. G. Martinsson and V. Rokhlin, A Fast Direct Solver for Boundary Integral Equations in
+Two Dimensions. J. Comput. Phys. 205 (2005), no. 1, 1-23. MR2132300 (2005k:65292)</mixed-citation>
+        </ref>
+        <ref id="d3092443e610a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d3092443e617" publication-type="other">
+P. G. Martinsson and V. Rokhlin, An Accelerated Kernel-Independent Fast Multipole Method
+in One Dimensions. SIAM J. Sci. Comput. 29 (2007), 1160-1178. MR2318701 (2008f:65084)</mixed-citation>
+        </ref>
+        <ref id="d3092443e627a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d3092443e634" publication-type="other">
+J . A. McCammon, J. M. Deutch, and B. U. Felderhof, Frictional Properties of Multisubunit
+Structures. Biopolymers 14 (1975), 2613-2623.</mixed-citation>
+        </ref>
+        <ref id="d3092443e644a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d3092443e651" publication-type="other">
+D. Petera and M. Muthukumar, Brownian Dynamics Dimulation of Bead-rod Chains under
+Shear with Hydrodynamic Interaction. J. Chem. Phys. 111 (1999), 7614-7623.</mixed-citation>
+        </ref>
+        <ref id="d3092443e661a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d3092443e668" publication-type="other">
+J. Rotne and S. Prager, Variational Treatment of Hydrodynamic Interaction in Polymers.
+J. Chem. Phys. 50 (1969), 4831-4837.</mixed-citation>
+        </ref>
+        <ref id="d3092443e679a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d3092443e686" publication-type="other">
+A. Tornberg and L. Greengard, A Fast Multipole Method for the Three-dimensional Stokes
+Equations . J. Comput. Phys. 227 (2008), no. 3, 1613-1619. MR2450963 (2009g:76110)</mixed-citation>
+        </ref>
+        <ref id="d3092443e696a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d3092443e703" publication-type="other">
+L. N. Trefethen, Spectral Methods in Matlab, SIAM (2000). MR1776072 (2001c:65001)</mixed-citation>
+        </ref>
+        <ref id="d3092443e710a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d3092443e717" publication-type="other">
+L. N. Trefethen and D. Bau, Numerical Linear Algebra, SIAM, Philadelphia, 1997.
+MR1444820 (98k:65002)</mixed-citation>
+        </ref>
+        <ref id="d3092443e727a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d3092443e734" publication-type="other">
+P. G. Wolynes and J. M. Deutch, Slip Boundary Conditions and the Hydrodynamic Effect
+on Diffusion Controlled Reactions. J. Chem. Phys. 65 (1976), 450-454.</mixed-citation>
+        </ref>
+        <ref id="d3092443e744a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d3092443e751" publication-type="other">
+P. G. Wolynes and J. M. Deutch, Dynamical Orientation Correlations in Solution. J. Chem.
+Phys. 67 (1977), 733-741.</mixed-citation>
+        </ref>
+        <ref id="d3092443e761a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d3092443e768" publication-type="other">
+H. Yamakawa, Transport Properties of Polymer Chains in Dilute Solution: Hydrodynamic
+Interaction. J. Chem. Phvs. 53 (1970), 436-443.</mixed-citation>
+        </ref>
+        <ref id="d3092443e779a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d3092443e786" publication-type="other">
+L. Ying, G. Biros, and D. Zorin, A Kernel-Independent Adaptive Fast Multipole Algorithm in
+Two and Three Dimensions. J. Comp. Phys. 196 (2004), 591-626. MR2054351 (2005d:65235)</mixed-citation>
+        </ref>
+        <ref id="d3092443e796a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d3092443e803" publication-type="other">
+B. Zhang, Integral-Equation-Based Fast Algorithms and Graph-Theoretic Methods for Large-
+Scale Simulations. PhD thesis, University of North Carolina, Chapel Hill, 2010.</mixed-citation>
+        </ref>
+        <ref id="d3092443e813a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d3092443e820" publication-type="other">
+Y. Zhou and Y. Saad, A Cheby shev-Davidson Algorithm for Large Symmetric Eigenvalue
+Problems. SIAM J. Matrix Anal. App. 29 (2007), 954-971. MR2365900 (2008k:65081)</mixed-citation>
+        </ref>
+        <ref id="d3092443e830a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d3092443e837" publication-type="other">
+Y. Zhou and R. C. Li, Bounding the Spectrum of Large Hermitian Matrices. Linear Algebra
+and its App. 435 (2011), 480-493. MR2794587</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

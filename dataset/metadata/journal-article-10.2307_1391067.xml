@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260299</issue-id>
+         <article-id pub-id-type="jstor">1391067</article-id>
+         
+         <title-group>
+            <article-title>Nonparametric Convergence Assessment for MCMC Model Selection</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>S. P.</given-names>
+                  <surname>Brooks</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>P.</given-names>
+                  <surname>Giudici</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>A.</given-names>
+                  <surname>Philippe</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>22</lpage>
+         <page-range>1-22</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391067"/>
+         
+         
+         <abstract>
+            <p>This article considers the problem of assessing the performance of MCMC model selection algorithms using a variety of nonparametric techniques. We consider a wide range of model selection problems to which MCMC model selection may be applied and propose several distance measures that can be used to quantify the similarity between multiple replications. These measures may be used to assess convergence by examining how "close" these replications of the chain are, since if all chains are at stationarity, then this distance should be small. Finally, we describe an alternative approach based upon the estimation of the convergence rate of the sub-Markov chain represented by the model indicators and finish by illustrating our approaches with several practical examples.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Autoregressive time series</kwd>
+            <kwd>Birth-death processes</kwd>
+            <kwd>Chi-squared</kwd>
+            <kwd>Graphical models</kwd>
+            <kwd>Kolmogorov-Smirnov</kwd>
+            <kwd>Mixture models</kwd>
+            <kwd>Reversible jump MCMC</kwd>
+            <kwd>Variable selection</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1075122e172a1310">
+               
+               <mixed-citation id="d1075122e176" publication-type="book">
+Agresti, A. (1990), Categorical Data Analysis, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Categorical Data Analysis</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e198a1310">
+               
+               <mixed-citation id="d1075122e202" publication-type="journal">
+Brittain, E.H. (1987), "P Values for the Multi-Sample Kolmogorov-Smirnov Test Using the Expanded Bonferroni
+Approximation," Communications in Statistics—Theory and Methods, 16, 821-835<person-group>
+                     <string-name>
+                     <surname>Brittain</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>821</fpage>
+               <volume>16</volume>
+               <source>Communications in Statistics—Theory and Methods</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e234a1310">
+               
+               <mixed-citation id="d1075122e238" publication-type="journal">
+Brooks, S.P. (1997), Discussion of Richardson and Green (1997), Journal of the Royal Statistical Society, Series
+B, 59, 774-775.<person-group>
+                     <string-name>
+                     <surname>Brooks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>774</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e270a1310">
+               
+               <mixed-citation id="d1075122e274" publication-type="journal">
+(1998), "Markov Chain Monte Carlo Method and its Application," The Statistician, 47, 69-100.<object-id pub-id-type="jstor">10.2307/2988428</object-id>
+               <fpage>69</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e288a1310">
+               
+               <mixed-citation id="d1075122e292" publication-type="journal">
+Brooks, S.P., and Gelman, A. (1998), "Alternative Methods for Monitoring Convergence of Iterative Simulations,"
+Journal of Computational and Graphical Statistics, 7,,434-455.<object-id pub-id-type="doi">10.2307/1390675</object-id>
+               <fpage>434</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e308a1310">
+               
+               <mixed-citation id="d1075122e312" publication-type="journal">
+Brooks, S.P., and Giudici, P. (2000), "MCMC Convergence Assessment via Two-Way ANOVA," Journal of
+Computational and Graphical Statistics, 9, 266-285.<object-id pub-id-type="doi">10.2307/1390654</object-id>
+               <fpage>266</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e328a1310">
+               
+               <mixed-citation id="d1075122e332" publication-type="journal">
+Brooks, S.P., Giudici, P., and Roberts, G. 0. (2003), "Efficient Construction of Reversible Jump MCMC Proposal
+Distributions" (with discussion), Journal of the Royal Statistical Society, Ser. B, 65, 3-55.<person-group>
+                     <string-name>
+                     <surname>Brooks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>65</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e364a1310">
+               
+               <mixed-citation id="d1075122e368" publication-type="journal">
+Brooks, S.P., and Roberts, G. 0. (1999), "On Quantile Estimation and MCMC Convergence," Biometrika, 86,
+710-717.<object-id pub-id-type="jstor">10.2307/2673665</object-id>
+               <fpage>710</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e384a1310">
+               
+               <mixed-citation id="d1075122e388" publication-type="book">
+Clyde, M.A. (1999), "Bayesian Model Averaging and Model Search Strategies," in Bayesian Statistics 6, eds. J.
+M. Bernardo, A. F. M. Smith, A. P. Dawid, and J. 0. Berger, Oxford: Oxford University Press, pp. 157-186.<person-group>
+                     <string-name>
+                     <surname>Clyde</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Model Averaging and Model Search Strategies</comment>
+               <fpage>157</fpage>
+               <source>Bayesian Statistics 6</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e420a1310">
+               
+               <mixed-citation id="d1075122e424" publication-type="journal">
+Conover, W.J. (1974), "Some Reasons for not Using the Yate Continuity Correction in 2 x 2 Contingency Tables,"
+Journal of the American Statistical Association, 69, 374-378.<object-id pub-id-type="doi">10.2307/2285661</object-id>
+               <fpage>374</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e441a1310">
+               
+               <mixed-citation id="d1075122e445" publication-type="journal">
+Csorgo, S., and Faraway, J.J. (1996), "The Exact and Asymptotic Distributions of Cramer-von Mises Statistics,"
+Journal of the Royal Statistical Society, Series B, 58, 221-234.<person-group>
+                     <string-name>
+                     <surname>Csorgo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e477a1310">
+               
+               <mixed-citation id="d1075122e481" publication-type="book">
+Daniel, W.W. (1990), Applied Nonparametric Statistics, Boston: Duxbury.<person-group>
+                     <string-name>
+                     <surname>Daniel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied Nonparametric Statistics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e503a1310">
+               
+               <mixed-citation id="d1075122e507" publication-type="journal">
+Dawid, A.P., and Lauritzen, S.L. (1993), "Hyper Markov Laws in the Statistical Analysis of Decomposable
+Graphical Models," The Annals of Statistics, 21, 1272-1317.<object-id pub-id-type="jstor">10.2307/2242197</object-id>
+               <fpage>1272</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e523a1310">
+               
+               <mixed-citation id="d1075122e527" publication-type="journal">
+Dellaportas, P., and Forster, J.J. (1999), "Markov Chain Monte Carlo Model Determination for Hierarchical and
+Graphical Log-Linear Models," Biometrika, 86, 615-633.<object-id pub-id-type="jstor">10.2307/2673658</object-id>
+               <fpage>615</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e543a1310">
+               
+               <mixed-citation id="d1075122e547" publication-type="book">
+Ehlers, R.S., and Brooks, S.P. (2001), "Model Uncertainty in Integrated ARMA Processes," Technical report,
+University of Cambridge.<person-group>
+                     <string-name>
+                     <surname>Ehlers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Model Uncertainty in Integrated ARMA Processes</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e572a1310">
+               
+               <mixed-citation id="d1075122e576" publication-type="journal">
+Fan, Y., and Brooks, S.P. (2000), "Bayesian Modelling of Prehistoric Corbelled Tombs," Journal of the Royal
+Statistical Society, Series D, 49, 339-354.<person-group>
+                     <string-name>
+                     <surname>Fan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>339</fpage>
+               <volume>49</volume>
+               <source>Journal of the Royal Statistical Society, Series D</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e609a1310">
+               
+               <mixed-citation id="d1075122e613" publication-type="conference">
+Geiger, D., and Heckerman, D. (1994), "Learning Gaussian Networks," in Proceedings of the Tenth Conference
+on Uncertainty in Artificial Intelligence, ed. M. Kaufmann, pp. 69-100.<person-group>
+                     <string-name>
+                     <surname>Geiger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Learning Gaussian Networks</comment>
+               <fpage>69</fpage>
+               <source>Proceedings of the Tenth Conference on Uncertainty in Artificial Intelligence</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e645a1310">
+               
+               <mixed-citation id="d1075122e649" publication-type="journal">
+Gelman, A., and Rubin, D.B. (1992), "Inference from Iterative Simulation using Multiple Sequences," Statistical
+Science, 7, 457-511.<object-id pub-id-type="jstor">10.2307/2246093</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e665a1310">
+               
+               <mixed-citation id="d1075122e669" publication-type="book">
+Gilks, W.R., Roberts, G.O., and Sahu, S.K. (1996), "Adaptive Markov Chain Monte Carlo," Technical report,
+MRC Biostatistics Unit, Cambridge.<person-group>
+                     <string-name>
+                     <surname>Gilks</surname>
+                  </string-name>
+                  </person-group>
+               <source>Adaptive Markov Chain Monte Carlo</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e694a1310">
+               
+               <mixed-citation id="d1075122e698" publication-type="journal">
+Giudici, P., and Green, P.J. (1999), "Decomposable Graphical Gaussian Model Determination," Biometrika, 86,
+785-801.<object-id pub-id-type="jstor">10.2307/2673585</object-id>
+               <fpage>785</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e714a1310">
+               
+               <mixed-citation id="d1075122e718" publication-type="journal">
+Green, P.J. (1995), "Reversible Jump MCMC Computation and Bayesian Model Determination," Biometrika, 82,
+711-732.<object-id pub-id-type="doi">10.2307/2337340</object-id>
+               <fpage>711</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e734a1310">
+               
+               <mixed-citation id="d1075122e738" publication-type="journal">
+Huerta, G., and West, M. (1999), "Priors and Component Structures in Autoregressive Time Series Models,"
+Journal of the Royal Statistical Society, Series B, 61, 881-900.<person-group>
+                     <string-name>
+                     <surname>Huerta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>881</fpage>
+               <volume>61</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e771a1310">
+               
+               <mixed-citation id="d1075122e775" publication-type="journal">
+King, R., and Brooks, S.P. (2001), "Bayesian Estimation of Census Undercount," Biometrika, 88, 317-336.<object-id pub-id-type="jstor">10.2307/2673482</object-id>
+               <fpage>317</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e788a1310">
+               
+               <mixed-citation id="d1075122e792" publication-type="book">
+Lehmann, E.L. (1975), Nonparametrics: Statistical Methods Based on Ranks, New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>Lehmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonparametrics: Statistical Methods Based on Ranks</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e814a1310">
+               
+               <mixed-citation id="d1075122e818" publication-type="journal">
+Madigan, D., and Raftery, A.E. (1994), "Model Selection and Accounting for Model Uncertainty in Graphical
+Models using Occam's Window," Journal of the American Statistical Association, 89, 1535-1546.<object-id pub-id-type="doi">10.2307/2291017</object-id>
+               <fpage>1535</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e834a1310">
+               
+               <mixed-citation id="d1075122e838" publication-type="journal">
+Madigan, D., and York, J. (1995), "Bayesian Graphical Models for Discrete Data," International Statistical Review,
+63, 215-232.<person-group>
+                     <string-name>
+                     <surname>Madigan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>215</fpage>
+               <volume>63</volume>
+               <source>International Statistical Review</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e870a1310">
+               
+               <mixed-citation id="d1075122e874" publication-type="book">
+Madigan, D.M., Raftery, A.E., Volinsky, C., and Hoeting, J. (1996), "Bayesian Model Averaging," in Integrating
+Multiple Learned Models (IMLM-96), eds. P. Chan, S. Stolofo, and D. Wolpert, pp. 77-83.<person-group>
+                     <string-name>
+                     <surname>Madigan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Model Averaging</comment>
+               <fpage>77</fpage>
+               <source>Integrating Multiple Learned Models (IMLM-96)</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e906a1310">
+               
+               <mixed-citation id="d1075122e910" publication-type="book">
+Philippe, A. (2001), "Bayesian Model Selection for Autoregressive Moving Average Processes," Technical report,
+IRMA, Lille.<person-group>
+                     <string-name>
+                     <surname>Philippe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Bayesian Model Selection for Autoregressive Moving Average Processes</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e936a1310">
+               
+               <mixed-citation id="d1075122e940" publication-type="book">
+Pratt, J.W., and Gibbons, J.D. (1981), Concepts of Nonparametric Theory, New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Pratt</surname>
+                  </string-name>
+                  </person-group>
+               <source>Concepts of Nonparametric Theory</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e962a1310">
+               
+               <mixed-citation id="d1075122e966" publication-type="book">
+Raftery, A.E., and Lewis, S.M. (1992), "How Many Iterations in the Gibbs Sampler?" in Bayesian Statistics 4,
+eds. J. M. Bernardo, A. F. M. Smith, A. P. Dawid, and J. 0. Berger, Oxford: Oxford University Press, pp.
+763-774.<person-group>
+                     <string-name>
+                     <surname>Raftery</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">How Many Iterations in the Gibbs Sampler?</comment>
+               <fpage>763</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1001a1310">
+               
+               <mixed-citation id="d1075122e1005" publication-type="journal">
+Richardson, S., and Green, P.J. (1997), "On Bayesian Analysis of Mixtures with an Unknown Number of Com-
+ponents," Journal of the Royal Statistical Society, Series B, 59, 731-792.<person-group>
+                     <string-name>
+                     <surname>Richardson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>731</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1037a1310">
+               
+               <mixed-citation id="d1075122e1041" publication-type="book">
+Robert, C.P., and Casella, G. (1998), Monte Carlo Statistical Methods, New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo Statistical Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1063a1310">
+               
+               <mixed-citation id="d1075122e1067" publication-type="journal">
+Roeder, K. (1990), "Density Estimation with Confidence Sets Exemplified by Superclusters and Voids in the
+Galaxies," Journal of the American Statistical Association, 85, 617-624.<object-id pub-id-type="doi">10.2307/2289993</object-id>
+               <fpage>617</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1083a1310">
+               
+               <mixed-citation id="d1075122e1087" publication-type="book">
+Siegel, S., and Castellan, N.J. (1988), Nonparametric Statistics for the Behavioural Sciences, New York: McGraw
+Hill.<person-group>
+                     <string-name>
+                     <surname>Siegel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonparametric Statistics for the Behavioural Sciences</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1113a1310">
+               
+               <mixed-citation id="d1075122e1117" publication-type="journal">
+Simes, S. M. (1986), "An Improved Bonferroni Procedure for Multiple Tests of Significance," Biometrika, 30,
+507-512.<object-id pub-id-type="doi">10.2307/2336545</object-id>
+               <fpage>507</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1133a1310">
+               
+               <mixed-citation id="d1075122e1137" publication-type="journal">
+Stephens, M. (2000), "Bayesian Analysis of Mixture Models with an Unknown Number of Components: An
+Alternative to Reversible Jump Methods," The Annals of Statistics, 28, 40-74.<object-id pub-id-type="jstor">10.2307/2673981</object-id>
+               <fpage>40</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1153a1310">
+               
+               <mixed-citation id="d1075122e1157" publication-type="book">
+Troughton, P., and Godsill, S. (1997), "Reversible Jump Samplers for Autoregressive Time Series, Employing
+Full Conditionals to Achieve Efficient Model Space Moves," Technical report, University of Cambridge.<person-group>
+                     <string-name>
+                     <surname>Troughton</surname>
+                  </string-name>
+                  </person-group>
+               <source>Reversible Jump Samplers for Autoregressive Time Series, Employing Full Conditionals to Achieve Efficient Model Space Moves</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1182a1310">
+               
+               <mixed-citation id="d1075122e1186" publication-type="journal">
+Weiss, M. S. (1978), "Modification of the Kolmogorov-Smirnov Statistic for use with Correlated Data," Journal
+of the American Statistical Association, 73, 872-875.<object-id pub-id-type="doi">10.2307/2286297</object-id>
+               <fpage>872</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075122e1202a1310">
+               
+               <mixed-citation id="d1075122e1206" publication-type="book">
+Whittaker, J. (1990), Graphical Models in Applied Multivariate Statistics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Whittaker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Graphical Models in Applied Multivariate Statistics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

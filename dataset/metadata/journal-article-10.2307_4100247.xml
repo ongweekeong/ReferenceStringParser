@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">74</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">249</issue>
+         <issue-id>i379545</issue-id>
+         <article-id pub-id-type="jstor">4100247</article-id>
+         
+         <title-group>
+            <article-title>The Inexact, Inexact Perturbed, and Quasi-Newton Methods Are Equivalent Models</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                   Emil Cătinaş 
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>291</fpage>
+         <lpage>301</lpage>
+         <page-range>291-301</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2005 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100247"/>
+         
+         
+         <abstract>
+            <p>
+               A classical model of Newton iterations which takes into account some error terms is given by the quasi-Newton method, which assumes perturbed Jacobians at each step. Its high convergence orders were characterized by Dennis and Moré [Math. Comp. 28 (1974), 549-560]. The inexact Newton method constitutes another such model, since it assumes that at each step the linear systems are only approximately solved; the high convergence orders of these iterations were characterized by Dembo, Eisenstat and Steihaug [SIAM J. Numer. Anal. 19 (1982), 400-408]. We have recently considered the inexact perturbed Newton method [J. Optim. Theory Appl. 108 (2001), 543-570] which assumes that at each step the linear systems are perturbed and then they are only approximately solved; we have characterized the high convergence orders of these iterates in terms of the perturbations and residuals. In the present paper we show that these three models are in fact equivalent, in the sense that each one may be used to characterize the high convergence orders of the other two. We also study the relationship in the case of linear convergence and we deduce a new convergence result. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65H10</kwd>
+            <kwd>Inexact</kwd>
+            <kwd>Inexact Perturbed and Quasi-Newton Methods</kwd>
+            <kwd>Convergence Orders</kwd>
+            <kwd>S 0025-5718(04)01646-1</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1467965e165a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1467965e172" publication-type="book">
+I. Argyros, Advances in the Efficiency of Computational Methods and Applications, World
+Scientific Publishing Co., Inc., River Edge, NJ, 2000. MR 2002k:65003<person-group>
+                     <string-name>
+                     <surname>Argyros</surname>
+                  </string-name>
+                  </person-group>
+               <source>Advances in the Efficiency of Computational Methods and Applications</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e197a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1467965e204" publication-type="journal">
+I. Argyros, Concerning the convergence of inexact Newton methods, J. Comp. Appl. Math.
+79 (1997), 235-247. MR 98c:47077<person-group>
+                     <string-name>
+                     <surname>Argyros</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>79</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e236a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1467965e243" publication-type="journal">
+R. E. Bank and D. J. Rose, Global approximate Newton methods, Numer. Math. 37 (1981),
+279-295. MR 83c:65127<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>279</fpage>
+               <volume>37</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e275a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1467965e282" publication-type="journal">
+---, Parameter selection for Newton-like methods applicable to nonlinear partial differ-
+ential equations, SIAM J. Numer. Anal. 17 (1980), 806-822. MR 81m:65071<object-id pub-id-type="jstor">10.2307/2156802</object-id>
+               <fpage>806</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e299a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1467965e306" publication-type="journal">
+P. N. Brown, A local convergence theory for combined inexact-Newton/finite-difference pro-
+jection methods, SIAM J. Numer. Anal. 24 (1987), 407-434. MR 88d:65088<object-id pub-id-type="jstor">10.2307/2157566</object-id>
+               <fpage>407</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e322a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1467965e329" publication-type="other">
+E. C&lt;latex&gt;$\breve{a}$&lt;/latex&gt;tina&lt;latex&gt;$\cedil{s}$&lt;/latex&gt;, Newton and Newton-Krylov Methods for Solving Nonlinear Systems in &lt;latex&gt;$R^n$&lt;/latex&gt;, Ph.D.
+thesis, "Babe&amp;#x015F;-Bolyai" University Cluj-Napoca, Romania, 1999.</mixed-citation>
+            </ref>
+            <ref id="d1467965e339a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1467965e346" publication-type="journal">
+---, A note on the quadratic convergence of the inexact Newton methods, Rev. Anal.
+Num&amp;#x00E9;r. Th&amp;#x00E9;or. Approx. 29 (2000), 129-134. MR 2003i:65049<person-group>
+                     <string-name>
+                     <surname>C&amp;#x0103;tina&amp;#x015F;</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>29</volume>
+               <source>Rev. Anal. Num&amp;#x00E9;r. Th&amp;#x00E9;or. Approx.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e378a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1467965e385" publication-type="journal">
+---, Inexact perturbed Newton methods and applications to a class of Krylov solvers, J.
+Optim. Theory Appl. 108 (2001), 543-570. MR 2002c:65074<person-group>
+                     <string-name>
+                     <surname>C&amp;#x0103;tina&amp;#x015F;</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>543</fpage>
+               <volume>108</volume>
+               <source>J. Optim. Theory Appl.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e417a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1467965e424" publication-type="journal">
+---, On the superlinear convergence of the successive approximations method, J. Optim.
+Theory Appl. 113 (2002), 473-485. MR 2003e:65086<person-group>
+                     <string-name>
+                     <surname>C&amp;#x0103;tina&amp;#x015F;</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>473</fpage>
+               <volume>113</volume>
+               <source>J. Optim. Theory Appl.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e456a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1467965e463" publication-type="other">
+---, Inexact perturbed Newton methods for nonlinear systems with singular Jacobians,
+submitted.</mixed-citation>
+            </ref>
+            <ref id="d1467965e474a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1467965e481" publication-type="other">
+---, Accurate finite differences in the Newton-Krylov methods, manuscript.</mixed-citation>
+            </ref>
+            <ref id="d1467965e488a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1467965e495" publication-type="journal">
+R. S. Dembo, S. C. Eisenstat and T. Steihaug, Inexact Newton methods, SIAM J. Numer.
+Anal. 19 (1982), 400-408. MR 83b:65056<object-id pub-id-type="jstor">10.2307/2156954</object-id>
+               <fpage>400</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e511a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1467965e518" publication-type="journal">
+J. E. Dennis, Jr. and J. J. Mor&amp;#x00E9;, A characterization of superlinear convergence and its
+application to quasi-Newton methods, Math. Comp. 28 (1974), 549-560. MR 49:8322<object-id pub-id-type="doi">10.2307/2005926</object-id>
+               <fpage>549</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e534a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1467965e541" publication-type="journal">
+---, Quasi-Newton methods, motivation and theory, SIAM Rev. 19 (1977), 46-89. MR
+56:4146<object-id pub-id-type="jstor">10.2307/2029325</object-id>
+               <fpage>46</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e557a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1467965e564" publication-type="book">
+J. E. Dennis, Jr. and R. B. Schnabel, Numerical Methods for Unconstrained Optimization
+and Nonlinear Equations, Prentice-Hall Series in Computational Mathematics, Englewood
+Cliffs, NJ, 1983. MR 85j:65001<person-group>
+                     <string-name>
+                     <surname>Dennis</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical Methods for Unconstrained Optimization and Nonlinear Equations</comment>
+               <source>Prentice-Hall Series in Computational Mathematics</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e596a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1467965e603" publication-type="journal">
+P. Deuflhard and G. Heindl, Affine invariant convergence theorems for Newton's method and
+extensions to related methods, SIAM J. Numer. Anal. 16 (1979), 1-10. MR 80i:65068<object-id pub-id-type="jstor">10.2307/2156892</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e620a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1467965e627" publication-type="journal">
+P. Deuflhard and F. A. Potra, Asymptotic mesh independence of Newton-Galerkin methods
+via a refined Mysovskii theorem, SIAM J. Numer. Anal. 29 (1992), 1395-1412. MR 94a:65031<object-id pub-id-type="jstor">10.2307/2158048</object-id>
+               <fpage>1395</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e643a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1467965e650" publication-type="journal">
+S. C. Eisenstat and H. F. Walker, Choosing the forcing terms in an inexact Newton method,
+SIAM J. Sci. Comput. 17 (1996), 16-32. MR 96k:65037<person-group>
+                     <string-name>
+                     <surname>Eisenstat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>16</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e682a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1467965e689" publication-type="journal">
+M. Gasparo and B. Morini, Inexact methods: forcing terms and conditioning, J. Optim.
+Theory Appl. 107 (2000), 573-589. MR 2001k:65089<person-group>
+                     <string-name>
+                     <surname>Gasparo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>573</fpage>
+               <volume>107</volume>
+               <source>J. Optim. Theory Appl.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e721a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1467965e728" publication-type="book">
+G. H. Golub and C. F. Van Loan, Matrix Computations, Third ed., The Johns Hopkins
+University Press, Baltimore, 1996. MR 97g:65006<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Matrix Computations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e757a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1467965e764" publication-type="journal">
+E. M. Kasenally, GMBACK: a generalised minimum backward error algorithm for nonsym-
+metric linear systems, SIAM J. Sci. Comput. 16 (1995), 698-719. MR 95m:65054<person-group>
+                     <string-name>
+                     <surname>Kasenally</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>698</fpage>
+               <volume>16</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e796a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1467965e803" publication-type="journal">
+E. M. Kasenally and V. Simoncini, Analysis of a minimum perturbation algorithm for non-
+symmetric linear systems, SIAM J. Numer. Anal. 34 (1997), 48-66. MR 98a:65040<object-id pub-id-type="jstor">10.2307/2952035</object-id>
+               <fpage>48</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e820a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1467965e827" publication-type="book">
+C. T. Kelley, Iterative Methods for Linear and Nonlinear Equations, SIAM, Philadelphia,
+1995. MR 96d:65002<person-group>
+                     <string-name>
+                     <surname>Kelley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Methods for Linear and Nonlinear Equations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e852a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1467965e859" publication-type="book">
+&amp;#x015E;t. M&amp;#x0103;ru&amp;#x015F;ter, Numerical Methods for Solving Nonlinear Equations, Ed. Tehnic&amp;#x0103;, Bucharest,
+Romania, 1981 (in Romanian).<person-group>
+                     <string-name>
+                     <surname>M&amp;#x0103;ru&amp;#x015F;ter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Methods for Solving Nonlinear Equations</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e884a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1467965e891" publication-type="journal">
+H. J. Martinez, Z. Parada and R. A. Tapia, On the characterization of Q-superlinear con-
+vergence of quasi-Newton interior-point methods for nonlinear programming, Bol. Soc. Mat.
+Mexicana 1 (1995), 137-148. MR 97d:90090<person-group>
+                     <string-name>
+                     <surname>Martinez</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>137</fpage>
+               <volume>1</volume>
+               <source>Bol. Soc. Mat. Mexicana</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e926a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1467965e933" publication-type="journal">
+B. Morini, Convergence behaviour of inexact Newton methods, Math. Comp. 68 (1999), 1605-
+1613. MR 99m:65114<object-id pub-id-type="jstor">10.2307/2584926</object-id>
+               <fpage>1605</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e949a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1467965e956" publication-type="book">
+J. M. Ortega and W. C. Rheinboldt, Iterative Solution of Nonlinear Equations in Several
+Variables, Academic Press, New York, 1970. MR 42:8686<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e981a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1467965e988" publication-type="book">
+I. P&amp;#x0103;v&amp;#x0103;loiu, Introduction to the Theory of Approximating the Solutions of Equations, Ed.
+Dacia, Cluj-Napoca, Romania, 1976 (in Romanian).<person-group>
+                     <string-name>
+                     <surname>P&amp;#x0103;v&amp;#x0103;loiu</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to the Theory of Approximating the Solutions of Equations</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1014a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1467965e1021" publication-type="book">
+F. A. Potra, On the numerical stability of a class of iterative processes, Itinerant Seminar of
+Functional Equations: Approximation and Convexity, Timi&amp;#x015F;oara, Romania, 1983, 51-54.<person-group>
+                     <string-name>
+                     <surname>Potra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the numerical stability of a class of iterative processes</comment>
+               <fpage>51</fpage>
+               <source>Itinerant Seminar of Functional Equations: Approximation and Convexity, Timi&amp;#x015F;oara, Romania</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1053a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1467965e1060" publication-type="book">
+---, On a class of iterative procedures for solving nonlinear equations in Banach spaces,
+Computational Mathematics, Banach Center Publications, PWN-Polish Scientific Publishers,
+Warsaw, Poland, vol. 13, 607-621, 1984. MR 87c:65068<person-group>
+                     <string-name>
+                     <surname>Potra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On a class of iterative procedures for solving nonlinear equations in Banach spaces</comment>
+               <fpage>607</fpage>
+               <volume>13</volume>
+               <source>Computational Mathematics</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1098a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1467965e1105" publication-type="journal">
+---, On Q-order and R-order of convergence, J. Optim. Theory Appl. 63 (1989), 415-
+431. MR 91d:65077<person-group>
+                     <string-name>
+                     <surname>Potra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>415</fpage>
+               <volume>63</volume>
+               <source>J. Optim. Theory Appl.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1137a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1467965e1144" publication-type="book">
+---, Q-superlinear convergence of the iterates in primal-dual interior-point methods,
+Math. Progr., to appear. MR 2002i:90120<person-group>
+                     <string-name>
+                     <surname>Potra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Q-superlinear convergence of the iterates in primal-dual interior-point methods</comment>
+               <source>Math. Progr.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1169a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1467965e1176" publication-type="book">
+W. C. Rheinboldt, Methods for Solving Systems of Nonlinear Equations, Second ed., SIAM,
+Philadelphia, PA, 1998. MR 2000c:65001<person-group>
+                     <string-name>
+                     <surname>Rheinboldt</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Methods for Solving Systems of Nonlinear Equations</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1205a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1467965e1212" publication-type="journal">
+Y. Saad and M. H. Schultz, GMRES: a minimum residual algorithm, SIAM J. Sci. Statist.
+Comput. 7 (1986), 856-869. MR 87g:65064<person-group>
+                     <string-name>
+                     <surname>Saad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>856</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1245a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1467965e1252" publication-type="book">
+H. F. Walker, An approach to continuation using Krylov subspace methods, in Computational
+Science in the 21st Century, M.-O. Bristeau, G. Etgen, W. Fitzgibbon, J. L. Lions, J. Periaux
+and M. F. Wheeler, eds., John Wiley and Sons, Ltd., 1997, 72-82.<person-group>
+                     <string-name>
+                     <surname>Walker</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An approach to continuation using Krylov subspace methods</comment>
+               <fpage>72</fpage>
+               <source>Computational Science in the 21st Century</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1287a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1467965e1294" publication-type="book">
+J. H. Wilkinson, The Algebraic Eigenvalue Problem, Clarendon Press, Oxford, 1965. MR
+32:1894<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Algebraic Eigenvalue Problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1467965e1319a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1467965e1326" publication-type="journal">
+T. J. Ypma, Local convergence of inexact Newton methods, SIAM J. Numer. Anal. 21 (1984),
+583-590. MR 85k:65043<object-id pub-id-type="jstor">10.2307/2157069</object-id>
+               <fpage>583</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

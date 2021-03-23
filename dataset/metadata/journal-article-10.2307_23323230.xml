@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">26</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i23322391</issue-id>
+         <article-id pub-id-type="jstor">23323230</article-id>
+         <title-group>
+            <article-title>Cardinality pruning and language model heuristics for hierarchical phrase-based translation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>David</given-names>
+                  <surname>Vilar</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hermann</given-names>
+                  <surname>Ney</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>217</fpage>
+         <lpage>254</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media B.V. 2012</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23323230"/>
+      
+      
+         <abstract>
+            <p>In this article we present two novel enhancements for the cube pruning and cube growing algorithms, two of the most widely applied methods when using the hierarchical approach to statistical machine translation. Cube pruning is the de facto standard search algorithm for the hierarchical model. We propose to adapt concepts of the source cardinality synchronous search organization as used for standard phrase-based translation to the characteristics of cube pruning. In this way we will be able to improve the performance of the generation process and reduce the average translation time per sentence to approximately one quarter. We will also investigate the cube growing algorithm, a reformulation of cube pruning with on-demand computation. This algorithm depends on a heuristic for the language model, but this issue is barely discussed in the original work. We analyze the behaviour of this heuristic and propose a new one which greatly reduces memory consumption without costs in runtime or translation performance. Results are reported on the German—English Europarl corpus.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d630672e280a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d630672e287" publication-type="other">
+Och (2002)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d630672e293" publication-type="other">
+Zens (2008).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d630672e300a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d630672e307" publication-type="other">
+Huang and Chiang (2007).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d630672e314a1310">
+            <label>8</label>
+          
+            <p>
+               <mixed-citation id="d630672e321" publication-type="other">
+http://matrix.statmt.org/.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d630672e337a1310">
+          
+            <mixed-citation id="d630672e341" publication-type="other">
+Arun A, Dyer C, Haddow B, Blunsom P, Lopez A, Koehn P (2009) Monte Carlo inference and maximization
+for phrase-based translation. In: Proceedings of the thirteenth conference on computational natural
+language learning (CoNLL-2009). Association for Computational Linguistics, Boulder, pp 102-110</mixed-citation>
+        </ref>
+        <ref id="d630672e354a1310">
+          
+            <mixed-citation id="d630672e358" publication-type="other">
+Block HU (2000) Example-based incremental synchronous interpretation. In: Wahlster W (ed) Verbmobil:
+foundations of speech-to-speech translation. Springer Verlag, Berlin, pp 411-417</mixed-citation>
+        </ref>
+        <ref id="d630672e368a1310">
+          
+            <mixed-citation id="d630672e372" publication-type="other">
+Callison-Burch C, Fordyce C, Koehn P, Monz C, Schroeder J (2008) Further meta-evaluation of machine
+translation. In: Proceedings of the third workshop on statistical machine translation. Association for
+Computational Linguistics, Columbus, pp 70-106</mixed-citation>
+        </ref>
+        <ref id="d630672e385a1310">
+          
+            <mixed-citation id="d630672e389" publication-type="other">
+Chappelier JC, Raj man M (1998) A Generalized CYK algorithm for parsing stochastic CFG. In: Proceedings
+of the first workshop on tabulation in parsing and deduction, Paris, pp 133-137</mixed-citation>
+        </ref>
+        <ref id="d630672e400a1310">
+          
+            <mixed-citation id="d630672e404" publication-type="other">
+Chiang D (2005) A hierarchical phrase-based model for statistical machine translation. In: Proceedings of
+the 43rd annual meeting on Association for Computational Linguistics. Ann Arbor, pp 263-270</mixed-citation>
+        </ref>
+        <ref id="d630672e414a1310">
+          
+            <mixed-citation id="d630672e418" publication-type="other">
+Chiang D (2007) Hierarchical phrase-based translation. Comput Linguist 33(2):201 —228</mixed-citation>
+        </ref>
+        <ref id="d630672e425a1310">
+          
+            <mixed-citation id="d630672e429" publication-type="other">
+Cocke J (1969) Programming languages and their compilers: preliminary notes. Courant Institute of Math-
+ematical Sciences, New York University, New York</mixed-citation>
+        </ref>
+        <ref id="d630672e439a1310">
+          
+            <mixed-citation id="d630672e443" publication-type="other">
+Déchelotte D, Adda G, Allauzen A, Bonneau-Maynard H, Galibert O, Gauvain JL, Langlais P, Yvon F
+(2008) Limsi's statistical translation systems for WMT'08. In: Proceedings of the third workshop on
+statistical machine translation. Association for Computational Linguistics, Columbus, pp 107-110</mixed-citation>
+        </ref>
+        <ref id="d630672e456a1310">
+          
+            <mixed-citation id="d630672e460" publication-type="other">
+Heger C, Wuebker J, Huck M, Leusch G, Mansour S, Stein D, Ney H (2010) The RWTH Aachen machine
+translation system for WMT 2010. In: Proceedings of the joint fifth workshop on statistical machine
+translation and MetricsMATR. Association for Computational Linguistics, Uppsala, pp 93-97</mixed-citation>
+        </ref>
+        <ref id="d630672e473a1310">
+          
+            <mixed-citation id="d630672e477" publication-type="other">
+Hopkins M, Langmead G (2009) Cube pruning as heuristic search. In: Proceedings of the 2009 conference
+on empirical methods in natural language processing. Association for Computational Linguistics,
+Singapore, pp 62-71</mixed-citation>
+        </ref>
+        <ref id="d630672e491a1310">
+          
+            <mixed-citation id="d630672e495" publication-type="other">
+Huang L, Chiang D (2005) Better it-best parsing. In: Proceedings of the 9th international workshop on
+parsing technologies, Vancouver, pp 53-64</mixed-citation>
+        </ref>
+        <ref id="d630672e505a1310">
+          
+            <mixed-citation id="d630672e509" publication-type="other">
+Huang L, Chiang D (2007) Forest rescoring: faster decoding with integrated language models. In: Pro-
+ceedings of the 45th annual meeting of the Association for Computational Linguistics. Prague,
+pp 144-151</mixed-citation>
+        </ref>
+        <ref id="d630672e522a1310">
+          
+            <mixed-citation id="d630672e526" publication-type="other">
+Iglesias G, de Gispert A, Banga ER, Byrne W (2009) Hierarchical phrase-based translation with weighted
+finite state transducers. In: Proceedings of human language technologies: the 2009 annual conference
+of the North American chapter of the Association for Computational Linguistics. Association for
+Computational Linguistics, Boulder, pp 433-441</mixed-citation>
+        </ref>
+        <ref id="d630672e542a1310">
+          
+            <mixed-citation id="d630672e546" publication-type="other">
+Kasami T (1965) An efficient recognition and syntax analysis algorithm for context-free languages. Tech.
+rep., Hawaii University Honolulu Department of Electrical Engineering</mixed-citation>
+        </ref>
+        <ref id="d630672e556a1310">
+          
+            <mixed-citation id="d630672e560" publication-type="other">
+Kneser R, Ney H (1995) Improved backing-off for M-gram language modeling. In: Proceedings of the
+international conference on acoustics, speech, and signal processing, vol 1, Detroit, pp 181-184</mixed-citation>
+        </ref>
+        <ref id="d630672e570a1310">
+          
+            <mixed-citation id="d630672e574" publication-type="other">
+Koehn P (2003) Noun phrase translation. PhD thesis. University of Southern California, Los Angeles</mixed-citation>
+        </ref>
+        <ref id="d630672e582a1310">
+          
+            <mixed-citation id="d630672e586" publication-type="other">
+Koehn P (2004) Pharaoh: a beam search decoder for phrase-based statistical machine translation models.
+In: Proceedings of the 6th conference of the Association for Machine Translation in the Americas.
+Georgetown University, Washington, pp 115-124</mixed-citation>
+        </ref>
+        <ref id="d630672e599a1310">
+          
+            <mixed-citation id="d630672e603" publication-type="other">
+Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, Bertoldi N, Cowan B, Shen W, Moran C, Zens
+R, Dyer C, Bojar O, Constantin A, Herbst E (2007) Moses: open source toolkit for statistical machine
+translation. In: Proc. of the annual meeting of the Association for Computational Linguistics (ACL),
+Prague, pp 177-180</mixed-citation>
+        </ref>
+        <ref id="d630672e619a1310">
+          
+            <mixed-citation id="d630672e623" publication-type="other">
+Koehn P, Arun A, Hoang H (2008) Towards better Machine translation quality for the German-English
+language pairs. In: Proceedings of the third workshop on statistical machine translation. Association
+for Computational Linguistics, Columbus, pp 139-142</mixed-citation>
+        </ref>
+        <ref id="d630672e636a1310">
+          
+            <mixed-citation id="d630672e640" publication-type="other">
+Li Z, Callison-Burch C, Dyer C, Khudanpur S, Schwartz L, Thornton W, Weese J, Zaidan O (2009a) Joshua:
+an open source toolkit for parsing-based machine translation. In: Proceedings of the workshop on sta-
+tistical machine translation, Athens, pp 135-139</mixed-citation>
+        </ref>
+        <ref id="d630672e653a1310">
+          
+            <mixed-citation id="d630672e657" publication-type="other">
+Li Z, Eisner J, Khudanpur S (2009b) Variational decoding for statistical machine translation. In: Proceed-
+ings of the joint conference of the 47th annual meeting of the ACL and the 4th international joint
+conference on natural language processing of the AFNLP. Association for Computational Linguistics,
+Suntec, Singapore, pp 593-601.</mixed-citation>
+        </ref>
+        <ref id="d630672e673a1310">
+          
+            <mixed-citation id="d630672e677" publication-type="other">
+Lopez A (2009) Translation as weighted deduction. In: Proceedings of the 12th conference of the European
+chapter of the Association for Computational Linguistics. Association for Computational Linguistics,
+Athens, pp 532-540</mixed-citation>
+        </ref>
+        <ref id="d630672e691a1310">
+          
+            <mixed-citation id="d630672e695" publication-type="other">
+Martin S, Liermann J. Ney H (1995) Algorithms for bigram and trigram word clustering. In: European
+conference on speech communication and technology, Madrid, pp 1253-1256</mixed-citation>
+        </ref>
+        <ref id="d630672e705a1310">
+          
+            <mixed-citation id="d630672e709" publication-type="other">
+May J, Knight K (2006) Tiburón: a weighted tree automata toolkit. In: Proceedings of the eleventh interna-
+tional conference on implementation and application of automata, Taipei, pp 102-113</mixed-citation>
+        </ref>
+        <ref id="d630672e719a1310">
+          
+            <mixed-citation id="d630672e723" publication-type="other">
+Och FJ (1999) An efficient method for determining bilingual word classes. In: Proceedings of the ninth
+conference of the European chapter of the Association for Computational Linguistics, Bergen, pp
+8-12</mixed-citation>
+        </ref>
+        <ref id="d630672e736a1310">
+          
+            <mixed-citation id="d630672e740" publication-type="other">
+Och FJ (2002) Statistical machine translation: from single-word models to alignment templates. PhD thesis,
+RWTH Aachen University, Aachen</mixed-citation>
+        </ref>
+        <ref id="d630672e750a1310">
+          
+            <mixed-citation id="d630672e754" publication-type="other">
+Och FJ (2003) Minimum error rate training for statistical machine translation. In: Proceedings of the 41st
+annual meeting of the Association for Computational Linguistics, Sapporo, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d630672e764a1310">
+          
+            <mixed-citation id="d630672e768" publication-type="other">
+Och FJ, Ney H (2003) A systematic comparison of various statistical alignment models. Comput Linguist
+29( 1): 19—51</mixed-citation>
+        </ref>
+        <ref id="d630672e779a1310">
+          
+            <mixed-citation id="d630672e783" publication-type="other">
+Och FJ, Ney H (2004) The alignment template approach to statistical machine translation. Comput Linguist
+30(4):417-449</mixed-citation>
+        </ref>
+        <ref id="d630672e793a1310">
+          
+            <mixed-citation id="d630672e797" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu WJ (2002) Bleu: a method for automatic evaluation of machine trans-
+lation. In: Proceedings of the 41st annual meeting of the Association for Computational Linguistics,
+Philadelphia, pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d630672e810a1310">
+          
+            <mixed-citation id="d630672e814" publication-type="other">
+Petrov S, Haghighi A, Klein D (2008) Coarse-to-fine syntactic machine translation using language projec-
+tions. In: Proceedings of the 2008 conference on empirical methods in natural language processing,
+Honolulu, pp 108-116</mixed-citation>
+        </ref>
+        <ref id="d630672e827a1310">
+          
+            <mixed-citation id="d630672e831" publication-type="other">
+Schwartz L (2010) Reproducible results in parsing-based machine translation: the JHU shared task submis-
+sion. In: Proceedings of the joint fifth workshop on statistical machine translation and MetricsMATR.
+Association for Computational Linguistics, Uppsala, pp 177-182</mixed-citation>
+        </ref>
+        <ref id="d630672e844a1310">
+          
+            <mixed-citation id="d630672e848" publication-type="other">
+Snover M, Dorr B, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation edit rate with targeted
+human annotation. In: Proceedings of the 7th conference of the Association for Machine Translation
+in the Americas, Cambridge, pp 223-231</mixed-citation>
+        </ref>
+        <ref id="d630672e861a1310">
+          
+            <mixed-citation id="d630672e865" publication-type="other">
+Stolcke A (2002) SRILM—an extensible language modeling toolkit. In: Proceedings of the seventh inter-
+national conference on spoken language processing. ISCA, Denver, pp 901-904</mixed-citation>
+        </ref>
+        <ref id="d630672e876a1310">
+          
+            <mixed-citation id="d630672e880" publication-type="other">
+Tillmann C, Ney H (2003) Word reordering and a dynamic programming beam search algorithm for statis-
+tical machine translation. Computat Linguist 29(1):97-133</mixed-citation>
+        </ref>
+        <ref id="d630672e890a1310">
+          
+            <mixed-citation id="d630672e894" publication-type="other">
+Venugopal A, Zollmann A, Stephan V (2007) An efficient two-pass approach to synchronous-CFG driven
+statistical MT. In: Human language technologies 2007: the conference of the North American chapter
+of the Association for Computational Linguistics, Proceedings of the main conference. Association
+for Computational Linguistics, Rochester, pp 500-507</mixed-citation>
+        </ref>
+        <ref id="d630672e910a1310">
+          
+            <mixed-citation id="d630672e914" publication-type="other">
+Vilar D, Ney H (2009) On LM heuristics for the cube growing algorithm. In: Proceedings of the annual
+conference of the European Association for Machine Translation (EAMT), Barcelona, pp 242-249</mixed-citation>
+        </ref>
+        <ref id="d630672e924a1310">
+          
+            <mixed-citation id="d630672e928" publication-type="other">
+Vilar D, Stein D, Huck M, Ney H (2010) Jane: open source hierarchical translation, extended with reorder-
+ing and Lexicon models. In: Proceedings of the joint fifth workshop on statistical machine translation
+and MetricsMATR. Association for Computational Linguistics, Uppsala, pp 262-270</mixed-citation>
+        </ref>
+        <ref id="d630672e941a1310">
+          
+            <mixed-citation id="d630672e945" publication-type="other">
+Watanabe T, Tsukada H, Isozaki H (2006) Left-to-right target generation for hierarchical phrase-based
+translation. In: Proceedings of the 21st international conference on computational linguistics and the
+44th annual meeting of the Association for Computational Linguistics, Sydney, pp 777-784</mixed-citation>
+        </ref>
+        <ref id="d630672e958a1310">
+          
+            <mixed-citation id="d630672e962" publication-type="other">
+Wuebker J, Mauser A, Ney H (2010) Training phrase translation models with leaving-one-out. In: 48th
+annual meeting of the association for computational linguistics, Uppsala, pp 475-484</mixed-citation>
+        </ref>
+        <ref id="d630672e973a1310">
+          
+            <mixed-citation id="d630672e977" publication-type="other">
+Younger DH (1967) Recognition and parsing of context-free languages in time n3. Inform Control
+2(10): 189-208</mixed-citation>
+        </ref>
+        <ref id="d630672e987a1310">
+          
+            <mixed-citation id="d630672e991" publication-type="other">
+Zens R (2002) Kontextabhängige Statistische Übersetzungsmodelle. Master's thesis, RWTH Aachen Uni-
+versity, Aachen</mixed-citation>
+        </ref>
+        <ref id="d630672e1001a1310">
+          
+            <mixed-citation id="d630672e1005" publication-type="other">
+Zens R (2008) Phrase-based statistical machine translation: models, search, training. PhD thesis, RWTH
+Aachen University, Aachen</mixed-citation>
+        </ref>
+        <ref id="d630672e1015a1310">
+          
+            <mixed-citation id="d630672e1019" publication-type="other">
+Zens R, Ney H (2008) Improvements in dynamic programming beam search for phrase-based statistical
+machine translation. In: International workshop on spoken language translation, Honolulu, pp 195-205</mixed-citation>
+        </ref>
+        <ref id="d630672e1029a1310">
+          
+            <mixed-citation id="d630672e1033" publication-type="other">
+Zollmann A, Venugopal A (2006) Syntax augmented machine translation via chart parsing. In: Proceedings
+of the workshop on statistical machine translation, New York, pp 138-141</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

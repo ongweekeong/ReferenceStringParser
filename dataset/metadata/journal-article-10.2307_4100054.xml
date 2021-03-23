@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">73</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">248</issue>
+         <issue-id>i379544</issue-id>
+         <article-id pub-id-type="jstor">4100054</article-id>
+         
+         <title-group>
+            <article-title>
+               Numerical Schemes for the Simulation of the Two-Dimensional Schrödinger Equation Using Non-Reflecting Boundary Conditions 
+            </article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Xavier</given-names>
+                  <surname>Antoine</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Christophe Besse</string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>Vincent Mouysset</string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>1779</fpage>
+         <lpage>1799</lpage>
+         <page-range>1779-1799</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100054"/>
+         
+         
+         <abstract>
+            <p>
+               This paper adresses the construction and study of a Crank-Nicolson-type discretization of the two-dimensional linear Schrödinger equation in a bounded domain Ω with artificial boundary conditions set on the arbitrarily shaped boundary of Ω. These conditions present the features of being differential in space and nonlocal in time since their definition involves some time fractional operators. After having proved the well-posedness of the continuous truncated initial boundary value problem, a semi-discrete Crank-Nicolson-type scheme for the bounded problem is introduced and its stability is provided. Next, the full discretization is realized by way of a standard finite-element method to preserve the stability of the scheme. Some numerical simulations are given to illustrate the effectiveness and flexibility of the method. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 65M12</kwd>
+            <kwd>Primary 35Q40</kwd>
+            <kwd>Primary 58J40</kwd>
+            <kwd>Primary 26A33</kwd>
+            <kwd>Primary 58J47</kwd>
+            <kwd>
+               Schrödinger Equation 
+            </kwd>
+            <kwd>Non-Reflecting Boundary Condition</kwd>
+            <kwd>Stability</kwd>
+            <kwd>Semi-Discrete Crank-Nicolson-Type Scheme</kwd>
+            <kwd>Finite-Element Methods</kwd>
+            <kwd>S 0025-5718(04)01631-X</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4694756e419a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4694756e426" publication-type="journal">
+I. Alonso-Mallo, and N. Reguera, Weak ill-posedness of spatial discretizations of absorbing
+boundary conditions for Schr&amp;#x00F6;dinger-type equations, SIAM J. Numer. Anal. 40 (1) (2002),
+pp. 134-158. MR 2003f:65159<person-group>
+                     <string-name>
+                     <surname>Alonso-Mallo</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>134</fpage>
+               <volume>40</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e464a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4694756e471" publication-type="journal">
+X. Antoine, Fast approximate computation of a time-harmonic scattered field using the
+On-Surface Radiation Condition method, IMA J. Appl. Math. 66 (2001), pp. 83-110. MR
+2001m:78033<person-group>
+                     <string-name>
+                     <surname>Antoine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>83</fpage>
+               <volume>66</volume>
+               <source>IMA J. Appl. Math.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e506a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4694756e513" publication-type="journal">
+X. Antoine, and C. Besse, Construction, structure and asymptotic approximations of a mi-
+crodifferential transparent boundary condition for the linear Schr&amp;#x00F6;dinger equation, J. Math.
+Pures Appl. 80 (7) (2001), pp. 701-738. MR 2003h:35213<person-group>
+                     <string-name>
+                     <surname>Antoine</surname>
+                  </string-name>
+                  </person-group>
+               <issue>7</issue>
+               <fpage>701</fpage>
+               <volume>80</volume>
+               <source>J. Math. Pures Appl.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e551a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4694756e558" publication-type="journal">
+X. Antoine, and C. Besse, Unconditionally stable discretization schemes of non-reflecting
+boundary conditions for the one-dimensional Schr&amp;#x00F6;dinger equation, J. Comput. Phys. 181
+(1) (2003), pp. 157-175.<person-group>
+                     <string-name>
+                     <surname>Antoine</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>157</fpage>
+               <volume>181</volume>
+               <source>J. Comput. Phys.</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e597a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4694756e604" publication-type="journal">
+A. Arnold, Numerically absorbing boundary conditions for quantum evolution equations,
+VLSI Design 6 (1-4) (1998), pp. 313-319.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>313</fpage>
+               <volume>6</volume>
+               <source>VLSI Design</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e639a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4694756e646" publication-type="journal">
+A. Arnold, Mathematical concepts of open quantum boundary conditions, Transport Theory
+Statist. Phys., 30 (4-6) (2001), pp. 561-584.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>561</fpage>
+               <volume>30</volume>
+               <source>Transport Theory Statist. Phys.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e681a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4694756e688" publication-type="journal">
+A. Arnold, and M. Erhardt, Discrete transparent boundary conditions for wide angle parabolic
+equations in underwater acoustics, J. Comput. Phys. 145 (1998), pp. 611-638. MR 99g:76084<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>611</fpage>
+               <volume>145</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e720a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4694756e727" publication-type="journal">
+A. Arnold, and M. Erhardt, Discrete transparent boundary conditions for the Schr&amp;#x00F6;dinger
+equation, Riv. Math. Univ. Parma 6 (4) (2001), pp. 57-108. MR 2003a:35161<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>57</fpage>
+               <volume>6</volume>
+               <source>Riv. Math. Univ. Parma</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e762a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4694756e769" publication-type="journal">
+V.A. Baskakov and A.V. Popov, Implementation of transparent boundaries for the numerical
+solution of the Schr&amp;#x00F6;dinger equation, Wave Motion 14 (1991), pp. 123-128. MR 92g:78001<person-group>
+                     <string-name>
+                     <surname>Baskakov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>14</volume>
+               <source>Wave Motion</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e801a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4694756e808" publication-type="journal">
+C.-H. Bruneau, L. Di Menza, and T. Lerhner, Numerical resolution of some nonlinear
+Schr&amp;#x00F6;dinger-like equations in plasmas, Numer. Methods Partial Differential Equations (1999),
+pp. 672-696. MR 2000f:82099<person-group>
+                     <string-name>
+                     <surname>Bruneau</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>672</fpage>
+               <source>Numer. Methods Partial Differential Equations</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e841a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4694756e848" publication-type="journal">
+P. Deuflhard, and F. Schmidt, Discrete transparent boundary conditions for the numerical
+solution of Fresnel's equation, Comput. Math. Appl. 29 (9) (1995), pp. 53-76. MR 95k:65083<person-group>
+                     <string-name>
+                     <surname>Deuflhard</surname>
+                  </string-name>
+                  </person-group>
+               <issue>9</issue>
+               <fpage>53</fpage>
+               <volume>29</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e883a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4694756e890" publication-type="journal">
+L. Di Menza, Transparent and absorbing boundary conditions for the Schr&amp;#x00F6;dinger equation in
+a bounded domain, Numer. Funct. Anal. Optim. 18 (7-8) (1997), pp. 759-775. MR 98h:65036<person-group>
+                     <string-name>
+                     <surname>Di Menza</surname>
+                  </string-name>
+                  </person-group>
+               <issue>7</issue>
+               <fpage>759</fpage>
+               <volume>18</volume>
+               <source>Numer. Funct. Anal. Optim.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e925a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4694756e932" publication-type="journal">
+T. Fevens, and H. Jiang, Absorbing boundary conditions for the Schr&amp;#x00F6;dinger equation, SIAM
+J. Sci. Comput. 21 (1) (1999), pp. 255-282. MR 2000h:65144<person-group>
+                     <string-name>
+                     <surname>Fevens</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>255</fpage>
+               <volume>21</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e967a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4694756e974" publication-type="journal">
+T. Friese, F. Schmidt, and D. Yevick, A comparison of transparent boundary conditions for
+the Fresnel equation, J. Comput. Phys. 168 (2001), pp. 433-444. MR 2002b:78027<person-group>
+                     <string-name>
+                     <surname>Friese</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>433</fpage>
+               <volume>168</volume>
+               <source>J. Comput. Phys.</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1006a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4694756e1013" publication-type="book">
+R. Gorenflo, and F. Mainardi, Fractional Calculus: Integral and Differential Equations
+of Fractional Order, in Fractals and Fractional Calculus in Continuum Mechanics, Ed. A.
+Carpinteri and F. Mainardi, Springer-Verlag, Wien 1997. MR 99g:26015<person-group>
+                     <string-name>
+                     <surname>Gorenflo</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fractional Calculus: Integral and Differential Equations of Fractional Order</comment>
+               <source>Fractals and Fractional Calculus in Continuum Mechanics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1045a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4694756e1052" publication-type="journal">
+T. Ha Duong, and P. Joly, A generalized image principle for the wave equation with absorb-
+ing boundary condition and application to fourth order schemes, Numer. Methods Partial
+Differential Equations 10 (1994), (4), pp. 411-434. MR 95f:65164<person-group>
+                     <string-name>
+                     <surname>Ha Duong</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>411</fpage>
+               <volume>10</volume>
+               <source>Numer. Methods Partial Differential Equations</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1091a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4694756e1098" publication-type="journal">
+T. Hagstrom, Radiation boundary conditions for the numerical simulation of waves, Acta
+Numer. (1999), pp. 47-106. MR 2002c:35171<person-group>
+                     <string-name>
+                     <surname>Hagstrom</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>47</fpage>
+               <source>Acta Numer.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1127a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4694756e1134" publication-type="journal">
+P. Henrici, Fast Fourier methods in computational complex analysis, SIAM Rev. 21 (4) (1979),
+pp. 481-541. MR 80i:65031<object-id pub-id-type="jstor">10.2307/2030105</object-id>
+               <fpage>481</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1150a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4694756e1157" publication-type="journal">
+Y.V. Kopylov, A.V. Popov, and A.V. Vinogradov, Application of the parabolic wave equation
+to X-ray diffraction optics, Optics Comm. 118 (1995), pp. 619-636.<person-group>
+                     <string-name>
+                     <surname>Kopylov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>619</fpage>
+               <volume>118</volume>
+               <source>Optics Comm.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1189a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4694756e1196" publication-type="journal">
+J.-P. Kuska, Absorbing boundary conditions for the Schr&amp;#x00F6;dinger equation on finite intervals,
+Phys. Rev. B 46 (8) (1992), pp.5000-5003.<person-group>
+                     <string-name>
+                     <surname>Kuska</surname>
+                  </string-name>
+                  </person-group>
+               <issue>8</issue>
+               <fpage>5000</fpage>
+               <volume>46</volume>
+               <source>Phys. Rev. B</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1231a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4694756e1238" publication-type="book">
+M. L&amp;#x00E9;vy, Parabolic Equation Methods for Electromagnetic Wave Propagation, IEE, 2000.
+MR 2003b:78001<person-group>
+                     <string-name>
+                     <surname>L&amp;#x00E9;vy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Parabolic Equation Methods for Electromagnetic Wave Propagation</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1263a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4694756e1270" publication-type="journal">
+C. Lubich, Discretized fractional calculus, SIAM J. Math. Anal. 17 (3) (1986), pp. 704-719.
+MR 87f:26006<person-group>
+                     <string-name>
+                     <surname>Lubich</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>704</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1306a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4694756e1313" publication-type="journal">
+C. Lubich, and A. Sch&amp;#x00E4;dle, Fast convolution for non-reflecting boundary conditions, SIAM
+J. Sci. Comput. 24 (1) (2002), pp. 161-182. MR 2003h:44007<person-group>
+                     <string-name>
+                     <surname>Lubich</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <volume>24</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1345a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4694756e1352" publication-type="other">
+B. Mayfield, Non Local Boundary Conditions for the Schr&amp;#x00F6;dinger Equation, Ph.D. Thesis,
+University of Rhodes Island, Providence, RI, 1989.</mixed-citation>
+            </ref>
+            <ref id="d4694756e1362a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4694756e1369" publication-type="journal">
+A. Sch&amp;#x00E4;dle, Non-reflecting boundary conditions for the two-dimensional Schr&amp;#x00F6;dinger equa-
+tion, Wave Motion 35 (2002), pp. 181-188. MR 2002h:78010<person-group>
+                     <string-name>
+                     <surname>Sch&amp;#x00E4;dle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>181</fpage>
+               <volume>35</volume>
+               <source>Wave Motion</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1401a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4694756e1408" publication-type="journal">
+F. Schmidt, Construction of discrete transparent boundary conditions for Schr&amp;#x00F6;dinger-type
+equations, Surveys Math. Indust. 9 (2) (1999), pp. 87-100. MR 2000j:65080<person-group>
+                     <string-name>
+                     <surname>Schmidt</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>87</fpage>
+               <volume>9</volume>
+               <source>Surveys Math. Indust.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1443a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4694756e1450" publication-type="journal">
+F. Schmidt, and D. Yevick, Discrete transparent boundary conditions for Schr&amp;#x00F6;dinger-type
+equations, J. Comput. Phys. 134 (1997), pp. 96-107. MR 98e:81028<person-group>
+                     <string-name>
+                     <surname>Schmidt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>96</fpage>
+               <volume>134</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1482a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d4694756e1489" publication-type="book">
+F.D. Tappert, The parabolic approximation method, in J.B. Keller and J.S. Papadakis, Ed.,
+Wave Propagation and Underwater Acoustics, Lecture Notes in Physics, Vol. 70, pp. 224-287,
+Springer, Berlin, 1977. MR 57:14891<person-group>
+                     <string-name>
+                     <surname>Tappert</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The parabolic approximation method</comment>
+               <fpage>224</fpage>
+               <volume>70</volume>
+               <source>Wave Propagation and Underwater Acoustics, Lecture Notes in Physics</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4694756e1528a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d4694756e1535" publication-type="book">
+A.I. Zayed, Handbook of Function and Generalized Function Transformation, CRC Press,
+1996. MR 97h:44001<person-group>
+                     <string-name>
+                     <surname>Zayed</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of Function and Generalized Function Transformation</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

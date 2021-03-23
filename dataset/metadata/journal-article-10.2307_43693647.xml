@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompmath</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50017830</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational Mathematics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Chinese Academy of Mathematices and System Sciences (AMSS) Chinese Academy of Sciences</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">02549409</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19917139</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">29</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i40148819</issue-id>
+         <article-id pub-id-type="jstor">43693647</article-id>
+         <title-group>
+            <article-title>A FAST HIGH ORDER METHOD FOR ELECTROMAGNETIC SCATTERING BY LARGE OPEN CAVITIES</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Meiling</given-names>
+                  <surname>Zhao</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Zhonghua</given-names>
+                  <surname>Qiao</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Tao</given-names>
+                  <surname>Tang</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>5</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>287</fpage>
+         <lpage>304</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2011 AMSS, Chinese Academy of Sciences</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/43693647"/>
+      
+      
+         <abstract>
+            <p>In this paper, the electromagnetic scattering from a rectangular large open cavity embedded in an infinite ground plane is studied. By introducing a nonlocal artificial boundary condition, the scattering problem from the open cavity is reduced to a bounded domain problem. A compact fourth order finite difference scheme is then proposed to discrete the cavity scattering model in the rectangular domain, and a special treatment is enforced to approximate the boundary condition, which makes truncation errors reach O(h⁴) in the whole computational domain. A fast algorithm, exploiting the discrete Fourier transformation in the horizontal and a Gaussian elimination in the vertical direction, is employed, which reduces the discrete system to a much smaller interface system. An effective preconditioner is presented for the BICGstab iterative solver to solve this interface system. Numerical results demonstrate the remarkable accuracy and efficiency of the proposed method. In particular, it can be used to solve the cavity model for the large wave number up to 600π.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1130358e269a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1130358e276" publication-type="other">
+H. Ammari, G. Bao and A. W. Wood, Analysis of the electormagnetic scattering from a cavity,
+Japan J. Indust. Appl. Math., 19 (2002), 301-310.</mixed-citation>
+        </ref>
+        <ref id="d1130358e286a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1130358e293" publication-type="other">
+A. Wood, Ananlysis of electromagnetic scattering from an overfilled cavity in the ground plane,
+J. Comput. Phys., 215 (2006), 630-641.</mixed-citation>
+        </ref>
+        <ref id="d1130358e303a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1130358e310" publication-type="other">
+G. Bao and W. Sun, A fast algorithm for the electromagnetic scattering from a large cavity, SIAM
+J. Sci. Comput., 27 (2005), 553-574.</mixed-citation>
+        </ref>
+        <ref id="d1130358e320a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1130358e327" publication-type="other">
+R. P. Beyer and R. J. LeVeque, Analysis of one-dimensional model for the immersed boundary
+method, SIAM J. Numer. Anal., 29 (1992), 332-364.</mixed-citation>
+        </ref>
+        <ref id="d1130358e338a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1130358e345" publication-type="other">
+J. Huang, A. W. Wood and M. J. Havrilla, A hybrid finite element-Laplace transform method for
+the analysis of transient electromagnetic scattering by an over-filled cavity in the ground plane.
+Commun. Comput. Phus., 5 (2009), 126-141.</mixed-citation>
+        </ref>
+        <ref id="d1130358e358a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1130358e365" publication-type="other">
+J. Jin, The Finite Element Method in Electromagnetics, John Willey Sons, New York, 1993.</mixed-citation>
+        </ref>
+        <ref id="d1130358e372a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1130358e379" publication-type="other">
+J. Liu and J. Jin, A special higher order finite-element method for scattering by deep cavities,
+IEEE Trans. Antennas Propag., 48 (2000), 694-703.</mixed-citation>
+        </ref>
+        <ref id="d1130358e389a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1130358e396" publication-type="other">
+J. Jin, J. Liu, Z. Lou and S. Liang, A fully high-order finite-element simulation of scattering by
+deep cavities, IEEE Trans. Antennas Propag., 51 (2003), 2420-2429.</mixed-citation>
+        </ref>
+        <ref id="d1130358e406a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1130358e413" publication-type="other">
+Z. Xiang and T. Chia, A hybrid BEM-WTM approach for analysis of the EM scattering from
+large open-ended cavities, IEEE Trans. Antennas Propag., 49 (2001), 165-173.</mixed-citation>
+        </ref>
+        <ref id="d1130358e423a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1130358e430" publication-type="other">
+D. Zhang, F. Ma and H. Dong, A finite element method with rectangular perfectly method matched
+layers for the scattering from cavities, J. Comput. Math., 26 (2008), 98-111.</mixed-citation>
+        </ref>
+        <ref id="d1130358e441a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1130358e448" publication-type="other">
+K. Ito, Z. Qiao and J. Toivanen, A domain decomposition solver for acoustic scattering by elastic
+objects in layered media, J. Comput. Phys., 227 (2008), 8685-8698.</mixed-citation>
+        </ref>
+        <ref id="d1130358e458a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1130358e465" publication-type="other">
+Q. Fang, D. P. Nicholls and J. Shen, A stable, high-order method for three-dimensional, bounded-
+obstacle, acoustic scattering, J. Comput. Phys., 224 (2007), 1145-1169.</mixed-citation>
+        </ref>
+        <ref id="d1130358e475a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1130358e482" publication-type="other">
+Y. Fu, Compact fourth-order finite difference schemes for Helmholt z equation with high wave
+numbers, J. Comput Math., 26 (2008), 98-111.</mixed-citation>
+        </ref>
+        <ref id="d1130358e492a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1130358e499" publication-type="other">
+Y. Wang, K. Du and W. Sun, A second-order method for the electromagnetic scattering from a
+large cavity, Numer. Math. Theor. Meth. Appl, 1 (2008), 357-382.</mixed-citation>
+        </ref>
+        <ref id="d1130358e509a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1130358e516" publication-type="other">
+J. Wu, Y. Wang, W. Li and W. Sun, Toeplitz-type aooroximations to the Hadamard integral
+operators and their applications in electromagnetic cavity problems, Appl. Numer. Math., 58
+(2008), 101-121.</mixed-citation>
+        </ref>
+        <ref id="d1130358e529a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1130358e536" publication-type="other">
+B. Gustafsson and E. Mossberg, Time compact high order difference methods for wave propaga-
+tion, SIAM J. Sci. Comput., 26 (2004), 259-271.</mixed-citation>
+        </ref>
+        <ref id="d1130358e547a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1130358e554" publication-type="other">
+G. Baruch, G. Fibich, S. Tsynkov and E. Türkei, Fourth order schemes for time-harmonic wave
+equations with discontinuous coefficients, Commun. Comput. Phys., 5 (2009), 442-455.</mixed-citation>
+        </ref>
+        <ref id="d1130358e564a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1130358e571" publication-type="other">
+B. Gustafsson and P. Wahlund, Time compact difference methods for wave propagation in dis-
+continuous media, SIAM J. Sci. Comput., 26 (2004), 272-293.</mixed-citation>
+        </ref>
+        <ref id="d1130358e581a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1130358e588" publication-type="other">
+B. Gustafsson and P. Wahlund, Time compact high order difference methods for wave propagation,
+2D, J. Sci. Comput., 25 (2005), 195-211.</mixed-citation>
+        </ref>
+        <ref id="d1130358e598a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1130358e605" publication-type="other">
+Q. Huynh, K. Ito and Z. Qiao, High order finite difference schemes for wave equations in hetero-
+geneous media, In preparation.</mixed-citation>
+        </ref>
+        <ref id="d1130358e615a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1130358e622" publication-type="other">
+R. J. LeVeque and Z. Li, The immersed interface method for elliptic equations with discontinuous
+coefficients and sigular sources, SIAM J. Numer. Anal., 31 (1994), 1019-1044.</mixed-citation>
+        </ref>
+        <ref id="d1130358e632a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1130358e639" publication-type="other">
+F. Ihlenburg. Finite Element Analysis of Acoustic Scattering, In Vol. 132 of Applied Mathematical
+Sciences, Springer-Ver lag, New York, 1998.</mixed-citation>
+        </ref>
+        <ref id="d1130358e650a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1130358e657" publication-type="other">
+F. Ihlenburg and I. Babuska, Finite element solution of the Helmholtz equation with high wave
+number Part I: The h-version of FEM, Comput. Math. Appl., 30 (1995), 9-37.</mixed-citation>
+        </ref>
+        <ref id="d1130358e667a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1130358e674" publication-type="other">
+F. Ihlenburg and I. Babuska, Finite element solution of the Helmholtz equation with high wave
+number Part II: The h-p version of the FEM, SIAM J. Numer. Anal., 34 (1997), 315-358.</mixed-citation>
+        </ref>
+        <ref id="d1130358e684a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1130358e691" publication-type="other">
+G. Baruch, G. Fibich and S. Tsynkov, High-order numerical method for the nonlinear Helmholtz
+equation with material discontinuities, J. Comput. Phys., 227 (2007), 820-850.</mixed-citation>
+        </ref>
+        <ref id="d1130358e701a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1130358e708" publication-type="other">
+X. Feng, Z. Qiao and Z. Li, High order compact finite difference schemes for Helmholtz equation
+with discontinuous coefficient, accepted by J. Comput. Math.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

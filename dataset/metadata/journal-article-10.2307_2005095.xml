@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">26</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">119</issue>
+         <issue-id>i334542</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005095</article-id>
+         
+         <title-group>
+            <article-title>Numerical Quadrature by the ε-Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David K.</given-names>
+                  <surname>Kahaner</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1972</year>
+         </pub-date>
+         <fpage>689</fpage>
+         <lpage>693</lpage>
+         <page-range>689-693</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1972 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005095"/>
+         
+         
+         <abstract>
+            <p>Modifications of Romberg's integration method are applicable to functions with endpoint singularities. Several authors have reached different conclusions on the usefulness of these schemes due to the potential difficulties in calculating certain exponents in the asymptotic error expansion. In this paper, we consider a method based on the ε-algorithm which does not require the user to supply these parameters. Tests show this luxury produces a method substantially better than the unmodified Romberg's method, but not as good as the modified procedure which assumes all the exponents are known. It is possible to design a scheme which incorporates the best of both methods and allows the user to decide how much information he wishes to provide. The algorithm is stable numerically in quadrature applications and converges for functions with endpoint singularities of an algebraic or logarithmic nature.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65B05</kwd>
+            <kwd>65D30</kwd>
+            <kwd>ε-algorithm</kwd>
+            <kwd>acceleration of convergence</kwd>
+            <kwd>extrapolation</kwd>
+            <kwd>numerical quadrature</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2008498e142a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2008498e149" publication-type="book">
+P. J. DAVIS &amp; P. RABINOWITZ, Numerical Integration, Blaisdell, Waltham, Mass., 1967.
+MR 35 #2482.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Integration</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e174a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2008498e181" publication-type="book">
+F. L. BAUER, H. RUTISHAUSER &amp; E. STIEFEL, "New aspects in numerical quadrature,"
+Proc. Sympos. Appl. Math., vol. 15, Amer. Math. Soc., Providence, R. I., 1963, pp. 199-218.
+MR 30 #4384.<person-group>
+                     <string-name>
+                     <surname>Bauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>15</volume>
+               <source>New aspects in numerical quadrature</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e216a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2008498e223" publication-type="journal">
+I. NAVOT, "An extension of the Euler-Maclaurin summation formula to functions
+with a branch singularity," J. Mathematical Phys., v. 40, 1961, pp. 271-276. MR 25 #4290.<person-group>
+                     <string-name>
+                     <surname>Navot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>271</fpage>
+               <volume>40</volume>
+               <source>J. Mathematical Phys.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e255a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2008498e262" publication-type="journal">
+I. NAVOT, "The Euler-Maclaurin functional for functions with a quasi-step discon-
+tinuity," Math. Comp., v. 17, 1963, pp. 337-345. MR 27 #5363.<object-id pub-id-type="doi">10.2307/2003996</object-id>
+               <fpage>337</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e279a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2008498e286" publication-type="journal">
+I. NAVOT, "A further extension of the Euler-Maclaurin summation formula," J.
+Mathematical Phys., v. 39, 1962, pp. 155-163.<person-group>
+                     <string-name>
+                     <surname>Navot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>39</volume>
+               <source>J. Mathematical Phys.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e318a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2008498e325" publication-type="journal">
+J. N. LYNESS &amp; B. W. NINHAM, "Numerical quadrature and asymptotic expansions,"
+Math. Comp., v. 21, 1967, pp. 162-178. MR 37 #1081.<object-id pub-id-type="doi">10.2307/2004157</object-id>
+               <fpage>162</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e341a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2008498e348" publication-type="journal">
+J. N. LYNESS &amp; B. W. NINHAM, "Further asymptotic expansions for the error func-
+tional," Math. Comp., v. 23, 1969, pp. 71-83. MR 39 #3682.<object-id pub-id-type="doi">10.2307/2004388</object-id>
+               <fpage>71</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e364a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2008498e371" publication-type="journal">
+L. Fox, "Romberg integration for a class of singular integrands," Comput. J., v. 10,
+1967, pp. 87-93. MR 35 #3878.<person-group>
+                     <string-name>
+                     <surname>Fox</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e403a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2008498e410" publication-type="journal">
+L. Fox &amp; L. HAYES, "On the definite integration of singular integrands," SIAM Rev.,
+v. 12, 1970, pp. 449-457. MR 42 #5445.<object-id pub-id-type="jstor">10.2307/2028558</object-id>
+               <fpage>449</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e426a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2008498e433" publication-type="journal">
+T. HAVIE, "On the practical application of the modified Romberg algorithm," Nordisk
+Tidskr. Informationsbehandling, v. 7, 1967, pp. 103-113.<person-group>
+                     <string-name>
+                     <surname>Havie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>7</volume>
+               <source>Nordisk Tidskr. Informationsbehandling</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e466a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2008498e473" publication-type="book">
+C. DEBOOR, On Writing an Automatic Integration Algorithm, Proc. Math. Software
+Sympos., Purdue University, West Lafayette, Ind., 1970.<person-group>
+                     <string-name>
+                     <surname>Deboor</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On Writing an Automatic Integration Algorithm</comment>
+               <source>Proc. Math. Software Sympos.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e502a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2008498e509" publication-type="book">
+D. SHANKS, An Analogy Between Transients and Mathematical Sequence and Some
+Nonlinear Sequence to Sequence Transforms Suggested by It, Naval Ordnance Laboratory
+Memorandum 9994, July 1949.<person-group>
+                     <string-name>
+                     <surname>Shanks</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Analogy Between Transients and Mathematical Sequence and Some Nonlinear Sequence to Sequence Transforms Suggested by It</source>
+               <year>1949</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e538a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2008498e545" publication-type="journal">
+P. WYNN, "On a device for computing the em(Sn) transformation," MTAC, v. 10,
+1956, pp. 91-96. MR 18, 801.<person-group>
+                     <string-name>
+                     <surname>Wynn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>10</volume>
+               <source>MTAC</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e577a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2008498e584" publication-type="journal">
+P. WYNN, "On the convergence and stability of the epsilon algorithm," SIAM J.
+Numer. Anal., v. 3, 1966, pp. 91-122. MR 34 #6996.<object-id pub-id-type="jstor">10.2307/2949688</object-id>
+               <fpage>91</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e600a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2008498e607" publication-type="journal">
+P. WYNN, "A comparison between the numerical performance of the Euler trans-
+formation and the epsilon algorithm," Rev. Francaise Traitement Information Chifires, v. 4,
+1961, pp. 23-29.<person-group>
+                     <string-name>
+                     <surname>Wynn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>4</volume>
+               <source>Rev. Francaise Traitement Information Chifires</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e642a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2008498e649" publication-type="book">
+D. KAHANER, Numerical Quadrature by the ε-Algorithm, Los Alamos Scientific Lab-
+oratory Report LA-DC-12844, September 1971.<person-group>
+                     <string-name>
+                     <surname>Kahaner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Quadrature by the ε-Algorithm</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2008498e675a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2008498e682" publication-type="book">
+P. WYNN, Upon a Conjecture Concerning a Method for Solving Linear Equations,
+and Certain Other Matters, MRC Technical Summary Report No. 626, 1966, p. 10.<person-group>
+                     <string-name>
+                     <surname>Wynn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>10</fpage>
+               <source>Upon a Conjecture Concerning a Method for Solving Linear Equations, and Certain Other Matters</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

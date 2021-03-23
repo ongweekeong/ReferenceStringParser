@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">75</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">254</issue>
+         <issue-id>i379564</issue-id>
+         <article-id pub-id-type="jstor">4100321</article-id>
+         
+         <title-group>
+            <article-title>Two Efficient Algorithms for the Computation of Ideal Sums in Quadratic Orders</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                   André Weilert 
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>941</fpage>
+         <lpage>981</lpage>
+         <page-range>941-981</page-range>
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2006 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/4100321"/>
+         
+         
+         <abstract>
+            <p>
+               This paper deals with two different asymptotically fast algorithms for the computation of ideal sums in quadratic orders. If the class number of the quadratic number field is equal to 1, these algorithms can be used to calculate the GCD in the quadratic order. We show that the calculation of an ideal sum in a fixed quadratic order can be done as fast as in Z up to a constant factor, i.e., in O(μ(n) log n), where n bounds the size of the operands and μ(n) denotes an upper bound for the multiplication time of n-bit integers. Using Schönhage-Strassen's asymptotically fast multiplication for n-bit integers, we achieve μ(n) = O(n log n log log n). 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Primary 54C40</kwd>
+            <kwd>Primary 14E20</kwd>
+            <kwd>Secondary 46E25</kwd>
+            <kwd>Secondary 20C20</kwd>
+            <kwd>Computational Number Theory</kwd>
+            <kwd>Quadratic Number Fields</kwd>
+            <kwd>GCD Computation</kwd>
+            <kwd>Euclidean Algorithm</kwd>
+            <kwd>S 0025-5718(05)01799-0</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3503468e242a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3503468e249" publication-type="book">
+T. M. Apostol, Modular Functions and Dirichlet Series in Number Theory, second ed., Grad.
+Texts in Math., vol. 41, Springer-Verlag, Berlin, 1997. MR1027834 (90j:11001)<person-group>
+                     <string-name>
+                     <surname>Apostol</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <comment content-type="section">Modular Functions and Dirichlet Series in Number Theory</comment>
+               <volume>41</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e284a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3503468e291" publication-type="journal">
+R. Brauer, On the Zeta-Function of Algebraic Number Fields, Amer. J. Math. 69 (1947),
+243-250. MR0020597(8:567h)<object-id pub-id-type="doi">10.2307/2371849</object-id>
+               <fpage>243</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e307a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3503468e314" publication-type="journal">
+---, On the Zeta-Function of Algebraic Number Fields II, Amer. J. Math. 72 (1950),
+739-746. MR0039009 (12:482g)<object-id pub-id-type="doi">10.2307/2372290</object-id>
+               <fpage>739</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e330a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3503468e337" publication-type="book">
+J. Buchmann, C. Thiel, and H, Williams, Short Representation of Quadratic Integers, Com-
+putational Algebra and Number Theory (Sydney University, November 1992) (W. Bosma and
+A. van der Poorten, eds.), Math. Appl., vol. 325, Kluwer Academic Publishers, Dordrecht,
+Netherlands, 1995, pp. 159-185. MR1344929 (96c:11144)<person-group>
+                     <string-name>
+                     <surname>Buchmann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Short Representation of Quadratic Integers</comment>
+               <fpage>159</fpage>
+               <volume>325</volume>
+               <source>Computational Algebra and Number Theory</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e379a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3503468e386" publication-type="book">
+D. A. Buell, Binary Quadratic Forms, Classical Theory and Modern Computations, Springer-
+Verlag, Berlin, 1989. MR1012948 (92b:11021)<person-group>
+                     <string-name>
+                     <surname>Buell</surname>
+                  </string-name>
+                  </person-group>
+               <source>Binary Quadratic Forms, Classical Theory and Modern Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e411a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3503468e418" publication-type="journal">
+B. F. Caviness, A Lehmer-Type Greatest Common Divisor Algorithm for Gaussian Integers,
+SIAM Rev. 15 (1973), no. 2, 414.<person-group>
+                     <string-name>
+                     <surname>Caviness</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>414</fpage>
+               <volume>15</volume>
+               <source>SIAM Rev.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e453a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3503468e460" publication-type="book">
+B. F. Caviness and G. E. Collins, Algorithms for Gaussian Integer Arithmetic, Proceedings of
+the 1976 ACM Symposium on Symbolic and Algebraic Computation SYMSAC'76 (Yorktown
+Heights) (R. D. Jenks, ed.), 1976, pp. 36-45.<person-group>
+                     <string-name>
+                     <surname>Caviness</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms for Gaussian Integer Arithmetic</comment>
+               <fpage>36</fpage>
+               <source>Proceedings of the 1976 ACM Symposium on Symbolic and Algebraic Computation SYMSAC'76</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e495a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3503468e502" publication-type="book">
+H. Cohen, A Course in Computational Algebraic Number Theory, Grad. Texts in Math., vol.
+138, Springer-Verlag, Berlin, 1996, Third, Corrected Printing. MR1228206 (94i:11105)<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Course in Computational Algebraic Number Theory</comment>
+               <volume>138</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e534a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3503468e541" publication-type="journal">
+---, Hermite and Smith Normal Form Algorithms over Dedekind Domains, Math. Comp.
+65 (1996), no. 216, 1681-1699. MR1361805 (97e:11159)<object-id pub-id-type="jstor">10.2307/2153732</object-id>
+               <fpage>1681</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e557a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3503468e564" publication-type="book">
+---, Advanced Topics in Computational Number Theory, Grad. Texts in Math., vol. 193,
+Springer-Verlag, Berlin, 2000. MR1728313 (2000k:11144)<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Advanced Topics in Computational Number Theory</comment>
+               <volume>193</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e597a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3503468e604" publication-type="journal">
+G. E. Collins, A Fast Euclidean Algorithm for Gaussian Integers, J. Symbolic Comput. 33
+(2002), 385-392. MR1890576 (2003a:11159)<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>385</fpage>
+               <volume>33</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e636a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3503468e643" publication-type="book">
+C. F. Gau&amp;#x00DF;, Untersuchungen &amp;#x00FC;ber h&amp;#x00F6;here Arithmetik (Disquisitiones Arithmeticae), Chelsea
+Publishing Company, Bronx, New York, 1889, Neudruck 1965, &amp;#x00DC;bersetzung ins Deutsche von
+H. Maser (ed.). MR0188045 (32:5488)<person-group>
+                     <string-name>
+                     <surname>Gau&amp;#x00DF;</surname>
+                  </string-name>
+                  </person-group>
+               <source>Untersuchungen &amp;#x00FC;ber h&amp;#x00F6;here Arithmetik (Disquisitiones Arithmeticae)</source>
+               <year>1889</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e672a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3503468e679" publication-type="journal">
+J. L. Hafner and K. S. McCurley, Asymptotically Fast Triangulation of Matrices over Rings,
+SIAM J. Comput. 20 (1991), no. 6, 1068-1083. MR1135749 (93d:15021)<person-group>
+                     <string-name>
+                     <surname>Hafner</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>1068</fpage>
+               <volume>20</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e714a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3503468e721" publication-type="book">
+T. L. Heath, The Thirteen Books of Euclid's Elements, second ed., vol. 2, Cambridge Univer-
+sity Press, New York, 1956, Books III-IX. MR0075873 (17:814b)<person-group>
+                     <string-name>
+                     <surname>Heath</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <fpage>III</fpage>
+               <volume>2</volume>
+               <source>The Thirteen Books of Euclid's Elements</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e756a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3503468e763" publication-type="book">
+K. Ireland and M. Rosen, A Classical Introduction to Modern Number Theory, second ed.,
+Grad. Texts in Math., vol. 84, Springer-Verlag, Berlin, 1990. MR1070716 (92e:11001)<person-group>
+                     <string-name>
+                     <surname>Ireland</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <comment content-type="section">A Classical Introduction to Modern Number Theory</comment>
+               <volume>84</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e798a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3503468e805" publication-type="book">
+E. Kaltofen and H. Rolletschek, Arithmetic in Quadratic Fields with Unique Factorization,
+Proceedings of the EUROCAL'85 Conference on Computer Algebra (Linz, Austria, April 1-3,
+1985) B. F. Caviness, ed., Lecture Notes in Comput. Sci., vol. 204, Springer-Verlag, Berlin,
+1985, pp. 279-288. MR0826569 (87c:11099)<person-group>
+                     <string-name>
+                     <surname>Kaltofen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Arithmetic in Quadratic Fields with Unique Factorization</comment>
+               <fpage>279</fpage>
+               <volume>204</volume>
+               <source>Proceedings of the EUROCAL'85 Conference on Computer Algebra</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e847a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3503468e854" publication-type="journal">
+---, Computing Greatest Common Divisors and Factorizations in Quadratic Number
+Fields, Math. Comp. 53 (1989), no. 188, 697-720. MR0982367 (90a:11154)<object-id pub-id-type="doi">10.2307/2008732</object-id>
+               <fpage>697</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e870a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3503468e877" publication-type="book">
+D. E. Knuth, The Analysis of Algorithms, Actes du Congr&amp;#x00E8;s International des Math&amp;#x00E9;maticiens
+(1/10 septembre 1970, Nice, France) (Paris) (Comit&amp;#x00E9; d'Organisation du Congr&amp;#x00E8;s, ed.), vol. 3,
+Gauthier-Villars, 1971, pp. 269-274. MR0423865 (54:11839)<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Analysis of Algorithms</comment>
+               <fpage>269</fpage>
+               <volume>3</volume>
+               <source>Actes du Congr&amp;#x00E8;s International des Math&amp;#x00E9;maticiens</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e915a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3503468e922" publication-type="book">
+---, Seminumerical Algorithms, third ed., The Art of Computer Programming, vol. 2,
+Addison-Wesley, Reading, MA, 1998. MR0633878 (83i:68003)<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <comment content-type="section">Seminumerical Algorithms</comment>
+               <volume>2</volume>
+               <source>The Art of Computer Programming</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e957a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3503468e964" publication-type="book">
+S. Lang, Algebra, third ed., Addison-Wesley, Reading, MA, 1993. MR1878556 (2003e:00003)<person-group>
+                     <string-name>
+                     <surname>Lang</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Algebra</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e989a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3503468e996" publication-type="book">
+---, Algebraic Number Theory, second ed., Grad. Texts in Math., vol. 110, Springer-
+Verlag, Berlin, 1994. MR1282723 (95f:11085)<person-group>
+                     <string-name>
+                     <surname>Lang</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <comment content-type="section">Algebraic Number Theory</comment>
+               <volume>110</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1031a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3503468e1038" publication-type="journal">
+D. H. Lehmer, Euclid's Algorithm for Large Numbers, Amer. Math. Monthly 45 (1938), 227-
+233.<object-id pub-id-type="doi">10.2307/2302607</object-id>
+               <fpage>227</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1055a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3503468e1062" publication-type="journal">
+F. Lemmermeyer, The Euclidean Algorithm in Algebraic Number Fields, Exposition. Math.
+13 (1995), 385-416. MR1362867 (96i:11115)<person-group>
+                     <string-name>
+                     <surname>Lemmermeyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>385</fpage>
+               <volume>13</volume>
+               <source>Exposition. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1094a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3503468e1101" publication-type="journal">
+H. W. Lenstra, Jr, On the Computation of Regulators and Class Numbers of Quadratic Fields,
+London Math. Soc. Lecture Note Ser. 56 (1982), 123-150. MR0697260 (86g:11080)<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>56</volume>
+               <source>London Math. Soc. Lecture Note Ser.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1133a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3503468e1140" publication-type="book">
+U. Manber, Introduction to Algorithms. A Creative Approach, Addison-Wesley, Reading, MA,
+1989. MR1091251 (93a:68002)<person-group>
+                     <string-name>
+                     <surname>Manber</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Algorithms. A Creative Approach</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1165a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d3503468e1172" publication-type="book">
+J. Neukirch, Algebraic Number Theory, Grundlehren Math. Wiss., vol. 322, Springer-Verlag,
+Berlin, 1999. MR1697859 (2000m:11104)<person-group>
+                     <string-name>
+                     <surname>Neukirch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algebraic Number Theory</comment>
+               <volume>322</volume>
+               <source>Grundlehren Math. Wiss.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1204a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d3503468e1211" publication-type="book">
+D. J. Newman, Analytic Number Theory, Grad. Texts in Math., vol. 177, Springer-Verlag,
+Berlin, 1998. MR1488421 (98m:11001)<person-group>
+                     <string-name>
+                     <surname>Newman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analytic Number Theory</comment>
+               <volume>177</volume>
+               <source>Grad. Texts in Math.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1243a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d3503468e1250" publication-type="journal">
+A, Sch&amp;#x00F6;nhage, Schnelle Berechnung von Kettenbruchentwicklungen, Acta Inform. 1 (1971),
+139-144.<person-group>
+                     <string-name>
+                     <surname>Sch&amp;#x00F6;nhage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>1</volume>
+               <source>Acta Inform.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1283a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d3503468e1290" publication-type="other">
+---, IGCDOC, Computation of Integer GCD's, Unpublished Manuscript, 1987.</mixed-citation>
+            </ref>
+            <ref id="d3503468e1297a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d3503468e1304" publication-type="book">
+---, Fast Reduction and Composition of Binary Quadratic Forms, Proceedings of the
+1991 International Symposium on Symbolic and Algebraic Computation ISSAC'91 (Bonn,
+Germany, July 15-17, 1991) S. M. Watt, ed., ACM Press, New York, 1991, pp. 128-133.<person-group>
+                     <string-name>
+                     <surname>Sch&amp;#x00F6;nhage</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Reduction and Composition of Binary Quadratic Forms</comment>
+               <fpage>128</fpage>
+               <source>Proceedings of the 1991 International Symposium on Symbolic and Algebraic Computation ISSAC'91</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1339a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d3503468e1346" publication-type="book">
+A. Sch&amp;#x00F6;nhage, A. F. W. Grotefeld, and E. Vetter, Fast Algorithms - A Multitape Turing
+Machine Implementation, BI Wissenschaftsverlag, Mannheim, Germany, 1994. MR1290996
+(96c:68043)<person-group>
+                     <string-name>
+                     <surname>Sch&amp;#x00F6;nhage</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fast Algorithms - A Multitape Turing Machine Implementation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1375a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d3503468e1382" publication-type="journal">
+A. Sch&amp;#x00F6;nhage and V. Strassen, Schnelle Multiplikation gro&amp;#x00DF;er Zahlen, Computing 7 (1971),
+281-292. MR0292344 (45:1431)<person-group>
+                     <string-name>
+                     <surname>Sch&amp;#x00F6;nhage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>7</volume>
+               <source>Computing</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1414a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d3503468e1421" publication-type="book">
+M. A. Shokrollahi and V. Stemann, Approximation of Complex Numbers by Cyclotomic Inte-
+gers, Technical Report TR-96-033, International Computer Science Institute, Berkeley, Sep-
+tember 1996.<person-group>
+                     <string-name>
+                     <surname>Shokrollahi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximation of Complex Numbers by Cyclotomic Integers</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1450a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d3503468e1457" publication-type="journal">
+C. L. Siegel, &amp;#x00DC;ber die Classenzahl quadratischer Zahlk&amp;#x00F6;rper, Acta Arith. 1 (1935), 83-86.<person-group>
+                     <string-name>
+                     <surname>Siegel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>83</fpage>
+               <volume>1</volume>
+               <source>Acta Arith.</source>
+               <year>1935</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1487a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d3503468e1494" publication-type="book">
+D. Stehle and P. Zimmermann, A Binary Recursive GCD Algorithm, Proceedings of the Sixth
+International Algorithmic Number Theory Symposium ANTS VI (Burlington, VT, June 13-
+18, 2004) D. Buell, ed., Lecture Notes in Comput. Sci., vol. 3076, Springer-Verlag, Berlin,
+2004, pp. 411-425.<person-group>
+                     <string-name>
+                     <surname>Stehle</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Binary Recursive GCD Algorithm</comment>
+               <fpage>411</fpage>
+               <volume>3076</volume>
+               <source>Proceedings of the Sixth International Algorithmic Number Theory Symposium ANTS VI</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1535a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d3503468e1542" publication-type="journal">
+J. Stein, Computational Problems Associated with Racah Algebra, J. Comput. Phys. 1 (1967),
+397-405.<person-group>
+                     <string-name>
+                     <surname>Stein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>397</fpage>
+               <volume>1</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1574a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d3503468e1581" publication-type="book">
+J. von zur Gathen and J. Gerhard, Modern Computer Algebra, Cambridge University Press,
+New York, 1999, MR1689167 (2000j:68205)<person-group>
+                     <string-name>
+                     <surname>von zur Gathen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Modern Computer Algebra</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1606a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d3503468e1613" publication-type="journal">
+A. Weilert, (1 + i)-ary GCD Computation in Z[i] as an Analogue to the Binary GCD Algo-
+rithm, J. Symbolic Comput. 30 (2000), 605-617. MR1797272 (2001k:11265)<person-group>
+                     <string-name>
+                     <surname>Weilert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>605</fpage>
+               <volume>30</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1645a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d3503468e1652" publication-type="book">
+---, Asymptotically Fast GCD Computation in Z[i], Proceedings of the Fourth Interna-
+tional Algorithmic Number Theory Symposium ANTS IV (Leiden, The Netherlands, July
+2-7, 2000) W. Bosma, ed., Lecture Notes in Comput. Sci., vol. 1838, Springer-Verlag, Berlin,
+2000, pp. 595-613. MR1850636 (2002k:11226)<person-group>
+                     <string-name>
+                     <surname>Weilert</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Asymptotically Fast GCD Computation in Z[i]</comment>
+               <fpage>595</fpage>
+               <volume>1838</volume>
+               <source>Proceedings of the Fourth International Algorithmic Number Theory Symposium ANTS IV</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3503468e1693a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d3503468e1700" publication-type="other">
+---, Effiziente Algorithmen zur Berechnung von Idealsummen in quadratischen Ordnun-
+gen, Dissertation, Mathematisch-Naturwissenschaftliche Fakult&amp;#x00E4;t der Rheinischen-Friedrich-
+Wilhelms Universit&amp;#x00E4;t Bonn, Juli 2000.</mixed-citation>
+            </ref>
+            <ref id="d3503468e1714a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d3503468e1721" publication-type="journal">
+---, Fast Computation of the Biquadratic Residue Symbol, J. Number Theory 96 (2002),
+133-151. MR1931197 (2003j:11006)<person-group>
+                     <string-name>
+                     <surname>Weilert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>96</volume>
+               <source>J. Number Theory</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

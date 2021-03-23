@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260301</issue-id>
+         <article-id pub-id-type="jstor">1391042</article-id>
+         
+         <title-group>
+            <article-title>Inference on Clustered Survival Data Using Imputed Frailties</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Yi</given-names>
+                  <surname>Li</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Louise</given-names>
+                  <surname>Ryan</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Scarlett</given-names>
+                  <surname>Bellamy</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Glen A.</given-names>
+                  <surname>Satten</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>640</fpage>
+         <lpage>662</lpage>
+         <page-range>640-662</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391042"/>
+         
+         
+         <abstract>
+            <p>This article proposes a new method for fitting frailty models to clustered survival data that is intermediate between the fully parametric and nonparametric maximum likelihood estimation approaches. A parametric form is assumed for the baseline hazard, but only for the purpose of imputing the unobserved frailties. The regression coefficients are then estimated by solving an estimating equation that is the average of the partial likelihood score with respect to the conditional distribution of frailties given the observed data. We prove consistency and asymptotic normality of the resulting estimators and give associated closed-form estimators of their variance. The algorithm is easy to implement and reduces to the ordinary Cox partial likelihood approach when the frailties have a degenerate distribution. Simulations indicate high efficiency and robustness of the resulting estimates. We apply our new approach to a study with clustered survival data on asthma in children in east Boston.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Asymptotic normality</kwd>
+            <kwd>Bootstrap</kwd>
+            <kwd>Consistency</kwd>
+            <kwd>Cox models</kwd>
+            <kwd>Frailty models</kwd>
+            <kwd>Imputed frailty partial likelihood score (IFPLS)</kwd>
+            <kwd>Monte Carlo estimating equation</kwd>
+            <kwd>S-U algorithm</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1022025e184a1310">
+               
+               <mixed-citation id="d1022025e188" publication-type="journal">
+Aitchison, J., and Silvey, S.D. (1958),"Maximum Likelihood Estimation of Parameters Subject to Constraints,"
+Annals of Mathematical Statistics, 29, 813-828.<object-id pub-id-type="jstor">10.2307/2237265</object-id>
+               <fpage>813</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e204a1310">
+               
+               <mixed-citation id="d1022025e208" publication-type="journal">
+Andersen, P.K., and Gill, R.D. (1982), "Cox's Regression Model for Counting Process: A Large Sample Study,"
+The Annals of Statistics, 10, 1100-1120.<object-id pub-id-type="jstor">10.2307/2240714</object-id>
+               <fpage>1100</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e224a1310">
+               
+               <mixed-citation id="d1022025e228" publication-type="book">
+Andersen, P.K., Borgan, O., Gill, R.D., and Keiding, N. (1992), Statistical Models Based on Counting Processes,
+New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Andersen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Models Based on Counting Processes</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e253a1310">
+               
+               <mixed-citation id="d1022025e257" publication-type="journal">
+Clayton, D.G., and Cuzick, J. (1985), "Multivariate Generalizations of the Proportional Hazards Model" (with
+discussion), Journal of the Royal Statistical Society, Ser. A, 148, 82-117.<person-group>
+                     <string-name>
+                     <surname>Clayton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>82</fpage>
+               <volume>148</volume>
+               <source>Journal of the Royal Statistical Society, Ser. A</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e290a1310">
+               
+               <mixed-citation id="d1022025e294" publication-type="journal">
+Cox, D.R. (1972), "Regression Models and Life Tables" (with discussion), Journal of the Royal Statistical Society,
+Ser. B, 34, 187-220.<person-group>
+                     <string-name>
+                     <surname>Cox</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>34</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e326a1310">
+               
+               <mixed-citation id="d1022025e330" publication-type="other">
+Datta, S. (1988), "Asymptotically Optimal Bayes Compound and Empirical Bayes Estimators in Exponential
+Families with Compact Parameter Spaces," PhD dissertation, Dept. of Statistics and Probability, Michigan
+State University.</mixed-citation>
+            </ref>
+            <ref id="d1022025e343a1310">
+               
+               <mixed-citation id="d1022025e347" publication-type="journal">
+Datta, S., Satten, G.A., and Williamson, J.M. (2000), " Consistency and Asymptotic Normality of Estimators
+in a Regression Model with Interval Censoring and Left Truncation," Annals of the Institute of Statistical
+Mathematics, 52, 160-172.<person-group>
+                     <string-name>
+                     <surname>Datta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>160</fpage>
+               <volume>52</volume>
+               <source>Annals of the Institute of Statistical Mathematics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e382a1310">
+               
+               <mixed-citation id="d1022025e386" publication-type="journal">
+Efron, B. (1979), "Bootstrap Methods: Another Look at the Jackknife," The Annals of Statistics, 7, 1-26.<object-id pub-id-type="jstor">10.2307/2958830</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e399a1310">
+               
+               <mixed-citation id="d1022025e403" publication-type="journal">
+(1981), "Nonparametric Estimates of Standard Error: The Jacknife, the Bootstrap and Other," Biometrika,
+68, 589-599.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>589</fpage>
+               <volume>68</volume>
+               <source>Biometrika</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e435a1310">
+               
+               <mixed-citation id="d1022025e439" publication-type="book">
+Efron, B., and Tibshirani, R. (1993), An Introduction to the Bootstrap, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Bootstrap</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e462a1310">
+               
+               <mixed-citation id="d1022025e466" publication-type="book">
+Fleming, T.R., and Harrington, D.P. (1991), Counting Processes and Survival Analysis, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Fleming</surname>
+                  </string-name>
+                  </person-group>
+               <source>Counting Processes and Survival Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e488a1310">
+               
+               <mixed-citation id="d1022025e492" publication-type="journal">
+Geweke, J. (1989), "Bayesian Inference in Econometric Models Using Monte Carlo Integration," Econometrica,
+57, 1317-1339.<object-id pub-id-type="doi">10.2307/1913710</object-id>
+               <fpage>1317</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e508a1310">
+               
+               <mixed-citation id="d1022025e512" publication-type="journal">
+Gray, R.J. (1995), "Tests for Variation over Groups in Survival Data, " Journal of the American Statistical
+Association, 90, 198-203.<object-id pub-id-type="doi">10.2307/2291143</object-id>
+               <fpage>198</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e528a1310">
+               
+               <mixed-citation id="d1022025e532" publication-type="book">
+Lange, K. (1999), Numerical Analysis for Statisticians, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Lange</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Analysis for Statisticians</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e554a1310">
+               
+               <mixed-citation id="d1022025e558" publication-type="journal">
+Li, Y., and Lin, X. (2000), "Covariate Measurement Errors in Frailty Models for Clustered Survival Data,"
+Biometrika, 87, 849-866.<object-id pub-id-type="jstor">10.2307/2673614</object-id>
+               <fpage>849</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e574a1310">
+               
+               <mixed-citation id="d1022025e578" publication-type="journal">
+Lin, D.Y., and Wei, L.J. (1989), "The Robust Inference for the Cox Proportional Hazards Model," Journal of the
+American Statistical Association, 89, 1074-1078.<object-id pub-id-type="doi">10.2307/2290085</object-id>
+               <fpage>1074</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e595a1310">
+               
+               <mixed-citation id="d1022025e599" publication-type="journal">
+Lin, X. (1997), "Variance Component Testing in Generalized Linear Models with Random Intercepts," Biometrika,
+84, 309-326.<object-id pub-id-type="jstor">10.2307/2337459</object-id>
+               <fpage>309</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e615a1310">
+               
+               <mixed-citation id="d1022025e619" publication-type="journal">
+Louis, T.A. (1982), "Finding the Observed Information Matrix When Using the EM Algorithm," Journal of the
+Royal Statistical Society, Ser. B, 44, 226-233.<person-group>
+                     <string-name>
+                     <surname>Louis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>44</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e651a1310">
+               
+               <mixed-citation id="d1022025e655" publication-type="journal">
+Murphy, S.A. (1994), "Consistency in a Proportional Hazards Model Incorporating a Random Effect," The Annals
+of Statistics, 22, 712-73 1.<object-id pub-id-type="jstor">10.2307/2242287</object-id>
+               <fpage>712</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e671a1310">
+               
+               <mixed-citation id="d1022025e675" publication-type="journal">
+(1995), "Asymptotic Theory for the Frailty Model," The Annals of Statistics, 23, 182-198.<object-id pub-id-type="jstor">10.2307/2242406</object-id>
+               <fpage>182</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e688a1310">
+               
+               <mixed-citation id="d1022025e692" publication-type="journal">
+Nielsen, G.G., Gill, R.D., Andersen, P.K., and Sorensen, T.I.A. (1992), "A Counting Process Approach to
+Maximum Likelihood Estimation in Frailty Models," Scandinavian Journal of Statistics, 19, 25-43.<person-group>
+                     <string-name>
+                     <surname>Nielsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>25</fpage>
+               <volume>19</volume>
+               <source>Scandinavian Journal of Statistics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e724a1310">
+               
+               <mixed-citation id="d1022025e728" publication-type="journal">
+Oakes, D., and Jeong, J. (1998), "Frailty Models and Rank Tests," Lifetime Data Analysis, 4, 209-228.<person-group>
+                     <string-name>
+                     <surname>Oakes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>209</fpage>
+               <volume>4</volume>
+               <source>Lifetime Data Analysis</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e758a1310">
+               
+               <mixed-citation id="d1022025e762" publication-type="journal">
+Parner, E. (1998), "Asymptotic Theory for the Correlated Gamma-frailty Model," The Annals of Statistics, 26,
+183-214.<object-id pub-id-type="jstor">10.2307/119983</object-id>
+               <fpage>183</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e778a1310">
+               
+               <mixed-citation id="d1022025e782" publication-type="book">
+Press, W.H., Teukolsky, S.A., Vetterling, W.T., and Flannery, B.P. (1992), Numerical Recipes in Fortran: The
+Art of Scientific Computing (2nd ed.), New York: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Numerical Recipes in Fortran: The Art of Scientific Computing</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e811a1310">
+               
+               <mixed-citation id="d1022025e815" publication-type="book">
+Pollard, D. (1990), Empirical Processes: Theory and Applications, Hayward, CA: Institute of Mathematical
+Statistics.<person-group>
+                     <string-name>
+                     <surname>Pollard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Empirical Processes: Theory and Applications</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e840a1310">
+               
+               <mixed-citation id="d1022025e844" publication-type="journal">
+Ramlau-Hansen, H. (1983), "Smoothing Counting Process Intensities by Means of Kernel Functions," The Annals
+of Statistics, 11, 453-466.<object-id pub-id-type="jstor">10.2307/2240560</object-id>
+               <fpage>453</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e860a1310">
+               
+               <mixed-citation id="d1022025e864" publication-type="journal">
+Reid, N., and Crepeau, H. (1985), "Influence Functions for the Proportional Hazards Regression," Biometrika, 72,
+1-9.<object-id pub-id-type="doi">10.2307/2336329</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e880a1310">
+               
+               <mixed-citation id="d1022025e884" publication-type="journal">
+Satten, G. (1996), "Rank-Based Inference in the Proportional Hazards Model for Interval Censored Data,"
+Biometrika, 83, 355-370.<object-id pub-id-type="jstor">10.2307/2337606</object-id>
+               <fpage>355</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e901a1310">
+               
+               <mixed-citation id="d1022025e905" publication-type="journal">
+Satten, G., and Datta, S. (2000), "The S-U Algorithm for Missing Data Problems," Computational Statistics, 15,
+243-277.<person-group>
+                     <string-name>
+                     <surname>Satten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>243</fpage>
+               <volume>15</volume>
+               <source>Computational Statistics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e937a1310">
+               
+               <mixed-citation id="d1022025e941" publication-type="journal">
+Satten, G., Datta, S., and Williamson, J.M. (1998), "Inference Based on Imputed Failure Times for the Proportional
+Hazards Model with Interval Censored Data," Journal of the American Statistical Association, 93, 318-327.<object-id pub-id-type="doi">10.2307/2669628</object-id>
+               <fpage>318</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e957a1310">
+               
+               <mixed-citation id="d1022025e961" publication-type="journal">
+Shoukri, M.M., Attanasio, M., and Sargeant, J.M. (1998), "Parametric Versus Semi-parametric Models for
+the Analysis of Correlated Survival Data: A Case Study in Veterinary Epidemiology," Journal of Applied
+Statistics, 25, 357-374.<person-group>
+                     <string-name>
+                     <surname>Shoukri</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>357</fpage>
+               <volume>25</volume>
+               <source>Journal of Applied Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e996a1310">
+               
+               <mixed-citation id="d1022025e1000" publication-type="book">
+Tanner, M.A. (1993), Tools for Statistical Inference: Methods for the Exploration of Posterior Distributions and
+Likelihood Functions (2nd ed.), New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Tools for Statistical Inference: Methods for the Exploration of Posterior Distributions and Likelihood Functions</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e1029a1310">
+               
+               <mixed-citation id="d1022025e1033" publication-type="journal">
+Tanner, M.A., and Wong, W.H. (1987), "The Calculation of Posterior Distributions by Data Augmentation,"
+Journal of the American Statistical Association, 82,, 528-540.<object-id pub-id-type="doi">10.2307/2289457</object-id>
+               <fpage>528</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022025e1049a1310">
+               
+               <mixed-citation id="d1022025e1053" publication-type="journal">
+Wei, G.C., and Tanner, M.A. (1990), "A Monte Carlo Implementation of the EM Algorithm and the Poor Man's
+Data Augmentation Algorithm," Journal of the American Statistical Association, 85, 699-704.<object-id pub-id-type="doi">10.2307/2290005</object-id>
+               <fpage>699</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

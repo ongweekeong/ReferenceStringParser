@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">31</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">137</issue>
+         <issue-id>i334560</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005784</article-id>
+         
+         <title-group>
+            <article-title>Multistep Methods Using Higher Derivatives and Damping at Infinity</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Rolf</given-names>
+                  <surname>Jeltsch</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1977</year>
+         </pub-date>
+         <fpage>124</fpage>
+         <lpage>s40</lpage>
+         <page-range>124-138</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1977 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005784"/>
+         
+         
+         <abstract>
+            <p>Linear multistep methods using higher derivatives are discussed. The order of damping at infinity which measures the stability behavior of a $k$-step method for large $h$ is introduced. $A$-stable methods with positive damping order are most suitable for stiff problems. A method for computing the damping order is given. Necessary and sufficient conditions for $A$-stability, $A(\alpha)$-stability and stiff stability are presented. A new $A$-stable two-step method of order 4 with damping order 1 is found and numerical results are given.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65L05</kwd>
+            <kwd>Ordinary differential equations</kwd>
+            <kwd>linear $k$-step methods using higher derivatives</kwd>
+            <kwd>Obrechkoff methods</kwd>
+            <kwd>Hermite methods</kwd>
+            <kwd>$A$-stable</kwd>
+            <kwd>order of damping at infinity</kwd>
+            <kwd>stiffly stable</kwd>
+            <kwd>strongly $A$-stable</kwd>
+            <kwd>$L$-stable</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d379230e154a1310">
+               <label>***</label>
+               
+               <p>
+               <mixed-citation id="d379230e161" publication-type="book">
+Engeli [15]  </mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d379230e179a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d379230e186" publication-type="book">
+L. V. AHLFORS, Complex Analysis, McGraw-Hill, New York, 1953. MR 14, 857.<person-group>
+                     <string-name>
+                     <surname>Ahlfors</surname>
+                  </string-name>
+                  </person-group>
+               <source>Complex Analysis</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e208a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d379230e215" publication-type="journal">
+0. AXELSSON, "A class of A-stable methods,"BIT, v. 9, 1969, pp. 185-199.
+MR 40 #8266.<person-group>
+                     <string-name>
+                     <surname>Axelsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>185</fpage>
+               <volume>9</volume>
+               <source>BIT</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e247a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d379230e254" publication-type="journal">
+G. BIRKHOFF &amp; R. S. VARGA, "Discretization errors for well-set Cauchy problems. I,"
+J. Math. and Phys., v. 44, 1965, pp. 1-23. MR 31 #4189<person-group>
+                     <string-name>
+                     <surname>Birkhoff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>44</volume>
+               <source>J. Math. and Phys.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e286a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d379230e293" publication-type="journal">
+J. L. BLUE &amp; H. K. GUMMEL, "Rational approximations to matrix exponential for
+systems of stiff differential equations," J. Computational Phys., v. 5, 1970, pp. 70-83.
+MR 40 #8267<person-group>
+                     <string-name>
+                     <surname>Blue</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>70</fpage>
+               <volume>5</volume>
+               <source>J. Computational Phys.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e329a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d379230e336" publication-type="journal">
+D. A. CALAHAN, "Numerical solution of linear systems with widely separated time
+constants," Proc. IEEE, Nov., 1967,.pp. 2016-2017.<person-group>
+                     <string-name>
+                     <surname>Calahan</surname>
+                  </string-name>
+                  </person-group>
+               <issue>Nov.</issue>
+               <fpage>2016</fpage>
+               <source>Proc. IEEE</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e368a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d379230e375" publication-type="journal">
+J. C. CAVENDISH, W. E. CULHAM &amp; R. S. VARGA, "A comparison of Crank-
+Nicolson and Chebyshev rational methods for numerically solving linear parabolic equations," J.
+Computational Phys., v. 10, 1972, pp. 354-368. MR 48 #3268.<person-group>
+                     <string-name>
+                     <surname>Cavendish</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>354</fpage>
+               <volume>10</volume>
+               <source>J. Computational Phys.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e410a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d379230e417" publication-type="book">
+F. H. CHIPMAN, Numerical Solution of Initial Value Problems Using A-Stable Runge-
+Kutta Processes, Research Report CSRR 2042, Dept. of A.A.C.S., Univ. of Waterloo, 1971<person-group>
+                     <string-name>
+                     <surname>Chipman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Solution of Initial Value Problems Using A-Stable Runge-Kutta Processes</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e442a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d379230e449" publication-type="journal">
+C. W. CRYER, "On the instability of high order backward-difference multistep methods,"
+BIT, v. 12, 1972, pp. 17-25. MR 46 #10208.<person-group>
+                     <string-name>
+                     <surname>Cryer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>12</volume>
+               <source>BIT</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e481a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d379230e488" publication-type="journal">
+G. G. DAHLQUIST, "Convergence and stability in the numerical integration of ordinary
+differential equations," Math. Scand., v. 4, 1956, pp. 33-53. MR 18, 338.<person-group>
+                     <string-name>
+                     <surname>Dahlquist</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>4</volume>
+               <source>Math. Scand.</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e520a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d379230e527" publication-type="journal">
+G. G. DAHLQUIST, "Stability and error bounds in the numerical integration of ordi-
+nary differential equations,"Kungl. Tekn. Högsk. Handl. Stockholm, No. 130, 1959.
+MR 21 #1706<person-group>
+                     <string-name>
+                     <surname>Dahlquist</surname>
+                  </string-name>
+                  </person-group>
+               <issue>130</issue>
+               <source>Kungl. Tekn. Högsk. Handl. Stockholm</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e560a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d379230e567" publication-type="journal">
+G. G. DAHLQUIST, "A special stability problem for linear multistep methods," BIT,
+v. 3, 1963, pp. 27-43. MR 30 #715<person-group>
+                     <string-name>
+                     <surname>Dahlquist</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>27</fpage>
+               <volume>3</volume>
+               <source>BIT</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e599a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d379230e606" publication-type="book">
+J. W. DANIEL &amp; R. E. MOORE, Computation and Theory in Ordinary Differential
+Equations, Freeman, San Francisco, Calif., 1970. MR 42 #2667<person-group>
+                     <string-name>
+                     <surname>Daniel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computation and Theory in Ordinary Differential Equations</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e631a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d379230e638" publication-type="journal">
+E. J. DAVISON, "A high-order Crank-Nicholson technique for solving differential
+equations," Comput. J., v. 10, 1967, pp. 195-197. MR 35 #5141<person-group>
+                     <string-name>
+                     <surname>Davison</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>195</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e670a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d379230e677" publication-type="book">
+B. L. EHLE, On Padé Approximations to the Exponential Function and A-Stable
+Methods for the Numerical Solution of Initial Value Problems, Research Report CSRR 2010, Dept.
+of A.A.C.S., Univ. of Waterloo, 1969<person-group>
+                     <string-name>
+                     <surname>Ehle</surname>
+                  </string-name>
+                  </person-group>
+               <source>On Padé Approximations to the Exponential Function and A-Stable Methods for the Numerical Solution of Initial Value Problems</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e706a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d379230e713" publication-type="book">
+M. E. ENGELI, Symbal, Summary and Examples, Fides, Union Fiduciaire, Zurich,
+1970.<person-group>
+                     <string-name>
+                     <surname>Engeli</surname>
+                  </string-name>
+                  </person-group>
+               <source>Symbal, Summary and Examples</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e738a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d379230e745" publication-type="book">
+W. ENRIGHT, Studies in the Numerical Solution of Stiff Ordinary Differential
+Equations, Technical Report No. 46, Dept. of C. S.,Univ. of Toronto, 1972.<person-group>
+                     <string-name>
+                     <surname>Enright</surname>
+                  </string-name>
+                  </person-group>
+               <source>Studies in the Numerical Solution of Stiff Ordinary Differential Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e771a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d379230e778" publication-type="book">
+T. FORT, Finite Differences and Difference Equations in the Real Domain, Clarendon
+Press, Oxford, 1948. MR 9, 514<person-group>
+                     <string-name>
+                     <surname>Fort</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Differences and Difference Equations in the Real Domain</source>
+               <year>1948</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e803a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d379230e810" publication-type="book">
+C. W. GEAR, "The automatic integration of stiff ordinary differential equations,"
+Information Processing 68 (Proc. IFIP Congress, Edinburgh, 1968), Vol I: Mathematics, Software,
+edited by A. J. H. Morell, North-Holland, Amsterdam, 1969, pp. 187-193. MR 41 #4808<person-group>
+                     <string-name>
+                     <surname>Gear</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The automatic integration of stiff ordinary differential equations</comment>
+               <fpage>187</fpage>
+               <source>Information Processing 68 (Proc. IFIP Congress, Edinburgh, 1968), Vol I: Mathematics, Software</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e845a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d379230e852" publication-type="book">
+C. W. GEAR, Numerical Initial Value Problems in Ordinary Differential Equations,
+Prentice-Hall, Englewood Cliffs, N.J., 1971. MR 47 #4447<person-group>
+                     <string-name>
+                     <surname>Gear</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Initial Value Problems in Ordinary Differential Equations</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e877a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d379230e884" publication-type="journal">
+E. GRIEPENTROG, "Mehrschrittverfahren zur numerischen Integration von
+gewohnlichen Differentialgleichungssystemen und asymptotische Exaktheit," Wiss. Z. Humbolt-
+Univ. Berlin Math.-Natur. Reihe, v. 19, 1970, pp. 637-653. MR 47 #9833<person-group>
+                     <string-name>
+                     <surname>Griepentrog</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>637</fpage>
+               <volume>19</volume>
+               <source>Wiss. Z. Humbolt-Univ. Berlin Math.-Natur. Reihe</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e919a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d379230e926" publication-type="book">
+P. HENRICI, Discrete Variable Methods in Ordinary Differential Equations, Wiley,
+New York, 1962. MR 24 #B1772<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discrete Variable Methods in Ordinary Differential Equations</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e951a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d379230e958" publication-type="book">
+K. HENSEL &amp; G. LANDSBERG, Theorie der algebraischen Funktionen einer Variablen,
+Teubner, Leipzig, 1902<person-group>
+                     <string-name>
+                     <surname>Hensel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theorie der algebraischen Funktionen einer Variablen</source>
+               <year>1902</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e984a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d379230e991" publication-type="journal">
+R. JELTSCH, "Integration of iterated integrals by multistep methods," Numer. Math.,
+v. 21, 1973/74, pp. 303-316. MR 49 #1786<person-group>
+                     <string-name>
+                     <surname>Jeltsch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>303</fpage>
+               <volume>21</volume>
+               <source>Numer. Math.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1023a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d379230e1030" publication-type="conference">
+R. JELTSCH, Multistep Multiderivative Methods and Hermite-Birkhoff Interpolation,
+Proc. Fifth Manitoba Conf. on Numerical Mathematics (Univ. of Manitoba, Winnipeg, Man., 1975),
+pp. 417-428. Congressus Numerantium, No. XVI, Utilitas Math. Publ., Winnipeg, Man., 1976<person-group>
+                     <string-name>
+                     <surname>Jeltsch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multistep Multiderivative Methods and Hermite-Birkhoff Interpolation</comment>
+               <fpage>417</fpage>
+               <source>Proc. Fifth Manitoba Conf. on Numerical Mathematics</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1065a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d379230e1072" publication-type="book">
+J. D. LAMBERT, Computational Methods in Ordinary Differential Equations, Wiley,
+London, 1973<person-group>
+                     <string-name>
+                     <surname>Lambert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational Methods in Ordinary Differential Equations</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1097a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d379230e1104" publication-type="journal">
+J. D. LAMBERT &amp; A. R. MITCHELL, "On the solution of y' = f(x, y) by a class
+of high accuracy difference formulae of low order," Z. Angew. Math. Phys., v. 13, 1962, pp. 223-232
+MR 25 #3610<person-group>
+                     <string-name>
+                     <surname>Lambert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>13</volume>
+               <source>Z. Angew. Math. Phys.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1139a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d379230e1146" publication-type="book">
+W. LINIGER &amp; R. A. WILLOUGHBY, Efficient Integration Methods for Stiff Systems
+of Ordinary Differential Equations, IBM Research Report RC 1970, 1967.<person-group>
+                     <string-name>
+                     <surname>Liniger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Efficient Integration Methods for Stiff Systems of Ordinary Differential Equations</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1171a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d379230e1178" publication-type="book">
+F. R. LOSCALZO, On the Use of Spline Functions for the Numerical Solution of
+Ordinary Differential Equations, MRC Technical Summary Report No. 869, Univ. of Wisconsin,
+May 1968<person-group>
+                     <string-name>
+                     <surname>Loscalzo</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the Use of Spline Functions for the Numerical Solution of Ordinary Differential Equations</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1208a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d379230e1215" publication-type="journal">
+G. J. MAKINSON, "Stable high order implicit methods for the numerical solution of
+systems of differential equations," Comput. J., v. 11, 1968/69, pp. 305-310. MR 38 #4040<person-group>
+                     <string-name>
+                     <surname>Makinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>305</fpage>
+               <volume>11</volume>
+               <source>Comput. J.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1247a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d379230e1254" publication-type="book">
+M. MARDEN, Geometry of Polynomials, 2nd ed., Math. Surveys, no. 3, Amer. Math.
+Soc., Providence, R.I., 1966. MR 37 #1562<person-group>
+                     <string-name>
+                     <surname>Marden</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Geometry of Polynomials</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1283a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d379230e1290" publication-type="book">
+R. E. MOORE, "The automatic analysis and control of error in digital computation
+based on the use of interval numbers," in Error in Digital Computation, Vol. 1 (Proc. Advanced
+Sem., Madison, Wis., 1964), edited by L. Rall, Wiley, New York, 1965, pp. 61-130.<person-group>
+                     <string-name>
+                     <surname>Moore</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The automatic analysis and control of error in digital computation based on the use of interval numbers</comment>
+               <fpage>61</fpage>
+               <volume>1</volume>
+               <source>Error in Digital Computation</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1328a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d379230e1335" publication-type="book">
+M. R. OSBORNE, "A new method for the integration of stiff systems of ordinary
+differential equations," Information Processing 68 (Proc. IFIP Congress, Edinburgh, 1968), Vol. I:
+Mathematics, Software, edited by A. J. H. Morell, North-Holland, Amsterdam, 1969, pp. 200-204.
+MR 41 #4810<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new method for the integration of stiff systems of ordinary differential equations</comment>
+               <fpage>200</fpage>
+               <source>Information Processing 68 (Proc. IFIP Congress, Edinburgh, 1968), Vol. I: Mathematics, Software</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1373a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d379230e1380" publication-type="book">
+A. PFLUGER, Theorie der Riemannschen Flächen, Springer-Verlag, Berlin, 1957.
+MR 18, 796.<person-group>
+                     <string-name>
+                     <surname>Pfluger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theorie der Riemannschen Flächen</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1405a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d379230e1412" publication-type="journal">
+M. REIMER, "Finite difference forms containing derivatives of higher order," SIAM J.
+Numer. Anal., v. 5, 1968, pp. 725-738. MR 40 #3742<object-id pub-id-type="jstor">10.2307/2949423</object-id>
+               <fpage>725</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1429a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d379230e1436" publication-type="book">
+H. J. STETTER, Analysis of Discretization Methods of Ordinary Differential Equations,
+Springer-Verlag, New York, 1973<person-group>
+                     <string-name>
+                     <surname>Stetter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of Discretization Methods of Ordinary Differential Equations</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1461a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d379230e1468" publication-type="journal">
+W. E. THOMPSON, "Solution of linear differential equations," Comput. J., v. 10,
+1968, pp. 417-418<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>417</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1500a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d379230e1507" publication-type="book">
+R. S. VARGA, "Some results in approximation theory with applications to numerical
+analysis," in Numerical Solution of Partial Differential Equations, II (SYNSPADE 1970), (Proc.
+Sympos., Univ. of Maryland, 1970), edited by B. E. Hubbard, Academic Press, New York, 1971,
+pp. 623-649<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some results in approximation theory with applications to numerical analysis</comment>
+               <fpage>623</fpage>
+               <source>Numerical Solution of Partial Differential Equations</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d379230e1545a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d379230e1552" publication-type="journal">
+0. B. WIDLUND, "A note on unconditionally stable linear multistep methods," BIT,
+v. 7, 1967, pp. 65-70. MR 35 #6373<person-group>
+                     <string-name>
+                     <surname>Widlund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <volume>7</volume>
+               <source>BIT</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

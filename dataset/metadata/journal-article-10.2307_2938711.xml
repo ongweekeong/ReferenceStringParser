@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">57</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">196</issue>
+         <issue-id>i352330</issue-id>
+         <article-id pub-id-type="doi">10.2307/2938711</article-id>
+         
+         <title-group>
+            <article-title>The Modified Newton Method in the Solution of Stiff Ordinary Differential Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Roger</given-names>
+                  <surname>Alexander</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1991</year>
+         </pub-date>
+         <fpage>673</fpage>
+         <lpage>701</lpage>
+         <page-range>673-701</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1991 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2938711"/>
+         
+         
+         <abstract>
+            <p>This paper presents an analysis of the modified Newton method as it is used in codes implementing implicit formulae for integrating stiff ordinary differential equations. We prove that near a smooth solution of the differential system, when the Jacobian is essentially negative dominant and slowly varying, the modified Newton iteration is contractive, converging to the locally unique solution-whose existence is hereby demonstrated-of the implicit equations. This analysis eliminates several common restrictive or unrealistic assumptions, and provides insight for the design of robust codes.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65L05</kwd>
+            <kwd>65H10</kwd>
+            <kwd>Stiff differential equations</kwd>
+            <kwd>modified Newton method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d1183668e135a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1183668e142" publication-type="journal">
+R. Alt, A-stable one-step methods with step-size control for stiffsystems of ordinary differential
+equations. J. Comput. Apple. Math.4 (1978), 29-35.<person-group>
+                     <string-name>
+                     <surname>Alt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>29</fpage>
+               <volume>4</volume>
+               <source>J. Comput. Apple. Math.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e174a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1183668e181" publication-type="journal">
+K. Burrage, J. C. Butcher, and F. H. Chipman, An implementation of singly-implicit Runge-
+Kutta methods, BIT20 (1980), 326-340<person-group>
+                     <string-name>
+                     <surname>Burrage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>326</fpage>
+               <volume>20</volume>
+               <source>BIT</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e213a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1183668e220" publication-type="journal">
+J. C. Butcher, Towards efficient implementation of singly-implicit methods, ACM Trans.
+Math. Software14 (1988), 68-75<person-group>
+                     <string-name>
+                     <surname>Butcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>68</fpage>
+               <volume>14</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e252a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1183668e259" publication-type="book">
+T. Chambers, The use of numerical software in the digital simulation language PMSP, Nu-
+merical Software—Needs and Availability (D. Jacobs, ed.), Academic Press, New York,
+1978, pp. 257-278<person-group>
+                     <string-name>
+                     <surname>Chambers</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The use of numerical software in the digital simulation language PMSP</comment>
+               <fpage>257</fpage>
+               <source>Numerical Software—Needs and Availability</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e295a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1183668e302" publication-type="journal">
+G. J. Cooper, On the existence of solutions for algebraically stable Runge-Kutta methods,
+IMA J. Numer. Anal.6 (1986), 325-330<person-group>
+                     <string-name>
+                     <surname>Cooper</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>325</fpage>
+               <volume>6</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e334a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1183668e341" publication-type="journal">
+M. Crouzeix, W. H. Hundsdorfer, and M. N. Spijker, On the existence of solutions to the
+algebraic equations in implicit Runge-Kutta methods, BIT23 (1983) , 84-91<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>84</fpage>
+               <volume>23</volume>
+               <source>BIT</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e373a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1183668e380" publication-type="book">
+M. Crouzeix and P.-A. Raviart, Approximation des problèmes d'éevolution, Ch. 2: Méthodes
+de Runge-Kutta, Lecture Notes, Universitd de Rennes, 1980<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximation des problèmes d'éevolution, Ch. 2: Méthodes de Runge-Kutta</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e405a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1183668e412" publication-type="journal">
+A. R. Curtis, Jacobian matrix properties and their impact on choice of software for stiff ODE
+systems, IMA J. Numer. Anal.3 (1983), 397-415<person-group>
+                     <string-name>
+                     <surname>Curtis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>397</fpage>
+               <volume>3</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e444a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1183668e451" publication-type="journal">
+A. R. Curtis and J. K. Reid, The choice of step lengths when using differences to approximate
+Jacobian matrices, J. Inst. Math. Appl.13 (1974), 121-126<person-group>
+                     <string-name>
+                     <surname>Curtis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>13</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e483a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1183668e490" publication-type="book">
+G. Dahlquist, Error analysis for a class of methods for stiff nonlinear initial value problems,
+Numerical Analysis (Dundee 1975), Lecture Notes in Math., vol. 506, Springer, Berlin,
+1976, pp. 60-72.<person-group>
+                     <string-name>
+                     <surname>Dahlquist</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Error analysis for a class of methods for stiff nonlinear initial value problems</comment>
+               <fpage>60</fpage>
+               <volume>506</volume>
+               <source>Numerical Analysis</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e529a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1183668e536" publication-type="book">
+G. Dahlquist, L. Edsberg, G. Skollermo, and G. Soderlind, Are the numerical methods and
+software satisfactory for chemical kinetics?Numerical Integration of Differential Equations
+and Large Linear Systems (J. Hinze, ed.), Lecture Notes in Math., vol. 968, Springer, Berlin,
+1982, pp. 149-164<person-group>
+                     <string-name>
+                     <surname>Dahlquist</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Are the numerical methods and software satisfactory for chemical kinetics?</comment>
+               <fpage>149</fpage>
+               <volume>968</volume>
+               <source>Numerical Integration of Differential Equations and Large Linear Systems</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e577a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1183668e584" publication-type="journal">
+K. Dekker, Error bounds for the solution to the algebraic equations in Runge-Kutta methods,
+BIT24 (1984), 347-356<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>347</fpage>
+               <volume>24</volume>
+               <source>BIT</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e616a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1183668e623" publication-type="journal">
+K. Dekker and Ernst Hairer, A necessary condition for BSI stability, BIT25 (1985), 285-
+288<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <volume>25</volume>
+               <source>BIT</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e655a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1183668e662" publication-type="book">
+K. Dekker and J. G. Verwer, Stability of Runge-Kutta methods for stiff nonlinear differential
+equations, North-Holland, Amsterdam, 1984<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stability of Runge-Kutta methods for stiff nonlinear differential equations</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e687a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1183668e694" publication-type="book">
+J. E. Dennis and R. B. Schnabel, Numerical methods for unconstrained optimization and
+nonlinear equations, Prentice-Hall, Englewood Cliffs, N.J., 1983<person-group>
+                     <string-name>
+                     <surname>Dennis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical methods for unconstrained optimization and nonlinear equations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e719a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1183668e726" publication-type="journal">
+P. Deuflhard and G. Heindl, Affine invariant convergence theorems for Newton 's method and
+extensions to related methods, SIAM J. Numer. Anal.16 (1979), 1-10.<object-id pub-id-type="jstor">10.2307/2156892</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e743a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1183668e750" publication-type="journal">
+G. di Lena and R. I. Peluso, On conditions for the existence and uniqueness of solutions to
+the algebraic equations in Runge-Kutta methods, BIT25 (1985), 223-232<person-group>
+                     <string-name>
+                     <surname>di Lena</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>25</volume>
+               <source>BIT</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e782a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1183668e789" publication-type="book">
+J. Dieudonné, Foundations of modern analysis, Academic Press, New York, 1960.<person-group>
+                     <string-name>
+                     <surname>Dieudonné</surname>
+                  </string-name>
+                  </person-group>
+               <source>Foundations of modern analysis</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e811a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1183668e818" publication-type="journal">
+W. H. Enright, Improving the efficiency of matrix operations in the numerical solution of
+stiff ordinary differential equations, ACM Trans. Math. Software4 (1978), 127-136<person-group>
+                     <string-name>
+                     <surname>Enright</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>127</fpage>
+               <volume>4</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e850a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1183668e857" publication-type="journal">
+W. H. Enright, T. E. Hull and B. Lindberg, Comparing numerical methods for stiff systems
+of ODE:s, BIT15 (1975), 10-48<person-group>
+                     <string-name>
+                     <surname>Enright</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>10</fpage>
+               <volume>15</volume>
+               <source>BIT</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e889a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1183668e896" publication-type="journal">
+R. Frank, J. Schneid, and C. W. Ueberhuber, Stability properties of implicit Runge-Kutta
+methods, SIAM J. Numer. Anal.22 (1985), 497-514<object-id pub-id-type="jstor">10.2307/2157079</object-id>
+               <fpage>497</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e912a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1183668e919" publication-type="book">
+C. W. Gear, Numerical initial value problems in ordinary differential equations, Prentice-
+Hall, Englewood Cliffs, N.J., 1971<person-group>
+                     <string-name>
+                     <surname>Gear</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical initial value problems in ordinary differential equations</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e945a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1183668e952" publication-type="journal">
+E. Hairer, Ch. Lubich, and M. Roche, Error of Runge-Kutta methods for stiff problems
+studied via differential-algebraic equations, BIT28 (1988), 678-700<person-group>
+                     <string-name>
+                     <surname>Hairer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>678</fpage>
+               <volume>28</volume>
+               <source>BIT</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e984a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1183668e991" publication-type="journal">
+N. Houbak, S. P. N0rsett, and P. G. Thomsen, Displacement or residual test in the applica-
+tion of implicit methods for stiffproblems, IMA J. Numer. Anal.5 (1985), 297-305<person-group>
+                     <string-name>
+                     <surname>Houbak</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>297</fpage>
+               <volume>5</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1023a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1183668e1030" publication-type="book">
+W. H. Hundsdorfer, The numerical solution of nonlinear stiff initial value problems: an
+analysis of one step methods, CWI Tract 12, Centre for Mathematics and Computer Science,
+Amsterdam, 1985.<person-group>
+                     <string-name>
+                     <surname>Hundsdorfer</surname>
+                  </string-name>
+                  </person-group>
+               <source>The numerical solution of nonlinear stiff initial value problems: an analysis of one step methods</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1059a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1183668e1066" publication-type="journal">
+W. H. Hundsdorfer and J. Schneid, On the equivalence of BS-stability and B-consistency,
+BIT29 (1989), 505-511<person-group>
+                     <string-name>
+                     <surname>Hundsdorfer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>505</fpage>
+               <volume>29</volume>
+               <source>BIT</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1098a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1183668e1105" publication-type="journal">
+W. H. Hundsdorfer and M. N. Spijker, On the algebraic equations in implicit Runge-Kutta
+methods, SIAM J. Numer. Anal.24 (1987), 583-594<object-id pub-id-type="jstor">10.2307/2157351</object-id>
+               <fpage>583</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1121a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1183668e1128" publication-type="journal">
+0. A. Karakashian and W. Rust, On the parallel implementation of implicit Runge-Kutta
+methods, SIAM J. Sci. Statist. Comput.9 (1988), 1085-1090<person-group>
+                     <string-name>
+                     <surname>Karakashian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1085</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1161a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1183668e1168" publication-type="journal">
+H.-O. Kreiss, Difference methods for stiff ordinary differential equations, SIAM J. Numer.
+Anal.15 (1978), 21-58.<object-id pub-id-type="jstor">10.2307/2156562</object-id>
+               <fpage>21</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1184a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1183668e1191" publication-type="journal">
+J.-X. Kuang and J.-X. Xiang, On the D-suitability of implicit Runge-Kutta methods, BIT
+29 (1989), 321-327<person-group>
+                     <string-name>
+                     <surname>Kuang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>321</fpage>
+               <volume>29</volume>
+               <source>BIT</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1223a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1183668e1230" publication-type="book">
+S. Lefschetz, Differential equations: Geometric theory, Dover, New York, 1977.<person-group>
+                     <string-name>
+                     <surname>Lefschetz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Differential equations: Geometric theory</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1252a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1183668e1259" publication-type="journal">
+M. Z. Liu, K. Dekker, and M. N. Spijker, Suitability of Runge-Kutta methods, J. Comput.
+Appl. Math.20 (1987), 307-315<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>307</fpage>
+               <volume>20</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1291a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1183668e1298" publication-type="journal">
+M. Z. Liu and J. F. B. M. Kraaijevanger, On the solvability of the systems of equations
+arising in implicit Runge-Kutta methods, BIT28 (1988), 825-838<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>825</fpage>
+               <volume>28</volume>
+               <source>BIT</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1330a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1183668e1337" publication-type="book">
+J. M. Ortega and W. C. Rheinboldt, Iterative solution of nonlinear equations in several
+variables, Academic Press, New York, 1970.<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative solution of nonlinear equations in several variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1363a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1183668e1370" publication-type="journal">
+H. H. Robertson and J. Williams, Some properties of algorithms for stiff differential equa-
+tions, J. Inst. Math. Appl.16 (1975), 23-34<person-group>
+                     <string-name>
+                     <surname>Robertson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>16</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1402a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1183668e1409" publication-type="journal">
+B. A. Schmitt, Stability of implicit Runge-Kutta methods for nonlinear stiff differential equa-
+tions, BIT28 (1988), 884-897.<person-group>
+                     <string-name>
+                     <surname>Schmitt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>884</fpage>
+               <volume>28</volume>
+               <source>BIT</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1441a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1183668e1448" publication-type="journal">
+L. F. Shampine, Implementation of implicit formulas for the solution of ODEs, SIAM J. Sci.
+Statist. Comput.1 (1980), 103-118<person-group>
+                     <string-name>
+                     <surname>Shampine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1480a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1183668e1487" publication-type="journal">
+— Evaluation of implicit formulas for the solution of ODEs, BIT19 (1979), 495-502.<person-group>
+                     <string-name>
+                     <surname>Shampine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>495</fpage>
+               <volume>19</volume>
+               <source>BIT</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1516a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1183668e1523" publication-type="book">
+—Solving ODEs in quasi steady state, Numerical Integration of Differential Equations
+and Large Linear Systems (J. Hinze, ed.), Lecture Notes in Math., vol. 968, Springer, Berlin,
+1982, pp. 234-245.<person-group>
+                     <string-name>
+                     <surname>Shampine</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Solving ODEs in quasi steady state</comment>
+               <fpage>234</fpage>
+               <volume>968</volume>
+               <source>Numerical Integration of Differential Equations and Large Linear Systems</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1561a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1183668e1568" publication-type="journal">
+— Implementation of Rosenbrock methods, ACM Trans. Math. Software8 (1982), 93-
+113<person-group>
+                     <string-name>
+                     <surname>Shampine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>8</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1601a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1183668e1608" publication-type="journal">
+— Type-insensitive ODE codes based on implicit A(a)-stable formulas, Math. Comp.39
+(1982), 109-124.<object-id pub-id-type="doi">10.2307/2007622</object-id>
+               <fpage>109</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1624a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1183668e1631" publication-type="journal">
+L. F. Shampine and C. W. Gear, A user's view of solving stif ordinary differential equations,
+SIAM Rev.21 (1979), 1-17<object-id pub-id-type="jstor">10.2307/2029929</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1647a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1183668e1654" publication-type="book">
+D. R. Smith, Singular-perturbation theory, Cambridge Univ. Press, Cambridge, 1985.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <source>Singular-perturbation theory</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1676a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1183668e1683" publication-type="journal">
+M. W. Spijker, Feasibility and contractivity in implicit Runge-Kutta methods, J. Comput.
+Apple. Math.12 &amp; 13 (1985), 563-578<person-group>
+                     <string-name>
+                     <surname>Spijker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>563</fpage>
+               <volume>12</volume>
+               <source>J. Comput. Apple. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1715a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1183668e1722" publication-type="journal">
+J. M. Varah, On the efficient implementation of implicit Runge-Kutta methods, Math. Comp.
+33 (1979), 557-562<object-id pub-id-type="doi">10.2307/2006296</object-id>
+               <fpage>557</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1738a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1183668e1745" publication-type="journal">
+T. J. Ypma, Relaxed Newton-like methods for stiff differential systems, J. Comput. Appl.
+Math.16 (1986), 95-103.<person-group>
+                     <string-name>
+                     <surname>Ypma</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>16</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1778a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d1183668e1785" publication-type="journal">
+— Efficient estimation of sparse Jacobian matrices by differences, J. Comput. Apple. Math.
+18 (1987), 17-28.<person-group>
+                     <string-name>
+                     <surname>Ypma</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>18</volume>
+               <source>J. Comput. Apple. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1183668e1817a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d1183668e1824" publication-type="journal">
+Zahari Zlatev, Modified diagonally implicit Runge-Kutta methods, SIAM J. Sci. Statist.
+Comput.2 (1981), 321-334<person-group>
+                     <string-name>
+                     <surname>Zlatev</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>321</fpage>
+               <volume>2</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

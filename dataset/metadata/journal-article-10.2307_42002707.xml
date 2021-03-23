@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">82</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">283</issue>
+         <issue-id>i40094340</issue-id>
+         <article-id pub-id-type="jstor">42002707</article-id>
+         <title-group>
+            <article-title>AN ADAPTIVE STOCHASTIC GALERKIN METHOD FOR RANDOM ELLIPTIC OPERATORS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>CLAUDE JEFFREY</given-names>
+                  <surname>GITTELSON</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2013</year>
+         </pub-date>
+         <fpage>1515</fpage>
+         <lpage>1541</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2013 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/42002707"/>
+      
+      
+         <abstract>
+            <p>We derive an adaptive solver for random elliptic boundary value problems, using techniques from adaptive wavelet methods. Substituting wavelets by polynomials of the random parameters leads to a modular solver for the parameter dependence of the random solution, which combines with any discretization on the spatial domain. In addition to selecting active polynomial modes, this solver can adaptively construct a separate spatial discretization for each of their coefficients. We show convergence of the solver in this general setting, along with a computable bound for the mean square error, and an optimality property in the case of a single spatial discretization. Numerical computations demonstrate convergence of the solver and compare it to a sparse tensor product construction.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3092337e161a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d3092337e168" publication-type="other">
+Mark Ainsworth and J. Tinsley Oden, A posteriori error estimation in finite element analysis,
+Pure and Applied Mathematics (New York), Wiley-Interscience [John Wiley &amp; Sons], New
+York, 2000. MR1885308 (2003b:65001)</mixed-citation>
+        </ref>
+        <ref id="d3092337e181a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d3092337e188" publication-type="other">
+Ivo M. Babuška, Raúl Tempone, and Georgios E. Zouraris, Galerkin finite element approxi-
+mations of stochastic elliptic partial differential equations, SIAM J. Numer. Anal. 42 (2004),
+no. 2, 800-825 (electronic). MR2084236 (2005h:65012)</mixed-citation>
+        </ref>
+        <ref id="d3092337e201a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d3092337e208" publication-type="other">
+A. Barinka, Fast evaluation tools for adaptive wavelet schemes, Ph.D. thesis, RWTH Aachen,
+March 2005.</mixed-citation>
+        </ref>
+        <ref id="d3092337e218a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d3092337e225" publication-type="other">
+Heinz Bauer, Wahrscheinlichkeitstheorie, Fifth ed., de Gruyter Lehrbuch, [de Gruyter Text-
+book], Walter de Gruyter &amp; Co., Berlin, 2002. MR1902050 (2003b:60001)</mixed-citation>
+        </ref>
+        <ref id="d3092337e236a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d3092337e243" publication-type="other">
+Marcel Bieri, Roman Andreev, and Christoph Schwab, Sparse tensor discretization of elliptic
+SPDEs, SIAM J. Sci. Comput. 31 (2009/10), no. 6, 4281-4304. MR2566594</mixed-citation>
+        </ref>
+        <ref id="d3092337e253a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d3092337e260" publication-type="other">
+Marcel Bieri and Christoph Schwab, Sparse high order FEM for elliptic sPDEs, Comput.
+Methods Appl. Mech. Engrg. 198 (2009), no. 37-40, 1149-1170. MR2500242 (2010g:65205)</mixed-citation>
+        </ref>
+        <ref id="d3092337e270a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d3092337e277" publication-type="other">
+Peter Binev, Wolfgang Dahmen, and Ronald A. DeVore, Adaptive finite element methods with
+convergence rates, Numer. Math. 97 (2004), no. 2, 219-268. MR2050077 (2005d:65222)</mixed-citation>
+        </ref>
+        <ref id="d3092337e287a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d3092337e294" publication-type="other">
+Albert Cohen, Wolfgang Dahmen, and Ronald A. DeVore, Adaptive wavelet methods for ellip-
+tic operator equations: convergence rates, Math. Comp. 70 (2001), no. 233, 27-75 (electronic).
+MR1803124 (2002h:65201)</mixed-citation>
+        </ref>
+        <ref id="d3092337e307a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d3092337e314" publication-type="other">
+---, Adaptive wavelet methods. II. Beyond the elliptic case, Found. Comput. Math. 2
+(2002), no. 3, 203-245. MR1907380 (2003f:65212)</mixed-citation>
+        </ref>
+        <ref id="d3092337e324a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d3092337e331" publication-type="other">
+Albert Cohen, Ronald DeVore, and Christoph Schwab, Analytic regularity and polynomial
+approximation of parametric and stochastic elliptic PDE's, Anal. Appl. (Singap.) 9 (2011),
+no. 1, 11-47. MR2763359</mixed-citation>
+        </ref>
+        <ref id="d3092337e345a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d3092337e352" publication-type="other">
+Albert Cohen, Ronald A. DeVore, and Christoph Schwab, Convergence rates of best N-terrn
+Galerkin approximations for a class of elliptic sPDEs, Found. Comput. Math. 10 (2010),
+no. 6, 615-646. MR2728424</mixed-citation>
+        </ref>
+        <ref id="d3092337e365a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d3092337e372" publication-type="other">
+Stephan Dahlke, Massimo Fornasier, and Thorsten Raasch, Adaptive frame methods for
+elliptic operator equations, Adv. Comput. Math. 27 (2007), no. 1, 27-63. MR2317920
+(2008c:65366)</mixed-citation>
+        </ref>
+        <ref id="d3092337e385a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d3092337e392" publication-type="other">
+Stephan Dahlke, Thorsten Raasch, Manuel Werner, Massimo Fornasier, and Rob Stevenson,
+Adaptive frame methods for elliptic operator equations: the steepest descent approach, IMA
+J. Numer. Anal. 27 (2007), no. 4, 717-740. MR2371829 (2008i:65239)</mixed-citation>
+        </ref>
+        <ref id="d3092337e405a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d3092337e412" publication-type="other">
+Manas K. Deb, Ivo M. Babuška, and J. Tinsley Oden, Solution of stochastic partial differential
+equations using Galerkin finite element techniques, Comput. Methods Appl. Mech. Engrg. 190
+(2001), no. 48, 6359-6372. MR1870425 (2003g:65009)</mixed-citation>
+        </ref>
+        <ref id="d3092337e425a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d3092337e432" publication-type="other">
+Ronald A. DeVore, Nonlinear approximation, Acta Numerica, 1998, Acta Numer., vol. 7,
+Cambridge Univ. Press, Cambridge, 1998, pp. 51-150. MR1689432 (2001a:41034)</mixed-citation>
+        </ref>
+        <ref id="d3092337e442a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d3092337e449" publication-type="other">
+Tammo Jan Dijkema, Christoph Schwab, and Rob Stevenson, An adaptive wavelet method
+for solving high-dimensional elliptic PDEs, Constr. Approx. 30 (2009), no. 3, 423-455.
+MR2558688</mixed-citation>
+        </ref>
+        <ref id="d3092337e463a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d3092337e470" publication-type="other">
+Willy Dörfler, A convergent adaptive algorithm for Poisson's equation, SIAM J. Numer. Anal.
+33 (1996), no. 3, 1106-1124. MR1393904 (97e:65139)</mixed-citation>
+        </ref>
+        <ref id="d3092337e480a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d3092337e487" publication-type="other">
+Philipp Frauenfelder, Christoph Schwab, and Radu Alexandru Todor, Finite elements for el-
+liptic problems with stochastic coefficients, Comput. Methods Appl. Mech. Engrg. 194 (2005),
+no. 2-5, 205-228. MR2105161 (2005i:65186)</mixed-citation>
+        </ref>
+        <ref id="d3092337e500a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d3092337e507" publication-type="other">
+Tsogtgerel Gantumur, Helmut Harbrecht, and Rob Stevenson, An optimal adaptive wavelet
+method without coarsening of the iterands, Math. Comp. 76 (2007), no. 258, 615-629 (elec-
+tronic). MR2291830 (2008i:65310)</mixed-citation>
+        </ref>
+        <ref id="d3092337e520a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d3092337e527" publication-type="other">
+Claude Jeffrey Gittelson, Adaptive Galerkin methods for parametric and stochastic operator
+equations, Ph.D. thesis, ETH Zürich, 2011, ETH Dissertation No. 19533.</mixed-citation>
+        </ref>
+        <ref id="d3092337e537a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d3092337e544" publication-type="other">
+---, Adaptive stochastic Galerkin methods: Beyond the elliptic case, Tech. Report 2011-
+12, Seminar for Applied Mathematics, ETH Zürich, 2011.</mixed-citation>
+        </ref>
+        <ref id="d3092337e554a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d3092337e561" publication-type="other">
+---, Stochastic Galerkin approximation of operator equations with infinite dimensional
+noise, Tech. Report 2011-10, Seminar for Applied Mathematics, ETH Zürich, 2011.</mixed-citation>
+        </ref>
+        <ref id="d3092337e572a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d3092337e579" publication-type="other">
+Hermann G. Matthies and Andreas Keese, Galerkin methods for linear and nonlinear elliptic
+stochastic partial differential equations, Comput. Methods Appl. Mech. Engrg. 194 (2005),
+no. 12-16, 1295-1331. MR2121216 (2005j:65146)</mixed-citation>
+        </ref>
+        <ref id="d3092337e592a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d3092337e599" publication-type="other">
+A. Metselaar, Handling wavelet expansions in numerical methods, Ph.D. thesis, University of
+Twente, 2002. MR2715507</mixed-citation>
+        </ref>
+        <ref id="d3092337e609a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d3092337e616" publication-type="other">
+Pedro Morin, Ricardo H. Nochetto, and Kunibert G. Siebert, Data oscillation and convergence
+of adaptive FEM, SIAM J. Numer. Anal. 38 (2000), no. 2, 466-488 (electronic). MR1770058
+(2001g:65157)</mixed-citation>
+        </ref>
+        <ref id="d3092337e629a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d3092337e636" publication-type="other">
+Christoph Schwab and Claude Jeffrey Gittelson, Sparse tensor discretization of high-
+dimensional parametric and stochastic PDEs, Acta Numerica, Acta Numer., vol. 20, Cam-
+bridge Univ. Press, Cambridge, 2011, pp. 291-467. MR2805155</mixed-citation>
+        </ref>
+        <ref id="d3092337e649a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d3092337e656" publication-type="other">
+Rob Stevenson, Adaptive solution of operator equations using wavelet frames, SIAM J. Numer.
+Anal. 41 (2003), no. 3, 1074-1100 (electronic). MR2005196 (2004e:42062)</mixed-citation>
+        </ref>
+        <ref id="d3092337e666a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d3092337e673" publication-type="other">
+Radu Alexandru Todor and Christoph Schwab, Convergence rates for sparse chaos approx-
+imations of elliptic problems with stochastic coefficients, IMA J. Numer. Anal. 27 (2007),
+no. 2, 232-261. MR2317004 (2008b:65016)</mixed-citation>
+        </ref>
+        <ref id="d3092337e687a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d3092337e694" publication-type="other">
+R. Verfürth, A Review of a Posteriori Error Estimation and Adaptive Mesh-Refinement
+Techniques, Teubner Verlag and J. Wiley, Stuttgart, 1996.</mixed-citation>
+        </ref>
+        <ref id="d3092337e704a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d3092337e711" publication-type="other">
+Xiaoliang Wan and George Em Karniadakis, An adaptive multi-element generalized polyno-
+mial chaos method for stochastic differential equations, J. Comput. Phys. 209 (2005), no. 2,
+617-642. MR2151997 (2006e:65007)</mixed-citation>
+        </ref>
+        <ref id="d3092337e724a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d3092337e731" publication-type="other">
+---, Multi-element generalized polynomial chaos for arbitrary probability measures, SIAM
+J. Sci. Comput. 28 (2006), no. 3, 901-928 (electronic). MR2240796 (2007d:65008)</mixed-citation>
+        </ref>
+        <ref id="d3092337e741a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d3092337e748" publication-type="other">
+Dongbin Xiu and George Em Karniadakis, The Wiener-Askey polynomial chaos for sto-
+chastic differential equations, SIAM J. Sci. Comput. 24 (2002), no. 2, 619-644 (electronic).
+MR1951058 (2003m:60174)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

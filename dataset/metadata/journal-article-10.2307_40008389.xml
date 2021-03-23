@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">5</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i40000448</issue-id>
+         <article-id pub-id-type="jstor">40008389</article-id>
+         <title-group>
+            <article-title>Some Key Issues in Designing MT Systems</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Keh-Yih</given-names>
+                  <surname>Su</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jing-Shin</given-names>
+                  <surname>Chang</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>265</fpage>
+         <lpage>300</lpage>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1990 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40008389"/>
+         
+         
+         <abstract>
+            <p>Development of a machine translation system (MTS) requires many tradeoffs in terms of the variety of available formalisms and control mechanisms. The tradeoffs involve issues in the generative power of grammar, formal linguistic power and efficiency of the parser, manipulation flexibility for knowledge bases, knowledge acquisition, degree of expressiveness and uniformity of the system, integration of the knowledge sources, and so forth. In this paper we discuss some basic decisions which must be made in constructing a large system. Our experience with an operational English-Chinese MTS, ArchTran, is presented to illustrate decision making related to procedural tradeoffs.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Chinese</kwd>
+            <kwd>control strategy</kwd>
+            <kwd>English</kwd>
+            <kwd>generative power</kwd>
+            <kwd>grammar splitting</kwd>
+            <kwd>machine translation systems</kwd>
+            <kwd>mixed parsing strategy</kwd>
+            <kwd>parsing efficiency</kwd>
+            <kwd>scored parsing</kwd>
+            <kwd>statistical inference</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1073430e187a1310">
+               <label>3</label>
+               
+               <p>
+               <mixed-citation id="d1073430e194" publication-type="other">
+(Garside et al., 1987;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e200" publication-type="other">
+DeRose, 1988;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e206" publication-type="other">
+Church and Hanks,
+1989);</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e216" publication-type="other">
+(Baker, 1979;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e222" publication-type="other">
+Fujisaki, 1984;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e228" publication-type="other">
+Sampson, 1986;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e234" publication-type="other">
+Garside et al, 1987;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e240" publication-type="other">
+Church,
+1988;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e249" publication-type="other">
+Su et al., 1988, 1989, 1990a);</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e256" publication-type="other">
+(Church and Hanks, 1989;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e262" publication-type="other">
+Liu,
+1989;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e271" publication-type="other">
+Liu et al., 1990);</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e277" publication-type="other">
+(Chang, 1990;</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e283" publication-type="other">
+Su et al., 1990b).</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1073430e289" publication-type="other">
+(Brown et al., 1988)</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1073430e296a1310">
+               <label>4</label>
+               
+               <p>
+               <mixed-citation id="d1073430e303" publication-type="other">
+Fienberg and Holland (1972), Efron (1979), Jelinek and Mercer (1980), Nádas (1985) and Su
+et al. (1989b).</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d1073430e322a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1073430e329" publication-type="other">
+Aho, A.V., and J.D. Ullman. 1972. The Theory of Parsing, Translation, and Compiling.
+Vol. 1. Parsing. Englewood Cliffs, NJ: Prentice-Hall.</mixed-citation>
+            </ref>
+            <ref id="d1073430e339a1310">
+               
+               <mixed-citation id="d1073430e343" publication-type="other">
+Aho, A.V., R. Sethi and J.D. Ullman. 1986. Compilers: Principles, Techniques, and
+Tools. Reading, MA: Addison-Wesley.</mixed-citation>
+            </ref>
+            <ref id="d1073430e353a1310">
+               
+               <mixed-citation id="d1073430e357" publication-type="other">
+Bahl, L.R., P.F. Brown, P.V. de Souza and R.L. Mercer. 1988. A New Algorithm for
+the Estimation of Hidden Markov Model Parameters. Proceedings of the 1988 IEEE
+International Conference on Acoustics, Speech, and Signal Processing, 493-496.</mixed-citation>
+            </ref>
+            <ref id="d1073430e370a1310">
+               
+               <mixed-citation id="d1073430e374" publication-type="other">
+Baker, J.K. 1979. Trainable Grammars for Speech Recognition. Proceedings of the Spring
+Conference of the Acoustical Society of America.</mixed-citation>
+            </ref>
+            <ref id="d1073430e385a1310">
+               
+               <mixed-citation id="d1073430e389" publication-type="other">
+Bate, M. 1978. The Theory and Practice of Augmented Transition Network Grammars. In
+L. Bole (ed.), Natural Language Communication with Computer. Berlin: Springer,
+191-259.</mixed-citation>
+            </ref>
+            <ref id="d1073430e402a1310">
+               
+               <mixed-citation id="d1073430e406" publication-type="other">
+Bennett, W.S., and J. Slocum. 1985. The LRC Machine Translation System. Computa-
+tional Linguistics 11: 111-119.</mixed-citation>
+            </ref>
+            <ref id="d1073430e416a1310">
+               
+               <mixed-citation id="d1073430e420" publication-type="other">
+Bennett, W.S. 1990. How Much Semantics is Necessary for MT Systems? Proceedings
+of the Third International Conference on Theoretical and Methodological Issues in
+Machine Translation of Natural Language. University of Texas at Austin, 261-270.</mixed-citation>
+            </ref>
+            <ref id="d1073430e433a1310">
+               
+               <mixed-citation id="d1073430e437" publication-type="other">
+Brown, P., J. Cocke, Stephen A. Della Pietra, Vincent J. Della Pietra, F. Jelinek, J. D.
+Lafferty, R.L. Mercer and P.S. Roossin. 1990. A Statistical Approach to Machine
+Translation. Computational Linguistics 16: 79-85.</mixed-citation>
+            </ref>
+            <ref id="d1073430e450a1310">
+               
+               <mixed-citation id="d1073430e454" publication-type="other">
+Caeyers, H., and G. Adriaens. 1990. Efficient Parsing Using Preferences. Proceedings
+of the Third International Conference on Theoretical and Methodological Issues in
+Machine Translation of Natural Language. University of Texas at Austin, 279-286.</mixed-citation>
+            </ref>
+            <ref id="d1073430e467a1310">
+               
+               <mixed-citation id="d1073430e471" publication-type="other">
+Carbonell, J.G., and M. Tomita. 1987. Knowledge-Based Machine Translation, the
+CMU Approach. In S. Nirenburg (ed.), Machine Translation: Theoretical and
+Methodological Issues. New York: Cambridge University Press, 68-89.</mixed-citation>
+            </ref>
+            <ref id="d1073430e485a1310">
+               
+               <mixed-citation id="d1073430e489" publication-type="other">
+Chang, J.-S., and K.-Y. Su. 1988. Incremental Environment for Scored Machine Transla-
+tion Systems. Proceedings of Rocling-I, Nantou, Taiwan, 63-73.</mixed-citation>
+            </ref>
+            <ref id="d1073430e499a1310">
+               
+               <mixed-citation id="d1073430e503" publication-type="other">
+Chang, J.-S. 1990. GPSM: A Generalized Probabilistic Semantic Model for Ambiguity Res-
+olution. Master's thesis, Institute of Computer Science and Information Engineering,
+National Chaio Tung University, Hsinchu, Taiwan.</mixed-citation>
+            </ref>
+            <ref id="d1073430e516a1310">
+               
+               <mixed-citation id="d1073430e520" publication-type="other">
+Church, K. 1988. A Stochastic Parts Program and Noun Phrase Parser for Unrestricted
+Text. ACL Proceedings of 2nd Conference on Applied Natural Language Processing,
+Austin, Texas, 136-143.</mixed-citation>
+            </ref>
+            <ref id="d1073430e533a1310">
+               
+               <mixed-citation id="d1073430e537" publication-type="other">
+Church, K., and P. Hanks 1989. Word Association Norms, Mutual Information, and
+Lexicography. Proceedings of ACL-27, Vancouver, 76-83.</mixed-citation>
+            </ref>
+            <ref id="d1073430e547a1310">
+               
+               <mixed-citation id="d1073430e551" publication-type="other">
+DeRose, S.J. 1988. Grammatical Category Disambiguation by Statistical Optimization.
+Computational Linguistics 14: 31-39.</mixed-citation>
+            </ref>
+            <ref id="d1073430e561a1310">
+               
+               <mixed-citation id="d1073430e565" publication-type="other">
+Earley, J. 1970. An Efficient Context-Free Parsing Algorithm. CACM 13: 94-102.</mixed-citation>
+            </ref>
+            <ref id="d1073430e573a1310">
+               
+               <mixed-citation id="d1073430e577" publication-type="other">
+Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. The Annals of
+Statistics 7: 1-26.</mixed-citation>
+            </ref>
+            <ref id="d1073430e587a1310">
+               
+               <mixed-citation id="d1073430e591" publication-type="other">
+Erman, L.D., and V.R. Lesser. 1980. The Hearsay-II Speech Understanding System:
+A Tutorial. In W.A. Lea (ed.), Trends in Speech Recognition. Englewood, NJ:
+Prentice-Hall, 361-381.</mixed-citation>
+            </ref>
+            <ref id="d1073430e604a1310">
+               
+               <mixed-citation id="d1073430e608" publication-type="other">
+Fienberg, S.E., and P.W. Holland. 1972. On the Choice of Flattening Constants for
+Estimating Multinominal Probabilities. Journal of Multivariate Analysis 2: 127-134.</mixed-citation>
+            </ref>
+            <ref id="d1073430e618a1310">
+               
+               <mixed-citation id="d1073430e622" publication-type="other">
+Fujisaki, T. 1984. A Stochastic Approach to Sentence Parsing. Proceedings of Coling-84,
+Stanford, 16-19.</mixed-citation>
+            </ref>
+            <ref id="d1073430e632a1310">
+               
+               <mixed-citation id="d1073430e636" publication-type="other">
+Garside, R., G. Leech and G. Sampson, 1987. The Computational Analysis of English:
+A Corpus-Based Approach. London: Longman.</mixed-citation>
+            </ref>
+            <ref id="d1073430e646a1310">
+               
+               <mixed-citation id="d1073430e650" publication-type="other">
+Hopcroft, J.E., and J.D. Ullman. 1979. Introduction to Automata Theory, Language,
+and Computation. Reading, MA: Addison-Wesley.</mixed-citation>
+            </ref>
+            <ref id="d1073430e661a1310">
+               
+               <mixed-citation id="d1073430e665" publication-type="other">
+Horowitz, E., and S. Sahni. 1978. Fundamentals of Computer Algorithms. New York:
+Computer Science Press.</mixed-citation>
+            </ref>
+            <ref id="d1073430e675a1310">
+               
+               <mixed-citation id="d1073430e679" publication-type="other">
+Hsu, H.-H., and K.-Y. Su. 1986. A Bottom-Up Parser in The Machine Translation System
+with the Essence of ATN. Proceedings of International Computer Symposium (ICS),
+Tainan, Taiwan, Vol. 1 of 3, 166-173.</mixed-citation>
+            </ref>
+            <ref id="d1073430e692a1310">
+               
+               <mixed-citation id="d1073430e696" publication-type="other">
+Hutchins, W.J. 1986. Machine Translation: Past, Present, Future. Chichester, Sussex:
+Ellis Horwood.</mixed-citation>
+            </ref>
+            <ref id="d1073430e706a1310">
+               
+               <mixed-citation id="d1073430e710" publication-type="other">
+Ingria, R.J.P. 1990. The Limits of Unification. Proceedings of ACL-28, Pittsburgh, 194-204.</mixed-citation>
+            </ref>
+            <ref id="d1073430e717a1310">
+               
+               <mixed-citation id="d1073430e721" publication-type="other">
+Jelinek, E, and R.L. Mercer. 1980. Interpolated Estimation of Markov Source Parameters
+from Sparse Data. In E.S. Gelsema and L.N. Kanal (eds.), Pattern Recognition in
+Practice. Amsterdam: North-Holland, 381-397</mixed-citation>
+            </ref>
+            <ref id="d1073430e734a1310">
+               
+               <mixed-citation id="d1073430e738" publication-type="other">
+Kay, M. 1980. Algorithm Schemata and Data Structures in Syntactic Processing. Xerox
+technical report, CSL-80-12.</mixed-citation>
+            </ref>
+            <ref id="d1073430e749a1310">
+               
+               <mixed-citation id="d1073430e753" publication-type="other">
+Kay, M. 1990. On the Architecture of a Machine Translation System. Proceedings of
+Rocling-III, Taipei, 1-3.</mixed-citation>
+            </ref>
+            <ref id="d1073430e763a1310">
+               
+               <mixed-citation id="d1073430e767" publication-type="other">
+Liu, C.-L. 1989a. On the Resolution of English PP Attachment Problem with a Probabilistic
+Semantic Model. Master's thesis, Department of Electrical Engineering, National
+Tsing Hua University, Hsinchu, Taiwan.</mixed-citation>
+            </ref>
+            <ref id="d1073430e780a1310">
+               
+               <mixed-citation id="d1073430e784" publication-type="other">
+Liu, C.-L., and K.-Y. Su. 1989b. A Quantitative Comparison Between an LR Parser and
+an ATN Interpreter. Proceedings of Rocling-II, Nantou, Taiwan, 277-288.</mixed-citation>
+            </ref>
+            <ref id="d1073430e794a1310">
+               
+               <mixed-citation id="d1073430e798" publication-type="other">
+Liu, C.-L, J.-S. Chang and K.-Y. Su. 1990. The Semantic Score Approach to the Disam-
+biguation of PP Attachment Problem. Proceedings of Rocling-III, Taipei, 253-270.</mixed-citation>
+            </ref>
+            <ref id="d1073430e808a1310">
+               
+               <mixed-citation id="d1073430e812" publication-type="other">
+Marcus, M.P. 1980. A Theory of Syntactic Recognition for Natural Language. Cam-
+bridge, MA: MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d1073430e822a1310">
+               
+               <mixed-citation id="d1073430e826" publication-type="other">
+Nádas, A. 1985. On Turing's Formula for Word Probabilities. IEEE Transactions on
+Acoustics, Speech, and Signal Processing 33: 1414-1416.</mixed-citation>
+            </ref>
+            <ref id="d1073430e837a1310">
+               
+               <mixed-citation id="d1073430e841" publication-type="other">
+Pratt, V.R. 1973. A linguistics oriented programming language. Proceedings of IJCAI-3,
+Stanford, 372-381.</mixed-citation>
+            </ref>
+            <ref id="d1073430e851a1310">
+               
+               <mixed-citation id="d1073430e855" publication-type="other">
+Pratt, V.R. 1975. LINGOL-
+A progress report. Proceedings of IJCAI-4, Tbilisi, 422-428.</mixed-citation>
+            </ref>
+            <ref id="d1073430e862a1310">
+               
+               <mixed-citation id="d1073430e866" publication-type="other">
+Rabiner, L.R., and B.H. Juang. 1986. An Introduction to Hidden Markov Models. IEEE
+ASSP Magazine, January, 4-16.</mixed-citation>
+            </ref>
+            <ref id="d1073430e876a1310">
+               
+               <mixed-citation id="d1073430e880" publication-type="other">
+Sampson, G. 1986. A Stochastic Approach to Parsing. Proceedings of Coling-86, Bonn,
+151-155.</mixed-citation>
+            </ref>
+            <ref id="d1073430e890a1310">
+               
+               <mixed-citation id="d1073430e894" publication-type="other">
+Shieber, S.M. 1985. Criteria for designing computer facilities for linguistic analysis.
+Linguistics 23: 189-211.</mixed-citation>
+            </ref>
+            <ref id="d1073430e904a1310">
+               
+               <mixed-citation id="d1073430e908" publication-type="other">
+Su, K.-Y., J.-S. Chang, and H.-H. Hsu. 1987a. A Powerful Language Processing System
+for English-Chinese Machine Translation. Proceedings of International Conference on
+Chinese and Oriental Language Computing, Chicago, 260-264.</mixed-citation>
+            </ref>
+            <ref id="d1073430e922a1310">
+               
+               <mixed-citation id="d1073430e926" publication-type="other">
+Su, K.-Y., J.-N. Wang, W.-H. Li and J.-S. Chang. 1987b. A New Parsing Strategy in
+Natural Language Processing Based on the Truncation Algorithm. Proceedings of
+National Computer Symposium, Taipei, 580-586.</mixed-citation>
+            </ref>
+            <ref id="d1073430e939a1310">
+               
+               <mixed-citation id="d1073430e943" publication-type="other">
+Su, K.-Y, and J.-S. Chang. 1988. Semantic and Syntactic Aspects of Score Function.
+Proceedings of Coling-88, Budapest, 642-644.</mixed-citation>
+            </ref>
+            <ref id="d1073430e953a1310">
+               
+               <mixed-citation id="d1073430e957" publication-type="other">
+Su, K.-Y, J.-N. Wang, M.-H. Su and J.-S. Chang. 1989a. A Sequential Truncation Parsing
+Algorithm Based on the Score Function. Proceedings of International Workshop on
+Parsing Technologies, Pittsburgh, 95-104.</mixed-citation>
+            </ref>
+            <ref id="d1073430e970a1310">
+               
+               <mixed-citation id="d1073430e974" publication-type="other">
+Su, K.-Y, M.-H. Su and L.-M. Kuan. 1989b. Smoothing Statistic Databases in a Machine
+Translation System. Proceedings of Rocling-II, Nantou, Taiwan, 333-347.</mixed-citation>
+            </ref>
+            <ref id="d1073430e984a1310">
+               
+               <mixed-citation id="d1073430e988" publication-type="other">
+Su, K.-Y, J.-N. Wang, M.-H. Su and J.-S. Chang. 1990a. GLR Parsing with Scoring. To
+appear In M. Tomita (ed.), Generalized LR Parsing.</mixed-citation>
+            </ref>
+            <ref id="d1073430e998a1310">
+               
+               <mixed-citation id="d1073430e1002" publication-type="other">
+Su, K.-Y, J.-S. Chang and Y.-C. Lin. 1990b. A Unified Approach to Disambiguation
+Using A Uniform Formulation of Probabilistic Score Functions. In preparation.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1013a1310">
+               
+               <mixed-citation id="d1073430e1017" publication-type="other">
+Tomita, M. 1987. An Efficient Augmented-Context-Free Parsing Algorithm. Computa-
+tional Linguistics 13: 31-46.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1027a1310">
+               
+               <mixed-citation id="d1073430e1031" publication-type="other">
+Wilks, Y A. 1975a. Preference Semantics. In E.L. Keenan (ed.), Formal Semantics of
+Natural Language. Cambridge, Cambridge University Press, 329-348.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1041a1310">
+               
+               <mixed-citation id="d1073430e1045" publication-type="other">
+Wilks, Y A. 1975b. An Intelligent Analyzer and Understander of English. CACM 18:
+264-274.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1055a1310">
+               
+               <mixed-citation id="d1073430e1059" publication-type="other">
+Wilks, Y.A. 1983. Preference Semantics, Ill-Formedness, and Metaphor. Computational
+Linguistics 9: 178-187.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1069a1310">
+               
+               <mixed-citation id="d1073430e1073" publication-type="other">
+Winograd, T. 1983. Language as a Cognitive Process. Vol. 1. Reading, MA: Addison-
+Wesley.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1083a1310">
+               
+               <mixed-citation id="d1073430e1087" publication-type="other">
+Woods, W.A. 1970a. Context-Sensitive Parsing. CACM 13: 437-445.</mixed-citation>
+            </ref>
+            <ref id="d1073430e1095a1310">
+               
+               <mixed-citation id="d1073430e1099" publication-type="other">
+Woods, W.A. 1970b. Transition Network Grammars for Natural Language Analysis.
+CACM 13: 591-606.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

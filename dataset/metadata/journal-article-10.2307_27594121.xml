@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i27594110</issue-id>
+         <article-id pub-id-type="jstor">27594121</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186005X47967</article-id>
+         <title-group>
+            <article-title>MCMC Strategies for Computing Bayesian Predictive Densities for Censored Multivariate Data</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>J. R.</given-names>
+                  <surname>Lockwood</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Mark J.</given-names>
+                  <surname>Schervish</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>395</fpage>
+         <lpage>414</lpage>
+      
+         <permissions>
+            <copyright-statement>Copyright 2005 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594121"/>
+      
+      
+         <abstract>
+            <p>Traditional criteria for comparing alternative Bayesian hierarchical models, such as cross-validation sums of squares, are inappropriate for nonstandard data structures. More flexible cross-validation criteria such as predictive densities facilitate effective evaluations across a broader range of data structures, but do so at the expense of introducing computational challenges. This article considers Markov chain Monte Carlo strategies for calculating Bayesian predictive densities for vector measurements subject to differential componentwise censoring. It discusses computational obstacles in Bayesian computations resulting from both the multivariate and incomplete nature of the data, and suggests two Monte Carlo approaches for implementing predictive density calculations. It illustrates the value of the proposed methods in the context of comparing alternative models for joint distributions of contaminant concentration measurements.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Cross-validation</kwd>
+            <kwd>Data augmentation</kwd>
+            <kwd>Marginal density</kwd>
+            <kwd>Nested integration</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3176011e153a1310">
+          
+            <mixed-citation id="d3176011e157" publication-type="other">
+Akaike, H. (1973). "Theory and Extension of the Maximum Likelihood Principle," in Second International
+Symposium on Information Theory, eds. B. Petrov and F. Csaki, Budapest: Akademiai Kiado, pp. 267–281.</mixed-citation>
+        </ref>
+        <ref id="d3176011e167a1310">
+          
+            <mixed-citation id="d3176011e171" publication-type="other">
+Alqallaf, F., and Gustafson, P. (2001), "On Cross-Validation of Bayesian Models," The Canadian Journal of
+Statistics, 29, 333–340.</mixed-citation>
+        </ref>
+        <ref id="d3176011e181a1310">
+          
+            <mixed-citation id="d3176011e185" publication-type="other">
+Breslaw, J. (1994), "Evaluation of Multivariate Normal Probability Integrals Using a Low Variance Simulator,"
+The Review of Economics and Statistics, 76, 673–682.</mixed-citation>
+        </ref>
+        <ref id="d3176011e195a1310">
+          
+            <mixed-citation id="d3176011e199" publication-type="other">
+Chen, M.-H., and Shao, Q.-M. (1998), "Monte Carlo Methods for Bayesian Analysis of Constrained Parameter
+Problems," Biometrika, 85, 73–87.</mixed-citation>
+        </ref>
+        <ref id="d3176011e210a1310">
+          
+            <mixed-citation id="d3176011e214" publication-type="other">
+Chib, S. (1995), "Marginal Likelihood from the Gibbs Output," Journal of the American Statistical Association,
+90, 1313–1321.</mixed-citation>
+        </ref>
+        <ref id="d3176011e224a1310">
+          
+            <mixed-citation id="d3176011e228" publication-type="other">
+Draper, D. (1995), "Assessment and Propagation of Model Uncertainty" (with discussion), Journal of the Royal
+Statistical Society, Ser. B, 57, 45–70.</mixed-citation>
+        </ref>
+        <ref id="d3176011e238a1310">
+          
+            <mixed-citation id="d3176011e242" publication-type="other">
+Dutt, J. (1973), "A Representation of Multivariate Normal Probability Integrals by Integral Transforms,"
+Biometrika, 60, 637–645.</mixed-citation>
+        </ref>
+        <ref id="d3176011e252a1310">
+          
+            <mixed-citation id="d3176011e256" publication-type="other">
+Frey, M., and Edwards, M. (1997), "Surveying Arsenic Occurrence," Journal of the American Water Works
+Association, 89, 105–117.</mixed-citation>
+        </ref>
+        <ref id="d3176011e266a1310">
+          
+            <mixed-citation id="d3176011e270" publication-type="other">
+Gassmann, H., Deák, I., and Szántai, T. (2002), "Computing Multivariate Normal Probabilities: A New Look,"
+Journal of Computational and Graphical Statistics, 11, 920–949.</mixed-citation>
+        </ref>
+        <ref id="d3176011e280a1310">
+          
+            <mixed-citation id="d3176011e284" publication-type="other">
+Geisser, S., and Eddy, W. (1979), "A Predictive Approach to Model Selection," Journal of the American Statistical
+Association, 74, 153–160.</mixed-citation>
+        </ref>
+        <ref id="d3176011e295a1310">
+          
+            <mixed-citation id="d3176011e299" publication-type="other">
+Gelfand, A. E., and Dey, D. K. (1994), "Bayesian Model Choice: Asymptotics and Exact Calculations," Journal
+of the Royal Statistical Society, Ser. B, 56, 501–514.</mixed-citation>
+        </ref>
+        <ref id="d3176011e309a1310">
+          
+            <mixed-citation id="d3176011e313" publication-type="other">
+Gelfand, A., Dey, D., and Chang, H. (1992), "Model Determination Using Predictive Distributions with Im-
+plementation via Sampling-Based Methods" (with discussion), in Bayesian Statistics 4, eds. J. Bernardo,
+J. Berger, A. Dawid, and A. Smith, Oxford: Oxford University Press, pp. 147–167.</mixed-citation>
+        </ref>
+        <ref id="d3176011e326a1310">
+          
+            <mixed-citation id="d3176011e330" publication-type="other">
+Genz, A. (1992), "Numerical Computation of Multivariate Normal Probabilities," Journal of Computational and
+Graphical Statistics, 1, 141–149.</mixed-citation>
+        </ref>
+        <ref id="d3176011e340a1310">
+          
+            <mixed-citation id="d3176011e344" publication-type="other">
+Geweke, J. (1989), "Bayesian Inference in Econometric Models Using Monte Carlo Integration," Econometrica,
+57, 1317–1339.</mixed-citation>
+        </ref>
+        <ref id="d3176011e354a1310">
+          
+            <mixed-citation id="d3176011e358" publication-type="other">
+Geweke, J. F., Keane, M. P., and Runkle, D. E. (1997), "Statistical Inference in the Multinomial Multiperiod Probit
+Model," Journal of Econometrics, 80, 125–165.</mixed-citation>
+        </ref>
+        <ref id="d3176011e368a1310">
+          
+            <mixed-citation id="d3176011e372" publication-type="other">
+Gurian, P., Small, M., Lockwood, J., and Schervish, M. (2001), "Benefit-Cost Estimation for Alternative Drinking
+Water MCLs," Water Resources Research, 37, 2213–2226.</mixed-citation>
+        </ref>
+        <ref id="d3176011e383a1310">
+          
+            <mixed-citation id="d3176011e387" publication-type="other">
+Hajivassiliou, V., McFadden, D., and Ruud, P. (1996), "Simulation of Multivariate Normal Rectangle Probabilities
+and Their Derivatives: Theoretical and Computational Results," Journal of Econometrics, 72, 85–134.</mixed-citation>
+        </ref>
+        <ref id="d3176011e397a1310">
+          
+            <mixed-citation id="d3176011e401" publication-type="other">
+Han, C., and Carlin, B. (2001), "Markov Chain Monte Carlo Methods for Computing Bayes Factors: A Comparative
+Review," Journal of the American Statistical Association, 96, 1122–1132.</mixed-citation>
+        </ref>
+        <ref id="d3176011e411a1310">
+          
+            <mixed-citation id="d3176011e415" publication-type="other">
+Hansen, M., and Yu, B. (2001), "Model Selection and the Principle of Minimum Description Length," Journal of
+the American Statistical Association, 96, 746–774.</mixed-citation>
+        </ref>
+        <ref id="d3176011e425a1310">
+          
+            <mixed-citation id="d3176011e429" publication-type="other">
+Hodges, J., and Sargent, D. (2001), "Counting Degrees of Freedom in Hierarchical and Other Richly-Parameterized
+Models," Biometrika, 88, 367–379.</mixed-citation>
+        </ref>
+        <ref id="d3176011e439a1310">
+          
+            <mixed-citation id="d3176011e443" publication-type="other">
+Hoeting, J., Madigan, D., Raftery, A., and Volinsky, C. (1999), "Bayesian Modeling Averaging: A Tutorial,"
+Statistical Science, 14, 382–417.</mixed-citation>
+        </ref>
+        <ref id="d3176011e453a1310">
+          
+            <mixed-citation id="d3176011e457" publication-type="other">
+Kadane, J., and Lazar, N. (2004), "Methods and Criteria for Model Selection," The Journal of the American
+Statistical Association, 99, 279–290.</mixed-citation>
+        </ref>
+        <ref id="d3176011e468a1310">
+          
+            <mixed-citation id="d3176011e472" publication-type="other">
+Kass, R., and Raftery, A. (1995), "Bayes Factors," Journal of the American Statistical Association, 90, 773–795.</mixed-citation>
+        </ref>
+        <ref id="d3176011e479a1310">
+          
+            <mixed-citation id="d3176011e483" publication-type="other">
+Keane, M. (1994), "A Computationally Practical Simulation Estimator for Panel Data," Econometrica, 62,95–116.</mixed-citation>
+        </ref>
+        <ref id="d3176011e490a1310">
+          
+            <mixed-citation id="d3176011e494" publication-type="other">
+Laud, P., and Ibrahim, J. (1995), "Predictive Model Selection," Journal of the Royal Statistical Society, Ser. B,
+57, 247–262.</mixed-citation>
+        </ref>
+        <ref id="d3176011e504a1310">
+          
+            <mixed-citation id="d3176011e508" publication-type="other">
+Lockwood, J., Schervish, M., Gurian, P., and Small, M. (2004), "Analysis of Contaminant Co-occurrence in
+Community Water Systems," Journal of the American Statistical Association, 99, 36–44.</mixed-citation>
+        </ref>
+        <ref id="d3176011e518a1310">
+          
+            <mixed-citation id="d3176011e522" publication-type="other">
+Mosteller, F., and Tukey, J. (1977), Data Analysis and Regression: A Second Course in Statistics, Reading, MA:
+Addison-Wesley.</mixed-citation>
+        </ref>
+        <ref id="d3176011e532a1310">
+          
+            <mixed-citation id="d3176011e536" publication-type="other">
+O'Hagan, A. (1995), "Fractional Bayes Factors for Model Comparison" (with discussion), Journal of the Royal
+Statistical Society, Ser. B, 57, 99–138.</mixed-citation>
+        </ref>
+        <ref id="d3176011e547a1310">
+          
+            <mixed-citation id="d3176011e551" publication-type="other">
+Pauler, D., Wakefield, J., and Kass, R. (1999), "Bayes Factors and Approximations for Variance Component
+Models," Journal of the American Statistical Association, 94, 1242–1253.</mixed-citation>
+        </ref>
+        <ref id="d3176011e561a1310">
+          
+            <mixed-citation id="d3176011e565" publication-type="other">
+Poskitt, D. (1987), "Precision, Complexity and Bayesian Model Determination," Journal of the Royal Statistical
+Society, Ser. B, 49, 199–208.</mixed-citation>
+        </ref>
+        <ref id="d3176011e575a1310">
+          
+            <mixed-citation id="d3176011e579" publication-type="other">
+Rao, C., and Wu, Y. (2001), "On Model Selection" (with discussion), in Model Selection, Volume 38 of IMS
+Lecture Notes—Monograph Series, ed. P. Lahiri, Institute of Mathematical Statistics.</mixed-citation>
+        </ref>
+        <ref id="d3176011e589a1310">
+          
+            <mixed-citation id="d3176011e593" publication-type="other">
+Schervish, M. (1984), "Multivariate Normal Probabilities With Error Bound," Journal of the Royal Statistical
+Society, Ser. C, 33, 81–87.</mixed-citation>
+        </ref>
+        <ref id="d3176011e603a1310">
+          
+            <mixed-citation id="d3176011e607" publication-type="other">
+—(1995), Theory of Statistics, (2nd ed.), New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d3176011e614a1310">
+          
+            <mixed-citation id="d3176011e618" publication-type="other">
+Schwarz, G. (1978), "Estimating the Dimension of a Model," The Annals of Statistics, 6, 461–164.</mixed-citation>
+        </ref>
+        <ref id="d3176011e626a1310">
+          
+            <mixed-citation id="d3176011e630" publication-type="other">
+Spiegelhalter, D., Best, N., Carlin, B., and van der Linde, A. (2002), "Bayesian Measures of Model Complexity
+and Fit" (with discussion), Journal of the Royal Statistical Society, Ser. B, 64, 583–639.</mixed-citation>
+        </ref>
+        <ref id="d3176011e640a1310">
+          
+            <mixed-citation id="d3176011e644" publication-type="other">
+Stone, M. (1974), "Cross-Validatory Choice and Assessment of Statistical Predictions" (with discussion), Journal
+of the Royal Statistical Society, Ser. B, 36, 111–147.</mixed-citation>
+        </ref>
+        <ref id="d3176011e654a1310">
+          
+            <mixed-citation id="d3176011e658" publication-type="other">
+—(1977), "An Asymptotic Equivalence of Choice of Model by Cross-Validation and Akaike's Criterion,"
+Journal of the Royal Statistical Society, Ser. B, 39, 44–47.</mixed-citation>
+        </ref>
+        <ref id="d3176011e668a1310">
+          
+            <mixed-citation id="d3176011e672" publication-type="other">
+Tanner, M., and Wong, W. (1987), "The Calculation of Posterior Distributions by Data Augmentation" (with
+discussion), Journal of the American Statistical Association, 82, 528–550.</mixed-citation>
+        </ref>
+        <ref id="d3176011e682a1310">
+          
+            <mixed-citation id="d3176011e686" publication-type="other">
+Tibshirani, R., and Knight, K. (1999), "The Covariance Inflation Criterion for Adaptive Model Selection," Journal
+of the Royal Statistical Society, Ser. B, 61, 529–546.</mixed-citation>
+        </ref>
+        <ref id="d3176011e696a1310">
+          
+            <mixed-citation id="d3176011e700" publication-type="other">
+van Dyk, D., and Meng, X. (2001), "The Art of Data Augmentation" (with discussion), Journal of Computational
+and Graphical Statistics, 10, 1–111.</mixed-citation>
+        </ref>
+        <ref id="d3176011e711a1310">
+          
+            <mixed-citation id="d3176011e715" publication-type="other">
+Vijverberg, W. (1997), "Monte Carlo Evaluation of Multivariate Normal Probabilities," Journal of Econometrics,
+76, 281–307.</mixed-citation>
+        </ref>
+        <ref id="d3176011e725a1310">
+          
+            <mixed-citation id="d3176011e729" publication-type="other">
+Ye, J. (1998), "On Measuring and Correcting the Effects of Data Mining and Model Selection," Journal of the
+American Statistical Association, 93, 120–131.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260305</issue-id>
+         <article-id pub-id-type="jstor">1391003</article-id>
+         
+         <title-group>
+            <article-title>A Second-Order Approximation to the Log-Likelihood Surface for Mixture Models, with Application to the EM Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul</given-names>
+                  <surname>Fearnhead</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>739</fpage>
+         <lpage>750</lpage>
+         <page-range>739-750</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391003"/>
+         
+         
+         <abstract>
+            <p>This article considers a new approximation to the log-likelihood surface in mixture models. This approximation is based on both the mean and variance of the full-data log-likelihood over imputations of assignments of observations to components. This approximation is accurate to second order, and holds for general missing data problems. The approximation provides a new method for calculating the observed information using the EM algorithm, and motivates a Gauss-Newton method for finding the MLE. This Gauss-Newton method is implemented together with the ideas behind the SAGE algorithm. The resulting algorithm outperforms the EM, CEMM, and a further Gauss-Newton algorithm when analyzing data from three-component Gaussian mixtures.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>CEMM</kwd>
+            <kwd>Gauss-Newton</kwd>
+            <kwd>Observed information</kwd>
+            <kwd>SAGE</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d172083e135a1310">
+               
+               <mixed-citation id="d172083e139" publication-type="journal">
+Aitkin, M., and Aitkin, I. (1996), "A Hybrid EM/Gauss-Newton Algorithm for Maximum Likelihood in Mixture
+Distributions," Statistics and Computing, 6, 127-130.<person-group>
+                     <string-name>
+                     <surname>Aitkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>127</fpage>
+               <volume>6</volume>
+               <source>Statistics and Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e171a1310">
+               
+               <mixed-citation id="d172083e175" publication-type="journal">
+Baker, S.G. (1992), "A Simple Method for Computing the Observed Information Matrix When Using the EM
+Algorithm," Journal of Computational and Graphical Statistics, 1, 63-76.<object-id pub-id-type="doi">10.2307/1390600</object-id>
+               <fpage>63</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e191a1310">
+               
+               <mixed-citation id="d172083e195" publication-type="journal">
+Celeux, G., Chretien, S., Forbes, F., and Mkhadri, A. (2001), "A Component-Wise EM Algorithm for Mixtures,"
+Journal of Computational and Graphical Statistics, 10, 697-712.<object-id pub-id-type="jstor">10.2307/1390967</object-id>
+               <fpage>697</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e211a1310">
+               
+               <mixed-citation id="d172083e215" publication-type="journal">
+Dempster, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood for Incomplete Data via EM
+Algorithm" (with discussion), Journal of the Royal Statistical Society, Series B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e248a1310">
+               
+               <mixed-citation id="d172083e252" publication-type="journal">
+Fessler, J.A., and Hero, A. 0. (1994), "Space-Alternating Generalized Expectation-Maximization Algorithm,"
+IEEE Transactions on Signal Processing, 42, 2664-2677.<person-group>
+                     <string-name>
+                     <surname>Fessler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2664</fpage>
+               <volume>42</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e284a1310">
+               
+               <mixed-citation id="d172083e288" publication-type="journal">
+Jamshidian, M., and Jennrich, R.I. (1997), "Acceleration of the EM Algorithm Using Quasi-Newton Methods,"
+Journal of the Royal Statistical Society, Series B, 59, 569-587.<person-group>
+                     <string-name>
+                     <surname>Jamshidian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>569</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e320a1310">
+               
+               <mixed-citation id="d172083e324" publication-type="journal">
+(2000), "Standard Errors for EM Estimation," Journal of the Royal Statistical Society, Series B, 62,
+257-270.<person-group>
+                     <string-name>
+                     <surname>Jamshidian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>257</fpage>
+               <volume>62</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e356a1310">
+               
+               <mixed-citation id="d172083e360" publication-type="journal">
+Lindstrom, M.J., and Bates, D.M. (1988), "Newton-Raphson and EM Algorithms for Linear Mixed Effects
+Models for Repeated Measures Data," Journal of the American Statistical Association, 83, 1014-1022.<object-id pub-id-type="doi">10.2307/2290128</object-id>
+               <fpage>1014</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e376a1310">
+               
+               <mixed-citation id="d172083e380" publication-type="journal">
+Liu, C., and Rubin, D.B. (1994), "The ECME Algorithm: A Simple Extension of EM and ECM with Faster
+Monotone Convergence," Biometrika, 81, 633-648.<object-id pub-id-type="doi">10.2307/2337067</object-id>
+               <fpage>633</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e396a1310">
+               
+               <mixed-citation id="d172083e400" publication-type="journal">
+Liu, C., Rubin, D.B., and Wu, Y. (1998), "Parameter Expansion to Accelerate EM: The PX-EM Algorithm,"
+Biometrika, 85, 755-770.<object-id pub-id-type="jstor">10.2307/2337481</object-id>
+               <fpage>755</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e417a1310">
+               
+               <mixed-citation id="d172083e421" publication-type="journal">
+Louis, T.A. (1982), "Finding the Observed Information Matrix When Using the EM Algorithm," Journal of the
+Royal Statistical Society, Series B, 44, 226-233.<person-group>
+                     <string-name>
+                     <surname>Louis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>44</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e453a1310">
+               
+               <mixed-citation id="d172083e457" publication-type="journal">
+Meng, X.L., and Rubin, D.B. (1991), "Using the EM to Obtain Asymptotic Variance-Covariance Matrices: The
+SEM Algorithm," Journal of the American Statistical Association, 86, 899-909.<object-id pub-id-type="doi">10.2307/2290503</object-id>
+               <fpage>899</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e473a1310">
+               
+               <mixed-citation id="d172083e477" publication-type="journal">
+(1993), "Maximum Likelihood Estimation via the ECM Algorithm: A General Framework," Biometrika,
+80, 267-278.<object-id pub-id-type="doi">10.2307/2337198</object-id>
+               <fpage>267</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e493a1310">
+               
+               <mixed-citation id="d172083e497" publication-type="journal">
+Meng, X.L., and van Dyk, D.A. (1997), "The EM Algorithm-An Old Folk Song Sung to a Fast New Tune"
+(with discussion), Journal of the Royal Statistical Society, Series B, 59, 511-567.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>511</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e529a1310">
+               
+               <mixed-citation id="d172083e533" publication-type="journal">
+Pilla, R.S., and Lindsay, B.G. (2001), "Alternative EM Methods for Nonparametric Finite Mixture Models,"
+Biometrika, 88, 535-550.<object-id pub-id-type="jstor">10.2307/2673498</object-id>
+               <fpage>535</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d172083e549a1310">
+               
+               <mixed-citation id="d172083e553" publication-type="journal">
+Redner, R.A., and Walker, H.F. (1984), "Mixture Densities, Maximum Likelihood, and the EM Algorithm," SIAM
+Review, 26, 195-239.<object-id pub-id-type="jstor">10.2307/2030064</object-id>
+               <fpage>195</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

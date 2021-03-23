@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260278</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390743</article-id>
+         
+         <title-group>
+            <article-title>Using Complex Integration to Compute Multivariate Normal Probabilities</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>W. C.</given-names>
+                  <surname>Soong</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jason C.</given-names>
+                  <surname>Hsu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>397</fpage>
+         <lpage>415</lpage>
+         <page-range>397-415</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390743"/>
+         
+         
+         <abstract>
+            <p>
+               The execution of most multiple comparison methods involves, at least in part, the computation of the probability that a multivariate normal or multivarite t random vector is in a hyper-rectangle. In multiple comparison with a control as well as multiple comparison with the best (of normal populations or multinomial cell probabilities), the correlation matrix R of the random vector is nonsingular and of the form &lt;tex-math&gt;${\bf R}={\bf D}+\underline{\lambda \lambda ^{\prime}}$&lt;/tex-math&gt;, where D is a diagonal matrix and &lt;tex-math&gt;$\underline{\lambda}$&lt;/tex-math&gt; is a known vector. It is well known that, in this case, the multivariate normal rectangular probability can be expressed as a one-dimensional integral and successfully computed using Gaussian quadrature techniques. However, in multiple comparison with the mean (sometimes called analysis of means) of normal distributions, all-pairwise comparisons of three normal distributions, as well as simultaneous inference on multinomial cell probabilities themselves, the correlation matrix is singular and of the form &lt;tex-math&gt;${\bf R}={\bf D}-\underline{\eta \eta ^{\prime}}$&lt;/tex-math&gt;. It is not well known that, in this latter case, the multivariate normal rectangular probability can still be expressed as a single integral, albeit one with complex variables in its integrand. Previously published proofs of the validity of this expression either contained a gap or relied on a numerical demonstration, and this article will provide an analytic proof. Furthermore, we explain how this complex integral can be computed accurately, using Romberg integration of complex variables when the dimension is low, and using Šidák's inequality as an approximation when the dimension is at least moderate. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Complex integration</kwd>
+            <kwd>Multiple comparisons</kwd>
+            <kwd>Multivariate normal</kwd>
+            <kwd>Rectangular probability</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1568885e162a1310">
+               
+               <mixed-citation id="d1568885e166" publication-type="book">
+Abramowitz, M., and Stegun, I.A. (eds) (1972), Handbook of Mathematical Functions, New York: Dover
+Publications Inc.<person-group>
+                     <string-name>
+                     <surname>Abramowitz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of Mathematical Functions</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e191a1310">
+               
+               <mixed-citation id="d1568885e195" publication-type="journal">
+Bland, R.P., and Owen, D.B. (1966), "A Note on Singular Normal Distributions," Annals of the Institute of
+Statistical Mathematics, 18, 113-116.<person-group>
+                     <string-name>
+                     <surname>Bland</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>18</volume>
+               <source>Annals of the Institute of Statistical Mathematics</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e227a1310">
+               
+               <mixed-citation id="d1568885e231" publication-type="journal">
+Campbell, P.F., and McCabe, G.P. (1984), "Predicting the Success of Freshmen in a Computer Science
+Major," Communications of the ACM, 27, 1108-1113.<person-group>
+                     <string-name>
+                     <surname>Campbell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1108</fpage>
+               <volume>27</volume>
+               <source>Communications of the ACM</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e263a1310">
+               
+               <mixed-citation id="d1568885e267" publication-type="book">
+Chung, K.L. (1974), A Course in Probability Theory (2nd ed.), New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Chung</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>A Course in Probability Theory</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e293a1310">
+               
+               <mixed-citation id="d1568885e297" publication-type="book">
+Davis, P.J., and Rabinowitz, P. (1984), Methods of Numerical Integration (2nd ed.), New York: Academic
+Press.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Methods of Numerical Integration</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e326a1310">
+               
+               <mixed-citation id="d1568885e330" publication-type="journal">
+Dunnett, C.W. (1955), "A Multiple Comparison Procedure for Comparing Several Treatments with a Control,"
+Journal of the American Statistical Association, 50, 1096-1121.<object-id pub-id-type="doi">10.2307/2281208</object-id>
+               <fpage>1096</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e346a1310">
+               
+               <mixed-citation id="d1568885e350" publication-type="journal">
+(1989), "Multivariate Normal Probability Integrals with Product Correlation Structure," Applied Statis-
+tics, 38, 564-579.<object-id pub-id-type="doi">10.2307/2347754</object-id>
+               <fpage>564</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e366a1310">
+               
+               <mixed-citation id="d1568885e370" publication-type="journal">
+(1993), "Correction to Algorithm as 251: Multivariate Normal Probability Integrals with Product
+Correlation Structure," Applied Statistics, 42, 709.<object-id pub-id-type="doi">10.2307/2986187</object-id>
+               <fpage>709</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e386a1310">
+               
+               <mixed-citation id="d1568885e390" publication-type="journal">
+Dunnett, C.W., and Sobel, M. (1955), "Approximations to the Probability Integral and Certain Percentage
+Points of a Multivariate Analogue of Student's t-Distribution," Biometrika, 42, 258-260.<object-id pub-id-type="doi">10.2307/2333441</object-id>
+               <fpage>258</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e406a1310">
+               
+               <mixed-citation id="d1568885e410" publication-type="book">
+Fritsch, K., and Hsu, J.C. (1997), "On Analysis of Means," in Advances in Statistical Decision Theory and
+Methodology, eds. N. Balakrishnan and S. Panchapakesan, Boston: Birkhauser.<person-group>
+                     <string-name>
+                     <surname>Fritsch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On Analysis of Means</comment>
+               <source>Advances in Statistical Decision Theory and Methodology</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e440a1310">
+               
+               <mixed-citation id="d1568885e444" publication-type="journal">
+Gautschi, W. (1969), "Algorithm 363, Complex Error Function," Communications of the ACM, 12, 635.<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>635</fpage>
+               <volume>12</volume>
+               <source>Communications of the ACM</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e473a1310">
+               
+               <mixed-citation id="d1568885e477" publication-type="journal">
+(1970), "Efficient Computation of the Complex Error Function," SIAM Journal of Mathematical
+Analysis, 7, 187-198.<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>7</volume>
+               <source>SIAM Journal of Mathematical Analysis</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e509a1310">
+               
+               <mixed-citation id="d1568885e513" publication-type="journal">
+Goodwin, E.T., and Staton, J. (1948), "Table of du," The Quarterly Journal of Mechanics and
+Applied Mathematics, 1, 319-326.<person-group>
+                     <string-name>
+                     <surname>Goodwin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>319</fpage>
+               <volume>1</volume>
+               <source>The Quarterly Journal of Mechanics and Applied Mathematics</source>
+               <year>1948</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e545a1310">
+               
+               <mixed-citation id="d1568885e549" publication-type="journal">
+Halperin, M., Greenhouse, S.W., Cornfield, J., and Zalokar, J. (1955), "Tables of Percentage Points for
+the Studentized Maximum Absolute Deviate in Normal Samples," Journal of the American Statistical
+Association, 50, 185-195.<object-id pub-id-type="doi">10.2307/2281105</object-id>
+               <fpage>185</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e568a1310">
+               
+               <mixed-citation id="d1568885e572" publication-type="journal">
+Hayter, A.J. (1984), "A Proof of the Conjecture that the Tukey-Kramer Multiple Comparisons Procedure is
+Conservative," The Annals of Statistics, 12, 61-75.<object-id pub-id-type="jstor">10.2307/2241034</object-id>
+               <fpage>61</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e588a1310">
+               
+               <mixed-citation id="d1568885e592" publication-type="book">
+Hochberg, Y., and Tamhane, A.C. (1987), Multiple Comparison Procedures, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Hochberg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multiple Comparison Procedures</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e615a1310">
+               
+               <mixed-citation id="d1568885e619" publication-type="book">
+Hsu, J.C. (1996), Multiple Comparisons: Theory and Methods, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Hsu</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multiple Comparisons: Theory and Methods</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e641a1310">
+               
+               <mixed-citation id="d1568885e645" publication-type="book">
+IMSL (1995a), MATH/LIBRARY Special Functions Version 3.0, Houston, TX: Visual Numerics.<person-group>
+                     <string-name>
+                     <surname>IMSL</surname>
+                  </string-name>
+                  </person-group>
+               <source>MATH/LIBRARY Special Functions Version 3.0</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e667a1310">
+               
+               <mixed-citation id="d1568885e671" publication-type="book">
+( (1995b). MATH/LIBRARY Version 3.0, Houston, TX: Visual Numerics.<person-group>
+                     <string-name>
+                     <surname>Imsl</surname>
+                  </string-name>
+                  </person-group>
+               <source>MATH/LIBRARY Version 3.0</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e693a1310">
+               
+               <mixed-citation id="d1568885e697" publication-type="journal">
+Kramer, C.Y. (1956), "Extension of Multiple Range Tests to Group Means with Unequal Numbers of
+Replications," Biometrics, 12, 309-310.<object-id pub-id-type="doi">10.2307/3001469</object-id>
+               <fpage>309</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e713a1310">
+               
+               <mixed-citation id="d1568885e717" publication-type="journal">
+Nelson, P.R. (1982), "Multivariate Normal and t Distributions with pij = a ak," Communications in
+Statistics—Simulation and Computation, 11, 239-248.<person-group>
+                     <string-name>
+                     <surname>Nelson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>239</fpage>
+               <volume>11</volume>
+               <source>Communications in Statistics—Simulation and Computation</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e749a1310">
+               
+               <mixed-citation id="d1568885e753" publication-type="conference">
+(1991), "Numerical Evaluation of Multivariate Normal Integrals with Correlations pij =  -αiαj ," in
+The Frontiers of Statistical Scientific Theory &amp; Industrial Applications (Proceedings of ICOSCO-I, The
+First International Conference on Statistical Computing), vol. II, pp. 97-113.<person-group>
+                     <string-name>
+                     <surname>Nelson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical Evaluation of Multivariate Normal Integrals with Correlations pij =  -αiαj</comment>
+               <fpage>97</fpage>
+               <volume>II</volume>
+               <source>The Frontiers of Statistical Scientific Theory &amp; Industrial Applications (Proceedings of ICOSCO-I, The First International Conference on Statistical Computing)</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e792a1310">
+               
+               <mixed-citation id="d1568885e796" publication-type="journal">
+(1993), "Additional Uses for the Analysis of Means and Extended Tables of Critical Values," Techno-
+metrics, 35, 61-71.<object-id pub-id-type="doi">10.2307/1269290</object-id>
+               <fpage>61</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e812a1310">
+               
+               <mixed-citation id="d1568885e816" publication-type="book">
+Press, W.H., Flannery, B.P., Teukolsky, S.A., and Vetterling, W.T. (1986), Numerical Recipes: The Art of
+Scientific Computing, New York: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Recipes: The Art of Scientific Computing</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e841a1310">
+               
+               <mixed-citation id="d1568885e845" publication-type="journal">
+Šidák, Z. (1967), "Rectangular Confidence Regions for the Means of Multivariate Normal Distributions,"
+Journal of the American Statistical Association, 62, 626-633.<person-group>
+                     <string-name>
+                     <surname>Šidák</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>626</fpage>
+               <volume>62</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e877a1310">
+               
+               <mixed-citation id="d1568885e881" publication-type="journal">
+Spurrier, J.D., and Isham, S.P. (1985), "Exact Simultaneous Confidence Intervals of Pairwise Comparisons
+of Three Normal Means," Journal of the American Statistical Association, 80, 438-442.<object-id pub-id-type="doi">10.2307/2287911</object-id>
+               <fpage>438</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e897a1310">
+               
+               <mixed-citation id="d1568885e901" publication-type="journal">
+Steck, G.P., and Owen, D.B. (1962), "A Note on the Equi-correlated Multivariate Normal Distribution,"
+Biometrika, 49, 269-271.<object-id pub-id-type="doi">10.2307/2333495</object-id>
+               <fpage>269</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e917a1310">
+               
+               <mixed-citation id="d1568885e921" publication-type="journal">
+Stoer, J., and Bulirsch, J. (1967), "Handbook Series Numerical Integration, Numerical Quadrature by Extrap-
+olation," Numerische Mathematik, 9, 271-278.<person-group>
+                     <string-name>
+                     <surname>Stoer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>271</fpage>
+               <volume>9</volume>
+               <source>Numerische Mathematik</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e954a1310">
+               
+               <mixed-citation id="d1568885e958" publication-type="book">
+(1980), Introduction to Numerical Analysis, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Stoer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Numerical Analysis</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e980a1310">
+               
+               <mixed-citation id="d1568885e984" publication-type="book">
+Tukey, J.W. (1953), "The Problem of Multiple Comparisons," dittoed manuscript of 396 pages, Department
+of Statistics, Princeton University.<person-group>
+                     <string-name>
+                     <surname>Tukey</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Problem of Multiple Comparisons</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1568885e1009a1310">
+               
+               <mixed-citation id="d1568885e1013" publication-type="journal">
+Uusipaikka, E. (1985), "Exact Simultaneous Confidence Intervals for Multiple Comparisons of Three or Four
+Mean Values," Journal of the American Statistical Association, 80, 196-201.<object-id pub-id-type="doi">10.2307/2288071</object-id>
+               <fpage>196</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>
