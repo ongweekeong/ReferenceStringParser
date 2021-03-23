@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260300</issue-id>
+         <article-id pub-id-type="jstor">1391195</article-id>
+         
+         <title-group>
+            <article-title>An Evolutionary Algorithm with Applications to Statistics</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mary C.</given-names>
+                  <surname>Meyer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>265</fpage>
+         <lpage>281</lpage>
+         <page-range>265-281</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391195"/>
+         
+         
+         <abstract>
+            <p>Evolutionary algorithms are used to find maxima of functions. Their claim to fame is an ability to find a global maximum in the presence of local maxima. The computations do not require derivatives or convexity, but still may be fairly computationally intensive in larger dimensions. This article presents a new type of evolutionary algorithm that works well in many dimensions, with the added advantage that linear equality constraints are implemented in a natural way. Bounds on the coordinates of the solution are also easy to implement. Several examples are presented and the new algorithm is compared with standard versions of evolutionary algorithms. The first group consists of functions in one or two dimensions, chosen to be difficult to maximize by gradient or simplex-based methods. The second set of examples are from statistics problems that are known to be computationally difficult. The first is least absolute deviations nonlinear regression with bootstrapped confidence bounds on the mean response, the second is smoothed nonparametric unimodal density estimation requiring both a linear equality constraint and linear inequality constraints. The Fortran subroutine is available for the user.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Genetic algorithm</kwd>
+            <kwd>Global extremum</kwd>
+            <kwd>Stochastic optimization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2000893e150a1310">
+               
+               <mixed-citation id="d2000893e154" publication-type="book">
+Bäck, T., Fogel, D.B., and Michalewicz, Z. (2000), Evolutionary Computation 1: Basic Algorithms and Operators,
+Philadelphia, PA: Institute of Physics Publishing.<person-group>
+                     <string-name>
+                     <surname>Bäck</surname>
+                  </string-name>
+                  </person-group>
+               <source>Evolutionary Computation 1: Basic Algorithms and Operators</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000893e179a1310">
+               
+               <mixed-citation id="d2000893e183" publication-type="journal">
+Bickel, P., and Fan, J. (1996), "Some Problems of the Estimation of Unimodal Densities," Statistica Sinica, 6,
+23-45.<person-group>
+                     <string-name>
+                     <surname>Bickel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>6</volume>
+               <source>Statistica Sinica</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000893e215a1310">
+               
+               <mixed-citation id="d2000893e219" publication-type="journal">
+Chatterjee, S., Laudato, M., and Lynch, L.A. (1996), "Genetic Algorithms and Their Statistical Applications; An
+Introduction, Computational Statistics and Data Analysis, 22, 633-651.<person-group>
+                     <string-name>
+                     <surname>Chatterjee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>633</fpage>
+               <volume>22</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000893e251a1310">
+               
+               <mixed-citation id="d2000893e255" publication-type="journal">
+Holland, J.H. (1992), "Genetic Algorithms," Scientific American, July, 66-72.<person-group>
+                     <string-name>
+                     <surname>Holland</surname>
+                  </string-name>
+                  </person-group>
+               <issue>July</issue>
+               <fpage>66</fpage>
+               <source>Scientific American</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000893e285a1310">
+               
+               <mixed-citation id="d2000893e289" publication-type="book">
+Lawrence, K.D., and Arthur, J.L. (1990), Robust Regression, New York: Marcel Dekker, Inc.<person-group>
+                     <string-name>
+                     <surname>Lawrence</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000893e311a1310">
+               
+               <mixed-citation id="d2000893e315" publication-type="book">
+Press, W., Teukolsky, S., Vetterling, W., and Flannery, B. (1992), Numerical Recipes in Fortran 77, Second Edition:
+The Art of Scientific Computing, Cambridge: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Numerical Recipes in Fortran 77</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

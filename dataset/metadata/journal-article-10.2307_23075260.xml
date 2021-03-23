@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">276</issue>
+         <issue-id>i23074956</issue-id>
+         <article-id pub-id-type="jstor">23075260</article-id>
+         <title-group>
+            <article-title>ANALYSIS OF FULLY-MIXED FINITE ELEMENT METHODS FOR THE STOKES-DARCY COUPLED PROBLEM</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>GABRIEL N.</given-names>
+                  <surname>GATICA</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>RICARDO</given-names>
+                  <surname>OYARZÚA</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>FRANCISCO-JAVIER</given-names>
+                  <surname>SAYAS</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>1911</fpage>
+         <lpage>1948</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075260"/>
+      
+      
+         <abstract>
+            <p>In this paper we analyze fully-mixed finite element methods for the coupling of fluid flow with porous media flow in 2D. Flows are governed by the Stokes and Darcy equations, respectively, and the corresponding transmission conditions are given by mass conservation, balance of normal forces, and the Beavers-Joseph-Saffman law. The fully-mixed concept employed here refers to the fact that we consider dual-mixed formulations in both media, which means that the main unknowns are given by the pseudostress and the velocity in the fluid, together with the velocity and the pressure in the porous medium. In addition, the transmission conditions become essential, which leads to the introduction of the traces of the porous media pressure and the fluid velocity as the associated Lagrange multipliers. We apply the Fredholm and Babuška-Brezzi theories to derive sufficient conditions for the unique solvability of the resulting continuous and discrete formulations. In particular, we show that the existence of uniformly bounded discrete liftings of the normal traces simplifies the derivation of the corresponding stability estimates. A feasible choice of subspaces is given by Raviart-Thomas elements of lowest order and piecewise constants for the velocities and pressures, respectively, in both domains, together with continuous piecewise linear elements for the Lagrange multipliers. Finally, several numerical results illustrating the good performance of the method with these discrete spaces, and confirming the theoretical rate of convergence, are provided.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d80947e319a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d80947e326" publication-type="other">
+A. Agouzal and J.-M. Thomas, An extension theorem for equilibrium finite elements spaces.
+Japan Journal of Industrial and Applied Mathematics, vol. 13, 2, pp. 257-266, (1996).
+MR1394627 (97g:65220)</mixed-citation>
+        </ref>
+        <ref id="d80947e339a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d80947e346" publication-type="other">
+T. Arbogast and D.S. Brunson, A computational method for approximating a Darcy-Stokes
+system governing a vuggy porous medium. Computational Geosciences, vol. 11, 3, pp. 207-218,
+(2007). MR2344200 (2009b:76155)</mixed-citation>
+        </ref>
+        <ref id="d80947e359a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d80947e366" publication-type="other">
+D.N. Arnold, J. Douglas and Ch.P. Gupta, A family of higher order mixed finite element
+methods for plane elasticity. Numerische Mathematik, vol. 45, 1, pp. 1-22, (1984). MR761879
+(86a:65112)</mixed-citation>
+        </ref>
+        <ref id="d80947e379a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d80947e386" publication-type="other">
+I. Babuska AND A.K. Aziz, Survey lectures on the mathematical foundations of the finite
+element method. In: The Mathematical Foundations of the Finite Element Method with
+Applications to Partial Differential Equations, A.K. Aziz (editor), Academic Press, New York,
+(1972). MR0421106 (54:9111)</mixed-citation>
+        </ref>
+        <ref id="d80947e403a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d80947e410" publication-type="other">
+I. Babuska and G.N. Gatica, On the mixed finite element method with Lagrange multipli-
+ers. Numerical Methods for Partial Differential Equations, vol. 19, 2, pp. 192-210, (2003).
+MR1958060 (2004b:65174)</mixed-citation>
+        </ref>
+        <ref id="d80947e423a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d80947e430" publication-type="other">
+G. Beavers AND D. Joseph, Boundary conditions at a naturally impermeable wall. Journal
+of Fluid Mechanics, vol. 30, pp. 197-207, (1967).</mixed-citation>
+        </ref>
+        <ref id="d80947e440a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d80947e447" publication-type="other">
+C. Bernardi, F. Hecht, and O. Pironneau, Coupling Darcy and Stokes equations for porous
+media with cracks. ESAIM: Mathematical Modelling and Numerical Analysis, vol. 39, 1, pp.
+7-35, (2005). MR2136198 (2006a:76107)</mixed-citation>
+        </ref>
+        <ref id="d80947e460a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d80947e467" publication-type="other">
+F. Brezzi and M. Fortin, Mixed and Hybrid Finite Element Methods. Springer Series in
+Computational Mathematics, 15. Springer-Verlag, New York, 1991. MR1115205 (92d:65187)</mixed-citation>
+        </ref>
+        <ref id="d80947e477a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d80947e484" publication-type="other">
+E. Burman and P. Hansbo, Stabilized Crouzeix-Raviart elements for the Darcy-Stokes prob-
+lem. Numerical Methods for Partial Differential Equations, vol. 21, 5, pp. 986-997, (2005).
+MR2154230 (2006i:65190)</mixed-citation>
+        </ref>
+        <ref id="d80947e497a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d80947e504" publication-type="other">
+E. Burman and P. Hansbo, A unified stabilized method for Stokes' and Darcy's equa-
+tions. Journal of Computational and Applied Mathematics, vol. 198, 1, pp. 35-51, (2007).
+MR2250387 (2007i:65076)</mixed-citation>
+        </ref>
+        <ref id="d80947e518a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d80947e525" publication-type="other">
+M.R. Correa, Stabilized Finite Element Methods for Darcy and Coupled Stokes-Darcy Flows.
+D.Sc. Thesis, LNCC, Petropolis, Rio de Janeiro, Brasil (in Portuguese), (2006).</mixed-citation>
+        </ref>
+        <ref id="d80947e535a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d80947e542" publication-type="other">
+M.R. CORREA and A.F.D. Loula, A unified mixed formulation naturally coupling Stokes and
+Darcy flows. Computer Methods in Applied Mechanics and Engineering, vol. 198, 33-36, pp.
+2710-2722, (2009).</mixed-citation>
+        </ref>
+        <ref id="d80947e555a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d80947e562" publication-type="other">
+M. DlSCACClATI, Domain Decomposition Methods for the Coupling of Surface and Ground-
+water Flows. Ph.D. Thesis, Ecole Polytechnique Federale de Lausanne, 2004.</mixed-citation>
+        </ref>
+        <ref id="d80947e572a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d80947e579" publication-type="other">
+M. DlSCACClATI, E. Miglio, and A. Quarteroni, Mathematical and numerical models for
+coupling surface and groundwater flows. Applied Numerical Mathematics, vol. 43, pp. 57-74,
+(2002). MR1936102 (2003h:76087)</mixed-citation>
+        </ref>
+        <ref id="d80947e592a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d80947e599" publication-type="other">
+V. Dominguez and F.-J. Sayas, Stability of discrete liftings. Comptes Rendus Mathematique.
+Academie des Sciences. Paris, vol. 337, 12, pp. 805-808, (2003). MR2033124</mixed-citation>
+        </ref>
+        <ref id="d80947e609a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d80947e616" publication-type="other">
+V.J. Ervin, E.W. JENKINS, AND S. Sun, Coupled generalized nonlinear Stokes flow with flow
+through a porous medium. SIAM Journal on Numerical Analysis, vol. 47, 2, pp. 929-952,
+(2009). MR2485439 (2010b:65254)</mixed-citation>
+        </ref>
+        <ref id="d80947e630a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d80947e637" publication-type="other">
+A. Friedman, Foundations of Modern Analysis. Holt, Rinehart and Winston, Inc., New York-
+Montreal, Que.-London, 1970. MR0275100 (43:858)</mixed-citation>
+        </ref>
+        <ref id="d80947e647a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d80947e654" publication-type="other">
+J. Galvis AND M. Sarkis, Non-matching mortar discretization analysis for the coupling
+Stokes-Darcy equations. Electronic Transactions on Numerical Analysis, vol. 26, pp. 350-384,
+(2007). MR2391227 (2009a:76120)</mixed-citation>
+        </ref>
+        <ref id="d80947e667a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d80947e674" publication-type="other">
+G.N. Gatica, N. Heuer, and S. Meddahi, On the numerical analysis of nonlinear twofold
+saddle point problems. IMA Journal of Numerical Analysis, vol. 23, 2, pp. 301-330, (2003).
+MR1975268 (2004b:65183)</mixed-citation>
+        </ref>
+        <ref id="d80947e687a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d80947e694" publication-type="other">
+G.N. Gatica, S. Meddahi, and R. Oyarzua, A conforming mixed finite-element method for
+the coupling of fluid flow with porous media flow. IMA Journal of Numerical Analysis, vol.
+29, 1, pp. 86-108, (2009). MR2470941 (2010b:76118)</mixed-citation>
+        </ref>
+        <ref id="d80947e707a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d80947e714" publication-type="other">
+G.N. Gatica, R. Oyarzua, and F.-J. Sayas, Convergence of a family of Galerkin discretiza-
+tions for the Stokes-Darcy coupled problem. Numerical Methods for Partial Differential Equa-
+tions DOI 10.1002/num.</mixed-citation>
+        </ref>
+        <ref id="d80947e727a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d80947e734" publication-type="other">
+G.N. Gatica and F.-J. Sayas, Characterizing the inf-sup condition on product spaces. Nu-
+merische Mathematik, vol. 109, 2, pp. 209-231, (2008). MR2385652 (2009g:47034)</mixed-citation>
+        </ref>
+        <ref id="d80947e745a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d80947e752" publication-type="other">
+V. Girault and P.-A. Raviart, Finite Element Approximation of the Navier-Stokes Equa-
+tions. Lecture Notes in Mathematics, 749. Springer-Verlag, Berlin-New York, 1979. MR548867
+(83b:65122)</mixed-citation>
+        </ref>
+        <ref id="d80947e765a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d80947e772" publication-type="other">
+P. Grisvard, Singularities in Boundary Value Problems. Recherches en Mathematiques Ap-
+pliquees, 22. Masson, Paris; Springer-Verlag, Berlin, 1992. MR1173209 (93h:35004)</mixed-citation>
+        </ref>
+        <ref id="d80947e782a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d80947e789" publication-type="other">
+R. Hiptmair, Finite elements in computational electromagnetism. Acta Numerica, vol. 11,
+pp. 237-339, (2002). MR2009375 (2004k:78028)</mixed-citation>
+        </ref>
+        <ref id="d80947e799a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d80947e806" publication-type="other">
+W. Jager and M. Mikelic, On the interface boundary condition of Beavers, Joseph, and
+Saffman. SIAM Journal on Applied Mathematics, vol. 60, pp. 1111-1127, (2000). MR1760028
+(2001e:76122)</mixed-citation>
+        </ref>
+        <ref id="d80947e819a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d80947e826" publication-type="other">
+T. Karper, K.-A. Mardal, and R. Winther, Unified finite element discretizations of cou-
+pled Darcy-Stokes flow. Numerical Methods for Partial Differential Equations, vol. 25, 2, pp.
+311-326, (2009). MR2483769 (2010a:65240)</mixed-citation>
+        </ref>
+        <ref id="d80947e839a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d80947e846" publication-type="other">
+W.J. Layton, F. Schieweck, and I. Yotov, Coupling fluid flow with porous media flow.
+SIAM Journal on Numerical Analysis, vol. 40, 6, pp. 2195-2218, (2003). MR1974181
+(2004c: 76048)</mixed-citation>
+        </ref>
+        <ref id="d80947e860a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d80947e867" publication-type="other">
+A. MASUD, A stabilized mixed finite element method for Darcy-Stokes flow. International
+Journal for Numerical Methods in Fluids, vol. 54, 6-8, pp. 665-681, (2008). MR2333004
+(2008b:76120)</mixed-citation>
+        </ref>
+        <ref id="d80947e880a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d80947e887" publication-type="other">
+W. McLean, Strongly Elliptic Systems and Boundary Integral Equations. Cambridge Uni-
+versity Press, 2000. MR1742312 (2001a:35051)</mixed-citation>
+        </ref>
+        <ref id="d80947e897a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d80947e904" publication-type="other">
+A. Quarteroni and A. Valli, Numerical Approximation of Partial Differential Equations.
+Springer Series in Computational Mathematics, 23. Springer-Verlag, Berlin, Heidelberg, 1994.
+MR1299729 (95i:65005)</mixed-citation>
+        </ref>
+        <ref id="d80947e917a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d80947e924" publication-type="other">
+M.L. RAPUN and F.-J. Sayas, Boundary integral approximation of a heat-diffusion problem
+in time-harmonic regime. Numerical Algorithms, vol. 41, 2, pp. 127-160, (2006). MR2222969
+(2007c:65114)</mixed-citation>
+        </ref>
+        <ref id="d80947e937a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d80947e944" publication-type="other">
+B. Riviere, Analysis of a discontinuous finite element method for coupled Stokes and Darcy
+problems. Journal of Scientific Computing, vol. 22-23, pp. 479-500, (2005). MR2142206
+(2006b:65175)</mixed-citation>
+        </ref>
+        <ref id="d80947e957a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d80947e964" publication-type="other">
+B. Riviere and I. Yotov, Locally conservative coupling of Stokes and Darcy flows. SIAM
+Journal on Numerical Analysis, vol. 42, 5, pp. 1959-1977, (2005). MR2139232 (2006a:76035)</mixed-citation>
+        </ref>
+        <ref id="d80947e975a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d80947e982" publication-type="other">
+H. Rui and R. Zhang, A unified stabilized mixed finite element method for coupling Stokes
+and Darcy flows. Computer Methods in Applied Mechanics and Engineering, vol. 198, 33-36,
+pp. 2692-2699, (2009). MR2532369 (2010g:76045)</mixed-citation>
+        </ref>
+        <ref id="d80947e995a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d80947e1002" publication-type="other">
+P. Saffman, On the boundary condition at the surface of a porous media. Studies in Applied
+Mathematics, vol. 50, pp. 93-101, (1971).</mixed-citation>
+        </ref>
+        <ref id="d80947e1012a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d80947e1019" publication-type="other">
+J.M. Urquiza, D. N'Dri, A. Garon, and M.C. Delfour, Coupling Stokes and Darcy
+equations. Applied Numerical Mathematics, vol. 58, 5, pp. 525-538, (2008). MR2407730
+(2009a:76053)</mixed-citation>
+        </ref>
+        <ref id="d80947e1032a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d80947e1039" publication-type="other">
+X. Xie, J. Xu, AND G. XuE, Uniformly stable finite element methods for Darcy-Stokes-
+Brinkman models. Journal of Computational Mathematics, vol. 26, 3, pp. 437-455, (2008).
+MR2421892 (2009g:76087)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

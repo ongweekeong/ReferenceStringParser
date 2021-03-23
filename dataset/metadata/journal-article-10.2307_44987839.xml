@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">31</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40211882</issue-id>
+         <article-id pub-id-type="jstor">44987839</article-id>
+         <title-group>
+            <article-title>A novel and robust approach for pro-drop language translation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Longyue</given-names>
+                  <surname>Wang</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Zhaopeng</given-names>
+                  <surname>Tu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Xiaojun</given-names>
+                  <surname>Zhang</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Siyou</given-names>
+                  <surname>Liu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hang</given-names>
+                  <surname>Li</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Andy</given-names>
+                  <surname>Way</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Qun</given-names>
+                  <surname>Liu</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2017</year>
+         </pub-date>
+         <fpage>65</fpage>
+         <lpage>87</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media 2017</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44987839"/>
+      
+      
+         <abstract>
+            <p>A significant challenge for machine translation (MT) is the phenomena of dropped pronouns (DPs), where certain classes of pronouns are frequently dropped in the source language but should be retained in the target language. In response to this common problem, we propose a semi-supervised approach with a universal frame-work to recall missing pronouns in translation. Firstly, we build training data for DP generation in which the DPs are automatically labelled according to the alignment information from a parallel corpus. Secondly, we build a deep learning-based DP generator for input sentences in decoding when no corresponding references exist. More specifically, the generation has two phases: (1) DP position detection, which is modeled as a sequential labelling task with recurrent neural networks; and (2) DP prediction, which employs a multilayer perception with rich features. Finally, we integrate the above outputs into our statistical MT (SMT) system to recall missing pronouns by both extracting rules from the DP-labelled training data and translating the DP-generated input sentences. To validate the robustness of our approach, we investigate our approach on both Chinese-English and Japanese-English corpora extracted from movie subtitles. Compared with an SMT baseline system, experimental results show that our approach achieves a significant improvement of +1.58 BLEU points in translation performance with 66% F-score for DP generation accuracy for Chinese-English, and nearly +1 BLEU point with 58% F-score for Japanese-English. We believe that this work could help both MT researchers and industries to boost the performance of MT systems between pro-drop and non-pro-drop languages.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d3468e327a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d3468e334" publication-type="other">
+Available at http://www.opensubtitles.org and http://weisheshou.com.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3468e341a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d3468e348" publication-type="other">
+We use part of Japanese-English data, which is available at http://opus.lingfil.uu.se/OpenSubtitles2016.
+php.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3468e358a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d3468e365" publication-type="other">
+Available at http://www.sogou.com/labs/dl/ca.html.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3468e372a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d3468e379" publication-type="other">
+KFTT (http://www.phontron.com/kftt),</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3468e385" publication-type="other">
+NTCIR
+(http://warehouse.ntcir.nii.ac.jp/openaccess/rite/10RITE-Japanese-wiki.html)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3468e394" publication-type="other">
+Wikipedia XML Corpus
+(http://www-connex.lip6.fr/~denoyer/wikipediaXML).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3468e405a1310">
+            <label>7</label>
+          
+            <p>
+               <mixed-citation id="d3468e412" publication-type="other">
+Zhang et al. 2014</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3468e418" publication-type="other">
+Lison and Tiedemann 2016</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3468e434a1310">
+          
+            <mixed-citation id="d3468e438" publication-type="other">
+Axelrod A, He X, Gao J (2011) Domain adaptation via pseudo in-domain data selection. In: Proceedings of
+the 2011 conference on empirical methods in natural language processing, Edinburgh, Scotland, UK,
+pp 355-362</mixed-citation>
+        </ref>
+        <ref id="d3468e451a1310">
+          
+            <mixed-citation id="d3468e455" publication-type="other">
+Becher V (2011) Explicitation and implicitation in translation. PhD thesis, Universität Hamburg</mixed-citation>
+        </ref>
+        <ref id="d3468e462a1310">
+          
+            <mixed-citation id="d3468e466" publication-type="other">
+Bergstra J, Breuleux O, Bastien F, Lamblin P, Pascanu R, Desjardins G, Turian J, Warde-Farley D, Bengio
+Y (2010) Theano: a CPU and GPU math expression compiler in python. In: Proceedings of python
+for scientific computing conference (SciPy), Austin, Texas, USA, pp 3-10</mixed-citation>
+        </ref>
+        <ref id="d3468e479a1310">
+          
+            <mixed-citation id="d3468e483" publication-type="other">
+Burkett D, Petrov S, Blitzer J, Klein D (2010) Learning better monolingual models with unannotated
+bilingual text. In: Proceedings of the fourteenth conference on computational natural language learning,
+Uppsala, Sweden, pp 46-54</mixed-citation>
+        </ref>
+        <ref id="d3468e497a1310">
+          
+            <mixed-citation id="d3468e501" publication-type="other">
+Cai S, Chiang D, Goldberg Y (2011) Language-independent parsing with empty elements. In: Proceedings of
+the 49th annual meeting of the association for computational linguistics: human language technologies:
+short papers, vol 2, Portland, Oregon, pp 212-216</mixed-citation>
+        </ref>
+        <ref id="d3468e514a1310">
+          
+            <mixed-citation id="d3468e518" publication-type="other">
+Chen C, Ng V (2013) Chinese zero pronoun resolution: some recent advances. In: Proceedings of the
+2013 conference on empirical methods in natural language processing, Seattle, Washington, USA, pp
+1360-1365</mixed-citation>
+        </ref>
+        <ref id="d3468e531a1310">
+          
+            <mixed-citation id="d3468e535" publication-type="other">
+Chung T, Gildea D (2010) Effects of empty categories on machine translation. In: Proceedings of the 2010
+conference on empirical methods in natural language processing, Cambridge, Massachusetts, USA,
+pp 636-645</mixed-citation>
+        </ref>
+        <ref id="d3468e548a1310">
+          
+            <mixed-citation id="d3468e552" publication-type="other">
+Dagan I, Itai A, Schwall U (1991) Two languages are more informative than one. In: Proceedings of the 29th
+annual meeting on association for computational linguistics, Berkeley, California, USA, pp 130-137</mixed-citation>
+        </ref>
+        <ref id="d3468e562a1310">
+          
+            <mixed-citation id="d3468e566" publication-type="other">
+Haspelmath M (2001) The European linguistic area: standard average European. In: Language typology and
+language universais (Handbücher zur Sprach-und Kommunikationswissenschaft), vol 2, de Gruyter,
+Berlin, pp 1492-1510</mixed-citation>
+        </ref>
+        <ref id="d3468e579a1310">
+          
+            <mixed-citation id="d3468e583" publication-type="other">
+Huang CTJ (1984) On the distribution and reference of empty pronouns. Linguist Inq 15(4):53 1-574</mixed-citation>
+        </ref>
+        <ref id="d3468e591a1310">
+          
+            <mixed-citation id="d3468e595" publication-type="other">
+Huang F, Vogel S (2002) Improved named entity translation and bilingual named entity extraction. In:
+Proceedings of fourth IEEE international conference on multimodal interfaces (ICMI), Pittsburgh,
+PA, USA, pp 253-258</mixed-citation>
+        </ref>
+        <ref id="d3468e608a1310">
+          
+            <mixed-citation id="d3468e612" publication-type="other">
+Hwa R, Resnik P, Weinberg A, Cabezas C, Kolak O (2005) Bootstrapping parsers via syntactic projection
+across parallel texts. Nat Lang Eng 11(3):311-325</mixed-citation>
+        </ref>
+        <ref id="d3468e622a1310">
+          
+            <mixed-citation id="d3468e626" publication-type="other">
+Koehn P, Schroeder J (2007) Experiments m domain adaptation for statistical machine translation. In:
+Proceedings of the 2nd workshop on statistical machine translation, Prague, Czech Republic, pp 224-
+227</mixed-citation>
+        </ref>
+        <ref id="d3468e639a1310">
+          
+            <mixed-citation id="d3468e643" publication-type="other">
+Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, Bertoldi N, Cowan B, Shen W, Moran C,
+Zens R, Dyer C, Bojar O, Constantin A, Herbst E (2007) Moses: open source toolkit for statistical
+machine translation. In: Proceedings of the 45th annual meeting of the association for computational
+linguistics companion volume proceedings of the demo and poster sessions, Prague, Czech Republic,
+pp 177-180</mixed-citation>
+        </ref>
+        <ref id="d3468e662a1310">
+          
+            <mixed-citation id="d3468e666" publication-type="other">
+Kong F, Zhou G (2010) A tree kernel-based unified framework for Chinese zero anaphora resolution. In:
+Proceedings of the 2010 conference on empirical methods in natural language processing, Cambridge,
+Massachusetts, USA, pp 882-891</mixed-citation>
+        </ref>
+        <ref id="d3468e679a1310">
+          
+            <mixed-citation id="d3468e683" publication-type="other">
+Kuzman Ganchev JG, Taskar B (2009) Dependency grammar induction via bitext projection constraints. In:
+Proceedings of the joint conference of the 47th annual meeting of the ACL and the 4th international
+joint conference on natural language processing of the AFNLP, Singapore, pp 369-377</mixed-citation>
+        </ref>
+        <ref id="d3468e697a1310">
+          
+            <mixed-citation id="d3468e701" publication-type="other">
+Le Nagard R, Koehn P (2010) Aiding pronoun translation with co-reference resolution. In: Proceedings
+of the joint 5th workshop on statistical machine translation and MetricsMATR, Uppsala, Sweden, pp
+252-261</mixed-citation>
+        </ref>
+        <ref id="d3468e714a1310">
+          
+            <mixed-citation id="d3468e718" publication-type="other">
+Li CN, Thompson SA (1989) Mandarin Chinese: a functional reference grammar. University of California
+Press, Oakland</mixed-citation>
+        </ref>
+        <ref id="d3468e728a1310">
+          
+            <mixed-citation id="d3468e732" publication-type="other">
+Lison P, Tiedemann J (2016) Opensubtitles2016: Extracting large parallel corpora from movie and TV
+subtitles. In: Proceedings of the 10th international conference on language resources and evaluation,
+Portorož, Slovenia</mixed-citation>
+        </ref>
+        <ref id="d3468e745a1310">
+          
+            <mixed-citation id="d3468e749" publication-type="other">
+Liu Q, Tu Z, Lin S (2013) A novel graph-based compact representation of word alignment. In: Proceed-
+ings of the 51st annual meeting of the association for computational linguistics (volume 2: short
+papers), Association for Computational Linguistics, Sofia, Bulgaria, pp 358-363. http://www.aclweb.
+org/anthology/P13-2064</mixed-citation>
+        </ref>
+        <ref id="d3468e765a1310">
+          
+            <mixed-citation id="d3468e769" publication-type="other">
+Liu Y, Xia T, Xiao X, Liu Q (2009) Weighted alignment matrices for statistical machine translation. In:
+Proceedings of the 2009 conference on empirical methods in natural language processing: volume
+2-volume 2, Singapore, pp 1017-1026</mixed-citation>
+        </ref>
+        <ref id="d3468e782a1310">
+          
+            <mixed-citation id="d3468e786" publication-type="other">
+Mesnil G, He X, Deng L, Bengio Y (2013) Investigation of recurrent-neural-network architectures and
+learning methods for spoken language understanding. In: Proceedings of the 14th annual conference
+of the international speech communication association, Lyon, France, pp 3771-3775</mixed-citation>
+        </ref>
+        <ref id="d3468e800a1310">
+          
+            <mixed-citation id="d3468e804" publication-type="other">
+Mikolov T, Sutskever I, Chen K, Corrado GS, Dean J (2013) Distributed representations of words and
+phrases and their compositionality. In: Proceedings of the 27th annual conference on neural information
+processing systems, Lake Tahoe, Nevada, USA, pp 3111-3119</mixed-citation>
+        </ref>
+        <ref id="d3468e817a1310">
+          
+            <mixed-citation id="d3468e821" publication-type="other">
+Moore R (2003) Learning translations of name-entity phrases from parallel corpora. In: Proceedings of
+meeting of the European chapter of the Association of Computational Linguistics (EACL), Budapest,
+Hungary, pp 253-258</mixed-citation>
+        </ref>
+        <ref id="d3468e834a1310">
+          
+            <mixed-citation id="d3468e838" publication-type="other">
+Nakamura M (1987) Japanese as a pro language. Linguist Rev 6:281-296</mixed-citation>
+        </ref>
+        <ref id="d3468e845a1310">
+          
+            <mixed-citation id="d3468e849" publication-type="other">
+Novak M, Zabokrtsky Z (2014) Cross-lingual coreference resolution of pronouns. In: Proceedings of the
+25th international conference on computational linguistics, Dublin, Ireland, pp 14-24</mixed-citation>
+        </ref>
+        <ref id="d3468e859a1310">
+          
+            <mixed-citation id="d3468e863" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: Proceedings of the 41st
+annual meeting on association for computational linguistics, vol 1, Sapporo, Japan, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d3468e873a1310">
+          
+            <mixed-citation id="d3468e877" publication-type="other">
+Och FJ, Ney H (2003) A systematic comparison of various statistical alignment models. Comput Linguist
+29(1): 19-51</mixed-citation>
+        </ref>
+        <ref id="d3468e888a1310">
+          
+            <mixed-citation id="d3468e892" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W J (2002) Bleu: a method for automatic evaluation of machine
+translation. In: Proceedings of the 40th annual meeting on association for computational linguistics,
+Philadelphia, Pennsylvania, USA, pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d3468e905a1310">
+          
+            <mixed-citation id="d3468e909" publication-type="other">
+Pradhan S, Moschitti A, Xue N, UryupinaO, Zhang Y (2012) CoNLL-2012 shared task: modeling multilin-
+gual unrestricted coreference in ontonotes. In: Proceedings of the 15th conference on computational
+natural language learning: shared task, Jeju Island, Korea, pp 1-27</mixed-citation>
+        </ref>
+        <ref id="d3468e922a1310">
+          
+            <mixed-citation id="d3468e926" publication-type="other">
+Quirk R, Greebaum S, Leech G, Svartvik J (1985) A comprehensive grammar of the English language, vol
+9. Longman, New York</mixed-citation>
+        </ref>
+        <ref id="d3468e936a1310">
+          
+            <mixed-citation id="d3468e940" publication-type="other">
+Raymond C, Riccardi G (2007) Generative and discriminative algorithms for spoken language understand-
+ing. In: Proceedings of 8th annual conference of the international speech communication association,
+Antwerp, Belgium, pp 1605-1608</mixed-citation>
+        </ref>
+        <ref id="d3468e953a1310">
+          
+            <mixed-citation id="d3468e957" publication-type="other">
+Rosti AVI, Ayan NF, Xiang B, Matsoukas S, Schwartz RM, Dorr BJ (2007) Combining outputs from
+multiple machine translation systems. In: Proceedings of the human language technology and the 6th
+meeting of the North American chapter of the Association for Computational Linguistics, Rochester,
+NY, USA, pp 228-235</mixed-citation>
+        </ref>
+        <ref id="d3468e973a1310">
+          
+            <mixed-citation id="d3468e977" publication-type="other">
+Si L, Callan J (2005) Clef 2005: multilingual retrieval by combining multiple multilingual ranked lists. In:
+Proceedings of accessing multilingual information repositories, Austria, Vienna, pp 121-130</mixed-citation>
+        </ref>
+        <ref id="d3468e988a1310">
+          
+            <mixed-citation id="d3468e992" publication-type="other">
+Snyder B, Naseem T, Barzilay R (2009) Unsupervised multilingual grammar induction. In: Proceedings of
+the joint conference of the 47th annual meeting of the ACL and the 4th international joint conference
+on natural language processing of the AFNLP: volume 1 -volume 1, Singapore, pp 73-81</mixed-citation>
+        </ref>
+        <ref id="d3468e1005a1310">
+          
+            <mixed-citation id="d3468e1009" publication-type="other">
+Stolcke A (2002) Srilm -an extensible language modeling toolkit. In: Proceedings of the 7th international
+conference on spoken language processing, Colorado, USA, pp 901-904</mixed-citation>
+        </ref>
+        <ref id="d3468e1019a1310">
+          
+            <mixed-citation id="d3468e1023" publication-type="other">
+Taira H, Sudoh K, Nagata M (2012) Zero pronoun resolution can improve the quality of J-E translation.
+In: Proceedings of the 6th workshop on syntax, semantics and structure in statistical translation, Jeju,
+Republic of Korea, pp 111-118</mixed-citation>
+        </ref>
+        <ref id="d3468e1036a1310">
+          
+            <mixed-citation id="d3468e1040" publication-type="other">
+Tu Z, Liu Y, Hwang YS, Liu Q, Lin S (2010) Dependency forest for statistical machine translation. In:
+Proceedings of the 23rd international conference on computational linguistics. Beijing, China, pp
+1092-1100</mixed-citation>
+        </ref>
+        <ref id="d3468e1053a1310">
+          
+            <mixed-citation id="d3468e1057" publication-type="other">
+Tu Z, Liu Y, Liu Q, Lin S (2011) Extracting hierarchical rules from a weighted alignment matrix. In:
+Proceedings of the 5th international joint conference on natural language processing, Chiang Mai,
+Thailand, pp 1294-1303</mixed-citation>
+        </ref>
+        <ref id="d3468e1070a1310">
+          
+            <mixed-citation id="d3468e1074" publication-type="other">
+Tu Z, Liu Y, He Y, van Genabith J, Liu Q, Lin S (2012) Combining multiple alignments to improve machine
+translation. In: Proceedings of the 24rd international conference on computational linguistics, Mumbai,
+India, pp 1249-1260</mixed-citation>
+        </ref>
+        <ref id="d3468e1088a1310">
+          
+            <mixed-citation id="d3468e1092" publication-type="other">
+Wang L, Tu Z, Zhang X, Li H, Way A, Liu Q (2016a) A novel approach for dropped pronoun transla-
+tion. In: Proceedings of the 2016 conference of the North American chapter of the Association for
+Computational Linguistics: human language technologies, San Diego, California, USA, pp 983-993</mixed-citation>
+        </ref>
+        <ref id="d3468e1105a1310">
+          
+            <mixed-citation id="d3468e1109" publication-type="other">
+Wang L, Zhang X, Tu Z, Li H, Liu Q (201 6b) Dropped pronoun generation for dialogue machine translation.
+In: Proceedings of the IEEE international conference of acoustics, speech and signal processing,
+Shanghai, China, pp 6110-6114</mixed-citation>
+        </ref>
+        <ref id="d3468e1122a1310">
+          
+            <mixed-citation id="d3468e1126" publication-type="other">
+Wang L, Zhang X, Tu Z, Way A, Liu Q (2016c) Automatic construction of discourse corpus for dia-
+logue translation. In: Proceedings of the 10th language resources and evaluation conference, Portorož,
+Slovenia, pp 2748-2754</mixed-citation>
+        </ref>
+        <ref id="d3468e1139a1310">
+          
+            <mixed-citation id="d3468e1143" publication-type="other">
+Wang M, Manning DC (2014) Cross-lingual projected expectation regularization for weakly supervised
+learning. Trans Assoc Comput Linguist 2:55-66</mixed-citation>
+        </ref>
+        <ref id="d3468e1153a1310">
+          
+            <mixed-citation id="d3468e1157" publication-type="other">
+Xiang B, Luo X, Zhou B (2013) Enlisting the ghost: modeling empty categories for machine translation.
+In: Proceedings of the 51st annual meeting of the association for computational linguistics (volume
+1: long papers), Sofia, Bulgaria, pp 822-831</mixed-citation>
+        </ref>
+        <ref id="d3468e1170a1310">
+          
+            <mixed-citation id="d3468e1174" publication-type="other">
+Xu J, Deng Y, Gao Y, Ney H (2007) Domain dependent statistical machine translation. In: Proceedings of
+the MT Summit XI, Denmark, Copenhagen, pp 515-520</mixed-citation>
+        </ref>
+        <ref id="d3468e1185a1310">
+          
+            <mixed-citation id="d3468e1189" publication-type="other">
+Xue N, Yang Y (2013) Dependency-based empty category detection via phrase structure trees. In: Pro-
+ceedings of the 2013 conference of the North American chapter of the Association for Computational
+Linguistics: human language technologies, Atlanta, Georgia, USA, pp 1051-1060</mixed-citation>
+        </ref>
+        <ref id="d3468e1202a1310">
+          
+            <mixed-citation id="d3468e1206" publication-type="other">
+Xue N, Xia F, Chiou FD, Palmer M (2005) The Penn Chinese Treebank: phrase structure annotation of a
+large corpus. Nat Lang Eng 1 1(02):207-238</mixed-citation>
+        </ref>
+        <ref id="d3468e1216a1310">
+          
+            <mixed-citation id="d3468e1220" publication-type="other">
+Yang Y, Xue N (2010) Chasing the ghost: recovering empty categories in the Chinese treebank. In: Pro-
+ceedings of the 23rd international conference on computational linguistics: posters, Beijing, China,
+pp 1382-1390</mixed-citation>
+        </ref>
+        <ref id="d3468e1233a1310">
+          
+            <mixed-citation id="d3468e1237" publication-type="other">
+Yang Y, Liu Y, Xu N (2015) Recovering dropped pronouns from Chinese text messages. iN: Proceedings
+of the 53rd annual meeting of the Association for Computational Linguistics and the 7th international
+joint conference on natural language processing (volume 2: short papers), Beijing, China, pp 309-313</mixed-citation>
+        </ref>
+        <ref id="d3468e1250a1310">
+          
+            <mixed-citation id="d3468e1254" publication-type="other">
+Yarowsky D, Ngai G (2001) Inducing multilingual POS taggers and NP bracketers via robust projection
+across aligned corpora. In: Proceedings of the 2nd meeting of the North American chapter of the
+Association for Computational Linguistics on Language technologies (NAACL), Pittsburgh, PA, USA,
+ppl-8</mixed-citation>
+        </ref>
+        <ref id="d3468e1270a1310">
+          
+            <mixed-citation id="d3468e1274" publication-type="other">
+Zhang S, Ling W, Dyer C (2014) Dual subtitles as parallel corpora. In: Proceedings of the 10th international
+conference on language resources and evaluation, Reykjavik, Iceland, pp 1869-1874</mixed-citation>
+        </ref>
+        <ref id="d3468e1285a1310">
+          
+            <mixed-citation id="d3468e1289" publication-type="other">
+Zhao S, Ng HT (2007) Identification and resolution of Chinese zero pronouns: a machine learning approach.
+In: Proceedings of the 2007 joint conference on empirical methods in natural language processing and
+computational natural language learning, Prague, Czech Republic, pp 541-550</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

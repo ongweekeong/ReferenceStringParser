@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260304</issue-id>
+         <article-id pub-id-type="jstor">1391183</article-id>
+         
+         <title-group>
+            <article-title>Automatic Smoothing with Wavelets for a Wide Class of Distributions</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sylvain</given-names>
+                  <surname>Sardy</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Anestis</given-names>
+                  <surname>Antoniadis</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul</given-names>
+                  <surname>Tseng</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>399</fpage>
+         <lpage>421</lpage>
+         <page-range>399-421</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391183"/>
+         
+         
+         <abstract>
+            <p>Wavelet-based denoising techniques are well suited to estimate spatially inhomogeneous signals. Waveshrink (Donoho and Johnstone) assumes independent Gaussian errors and equispaced sampling of the signal. Various articles have relaxed some of these assumptions, but a systematic generalization to distributions such as Poisson, binomial, or Bernoulli is missing. We consider a unifying l&lt;sub&gt;1&lt;/sub&gt;-penalized likelihood approach to regularize the maximum likelihood estimation by adding an l&lt;sub&gt;1&lt;/sub&gt; penalty of the wavelet coefficients. Our approach works for all types of wavelets and for a range of noise distributions. We develop both an algorithm to solve the estimation problem and rules to select the smoothing parameter automatically. In particular, using results from Poisson processes, we give an explicit formula for the universal smoothing parameter to denoise Poisson measurements. Simulations show that the procedure is an improvement over other methods. An astronomy example is given.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Convex programming</kwd>
+            <kwd>Interior point method</kwd>
+            <kwd>Karush-Kuhn-Tucker conditions</kwd>
+            <kwd>Penalized likelihood</kwd>
+            <kwd>Regularization</kwd>
+            <kwd>Signal denoising</kwd>
+            <kwd>Universal rule</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d432327e187a1310">
+               
+               <mixed-citation id="d432327e191" publication-type="book">
+Andersen, P.K., Borgan, 0., Gill, R. D., and Keiding, N. (1993), Statistical Models Based on Counting Processes,
+New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Andersen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Models Based on Counting Processes</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e216a1310">
+               
+               <mixed-citation id="d432327e220" publication-type="journal">
+Anscombe, F.J. (1948), "The Transformation of Poisson, Binomial and Negative-Binomial Data," Biometrika,
+35, 246-254.<object-id pub-id-type="doi">10.2307/2332343</object-id>
+               <fpage>246</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e236a1310">
+               
+               <mixed-citation id="d432327e240" publication-type="journal">
+Antoniadis, A., Besbeas, P., and Sapatinas, T. (2001), "Wavelet Shrinkage for Natural Exponential Families With
+Cubic Variance Functions," Sankhya: The Indian Journal of Statistics, Special Issue on Wavelets, 63, 1-19.<person-group>
+                     <string-name>
+                     <surname>Antoniadis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>63</volume>
+               <source>Sankhya: The Indian Journal of Statistics, Special Issue on Wavelets</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e272a1310">
+               
+               <mixed-citation id="d432327e276" publication-type="journal">
+Antoniadis, A., and Sapatinas, T. (2001), "Wavelet Shrinkage for Natural Exponential Families With Quadratic
+Variance Functions," Biometrika, 88, 805-820.<object-id pub-id-type="jstor">10.2307/2673448</object-id>
+               <fpage>805</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e293a1310">
+               
+               <mixed-citation id="d432327e297" publication-type="book">
+Averkamp, R., and Houdre, C. (1996), "Wavelet Thresholding for Non (necessarily) Gaussian Noise: A Preliminary
+Report," technical report, Georgia Institute of Technology, Atlanta.<person-group>
+                     <string-name>
+                     <surname>Averkamp</surname>
+                  </string-name>
+                  </person-group>
+               <source>Wavelet Thresholding for Non (necessarily) Gaussian Noise: A Preliminary Report</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e322a1310">
+               
+               <mixed-citation id="d432327e326" publication-type="journal">
+Barron, A., Birge, L., and Massart, P. (1999), "Risk Bounds for Model Selection via Penalization," Probability
+Theory and Related Fields, 113, 301-413.<person-group>
+                     <string-name>
+                     <surname>Barron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>301</fpage>
+               <volume>113</volume>
+               <source>Probability Theory and Related Fields</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e358a1310">
+               
+               <mixed-citation id="d432327e362" publication-type="journal">
+Bruce, A.G., and Gao, H.-Y. (1996), "Understanding WaveShrink: Variance and Bias Estimation," Biometrika,
+83, 727-745.<object-id pub-id-type="jstor">10.2307/2337279</object-id>
+               <fpage>727</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e378a1310">
+               
+               <mixed-citation id="d432327e382" publication-type="journal">
+Chen, S.S., Donoho, D.L., and Saunders, M.A. (1999), "Atomic Decomposition by Basis Pursuit," SIAM Journal
+on Scientific Computing, 20, 33-61.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>20</volume>
+               <source>SIAM Journal on Scientific Computing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e414a1310">
+               
+               <mixed-citation id="d432327e418" publication-type="book">
+Coifman, R.R., and Donoho, D.L. (1995), "Translation-Invariant De-noising," in Wavelets and Statistics, eds.
+A. Antoniadis and G. Oppenheim, New York: Springer-Verlag, pp. 125-150.<person-group>
+                     <string-name>
+                     <surname>Coifman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Translation-Invariant De-noising</comment>
+               <fpage>125</fpage>
+               <source>Wavelets and Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e450a1310">
+               
+               <mixed-citation id="d432327e454" publication-type="book">
+Daubechies, I. (1994), Ten Lectures on Wavelets, Philadelphia, PA: Society for Industrial and Applied Mathematics.<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ten Lectures on Wavelets</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e477a1310">
+               
+               <mixed-citation id="d432327e481" publication-type="journal">
+Donoho, D.L., and Johnstone, I.M. (1994), "Ideal Spatial Adaptation via Wavelet Shrinkage," Biometrika, 81,
+425-455.<object-id pub-id-type="doi">10.2307/2337118</object-id>
+               <fpage>425</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e497a1310">
+               
+               <mixed-citation id="d432327e501" publication-type="journal">
+(1995), "Adapting to Unknown Smoothness via Wavelet Shrinkage," Journal of the American Statistical
+Association, 90, 432, 1200-1224.<object-id pub-id-type="doi">10.2307/2291512</object-id>
+               <fpage>432</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e517a1310">
+               
+               <mixed-citation id="d432327e521" publication-type="journal">
+Donoho, D.L., Johnstone, I.M., Kerkyacharian, G., and Picard, D. (1995), "Wavelet Shrinkage: Asymptopia?"
+(with discussion), Journal of the Royal Statistical Sociey, Ser. B, 57, 301-369.<person-group>
+                     <string-name>
+                     <surname>Donoho</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>301</fpage>
+               <volume>57</volume>
+               <source>Journal of the Royal Statistical Sociey, Ser. B</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e553a1310">
+               
+               <mixed-citation id="d432327e557" publication-type="journal">
+Efron, B., Hastie, T., Johnstone, I., and Tibshirani, R. (2004), "Least Angle Regression" (with discussion), The
+Annals of Statistics, 32.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <volume>32</volume>
+               <source>The Annals of Statistics</source>
+               <year>2004</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e586a1310">
+               
+               <mixed-citation id="d432327e590" publication-type="journal">
+Fridman, J., and Manolakos, E.S. (1997), "Discrete Wavelet Transform: Data Dependence Analysis and Synthesis
+of Distributed Memory and Control Array Architectures," IEEE Transactions on Signal Processing, 45,
+1291-1308.<person-group>
+                     <string-name>
+                     <surname>Fridman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1291</fpage>
+               <volume>45</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e625a1310">
+               
+               <mixed-citation id="d432327e629" publication-type="book">
+Golub, G.H., and Van Loan, C.F. (1996), Matrix Computations, Baltimore, MD: Johns Hopkins University Press.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Computations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e652a1310">
+               
+               <mixed-citation id="d432327e656" publication-type="book">
+Green, P.J., and Silverman, B.W. (1994), Nonparametric Regression and Generalized Linear Models. A Roughness
+Penalty Approach, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Green</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonparametric Regression and Generalized Linear Models</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e681a1310">
+               
+               <mixed-citation id="d432327e685" publication-type="journal">
+Johnstone, I.M., and Silverman, B.W. (1997), "Wavelet Threshold Estimators for Data With Correlated Noise,"
+Journal of the Royal Statistical Sociey, Ser. B, 59, 319-351.<person-group>
+                     <string-name>
+                     <surname>Johnstone</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>319</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Sociey, Ser. B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e717a1310">
+               
+               <mixed-citation id="d432327e721" publication-type="journal">
+Kolaczyk, E.D. (1999a), "Wavelet Shrinkage Estimation of Certain Poisson Intensity Signals Using Corrected
+Thresholds," Statistica Sinica, 9, 119-135.<person-group>
+                     <string-name>
+                     <surname>Kolaczyk</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>119</fpage>
+               <volume>9</volume>
+               <source>Statistica Sinica</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e753a1310">
+               
+               <mixed-citation id="d432327e757" publication-type="journal">
+(1999b), "Bayesian Multiscale Models for Poisson Processes," Journal of the American Statistical Asso-
+ciation, 94, 920-933.<object-id pub-id-type="doi">10.2307/2670007</object-id>
+               <fpage>920</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e773a1310">
+               
+               <mixed-citation id="d432327e777" publication-type="journal">
+Mallat, S.G. (1989), "A Theory for Multiresolution Signal Decomposition: The Wavelet Representation," IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 11, 674-693.<person-group>
+                     <string-name>
+                     <surname>Mallat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>674</fpage>
+               <volume>11</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e809a1310">
+               
+               <mixed-citation id="d432327e813" publication-type="journal">
+Mallat, S.G., and Zhang, Z. (1993), "Matching Pursuit in a Time-Frequency Dictionary," IEEE Transactions on
+Signal Processing, 41, 3397-3415.<person-group>
+                     <string-name>
+                     <surname>Mallat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3397</fpage>
+               <volume>41</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e846a1310">
+               
+               <mixed-citation id="d432327e850" publication-type="book">
+Nason, G.P. (1995), "Wavelet Function Estimation using Cross-Validation," in Wavelets and Statistics, eds. A.
+Antoniadis and G. Oppenheim, New York: Springer-Verlag, pp. 261-280.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Wavelet Function Estimation using Cross-Validation</comment>
+               <fpage>261</fpage>
+               <source>Wavelets and Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e882a1310">
+               
+               <mixed-citation id="d432327e886" publication-type="journal">
+(2002), "Choice of Wavelet Smoothness, Primary Resolution and Threshold in Wavelet Shrinkage," Statis-
+tics and Computing, 12, 219-227.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>219</fpage>
+               <volume>12</volume>
+               <source>Statistics and Computing</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e918a1310">
+               
+               <mixed-citation id="d432327e922" publication-type="journal">
+Nelder, J.A., and Wedderburn, R.W.M. (1972), "Generalized Linear Models," Journal of the Royal Statistical
+Society, Ser. A, 135, 370-384.<person-group>
+                     <string-name>
+                     <surname>Nelder</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>370</fpage>
+               <volume>135</volume>
+               <source>Journal of the Royal Statistical Society, Ser. A</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e954a1310">
+               
+               <mixed-citation id="d432327e958" publication-type="journal">
+O'Sullivan, F, Yandell, B.S., and Raynor, W.J.Jr. (1986), "Automatic Smoothing of Regression Functions in
+Generalized Linear Models," Journal of the American Statistical Association, 81, 96-103.<object-id pub-id-type="doi">10.2307/2287973</object-id>
+               <fpage>96</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e974a1310">
+               
+               <mixed-citation id="d432327e978" publication-type="book">
+Rockafellar, R.T. (1984), Network Flows and Monotropic Programming, New York: Wiley; republished by Athena
+Scientific, Belmont, CA: 1998.<person-group>
+                     <string-name>
+                     <surname>Rockafellar</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1998</fpage>
+               <source>Network Flows and Monotropic Programming</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e1007a1310">
+               
+               <mixed-citation id="d432327e1011" publication-type="journal">
+Sardy, S., Bruce, A., and Tseng, P. (2000), "Block Coordinate Relaxation Methods for Nonparametric Wavelet
+Denoising," Journal of Computational and Graphical Statistics, 9, 361-379.<object-id pub-id-type="doi">10.2307/1390659</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e1028a1310">
+               
+               <mixed-citation id="d432327e1032" publication-type="journal">
+Sardy, S., Tseng, P., and Bruce, A.G. (2001), "Robust Wavelet Denoising," IEEE Transactions on Signal Pro-
+cessing, 49, 1146-1152.<person-group>
+                     <string-name>
+                     <surname>Sardy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1146</fpage>
+               <volume>49</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e1064a1310">
+               
+               <mixed-citation id="d432327e1068" publication-type="journal">
+Tibshirani, R. (1995), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Sociey,
+Ser. B, 57, 267-288.<person-group>
+                     <string-name>
+                     <surname>Tibshirani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>267</fpage>
+               <volume>57</volume>
+               <source>Journal of the Royal Statistical Sociey, Ser. B</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e1100a1310">
+               
+               <mixed-citation id="d432327e1104" publication-type="journal">
+Timmermann, K.E., and Nowak, R.D. (1999), "Multiscale Modeling and Estimation of Poisson Processes With
+Application to Photon-Limited Imaging," IEEE Transactions on Information Theory, 45, 846-862.<person-group>
+                     <string-name>
+                     <surname>Timmermann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>846</fpage>
+               <volume>45</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432327e1136a1310">
+               
+               <mixed-citation id="d432327e1140" publication-type="journal">
+Villalobos, M., and Wahba, G. (1987), "Inequality-Constrained Multivariate Smoothing Splines With Application
+to the Estimation of Posterior Probabilities," Journal of the American Statistical Association, 82, 239-248.<object-id pub-id-type="doi">10.2307/2289160</object-id>
+               <fpage>239</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

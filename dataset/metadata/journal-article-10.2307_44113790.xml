@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">29</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3/4</issue>
+         <issue-id>i40172066</issue-id>
+         <article-id pub-id-type="jstor">44113790</article-id>
+         <title-group>
+            <article-title>Survey of data-selection methods in statistical machine translation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Sauleh</given-names>
+                  <surname>Eetemadi</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>William</given-names>
+                  <surname>Lewis</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kristina</given-names>
+                  <surname>Toutanova</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hayder</given-names>
+                  <surname>Radha</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>189</fpage>
+         <lpage>223</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media 2015</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44113790"/>
+      
+      
+         <abstract>
+            <p>Statistical machine translation has seen significant improvements in quality over the past several years. The single biggest factor in this improvement has been the accumulation of ever larger stores of data. We now find ourselves, however, the victims of our own success, in that it has become increasingly difficult to train on such large sets of data, due to limitations in memory, processing power, and ultimately, speed (i.e. data-to-models takes an inordinate amount of time). Moreover, the training data has a wide quality spectrum. A variety of methods for data cleaning and data selection have been developed to address these issues. Each of these methods employs a search or filtering algorithm to select a subset of the data, given a defined set of feature functions. In this paper we provide a comparative overview of research in this area based on application scenario, feature functions and search method.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d1126478e195a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d1126478e202" publication-type="other">
+Ozdowska and
+Way (2009)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d1126478e211" publication-type="other">
+Koehn
+2005</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e221a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d1126478e228" publication-type="other">
+Han et al. 2009</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e235a1310">
+            <label>7</label>
+          
+            <p>
+               <mixed-citation id="d1126478e242" publication-type="other">
+Papineni et al. 2002;</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d1126478e248" publication-type="other">
+Koehn 2009</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e255a1310">
+            <label>11</label>
+          
+            <p>
+               <mixed-citation id="d1126478e262" publication-type="other">
+Ambati 2011</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e270a1310">
+            <label>13</label>
+          
+            <p>
+               <mixed-citation id="d1126478e277" publication-type="other">
+Liu et al. 2010a</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e284a1310">
+            <label>15</label>
+          
+            <p>
+               <mixed-citation id="d1126478e291" publication-type="other">
+Snover et al. 2006</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e298a1310">
+            <label>17</label>
+          
+            <p>
+               <mixed-citation id="d1126478e305" publication-type="other">
+Manning and
+Schütze 1999</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e315a1310">
+            <label>18</label>
+          
+            <p>
+               <mixed-citation id="d1126478e322" publication-type="other">
+Cover and Thomas 1991</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e329a1310">
+            <label>19</label>
+          
+            <p>
+               <mixed-citation id="d1126478e336" publication-type="other">
+Brown et al. 1993</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d1126478e343a1310">
+            <label>27</label>
+          
+            <p>
+               <mixed-citation id="d1126478e350" publication-type="other">
+Dasgupta and Hsu 2008</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d1126478e356" publication-type="other">
+Schütze et al. 2006</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1126478e372a1310">
+          
+            <mixed-citation id="d1126478e376" publication-type="other">
+Adesam Y (2012) The multilingual forest : Investigating high-quality parallel corpus development. PhD
+thesis, Stockholm University, Stockholm</mixed-citation>
+        </ref>
+        <ref id="d1126478e386a1310">
+          
+            <mixed-citation id="d1126478e390" publication-type="other">
+Allauzen A, Bonneau-Maynard H, Le HS, Max A, Wisniewski G, Yvon F, Adda G, Crego JM, Lardilleux
+A, Lavergne T, Sokolov A (2011) LIMSI @ WMT11. In: Proceedings of the Sixth Workshop on
+Statistical Machine Translation. Edinburgh, pp 309-315</mixed-citation>
+        </ref>
+        <ref id="d1126478e403a1310">
+          
+            <mixed-citation id="d1126478e407" publication-type="other">
+Ambati V (2011) Active learning and crowdsourcing for machine translation in low resource scenarios.
+Ph.D. thesis, Carnegie Mellon University, Pittsburgh</mixed-citation>
+        </ref>
+        <ref id="d1126478e417a1310">
+          
+            <mixed-citation id="d1126478e421" publication-type="other">
+Ambati V, Vogel S, Carbonell J (2010) Active learning and crowd-sourcing for machine translation. In:
+Proceedings of the seventh conference on international language resources and evaluation (LREC 10),
+Valletta, vol 7, pp 2169-2174</mixed-citation>
+        </ref>
+        <ref id="d1126478e435a1310">
+          
+            <mixed-citation id="d1126478e439" publication-type="other">
+Ananthakrishnan S, Prasad R, Stallard D, Natarajan P (2010a) Discriminative sample selection for statistical
+machine translation. In: Proceedings of the 2010 conference on empirical methods in natural language
+processing, Cambridge, pp 626-635</mixed-citation>
+        </ref>
+        <ref id="d1126478e452a1310">
+          
+            <mixed-citation id="d1126478e456" publication-type="other">
+Ananthakrishnan S, Prasad R, Stallard D, Natarajan P (2010b) A semi-supervised batch-mode active learning
+strategy for improved statistical machine translation. In: Proceedings of the fourteenth conference on
+computational natural language learning. Uppsala, pp 126-134</mixed-citation>
+        </ref>
+        <ref id="d1126478e469a1310">
+          
+            <mixed-citation id="d1126478e473" publication-type="other">
+Axelrod A, He X, Gao J (2011) Domain adaptation via pseudo in-domain data selection. In: Proceedings
+of the conference on empirical methods in natural language processing. Edinburgh, pp 355-362</mixed-citation>
+        </ref>
+        <ref id="d1126478e483a1310">
+          
+            <mixed-citation id="d1126478e487" publication-type="other">
+Axelrod A, Li Q, Lewis W (2012) Applications of data selection via cross-entropy difference for real-world
+statistical machine translation. In: Proceedings of the international workshop on spoken language
+translation, Hong Kong, pp 201-108</mixed-citation>
+        </ref>
+        <ref id="d1126478e500a1310">
+          
+            <mixed-citation id="d1126478e504" publication-type="other">
+Baneijee P, Naskar S, Roturier J, Way A, van Genabith J (201 1) Domain adaptation in statistical machine
+translation of user-forum data using component level mixture modelling. In: Proceedings of machine
+translation summit XIII. Xiamen, pp 285-292</mixed-citation>
+        </ref>
+        <ref id="d1126478e517a1310">
+          
+            <mixed-citation id="d1126478e521" publication-type="other">
+Biçici E, Yuret D (2011) Instance selection for machine translation using feature decay algorithms. In:
+Proceedings of the sixth workshop on statistical machine translation. Association for Computational
+Linguistics, Edinburgh, pp 272-283</mixed-citation>
+        </ref>
+        <ref id="d1126478e535a1310">
+          
+            <mixed-citation id="d1126478e539" publication-type="other">
+Biçici E, Liu Q, Way A (2014) Parallel FDA5 for fast deployment of accurate statistical machine translation
+systems. In: Proceedings of the ninth workshop on statistical machine translation, Baltimore, pp 59-65</mixed-citation>
+        </ref>
+        <ref id="d1126478e549a1310">
+          
+            <mixed-citation id="d1126478e553" publication-type="other">
+Biçici E, Liu Q, Way A (2015) Parfda for fast deployment of accurate statistical machine translation systems,
+benchmarks, and statistics. In: Proceedings of the Tenth Workshop on Statistical Machine Translation,
+Lisbon, pp 74-78</mixed-citation>
+        </ref>
+        <ref id="d1126478e566a1310">
+          
+            <mixed-citation id="d1126478e570" publication-type="other">
+Bloodgood M, Callison-Burch C (2010) Bucking the trend: Large-scale cost-focused active learning for
+statistical machine translation. In: ACL 2010, The 48th annual meeting of the association for compu-
+tational linguistics, conference proceedings, Uppsala, pp 854-864</mixed-citation>
+        </ref>
+        <ref id="d1126478e583a1310">
+          
+            <mixed-citation id="d1126478e587" publication-type="other">
+Brown PF, Della Pietra VJ, Della Pietra SA, Mercer RL (1993) The mathematics of statistical machine
+translation: parameter estimation. Comput Linguist 19(2):263-311</mixed-citation>
+        </ref>
+        <ref id="d1126478e597a1310">
+          
+            <mixed-citation id="d1126478e601" publication-type="other">
+Callison-Burch C, Dredze M (2010) Creating speech and language data with amazon's mechanical turk. In:
+Proceedings of the NAACL HLT 201 0 workshop on creating speech and language data with Amazon's
+mechanical turk. Montreal, pp 1-12</mixed-citation>
+        </ref>
+        <ref id="d1126478e614a1310">
+          
+            <mixed-citation id="d1126478e618" publication-type="other">
+Chao W, Li Z (201 la) A graph-based bilingual corpus selection approach for SMT. In: Proceedings of the
+25th Pacific Asia conference on language, information and computation, Singapore, pp 120-129</mixed-citation>
+        </ref>
+        <ref id="d1126478e629a1310">
+          
+            <mixed-citation id="d1126478e633" publication-type="other">
+Chao W, Li Z (2011b) Improved graph-based bilingual corpus selection with sentence pair ranking for
+statistical machine translation. In: Proceedings of the 23rd IEEE international conference on tools
+with artificial intelligence, Boca Raton, pp 446-451</mixed-citation>
+        </ref>
+        <ref id="d1126478e646a1310">
+          
+            <mixed-citation id="d1126478e650" publication-type="other">
+Chen B, Kuhn R, Foster G (2014) A comparison of mixture and vector space techniques for translation
+model adaptation. In: AMTA 2014, Proceedings of the 1 1th conference of the association for machine
+translation in the Americas, Vol 1, MT Researchers Track, Vancouver, pp 124-138</mixed-citation>
+        </ref>
+        <ref id="d1126478e663a1310">
+          
+            <mixed-citation id="d1126478e667" publication-type="other">
+Chiang D (2005) A hierarchical phrase-based model for statistical machine translation. In: 43rd annual
+meeting of the association for computational linguistics, Ann Arbor, pp 263-270</mixed-citation>
+        </ref>
+        <ref id="d1126478e677a1310">
+          
+            <mixed-citation id="d1126478e681" publication-type="other">
+Cover TM, Thomas JA (1991) Elements of information theory. Wiley-Interscience, New York</mixed-citation>
+        </ref>
+        <ref id="d1126478e688a1310">
+          
+            <mixed-citation id="d1126478e692" publication-type="other">
+Dasgupta S, Hsu D (2008) Hierarchical sampling for active learning. In: Proceedings of the 25th international
+conference on machine learning, Helsinki, pp 208-215</mixed-citation>
+        </ref>
+        <ref id="d1126478e702a1310">
+          
+            <mixed-citation id="d1126478e706" publication-type="other">
+Denkowski M, Hanneman G, Lavie A (2012) The CMU-Avenue french-english translation system. In:
+Proceedings of the NAACL 2012 workshop on statistical machine translation, Montreal, pp 261-266</mixed-citation>
+        </ref>
+        <ref id="d1126478e717a1310">
+          
+            <mixed-citation id="d1126478e721" publication-type="other">
+Dyer C, Cordova A, Mont A, Lin J (2008) Fast, easy, and cheap: Construction of statistical machine
+translation models with mapreduce. In: Proceedings of the third workshop on statistical machine
+translation, Columbus, pp 199-207</mixed-citation>
+        </ref>
+        <ref id="d1126478e734a1310">
+          
+            <mixed-citation id="d1126478e738" publication-type="other">
+Eck M, Vogel S, Waibel A (2005) Low cost portability for statistical machine translation based in N-
+gram frequency and TF-IDF. In: IWSLT 2005, Proceedings of the international workshop on spoken
+language translation: evaluation campaign on spoken language translation, Pittsburgh</mixed-citation>
+        </ref>
+        <ref id="d1126478e751a1310">
+          
+            <mixed-citation id="d1126478e755" publication-type="other">
+Eetemadi S, Radha H (2010) Effects of parallel corpus selection on statistical machine translation quality.
+In: NW-NLP 201: Proceedings of the Pacific Northwest Regional NLP workshop, Redmond</mixed-citation>
+        </ref>
+        <ref id="d1126478e765a1310">
+          
+            <mixed-citation id="d1126478e769" publication-type="other">
+Gangadharaiah R, Brown R, Carbonell J (2009) Active learning in example-based machine translation.
+In: Proceedings of the 17th Nordic conference of computational linguistics NODALIDA, Odense, pp
+227-230</mixed-citation>
+        </ref>
+        <ref id="d1126478e782a1310">
+          
+            <mixed-citation id="d1126478e786" publication-type="other">
+Goodman J, Gao J (2000) Language model size reduction by pruning and clustering. In: Proceedings of the
+international conference on spoken language processing, Beijing, pp 110-113</mixed-citation>
+        </ref>
+        <ref id="d1126478e796a1310">
+          
+            <mixed-citation id="d1126478e800" publication-type="other">
+Goutte C, Carpuat M, Foster G (2012) The impact of sentence alignment errors on phrase-based machine
+translation performance. In: Proceedings of the 10th conference of association for machine translation
+in the Americas, San Diego</mixed-citation>
+        </ref>
+        <ref id="d1126478e814a1310">
+          
+            <mixed-citation id="d1126478e818" publication-type="other">
+Haffari G (2009) Machine learning approaches for dealing with limited bilingual training data in statistical
+machine translation. Ph.D. thesis, Simon Fraser University, Burnaby</mixed-citation>
+        </ref>
+        <ref id="d1126478e828a1310">
+          
+            <mixed-citation id="d1126478e832" publication-type="other">
+Haffari G, Roy M, Sarkar A (2009) Active learning for statistical phrase-based machine translation. In:
+Proceedings of human language technologies: the 2009 annual conference of the North American
+chapter of the association for computational linguistics, Boulder, pp 415-423</mixed-citation>
+        </ref>
+        <ref id="d1126478e845a1310">
+          
+            <mixed-citation id="d1126478e849" publication-type="other">
+Han X, Li H, Zhao T (2009) Train the machine with what it can learn: corpus selection for SMT. In:
+BUCC-09, Proceedings of the 2nd workshop on building and using comparable corpora: from parallel
+to non-parallel corpora, Singapore, pp 27-33</mixed-citation>
+        </ref>
+        <ref id="d1126478e862a1310">
+          
+            <mixed-citation id="d1126478e866" publication-type="other">
+Jiang J, Way A, Carson-Berndsen J (2010) Lattice score-based data cleaning for phrase-based statistical
+machine translation. In: Proceedings of the 14th annual conference of the European association for
+machine translation, Saint-Raphaël</mixed-citation>
+        </ref>
+        <ref id="d1126478e879a1310">
+          
+            <mixed-citation id="d1126478e883" publication-type="other">
+Kauchak D (2006) Contributions to research on machine translation. Ph.D. thesis, UC San Diego, San Diego</mixed-citation>
+        </ref>
+        <ref id="d1126478e890a1310">
+          
+            <mixed-citation id="d1126478e894" publication-type="other">
+Khadivi S, Ney H (2005) Automatic filtering of bilingual corpora for statistical machine translation. Nat
+Lang Process Inform Syst 3513:263-274</mixed-citation>
+        </ref>
+        <ref id="d1126478e905a1310">
+          
+            <mixed-citation id="d1126478e909" publication-type="other">
+Kirchhoff K, Bilmes J (2014) Submodularity for data selection in machine translation. In : EMNLP 2014, The
+2014 conference on empirical methods in natural language processing, Proceedings of the conference,
+Doha, pp 131-141</mixed-citation>
+        </ref>
+        <ref id="d1126478e922a1310">
+          
+            <mixed-citation id="d1126478e926" publication-type="other">
+Koehn P (2005) Europarl: a parallel corpus for statistical machine translation. In: Proceedings of MT Summit
+X. Phuket, pp 79-86</mixed-citation>
+        </ref>
+        <ref id="d1126478e936a1310">
+          
+            <mixed-citation id="d1126478e940" publication-type="other">
+Koehn P (2009) Statistical machine translation. Cambridge University Press, Cambridge</mixed-citation>
+        </ref>
+        <ref id="d1126478e947a1310">
+          
+            <mixed-citation id="d1126478e951" publication-type="other">
+Koehn P, Och F, Marcu D (2003) Statistical phrase-based translation. In: Proceedings of the joint human lan-
+guage technology conference and the annual meeting of the North American chapter of the association
+for computational linguistics (HLT-NAACL), Edmonton, pp 127-133</mixed-citation>
+        </ref>
+        <ref id="d1126478e964a1310">
+          
+            <mixed-citation id="d1126478e968" publication-type="other">
+Kullback S, Leibler L (1951) On information and sufficiency. Ann Math Stat 22(l):79-86</mixed-citation>
+        </ref>
+        <ref id="d1126478e975a1310">
+          
+            <mixed-citation id="d1126478e979" publication-type="other">
+Lewis W, Eetemadi S (2013) Dramatically reducing training data size through vocabulary saturation. In:
+Proceedings of the eighth workshop on statistical machine translation, Sofia, pp 281-291</mixed-citation>
+        </ref>
+        <ref id="d1126478e990a1310">
+          
+            <mixed-citation id="d1126478e994" publication-type="other">
+Liu P, Zhou Y, Zong C (2009) Approach to selecting best development set for phrase-based statistical
+machine translation. In: Proceedings of the 23rd Pacific Asia conference on language, information
+and computation, Hong Kong, pp 325-334</mixed-citation>
+        </ref>
+        <ref id="d1126478e1007a1310">
+          
+            <mixed-citation id="d1126478e1011" publication-type="other">
+Liu P, Zhou Y, Zong C (2010a) Data selection for statistical machine translation. In: Proceedings of the inter-
+national conference on natural language processing and knowledge engineering (NLP-KE), Beijing,
+PP 1-5</mixed-citation>
+        </ref>
+        <ref id="d1126478e1024a1310">
+          
+            <mixed-citation id="d1126478e1028" publication-type="other">
+Liu P, Zhou Y, Zong CQ (2010b) Approaches to improving corpus quality for statistical machine translation.
+In: Proceedings of the international conference on machine learning and cybernetics, vol 6, Qingdao,
+pp 3293-3298</mixed-citation>
+        </ref>
+        <ref id="d1126478e1041a1310">
+          
+            <mixed-citation id="d1126478e1045" publication-type="other">
+Lü Y, Huang J, Liu Q (2007) Improving statistical machine translation performance by training data selection
+and optimization. In: Proceedings of the 2007 joint conference on empirical methods in natural lan-
+guage processing and computational natural language learning (EMNLP-CoNLL), Czech Republic,
+pp 343-350</mixed-citation>
+        </ref>
+        <ref id="d1126478e1061a1310">
+          
+            <mixed-citation id="d1126478e1065" publication-type="other">
+Mandai A, Vergyri D, Wang W, Zheng J, Stolcke A, Tur G, Hakkani-Tür D, Ayan NF (2008) Efficient data
+selection for machine translation. In: Proceedings of the spoken language technology workshop, Goa,
+pp 261-264</mixed-citation>
+        </ref>
+        <ref id="d1126478e1078a1310">
+          
+            <mixed-citation id="d1126478e1082" publication-type="other">
+Manning CD, Schütze H (1999) Foundations of statistical natural language processing. MIT press, Cam-
+bridge</mixed-citation>
+        </ref>
+        <ref id="d1126478e1093a1310">
+          
+            <mixed-citation id="d1126478e1097" publication-type="other">
+Moore RC, Lewis W (2010) Intelligent selection of language model training data. In: ACL 2010, The 48th
+annual meeting of the association for computational linguistics, conference proceedings, Uppsala, pp
+220-224</mixed-citation>
+        </ref>
+        <ref id="d1126478e1110a1310">
+          
+            <mixed-citation id="d1126478e1114" publication-type="other">
+Munteanu DS, Marcu D (2005) Improving machine translation performance by exploiting non-parallel
+corpora. Comput Linguist 31(4):477-504</mixed-citation>
+        </ref>
+        <ref id="d1126478e1124a1310">
+          
+            <mixed-citation id="d1126478e1128" publication-type="other">
+Okita T (2009) Data cleaning for word alignment. In: Proceedings of the ACL-IJCNLP 2009 student research
+workshop, Singapore, pp 72-80</mixed-citation>
+        </ref>
+        <ref id="d1126478e1138a1310">
+          
+            <mixed-citation id="d1126478e1142" publication-type="other">
+Okita T, Naskar SK, Way A (2009) Noise reduction experiments in machine translation. In: ECML-PKDD,
+Proceedings of the European conference on machine learning and principles and practice of knowledge
+discovery in databases, Bled</mixed-citation>
+        </ref>
+        <ref id="d1126478e1155a1310">
+          
+            <mixed-citation id="d1126478e1159" publication-type="other">
+Ozdowska S, Way A (2009) Optimal bilingual data for french-english pb-smt. In: Proceedings of EAMT-
+09, the 13th Annual conference of the European association for machine translation, Barcelona, pp
+96-103</mixed-citation>
+        </ref>
+        <ref id="d1126478e1172a1310">
+          
+            <mixed-citation id="d1126478e1176" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W J (2002) Bleu: A method for automatic evaluation of machine transla-
+tion. In: ACL-2002: 40th annual meeting of the association for computational linguistics, proceedings
+of the conference, Philadelphia, pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d1126478e1190a1310">
+          
+            <mixed-citation id="d1126478e1194" publication-type="other">
+Pecina P, Toral A, Papavassiliou V, Prokopidis P, Tamchyna A, Way A, Van Genabith J (2014) Domain
+adaptation of statistical machine translation using web-crawled resources and model parameter tuning.
+Lang Resour Eval 49(1): 147-193</mixed-citation>
+        </ref>
+        <ref id="d1126478e1207a1310">
+          
+            <mixed-citation id="d1126478e1211" publication-type="other">
+Resnik P (1999) Mining the web for bilingual text. In: ACL-1999: 37th annual meeting of the association
+for computational linguistics: proceedings of the conference, College Park, pp 527-534</mixed-citation>
+        </ref>
+        <ref id="d1126478e1221a1310">
+          
+            <mixed-citation id="d1126478e1225" publication-type="other">
+Schütze H, Velipasaoglu E, Pedersen JO (2006) Performance thresholding in practical text classification. In:
+Proceedings of the 15th ACM international conference on Information and knowledge management,
+Kansas City, pp 662-671</mixed-citation>
+        </ref>
+        <ref id="d1126478e1238a1310">
+          
+            <mixed-citation id="d1126478e1242" publication-type="other">
+Settles B (2010) Active learning literature survey. Tech. rep., University of Wisconsin, Madison, WN, URL
+http://burrsettles.com/pub/settles.activelearning.pdf</mixed-citation>
+        </ref>
+        <ref id="d1126478e1252a1310">
+          
+            <mixed-citation id="d1126478e1256" publication-type="other">
+Snover M, Dorr B, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation edit rate with targeted
+human annotation. In: AMTA 2006: Proceedings of the 7th conference of the association for machine
+translation in the Americas, visions for the future of machine translation, Cambridge, Massachusetts,
+pp 223-231</mixed-citation>
+        </ref>
+        <ref id="d1126478e1272a1310">
+          
+            <mixed-citation id="d1126478e1276" publication-type="other">
+Somers H (2005) Round trip translation: What is it good for? In: ALTW 2005 : Proceedings of Australasian
+language technology workshop, Australia, pp 127-133</mixed-citation>
+        </ref>
+        <ref id="d1126478e1287a1310">
+          
+            <mixed-citation id="d1126478e1291" publication-type="other">
+Specia L, Raj D, Turchi M (2010) Machine translation evaluation versus quality estimation. Mach Transi
+24(l):39-50</mixed-citation>
+        </ref>
+        <ref id="d1126478e1301a1310">
+          
+            <mixed-citation id="d1126478e1305" publication-type="other">
+Taghipour K, Afhami N, Khadivi S, Shiry S (2010) A discriminative approach to filter out noisy sentence
+pairs from bilingual corpora. In: Proceedings of the 5th international symposium on telecommunica-
+tions, Tehran, pp 537-541</mixed-citation>
+        </ref>
+        <ref id="d1126478e1318a1310">
+          
+            <mixed-citation id="d1126478e1322" publication-type="other">
+Ueffing N, Ney H (2007) Word-level confidence estimation for machine translation. Comput Linguist
+33(l):9-40</mixed-citation>
+        </ref>
+        <ref id="d1126478e1332a1310">
+          
+            <mixed-citation id="d1126478e1336" publication-type="other">
+Vogel S, Ney H, Tillmann C (1996) HMM-based word alignment in statistical translation. In: Proceedings
+of the 16th conference on computational linguistics, vol 2, Copenhagen, pp 836-841</mixed-citation>
+        </ref>
+        <ref id="d1126478e1346a1310">
+          
+            <mixed-citation id="d1126478e1350" publication-type="other">
+Wei K, Liu Y, Kirchhoff K, Bilmes J (2013) Using document summarization techniques for speech data sub-
+set selection. In: Proceedings of the 201 3 Conference of the North American chapter of the association
+for computational linguistics: human language technologies, Atlanta, pp 721-726</mixed-citation>
+        </ref>
+        <ref id="d1126478e1363a1310">
+          
+            <mixed-citation id="d1126478e1367" publication-type="other">
+Wuebker J, Mauser A, Ney H (2010) Training phrase translation models with leaving-one-out. In: Pro-
+ceedings of the 48th annual meeting of the association for computational linguistics, Uppsala, pp
+475-484</mixed-citation>
+        </ref>
+        <ref id="d1126478e1381a1310">
+          
+            <mixed-citation id="d1126478e1385" publication-type="other">
+Yarowsky D (1995) Unsupervised word sense disambiguation rivaling supervised methods. In: Proceedings
+of the 33rd annual meeting of the association for computational linguistics, Cambridge, Massachusetts,
+pp 189-196</mixed-citation>
+        </ref>
+        <ref id="d1126478e1398a1310">
+          
+            <mixed-citation id="d1126478e1402" publication-type="other">
+Yasuda K, Zhang R, Yamamoto H, Sumita E (2008) Method of selecting training data to build a compact
+and efficient translation model. In: Proceedings of the third international joint conference on natural
+language processing, vol 2, Hyderabad, pp 655-660</mixed-citation>
+        </ref>
+        <ref id="d1126478e1415a1310">
+          
+            <mixed-citation id="d1126478e1419" publication-type="other">
+Zens R, Stanton D, Xu P (20 1 2) A systematic comparison of phrase table pruning techniques. In: Proceedings
+of the 2012 Joint conference on empirical methods in natural language processing and computational
+natural language learning, Jeju, pp 972-983</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

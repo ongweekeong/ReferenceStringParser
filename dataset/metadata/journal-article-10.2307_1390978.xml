@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260302</issue-id>
+         <article-id pub-id-type="jstor">1390978</article-id>
+         
+         <title-group>
+            <article-title>Winds from a Bayesian Hierarchical Model: Computation for Atmosphere-Ocean Research</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Timothy J.</given-names>
+                  <surname>Hoar</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ralph F.</given-names>
+                  <surname>Milliff</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Douglas</given-names>
+                  <surname>Nychka</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Christopher K.</given-names>
+                  <surname>Wikle</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>L. Mark</given-names>
+                  <surname>Berliner</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>781</fpage>
+         <lpage>807</lpage>
+         <page-range>781-807</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390978"/>
+         
+         
+         <abstract>
+            <p>Advances in computing power are allowing researchers to use Bayesian hierarchical models (BHM) on problems previously considered computationally infeasible. This article discusses the procedure of migrating a BHM from a workstation-class implementation to a massively parallel architecture, indicative of the current direction of advances in computing hardware. The parallel implementation is nearly 500 times larger than the workstation-class implementation from the data perspective. The BHM in question combines the information from a scatterometer on board a polar-orbiting satellite and the result of a numerical weather prediction model and produces an ensemble of high-resolution tropical surface wind fields with physically realistic variability at all spatial scales.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Fortran 90</kwd>
+            <kwd>Gibbs sampling</kwd>
+            <kwd>Parallel computing</kwd>
+            <kwd>Spatio-temporal processes</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d5231783e253a1310">
+               
+               <mixed-citation id="d5231783e257" publication-type="book">
+Dey, C.H. (1996), "The WMO Format for the Storage of Weather Product Information and the Exchange of
+Weather Product Messages in Gridded Binary Form," Office Note NCEP Office Note 388, NOAA National
+Weather Service, U.S. Department of Commerce.<person-group>
+                     <string-name>
+                     <surname>Dey</surname>
+                  </string-name>
+                  </person-group>
+               <source>The WMO Format for the Storage of Weather Product Information and the Exchange of Weather Product Messages in Gridded Binary Form</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e286a1310">
+               
+               <mixed-citation id="d5231783e290" publication-type="journal">
+Freilich, M.H. (1997), "Valication of Vector Magnitude Datasets: Effects of Random Component Errors," Journal
+of Atmospheric and Oceanic Technology, 14, 695-703.<person-group>
+                     <string-name>
+                     <surname>Freilich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>695</fpage>
+               <volume>14</volume>
+               <source>Journal of Atmospheric and Oceanic Technology</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e322a1310">
+               
+               <mixed-citation id="d5231783e326" publication-type="journal">
+Gelman, A., and Rubin, D.B. (1992), "Inference From Iterative Simulation Using Multiple Sequences," Statistical
+Science, 7, 457-472.<object-id pub-id-type="jstor">10.2307/2246093</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e342a1310">
+               
+               <mixed-citation id="d5231783e346" publication-type="book">
+Gill, A.E. (1982), Atmosphere-Ocean Dynamics, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Gill</surname>
+                  </string-name>
+                  </person-group>
+               <source>Atmosphere-Ocean Dynamics</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e369a1310">
+               
+               <mixed-citation id="d5231783e373" publication-type="book">
+Golub, G.H., and Van Loan, C.F. (1996), Matrix Computations (3rd ed.), Baltimore, MD: Johns Hopkins
+University Press.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Matrix Computations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e402a1310">
+               
+               <mixed-citation id="d5231783e406" publication-type="journal">
+Liu, W.T., Tang, W., and Polito, P.S. (1998), "NASA Scatterometer Provides Global Ocean Surface Wind Fields
+with More Structures than Numerical Weather Prediction," Geophyscial Research Letters, 25, 761-764.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>761</fpage>
+               <volume>25</volume>
+               <source>Geophyscial Research Letters</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e438a1310">
+               
+               <mixed-citation id="d5231783e442" publication-type="journal">
+Madden, R.A., and Julian, P.R. (1971), "Detection of a 40-50 Day Oscillation in the Zonal Wind in the Tropical
+Pacific," Journal of Atmospheric Science, 28, 702-708.<person-group>
+                     <string-name>
+                     <surname>Madden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>702</fpage>
+               <volume>28</volume>
+               <source>Journal of Atmospheric Science</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e474a1310">
+               
+               <mixed-citation id="d5231783e478" publication-type="journal">
+(1994), "Observations of the 40-50 Day Tropical Oscillation: A Review," Monthly Weather Review, 122,
+814-837.<person-group>
+                     <string-name>
+                     <surname>Madden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>814</fpage>
+               <volume>122</volume>
+               <source>Monthly Weather Review</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e510a1310">
+               
+               <mixed-citation id="d5231783e514" publication-type="journal">
+Madden, R.A., Hoar, T.J., and Milliff, R.F. (1999), "Scatterometer Winds Composited According to the Phase
+of the Tropical Intraseasonal Oscillation," Tellus, 51A, 263-272.<person-group>
+                     <string-name>
+                     <surname>Madden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>263</fpage>
+               <volume>51A</volume>
+               <source>Tellus</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e546a1310">
+               
+               <mixed-citation id="d5231783e550" publication-type="journal">
+Matsuno, T. (1966), "Quasi-Geostrophic Motions in the Equatorial Area," Journal of the Meteorological Society
+of Japan, 41, 25-42.<person-group>
+                     <string-name>
+                     <surname>Matsuno</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>25</fpage>
+               <volume>41</volume>
+               <source>Journal of the Meteorological Society of Japan</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e583a1310">
+               
+               <mixed-citation id="d5231783e587" publication-type="journal">
+Wheeler, M., and Kiladis, G.N. (1999), "Convectively-Coupled Equatorial Waves: Analysis of Clouds and
+Temperature in the Wavenumber-Frequencey Domain," Journal of the Atmospheric Sciences, 56, 374-399.<person-group>
+                     <string-name>
+                     <surname>Wheeler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>374</fpage>
+               <volume>56</volume>
+               <source>Journal of the Atmospheric Sciences</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e619a1310">
+               
+               <mixed-citation id="d5231783e623" publication-type="journal">
+Wikle, C.K., Milliff, R.F., and Large, W.G. (1999), "Surface Wind Variability on Spatial Scales from I to 1,000
+km Observed During TOGA COARE," Journal of the Atmospheric Sciences, 56, 2222-2231.<person-group>
+                     <string-name>
+                     <surname>Wikle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2222</fpage>
+               <volume>56</volume>
+               <source>Journal of the Atmospheric Sciences</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231783e655a1310">
+               
+               <mixed-citation id="d5231783e659" publication-type="journal">
+Wikle, C.K., Milliff, R.F., Nychka, D., and Berliner, L.M. (2001), "Spatiotemporal Hierarchical Bayesian
+Modeling: Tropical Ocean Surface Winds," Journal of the American Statistical Society, 96, 382-397.<person-group>
+                     <string-name>
+                     <surname>Wikle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>382</fpage>
+               <volume>96</volume>
+               <source>Journal of the American Statistical Society</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

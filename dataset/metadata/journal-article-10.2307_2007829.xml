@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">48</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">178</issue>
+         <issue-id>i334596</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007829</article-id>
+         
+         <title-group>
+            <article-title>A New Collocation-Type Method for Hammerstein Integral Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sunil</given-names>
+                  <surname>Kumar</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ian H.</given-names>
+                  <surname>Sloan</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1987</year>
+         </pub-date>
+         <fpage>585</fpage>
+         <lpage>593</lpage>
+         <page-range>585-593</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1987 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007829"/>
+         
+         
+         <abstract>
+            <p>We consider Hammerstein equations of the form $$y(t) = f(t) + \int^b_a k(t, s)g(s, y(s))ds, \quad t \in \lbrack a, b \rbrack,$$ and present a new method for solving them numerically. The method is a collocation method applied not to the equation in its original form, but rather to an equivalent equation for $z(t):= g(t, y(t))$. The desired approximation to $y$ is then obtained by use of the (exact) equation $$y(t) = f(t) + \int^b_a k(t, s)z(s)ds, \quad t \in \lbrack a, b \rbrack.$$ Advantages of this method, compared with the direct collocation approximation for $y$, are discussed. The main result in the paper is that, under suitable conditions, the resulting approximation to $y$ converges to the exact solution at a rate at least equal to that of the best approximation to $z$ from the space in which the collocation solution is sought.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65R20</kwd>
+            <kwd>45G10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2098446e141a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2098446e148" publication-type="book">
+K. E. ATKINSON, A Survey of Numerical Methods for the Solution of Fredholm Integral Equations of
+the Second Kind, SIAM, Philadelphia, Pa., 1976.<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Survey of Numerical Methods for the Solution of Fredholm Integral Equations of the Second Kind</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e173a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2098446e180" publication-type="book">
+C. T. H. BAKER, The Numerical Treatment of Integral Equations, Clarendon Press, Oxford, 1977.<person-group>
+                     <string-name>
+                     <surname>Baker</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Numerical Treatment of Integral Equations</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e202a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2098446e209" publication-type="book">
+R. E. BELLMAN &amp; R. E. KALABA, Quasilinearization and Nonlinear Boundary- Value Problems,
+Elsevier, New York, 1965.<person-group>
+                     <string-name>
+                     <surname>Bellman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Quasilinearization and Nonlinear Boundary- Value Problems</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e234a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2098446e241" publication-type="journal">
+R. P. BRENT, "Some efficient algorithms for solving systems of nonlinear equations," SIAM J.
+Numer. Anal., v. 10, 1973, pp. 327-344.<object-id pub-id-type="jstor">10.2307/2156360</object-id>
+               <fpage>327</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e258a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2098446e265" publication-type="journal">
+F. CHATELIN &amp; R. LEBBAR, "The iterated projection solution for Fredholm integral equations of
+second kind," J. Austral. Math. Soc. Ser. B, v. 22, 1981, pp. 439-451.<person-group>
+                     <string-name>
+                     <surname>Chatelin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>439</fpage>
+               <volume>22</volume>
+               <source>J. Austral. Math. Soc. Ser. B</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e297a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2098446e304" publication-type="journal">
+F. CHATELIN &amp; R. LEBBAR, "Superconvergence results for the iterated projection method applied to
+a Fredholm integral equation of the second kind and the corresponding eigenvalue problem," J. Integral
+Equations, v. 6, 1984, pp. 71-91.<person-group>
+                     <string-name>
+                     <surname>Chatelin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>71</fpage>
+               <volume>6</volume>
+               <source>J. Integral Equations</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e339a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2098446e346" publication-type="journal">
+I. G. GRAHAM, S. JOE &amp; I. H. SLOAN, "Iterated Galerkin versus iterated collocation for integral
+equations of the second kind," IMA J. Numer. Anal., v. 5, 1985, pp. 355-369.<person-group>
+                     <string-name>
+                     <surname>Graham</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>355</fpage>
+               <volume>5</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e378a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2098446e385" publication-type="journal">
+S. JOE, " Collocation methods using piecewise polynomials for second kind integral equations," J.
+Comput. Appl. Math., v. 12 &amp; 13, 1985, pp. 391-400.<person-group>
+                     <string-name>
+                     <surname>Joe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>391</fpage>
+               <volume>12</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e417a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2098446e424" publication-type="book">
+L. V. KANTOROVICH &amp; G. P. AKILOV, Functional Analysis, Pergamon Press, Oxford, 1982.<person-group>
+                     <string-name>
+                     <surname>Kantorovich</surname>
+                  </string-name>
+                  </person-group>
+               <source>Functional Analysis</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e446a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2098446e453" publication-type="journal">
+H. B. KELLER, "Geometrically isolated nonisolated solutions and their approximation," SIAM J.
+Numer. Anal., v. 18, 1981, pp. 822-838.<object-id pub-id-type="jstor">10.2307/2157127</object-id>
+               <fpage>822</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e470a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2098446e477" publication-type="book">
+M. A. KRASNOSEL'SKIĬ, Topological Methods in the Theory of Nonlinear Integral Equations,
+Pergamon Press, Oxford, 1964.<person-group>
+                     <string-name>
+                     <surname>Krasnosel'skiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <source>Topological Methods in the Theory of Nonlinear Integral Equations</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e502a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2098446e509" publication-type="book">
+M. A. KRASNOSEL'SKIĬ, G. M. VAINIKKO, P. P. ZABREIKO, YA. B. RUTITSKII &amp; V. YA. STETSENKO,
+Approximate Solution of Operator Equations, Wolters-Noordhoff, Groningen, 1972.<person-group>
+                     <string-name>
+                     <surname>Krasnosel'skiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximate Solution of Operator Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e534a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2098446e541" publication-type="book">
+M. A. KRASNOSEL'SKIĬ &amp; P. P. ZABREIKO, Geometrical Methods of Nonlinear Analysis, Springer-
+Verlag, Berlin, 1984.<person-group>
+                     <string-name>
+                     <surname>Krasnosel'skiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geometrical Methods of Nonlinear Analysis</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e566a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2098446e573" publication-type="journal">
+T. R. LUCAS &amp; G. W. REDDIEN, "Some collocation methods for nonlinear boundary value
+problems," SIAM J. Numer. Anal., v. 9, 1972, pp. 341-356.<object-id pub-id-type="jstor">10.2307/2156408</object-id>
+               <fpage>341</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e589a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2098446e596" publication-type="journal">
+J. J. MORÉ &amp; M. Y. COSNARD, "Numerical solution of nonlinear equations," ACM Trans. Math.
+Software, v. 5, 1979, pp. 64-85.<person-group>
+                     <string-name>
+                     <surname>Moré</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>64</fpage>
+               <volume>5</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e628a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2098446e635" publication-type="journal">
+J. J. MORÉ &amp; M. Y. COSNARD, "ALGORITHM 554: BRENTM, A Fortran subroutine for the
+numerical solution of systems of nonlinear equations," ACM Trans. Math. Software, v. 6, 1980, pp.
+240-251.<person-group>
+                     <string-name>
+                     <surname>Moré</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>240</fpage>
+               <volume>6</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e671a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2098446e678" publication-type="journal">
+R. D. RUSSELL &amp; L. F. SHAMPINE, "A collocation method for boundary value problems," Numer.
+Math., v. 19, 1972, pp. 1-28.<person-group>
+                     <string-name>
+                     <surname>Russell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>19</volume>
+               <source>Numer. Math.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e710a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d2098446e717" publication-type="journal">
+G. VAĬNIKKO, "The convergence of the collocation method for nonlinear differential equations,"
+U.S.S.R. Comput. Math. and Math. Phys., v. 6, no. 1, 1966, pp. 47-58.<person-group>
+                     <string-name>
+                     <surname>Vaĭnikko</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>47</fpage>
+               <volume>6</volume>
+               <source>U.S.S.R. Comput. Math. and Math. Phys.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e752a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d2098446e759" publication-type="journal">
+G. VAĬNIKKO, " Galerkin's perturbation method and the general theory of approximate methods for
+nonlinear equations," U.S.S.R. Comput. Math. and Math. Phys., v. 7, no. 4, 1967, pp. 1-41.<person-group>
+                     <string-name>
+                     <surname>Vaĭnikko</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>1</fpage>
+               <volume>7</volume>
+               <source>U.S.S.R. Comput. Math. and Math. Phys.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e794a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d2098446e801" publication-type="journal">
+G. VAĬNIKKO, "The connection between mechanical quadrature and finite difference methods,"
+U.S.S.R. Comput. Math. and Math. Phys., v. 9, no. 2, 1969, pp. 1-16.<person-group>
+                     <string-name>
+                     <surname>Vaĭnikko</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>1</fpage>
+               <volume>9</volume>
+               <source>U.S.S.R. Comput. Math. and Math. Phys.</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098446e836a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d2098446e843" publication-type="journal">
+G. VAĬNIKKO &amp; P. UBA, "A piecewise polynomial approximation to the solution of an integral
+equation with weakly singular kernel," J. Austral. Math. Soc. Ser. B, v. 22, 1981, pp. 431-438.<person-group>
+                     <string-name>
+                     <surname>Vaĭnikko</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>431</fpage>
+               <volume>22</volume>
+               <source>J. Austral. Math. Soc. Ser. B</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

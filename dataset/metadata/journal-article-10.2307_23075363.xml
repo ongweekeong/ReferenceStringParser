@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">275</issue>
+         <issue-id>i23075006</issue-id>
+         <article-id pub-id-type="jstor">23075363</article-id>
+         <title-group>
+            <article-title>CONVERGENCE OF A MIXED METHOD FOR A SEMI-STATIONARY COMPRESSIBLE STOKES SYSTEM</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>KENNETH H.</given-names>
+                  <surname>KARLSEN</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>TRYGVE K.</given-names>
+                  <surname>KARPER</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>1459</fpage>
+         <lpage>1498</lpage>
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075363"/>
+      
+      
+         <abstract>
+            <p>We propose and analyze a finite element method for a semi-stationary Stokes system modeling compressible fluid flow subject to a Navier-slip boundary condition. The velocity (momentum) equation is approximated by a mixed finite element method using the lowest order Nédélec spaces of the first kind, while the continuity equation is approximated by a piecewise constant upwind discontinuous Galerkin method. Our main result states that the numerical method converges to a weak solution. The convergence proof consists of two main steps: (i) To establish strong spatial compactness of the velocity field, which is intricate since the element spaces are only div or curl conforming. (ii) To prove the strong convergence of the discontinuous Galerkin approximations, which is required in view of a nonlinear pressure function. Some tools involved in the analysis include a higher space-time integrability estimate for the discontinuous Galerkin approximations, an equation for the effective viscous flux, various renormalized formulations of the discontinuous Galerkin method, and weak convergence arguments.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1948662e128a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1948662e135" publication-type="other">
+S. Agmon. Lectures on elliptic boundary value problems. Van Nostrand, Princeton, 1965.
+MR0178246 (31:2504)</mixed-citation>
+        </ref>
+        <ref id="d1948662e145a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1948662e152" publication-type="other">
+D. N. Arnold, R. S. Falk, and R. Winther. Finite element exterior calculus, homological
+techniques, and applications. Acta Numer., 15:1-155, 2006. MR2269741 (2007j:58002)</mixed-citation>
+        </ref>
+        <ref id="d1948662e162a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1948662e169" publication-type="other">
+D. N. Arnold, R. S. Falk, and R. Winther. Multigrid in H(div) and H(curl). Numer. Math.,
+85(2):197-217, 2000. MR1754719 (2001d:65161)</mixed-citation>
+        </ref>
+        <ref id="d1948662e179a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1948662e186" publication-type="other">
+S. C. Brenner and R. Scott. The mathematical theory of finite element methods, volume 15 of
+Texts in Applied Mathematics. Springer-Verlag, New York, 2002. MR1894376 (2003a:65103)</mixed-citation>
+        </ref>
+        <ref id="d1948662e197a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1948662e204" publication-type="other">
+S. C. Brenner, J. Cui, and L.-Y. Sung. A nonconforming finite element method for a
+two-dimensional curl-curl and grad-div problem. Numer. Math., 109(4):509—533, 2008.
+MR2407321 (2009c:65294)</mixed-citation>
+        </ref>
+        <ref id="d1948662e217a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1948662e224" publication-type="other">
+S. C. Brenner. Poincare-Friedrichs inequalities for piecewise H1 functions. SIAM J. Numer.
+Anal, 41(l):306-324 (electronic), 2003. MR1974504 (2004d:65140)</mixed-citation>
+        </ref>
+        <ref id="d1948662e234a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1948662e241" publication-type="other">
+F. Brezzi and M. Fortin. Mixed and hybrid finite element methods, volume 15 of Springer
+Series in Computational Mathematics. Springer-Verlag, New York, 1991. MR1115205
+(92d:65187)</mixed-citation>
+        </ref>
+        <ref id="d1948662e254a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1948662e261" publication-type="other">
+G.-Q. Chen, D. Hoff, and K. Trivisa. Global solutions of the compressible Navier-Stokes
+equations with large discontinuous initial data. Comm. Partial Differential Equations, 25(11-
+12):2233—2257, 2000. MR1789926 (2001h:35141)</mixed-citation>
+        </ref>
+        <ref id="d1948662e274a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1948662e281" publication-type="other">
+B. Cockburn. Discontinuous Galerkin methods for convection-dominated problems. In High-
+order methods for computational physics, volume 9 of Led. Notes Comput. Sci. Eng., pages
+69-224. Springer, Berlin, 1999. MR1712278 (2000f:76095)</mixed-citation>
+        </ref>
+        <ref id="d1948662e294a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1948662e301" publication-type="other">
+B. Cockburn and C.-W. Shu. Runge-Kutta discontinuous Galerkin methods for convection-
+dominated problems. J. Sci. Comput., 16(3): 173—261, 2001. MR1873283 (2002i:65099)</mixed-citation>
+        </ref>
+        <ref id="d1948662e312a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1948662e319" publication-type="other">
+S. Christiansen. Stability of Hodge decompositions in finite element spaces of differential
+forms in arbitrary dimension. Numer. Math. 107(1):87—106, 2007. MR2317829 (2008c:65318)</mixed-citation>
+        </ref>
+        <ref id="d1948662e329a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1948662e336" publication-type="other">
+K. Deimling. Nonlinear functional analysis. Springer-Verlag, Berlin, 1985. MR787404
+(86j:47001)</mixed-citation>
+        </ref>
+        <ref id="d1948662e346a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1948662e353" publication-type="other">
+R. J. DiPerna and P.-L. Lions. Ordinary differential equations, transport theory and Sobolev
+spaces. Invent. Math., 98(3):511-547, 1989. MR1022305 (90j:34004)</mixed-citation>
+        </ref>
+        <ref id="d1948662e363a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1948662e370" publication-type="other">
+E. Feireisl. Dynamics of viscous compressible fluids, volume 26 of Oxford Lecture Series
+in Mathematics and its Applications. Oxford University Press, Oxford, 2004. MR2040667
+(2005i:76092)</mixed-citation>
+        </ref>
+        <ref id="d1948662e383a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1948662e390" publication-type="other">
+T. Gallouet, R. Herbin, and J.-C. Latche. A convergent finite element-finite volume scheme
+for the compressible Stokes problem. Part I: The isothermal case. Math. Comp, Online, 2009.
+MR2501053 (2010c:65213)</mixed-citation>
+        </ref>
+        <ref id="d1948662e403a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1948662e410" publication-type="other">
+T. Gallouet, L. Gestaldo, R. Herbin, and J.-C. Latche. An unconditionally stable pressure
+correction scheme for the compressible barotropic Navier-Stokes equations. M2AN Math.
+Model. Numer. Anal., 42(2):303-331, 2008. MR2405150 (2009b:76125)</mixed-citation>
+        </ref>
+        <ref id="d1948662e424a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1948662e431" publication-type="other">
+V. Girault and P.-A. Raviart. Finite element methods for Navier-Stokes equations, volume 5
+of Springer Series in Computational Mathematics. Springer-Verlag, Berlin, 1986. Theory and
+algorithms. MR851383 (88b:65129)</mixed-citation>
+        </ref>
+        <ref id="d1948662e444a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1948662e451" publication-type="other">
+D. Hoff. Global existence for ID, compressible, isentropic Navier-Stokes equations with large
+initial data. Trans. Amer. Math. Soc., 303(1):169-181, 1987. MR896014 (88k:35162)</mixed-citation>
+        </ref>
+        <ref id="d1948662e461a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1948662e468" publication-type="other">
+D. Hoff. Discontinuous solutions of the Navier-Stokes equations for compressible flow. Arch.
+Rational Mech. Anal, 114(l):15-46, 1991. MR1088275 (92e:76052)</mixed-citation>
+        </ref>
+        <ref id="d1948662e478a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1948662e485" publication-type="other">
+P. Lasaint and P.-A. Raviart. On a finite element method for solving the neutron transport
+equation. In Mathematical aspects of finite elements in partial differential equations (Proc.
+Sympos., Math. Res. Center, Univ. Wisconsin, Madison, Wis., 1974), pages 89-123. Publi-
+cation No. 33. Math. Res. Center, Univ. of Wisconsin-Madison, Academic Press, New York,
+1974. MR0658142 (58:31918)</mixed-citation>
+        </ref>
+        <ref id="d1948662e504a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1948662e511" publication-type="other">
+P.-L. Lions. Mathematical topics in fluid mechanics. Vol. 1: Incompressible models. Oxford
+University Press, New York, 1996. MR1422251 (98b:76001)</mixed-citation>
+        </ref>
+        <ref id="d1948662e521a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1948662e528" publication-type="other">
+P.-L. Lions. Mathematical topics in fluid mechanics. Vol. 2: Compressible models. Oxford
+University Press, New York, 1998. MR1637634 (99m:76001)</mixed-citation>
+        </ref>
+        <ref id="d1948662e539a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1948662e546" publication-type="other">
+C. Liu and N. J. Walkington. Convergence of numerical approximations of the incompress-
+ible Navier-Stokes equations with variable density and viscosity. SI AM J. Numer. Anal.,
+45(3): 1287-1304 (electronic), 2007. MR2318813 (2008f:65177)</mixed-citation>
+        </ref>
+        <ref id="d1948662e559a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1948662e566" publication-type="other">
+
+              J.-C. Nedelec. Mixed finite elements in R
+              
+              . Numer. Math., 35(3):315-341, 1980. MR592160
+            
+(81k:65125)</mixed-citation>
+        </ref>
+        <ref id="d1948662e579a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1948662e586" publication-type="other">
+
+              J.-C. Nedelec. A new family of mixed finite elements in R
+              
+              . Numer. Math., 50(1):57-81, 1986.
+            
+MR864305 (88e:65145)</mixed-citation>
+        </ref>
+        <ref id="d1948662e599a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1948662e606" publication-type="other">
+W. Reed and T. Hill. Triangular mesh methods for the neutron transport equation. Tech.
+Report LA-UR-73-479, Los Alamos Scientific Laboratory, 1973.</mixed-citation>
+        </ref>
+        <ref id="d1948662e616a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d1948662e623" publication-type="other">
+F. Stummel. Basic compactness properties of nonconforming and hybrid finite element spaces.
+RAIRO Anal. Numer., 14(1):81-115, 1980. MR566091 (81h:65058)</mixed-citation>
+        </ref>
+        <ref id="d1948662e633a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d1948662e640" publication-type="other">
+R. S. Varga. Matrix iterative analysis, volume 27 of Springer Series in Computational Math-
+ematics. Springer-Verlag, New York, 2000. MR1753713 (2001g:65002)</mixed-citation>
+        </ref>
+        <ref id="d1948662e651a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d1948662e658" publication-type="other">
+N. J. Walkington. Convergence of the discontinuous Galerkin method for discontinuous solu-
+tions. SIAM J. Numer. Anal., 42(5):1801-1817 (electronic), 2005. MR2139223 (2006b:65147)</mixed-citation>
+        </ref>
+        <ref id="d1948662e668a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d1948662e675" publication-type="other">
+R. Zarnowski and D. Hoff. A finite-difference scheme for the Navier-Stokes equations of
+one-dimensional, isentropic, compressible flow. SIAM J. Numer. Anal., 28(1):78-112, 1991.
+MR1083325 (92d:65176)</mixed-citation>
+        </ref>
+        <ref id="d1948662e688a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d1948662e695" publication-type="other">
+J. Zhao and D. Hoff. A convergent finite-difference scheme for the Navier-Stokes equations of
+one-dimensional, nonisentropic, compressible flow. SIAM J. Numer. Anal., 31(5):1289-1311,
+1994. MR1293516 (95j:65105)</mixed-citation>
+        </ref>
+        <ref id="d1948662e708a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d1948662e715" publication-type="other">
+J. J. Zhao and D. Hoff. Convergence and error bound analysis of a finite-difference scheme for
+the one-dimensional Navier-Stokes equations. In Nonlinear evolutionary partial differential
+equations (Beijing, 1993), volume 3 of AMS/IP Stud. Adv. Math., pages 625-631. Amer.
+Math. Soc., Providence, RI, 1997. MR1468542</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

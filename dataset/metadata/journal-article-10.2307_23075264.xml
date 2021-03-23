@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">276</issue>
+         <issue-id>i23074956</issue-id>
+         <article-id pub-id-type="jstor">23075264</article-id>
+         <title-group>
+            <article-title>FLUX IDENTIFICATION FOR 1-d SCALAR CONSERVATION LAWS IN THE PRESENCE OF SHOCKS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>CARLOS</given-names>
+                  <surname>CASTRO</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>ENRIQUE</given-names>
+                  <surname>ZUAZUA</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>2025</fpage>
+         <lpage>2070</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075264"/>
+      
+      
+         <abstract>
+            <p>We consider the problem of flux identification for 1-d scalar conservation laws formulating it as an optimal control problem. We introduce a new optimization strategy to compute numerical approximations of minimizing fluxes. We first prove the existence of minimizers. We also prove the convergence of discrete minima obtained by means of monotone numerical approximation schemes, by a Γ-convergence argument. Then we address the problem of developing efficient descent algorithms. We first consider and compare the existing two possible approaches. The first one, the so-called discrete approach, based on a direct computation of gradients in the discrete problem and the so-called continuous one, where the discrete descent direction is obtained as a discrete copy of the continuous one. When optimal solutions have shock discontinuities, both approaches produce highly oscillating minimizing sequences and the effective descent rate is very weak. As a remedy we adapt the method of alternating descent directions that uses the recent developments of generalized tangent vectors and the linearization around discontinuous solutions, introduced by the authors, in collaboration with F. Palacios, in the case where the control is the initial datum. This method distinguishes descent directions that move the shock and those that perturb the profile of the solution away from it. As we shall see, a suitable alternating combination of these two classes of descent directions allows building more efficient and faster descent algorithms.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d81188e289a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d81188e296" publication-type="other">
+C. Bardos and O. Pironneau, A formalism for the differentiation of conservation laws, C. R.
+Acad. Sci. Paris, Ser. I, 335 (2002) 839-845. MR1947710 (2004c:35265)</mixed-citation>
+        </ref>
+        <ref id="d81188e306a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d81188e313" publication-type="other">
+C. Bardos and O. Pironneau, Derivatives and control in presence of shocks, Computational
+Fluid Dynamics Journal 11(4) (2003) 383-392.</mixed-citation>
+        </ref>
+        <ref id="d81188e323a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d81188e330" publication-type="other">
+C. Bardos and O. Pironneau, Data assimilation for conservation laws, Methods and Applica-
+tions of Analysis, 12 (2) (2005), 103-134. MR2257523 (2007k:35313)</mixed-citation>
+        </ref>
+        <ref id="d81188e340a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d81188e347" publication-type="other">
+F. Bouchut and F. James, One-dimensional transport equations with discontinuous coef-
+ficients, Nonlinear Analysis, Theory and Applications 32(7) (1998) 891-933. MR1618393
+(2000a:35243)</mixed-citation>
+        </ref>
+        <ref id="d81188e361a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d81188e368" publication-type="other">
+F. Bouchut and F. James, Differentiability with respect to inital data for a scalar conservation
+law, Proceedings of the 7th Int. Conf. on Hyperbolic Problems, Zurich 1998, International
+Series Num. Math. 129 (Birkhauser, 1999) 113-118. MR1715739 (2000g:35137)</mixed-citation>
+        </ref>
+        <ref id="d81188e381a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d81188e388" publication-type="other">
+F. Bouchut, F. James and S. Mancini, Uniqueness and weak stability for multi-dimensional
+transport equations with one-sided Lipschitz coefficient. Ann. Sc. Norm. Super. Pisa CI. Sci.
+4(5) (2005) 1-25. MR2165401 (2006j:35017)</mixed-citation>
+        </ref>
+        <ref id="d81188e401a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d81188e408" publication-type="other">
+F. Bouchut and B. Perthame, Kruzkov's estimates for scalar conservation laws revisited,
+Transactions of the American Mathematical Society, 350 (7) (1998) 2847-2870. MR1475677
+(98m:65156)</mixed-citation>
+        </ref>
+        <ref id="d81188e421a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d81188e428" publication-type="other">
+Y. Brenier and S. Osher, The discrete one-sided Lipschitz condition for convex scalar conser-
+vation laws, SIAM Journal on Numerical Analysis 25(1) (1988) 8-23. MR923922 (89a:65134)</mixed-citation>
+        </ref>
+        <ref id="d81188e438a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d81188e445" publication-type="other">
+A. Bressan and A. Marson, A variational calculus for discontinuous solutions of systems of
+conservation laws, Commun. in Partial Differential Equations 20(9—10) (1995) 1491-1552.
+MR1349222 (96g:35120)</mixed-citation>
+        </ref>
+        <ref id="d81188e458a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d81188e465" publication-type="other">
+A. Bressan and A. Marson, A maximum principle for optimally controlled systems of conser-
+vation laws, Rend. Sem. Mat. Univ. Padova 94 (1995) 79-94. MR1370904 (97c:49025)</mixed-citation>
+        </ref>
+        <ref id="d81188e476a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d81188e483" publication-type="other">
+C. Castro, F. Palacios and E. Zuazua, An alternating descent method for the optimal control
+of the inviscid Burgers equation in presence of discontinuities, Mathematical Models and
+Methods in Applied Science, 18 (3) (2008), 369-416. MR2397976 (2009c:35392)</mixed-citation>
+        </ref>
+        <ref id="d81188e496a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d81188e503" publication-type="other">
+C. Castro, F. Palacios y E. Zuazua, Optimal control and vanishing viscosity for the Burgers
+equation, in proceedings of Integral Methods in Science and Engineering, Vol. 2, Computa-
+tional Methods, C. Constanda et al. eds., Birkhauser Boston, 2010, 65-90.</mixed-citation>
+        </ref>
+        <ref id="d81188e516a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d81188e523" publication-type="other">
+G. Dal Maso, Ph. Le Floch and F. Murat, Definition and weak stability of nonconservative
+products, J. Math. Pures Appl. 74 (1995) 458-483. MR1365258 (97b:46052)</mixed-citation>
+        </ref>
+        <ref id="d81188e533a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d81188e540" publication-type="other">
+M. Escobedo, J.L. Vazquez and E. Zuazua, Asymptotic behaviour and source-type solutions
+for a diffusion-convection equation, Arch. Rat. Mech. Anal. 124(1) (1993) 43-65. MR1233647
+(94j:35077)</mixed-citation>
+        </ref>
+        <ref id="d81188e553a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d81188e560" publication-type="other">
+S. Garreau, Ph. Guillaume and M. Masmoudi, The topological asymptotic for PDE sys-
+tems: the elasticity case. SIAM J. Control Optim. 39(6) (2001) 1756-177. MR1825864
+(2002m:49062)</mixed-citation>
+        </ref>
+        <ref id="d81188e573a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d81188e580" publication-type="other">
+M.B. Giles and N.A. Pierce, Analytic adjoint solutions for the quasi one-dimensional Euler
+equations, J. Fluid Mechanics 426 (2001) 327-345. MR1819479 (2002a:76037)</mixed-citation>
+        </ref>
+        <ref id="d81188e591a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d81188e598" publication-type="other">
+R. Glowinski, Numerical Methods for Fluids (Part 3) Handbook of Numerical analysis, vol.
+IX (Ph. Ciarlet and J. L. Lions eds., Elsevier, 2003). MR2009814 (2004j:65001)</mixed-citation>
+        </ref>
+        <ref id="d81188e608a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d81188e615" publication-type="other">
+R. Glowinski, J.-L. Lions and R. Tremolieres, Analyse Numerique des Inegalites Variation-
+nelles, Vol.1: Theorie General: Premieres Applications, Dunod, Paris, 1976. MR0655454
+(58:31697a)</mixed-citation>
+        </ref>
+        <ref id="d81188e628a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d81188e635" publication-type="other">
+E. Godlewski and P.A. Raviart, The linearized stability of solutions of nonlinear hyperbolic
+systems of conservation laws. A general numerical approach, Mathematics and Computer in
+Simulations 50 (1999) 77-95. MR1717658 (2000i:35119)</mixed-citation>
+        </ref>
+        <ref id="d81188e648a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d81188e655" publication-type="other">
+E. Godlewski and P.A. Raviart, Hyperbolic systems of conservation laws, Mathematiques and
+Applications, (Ellipses, Paris, 1991). MR1304494 (95i:65146)</mixed-citation>
+        </ref>
+        <ref id="d81188e665a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d81188e672" publication-type="other">
+E. Godlewski, M. Olazabal and P.A. Raviart, On the linearization of hyperbolic systems
+of conservation laws. Application to stability, Equations differentiates et Applications, ar-
+ticles dedies a Jacques-Louis Lions (Gauthier-Villars, Paris, 1998) 549-570. MR1648240
+(99h:35125)</mixed-citation>
+        </ref>
+        <ref id="d81188e688a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d81188e695" publication-type="other">
+E. Godlewski and P.A. Raviart, Numerical approximation of hyperbolic systems of conserva-
+tion laws (Springer-Verlag, 1996). MR1410987 (98d:65109)</mixed-citation>
+        </ref>
+        <ref id="d81188e706a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d81188e713" publication-type="other">
+L. Gosse and F. James, Numerical approximations of one-dimensional linear conservation
+equations with discontinuous coefficients, Mathematics of Computation 69 (2000) 987-1015.
+MR1670896 (2000j:65077)</mixed-citation>
+        </ref>
+        <ref id="d81188e726a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d81188e733" publication-type="other">
+C. Hirsch, Numerical computation of internal and external flows, Vol. 1 and 2 (John Wiley
+and Sons, 1988).</mixed-citation>
+        </ref>
+        <ref id="d81188e743a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d81188e750" publication-type="other">
+F. James and M. Postel, Numerical gradient methods for flux identification in a system of
+conservation laws, J. Eng. Math. 60 (2008) 293-317. MR2396486 (2009b:65211)</mixed-citation>
+        </ref>
+        <ref id="d81188e760a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d81188e767" publication-type="other">
+F. James and M. Sepulveda, Convergence results for the flux identification in a scalar conser-
+vation law. SI AM J. Control Optim. 37(3) (1999) 869-891. MR1680830 (2000b:65171)</mixed-citation>
+        </ref>
+        <ref id="d81188e777a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d81188e784" publication-type="other">
+S. N. Kruzkov, First order quasilinear equations with several space variables, Math. USSR.
+Sb., 10 (1970) 217-243.</mixed-citation>
+        </ref>
+        <ref id="d81188e794a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d81188e801" publication-type="other">
+R. LeVeque, Finite Volume Methods for Hyperbolic Problems (Cambridge Univesity Press,
+2002). MR1925043 (2003h:65001)</mixed-citation>
+        </ref>
+        <ref id="d81188e812a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d81188e819" publication-type="other">
+B. Lucier, A moving mesh numerical method for hyperbolic conservation laws, Math, of Comp.
+46(173) (1986), 59-69. MR815831 (87m:65141)</mixed-citation>
+        </ref>
+        <ref id="d81188e829a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d81188e836" publication-type="other">
+A. Majda, The stability of multidimensional shock fronts (AMS, 1983). MR683422
+(84e:35100)</mixed-citation>
+        </ref>
+        <ref id="d81188e846a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d81188e853" publication-type="other">
+G. Metivier, Stability of multidimensional shocks, course notes at http://www.math.u-
+bordeaux.fr/~metivier/cours.html (2003).</mixed-citation>
+        </ref>
+        <ref id="d81188e863a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d81188e870" publication-type="other">
+B. Mohammadi and O. Pironneau, Shape optimization in fluid mechanics, Annual Rev. Fluids
+Mechanics 36 (2004) 255-279. MR2062314 (2005a:76138)</mixed-citation>
+        </ref>
+        <ref id="d81188e880a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d81188e887" publication-type="other">
+S. Nadarajah and A. Jameson, A Comparison of the Continuous and Discrete Adjoint Ap-
+proach to Automatic Aerodynamic Optimization, AIAA Paper 2000-0667, 38th Aerospace
+Sciences Meeting and Exhibit, January 2000, Reno, NV.</mixed-citation>
+        </ref>
+        <ref id="d81188e900a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d81188e907" publication-type="other">
+O. Oleinik, Discontinuous solutions of nonlinear differential equations, Uspekhi Mat. Nauk.
+12 (1957) 3-73 (In Russian)</mixed-citation>
+            <mixed-citation id="d81188e916" publication-type="other">
+Amer. Math. Soc. Trans. 26 95-172 (In English). MR0094541
+(20:1055)</mixed-citation>
+        </ref>
+        <ref id="d81188e927a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d81188e934" publication-type="other">
+S. Ubrich, Adjoint-based derivative computations for the optimal control of discontinuous
+solutions of hyperbolic conservation laws, Systems and Control Letters 48 (2003) 313-328.
+MR2020647 (2005g:49042)</mixed-citation>
+        </ref>
+        <ref id="d81188e947a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d81188e954" publication-type="other">
+K. Yosida, Functional Analysis, (Springer, 1995). MR1336382 (96a:46001)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

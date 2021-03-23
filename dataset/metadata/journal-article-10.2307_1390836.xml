@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260256</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390836</article-id>
+         
+         <title-group>
+            <article-title>On the Convergence of Successive Substitution Sampling</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mark J.</given-names>
+                  <surname>Schervish</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bradley P.</given-names>
+                  <surname>Carlin</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>111</fpage>
+         <lpage>127</lpage>
+         <page-range>111-127</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1992 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390836"/>
+         
+         
+         <abstract>
+            <p>The problem of finding marginal distributions of multidimensional random quantities has many applications in probability and statistics. Many of the solutions currently in use are very computationally intensive. For example, in a Bayesian inference problem with a hierarchical prior distribution, one is often driven to multidimensional numerical integration to obtain marginal posterior distributions of the model parameters of interest. Recently, however, a group of Monte Carlo integration techniques that fall under the general banner of successive substitution sampling (SSS) have proven to be powerful tools for obtaining approximate answers in a very wide variety of Bayesian modeling situations. Answers may also be obtained at low cost, both in terms of computer power and user sophistication. Important special cases of SSS include the "Gibbs sampler" described by Gelfand and Smith and the "IP algorithm" described by Tanner and Wong. The major problem plaguing users of SSS is the difficulty in ascertaining when "convergence" of the algorithm has been obtained. This problem is compounded by the fact that what is produced by the sampler is not the functional form of the desired marginal posterior distribution, but a random sample from this distribution. This article gives a general proof of the convergence of SSS and the sufficient conditions for both strong and weak convergence, as well as a convergence rate. We explore the connection between higher-order eigenfunctions of the transition operator and accelerated convergence via good initial distributions. We also provide asymptotic results for the sampling component of the error in estimating the distributions of interest. Finally, we give two detailed examples from familiar exponential family settings to illustrate the theory.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Gibbs sampler</kwd>
+            <kwd>Numerical estimation of distributions</kwd>
+            <kwd>Posterior distribution</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2531989e144a1310">
+               
+               <mixed-citation id="d2531989e148" publication-type="book">
+Akhiezer, N.I., and Glazman, I.M. (1961), Theory of Linear Operators in Hilbert Space, New York: Frederick
+Ungar.<person-group>
+                     <string-name>
+                     <surname>Akhiezer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of Linear Operators in Hilbert Space</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e173a1310">
+               
+               <mixed-citation id="d2531989e177" publication-type="book">
+Berberian, S.K. (1961), Introduction to Hilbert Space, New York: Oxford University Press.<person-group>
+                     <string-name>
+                     <surname>Berberian</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Hilbert Space</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e199a1310">
+               
+               <mixed-citation id="d2531989e203" publication-type="journal">
+Besag, J. (1974), "Spatial Interaction and the Statistical Analysis of Lattice Systems" (with discussion), Journal
+of the Royal Statistical Society, Ser. B, 36, 192-236.<person-group>
+                     <string-name>
+                     <surname>Besag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>192</fpage>
+               <volume>36</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e235a1310">
+               
+               <mixed-citation id="d2531989e239" publication-type="other">
+Diebolt, J., and Robert, C. (1990), "Bayesian Estimation of Finite Mixture Distribution, Part II: Sampling
+Implementation," unpublished manuscript.</mixed-citation>
+            </ref>
+            <ref id="d2531989e250a1310">
+               
+               <mixed-citation id="d2531989e254" publication-type="book">
+Dunford, N., and Schwartz, J.T. (1963), Linear Operators, Part II: Spectral Theory, New York: Wiley
+Interscience.<person-group>
+                     <string-name>
+                     <surname>Dunford</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Operators, Part II: Spectral Theory</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e279a1310">
+               
+               <mixed-citation id="d2531989e283" publication-type="book">
+Eddy, W.F., and Schervish, M.J. (1991), "How Many Comparisons Does Quicksort Use?" Technical Report
+536, Camegie Mellon University, Department of Statistics.<person-group>
+                     <string-name>
+                     <surname>Eddy</surname>
+                  </string-name>
+                  </person-group>
+               <source>How Many Comparisons Does Quicksort Use?</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e308a1310">
+               
+               <mixed-citation id="d2531989e312" publication-type="other">
+Escobar, M. D. (1988), "Estimating the Means of Several Normal Populations by Nonparametric Estimation
+of the Distribution of the Means," PhD thesis, Yale University, Department of Statistics.</mixed-citation>
+            </ref>
+            <ref id="d2531989e322a1310">
+               
+               <mixed-citation id="d2531989e326" publication-type="book">
+Feller, W. (1971), An Introduction to Probability Theory and Its Applications, vol. II, (2nd ed.), New York:
+John Wiley.<person-group>
+                     <string-name>
+                     <surname>Feller</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>II</volume>
+               <source>An Introduction to Probability Theory and Its Applications</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e358a1310">
+               
+               <mixed-citation id="d2531989e362" publication-type="journal">
+Gelfand, A.E., and Smith, A.F.M. (1990), "Sampling Based Approaches to Calculating Marginal Densities,"
+Journal of the American Statistical Association, 85, 398-409.<object-id pub-id-type="doi">10.2307/2289776</object-id>
+               <fpage>398</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e378a1310">
+               
+               <mixed-citation id="d2531989e382" publication-type="book">
+Gelman, A., and Rubin, D.B. (in press,a). "A Single Series from the Gibbs Sampler Provides a False Sense
+of Security," in Bayesian Statistics 4, eds. J. M. Bernardo, J. 0. Berger, A. P. Dawid and A. F. M. Smith,
+Oxford: University Press.<person-group>
+                     <string-name>
+                     <surname>Gelman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Single Series from the Gibbs Sampler Provides a False Sense of Security</comment>
+               <source>Bayesian Statistics 4</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e412a1310">
+               
+               <mixed-citation id="d2531989e416" publication-type="journal">
+(in press,b). "Inference from Iterative Simulation Using Multiple Sequences," in Statistical Science, 7.<person-group>
+                     <string-name>
+                     <surname>Gelman</surname>
+                  </string-name>
+                  </person-group>
+               <volume>7</volume>
+               <source>Statistical Science</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e438a1310">
+               
+               <mixed-citation id="d2531989e442" publication-type="journal">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and the Bayesian Restoration
+of Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721-741.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>721</fpage>
+               <volume>6</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e474a1310">
+               
+               <mixed-citation id="d2531989e478" publication-type="book">
+Gikhman, I.I., and Skorokhod, A.V. (1969), Introduction to the Theory of Random Processes, Philadelphia:
+W. B. Saunders.<person-group>
+                     <string-name>
+                     <surname>Gikhman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to the Theory of Random Processes</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e503a1310">
+               
+               <mixed-citation id="d2531989e507" publication-type="book">
+Green, C.D. (1969), Integral Equation Methods, New York: Barnes and Noble.<person-group>
+                     <string-name>
+                     <surname>Green</surname>
+                  </string-name>
+                  </person-group>
+               <source>Integral Equation Methods</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e529a1310">
+               
+               <mixed-citation id="d2531989e533" publication-type="book">
+Hamming, R. (1973), Numerical Methods for Scientists and Engineers, (2nd ed.), New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>Hamming</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Numerical Methods for Scientists and Engineers</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e558a1310">
+               
+               <mixed-citation id="d2531989e562" publication-type="journal">
+Hoare, C.A. (1962), "Quicksort," Computer Journal, 5, 10-15.<person-group>
+                     <string-name>
+                     <surname>Hoare</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>10</fpage>
+               <volume>5</volume>
+               <source>Computer Journal</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e592a1310">
+               
+               <mixed-citation id="d2531989e596" publication-type="journal">
+Metropolis, N., Rosenbluth, A.W., Rosenbluth, M.N., Teller, A.H., and Teller, E. (1953), "Equations of
+State Calculations by Fast Computing Machines," The Journal of Chemical Physics, 21, 1087-1091.<person-group>
+                     <string-name>
+                     <surname>Metropolis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1087</fpage>
+               <volume>21</volume>
+               <source>The Journal of Chemical Physics</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e628a1310">
+               
+               <mixed-citation id="d2531989e632" publication-type="book">
+Raftery, A., and Lewis, S. (in press). "How Many Iterations in the Gibbs Sampler?" in Bayesian Statistics 4,
+eds. J. M. Bernardo, J. 0. Berger, A. P. Dawid and A. F. M. Smith, Oxford: University Press.<person-group>
+                     <string-name>
+                     <surname>Raftery</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">How Many Iterations in the Gibbs Sampler?</comment>
+               <source>Bayesian Statistics 4</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e657a1310">
+               
+               <mixed-citation id="d2531989e661" publication-type="journal">
+Roberts, G., and Polson, N. (1990), "On the Geometric Convergence of the Gibbs Sampler," unpublished
+manuscript submitted to The Journal of the Royal Statistical Society, Ser. B.<person-group>
+                     <string-name>
+                     <surname>Roberts</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e686a1310">
+               
+               <mixed-citation id="d2531989e690" publication-type="journal">
+Tanner, M.A., and Wong, W.H. (1987), "The Calculation of Posterior Distributions by Data Augmentation"
+(with discussion), Journal of the American Statistical Association, 82, 528-550.<object-id pub-id-type="doi">10.2307/2289457</object-id>
+               <fpage>528</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2531989e706a1310">
+               
+               <mixed-citation id="d2531989e710" publication-type="book">
+Tricomi, F.G. (1957), Integral Equations, New York: Wiley Interscience.<person-group>
+                     <string-name>
+                     <surname>Tricomi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Integral Equations</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

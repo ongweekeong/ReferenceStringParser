@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260300</issue-id>
+         <article-id pub-id-type="jstor">1391201</article-id>
+         
+         <title-group>
+            <article-title>Reliability Measures for Local Nodes Assessment in Classification Trees</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Petra M.</given-names>
+                  <surname>Kuhnert</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Kerrie</given-names>
+                  <surname>Mengersen</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>398</fpage>
+         <lpage>416</lpage>
+         <page-range>398-416</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391201"/>
+         
+         
+         <abstract>
+            <p>Most of the modern developments with classification trees are aimed at improving their predictive capacity. This article considers a curiously neglected aspect of classification trees, namely the reliability of predictions that come from a given classification tree. In the sense that a node of a tree represents a point in the predictor space in the limit, the aim of this article is the development of localized assessment of the reliability of prediction rules. A classification tree may be used either to provide a probability forecast, where for each node the membership probabilities for each class constitutes the prediction, or a true classification where each new observation is predictively assigned to a unique class. Correspondingly, two types of reliability measure will be derived--namely, prediction reliability and classification reliability. We use bootstrapping methods as the main tool to construct these measures. We also provide a suite of graphical displays by which they may be easily appreciated. In addition to providing some estimate of the reliability of specific forecasts of each type, these measures can also be used to guide future data collection to improve the effectiveness of the tree model. The motivating example we give has a binary response, namely the presence or absence of a species of Eucalypt, Eucalyptus cloeziana, at a given sampling location in response to a suite of environmental covariates, (although the methods are not restricted to binary response data).</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Binary classification</kwd>
+            <kwd>Bootstrap</kwd>
+            <kwd>CART</kwd>
+            <kwd>Local assessment</kwd>
+            <kwd>Spatial prediction maps</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2000765e220a1310">
+               
+               <mixed-citation id="d2000765e224" publication-type="book">
+Austin, M.P., Meyers, J.A., and Doherty, M.D. (1994), "Predictive Models for Landscape Patterns and Processes,
+Sub-project 2, Modelling of Landscape Patterns and Processes using Biological Data," Division of Wildlife
+Ecology, Commonwealth Scientific and Industrial Research Organisation.<person-group>
+                     <string-name>
+                     <surname>Austin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Predictive Models for Landscape Patterns and Processes, Sub-project 2, Modelling of Landscape Patterns and Processes using Biological Data</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e253a1310">
+               
+               <mixed-citation id="d2000765e257" publication-type="book">
+Austin, M.P., Pausus, J.G., and Noble, I. (1997), "Modelling Environmental and Temporal Niches of Eucalypts,"
+in Eucalypt Ecology: Individuals to Ecosystems, eds. J. E. Williams and J. C. Z. Woinsarski, Melbourne:
+Cambridge University Press, pp. 129-150.<person-group>
+                     <string-name>
+                     <surname>Austin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Modelling Environmental and Temporal Niches of Eucalypts</comment>
+               <fpage>129</fpage>
+               <source>Eucalypt Ecology: Individuals to Ecosystems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e292a1310">
+               
+               <mixed-citation id="d2000765e296" publication-type="journal">
+Bell, J.F. (1996), "Application of Classification Trees to the Habitat Preference of Upland Birds," Journal of
+Applied Statistics, 23, 349-359.<person-group>
+                     <string-name>
+                     <surname>Bell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>349</fpage>
+               <volume>23</volume>
+               <source>Journal of Applied Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e328a1310">
+               
+               <mixed-citation id="d2000765e332" publication-type="journal">
+Breiman, L. (1996a), "Bagging Predictors," Machine Learning, 24, 123-140.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>24</volume>
+               <source>Machine Learning</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e362a1310">
+               
+               <mixed-citation id="d2000765e366" publication-type="journal">
+(1996b), "Technical Note: Some Properties of Splitting Criteria," Machine Learning, 24, 41-47.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>24</volume>
+               <source>Machine Learning</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e395a1310">
+               
+               <mixed-citation id="d2000765e399" publication-type="journal">
+(1998), "Arcing Classifiers" (with discussion), The Annals of Statistics, 26, 801-841.<object-id pub-id-type="jstor">10.2307/120055</object-id>
+               <fpage>801</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e412a1310">
+               
+               <mixed-citation id="d2000765e416" publication-type="book">
+Breiman, L., Friedman, J.H., Olshen, R.A., and Stone, C.J. (1984), Classification and Regression Trees, Belmont,
+CA: Wadsworth.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Classification and Regression Trees</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e441a1310">
+               
+               <mixed-citation id="d2000765e445" publication-type="conference">
+Cappelli, C., Mola, F., and Siciliano, R. (1998), "An Alternative Pruning Procedure Based on the Impurity-
+Complexity Measure," in Proceedings in Computational Statistics: 13th Symposium of COMPSTAT, eds. R.
+Payne and P. Green, Heidelberg: Physica Verlag, pp. 221-226.<person-group>
+                     <string-name>
+                     <surname>Cappelli</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An Alternative Pruning Procedure Based on the ImpurityComplexity Measure</comment>
+               <fpage>221</fpage>
+               <source>Proceedings in Computational Statistics: 13th Symposium of COMPSTAT</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e480a1310">
+               
+               <mixed-citation id="d2000765e484" publication-type="journal">
+Cappelli, C., Mola, F., and Siciliano, R. (2002), "A Statistical Approach to Growing a Reliable Honest Tree,"
+Computational Statistics and Data Analysis, 38, 285-299.<person-group>
+                     <string-name>
+                     <surname>Cappelli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <volume>38</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e516a1310">
+               
+               <mixed-citation id="d2000765e520" publication-type="journal">
+Crawford, S. L (1989), "Extensions to the CART Algorithm," International Journal of Man-Machine Studies, 31,
+197-217.<person-group>
+                     <string-name>
+                     <surname>Crawford</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>31</volume>
+               <source>International Journal of Man-Machine Studies</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e553a1310">
+               
+               <mixed-citation id="d2000765e557" publication-type="journal">
+De'Ath, G., and Fabricius, K.E. (2000), "Classification and Regression Trees: A Powerful yet Simple Technique
+for the Analysis of Complex Ecological Data," Ecology, 813178-3192.<object-id pub-id-type="doi">10.2307/177409</object-id>
+               <fpage>3178</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e573a1310">
+               
+               <mixed-citation id="d2000765e577" publication-type="book">
+Efron, B., and Tibshirani, R.J. (1993), An Introduction to the Bootstrap, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Bootstrap</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e599a1310">
+               
+               <mixed-citation id="d2000765e603" publication-type="journal">
+Esposito, F., Malerba, D., and Semeraro, G. (1997), "A Comparative Analysis of Methods for Pruning Decision
+Trees," IEEE Transactions on Pattern Analysis and Machine Intelligence, 19, 476-491.<person-group>
+                     <string-name>
+                     <surname>Esposito</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>476</fpage>
+               <volume>19</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e635a1310">
+               
+               <mixed-citation id="d2000765e639" publication-type="journal">
+Franklin, J. (1998), "Predicting the Distribution of Shrub Species in Southern California from Climate and Terrain-
+Derived Variables," Journal of Vegetation Science, 9, 733-748.<object-id pub-id-type="doi">10.2307/3237291</object-id>
+               <fpage>733</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e655a1310">
+               
+               <mixed-citation id="d2000765e659" publication-type="conference">
+Freund, Y., and Schapire, R.E. (1996), "Experiments With a New Boosting Algorithm," Machine Learning:
+Proceedings of the Thirteenth International Conference, Bari, Italy, 3-6 July.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Experiments With a New Boosting Algorithm</comment>
+               <source>Machine Learning: Proceedings of the Thirteenth International Conference</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e688a1310">
+               
+               <mixed-citation id="d2000765e692" publication-type="journal">
+Friedman, J.H., Hastie, T., and Tibshirani, R. (2000), "Additive Logistic Regression: A Statistical View of
+Boosting," The Annals of Statistics, 28, 337-407.<object-id pub-id-type="jstor">10.2307/2674028</object-id>
+               <fpage>337</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e709a1310">
+               
+               <mixed-citation id="d2000765e713" publication-type="book">
+Gill, R.W., Kuhnert, P.M., Warren, P.S., Stone, G., and Kossoff, G. (1996), "Multi-Parameter Fetal Risk Assess-
+ment in Pregnancies with Risk Factors," in HIC'96-Making IT Happen, eds. Bill McGuinness and Trish
+Leeder, pp. 61-65.<person-group>
+                     <string-name>
+                     <surname>Gill</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multi-Parameter Fetal Risk Assessment in Pregnancies with Risk Factors</comment>
+               <fpage>61</fpage>
+               <source>HIC'96-Making IT Happen</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e748a1310">
+               
+               <mixed-citation id="d2000765e752" publication-type="journal">
+Kuhnert, P.M., Do, K-A., and McClure, R. (2000), "Combining Non-parametric Models with Logistic Regression:
+An Application to Motor Vehicle Injury Data," Computational Statistics and Data Analysis, 34, 371-386.<person-group>
+                     <string-name>
+                     <surname>Kuhnert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>371</fpage>
+               <volume>34</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e784a1310">
+               
+               <mixed-citation id="d2000765e788" publication-type="book">
+McCormack, B.L. (1995), "Timber Inventory Manual for the Native Forests of Queensland," Queensland Depart-
+ment of Primary Industries-Forest Service (Native Forests Section), Brisbane QLD, January, 1995.<person-group>
+                     <string-name>
+                     <surname>McCormack</surname>
+                  </string-name>
+                  </person-group>
+               <source>Timber Inventory Manual for the Native Forests of Queensland</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e813a1310">
+               
+               <mixed-citation id="d2000765e817" publication-type="book">
+Mola, F., and Siciliano, R. (1997), "A Fast Splitting Procedure for Classification and Regression Trees," in Statistics
+and Computing 7, New York: Chapman and Hall, pp. 208-216.<person-group>
+                     <string-name>
+                     <surname>Mola</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Fast Splitting Procedure for Classification and Regression Trees</comment>
+               <fpage>208</fpage>
+               <source>Statistics and Computing 7</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e849a1310">
+               
+               <mixed-citation id="d2000765e853" publication-type="journal">
+Nelson, L.M., Bloch, D.A., Longstreth, W.T., and Shi, H. 1998), "Recursive Partitioning for the Identifica-
+tion of Disease Risk Subgroups: A Case-Control Study of Subarachnoid Hemorrhage," Journal of Clinical
+Epidemiology, 51, 199-209.<person-group>
+                     <string-name>
+                     <surname>Nelson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>51</volume>
+               <source>Journal of Clinical Epidemiology</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e888a1310">
+               
+               <mixed-citation id="d2000765e892" publication-type="journal">
+Quartararo, M., Glasziou, P., and Kerr, C.B. (1995), "Classification Trees for Decision Making in Long-Term
+Care," Journals of Gerontology Series A, Biological Sciences and Medical Sciences, 50, 298-302.<person-group>
+                     <string-name>
+                     <surname>Quartararo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>298</fpage>
+               <volume>50</volume>
+               <source>Journals of Gerontology Series A, Biological Sciences and Medical Sciences</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e925a1310">
+               
+               <mixed-citation id="d2000765e929" publication-type="conference">
+Quinlan, J.R. (1996), "Bagging, Boosting, and C4.5," in Proceedings of the 13th National Conference on Artificial
+Intelligence, Providence, RI: AAAI Press, pp. 725-730.<person-group>
+                     <string-name>
+                     <surname>Quinlan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bagging, Boosting, and C4.5</comment>
+               <fpage>725</fpage>
+               <source>Proceedings of the 13th National Conference on Artificial Intelligence</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e961a1310">
+               
+               <mixed-citation id="d2000765e965" publication-type="journal">
+Rao, J.S., and Potts, W.J.E. (in press), "Locally Bagged Classification and Regression Trees," Biometrics.<person-group>
+                     <string-name>
+                     <surname>Rao</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrics.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e984a1310">
+               
+               <mixed-citation id="d2000765e988" publication-type="journal">
+Siciliano, R., and Mola, F. (2000), "Multivariate Data Analysis Through Classification and Regression Trees,
+Computational Statistics and Data Analysis, 32, 285-301.<person-group>
+                     <string-name>
+                     <surname>Siciliano</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <volume>32</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e1020a1310">
+               
+               <mixed-citation id="d2000765e1024" publication-type="book">
+Therneau, T. M., and Atkinson,E.(1997),"An Introduction to Recursive Partitioning Using the RPART Routines,"
+Mayo Foundation, Rochester; available online at http://lib.stat.cmu.edu/DOS/S/SWin/RPARTdoc.zip.<person-group>
+                     <string-name>
+                     <surname>Therneau</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to Recursive Partitioning Using the RPART Routines</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e1049a1310">
+               
+               <mixed-citation id="d2000765e1053" publication-type="book">
+Thompson, J., Bean, A., Dillewaard, H., Sparshott, K., Grimshaw, P., Dowling, R., Stephens, K., Price, R., and
+Stanley, T. (1996), "Methodology for Vegetation Survey and Mapping for Eastern Queensland," Queensland
+Department of Environment and Heritage, September 1996.<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methodology for Vegetation Survey and Mapping for Eastern Queensland</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e1082a1310">
+               
+               <mixed-citation id="d2000765e1086" publication-type="journal">
+Williams, K.J., Norman, P., and Mengersen, K. (2001),"Predicting the Natural Occurrence of Blackbutt and
+Gympie Messmate in Southeast Queensland," Australian Forestry, 63, 199-210.<person-group>
+                     <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>63</volume>
+               <source>Australian Forestry</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000765e1119a1310">
+               
+               <mixed-citation id="d2000765e1123" publication-type="conference">
+Williams, K.J., Ward, D., Mengersen, K., Norman, P., Ryan, P., and Buck, R., and Ross, Y. (2000), "Are We
+Only Guessing? Progress in Spatial Regression Modelling to Select Native Hardwoods for Forest Growers,"
+Managing and Growing Trees Training Conference, 19-21st October 1988, eds. W. Brisick, and A. Grodecki,
+Brisbane: Queensland Department of Natural Resources.<person-group>
+                     <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Are We Only Guessing? Progress in Spatial Regression Modelling to Select Native Hardwoods for Forest Growers</comment>
+               <source>Managing and Growing Trees Training Conference, 19-21st October 1988</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

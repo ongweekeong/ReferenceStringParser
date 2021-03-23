@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">64</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">212</issue>
+         <issue-id>i337668</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153372</article-id>
+         
+         <title-group>
+            <article-title>Low-Rank Modification of the Unsymmetric Lanczos Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Thomas</given-names>
+                  <surname>Huckle</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>1577</fpage>
+         <lpage>1588</lpage>
+         <page-range>1577-1588</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1995 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153372"/>
+         
+         
+         <abstract>
+            <p>The unsymmetric Lanczos algorithm is an important method for eigenvalue estimation and for solving linear equations. Unfortunately, the algorithm may break down without providing useful information; this is referred to as a serious breakdown in the literature. Here, we introduce a low-rank modification of the original matrix A in the case of a serious breakdown. This modification can be used to cure a serious breakdown as long as we have orthogonality of the already computed Lanczos vectors. We can switch to a new rank-1 modified matrix &lt;tex-math&gt;$\tilde A = A + ab^T$&lt;/tex-math&gt; such that - the Lanczos algorithm has no serious breakdown in this step when applied on Ã, - the already computed variables in the Lanczos algorithm for A and Ã coincide, - using a Lanczos-based iterative solver, e.g. BCG or QMR, with start vectors x&lt;sub&gt;0&lt;/sub&gt; = 0 and v&lt;sub&gt;1&lt;/sub&gt; = f, we have &lt;tex-math&gt;$A^{-1} f = \tilde A^{-1} f$&lt;/tex-math&gt;, and thus by continuing the Lanczos algorithm with Ã we automatically get the desired solution A&lt;sup&gt;-1&lt;/sup&gt; f. Also, if the Lanczos vectors have lost their orthogonality, we show theoretically and by numerical examples that the modified Lanczos method has the same convergence behavior as the Lanczos method without breakdown. Thus, in the case of a serious breakdown we only have to compute the new rank-1 modified matrix Ã and step further in the original algorithm now using Ã.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d2049172e126a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2049172e133" publication-type="book">
+J. Cullum and R. A. Willoughby, A practical procedure for computing eigenvalues of large
+sparse nonsymmetric matrices, Large Scale Eigenvalue Problems (J. Cullum and R. A.
+Willoughby, eds.), North-Holland, Amsterdam, 1986, pp. 193-240.<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A practical procedure for computing eigenvalues of large sparse nonsymmetric matrices</comment>
+               <fpage>193</fpage>
+               <source>Large Scale Eigenvalue Problems</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e168a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2049172e175" publication-type="journal">
+R. W. Freund, G. H. Golub, and N. M. Nachtigal, Iterative solution of linear systems, Acta
+Numerica (1991), 1-44.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <source>Acta Numerica</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e204a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2049172e211" publication-type="journal">
+R. W. Freund, M. H. Gutknecht, and N. M. Nachtigal, An implementation of the look-ahead
+Lanczos algorithm for non-Hermitian matrices, SIAM J. Sci. Statist. Comput.14 (1993),
+137-158.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>137</fpage>
+               <volume>14</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e246a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2049172e253" publication-type="journal">
+R. W. Freund and N. M. Nachtigal, QMR: a quasi-minimal residual method for non-
+Hermitian linear systems, Numer. Math.60 (1991), 315-339.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>60</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e286a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2049172e293" publication-type="book">
+R. Fletcher, Conjugate gradient methods for indefinite systems, Numerical Analysis Dundee
+1975 (G. A. Watson, ed.), Lecture Notes in Math., vol. 506, Springer, Berlin, 1976, pp.
+73-89.<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Conjugate gradient methods for indefinite systems</comment>
+               <fpage>73</fpage>
+               <volume>506</volume>
+               <source>Numerical Analysis Dundee 1975</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e331a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2049172e338" publication-type="conference">
+M. H. Gutknecht, The unsymmetric Lanczos algorithms and their relations to Padé approx-
+imation, continued fractions, and the QD algorithm, Proc. Copper Mountain Conference
+on Iterative Methods, Computational Math Group, The University of Colorado at Denver,
+1990.<person-group>
+                     <string-name>
+                     <surname>Gutknecht</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The unsymmetric Lanczos algorithms and their relations to Padé approximation, continued fractions, and the QD algorithm</comment>
+               <source>Proc. Copper Mountain Conference on Iterative Methods, Computational Math Group, The University of Colorado at Denver</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e373a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2049172e380" publication-type="other">
+W. D. Jaubert, Generalized conjugate gradient and Lanczos methods for the solution of
+non-symmetric systems of linear equations, Ph.D. Dissertation, University of Texas, Austin,
+TX, 1990.</mixed-citation>
+            </ref>
+            <ref id="d2049172e393a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2049172e400" publication-type="journal">
+C. Lanczos, An iteration method for the solution of the eigenvalue problem of linear differ-
+ential and integral equations, J. Res. Nat. Bur. Standards45 (1950), 255-282.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>45</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e432a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2049172e439" publication-type="journal">
+—, Solution of systems of linear equations by minimized iterations, J. Res. Nat. Bur.
+Standards49 (1952), 33-53.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>49</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e471a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2049172e478" publication-type="journal">
+B. N. Parlett, A new look at the Lanczos algorithm for solving systems of linear equations,
+Linear Algebra Appl.29 (1980), 323-346.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>323</fpage>
+               <volume>29</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e511a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2049172e518" publication-type="journal">
+B. N. Parlett, D. R. Taylor and Z. A. Liu, A look-ahead Lanczos algorithm for unsymmetric
+matrices, Math. Comp.44 (1985), 105-124.<object-id pub-id-type="doi">10.2307/2007796</object-id>
+               <fpage>105</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e534a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2049172e541" publication-type="journal">
+B. N. Parlett, Reduction to tridiagonalform and minimal realizations, SIAM J. Matrix Anal.
+Appl.13 (1992), 567-593.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e573a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2049172e580" publication-type="journal">
+Y. Saad, The Lanczos biorthogonalization algorithm and other oblique projection methods
+for solving large unsymmetric systems, SIAM J. Numer. Anal.19 (1982), 485-506.<object-id pub-id-type="jstor">10.2307/2156962</object-id>
+               <fpage>485</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049172e596a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2049172e603" publication-type="other">
+D. R. Taylor, Analysis of the look ahead Lanczos algorithm, Ph.D. Dissertation, University
+of California, Berkeley, CA, 1982.</mixed-citation>
+            </ref>
+            <ref id="d2049172e613a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2049172e620" publication-type="journal">
+Q. Ye, A breakdown-free variation of the nonsymmetric Lanczos algorithm, Math. Comp.
+62 (1994), 179-207.<object-id pub-id-type="doi">10.2307/2153403</object-id>
+               <fpage>179</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

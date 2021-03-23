@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">77</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">263</issue>
+         <issue-id>i40008731</issue-id>
+         <article-id pub-id-type="jstor">40234571</article-id>
+         <title-group>
+            <article-title>Rational Extrapolation for the Pagerank Vector</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>C.</given-names>
+                  <surname>Brezinski</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>M.</given-names>
+                  <surname>Redivo-Zaglia</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>1585</fpage>
+         <lpage>1598</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234571"/>
+      
+      
+         <abstract>
+            <p>An important problem in web search is to determine the importance of each page. From the mathematical point of view, this problem consists in finding the nonnegative left eigenvector of a matrix corresponding to its dominant eigenvalue 1. Since this matrix is neither stochastic nor irreducible, the power method has convergence problems. So, the matrix is replaced by a convex combination, depending on a parameter c, with a rank one matrix. Its left principal eigenvector now depends on c, and it is the PageRank vector we are looking for. However, when c is close to 1, the problem is ill-conditioned, and the power method converges slowly. So, the idea developed in this paper consists in computing the PageRank vector for several values of c, and then to extrapolate them, by a conveniently chosen rational function, at a point near 1. The choice of this extrapolating function is based on the mathematical expression of the PageRank vector as a function of c. Numerical experiments end the paper.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 65B05</kwd>
+            <kwd>Primary 65F15</kwd>
+            <kwd>Primary 68U35</kwd>
+            <kwd>Extrapolation</kwd>
+            <kwd>PageRank</kwd>
+            <kwd>web matrix</kwd>
+            <kwd>eigenvector computation</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2766930e217a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2766930e224" publication-type="other">
+M. Bianchini, M. Gori, F. Scarselli, Inside PageRank, ACM Trans. Internet Tech., 5 (2005)
+92-128.</mixed-citation>
+        </ref>
+        <ref id="d2766930e234a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2766930e241" publication-type="other">
+P. Boldi, M. Santini, S. Vigna, PageRank as a function of the damping factor, in Proceed-
+ings of the 14th International World Wide Web Conference, ACM Press, New York, 2005,
+pp. 557-566.</mixed-citation>
+        </ref>
+        <ref id="d2766930e254a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2766930e261" publication-type="other">
+A. Borodin, G.O. Roberts, J.S. Rosenthal, P. Tsaparas, Finding authorities and hubs from
+link structures on the World Wide Web, in Proceedings of the 11th International World Wide
+Web Conference. ACM Press. New York. 2001. dd. 415-429.</mixed-citation>
+        </ref>
+        <ref id="d2766930e274a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2766930e281" publication-type="other">
+C. Brezinski, Projection Methods for Systems of Equations, North-Holland, Amsterdam,
+1997. MR1616573 (99f:65004)</mixed-citation>
+        </ref>
+        <ref id="d2766930e292a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2766930e299" publication-type="other">
+C. Brezinski, M. Redivo-Zaglia, The PageRank vector: Properties, computation, approx-
+imation, and acceleration, SIAM J. Matrix Anal. Appl., 28 (2006) 551-575. MR2255342
+(2007h:68205)</mixed-citation>
+        </ref>
+        <ref id="d2766930e312a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2766930e319" publication-type="other">
+C. Brezinski, M. Redivo-Zaglia, G. Rodriguez, S. Seatzu, Extrapolation techniques for ill-
+conditioned linear systems, Numer. Math., 81 (1998) 1-29. MR1657714 (99j:65069)</mixed-citation>
+        </ref>
+        <ref id="d2766930e329a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2766930e336" publication-type="other">
+C. Brezinski, M. Redivo-Zaglia, S. Serra-Capizzano, Extrapolation methods for PageRank
+computations, C.R. Math. Acad. Sci. Paris, 340 (2005) 393-397. MR2127117</mixed-citation>
+        </ref>
+        <ref id="d2766930e346a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2766930e353" publication-type="other">
+P.J. Davis, Interpolation and Approximation, Reprint, Dover, New York, 1975. MR0380189
+(52:1089)</mixed-citation>
+        </ref>
+        <ref id="d2766930e363a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2766930e370" publication-type="other">
+N. Eiron, K.S. McCurley, J.A. Tomlin, Ranking the web frontier, in Proceedings of the 13th
+International World Wide Web Conference, ACM Press, New York, 2004, pp. 309-318.</mixed-citation>
+        </ref>
+        <ref id="d2766930e380a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2766930e387" publication-type="other">
+R.A. Horn, S. Serra-Capizzano, A general setting for the parametric Google matrix, Internet
+Math., to appear.</mixed-citation>
+        </ref>
+        <ref id="d2766930e398a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2766930e405" publication-type="other">
+I.C.F. Ipsen, T.M. Selee, PageRank computation, with special attention to dangling nodes,
+SIAM J. Matrix Anal. Appl., submitted.</mixed-citation>
+        </ref>
+        <ref id="d2766930e415a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2766930e422" publication-type="other">
+S.D. Kamvar, T.H. Haveliwala, CD. Manning, G.H. Golub, Extrapolation methods for accel-
+erating PageRank computations, in Proceedings of the 12th International World Wide Web
+Conference, ACM Press, New York, 2003, pp. 261-270.</mixed-citation>
+        </ref>
+        <ref id="d2766930e435a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2766930e442" publication-type="other">
+M. Kendall, A new measure of rank correlation, Biometrika, 30 (1938) 81-89.</mixed-citation>
+        </ref>
+        <ref id="d2766930e449a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2766930e456" publication-type="other">
+R. Kerner, Models of Agglomeration and Glass Transition, Imperial College Press, London,
+2006. MR2289782</mixed-citation>
+        </ref>
+        <ref id="d2766930e466a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2766930e473" publication-type="other">
+A.N. Langville, CD. Meyer, Google's PageRank and Beyond. The Science of Search En-
+gine Rankings, Princeton University Press, Princeton and Oxford, 2006. MR2262054
+(2007h:68002)</mixed-citation>
+        </ref>
+        <ref id="d2766930e486a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2766930e493" publication-type="other">
+R. Lempel, S. Moran, Rank-stability and rank-similarity of link-based web ranking algorithms
+in authority-connected graphs, in Second Workshop on Algorithms and Models for the Web-
+Graph (WAW 2003), Budapest, Hungary, May 2003.</mixed-citation>
+        </ref>
+        <ref id="d2766930e507a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2766930e514" publication-type="other">
+R. Milo, S. Itzkovitz, N. Kashtan, R. Levitt, S. Shen-Orr, I. Ayzenshtat, M. Sheffer, U. Alon,
+Superfamilies of designed and evolved networks, Science, 303 (2004) 1538-1542.</mixed-citation>
+        </ref>
+        <ref id="d2766930e524a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2766930e531" publication-type="other">
+M.E.J. Newman, The structure and function of complex networks, SIAM Rev., 45 (2003)
+167-256. MR2010377 (2005a:05206)</mixed-citation>
+        </ref>
+        <ref id="d2766930e541a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2766930e548" publication-type="other">
+E. Ravasz, A.-L. Barabási, Hierarchical organization in complex networks, Phys. Rev., E 67,
+026112 (2003).</mixed-citation>
+        </ref>
+        <ref id="d2766930e558a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2766930e565" publication-type="other">
+S. Serra-Capizzano, Jordan canonical form of the Google matrix: A potential contribution
+to the PageRank computation, SIAM J. Matrix Anal. Appl., 27 (2005) 305-312. MR2179674
+(2006g:15019)</mixed-citation>
+        </ref>
+        <ref id="d2766930e578a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2766930e585" publication-type="other">
+S. Serra-Capizzano, Google pageranking problem: The model and the analysis, Proc. of
+the Dagstuhl Seminar 7071 Web Information Retrieval and Linear Algebra Algorithms,
+March 2007, A. Frommer, M.W. Mahoney, D.B. Szyld eds., http://drops.dagstuhl.de/opus/
+volltexte/2007/1069</mixed-citation>
+        </ref>
+        <ref id="d2766930e601a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2766930e608" publication-type="other">
+D.J. Watts, Networks, dynamics and small-world phenomenon, Amer. J. Sociology, 105 (1999)
+493-527.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

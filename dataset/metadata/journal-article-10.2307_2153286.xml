@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">63</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">208</issue>
+         <issue-id>i337664</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153286</article-id>
+         
+         <title-group>
+            <article-title>A Comparison of Block Pivoting and Interior-Point Algorithms for Linear Least Squares Problems with Nonnegative Variables</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Luís F.</given-names>
+                     <surname>Portugal</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Joaquim J.</given-names>
+                     <surname>Júdice</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Luís N.</given-names>
+                     <surname>Vicente</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>625</fpage>
+         <lpage>643</lpage>
+         <page-range>625-643</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1994 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153286"/>
+         
+         
+         <abstract>
+            <p>In this paper we discuss the use of block principal pivoting and predictor-corrector methods for the solution of large-scale linear least squares problems with nonnegative variables (NVLSQ). We also describe two implementations of these algorithms that are based on the normal equations and corrected seminormal equations (CSNE) approaches. We show that the method of normal equations should be employed in the implementation of the predictor-corrector algorithm. This type of approach should also be used in the implementation of the block principal pivoting method, but a switch to the CSNE method may be useful in the last iterations of the algorithm. Computational experience is also included in this paper and shows that both the predictor-corrector and the block principal pivoting algorithms are quite efficient to deal with large-scale NVLSQ problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>90C20</kwd>
+            <kwd>65F50</kwd>
+            <kwd>90C06</kwd>
+            <kwd>Least squares problems</kwd>
+            <kwd>linear complementarity problem</kwd>
+            <kwd>quadratic programming</kwd>
+            <kwd>sparse matrices</kwd>
+            <kwd>large-scale optimization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d417839e244a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d417839e251" publication-type="journal">
+M. Bierlair, P. Toint, and D. Tuyttens, On iterative algorithms for linear least-squares prob-
+lems with bound constraints, Linear Algebra Appl.143 (1991), 111-143.<person-group>
+                     <string-name>
+                     <surname>Bierlair</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>111</fpage>
+               <volume>143</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e283a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d417839e290" publication-type="journal">
+A. Björck, A direct method for sparse least-squares problems with lower and upper bounds,
+Numer. Math.54 (1988), 19-32.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>19</fpage>
+               <volume>54</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e322a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d417839e329" publication-type="book">
+—Algorithms for linear least-squares problems, Computer Algorithms for Solving Linear
+Algebraic Equations (E. Spedicato, ed.), NATO Adv. Sci. Inst. Ser. F: Comput. and Systems
+Sci., vol. 77, Springer, Berlin and New York, 1992, pp. 57-92.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms for linear least-squares problems</comment>
+               <fpage>57</fpage>
+               <volume>77</volume>
+               <source>Computer Algorithms for Solving Linear Algebraic Equations</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e367a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d417839e374" publication-type="book">
+J. Carpenter, I. Lustig, J. Mulvey, and D. Shanno, Higher order predictor-corrector inte-
+rior point methods with applications to quadratic objectives, Tech. Report Rutcor Research
+Report #67.90, 1990.<person-group>
+                     <string-name>
+                     <surname>Carpenter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Higher order predictor-corrector interior point methods with applications to quadratic objectives</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e404a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d417839e411" publication-type="journal">
+A. Cline, C. Moler, G. Stewart, and J. Wilkinson, An estimate for the condition number of
+a matrix, SIAM J. Numer. Anal.16 (1979), 368-675.<object-id pub-id-type="jstor">10.2307/2156842</object-id>
+               <fpage>368</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e427a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d417839e434" publication-type="journal">
+I. Duff, R. Grimes, and J. Lewis, Sparse matrix test problems, ACM Trans. Math. Software
+15 (1989), 1-14.<person-group>
+                     <string-name>
+                     <surname>Duff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>15</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e466a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d417839e473" publication-type="journal">
+A. George and M. Heath, Solution of sparse linear least-squares problems using Givens
+rotations, Linear Algebra Appl.34 (1980), 69-83.<person-group>
+                     <string-name>
+                     <surname>George</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>34</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e505a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d417839e512" publication-type="book">
+A. George and J. Liu, Computer solution of large sparse symmetric positive definite systems,
+Prentice-Hall, Englewood Cliffs, NJ, 1981.<person-group>
+                     <string-name>
+                     <surname>George</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer solution of large sparse symmetric positive definite systems</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e537a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d417839e544" publication-type="journal">
+J. Júdice and F. Pires, Bard-type methods for the linear complementarity problem with sym-
+metric positive definite matrices, IMA J. Appl. Math.2 (1988/89), 23-56.<person-group>
+                     <string-name>
+                     <surname>Júdice</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>2</volume>
+               <source>IMA J. Appl. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e576a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d417839e583" publication-type="journal">
+—, Direct methods for convex quadratic programs subject to box constraints, Investigação
+Operacional9 (1989), 51-68.<person-group>
+                     <string-name>
+                     <surname>Júdice</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>51</fpage>
+               <volume>9</volume>
+               <source>Investigação Operacional</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e616a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d417839e623" publication-type="journal">
+—, Solution of large-scale strictly convex linear complementarity problems, Investigação
+Operacional11'(1991), 31-51.<person-group>
+                     <string-name>
+                     <surname>Júdice</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>11</volume>
+               <source>Investigação Operacional</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e655a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d417839e662" publication-type="journal">
+M. Kostreva, Block pivot methods for solving the complementarity problem, Linear Algebra
+Appl.21 (1978), 207-215.<person-group>
+                     <string-name>
+                     <surname>Kostreva</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>207</fpage>
+               <volume>21</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e694a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d417839e701" publication-type="book">
+C. Lawson and R. Hanson, Solving least-squares problems, Prentice-Hall, Englewood Cliffs,
+NJ, 1974.<person-group>
+                     <string-name>
+                     <surname>Lawson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Solving least-squares problems</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e726a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d417839e733" publication-type="journal">
+I. Lustig, R. Marsten, and D. Shanno, Computational experience with a primal-dual interior
+point method for linear programming, Linear Algebra Appl.152 (1991), 191-222.<person-group>
+                     <string-name>
+                     <surname>Lustig</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>191</fpage>
+               <volume>152</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e765a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d417839e772" publication-type="book">
+S. Mehrotra, On the implementation of a (primal-dual) interior point method, Tech. Report
+03, Department of Civil Engineering and Management Sciences, Northwestern University,
+Evanston, IL, 1990.<person-group>
+                     <string-name>
+                     <surname>Mehrotra</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the implementation of a (primal-dual) interior point method</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e801a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d417839e808" publication-type="journal">
+K. Murty, Note on a Bard-type scheme for solving the complementarity problem, Oper. Res.
+11 (1974), 123-130.<person-group>
+                     <string-name>
+                     <surname>Murty</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>11</volume>
+               <source>Oper. Res.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e841a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d417839e848" publication-type="book">
+P. Pardalos, Y. Ye, and C. Han, An interior point algorithm for large-scale quadratic problems
+subject to box constraints, Lecture Notes in Control and Inform. Sci., vol. 144, Springer,
+Berlin and New York, 1990, pp. 413-422.<person-group>
+                     <string-name>
+                     <surname>Pardalos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>413</fpage>
+               <volume>144</volume>
+               <source>An interior point algorithm for large-scale quadratic problems subject to box constraints</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d417839e883a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d417839e890" publication-type="other">
+L. Portugal, Solution of least-squares problems, Master's thesis, Faculdade de Ciências e
+Tecnologia Universidade de Coimbra, 1992. (Portuguese)</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

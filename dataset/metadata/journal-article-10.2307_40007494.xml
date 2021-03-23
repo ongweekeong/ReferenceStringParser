@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">17</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i40000388</issue-id>
+         <article-id pub-id-type="jstor">40007494</article-id>
+         <title-group>
+            <article-title>MARS: A Statistical Semantic Parsing and Generation-Based Multilingual Automatic tRanslation System</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Yuqing</given-names>
+                  <surname>Gao</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bowen</given-names>
+                  <surname>Zhou</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Zijian</given-names>
+                  <surname>Diao</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jeffrey</given-names>
+                  <surname>Sorensen</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Michael</given-names>
+                  <surname>Picheny</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>185</fpage>
+         <lpage>212</lpage>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40007494"/>
+         
+         
+         <abstract>
+            <p>We present MARS (Multilingual Automatic tRanslation System), a research prototype speech-to-speech translation system. MARS is aimed at two-way conversational spoken language translation between English and Mandarin Chinese for limited domains, such as air travel reservations. In MARS, machine translation is embedded within a complex speech processing task, and the translation performance is highly effected by the performance of other components, such as the recognizer and semantic parser, etc. All components in the proposed system are statistically trained using an appropriate training corpus. The speech signal is first recognized by an automatic speech recognizer (ASR). Next, the ASR-transcribed text is analyzed by a semantic parser, which uses a statistical decision-tree model that does not require hand-crafted grammars or rules. Furthermore, the parser provides semantic information that helps further re-scoring of the speech recognition hypotheses. The semantic content extracted by the parser is formatted into a language-independent tree structure, which is used for an interlingua based translation. A Maximum Entropy based sentencelevel natural language generation (NLG) approach is used to generate sentences in the target language from the semantic tree representations. Finally, the generated target sentence is synthesized into speech by a speech synthesizer. Many new features and innovations have been incorporated into MARS: the translation is based on understanding the meaning of the sentence; the semantic parser uses a statistical model and is trained from a semantically annotated corpus; the output of the semantic parser is used to select a more specific language model to refine the speech recognition performance; the NLG component uses a statistical model and is also trained from the same annotated corpus. These features give MARS the advantages of robustness to speech disfluencies and recognition errors, tighter integration of semantic information into speech recognition, and portability to new languages and domains. These advantages are verified by our experimental results.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d927773e217a1310">
+               
+               <mixed-citation id="d927773e221" publication-type="other">
+Alshawi, H., S. Bangalore, and S. Douglas: 2000, 'Head-Transducer Models for Speech Translation
+and Their Automatic Acquisition from Bilingual Data', Machine Translation 15, 105-124.</mixed-citation>
+            </ref>
+            <ref id="d927773e231a1310">
+               
+               <mixed-citation id="d927773e235" publication-type="other">
+Axelrod, S.: 2000, 'Natural Language Generation in the IBM Flight Information system', in
+ANLP/NAACL 2000 Workshop, Conversational Systems, Seattle, Washington, pp. 21-26.</mixed-citation>
+            </ref>
+            <ref id="d927773e245a1310">
+               
+               <mixed-citation id="d927773e249" publication-type="other">
+Bangalore, S. and Riccardi, G.: 2000, 'Stochastic Finite-State models for Spoken Language Machine
+Translation', in ANLP/NAACL 2000 Workshop, Embedded Machine Translation Systems, Seattle,
+Washington, pp. 52-59.</mixed-citation>
+            </ref>
+            <ref id="d927773e262a1310">
+               
+               <mixed-citation id="d927773e266" publication-type="other">
+Berger, A. L., S. A. Delia Pietra, and V. J. Delia Pietra: 1996, 'A Maximum Entropy Approach to
+Natural Language Processing', Computational Linguistics 22, 39-71.</mixed-citation>
+            </ref>
+            <ref id="d927773e277a1310">
+               
+               <mixed-citation id="d927773e281" publication-type="other">
+Blanchon H. and C. Boitet: 2000, 'Speech Translation for French within the C-Star II Consortium and
+Future Perspectives', in International Conference on Spoken Language Processing 2000 (ICSLP
+2000), Beijing.</mixed-citation>
+            </ref>
+            <ref id="d927773e294a1310">
+               
+               <mixed-citation id="d927773e298" publication-type="other">
+Brown, P. F., S. A. Delia Pietra, V. J. Delia Pietra, and R. L. Mercer: 1993, 'The Mathematics of
+Statistical Machine Translation: Parameter Estimation', Computational Linguistics 19, 263-311.</mixed-citation>
+            </ref>
+            <ref id="d927773e308a1310">
+               
+               <mixed-citation id="d927773e312" publication-type="other">
+Chen, C. J., R. A. Gopinath, M. D. Monkowski, M. A. Picheny, and K. Shen: 1997, 'New Methods
+in Continuous Mandarin Speech Recognition', in EuroSpeech '97: 5th European Conference on
+Speech Communication and Technology, Rhodes, Greece, pp. 1543-1546.</mixed-citation>
+            </ref>
+            <ref id="d927773e325a1310">
+               
+               <mixed-citation id="d927773e329" publication-type="other">
+Davies, K.: 1999, 'The IBM Conversational Telephony System for Financial Applications', in
+Proceedings of EuroSpeech' 1999, Budapest, pp. 275-278.</mixed-citation>
+            </ref>
+            <ref id="d927773e339a1310">
+               
+               
+               <mixed-citation id="d927773e345" publication-type="other">
+Donovan, R. E., M. Franz, J. S. Sorensen and S. Roukos: 1999, 'Phrase Splicing and Variable
+Substitution Using the IBM Trainable Speech Synthesis System', in 1999 IEEE International
+Conference on Acoustics, Speech, and Signal Processing, ICASSP99, Phoenix, Arizona, pp.
+373-376.</mixed-citation>
+            </ref>
+            <ref id="d927773e361a1310">
+               
+               <mixed-citation id="d927773e365" publication-type="other">
+Elhadad, M. and J. Robin: 1992, 'Controlling Content Realization with Functional Unification
+Grammars', in R. Dale, E. Hovy, D. Rosner and O. Stock (eds), Aspects of Automated Natural
+Language Generation, Springer, Berlin, pp. 89-104.</mixed-citation>
+            </ref>
+            <ref id="d927773e379a1310">
+               
+               <mixed-citation id="d927773e383" publication-type="other">
+Gao, Y., B. Ramabhadran, and M. Picheny: 2000, 'New Adaptation Techniques for Large Vocabu-
+lary Continuous Speech Recognition', in ISCA ITRW ASR2000 Automatic Speech Recognition:
+Challenges for the New Millenium, Paris.</mixed-citation>
+            </ref>
+            <ref id="d927773e396a1310">
+               
+               <mixed-citation id="d927773e400" publication-type="other">
+Gao, Y., H. Erdogan, Y. Li, V. Goel, and M. Picheny: 2001, 'Recent Advances in Speech Recognition
+System for IBM DARPA Communicator', in Eurospeech 2001-Scandinavia: 7th European
+Conference on Speech Communication and Technology, Aalborg, Denmark, pp. 503-506.</mixed-citation>
+            </ref>
+            <ref id="d927773e413a1310">
+               
+               <mixed-citation id="d927773e417" publication-type="other">
+García-Varea, L, A. Sanchis, and F. Casacuberta: 2000, 'A New Approach to Speech-Input Statistical
+Translation', in ICPR 2000: 15th International Conference on Pattern Recognition, Barcelona,
+Vol. 3, pp. 907-910.</mixed-citation>
+            </ref>
+            <ref id="d927773e430a1310">
+               
+               <mixed-citation id="d927773e434" publication-type="other">
+Langkilde, I. and K. Knight: 1998, 'Generation that Explores Corpus-Based Statistical Knowledge',
+in COLING-ACL '98: 36th Annual Meeting of the Association of Computational Linguistics and
+17th International Conference on Computational Linguistics, Montreal, Quebec, pp. 704-710.</mixed-citation>
+            </ref>
+            <ref id="d927773e447a1310">
+               
+               <mixed-citation id="d927773e451" publication-type="other">
+Lavie, A., A. Waibel, L. Levin, M. Finke, D. Gates, M. Gavaldá, T. Zeppenfeld, and P. Zhan: 1997,
+'JANUS-III: Speech-to-Speech Translation in Multiple Languages', in 1997 IEEE International
+Conference on Acoustics, Speech, and Signal Processing (ICASSP '97), Munich, Germany, Vol.
+1, pp. 99-102.</mixed-citation>
+            </ref>
+            <ref id="d927773e467a1310">
+               
+               <mixed-citation id="d927773e471" publication-type="other">
+Lazzari, G.: 2000, 'Spoken Translation: Challenges and Opportunities', in International Conference
+on Spoken Language Processing 2000 (ICSLP 2000), Beijing.</mixed-citation>
+            </ref>
+            <ref id="d927773e482a1310">
+               
+               <mixed-citation id="d927773e486" publication-type="other">
+Levin, L. and S. Nirenburg: 1994, 'The Correct Place of Lexical Semantics in Interlingual MT',
+in COLING 94: The 15th International Conference on Computational Linguistics, Kyoto, pp.
+349-355.</mixed-citation>
+            </ref>
+            <ref id="d927773e499a1310">
+               
+               <mixed-citation id="d927773e503" publication-type="other">
+Luo, X. Q. and M. Franz: 2000, 'Semantic Tokenization of Verbalized Numbers in Language
+Modeling', in International Conference on Spoken Language Processing 2000 (ICSLP 2000),
+Beijing.</mixed-citation>
+            </ref>
+            <ref id="d927773e516a1310">
+               
+               <mixed-citation id="d927773e520" publication-type="other">
+Magerman, D. M.: 1994, 'Natural Language Parsing as Statistical Pattern Recognition', Ph.D. thesis,
+Stanford University.</mixed-citation>
+            </ref>
+            <ref id="d927773e530a1310">
+               
+               <mixed-citation id="d927773e534" publication-type="other">
+Ney, H., S. Nießen, F. J. Och, H. Sawaf, C. Tillmann, and S. Vogel: 2000, 'Algorithms for Statistical
+Translation of Spoken Language', IEEE Transactions on Speech and Audio Processing 8, 24-36.</mixed-citation>
+            </ref>
+            <ref id="d927773e544a1310">
+               
+               <mixed-citation id="d927773e548" publication-type="other">
+Nießen, S., Och, F. J., Leusch, G., and Ney, H.: 2000, 'An Evaluation Tool for Machine Translation:
+Fast Evaluation for MT Research', in Second International Conference on Language Resources
+and Evaluation LREC-2000, Athens, Greece, pp. 39-45.</mixed-citation>
+            </ref>
+            <ref id="d927773e561a1310">
+               
+               <mixed-citation id="d927773e565" publication-type="other">
+Papineni, K., S. Roukos, T. Ward, and W-J. Zhu: 2001, 'BLEU: A Method for Automatic Evaluation
+of Machine Translation', IBM Research Report, RC22176, Thomas J. Watson Research Center,
+Yorktown Heights, NY, September 2001.</mixed-citation>
+            </ref>
+            <ref id="d927773e579a1310">
+               
+               <mixed-citation id="d927773e583" publication-type="other">
+Ratnaparkhi, A.: 2000, 'Trainable Methods for Surface Natural Language Generation', in 1st Meet-
+ing of the North American Chapter of the Association for Computational Linguistics, Seattle,
+Washington, pp. 194-201.</mixed-citation>
+            </ref>
+            <ref id="d927773e596a1310">
+               
+               <mixed-citation id="d927773e600" publication-type="other">
+Visweswariah, K. and H. Printz: 2001, 'Language Models Conditioned on Dialog State', in
+Eurospeech 2001-Scandinavia: 7th European Conference on Speech Communication and
+Technology, Aalborg, Denmark, pp. 251-254.</mixed-citation>
+            </ref>
+            <ref id="d927773e613a1310">
+               
+               <mixed-citation id="d927773e617" publication-type="other">
+Wahlster, W. (ed.): 2000, Verbmobil: Foundations of Speech-to-Speech Translation, Springer, Berlin.</mixed-citation>
+            </ref>
+            <ref id="d927773e624a1310">
+               
+               <mixed-citation id="d927773e628" publication-type="other">
+Yamamoto, S.: 2000, 'Toward Speech Communications Beyond Language Barrier-Research of
+Spoken Language Translation Technologies at ATR', in International Conference on Spoken
+Language Processing 2000 (ICSLP 2000), Beijing.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

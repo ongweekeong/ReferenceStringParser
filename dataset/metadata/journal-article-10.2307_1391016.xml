@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260292</issue-id>
+         <article-id pub-id-type="jstor">1391016</article-id>
+         
+         <title-group>
+            <article-title>Robust Simulation-Based Estimation of ARMA Models</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Xavier</given-names>
+                  <surname>de Luna</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Marc G.</given-names>
+                  <surname>Genton</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>370</fpage>
+         <lpage>387</lpage>
+         <page-range>370-387</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391016"/>
+         
+         
+         <abstract>
+            <p>This article proposes a new approach to the robust estimation of a mixed autoregressive and moving average (ARMA) model. It is based on the indirect inference method that originally was proposed for models with an intractable likelihood function. The estimation algorithm proposed is based on an auxiliary autoregressive representation whose parameters are first estimated on the observed time series and then on data simulated from the ARMA model. To simulate data the parameters of the ARMA model have to be set. By varying these we can minimize a distance between the simulation-based and the observation-based auxiliary estimate. The argument of the minimum yields then an estimator for the parameterization of the ARMA model. This simulation-based estimation procedure inherits the properties of the auxiliary model estimator. For instance, robustness is achieved with GM estimators. An essential feature of the introduced estimator, compared to existing robust estimators for ARMA models, is its theoretical tractability that allows us to show consistency and asymptotic normality. Moreover, it is possible to characterize the influence function and the breakdown point of the estimator. In a small sample Monte Carlo study it is found that the new estimator performs fairly well when compared with existing procedures. Furthermore, with two real examples, we also compare the proposed inferential method with two different approaches based on outliers detection.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Breakdown point</kwd>
+            <kwd>Indirect inference</kwd>
+            <kwd>Influence function</kwd>
+            <kwd>GM-estimator</kwd>
+            <kwd>Robustness</kwd>
+            <kwd>Time series</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d879287e163a1310">
+               
+               <mixed-citation id="d879287e167" publication-type="journal">
+Allende, H., and Heiler, S. (1992), "Recursive Generalized M Estimates for Autoregressive Moving-Average
+Models," Journal of Time Series Analysis, 13, 1-18.<person-group>
+                     <string-name>
+                     <surname>Allende</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>13</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e199a1310">
+               
+               <mixed-citation id="d879287e203" publication-type="journal">
+Boente, G., Fraiman, R., and Yohai, V.J. (1987), "Qualitative Robustness for Stochastic Processes," The Annals
+of Statistics, 15, 1293-1312.<object-id pub-id-type="jstor">10.2307/2241829</object-id>
+               <fpage>1293</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e219a1310">
+               
+               <mixed-citation id="d879287e223" publication-type="book">
+Brockwell, P.J., and Davis, R.A. (1991), Time Series: Theory and Methods, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Brockwell</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time Series: Theory and Methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e245a1310">
+               
+               <mixed-citation id="d879287e249" publication-type="journal">
+Bruce, A.G., and Martin, R.D. (1989), "Leave-k-out Diagnostics for Time Series" (with discussion), Journal of
+the Royal Statistical Society, Ser. B, 51, 363-424.<person-group>
+                     <string-name>
+                     <surname>Bruce</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>51</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e282a1310">
+               
+               <mixed-citation id="d879287e286" publication-type="journal">
+Bustos, 0. H. (1982), "General M-Estimates for Contaminated pth Order Autoregressive Processes: Consistency
+and Asymptotic Normality," Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete, 59,491-504.<person-group>
+                     <string-name>
+                     <surname>Bustos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>491</fpage>
+               <volume>59</volume>
+               <source>Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e318a1310">
+               
+               <mixed-citation id="d879287e322" publication-type="journal">
+Bustos, 0. H., and Yohai, V. J. (1986), "Robust Estimates for ARMA Models," Journal of the American Statistical
+Association, 81, 155-168.<object-id pub-id-type="doi">10.2307/2287983</object-id>
+               <fpage>155</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e338a1310">
+               
+               <mixed-citation id="d879287e342" publication-type="journal">
+Chang, I., Tiao, G.C., and Chen, C. (1988), "Estimation of Time Series Parameters in the Presence of Outliers,"
+Technometrics, 30, 193-204.<object-id pub-id-type="doi">10.2307/1270165</object-id>
+               <fpage>193</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e358a1310">
+               
+               <mixed-citation id="d879287e362" publication-type="book">
+Cressie, N.A.C. (1993), Statistics for Spatial Data, revised edition, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistics for Spatial Data</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e384a1310">
+               
+               <mixed-citation id="d879287e388" publication-type="journal">
+de Luna, X. (1998), "An Improvement of Akaike's FPE Criterion to Reduce its Variability," Journal of Time Series
+Analysis, 19, 457-472.<person-group>
+                     <string-name>
+                     <surname>de Luna</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>457</fpage>
+               <volume>19</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e420a1310">
+               
+               <mixed-citation id="d879287e424" publication-type="journal">
+Denby, L., and Martin, R.D. (1979), "Robust Estimation of the First Order Autoregressive Parameter," Journal
+of the American Statistical Association, 74, 140-146.<object-id pub-id-type="doi">10.2307/2286743</object-id>
+               <fpage>140</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e441a1310">
+               
+               <mixed-citation id="d879287e445" publication-type="journal">
+Diggle, P.J., and Gratton, R.J. (1984), "Monte Carlo Methods of Inference for Implicit Statistical Models" (with
+discussion), Journal of the Royal Statistical Society, Ser. B, 46, 193-227.<person-group>
+                     <string-name>
+                     <surname>Diggle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>46</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e477a1310">
+               
+               <mixed-citation id="d879287e481" publication-type="journal">
+Genton, M.G. (1998), "Spatial Breakdown Point of Variogram Estimators," Mathematical Geology, 30, 853-871.<person-group>
+                     <string-name>
+                     <surname>Genton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>853</fpage>
+               <volume>30</volume>
+               <source>Mathematical Geology</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e510a1310">
+               
+               <mixed-citation id="d879287e514" publication-type="journal">
+Genton, M.G., and de Luna, X. (2000), "Robust Simulation-based Estimation," Statistics &amp; Probability Letters,
+48, 253-259.<person-group>
+                     <string-name>
+                     <surname>Genton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>253</fpage>
+               <volume>48</volume>
+               <source>Statistics &amp; Probability Letters</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e546a1310">
+               
+               <mixed-citation id="d879287e550" publication-type="book">
+Gouriéroux, C., and Monfort, A. (1996), Simulation-Based Econometric Methods, Oxford: Oxford University
+Press.<person-group>
+                     <string-name>
+                     <surname>Gouriéroux</surname>
+                  </string-name>
+                  </person-group>
+               <source>Simulation-Based Econometric Methods</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e575a1310">
+               
+               <mixed-citation id="d879287e579" publication-type="journal">
+Gourieroux, C., Monfort, A., and Renault, A.E. (1993), "Indirect Inference," Journal of Applied Econometrics,
+8, 85-118.<object-id pub-id-type="jstor">10.2307/2285076</object-id>
+               <fpage>85</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e595a1310">
+               
+               <mixed-citation id="d879287e599" publication-type="journal">
+Hampel, F.R. (1974), "The Influence Curve and its Role in Robust Estimation," Journal of the American Statistical
+Association, 69, 383-393.<object-id pub-id-type="doi">10.2307/2285666</object-id>
+               <fpage>383</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e616a1310">
+               
+               <mixed-citation id="d879287e620" publication-type="book">
+Hampel, F.R., Ronchetti, E.M., Rousseeuw, P.J., and Stahel, W.A. (1986), Robust Statistics: The Approach
+based on Influence Functions, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Hampel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Statistics: The Approach based on Influence Functions</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e645a1310">
+               
+               <mixed-citation id="d879287e649" publication-type="book">
+Huber, P.J. (1981), Robust Statistics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Huber</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Statistics</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e671a1310">
+               
+               <mixed-citation id="d879287e675" publication-type="journal">
+(1984), "Finite Sample Breakdown Point of M- and P-Estimators," The Annals of Statistics, 12, 119-126.<object-id pub-id-type="jstor">10.2307/2241038</object-id>
+               <fpage>119</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e688a1310">
+               
+               <mixed-citation id="d879287e692" publication-type="journal">
+Künsch, H. (1984), "Infinitesimal Robustness for Autoregressive Processes," The Annals of Statistics, 12,843-863.<person-group>
+                     <string-name>
+                     <surname>Künsch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>843</fpage>
+               <volume>12</volume>
+               <source>The Annals of Statistics</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e721a1310">
+               
+               <mixed-citation id="d879287e725" publication-type="journal">
+Ma, Y., and Genton, M.G. (2000), "Highly Robust Estimation of the Autocovariance Function," Journal of Time
+Series Analysis, 21, 663-684.<person-group>
+                     <string-name>
+                     <surname>Ma</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>663</fpage>
+               <volume>21</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e757a1310">
+               
+               <mixed-citation id="d879287e761" publication-type="book">
+Mallows, C.L. (1976), "On some Topics in Robustness," Bell Labs Tech. Memo, Murray Hill, NJ.<person-group>
+                     <string-name>
+                     <surname>Mallows</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On some Topics in Robustness</comment>
+               <source>Bell Labs Tech. Memo</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e787a1310">
+               
+               <mixed-citation id="d879287e791" publication-type="book">
+Martin, R.D. (1980), "Robust Estimation of Autoregressive Models," in Directions in Time Series, eds. D. R.
+Brillinger and G. C. Tiao, Hayward, CA: Institute of Mathematical Statistics, pp. 228-254.<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Robust Estimation of Autoregressive Models</comment>
+               <fpage>228</fpage>
+               <source>Directions in Time Series</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e823a1310">
+               
+               <mixed-citation id="d879287e827" publication-type="book">
+Martin, R.D., and Jong, J. (1977), "Asymptotic Properties of Robust Generalized M-Estimates for the First-Order
+Autoregressive Parameter," Bell Labs Techncial Memo, Murray Hill, NJ.<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Asymptotic Properties of Robust Generalized M-Estimates for the First-Order Autoregressive Parameter</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e852a1310">
+               
+               <mixed-citation id="d879287e856" publication-type="book">
+Martin, R.D., and Yohai, V.J. (1985), "Robustness in Time Series and Estimating ARMA Models," in Handbook
+of Statistics 5, eds. E. J. Hannan, P. R. Krishnaiah, M. M. Rao, pp. 119-155.<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Robustness in Time Series and Estimating ARMA Models</comment>
+               <fpage>119</fpage>
+               <source>Handbook of Statistics 5</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e888a1310">
+               
+               <mixed-citation id="d879287e892" publication-type="journal">
+(1986), "Influence Functionals for Time Series" (with discussion), The Annals of Statistics, 14, 781-855.<object-id pub-id-type="jstor">10.2307/3035535</object-id>
+               <fpage>781</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e905a1310">
+               
+               <mixed-citation id="d879287e909" publication-type="book">
+Pankratz, A. (1991), Forecasting with Dynamic Regression Models, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Pankratz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Forecasting with Dynamic Regression Models</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e931a1310">
+               
+               <mixed-citation id="d879287e935" publication-type="book">
+Rousseeuw, P.J., and Leroy, A.M. (1987), Robust Regression and Outliers Detection, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression and Outliers Detection</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e958a1310">
+               
+               <mixed-citation id="d879287e962" publication-type="book">
+Rubinstein, R.Y. (1981), Simulation and the Monte Carlo Method, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Rubinstein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Simulation and the Monte Carlo Method</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879287e984a1310">
+               
+               <mixed-citation id="d879287e988" publication-type="journal">
+Tsay, R.S. (1986), "Time Series Model Specification in the Presence of Outliers," Journal of the American
+Statistical Association, 81, 132-141.<object-id pub-id-type="doi">10.2307/2287980</object-id>
+               <fpage>132</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">277</issue>
+         <issue-id>i23075137</issue-id>
+         <article-id pub-id-type="jstor">23075219</article-id>
+         <title-group>
+            <article-title>MULTIGRID ANALYSIS FOR THE TIME DEPENDENT STOKES PROBLEM</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>MAXIM A.</given-names>
+                  <surname>OLSHANSKII</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>57</fpage>
+         <lpage>79</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075219"/>
+      
+      
+         <abstract>
+            <p>Certain implicit time stepping procedures for the incompressible Stokes or Navier-Stokes equations lead to a singular-perturbed Stokes type problem at each time step. The paper presents a convergence analysis of a geometric multigrid solver for the system of linear algebraic equations resulting from the disretization of the problem using a finite element method. Several smoothing iterative methods are considered: a smoother based on distributive iterations, the Braess-Sarazin and inexact Uzawa smoother. Convergence analysis is based on smoothing and approximation properties in special norms. A robust (independent of time step and mesh parameter) estimate is proved for the two-grid and multigrid W-cycle convergence factors.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2241612e152a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2241612e159" publication-type="other">
+D.N. Arnold, F. Brezzi, and M. Fortin, A stable finite element method for the Stokes equa-
+tions, Calcolo, 21 (1984), pp. 337-344. MR799997 (86m:65136)</mixed-citation>
+        </ref>
+        <ref id="d2241612e169a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2241612e176" publication-type="other">
+R. Bank, B.D. Welfert, and H. Yserentant, A class of iterative methods for solving saddle
+point problems, Numer. Math., 56 (1990), pp. 645-666 MR1031439 (91b:65035)</mixed-citation>
+        </ref>
+        <ref id="d2241612e186a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2241612e193" publication-type="other">
+M. Benzi, G.H. Golub, and J. Liesen, Numerical solution of saddle point problems, Acta
+Numerica, 14 (2005), pp. 1-137. MR2168342 (2006m:65059)</mixed-citation>
+        </ref>
+        <ref id="d2241612e203a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2241612e210" publication-type="other">
+M. Bercovier and 0. Pironneau, Error estimates for finite element method solution of the
+Stokes problem in primitive variables Numer. Math., 33 (1979), pp. 211-224. MR549450
+(81g:65145)</mixed-citation>
+        </ref>
+        <ref id="d2241612e224a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2241612e231" publication-type="other">
+D. Braess and W. Dahmen, A cascadic multigrid algorithm for the Stokes equations, Numer.
+Math., 82 (1999), pp. 179-191. MR1685458 (2000c:65114)</mixed-citation>
+        </ref>
+        <ref id="d2241612e241a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2241612e248" publication-type="other">
+D. Braess and R. Sarazin, An efficient smoother for the Stokes problem, Applied Numerical
+Mathematics, 23 (1997), pp. 3-19. MR1438078 (97k:65277)</mixed-citation>
+        </ref>
+        <ref id="d2241612e258a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2241612e265" publication-type="other">
+J.H. Bramble and J.E. Pasciak, Iterative techniques for time dependent Stokes problems,
+Comput. Math. Appl., 33 (1997), pp. 13-30. MR1442058 (98e:65091)</mixed-citation>
+        </ref>
+        <ref id="d2241612e275a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2241612e282" publication-type="other">
+S. Brenner, A nonconforming multigrid method for the stationary Stokes problem, Math.
+Comp., 55 (1990), pp. 411-473. MR1035927 (91d:65167)</mixed-citation>
+        </ref>
+        <ref id="d2241612e292a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2241612e299" publication-type="other">
+J.H. Bramble, J.E. Pasciak and O. Steinbach, On the stability of the L2 projection in H1 (Q),
+Math. Comp., 71 (2001), pp. 147-156. MR1862992 (2002h:65175)</mixed-citation>
+        </ref>
+        <ref id="d2241612e309a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2241612e316" publication-type="other">
+F. Brezzi and M. Fortin, Mixed and hybrid finite element methods, New York, Springer-
+Verlag, 1991. MR1115205 (92d:65187)</mixed-citation>
+        </ref>
+        <ref id="d2241612e327a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2241612e334" publication-type="other">
+P.G. Ciarlet, Basic Error Estimates for Elliptic Problems. Handbook of Numerical Analysis,
+Vol. II, P.G. Ciarlet and J.L. Lions, eds., Elsevier Science, 1991, pp. 17—351. MR1115237</mixed-citation>
+        </ref>
+        <ref id="d2241612e344a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2241612e351" publication-type="other">
+M. Dauge, Stationary Stokes and Navier-Stokes systems on two- or three-dimensional do-
+mains with corners. Part I. Linearized Equations, SIAM J. Math. Anal., 20 (1989), pp. 74-97
+MR977489 (90b:35191)</mixed-citation>
+        </ref>
+        <ref id="d2241612e364a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2241612e371" publication-type="other">
+L. Durlofsky and J. F. Brady, Analysis of the Brinkman equation as a model for flow in
+porous media, Phys. Fluids, 30 (1987), pp. 3329-3342.</mixed-citation>
+        </ref>
+        <ref id="d2241612e381a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2241612e388" publication-type="other">
+H.C. Elman, Multigrid and Krylov subspace methods for the discrete Stokes equations, Int.
+J. Numer. Methods Fluids, 22 (1998), pp. 755 - 770.</mixed-citation>
+        </ref>
+        <ref id="d2241612e398a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2241612e405" publication-type="other">
+V. Girault and P.-A. Raviart, Finite Element Methods for Navier-Stokes Equations, Springer,
+Berlin, 1986. MR851383 (88b:65129)</mixed-citation>
+        </ref>
+        <ref id="d2241612e415a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2241612e422" publication-type="other">
+W. Hackbusch, Multi-grid Methods and Applications, Berlin, Heidelberg: Springer, 1985.</mixed-citation>
+        </ref>
+        <ref id="d2241612e430a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2241612e437" publication-type="other">
+Yu. Iliash, R. Tuomo, and J. Toivanen, Two iterative methods for solving the Stokes problem,
+Laboratory of Scientific Computing, University of Jyvaskyla, Report 2, 1993.</mixed-citation>
+        </ref>
+        <ref id="d2241612e447a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2241612e454" publication-type="other">
+G.M. Kobelkov and M.A. Olshanskii, Effective Preconditioning of XJzawa Type Schemes
+for Generalized Stokes Problem, Numer. Math., 86 (2000), pp. 443-470. MR1785417
+(2001j:65168)</mixed-citation>
+        </ref>
+        <ref id="d2241612e467a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2241612e474" publication-type="other">
+M. Larin and A. Reusken, A comparative study of efficient iterative solvers for general-
+ized Stokes problem, Numer. Linear Algebra Appl., 15 (2008), pp. 13—34. MR2388412
+(2009a:76094)</mixed-citation>
+        </ref>
+        <ref id="d2241612e487a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2241612e494" publication-type="other">
+K.-A. Mardal, X.-C. Tai, and R. Winther, A robust finite element method for Darcy-Stokes
+flow, SIAM J. Num. Anal. 40 (2002), 1605-1631. MR1950614 (2003m:76110)</mixed-citation>
+        </ref>
+        <ref id="d2241612e504a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2241612e511" publication-type="other">
+S. Manservisi, Numerical Analysis of Vanka-Type Solvers for Steady Stokes and Navier-
+Stokes Flows, SIAM J. Numer. Anal. 44 (2006), pp. 2025-2056. MR2263039 (2007k:76036)</mixed-citation>
+        </ref>
+        <ref id="d2241612e521a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2241612e528" publication-type="other">
+K.-A., Mardal and R. Winther, Uniform preconditioners for the time dependent Stokes prob-
+lem, Numer. Math. 98 (2004), pp. 305-327. MR2092744 (2005g:65063)</mixed-citation>
+        </ref>
+        <ref id="d2241612e539a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2241612e546" publication-type="other">
+M. A. Olshanskii and A. Reusken, On the convergence of a multigrid method for linear
+reaction-diffusion problems, Computing, 65 (2000), pp. 193-202 MR1810324 (2001m:65186)</mixed-citation>
+        </ref>
+        <ref id="d2241612e556a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2241612e563" publication-type="other">
+M. A. Olshanskii, J. Peters, and A. Reusken, Uniform preconditioners for a parameter depen-
+dent saddle point problem with application to generalized Stokes interface equations, Numer.
+Math., 105 (2006), pp. 159-191. MR2257388 (2007i:76026)</mixed-citation>
+        </ref>
+        <ref id="d2241612e576a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2241612e583" publication-type="other">
+T. Rusten, P.S. Vassilevski, and R. Winther, Interior penalty preconditioners for mixed fi-
+nite element approximations of elliptic problems, Math. Comp., 65 (1996), pp. 447-466.
+MR1333325 (96j:65127)</mixed-citation>
+        </ref>
+        <ref id="d2241612e596a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d2241612e603" publication-type="other">
+V.V. Shaidurov, Multigrid methods for finite elements, Moscow: Nauka, 1989. (in Russian)
+MR1007306 (91h:65193)</mixed-citation>
+        </ref>
+        <ref id="d2241612e613a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d2241612e620" publication-type="other">
+J. Schoeberl and W. Zulehner, On Schwarz-type smoothers for saddle point problems, Numer.
+Math., 95 (2002), pp. 377-399. MR2001083 (2004g:65149)</mixed-citation>
+        </ref>
+        <ref id="d2241612e630a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d2241612e637" publication-type="other">
+D. Silvester and A. Wathen, Fast iterative solution of stabilised stokes systems. Part II: Using
+general block preconditioners, SIAM J. Numer. Anal., 31 (1994), pp. 1352-1367. MR1293519
+(95g:65132)</mixed-citation>
+        </ref>
+        <ref id="d2241612e651a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d2241612e658" publication-type="other">
+R. Stevenson, Nonconforming finite elements and the cascadic multi-grid method, Numer.
+Math., 91 (2002), pp. 351-387. MR1900924 (2003c:65139)</mixed-citation>
+        </ref>
+        <ref id="d2241612e668a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d2241612e675" publication-type="other">
+Z. Tong and Z. Sameh, On an iterative method for saddle point problems, Numer. Math., 79
+(1998), pp. 643-646. MR1635705 (99f:65054)</mixed-citation>
+        </ref>
+        <ref id="d2241612e685a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d2241612e692" publication-type="other">
+S. Turek, Efficient Solvers for Incompressible Flow Problems. An Algorithmic and Computa-
+tional Approach, Lecture Notes in Computational Science and Engineering, Vol. 6, Springer-
+Verlag, Berlin/Heidelberg/New York, 1999. MR1691839 (2000g:76071)</mixed-citation>
+        </ref>
+        <ref id="d2241612e705a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d2241612e712" publication-type="other">
+S.P. Vanka, Block-implicit multigrid solution of Navier-Stokes equations in primitive vari-
+ables, J. Comput. Phys., 65 (1986), pp. 138-158. MR848451 (87g:76009)</mixed-citation>
+        </ref>
+        <ref id="d2241612e722a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d2241612e729" publication-type="other">
+R. Verfurth, A multilevel algorithm for mixed problems, SIAM J. Num. Anal., 21 (1984),
+pp. 264-271. MR736330 (85f:65112)</mixed-citation>
+        </ref>
+        <ref id="d2241612e739a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d2241612e746" publication-type="other">
+P. Wesseling and C.W. Oosterlee, Geometric multigrid with applications to computational
+fluid dynamics, J. Comput. Appl. Math., 128 (2001) pp. 311-334. MR1820879 (2002b:65187)</mixed-citation>
+        </ref>
+        <ref id="d2241612e757a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d2241612e764" publication-type="other">
+X. Xie, J. Xu, G. Xue, Uniformly-stable finite element methods for Darcy-Stokes-Brinkman
+models, J. Comp. Math., 26 (2008), pp. 437-455. MR2421892 (2009g:76087)</mixed-citation>
+        </ref>
+        <ref id="d2241612e774a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d2241612e781" publication-type="other">
+J. Xu, The auxiliary space method and optimal multigrid preconditioning techniques for
+unstructure grids, Computing, 56 (1996), pp. 215-235. MR1393008 (97d:65062)</mixed-citation>
+        </ref>
+        <ref id="d2241612e791a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d2241612e798" publication-type="other">
+W. Zulehner, A class of smoothers for saddle point problems, Computing, 65 (2000), pp.
+227-246. MR1810326 (2001j:65160)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

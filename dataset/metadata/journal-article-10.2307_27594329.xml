@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">17</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i27594322</issue-id>
+         <article-id pub-id-type="jstor">27594329</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186008X318855</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Machine Learning and Classification</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>On Potts Model Clustering, Kernel K-Means, and Density Estimation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Alejandro</given-names>
+                  <surname>Murua</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Larissa</given-names>
+                  <surname>Stanberry</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Werner</given-names>
+                  <surname>Stuetzle</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>629</fpage>
+         <lpage>658</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/27594329"/>
+      
+      
+         <abstract>
+            <p>Many clustering methods, such as K-means, kernel K-means, and MNcut clustering, follow the same recipe: (i) choose a measure of similarity between observations; (ii) define a figure of merit assigning a large value to partitions of the data that put similar observations in the same cluster; and (iii) optimize this figure of merit over partitions. Potts model clustering represents an interesting variation on this recipe. Blatt, Wiseman, and Domany defined a new figure of merit for partitions that is formally similar to the Hamiltonian of the Potts model for ferromagnetism, extensively studied in statistical physics. For each temperature T, the Hamiltonian defines a distribution assigning a probability to each possible configuration of the physical system or, in the language of clustering, to each partition. Instead of searching for a single partition optimizing the Hamiltonian, they sampled a large number of partitions from this distribution for a range of temperatures. They proposed a heuristic for choosing an appropriate temperature and from the sample of partitions associated with this chosen temperature, they then derived what we call a consensus clustering: two observations are put in the same consensus cluster if they belong to the same cluster in the majority of the random partitions. In a sense, the consensus clustering is an "average" of plausible configurations, and we would expect it to be more stable (over different samples) than the configuration optimizing the Hamiltonian. The goal of this article is to contribute to the understanding of Potts model clustering and to propose extensions and improvements: (1) We show that the Hamiltonian used in Potts model clustering is closely related to the kernel K-means and MNCut criteria. (2) We propose a modification of the Hamiltonian penalizing unequal cluster sizes and show that it can be interpreted as a weighted version of the kernel K-means criterion. (3) We introduce a new version of the Wolff algorithm to simulate configurations from the distribution defined by the penalized Hamiltonian, leading to penalized Potts model clustering. (4) We note a link between kernel based clustering methods and nonparametric density estimation and exploit it to automatically determine locally adaptive kernel bandwidths. (5) We propose a new simple rule for selecting a good temperature T. As an illustration we apply Potts model clustering to gene expression data and compare our results to those obtained by model based clustering and a nonparametric dendrogram sharpening method.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Consensus clusters</kwd>
+            <kwd>Gene expression</kwd>
+            <kwd>Monte Carlo</kwd>
+            <kwd>Multiway normalized cut</kwd>
+            <kwd>Penalized Wolff algorithm</kwd>
+            <kwd>Superparamagnetic method</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d774000e214a1310">
+          
+            <mixed-citation id="d774000e218" publication-type="other">
+Abramson, I. S. (1982), "On Bandwidth Variation in Kernel Estimates—A Square Root Law," The Annals of
+Statistics, 10, 1217–1223.</mixed-citation>
+        </ref>
+        <ref id="d774000e228a1310">
+          
+            <mixed-citation id="d774000e232" publication-type="other">
+Agrawal, H., and Domany, E. (2003), "Potts Ferromagnets on Coexpressed Gene Networks: Identifying Maxi-
+mally Stable Partitions," Physical Review Letters, 90, 158102.</mixed-citation>
+        </ref>
+        <ref id="d774000e242a1310">
+          
+            <mixed-citation id="d774000e246" publication-type="other">
+Azzalini, A., and Bowman, A. W. (1990), "A Look at Some Data on the Old Faithful Geyser," Applied Statistics,
+39,357–365.</mixed-citation>
+        </ref>
+        <ref id="d774000e256a1310">
+          
+            <mixed-citation id="d774000e260" publication-type="other">
+Banfield, J. D., and Raftery, A. E. (1993), "Model-Based Gaussian and Non-Gaussian Clustering," Biometrics,
+49,803–821.</mixed-citation>
+        </ref>
+        <ref id="d774000e271a1310">
+          
+            <mixed-citation id="d774000e275" publication-type="other">
+Blatt, M., Wiseman, S., and Domany, E. (1996a), "Super-Paramagnetic Clustering of Data," Physical Review
+Letters, 76,3251–3255.</mixed-citation>
+        </ref>
+        <ref id="d774000e285a1310">
+          
+            <mixed-citation id="d774000e289" publication-type="other">
+—(1996b), "Clustering Data Through an Analogy to the Potts Model," in Advances in Neural Information
+Processing Systems, eds. D. S. Touretzky, M. C Mozer, and M. E. Hasselmo, Cambridge: MIT Press, pp.
+416–422.</mixed-citation>
+        </ref>
+        <ref id="d774000e302a1310">
+          
+            <mixed-citation id="d774000e306" publication-type="other">
+—(1997), "Data Clustering Using a Model Granular Magnet," Neural Computation, 9, 1805–1842.</mixed-citation>
+        </ref>
+        <ref id="d774000e313a1310">
+          
+            <mixed-citation id="d774000e317" publication-type="other">
+Breiman, L., Meisel, W., and Purcell, E. (1977), "Variable Kernel Estimates of Multivariate Densities," Techno-
+metrics, 19, 135–144.</mixed-citation>
+        </ref>
+        <ref id="d774000e327a1310">
+          
+            <mixed-citation id="d774000e331" publication-type="other">
+Buta, R. (1987), "The Structure and Dynamics of Ringed Galaxies, III: Surface Photometry and Kinematics of
+the Ringed Nonbarred Spiral NGC7531," The Astrophysical Journal Supplement Series, 64, 1–37.</mixed-citation>
+        </ref>
+        <ref id="d774000e341a1310">
+          
+            <mixed-citation id="d774000e345" publication-type="other">
+Celeux, G., and Govaert, G. (1995), "Gaussian Parsimonious Clustering Models," Pattern Recognition, 28,
+781–793.</mixed-citation>
+        </ref>
+        <ref id="d774000e356a1310">
+          
+            <mixed-citation id="d774000e360" publication-type="other">
+Chambers, J. M., and Hastie, T. J. (eds.) (1992), "Statistical Models in S," Pacific Grove, CA: Wadsworth and
+Brooks, p. 352.</mixed-citation>
+        </ref>
+        <ref id="d774000e370a1310">
+          
+            <mixed-citation id="d774000e374" publication-type="other">
+Creutz, M. (1979), "Confinement and the Critical Dimensionality of Space-Time," Physics Review Letters, 43,
+553–556.</mixed-citation>
+        </ref>
+        <ref id="d774000e384a1310">
+          
+            <mixed-citation id="d774000e388" publication-type="other">
+Cho, R. J., Campbell, M. J., Winzeler, E. A., Steinmetz, L., Conway, A., Wodicka, L., Wolfsberg, T. G.,
+Gabrielian, A. E., Landsman, D., Lockhart, D. J., and Davis, R. W. (1998), "A Genome-Wide Transcriptional
+Analysis of the Mitotic Cell Cycle," Molecular Cell, 2, 65–73.</mixed-citation>
+        </ref>
+        <ref id="d774000e401a1310">
+          
+            <mixed-citation id="d774000e405" publication-type="other">
+Dhillon, I. S., Guan, Y., and Kulis, B. (2004), "Kernel &amp;amp;-means, Spectral Clustering and Normalized Cuts," in
+Proceedings of the Tenth ACM SIGKDD International Conference, pp. 551–556.</mixed-citation>
+        </ref>
+        <ref id="d774000e415a1310">
+          
+            <mixed-citation id="d774000e419" publication-type="other">
+Dimitriadou, E., Weingessel, A., and Hornik, K. (2001), "Voting-Merging: An Ensemble Method for Clustering,"
+in Proceedings of the International Conference on Artificial Neural Networks, pp. 217–224.</mixed-citation>
+        </ref>
+        <ref id="d774000e429a1310">
+          
+            <mixed-citation id="d774000e433" publication-type="other">
+Domany, E. (2003), "Cluster Analysis of Gene Expression Data," Journal of Statistical Physics, 110 (3-6), 1117.</mixed-citation>
+        </ref>
+        <ref id="d774000e441a1310">
+          
+            <mixed-citation id="d774000e445" publication-type="other">
+Domany, E., Blatt, M., Gdalyahu, Y., and Weinshall, D. (1999), "Superparamagnetic Clustering of Data: Appli-
+cation to Computer Vision," Computer Physics Communications, 121–122, 5–12.</mixed-citation>
+        </ref>
+        <ref id="d774000e455a1310">
+          
+            <mixed-citation id="d774000e459" publication-type="other">
+Dudoit, S., and Fridlyand, J. (2003), "Bagging to Improve the Accuracy of a Clustering Procedure," Bioinfor-
+matics, 19, 1090–1099.</mixed-citation>
+        </ref>
+        <ref id="d774000e469a1310">
+          
+            <mixed-citation id="d774000e473" publication-type="other">
+Edwards, R. G., and Sokal, A. D. (1988), "Generalization of the Fortuin-Kasteleyn-Swendsen-Wang Represen-
+tation and Monte Carlo Algorithm," Physical Review D, 38, 2009–2012.</mixed-citation>
+        </ref>
+        <ref id="d774000e483a1310">
+          
+            <mixed-citation id="d774000e487" publication-type="other">
+Einav, U., Tabach, Y., Getz, G., Yitzhaky, A., Ozbek, U., Amarglio, N., Izraeli, S., Rechavi, G., and Domany,
+E. (2005), "Gene Expression Analysis Reveals a Strong Signature of an Interferon-Unduced Pathway in
+Childhood Lymphoblastic Leukemia as Well as in Breast and Ovarian Cancer," Oncogene, 24, 6367–6375.</mixed-citation>
+        </ref>
+        <ref id="d774000e500a1310">
+          
+            <mixed-citation id="d774000e504" publication-type="other">
+Eisen, M.B., Spellman, P.T., Brown, P.O., and Botstein D. (1998), "Cluster Analysis and Display of Genome-
+Wide Expression Patterns," PNAS, 95, 14863–14868.</mixed-citation>
+        </ref>
+        <ref id="d774000e514a1310">
+          
+            <mixed-citation id="d774000e518" publication-type="other">
+Fern, X. Z., and Brodley, C. E. (2003), "Random Projection for High Dimensional Data Clustering: A Cluster
+Ensemble Approach," in Proceedings of the 20th International Conference on Machine Learning, 186–193.</mixed-citation>
+        </ref>
+        <ref id="d774000e529a1310">
+          
+            <mixed-citation id="d774000e533" publication-type="other">
+Fred, A. L. N., and Jain, A. K. (2002), "Data Clustering Using Evidence Accumulation," in Proceedings of the
+16th International Conference Pattern Recognition, pp. 276–280.</mixed-citation>
+        </ref>
+        <ref id="d774000e543a1310">
+          
+            <mixed-citation id="d774000e547" publication-type="other">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and the Bayesian Restoration of
+Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721–741.</mixed-citation>
+        </ref>
+        <ref id="d774000e557a1310">
+          
+            <mixed-citation id="d774000e561" publication-type="other">
+Getz, G., Levine, E., Domany, E., and Zhang, M. (2000), "Super-Paramagnetic Clustering of Yeast Gene Expres-
+sion Profiles," PhysicaA, 279 (1–4), 457–464.</mixed-citation>
+        </ref>
+        <ref id="d774000e571a1310">
+          
+            <mixed-citation id="d774000e575" publication-type="other">
+Geyer, C. J. (1991), "Markov Chain Monte Carlo Maximum Likelihood," in in Computing Science and Statistics:
+Proceedings of the 23 rd Symposium on the Interface, ed. E. M. Keramigas, pp. 156–163.</mixed-citation>
+        </ref>
+        <ref id="d774000e585a1310">
+          
+            <mixed-citation id="d774000e589" publication-type="other">
+Geyer, C. J., and Thompson, E. .A. (1995), "Annealing Markov Chain Monte Carlo with Applications to Ancestral
+Inference," Journal of the American Statistical Association, 90, 909–920.</mixed-citation>
+        </ref>
+        <ref id="d774000e599a1310">
+          
+            <mixed-citation id="d774000e603" publication-type="other">
+Girolami, M. (2002), "Mercer Kernel Based Clustering in Feature Space," IEEE Transactions on Neural Net-
+works, 13,669–688.</mixed-citation>
+        </ref>
+        <ref id="d774000e614a1310">
+          
+            <mixed-citation id="d774000e618" publication-type="other">
+Grenander, U. (1983), "Tutorial on Pattern Theory," Technical Report, Division of Applied Mathematics, Brown
+University.</mixed-citation>
+        </ref>
+        <ref id="d774000e628a1310">
+          
+            <mixed-citation id="d774000e632" publication-type="other">
+Hastings, W. K. (1970), "Monte Carlo Sampling Methods using Markov Chains and their Applications,"
+Biometrika, 57, 97–109.</mixed-citation>
+        </ref>
+        <ref id="d774000e642a1310">
+          
+            <mixed-citation id="d774000e646" publication-type="other">
+Hubert, L., and Arabie, P. (1985), "Comparing Partitions," Journal of Classification, 2, 193–218.</mixed-citation>
+        </ref>
+        <ref id="d774000e653a1310">
+          
+            <mixed-citation id="d774000e657" publication-type="other">
+Kent Ridge Bio-Medical Dataset Repository, available online at http://sdmc.lit.org.sg/GEDatasets/Datasets.
+html.</mixed-citation>
+        </ref>
+        <ref id="d774000e667a1310">
+          
+            <mixed-citation id="d774000e671" publication-type="other">
+Marinan, E., and Parisi, G. (1992), "Simulated Tempering: A New Monte Carlo Scheme," Europhysics Letters,
+19,451.</mixed-citation>
+        </ref>
+        <ref id="d774000e681a1310">
+          
+            <mixed-citation id="d774000e685" publication-type="other">
+McKinney, S. (1995), "Autopaint: A Toolkit for Visualizing Data in 4 or more Dimensions," unpublished PhD
+Thesis, University of Washington, Seattle.</mixed-citation>
+        </ref>
+        <ref id="d774000e696a1310">
+          
+            <mixed-citation id="d774000e700" publication-type="other">
+Meila, M., and Xu, L (2003), "Multiway Cuts and Spectral Clustering," Technical Report, University of Wash-
+ington, Seattle.</mixed-citation>
+        </ref>
+        <ref id="d774000e710a1310">
+          
+            <mixed-citation id="d774000e714" publication-type="other">
+Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H., and Teller, E. (1953), "Equations of State
+Calculations by Fast Computing Machines," Journal of Chemical Physics, 21, 1087–1092.</mixed-citation>
+        </ref>
+        <ref id="d774000e724a1310">
+          
+            <mixed-citation id="d774000e728" publication-type="other">
+Milligan, G. W., and Cooper, M. C. (1986), "A Study of the Comparability of External Criteria for Hierarchical
+Cluster Analysis," Multivariate behavioral Research, 21, 441–458.</mixed-citation>
+        </ref>
+        <ref id="d774000e738a1310">
+          
+            <mixed-citation id="d774000e742" publication-type="other">
+Ott, T., Kern, A., Schuffenhauer, A., Popov, M., Acklin, P., Jacoby, E., and Stoop, R. (2004), "Sequential Su-
+perparamagnetic Clustering for Unbiased Classification of High-Dimensional Chemical Data," Journal of
+Chemical Information and Computer Sciences, 44, 1358–1364.</mixed-citation>
+        </ref>
+        <ref id="d774000e755a1310">
+          
+            <mixed-citation id="d774000e759" publication-type="other">
+Ott, T., Kern, A., Steeb, W., and Stoop, R. (2005), "Sequential Clustering: Tracking Down the Most Natural
+Clusters," Journal of Statistical Mechanics : Theory and Experiment, 11, PI 1014.</mixed-citation>
+        </ref>
+        <ref id="d774000e769a1310">
+          
+            <mixed-citation id="d774000e773" publication-type="other">
+Quiroga, R. Q., Nadasdy, Z., and Ben-Shaul, Y. (2004), "Unsupervised Spike Detection and Sorting with Wavelets
+and Superparamagnetic Clustering," Neural Computation, 16, 1661–1687.</mixed-citation>
+        </ref>
+        <ref id="d774000e784a1310">
+          
+            <mixed-citation id="d774000e788" publication-type="other">
+Rand, W. M. (1971), "Objective Criteria for the Evaluation of Clustering Methods," Journal of the American
+Statistical Association, 66, 846–850.</mixed-citation>
+        </ref>
+        <ref id="d774000e798a1310">
+          
+            <mixed-citation id="d774000e802" publication-type="other">
+Reichardt, J., and Bornholdt, S. (2004), "Detecting Fuzzy Community Structures in Complex Networks with a
+Potts Model," Physical Review Letters, 93, 218701.</mixed-citation>
+        </ref>
+        <ref id="d774000e812a1310">
+          
+            <mixed-citation id="d774000e816" publication-type="other">
+Shi, J., and Malik, J. (2000), "Normalized Cuts and Image Segmentation," IEEE Transactions on Pattern Analysis
+and Machine Intelligence, 22, 888–905.</mixed-citation>
+        </ref>
+        <ref id="d774000e826a1310">
+          
+            <mixed-citation id="d774000e830" publication-type="other">
+Silverman, B. W. (1986), Density Estimation for Statistics and Data Analysis, London: Chapman and Hall.</mixed-citation>
+        </ref>
+        <ref id="d774000e837a1310">
+          
+            <mixed-citation id="d774000e841" publication-type="other">
+Sokal, A. D. (1996), "Monte Carlo Methods in Statistical Mechanics: Foundations and New Algorithms," Lec-
+tures at the Cargese Summer School on Functional Integration: Basics and Applications.</mixed-citation>
+        </ref>
+        <ref id="d774000e851a1310">
+          
+            <mixed-citation id="d774000e855" publication-type="other">
+Stanberry, L., Murua, A., and Cordes, D. (2007), "Functional Connectivity Mapping using the Ferromagnetic
+Potts Spin Model," Human Brain Mapping, 29, 422–440.</mixed-citation>
+        </ref>
+        <ref id="d774000e866a1310">
+          
+            <mixed-citation id="d774000e870" publication-type="other">
+Stanberry, L., Nandy, R., and Cordes, D. (2003), "Cluster Analysis of fMRI Data using Dendrogram Sharpening,"
+Human Brain Mapping, 20, 201–219.</mixed-citation>
+        </ref>
+        <ref id="d774000e880a1310">
+          
+            <mixed-citation id="d774000e884" publication-type="other">
+Swendsen, R. H., and Wang, J. S. (1987), Physical Review Letters, 58, 86.</mixed-citation>
+        </ref>
+        <ref id="d774000e891a1310">
+          
+            <mixed-citation id="d774000e895" publication-type="other">
+Tantrum, J., Murua, A., and Stuetzle, W. (2003), "Assessment and Pruning of Hierarchical Model Based Cluster-
+ing," KDD 2003, Washington, DC, USA.</mixed-citation>
+        </ref>
+        <ref id="d774000e905a1310">
+          
+            <mixed-citation id="d774000e909" publication-type="other">
+—(2004), "Hierarchical Model-Based Clustering of Large Datasets through Fractionation and Refraction-
+ation," Information Systems, 29, 315–326.</mixed-citation>
+        </ref>
+        <ref id="d774000e919a1310">
+          
+            <mixed-citation id="d774000e923" publication-type="other">
+Topchy, A., Jain, A. K., and Punch, W. (2005), "Clustering Ensembles: Models of Consensus and Weak Parti-
+tions," IEEE Transactions on Pattern Analysis and Machine Intelligence, 27, 1866–1881.</mixed-citation>
+        </ref>
+        <ref id="d774000e933a1310">
+          
+            <mixed-citation id="d774000e937" publication-type="other">
+Tukey, J. W. (1949), "Comparing Individual Means in the Analysis of Variance," Biometrics, 5, 99–114.</mixed-citation>
+        </ref>
+        <ref id="d774000e945a1310">
+          
+            <mixed-citation id="d774000e949" publication-type="other">
+Wang, S., and Swendsen, R. H. (1990), "Cluster Monte Carlo Algorithms," Physica A, 167, 565–579.</mixed-citation>
+        </ref>
+        <ref id="d774000e956a1310">
+          
+            <mixed-citation id="d774000e960" publication-type="other">
+Wiseman, S., Blatt, M., and Domany, E. (1998), "Superparamagnetic Clustering of Data," Physical Review E,
+57,3767–3783.</mixed-citation>
+        </ref>
+        <ref id="d774000e970a1310">
+          
+            <mixed-citation id="d774000e974" publication-type="other">
+Wolff, U. (1989), "Collective Monte Carlo Updating for Spin Systems," Physical Review Letters, 62, 361–364.</mixed-citation>
+        </ref>
+        <ref id="d774000e981a1310">
+          
+            <mixed-citation id="d774000e985" publication-type="other">
+Yeoh, E. J., Ross, M. E., Shurtleff, S. A., Williams, W. K., Patel, D., Mahfouz, R., Behm, F. G., Raimondi, S. C,
+Relling, M. V., Patel, A., Cheng, C, Campana, D., Wilkins, D., Zhou, X., Li, J., Liu, H., Pui, C. H., Evans,
+W. E., Naeve, C, Wong, L., and Downing, J. R. (2002), "Classification, Subtype Discovery, and Prediction
+of Outcome in Pédiatrie Acute Lymphoblastic Leukemia by Gene Expression Profiling," Cancer Cell, 1,
+133–143.</mixed-citation>
+        </ref>
+        <ref id="d774000e1004a1310">
+          
+            <mixed-citation id="d774000e1008" publication-type="other">
+Yeung, K. Y., Fraley, C, Murua, A., Raftery, A. E., and Ruzzo, W. L. (2001), "Model-Based Clustering and Data
+Transformations for Gene Expression Data," Bioinformatics, 17, 977–987.</mixed-citation>
+        </ref>
+        <ref id="d774000e1018a1310">
+          
+            <mixed-citation id="d774000e1022" publication-type="other">
+Yu, S. X., and Shi, J. (2003), "Multiclass Spectral Clustering," International Conference on Computer Vision,
+2003.</mixed-citation>
+        </ref>
+        <ref id="d774000e1033a1310">
+          
+            <mixed-citation id="d774000e1037" publication-type="other">
+Zhang, R., and Rudnicky, A. I. (2002), "A Large Scale Clustering Scheme for Kernel K-means," in Proceedings
+of the 16th International Conference Pattern Recognition, pp. 289–292.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

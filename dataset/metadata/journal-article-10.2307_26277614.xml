@@ -1,0 +1,129 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejengi</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019980</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Engines</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">19463936</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19463944</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26277614</article-id>
+         <title-group>
+            <article-title>A Fast Crank Angle Resolved Zero-Dimensional NOₓ Model Implemented on a Field-Programmable Gate Array</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Muric</surname>
+                  <given-names>Kenan</given-names>
+               </string-name>
+               <aff>Scania CV AB / Lund University</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Tunestal</surname>
+                  <given-names>Per</given-names>
+               </string-name>
+               <aff>Lund University</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Stenlaas</surname>
+                  <given-names>Ola</given-names>
+               </string-name>
+               <aff>Scania CV AB</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>5</month>
+            <year>2013</year>
+            <string-date>May 2013</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">6</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">1</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26277593</issue-id>
+         <fpage>246</fpage>
+         <lpage>256</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2013 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26277614"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>In the automotive industry, the piezo-based in-cylinder pressure sensor is getting commercialized and used in production vehicles. For example, the pressure sensor offers the opportunity to design algorithms for estimation of engine emissions, such as soot and NOₓ, during a combustion cycle. In this paper a zero-dimensional NOₓ model for a diesel engine is implemented that will be used in real time. The model is based on the thermal NOₓ formation and the Zeldovich mechanism using two non-geometrical zones: burned and unburned zone. The influence of EGR on combustion temperature was modeled using a well-known thermodynamic identity where specific heat at constant pressure is included. Specific heat will vary with temperature and the gas composition. The model was implemented in LabVIEW using tools specific for an FPGA (Field-Programmable Gate Array). In order to simplify and implement the model, least squares criterion based polynomial approximations are used that enables the utilization of fast algorithms as well as sub-routines (sub-VIs). The sub-routines can be used to save space on the Field Programmable Gate Array (FPGA) and thus minimizing the risk of potential issues regarding overmapping of the hardware. In this case the interpolating functions are polynomials that only consume addition and multiplication operations. This is suited for the objective in mind due to the fact that the model tailored for an FPGA cannot, in a sufficient manner, handle highly complex calculations nor divisions. The time results obtained during the execution of the model indicates that it is possible to update the NOₓ, at a given temporal state, well below the time corresponding to a crank angle degree. The FPGA NOₓ model was tested against measurement data collected from a Scania engine. The time needed to execute an iteration of the model was approximately 3 μs.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Zander C.G., Stenlåås O., Tunestål P. and Johansson B., In-Cycle Closed Loop Control of the Fuel Injection on a 1-Cylinder Heavy Duty CI-Engine, ASME Paper ICEF2010-35100, 2010.</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">Asad, U. and Zheng, M., “Real-time Heat Release Analysis for Modelbased Control of Diesel Combustion,” SAE Technical Paper 2008-01-1000, 2008, doi: 10.4271/2008-01-1000.</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Schröer A., Vorslag einder Methode zur Berechnung der Stickoxid- Emissionen von Dieselmotoren, Doctoral Thesis, 1975.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Heider, G.; Rechenmodell zur Vorausrechning der NO-emission von Dieselmotoren, Doctoral Thesis, TU München, 1996.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">Egnell R., On Zero-Dimensional Modelling of Combustion and NOx formation in Diesel Engines, Doctoral Thesis, ISSN 0282-1990, 2001.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">Andersson M., Fast NOx Prediction in Diesel Engines, Licentiate Thesis, Division of Combustion Engines, Department of Energy Sciences, Lund University, 2006.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Wilhelmsson C., Embedded Systems and FPGAs for implementation of control oriented Models, Licentiate Thesis, TMHP-09/1068-SE, 2009.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">McBridge B.J, NASA Glenn Coefficients for calculating</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Dec, J., “A Conceptual Model of DI Diesel Combustion Based on Laser- Sheet Imaging*,” SAE Technical Paper 970873, 1997, doi: 10.4271/970873.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Zeldovich J., The Oxidation of Nitrogen in Combustion and Explosions, Acta Physicochimica U.R.S.S., Vol XXI. No. 4, 1946.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Compton K. and Hauck S., A Survey of Systems and Software, ASM Computing Surveys, Issue 2, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Heywood J.B, Internal Combustion Engines Fundamentals, ISBN 0-07-100499-8, 1988.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Weisser G.A, Modeling of Combustion and Nitric Oxide Formation for Medium-Speed DI Diesel Engines: A Comparative Evaluation of Zeroand Three-Dimensional Approaches, Swiss Federal institute of Technology Zurich, Doctoral Thesis, Diss. ETH No. 14465, 2001.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

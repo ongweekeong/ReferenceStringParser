@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">17</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i27594304</issue-id>
+         <article-id pub-id-type="jstor">27594307</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186008X320681</article-id>
+         <title-group>
+            <article-title>Bayesian Calibration and Uncertainty Analysis for Computationally Expensive Models Using Optimization and Radial Basis Function Approximation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nikolay</given-names>
+                  <surname>Bliznyuk</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>David</given-names>
+                  <surname>Ruppert</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Christine</given-names>
+                  <surname>Shoemaker</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Rommel</given-names>
+                  <surname>Regis</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Stefan</given-names>
+                  <surname>Wild</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Pradeep</given-names>
+                  <surname>Mugunthan</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>270</fpage>
+         <lpage>294</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2008 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/27594307"/>
+      
+      
+         <abstract>
+            <p>We present a Bayesian approach to model calibration when evaluation of the model is computationally expensive. Here, calibration is a nonlinear regression problem: given a data vector Y corresponding to the regression model f(β), find plausible values of β. As an intermediate step, Y and f are embedded into a statistical model allowing transformation and dependence. Typically, this problem is solved by sampling from the posterior distribution of β given Y using MCMC. To reduce computational cost, we limit evaluation of f to a small number of points chosen on a high posterior density region found by optimization. Then, we approximate the logarithm of the posterior density using radial basis functions and use the resulting cheap-to-evaluate surface in MCMC. We illustrate our approach on simulated data for a pollutant diffusion problem and study the frequentist coverage properties of credible intervals. Our experiments indicate that our method can produce results similar to those when the true "expensive" posterior density is sampled by MCMC while reducing computational costs by well over an order of magnitude.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Computer experiments</kwd>
+            <kwd>Design of experiments</kwd>
+            <kwd>Interpolation</kwd>
+            <kwd>Inverse problems</kwd>
+            <kwd>Markov chain Monte Carlo</kwd>
+            <kwd>RBF</kwd>
+            <kwd>Transformation</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3602394e205a1310">
+          
+            <mixed-citation id="d3602394e209" publication-type="other">
+Bates, D. M., and Watts, D.G. (1988), Nonlinear Regression Analysis and Its Applications, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d3602394e216a1310">
+          
+            <mixed-citation id="d3602394e220" publication-type="other">
+Benaman, J., Shoemaker, C. A., and Haith, D. A. (2005), "Calibration and Validation of Soil and Water Assess-
+ment Tool on an Agricultural Watershed in Upstate New York," ASCE Journal of Hydrologie Engineering,
+10, 363–374.</mixed-citation>
+        </ref>
+        <ref id="d3602394e233a1310">
+          
+            <mixed-citation id="d3602394e237" publication-type="other">
+Beven, K. (2001), discussion of Kennedy and O'Hagan (2001), "Bayesian Calibration of Computer Models,"
+Journal of the Royal Statistical Society, Series B, 63, 456.</mixed-citation>
+        </ref>
+        <ref id="d3602394e247a1310">
+          
+            <mixed-citation id="d3602394e251" publication-type="other">
+Box, G. E. P., and Cox, D. R. (1964), "An Analysis of Transformations," Journal of the Royal Statistical Society,
+Series B, 26, 211–246.</mixed-citation>
+        </ref>
+        <ref id="d3602394e262a1310">
+          
+            <mixed-citation id="d3602394e266" publication-type="other">
+Buhmann, M. D. (2003), Radial Basis Functions, New York: Cambridge University Press.</mixed-citation>
+        </ref>
+        <ref id="d3602394e273a1310">
+          
+            <mixed-citation id="d3602394e277" publication-type="other">
+Carroll, R. J., and Ruppert, D. (1984), "Power Transformation When Fitting Theoretical Models to Data," Journal
+of the American Statistical Association, 79, 321–328.</mixed-citation>
+        </ref>
+        <ref id="d3602394e287a1310">
+          
+            <mixed-citation id="d3602394e291" publication-type="other">
+—(1988), Transformation and Weighting in Regression, New York: Chapman &amp;amp; Hall.</mixed-citation>
+        </ref>
+        <ref id="d3602394e298a1310">
+          
+            <mixed-citation id="d3602394e302" publication-type="other">
+Christen, J. A., and Fox, C. (2005), "Markov Chain Monte Carlo Using an Approximation," Journal of Compu-
+tational and Graphical Statistics, 14, 795–810.</mixed-citation>
+        </ref>
+        <ref id="d3602394e312a1310">
+          
+            <mixed-citation id="d3602394e316" publication-type="other">
+Craig, P. S., Goldstein, M., Rougier, J., and Seheult, A. H. (2001), "Bayesian Forecasting for Complex Systems
+Using Computer Simulators," Journal of the American Statistical Association, 96, 717–729.</mixed-citation>
+        </ref>
+        <ref id="d3602394e326a1310">
+          
+            <mixed-citation id="d3602394e330" publication-type="other">
+Cressie, N. (1991), Statistics for Spatial Data, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d3602394e338a1310">
+          
+            <mixed-citation id="d3602394e342" publication-type="other">
+Devroye, L. (1986), Non-Uniform Random Varíate Generation, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d3602394e349a1310">
+          
+            <mixed-citation id="d3602394e353" publication-type="other">
+Gelman, A., Carlin, J. B., Stern, H. S., and Rubin, D. B. (2004), Bayesian Data Analysis (2nd ed.), Boca Raton:
+Chapman &amp;amp; Hall/CRC.</mixed-citation>
+        </ref>
+        <ref id="d3602394e363a1310">
+          
+            <mixed-citation id="d3602394e367" publication-type="other">
+Goldstein, M., and Rougier, J. C. (2004), "Probabilistic Formulations for Transferring Inferences from Mathe-
+matical Models to Physical Systems," SIAM Journal on Scientific Computing, 26, 467–487.</mixed-citation>
+        </ref>
+        <ref id="d3602394e377a1310">
+          
+            <mixed-citation id="d3602394e381" publication-type="other">
+—(2006), "Reified Bayesian Modelling and Inference for Physical Systems," submitted to the Journal of
+Statistical Planning and Inference, available online at http://www.maths.dur.ac.uk/stats/people/jcr/Reify.
+Pdf-</mixed-citation>
+        </ref>
+        <ref id="d3602394e394a1310">
+          
+            <mixed-citation id="d3602394e398" publication-type="other">
+Higdon, D., Lee, H., and Holloman, C. (2003), "Markov Chain Monte Carlo-Based Approaches for Inference
+in Computationally Intensive Inverse Problems," in Bayesian Statistics 7, eds. J. M. Bernardo, J. O. Berger,
+A. P. Berger, and A. F. M. Smith, pp. 181–197.</mixed-citation>
+        </ref>
+        <ref id="d3602394e411a1310">
+          
+            <mixed-citation id="d3602394e415" publication-type="other">
+Johnson, M., Moore, L., and Ylvisaker, D. (1990), "Minimax and Maximin Distance Designs," Journal of Statis-
+tical Planning and Inference, 26, 131–148.</mixed-citation>
+        </ref>
+        <ref id="d3602394e426a1310">
+          
+            <mixed-citation id="d3602394e430" publication-type="other">
+Kennedy, M. C, and O'Hagan, A. (2000), "Predicting the Output From a Complex Computer Code When Fast
+Approximations are Available," Biometrika, 87, 1–13.</mixed-citation>
+        </ref>
+        <ref id="d3602394e440a1310">
+          
+            <mixed-citation id="d3602394e444" publication-type="other">
+—(2001), "Bayesian Calibration of Computer Models," Journal of the Royal Statistical Society, Series B,
+63,425–464.</mixed-citation>
+        </ref>
+        <ref id="d3602394e454a1310">
+          
+            <mixed-citation id="d3602394e458" publication-type="other">
+Morris, M., Mitchell, T., and Ylvisaker, D. (1993), "Bayesian Design and Analysis of Computer Experiments:
+Use of Derivatives in Surface Prediction," Technometrics, 35, 243–255.</mixed-citation>
+        </ref>
+        <ref id="d3602394e468a1310">
+          
+            <mixed-citation id="d3602394e472" publication-type="other">
+Mugunthan, P., and Shoemaker, C. A. (2006), "Assessing the Impacts of Parameter Uncertainty for Computation-
+ally Expensive Groundwater Models," Water Resources Research, 42, W10428, doi: 10.1029/
+2005WR004640.</mixed-citation>
+        </ref>
+        <ref id="d3602394e485a1310">
+          
+            <mixed-citation id="d3602394e489" publication-type="other">
+Mugunthan, P., Shoemaker, C. A., and Regis, R. G. (2005), "Comparison of Function Approximation, Heuris-
+tic and Derivative-Based Methods for Automatic Calibration of Computationally Expensive Groundwater
+Bioremediation Models," Water Resources Research, 41, Wl 1427, doi:10.1029/2005WR004134.</mixed-citation>
+        </ref>
+        <ref id="d3602394e502a1310">
+          
+            <mixed-citation id="d3602394e506" publication-type="other">
+O'Hagan, A., Kennedy, M. C, and Oakley, J. E. (1998), "Uncertainty Analysis and Other Inference Tools for
+Complex Codes," in Bayesian Statistics 6, eds. J. M. Bernardo, J. O. Berger, A. P. Berger, and A. F. M.
+Smith, pp. 503-524.</mixed-citation>
+        </ref>
+        <ref id="d3602394e520a1310">
+          
+            <mixed-citation id="d3602394e524" publication-type="other">
+Powell, M. J. D. (1992), "The Theory of Radial Basis Function Approximation in 1990," in Advances in Numer-
+ical Analysis, Volume 2: Wavelets, Subdivision Algorithms and Radial Basis Functions, ed. W. Light, New
+York: Oxford University Press, pp. 105-210.</mixed-citation>
+        </ref>
+        <ref id="d3602394e537a1310">
+          
+          
+            <mixed-citation id="d3602394e543" publication-type="other">
+-(1996), "A Review of Algorithms for Thin Plate Spline Interpolation in Two Dimensions," in Advanced
+Topics in Multivariate Approximation, eds. F. Fontanella, K. Jetter and P. J. Laurent, River Edge, NJ: World
+Scientific Publishing, pp. 303-322.</mixed-citation>
+        </ref>
+        <ref id="d3602394e556a1310">
+          
+            <mixed-citation id="d3602394e560" publication-type="other">
+—(2002), "UOBYQA: Unconstrained Optimization by Quadratic Approximation," Mathematical Program-
+ming, 92,555–582.</mixed-citation>
+        </ref>
+        <ref id="d3602394e570a1310">
+          
+            <mixed-citation id="d3602394e574" publication-type="other">
+Rasmussen, C.E. (2003), "Gaussian Processes to Speed up Hybrid Monte Carlo for Expensive Bayesian Inte-
+grals," in Bayesian Statistics 7, eds. J. M. Bernardo, J. O. Berger, A. P. Berger and A. F. M. Smith, pp.
+651–659.</mixed-citation>
+        </ref>
+        <ref id="d3602394e587a1310">
+          
+            <mixed-citation id="d3602394e591" publication-type="other">
+Regis, R. G., and Shoemaker, C. A. (2007a), "A Stochastic Radial Basis Function Method for the Global Opti-
+mization of Expensive Functions," INFORMS Journal of Computing, 19, 497–509.</mixed-citation>
+        </ref>
+        <ref id="d3602394e601a1310">
+          
+            <mixed-citation id="d3602394e605" publication-type="other">
+—(2007b), "Parallel Radial Basis Function Methods for the Global Optimization of Computationally Ex-
+pensive Functions," European Journal of Operations Research, 182, 514–535.</mixed-citation>
+        </ref>
+        <ref id="d3602394e616a1310">
+          
+            <mixed-citation id="d3602394e620" publication-type="other">
+Santner, T.J., Williams, B.J. andNotz, W. (2003), The Design and Analysis of Computer Experiments. New York:
+Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d3602394e630a1310">
+          
+            <mixed-citation id="d3602394e634" publication-type="other">
+Shoemaker, C., Regis, R., and Fleming, R. (2007), "Watershed Calibration Using Multistart Local Optimization
+and Evolutionary Optimization with Radial Basis Function Approximation," Journal Of Hydrologie Science,
+52, 450-465, doi: 10.1623/hysj.52.3.450.</mixed-citation>
+        </ref>
+        <ref id="d3602394e647a1310">
+          
+            <mixed-citation id="d3602394e651" publication-type="other">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions," The Annals of Statistics, 22, 1701 —
+1786.</mixed-citation>
+        </ref>
+        <ref id="d3602394e661a1310">
+          
+            <mixed-citation id="d3602394e665" publication-type="other">
+Tierney, L., and Kadane, J. B. (1986), "Accurate Approximations for Posterior Moments and Marginal Densities,"
+Journal of the American Statistical Association, 81, 82-86.</mixed-citation>
+        </ref>
+        <ref id="d3602394e675a1310">
+          
+            <mixed-citation id="d3602394e679" publication-type="other">
+Toison, B., and Shoemaker, C. A. (2007a), "The Dynamically Dimensioned Search Algorithm for Computation-
+ally Efficient Automatic Calibration of Environmental Simulation Models," Water Resources Research, 43,
+W01413, doi: 10.1029/2005WR004723.</mixed-citation>
+        </ref>
+        <ref id="d3602394e692a1310">
+          
+            <mixed-citation id="d3602394e696" publication-type="other">
+-(2007b), "Cannonsville Reservoir Watershed SWAT2000 Model Development, Calibration and Valida-
+tion," Journal of Hydrology, 337, 68-86.</mixed-citation>
+        </ref>
+        <ref id="d3602394e707a1310">
+          
+            <mixed-citation id="d3602394e711" publication-type="other">
+Trosset, M. W. (1999), "Approximate Maximin Distance Designs," in American Statistical Association Proceed-
+ings of the Physical and Engineering Sciences Section, pp. 223-227.</mixed-citation>
+        </ref>
+        <ref id="d3602394e721a1310">
+          
+            <mixed-citation id="d3602394e725" publication-type="other">
+Vanden Berghen, F., and Bersini, H. (2005), "CONDOR, a New Parallel, Constrained Extension of Powell's
+UOBYQA Algorithm: Experimental Results and Comparison With the DFO Algorithm," Journal of Com-
+putational and Applied Mathematics, 181,157–175.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">103</volume>
+         <issue-id>i40193579</issue-id>
+         <article-id pub-id-type="jstor">44632807</article-id>
+         <title-group>
+            <article-title>Adaptive Air-Fuel Ratio Control of a Spark-Ignition Engine</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Brian A.</given-names>
+                  <surname>Ault</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>V. K.</given-names>
+                  <surname>Jones</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>J. David</given-names>
+                  <surname>Powell</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Gene F.</given-names>
+                  <surname>Franklin</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>442</fpage>
+         <lpage>451</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 1995 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44632807"/>
+      
+      
+         <abstract>
+            <p>Good control of air-fuel ratio under all operating conditions is essential for low exhaust emissions. In an effort to achieve this goal, an engine model based observer control structure has been applied to a single-cylinder CFR engine. The model includes fuel puddle dynamics, cycle delays inherent in the four-stroke engine process, and sensor dynamics for a universal exhaust gas oxygen (UEGO) sensor. This control structure has been shown to be capable of maintaining the air-fuel ratio within 0.5% rms of the commanded stoichiometric value during throttle transients. To achieve this level of performance, accurate values of model parameters such as time constants, delay times, and fuel puddle parameters are necessary. Since these parameters tend to vary with engine speed, throttle angle, time, and temperature, a method of periodically updating these parameter values is useful. This paper presents a nonlinear least squares parameter identification technique which provides accurate values of model parameters from data collected during normal engine operation. The inputs are the control signals for an electronic fuel injector and drive-by-wire throttle, while the output is the measurement from a UEGO sensor located in the exhaust manifold. Sensor characteristics and engine air flow parameters are identified during steady-state conditions by imposing small dithers about the nominal throttle angle, and fuel puddle parameters are identified during load transients. The identified values are then used in the model-based AFR control system previously described to control AFR over a range of throttle angles and engine speeds. Using this self-tuning regulator structure, air-fuel ratio control is demonstrated to follow the commanded stoichiometric value within 0.5% rms during various throttle transients with no off-line calibration effort.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d323e351a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d323e358" publication-type="other">
+A. Amstutz, Nicholas P. Fekete, and J. David Powell.
+Model-based air-fuel ratio control in s.i. engines using
+a switch-type ego sensor. SAE Paper No. 940972,
+1994.</mixed-citation>
+        </ref>
+        <ref id="d323e374a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d323e381" publication-type="other">
+Astrom and Wittenmark. Adaptive Control. Addison-
+Wesley, Reading, MA, 1st edition, 1989.</mixed-citation>
+        </ref>
+        <ref id="d323e391a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d323e398" publication-type="other">
+J. Bubhardt and R. Isermann. Realization of adap-
+tive shock absorbers by estimating physical process
+coefficients of a vehicle suspension system. American
+Control Conference, Chicago, Illinois, 1992.</mixed-citation>
+        </ref>
+        <ref id="d323e414a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d323e421" publication-type="other">
+C.-F. Chang. Air-Fuel Ratio Control in an IC Engine
+Using an Event-Based Observer. PhD thesis, Stanford
+University, June 1993.</mixed-citation>
+        </ref>
+        <ref id="d323e435a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d323e442" publication-type="other">
+C.-F. Chang, Nicholas P. Fekete, and J. David Pow-
+ell. Engine air-fuel ratio control using an event-based
+observer. SAE Paper No. 930766, 1993.</mixed-citation>
+        </ref>
+        <ref id="d323e455a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d323e462" publication-type="other">
+G. F. Franklin, J. D. Powell, and M. L. Workman.
+Digital Control of Dynamic Systems. Addison-Wesley,
+Reading, MA, 2nd edition, 1990.</mixed-citation>
+        </ref>
+        <ref id="d323e475a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d323e482" publication-type="other">
+P.E. Gill, W. Murray, and M.H. Wright. Practical
+Optimization. Academic Press, London, 1st edition,
+1981.</mixed-citation>
+        </ref>
+        <ref id="d323e495a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d323e502" publication-type="other">
+J. B. Hey wood. Internal Combustion Engine Fun-
+damentals. McGraw-Hill Publishing Co., 1st edition,
+1988.</mixed-citation>
+        </ref>
+        <ref id="d323e515a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d323e522" publication-type="other">
+R. Isermann. Estimation of physical parameters for
+dynamic processes with application to an industrial
+robot. Int. J. of Control, 55(6) : 1287-1298, 1992.</mixed-citation>
+        </ref>
+        <ref id="d323e535a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d323e542" publication-type="other">
+A.E. Bryson Jr. and Y.-C. Ho. Applied Optimal Con-
+trol. Hemisphere Co., New York, NY, 1st edition,
+1975.</mixed-citation>
+        </ref>
+        <ref id="d323e556a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d323e563" publication-type="other">
+Lennart Ljung. System Identification: Theory for the
+User. Prentic-Hall Inc., Englewood Cliffs, N.J., re-
+vised printing edition, 1987.</mixed-citation>
+        </ref>
+        <ref id="d323e576a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d323e583" publication-type="other">
+V. Nagarajan. On-line identification and real-time
+adaptive control of a pneumatic robot arm. Master's
+thesis, University of California, Irvine, June 1988.</mixed-citation>
+        </ref>
+        <ref id="d323e596a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d323e603" publication-type="other">
+D.M. Rovner. Experiments in Adaptive Control of
+a Very Flexible One-Link Manipulator. PhD thesis,
+Stanford University, August 1987.</mixed-citation>
+        </ref>
+        <ref id="d323e616a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d323e623" publication-type="other">
+R.C. Turin and H. P. Geering. On-line identification
+of air-fuel ratio dynamics in a sequentially injected s.i.
+engine. SAE Paper No. 930857, 1993.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260269</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390848</article-id>
+         
+         <title-group>
+            <article-title>Adaptive Order Polynomial Fitting: Bandwidth Robustification and Bias Reduction</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jianqing</given-names>
+                  <surname>Fan</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Irène</given-names>
+                     <surname>Gijbels</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>213</fpage>
+         <lpage>227</lpage>
+         <page-range>213-227</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1995 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390848"/>
+         
+         
+         <abstract>
+            <p>This article deals with estimation of the regression function and its derivatives using local polynomial fitting. An important question is: How to determine the order of the polynomial to be fitted in a particular fixed neighborhood? This depends on the local curvature of the unknown curve. A higher order fit leads to a possible bias reduction, but results in an increase of variability. A precise evaluation of this increase is presented, and from this it is also clear that it is preferable to choose the order of fit adaptively. In this article we provide, for a given bandwidth, such a data-driven variable order selection procedure. The basic idea is to obtain a good estimate of the mean squared error at each location point and to use this estimate as a criterion for the order selection. The performance of the proposed selection procedure is illustrated via simulated examples. It turns out that the adaptive order fit is more robust against bandwidth variation; even if the bandwidth varies by a factor of 3, the resulting estimates are qualitatively indistinguishable. Hence the issue of choosing the bandwidth becomes less important and a crude bandwidth selector might suffice. We propose such a simple rule for selecting the bandwidth, and demonstrate its performance for the adaptive order fit via some simulated examples.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Adaptive order approximation</kwd>
+            <kwd>Bandwidth robustification</kwd>
+            <kwd>Bandwidth selection</kwd>
+            <kwd>Bias reduction</kwd>
+            <kwd>Estimation of derivatives</kwd>
+            <kwd>Increase of variability</kwd>
+            <kwd>Nonparametric regression</kwd>
+            <kwd>Spatial-adaptation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1627053e184a1310">
+               
+               <mixed-citation id="d1627053e188" publication-type="journal">
+Brockmann, M., Gasser, T., and Hermann, E. (1993), "Locally Adaptive Bandwidth Choice for Kernel Regres-
+sion Estimators," Journal of the American Statistical Association, 88, 1302-1309.<object-id pub-id-type="doi">10.2307/2291270</object-id>
+               <fpage>1302</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e204a1310">
+               
+               <mixed-citation id="d1627053e208" publication-type="book">
+Cheng, M. Y., Fan, J., and Marron, J. S. (1993), "Minimax Efficiency of Local Polynomial Fit Estimators at
+Boundaries," Institute of Statistics Mimeo Series, #2098, University of North Carolina, Chapel Hill.<person-group>
+                     <string-name>
+                     <surname>Cheng</surname>
+                  </string-name>
+                  </person-group>
+               <source>Minimax Efficiency of Local Polynomial Fit Estimators at Boundaries</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e233a1310">
+               
+               <mixed-citation id="d1627053e237" publication-type="journal">
+Cleveland, W.S. (1979), "Robust Locally Weighted Regression and Smoothing Scatterplots," Journal of the
+American Statistical Association, 74, 829-836.<object-id pub-id-type="doi">10.2307/2286407</object-id>
+               <fpage>829</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e253a1310">
+               
+               <mixed-citation id="d1627053e257" publication-type="journal">
+Fan, J. (1992), "Design-Adaptive Nonparametric Regression," Journal of the American Statistical Association,
+87, 998-1004.<object-id pub-id-type="doi">10.2307/2290637</object-id>
+               <fpage>998</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e274a1310">
+               
+               <mixed-citation id="d1627053e278" publication-type="journal">
+(1993), "Local Linear Regression Smoothers and Their Minimax Efficiency," The Annals of Statistics,
+21, 196-216.<object-id pub-id-type="jstor">10.2307/3035587</object-id>
+               <fpage>196</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e294a1310">
+               
+               <mixed-citation id="d1627053e298" publication-type="journal">
+Fan, J., and Gijbels, I. (1992), "Variable Bandwidth and Local Linear Regression Smoothers," The Annals of
+Statistics, 20, 2008-2036.<object-id pub-id-type="jstor">10.2307/2242378</object-id>
+               <fpage>2008</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e314a1310">
+               
+               <mixed-citation id="d1627053e318" publication-type="journal">
+(1995), "Data-Driven Bandwidth Selection in Local Polynomial Fitting: Variable Bandwidth and Spatial
+Adaptation," Journal of the Royal Statistical Society, Ser. B, 57, 371-394.<person-group>
+                     <string-name>
+                     <surname>Fan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>371</fpage>
+               <volume>57</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e350a1310">
+               
+               <mixed-citation id="d1627053e354" publication-type="journal">
+Hall, P., Sheather, S.J., Jones, M.C., and Marron, J.S. (1991), "On Optimal Data-Based Bandwidth Selection
+in Kernel Density Estimation," Biometrika, 78, 263-271.<object-id pub-id-type="doi">10.2307/2337251</object-id>
+               <fpage>263</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e370a1310">
+               
+               <mixed-citation id="d1627053e374" publication-type="journal">
+Hastie, T., and Loader, C. (1993), "Local Regression: Automatic Kernel Carpentry," Statistical Science, 8,
+120-143.<object-id pub-id-type="jstor">10.2307/2246148</object-id>
+               <fpage>120</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e390a1310">
+               
+               <mixed-citation id="d1627053e394" publication-type="journal">
+Jones, M.C., Marron, J.S., and Sheather, S.J. (in press), "A Brief Survey of Bandwidth Selection for Kernel
+Density Estimation," Journal of the American Statistical Association.<person-group>
+                     <string-name>
+                     <surname>Jones</surname>
+                  </string-name>
+                  </person-group>
+               <source>Journal of the American Statistical Association</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e417a1310">
+               
+               <mixed-citation id="d1627053e421" publication-type="journal">
+Müller, H.G. (1987), "Weighted Local Regression and Kernel Methods for Nonparametric Curve Fitting,"
+Journal of the American Statistical Association, 82, 231-238.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>82</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e453a1310">
+               
+               <mixed-citation id="d1627053e457" publication-type="journal">
+Müller, H.G., and Stadtmüller, U. (1987), "Variable Bandwidth Kernel Estimators of Regression Curves," The
+Annals of Statistics, 15, 182-201.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>182</fpage>
+               <volume>15</volume>
+               <source>The Annals of Statistics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e489a1310">
+               
+               <mixed-citation id="d1627053e493" publication-type="journal">
+Nadaraya, E.A. (1964), "On Estimating Regression," Theory of Probability and its Applications, 9, 141-142.<person-group>
+                     <string-name>
+                     <surname>Nadaraya</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>141</fpage>
+               <volume>9</volume>
+               <source>Theory of Probability and its Applications</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e522a1310">
+               
+               <mixed-citation id="d1627053e526" publication-type="journal">
+Ruppert, D., Sheather, S.J., and Wand, M.P. (in press), "An Effective Bandwidth Selector for Local Least
+Squares Regression," Journal of the American Statistical Association.<person-group>
+                     <string-name>
+                     <surname>Ruppert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Journal of the American Statistical Association</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e548a1310">
+               
+               <mixed-citation id="d1627053e552" publication-type="journal">
+Ruppert, D., and Wand, M.P. (1994), "Multivariate Weighted Least Squares Regression," The Annals of
+Statistics, 22, 1346-1370.<object-id pub-id-type="jstor">10.2307/2242229</object-id>
+               <fpage>1346</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e568a1310">
+               
+               <mixed-citation id="d1627053e572" publication-type="journal">
+Sheather, S.J., and Jones, M.C. (1991), "A Reliable Data-Based Bandwidth Selection Method for Kernel
+Density Estimation," Journal of the Royal Statistical Society, Ser. B, 53, 683-690.<person-group>
+                     <string-name>
+                     <surname>Sheather</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>683</fpage>
+               <volume>53</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e605a1310">
+               
+               <mixed-citation id="d1627053e609" publication-type="journal">
+Tibshirani, R., and Hastie, T. (1987), "Local Likelihood Estimation," Journal of the American Statistical Asso-
+ciation, 82, 559-567.<object-id pub-id-type="doi">10.2307/2289465</object-id>
+               <fpage>559</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627053e625a1310">
+               
+               <mixed-citation id="d1627053e629" publication-type="journal">
+Watson, G.S. (1964), "Smooth Regression Analysis," Sankhyā, Sr. A, 26, 359-372.<person-group>
+                     <string-name>
+                     <surname>Watson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>359</fpage>
+               <volume>26</volume>
+               <source>Sankhyā, Ser. A</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

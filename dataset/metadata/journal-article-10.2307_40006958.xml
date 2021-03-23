@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i40000372</issue-id>
+         <article-id pub-id-type="jstor">40006958</article-id>
+         <title-group>
+            <article-title>Alignment and Matching of Bilingual English-Chinese News Texts</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Donghua</given-names>
+                  <surname>Xu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Chew Lim</given-names>
+                  <surname>Tan</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>33</lpage>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40006958"/>
+         
+         
+         <abstract>
+            <p>This paper presents a project to align and match bilingual English-Chinese news files downloaded from the China News Service's website. The work involves the alignment of bilingual texts at the sentence and clause levels. It addition, the work also requires matching of files as the English and Chinese news files downloaded from the web do not come in the same sequential order. These news files have their own characteristics and, furthermore, the issue of file-matching has its unique difficulties apart from the known problems of alignment work previously reported in the literature. To align the news files we combine the criteria of "anchors" (i.e. unambiguous corresponding text elements) and sentence length. We employ Dynamic Programming first to align at the paragraph level, then to align at the sentence-clause level. The precision and recall of the alignment are satisfactory for free translation texts. To match English and Chinese files, we make use of the anchors alone. In file matching we encounter a "collision" problem due to contending matching candidates, and propose a recursive splitting algorithm to resolve the problem. We allow human intervention to improve the precision of matching, and succeeded in achieving 100% precision with a fairly small amount of manual effort. Finally, to determine the various parameters used in aligning and matching, we utilize a Genetic Algorithm software package to obtain their optimized values.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>text alignment</kwd>
+            <kwd>file matching</kwd>
+            <kwd>dynamic programming</kwd>
+            <kwd>genetic algorithm</kwd>
+            <kwd>news files</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <ref-list>
+            <title>Notes</title>
+            <ref id="d4756046e199a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4756046e206" publication-type="other">
+Klavans and Resnik (1996).</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d4756046e222a1310">
+               
+               <mixed-citation id="d4756046e226" publication-type="other">
+Brown, P. F.,J. Cocke, S. A. Delia Pietra, V. J. Delia Pietra, R Jelinek, J. D. Lafferty, R. L. Mercer, and
+P. S. Roossin: 1990, 'A Statistical Approach To Machine Translation', Computational Linguistics
+16, 79-85.</mixed-citation>
+            </ref>
+            <ref id="d4756046e239a1310">
+               
+               <mixed-citation id="d4756046e243" publication-type="other">
+Brown, P. F., J. C. Lai, and R. L. Mercer: 1991, 'Aligning Sentences in Parallel Corpora', 29th Annual
+Meeting of the Association for Computational Linguistics, Berkeley, California, pp. 169-176.</mixed-citation>
+            </ref>
+            <ref id="d4756046e253a1310">
+               
+               <mixed-citation id="d4756046e257" publication-type="other">
+Chen, K-H. and H-H. Chen: 1995, 'Aligning Bilingual Corpus: Especially for Language Pairs from
+Different Families', Information Sciences 4, 57-81.</mixed-citation>
+            </ref>
+            <ref id="d4756046e267a1310">
+               
+               <mixed-citation id="d4756046e271" publication-type="other">
+Fung, P. and K. W. Church: 1994, 'K-vec: A New Approach for Aligning Parallel Texts', COLING
+94: The 15th International Conference on Computational Linguistics, Kyoto, Japan, pp. 1096-
+1102.</mixed-citation>
+            </ref>
+            <ref id="d4756046e285a1310">
+               
+               <mixed-citation id="d4756046e289" publication-type="other">
+Gale, W. A. and K. W. Church: 1991, 'A Program for Aligning Sentences in Bilingual Corpora',
+29th Annual Meeting of the Association for Computational Linguistics, Berkeley, California, pp.
+177-184.</mixed-citation>
+            </ref>
+            <ref id="d4756046e302a1310">
+               
+               <mixed-citation id="d4756046e306" publication-type="other">
+Gale, W. A. and K. W. Church: 1993, 'A Program for Aligning Sentences in Bilingual Corpora',
+Computational Linguistics 19, 75-102.</mixed-citation>
+            </ref>
+            <ref id="d4756046e316a1310">
+               
+               <mixed-citation id="d4756046e320" publication-type="other">
+Haruno, M. and T. Yamazaki: 1996, 'High-performance Bilingual Text Alignment Using Statist-
+ical and Dictionary Information', 34th Annual Meeting of the Association for Computational
+Linguistics, Santa Cruz, California, pp. 131-138.</mixed-citation>
+            </ref>
+            <ref id="d4756046e333a1310">
+               
+               <mixed-citation id="d4756046e337" publication-type="other">
+Hwang, D. and M. Nagao: 1994, 'Ruijisei ni motodzuita nikkan taiyaku tekisuto no bun taiō'
+[Aligning of Japanese and Korean texts by analogy! Jōhōshorigakkai Kenkyūhōkoku 94.9, 87-94.</mixed-citation>
+            </ref>
+            <ref id="d4756046e347a1310">
+               
+               <mixed-citation id="d4756046e351" publication-type="other">
+Kay, M. and M. Röscheisen: 1993, 'Text-translation Alignment', Computational Linguistics 19, 121-
+142.</mixed-citation>
+            </ref>
+            <ref id="d4756046e361a1310">
+               
+               <mixed-citation id="d4756046e365" publication-type="other">
+Ker, S. J. and J. S. Chang: 1997, 'A Class-based Approach to Word Alignment', Computational
+Linguistics 23, 313-341.</mixed-citation>
+            </ref>
+            <ref id="d4756046e376a1310">
+               
+               <mixed-citation id="d4756046e380" publication-type="other">
+Klavans, J. L. and P. Resnik (eds): 1996, The Balancing Act: Combining Symbolic and Statistical
+Approaches to Language. Cambridge, Massachusetts: MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4756046e390a1310">
+               
+               <mixed-citation id="d4756046e394" publication-type="other">
+Langlais, P.: 1997, A System to Align Complex Bilingual Corpora, Technical report TMH-QPSR 4,
+Kungliska Tekniska Hogskolan, Stockholm, Sweden.</mixed-citation>
+            </ref>
+            <ref id="d4756046e404a1310">
+               
+               <mixed-citation id="d4756046e408" publication-type="other">
+Matsumoto, Y, H. Ishimoto and T. Utsuro: 1993, 'Structural Matching of Parallel Texts', 31st Annual
+Meeting of the Association for Computational Linguistics, Columbus, Ohio, pp. 23-30.</mixed-citation>
+            </ref>
+            <ref id="d4756046e418a1310">
+               
+               <mixed-citation id="d4756046e422" publication-type="other">
+Melamed, I. D.: 1996a, 'A Geometric Approach to Mapping Bitext Correspondence', Proceed-
+ings of the Conference on Empirical Methods in Natural Language Processing, Philadelphia,
+Pennsylvania, pp. 1-12.</mixed-citation>
+            </ref>
+            <ref id="d4756046e435a1310">
+               
+               <mixed-citation id="d4756046e439" publication-type="other">
+Melamed, I. D.: 1996b, 'Automatic Construction of Clean Broad-coverage Translation Lexicons',
+Expanding MT Horizons: Proceedings of the Second Conference of the Association for Machine
+Translation in the Americas, Montreal, Quebec, pp. 125-134.</mixed-citation>
+            </ref>
+            <ref id="d4756046e452a1310">
+               
+               <mixed-citation id="d4756046e456" publication-type="other">
+Melamed, I. D.: 1997, 'A Word-to-Word Model of Translational Equivalence', 35th Annual Meeting
+of the Association for Computational Linguistics and 8th Conference of the European Chapter
+of the Association for Computational Linguistics, Madrid, Spain, pp. 490-497.</mixed-citation>
+            </ref>
+            <ref id="d4756046e470a1310">
+               
+               <mixed-citation id="d4756046e474" publication-type="other">
+Nagao, M.: 1984, 'A Framework of a Mechanical Translation between Japanese and English by
+Analogy Principle', In A. Elithorn and R. Banerji (eds) Artificial and Human Intelligence, 173-
+180. Amsterdam: North-Holland.</mixed-citation>
+            </ref>
+            <ref id="d4756046e487a1310">
+               
+               <mixed-citation id="d4756046e491" publication-type="other">
+Sato, S.: 1991, Example-Based Machine Translation, Ph.D. Thesis, Kyoto University, Japan.</mixed-citation>
+            </ref>
+            <ref id="d4756046e498a1310">
+               
+               <mixed-citation id="d4756046e502" publication-type="other">
+Schraudolph, N. N.: 1992, A User's Guide to GAucsd 1.4, Technical report CS92-249, CSE
+Department, UCSD, San Diego, California.</mixed-citation>
+            </ref>
+            <ref id="d4756046e512a1310">
+               
+               <mixed-citation id="d4756046e516" publication-type="other">
+Simard, M., G. F. Foster and P. Isabelle: 1992, 'Using Cognates to Align Sentences in Bilingual
+Corpora', Quatrième colloque international sur les aspects théoriques et méthodologiques de
+la traduction automatique, Fourth International Conference on Theoretical and Methodological
+Issues in Machine Translation, TMI-92, Montréal, pp. 67-81.</mixed-citation>
+            </ref>
+            <ref id="d4756046e532a1310">
+               
+               <mixed-citation id="d4756046e536" publication-type="other">
+Tan, C. L. and M. Nagao: 1995, 'Automatic Alignment of Japanese-Chinese Bilingual Texts', IEICE
+Transactions on Information and Systems E78-D.1, 68-76.</mixed-citation>
+            </ref>
+            <ref id="d4756046e546a1310">
+               
+               <mixed-citation id="d4756046e550" publication-type="other">
+Wu, D.: 1994, 'Aligning Parallel English-Chinese Text Statistically with Lexical Criteria', 32nd
+Annual Meeting of the Association for Computational Linguistics, Las Cruces, New Mexico,
+pp. 80-87.</mixed-citation>
+            </ref>
+            <ref id="d4756046e564a1310">
+               
+               <mixed-citation id="d4756046e568" publication-type="other">
+Wu, D.: 1997, 'Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel
+Corpora', Computational Linguistics 23, 377-403.</mixed-citation>
+            </ref>
+            <ref id="d4756046e578a1310">
+               
+               <mixed-citation id="d4756046e582" publication-type="other">
+Xu, D. and C. L. Tan: 1996, 'Automatic Alignment of English-Chinese Bilingual Texts of CNS
+News', Proceedings of International Conference on Chinese Computing '96, Singapore, pp. 90-
+97.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

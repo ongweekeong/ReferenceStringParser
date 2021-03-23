@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">40</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">162</issue>
+         <issue-id>i334580</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007527</article-id>
+         
+         <title-group>
+            <article-title>A Computational Study of Finite Element Methods for Second Order Linear Two-Point Boundary Value Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>P.</given-names>
+                  <surname>Keast</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>G.</given-names>
+                  <surname>Fairweather</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. C.</given-names>
+                  <surname>Diaz</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1983</year>
+         </pub-date>
+         <fpage>499</fpage>
+         <lpage>518</lpage>
+         <page-range>499-518</page-range>
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1983 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007527"/>
+         
+         
+         <abstract>
+            <p>A computational study of five finite element methods for the solution of a single second order linear ordinary differential equation subject to general linear, separated boundary conditions is described. In each method, the approximate solution is a piecewise polynomial expressed in terms of a $B$-spline basis, and is determined by solving a system of linear algebraic equations with an almost block diagonal structure. The aim of the investigation is twofold: to determine if the theoretical orders of convergence of the methods are realized in practice, and to compare the methods on the basis of cost for a given accuracy. In this study three parametrized families of test problems, containing problems of varying degrees of difficulty, are used. The conclusions drawn are rather straightforward. Collocation is the cheapest method for a given accuracy, and the easiest to implement. Also, for solving the linear algebraic equations, the use of a special purpose solver which takes advantage of the structure of the equations is advisable.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65L10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d255409e196a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d255409e203" publication-type="journal">
+U. ASCHER, J. CHRISTIANSEN &amp; R. D. RUSSELL, "A collocation solver for mixed order systems of
+boundary value problems," Math. Comp., v. 33, 1979, pp. 659-679.<object-id pub-id-type="doi">10.2307/2006301</object-id>
+               <fpage>659</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e219a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d255409e226" publication-type="book">
+C. DE BOOR, A Practical Guide to Splines, Springer-Verlag, New York, 1978.<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Practical Guide to Splines</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e248a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d255409e255" publication-type="journal">
+C. DE BOOR &amp; B. SWARTZ, "Collocation at Gaussian points," SIAM J. Numer. Anal., v. 10, 1973,
+pp. 582-606.<object-id pub-id-type="jstor">10.2307/2156271</object-id>
+               <fpage>582</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e271a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d255409e278" publication-type="other">
+V. PEREYRA &amp; R. D. RUSSELL "Difficulties of comparing complex mathematical software: general
+comments and the BVODE case." (Preprint.)</mixed-citation>
+            </ref>
+            <ref id="d255409e289a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d255409e296" publication-type="journal">
+C. DE BOOR &amp; R. WEISS, " SOLVEBLOK: A package for solving almost block diagonal linear
+systems," ACM Trans. Math. Software, v. 6, 1980, pp. 80-87.<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>80</fpage>
+               <volume>6</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e328a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d255409e335" publication-type="book">
+E. A. CODDINGTON &amp; N. LEVINSON, Ordinary Differential Equations, McGraw-Hill, New York,
+1955.<person-group>
+                     <string-name>
+                     <surname>Coddington</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ordinary Differential Equations</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e360a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d255409e367" publication-type="journal">
+J. C. DIAZ, "A collocation-Galerkin method for the two-point boundary value problem using
+continuous piecewise polynomial spaces," SIAM J. Numer. Anal., v. 14, 1977, pp. 844-855.<object-id pub-id-type="jstor">10.2307/2156596</object-id>
+               <fpage>844</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e383a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d255409e390" publication-type="book">
+J. C. DIAZ, G. FAIRWEATHER &amp; P. KEAST, FORTRAN Packages for Solving Certain Almost Block
+Diagonal Liniear Systems by Modified Alternate Row and Column Elimination, Technical Report 148/81,
+Department of Computer Science, University of Toronto, January, 1981.<person-group>
+                     <string-name>
+                     <surname>Diaz</surname>
+                  </string-name>
+                  </person-group>
+               <source>FORTRAN Packages for Solving Certain Almost Block Diagonal Liniear Systems by Modified Alternate Row and Column Elimination</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e419a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d255409e426" publication-type="journal">
+J. DOUGLAS, JR. &amp; T. DUPONT, "Galerkin approximations for the two-point boundary value
+problem using continuous, piecewise polynomial spaces," Numer. Math., v. 22, 1974, pp. 99-109.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>22</volume>
+               <source>Numer. Math.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e458a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d255409e465" publication-type="other">
+U. ASCHER, S. PRUESS &amp; R. D. RUSSELL, "On spline basis selection for solving differential
+equations." (Preprint.)</mixed-citation>
+            </ref>
+            <ref id="d255409e476a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d255409e483" publication-type="journal">
+J. DOUGLAS, JR., T. DUPONT &amp; L. WAHLBIN, "Optimal Lx error estimates for Galerkin
+approximations to solutions of two-point boundary value problems", Math. Comp., v. 9, 1975, pp.
+475-483.<object-id pub-id-type="doi">10.2307/2005565</object-id>
+               <fpage>475</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e502a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d255409e509" publication-type="book">
+J. DOUGLAS, JR., T. DUPONT &amp; M. F. WHEELER, Some Super-Convergence Results for an
+H1-Galerkin Procedure for the Heat Equation, Lecture Notes in Comput. Sci., No. 10, Springer-Verlag,
+Berlin, 1974, pp. 288-309.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>288</fpage>
+               <source>Some Super-Convergence Results for an H1-Galerkin Procedure for the Heat Equation</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e541a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d255409e548" publication-type="journal">
+R. J. DUNN, JR. &amp; M. F. WHEELER, "Some collocation-Galerkin methods for two-point boundary-
+value problems", SIAM J. Numer. Anal., v. 13, 1976, pp. 720-733.<object-id pub-id-type="jstor">10.2307/2156101</object-id>
+               <fpage>720</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e564a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d255409e571" publication-type="journal">
+T. DUPONT, "A unified theory of superconvergence for Galerkin methods for two-point boundary
+value problems", SIAM J. Numer. Anal., v. 13, 1976, pp. 362-368.<object-id pub-id-type="jstor">10.2307/2156304</object-id>
+               <fpage>362</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e587a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d255409e594" publication-type="other">
+G. FAIRWEATHER, P. KEAST &amp; J. C. DIAZ, "On the H-1-Galerkin method for two-point boundary
+value problems and parabolic problems in one space variable." (In preparation.)</mixed-citation>
+            </ref>
+            <ref id="d255409e604a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d255409e611" publication-type="book">
+P. HEMKER, A Numerical Study of Stiff Two Point Boundary Value Problems, Math. Centrum,
+Amsterdam, 1977.<person-group>
+                     <string-name>
+                     <surname>Hemker</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Numerical Study of Stiff Two Point Boundary Value Problems</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e637a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d255409e644" publication-type="book">
+H. H. RACHFORD, JR. &amp; M. F. WHEELER, "An H-1-Galerkin procedure for the two-point boundary
+value problem," Mathematical Aspects of Finite Elements in Partial Differential Equations (C. de Boor, ed.),
+Academic Press, New York, 1974, pp. 353-382.<person-group>
+                     <string-name>
+                     <surname>Rachford</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An H-1-Galerkin procedure for the two-point boundary value problem</comment>
+               <fpage>353</fpage>
+               <source>Mathematical Aspects of Finite Elements in Partial Differential Equations</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e679a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d255409e686" publication-type="journal">
+G. W. REDDIEN, "Projection methods for two-point boundary value problems," SIAM Rev., v. 22,
+1980, pp. 156-171.<object-id pub-id-type="jstor">10.2307/2029959</object-id>
+               <fpage>156</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e702a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d255409e709" publication-type="journal">
+R. D. RUSSELL, "A comparison of collocation and finite differences for two-point boundary value
+problems," SIAM J. Numer. Anal., v. 14, 1977, pp. 19-39.<object-id pub-id-type="jstor">10.2307/2156619</object-id>
+               <fpage>19</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e725a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d255409e732" publication-type="journal">
+R. D. RUSSELL &amp; J. M. VARAH, "A comparison of global methods for linear two-point boundary
+value problems," Math. Comp., v. 29, 1975, pp. 1007-1019.<object-id pub-id-type="doi">10.2307/2005739</object-id>
+               <fpage>1007</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e748a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d255409e755" publication-type="book">
+J. STOER &amp; R. BULIRSCH, Introduction to Numerical Analysis, Springer-Verlag, New York, 1980.<person-group>
+                     <string-name>
+                     <surname>Stoer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Numerical Analysis</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e777a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d255409e784" publication-type="journal">
+J. M. VARAH, "A comparison of some numerical methods for two-point boundary value problems,"
+Math. Comp., v. 28, 1974, pp. 743-755.<object-id pub-id-type="doi">10.2307/2005696</object-id>
+               <fpage>743</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e801a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d255409e808" publication-type="journal">
+J. M. VARAH, "Alternate row and column elimination for solving certain linear systems," SIAM J.
+Numer. Anal., v. 13, 1976, pp. 71-75.<object-id pub-id-type="jstor">10.2307/2156467</object-id>
+               <fpage>71</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e824a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d255409e831" publication-type="journal">
+M. F. WHEELER, "An optimal Loo error estimate for Galerkin approximations to solutions of
+two-point boundary value problems," SIAM J. Numer. Anal., v. 19, 1973, pp. 914-917.<object-id pub-id-type="jstor">10.2307/2156326</object-id>
+               <fpage>914</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e847a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d255409e854" publication-type="journal">
+M. F. WHEELER, "A C?-collocation-finite element method for two-point boundary-value problems
+and one space dimensional parabolic problems," SIAM J. Numer. Anal., v. 14, 1977, pp. 71-90.<object-id pub-id-type="jstor">10.2307/2156621</object-id>
+               <fpage>71</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e870a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d255409e877" publication-type="book">
+U. ASCHER &amp; R. D. RUSSELL, Evaluation of B-Splines for Solving Systems of Boundary Value
+Problems, Computer Sciences Technical Report 77-14, University of British Columbia, Vancouver, 1977.<person-group>
+                     <string-name>
+                     <surname>Ascher</surname>
+                  </string-name>
+                  </person-group>
+               <source>Evaluation of B-Splines for Solving Systems of Boundary Value Problems</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e902a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d255409e909" publication-type="book">
+P. KEAST, G. FAIRWEATHER &amp; J. C. DIAz, A Comparative Study of Finite Element Methods for the
+Solution of Second Order Linear Two-Point Boundary Value Problems, Technical Report 150/81, Depart-
+ment of Computer Science, University of Toronto, March 1981.<person-group>
+                     <string-name>
+                     <surname>Keast</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Comparative Study of Finite Element Methods for the Solution of Second Order Linear Two-Point Boundary Value Problems</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e938a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d255409e945" publication-type="conference">
+R. RUSSELL, Efficiencies of B-Spline Methods for Solving Differential Equations, Proc. Fifth Manitoba
+Conference on Numerical Math., 1975, pp. 599-617.<person-group>
+                     <string-name>
+                     <surname>Russell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Efficiencies of B-Spline Methods for Solving Differential Equations</comment>
+               <fpage>599</fpage>
+               <source>Proc. Fifth Manitoba Conference on Numerical Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d255409e978a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d255409e985" publication-type="book">
+G. FAIRWEATHER &amp; P. KEAST, ROWCOL-A Package for Solving Almost Block Diagonal Linear
+Systems Arising in H-1-Galerkin and Collocation-H-1-Galerkin Methods, Technical Report 158/82,
+Department of Computer Science, University of Toronto, 1982.<person-group>
+                     <string-name>
+                     <surname>Fairweather</surname>
+                  </string-name>
+                  </person-group>
+               <source>ROWCOL-A Package for Solving Almost Block Diagonal Linear Systems Arising in H-1-Galerkin and Collocation-H-1-Galerkin Methods</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

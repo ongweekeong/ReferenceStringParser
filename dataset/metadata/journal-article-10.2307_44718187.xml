@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SOCIETY OF AUTOMOTIVE ENGINEERS, INC.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">96</volume>
+         <issue-id>i40198349</issue-id>
+         <article-id pub-id-type="jstor">44718187</article-id>
+         <title-group>
+            <article-title>Three-Dimensional Computations of Flows in a Stratified-Charge Rotary Engine</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>F.</given-names>
+                  <surname>Grasso</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>M.-J.</given-names>
+                  <surname>Wey</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>F. V.</given-names>
+                  <surname>Bracco</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>J.</given-names>
+                  <surname>Abraham</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1987</year>
+         </pub-date>
+         <fpage>9</fpage>
+         <lpage>75</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 1988 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44718187"/>
+      
+      
+         <abstract>
+            <p>The first three-dimensional rotary-engine computations are reported of exhaust, intake (with side and peripheral ports, and with different intake turbulence intensities and length scales), compression, homogeneous-charge combustion, dual liquid fuel injection, and dual liquid fuel injection and combustion. The model includes a k-ε submodel for turbulence, a stochastic treatment of the fuel drops and a hybrid laminar and mixing-controlled submodel for the conversion of reactant to products. The code is an extensively modified version of KIVA. The latter was developed at the Los Alamos National Laboratory for reciprocating engines. The modifications include: dynamic rezoning of the grid in both the x–y and the x–z planes; adoption of a cartesian coordinate system fixed to the housing with analytical grid generation and grid velocities related to the rotor velocity; inclusion of radial and tangential ports for both intake and exhaust; use of ordinary differential equations in narrow clearances and their coupling to the partial differential equations; and modifications of the finite differencing of viscous and pressure terras to improve computational accuracy and efficiency. Among the new conclusions for rotary engines are that: near TDC turbulence is always insensitive to the details of the turbulence generated during intake but may depend on the initial turbulence diffusivity; near TDC the spatial distribution of turbulence is always non-uniform; with premixed–charges, the degree of mixing of fresh and residual charges and spatial uniformity of turbulence at ignition time are sensitive to the method of introduction of the fresh charge; and means should be considered to produce recirculation in fuel-injected engines. Since no measurements of the flows inside rotary engines exist, the stated conclusions are predictions, not postdictions. An extensive discussion of similarities and differences between flows in reciprocating and rotary engines is included.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d169e392a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d169e399" publication-type="other">
+Wankel, F., "Rotary Piston Machines,"
+Iliffe Books Ltd., London, England, 1965.</mixed-citation>
+        </ref>
+        <ref id="d169e409a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d169e416" publication-type="other">
+Ansdale, R. F., "The Wankel RC Engine,"
+Iliffe Books Ltd., London, England, 1968.</mixed-citation>
+        </ref>
+        <ref id="d169e426a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d169e433" publication-type="other">
+Yamamoto, K., Rotary Engine, Sankaido
+Co., Ltd., Japan, 1981.</mixed-citation>
+        </ref>
+        <ref id="d169e443a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d169e450" publication-type="other">
+Jones, C., "New Rotating Combustion
+Powerplant Development," SAE Paper 650723
+(Also in SAE Transactions Vol. 74), 1965.</mixed-citation>
+        </ref>
+        <ref id="d169e464a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d169e471" publication-type="other">
+Jones, C., "Curtiss-Wright 1 s Development
+Status of the Stratified Charge Rotating
+Combustion Engine," SAE Paper 710582
+(Also in SAE Transactions, Vol. 80), 1971.</mixed-citation>
+        </ref>
+        <ref id="d169e487a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d169e494" publication-type="other">
+Jones, C., A Progress Report on Curtiss-
+Wright's Rotary Stratified Charge Engine
+Development," SAE Paper 741206, 1974.</mixed-citation>
+        </ref>
+        <ref id="d169e507a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d169e514" publication-type="other">
+Loyd, R.W., "Curtiss-Wright Stratified
+Charge Rotary Engine Development,"
+Combustion Science and Technology, Vol.
+12, pp. 47-61, 1976.</mixed-citation>
+        </ref>
+        <ref id="d169e530a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d169e537" publication-type="other">
+Jones, C., Lamping, H.D., Myers, D.M.,
+and Loyd, R.W., "An Update of the Direct
+Injected Stratified Charge Rotary Com-
+bustion Engine Developments at Curtiss-
+Wright," SAE Paper 770044 (Also in SAE
+Transactions Vol. 86), 1977.</mixed-citation>
+        </ref>
+        <ref id="d169e560a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d169e567" publication-type="other">
+Jones, C. and Berkowitz, M., "Multi-fuel
+Rotary Aircraft Engine," AIAA/SAE/ASME
+16th Joint Propulsion Conference, Paper
+AIAA-80-1237, 1980.</mixed-citation>
+        </ref>
+        <ref id="d169e583a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d169e590" publication-type="other">
+Jones, C., Ellis, D.R. and Meng, P.R.,
+"Multi-Fuel Rotary Engine for General
+Aviation Aircraft," AIAA/SAE/ASME 19th
+Joint Propulsion Conference, Paper
+AIAA-83-1340, 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e610a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d169e617" publication-type="other">
+Jones, C., "Advanced Development of
+Rotary Stratified Charge 750 and 1500 HP
+Military Multi-Fuel Engines at Curtiss-
+Wright," SAE Paper 840460, 1984.</mixed-citation>
+        </ref>
+        <ref id="d169e633a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d169e640" publication-type="other">
+Jones, C., "The Curtiss-Wright Rotating
+Combustion Engines Today," SAE Paper 886D
+(Also in SAE Transactions Vol. 73), 1964.</mixed-citation>
+        </ref>
+        <ref id="d169e653a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d169e660" publication-type="other">
+Sierens, R., Baert, R., Winterbone, D.
+E. and Baruah, P.C., "A Comprehensive
+Study of Wankel Engine Performance," SAE
+Paper 830332, 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e676a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d169e683" publication-type="other">
+Sierens, R. and Verdonck, W., "Develop-
+ment of a Natural Gas Stratified Charge
+Rotary Engine," SAE Paper 850034, 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e696a1310">
+            <label>15</label>
+          
+          
+            <mixed-citation id="d169e705" publication-type="other">
+Hicks, Y.R., Schock, H.J., Craig, J.
+E., Umstatter, H.L. and Lee, D.Y.,
+"Visualization of Flows in a Motored
+Rotary Combustion Engine Using Holo-
+graphic Interferometry," AIAA/ASME/SAE/
+ASEE 22nd Joint Propulsion Conference,
+Paper AIAA-86-1557, 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e731a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d169e738" publication-type="other">
+Semenov, E.S., "Studies of Turbulent Gas
+Flow in Piston Engines," Otdelenie Tekh-
+nicheskikh Nauk, No. 8, 1958 (NASA Tech-
+nical Translation F97).</mixed-citation>
+        </ref>
+        <ref id="d169e755a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d169e762" publication-type="other">
+Bracco, F.V., Structure of Flames in
+Internal Combustion Engines," in Sympo-
+sium on Calculations of Turbulent Reac-
+tive Flows, ASME 107th Winter Annual
+Meeting, December 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e781a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d169e788" publication-type="other">
+Dyer, T.M., "New Experimental Techniques
+for In-Cylinder Engine Studies," SAE
+Paper 850396 (Also in SAE Transactions
+Vol. 94), 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e804a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d169e811" publication-type="other">
+Abraham, J., Williams, F.A. and Bracco,
+F. V., "A Discussion of Turbulent Flame
+Structure in Preraixed Charges," SAE Paper
+850345 (Also in SAE Transaction Vol. 94),
+1985.</mixed-citation>
+        </ref>
+        <ref id="d169e830a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d169e837" publication-type="other">
+Witze, P.O. and Mendes-Lopes, J.M.C.,
+"Direct Measurements of the Turbulent
+Burning Velocity in a Homogeneous-Charge
+Engine," SAE Paper 861531, 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e853a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d169e860" publication-type="other">
+Hall, M.J. and Bracco, F.V., "A Study
+of Velocities and Turbulence Intensities
+Measured in Firing and Motored Engines,"
+SAE Paper 870453, 1987.</mixed-citation>
+        </ref>
+        <ref id="d169e876a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d169e883" publication-type="other">
+zur Loye, A.O. and Bracco, F.V., "Two-
+Dimensional Visualization of Premixed
+Charge Flame Structure in an IC Engine,"
+SAE Paper 870454, 1987.</mixed-citation>
+        </ref>
+        <ref id="d169e900a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d169e907" publication-type="other">
+Bracco, F.V., "Modeling of Engine
+Sprays," SAE Paper 850394 (Also in SAE
+Transactions Vol. 94), 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e920a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d169e927" publication-type="other">
+Ferguson, C.R., Danieli, G. A., Heywood,
+J.B. and Keck, J.C., "Time Resolved
+Measurements of Exhaust Composition and
+Flow Rate in a Wankel Engine," SAE Paper
+750024, 1974.</mixed-citation>
+        </ref>
+        <ref id="d169e946a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d169e953" publication-type="other">
+Bracco, F.V. and Sirignano, W.A.,
+"Theoretical Analysis of Wankel Engine
+Combustion," Proceedings of the 7th
+Intersociety Energy Conversion Engine-
+ering Conference, September 1972. Also
+in extended form, Combustion Science and
+Technology, Vol. 7, pp. 109-123,
+May 1973.</mixed-citation>
+        </ref>
+        <ref id="d169e982a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d169e989" publication-type="other">
+Sirignano, W.A., "One-Dimensional
+Analysis of Combustion in a Spark-
+Ignition Engine," Proceedings of
+the 6th Intersociety Energy Conversion
+Engineering Conference, August 1971.
+Also in Combustion Science and Technol-
+ogy, Vol. 7, pp. 99-108, May 1973.</mixed-citation>
+        </ref>
+        <ref id="d169e1015a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d169e1022" publication-type="other">
+Bracco, F.V., Theoretical Analysis of
+Stratified, Two-Phase Wankel Engine
+Combustion," Combustion Science and
+Technology, Vol. 8, Nos. 1 &amp; 2, pp.
+69-84, September 1973.</mixed-citation>
+        </ref>
+        <ref id="d169e1041a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d169e1048" publication-type="other">
+Gupta, H.C., Bracco, F.V. and
+Westbrook, C.K. "Mathematical Modeling
+of Two-Phase, Unsteady, Two-Dimensional
+Flows," Fifth International Colloquium on
+Gas-dynamics of Explosions and Reactive
+Systems, Paper G5, September 1975.</mixed-citation>
+        </ref>
+        <ref id="d169e1072a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d169e1079" publication-type="other">
+Braceo, F. V., Gupta, H.C., Krishnaraurthy,
+L., Santavicca, D.A., Steinberger, R.L.
+and Warshaw, V., "Two-Phase, Two-Dimen-
+sional Unsteady Combustion in Internal
+Combustion Engines: Preliminary Theoret-
+ical-Experimental Results," SAE Paper
+760114, 1976.</mixed-citation>
+        </ref>
+        <ref id="d169e1105a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d169e1112" publication-type="other">
+Westbrook, C.K., "Three-Dimensional
+Numerical Modeling of Liquid Fuel
+Sprays," Sixteenth Symposium on
+Combustion, The Combustion Institute,
+Pittsburgh, PA, 1976.</mixed-citation>
+        </ref>
+        <ref id="d169e1131a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d169e1138" publication-type="other">
+Reitz, R.D. and Bracco, F.V., "Studies
+Toward Optimal Charge Stratification in a
+Rotary Engine," Combustion Science and
+Technology, Vol. 12, pp. 63-74, 1976.</mixed-citation>
+        </ref>
+        <ref id="d169e1154a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d169e1161" publication-type="other">
+Danieli, G. A., Ferguson, C.R., Heywood,
+J. B. and Keck, J. C., "Predicting the
+Emissions and Performance Characteristics
+of a Wankel Engine," SAE Paper 740186,
+1974.</mixed-citation>
+        </ref>
+        <ref id="d169e1180a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d169e1187" publication-type="other">
+Eberle, M.K. and Klomp, E. D., "An
+Evaluation of the Potential Performance
+Gain From Leakage Reduction in Rotary
+Engines," SAE Paper 730117, 1973.</mixed-citation>
+        </ref>
+        <ref id="d169e1203a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d169e1210" publication-type="other">
+Shih, T. I-P., Yang, S.L. and Schock, H.
+J., "A Two-Dimensional Numerical Study of
+the Flow Inside the Combustion Chamber of
+a Motored Rotary Engine," SAE Paper
+860615, 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e1230a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d169e1237" publication-type="other">
+Boni, A.A. and Nakayaraa, P.I., "Two-
+Dimensional Computer Simulation of Com-
+bustion in a Divided-Chamber Stratified
+Charge Engine," Fifth International
+Colloquium on Gas Dynamics of Explosions
+and Reactive Systems, Paper G4, September
+1975.</mixed-citation>
+        </ref>
+        <ref id="d169e1263a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d169e1270" publication-type="other">
+Bracco, F.V., "Introducing a New Gener-
+ation of More Detailed and Informative
+Combustion Models," SAE Paper 741174
+(Also in SAE Transactions Vol. 84), 1974.</mixed-citation>
+        </ref>
+        <ref id="d169e1286a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d169e1293" publication-type="other">
+Williams, F.A., "Combustion Theory,"
+Benjamin-Cummings, Menlo Park, CA, 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e1303a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d169e1310" publication-type="other">
+Launder, B.E. and Spalding D.B., "The
+Numerical Combustion of Turbulent Flows,"
+Comp. Methods in Applied Mechanics and
+Engineering, Vol. 3, pp. 269-289, 1974.</mixed-citation>
+        </ref>
+        <ref id="d169e1326a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d169e1333" publication-type="other">
+Grasso, F., "On Flows In Internal Com-
+bustion Engines," Department of Mechan-
+ical and Aerospace Engineering, Princeton
+University, Ph. D. Thesis 1537-T, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1349a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d169e1356" publication-type="other">
+Hayder, M.E., Varma, A.K. and Bracco,
+F. V., "A Limit to TDC Turbulence Inten-
+sity in Internal Combustion Engines,"
+AIAA Journal of Propulsion and Power,
+Vol. 1, pp. 300-308, 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e1376a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d169e1383" publication-type="other">
+Kuo, T.-W. and Bracco, F.V., "On the
+Scaling of Impulsively Started Incom-
+pressible Turbulent Round Jets," Journal
+of Fluids Engineering, Vol. 104, pp.
+191-197, June 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1402a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d169e1409" publication-type="other">
+Grasso, F. and Bracco, F. V., "Computed
+and Measured Turbulence in Axisymmetric
+Reciprocating Engines," AIAA Journal,
+Vol. 21, pp. 601-607, April 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e1425a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d169e1432" publication-type="other">
+Abraham, J., Reitz, R.D. and Bracco, F.
+V., "Comparisons of Computed and Measured
+Pre-Mixed Charge Engine Combustion," Com-
+bustion and Flame, Vol. 60, pp. 309-322,
+June 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e1451a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d169e1458" publication-type="other">
+Reitz, R.D. and Bracco, F.V., "Toward
+the Formulation of a Global Local Equi-
+librium Kinetics Model for Laminar Hydro-
+carbon Flames," Notes on Numerical Fluid
+Mechanics, Vol. 6, N. Peters and J.
+Warnatz. Editors, Friedr. Vieweg &amp; Sons,
+1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1484a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d169e1491" publication-type="other">
+Reitz, R.D. and Bracco, F.V., Global
+Kinetics Models and Lack of Thermodynamic
+Equilibrium," Combustion and Flame, Vol.
+53, pp. 141-144, November 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e1507a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d169e1514" publication-type="other">
+Spaling, D.B., "Mixing and Chemical
+Reaction in Steady Confined Turbulent
+Flames," Thirteenth Symposium on Com-
+bustion, The Combustion Institute,
+Pittsburgh, PA, pp. 649-657, 1971.</mixed-citation>
+        </ref>
+        <ref id="d169e1534a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d169e1541" publication-type="other">
+Grasso, F. and Bracco, F. V., Evaluation
+of a Mixing-Controlled Model for Engine
+Combustion," Combust. Sci. Tech. Vol. 28,
+pp. 185-210, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1557a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d169e1564" publication-type="other">
+Grasso, F., Galfetti, L. and DeLuca, L.,
+"A Kinetic-Mixing Approach for Internal
+Combustion Engine Modeling," Paper pre-
+sented at the International Energy Agency
+Workshop on Combustion, Capri, Italy,
+1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1587a1310">
+            <label>49</label>
+          
+            <mixed-citation id="d169e1594" publication-type="other">
+Magnussen, B.F. and Hjertager, B.H.,
+"On Mathematical Modeling of Turbulent
+Combustion with Special Emphasis on Soot
+Formation and Combustion," Sixteenth
+Symposium on Combustion, The Combustion
+Institute, Pittsburgh, PA, pp. 719-729,
+1977.</mixed-citation>
+        </ref>
+        <ref id="d169e1620a1310">
+            <label>50</label>
+          
+            <mixed-citation id="d169e1627" publication-type="other">
+Hjertager, B.H., "Simulation of Trans-
+ient Compressible Turbulent Reactive
+Flows," Combust. Sci. Tech., Vol. 29, pp.
+159-170, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1643a1310">
+            <label>51</label>
+          
+            <mixed-citation id="d169e1650" publication-type="other">
+Gupta, H.C., Steinberger, R.L. and
+Bracco, F.V., "Combustion in a Divided-
+Chamber, Stratif ied-Charge, Reciprocating
+Engine: Initial Comparisons of Calculated
+and Measured Flame Propagation," pre-
+sented at the 17th Symposium on Combus-
+tion, August 1978 and in Combustion Sci-
+ence and Technology, Vol. 22, pp. 17-61,
+April 1980.</mixed-citation>
+        </ref>
+        <ref id="d169e1682a1310">
+            <label>52</label>
+          
+            <mixed-citation id="d169e1689" publication-type="other">
+Syed, S.A. and Bracco, F.V., "Further
+Comparisons of Computed and Measured
+Divided Chamber Engine Combustion," SAE
+Paper 790247, 1979.</mixed-citation>
+        </ref>
+        <ref id="d169e1706a1310">
+            <label>53</label>
+          
+            <mixed-citation id="d169e1713" publication-type="other">
+Abraham, J. and Bracco, F.V., "Compari-
+sons of Computed and Measured Bulk
+Velocity and Turbulence in an I.C. Engine
+with Combustion." Submitted for Publi-
+cation.</mixed-citation>
+        </ref>
+        <ref id="d169e1732a1310">
+            <label>54</label>
+          
+            <mixed-citation id="d169e1739" publication-type="other">
+Lee, W., Schafer, H. -J. and Schapertons,
+H., "Investigation of High Compression
+Ratio SI Engine by a Two-Dimensional
+Model," 5th International Automotive
+Propulsion System Symposium, Warren, MI,
+April 1980.</mixed-citation>
+        </ref>
+        <ref id="d169e1762a1310">
+            <label>55</label>
+          
+            <mixed-citation id="d169e1769" publication-type="other">
+Giesecke, W., Gupta, H.C., Lee, W. and
+Schapertons, H., "Mathematische Simula-
+tion Der Verbrennung in Einem Serien-
+brennraum Eines Ottomotors," Motortech-
+nische Zeitscrift, Vol. 42, pp. 299-302,
+1981.</mixed-citation>
+        </ref>
+        <ref id="d169e1792a1310">
+            <label>56</label>
+          
+            <mixed-citation id="d169e1799" publication-type="other">
+Basso, A. and Rinolfi, R., "Two-Dimen-
+sional Computations of Engine Combustion:
+Comparisons of Measurements and Predic-
+tions," SAE Paper 820519, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1815a1310">
+            <label>57</label>
+          
+            <mixed-citation id="d169e1822" publication-type="other">
+Basso, A., "Optimization of Combustion
+Chamber Design for Spark Ignition
+Engines," SAE Paper 840231, 1984.</mixed-citation>
+        </ref>
+        <ref id="d169e1835a1310">
+            <label>58</label>
+          
+            <mixed-citation id="d169e1842" publication-type="other">
+Meintjes, K. and Alkides, A.C., "An
+Experimental and Computational Investi-
+gation of the Flow in Diesel Pre-
+charabers," SAE Paper 820275, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e1859a1310">
+            <label>59</label>
+          
+            <mixed-citation id="d169e1866" publication-type="other">
+Bracco, F.V., "Scaling of Some Flow
+Fields and Flames," Symposium on Com-
+bustion Modeling in Reciprocating Engines,
+GMR Laboratories, Warren, MI November
+1978. Plenum Press, New York 1980.</mixed-citation>
+        </ref>
+        <ref id="d169e1885a1310">
+            <label>60</label>
+          
+            <mixed-citation id="d169e1892" publication-type="other">
+O'Rourke, P.J., "Collective Drop Effects
+on Vaporizing Liquid Sprays," Department
+of Mechanical and Aerospace Engineering,
+Princeton University, Ph.D. Thesis
+1532-T, 1981.</mixed-citation>
+        </ref>
+        <ref id="d169e1911a1310">
+            <label>61</label>
+          
+            <mixed-citation id="d169e1918" publication-type="other">
+0lRourke, P.J. and Bracco, F.V.,
+"Modeling of Drop Interactions in Thick
+Sprays and a Comparison with Experi-
+ments," the Institution of Mechanical
+Engineers Conference Publication 1980-9,
+pp. 101-116, 1980.</mixed-citation>
+        </ref>
+        <ref id="d169e1941a1310">
+            <label>62</label>
+          
+            <mixed-citation id="d169e1948" publication-type="other">
+Batchelor, G.K. (Editor), "Collected
+Works of G.I. Taylor," Cambridge Univer-
+sity Press, Cambridge, England, 1958.</mixed-citation>
+        </ref>
+        <ref id="d169e1961a1310">
+            <label>63</label>
+          
+            <mixed-citation id="d169e1968" publication-type="other">
+Reitz, R.D. and Bracco, F.V., "On the
+Dependence of Spray Angle and Other Spray
+Parameters on Nozzle Design and Operating
+Conditions," SAE Paper 790494, 1979.</mixed-citation>
+        </ref>
+        <ref id="d169e1984a1310">
+            <label>64</label>
+          
+            <mixed-citation id="d169e1991" publication-type="other">
+Reitz, R.D. and Bracco, F.V., "On the
+Mechanism of Atoraization of a Liquid
+Jet," Physics of Fluids, Vol. 25, pp.
+1730-1742, 1982.</mixed-citation>
+        </ref>
+        <ref id="d169e2008a1310">
+            <label>65</label>
+          
+            <mixed-citation id="d169e2015" publication-type="other">
+Reitz, R.D. and Bracco, F.V., "Mechan-
+isms of Breakup of Round Liquid Jets,"
+Encyclopedia of Fluid Mechanics, Vol. 3,
+(N. P. Chereraisinof f, Editor), Gulf
+Publishing, 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e2034a1310">
+            <label>66</label>
+          
+            <mixed-citation id="d169e2041" publication-type="other">
+Wu, K.-J., Su, C.-C. Steinberger, R.L.,
+Santavicca, D.A. and Bracco, F.V.,
+"Measurements of the Spray Angle of
+Atomizing Jets," Journal of Fluids
+Engineering, Vol. 105, pp. 406-413, 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e2060a1310">
+            <label>67</label>
+          
+            <mixed-citation id="d169e2067" publication-type="other">
+Wu, K.-J., Reitz, R.F. and Bracco, F.
+V., "Measurements of Drop Sizes at the
+Spray Edge Near the Nozzle in Atomizing
+Liquid Jets," Physics of Fluids, Vol. 29,
+pp. 941-951, 1986.</mixed-citation>
+        </ref>
+        <ref id="d169e2086a1310">
+            <label>68</label>
+          
+            <mixed-citation id="d169e2093" publication-type="other">
+Chehroudi, B., Chen, S.-H., Onuraa, Y. and
+Bracco, F.V., "On the Intact Core of
+Full-Cone Sprays," SAE Paper 850126,
+1985.</mixed-citation>
+        </ref>
+        <ref id="d169e2109a1310">
+            <label>69</label>
+          
+            <mixed-citation id="d169e2116" publication-type="other">
+Martinelli, L., Reitz, R.D. and Bracco,
+F. V., "Comparisons of Computed and
+Measured Dense Spray Jets," 9th
+International Colloquium on Dynamics of
+Explosions and Reactive Systems,
+Poitiers, France, July 1983. Also, in
+AIAA Progress in Astronautics and
+Aeronautics Series, Vol. 95, pp. 484-512,
+1984.</mixed-citation>
+        </ref>
+        <ref id="d169e2148a1310">
+            <label>70</label>
+          
+            <mixed-citation id="d169e2155" publication-type="other">
+Chatwani, A.U. and Bracco, F.V.,
+"Computation of Dense Spray Jets,"
+International Conference on Liquid
+Atoraization and Spray Systems (ICLASS85),
+Paper IB/1/1, The Institute of Energy, 18
+Devonshire Str., London, W1N2AU, 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e2179a1310">
+            <label>71</label>
+          
+            <mixed-citation id="d169e2186" publication-type="other">
+Wu, K.-J., Coghe, A., Santavicca, D.A.,
+and Bracco, F. V., "LDV Measurements of
+Drop Velocity in Diesel-Type Sprays,"
+AIAA Journal, Vol. 22, pp. 1263-1270,
+1984.</mixed-citation>
+        </ref>
+        <ref id="d169e2205a1310">
+            <label>72</label>
+          
+            <mixed-citation id="d169e2212" publication-type="other">
+Yu, R.C., Juo, T.-W, Shahed, S.M. and
+Chang, T. W., "The Effect of Mixing Rate,
+End of Injection, and Sac Volume on
+Hydrocarbon Emissions from a D. I. Diesel
+Engine," SAE Paper 831294, 1983.</mixed-citation>
+        </ref>
+        <ref id="d169e2231a1310">
+            <label>73</label>
+          
+            <mixed-citation id="d169e2238" publication-type="other">
+Kuo, T.-W., Yu, R.C. and Shahed, S.M.,
+"A Numerical Study of the Transient
+Evaporating Spray Mixing Process in the
+Diesel Environment," SAE Paper 831735,
+1983.</mixed-citation>
+        </ref>
+        <ref id="d169e2257a1310">
+            <label>74</label>
+          
+            <mixed-citation id="d169e2264" publication-type="other">
+Kuo, T.-W., "Modeling of Transient Evap-
+orating Spray Mixing Process: Effect of
+Injection Characteristics," SAE Paper
+840226, 1984.</mixed-citation>
+        </ref>
+        <ref id="d169e2280a1310">
+            <label>75</label>
+          
+            <mixed-citation id="d169e2287" publication-type="other">
+Amsden, A.A., Rarashaw, J.D., O'Rourke,
+P.J., and Dukowicz, J.K., "KIVA: A
+Computer Program for Two-and
+Three-Diraensional Fluid Flows with
+Chemical Reactions and Fuel Sprays," Los
+Alamos National Laboratory, Report
+LA-10245-MS, February 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e2313a1310">
+            <label>76</label>
+          
+            <mixed-citation id="d169e2320" publication-type="other">
+Amsden, A.A., Ramshaw, J.D., O'Rourke,
+P.J., and Dukowicz, J.K., "Improvements
+and Extensions to the KIVA Computer
+Program," Los Alamos National Laboratory,
+Report LA-10534-MS, October 1985.</mixed-citation>
+        </ref>
+        <ref id="d169e2340a1310">
+            <label>77</label>
+          
+            <mixed-citation id="d169e2347" publication-type="other">
+Hirt, C.W., Amsden, A.A., Cook, J.L., An
+Arbitrary Lagrangian-Eulerian Computing
+Method for All Flow-Speeds," J. of
+Computational Physics, Vol. 14, pp.
+227-253, 1974.</mixed-citation>
+        </ref>
+        <ref id="d169e2366a1310">
+            <label>78</label>
+          
+            <mixed-citation id="d169e2373" publication-type="other">
+Pracht, W. E. Calculating Three-Dimension-
+al Fluid Flows at All Speeds with an
+Eulerian-Lagrangian Computing Mesh," J. of
+Computational Physics, Vol. 17, pp.
+132-159, 1975.</mixed-citation>
+        </ref>
+        <ref id="d169e2392a1310">
+            <label>79</label>
+          
+            <mixed-citation id="d169e2399" publication-type="other">
+Grasso, F., Wey. M. -J., and Bracco, F. V.,
+"Three-Diraensional Model for Flows and
+Combustion in Rotary Engines," to be
+published.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

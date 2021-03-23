@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i20060452</issue-id>
+         <article-id pub-id-type="jstor">20060454</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-004-7692-5</article-id>
+         <title-group>
+            <article-title>Translation Disambiguation in Mixed Language Queries</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Percy</given-names>
+                  <surname>Cheung</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Pascale</given-names>
+                  <surname>Fung</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>251</fpage>
+         <lpage>273</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2004 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/20060454"/>
+      
+      
+         <abstract>
+            <p>Code-switching is very common among bilingual speakers. Spoken queries by these speakers are typically in mixed language. In this paper, we propose an unsupervised method for mixed-language query understanding, using only a monolingual corpus and a bilingual dictionary. Secondary-language words mixed in a primary-language query are translated into words in the primary language. We found that using a single disambiguation feature for translation is more effective than using multiple features, provided this feature is based on the most salient seed-word, chosen automatically by confidence scoring. We propose and compare four types of disambiguation features that are based on context seed-words. A baseline method uses the nearest neighboring seed-word as disambiguation feature. Multiple-context seed-word voting is also proposed in order to enlarge the context window. On the other hand, merely using the inverse-distance as weights on context words degrades the performance as it runs counter to the potential underlying syntactic relations between words. Our final proposal is a solution that uses multiple-context seed-words and the translation candidates of all mixed language words to select a single most salient seed-word for translation disambiguation. The translation disambiguation accuracy for this feature is at 83.7% for all words in the ATIS spontaneous speech query database, and 66.7% for content words.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>translation disambiguation</kwd>
+            <kwd>word-occurrence features</kwd>
+            <kwd>unsupervised learning</kwd>
+            <kwd>mixed-language query</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>Notes</title>
+        <ref id="d688416e199a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d688416e206" publication-type="other">
+AskJeeves, http://www.askjeeves.com</mixed-citation>
+        </ref>
+      </ref-list>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d688416e222a1310">
+          
+            <mixed-citation id="d688416e226" publication-type="other">
+Auer, Peter: 1998, Code-Switching in Conversation: Language, Interaction and Identity,
+London: Routledge.</mixed-citation>
+        </ref>
+        <ref id="d688416e236a1310">
+          
+            <mixed-citation id="d688416e240" publication-type="other">
+Ballesteros, Lisa and W. Bruce Croft: 1998, 'Resolving Ambiguity for Cross-Language
+Retrieval', in Proceedings of the 21st Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval, Melbourne, Australia, pp. 64-71.</mixed-citation>
+        </ref>
+        <ref id="d688416e253a1310">
+          
+            <mixed-citation id="d688416e257" publication-type="other">
+Brown, Peter F., John Cocke, Stephen A. Delia Pietra, Vincent J. Delia Pietra, Fredrick
+Jelinek, John D. Lafferty, Robert L. Mercer and Paul S. Roossin: 1990, 'A Statistical
+Approach to Machine Translation', Computational Linguistics 16, 79-85.</mixed-citation>
+        </ref>
+        <ref id="d688416e270a1310">
+          
+            <mixed-citation id="d688416e274" publication-type="other">
+Brown, Peter F., Jennifer C. Lai, and Robert L. Mercer: 1991, 'Aligning Sentences in Par-
+allel Corpora', in 29th Annual Meeting of the Association for Computational Linguistics,
+Berkeley, California, pp. 169-176.</mixed-citation>
+        </ref>
+        <ref id="d688416e288a1310">
+          
+            <mixed-citation id="d688416e292" publication-type="other">
+Dagan, Ido and Kenneth W. Church: 1994, 'Termight: Identifying and Translating Techni-
+cal Terminology', in 4th Conference on Applied Natural Language Processing, Stuttgart,
+Germany, pp. 34-40.</mixed-citation>
+        </ref>
+        <ref id="d688416e305a1310">
+          
+            <mixed-citation id="d688416e309" publication-type="other">
+Dagan, Ido and Alon Itai: 1994, 'Word Sense Disambiguation using a Second Language
+Monolingual Corpus', Computational Linguistics 20, 564-596.</mixed-citation>
+        </ref>
+        <ref id="d688416e319a1310">
+          
+            <mixed-citation id="d688416e323" publication-type="other">
+Dagan, Ido, Alon Itai, and Ulrike Schwall: 1991, 'Two Languages are More Informative
+Than One', in 29th Annual Meeting of the Association for Computational Linguistics,
+Berkeley, California, pp. 130-137.</mixed-citation>
+        </ref>
+        <ref id="d688416e336a1310">
+          
+            <mixed-citation id="d688416e340" publication-type="other">
+Davis, M.W. and W.C. Ogden: 1998, 'Free Resources and Advanced Alignment for Cross-
+Language Text Retrieval', in Proceedings of the 6th Text Retrieval Conference (TREC-
+6), Gaithersburg, MD, pp. 385-402.</mixed-citation>
+        </ref>
+        <ref id="d688416e353a1310">
+          
+            <mixed-citation id="d688416e357" publication-type="other">
+Diab, Mona and Philip Resnik: 2002, An Unsupervised Method for Word Sense Tagging
+using Parallel Corpora', in ACL-02: 40th Annual Meeting of the Association for Com-
+putational Linguistics, Philadelphia, Pennsylvania, pp. 255-262.</mixed-citation>
+        </ref>
+        <ref id="d688416e370a1310">
+          
+            <mixed-citation id="d688416e374" publication-type="other">
+Fung, Pascale: 1998, 'A Statistical View on Bilingual Lexicon Extraction: From Parallel
+Corpora to Non-Parallel Corpora', in David farwell, Laurie Gerber, and Eduard Hovy
+(eds.), Machine Translation and the Information Soup: Third Conference of the Associa-
+tion for Machine Translation in the Americas, AMTA'98, Langhorne, PA, Lecture Notes
+in Artifical Intelligence 1529, Berlin: Springer, pp. 1-17.</mixed-citation>
+        </ref>
+        <ref id="d688416e394a1310">
+          
+            <mixed-citation id="d688416e398" publication-type="other">
+Fung, Pascale and Yuen Yee Lo: 1998, 'An IR Approach for Translating New Words from
+Nonparallel, Comparable Texts', in COLING-ACL '98: 36th Annual Conference of the
+Association for Computational Linguistics and 17th International Conference on Compu-
+tational Linguistics, Montreal, Canada, pp. 414-420.</mixed-citation>
+        </ref>
+        <ref id="d688416e414a1310">
+          
+            <mixed-citation id="d688416e418" publication-type="other">
+Fung, Pascale and Dekai Wu: 1994. 'Statistical augmentation of a Chinese Machine-read-
+able dictionary', in Second Annual Workshop on Very Large Corpora (WVLC2), Kyoto,
+Japan, pp. 69-85.</mixed-citation>
+        </ref>
+        <ref id="d688416e431a1310">
+          
+            <mixed-citation id="d688416e435" publication-type="other">
+Gale, William A. and Kenneth W Church: 1993, 'A Program for Aligning Sentences in
+Bilingual Corpora', Computational Linguistics 19, 75-102.</mixed-citation>
+        </ref>
+        <ref id="d688416e445a1310">
+          
+            <mixed-citation id="d688416e449" publication-type="other">
+Gale, William A. and Kenneth W Church: 1994, 'Discrimination Decisions in 100,000
+Dimensional Spaces', in Antonio Zampolli, Nicoletta Calzolari, and Martha Palmer
+(eds.), Current Issues in Computational Linguistics: In Honour of Don Walker,
+Dordrecht: Kluwer, pp. 429-550.</mixed-citation>
+        </ref>
+        <ref id="d688416e465a1310">
+          
+            <mixed-citation id="d688416e469" publication-type="other">
+Gale, William, Kenneth Ward Church, and David Yarowsky: 1992a, 'Estimating Upper and
+Lower Bounds on the Performance of Word-Sense Disambiguation Programs', in 30th Annual
+Meeting of the Association for Computational Linguistics, Newark, Delaware, pp. 249-256.</mixed-citation>
+        </ref>
+        <ref id="d688416e482a1310">
+          
+            <mixed-citation id="d688416e486" publication-type="other">
+Gale, William A., Kenneth W. Church, and David Yarowsky: 1992b, 'Using Bilingual
+Materials to Develop Word Sense Disambiguation Methods', in Quatrième Colloque
+international sur les aspects théoriques et méthodologiques de la traduction automatique,
+Fourth International Conference on Theoretical and Methodological Issues in Machine
+Translation TMI - 92, Montréal, Canada, pp. 101-112.</mixed-citation>
+        </ref>
+        <ref id="d688416e506a1310">
+          
+            <mixed-citation id="d688416e510" publication-type="other">
+Gale, William A., Kenneth W. Church, and David Yarowsky: 1992c, 'Work on Statisti-
+cal Methods for Word Sense Disambiguation', in AAAI-92: Proceedings of the Tenth
+National Conference on Artifical Intelligence, San Jose, California.</mixed-citation>
+        </ref>
+        <ref id="d688416e523a1310">
+          
+            <mixed-citation id="d688416e527" publication-type="other">
+Gale, William A., Kenneth W Church, and David Yarowsky: 1993, 'A Method for Disam-
+biguating Word Senses in a Large Corpus', Computers and the Humanities 26, 415-439.</mixed-citation>
+        </ref>
+        <ref id="d688416e537a1310">
+          
+            <mixed-citation id="d688416e541" publication-type="other">
+Gao, Jianfeng, Jian-Yun Nie, Hongzhao He, Weijun Chen, and Ming Zhou: 2002,
+'Resolving Query Translation Ambiguity using a Decaying Co-Occurrence Model and
+Syntactic Dependency Relations', in Proceedings of the 25th Annual International Con-
+ference on Research and Development in Information Retrieval, SIGIR 02, Tampere,
+Finland, pp. 183-190.</mixed-citation>
+        </ref>
+        <ref id="d688416e560a1310">
+          
+            <mixed-citation id="d688416e564" publication-type="other">
+Gorin, A.L., G Riccardi, and J.H. Wright: 1997, 'How May I Help You?', Speech
+Communication 23, 113-127.</mixed-citation>
+        </ref>
+        <ref id="d688416e574a1310">
+          
+            <mixed-citation id="d688416e578" publication-type="other">
+Grefenstette, Gregory: 1998, Cross-language Information Retrieval, Boston: Kluwer
+Academic Publishers.</mixed-citation>
+        </ref>
+        <ref id="d688416e588a1310">
+          
+            <mixed-citation id="d688416e592" publication-type="other">
+Huang, Xuedong, Fileno Alleva, Hisao-Wuen Hong, Mei-Yuh Hwang, Kai-Fu Lee, and
+Ronald Rosenfeld: 1993, 'The SPHINX-II Speech Recognition System: an Overview',
+Computer, Speech and Language 2, 137-148.</mixed-citation>
+        </ref>
+        <ref id="d688416e606a1310">
+          
+            <mixed-citation id="d688416e610" publication-type="other">
+Kupiec, Julian: 1993, 'An Algorithm for Finding Noun Phrase Correspondences in Bilin-
+gual Corpora', in 31st Annual Conference of the Association for Computational Linguis-
+tics, Columbus, Ohio, pp. 17-22.</mixed-citation>
+        </ref>
+        <ref id="d688416e623a1310">
+          
+            <mixed-citation id="d688416e627" publication-type="other">
+Hull, David A. and Gregory Grefenstette: 1996, 'A Dictionary-Based Approach to Mul-
+tilingual Informaion Retrieval', in Proceedings of the 19th Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval, SIGIR'96,
+Zurich, Switzerland, pp. 49-57.</mixed-citation>
+        </ref>
+        <ref id="d688416e643a1310">
+          
+            <mixed-citation id="d688416e647" publication-type="other">
+Joshi, Aravind K.: 1985, 'Processing of Sentences with Intrasentential Codeswitching', in
+David R. Dowty, Lauri Karttunen, and Arnold M. Zwicky (eds.), Natural Language
+Parsing: Psychological, computational, and theoretical perspectives, Cambridge: Cam-
+bridge University Press, pp. 190-205.</mixed-citation>
+        </ref>
+        <ref id="d688416e663a1310">
+          
+            <mixed-citation id="d688416e667" publication-type="other">
+Liu, Xiaohu and Sheng Li: 1997, 'Statistic-Based Target Word Selection in
+English-Chinese Machine Translation', Journal of Harbin Institute of Technology,
+May.</mixed-citation>
+        </ref>
+        <ref id="d688416e680a1310">
+          
+            <mixed-citation id="d688416e684" publication-type="other">
+Manning, Christopher D. and Hinrich Schütze: 1999, Foundations of Statistical Natural
+Language Processing, Cambridge, Massachusetts: MIT Press.</mixed-citation>
+        </ref>
+        <ref id="d688416e694a1310">
+          
+            <mixed-citation id="d688416e698" publication-type="other">
+Nuance: 1999. Nuance Speech Recognition System Developer's Manual Version 6.2, Menlo
+Park, CA: Nuance Communications.</mixed-citation>
+        </ref>
+        <ref id="d688416e709a1310">
+          
+            <mixed-citation id="d688416e713" publication-type="other">
+Oard, D.W.: 1997, 'Alternative Approaches for Cross-Language text retrieval', in AAAI
+Spring Symposium on Cross-Language Text and Speech Retrieval, Stanford, CA.</mixed-citation>
+        </ref>
+        <ref id="d688416e723a1310">
+          
+            <mixed-citation id="d688416e727" publication-type="other">
+Picchi, Eugenio and Carol Peters: 1998, 'Cross-Language Information Retrieval: a System
+for Comparable Corpus Querying', in Grefenstette, pp. 81-92.</mixed-citation>
+        </ref>
+        <ref id="d688416e737a1310">
+          
+            <mixed-citation id="d688416e741" publication-type="other">
+Rayner, Manny, John Dowding, and Beth Ann Hockey: 2001, 'Baseline Method for Com-
+piling Typed Unification Grammars into Context Free Language Models', in Proceed-
+ings of EUROSPEECH-2001: 7th European Conference on Speech Communication and
+Technology, Aalborg, Denmark.</mixed-citation>
+        </ref>
+        <ref id="d688416e757a1310">
+          
+            <mixed-citation id="d688416e761" publication-type="other">
+Rosenfeld, Rony: 1995, 'A Corpus-Based Approach to Language Learning', Ph.D. thesis,
+Carnegie Mellon University, Pittsburgh, PA.</mixed-citation>
+        </ref>
+        <ref id="d688416e771a1310">
+          
+            <mixed-citation id="d688416e775" publication-type="other">
+Schütze, Hinrich: 1992, 'Dimensions of meaning', in Proceedings Super computing '92,
+Minneapolis, Minnesota, pp. 787-796.</mixed-citation>
+        </ref>
+        <ref id="d688416e785a1310">
+          
+            <mixed-citation id="d688416e789" publication-type="other">
+Smadja, Frank: 1993, 'Retrieving Collocations From Text: Xtract', Computational Linguis-
+tics 19, 143-177.</mixed-citation>
+        </ref>
+        <ref id="d688416e800a1310">
+          
+            <mixed-citation id="d688416e804" publication-type="other">
+Smadja, Frank, Kathleen McKeown, and Vasileios Hatzsivassiloglou: 1996, 'Translating
+Collocations for Bilingual Lexicons: a Statistical Approach', Computational Linguistics
+21, 1-38.</mixed-citation>
+        </ref>
+        <ref id="d688416e817a1310">
+          
+            <mixed-citation id="d688416e821" publication-type="other">
+Tanaka, Kumiko and Hideya Iwasaki: 1996. 'Extraction of Lexical Translations from
+Non-Aligned Corpora', in COLING-96: The 16th International Conference on Compu-
+tational linguistics, Copenhagan, Denmark, pp. 580-585.</mixed-citation>
+        </ref>
+        <ref id="d688416e834a1310">
+          
+            <mixed-citation id="d688416e838" publication-type="other">
+Wu, Dekai: 1995. 'Grammarless Extraction of Phrasal Translation Examples from Parallel
+Texts', in Proceedings of the Sixth International Conference on Theoretical and Method-
+ological Issues in Machine translation, TMI 95, Leuven, Belgium, pp. 354-372.</mixed-citation>
+        </ref>
+        <ref id="d688416e851a1310">
+          
+            <mixed-citation id="d688416e855" publication-type="other">
+Yarowsky, David: 1993, 'One Sense per Collocation', in Proceedings of the 5th DARPA
+Human Language Technology Workshop, Princeton, NJ, pp. 266-271.</mixed-citation>
+        </ref>
+        <ref id="d688416e865a1310">
+          
+            <mixed-citation id="d688416e869" publication-type="other">
+Yarowsky, David: 1995, 'Unsupervised Word Sense Disambiguation Rivaling Supervised
+Methods', in 33rd Meeting of the Association for Computational Linguistics, Cambridge,
+Massachusetts, pp. 189-196.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

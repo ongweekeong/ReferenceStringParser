@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i24736240</issue-id>
+         <article-id pub-id-type="jstor">24737221</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Bayesian and MCMC Methods</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Improving the Data Augmentation Algorithm in the Two-Block Setup</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Subhadip</given-names>
+                  <surname>Pal</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kshitij</given-names>
+                  <surname>Khare</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>James P.</given-names>
+                  <surname>Hobert</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>1114</fpage>
+         <lpage>1133</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737221"/>
+      
+      
+         <abstract>
+            <p>The data augmentation (DA) approach to approximate sampling from an intractable probability density fX is based on the construction of a joint density, fX,Y, whose conditional densities, fX|Y and fY|X, can be straightforwardly sampled. However, many applications of the DA algorithm do not fall in this "single-block" setup. In these applications, X is partitioned into two components, X = (U, V), in such a way that it is easy to sample from fY|X, fU|V,Y, and fV|U,Y. We refer to this alternative version of DA, which is effectively a three-variable Gibbs sampler, as "two-block" DA. We develop two methods to improve the performance of the DA algorithm in the two-block setup. These methods are motivated by the Haar PX-DA algorithm, which has been developed in previous literature to improve the performance of the single-block DA algorithm. The Haar PX-DA algorithm, which adds a computationally inexpensive extra step in each iteration of the DA algorithm while preserving the stationary density, has been shown to be optimal among similar techniques. However, as we illustrate, the Haar PX-DA algorithm does not lead to the required stationary density fX in the two-block setup. Our methods incorporate suitable generalizations and modifications to this approach, and work in the two-block setup. A theoretical comparison of our methods to the two-block DA algorithm, a much harder task than the single-block setup due to nonreversibility and structural complexities, is provided. We successfully apply our methods to applications of the two-block DA algorithm in Bayesian robit regression and Bayesian quantile regression. Supplementary materials for this article are available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1508e180a1310">
+          
+            <mixed-citation id="d1508e184" publication-type="other">
+Albert, J. H., and Chib, S. (1993), "Bayesian Analysis of Binary and Polychotomous Response Data," Journal of
+the American Statistical Association, 88, 669-679. [1115,1116,1124,1125,1126]</mixed-citation>
+        </ref>
+        <ref id="d1508e194a1310">
+          
+            <mixed-citation id="d1508e198" publication-type="other">
+Asmussen, S., and Glynn, P. W. (2011), "A New Proof of Convergence of MCMC via the Ergodic Theorem,"
+Statistics and Probability Letters, 81, 1482-1485. [1119]</mixed-citation>
+        </ref>
+        <ref id="d1508e208a1310">
+          
+            <mixed-citation id="d1508e212" publication-type="other">
+Chen, F., Lovasz, L., and Pak, I. (1999), "Lifting Markov Chains to Speed up Mixing," Proceedings of the 31st
+Annual ACM Symposium on Theory of Computing, pp. 275-281. [1121]</mixed-citation>
+        </ref>
+        <ref id="d1508e222a1310">
+          
+            <mixed-citation id="d1508e226" publication-type="other">
+Hall, B. H., Cummins, C., Laderman, E., and Mundy, J. (1988), "The R&amp;D Master File Documentation,"
+Technical Working Paper 72, National Bureau of Economic Research, Cambridge, MA. [1131]</mixed-citation>
+        </ref>
+        <ref id="d1508e237a1310">
+          
+            <mixed-citation id="d1508e241" publication-type="other">
+Hobert, J. P., and Marchev, D. (2008), "A Theoretical Comparison of the Data Augmentation, Marginal Augmen-
+tation and PX-DA Algorithms," The Annals of Statistics, 36, 532-554. [1115,1116,1117,1120]</mixed-citation>
+        </ref>
+        <ref id="d1508e251a1310">
+          
+            <mixed-citation id="d1508e255" publication-type="other">
+Hobert, J. P., Roy, V., and Robert, C. P. (2011), "Improving the Convergence Properties of the Data Augmentation
+Algorithm With an Application to Bayesian Mixture Modeling," Statistical Science, 26, 332-351. [ 1115]</mixed-citation>
+        </ref>
+        <ref id="d1508e265a1310">
+          
+            <mixed-citation id="d1508e269" publication-type="other">
+Khare, K., and Hobert, J. P. (2011), "A Spectral Analytic Comparison of Trace-Class Data Augmentation Algo-
+rithms and Their Sandwich Variants," The Annals of Statistics, 86, 301-320. [1115,1124,1132]</mixed-citation>
+        </ref>
+        <ref id="d1508e279a1310">
+          
+            <mixed-citation id="d1508e283" publication-type="other">
+-(2012), "Geometric Ergodicity of the Gibbs Sampler for Bayesian Quantile Regression," Journal of
+Multivariate Analysis, 112, 108-116. [1129,1131]</mixed-citation>
+        </ref>
+        <ref id="d1508e293a1310">
+          
+            <mixed-citation id="d1508e297" publication-type="other">
+Kozumi, H., and Kobayashi, G. (2011), "Gibbs Sampling Methods for Bayesian Quantile Regression," Journal
+of Statistical Computation and Simulation, 81, 1565-1578. [1115,1116,1124,1129,1131]</mixed-citation>
+        </ref>
+        <ref id="d1508e307a1310">
+          
+            <mixed-citation id="d1508e311" publication-type="other">
+Liu, J., and Wu, Y. N. (1999), "Parameter Expansion for Data Augmentation," Journal of the American Statistical
+Association, 94, 1264-1274. [1115,1116,1117,1120]</mixed-citation>
+        </ref>
+        <ref id="d1508e322a1310">
+          
+            <mixed-citation id="d1508e326" publication-type="other">
+Liu, J. S., Wong, W. H., and Kong, A. (1994), "Covariance Structure of the Gibbs Sampler With Applications to
+the Comparisons of Estimators and Augmentation Schemes," Biometrika, 81, 27-40. [1114]</mixed-citation>
+        </ref>
+        <ref id="d1508e336a1310">
+          
+            <mixed-citation id="d1508e340" publication-type="other">
+Marchev, D., and Hobert, J. P. (2004), "Geometric Ergodicity of van Dyk and Meng's Algorithm for the Multi-
+variate Student's-f Model," Journal of the American Statistical Association, 99, 228-238. [1115]</mixed-citation>
+        </ref>
+        <ref id="d1508e350a1310">
+          
+            <mixed-citation id="d1508e354" publication-type="other">
+Meng, X. L., and van Dyk, D. A. (1999), "Seeking Efficient Data Augmentation Schemes via Conditional and
+Marginal Augmentation," Biometrika, 86, 301-320. [1115]</mixed-citation>
+        </ref>
+        <ref id="d1508e364a1310">
+          
+            <mixed-citation id="d1508e368" publication-type="other">
+Meyn, S. P., and Tweedie, R. L. (1993), Markov Chains and Stochastic Stability, London: Springer-Verlag. [1119]</mixed-citation>
+        </ref>
+        <ref id="d1508e375a1310">
+          
+            <mixed-citation id="d1508e379" publication-type="other">
+Park, T., and Casella, G. (2008), "The Bayesian Lasso," Journal of the American Statistical Association, 103,
+681-686. [1115]</mixed-citation>
+        </ref>
+        <ref id="d1508e389a1310">
+          
+            <mixed-citation id="d1508e393" publication-type="other">
+Roy, V. (2012), "Convergence Rates for MCMC Algorithms for a Robust Bayesian Binary Regression Model,"
+Electronic Journal of Statistics, 6, 2463-2485. [1126]</mixed-citation>
+        </ref>
+        <ref id="d1508e404a1310">
+          
+            <mixed-citation id="d1508e408" publication-type="other">
+Tanner, M. A., and Wong, W. H. (1987), "The Calculation of Posterior Distributions by Data Augmentation,"
+Journal of the American Statistical Association, 82, 528-540. [1114]</mixed-citation>
+        </ref>
+        <ref id="d1508e418a1310">
+          
+            <mixed-citation id="d1508e422" publication-type="other">
+Tsioans, E. (2003), "Bayesian Quantile Inference," Journal of Statistical Computation and Simulation, 73, 659-
+674. [1131]</mixed-citation>
+        </ref>
+        <ref id="d1508e432a1310">
+          
+            <mixed-citation id="d1508e436" publication-type="other">
+van Dyk, D. A., and Meng, X. L. (2001), "The Art of Data Augmentation" (with discussion), Journal of Compu-
+tational and Graphical Statistics, 10, 1-111. [1115,1127]</mixed-citation>
+        </ref>
+        <ref id="d1508e446a1310">
+          
+            <mixed-citation id="d1508e450" publication-type="other">
+Wang, P., Cockburn, I., and Puterman, M. K. (1998), "Analysis of Patent Data: A Mixed-Poisson-Regression-
+Model Approach," Journal of Business and Economic Statistics, 16, 27-41. [1131]</mixed-citation>
+        </ref>
+        <ref id="d1508e460a1310">
+          
+            <mixed-citation id="d1508e464" publication-type="other">
+Yu, Y., and Meng, X. L. (2011), "To Center or Not to Center: That is Not the Question. An Ancillarity-Sufficiency
+Interweaving Strategy (ASIS) for Boosting MCMC Efficiency" (with discussion), Journal of Computational
+and Graphical Statistics, 20, 531-570. [1115,1129]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

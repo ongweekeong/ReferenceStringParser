@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">225</issue>
+         <issue-id>i344565</issue-id>
+         <article-id pub-id-type="jstor">2585098</article-id>
+         
+         <title-group>
+            <article-title>Convergence of Nonconforming Multigrid Methods without Full Elliptic Regularity</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Susanne C.</given-names>
+                  <surname>Brenner</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>25</fpage>
+         <lpage>53</lpage>
+         <page-range>25-53</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585098"/>
+         
+         
+         <abstract>
+            <p>We consider nonconforming multigrid methods for symmetric positive definite second and fourth order elliptic boundary value problems which do not have full elliptic regularity. We prove that there is a bound (&lt; 1) for the contraction number of the W-cycle algorithm which is independent of mesh level, provided that the number of smoothing steps is sufficiently large. We also show that the symmetric variable V-cycle algorithm is an optimal preconditioner.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01035-2</kwd>
+            <kwd>65N55</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Multigrid Methods</kwd>
+            <kwd>Nonconforming Finite Elements</kwd>
+            <kwd>Macro Elements</kwd>
+            <kwd>Preconditioner</kwd>
+            <kwd>W-Cycle</kwd>
+            <kwd>Variable V-Cycle</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d326330e151a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d326330e158" publication-type="book">
+A. Adini and R.W. Clough, Analysis of plate bending by the finite element method, NSF
+Report G. 7337 (1961).<person-group>
+                     <string-name>
+                     <surname>Adini</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of plate bending by the finite element method</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e183a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d326330e190" publication-type="journal">
+T. Arbogast and Z. Chen, On the implementation of mixed methods as nonconforming meth-
+ods for second order elliptic problems, Math. Comp.64 (1995), 943-972.<object-id pub-id-type="doi">10.2307/2153478</object-id>
+               <fpage>943</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e206a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d326330e213" publication-type="journal">
+J.H. Argyris, I. Fried and D.W. Scharpf, The TUBA family of plate elements for the matrix
+displacement method, Aero. J. Roy. Aero. Soc.72 (1968), 701-709.<person-group>
+                     <string-name>
+                     <surname>Argyris</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>701</fpage>
+               <volume>72</volume>
+               <source>Aero. J. Roy. Aero. Soc.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e245a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d326330e252" publication-type="journal">
+D.N. Arnold and F. Brezzi, Mixed and nonconforming finite element methods: implementa-
+tion, postprocessing and error estimates, R.A.I.R.O Modél. Math. Anal. Numér.19 (1985),
+7-32. MR 87g:65126<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>7</fpage>
+               <volume>19</volume>
+               <source>R.A.I.R.O Modél. Math. Anal. Numér.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e288a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d326330e295" publication-type="journal">
+D.N. Arnold and R.S. Falk, A uniformly accurate finite element method for the Reissner-
+Mindlin plate, SIAM J. Numer. Anal.21 (1990), 281-312. MR 91c:65068<object-id pub-id-type="jstor">10.2307/2157063</object-id>
+               <fpage>281</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e311a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d326330e318" publication-type="journal">
+R.E. Bank and T.F. Dupont, An optimal order process for solving finite element equations,
+Math. Comp.36 (1981), 35-51. MR 82b:65113<object-id pub-id-type="doi">10.2307/2007724</object-id>
+               <fpage>35</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e334a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d326330e341" publication-type="book">
+J. Bergh and J. Lofstr6m, Interpolation Spaces, Springer-Verlag, Berlin, 1976. MR 58:2349<person-group>
+                     <string-name>
+                     <surname>Bergh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interpolation Spaces</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e363a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d326330e370" publication-type="conference">
+F.K. Bogner, R.L. Fox and L.A. Schmit, The generation of interelement compatible stiffness
+and mass matrices by the use of interpolation formulas, Proc. Conf. Matrix Methods in
+Structural Mechanics (1965).<person-group>
+                     <string-name>
+                     <surname>Bogner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The generation of interelement compatible stiffness and mass matrices by the use of interpolation formulas</comment>
+               <source>Proc. Conf. Matrix Methods in Structural Mechanics</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e402a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d326330e409" publication-type="journal">
+D. Braess and R. Verfiirth, Multigrid methods for nonconforming finite element methods,
+SIAM J. Numer. Anal.27 (1990), 979-986. MR 95j:65164<object-id pub-id-type="jstor">10.2307/2157692</object-id>
+               <fpage>979</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e425a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d326330e432" publication-type="book">
+J.H. Bramble, Multigrid Methods, Longman Scientific &amp; Technical, Essex, 1993. MR
+95b:65002<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid Methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e458a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d326330e465" publication-type="journal">
+J.H. Bramble and S.R. Hilbert, Estimation of linear functionals on Sobolev spaces with ap-
+plication to Fourier transforms and spline interpolation, SIAM J. Numer. Anal.7 (1970),
+113-124. MR 41:7819<object-id pub-id-type="jstor">10.2307/2949585</object-id>
+               <fpage>113</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e484a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d326330e491" publication-type="journal">
+J.H. Bramble and J.E. Pasciak, New estimates for multigrid algorithms including the V-cycle,
+Math. Comp.60 (1993), 447-471. MR 94a:65064<object-id pub-id-type="doi">10.2307/2153097</object-id>
+               <fpage>447</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e507a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d326330e514" publication-type="journal">
+J.H. Bramble, J.E. Pasciak and J. Xu, The analysis of multigrid algorithms with nonnested
+spaces or noninherited quadratic forms, Math. Comp.56 (1991), 1-34. MR 91h:65159<object-id pub-id-type="doi">10.2307/2008527</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e530a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d326330e537" publication-type="other">
+S.C. Brenner, Multigrid Methods for Nonconforming Finite Elements, Dissertation, The Uni-
+versity of Michigan, 1988.</mixed-citation>
+            </ref>
+            <ref id="d326330e547a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d326330e554" publication-type="journal">
+—, An optimal-order multigrid method for P1 nonconforming finite elements, Math.
+Comp.52 (1989), 1-15. MR 89f:65119<object-id pub-id-type="doi">10.2307/2008649</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e570a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d326330e577" publication-type="journal">
+—, An optimal-order nonconforming multigrid method for the biharmonic equation,
+SIAM J. Numer. Anal.26 (1989), 1124-1138. MR 90i:65189<object-id pub-id-type="jstor">10.2307/2157919</object-id>
+               <fpage>1124</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e594a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d326330e601" publication-type="conference">
+—Multigrid methods for nonconforming finite elements, Copper Mountain Conference
+on Multigrid methods (J. Mandel, et. al., eds.), SIAM, Philadelphia, 1989, pp. 54-65. MR
+91h:65189<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid methods for nonconforming finite elements</comment>
+               <fpage>54</fpage>
+               <source>Copper Mountain Conference on Multigrid methods</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e636a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d326330e643" publication-type="journal">
+— A nonconforming multigrid method for the stationary Stokes equations, Math. Comp.
+52 (1990), 411-437. MR 91d:65167<object-id pub-id-type="doi">10.2307/2008649</object-id>
+               <fpage>411</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e659a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d326330e666" publication-type="journal">
+— A multigrid algorithm for the lowest-order Raviart-Thomas mixed triangular finite
+element method, SIAM J. Numer. Anal.29 (1992), 647-678. MR 93j:65175<object-id pub-id-type="jstor">10.2307/2158272</object-id>
+               <fpage>647</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e682a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d326330e689" publication-type="journal">
+—, A nonconforming mixed multigrid method for the pure displacement problem in pla-
+nar linear elasticity, SIAM J. Numer. Anal.30 (1993), 116-135. MR 93m:65166<object-id pub-id-type="jstor">10.2307/2158099</object-id>
+               <fpage>116</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e705a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d326330e712" publication-type="journal">
+—, A nonconforming mixed multigrid method for the pure traction problem in planar
+linear elasticity, Math. Comp.63 (1994), 435-460, S1-S5. MR 95c:73076<object-id pub-id-type="doi">10.2307/2153278</object-id>
+               <fpage>435</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e728a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d326330e735" publication-type="conference">
+—Two-level additive Schwarz preconditioners for nonconforming finite elements, Do-
+main Decomposition Methods in Scientific and Engineering Computing (D. Keyes and J.
+Xu, eds.), Proceedings of the Seventh International Conference on Domain Decomposition,
+Contemp. Math.180, 1994, pp. 9-14. MR 95j:65134<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Two-level additive Schwarz preconditioners for nonconforming finite elements, Domain Decomposition Methods in Scientific and Engineering Computing</comment>
+               <fpage>9</fpage>
+               <volume>180</volume>
+               <source>Proceedings of the Seventh International Conference on Domain Decomposition, Contemp. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e777a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d326330e784" publication-type="journal">
+—, Multigrid methods for parameter dependent problems, RAIRO Model. Math. Anal.
+Numér.30 (1996), 265-297. MR 97c:73076<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>30</volume>
+               <source>RAIRO Model. Math. Anal. Numér.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e816a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d326330e823" publication-type="journal">
+—, Two-level additive Schwarz preconditioners for nonconforming finite elements, Math.
+Comp.65 (1996), 897-921. MR 96j:65117<object-id pub-id-type="jstor">10.2307/2153785</object-id>
+               <fpage>897</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e839a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d326330e846" publication-type="journal">
+—, A two-level additive Schwarz preconditioner for nonconforming plate elements, Nu-
+mer. Math.72 (1996), 419-447. MR 97h:65147<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>419</fpage>
+               <volume>72</volume>
+               <source>Numer. Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e878a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d326330e885" publication-type="journal">
+—, Preconditioning complicated FEMs by simple FEMs, SIAM J. Sci. Comput.17 (1996),
+1269-1274. MR 97g:65226<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1269</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e917a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d326330e924" publication-type="book">
+S.C. Brenner and L.R. Scott, The Mathematical Theory of Finite Element Methods, Springer-
+Verlag, Berlin, 1994. MR 95f:65001<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Mathematical Theory of Finite Element Methods</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e949a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d326330e956" publication-type="journal">
+S.C. Brenner and L.-Y. Sung, Linear finite element methods for planar linear elasticity, Math.
+Comp.59 (1992), 321-338. MR 93a:73078<object-id pub-id-type="doi">10.2307/2153060</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e973a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d326330e980" publication-type="conference">
+P.G. Ciarlet, Conforming and nonconforming finite element methods for solving the plate
+problem, Conference on the Numerical Solution of Differential Equations (G.A. Watson,
+ed.), Lecture Notes in Mathematics, vol. 363, Springer-Verlag, Berlin, 1974, pp. 21-31. MR
+54:11806<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Conforming and nonconforming finite element methods for solving the plate problem</comment>
+               <fpage>21</fpage>
+               <volume>363</volume>
+               <source>Conference on the Numerical Solution of Differential Equations</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1021a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d326330e1028" publication-type="book">
+—The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam, 1978.
+MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1053a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d326330e1060" publication-type="journal">
+—, Interpolation error estimates for the reduced Hsieh-Clough-Tocher triangle, Math.
+Comp.32 (1978), 335-344. MR 80i:65114<object-id pub-id-type="doi">10.2307/2006147</object-id>
+               <fpage>335</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1076a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d326330e1083" publication-type="journal">
+J.F. Ciavaldini and J.C. Nedelec, Sur l'616ment de Fraeijs de Veubeke et Sander, RAIROR-2
+(1974), 29-45. MR 52:2247<person-group>
+                     <string-name>
+                     <surname>Ciavaldini</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>29</fpage>
+               <volume>R-2</volume>
+               <source>RAIRO</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1115a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d326330e1122" publication-type="journal">
+P. Clément, Approximation by finite element functions using local regularization, R.A.I.R.O.
+R-2 (1975), 77-84. MR 53:4569<person-group>
+                     <string-name>
+                     <surname>Clément</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>R-2</volume>
+               <source>R.A.I.R.O.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1154a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d326330e1161" publication-type="conference">
+R.W. Clough and J.L. Tocher, Finite element stiffness matrices for analysis of plates in
+bending, Proceedings of the Conference on Matrix Methods in Structural Mechanics, Wright
+Patterson A.F.B., Ohio, 1965.<person-group>
+                     <string-name>
+                     <surname>Clough</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite element stiffness matrices for analysis of plates in bending</comment>
+               <source>Proceedings of the Conference on Matrix Methods in Structural Mechanics, Wright Patterson A.F.B., Ohio</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1194a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d326330e1201" publication-type="journal">
+M. Crouzeix and P.-A. Raviart, Conforming and nonconforming finite element methods for
+solving the stationary Stokes equations I, R.A.I.R.O.R-3 (1973), 33-75. MR 49:8401<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>R-3</volume>
+               <source>R.A.I.R.O.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1233a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d326330e1240" publication-type="book">
+M. Dauge, Elliptic Boundary Value Problems on Corner Domains, Lecture Notes in Math.,
+vol. 1341, Springer-Verlag, Berlin, 1988. MR 91a:35078<person-group>
+                     <string-name>
+                     <surname>Dauge</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1341</volume>
+               <source>Elliptic Boundary Value Problems on Corner Domains</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1269a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d326330e1276" publication-type="journal">
+R.S. Falk, Nonconforming finite element methods for the equations of linear elasticity, Math.
+Comp.57 (1991), 529-550. MR 92a:65290<object-id pub-id-type="doi">10.2307/2938702</object-id>
+               <fpage>529</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1292a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d326330e1299" publication-type="journal">
+B. Fraeijs de Veubeke, A conforming finite element for plate bending, Int. J. Solids and
+Structure4 (1968), 95-108.<person-group>
+                     <string-name>
+                     <surname>de Veubeke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>4</volume>
+               <source>Int. J. Solids and Structure</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1331a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d326330e1338" publication-type="book">
+P. Grisvard, Elliptic Problems in Nonsmooth Domains, Pitman, London, 1985. MR
+86m:35044<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic Problems in Nonsmooth Domains</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1363a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d326330e1370" publication-type="journal">
+— Problemes aux limites dans les polygones, Mode d'emploi, EDF Bull. Direction Études
+Rech. Sér. C. Math. Inform.1 (1986), 21-59. MR 87g:35073<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>21</fpage>
+               <volume>1</volume>
+               <source>EDF Bull. Direction Études Rech. Sér. C. Math. Inform.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1403a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d326330e1410" publication-type="book">
+—Singularities in Boundary Value Problems, Springer-Verlag, Berlin, 1992. MR
+93h:35004<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Singularities in Boundary Value Problems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1435a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d326330e1442" publication-type="book">
+W. Hackbusch, Multigrid Methods and Applications, Springer-Verlag, Berlin, 1985. MR
+87e:65082<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid Methods and Applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1467a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d326330e1474" publication-type="journal">
+M.R. Hanisch, Multigrid preconditioning for the biharmonic Dirichlet problem, SIAM J. Nu-
+mer. Anal.30 (1993), 184-214. MR 94e:65131<object-id pub-id-type="jstor">10.2307/2158102</object-id>
+               <fpage>184</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1490a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d326330e1497" publication-type="book">
+S.G. Kreĭn, Ju. I. Petunin and E.M. Semenov, Interpolation of Linear Operators, Translations
+of Mathematical Monographs, vol. 54, American Mathematical Society, Providence, 1982.<person-group>
+                     <string-name>
+                     <surname>Kreĭn</surname>
+                  </string-name>
+                  </person-group>
+               <volume>54</volume>
+               <source>Interpolation of Linear Operators</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1526a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d326330e1533" publication-type="journal">
+P. Lascaux and P. Lesaint, Some nonconforming finite elements for the plate bending problem,
+R.A.I.R.O.R-1 (1975), 9-53. MR 54:11941<person-group>
+                     <string-name>
+                     <surname>Lascaux</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>9</fpage>
+               <volume>R-1</volume>
+               <source>R.A.I.R.O.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1565a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d326330e1572" publication-type="book">
+S. McCormick (ed.), Multigrid Methods, SIAM Frontiers in Applied Mathematics3, SIAM,
+Philadelphia, 1987. MR 89m:65004<person-group>
+                     <string-name>
+                     <surname>McCormick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid Methods</comment>
+               <volume>3</volume>
+               <source>SIAM Frontiers in Applied Mathematics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1605a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d326330e1612" publication-type="journal">
+L.S.D. Morley, The triangular equilibrium problem in the solution of plate bending problems,
+Aero. Quart.19 (1968), 149-169.<person-group>
+                     <string-name>
+                     <surname>Morley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>149</fpage>
+               <volume>19</volume>
+               <source>Aero. Quart.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1644a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d326330e1651" publication-type="book">
+J. Nečas, Les Méthodes Directes en Théorie des Équations Elliptiques, Masson, Paris, 1967.
+MR 37:3168<person-group>
+                     <string-name>
+                     <surname>Nečas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Les Méthodes Directes en Théorie des Équations Elliptiques</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1676a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d326330e1683" publication-type="journal">
+P. Peisker and D. Braess, A conjugate gradient method and a multigrid algorithm for Morley's
+finite element approximation of the biharmonic equation, Numer. Math.50 (1987), 567-586.
+MR 88e:65147<person-group>
+                     <string-name>
+                     <surname>Peisker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1718a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d326330e1725" publication-type="journal">
+P. Peisker, W. Rust and E. Stein, Iterative solution methods for plate bending problems:
+multigrid and preconditioned cg algorithm, SIAM J. Numer. Anal.27 (1990), 1450-1465. MR
+91h:73055<object-id pub-id-type="jstor">10.2307/2157763</object-id>
+               <fpage>1450</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1744a1310">
+               <label>51</label>
+               
+               <mixed-citation id="d326330e1751" publication-type="journal">
+P. Percell, On cubic and quartic Clough-Tocher finite elements, SIAM J. Numer. Anal.13
+(1976), 100-103. MR 53:11963<object-id pub-id-type="jstor">10.2307/2156470</object-id>
+               <fpage>100</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1767a1310">
+               <label>52</label>
+               
+               <mixed-citation id="d326330e1774" publication-type="journal">
+R. Rannacher and S. Turek, Simple nonconformzng quadrilateral Stokes element, Numer.
+Meth. PDE8 (1992), 97-111. MR 92i:65170<person-group>
+                     <string-name>
+                     <surname>Rannacher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>8</volume>
+               <source>Numer. Meth. PDE</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1807a1310">
+               <label>53</label>
+               
+               <mixed-citation id="d326330e1814" publication-type="book">
+P.-A. Raviart and J.M. Thomas, A mixed finite element method for second order elliptic
+problems, Mathematical Aspects of the Finite Element Method (I.Galligani and E. Magenes,
+eds.), Lecture Notes in Mathematics, vol. 606, Springer-Verlag, Berlin, 1977, pp. 292-315.
+MR 58:3547<person-group>
+                     <string-name>
+                     <surname>Raviart</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A mixed finite element method for second order elliptic problems</comment>
+               <fpage>292</fpage>
+               <volume>606</volume>
+               <source>Mathematical Aspects of the Finite Element Method</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1855a1310">
+               <label>54</label>
+               
+               <mixed-citation id="d326330e1862" publication-type="journal">
+G. Sander, Bornes sup6rieures et inferieures dans l'analyse matricielle des plaques en flexion-
+torsion, Bull. Soc. Roy. Sci. Liège33 (1964), 456-494. MR 30:764<person-group>
+                     <string-name>
+                     <surname>Sander</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>456</fpage>
+               <volume>33</volume>
+               <source>Bull. Soc. Roy. Sci. Liège</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1894a1310">
+               <label>55</label>
+               
+               <mixed-citation id="d326330e1901" publication-type="other">
+P. Schreiber and S. Turek, Multigrid results for the nonconforming Morley element, preprint
+(1993).</mixed-citation>
+            </ref>
+            <ref id="d326330e1911a1310">
+               <label>56</label>
+               
+               <mixed-citation id="d326330e1918" publication-type="journal">
+L.R. Scott and S. Zhang, Finite element interpolataon of non-smooth functions satisfying
+boundary conditions, Math. Comp.54 (1990), 483-493. MR 90j:65021<object-id pub-id-type="doi">10.2307/2008497</object-id>
+               <fpage>483</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1934a1310">
+               <label>57</label>
+               
+               <mixed-citation id="d326330e1941" publication-type="journal">
+R. Seeley, Interpolation in LP with boundary conditions, Studia Math.44 (1972), 47-60. MR
+47:3981<person-group>
+                     <string-name>
+                     <surname>Seeley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>47</fpage>
+               <volume>44</volume>
+               <source>Studia Math.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e1973a1310">
+               <label>58</label>
+               
+               <mixed-citation id="d326330e1980" publication-type="journal">
+Z. Shi, On the convergence of the incomplete biquadratic nonconforming plate element, Math.
+Numer. Sinica8 (1986), 53-62 (Chinese). MR 87j:73084<person-group>
+                     <string-name>
+                     <surname>Shi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>8</volume>
+               <source>Math. Numer. Sinica</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2013a1310">
+               <label>59</label>
+               
+               <mixed-citation id="d326330e2020" publication-type="journal">
+—, Error estimates of Morley element, Chinese J. Num. Math. &amp; Appl.12 (1990), 9-15.
+MR 91i:65182<person-group>
+                     <string-name>
+                     <surname>Shi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>9</fpage>
+               <volume>12</volume>
+               <source>Chinese J. Num. Math. &amp; Appl.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2052a1310">
+               <label>60</label>
+               
+               <mixed-citation id="d326330e2059" publication-type="conference">
+Z. Shi, X. Yu and Z. Xie, A multigrid method for Bergan's energy-orthogonal plate element,
+Advances in Numerical Mathematics: Proc. Second Japan-China Sem. (Tokyo, 1994), Lecture
+Notes Numer. Appl. Anal., vol. 14, Kinokuniya, Tokyo, 1995, pp. 159-169. MR 98g:73041<person-group>
+                     <string-name>
+                     <surname>Shi</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A multigrid method for Bergan's energy-orthogonal plate element</comment>
+               <fpage>159</fpage>
+               <volume>14</volume>
+               <source>Advances in Numerical Mathematics: Proc. Second Japan-China Sem. (Tokyo, 1994)</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2097a1310">
+               <label>61</label>
+               
+               <mixed-citation id="d326330e2104" publication-type="book">
+H. Triebel, Interpolation Theory, Function Spaces, Differential Operators, North-Holland,
+Amsterdam, 1978. MR 80i:46032<person-group>
+                     <string-name>
+                     <surname>Triebel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interpolation Theory, Function Spaces, Differential Operators</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2129a1310">
+               <label>62</label>
+               
+               <mixed-citation id="d326330e2136" publication-type="other">
+S. Turek, Ein robustes und effizientes Mehrgitterverfahren zur Losung der instationdren,
+inkompressiblen 2-D Navier-Stokes- Gleichungen mit diskret divergenzfreien finiten Ele-
+menten, Dissertation, Universitat Heidelberg, 1991.</mixed-citation>
+            </ref>
+            <ref id="d326330e2149a1310">
+               <label>63</label>
+               
+               <mixed-citation id="d326330e2156" publication-type="journal">
+—, Multagrid techniques for a divergence-free finite element discretization, East-West J.
+Numer. Math.2 (1994), 229-255. MR 96c:65195<person-group>
+                     <string-name>
+                     <surname>Turek</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>229</fpage>
+               <volume>2</volume>
+               <source>East-West J. Numer. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2188a1310">
+               <label>64</label>
+               
+               <mixed-citation id="d326330e2195" publication-type="journal">
+M. Wang, The multigrid method for TRUNC plate element, J. Comput. Math.11 (1993),
+178-187. MR 94m:65192<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>178</fpage>
+               <volume>11</volume>
+               <source>J. Comput. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2228a1310">
+               <label>65</label>
+               
+               <mixed-citation id="d326330e2235" publication-type="journal">
+—, The W-cycle multigrid method for finite elements with nonnested spaces, Adv. in
+Math.23 (1994), 238-250. MR 95e:65118<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>238</fpage>
+               <volume>23</volume>
+               <source>Adv. in Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2267a1310">
+               <label>66</label>
+               
+               <mixed-citation id="d326330e2274" publication-type="journal">
+S. Zhang, An optimal order multigrzd method for biharmonic, C1 finite element equations,
+Numer. Math.56 (1989), 613-624. MR 90j:65135<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>613</fpage>
+               <volume>56</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2306a1310">
+               <label>67</label>
+               
+               <mixed-citation id="d326330e2313" publication-type="journal">
+Z. Zhang and S. Zhang, Wilson's element for the Reissner-Mindlin plate, Comput. Methods
+Appl. Mech. Engrg.113 (1994), 55-65. MR 94k:73078<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>55</fpage>
+               <volume>113</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326330e2345a1310">
+               <label>68</label>
+               
+               <mixed-citation id="d326330e2352" publication-type="journal">
+S. Zhou and G. Feng, Multigrid method for the Zienkiewicz element approximataon of bihar-
+monic equation, J. Hunan Univ.20 (1993), 1-6 (Chinese). MR 94c:65155<person-group>
+                     <string-name>
+                     <surname>Zhou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>20</volume>
+               <source>J. Hunan Univ.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">23</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">105</issue>
+         <issue-id>i334528</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005059</article-id>
+         
+         <title-group>
+            <article-title>On the Condition of a Matrix Arising in the Numerical Inversion of the Laplace Transform</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Walter</given-names>
+                  <surname>Gautschi</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1969</year>
+         </pub-date>
+         <fpage>109</fpage>
+         <lpage>118</lpage>
+         <page-range>109-118</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1969 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005059"/>
+         
+         
+         <abstract>
+            <p>Bellman, Kalaba, and Lockett recently proposed a numerical method for inverting the Laplace transform. The method consists in first reducing the infinite interval of integration to a finite one by a preliminary substitution of variables, and then employing an n-point Gauss-Legendre quadrature formula to reduce the inversion problem (approximately) to that of solving a system of n linear algebraic equations. Luke suggests the possibility of using Gauss-Jacobi quadrature (with parameters |alpha and β) in place of Gauss-Legendre quadrature, and in particular raises the question whether a judicious choice of the parameters α, β may have a beneficial influence on the condition of the linear system of equations. The object of this note is to investigate the condition number &lt;tex-math&gt;$\operatorname{cond} (n, \alpha, \beta)$&lt;/tex-math&gt; of this system as a function of n, α, and β. It is found that &lt;tex-math&gt;$\operatorname{cond} (n, \alpha, \beta)$&lt;/tex-math&gt; is usually larger than &lt;tex-math&gt;$\operatorname{cond} (n, \beta, \alpha)$&lt;/tex-math&gt; if &lt;latex&gt;$\beta &gt; \alpha$&lt;/latex&gt;, at least asymptotically as n → ∞. Lower bounds for &lt;tex-math&gt;$\operatorname{cond} (n, \alpha, \beta)$&lt;/tex-math&gt; are obtained together with their asymptotic behavior as n → ∞. Sharper bounds are derived in the special cases α = β, n odd, and α = β = ± 1/2, n arbitrary. There is also a short table of &lt;tex-math&gt;$\operatorname{cond} (n, \alpha, \beta)$&lt;/tex-math&gt; for α, β = -.8(.2)0, .5, 1, 2, 4, 8, 16, β ≤ α, and n = 5, 10, 20, 40. The general conclusion is that &lt;tex-math&gt;$\operatorname{cond} (n, \alpha, \beta)$&lt;/tex-math&gt; grows at a rate which is something like a constant times (3 + √ 8)&lt;sup&gt;n&lt;/sup&gt;, where the constant depends on α and β, varies relatively slowly as a function of α, β, and appears to be smallest near α = β = -1. For quadrature rules with equidistant points the condition grows like (2 √ 2/3π)8&lt;sup&gt;n&lt;/sup&gt;.</p>
+          </abstract>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1369321e120a1310">
+               <label>*</label>
+               
+               <p>
+               <mixed-citation id="d1369321e127" publication-type="book">
+[7]  </mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1369321e145a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1369321e152" publication-type="journal">
+A. B. BAKUŠINSKIĬ, "On a numerical method for the solution of Fredholm integral equa-
+tions of the first kind," Ž. Vyčisl. Mat. i Mat. Fiz., v. 5, 1965, pp. 744-749. (Russian)<person-group>
+                     <string-name>
+                     <surname>Bakušinskiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>744</fpage>
+               <volume>5</volume>
+               <source>Ž. Vyčisl. Mat. i Mat. Fiz.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e184a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1369321e191" publication-type="book">
+A. B. BAKUŠINSIKIĬ, "On a certain numerical method of solution of Fredholm integral
+equations of the first kind," Comput. Methods Programming. Vol. V, Izdat. Moskov. Univ., Mos-
+cow, 1966, pp. 99-106. (Russian) MR 35 #6386.<person-group>
+                     <string-name>
+                     <surname>Bakušinsikiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On a certain numerical method of solution of Fredholm integral equations of the first kind</comment>
+               <fpage>99</fpage>
+               <volume>V</volume>
+               <source>Comput. Methods Programming</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e229a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1369321e236" publication-type="journal">
+R. BELLMAN, R. KALABA &amp; J. LOCKETT, "Dynamic programming and ill-conditioned linear
+systems. II," J. Math. Anal. Appl., v. 12, 1965, pp. 393-400. MR 32 #9104.<person-group>
+                     <string-name>
+                     <surname>Bellman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>393</fpage>
+               <volume>12</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e268a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1369321e275" publication-type="book">
+R. BELLMAN, R. E. KALABA &amp; J. A. LOCKETT, Numerical Inversion of the Laplace Trans-
+form. Applications to Biology, Economics, Engineering and Physics, American Elsevier, New
+York, 1966. MR 34 #5282.<person-group>
+                     <string-name>
+                     <surname>Bellman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Inversion of the Laplace Transform. Applications to Biology, Economics, Engineering and Physics</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e305a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1369321e312" publication-type="journal">
+W. GAUTSCHI, "On inverses of Vandermonde and confluent Vandermonde matrices,"
+Numer. Math., v. 4, 1962, pp. 117-123. MR 25 #3059.<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>117</fpage>
+               <volume>4</volume>
+               <source>Numer. Math.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e344a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1369321e351" publication-type="journal">
+W. GAUTSCHI, "Construction of Gauss-Christoffel quadrature formulas," Math. Comp.,
+v. 22, 1968, pp. 251-270.<object-id pub-id-type="doi">10.2307/2004654</object-id>
+               <fpage>251</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e367a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1369321e374" publication-type="book">
+V. I. KRYLOV, V. V. LUGIN &amp; L. A. JANOVI6, Tables for the Numerical Integration of
+Functions with Power Singularities ∫l0xβ(l - x)αf(x)dx, Izdat. Akad. Nauk. Belorussk. SSR,
+Minsk, 1963. (Russian) MR 28 #253.<person-group>
+                     <string-name>
+                     <surname>Krylov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tables for the Numerical Integration of Functions with Power Singularities ∫l0xβ(l - x)αf(x)dx</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e403a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1369321e410" publication-type="journal">
+Y. L. LUKE, Review 6, Math. Comp., v. 22, 1968, pp. 215-218.<object-id pub-id-type="doi">10.2307/2004539</object-id>
+               <fpage>215</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e423a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1369321e430" publication-type="journal">
+D. L. PHILLIPS, "A technique for the numerical solution of certain integral equations of
+the first kind," J. Assoc. Comput. Mach., v. 9, 1962, pp. 84-97. MR 24 #B534.<person-group>
+                     <string-name>
+                     <surname>Phillips</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>84</fpage>
+               <volume>9</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e462a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1369321e469" publication-type="book">
+G. SZEGÖ, Orthogonal Polynomials, Amer. Math. Soc. Colloq. Publ., Vol. 23, Amer. Math.
+Soc., Providence, R. I., 1959. MR 21 #5029.<person-group>
+                     <string-name>
+                     <surname>Szegö</surname>
+                  </string-name>
+                  </person-group>
+               <volume>23</volume>
+               <source>Orthogonal Polynomials</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e499a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1369321e506" publication-type="journal">
+A. N. TIHONOV &amp; V. B. GLASKO, "An approximate solution of Fredholm integral equations
+of the first kind," Ž. Vyčisl. Mat. i Mat. Fiz., v. 4, 1964, pp. 564-571. (Russian) MR 29 #6654.<person-group>
+                     <string-name>
+                     <surname>Tihonov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>564</fpage>
+               <volume>4</volume>
+               <source>Ž. Vyčisl. Mat. i Mat. Fiz.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e538a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1369321e545" publication-type="book">
+J. TODD, Introduction to the Constructive Theory of Functions, Academic Press, New York,
+1963. MR 27 #6061.<person-group>
+                     <string-name>
+                     <surname>Todd</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to the Constructive Theory of Functions</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e570a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1369321e577" publication-type="journal">
+S. TWOMEY, 1"On the numerical solution of Fredholm integral equations of the first kind
+by the inversion of the linear system produced by quadrature," J. Assoc. Comput. Mach., v.10,
+1963, pp. 97-101. MR 29 #6655.<person-group>
+                     <string-name>
+                     <surname>Twomey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>10</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1369321e612a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1369321e619" publication-type="journal">
+P. N. ZAIKIN,'"On the numerical solution of the inversion problem of operational calculus
+in the real domain," Ž. Vyčisl. Mat. i Mat. Fiz., v. 8, 1968, pp. 411-415. (Russian)<person-group>
+                     <string-name>
+                     <surname>Zaikin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>411</fpage>
+               <volume>8</volume>
+               <source>Ž. Vyčisl. Mat. i Mat. Fiz.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

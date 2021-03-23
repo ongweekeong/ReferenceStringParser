@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i23110420</issue-id>
+         <article-id pub-id-type="jstor">23113378</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Bayesian Computing</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Bayesian Adaptive Sampling for Variable Selection and Model Averaging</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Merlise A.</given-names>
+                  <surname>Clyde</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Joyee</given-names>
+                  <surname>Ghosh</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Michael L.</given-names>
+                  <surname>Littman</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>80</fpage>
+         <lpage>101</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23113378"/>
+      
+      
+         <abstract>
+            <p>For the problem of model choice in linear regression, we introduce a Bayesian adaptive sampling algorithm (BAS), that samples models without replacement from the space of models. For problems that permit enumeration of all models, BAS is guaranteed to enumerate the model space in 2
+              p
+              iterations where p is the number of potential variables under consideration. For larger problems where sampling is required, we provide conditions under which BAS provides perfect samples without replacement. When the sampling probabilities in the algorithm are the marginal variable inclusion probabilities, BAS may be viewed as sampling models "near" the median probability model of Barbieri and Berger. As marginal inclusion probabilities are not known in advance, we discuss several strategies to estimate adaptively the marginal inclusion probabilities within BAS. We illustrate the performance of the algorithm using simulated and real data and show that BAS can outperform Markov chain Monte Carlo methods. The algorithm is implemented in the R package BAS available at CRAN. This article has supplementary material online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d2253693e270a1310">
+          
+            <mixed-citation id="d2253693e274" publication-type="other">
+Barbieri, M., and Berger, J. (2004), "Optimal Predictive Model Selection," The Annals of Statistics, 32 (3), 870–
+897. [81,87]</mixed-citation>
+        </ref>
+        <ref id="d2253693e284a1310">
+          
+            <mixed-citation id="d2253693e288" publication-type="other">
+Bottolo, L., and Richardson, S. (2008), "Evolutionary Stochastic Search," technical report, Imperial College,
+London. Available at http://arxiv.org/abs/1002.2706vl. [82,99]</mixed-citation>
+        </ref>
+        <ref id="d2253693e298a1310">
+          
+            <mixed-citation id="d2253693e302" publication-type="other">
+Carvalho, L. E., and Lawrence, C. E. (2008), "Centroid Estimation in Discrete High-Dimensional Spaces With
+Applications in Biology," Proceedings of the National Academy of Sciences, 105 (9), 3209-3214. [81,87]</mixed-citation>
+        </ref>
+        <ref id="d2253693e312a1310">
+          
+            <mixed-citation id="d2253693e316" publication-type="other">
+Clyde, M. (1999), "Bayesian Model Averaging and Model Search Strategies" (with discussion), in Bayesian
+Statistics 6—Proceedings of the Sixth Valencia International Meeting, Oxford: Oxford University Press,
+pp. 157–185. [82,87]</mixed-citation>
+        </ref>
+        <ref id="d2253693e330a1310">
+          
+            <mixed-citation id="d2253693e334" publication-type="other">
+Clyde, M., and George, E. I. (2004), "Model Uncertainty," Statistical Science, 19 (1), 81–94. [81]</mixed-citation>
+        </ref>
+        <ref id="d2253693e341a1310">
+          
+            <mixed-citation id="d2253693e345" publication-type="other">
+Clyde, M., and Ghosh, J. (2010), "A Note on the Bias in Estimating Posterior Probabilities in Variable Selection,"
+Discussion Paper 2010-11, Duke University, Dept. of Statistical Science. [90]</mixed-citation>
+        </ref>
+        <ref id="d2253693e355a1310">
+          
+            <mixed-citation id="d2253693e359" publication-type="other">
+Clyde, Μ. Α., and Parmigiani, G. (1998), "Protein Construct Storage: Bayesian Variable Selection and Prediction
+With Mixtures," Journal of Biopharmaceutical Statistics, 8, 431–443. [95,98]</mixed-citation>
+        </ref>
+        <ref id="d2253693e369a1310">
+          
+            <mixed-citation id="d2253693e373" publication-type="other">
+Clyde, M., DeSimone, H., and Parmigiani, G. (1996), "Prediction via Orthogonalized Model Mixing," Journal of
+the American Statistical Association, 91, 1197–1208. [83,89,95]</mixed-citation>
+        </ref>
+        <ref id="d2253693e383a1310">
+          
+            <mixed-citation id="d2253693e387" publication-type="other">
+Denison, D. G. T., Mallick, B. K., and Smith, A. F. M. (1998), "Automatic Bayesian Curve Fitting," Journal of
+the Royal Statistical Society, Ser. Β, 60, 333–350. [91]</mixed-citation>
+        </ref>
+        <ref id="d2253693e397a1310">
+          
+            <mixed-citation id="d2253693e401" publication-type="other">
+Fisher, R. A. (1922), "On the Mathematical Foundations of Theoretical Statistics," Philosophical Transactions
+of the Royal Society of London, Ser. A: Containing Papers of a Mathematical or Physical Character, 222,
+309–368. Available at http://www.jstor.org/stable/91208. [88]</mixed-citation>
+        </ref>
+        <ref id="d2253693e415a1310">
+          
+            <mixed-citation id="d2253693e419" publication-type="other">
+Furnival, G. M., Wilson, J., and Robert, W. (1974), "Regression by Leaps and Bounds," Technometrics, 16, 499–
+511. [82]</mixed-citation>
+        </ref>
+        <ref id="d2253693e429a1310">
+          
+            <mixed-citation id="d2253693e433" publication-type="other">
+George, E. (1999), Comment on "Bayesian Model Averaging and Model Search Strategies," by M. Clyde, in
+Bayesian Statistics 6—Proceedings of the Sixth Valencia International Meeting, Oxford: Oxford University
+Press. [89,99]</mixed-citation>
+        </ref>
+        <ref id="d2253693e446a1310">
+          
+            <mixed-citation id="d2253693e450" publication-type="other">
+George, E. I., and McCulloch, R. E. (1997), "Approaches for Bayesian Variable Selection," Statistica Sinica, 7,
+339–374. [82]</mixed-citation>
+        </ref>
+        <ref id="d2253693e460a1310">
+          
+            <mixed-citation id="d2253693e464" publication-type="other">
+Hoeting, J. Α., Madigan, D., Raftery, A. E., and Volinsky, C. T. (1999), "Bayesian Model Averaging: A Tutor-
+ial" (with discussion), Statistical Science, 14 (4), 382–401. Corrected version available at http://www.stat.
+washington.edu/www/research/online/hoetingl999.pdf. [81,82]</mixed-citation>
+        </ref>
+        <ref id="d2253693e477a1310">
+          
+            <mixed-citation id="d2253693e481" publication-type="other">
+Horvitz, D., and Thompson, D. (1952), "A Generalization of Sampling Without Replacement From a Finite
+Universe," Journal of the American Statistical Association, 47, 663–685. [88]</mixed-citation>
+        </ref>
+        <ref id="d2253693e491a1310">
+          
+            <mixed-citation id="d2253693e495" publication-type="other">
+
+              Liang, F., and Wong, W. H. (2000), "Evolutionary Monte Carlo: Applications to C
+              
+              Model Sampling and Change
+            
+Point Problem," Statistica Sinica, 10, 317–342. [82,99]</mixed-citation>
+        </ref>
+        <ref id="d2253693e509a1310">
+          
+            <mixed-citation id="d2253693e513" publication-type="other">
+Liang, F., Paulo, R., Molina, G., Clyde, M., and Berger, J. (2008), "Mixtures of g-Priors for Bayesian Variable
+Selection," Journal of the American Statistical Association, 103,410–423. [82,90,98]</mixed-citation>
+        </ref>
+        <ref id="d2253693e523a1310">
+          
+            <mixed-citation id="d2253693e527" publication-type="other">
+Madigan, D„ and York, J. (1995), "Bayesian Graphical Models for Discrete Data," International Statistical Re-
+view, 63, 215–232. [90]</mixed-citation>
+        </ref>
+        <ref id="d2253693e537a1310">
+          
+            <mixed-citation id="d2253693e541" publication-type="other">
+Nott, D. J., and Green, P. J. (2004), "Bayesian Variable Selection and the Swendsen-Wang Algorithm," Journal
+of Computational and Graphical Statistics, 13 (1), 141–157. [82,91,99]</mixed-citation>
+        </ref>
+        <ref id="d2253693e551a1310">
+          
+            <mixed-citation id="d2253693e555" publication-type="other">
+Nott, D. J., and Kohn, R. (2005), "Adaptive Sampling for Bayesian Variable Selection," Biometrika, 92 (3), 747–
+763. [82,91,99]</mixed-citation>
+        </ref>
+        <ref id="d2253693e565a1310">
+          
+            <mixed-citation id="d2253693e569" publication-type="other">
+Raftery, A. E., Madigan, D„ and Hoeting, J. A. (1997), "Bayesian Model Averaging for Linear Regression Mod-
+els," Journal of the American Statistical Association, 92, 179–191. [82,90,94]</mixed-citation>
+        </ref>
+        <ref id="d2253693e579a1310">
+          
+            <mixed-citation id="d2253693e583" publication-type="other">
+Selke, T., Bayarri, M., and Berger, J. (2001), "Calibration of p-Values for Testing Precise Null Hypotheses," The
+American Statistician, 55, 62–71. [88,89]</mixed-citation>
+        </ref>
+        <ref id="d2253693e594a1310">
+          
+            <mixed-citation id="d2253693e598" publication-type="other">
+Smith, M., and Kohn, R. (1996), "Nonparametric Regression Using Bayesian Variable Selection," Journal of
+Econometrics, 75, 317–343. [82]</mixed-citation>
+        </ref>
+        <ref id="d2253693e608a1310">
+          
+            <mixed-citation id="d2253693e612" publication-type="other">
+Thompson, S. K. (1992), Sampling, New York: Wiley Interscience. [88]</mixed-citation>
+        </ref>
+        <ref id="d2253693e619a1310">
+          
+            <mixed-citation id="d2253693e623" publication-type="other">
+Vandaele, W. (1978), "Participation in Illegitimate Activities—Ehrlich Revisited," in Deterrence and Incapaci-
+tation, eds. A. Blumstein, J. Cohen, and D. Nagin, Washington, DC: National Academy of Sciences Press,
+pp. 270–335. [94]</mixed-citation>
+        </ref>
+        <ref id="d2253693e636a1310">
+          
+            <mixed-citation id="d2253693e640" publication-type="other">
+Wilson, M., Iversen, E., Clyde, M., Schmidler, S., and Schildkraut, J. (2010), "Bayesian Model Search and Mul-
+tilevel Inference for SNP Association Studies," The Annals of Applied Statistics, to appear. [82]</mixed-citation>
+        </ref>
+        <ref id="d2253693e650a1310">
+          
+            <mixed-citation id="d2253693e654" publication-type="other">
+Zellner, A. (1986), "On Assessing Prior Distributions and Bayesian Regression Analysis With g-Prior Distrib-
+utions," in Bayesian Inference and Decision Techniques: Essays in Honor of Bruno de Finetti, Amsterdam:
+North-Holland, pp. 233–243. [82,90]</mixed-citation>
+        </ref>
+        <ref id="d2253693e667a1310">
+          
+            <mixed-citation id="d2253693e671" publication-type="other">
+Zellner, Α., and Siow, A. (1980), "Posterior Odds Ratios for Selected Regression Hypotheses," in Bayesian Sta-
+tistics: Proceedings of the First Valencia International Meeting, Valencia: University Press, pp. 585–603.
+[82,98]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

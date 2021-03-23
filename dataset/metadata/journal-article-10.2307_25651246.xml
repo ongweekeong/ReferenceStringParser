@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i25651242</issue-id>
+         <article-id pub-id-type="jstor">25651246</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Bayesian Computation</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Partially Collapsed Gibbs Samplers: Illustrations and Applications</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Taeyoung</given-names>
+                  <surname>Park</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>David A.</given-names>
+                  <surname>van Dyk</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>283</fpage>
+         <lpage>305</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651246"/>
+      
+      
+         <abstract>
+            <p>Among the computationally intensive methods for fitting complex multilevel models, the Gibbs sampler is especially popular owing to its simplicity and power to effectively generate samples from a high-dimensional probability distribution. The Gibbs sampler, however, is often justifiably criticized for its sometimes slow convergence, especially when it is used to fit highly structured complex models. The recently proposed Partially Collapsed Gibbs (PCG) sampler offers a new strategy for improving the convergence characteristics of a Gibbs sampler. A PCG sampler achieves faster convergence by reducing the conditioning in some or all of the component draws of its parent Gibbs sampler. Although this strategy can significantly improve convergence, it must be implemented with care to be sure that the desired stationary distribution is preserved. In some cases the set of conditional distributions sampled in a PCG sampler may be functionally incompatible and permuting the order of draws can change the stationary distribution of the chain. In this article, we draw an analogy between the PCG sampler and certain efficient EM-type algorithms that helps to explain the computational advantage of PCG samplers and to suggest when they might be used in practice. We go on to illustrate the PCG samplers in three substantial examples drawn from our applied work: a multilevel spectral model commonly used in high-energy astrophysics, a piecewise-constant multivariate time series model, and a joint imputation model for nonnested data. These are all useful highly structured models that involve computational challenges that can be solved using PCG samplers. The examples illustrate not only the computation advantage of PCG samplers but also how they should be constructed to maintain the desired stationary distribution. Supplemental materials for the examples given in this article are available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d1321521e250a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d1321521e257" publication-type="other">
+Liu 2001</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1321521e273a1310">
+          
+            <mixed-citation id="d1321521e277" publication-type="other">
+Azzalini, A. (2005), "The Skew-Normal Distribution and Related Multivariate Families," Scandinavian Journal
+of Statistics, 32, 159-188.</mixed-citation>
+        </ref>
+        <ref id="d1321521e287a1310">
+          
+            <mixed-citation id="d1321521e291" publication-type="other">
+Besag, J., and Green, P. J. (1993), "Spatial Statistics and Bayesian Computation," Journal of the Royal Statistical
+Society, Ser. B, 55, 25-37.</mixed-citation>
+        </ref>
+        <ref id="d1321521e301a1310">
+          
+            <mixed-citation id="d1321521e305" publication-type="other">
+Dempster, A. P., Laird, N. M., and Rubin, D. B. (1977), "Maximum Likelihood From Incomplete Data via the
+EM Algorithm" (with discussion), Journal of the Royal Statistical Society, Ser. B, 39, 1-37.</mixed-citation>
+        </ref>
+        <ref id="d1321521e315a1310">
+          
+            <mixed-citation id="d1321521e319" publication-type="other">
+Dobigeon, N., Tourneret, J.-Y., and Scargle, J. (2007), "Joint Segmentation of Multivariate Astronomical Time
+Series: Bayesian Sampling With a Hierarchical Model," IEEE Transactions on Signal Processing, 55, 414-
+423.</mixed-citation>
+        </ref>
+        <ref id="d1321521e333a1310">
+          
+            <mixed-citation id="d1321521e337" publication-type="other">
+Gelfand, A. E., Sahu, S. K., and Carlin, B. P. (1995), "Efficient Parameterization for Normal Linear Mixed
+Models," Biometrika, 82, 479-488.</mixed-citation>
+        </ref>
+        <ref id="d1321521e347a1310">
+          
+            <mixed-citation id="d1321521e351" publication-type="other">
+Gelman, A., and Rubin, D. B. (1992), "Inference From Iterative Simulations Using Multiple Sequences" (with
+discussion), Statistical Science, 1, 457-472.</mixed-citation>
+        </ref>
+        <ref id="d1321521e361a1310">
+          
+            <mixed-citation id="d1321521e365" publication-type="other">
+Gelman, A., van Dyk, D. A., Huang, Z., and Boscardin, W. J. (2008), "Transformation and Parameter-Expanded
+Gibbs Samplers for Multilevel and Generalized Linear Models," Journal of Computational and Graphical
+Statistics, 17, 95-122.</mixed-citation>
+        </ref>
+        <ref id="d1321521e378a1310">
+          
+            <mixed-citation id="d1321521e382" publication-type="other">
+Green, P. J. (1995), "Reversible Jump Markov Chain Monte Carlo Computation and Bayesian Model Determina-
+tion," Biometrika, 82, 711-732.</mixed-citation>
+        </ref>
+        <ref id="d1321521e392a1310">
+          
+            <mixed-citation id="d1321521e396" publication-type="other">
+Liu, C. (2003), "Alternating Subspace-Spanning Resampling to Accelerate Markov Chain Monte Carlo Simula-
+tion," Journal of the American Statistical Association, 98, 110-117.</mixed-citation>
+        </ref>
+        <ref id="d1321521e406a1310">
+          
+            <mixed-citation id="d1321521e410" publication-type="other">
+Liu, C, and Rubin, D. B. (1994), "The ECME Algorithm: A Simple Extension of EM and ECM With Faster
+Monotone Convergence," Biometrika, 81, 633-648.</mixed-citation>
+        </ref>
+        <ref id="d1321521e421a1310">
+          
+            <mixed-citation id="d1321521e425" publication-type="other">
+Liu, J. S. (1994), "The Collapsed Gibbs Sampler in Bayesian Computations With Applications to Gene Regulation
+Problem," Journal of the American Statistical Association, 89, 958-966.</mixed-citation>
+        </ref>
+        <ref id="d1321521e435a1310">
+          
+            <mixed-citation id="d1321521e439" publication-type="other">
+- (2001), Monte Carlo Strategies in Scientific Computing, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d1321521e446a1310">
+          
+            <mixed-citation id="d1321521e450" publication-type="other">
+Liu, J. S., and Wu, Y. N. (1999), "Parameter Expansion for Data Augmentation," Journal of the American Statis-
+tical Association, 94, 1264-1274.</mixed-citation>
+        </ref>
+        <ref id="d1321521e460a1310">
+          
+            <mixed-citation id="d1321521e464" publication-type="other">
+Liu, J. S., Wong, W. H., and Kong, A. (1994), "Covariance Structure of the Gibbs Sampler With Applications to
+Comparisons of Estimators and Augmentation Schemes," Biometrika, 81, 27^10.</mixed-citation>
+        </ref>
+        <ref id="d1321521e474a1310">
+          
+            <mixed-citation id="d1321521e478" publication-type="other">
+Meng, X.-L., and Rubin, D. B. (1993), "Maximum Likelihood Estimation via the ECM Algorithm: A General
+Framework," Biometrika, 80, 267-278.</mixed-citation>
+        </ref>
+        <ref id="d1321521e488a1310">
+          
+            <mixed-citation id="d1321521e492" publication-type="other">
+Meng, X.-L., and van Dyk, D. A. (1997), "The EM Algorithm—An Old Folk Song Sung to a Fast New Tune"
+(with discussion), Journal of the Royal Statistical Society, Ser. B, 59, 511-567.</mixed-citation>
+        </ref>
+        <ref id="d1321521e503a1310">
+          
+            <mixed-citation id="d1321521e507" publication-type="other">
+- (1999), "Seeking Efficient Data Augmentation Schemes via Conditional and Marginal Augmentation,"
+Biometrika, 86, 301-320.</mixed-citation>
+        </ref>
+        <ref id="d1321521e517a1310">
+          
+            <mixed-citation id="d1321521e521" publication-type="other">
+Morrison, R., and McCammon, D. (1983), "Interstellar Photoelectric Absorption Cross Sections, 0.03-10 keV,"
+The Astrophysical Journal, 270, 119-122.</mixed-citation>
+        </ref>
+        <ref id="d1321521e531a1310">
+          
+            <mixed-citation id="d1321521e535" publication-type="other">
+Park, T., van Dyk, D. A., and Siemiginowska, A. (2008), "Searching for Narrow Emission Lines in X-Ray Spectra:
+Computation and Methods," The Astrophysical Journal, 688, 807-825.</mixed-citation>
+        </ref>
+        <ref id="d1321521e545a1310">
+          
+            <mixed-citation id="d1321521e549" publication-type="other">
+van Dyk, D. A. (2000a), "Fitting Mixed-Effects Models Using Efficient EM-Type Algorithms," The Journal of
+Computational and Graphical Statistics, 9, 78-98.</mixed-citation>
+        </ref>
+        <ref id="d1321521e559a1310">
+          
+            <mixed-citation id="d1321521e563" publication-type="other">
+- (2000b), "Nesting EM Algorithms for Computational Efficiency," Statistica Sinica, 10, 203-225.</mixed-citation>
+        </ref>
+        <ref id="d1321521e570a1310">
+          
+            <mixed-citation id="d1321521e574" publication-type="other">
+van Dyk, D. A., and Meng, X.-L. (2001), "The Art of Data Augmentation," The Journal of Computational and
+Graphical Statistics, 10, 1-111.</mixed-citation>
+        </ref>
+        <ref id="d1321521e585a1310">
+          
+            <mixed-citation id="d1321521e589" publication-type="other">
+- (2009), "Cross-Fertilizing Strategies for Better EM Mountain Climbing and DA Field Exploration:
+A Graphical Guide Book," Statistical Science, under review,</mixed-citation>
+        </ref>
+        <ref id="d1321521e599a1310">
+          
+            <mixed-citation id="d1321521e603" publication-type="other">
+van Dyk, D., and Park, T. (2008), "Partially Collapsed Gibbs Samplers: Theory and Methods," Journal of the
+American Statistical Association, 103, 790-796.</mixed-citation>
+        </ref>
+        <ref id="d1321521e613a1310">
+          
+            <mixed-citation id="d1321521e617" publication-type="other">
+van Dyk, D. A., Connors, A., Kashyap, V., and Siemiginowska, A. (2001), "Analysis of Energy Spectra With Low
+Photon Counts via Bayesian Posterior Simulation," The Astrophysical Journal, 548, 224-243.</mixed-citation>
+        </ref>
+        <ref id="d1321521e627a1310">
+          
+            <mixed-citation id="d1321521e631" publication-type="other">
+Yu, Y. (2005), "Three Contributions to Statistical Computing," Ph.D. thesis, Department of Statistics, Harvard
+University.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

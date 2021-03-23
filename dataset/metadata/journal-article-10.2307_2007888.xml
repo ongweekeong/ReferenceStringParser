@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">48</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">177</issue>
+         <issue-id>i334595</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007888</article-id>
+         
+         <title-group>
+            <article-title>Speeding the Pollard and Elliptic Curve Methods of Factorization</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Peter L.</given-names>
+                  <surname>Montgomery</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1987</year>
+         </pub-date>
+         <fpage>243</fpage>
+         <lpage>264</lpage>
+         <page-range>243-264</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1987 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007888"/>
+         
+         
+         <abstract>
+            <p>Since 1974, several algorithms have been developed that attempt to factor a large number $N$ by doing extensive computations modulo $N$ and occasionally taking GCDs with $N$. These began with Pollard's $p - 1$ and Monte Carlo methods. More recently, Williams published a $p + 1$ method, and Lenstra discovered an elliptic curve method (ECM). We present ways to speed all of these. One improvement uses two tables during the second phases of $p \pm 1$ and ECM, looking for a match. Polynomial preconditioning lets us search a fixed table of size $n$ with $n/2 + o(n)$ multiplications. A parametrization of elliptic curves lets Step 1 of ECM compute the $x$-coordinate of $nP$ from that of $P$ in about $9.3 \log_2 n$ multiplications for arbitrary $P$.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>10A25</kwd>
+            <kwd>Factorization</kwd>
+            <kwd>polynomial evaluation</kwd>
+            <kwd>elliptic curves</kwd>
+            <kwd>Lucas functions</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d4208001e138a1310">
+               <label>*</label>
+               
+               <p>
+               <mixed-citation id="d4208001e145" publication-type="journal">
+[17]  </mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d4208001e163a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4208001e170" publication-type="book">
+ALFRED V. AHO, JOHN E. HOPCROFT &amp; JEFFREY D. ULLMAN, The Design and Analysis of Computer
+Algorithms, Addison-Wesley, Reading, Mass., 1974.<person-group>
+                     <string-name>
+                     <surname>Aho</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Design and Analysis of Computer Algorithms</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e195a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4208001e202" publication-type="book">
+SARA BAASE, Computer Algorithms: Introduction to Design and Analysis, Addison-Wesley, Reading,
+Mass., 1983.<person-group>
+                     <string-name>
+                     <surname>Baase</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Algorithms: Introduction to Design and Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e227a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4208001e234" publication-type="journal">
+RICHARD P. BRENT, "An improved Monte Carlo factorization algorithm," BIT, v. 20, 1980, pp.
+176-184.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>176</fpage>
+               <volume>20</volume>
+               <source>BIT</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e266a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4208001e273" publication-type="journal">
+RICHARD P. BRENT &amp; JOHN M. POLLARD, "Factorization of the eighth Fermat number," Math.
+Comp., v. 36, 1981, pp. 627-630.<object-id pub-id-type="doi">10.2307/2007666</object-id>
+               <fpage>627</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e290a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4208001e297" publication-type="conference">
+R. P. BRENT, "Some integer factorization algorithms using elliptic curves," presented to Australian
+Computer Science Conference, ACSC-9, 1986.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some integer factorization algorithms using elliptic curves</comment>
+               <source>Australian Computer Science Conference, ACSC-9</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e326a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4208001e333" publication-type="book">
+JOHN BRILLHART, D. H. LEHMER, J. L. SELFRIDGE, BRYANT TUCKERMAN &amp; S. S. WAGSTAFF, JR.,
+Factorizations of bn ± 1, b = 2,3,5,6,7,10,11,12 Up to High Powers, Contemp. Math., vol. 22, Amer.
+Math. Soc., Providence, R. I., 1983.<person-group>
+                     <string-name>
+                     <surname>Brillhart</surname>
+                  </string-name>
+                  </person-group>
+               <volume>22</volume>
+               <source>Factorizations of bn ± 1, b = 2,3,5,6,7,10,11,12 Up to High Powers</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e365a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4208001e372" publication-type="other">
+JOHN BRILLHART, PETER L. MONTGOMERY &amp; ROBERT D. SILVERMAN, "Tables of Fibonacci and
+Lucas factorizations." (In preparation.)</mixed-citation>
+            </ref>
+            <ref id="d4208001e382a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4208001e389" publication-type="book">
+D. V. CHUDNOVSKY &amp; G. V. CHUDNOVSKY, Sequences of Numbers Generated by Addition in Formal
+Groups and New Primality and Factorization Tests, Research report RC 11262 (#50739), IBM Thomas
+J. Watson Research Center, Yorktown Heights, N. Y., 1985.<person-group>
+                     <string-name>
+                     <surname>Chudnovsky</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sequences of Numbers Generated by Addition in Formal Groups and New Primality and Factorization Tests</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e418a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4208001e425" publication-type="book">
+JAMES A. DAVIS &amp; DIANE B. HOLDRIDGE, Most Wanted Factorizations Using the Quadratic Sieve,
+Sandia report SAND84-1658, August, 1984.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Most Wanted Factorizations Using the Quadratic Sieve</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e450a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4208001e457" publication-type="journal">
+JOSEPH L. GERVER, " Factoring large numbers with a quadratic sieve," Math. Comp., v. 41, 1983, pp.
+287-294.<object-id pub-id-type="doi">10.2307/2007781</object-id>
+               <fpage>287</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e474a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4208001e481" publication-type="journal">
+R. GOLD &amp; J. SATTLER, "Modifikationen des Pollard-Algorithmus," Computing, v. 30, 1983, pp.
+77-89.<person-group>
+                     <string-name>
+                     <surname>Gold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>30</volume>
+               <source>Computing</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e513a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4208001e520" publication-type="conference">
+RICHARD K. GUY, "How to factor a number," Congressus Numerantium XVI, Proc. Fifth Manitoba
+Conf. on Numerical Math., Winnipeg, 1976, pp. 49-89.<person-group>
+                     <string-name>
+                     <surname>Guy</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">How to factor a number</comment>
+               <fpage>49</fpage>
+               <source>Congressus Numerantium XVI, Proc. Fifth Manitoba Conf. on Numerical Math., Winnipeg</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e552a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4208001e559" publication-type="book">
+DONALD E. KNUTH, The Art of Computer Programming, Vol. II, Seminumerical Algorithms, 2nd
+ed., Addison-Wesley, Reading, Mass., 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The Art of Computer Programming, Vol. II, Seminumerical Algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e588a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4208001e595" publication-type="journal">
+D. H. LEHMER, "An extended theory of Lucas' functions," Ann. of Math. (2), v. 31, 1930, pp.
+419-448.<person-group>
+                     <string-name>
+                     <surname>Lehmer</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>419</fpage>
+               <volume>31</volume>
+               <source>Ann. of Math.</source>
+               <year>1930</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e630a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4208001e637" publication-type="other">
+H. W. LENSTRA, JR., "Elliptic curve factorization," announcement of February 14, 1985.</mixed-citation>
+            </ref>
+            <ref id="d4208001e644a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4208001e651" publication-type="other">
+H. W. LENSTRA, JR., "Factoring integers with elliptic curves." (To appear.)</mixed-citation>
+            </ref>
+            <ref id="d4208001e659a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4208001e666" publication-type="journal">
+PETER L. MONTGOMERY, "Modular multiplication without trial division," Math. Comp., v. 44, 1985,
+pp.519-521.<object-id pub-id-type="doi">10.2307/2007970</object-id>
+               <fpage>519</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e682a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4208001e689" publication-type="journal">
+PETER L. MONTGOMERY, "Evaluation of Vn (P, 1) via Lucas chains," Fibonacci Quart. (Submitted.)<person-group>
+                     <string-name>
+                     <surname>Montgomery</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fibonacci Quart.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e708a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4208001e715" publication-type="journal">
+THORKIL NAUR, "New integer factorizations," Math. Comp., v. 41, 1983, pp. 687-695.<object-id pub-id-type="doi">10.2307/2007704</object-id>
+               <fpage>687</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e728a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4208001e735" publication-type="journal">
+M. A. MORRISON &amp; J. BRILLHART, "A method of factoring and the factorization of F7," Math.
+Comp., v. 29, 1975, pp. 183-208.<object-id pub-id-type="doi">10.2307/2005475</object-id>
+               <fpage>183</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e751a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4208001e758" publication-type="journal">
+J. M. POLLARD, "Theorems on factorization and primality testing," Proc. Cambridge Philos. Soc., v.
+76, 1974, pp. 521-528.<person-group>
+                     <string-name>
+                     <surname>Pollard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>521</fpage>
+               <volume>76</volume>
+               <source>Proc. Cambridge Philos. Soc.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e790a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4208001e797" publication-type="journal">
+J. M. POLLARD, "A Monte Carlo method for factorization," BIT, v. 15,1975, pp. 331-334.<person-group>
+                     <string-name>
+                     <surname>Pollard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>15</volume>
+               <source>BIT</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e827a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4208001e834" publication-type="other">
+J. M. POLLARD, private communication.</mixed-citation>
+            </ref>
+            <ref id="d4208001e841a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4208001e848" publication-type="book">
+HANS RIESEL, Prime Numbers and Computer Methods for Factorization, Birkhäuser Progress in
+Mathematics, vol. 57, Boston, 1985.<person-group>
+                     <string-name>
+                     <surname>Riesel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Prime Numbers and Computer Methods for Factorization</comment>
+               <volume>57</volume>
+               <source>Birkhäuser Progress in Mathematics</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e880a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4208001e887" publication-type="journal">
+C. P. SCHNORR &amp; H. W. LENSTRA, JR., "A Monte Carlo factoring algorithm with linear storage,"
+Math. Comp., v. 43,1984, pp. 289-311.<object-id pub-id-type="doi">10.2307/2007414</object-id>
+               <fpage>289</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e903a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4208001e910" publication-type="journal">
+J. T. SCHWARTZ, "Fast probabilistic algorithms for verification of polynomial identities," J. Assoc.
+Comput. Mach., v. 27, 1980, pp. 701-717.<person-group>
+                     <string-name>
+                     <surname>Schwartz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>701</fpage>
+               <volume>27</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e942a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4208001e949" publication-type="conference">
+R. SEDGEWICK &amp; T. G. SZYMANSKI, The Complexity of Finding Periods, Proc. Eleventh Annual
+ACM Symposium on Theory of Computing, ACM, New York, 1979, pp. 74-80.<person-group>
+                     <string-name>
+                     <surname>Sedgewick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Complexity of Finding Periods</comment>
+               <fpage>74</fpage>
+               <source>Proc. Eleventh Annual ACM Symposium on Theory of Computing, ACM, New York</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e981a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d4208001e988" publication-type="conference">
+DANIEL SHANKS, Class Number, a Theory of Factorization, and Genera, Proc. Sympos. Pure Math.,
+vol. 20, Amer. Math. Soc., Providence, R. I., 1971, pp. 415-440.<person-group>
+                     <string-name>
+                     <surname>Shanks</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Class Number, a Theory of Factorization, and Genera</comment>
+               <fpage>415</fpage>
+               <volume>20</volume>
+               <source>Proc. Sympos. Pure Math.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e1024a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d4208001e1031" publication-type="other">
+ROBERT D. SILVERMAN, private communication.</mixed-citation>
+            </ref>
+            <ref id="d4208001e1038a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d4208001e1045" publication-type="journal">
+ROBERT D. SILVERMAN, "The multiple polynomial quadratic sieve," Math. Comp., v. 48, 1987, pp.
+329-339.<object-id pub-id-type="doi">10.2307/2007894</object-id>
+               <fpage>329</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e1061a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d4208001e1068" publication-type="other">
+HIROMI SUYAMA, "Informal preliminary report (8)," 25 Oct. 1985.</mixed-citation>
+            </ref>
+            <ref id="d4208001e1075a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d4208001e1082" publication-type="journal">
+JOHN T. TATE, "The arithmetic of elliptic curves," Invent. Math., v. 23, 1974, pp. 179-206.<person-group>
+                     <string-name>
+                     <surname>Tate</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>23</volume>
+               <source>Invent. Math.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e1111a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d4208001e1118" publication-type="journal">
+H. C. WILLIAMS, "A p + 1 method of factoring," Math. Comp., v. 39,1982, pp. 225-234.<object-id pub-id-type="doi">10.2307/2007633</object-id>
+               <fpage>225</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4208001e1131a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d4208001e1138" publication-type="other">
+H. C. WILLIAMS, private communication.</mixed-citation>
+            </ref>
+            <ref id="d4208001e1146a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d4208001e1153" publication-type="journal">
+S. WINOGRAD, "Evaluating polynomials using rational auxiliary functions," IBM Technical Dis-
+closure Bulletin, v. 13, 1970, pp. 1133-1135.<person-group>
+                     <string-name>
+                     <surname>Winograd</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1133</fpage>
+               <volume>13</volume>
+               <source>IBM Technical Disclosure Bulletin</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

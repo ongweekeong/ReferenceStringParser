@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">28</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">125</issue>
+         <issue-id>i334548</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005818</article-id>
+         
+         <title-group>
+            <article-title>Computational Techniques Based on the Lanczos Representation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. N.</given-names>
+                  <surname>Lyness</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1974</year>
+         </pub-date>
+         <fpage>81</fpage>
+         <lpage>123</lpage>
+         <page-range>81-123</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1974 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005818"/>
+         
+         
+         <abstract>
+            <p>In this book Discourse on Fourier Series, Lanczos deals in some detail with representations of $f(x)$ of the type $f(x) = h_{p-1}(x) + g_p(x)$ where $h_{p-1}(x)$ is a polynomial of degree $p - 1$ and $g_p(x)$ has the property that is full range Fourier coefficients converge at the rate $r^{-p}$. In Part I, some properties of $h_p(x)$ and of the series $\{h_p(x)\}_1^\infty$ are described. These properties are used here to provide criteria for the convergence of divergence of the Euler-Maclaurin series, in the case when $f(x)$ is an analytic function. The similarities and differences between this series and the Lidstone and other two-point series are briefly mentioned. In Part II, the Lanczos representation is employed to derive an approximate representation $F(x)$ for an analytic function $f(x)$ on the interval $\lbrack 0, 1 \rbrack$ is derived. This has the form $$F(x) = \sum^{p-1}_{q=1} \lambda_{q-1}B_q(x)/q! + 2 \sum^{m/2}_{r=0} (\mu_r \cos 2\pi rx + \nu_r \sin 2\pi rx)$$ and requires for its determination the values of the derivatives $f^{(q-1)}(1) - f^{(q-1)}(0)(q = 1, 2, \cdots p - 1)$ and the regularly spaced function values $f(j/m) (j = 0, 1, \cdots, m)$. It involves replacing $g_p(x)$ by a discrete Fourier expansion based on trapezoidal rule approximations to its Fourier coefficients. This representation is a powerful one. The drawback is that it requires derivatives. Most of Part II is devoted to the effect of using only approximate derivatives. It is shown that when these are successively less accurate with increasing order (the sort of behaviour encountered using finite difference formula), then the representation is still powerful and reliable. In a computational context the only penalty for using inaccurate derivatives is that a larger value of $m$ may--or may not--be required to attain a specific accuracy.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>41A10</kwd>
+            <kwd>42A08</kwd>
+            <kwd>65B15</kwd>
+            <kwd>65D15</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1608928e135a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1608928e142" publication-type="book">
+M. ABRAMOWITZ &amp; I. STEGUN (Editors), Handbook of Mathematical Functions,
+With Formulas, Graphs and Mathematical Tables, Nat. Bur. Standards Appl. Math. Series, 55,
+Superintendent of Documents, U.S. Government Printing Office, Washington, D.C., 1964,
+Chap. 7. MR 29 #4914.<person-group>
+                     <string-name>
+                     <surname>Abramowitz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Handbook of Mathematical Functions, With Formulas, Graphs and Mathematical Tables</comment>
+               <volume>55</volume>
+               <source>Nat. Bur. Standards Appl. Math. Series</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e180a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1608928e187" publication-type="book">
+R. P. BOAS, Entire Functions, Academic Press, New York, 1954. MR 16, 914.<person-group>
+                     <string-name>
+                     <surname>Boas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Entire Functions</source>
+               <year>1954</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e209a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1608928e216" publication-type="journal">
+W. B. JONES &amp; G. HARDY, "Accelerating convergence of trigonometric approxi-
+mations," Math. Comp., v. 24, 1970, pp. 547-560. MR 43 #2823.<object-id pub-id-type="doi">10.2307/2004830</object-id>
+               <fpage>547</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e232a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1608928e239" publication-type="book">
+C. LANCZOS, Discourse on Fourier Series, Hafner, New York, 1966. MR 33 #7772.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discourse on Fourier Series</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e262a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1608928e269" publication-type="journal">
+G. J. LIDSTONE, "Notes on the extension of Aitken's theorem (for polynomial in-
+terpolation) to the Everett types," Proc. Edinburgh Math. Soc. (2), v. 2, 1929, pp. 16-19.<person-group>
+                     <string-name>
+                     <surname>Lidstone</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>16</fpage>
+               <volume>2</volume>
+               <source>Proc. Edinburgh Math. Soc.</source>
+               <year>1929</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e304a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1608928e311" publication-type="journal">
+D. V. WIDDER, "Completely convex functions and Lidstone series," Trans. Amer.
+Math. Soc., v. 51, 1942, pp. 387-398. MR 3, 293.<object-id pub-id-type="doi">10.2307/1989952</object-id>
+               <fpage>387</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e327a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1608928e334" publication-type="book">
+P. C. CHAKRAVARTI, Integrals and Sums, Univ. of London, The Athlone Press, 1970.<person-group>
+                     <string-name>
+                     <surname>Chakravarti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Integrals and Sums</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e356a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1608928e363" publication-type="book">
+W. M. GENTLEMAN &amp; G. SANDE, Fast Fourier Transforms—For Fun and Profit,
+Proc. AFlPS 1966 FJCC, v. 29, Spartan Books, New York, pp. 563-578.<person-group>
+                     <string-name>
+                     <surname>Gentleman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>563</fpage>
+               <volume>29</volume>
+               <source>Fast Fourier Transforms—For Fun and Profit</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1608928e395a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1608928e402" publication-type="journal">
+J. N. LYNESS &amp; G. SANDE, "ENTCAF and ENTCRE: Evaluation of normalised
+Taylor coefficients of an analytic function, algorithm 413," Comm. ACM, v. 14, 1971, pp.
+669-675.<person-group>
+                     <string-name>
+                     <surname>Lyness</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>669</fpage>
+               <volume>14</volume>
+               <source>Comm. ACM</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

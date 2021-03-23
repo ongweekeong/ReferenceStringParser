@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">53</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">187</issue>
+         <issue-id>i334605</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008371</article-id>
+         
+         <title-group>
+            <article-title>Infinite Sets of Primes with Fast Primality Tests and Quick Generation of Large Primes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>János</given-names>
+                     <surname>Pintz</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>William L.</given-names>
+                  <surname>Steiger</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Endre</given-names>
+                     <surname>Szemerédi</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1989</year>
+         </pub-date>
+         <fpage>399</fpage>
+         <lpage>406</lpage>
+         <page-range>399-406</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1989 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008371"/>
+         
+         
+         <abstract>
+            <p>Infinite sets $P$ and $Q$ of primes are described, $P \subset Q$. For any natural number $n$ it can be decided if $n \in P$ in (deterministic) time $O((\log n)^9)$. This answers affirmatively the question of whether there exists an infinite set of primes whose membership can be tested in polynomial time, and is a main result of the paper. Also, for every $n \in Q$, we show how to randomly produce a proof of the primality of $n$. The expected time is that needed for $1\frac{1}{2}$ exponentiations $\operatorname{mod} n$. We also show how to randomly generate $k$-digit integers which will be in $Q$ with probability proportional to $k^{-1}$. Combined with the fast verification of $n \in Q$ just mentioned, this gives an $O(k^4)$ expected time algorithm to generate and certify primes in a given range and is probably the fastest method to generate large certified primes known to belong to an infinite subset. Finally, it is important that $P$ and $Q$ are relatively dense (at least $cn^{2/3}/\log n$ elements less than $n$). Elements of $Q$ in a given range may be generated quickly, but it would be costly for an adversary to search $Q$ in this range, a property that could be useful in cryptography.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11Y11</kwd>
+            <kwd>11Y16</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d804344e201a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d804344e208" publication-type="conference">
+L. M. ADLEMAN &amp; M. A. HUANG, Recognizing Primes in Random Polynomial Time, Proc.
+19th Ann. ACM Sympos. on Theory of Computing, 1987, pp. 462-469.<person-group>
+                     <string-name>
+                     <surname>Adleman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Recognizing Primes in Random Polynomial Time</comment>
+               <fpage>462</fpage>
+               <source>Proc. 19th Ann. ACM Sympos. on Theory of Computing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e240a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d804344e247" publication-type="journal">
+L. M. ADLEMAN, C. POMERANCE &amp; R. S. RUMELY, "On distinguishing prime numbers
+from composite numbers," Ann. of Math., v. 117, 1983, pp. 173-206.<person-group>
+                     <string-name>
+                     <surname>Adleman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>117</volume>
+               <source>Ann. of Math.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e279a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d804344e286" publication-type="journal">
+M. B. BARBAN, Ju. V. LINNIK &amp; N. G. TSHUDAKOV, "On prime numbers in an arithmetic
+progression with a prime-power difference," Acta Arith., v. 9, 1964, pp. 375-390.<person-group>
+                     <string-name>
+                     <surname>Barban</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>375</fpage>
+               <volume>9</volume>
+               <source>Acta Arith.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e318a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d804344e325" publication-type="journal">
+J. BRILLHART, D. H. LEHMER &amp; J. L. SELFRIDGE, "New primality criteria and factoriza-
+tion of 2n ? 1," Math. Comp., v. 29, 1975, pp. 620-647.<object-id pub-id-type="doi">10.2307/2005583</object-id>
+               <fpage>620</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e342a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d804344e349" publication-type="conference">
+S. GOLDWASSER &amp; J. KILIAN, Almost All Primes Can Be Quickly Certified, Proc. 18th Ann.
+ACM Sympos. on Theory of Computing, 1986, pp. 316-329.<person-group>
+                     <string-name>
+                     <surname>Goldwasser</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Almost All Primes Can Be Quickly Certified</comment>
+               <fpage>316</fpage>
+               <source>Proc. 18th Ann. ACM Sympos. on Theory of Computing</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e381a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d804344e388" publication-type="journal">
+M. HUXLEY &amp; M. JUTILA, "Large values of Dirichlet polynomials IV", Acta Arith., v. 32,
+1977, pp. 297-312.<person-group>
+                     <string-name>
+                     <surname>Huxley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>297</fpage>
+               <volume>32</volume>
+               <source>Acta Arith.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e420a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d804344e427" publication-type="book">
+H. W. LENSTRA, JR., "Primality testing," Computational Methods in Number Theory, Math.
+Centrum Tracts, no. 154, Math. Centrum, Amsterdam, 1982, pp. 55-77.<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Primality testing</comment>
+               <fpage>55</fpage>
+               <source>Computational Methods in Number Theory</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e459a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d804344e466" publication-type="journal">
+G. L. MILLER, "Riemann's hypothesis and tests for primality," J. Comput. System Sci., v.
+13, 1976, pp. 300-317.<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>300</fpage>
+               <volume>13</volume>
+               <source>J. Comput. System Sci.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e498a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d804344e505" publication-type="book">
+H. L. MONTGOMERY, Topics in Multiplicative Number Theory, Lecture Notes in Math., Vol.
+227, Springer-Verlag, Berlin, 1971.<person-group>
+                     <string-name>
+                     <surname>Montgomery</surname>
+                  </string-name>
+                  </person-group>
+               <volume>227</volume>
+               <source>Topics in Multiplicative Number Theory</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e534a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d804344e541" publication-type="journal">
+C. POMERANCE, "Very short primality proofs," Math. Comp., v. 48, 1987, pp. 315-322.<object-id pub-id-type="doi">10.2307/2007892</object-id>
+               <fpage>315</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e555a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d804344e562" publication-type="journal">
+M. RABIN, "Probabilistic algorithms for testing primality," J. Number Theory, v. 12, 1980,
+pp. 128-138.<person-group>
+                     <string-name>
+                     <surname>Rabin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>128</fpage>
+               <volume>12</volume>
+               <source>J. Number Theory</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e594a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d804344e601" publication-type="journal">
+A. SCHÖNHAGE &amp; V. STRASSEN, "Schnelle Multiplikation grosser Zahlen," Computing, V.
+7, 1971, pp. 281-292.<person-group>
+                     <string-name>
+                     <surname>Schönhage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>7</volume>
+               <source>Computing</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804344e633a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d804344e640" publication-type="journal">
+H. C. WILLIAMS, "Primality testing on a computer," Ars Combin. v. 5, 1978, pp. 127-185.<person-group>
+                     <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>127</fpage>
+               <volume>5</volume>
+               <source>Ars Combin.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

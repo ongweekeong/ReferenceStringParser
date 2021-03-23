@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260302</issue-id>
+         <article-id pub-id-type="jstor">1390987</article-id>
+         
+         <title-group>
+            <article-title>Computational Methods for Dynamic Graphs</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Corinna</given-names>
+                  <surname>Cortes</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Daryl</given-names>
+                  <surname>Pregibon</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Chris</given-names>
+                  <surname>Volinsky</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>950</fpage>
+         <lpage>970</lpage>
+         <page-range>950-970</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390987"/>
+         
+         
+         <abstract>
+            <p>This article considers problems that can be characterized by large dynamic graphs. Communication networks provide the prototypical example of such problems where nodes in the graph are network IDs and the edges represent communication between pairs of network IDs. In such graphs, nodes and edges appear and disappear through time so that methods that apply to static graphs are not sufficient. Our definition of a dynamic graph is procedural. We introduce a data structure and an updating scheme that captures, in an approximate sense, the graph and its evolution through time. The data structure arises from a bottom-up representation of the large graph as the union of small subgraphs centered on every node. These subgraphs are interesting in their own right and can be enhanced to form what we call communities of interest (COI). We discuss an application in the area of telecommunications fraud detection to help motivate the ideas.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Approximate subgraphs</kwd>
+            <kwd>Exponential averaging</kwd>
+            <kwd>Fraud detection</kwd>
+            <kwd>Transactional data streams</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d5231618e177a1310">
+               
+               <mixed-citation id="d5231618e181" publication-type="conference">
+Agrawal, R., and Srikant, R. (1994), "Fast Algorithms for Mining Association Rules," in Proceedings 20th
+International Conference on Very Large Data Bases, VLDB, eds. Jorge B. Bocca, Matthias Jarke, and Carlo
+Zaniolo, Los Altos, CA: Morgan Kaufmann, pp. 487-499.<person-group>
+                     <string-name>
+                     <surname>Agrawal</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Algorithms for Mining Association Rules</comment>
+               <fpage>487</fpage>
+               <source>Proceedings 20th International Conference on Very Large Data Bases</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e216a1310">
+               
+               <mixed-citation id="d5231618e220" publication-type="journal">
+Barabasi, A.-L., and Albert, R. (1999), "Emergence of Scaling in Random Networks," Science, 286, 509-512.<object-id pub-id-type="jstor">10.2307/2899318</object-id>
+               <fpage>509</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e233a1310">
+               
+               <mixed-citation id="d5231618e237" publication-type="journal">
+Chickering, D.M., and Heckerman, D. (1997), "Efficient Approximations for the Marginal Likelihood of Bayesian
+Networks with Hidden Variables," Machine Learning, 29, 181-212.<person-group>
+                     <string-name>
+                     <surname>Chickering</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>181</fpage>
+               <volume>29</volume>
+               <source>Machine Learning</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e269a1310">
+               
+               <mixed-citation id="d5231618e273" publication-type="conference">
+Cortes, C., Fisher, K., Pregibon, D., Rogers, A., and Smith, F. (2000), "The Hancock Language for Signature
+Processing," in Proceedings of the Sixth International Conference on Knowledge Discovery and Data Mining.<person-group>
+                     <string-name>
+                     <surname>Cortes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Hancock Language for Signature Processing</comment>
+               <source>Proceedings of the Sixth International Conference on Knowledge Discovery and Data Mining</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e303a1310">
+               
+               <mixed-citation id="d5231618e307" publication-type="conference">
+Cortes, C., and Pregibon, D. (1999), "An Information-Mining Platform," in Proceedings of the Fifth International
+Conference on Knowledge Discovery and Data Mining.<person-group>
+                     <string-name>
+                     <surname>Cortes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An Information-Mining Platform</comment>
+               <source>Proceedings of the Fifth International Conference on Knowledge Discovery and Data Mining</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e336a1310">
+               
+               <mixed-citation id="d5231618e340" publication-type="conference">
+Domingos, P., and Richardson, M. (2001), "Mining the Network Value of Customers," in Proceedings of the
+Seventh International Conference on Knowledge Discovery and Data Mining, New York: ACM Press, pp.
+57-66.<person-group>
+                     <string-name>
+                     <surname>Domingos</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mining the Network Value of Customers</comment>
+               <fpage>57</fpage>
+               <source>Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e375a1310">
+               
+               <mixed-citation id="d5231618e379" publication-type="book">
+Flake, G., Lawrence, S., and Giles, C.L. (2000), "Efficient Identification of Web Communities," in Sixth ACM
+SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 150-160.<person-group>
+                     <string-name>
+                     <surname>Flake</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Efficient Identification of Web Communities</comment>
+               <fpage>150</fpage>
+               <source>Sixth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e411a1310">
+               
+               <mixed-citation id="d5231618e415" publication-type="book">
+Gibson, D., Kleinberg, J.M., and Raghavan, P. (1998), "Inferring Web Communities from Link Topology," in
+UK Conference on Hypertext, pp. 225-234.<person-group>
+                     <string-name>
+                     <surname>Gibson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Inferring Web Communities from Link Topology</comment>
+               <fpage>225</fpage>
+               <source>UK Conference on Hypertext</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e447a1310">
+               
+               <mixed-citation id="d5231618e451" publication-type="journal">
+Kleinberg, J.M. (1999), "Authoritative Sources in a Hyperlinked Environment," Journal of the ACM, 46,604-632.<person-group>
+                     <string-name>
+                     <surname>Kleinberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>604</fpage>
+               <volume>46</volume>
+               <source>Journal of the ACM</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e480a1310">
+               
+               <mixed-citation id="d5231618e484" publication-type="journal">
+Klovdahl, A.S. (1985), "Social Networks and the Spread of Infectious Diseases, the AIDS Example," Social
+Science and Medicine, 21, 1203-1216.<person-group>
+                     <string-name>
+                     <surname>Klovdahl</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1203</fpage>
+               <volume>21</volume>
+               <source>Social Science and Medicine</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e517a1310">
+               
+               <mixed-citation id="d5231618e521" publication-type="book">
+Lawrence, S., Bollacker, K., and Giles, C.L. (1999), "Indexing and Retrieval of Scientific Literature," in Eighth
+International Conference on Information and Knowledge Management, CIKM 99, Kansas City, MO: pp.
+139-146.<person-group>
+                     <string-name>
+                     <surname>Lawrence</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Indexing and Retrieval of Scientific Literature</comment>
+               <fpage>139</fpage>
+               <source>Eighth International Conference on Information and Knowledge Management</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e556a1310">
+               
+               <mixed-citation id="d5231618e560" publication-type="book">
+Mancoridis, S., Mitchell, B.S., Rorres, C., Chen, Y., and Gansner, E.R. (1998), "Using Automatic Clustering to
+Produce High-Level System Organizations of Source Code," in IEEE Proceedings of the 1998 International
+Workshop on Program Understanding (IWPC'98).<person-group>
+                     <string-name>
+                     <surname>Mancoridis</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Using Automatic Clustering to Produce High-Level System Organizations of Source Code</comment>
+               <source>IEEE Proceedings of the 1998 International Workshop on Program Understanding</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e592a1310">
+               
+               <mixed-citation id="d5231618e596" publication-type="book">
+Ravindran, A., Phillips, D., and Solberg, J. (1987), Operations Research-Principle and Practice, New York:
+Wiley.<person-group>
+                     <string-name>
+                     <surname>Ravindran</surname>
+                  </string-name>
+                  </person-group>
+               <source>Operations Research-Principle and Practice</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e621a1310">
+               
+               <mixed-citation id="d5231618e625" publication-type="conference">
+Resnick, P., Iacovou, N., Suchak, M., Bergstorm, P., and Riedl, J. (1994), "GroupLens: An Open Architecture
+for Collaborative Filtering of Netnews," in Proceedings of ACM 1994 Conference on Computer Supported
+Cooperative Work, ACM: Chapel Hill, NC, pp. 175-186.<person-group>
+                     <string-name>
+                     <surname>Resnick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">GroupLens: An Open Architecture for Collaborative Filtering of Netnews</comment>
+               <fpage>175</fpage>
+               <source>Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e660a1310">
+               
+               <mixed-citation id="d5231618e664" publication-type="book">
+Salton G., and McGill, M. J. (1983), Introduction to Modern Information Retrieval, New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>Salton</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Modern Information Retrieval</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e686a1310">
+               
+               <mixed-citation id="d5231618e690" publication-type="book">
+Wasserman, S., and Faust, K. (1994), Social Network Analysis, New York: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Wasserman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Social Network Analysis</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231618e713a1310">
+               
+               <mixed-citation id="d5231618e717" publication-type="journal">
+Winters P. R. (1960), "Forecasting Sales by Exponentially Weighted Moving Averages," Management Science,
+6, 324-342.<object-id pub-id-type="jstor">10.2307/2627346</object-id>
+               <fpage>324</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

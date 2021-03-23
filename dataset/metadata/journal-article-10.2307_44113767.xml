@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">28</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i40172063</issue-id>
+         <article-id pub-id-type="jstor">44113767</article-id>
+         <title-group>
+            <article-title>A hybrid machine translation architecture guided by syntax</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Gorka</given-names>
+                  <surname>Labaka</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Cristina</given-names>
+                  <surname>España-Bonet</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Lluís</given-names>
+                  <surname>Màrquez</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kepa</given-names>
+                  <surname>Sarasola</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2014</year>
+         </pub-date>
+         <fpage>91</fpage>
+         <lpage>125</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media 2014</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44113767"/>
+      
+      
+         <abstract>
+            <p>This article presents a hybrid architecture which combines rule-based machine translation (RBMT) with phrase-based statistical machine translation (SMT). The hybrid translation system is guided by the rule-based engine. Before the transfer step, a varied set of partial candidate translations is calculated with the SMT system and used to enrich the tree-based representation with more translation alternatives. The final translation is constructed by choosing the most probable combination among the available fragments using monotone statistical decoding following the order provided by the rule-based system. We apply the hybrid model to a pair of distantly related languages, Spanish and Basque, and perform extensive experimentation on two different corpora. According to our empirical evaluation, the hybrid approach outperforms the best individual system across a varied set of automatic translation evaluation metrics. Following some output analysis to better understand the behaviour of the hybrid system, we explore the possibility of adding alternative parse trees and extra features to the hybrid decoder. Finally, we present a twofold manual evaluation of the translation systems studied in this paper, consisting of (i) a pairwise output comparison and (ii) a individual task-oriented evaluation using HTER. Interestingly, the manual evaluation shows some contradictory results with respect to the automatic evaluation; humans tend to prefer the translations from the RBMT system over the statistical and hybrid translations.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d3159645e308a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d3159645e315" publication-type="other">
+Groves and Way (2005)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e322a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d3159645e329" publication-type="other">
+http://www.elhuyar.org.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e336a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d3159645e343" publication-type="other">
+http://revista.consumer.es.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e350a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d3159645e357" publication-type="other">
+http://www.elhuyar.org/hizkuntza-zerbitzuak/EN/Services.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e365a1310">
+            <label>7</label>
+          
+            <p>
+               <mixed-citation id="d3159645e372" publication-type="other">
+http://statmt.org/europarl/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e379a1310">
+            <label>8</label>
+          
+            <p>
+               <mixed-citation id="d3159645e386" publication-type="other">
+Labaka et al. (2007)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e393a1310">
+            <label>9</label>
+          
+            <p>
+               <mixed-citation id="d3159645e400" publication-type="other">
+http://nlp.lsi.upc.edu/asiya/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e407a1310">
+            <label>10</label>
+          
+            <p>
+               <mixed-citation id="d3159645e414" publication-type="other">
+http://translate.google.com/, translations obtained on the 29th of April, 2013.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e421a1310">
+            <label>15</label>
+          
+            <p>
+               <mixed-citation id="d3159645e428" publication-type="other">
+Hearne and Way (2006),</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3159645e435a1310">
+            <label>17</label>
+          
+            <p>
+               <mixed-citation id="d3159645e442" publication-type="other">
+http://www.itzultzailea.euskadi.net/traductor/portalExterno/text.do.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3159645e458a1310">
+          
+            <mixed-citation id="d3159645e462" publication-type="other">
+Aduriz I, Aldezabal I, Alegria I, Artola X, Ezeiza N, Urizar R (1996) EUSLEM: a Lemmatiser /Tag-
+ger for Basque. In: Proceedings of the 7th Conference of the European Association for Lexicography
+(EURALEX'96). Gothenburg, Sweden, pp 17-26</mixed-citation>
+        </ref>
+        <ref id="d3159645e475a1310">
+          
+            <mixed-citation id="d3159645e479" publication-type="other">
+Aduriz I, Aranzabe MJ, Arriola JM, de Ilarraza AD, Gojenola K, Oronoz M, Uria L (2004) A cascaded
+syntactic analyser for Basque. In: Computational Linguistics and Intelligent Text Processing. Springer,
+Berlin, pp 124-134</mixed-citation>
+        </ref>
+        <ref id="d3159645e492a1310">
+          
+            <mixed-citation id="d3159645e496" publication-type="other">
+Alegria I, Diaz de Ilarraza A, Labaka G, Lersundi M, Mayor A, Sarasola K (2006) An FST Grammar
+for verb chain transfer in a Spanish-Basque MT system. In: Yli-Jyrä A, Karttunen L, Karhumäki J
+(eds) Proceedings of the 5th International Workshop on Finite-State Methods and Natural Language
+Processing (FSMNLP 2005, Helsinki, Finland), vol 4002. Lecture Notes in Computer ScienceSpringer,
+Berlin, pp 87-98</mixed-citation>
+        </ref>
+        <ref id="d3159645e515a1310">
+          
+            <mixed-citation id="d3159645e519" publication-type="other">
+Alegria, I., Diaz de Ilarraza A, Labaka G, Lersundi M, Mayor A, Sarasola K (2007) Transfer-Based MT
+from Spanish into Basque: reusability, standardization and open source. Lecture Notes in Computer
+Science 4394:374-384. Springer, Berlin</mixed-citation>
+        </ref>
+        <ref id="d3159645e533a1310">
+          
+            <mixed-citation id="d3159645e537" publication-type="other">
+Baneijee S, Lavie A (2005) METEOR: An automatic metric for MT evaluation with improved correlation
+with human judgments. In: Proceedings of the ACL workshop on intrinsic and extrinsic evaluation
+measures for machine translation and/or summarization. Michigan, Ann Arbor, pp 65-72</mixed-citation>
+        </ref>
+        <ref id="d3159645e550a1310">
+          
+            <mixed-citation id="d3159645e554" publication-type="other">
+Bojar O, Buck C, Callison-Burch C, Federmann C, Haddow B, Koehn P, Monz C, Post M, Soricut R, Specia
+L (2013) Findings of the 2013 workshop on statistical machine translation. In: Proceedings of the eighth
+workshop on statistical machine translation. Sofia, pp 1-44</mixed-citation>
+        </ref>
+        <ref id="d3159645e567a1310">
+          
+            <mixed-citation id="d3159645e571" publication-type="other">
+Brown PF, Della Pietra SA, Della Pietra V J (1993) The mathematics of statistical machine translation:
+parameter estimation. Comput Linguist 19(2):263-311</mixed-citation>
+        </ref>
+        <ref id="d3159645e581a1310">
+          
+            <mixed-citation id="d3159645e585" publication-type="other">
+Callison-Burch C, Osborne M, Koehn P (2006) Re-evaluating the role of BLEU in machine translation
+research. In: 11th Conference of the European Chapter of the Association for Computational Linguistics.
+Trento, pp 249-256</mixed-citation>
+        </ref>
+        <ref id="d3159645e598a1310">
+          
+            <mixed-citation id="d3159645e602" publication-type="other">
+Carreras, X., Chao, I., Padró, L., Padró, M. (2004) Freeling: an Open-Source Suite of Language Analyzers.
+In: Proceedings of the 4th international conference on Language Resources and Evaluation (LREC),
+Lisbon, pp. 239-242</mixed-citation>
+        </ref>
+        <ref id="d3159645e615a1310">
+          
+            <mixed-citation id="d3159645e619" publication-type="other">
+Chen SF, Goodman J (1999) An empirical study of smoothing techniques for language modeling. Comput
+Speech Lang 4(13):359-393</mixed-citation>
+        </ref>
+        <ref id="d3159645e630a1310">
+          
+            <mixed-citation id="d3159645e634" publication-type="other">
+Chen Y, Eisele A (2010) Hierarchical Hybrid Translation between English and German. In: Hansen V, Yvon
+F (eds) Proceedings of the 14th annual conference of the European Association for Machine Translation
+(EAMT 2010), Saint-Raphaël, pp 90-97</mixed-citation>
+        </ref>
+        <ref id="d3159645e647a1310">
+          
+            <mixed-citation id="d3159645e651" publication-type="other">
+Cherry C, Foster G (2012) Batch tuning strategies for statistical machine translation. In: Proceedings of
+the 2012 conference of the North American Chapter of the Association for Computational Linguistics:
+Human Language Technologies, NAACL HLT'12. Montréal, pp 427-436</mixed-citation>
+        </ref>
+        <ref id="d3159645e664a1310">
+          
+            <mixed-citation id="d3159645e668" publication-type="other">
+Costa-Jussà MR, Farrús M, Mariño JB, Fonollosa JAR (2012) Study and comparison of rule-based and
+statistical Catalan-Spanish machine translation systems. Computi Inform 31(2):245-270</mixed-citation>
+        </ref>
+        <ref id="d3159645e678a1310">
+          
+            <mixed-citation id="d3159645e682" publication-type="other">
+Doddington G (2002) Automatic evaluation of machine translation quality using N-gram co-occurrence
+statistics. In: Proceedings of the 2nd internation conference on Human Language Technology (HLT).
+San Diego, CA, pp 138-145</mixed-citation>
+        </ref>
+        <ref id="d3159645e695a1310">
+          
+            <mixed-citation id="d3159645e699" publication-type="other">
+Dologlou Y, Markantonatou S, Tambouratzis G, Yannoutsou O, Fourla A, Iannou N (2003) Using mono-
+lingual corpora for statistical machine translation: the METIS system controlled language translation.
+In: EAMT-CLAW-03, The joint conference of the 8th international workshop of the european association
+for machine translation and the 4th controlled language applications workshop. Dublin, pp 61-68</mixed-citation>
+        </ref>
+        <ref id="d3159645e715a1310">
+          
+            <mixed-citation id="d3159645e719" publication-type="other">
+Dove C, Loskutova O, de la Fuente R (2012) What's your pick: RbMT, SMT or Hybrid? In: Proceedings
+of the tenth conference of the Association for Machine Translation in the Americas (AMTA 2012). San
+Diego, CA</mixed-citation>
+        </ref>
+        <ref id="d3159645e733a1310">
+          
+            <mixed-citation id="d3159645e737" publication-type="other">
+Du J, He Y, Penkale S, Way A (2009) MaTrEx: the DCU MT system for WMT 2009. In: Proceedings of
+the fourth workshop on statistical machine translation, (EACL 2009), Greece, pp 95-99</mixed-citation>
+        </ref>
+        <ref id="d3159645e747a1310">
+          
+            <mixed-citation id="d3159645e751" publication-type="other">
+Eisele A, Federmann C, Saint-Amand H, Jellinghaus M, Herrmann T, Chen Y (2008) Using moses to
+integrate multiple rule-based machine translation engines into a hybrid system. In: Proceedings of the
+third workshop on statistical machine translation, Columbus, OH, pp 179-182</mixed-citation>
+        </ref>
+        <ref id="d3159645e764a1310">
+          
+            <mixed-citation id="d3159645e768" publication-type="other">
+Enache R, España-Bonet C, Ranta A, Márquez L (2012) A hybrid system for patent translation. In: Proceed-
+ings of the 16th annual conference of the European Association for Machine Translation (EAMT12).
+Trento, pp 269-276</mixed-citation>
+        </ref>
+        <ref id="d3159645e781a1310">
+          
+            <mixed-citation id="d3159645e785" publication-type="other">
+España-Bonet C, Labaka G, Diaz de Ilarraza A, Márquez L, Sarasola K (2011) Hybrid machine translation
+guided by a rule-based system. In: MT Summit XIII: the thirteenth machine translation summit, Xiamen,
+pp 554-561</mixed-citation>
+        </ref>
+        <ref id="d3159645e798a1310">
+          
+            <mixed-citation id="d3159645e802" publication-type="other">
+Federmann C (2011) Results from the ML4HMT shared task on applying machine learning techniques
+to optimise the division of labour in hybrid machine translation. In: Proceedings of the international
+workshop on using Linguistic Information for Hybrid Machine Translation (LIHMT 201\1) and of the
+shared task on applying Machine Learning Techniques to Optimise the Division of Labour in Hybrid
+Machine Translation (ML4HMT-11), Barcelona, pp 110-117</mixed-citation>
+        </ref>
+        <ref id="d3159645e821a1310">
+          
+            <mixed-citation id="d3159645e825" publication-type="other">
+Federmann C (2012) Hybrid machine translation using joint, binarised feature vectors. In: Proceedings of
+the 20th conference of the Association for Machine Translation in the Americas (AMTA 2012). San
+Diego, CA, pp 113-118</mixed-citation>
+        </ref>
+        <ref id="d3159645e839a1310">
+          
+            <mixed-citation id="d3159645e843" publication-type="other">
+Federmann C, Chen Y, Hunsicker S, Wang R (2011) DFKI System combination using syntactic information
+at ML4HMT-201 1. In: Proceedings of the international workshop on Using Linguistic Information for
+Hybrid Machine Translation (LIHMT 2011) and of the shared task on applying Machine Learning Tech-
+niques to Optimise the Division of Labour in Hybrid Machine Translation (ML4HMT-11), Barcelona,
+pp. 104-109</mixed-citation>
+        </ref>
+        <ref id="d3159645e862a1310">
+          
+            <mixed-citation id="d3159645e866" publication-type="other">
+Federmann C, Eisele A, Chen Y, Hunsicker S, Xu J, Uszkoreit H (2010) Further experiments with shallow
+hybrid MT systems. In: Proceedings of the joint fifth workshop on statistical Machine Translation and
+Metrics, MATR, Uppsala, pp 77-81</mixed-citation>
+        </ref>
+        <ref id="d3159645e879a1310">
+          
+            <mixed-citation id="d3159645e883" publication-type="other">
+Federmann C, Hunsicker S (2011) Stochastic Parse tree selection for an existing RBMT system. In: Pro-
+ceedings of the sixth workshop on statistical machine translation, Edinburgh, pp 351-357</mixed-citation>
+        </ref>
+        <ref id="d3159645e893a1310">
+          
+            <mixed-citation id="d3159645e897" publication-type="other">
+Federmann C, Melero M, Pecina P, van Genabith J (2012) Towards optimal choice selection for improved
+hybrid machine translation. Prague Bull Math Linguist 97:5-22</mixed-citation>
+        </ref>
+        <ref id="d3159645e907a1310">
+          
+            <mixed-citation id="d3159645e911" publication-type="other">
+Gieselmann P (2008) Architecture of the Lucy translation system. In: Second machine translation marathon,
+Wandlitz, Berlin, 28 slides</mixed-citation>
+        </ref>
+        <ref id="d3159645e921a1310">
+          
+            <mixed-citation id="d3159645e925" publication-type="other">
+Giménez J, Márquez L (2007) Linguistic features for automatic evaluation of heterogenous MT systems.
+In: Proceedings of the second workshop on statistical machine translation, Prague, pp 256-264</mixed-citation>
+        </ref>
+        <ref id="d3159645e936a1310">
+          
+            <mixed-citation id="d3159645e940" publication-type="other">
+Giménez J, Márquez L (2008) A smorgasbord of features for automatic MT evaluation. In: Proceedings of
+the third workshop on statistical machine translation, Columbus, OH, pp 195-198</mixed-citation>
+        </ref>
+        <ref id="d3159645e950a1310">
+          
+            <mixed-citation id="d3159645e954" publication-type="other">
+Giménez J, Márquez L (2010) Asiya: an open toolkit for automatic machine translation (meta-)evaluation.
+Prague Bull Math Linguist 94:77-86</mixed-citation>
+        </ref>
+        <ref id="d3159645e964a1310">
+          
+            <mixed-citation id="d3159645e968" publication-type="other">
+Groves D, Way A (2005) Hybrid example-based SMT: the best of both worlds? In: Proceedings of ACL
+2005 workshop on building and using parallel texts: data-driven machine translation and beyond, Ann
+Arbor, MI, pp. 183-190</mixed-citation>
+        </ref>
+        <ref id="d3159645e981a1310">
+          
+            <mixed-citation id="d3159645e985" publication-type="other">
+Habash N, Dorr B, Monz C (2009) Symbolic-to-statistical hybridization: extending generation-heavy
+machine translation. Mach Transi 23(1):23-63</mixed-citation>
+        </ref>
+        <ref id="d3159645e995a1310">
+          
+            <mixed-citation id="d3159645e999" publication-type="other">
+Heafield K, Lavie A (2010) Voting on N-grams for machine translation system combination. In: Proceedings
+of the ninth conference of the Association for Machine Translation in the Americas (AMTA 2010),
+Denver, CO</mixed-citation>
+        </ref>
+        <ref id="d3159645e1012a1310">
+          
+            <mixed-citation id="d3159645e1016" publication-type="other">
+Hearne M, Way A (2006) Disambiguation strategies for data-oriented translation. In: Proceedings of the
+11th conference of the European association for machine translation, Oslo, pp 59-68</mixed-citation>
+        </ref>
+        <ref id="d3159645e1027a1310">
+          
+            <mixed-citation id="d3159645e1031" publication-type="other">
+Hunsicker S, Chen Y, Federmann C (2012) Machine learning for hybrid machine translation. In: Proceedings
+of the seventh workshop on statistical machine translation, Montréal, pp 312-316</mixed-citation>
+        </ref>
+        <ref id="d3159645e1041a1310">
+          
+            <mixed-citation id="d3159645e1045" publication-type="other">
+Koehn P (2004) Statistical significance tests for machine translation evaluation. In: EMNLP-2004: Pro-
+ceedings of the 2004 conference on empirical methods in natural language processing, Barcelona</mixed-citation>
+        </ref>
+        <ref id="d3159645e1055a1310">
+          
+            <mixed-citation id="d3159645e1059" publication-type="other">
+Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, Bertoldi N, Cowan B, Shen W, Moran C, Zens
+R, Dyer C, Bojar O, Constantin A, Herbst E (2007) Moses: open source toolkit for statistical machine
+translation. In: Proceedings of the 45th annual meeting of the association for computational linguistics
+companion volume, proceedings of the demo and poster sessions, Prague, pp 177-180</mixed-citation>
+        </ref>
+        <ref id="d3159645e1075a1310">
+          
+            <mixed-citation id="d3159645e1079" publication-type="other">
+Kumar S, Byrne W (2004) Minimum Bayes-risk decoding for statistical machine translation. In: HLT-
+NAACL 2004: human language technology conference and North American chapter of the association
+for computational linguistics annual meeting, Boston, pp 169-176</mixed-citation>
+        </ref>
+        <ref id="d3159645e1092a1310">
+          
+            <mixed-citation id="d3159645e1096" publication-type="other">
+Labaka G (2010) EUSMT: Incorporating Linguistic Information to SMT for a morphologically rich lan-
+guage. Its use in SMT-RBMT-EBMT hybridization. Ph.D. thesis, University of the Basque Country,
+Donostia</mixed-citation>
+        </ref>
+        <ref id="d3159645e1109a1310">
+          
+            <mixed-citation id="d3159645e1113" publication-type="other">
+Labaka G, Sarasola K, Stroppa N, Way A (2007) Comparing rule-based and data-driven approaches to
+Spanish-to-Basque machine translation. In: MT summit XI, Copenhagen, pp 297-304</mixed-citation>
+        </ref>
+        <ref id="d3159645e1124a1310">
+          
+            <mixed-citation id="d3159645e1128" publication-type="other">
+Li Z, Callison-Burch C Dyer C, Ganitkevitch J, Khudanpur S, Schwartz L, Thornton W, Weese J, Zaidan O
+(2009) Joshua: open source toolkit for parsing-based machine translation. In: Third machine translation
+marathon, Prague</mixed-citation>
+        </ref>
+        <ref id="d3159645e1141a1310">
+          
+            <mixed-citation id="d3159645e1145" publication-type="other">
+Lin CY, Och FJ (2004) Automatic evaluation of machine translation quality using longest common sub-
+sequence and skip-bigram statics. In: Proceedings of the 42nd annual meeting of the Association for
+Computational Linguistics (ACL 04), Main Volume, Barcelona, pp 605-612</mixed-citation>
+        </ref>
+        <ref id="d3159645e1158a1310">
+          
+            <mixed-citation id="d3159645e1162" publication-type="other">
+Matusov E, Ueffing N, Ney H (2006) Computing consensus translation from multiple machine translation
+systems using enhanced hypotheses alignment. In: 1 1th conference of the European chapter of the
+Association for Computational Linguistics, (EACL 2006), Trento, pp 33-40</mixed-citation>
+        </ref>
+        <ref id="d3159645e1175a1310">
+          
+            <mixed-citation id="d3159645e1179" publication-type="other">
+Mayor A, Alegria I, Labaka G, Lersundi M, Sarasola K (2011) Matxin, an open-source rule-based machine
+translation system for Basque. Mach Transi 25(1):53-82</mixed-citation>
+        </ref>
+        <ref id="d3159645e1189a1310">
+          
+            <mixed-citation id="d3159645e1193" publication-type="other">
+Melamed ID, Green R, Turian JP (2003) Precision and recall of machine translation. In: Proceedings of the
+Joint Conference on Human Language Technology and the North American Chapter of the Association
+for Computational Linguistics (HLT-NAACL). Edmonton, pp 61-63</mixed-citation>
+        </ref>
+        <ref id="d3159645e1206a1310">
+          
+            <mixed-citation id="d3159645e1210" publication-type="other">
+Nießen S, Och FJ, Leusch G, Ney H (2000) An evaluation tool for machine translation: fast evaluation for
+MT research. In: Proceedings of the 2nd international conference on language resources and evaluation,
+Athens, pp 39-45</mixed-citation>
+        </ref>
+        <ref id="d3159645e1224a1310">
+          
+            <mixed-citation id="d3159645e1228" publication-type="other">
+Nivre J, Hall J, Nilsson J, Chanev A, Eryigit G, Kiibler S, Marinov S, Marsi E (2007) Maltparser:
+a language-independent system for data-driven dependency parsing. Nat Lang Eng 13(2):95-135</mixed-citation>
+        </ref>
+        <ref id="d3159645e1238a1310">
+          
+            <mixed-citation id="d3159645e1242" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: ACL-2003: 41st Annual
+meeting of the Association for Computational Linguistics, Sapporo, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d3159645e1252a1310">
+          
+            <mixed-citation id="d3159645e1256" publication-type="other">
+Och FJ, Ney H (2002) Discriminative training and maximum entropy models for statistical machine transla-
+tion. In: ACL-2002: 40th Annual meeting of the Association for Computational Linguistics, Philadelphia,
+pp 295-302</mixed-citation>
+        </ref>
+        <ref id="d3159645e1269a1310">
+          
+            <mixed-citation id="d3159645e1273" publication-type="other">
+Oflazer K, El-Kahlout ID (2007) Exploring different representation units in English-to-T'irkish statistical
+machine translation. In: Proceedings of the second workshop on statistical machine translation, Prague,
+pp 25-32</mixed-citation>
+        </ref>
+        <ref id="d3159645e1286a1310">
+          
+            <mixed-citation id="d3159645e1290" publication-type="other">
+Okita T, Rubino R, van Genabith J (2012) Sentence-level quality estimation for MT system combination. In:
+Proceedings of the Second workshop on applying machine learning techniques to optimise the division
+of labour in hybrid MT, COLING' 12, Mumbai, pp 55-64</mixed-citation>
+        </ref>
+        <ref id="d3159645e1303a1310">
+          
+            <mixed-citation id="d3159645e1307" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W (2002) BLEU: A method for automatic evaluation of machine
+translation. In: ACL-2002: 40th Annual meeting of the Association for Computational Linguistics,
+Philadelphia, pp. 311-318</mixed-citation>
+        </ref>
+        <ref id="d3159645e1321a1310">
+          
+            <mixed-citation id="d3159645e1325" publication-type="other">
+Sánchez-Cartagena VM, Sánchez-Martínez F, Prez-Ortiz JA (2011) Integrating shallow-transfer rules into
+phrase-based statistical machine translation. In: Proceedings of the XIII machine translation summit,
+Xiamen, pp 562-569</mixed-citation>
+        </ref>
+        <ref id="d3159645e1338a1310">
+          
+            <mixed-citation id="d3159645e1342" publication-type="other">
+Sánchez-Martínez F, Forcada ML (2009) Inferring shallow-transfer machine translation rules from small
+parallel corpora. J Artific Intell Res 34:605-635</mixed-citation>
+        </ref>
+        <ref id="d3159645e1352a1310">
+          
+            <mixed-citation id="d3159645e1356" publication-type="other">
+Sánchez-Martínez F, Forcada ML, Way A (2009) Hybrid rule-based example-based MT: feeding apertium
+with sub-sentential translation units. In: Forcada ML, Way A (eds) Proceedings of the 3rd workshop on
+example-based machine translation. Dublin, pp 11-18</mixed-citation>
+        </ref>
+        <ref id="d3159645e1369a1310">
+          
+            <mixed-citation id="d3159645e1373" publication-type="other">
+Snover M, Dorr B, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation edit rate with targeted
+human annotation. In: AMTA 2006: Proceedings of the 7th Conference of the Association for Machine
+Translation in the Americas. Visions for the future of machine translation, Cambridge, MA, pp 223-231</mixed-citation>
+        </ref>
+        <ref id="d3159645e1386a1310">
+          
+            <mixed-citation id="d3159645e1390" publication-type="other">
+Stolcke A (2002) SRILM -An extensible language modeling toolkit. In: Proceedings of the seventh Inter-
+national Conference of Spoken Language Processing (ICSLP 2002), Denver, CO, pp 901-904</mixed-citation>
+        </ref>
+        <ref id="d3159645e1400a1310">
+          
+            <mixed-citation id="d3159645e1404" publication-type="other">
+Thurmair G (2009) Comparing different architectures of hybrid machine translation systems. In: MT Summit
+XII: Proceedings of the twelfth machine translation summit, Ottawa, ON, pp 340-347</mixed-citation>
+        </ref>
+        <ref id="d3159645e1415a1310">
+          
+            <mixed-citation id="d3159645e1419" publication-type="other">
+Tillmann C, Vogel S, Ney H, Zubiaga A, Sawaf H (1997) Accelerated DP based search for statistical
+translation. In: Proceedings of the fifth european conference on speech communication and technology,
+Rhodes, pp 2667-2670</mixed-citation>
+        </ref>
+        <ref id="d3159645e1432a1310">
+          
+            <mixed-citation id="d3159645e1436" publication-type="other">
+Tyers FM, Sánchez-Martínez F, Forcada ML (2012) Flexible finite-state lexical selection for rule-based
+machine translation. Proceedings of the 16th annual conference of the European association for machine
+translation, Trento, pp 213-220</mixed-citation>
+        </ref>
+        <ref id="d3159645e1449a1310">
+          
+            <mixed-citation id="d3159645e1453" publication-type="other">
+Tyers FM, Sánchez-Martínez F, Ortiz-Rojas S, Forcada ML (2010) Free/open-source resources in the
+Apertium platform for machine translation research and development. Prague Bull Math Linguist
+93:67-76</mixed-citation>
+        </ref>
+        <ref id="d3159645e1466a1310">
+          
+            <mixed-citation id="d3159645e1470" publication-type="other">
+Way A (2010) Machine translation. In: Clark A, Fox C, Lappin S (eds) The handbook of computational
+linguistics and natural language processing. Wiley Blackwell, Chichester, pp 531-573</mixed-citation>
+        </ref>
+        <ref id="d3159645e1480a1310">
+          
+            <mixed-citation id="d3159645e1484" publication-type="other">
+Xu J, Uszkoreit H, Kennington C, Vilar D, Zhang X (2011) DFKI hybrid machine translation system for
+WMT 2011: on the Integration of SMT and RBMT. In: Proceedings of the sixth workshop on statistical
+machine translation, Edinburgh, pp 485-489</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

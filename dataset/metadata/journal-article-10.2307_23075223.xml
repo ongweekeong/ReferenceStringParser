@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">277</issue>
+         <issue-id>i23075137</issue-id>
+         <article-id pub-id-type="jstor">23075223</article-id>
+         <title-group>
+            <article-title>POSITIVITY-PRESERVING DISCONTINUOUS GALERKIN SCHEMES FOR LINEAR VLASOV-BOLTZMANN TRANSPORT EQUATIONS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>YINGDA</given-names>
+                  <surname>CHENG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>IRENE M.</given-names>
+                  <surname>GAMBA</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>JENNIFER</given-names>
+                  <surname>PROFT</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>153</fpage>
+         <lpage>190</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075223"/>
+      
+      
+         <abstract>
+            <p>We develop a high-order positivity-preserving discontinuous Galerkin (DG) scheme for linear Vlasov-Boltzmann transport equations (Vlasov-BTE) under the action of quadratically confined electrostatic potentials. The solutions of such BTEs are positive probability distribution functions and it is very challenging to have a mass-conservative, high-order accurate scheme that preserves positivity of the numerical solutions in high dimensions. Our work extends the maximum-principle-satisfying scheme for scalar conservation laws in a recent work by X. Zhang and C.-W. Shu to include the linear Boltzmann collision term. The DG schemes we developed conserve mass and preserve the positivity of the solution without sacrificing accuracy. A discussion of the standard semi-discrete DG schemes for the BTE are included as a foundation for the stability and error estimates for this new scheme. Numerical results of the relaxation models are provided to validate the method.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2241663e185a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2241663e192" publication-type="other">
+V. R. A.M. Anile, G. Mascali. Recent developments in hydrodynamical modeling of semicon-
+ductors, mathematical problems in semiconductor physics. Lect. Notes Math., 1823:156.</mixed-citation>
+        </ref>
+        <ref id="d2241663e202a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2241663e209" publication-type="other">
+N. Ben Abdallah and M. L. Tayeb. Diffusion approximation for the one dimensional
+Boltzmann-Poisson system. Discrete Contin. Dyn. Syst. Ser. B, 4(4):1129-1142, 2004.
+MR2082927 (2005f:35031)</mixed-citation>
+        </ref>
+        <ref id="d2241663e222a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2241663e229" publication-type="other">
+G. A. Bird. Molecular gas dynamics. Clarendon Press, Oxford, 1994.</mixed-citation>
+        </ref>
+        <ref id="d2241663e236a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2241663e243" publication-type="other">
+J. E. Broadwell. Study of the rarified shear flow by the discrete velocity method. J. Fluid
+Mech., 19:401-414, 1964. MR0172651 (30:2870)</mixed-citation>
+        </ref>
+        <ref id="d2241663e254a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2241663e261" publication-type="other">
+M. J. Caceres, J. A. Carrillo, I. M. Gamba, A. Majorana, and C.-W. Shu. Deterministic kinetic
+solvers for charged particle transport in semiconductor devices. Transport Phenomena and
+Kinetic Theory Applications to Gases, Semiconductors, Photons, and Biological Systems,
+pages 151-171, 2007. MR2334309 (2008h:82089)</mixed-citation>
+        </ref>
+        <ref id="d2241663e277a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2241663e284" publication-type="other">
+J. A. Carrillo, I. M. Gamba, A. Majorana, and C.-W. Shu. A WENO-solver for ID
+non-stationary Boltzmann-Poisson system for semiconductor devices. J. Comput. Electron.,
+1:365-375, 2002.</mixed-citation>
+        </ref>
+        <ref id="d2241663e297a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2241663e304" publication-type="other">
+J. A. Carrillo, I. M. Gamba, A. Majorana, and C.-W. Shu. A direct solver for 2D non-
+stationary Boltzmann-Poisson systems for semiconductor devices: a MESFET simulation by
+WENO-Boltzmann schemes. J. Comput. Electron., 2:375-380, 2003.</mixed-citation>
+        </ref>
+        <ref id="d2241663e317a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2241663e324" publication-type="other">
+J. A. Carrillo, I. M. Gamba, A. Majorana, and C.-W. Shu. A WENO-solver for the transients
+of Boltzmann-Poisson system for semiconductor devices. Performance and comparisons with
+Monte Carlo methods. J. Comput. Phys., 184:498-525, 2003. MR1959405 (2003m:82087)</mixed-citation>
+        </ref>
+        <ref id="d2241663e337a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2241663e344" publication-type="other">
+J. A. Carrillo, I. M. Gamba, A. Majorana, and C.-W. Shu. 2D semiconductor device sim-
+ulations by WENO-Boltzmann schemes: efficiency, boundary conditions and comparison to
+Monte Carlo methods. J. Comput. Phys., 214:55-80, 2006. MR2208670 (2006i:82094)</mixed-citation>
+        </ref>
+        <ref id="d2241663e357a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2241663e364" publication-type="other">
+Y. Cheng, I. M. Gamba, A. Majorana, and C.-W. Shu. Discontinuous Galerkin solver for the
+semiconductor Boltzmann equation. SISPAD 07, June 14-17, pages 257-260, 2007.</mixed-citation>
+        </ref>
+        <ref id="d2241663e375a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2241663e382" publication-type="other">
+Y. Cheng, I. M. Gamba, A. Majorana, and C.-W. Shu. Discontinuous Galerkin solver for
+Boltzmann-Poisson transients. J. Comput. Electron., 7:119-123, 2008.</mixed-citation>
+        </ref>
+        <ref id="d2241663e392a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2241663e399" publication-type="other">
+Y. Cheng, I. M. Gamba, A. Majorana, and C.-W. Shu. A Discontinuous Galerkin solver for
+Boltzmann-Poisson systems for semiconductor devices. Comput. Methods Appl. Mech. Eng.,
+198:3130-3150, 2009. MR2567861 (2010j:82096)</mixed-citation>
+        </ref>
+        <ref id="d2241663e412a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2241663e419" publication-type="other">
+Y. Cheng, I. M. Gamba, A. Majorana, and C.-W. Shu. A discontinuous Galerkin solver for
+full-band Boltzmann-Poisson models. Proceeding of the IWCE13, pages 211-214, 2009.</mixed-citation>
+        </ref>
+        <ref id="d2241663e429a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2241663e436" publication-type="other">
+Y. Cheng, I. M. Gamba, A. Majorana, and C.-W. Shu. Performance of discontinuous Galerkin
+solver for semiconductor Boltzmann Equation. Proceedings of the IWCE14, pp. 227-230,2010.</mixed-citation>
+        </ref>
+        <ref id="d2241663e446a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2241663e453" publication-type="other">
+P. Ciarlet. The finite element method for elliptic problems. North-Holland, Amsterdam, 1975.
+MR0520174 (58:25001)</mixed-citation>
+        </ref>
+        <ref id="d2241663e463a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2241663e470" publication-type="other">
+B. Cockburn, B. Dong, and J. Guzman. Optimal convergence of the original DG method for
+the transport-reaction equation on special meshes. SIAM J. Numer. Anal., 46:1250-1265,
+2008. MR2390992 (2009c:65299)</mixed-citation>
+        </ref>
+        <ref id="d2241663e484a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2241663e491" publication-type="other">
+B. Cockburn, B. Dong, J. Guzman, and J. Qian. Optimal convergence of the original DG
+method on special meshes for transport variable velocity. SIAM J. Numer. Anal. 48:133-146,
+2010. MR2608362</mixed-citation>
+        </ref>
+        <ref id="d2241663e504a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2241663e511" publication-type="other">
+B. Cockburn, S. Hou, and C.-W. Shu. The Runge-Kutta local projection discontinuous
+Galerkin finite element method for conservation laws IV: the multidimensional case. Math.
+Comput., 54:545-581, 1990. MR1010597 (90k:65162)</mixed-citation>
+        </ref>
+        <ref id="d2241663e524a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2241663e531" publication-type="other">
+B. Cockburn, G. Kanschat, I. Perugia, and D. Schötzau. Superconvergence of the local dis-
+continuous Galerkin method for elliptic problems on Cartesian grids. SIAM J. Numer. Anal.,
+39:264-285, 2001. MR1860725 (2002g:65140)</mixed-citation>
+        </ref>
+        <ref id="d2241663e544a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2241663e551" publication-type="other">
+B. Cockburn, S. Y. Lin, and C.-W. Shu. TVB Runge-Kutta local projection discontinuous
+Galerkin finite element method for conservation laws III: one dimensional systems. J. Comput.
+Phys., 84:90-113, 1989. MR1015355 (90k:65161)</mixed-citation>
+        </ref>
+        <ref id="d2241663e564a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2241663e571" publication-type="other">
+B. Cockburn and C.-W. Shu. TVB Runge-Kutta local projection discontinuous Galerkin
+finite element method for conservation laws II: general framework. Math. Comput., 52:411—
+435, 1989. MR983311 (90k:65160)</mixed-citation>
+        </ref>
+        <ref id="d2241663e584a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2241663e591" publication-type="other">
+B. Cockburn and C.-W. Shu. The Runge-Kutta local projection pl-discontinuous Galerkin
+finite element method for scalar conservation laws. Math. Model. Num. Anal., 25:337-361,
+1991. MR1103092 (92e:65128)</mixed-citation>
+        </ref>
+        <ref id="d2241663e605a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2241663e612" publication-type="other">
+B. Cockburn and C.-W. Shu. The Runge-Kutta discontinuous Galerkin method for conser-
+vation laws V: multidimensional systems. J. Comput. Phys., 141:199-224, 1998. MR1619652
+(99c:65181)</mixed-citation>
+        </ref>
+        <ref id="d2241663e625a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2241663e632" publication-type="other">
+B. Cockburn and C.-W. Shu. Runge-Kutta discontinuous Galerkin methods for convection-
+dominated problems. J. Sci. Comput., 16:173-261, 2001. MR1873283 (2002i:65099)</mixed-citation>
+        </ref>
+        <ref id="d2241663e642a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2241663e649" publication-type="other">
+M. G. Crandall and L. Tartar. Some relations between nonexpansive and order preserving
+mappings. Proc. Amer. Math. Soc., 78:385-390, 1980. MR553381 (81a:47054)</mixed-citation>
+        </ref>
+        <ref id="d2241663e659a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d2241663e666" publication-type="other">
+E. Fatemi and F. Odeh. Upwind finite difference solution of Boltzmann equation ap-
+plied to electron transport in semiconductor devices. J. Comput. Phys., 108:209-217, 1993.
+MR1242949 (94e:78023)</mixed-citation>
+        </ref>
+        <ref id="d2241663e679a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d2241663e686" publication-type="other">
+I. Gamba and S. H. Tharkabhushaman. Spectral-Lagrangian based methods applied to
+computation of non-equilibrium statistical states. J. Comput. Phys., 228:2012-2036, 2009.
+MR2500671 (2009m:82068)</mixed-citation>
+        </ref>
+        <ref id="d2241663e699a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d2241663e706" publication-type="other">
+S. Gottlieb and C.-W. Shu. Total variation diminishing Runge-Kutta schemes. Math. Com-
+put., 67:73-85, 1998. MR1443118 (98c:65122)</mixed-citation>
+        </ref>
+        <ref id="d2241663e717a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d2241663e724" publication-type="other">
+S. Gottlieb, C.-W. Shu, and E. Tadmor. Strong stability preserving high order time discretiza-
+tion methods. SIAM Review, 43:89-112, 2001. MR1854647 (2002f:65132)</mixed-citation>
+        </ref>
+        <ref id="d2241663e734a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d2241663e741" publication-type="other">
+Y. Guo. The Vlasov-Poisson-Boltzmann system near Maxwellians. Comm. Pure Appl. Math.,
+55(9):1104-1135, 2002. MR1908664 (2003b:82050)</mixed-citation>
+        </ref>
+        <ref id="d2241663e751a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d2241663e758" publication-type="other">
+Y. Guo. The Vlasov-Maxwell-Boltzmann system near Maxwellians. Invent. Math.,
+153(3):593-630, 2003. MR2000470 (2004m:82123)</mixed-citation>
+        </ref>
+        <ref id="d2241663e768a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d2241663e775" publication-type="other">
+B. Helffer and F. Nier. Hypoellliptic estimates and spectral theory for Fokker-Planck oper-
+ators and Witten laplacians. Lecture Notes in Mathematics series, 1862, 2005. MR2130405
+(2006a:58039)</mixed-citation>
+        </ref>
+        <ref id="d2241663e788a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d2241663e795" publication-type="other">
+F. Herau. Hypocoercivity and exponential time decay for the linear inhomogeneous relaxation
+Boltzmann equation. Asymptot. Anal., 46:349—359, 2006. MR2215889 (2007b:35044)</mixed-citation>
+        </ref>
+        <ref id="d2241663e805a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d2241663e812" publication-type="other">
+F. Herau and F. Nier. Isotropic hypoellipticity and trend to equilibrium for the Fokker-
+Planck equation with high degree potential. Arch. Ration. Mech. Anal., 171:151-218, 2004.
+MR2034753 (2005f:82085)</mixed-citation>
+        </ref>
+        <ref id="d2241663e826a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d2241663e833" publication-type="other">
+C. Johnson and J. Pitkäranta. An analysis of the discontinuous Galerkin method for a scalar
+hyperbolic equation. Math. Comp., 46:1-26, 1986. MR815828 (88b:65109)</mixed-citation>
+        </ref>
+        <ref id="d2241663e843a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d2241663e850" publication-type="other">
+P. Lesaint and P.-A. Raviart. On a finite element method for solving the neutron transport
+equation. In Mathematical aspects of finite elements in partial differential equations (Proc.
+Sympos., Math. Res. Center, Univ. Wisconsin, Madison, Wis., 1974), pages 89—123. Math.
+Res. Center, Univ. of Wisconsin-Madison, Academic Press, New York, 1974. MR0658142
+(58:31918)</mixed-citation>
+        </ref>
+        <ref id="d2241663e869a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d2241663e876" publication-type="other">
+A. Majorana and R. Pidatella. A finite difference scheme solving the Boltzmann Poisson
+system for semiconductor devices. J. Comput. Phys., 174:649-668, 2001.</mixed-citation>
+        </ref>
+        <ref id="d2241663e886a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d2241663e893" publication-type="other">
+C. Mouhot and L. Neumann. Quantitative perturbative study of convergence to equilib-
+rium for collisional kinetic models in the torus. Nonlinearity, 4:969-998, 2006. MR2214953
+(2007c:82032)</mixed-citation>
+        </ref>
+        <ref id="d2241663e906a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d2241663e913" publication-type="other">
+K. Nanbu. Direct simulation scheme derived from the Boltzmann equation. I. monocomponent
+gases. J. Phys. Soc. Jpn., 52:2042-2049, 1983.</mixed-citation>
+        </ref>
+        <ref id="d2241663e923a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d2241663e930" publication-type="other">
+L. Pareschi and B. Perthame. A Fourier spectral method for homogeneous Boltzmann equa-
+tions. Transport Theory Statist. Phys., 25:369-C383, 1996. MR1407541 (97j:82133)</mixed-citation>
+        </ref>
+        <ref id="d2241663e941a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d2241663e948" publication-type="other">
+T. E. Peterson. A note on the convergence of the discontinuous Galerkin method for a scalar
+hyperbolic equation. SIAM J. Numer. Anal., 28:133-140, 1991. MR1083327 (91m:65250)</mixed-citation>
+        </ref>
+        <ref id="d2241663e958a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d2241663e965" publication-type="other">
+M. Portelheiro and A. Tzvaras. Hydrodynamic limits for kinetic equations and the diffusive
+approximation of radiative transport for acoustic waves. Trans. Amer. Math. Soc., 359:529-
+565, 2007. MR2255185 (2007k:35323)</mixed-citation>
+        </ref>
+        <ref id="d2241663e978a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d2241663e985" publication-type="other">
+W. Reed and T. Hill. Tiangular mesh methods for the neutron transport equation. Technical
+report, Los Alamos National Laboratory, Los Alamos, NM, 1973.</mixed-citation>
+        </ref>
+        <ref id="d2241663e995a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d2241663e1002" publication-type="other">
+L. Reggiani. Hot-electron transport in semiconductors, volume 58 of Topics in Applied
+Physics. Springer, Berlin, 1985.</mixed-citation>
+        </ref>
+        <ref id="d2241663e1012a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d2241663e1019" publication-type="other">
+G. R. Richter. An optimal-order error estimate for the discontinuous Galerkin method. Math.
+Comp., 50:75-88, 1988. MR917819 (88j:65197)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1029a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d2241663e1036" publication-type="other">
+C.-W. Shu and S. Osher. Efficient implementation of essentially non-oscillatory shock-
+capturing schemes. J. Comput. Phys., 77:439-471, 1988. MR954915 (89g:65113)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1047a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d2241663e1054" publication-type="other">
+R. M. Strain and Y. Guo. Almost exponential decay near Maxwellian. Comm. Partial Dif-
+ferential Equations, 31(l-3):417-429, 2006. MR2209761 (2006m:82042)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1064a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d2241663e1071" publication-type="other">
+K. Tomizawa. Numerical simulation of sub micron semiconductor devices. Artech House,
+Boston, 1993.</mixed-citation>
+        </ref>
+        <ref id="d2241663e1081a1310">
+            <label>49</label>
+          
+            <mixed-citation id="d2241663e1088" publication-type="other">
+C. Villani. A review of mathematical topics in collisional kinetic theory handbook of mathe-
+matical fluid dynamics. 1:71-74, 2002. MR1942465 (2003k:82087)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1098a1310">
+            <label>50</label>
+          
+            <mixed-citation id="d2241663e1105" publication-type="other">
+C. Villani. Hypocoercive diffusion operators in Hörmander form. Mathematical Models and
+Methods in Applied Sciences, 2006. MR2275692 (2007k:35057)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1115a1310">
+            <label>51</label>
+          
+            <mixed-citation id="d2241663e1122" publication-type="other">
+X. Zhang and C.-W. Shu. A genuinely high order total variation diminishing scheme for one-
+dimensional scalar conservation laws. SIAM Journal on Numerical Analysis, 48(2):772-795,
+2010. MR2670004</mixed-citation>
+        </ref>
+        <ref id="d2241663e1135a1310">
+            <label>52</label>
+          
+            <mixed-citation id="d2241663e1142" publication-type="other">
+X. Zhang and C.-W. Shu. On maximum-principle-satisfying high order schemes for scalar
+conservation laws. J. Comput. Phys., 229:3091-3120, 2010. MR2601091 (2010k:65181)</mixed-citation>
+        </ref>
+        <ref id="d2241663e1153a1310">
+            <label>53</label>
+          
+            <mixed-citation id="d2241663e1160" publication-type="other">
+X. Zhang and C.-W. Shu. On positivity preserving high order discontinuous Galerkin schemes
+for compressible Euler equations on rectangular meshes. Journal of Computational Physics,
+229:8918-8934, 2010. MR2725380</mixed-citation>
+        </ref>
+        <ref id="d2241663e1173a1310">
+            <label>54</label>
+          
+            <mixed-citation id="d2241663e1180" publication-type="other">
+X. Zhang, Y. Xia, and C.-W. Shu. Maximum-principle-satisfying and positivity-preserving
+high order discontinuous Galerkin schemes for conservation laws on triangular meshes. Jour-
+nal of Scientific Computing, to appear</mixed-citation>
+        </ref>
+        <ref id="d2241663e1193a1310">
+            <label>55</label>
+          
+            <mixed-citation id="d2241663e1200" publication-type="other">
+X. Zhang, Y. Xing, and C.-W. Shu. Positivity preserving high order well balanced discon-
+tinuous Galerkin methods for the shallow water equations. Advances in Water Resources.
+33:1476-1493, 2010.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

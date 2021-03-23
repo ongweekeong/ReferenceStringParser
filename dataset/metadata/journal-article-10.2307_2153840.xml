@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">213</issue>
+         <issue-id>i337669</issue-id>
+         <article-id pub-id-type="jstor">2153840</article-id>
+         
+         <title-group>
+            <article-title>Maximally Equidistributed Combined Tausworthe Generators</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Pierre</given-names>
+                  <surname>L'Ecuyer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>203</fpage>
+         <lpage>213</lpage>
+         <page-range>203-213</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153840"/>
+         
+         
+         <abstract>
+            <p>Tausworthe random number generators based on a primitive trinomial allow an easy and fast implementation when their parameters obey certain restrictions. However, such generators, with those restrictions, have bad statistical properties unless we combine them. A generator is called maximally equidistributed if its vectors of successive values have the best possible equidistribution in all dimensions. This paper shows how to find maximally equidistributed combinations in an efficient manner, and gives a list of generators with that property. Such generators have a strong theoretical support and lend themselves to very fast software implementations.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65C10</kwd>
+            <kwd>Random number generation</kwd>
+            <kwd>equidistribution</kwd>
+            <kwd>combined generators</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d712615e135a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d712615e142" publication-type="journal">
+A. Compagner, The hierarchy of correlations irn random binary sequences, J. Statist. Phys.
+63 (1991), 883-896. MR 93c:65012<person-group>
+                     <string-name>
+                     <surname>Compagner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>883</fpage>
+               <volume>63</volume>
+               <source>J. Statist. Phys.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e174a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d712615e181" publication-type="journal">
+R. Couture, P. L'Ecuyer, and S. Tezuka, On the distribution of k-dimensional vectors for
+simple and combined Tausworthe sequences, Math. Comp.60 (1993), 749-761 and S11-S16.
+MR 93h:11085<object-id pub-id-type="doi">10.2307/2153113</object-id>
+               <fpage>749</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e200a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d712615e207" publication-type="book">
+D. E. Knuth, The art of computer programming: Seminumerical algorithms, Vol. 2, 2nd ed.,
+Addison-Wesley, Reading, MA, 1981. MR 83i:68003<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>2</volume>
+               <source>The art of computer programming: Seminumerical algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e239a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d712615e246" publication-type="journal">
+P. L'Ecuyer, Efficient and portable combined random number generators, Comm. ACM31
+(1988), 742-749 and 754<person-group>
+                     <string-name>
+                     <surname>L'Ecuyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>742</fpage>
+               <volume>31</volume>
+               <source>Comm. ACM</source>
+               <year>1988</year>
+            </mixed-citation>
+               <mixed-citation id="d712615e277" publication-type="journal">
+same journal, 32 (1989), 1019-
+1024. MR 89d:65005<fpage>1019</fpage>
+               <volume>32</volume>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e297a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d712615e304" publication-type="conference">
+—Testing random number generators, Proc. 1992 Winter Simulation Conference, IEEE
+Press, Pistacaway, NJ, 1992, pp. 305-313.<person-group>
+                     <string-name>
+                     <surname>L'Ecuyer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Testing random number generators</comment>
+               <fpage>305</fpage>
+               <source>Proc. 1992 Winter Simulation Conference</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e336a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d712615e343" publication-type="journal">
+— Uniform random number generation, Ann. Oper. Res.53 (1994), 77-120. CMP 95:06<person-group>
+                     <string-name>
+                     <surname>L'Ecuyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>53</volume>
+               <source>Ann. Oper. Res.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e372a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d712615e379" publication-type="journal">
+J. H. Lindholm, An analysis of the pseudo-randomness properties of subsequences of long
+m-sequences, IEEE Trans. Inform. TheoryIT-14 (1968), 569-576.<person-group>
+                     <string-name>
+                     <surname>Lindholm</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>569</fpage>
+               <volume>IT-14</volume>
+               <source>IEEE Trans. Inform. Theory</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e411a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d712615e418" publication-type="book">
+H. Niederreiter, Random number generation and quasi-Monte Carlo methods, SIAM CBMS-
+NSF Regional Conf. Series in Appl. Math., vol. 63, SIAM, Philadelphia, PA, 1992. MR
+93h:65008<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Random number generation and quasi-Monte Carlo methods</comment>
+               <volume>63</volume>
+               <source>SIAM CBMSNSF Regional Conf. Series in Appl. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e453a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d712615e460" publication-type="journal">
+R. C. Tausworthe, Random numbers generated by linear recurrence modulo two, Math. Comp.
+19 (1965), 201-209. MR 32:1878<object-id pub-id-type="doi">10.2307/2003345</object-id>
+               <fpage>201</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e476a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d712615e483" publication-type="book">
+S. Tezuka, Random number generation based on polynomial arithmetic modulo two, IBM TRL
+Research Report, RT-0017, 1989.<person-group>
+                     <string-name>
+                     <surname>Tezuka</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random number generation based on polynomial arithmetic modulo two</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e509a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d712615e516" publication-type="journal">
+S. Tezuka and P. L'Ecuyer, Efficient and portable combined Tausworthe random number
+generators, ACM Trans. Model. Comput. Simulation1 (1991), 99-112.<person-group>
+                     <string-name>
+                     <surname>Tezuka</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>1</volume>
+               <source>ACM Trans. Model. Comput. Simulation</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e548a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d712615e555" publication-type="journal">
+J. P. R. Tootill, W. D. Robinson, and D. J. Eagle, An asymptotically random Tausworthe
+sequence, J. Assoc. Comput. Mach.20 (1973), 469-481.<person-group>
+                     <string-name>
+                     <surname>Tootill</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>469</fpage>
+               <volume>20</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e587a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d712615e594" publication-type="journal">
+D. Wang and A. Compagner, On the use of reducible polynomials as random number gener-
+ators, Math. Comp.60 (1993), 363-374. MR 93e:65012<object-id pub-id-type="doi">10.2307/2153173</object-id>
+               <fpage>363</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712615e610a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d712615e617" publication-type="journal">
+N. Zierler and J. Brillhart, On primitive trinomials (Mod 2), Inform. and Control13 (1968),
+541-554<person-group>
+                     <string-name>
+                     <surname>Zierler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>541</fpage>
+               <volume>13</volume>
+               <source>Inform. and Control</source>
+               <year>1968</year>
+            </mixed-citation>
+               <mixed-citation id="d712615e648" publication-type="journal">
+14 (1969), 566-569. MR 39:5521<fpage>566</fpage>
+               <volume>14</volume>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

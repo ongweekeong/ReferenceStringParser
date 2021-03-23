@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">116</volume>
+         <issue-id>i40196102</issue-id>
+         <article-id pub-id-type="jstor">44687964</article-id>
+         <title-group>
+            <article-title>Component Mode Synthesis for Substructures with Non-Matching Interfaces</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Keychun</given-names>
+                  <surname>Park</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Matthew P.</given-names>
+                  <surname>Castanier</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2007</year>
+         </pub-date>
+         <fpage>1925</fpage>
+         <lpage>1937</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44687964"/>
+      
+      
+         <abstract>
+            <p>When performing vibration analysis of complex vehicle structures, it is often important to be able to evaluate the effects of design changes in one or more substructures (e.g., for design optimization). It may also be convenient to allow different components to be modeled independently by different groups or organizations. For both cases, it is inevitable that some substructures will have non-matching finite element meshes at the interface where they are physically connected. Thus, a key challenge is to be able to handle the dynamic assembly of components with non-matching meshes and the subsequent global vibration analysis in a systematic and efficient manner. To tackle this problem, the enhancement of component mode synthesis methods for handling finite element models partitioned into nonmatching substructures is considered in this paper. Some existing methods are reviewed, and new methods are developed. Three main approaches are considered: interface interpolation, interface reduction, and component synthesis. First, among various interpolation schemes for non-matching interfaces, the moving least squares interpolation and assumed interface shapes are employed. Second, for interface reduction, the interface coordinates are projected onto a local and a global interface modal basis. Third, for component synthesis, a conventional synthesis method and a mixed formulation with Lagrange multipliers are used. Appropriate combinations of these approaches yield a suite of reduced-order vibration modeling techniques that are well suited for distributed simulation environments and/or design studies. Numerical results from the proposed methods are compared using a finite element model of a plate that is partitioned into two components with nonmatching interfaces. In evaluating the proposed methods, special attention is paid to their efficiency for vibration power flow calculations under design changes and their applicability to distributed simulation.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d463e190a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d463e197" publication-type="other">
+Hurty, W. C., "Dynamic Analysis of Structural
+Systems Using Component Modes," AIAA Journal,
+Vol. 3, No. 4, pp. 678-685, 1965.</mixed-citation>
+        </ref>
+        <ref id="d463e210a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d463e217" publication-type="other">
+Craig, R. R., and Bampton, M. C. C., "Coupling of
+substructures for dynamics analysis." AIAA Journal,
+Vol. 6, No. 7, pp. 1313-1319, 1968.</mixed-citation>
+        </ref>
+        <ref id="d463e230a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d463e237" publication-type="other">
+MacNeal, R. H., "A Hybrid Method of Component
+Mode Synthesis," Computers and Structures, Vol. 1,
+pp. 581-601, 1971.</mixed-citation>
+        </ref>
+        <ref id="d463e250a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d463e257" publication-type="other">
+Rubin, S., "Improved Component-Mode
+Representation for Structural Dynamic Analysis."
+AIAA Journal, Vol. 13, No. 8, pp. 995-1006, 1975.</mixed-citation>
+        </ref>
+        <ref id="d463e271a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d463e278" publication-type="other">
+Hintz, R. M., "Analytical Methods in Component
+Modal Synthesis," AIAA Journal, Vol. 13, No. 8, pp.
+1007-1016. 1975.</mixed-citation>
+        </ref>
+        <ref id="d463e291a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d463e298" publication-type="other">
+Kim, H. G., "Interface Element Method (IEM) for a
+Partitioned System with Non-Matching Interfaces,"
+Computer Methods in Applied Mechanics and
+Engineering, Vol. 191, pp. 3165-3194, 2002.</mixed-citation>
+        </ref>
+        <ref id="d463e314a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d463e321" publication-type="other">
+Hughes, T. J. R., The Finite Element Method: Linear
+Static and Dynamic Finite Element Analysis, Dover
+Publications, Minneola, NY, Chapter 4, 2000.</mixed-citation>
+        </ref>
+        <ref id="d463e334a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d463e341" publication-type="other">
+Bernardi, C., Mayday, Y., and Patera, A. T., "A New
+Nonconforming Approach to Domain Decomposition:
+The Mortar Element Method," in Bresiz, H, and
+Lions, J.L., (Eds), Nonlinear Partial Differential
+Equations and Their Applications, Pitman, New
+York, 1994.</mixed-citation>
+        </ref>
+        <ref id="d463e364a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d463e371" publication-type="other">
+Farhat, C., and Geradin, M., "On a Component
+Mode Synthesis Method and its Application To
+Incompatible Substructures," Computers and
+structures, Vol. 51, No. 5, pp. 459-473, 1994.</mixed-citation>
+        </ref>
+        <ref id="d463e387a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d463e394" publication-type="other">
+Aminpour, M. A., Pageau, S., and Shin, Y., "An
+Alternative Method for the Interface Modeling
+Technology," AIAA paper no. 2000-1352, American
+Institute of Aeronautics and Astronautics, Reston,
+VA, 2000.</mixed-citation>
+        </ref>
+        <ref id="d463e414a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d463e421" publication-type="other">
+Aminpour, M. A., Pageau, S., and Shin, Y.,
+"Improved Interface Modeling Technology," AIAA
+paper no. 2001-1548, American Institute of
+Aeronautics and Astronautics, Reston, VA, 2001.</mixed-citation>
+        </ref>
+        <ref id="d463e437a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d463e444" publication-type="other">
+Wang, J., Ma, Z. D., and Hulbert, G. M., "A Gluing
+Algorithm for Distributed Simulation of Multibody
+Systems," Nonlinear Dynamics, Vol. 34, pp. 159-
+188, 2003.</mixed-citation>
+        </ref>
+        <ref id="d463e460a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d463e467" publication-type="other">
+Craig, R. R., and Chang, C.-J., "Substructure
+Coupling for Dynamic Analysis and Testing," NASA
+Technical Report CR-2781, 1977.</mixed-citation>
+        </ref>
+        <ref id="d463e480a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d463e487" publication-type="other">
+Castanier, M. P., Tan, Y. C., and Pierre, C.,
+"Characteristic Constraint Modes for Component
+Mode Synthesis," AIAA Journal, Vol. 39, No. 6, pp.
+1182-1187, 2001.</mixed-citation>
+        </ref>
+        <ref id="d463e503a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d463e510" publication-type="other">
+Balmès, E., "Use of Generalized Interface Degrees
+of Freedom in Component Mode Synthesis,"
+Proceedings of the 14th International Modal Analysis
+Conference, Vol. 1, pp. 204-210, Society for
+Experimental Mechanics, Bethel, CT, 1996.</mixed-citation>
+        </ref>
+        <ref id="d463e529a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d463e536" publication-type="other">
+Zhang, G., Castanier, M. P., and Pierre, C., "Efficient
+Component Mode Synthesis with a New Interface
+Reduction Method," Proceedings of IMAC-XXII: A
+Conference and Exposition on Structural Dynamics,
+Society for Experimental Mechanics, Bethel, CT,
+2004.</mixed-citation>
+        </ref>
+        <ref id="d463e560a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d463e567" publication-type="other">
+Shyu, W.-H., Gu, J. M., Hulbert, G. M„ and Ma, Z.-
+D., "On the Use of Multiple Quasi-Static Mode
+Compensation Sets for Component Mode Synthesis
+of Complex Structures," Finite Elements in Analysis
+and Design, Vol. 35, No. 2, pp. 119-140, 2000.</mixed-citation>
+        </ref>
+        <ref id="d463e586a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d463e593" publication-type="other">
+Brahmi, K., Bouhaddi, N., and Fillod, R., "Reduction
+of Junction Degrees of Freedom Before Assembly in
+Dynamic Substructuring," in Acoustics, Vibrations,
+and Rotating Machines, Vol. DE-84-2, pp. 699-708,
+American Society of Engineers, New York, 1995.</mixed-citation>
+        </ref>
+        <ref id="d463e612a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d463e619" publication-type="other">
+Aoyama, Y., and Yagawa, G., "Component Mode
+Synthesis for Large-Scale Structural Eigenanalysis,"
+Computer and Structures, Vol. 79, pp. 605-615,
+2001.</mixed-citation>
+        </ref>
+        <ref id="d463e635a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d463e642" publication-type="other">
+Dieker, S., "An Approach for the 3D Dynamic
+Mathematical Modelization of Big Structures with
+Special Respect to Ariane 5," Acta Astronautica, Vol.
+34, pp. 139-149, 1994.</mixed-citation>
+        </ref>
+        <ref id="d463e658a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d463e665" publication-type="other">
+Song, S. H., and Castanier, M. P., "Multi-Stage
+Modeling of Turbine Engine Rotor Vibration,"
+Proceedings of the ASME 2005 International Design
+Engineering Technical Conferences and Computers
+and Information in Engineering Conference, Vol. 1B,
+pp. 1533-1543, American Society of Engineers,
+New York, 2005.</mixed-citation>
+        </ref>
+        <ref id="d463e691a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d463e698" publication-type="other">
+Tan, Y. C., Castanier, M. P., and Pierre, C.,
+"Approximation of Power Flow Between Two
+Coupled Beams Using Statistical Energy Methods,"
+Journal of Vibration and Acoustics, Vol. 123, No. 4,
+pp. 510-523, 2001.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

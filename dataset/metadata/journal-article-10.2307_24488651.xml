@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">291</issue>
+         <issue-id>i24488615</issue-id>
+         <article-id pub-id-type="doi">10.2307/24488651</article-id>
+         <title-group>
+            <article-title>A FAST ALGORITHM FOR THE ENERGY SPACE BOSON BOLTZMANN COLLISION OPERATOR</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>JINGWEI</given-names>
+                  <surname>HU</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>LEXING</given-names>
+                  <surname>YING</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>271</fpage>
+         <lpage>288</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488651"/>
+      
+      
+         <abstract>
+            <p>This paper introduces a fast algorithm for the energy space boson Boltzmann collision operator. Compared to the direct O(N³) calculation and the previous O(N² log N) method [Markowich and Pareschi, 2005], the new algorithm runs in complexity O(N log² N), which is optimal up to a logarithmic factor (N is the number of grid points in energy space). The basic idea is to partition the 3-D summation domain recursively into elementary shapes so that the summation within each shape becomes a special double convolution that can be computed efficiently by the fast Fourier transform. Numerical examples are presented to illustrate the efficiency and accuracy of the proposed algorithm.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3689e257a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d3689e264" publication-type="other">
+Leif Arkeryd and Anne Nouri, Bose condensates in interaction with excitations: a kinetic
+model, Comm. Math. Phys. 310 (2012), no. 3, 765-788, DOI 10.1007/s00220-012-1415-l.
+MR2891873</mixed-citation>
+        </ref>
+        <ref id="d3689e277a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d3689e284" publication-type="other">
+A. V. Bobylev and S. Rjasanow, Fast deterministic method of solving the Boltzmann equation
+for hard spheres, Eur. J. Mech. B Fluids 18 (1999), no. 5, 869—887, DOI 10.1016/S0997-
+7546(99)00121-1. MR1728639 (2001c:76109)</mixed-citation>
+        </ref>
+        <ref id="d3689e297a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d3689e304" publication-type="other">
+C. Connaughton and Y. Pomeau, Kinetic theory and Bose-Einstein condensation. C. R.
+Pysique, 5:91-106, 2004.</mixed-citation>
+        </ref>
+        <ref id="d3689e314a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d3689e321" publication-type="other">
+M. Escobedo, S. Mischler, and M. A. Valle, Homogeneous Boltzmann equation in quantum
+relativistic kinetic theory. J. Differ. Equ., Monograph 4, 2003.</mixed-citation>
+        </ref>
+        <ref id="d3689e332a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d3689e339" publication-type="other">
+Miguel Escobedo, Federica Pezzotti, and Manuel Valle, Analytical approach to relax-
+ation dynamics of condensed Bose gases, Ann. Physics 326 (2011), no. 4, 808—827, DOI
+10.1016/j.aop.2010.11.001. MR2771726 (2012c:82046)</mixed-citation>
+        </ref>
+        <ref id="d3689e352a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d3689e359" publication-type="other">
+Irene M. Gamba and Sri Harsha Tharkabhushanam, Spectral-Lagrangian methods for col-
+lisional models of non-equilibrium statistical states, J. Comput. Phys. 228 (2009), no. 6,
+2012-2036, DOI 10.1016/j.jcp.2008.09.033. MR2500671 (2009m:82068)</mixed-citation>
+        </ref>
+        <ref id="d3689e372a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d3689e379" publication-type="other">
+A. L. Garcia and W. Wagner, Direct simulation Monte Carlo method for the Uehling-
+Uhlenbeck-Boltzmann equation. Phys. Rev. E, 68:056703, 2003.</mixed-citation>
+        </ref>
+        <ref id="d3689e389a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d3689e396" publication-type="other">
+Jingwei Hu and Lexing Ying, A fast spectral algorithm for the quantum Boltzmann collision
+operator, Commun. Math. Sci. 10 (2012), no. 3, 989—999. MR2911206</mixed-citation>
+        </ref>
+        <ref id="d3689e406a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d3689e413" publication-type="other">
+I. Ibragimov and S. Rjasanow, Numerical solution of the Boltzmann equation on the uniform
+grid, Computing 69 (2002), no. 2, 163-186, DOI 10.1007/s00607-002-1458-9. MR1954793
+(2004i:82060)</mixed-citation>
+        </ref>
+        <ref id="d3689e426a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d3689e433" publication-type="other">
+Boris N. Khoromskij, Structured data-sparse approximation to high order tensors arising
+from the deterministic Boltzmann equation, Math. Comp. 76 (2007), no. 259, 1291-1315,
+DOI 10.1090/S0025-5718-07-01901-1. MR2299775 (2008f:15097)</mixed-citation>
+        </ref>
+        <ref id="d3689e447a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d3689e454" publication-type="other">
+Robert Lacaze, Pierre Lallemand, Yves Pomeau, and Sergio Rica, Dynamical formation
+of a Bose-Einstein condensate, Phys. D 152/153 (2001), 779-786, DOI 10.1016/S0167-
+2789(01)00211-1. Advances in nonlinear mathematics and science. MR1837939 (2002c:82070)</mixed-citation>
+        </ref>
+        <ref id="d3689e467a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d3689e474" publication-type="other">
+E. M. Lifshitz and L. P. Pitaevskii, Course of theoretical physics ["Landau-Lifshits"]. Vol.
+9, Pergamon Press, Oxford, 1980. Statistical physics. Part 2. Theory of the condensed state;
+Translated from the Russian by J. B. Sykes and M. J. Kearsley. MR586944 (84m:82003a)</mixed-citation>
+        </ref>
+        <ref id="d3689e487a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d3689e494" publication-type="other">
+Xuguang Lu and Xiangdong Zhang, On the Boltzmann equation for 2D Bose-Einstein parti-
+cles, J. Stat. Phys. 143 (2011), no. 5, 990-1019, DOI 10.1007/sl0955-011-0221-z. MR2811470
+(2012i:82047)</mixed-citation>
+        </ref>
+        <ref id="d3689e507a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d3689e514" publication-type="other">
+Peter A. Markowich and Lorenzo Pareschi, Fast conservative and entropic numerical meth-
+ods for the boson Boltzmann equation, Numer. Math. 99 (2005), no. 3, 509—532, DOI
+10.1007/s00211-004-0570-5. MR2117737 (2006a:82055)</mixed-citation>
+        </ref>
+        <ref id="d3689e527a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d3689e534" publication-type="other">
+Clement Mouhot and Lorenzo Pareschi, Fast algorithms for computing the Boltzmann colli-
+sion operator, Math. Comp. 75 (2006), no. 256, 1833-1852 (electronic), DOI 10.1090/S0025-
+5718-06-01874-6. MR2240637 (2007d:65095)</mixed-citation>
+        </ref>
+        <ref id="d3689e547a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d3689e554" publication-type="other">
+L. W. Nordheim, On the kinetic method in the new statistics and its application in the
+electron theory of conductivity. Proc. R. Soc. London, Ser. A, 119:689—698, 1928.</mixed-citation>
+        </ref>
+        <ref id="d3689e565a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d3689e572" publication-type="other">
+Lorenzo Pareschi and Benoit Perthame, A Fourier spectral method for homogeneous Boltz-
+mann equations, Proceedings of the Second International Workshop on Nonlinear Kinetic
+Theories and Mathematical Aspects of Hyperbolic Systems (Sanremo, 1994), 1996, pp. 369-
+382, DOI 10.1080/00411459608220707. MR1407541 (97j:82133)</mixed-citation>
+        </ref>
+        <ref id="d3689e588a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d3689e595" publication-type="other">
+Lorenzo Pareschi and Giovanni Russo, Numerical solution of the Boltzmann equation. I.
+Spectrally accurate approximation of the collision operator, SIAM J. Numer. Anal. 37 (2000),
+no. 4, 1217-1245, DOI 10.1137/S0036142998343300. MR1756425 (2001g:65175)</mixed-citation>
+        </ref>
+        <ref id="d3689e608a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d3689e615" publication-type="other">
+R. K. Pathria, Statistical Mechanics. Butterworth-Heinemann, second edition, 1996.</mixed-citation>
+        </ref>
+        <ref id="d3689e622a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d3689e629" publication-type="other">
+D. V. Semikoz and I. I. Tkachev, Kinetics of Bose condensation. Phys. Rev. Lett., 74:3093-
+3097, 1995.</mixed-citation>
+        </ref>
+        <ref id="d3689e639a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d3689e646" publication-type="other">
+D. V. Semikoz and I. I. Tkachev, Condensation of bosons in the kinetic regime. Phys. Rev.
+D, 55:489-502, 1997.</mixed-citation>
+        </ref>
+        <ref id="d3689e656a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d3689e663" publication-type="other">
+Herbert Spohn, Kinetics of the Bose-Einstein condensation, Phys. D 239 (2010), no. 10,
+627-634, DOI 10.1016/j.physd.2010.01.018. MR2601928 (2011i:82038)</mixed-citation>
+        </ref>
+        <ref id="d3689e674a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d3689e681" publication-type="other">
+E. A. Uehling and G. E. Uhlenbeck, Transport phenomena in Einstein-Bose and Fermi-Dirac
+gases. I. Phys. Rev., 43:552-561, 1933.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

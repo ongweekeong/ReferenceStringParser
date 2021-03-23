@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">39</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">160</issue>
+         <issue-id>i334578</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007330</article-id>
+         
+         <title-group>
+            <article-title>Evaluation of Fourier Integrals Using $B$-Splines</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>M.</given-names>
+                  <surname>Lax</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>G. P.</given-names>
+                  <surname>Agrawal</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1982</year>
+         </pub-date>
+         <fpage>535</fpage>
+         <lpage>548</lpage>
+         <page-range>535-548</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1982 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007330"/>
+         
+         
+         <abstract>
+            <p>Finite Fourier integrals of functions possessing jumps in value, in the first or in the second derivative, are shown to be evaluated more efficiently, and more accurately, using a continuous Fourier transform (CFT) method than the discrete transform method used by the fast Fourier transform (FFT) algorithm. A $B$-spline fit is made to the input function, and the Fourier transform of the set of $B$-splines is performed analytically for a possibly nonuniform mesh. Several applications of the CFT method are made to compare its performance with the FFT method. The use of a 256-point FFT yields errors of order $10^{-2}$, whereas the same information used by the CFT algorithm yields errors of order $10^{-7}$-the machine accuracy available in single precision. Comparable accuracy is obtainable from the FFT over the limited original domain if more than 20,000 points are used.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>42A38</kwd>
+            <kwd>65D30</kwd>
+            <kwd>41A15</kwd>
+            <kwd>Fourier integral</kwd>
+            <kwd>$B$-splines</kwd>
+            <kwd>fast Fourier transform</kwd>
+            <kwd>continuous Fourier transform</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1668590e157a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1668590e164" publication-type="journal">
+F. ABRAMOVICI, "The accurate calculation of Fourier integrals by the fast Fourier transform
+technique," J. Comput. Phys., v. 11, 1973, pp. 28-37.<person-group>
+                     <string-name>
+                     <surname>Abramovici</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>28</fpage>
+               <volume>11</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e196a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1668590e203" publication-type="book">
+M. ABRAMOWITZ &amp; I. A. STEGUN (Editors), Handbook of Mathematical Functions, Dover, New
+York, 1965, p. 300.<person-group>
+                     <string-name>
+                     <surname>Abramowitz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>300</fpage>
+               <source>Handbook of Mathematical Functions</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e232a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1668590e239" publication-type="journal">
+G. P. AGRAWAL &amp; M. LAX, "Fraunhofer diffraction in the beam approximation from two
+longitudinally separated slits," J. Opt. Soc. Amer., v. 72, 1982, pp. 164-166.<person-group>
+                     <string-name>
+                     <surname>Agrawal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>164</fpage>
+               <volume>72</volume>
+               <source>J. Opt. Soc. Amer.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e271a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1668590e278" publication-type="book">
+P. J. DAVIS, Interpolation and Approximation, Blaisdell, New York, 1963, Section 3.7.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interpolation and Approximation</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e301a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1668590e308" publication-type="journal">
+C. DE BOOR, " On calculating with B-splines," J. Approx. Theory, v. 6, 1972, pp. 50-62.<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>50</fpage>
+               <volume>6</volume>
+               <source>J. Approx. Theory</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e337a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1668590e344" publication-type="journal">
+C. DE BOOR, "Package for calculating with B-splines," SIAM J. Numer. Anal., v. 14, 1977, pp.
+441-472<object-id pub-id-type="jstor">10.2307/2156696</object-id>
+               <fpage>441</fpage>
+            </mixed-citation>
+               <mixed-citation id="d1668590e359" publication-type="book">
+C. DE BOOR, A Practical Guide to Splines, Springer-Verlag, New York, 1978<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Practical Guide to Splines</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e381a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1668590e388" publication-type="journal">
+B. EINARSSON, "Numerical calculation of Fourier integrals with cubic splines," BIT, v. 8, 1968, pp.
+279-286<person-group>
+                     <string-name>
+                     <surname>Einarsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>279</fpage>
+               <volume>8</volume>
+               <source>BIT</source>
+               <year>1968</year>
+            </mixed-citation>
+               <mixed-citation id="d1668590e419" publication-type="journal">
+BIT, v. 9, 1969, pp. 183-184 (errata)<fpage>183</fpage>
+               <volume>9</volume>
+               <source>BIT</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e438a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1668590e445" publication-type="journal">
+B. EINARSSON, " Use of Richardson extrapolation for the numerical calculation of Fourier
+transforms," J. Comput. Phys., v. 21, 1976, pp. 365-370.<person-group>
+                     <string-name>
+                     <surname>Einarsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>365</fpage>
+               <volume>21</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e477a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1668590e484" publication-type="journal">
+L. N. G. FILON, "On a quadrature formula for trigonometric integrals," Proc. Roy. Soc. Edinburgh,
+v. 49, 1928, pp. 38-47.<person-group>
+                     <string-name>
+                     <surname>Filon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>38</fpage>
+               <volume>49</volume>
+               <source>Proc. Roy. Soc. Edinburgh</source>
+               <year>1928</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e516a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1668590e523" publication-type="journal">
+S. M. FLATTE &amp; F. D. TAPPERT, "Calculation of the effect of internal waves on oceanic sound
+transmission," J. Acoust. Soc. Amer., v. 58, 1975, pp. 1151-1159.<person-group>
+                     <string-name>
+                     <surname>Flatte</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1151</fpage>
+               <volume>58</volume>
+               <source>J. Acoust. Soc. Amer.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e556a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1668590e563" publication-type="journal">
+J. GAZDAG, "Numerical convective schemes based on accurate computation of space derivatives,"
+J. Comput. Phys., v. 13, 1973, pp. 100-113.<person-group>
+                     <string-name>
+                     <surname>Gazdag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>100</fpage>
+               <volume>13</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e595a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1668590e602" publication-type="journal">
+R. W. HOCKNEY, "A fast direct solution of Poisson's equation using Fourier analysis," J. Assoc.
+Comput. Mach., v. 17, 1965, pp. 95-113.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>17</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e634a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1668590e641" publication-type="book">
+H. JEFFREYS &amp; B. S. JEFFREYS, Methods of Mathematical Physics, Cambridge Univ. Press, Oxford,
+1978, p. 262.<person-group>
+                     <string-name>
+                     <surname>Jeffreys</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>262</fpage>
+               <source>Methods of Mathematical Physics</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e670a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1668590e677" publication-type="journal">
+M. LAX, G. P. AGRAWAL &amp; W. H. LOUISELL, "Continuous Fourier transform spline solution of
+unstable resonator field distribution," Opt. Lett., v. 9, 1979, pp. 303-305.<person-group>
+                     <string-name>
+                     <surname>Lax</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>303</fpage>
+               <volume>9</volume>
+               <source>Opt. Lett.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e709a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1668590e716" publication-type="journal">
+R. C. LE BAIL, "Use of Fast Fourier Transforms for solving partial differential equations in
+physics," J. Comput. Phys., v. 9, 1972, pp. 440-465.<person-group>
+                     <string-name>
+                     <surname>Le Bail</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>440</fpage>
+               <volume>9</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e748a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1668590e755" publication-type="book">
+M. J. MARSDEN &amp; G. D. TAYLOR, "Numerical evaluation of Fourier integrals," in Numerische
+Methoden der Approximations Theorie, Band I (Vortragsauszuge einer Tagung, Oberwolfach, 1971), pp.
+61-76<person-group>
+                     <string-name>
+                     <surname>Marsden</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical evaluation of Fourier integrals</comment>
+               <fpage>61</fpage>
+               <source>Numerische Methoden der Approximations Theorie</source>
+               <year>1971</year>
+            </mixed-citation>
+               <mixed-citation id="d1668590e789" publication-type="other">
+Internat. Schriftenreibe zur Numer. Math. Band 16, Birkhauser, Basel, 1972</mixed-citation>
+            </ref>
+            <ref id="d1668590e797a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1668590e804" publication-type="journal">
+J. MARTI, "An algorithm recursively computing the exact Fourier coefficients of B-splines with
+non-equidistant knots," J. Appl. Math. and Phys., v. 29, 1978, pp. 301-305.<person-group>
+                     <string-name>
+                     <surname>Marti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>301</fpage>
+               <volume>29</volume>
+               <source>J. Appl. Math. and Phys.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e836a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1668590e843" publication-type="journal">
+R. PIESSENS &amp; M. BRANDERS, "Computation of oscillating integrals," J. Comput. Appl. Math., v. 1,
+1975,pp. 153-164.<person-group>
+                     <string-name>
+                     <surname>Piessens</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>153</fpage>
+               <volume>1</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e875a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1668590e882" publication-type="journal">
+R. PIESSENS &amp; A. HAEGEMANS, "Algorithm for the automatic integration of highly oscillatory
+functions," Computing, v. 13, 1974, pp. 183-193.<person-group>
+                     <string-name>
+                     <surname>Piessens</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>183</fpage>
+               <volume>13</volume>
+               <source>Computing</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e914a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1668590e921" publication-type="journal">
+I. J. SCHOENBERG, "Contributions to the problem of approximation of equidistant data by analytic
+functions," Quart Appl. Math., v. 4, 1946, pp. 45-49, 121-141.<person-group>
+                     <string-name>
+                     <surname>Schoenberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>45</fpage>
+               <volume>4</volume>
+               <source>Quart Appl. Math.</source>
+               <year>1946</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e953a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1668590e960" publication-type="book">
+I. J. SCHOENBERG, Cardinal Spline Interpolation, SIAM, Philadelphia, Pa., 1973, p. 2.<person-group>
+                     <string-name>
+                     <surname>Schoenberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <source>Cardinal Spline Interpolation</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e985a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1668590e992" publication-type="journal">
+A. E. SIEGMAN &amp; E. A. SZIKLAS, "Mode calculations in unstable resonators with flowing saturable
+gain, 2: Fast Fourier transform method," Appl. Optics, v. 14, 1975, pp. 1874-1889.<person-group>
+                     <string-name>
+                     <surname>Siegman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1874</fpage>
+               <volume>14</volume>
+               <source>Appl. Optics</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e1025a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1668590e1032" publication-type="journal">
+S. D. SILLIMAN, "The numerical evaluation by splines of Fourier transforms," J. Approx. Theory, v.
+12, 1974, pp. 32-51.<person-group>
+                     <string-name>
+                     <surname>Silliman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>32</fpage>
+               <volume>12</volume>
+               <source>J. Approx. Theory</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e1064a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1668590e1071" publication-type="journal">
+R. C. SINGLETON, "An algorithm for computing the mixed radix fast Fourier transform," IEEE
+Trans. Audio Electroacoust., v. AU-17, 1969, pp. 93-103.<person-group>
+                     <string-name>
+                     <surname>Singleton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>AU-17</volume>
+               <source>IEEE Trans. Audio Electroacoust</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668590e1103a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1668590e1110" publication-type="book">
+F. D. TAPPERT, Numerical Solutions of the Korteweg-deVries Equation and its Generalizations by the
+Split-Step Fourier Method, Lectures in Appl. Math., vol. 15, Amer. Math. Soc., Providence, R. I., 1974,
+pp. 215-216.<person-group>
+                     <string-name>
+                     <surname>Tappert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>215</fpage>
+               <volume>15</volume>
+               <source>Numerical Solutions of the Korteweg-deVries Equation and its Generalizations by the Split-Step Fourier Method</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

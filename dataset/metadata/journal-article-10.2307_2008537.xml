@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">56</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">193</issue>
+         <issue-id>i334611</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008537</article-id>
+         
+         <title-group>
+            <article-title>Rosenbrock-Type Methods Adapted to Differential-Algebraic Systems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Claus</given-names>
+                  <surname>Schneider</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1991</year>
+         </pub-date>
+         <fpage>201</fpage>
+         <lpage>213</lpage>
+         <page-range>201-213</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1991 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008537"/>
+         
+         
+         <abstract>
+            <p>We consider the numerical solution of differential-algebraic systems of index one given in Kronecker canonical form. The methods described here are derived from the Rosenbrock approach. Hence, they do not require the solution of nonlinear systems of equations but one evaluation of the Jacobian and one LU decomposition per step. By construction, the $s$-stage method coincides with a solver for nonlinear equations of order $s + 1$ if the stepsize is set to zero. In this sense, the adaptation to differential-algebraic equations is performed. The special structure of the method leads to simplified order conditions and to an easy implementation. Some particular methods up to order 4 are given. Especially, an embedded 4-stage method of order 4 (3) is derived.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65L05</kwd>
+            <kwd>58F99</kwd>
+            <kwd>Differential-algebraic equations</kwd>
+            <kwd>Rosenbrock type methods</kwd>
+            <kwd>implicitly given differential equations</kwd>
+            <kwd>implicit function</kwd>
+            <kwd>homotopy-methods</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d1810522e145a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1810522e152" publication-type="journal">
+P. Deuflhard, E. Hairer, and J. Zugck, One-step and extrapolation methods for differential-
+algebraic systems, Numer. Math.51 (1987), 501-516.<person-group>
+                     <string-name>
+                     <surname>Deuflhard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>501</fpage>
+               <volume>51</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e184a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1810522e191" publication-type="journal">
+C. W. Gear and L. Petzold, ODE methods for the solution of differential algebraic systems,
+SIAM J. Numer. Anal.21 (1985), 716-728.<object-id pub-id-type="jstor">10.2307/2157004</object-id>
+               <fpage>716</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e207a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1810522e214" publication-type="book">
+E. Griepentrog and R. Marz, Differential-algebraic equations and their numerical treatment,
+Teubner Text zur Mathematik, no. 88, Teubner, Leipzig, 1986.<person-group>
+                     <string-name>
+                     <surname>Griepentrog</surname>
+                  </string-name>
+                  </person-group>
+               <source>Differential-algebraic equations and their numerical treatment</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e239a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1810522e246" publication-type="book">
+E. Hairer, C. Lubich, and M. Roche, The numerical solution of differential-algebraic systems
+by Runge-Kutta methods, Lecture Notes in Math., vol. 1409, Springer, New York, 1989.<person-group>
+                     <string-name>
+                     <surname>Hairer</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1409</volume>
+               <source>The numerical solution of differential-algebraic systems by Runge-Kutta methods</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e276a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1810522e283" publication-type="journal">
+P. Kaps and G. Wanner, A study of Rosenbrock-type methods of high order, Numer. Math.
+38 (1981), 279-298.<person-group>
+                     <string-name>
+                     <surname>Kaps</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>279</fpage>
+               <volume>38</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e315a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1810522e322" publication-type="journal">
+W. Liniger, Multistep and one-leg methods for implicit mixed differential algebraic systems,
+IEEE Trans. Circuits and SystemsCAS-29 (1979), 755-762.<person-group>
+                     <string-name>
+                     <surname>Liniger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>755</fpage>
+               <volume>CAS-29</volume>
+               <source>IEEE Trans. Circuits and Systems</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e354a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1810522e361" publication-type="journal">
+P. Lötstedt and L. Petzold, Numerical solution of nonlinear differential equations with alge-
+braic constraints. I: Convergence results for backward differentiation formulas, Math. Comp.
+46 (1986), 491-516.<person-group>
+                     <string-name>
+                     <surname>Lötstedt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>491</fpage>
+               <volume>46</volume>
+               <source>Math. Comp.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e396a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1810522e403" publication-type="journal">
+R. März, Multistep methods for initial value problems in implicit differential-algebraic equa-
+tions, Beiträge Numer. Math.12 (1984), 107-123.<person-group>
+                     <string-name>
+                     <surname>März</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>107</fpage>
+               <volume>12</volume>
+               <source>Beiträge Numer. Math.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e435a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1810522e442" publication-type="journal">
+S. P. Nørsett and A. Wolfbrandt, Order conditions for Rosenbrock type methods, Numer.
+Math.32 (1979), 1-15.<person-group>
+                     <string-name>
+                     <surname>Nørsett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>32</volume>
+               <source>Numer. Math.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e474a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1810522e481" publication-type="journal">
+L. Petzold, Differential-algebraic equations are not ODE's, SIAM J. Sci. Statist. Comput.3
+(1982), 367-384.<person-group>
+                     <string-name>
+                     <surname>Petzold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>367</fpage>
+               <volume>3</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e514a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1810522e521" publication-type="journal">
+L. Petzold and P. Lotstedt, Numerical solution of nonlinear differential equations with alge-
+braic constraints. II: Practical applications, SIAM J. Sci. Statist. Comput.7 (1986), 720-731.<person-group>
+                     <string-name>
+                     <surname>Petzold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>720</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e553a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1810522e560" publication-type="journal">
+P. Rentrop, M. Roche, and G. Steinebach, The application of Rosenbrock- Wanner type
+methods with stepsize control in differential-algebraic equations, Numer. Math.55 (1989),
+545-563.1<person-group>
+                     <string-name>
+                     <surname>Rentrop</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>545</fpage>
+               <volume>55</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e595a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1810522e602" publication-type="journal">
+W. C. Rheinboldt, Differential-algebraic systems as differential equations on manifolds,
+Math. Comp.43 (1984), 473-482.<object-id pub-id-type="doi">10.2307/2008288</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e618a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1810522e625" publication-type="journal">
+M. Roche, Rosenbrock methodsfor differential-algebraic equations, Numer. Math.52 (1988),
+45-63.<person-group>
+                     <string-name>
+                     <surname>Roche</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>45</fpage>
+               <volume>52</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e657a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1810522e664" publication-type="journal">
+H. H. Rosenbrock, Some general implicit processes for the numerical solution of differential
+equations, Comput. J.5 (1963), 329-330.<person-group>
+                     <string-name>
+                     <surname>Rosenbrock</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>5</volume>
+               <source>Comput. J.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1810522e696a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1810522e703" publication-type="other">
+A. Wolfbrandt, A study of Rosenbrock processes with respect to order conditions and stiff
+stability, Thesis, Chalmers University of Technology, Göteborg, Sweden, 1977.</mixed-citation>
+            </ref>
+            <ref id="d1810522e714a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1810522e721" publication-type="book">
+J. F. Traub, Iterative methods for the solution of equations, Prentice-Hall, Englewood Cliffs,
+N. J., 1964.<person-group>
+                     <string-name>
+                     <surname>Traub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative methods for the solution of equations</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">56</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">194</issue>
+         <issue-id>i334612</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008406</article-id>
+         
+         <title-group>
+            <article-title>A Stochastic Roundoff Error Analysis for the Fast Fourier Transform</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Daniela</given-names>
+                  <surname>Calvetti</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1991</year>
+         </pub-date>
+         <fpage>755</fpage>
+         <lpage>774</lpage>
+         <page-range>755-774</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1991 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008406"/>
+         
+         
+         <abstract>
+            <p>We study the accuracy of the output of the Fast Fourier Transform by estimating the expected value and the variance of the accompanying linear forms in terms of the expected value and variance of the relative roundoff errors for the elementary operations of addition and multiplication. We compare the results with the corresponding ones for the direct algorithm for the Discrete Fourier Transform, and we give indications of the relative performances when different rounding schemes are used. We also present the results of numerical experiments run to test the theoretical bounds and discuss their significance.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65G05</kwd>
+            <kwd>42A38</kwd>
+            <kwd>65T05</kwd>
+            <kwd>Accompanying linear forms</kwd>
+            <kwd>floating-point arithmetic</kwd>
+            <kwd>Radix-2 Fast Fourier Transform</kwd>
+            <kwd>rounding errors</kwd>
+            <kwd>random variables</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3757356e148a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3757356e155" publication-type="journal">
+R. C. Agarwal and J. W. Cooley, Fourier transform and convolution subroutines for the IBM
+3090 Vector Facility, IBM J. Res. Develop.30 (1986), 145-162.<person-group>
+                     <string-name>
+                     <surname>Agarwal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>145</fpage>
+               <volume>30</volume>
+               <source>IBM J. Res. Develop.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e187a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3757356e194" publication-type="book">
+S. Arnold, The theory of linear models and multivariate analysis, Wiley, New York, 1981.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <source>The theory of linear models and multivariate analysis</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e216a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3757356e223" publication-type="book">
+P. Bloomfield, Fourier analysis of time series, Wiley, New York, 1976.<person-group>
+                     <string-name>
+                     <surname>Bloomfield</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fourier analysis of time series</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e245a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3757356e252" publication-type="other">
+D. Calvetti, A stochastic roundoff error analysis for the FFT, Doctoral Dissertation, Uni-
+versity of North Carolina at Chapel Hill, 1989.</mixed-citation>
+            </ref>
+            <ref id="d3757356e263a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3757356e270" publication-type="book">
+J. W. R. Cooley, A. W. Lewis, and P. D. Welsh, The Fast Fourier Transform and its appli-
+cations, Research Paper Rc-1743, IBM Research, 1967.<person-group>
+                     <string-name>
+                     <surname>Cooley</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Fast Fourier Transform and its applications</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e295a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3757356e302" publication-type="journal">
+— The Fast Fourier Transform algorithm: Programming considerations in the calculation
+of sine, cosine, and Laplace transforms, J. Sound Vibration12 (1970), 315-337.<person-group>
+                     <string-name>
+                     <surname>Cooley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>12</volume>
+               <source>J. Sound Vibration</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e334a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3757356e341" publication-type="journal">
+J. W. R. Cooley and J. W. Tukey, An algorithm for the machine calculation of complex
+Fourier series, Math. Comp.19 (1965), 297-301.<object-id pub-id-type="doi">10.2307/2003354</object-id>
+               <fpage>297</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e357a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3757356e364" publication-type="journal">
+C. de Boor, FFT as nested multiplication with a twist, SIAM J. Sci. Statist. Comput.1
+(1980), 173-178.<person-group>
+                     <string-name>
+                     <surname>de Boor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e396a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3757356e403" publication-type="book">
+W. Gander and A. Mazzario, Numerische Prozeduren. I (in memoriam Heinz Rutishauser),
+Ber. Fachgruppe Comput. Wiss., vol. 4, ETH, Zurich, 1972.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerische Prozeduren. I</comment>
+               <volume>4</volume>
+               <source>Ber. Fachgruppe Comput. Wiss.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e435a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3757356e442" publication-type="conference">
+W. M. Gentleman and G. Sande, Fast Fourier Transforms—For fun and profit, Fall Joint
+Computer Conf., AFIPS Proc., vol. 29, Spartan, Washington, D. C., 1966, pp. 563-578.<person-group>
+                     <string-name>
+                     <surname>Gentleman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Fourier Transforms—For fun and profit</comment>
+               <fpage>563</fpage>
+               <volume>29</volume>
+               <source>Fall Joint Computer Conf., AFIPS Proc.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e478a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3757356e485" publication-type="book">
+P. Henrici, Discrete variable methods in ordinary differential equations, Wiley, New York,
+1962.<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discrete variable methods in ordinary differential equations</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e510a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3757356e517" publication-type="book">
+—, A model for the propagation of rounding error in floating arithmetic, Interval Mathe-
+matics, 1980 (Karl L. E. Nickel, ed.), Academic Press, New York, 1980, pp. 49-73.<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A model for the propagation of rounding error in floating arithmetic</comment>
+               <fpage>49</fpage>
+               <source>Interval Mathematics</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e549a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3757356e556" publication-type="book">
+—Essentials of numerical analysis with pocket calculator demonstrations, Wiley, New
+York, 1982.<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <source>Essentials of numerical analysis with pocket calculator demonstrations</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e581a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3757356e588" publication-type="book">
+—Applied and computational complex analysis, vol. 3, Wiley, New York, 1986.<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <volume>3</volume>
+               <source>Applied and computational complex analysis</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e613a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3757356e620" publication-type="journal">
+T. Kanero and B. Liu, Accumulation of roundoff error in fast Fourier transforms, J. Assoc.
+Comput. Mach.17 (1970), 637-654.<person-group>
+                     <string-name>
+                     <surname>Kanero</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>637</fpage>
+               <volume>17</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e652a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3757356e659" publication-type="book">
+G. Merz, Fast Fourier transform algorithm with applications, Computational Aspects of
+Complex Analysis (H. Werner et al., eds.), Reidel, Dordrecht, 1983, pp. 249-278.<person-group>
+                     <string-name>
+                     <surname>Merz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Fourier transform algorithm with applications</comment>
+               <fpage>249</fpage>
+               <source>Computational Aspects of Complex Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e692a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3757356e699" publication-type="journal">
+G. U. Ramos, Roundoff error analysis of the Fast Fourier Transform, Math. Comp.25
+(1971), 757-768.<object-id pub-id-type="doi">10.2307/2004342</object-id>
+               <fpage>757</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e715a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3757356e722" publication-type="journal">
+R. C. Singleton, Algorithm 339. An Algol procedure for the Fast Fourier Transform with
+arbitrary factors, Comm. ACM11 (1968), 776.<person-group>
+                     <string-name>
+                     <surname>Singleton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>776</fpage>
+               <volume>11</volume>
+               <source>Comm. ACM</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e754a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3757356e761" publication-type="journal">
+F. Stummel, Forward error analysis of Gaussian elimination, Numer. Math.46 (1985),
+365-395; 397-415.<person-group>
+                     <string-name>
+                     <surname>Stummel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>365</fpage>
+               <volume>46</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e793a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3757356e800" publication-type="book">
+F. Stummel and K. Heiner, Praktische Mathematik, 2nd ed., Teubner, Stuttgart, 1982.<person-group>
+                     <string-name>
+                     <surname>Stummel</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Praktische Mathematik</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e825a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3757356e832" publication-type="journal">
+C. Temperton, Self-sorting mixed radix Fast Fourier Transforms, J. Comput. Phys.52
+(1983), 1-23.<person-group>
+                     <string-name>
+                     <surname>Temperton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>52</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e864a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3757356e871" publication-type="journal">
+M. L. Uhrich, Fast Fourier Transform without sorting, IEEE Trans. Audio Electroacoust.
+17 (1969), 170-172.<person-group>
+                     <string-name>
+                     <surname>Uhrich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>170</fpage>
+               <volume>17</volume>
+               <source>IEEE Trans. Audio Electroacoust.</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e904a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3757356e911" publication-type="journal">
+P. D. Welsh, A fixed-point fast Fourier transform error analysis, IEEE Trans. Audio Elec-
+troacoust.17 (1969), 151-157.<person-group>
+                     <string-name>
+                     <surname>Welsh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>151</fpage>
+               <volume>17</volume>
+               <source>IEEE Trans. Audio Electroacoust.</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e943a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3757356e950" publication-type="journal">
+C. J. Weinstein, Roundoff noise in floating point fast Fourier transform computation, IEEE
+Trans. Audio Electroacoust. 17 (1969), 209-215.<person-group>
+                     <string-name>
+                     <surname>Weinstein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>209</fpage>
+               <volume>17</volume>
+               <source>IEEE Trans. Audio Electroacoust</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757356e982a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3757356e989" publication-type="book">
+J. H. Wilkinson, Rounding errors in algebraic processes, Prentice-Hall, Englewood Cliffs,
+N. J., 1963.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Rounding errors in algebraic processes</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

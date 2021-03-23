@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260293</issue-id>
+         <article-id pub-id-type="jstor">1391106</article-id>
+         
+         <title-group>
+            <article-title>Nonparametric Estimation of Hazard Rate under the Constraint of Monotonicity</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Peter</given-names>
+                  <surname>Hall</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Li-Shan</given-names>
+                  <surname>Huang</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James A.</given-names>
+                  <surname>Gifford</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Irène</given-names>
+                     <surname>Gijbels</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>592</fpage>
+         <lpage>614</lpage>
+         <page-range>592-614</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391106"/>
+         
+         
+         <abstract>
+            <p>This article shows how to smoothly "monotonize" standard kernel estimators of hazard rate, using bootstrap weights. Our method takes a variety of forms, depending on choice of kernel estimator and on the distance function used to define a certain constrained optimization problem. We confine attention to a particularly simple kernel approach and explore a range of distance functions. It is straightforward to reduce "quadratic" inequality constraints to "linear" equality constraints, and so our method may be implemented using little more than conventional Newton-Raphson iteration. Thus, the necessary computational techniques are very familiar to statisticians. We show both numerically and theoretically that monotonicity, in either direction, can generally be imposed on a kernel hazard rate estimator regardless of the monotonicity or otherwise of the true hazard rate. The case of censored data is easily accommodated. Our methods have straightforward extension to the problem of testing for monotonicity of hazard rate, where the distance function plays the role of a test statistic.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bandwidth</kwd>
+            <kwd>Biased bootstrap</kwd>
+            <kwd>Censored data</kwd>
+            <kwd>Decreasing hazard rate</kwd>
+            <kwd>Increasing hazard rate</kwd>
+            <kwd>Power divergence</kwd>
+            <kwd>Survival analysis</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d726729e205a1310">
+               
+               <mixed-citation id="d726729e209" publication-type="book">
+Blum, J.R., and Susarla, V. (1980), "Maximal Deviation Theory of Density and Failure Estimates Based on
+Censored Data," in Multivariate Analysis V, ed. P. R. Krishnaiah, New York: North-Holland, pp. 213-222.<person-group>
+                     <string-name>
+                     <surname>Blum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Maximal Deviation Theory of Density and Failure Estimates Based on Censored Data</comment>
+               <fpage>213</fpage>
+               <source>Multivariate Analysis V</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e241a1310">
+               
+               <mixed-citation id="d726729e245" publication-type="journal">
+Bryson, C.M., and Siddiqui, M.M. (1969), "Some Criteria for Aging," Journal of the American Statistical
+Association, 64, 1472-1483.<object-id pub-id-type="doi">10.2307/2286084</object-id>
+               <fpage>1472</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e261a1310">
+               
+               <mixed-citation id="d726729e265" publication-type="journal">
+Cressie, N.A.C., and Read, T.R.C. (1984), "Multinomial Goodness-of-Fit Tests," Journal of the Royal Statistical
+Society, Ser. B, 46, 440-464.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>440</fpage>
+               <volume>46</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e297a1310">
+               
+               <mixed-citation id="d726729e301" publication-type="journal">
+Diehl, S., and Stute, W. (1988), "Kernel Density and Hazard Function Estimation in the Presence of Censoring,"
+Journal of Multivariate Analysis, 25, 299-3 10.<person-group>
+                     <string-name>
+                     <surname>Diehl</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>299</fpage>
+               <volume>25</volume>
+               <source>Journal of Multivariate Analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e334a1310">
+               
+               <mixed-citation id="d726729e338" publication-type="journal">
+Dhillon, B.S. (1981), "Life Distributions," IEEE Transactions on Reliability, 30, 457-459.<person-group>
+                     <string-name>
+                     <surname>Dhillon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>457</fpage>
+               <volume>30</volume>
+               <source>IEEE Transactions on Reliability</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e367a1310">
+               
+               <mixed-citation id="d726729e371" publication-type="journal">
+Földes, A., Rejto, L., and Winter, B. B. (1981), "Strong Consistency Properties of Nonparametric Estimators for
+Randomly Censored Data, II: Estimation of Density and Failure Rate," Periodica Mathematica Hungarica,
+12, 15-29.<person-group>
+                     <string-name>
+                     <surname>Földes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>15</fpage>
+               <volume>12</volume>
+               <source>Periodica Mathematica Hungarica</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e406a1310">
+               
+               <mixed-citation id="d726729e410" publication-type="journal">
+Gonzalez-Manteiga, W., Cao, R., and Marron, J.S. (1996), "Bootstrap Selection of the Smoothing Parameter in
+Nonparametric Hazard Rate Estimation," Journal of the American Statistical Association, 91, 1130-1140.<object-id pub-id-type="doi">10.2307/2291732</object-id>
+               <fpage>1130</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e426a1310">
+               
+               <mixed-citation id="d726729e430" publication-type="journal">
+Gray, R.J. (1990), "Some Diagnostic Methods for Cox Regression Models Through Hazard Smoothing," Biomet-
+rics, 46, 93-102.<object-id pub-id-type="doi">10.2307/2531633</object-id>
+               <fpage>93</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e446a1310">
+               
+               <mixed-citation id="d726729e450" publication-type="journal">
+(1996), "Hazard Rate Regression Using Ordinary Nonparametric Regression Smoothers," Journal of
+Computational and Graphical Statistics, 5, 190-207.<object-id pub-id-type="doi">10.2307/1390780</object-id>
+               <fpage>190</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e466a1310">
+               
+               <mixed-citation id="d726729e470" publication-type="journal">
+Grenander, U. (1956), "On the Theory of Mortality Measurement, Part II," Scandanavian Actuarial Journal, 39,
+125-153.<person-group>
+                     <string-name>
+                     <surname>Grenander</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>125</fpage>
+               <volume>39</volume>
+               <source>Scandanavian Actuarial Journal</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e503a1310">
+               
+               <mixed-citation id="d726729e507" publication-type="journal">
+Hall, P. (1986), "On the Number of Bootstrap Simulations Required to Construct a Confidence Interval," The
+Annals of Statistics, 14, 1453-1462.<object-id pub-id-type="jstor">10.2307/2241481</object-id>
+               <fpage>1453</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e523a1310">
+               
+               <mixed-citation id="d726729e527" publication-type="other">
+Hall, P., and Huang, L.-S. (1999), "Nonparametric Kernel Regression Subject to Monotonicity Constraints,"
+unpublished manuscript.</mixed-citation>
+            </ref>
+            <ref id="d726729e537a1310">
+               
+               <mixed-citation id="d726729e541" publication-type="journal">
+Hall, P., and Presnell, B. (1999a), "Intentionally Biased Bootstrap Methods," Journal of the Royal Statistical
+Society, Ser. B, 61, 143-158.<person-group>
+                     <string-name>
+                     <surname>Hall</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>143</fpage>
+               <volume>61</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e573a1310">
+               
+               <mixed-citation id="d726729e577" publication-type="journal">
+(1999b), "Density Estimation Under Constraints," Journal of Computational and Graphical Statistics, 8,
+259-277.<object-id pub-id-type="doi">10.2307/1390636</object-id>
+               <fpage>259</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e593a1310">
+               
+               <mixed-citation id="d726729e597" publication-type="journal">
+Hassani, S., Sarda, P., and Vieu, P. (1986), "Approche Non Parametrique en Theorie de la Fiabilite: Revue Bibli-
+ographique" (in French), Revue de Statistique Appliquee, 34, 27-41.<person-group>
+                     <string-name>
+                     <surname>Hassani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>27</fpage>
+               <volume>34</volume>
+               <source>Revue de Statistique Appliquee</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e629a1310">
+               
+               <mixed-citation id="d726729e633" publication-type="journal">
+Hess, K.R., Serachitopol, D.M., and Brown, B.W. (1999), "Hazard Function Estimators: A Simulation Study,"
+Statistics in Medicine, 18, 3075-3088.<person-group>
+                     <string-name>
+                     <surname>Hess</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3075</fpage>
+               <volume>18</volume>
+               <source>Statistics in Medicine</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e666a1310">
+               
+               <mixed-citation id="d726729e670" publication-type="book">
+Johnson, N.L., Kotz, S., and Balakrishnan, N. (1994), Continuous Univariate Distributions (vol. I, 2nd ed.), New
+York: Wiley<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>I</volume>
+               <source>Continuous Univariate Distributions</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e702a1310">
+               
+               <mixed-citation id="d726729e706" publication-type="journal">
+Kaplan, E.L., and Meier, P. (1958), "Nonparametric Estimation From Incomplete Observations," Journal of the
+American Statistical Association, 33, 457-481.<object-id pub-id-type="doi">10.2307/2279116</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e722a1310">
+               
+               <mixed-citation id="d726729e726" publication-type="journal">
+Komlós, J., Major, P., and Tusnady, G. (1975), "An Approximation of Partial Sums of Independent RV's, and the
+Sample DF. I.," Z. Wahrscheinlichkeitstheorie verw. Gebiete, 32, 111-131.<person-group>
+                     <string-name>
+                     <surname>Komlós</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>111</fpage>
+               <volume>32</volume>
+               <source>Z. Wahrscheinlichkeitstheorie verw. Gebiete</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e758a1310">
+               
+               <mixed-citation id="d726729e762" publication-type="journal">
+Kooperberg, C., and Stone, C.J. (1991), "A Study of Logspline Density Estimation," Computational Statistics
+and Data Analysis, 12, 327-347.<person-group>
+                     <string-name>
+                     <surname>Kooperberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>327</fpage>
+               <volume>12</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e794a1310">
+               
+               <mixed-citation id="d726729e798" publication-type="journal">
+(1992), "Logspline Density Estimation for Censored Data," Journal of Computational and Graphical
+Statistics, 1, 301-328.<object-id pub-id-type="doi">10.2307/1390786</object-id>
+               <fpage>301</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e814a1310">
+               
+               <mixed-citation id="d726729e818" publication-type="journal">
+Kooperberg, C., Stone, C.J., and Truong, Y.K. (1995a), "Logspline Estimation of a Possibly Mixed Spectral
+Distribution," Journal of Time Series Analysis, 16, 359-388.<person-group>
+                     <string-name>
+                     <surname>Kooperberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>359</fpage>
+               <volume>16</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e851a1310">
+               
+               <mixed-citation id="d726729e855" publication-type="journal">
+(1995b), "Hazard Regression," Journal of the American Statistical Association, 90, 78-94.<object-id pub-id-type="doi">10.2307/2291132</object-id>
+               <fpage>78</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e868a1310">
+               
+               <mixed-citation id="d726729e872" publication-type="journal">
+(1995c), "The L2 Rate of Convergence for Hazard Regression," Scandanavian Journal of Statistics, 22,
+143-157.<person-group>
+                     <string-name>
+                     <surname>Kooperberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>143</fpage>
+               <volume>22</volume>
+               <source>Scandanavian Journal of Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e904a1310">
+               
+               <mixed-citation id="d726729e908" publication-type="journal">
+Marron, J.S., and Padgett, W.J. (1987), "Asymptotically Optimal Bandwidth Selection for Kernel Density Esti-
+mators from Randomly Right-Censored Samples," The Annals of Statistics, 15, 1520-1535.<object-id pub-id-type="jstor">10.2307/2241688</object-id>
+               <fpage>1520</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e924a1310">
+               
+               <mixed-citation id="d726729e928" publication-type="journal">
+McNichols, D.T., and Padgett, W.J. (1986), "Mean and Variance of a Kernel Density Estimator Under the
+Koziol-Green Model of Random Censorship;' Sankhyã, Ser. A, 48, 150-158.<person-group>
+                     <string-name>
+                     <surname>McNichols</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>150</fpage>
+               <volume>48</volume>
+               <source>Sankhyã, Ser. A</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e960a1310">
+               
+               <mixed-citation id="d726729e964" publication-type="journal">
+Mukerjee, H., and Wang, J.-L. (1993), "Nonparametric Maximum Likelihood Estimation of an Increasing Hazard
+Rate for Uncertain Cause-of-Death Data," Scandnanavian Journal of Statistics, 20, 17-33.<person-group>
+                     <string-name>
+                     <surname>Mukerjee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>20</volume>
+               <source>Scandnanavian Journal of Statistics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e996a1310">
+               
+               <mixed-citation id="d726729e1000" publication-type="journal">
+Müller, H.-G., and Wang, J.-L. (1990), "Locally Adaptive Hazard Smoothing," Probability Theory and Related
+Fields, 85, 523-538.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>523</fpage>
+               <volume>85</volume>
+               <source>Probability Theory and Related Fields</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1033a1310">
+               
+               <mixed-citation id="d726729e1037" publication-type="journal">
+(1994), "Hazard Rate Estimation Under Random Censoring With Varying Kernels and Bandwidths,"
+Biometrics, 50, 61-76.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>61</fpage>
+               <volume>50</volume>
+               <source>Biometrics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1069a1310">
+               
+               <mixed-citation id="d726729e1073" publication-type="journal">
+Nair, V.N. (1984), "Confidence Bands for Survival Functions With Censored Data: A Comparative Study,"
+Technometrics, 26, 265-275.<object-id pub-id-type="doi">10.2307/1267553</object-id>
+               <fpage>265</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1089a1310">
+               
+               <mixed-citation id="d726729e1093" publication-type="journal">
+Owen, A.B. (1988), "Empirical Likelihood Ratio Confidence Intervals for a Single Functional, Biometrika, 75,
+237-249.<object-id pub-id-type="doi">10.2307/2336172</object-id>
+               <fpage>237</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1109a1310">
+               
+               <mixed-citation id="d726729e1113" publication-type="journal">
+(1990), "Empirical Likelihood Ratio Confidence Regions," The Annals of Statistics, 18, 90-120.<object-id pub-id-type="jstor">10.2307/2241537</object-id>
+               <fpage>90</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1126a1310">
+               
+               <mixed-citation id="d726729e1130" publication-type="book">
+Padgett, W.J. (1988), "Nonparametric Estimation of Density and Hazard Rate Functions," in Handbook of Statistics
+(vol.7), eds. P. R. Krishnaiah, P. R. and C. R. Rao, pp. 313-332.<person-group>
+                     <string-name>
+                     <surname>Padgett</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Nonparametric Estimation of Density and Hazard Rate Functions</comment>
+               <fpage>313</fpage>
+               <volume>7</volume>
+               <source>Handbook of Statistics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1165a1310">
+               
+               <mixed-citation id="d726729e1169" publication-type="journal">
+Patil, P. (1993a), "Bandwidth Choice for Nonparametric Hazard Rate Estimation," Journal of Statistical Planning
+Inference, 35, 15-30.<person-group>
+                     <string-name>
+                     <surname>Patil</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>15</fpage>
+               <volume>35</volume>
+               <source>Journal of Statistical Planning Inference</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1202a1310">
+               
+               <mixed-citation id="d726729e1206" publication-type="journal">
+Patil, P. (1993b), "On the Least Squares Cross-Validation Bandwidth in Hazard Rate Estimation," The Annals of
+Statistics, 21, 1792-1810.<object-id pub-id-type="jstor">10.2307/2242317</object-id>
+               <fpage>1792</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1222a1310">
+               
+               <mixed-citation id="d726729e1226" publication-type="journal">
+Patil, P., Wells, M.T., and Marron, J.S. (1994), "Some Heuristics of Kernel Based Estimators of Ratio Functions,"
+Joumal of Nonparametric Statistics, 4, 203-209.<person-group>
+                     <string-name>
+                     <surname>Patil</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>203</fpage>
+               <volume>4</volume>
+               <source>Joumal of Nonparametric Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1258a1310">
+               
+               <mixed-citation id="d726729e1262" publication-type="journal">
+Ramsay, J. O. (1988), "Monotone Regression Splines in Action," Statistical Science, 3, 425-461.<object-id pub-id-type="jstor">10.2307/2245395</object-id>
+               <fpage>425</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1275a1310">
+               
+               <mixed-citation id="d726729e1279" publication-type="journal">
+Sarda, P., and Vieu, P. (1991), "Smoothing Parameter Selection in Hazard Estimation," Statistics and Probability
+Letters, 11, 429-434.<person-group>
+                     <string-name>
+                     <surname>Sarda</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>429</fpage>
+               <volume>11</volume>
+               <source>Statistics and Probability Letters</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1311a1310">
+               
+               <mixed-citation id="d726729e1315" publication-type="book">
+Silverman, B.W. (1986). Density Estimation for Statistics and Data Analysis, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Density Estimation for Statistics and Data Analysis</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1337a1310">
+               
+               <mixed-citation id="d726729e1341" publication-type="journal">
+Singpurwalla, N.D., and Wong, M. Y (1983), "Estimation of the Failure Rate-A Survey of Nonparametric
+Methods, Part I. Non-Bayesian Methods," Communications in Statistics A—Theory Methods, 12, 559-588.<person-group>
+                     <string-name>
+                     <surname>Singpurwalla</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>559</fpage>
+               <volume>12</volume>
+               <source>Communications in Statistics A—Theory Methods</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1374a1310">
+               
+               <mixed-citation id="d726729e1378" publication-type="other">
+Stute, W. (1985), "Optimal Bandwidth Selection in Pointwise Density and Hazard Rate Estimation When Censoring
+is Present," unpublished manuscript.</mixed-citation>
+            </ref>
+            <ref id="d726729e1388a1310">
+               
+               <mixed-citation id="d726729e1392" publication-type="book">
+Turlach, B.A. (1997), "Constrained Smoothing Splines Revisited," technical report SSR97-008, Centre for Math-
+ematics and its Applications, Australian National University.<person-group>
+                     <string-name>
+                     <surname>Turlach</surname>
+                  </string-name>
+                  </person-group>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726729e1414a1310">
+               
+               <mixed-citation id="d726729e1418" publication-type="journal">
+Villalobos, M., and Wahba, G. (1987), "Inequality-Constrained Multivariate Smoothing Splines With Application
+to the Estimation of Posterior Probabilities," Journal of the American Statistical Association, 82, 239-248.<object-id pub-id-type="doi">10.2307/2289160</object-id>
+               <fpage>239</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

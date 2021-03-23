@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">232</issue>
+         <issue-id>i344572</issue-id>
+         <article-id pub-id-type="jstor">2585093</article-id>
+         
+         <title-group>
+            <article-title>On Searching for Solutions of the Diophantine Equation x&lt;sup&gt;3&lt;/sup&gt; + y&lt;sup&gt;3&lt;/sup&gt; + 2z&lt;sup&gt;3&lt;/sup&gt; = n</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Kenji</given-names>
+                  <surname>Koyama</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>1735</fpage>
+         <lpage>1742</lpage>
+         <page-range>1735-1742</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585093"/>
+         
+         
+         <abstract>
+            <p>We propose an efficient search algorithm to solve the equation x&lt;sup&gt;3&lt;/sup&gt; + y&lt;sup&gt;3&lt;/sup&gt; + 2z&lt;sup&gt;3&lt;/sup&gt; = n for a fixed value of &lt;latex&gt;$n &gt; 0$&lt;/latex&gt;. By parametrizing |z|, this algorithm obtains |x| and |y| (if they exist) by solving a quadratic equation derived from divisors of 2|z|&lt;sup&gt;3&lt;/sup&gt; ± n. Thanks to the use of several efficient numbertheoretic sieves, the new algorithm is much faster on average than previous straightforward algorithms. We performed a computer search for six values of n below 1000 for which no solution had previously been found. We found three new integer solutions for n = 183, 491 and 931 in the range of |z| ≤ 5 · 10&lt;sup&gt;7&lt;/sup&gt;.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(00)01202-3</kwd>
+            <kwd>11D25</kwd>
+            <kwd>Diophantine Equation</kwd>
+            <kwd>Cubic</kwd>
+            <kwd>Number-Theoretic Sieves</kwd>
+            <kwd>Search Algorithm</kwd>
+            <kwd>Computer Search</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4070213e145a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4070213e152" publication-type="other">
+J. H. E. Cohn, private communication (1995)</mixed-citation>
+            </ref>
+            <ref id="d4070213e159a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4070213e166" publication-type="journal">
+V.A. Demjanenko, On sums of four cubes (Russian), Izv.Vyssh.Uchebn. Zaved. Matematika,
+1966 no. 5 (54) 64-69. MR 34:2525<person-group>
+                     <string-name>
+                     <surname>Demjanenko</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>64</fpage>
+               <source>Izv.Vyssh.Uchebn. Zaved. Matematika</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e198a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4070213e205" publication-type="book">
+R. K. Guy, Unsolved Problems in Number Theory, First Edition, Springer, New York, 1981.
+MR 83k:10002<person-group>
+                     <string-name>
+                     <surname>Guy</surname>
+                  </string-name>
+                  </person-group>
+               <edition>1</edition>
+               <source>Unsolved Problems in Number Theory</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e234a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4070213e241" publication-type="book">
+R. K. Guy, Unsolved Problems in Number Theory, Second Edition, Springer, New York,
+1994. MR 96e:11002<person-group>
+                     <string-name>
+                     <surname>Guy</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Unsolved Problems in Number Theory</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e271a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4070213e278" publication-type="journal">
+D. R. Heath-Brown, W. M. Lioen and H. J. J. te Riele, On solving the Diophantine equation
+X3 + y3 + Z3 = k on a vector computer, Math. Comp.61 (1993), 235-244. MR 94f:11132<object-id pub-id-type="doi">10.2307/2152950</object-id>
+               <fpage>235</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e294a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4070213e301" publication-type="journal">
+K. Koyama, Tables of solutions of the Diophantine equation x3 + y3 +Z3 = n, Math. Comp.
+62 (1994), 941-942.<object-id pub-id-type="doi">10.2307/2153554</object-id>
+               <fpage>941</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e317a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4070213e324" publication-type="journal">
+K. Koyama, Y. Tsuruoka and H. Sekigawa, On searching for solutions of the Diophantine
+equation x3 + y3 + Z3 = n, Math. Comp.66 (1997), 841-851. MR 97m:11041<object-id pub-id-type="jstor">10.2307/2153900</object-id>
+               <fpage>841</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e340a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4070213e347" publication-type="other">
+R. F. Lukes, private communication (1995).</mixed-citation>
+            </ref>
+            <ref id="d4070213e354a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4070213e361" publication-type="book">
+L. J. Mordell, Diophantine Equations, Academic Press, New York, 1969. MR 40:2600<person-group>
+                     <string-name>
+                     <surname>Mordell</surname>
+                  </string-name>
+                  </person-group>
+               <source>Diophantine Equations</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070213e383a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4070213e390" publication-type="journal">
+H. Sekigawa and K. Koyama, Nonexistence conditions of a solution for the congruence
+k +.. + N ( to appear in Math. Comp., 68 (1999), 1283-1297. MR 99i:11024<object-id pub-id-type="jstor">10.2307/2584963</object-id>
+               <fpage>1283</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

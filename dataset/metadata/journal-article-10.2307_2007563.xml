@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">42</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">165</issue>
+         <issue-id>i334583</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007563</article-id>
+         
+         <title-group>
+            <article-title>The Lanczos Algorithm With Partial Reorthogonalization</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Horst D.</given-names>
+                  <surname>Simon</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1984</year>
+         </pub-date>
+         <fpage>115</fpage>
+         <lpage>142</lpage>
+         <page-range>115-142</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1984 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007563"/>
+         
+         
+         <abstract>
+            <p>The Lanczos algorithm is becoming accepted as a powerful tool for finding the eigenvalues and for solving linear systems of equations. Any practical implementation of the algorithm suffers however from roundoff errors, which usually cause the Lanczos vectors to lose their mutual orthogonality. In order to maintain some level of orthogonality, full reorthogonalization (FRO) and selective orthogonalization (SO) have been used in the past as a remedy. Here partial reorthogonalization (PRO) is proposed as a new method for maintaining semiorthogonality among the Lanczos vectors. PRO is based on a simple recurrence, which allows us to monitor the loss of orthogonality among the Lanczos vectors directly without computing the inner products. Based on the information from the recurrence, reorthogonalizations occur only when necessary. Thus substantial savings are made as compared to FRO. In some numerical examples we apply the Lanczos algorithm with PRO to the solution of large symmetric systems of linear equations and show that it is a robust and efficient algorithm for maintaining semiorthogonality among the Lanczos vectors. The results obtained compare favorably with the conjugate gradient method.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d302205e154a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d302205e161" publication-type="book">
+J. CULLUM &amp; R. WILLOUGHBY, "Lanczos and the computation in specified intervals of the
+spectrum of large sparse real symmetric matrices," in Sparse Matrix Proceedings (I. Duff and G. W.
+Stewart, eds.), SIAM, Philadelphia, Pa., 1979.<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Lanczos and the computation in specified intervals of the spectrum of large sparse real symmetric matrices</comment>
+               <source>Sparse Matrix Proceedings</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e193a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d302205e200" publication-type="book">
+J. CULLUM &amp; R. WILLOUGHBY, " Computing eigenvectors and eigenvalues of large sparse symmetric
+matrices using Lanczos tridiagonalization," in Numerical Analysis Proceedings, Dundee 1979 (G. A.
+Watson, ed.), Springer-Verlag, Berlin, 1980.<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computing eigenvectors and eigenvalues of large sparse symmetric matrices using Lanczos tridiagonalization</comment>
+               <source>Numerical Analysis Proceedings, Dundee 1979</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e232a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d302205e239" publication-type="book">
+G. GOLUB, R. UNDERWOOD &amp; J. H. WILKINSON, The Lanczos Algorithm for the Symmetric
+Ax = λBx Problem, Tech. Rep. STAN-CS-72-720, Comp. Sci. Dept., Stanford University, 1972.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Lanczos Algorithm for the Symmetric Ax = λBx Problem</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e264a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d302205e271" publication-type="other">
+J. GRCAR, Analyses of the Lanczos Algorithm and of the Approximation Problem in Richardson's
+Method, Ph.D. thesis, University of Illinois at Urbana-Champaign, 1981.</mixed-citation>
+            </ref>
+            <ref id="d302205e282a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d302205e289" publication-type="journal">
+D. S. KERSHAW. "The incomplete Choleski-conjugate gradient method for the iterativc solution of
+svstems of linear equations," J. Comput. Phys., v. 24, 1978, pp. 43-65.<person-group>
+                     <string-name>
+                     <surname>Kershaw</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>43</fpage>
+               <volume>24</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e321a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d302205e328" publication-type="journal">
+C. LANCZOS, "Solution of systems of linear equations by minimized iterations," J. Res. Nat. Bur.
+Standards, v. 49, 1952, pp. 33-53.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>49</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e360a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d302205e367" publication-type="journal">
+N. MUNKSGAARD, "Solving sparse symmetric sets of linear equations by preconditioned conjugate
+gradients," ACM TOMS, v. 6, 1980, pp. 206-219.<person-group>
+                     <string-name>
+                     <surname>Munksgaard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>206</fpage>
+               <volume>6</volume>
+               <source>ACM TOMS</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e399a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d302205e406" publication-type="book">
+B. NOUR-OMID), A Newton-Lanczos Method for Solution of Nonlinear Finite Element Equations,
+Report UCB/SESM-8 1/04, Dept. of Civil Engineering, University of California. Berkeley, 1981.<person-group>
+                     <string-name>
+                     <surname>Nour-omid</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Newton-Lanczos Method for Solution of Nonlinear Finite Element Equations</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e431a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d302205e438" publication-type="journal">
+B. NOUR-OMID, B. N. PARLETT &amp; R. TAYLOR, "Lanczos versus subspace iteration for the solution
+of eigenvalue problems," Internat. J. Numer. Methods Engrg., v. 19, 1983, pp. 859-871.<person-group>
+                     <string-name>
+                     <surname>Nour-omid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>859</fpage>
+               <volume>19</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e470a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d302205e477" publication-type="other">
+C. PAIGE, The Computation of Eigenvalues and Eigenvectors of Very Large Sparse Matrices. Ph.D.
+Thesis, Univ. of London, 1971.</mixed-citation>
+            </ref>
+            <ref id="d302205e488a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d302205e495" publication-type="journal">
+C. PAIGE, "Computational variants of the Lanczos method for the eigenproblem," J. Inst. Math.
+Appl., v. 10, 1972, pp. 373-381.<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>373</fpage>
+               <volume>10</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e527a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d302205e534" publication-type="journal">
+C. PAIGE, "Error analysis of the Lanczos algorithm for tridiagonalizing a symmetric matrix," ,1.
+Inst. Math. Appl., v. 18, 1976, pp. 341-349.<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>341</fpage>
+               <volume>18</volume>
+               <source>Inst. Math. Appl.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e566a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d302205e573" publication-type="journal">
+C. PAIGE, "Accuracy and effectiveness of the Lanczos algorithm for the symmetric eigenproblem."
+Linear Algebra Appl., v. 34, 1980, pp. 235-258.<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>34</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e605a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d302205e612" publication-type="journal">
+C. PAIGE &amp; M. SAUNDERS. "Solution of sparse indefinite systems of linear equations," SIAM J.
+Numer. Anal., v. 12, 1975, pp. 617-629.<object-id pub-id-type="jstor">10.2307/2156178</object-id>
+               <fpage>617</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e628a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d302205e635" publication-type="book">
+B. N. PARLETT, The Symmetric Eigenvalue Problem, Prentice-Hall, Englewood Cliffs, N. J., 1980.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Symmetric Eigenvalue Problem</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e657a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d302205e664" publication-type="journal">
+B. N. PARLETT, "A new look at the Lanczos algorithm for solving symmetric systems of linear
+equations," Linear Algebra Appl., v. 29, 1980. pp. 323-346.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>323</fpage>
+               <volume>29</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e697a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d302205e704" publication-type="journal">
+B. N. PARLETT &amp; J. K. REID, "Tracking the progress of the Lanczos algorithm for large symmetric
+eigenproblems," IMA J. Numer Anal., v. 1, 1981, pp. 135-155.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>135</fpage>
+               <volume>1</volume>
+               <source>IMA J. Numer Anal.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e736a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d302205e743" publication-type="journal">
+B. N. PARLETT &amp; D. SCOTT, "The Lanczos algorithm with selective orthogonalization," Math.
+Comp., v. 33. 1979. pp. 217-238.<object-id pub-id-type="doi">10.2307/2006037</object-id>
+               <fpage>217</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e759a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d302205e766" publication-type="other">
+D. S. SCOTT, Analysis of the Symmetric Lanczos Process, Ph.D. thesis, Dept. of Math., University of
+California, Berkeley, 1978.</mixed-citation>
+            </ref>
+            <ref id="d302205e776a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d302205e783" publication-type="book">
+H. D. SIMON, The Lanczos Algorithm for Solving Symmetric Linear Systems, Report PAM-74. Center
+for Pure and AppI. Math., Univ. of California, Berkelev, 1982.<person-group>
+                     <string-name>
+                     <surname>Simon</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Lanczos Algorithm for Solving Symmetric Linear Systems</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e808a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d302205e815" publication-type="book">
+H. TAKAHASI &amp; M. NATORI, Eigenvalue Problem of Large Sparse Matrices, Rep. Comp. Center,
+Univ. Tokyo, No. 4. 1971-1972. pp. 129-148.<person-group>
+                     <string-name>
+                     <surname>Takahasi</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Eigenvalue Problem of Large Sparse Matrices</comment>
+               <fpage>129</fpage>
+               <source>Rep. Comp. Center</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e847a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d302205e854" publication-type="book">
+J. H. WILKINSON, The Algebraic Eigenvalue Problem, Clarendon Press, Oxford, 1965.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Algebraic Eigenvalue Problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d302205e877a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d302205e884" publication-type="other">
+E. WILSON, private communication.</mixed-citation>
+            </ref>
+            <ref id="d302205e891a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d302205e898" publication-type="book">
+O. C. ZIENKIEWICZ, The Finite Element Method, 3rd ed., McGraw-Hill, London, 1977.<person-group>
+                     <string-name>
+                     <surname>Zienkiewicz</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>The Finite Element Method</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

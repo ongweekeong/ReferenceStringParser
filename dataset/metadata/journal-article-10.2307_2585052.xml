@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">226</issue>
+         <issue-id>i344566</issue-id>
+         <article-id pub-id-type="jstor">2585052</article-id>
+         
+         <title-group>
+            <article-title>Automatic Differentiation of Numerical Integration Algorithms</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Peter</given-names>
+                  <surname>Eberhard</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Christian</given-names>
+                  <surname>Bischof</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>717</fpage>
+         <lpage>731</lpage>
+         <page-range>717-731</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585052"/>
+         
+         
+         <abstract>
+            <p>Automatic differentiation (AD) is a technique for automatically augmenting computer programs with statements for the computation of derivatives. This article discusses the application of automatic differentiation to numerical integration algorithms for ordinary differential equations (ODEs), in particular, the ramifications of the fact that AD is applied not only to the solution of such an algorithm, but to the solution procedure itself. This subtle issue can lead to surprising results when AD tools are applied to variable-stepsize, variable-order ODE integrators. The computation of the final time step plays a special role in determining the computed derivatives. We investigate these issues using various integrators and suggest constructive approaches for obtaining the desired derivatives.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01027-3</kwd>
+            <kwd>34A12</kwd>
+            <kwd>65L05</kwd>
+            <kwd>65L06</kwd>
+            <kwd>68N99</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1224013e178a1310">
+               <label>1</label>
+               
+               <p>
+               <mixed-citation id="d1224013e185" publication-type="other">
+http://www.mcs.anl.gov/adifor</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1224013e191" publication-type="other">
+http://www.cs.rice.edu/~adifor.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1224013e198a1310">
+               <label>2</label>
+               
+               <p>
+               <mixed-citation id="d1224013e205" publication-type="other">
+http://www.mcs.anl.gov/Projects/autodiff/adtools.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1224013e212a1310">
+               <label>3</label>
+               
+               <p>
+               <mixed-citation id="d1224013e219" publication-type="other">
+http://netlib.att.com/netlib/master/readme.html.</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1224013e235a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1224013e242" publication-type="book">
+Martin Berz, Christian Bischof, George Corliss, and Andreas Griewank, Computational dif-
+ferentiation: Techniques, applications, and tools, SIAM, Philadelphia, 1996. MR 97h:65005<person-group>
+                     <string-name>
+                     <surname>Berz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational differentiation: Techniques, applications, and tools</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e267a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1224013e274" publication-type="journal">
+Dieter Bestle and Peter Eberhard, Analyzing and optimizing multibody systems, Mechanical
+Structures and Machinery20 (1992), no. 1, 67-92.<person-group>
+                     <string-name>
+                     <surname>Bestle</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>67</fpage>
+               <volume>20</volume>
+               <source>Mechanical Structures and Machinery</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e309a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1224013e316" publication-type="book">
+Christian H. Bischof and Mohammad R. Haghighat, On hierarchical differentiation, Compu-
+tational Differentiation: Techniques, Applications, and Tools (Martin Berz, Christian Bischof,
+George Corliss, and Andreas Griewank, eds.), SIAM, Philadelphia, 1996, pp. 83-94.<person-group>
+                     <string-name>
+                     <surname>Bischof</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On hierarchical differentiation</comment>
+               <fpage>83</fpage>
+               <source>Computational Differentiation: Techniques, Applications, and Tools</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e351a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1224013e358" publication-type="journal">
+Christian Bischof, Alan Carle, Peyvand Khademi, and Andrew Mauer, ADIFOR 2.0: Auto-
+matic differentiation of Fortran 77 programs, IEEE Computational Science &amp; Engineering3
+(1996), no. 3, 18-32<person-group>
+                     <string-name>
+                     <surname>Bischof</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>18</fpage>
+               <volume>3</volume>
+               <source>IEEE Computational Science &amp; Engineering</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e397a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1224013e404" publication-type="journal">
+Christian Bischof, Lucas Roh, and Andrew Mauer, ADIC -An extensible automatic differ-
+entiation tool for ANSI-C, Software-Practice and Experience27 (1997), no. 12, 1427-1456.<person-group>
+                     <string-name>
+                     <surname>Bischof</surname>
+                  </string-name>
+                  </person-group>
+               <issue>12</issue>
+               <fpage>1427</fpage>
+               <volume>27</volume>
+               <source>Software-Practice and Experience</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e439a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1224013e446" publication-type="book">
+John C. Butcher, The numerical analysis of ordinary differential equations (Runge-Kutta
+and general linear methods), John Wiley and Sons, New York, 1987. MR 88d:65002<person-group>
+                     <string-name>
+                     <surname>Butcher</surname>
+                  </string-name>
+                  </person-group>
+               <source>The numerical analysis of ordinary differential equations (Runge-Kutta and general linear methods)</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e471a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1224013e478" publication-type="journal">
+J. Cash and A. Karp, A variable order Runge-Kutta method for initial value problems with
+rapidly varying right-hand sides, ACM Transactions on Mathematical Software16 (1990),
+no. 3, 201-222. CMP 91:01<person-group>
+                     <string-name>
+                     <surname>Cash</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>201</fpage>
+               <volume>16</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e516a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1224013e523" publication-type="journal">
+Evin Cramer, Paul Frank, Gregory Shubin, John Dennis, and Robert Michael Lewis, Problem
+formulations for multidisciplinary optimization, SIAM J. Optimization4 (1994), no. 4, 754-
+776. MR 95h:90002<person-group>
+                     <string-name>
+                     <surname>Cramer</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>754</fpage>
+               <volume>4</volume>
+               <source>SIAM J. Optimization</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e561a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1224013e568" publication-type="journal">
+Peter Eberhard, Zur Mehrkriterienoptimierung von Mehrkorpersystemen, VDI Fortschritt-
+Berichte11 (1996), no. 227.<person-group>
+                     <string-name>
+                     <surname>Eberhard</surname>
+                  </string-name>
+                  </person-group>
+               <issue>227</issue>
+               <volume>11</volume>
+               <source>VDI Fortschritt-Berichte</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e600a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1224013e607" publication-type="journal">
+Andreas Griewank, Christian Bischof, George Corliss, Alan Carle, and Karen Williamson,
+Derivative convergence of iterative equation solvers, Optimization Methods and Software2
+(1993), 321-355.<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>321</fpage>
+               <volume>2</volume>
+               <source>Optimization Methods and Software</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e643a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1224013e650" publication-type="book">
+Andreas Griewank and Shawn Reese, On the calculation of Jacobian matrices by the
+Markowitz rule, Automatic Differentiation of Algorithms: Theory, Implementation, and Ap-
+plication (Andreas Griewank and George F. Corliss, eds.), SIAM, Philadelphia, 1991, pp. 126-
+135. MR 92i:65223<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the calculation of Jacobian matrices by the Markowitz rule</comment>
+               <fpage>126</fpage>
+               <source>Automatic Differentiation of Algorithms: Theory, Implementation, and Application</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e688a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1224013e695" publication-type="book">
+Andreas Griewank, On automatic differentiation, Mathematical Programming: Recent De-
+velopments and Applications (Amsterdam), Kluwer Academic Publishers, 1989, pp. 83-108.
+MR 92k:65002<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On automatic differentiation</comment>
+               <fpage>83</fpage>
+               <source>Mathematical Programming: Recent Developments and Applications</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e730a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1224013e737" publication-type="book">
+E. Hairer, S. P. N0rsett, and G. Wanner, Solving ordinary differential equations I: Nonstiff
+problems, Springer Verlag, New York, 1987. MR 87m:65005<person-group>
+                     <string-name>
+                     <surname>Hairer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Solving ordinary differential equations I: Nonstiff problems</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e762a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1224013e769" publication-type="book">
+E. Hairer and G. Wanner, Solving ordinary differential equations II: Stiff and differential-
+algebraic problems, Springer Series in Computational Mathematics, vol. 14, Springer-Verlag,
+New York, 1991. MR 92a:65016<person-group>
+                     <string-name>
+                     <surname>Hairer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Solving ordinary differential equations II: Stiff and differential-algebraic problems</comment>
+               <volume>14</volume>
+               <source>Springer Series in Computational Mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e804a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1224013e811" publication-type="book">
+Alan Hindmarsh, ODEPACK, a systematized collection of ODE solvers, pp. 55-64, North-
+Holland, Amsterdam, 1983. CMP 16:15<person-group>
+                     <string-name>
+                     <surname>Hindmarsh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>55</fpage>
+               <source>ODEPACK, a systematized collection of ODE solvers</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e840a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1224013e847" publication-type="book">
+William H. Press, Saul A. Teukolsky, William T. Vetterling, and Brian P. Flannery, Numerical
+recipes in Fortran: The art of scientific computing, 2nd ed., Cambridge University Press,
+1992. MR 93i:65001a<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Numerical recipes in Fortran: The art of scientific computing</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e880a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1224013e887" publication-type="book">
+Louis B. Rall, Automatic differentiation: Techniques and applications, Lecture Notes in
+Computer Science, vol. 120, Springer Verlag, Berlin, 1981.<person-group>
+                     <string-name>
+                     <surname>Rall</surname>
+                  </string-name>
+                  </person-group>
+               <volume>120</volume>
+               <source>Automatic differentiation: Techniques and applications</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e916a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1224013e923" publication-type="journal">
+A. Sandu, G. R. Carmichael, and F. A. Potra, Sensitivity analysis for atmospheric chemistry
+models via automatic differentiation, Atmospheric Environment31 (1997), no. 3, 475-489.<person-group>
+                     <string-name>
+                     <surname>Sandu</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>475</fpage>
+               <volume>31</volume>
+               <source>Atmospheric Environment</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e958a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1224013e965" publication-type="book">
+Granville Sewell, The numerical solution of ordinary and partial differential equations, Aca-
+demic Press, San Diego, California, 1988. MR 89i:65001<person-group>
+                     <string-name>
+                     <surname>Sewell</surname>
+                  </string-name>
+                  </person-group>
+               <source>The numerical solution of ordinary and partial differential equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e990a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1224013e997" publication-type="book">
+L. Shampine and M. Gordon, Computer solution of ordinary differential equations, Freeman,
+San Francisco, 1975. MR 57:18104<person-group>
+                     <string-name>
+                     <surname>Shampine</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer solution of ordinary differential equations</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1224013e1022a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1224013e1029" publication-type="book">
+J. Stoer and R. Bulirsch, Introduction to numerical analysis, Springer Verlag, New York,
+1980. MR 83d:65002<person-group>
+                     <string-name>
+                     <surname>Stoer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to numerical analysis</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">223</issue>
+         <issue-id>i344563</issue-id>
+         <article-id pub-id-type="jstor">2585174</article-id>
+         
+         <title-group>
+            <article-title>The Efficient Computation of Fourier Transforms on the Symmetric Group</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David K.</given-names>
+                  <surname>Maslen</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1121</fpage>
+         <lpage>1147</lpage>
+         <page-range>1121-1147</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585174"/>
+         
+         
+         <abstract>
+            <p>This paper introduces new techniques for the efficient computation of Fourier transforms on symmetric groups and their homogeneous spaces. We replace the matrix multiplications in Clausen's algorithm with sums indexed by combinatorial objects that generalize Young tableaux, and write the result in a form similar to Horner's rule. The algorithm we obtain computes the Fourier transform of a function on S&lt;sub&gt;n&lt;/sub&gt; in no more than 3/4n (n - 1)|&lt;sub&gt;n&lt;/sub&gt;| multiplications and the same number of additions. Analysis of our algorithm leads to several combinatorial problems that generalize path counting. We prove corresponding results for inverse transforms and transforms on homogeneous spaces.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00964-8</kwd>
+            <kwd>20C30</kwd>
+            <kwd>20C40</kwd>
+            <kwd>65T20</kwd>
+            <kwd>05E10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1292345e147a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1292345e154" publication-type="book">
+T. Beth, Verfahren der schnellen-Fourier-Transformation, Teubner Studienbiicher, Stutt-
+gart, 1984. MR 86g:65002<person-group>
+                     <string-name>
+                     <surname>Beth</surname>
+                  </string-name>
+                  </person-group>
+               <source>Verfahren der schnellen-Fourier-Transformation</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e179a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1292345e186" publication-type="book">
+P. Bürgisser, M. Clausen, A. Shokrollahi, Algebraic Complexity Theory, Springer-Verlag,
+Berlin, 1996. CMP 97 :10<person-group>
+                     <string-name>
+                     <surname>Bürgisser</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algebraic Complexity Theory</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e211a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1292345e218" publication-type="book">
+M. Clausen and U. Baum, Fast Fourier transforms, Wissenschaftsverlag, Mannheim, 1993.
+MR 96i:68001<person-group>
+                     <string-name>
+                     <surname>Clausen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fast Fourier transforms</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e243a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1292345e250" publication-type="journal">
+—, Fast Fourier transforms for symmetric groups, theory and implementation, Math.
+Comp.61(204) (1993), 833-847. MR 94a:20028<object-id pub-id-type="doi">10.2307/2153256</object-id>
+               <fpage>833</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e267a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1292345e274" publication-type="journal">
+M. Clausen, Fast generalized Fourier transforms, Theoret. Comput. Sci.67 (1989), 55-63.
+MR 91f:68081<person-group>
+                     <string-name>
+                     <surname>Clausen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>55</fpage>
+               <volume>67</volume>
+               <source>Theoret. Comput. Sci.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e306a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1292345e313" publication-type="book">
+—Beiträge zum Entwurf schneller Spektraltransformationen, Habilitationsschrift,
+Fakultait fur Informatik der Universitit Karlsruhe (TH), 1988.<person-group>
+                     <string-name>
+                     <surname>Clausen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Beiträge zum Entwurf schneller Spektraltransformationen</comment>
+               <source>Habilitationsschrift</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e342a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1292345e349" publication-type="journal">
+J. W. Cooley and J. W. Tukey, An algorithm for machine calculation of complex Fourier
+series, Math. Comp.19 (1965), 297-301. MR 31:2843<object-id pub-id-type="doi">10.2307/2003354</object-id>
+               <fpage>297</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e365a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1292345e372" publication-type="journal">
+P. Diaconis, A generalization of spectral analysis with applications to ranked data, Ann. Stat.
+17 (1989), 949-979. MR 91a:60025<object-id pub-id-type="jstor">10.2307/2241705</object-id>
+               <fpage>949</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e388a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1292345e395" publication-type="book">
+—Group representations in probability and statistics, IMS, Hayward, CA, 1988.<person-group>
+                     <string-name>
+                     <surname>Diaconis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Group representations in probability and statistics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e417a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1292345e424" publication-type="journal">
+P. Diaconis and D. Rockmore, Efficient computation of the Fourier transform on finite
+groups, J. Amer. Math. Soc.3(2) (1990), 297-332. MR 92g:20024<object-id pub-id-type="doi">10.2307/1990955</object-id>
+               <fpage>297</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e441a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1292345e448" publication-type="book">
+—, Efficient computation of isotypic projections for the symmetric group, DIMACS Ser.
+Discrete Math. Theoret. Comput. Sci.11, L. Finkelstein and W. Kantor (eds.), 1993, 87-104.
+MR 94g:20022<person-group>
+                     <string-name>
+                     <surname>Diaconis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>11</volume>
+               <source>Efficient computation of isotypic projections for the symmetric group</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e483a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1292345e490" publication-type="book">
+D. Elliott and K. Rao, Fast transforms: algorithms, analyses, and applications, Academic,
+New York, 1982. MR 85e:94001<person-group>
+                     <string-name>
+                     <surname>Elliott</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fast transforms: algorithms, analyses, and applications</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e515a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1292345e522" publication-type="journal">
+I. Gel'fand and M. Tsetlin, Finite dimensional representations of the group of unimodular
+matrices, Dokl. Akad. Nauk SSSR71 (1950), 825-828 (Russian). MR 12:9j<person-group>
+                     <string-name>
+                     <surname>Gel'fand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>825</fpage>
+               <volume>71</volume>
+               <source>Dokl. Akad. Nauk SSSR</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e554a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1292345e561" publication-type="book">
+F. Goodman, P. de la Harpe, and V. Jones, Coxeter graphs and towers of algebras, Springer-
+Verlag, New York, 1989. MR 91c:46082<person-group>
+                     <string-name>
+                     <surname>Goodman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Coxeter graphs and towers of algebras</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e586a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1292345e593" publication-type="book">
+G. James and A. Kerber, The representation theory of the symmetric group, Encyclopedia
+of Mathematics and its Applications, vol. 16, Addison-Wesley, Reading MA, 1981. MR
+83k:20003<person-group>
+                     <string-name>
+                     <surname>James</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The representation theory of the symmetric group</comment>
+               <volume>16</volume>
+               <source>Encyclopedia of Mathematics and its Applications</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e628a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1292345e635" publication-type="journal">
+S. Linton, G. Michler, and J. Olsson, Fourier transforms with respect to monomial represen-
+tations, Math. Ann.297 (1993), 253-268. MR 94i:20015<person-group>
+                     <string-name>
+                     <surname>Linton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>253</fpage>
+               <volume>297</volume>
+               <source>Math. Ann.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e668a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1292345e675" publication-type="book">
+I. Macdonald, Symmetric functions and Hall polynomials, Oxford University Press, 1979.
+MR 84g:05003<person-group>
+                     <string-name>
+                     <surname>Macdonald</surname>
+                  </string-name>
+                  </person-group>
+               <source>Symmetric functions and Hall polynomials</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e700a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1292345e707" publication-type="journal">
+D. Maslen, Efficient computation of Fourier transforms on compact groups, J. Fourier Anal.
+Appl. (to appear).<person-group>
+                     <string-name>
+                     <surname>Maslen</surname>
+                  </string-name>
+                  </person-group>
+               <source>J. Fourier Anal. Appl.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e729a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1292345e736" publication-type="book">
+D. Maslen and D. Rockmore Generalized FFTs - a survey of some recent results, DIMACS
+Ser. Discrete Math. Theoret. Comput. Sci., Groups and Computation, II, L. Finkelstein and
+W. Kantor (eds.), (1996), 183-237. CMP 97:11<person-group>
+                     <string-name>
+                     <surname>Maslen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>183</fpage>
+               <volume>II</volume>
+               <source>Generalized FFTs - a survey of some recent results</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e771a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1292345e778" publication-type="journal">
+—, Separation of variables and the efficient computation of Fourier transforms on finite
+groups, I, J. Amer. Math. Soc.10 (1) (1997). MR 97i:20019<object-id pub-id-type="jstor">10.2307/2152907</object-id>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e791a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1292345e798" publication-type="other">
+—Separation of variables and the efficient computation of Fourier transforms on finite
+groups, II, (preprint).</mixed-citation>
+            </ref>
+            <ref id="d1292345e808a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1292345e815" publication-type="book">
+D. Rockmore, Applications of generalized FFTs, DIMACS Ser. Discrete Math. Theoret. Com-
+put. Sci., Groups and Computation, II, L. Finkelstein and W. Kantor (eds.), (1996). CMP
+97:11<person-group>
+                     <string-name>
+                     <surname>Rockmore</surname>
+                  </string-name>
+                  </person-group>
+               <volume>II</volume>
+               <source>Applications of generalized FFTs</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e848a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1292345e855" publication-type="book">
+J. Serre, Linear representations of finite groups, Springer-Verlag, New York, 1977. MR
+56:8675<person-group>
+                     <string-name>
+                     <surname>Serre</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear representations of finite groups</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e880a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1292345e887" publication-type="journal">
+R. Stanley, Differential Posets, J. Amer. Math. Soc.1(4) (1988), 919-961. MR 89h:06005<object-id pub-id-type="doi">10.2307/1990995</object-id>
+               <fpage>919</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e900a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1292345e907" publication-type="book">
+R. Stanley, Variations on differential posets, in Invariant Theory and Tableaux (ed. D. Stan-
+ton), IMA Vol. Math. Appl.19, Springer, New York, 1990, 145-165. MR 91h:06004<person-group>
+                     <string-name>
+                     <surname>Stanley</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variations on differential posets</comment>
+               <fpage>145</fpage>
+               <volume>19</volume>
+               <source>Invariant Theory and Tableaux</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292345e942a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1292345e949" publication-type="journal">
+A. Vershik and S. Kerov, Locally semisimple algebras. Combinatorial theory and the Ko
+functor, Itogi Nauki i Tekhniki, Sovremennye Problemy Matematiki, Noveishie Dostizheniya,
+Vol. 26 (1985), 3-56. MR 88h:22009<person-group>
+                     <string-name>
+                     <surname>Vershik</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>26</volume>
+               <source>Itogi Nauki i Tekhniki, Sovremennye Problemy Matematiki, Noveishie Dostizheniya</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

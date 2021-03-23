@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260302</issue-id>
+         <article-id pub-id-type="jstor">1390982</article-id>
+         
+         <title-group>
+            <article-title>The S-Net System for Internet Packet Streams: Strategies for Stream Analysis and System Architecture</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jin</given-names>
+                  <surname>Cao</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>William S.</given-names>
+                  <surname>Cleveland</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>X.</given-names>
+                  <surname>Sun</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>865</fpage>
+         <lpage>892</lpage>
+         <page-range>865-892</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390982"/>
+         
+         
+         <abstract>
+            <p>The traffic on an Internet link is a packet stream: packets of varying sizes arriving for transmission on the link. Each packet has an arrival time, and contained within the packet are headers that carry many critical variables. Packet traces, which consist of captured headers and measurements of the arrival times, convey substantial information about the Internet--security, usage, network performance, and the performance of engineering protocols. This article discusses strategies for the analysis of very large databases of packet traces, and the architecture of a software system that facilitates the use of these strategies. The system has a pipeline: (1) raw packet traces; (2) a database with objects tailored to ensuing analyses; and (3) an environment with tools for data analysis: statistical methods, model fitting, and visualization. The pipeline addresses the full set of tasks in the study of packet streams, from the initial processing of raw packet traces to the final output, often a visual display. S-Net--an extensible, open-source software implementation of this architecture--is based on the R implementation of the S language for graphics and data analysis, and has been developed on Linux.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Data mining</kwd>
+            <kwd>Data visualization</kwd>
+            <kwd>Internet traffic modeling</kwd>
+            <kwd>Lattice graphics</kwd>
+            <kwd>Long-range dependence</kwd>
+            <kwd>Network simulation</kwd>
+            <kwd>Packet traces</kwd>
+            <kwd>Statistical multiplexing</kwd>
+            <kwd>Streaming data</kwd>
+            <kwd>Time series</kwd>
+            <kwd>Trellis display</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d5231580e291a1310">
+               
+               <mixed-citation id="d5231580e295" publication-type="book">
+Becker, R.A., Chambers, J.M., and Wilks, A.R. (1988), The New S Language, London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <source>The New S Language</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e317a1310">
+               
+               <mixed-citation id="d5231580e321" publication-type="journal">
+Becker, R.A., Cleveland, W.S., and Shyu, M.J. (1996), "The Design and Control of Trellis Display," Journal of
+Computational and Graphical Statistics, 5, 123-155.<object-id pub-id-type="doi">10.2307/1390777</object-id>
+               <fpage>123</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e337a1310">
+               
+               <mixed-citation id="d5231580e341" publication-type="book">
+Cao, J., Cleveland, W.S., Gao, Y., Jeffay, K., Smith, F.D., and Weigle, M. (2003), "Stochastic Models for
+Generating Synthetic HTTP Source Traffic," Technical report, Bell Labs, stat.bell-labs.com.<person-group>
+                     <string-name>
+                     <surname>Cao</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stochastic Models for Generating Synthetic HTTP Source Traffic</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e366a1310">
+               
+               <mixed-citation id="d5231580e370" publication-type="journal">
+Cao, J., Cleveland, W.S., Lin, D., and Sun, D.X. (2001), "On the Nonstationarity of Internet Traffic," ACM
+SIGMETRICS, 29, 102-112.<person-group>
+                     <string-name>
+                     <surname>Cao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>102</fpage>
+               <volume>29</volume>
+               <source>ACM SIGMETRICS</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e403a1310">
+               
+               <mixed-citation id="d5231580e407" publication-type="book">
+(2002), "Internet Traffic Tends Toward Poisson and Independent as the Load Increases," in Nonlinear
+Estimation and Classification, eds. C. Holmes, D. Denison, M. Hansen, B. Yu, and B. Mallick, New York:
+Springer, pp. 83-109.<person-group>
+                     <string-name>
+                     <surname>Cao</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Internet Traffic Tends Toward Poisson and Independent as the Load Increases</comment>
+               <fpage>83</fpage>
+               <source>Nonlinear Estimation and Classification</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e442a1310">
+               
+               <mixed-citation id="d5231580e446" publication-type="book">
+Cao, J., Cleveland, W.S., and Sun, D.X. (2003), "Fractional Sum-Difference Models for Open-Loop Generation
+of Internet Packet Traffic," Technical report, Bell Labs, stat.bell-labs.com.<person-group>
+                     <string-name>
+                     <surname>Cao</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fractional Sum-Difference Models for Open-Loop Generation of Internet Packet Traffic</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e471a1310">
+               
+               <mixed-citation id="d5231580e475" publication-type="book">
+Chambers, J.M. (1998), Programming with Data, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Chambers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Programming with Data</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e497a1310">
+               
+               <mixed-citation id="d5231580e501" publication-type="journal">
+Claffy, K., Braun, H.-W., and Polyzos, G. (1995), "A Parameterizable Methodology for Internet Traffic Flow
+Profiling," IEEE Journal on Selected Areas in Communications, 13, 1481-1494.<person-group>
+                     <string-name>
+                     <surname>Claffy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1481</fpage>
+               <volume>13</volume>
+               <source>IEEE Journal on Selected Areas in Communications</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e533a1310">
+               
+               <mixed-citation id="d5231580e537" publication-type="journal">
+Crovella, M.E., and Bestavros, A. (1996), "Self-Similarity in World Wide Web Traffic: Evidence and Possible
+Causes," ACM SIGMETRICS, 24, 160-169.<person-group>
+                     <string-name>
+                     <surname>Crovella</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>160</fpage>
+               <volume>24</volume>
+               <source>ACM SIGMETRICS</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e569a1310">
+               
+               <mixed-citation id="d5231580e573" publication-type="book">
+Daley, D.J., and Vere-Jones, D. (1988), An Introduction to the Theory of Point Processes, New York: Springer-
+Verlag.<person-group>
+                     <string-name>
+                     <surname>Daley</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Theory of Point Processes</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e599a1310">
+               
+               <mixed-citation id="d5231580e603" publication-type="journal">
+Erramilli, A., Narayan, O., and Willinger, W. (1996), "Experimental Queueing Analysis with Long-Range
+Dependent Packet Traffic," IEEE/ACM Transactions on Networking, 4, 209-223.<person-group>
+                     <string-name>
+                     <surname>Erramilli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>209</fpage>
+               <volume>4</volume>
+               <source>IEEE/ACM Transactions on Networking</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e635a1310">
+               
+               <mixed-citation id="d5231580e639" publication-type="book">
+Feldman, A., Gilbert, A.A., and Willinger, W. (1998), "Data Networks as Cascades: Explaining the Mulifractal
+Nature of Internet WAN Traffic," in Proceedings ACM SIGCOMM, pp. 42-55.<person-group>
+                     <string-name>
+                     <surname>Feldman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Data Networks as Cascades: Explaining the Mulifractal Nature of Internet WAN Traffic</comment>
+               <fpage>42</fpage>
+               <source>Proceedings ACM SIGCOMM</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e671a1310">
+               
+               <mixed-citation id="d5231580e675" publication-type="journal">
+Fraleigh, C., Moon, S., Lyles, B., Cotton, C., Khan, M., Moll, D., Rockell, R., Seely, T., and Diot, C. (2003),
+"Packet-Level Traffic Measurements from the Sprint IP Backbone," IEEE Network, to appear.<person-group>
+                     <string-name>
+                     <surname>Fraleigh</surname>
+                  </string-name>
+                  </person-group>
+               <source>IEEE Network</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e700a1310">
+               
+               <mixed-citation id="d5231580e704" publication-type="journal">
+Gao, J., and Rubin, I. (2001), "Multiplicative Multifractal Modeling of Long-Range-Dependent Network Traffic,"
+International Journal of Communications Systems, 14, 783-201.<person-group>
+                     <string-name>
+                     <surname>Gao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>783</fpage>
+               <volume>14</volume>
+               <source>International Journal of Communications Systems</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e736a1310">
+               
+               <mixed-citation id="d5231580e740" publication-type="journal">
+Ihaka, R., and Gentleman, R. (1996), "R: A Language for Data Analysis and Graphics," Journal of Computational
+and Graphical Statistics, 5, 299-314.<object-id pub-id-type="doi">10.2307/1390807</object-id>
+               <fpage>299</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e756a1310">
+               
+               <mixed-citation id="d5231580e760" publication-type="journal">
+Leland, W., Taqqu, M., Willinger, W., and Wilson, D. (1994), "On the Self-Similar Nature of Ethernet Traffic,"
+IEEE/ACM Transactions on Networking, 2, 1-15.<person-group>
+                     <string-name>
+                     <surname>Leland</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>2</volume>
+               <source>IEEE/ACM Transactions on Networking</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e793a1310">
+               
+               <mixed-citation id="d5231580e797" publication-type="other">
+McCanne, S., and Floyd, S. (1998), "UCB/LBNL Network Simulator-ns (version 2)," www-mash.cs.berkeley.
+edu/ns/.</mixed-citation>
+            </ref>
+            <ref id="d5231580e807a1310">
+               
+               <mixed-citation id="d5231580e811" publication-type="book">
+Micheel, J., Donnelly, S., and Graham, I. (2001), "Timestamping Network Packets," in Proceedings ACM
+SIGCOMM Internet Measurement Workshop, San Francisco.<person-group>
+                     <string-name>
+                     <surname>Micheel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Timestamping Network Packets</comment>
+               <source>Proceedings ACM SIGCOMM Internet Measurement Workshop</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e840a1310">
+               
+               <mixed-citation id="d5231580e844" publication-type="book">
+Murrell, P. (2001), "R Lattice Graphics," in Proceedings of the 2nd International Workstop on Distributed Statstical
+Computing, Vienna;<person-group>
+                     <string-name>
+                     <surname>Murrell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">R Lattice Graphics</comment>
+               <source>Proceedings of the 2nd International Workstop on Distributed Statstical Computing</source>
+               <year>2001</year>
+            </mixed-citation>
+               <mixed-citation id="d5231580e872" publication-type="other">
+www.ci.tuwien.ac.at/Conferences/DSC-2001/Proceedings</mixed-citation>
+            </ref>
+            <ref id="d5231580e879a1310">
+               
+               <mixed-citation id="d5231580e883" publication-type="conference">
+Park, K., Kim, G., and Crovella, M. (1996), "On the Relationship Between File Sizes, Transport Protocols, and
+Self-Similar Network Traffic," in Proceedings of the IEEE International Conference on Network Protocols.<person-group>
+                     <string-name>
+                     <surname>Park</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the Relationship Between File Sizes, Transport Protocols, and Self-Similar Network Traffic</comment>
+               <source>Proceedings of the IEEE International Conference on Network Protocols</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e912a1310">
+               
+               <mixed-citation id="d5231580e916" publication-type="book">
+Paxson, V. (1997), "End-to-End Internet Packet Dynamics," in Proceedings ACM SIGCOMM, pp. 139-152.<person-group>
+                     <string-name>
+                     <surname>Paxson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">End-to-End Internet Packet Dynamics</comment>
+               <fpage>139</fpage>
+               <source>Proceedings ACM SIGCOMM</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e945a1310">
+               
+               <mixed-citation id="d5231580e949" publication-type="journal">
+Paxson, V., and Floyd, S. (1995), "Wide-Area Traffic: The Failure of Poisson Modeling," IEEE/ACM Transactions
+on Networking, 3, 226-244.<person-group>
+                     <string-name>
+                     <surname>Paxson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>3</volume>
+               <source>IEEE/ACM Transactions on Networking</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e982a1310">
+               
+               <mixed-citation id="d5231580e986" publication-type="journal">
+Ribeiro, V.J., Riedi, R.H., Crouse, M.S., and Baraniuk, R.G. (1999), "Simulation of NonGaussian Long-Range-
+Dependent Traffic Using Wavelets," ACM SIGMETRICS, 27, 1-12.<person-group>
+                     <string-name>
+                     <surname>Ribeiro</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>27</volume>
+               <source>ACM SIGMETRICS</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e1018a1310">
+               
+               <mixed-citation id="d5231580e1022" publication-type="book">
+Sarkar, D. (2003), "Some Notes on Lattice," in Proceedings of the 3nd International Workstop on Distributed
+Statstical Computing, Vienna. www.ci.tuwien.ac.at/Conferences/DSC-2003/Proceedings/.<person-group>
+                     <string-name>
+                     <surname>Sarkar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Notes on Lattice</comment>
+               <source>Proceedings of the 3nd International Workstop on Distributed Statstical Computing</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231580e1051a1310">
+               
+               <mixed-citation id="d5231580e1055" publication-type="book">
+Venables, W.N., and Smith, D.M. (2002), An Introduction to R, Bristol: Network Theory.<person-group>
+                     <string-name>
+                     <surname>Venables</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to R</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

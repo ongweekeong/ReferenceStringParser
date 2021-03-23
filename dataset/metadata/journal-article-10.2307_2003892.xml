@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>National Academy of Sciences--The National Research Council</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">72</issue>
+         <issue-id>i334495</issue-id>
+         <article-id pub-id-type="doi">10.2307/2003892</article-id>
+         
+         <title-group>
+            <article-title>On the Propagation of Errors in the Inversion of Certain Tridiagonal Matrices</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Arnold N.</given-names>
+                  <surname>Lowan</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1960</year>
+         </pub-date>
+         <fpage>333</fpage>
+         <lpage>338</lpage>
+         <page-range>333-338</page-range>
+         <permissions>
+            <copyright-statement/>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2003892"/>
+         
+         
+         <abstract>
+            <p>When the differential equation of heat conduction is replaced by the implicit difference analog, one is led to the solution of A y = b where A is a tridiagonal matrix whose elements on the principal diagonal are = 2 + 2r and whose elements off the principal diagonal are = - r. The system of equations may be solved by the following algorithm: \begin{equation*}\begin{split} \beta_k = u = r^2 \beta^{-1}_{k-1}, \beta_1 = u_1; \quad \gamma_k = -r\beta^{-1}; \quad z_k = (b_k + rz_{k-1})\beta^{-1}_k, z_1 = b_1u^{-1}; \\ y_k = z_k - \gamma_ky_{k+1}, \quad y_M = z_M. \end{split}\end{equation*} An upper bound of the round-off errors in the computed values of the y&lt;sub&gt;k&lt;/sub&gt;'s is obtained. An actual test case showed that the theoretical upper bound is about four times larger than the true round-off error. Moreover, the theoretical upper bound does not seem to vary appreciably with r.</p>
+          </abstract>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2887324e119a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2887324e126" publication-type="journal">
+J. CRANK and P. NICOLSON in the paper en-
+titled, "A practical method for the numerical evaluation of solutions of differential equa-
+tions of the heat conduction type," Camb. Phil. Soc. Proc., v. 43, 1943, p. 50-67.<person-group>
+                     <string-name>
+                     <surname>Crank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>50</fpage>
+               <volume>43</volume>
+               <source>Camb. Phil. Soc. Proc.</source>
+               <year>1943</year>
+            </mixed-citation>
+               <mixed-citation id="d2887324e160" publication-type="journal">
+G. G. O'BRIEN, MORTON A. HYMAN, and SIDNEY KAPLAN in "A Study of the
+numerical solution of partial differential equations," Jn. Math. and Phys., v. 29, 1950/51,
+p. 223-251.<person-group>
+                     <string-name>
+                     <surname>O'brien</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>29</volume>
+               <source>Jn. Math. and Phys.</source>
+               <year>1950</year>
+            </mixed-citation>
+               <mixed-citation id="d2887324e194" publication-type="book">
+The Operator Approach to Problems of Sta-
+bility and Convergence, Scripta Mathematica, 1957.<source>The Operator Approach to Problems of Stability and Convergence</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2887324e210a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2887324e217" publication-type="journal">
+M. LOTKIN'S "The numerical integration of heat conduction equations,"
+Jn. Math. and Phys., v. 37, 1958, p. 178<person-group>
+                     <string-name>
+                     <surname>Lotkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>178</fpage>
+               <volume>37</volume>
+               <source>Jn. Math. and Phys.</source>
+               <year>1958</year>
+            </mixed-citation>
+               <mixed-citation id="d2887324e248" publication-type="book">
+R. D. RICHTMYER, Difference Methods for Initial
+Value Problems, Chap. VI., Interscience, N. Y., 1957.<person-group>
+                     <string-name>
+                     <surname>Richtmyer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Difference Methods for Initial Value Problems</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

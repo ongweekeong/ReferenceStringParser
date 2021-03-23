@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">59</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">200</issue>
+         <issue-id>i337656</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153068</article-id>
+         
+         <title-group>
+            <article-title>Homotopy-Determinant Algorithm for Solving Nonsymmetric Eigenvalue Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>T. Y.</given-names>
+                  <surname>Li</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Zhonggang</given-names>
+                  <surname>Zeng</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>483</fpage>
+         <lpage>502</lpage>
+         <page-range>483-502</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1992 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153068"/>
+         
+         
+         <abstract>
+            <p>The eigenvalues of a matrix A are the zeros of its characteristic polynomial &lt;tex-math&gt;$f(\lambda) = \det\lbrack A - \lambda I\rbrack.$&lt;/tex-math&gt; With Hyman's method of determinant evaluation, a new homotopy continuation method, homotopy-determinant method, is developed in this paper for finding all eigenvalues of a real upper Hessenberg matrix. In contrast to other homotopy continuation methods, the homotopy-determinant method calculates eigenvalues without computing their corresponding eigenvectors. Like all homotopy methods, our method solves the eigenvalue problem by following eigenvalue paths of a real homotopy whose regularity is established to the extent necessary. The inevitable bifurcation and possible path jumping are handled by effective processes. The numerical results of our algorithm, and a comparison with its counterpart, subroutine HQR in EISPACK, are presented for upper Hessenberg matrices of numerous dimensions, with randomly generated entries. Although the main advantage of our method lies in its natural parallelism, the numerical results show our algorithm to be strongly competitive also in serial mode.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F15</kwd>
+            <kwd>65F40</kwd>
+            <kwd>65H05</kwd>
+            <kwd>65H17</kwd>
+            <kwd>58C99</kwd>
+            <kwd>58F14</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d520445e163a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d520445e170" publication-type="journal">
+S-N. Chow, J. Mallet-Paret, and J. A. Yorke, Finding zeros of maps: homotopy methods
+that are constructive with probability one, Math. Comp.32 (1978), 887-899.<object-id pub-id-type="doi">10.2307/2006493</object-id>
+               <fpage>887</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e186a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d520445e193" publication-type="journal">
+M. T. Chu, A note on the homotopy method for linear algebraic eigenvalue problems, Linear
+Algebra Appl.105 (1988), 225-236.<person-group>
+                     <string-name>
+                     <surname>Chu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>225</fpage>
+               <volume>105</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e225a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d520445e232" publication-type="journal">
+M. T. Chu, T. Y. Li, and T. Sauer, Homotopy methodfor general A-matrix problems, SIAM
+J. Matrix Anal. Appl.9 (1988), 528-536.<person-group>
+                     <string-name>
+                     <surname>Chu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>528</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e264a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d520445e271" publication-type="journal">
+J. J. J. M. Cuppen, A divide and conquer methodfor the symmetric tridiagonal eigenproblem,
+Numer. Math.36 (1981), 177-195.<person-group>
+                     <string-name>
+                     <surname>Cuppen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>177</fpage>
+               <volume>36</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e304a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d520445e311" publication-type="book">
+J. J. Dongarra and M. Sidani, A parallel algorithm for the non-symmetric eigenvalue problem,
+Technical Report, Comp. Sci. Dept. CS-91-137, Univ. of Tennessee.<person-group>
+                     <string-name>
+                     <surname>Dongarra</surname>
+                  </string-name>
+                  </person-group>
+               <source>A parallel algorithm for the non-symmetric eigenvalue problem</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e333a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d520445e340" publication-type="journal">
+J. J. Dongarra and D. C. Sorensen, A fully parallel algorithm for the symmetric eigenvalue
+problem, SIAM J. Sci. Statist. Comput.8 (1987), 139-154.<person-group>
+                     <string-name>
+                     <surname>Dongarra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e372a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d520445e379" publication-type="conference">
+M. Hyman, Eigenvalues and eigenvectors of general matrices, presented at the 12th National
+Meeting of the Association for Computing Machinery, Houston, Texas, June 1957.<person-group>
+                     <string-name>
+                     <surname>Hyman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Eigenvalues and eigenvectors of general matrices</comment>
+               <source>12th National Meeting of the Association for Computing Machinery, Houston, Texas</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e408a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d520445e415" publication-type="journal">
+I. Ilse and E. Jessup, Solving the symmetric tridiagonal eigenvalue problem on the hypercube,
+SIAM J. Sci. Statist. Comput.11 (1990), 203-229.<person-group>
+                     <string-name>
+                     <surname>Ilse</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>203</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e447a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d520445e454" publication-type="other">
+E. Jessup, Parallel solution of the symmetric eigenvalue problem, Ph.D. Thesis, Yale Uni-
+versity, 1989.</mixed-citation>
+            </ref>
+            <ref id="d520445e464a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d520445e471" publication-type="journal">
+T. Y. Li and N. H. Rhee, Homotopy algorithm for symmetric eigenvalue problems, Numer.
+Math.55 (1989), 265-280.<person-group>
+                     <string-name>
+                     <surname>Li</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>55</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e504a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d520445e511" publication-type="journal">
+T. Y. Li and T. Sauer, Homotopy method for generalized eigenvalue problems Ax = ABx,
+Linear Algebra Appl.91 (1987), 65-74.<person-group>
+                     <string-name>
+                     <surname>Li</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <volume>91</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e543a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d520445e550" publication-type="journal">
+T. Y. Li, T. Sauer, and J. Yorke, Numerical solution of a class of deficient polynomial
+systems, SIAM J. Numer. Anal.24 (1987), 435-451.<object-id pub-id-type="jstor">10.2307/2157567</object-id>
+               <fpage>435</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e566a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d520445e573" publication-type="journal">
+T. Y. Li, Z. Zeng, and L. Cong, Solving eigenvalue problems of real nonsymmetric matrices
+with real homotopies, SIAM J. Numer. Anal.29 (1992), 229-248.<object-id pub-id-type="jstor">10.2307/2158086</object-id>
+               <fpage>229</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e589a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d520445e596" publication-type="journal">
+T. Y. Li, H. Zhang, and X. H. Sun, Parallel homotopy algorithm for symmetric tridiagonal
+eigenvalue problems, SIAM J. Sci. Statist. Comput.12 (1991), 464-485.<person-group>
+                     <string-name>
+                     <surname>Li</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>464</fpage>
+               <volume>12</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e628a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d520445e635" publication-type="journal">
+S. S. Lo, B. Philippe, and A. Sameh, A multiprocessor algorithm for the symmetric tridiagonal
+eigenvalue problem, SIAM J. Sci. Statist. Comput.8 (1987), 155-165.<person-group>
+                     <string-name>
+                     <surname>Lo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e667a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d520445e674" publication-type="book">
+B. T. Smith et al., Matrix eigensystem routines—EISPACK guide, 2nd ed., Springer-Verlag,
+1976.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Matrix eigensystem routines—EISPACK guide</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e704a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d520445e711" publication-type="book">
+B. L. Van der Waerden, Modern algebra. Vol. 1, Ungar, New York, 1949.<person-group>
+                     <string-name>
+                     <surname>Van der Waerden</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1</volume>
+               <source>Modern algebra</source>
+               <year>1949</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d520445e736a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d520445e743" publication-type="journal">
+J. H. Wilkinson, Error analysis offloating-point computation, Numer. Math.2 (1960), 319-
+340.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>319</fpage>
+               <volume>2</volume>
+               <source>Numer. Math.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

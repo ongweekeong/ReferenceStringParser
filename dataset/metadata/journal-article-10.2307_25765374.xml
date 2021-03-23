@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">19</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i25765371</issue-id>
+         <article-id pub-id-type="jstor">25765374</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Outliers and Influential Cases</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Posterior Predictive Outlier Detection Using Sample Reweighting</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Alan M.</given-names>
+                  <surname>Zaslavsky</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Eric T.</given-names>
+                  <surname>Bradlow</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>790</fpage>
+         <lpage>807</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25765374"/>
+      
+      
+         <abstract>
+            <p>To facilitate checking and improvement of a Bayesian model, we define an outlier as an observation or group of observations that is "surprising" relative to its predictive distribution, under the model, given the remainder of the data. Hence outlyingness can be measured by the posterior predictive case-deleted p-value of any interesting scalar summary of the (possibly multivariate) observation. It is also sometimes useful to condition on a part of the data for the potentially outlying case, such as the pattern of missing data, thus defining a conditional outlier. When parameters of interest have been sampled from their posterior distribution, the case-deleted p-value can be calculated by reweighting the sample to reflect deletion of the target observation and then drawing from the predictive distribution of the observation, facilitating huge computational savings. One efficient extension to the basic reweighting approach exploits the conditional independence structure of most hierarchical models. Another extension uses weighted systematic sampling to accommodate the dependence structure of the MCMC sample. Outlier checks are illustrated in hierarchical models for two datasets, a standard linear hierarchical model for rat growth and a complex ordinal model for survey data with nonignorably missing responses. Sample code and data for the rat growth example are available as an on-line supplement.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d2631866e189a1310">
+          
+            <mixed-citation id="d2631866e193" publication-type="other">
+Agresti, A., and Coull, B. A. (1998), "Approximate Is Better Than "Exact" for Interval Estimation of Binomial
+Proportions," The American Statistician, 52, 119-126. [792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e203a1310">
+          
+            <mixed-citation id="d2631866e207" publication-type="other">
+Bayarri, M., and Morales, J. (2003), "Bayesian Measures of Surprise for Outlier Detection," Journal of Statistical
+Planning and Inference, 111 (1-2), 3-22. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e217a1310">
+          
+            <mixed-citation id="d2631866e221" publication-type="other">
+Bayarri, M. J., and Berger, J. O. (2000), "P Values for Composite Null Models," Journal of the American Statis-
+tical Association, 95 (452), 1127-1142. [792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e231a1310">
+          
+            <mixed-citation id="d2631866e235" publication-type="other">
+Box, G. E. P., and Tiao, G. C. (1968), "A Bayesian Approach to Some Outlier Problems," Biometrika, 55, 119—
+129. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e246a1310">
+          
+            <mixed-citation id="d2631866e250" publication-type="other">
+Bradlow, E. T., and Zaslavsky, A. M. (1997), "Case Influence Analysis in Bayesian Inference," Journal of Com-
+putational and Graphical Statistics, 6, 314-331. [791,793,795-798,803,804]</mixed-citation>
+        </ref>
+        <ref id="d2631866e260a1310">
+          
+            <mixed-citation id="d2631866e264" publication-type="other">
+- (1999), "A Hierarchical Latent Variable Model for Ordinal Data From a Customer Satisfaction Survey
+With "No Answer" Responses," Journal of the American Statistical Association, 94, 43-52. [791,800,801,
+803]</mixed-citation>
+        </ref>
+        <ref id="d2631866e277a1310">
+          
+            <mixed-citation id="d2631866e281" publication-type="other">
+Chaloner, K., and Brant, R. (1988), "A Bayesian Approach to Outlier Detection and Residual Analysis," Bio-
+metrika, 75, 651-659. [793,794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e291a1310">
+          
+            <mixed-citation id="d2631866e295" publication-type="other">
+Geisser, S. (1980), Comment on "Sampling and Bayes' Inference in Scientific Modelling and Robustnes," by
+G. E. P. Box, Journal of the Royal Statistical Society, Sen A, 143, 416-417. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e305a1310">
+          
+            <mixed-citation id="d2631866e309" publication-type="other">
+- (1987), "Influential Observations, Diagnostics and Discovery Tests," Journal of Applied Statistics, 14,
+133-142. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e319a1310">
+          
+            <mixed-citation id="d2631866e323" publication-type="other">
+Gelfand, A. E., Hills, S. E., Racine-Poon, A., and Smith, A. F. M. (1990), "Illustration of Bayesian Inference in
+Normal Data Models Using Gibbs Sampling," Journal of the American Statistical Association, 85, 972-985.
+[791,797]</mixed-citation>
+        </ref>
+        <ref id="d2631866e337a1310">
+          
+            <mixed-citation id="d2631866e341" publication-type="other">
+Gelman, A., Carlin, J. B., Stern, H., and Rubin, D. B. (1995), Bayesian Data Analysis, London: Chapman &amp; Hall.
+[794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e351a1310">
+          
+            <mixed-citation id="d2631866e355" publication-type="other">
+Gelman, A., Meng, X.-L., and Stern, H. (1996), "Posterior Predictive Assessment of Model Fitness via Realized
+Discrepancies," Statistica Sinica, 6, 733-760. [792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e365a1310">
+          
+            <mixed-citation id="d2631866e369" publication-type="other">
+Hosmer, D. W., and Lemeshow, S. (1980), "Goodness of Fit Tests for the Multiple Logistic Regression Model,"
+Communications in Statistics: Theory and Methods, 9, 1043-1069. [802]</mixed-citation>
+        </ref>
+        <ref id="d2631866e379a1310">
+          
+            <mixed-citation id="d2631866e383" publication-type="other">
+MacEachern, S. N., and Peruggia, M. (2000), "Importance Link Function Estimation for Markov Chain Monte
+Carlo Methods," Journal of Computational and Graphical Statistics, 9(1), 99-121. [795]</mixed-citation>
+        </ref>
+        <ref id="d2631866e393a1310">
+          
+            <mixed-citation id="d2631866e397" publication-type="other">
+Meng, X.-L. (1994), "Posterior Predictive p-Values," The Annals of Statistics, 22, 1142-1160. [792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e404a1310">
+          
+            <mixed-citation id="d2631866e408" publication-type="other">
+Peruggia, M. (1997), "On the Variability of Case-Deletion Importance Sampling Weights in the Bayesian Linear
+Model," Journal of the American Statistical Association, 92, 199-207. [795]</mixed-citation>
+        </ref>
+        <ref id="d2631866e419a1310">
+          
+            <mixed-citation id="d2631866e423" publication-type="other">
+Pettit, L. I. (1990), "The Conditional Predictive Ordinate for the Normal Distribution," Journal of the Royal
+Statistical Society, Sen B, 52, 175-184. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e433a1310">
+          
+            <mixed-citation id="d2631866e437" publication-type="other">
+Robins, J. M., Ventura, V, van der Vaart, A., and Ventura, V. (2000), "Asymptotic Distribution of P Values in
+Composite Null Models," Journal of the American Statistical Association, 95 (452), 1143-1156. [792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e447a1310">
+          
+            <mixed-citation id="d2631866e451" publication-type="other">
+Rubin, D. B. (1984), "Bayesianly Justifiable and Relevant Frequency Calculations for the Applied Statistician,"
+The Annals of Statistics, 12, 1151-1172. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e461a1310">
+          
+            <mixed-citation id="d2631866e465" publication-type="other">
+Sarndal, C.-E., Swensson, B., and Wretman, J. (1992), Model Assisted Survey Sampling, New York: Springer-
+Verlag. [796]</mixed-citation>
+        </ref>
+        <ref id="d2631866e475a1310">
+          
+            <mixed-citation id="d2631866e479" publication-type="other">
+Sharpies, L. D. (1990), "Identification and Accommodation of Outliers in General Hierarchical Models," Bio-
+metrika, 77,445-453. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e489a1310">
+          
+            <mixed-citation id="d2631866e493" publication-type="other">
+Verdinelli, L, and Wasserman, L. (1991), "Bayesian Analysis of Outlier Problems Using the Gibbs Sampler,"
+Statistics and Computing, 1, 105-117. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e504a1310">
+          
+            <mixed-citation id="d2631866e508" publication-type="other">
+Waternaux, C, Laird, N. M., and Ware, J. H. (1989), "Methods for Analysis of Longitudinal Data: Blood-Lead
+Concentrations and Cognitive Development," Journal of the American Statistical Association, 84, 33-41.
+[792]</mixed-citation>
+        </ref>
+        <ref id="d2631866e521a1310">
+          
+            <mixed-citation id="d2631866e525" publication-type="other">
+Weiss, R. (1996), "An Approach to Bayesian Sensitivity Analysis," Journal of the Royal Statistical Society, Sen B,
+58, 739-750. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e535a1310">
+          
+            <mixed-citation id="d2631866e539" publication-type="other">
+Weiss, R. E., and Lazaro, C. G. (1992), "Residual Plots for Repeated Measures," Statistics in Medicine, 11,
+115-124. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e549a1310">
+          
+            <mixed-citation id="d2631866e553" publication-type="other">
+Weiss, R. E., Cho, M., and Yanuzzi, M. (1999), "On Bayesian Calculations for Mixture Likelihoods and Priors,"
+Statistics in Medicine, 18, 1555-1570. [794]</mixed-citation>
+        </ref>
+        <ref id="d2631866e563a1310">
+          
+            <mixed-citation id="d2631866e567" publication-type="other">
+West, M. (1984), "Outlier Models and Prior Distributions in Bayesian Linear Regression," Journal of the Royal
+Statistical Society, Ser. B, 46,431-439. [793]</mixed-citation>
+        </ref>
+        <ref id="d2631866e577a1310">
+          
+            <mixed-citation id="d2631866e581" publication-type="other">
+Zellner, A., and Moulton, B. R. (1985), "Bayesian Regression Diagnostics With Applications to International
+Consumption and Income Data," Journal of Econometrics, 29, 187-211. [794]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

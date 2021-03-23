@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i25651277</issue-id>
+         <article-id pub-id-type="jstor">25651290</article-id>
+         <title-group>
+            <article-title>A Geometric Approach to Maximum Likelihood Estimation of the Functional Principal Components From Sparse Longitudinal Data</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Jie</given-names>
+                  <surname>Peng</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Debashis</given-names>
+                  <surname>Paul</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>995</fpage>
+         <lpage>1015</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651290"/>
+      
+      
+         <abstract>
+            <p>In this article, we consider the problem of estimating the eigenvalues and eigenfunctions of the covariance kernel (i.e., the functional principal components) from sparse and irregularly observed longitudinal data. We exploit the smoothness of the eigenfunctions to reduce dimensionality by restricting them to a lower dimensional space of smooth functions. We then approach this problem through a restricted maximum likelihood method. The estimation scheme is based on a Newton—Raphson procedure on the Stiefel manifold using the fact that the basis coefficient matrix for representing the eigenfunctions has orthonormal columns. We also address the selection of the number of basis functions, as well as that of the dimension of the covariance kernel by a second-order approximation to the leave-one-curve-out cross-validation score that is computationally very efficient. The effectiveness of our procedure is demonstrated by simulation studies and an application to a CD4+ counts dataset. In the simulation studies, our method performs well on both estimation and model selection. It also out-performs two existing approaches: one based on a local polynomial smoothing, and another using an EM algorithm. Supplementary materials including technical details, the R package fpca, and data analyzed by this article are available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1925457e186a1310">
+          
+            <mixed-citation id="d1925457e190" publication-type="other">
+Ash, R. B. (1972), Real Analysis and Probability, New York-London: Academic Press.</mixed-citation>
+        </ref>
+        <ref id="d1925457e197a1310">
+          
+            <mixed-citation id="d1925457e201" publication-type="other">
+Besse, P., Cardot, H., and Ferraty, F. (1997), "Simultaneous Nonparametric Regression of Unbalanced Longitu-
+dinal Data," Computational Statistics and Data Analysis, 24, 255-270.</mixed-citation>
+        </ref>
+        <ref id="d1925457e211a1310">
+          
+            <mixed-citation id="d1925457e215" publication-type="other">
+Boente, G., and Fraiman, R. (2000), "Kernel-Based Functional Principal Components Analysis," Statistics and
+Probability Letters, 48, 335-345.</mixed-citation>
+        </ref>
+        <ref id="d1925457e225a1310">
+          
+            <mixed-citation id="d1925457e229" publication-type="other">
+Boyd, S., and Vandenberghe, L. (2004), Convex Optimization, Cambridge, U.K.: Cambridge University Press.</mixed-citation>
+        </ref>
+        <ref id="d1925457e237a1310">
+          
+            <mixed-citation id="d1925457e241" publication-type="other">
+Burman, P. (1989), "A Comparative Study of Ordinary Cross-Validation, v-Fold Cross-Validation and the Re-
+peated Learning-Testing Methods," Biometrika, 76, 503-514.</mixed-citation>
+        </ref>
+        <ref id="d1925457e251a1310">
+          
+            <mixed-citation id="d1925457e255" publication-type="other">
+- (1990), "Estimation of Generalized Additive Models," Journal of Multivariate Analysis, 32, 230-255.</mixed-citation>
+        </ref>
+        <ref id="d1925457e262a1310">
+          
+            <mixed-citation id="d1925457e266" publication-type="other">
+Cai, T., and Hall, P. (2006), "Prediction in Functional Linear Regression," Annals of Statistics, 34, 2159-2179.</mixed-citation>
+        </ref>
+        <ref id="d1925457e273a1310">
+          
+            <mixed-citation id="d1925457e277" publication-type="other">
+Cardot, H. (2000), "Nonparametric Estimation of Smoothed Principal Components Analysis of Sampled Noisy
+Functions," Journal of Nonparametric Statistics, 12, 503-538.</mixed-citation>
+        </ref>
+        <ref id="d1925457e287a1310">
+          
+            <mixed-citation id="d1925457e291" publication-type="other">
+- (2006), "Conditional Functional Principal Components Analysis," Scandinavian Journal of Statistics,
+33,317-335.</mixed-citation>
+        </ref>
+        <ref id="d1925457e301a1310">
+          
+            <mixed-citation id="d1925457e305" publication-type="other">
+Cardot, H., Ferraty, R., and Sarda, P. (1999), "Functional Linear Model," Statistics and Probability Letters, 45,
+11-22.</mixed-citation>
+        </ref>
+        <ref id="d1925457e316a1310">
+          
+            <mixed-citation id="d1925457e320" publication-type="other">
+Chui, C. (1988), Multivariate Splines, Philadelphia: SIAM.</mixed-citation>
+        </ref>
+        <ref id="d1925457e327a1310">
+          
+            <mixed-citation id="d1925457e331" publication-type="other">
+de Boor, C. (1978), A Practical Guide to Splines, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d1925457e338a1310">
+          
+            <mixed-citation id="d1925457e342" publication-type="other">
+Diggle, P. J., Heagerty, P., Liang, K.-Y., and Zeger, S. L. (2002), Analysis of Longitudinal Data (2nd ed.), New
+York: Oxford University Press.</mixed-citation>
+        </ref>
+        <ref id="d1925457e352a1310">
+          
+            <mixed-citation id="d1925457e356" publication-type="other">
+Dussault, J. P. (2000), "Convergence of Implementable Descent Algorithms for Unconstrained Problems," Jour-
+nal of Optimization Theory and Applications, 104, 739-745.</mixed-citation>
+        </ref>
+        <ref id="d1925457e366a1310">
+          
+            <mixed-citation id="d1925457e370" publication-type="other">
+Edelman, A., Arias, T. A., and Smith, S. T. (1998), "The Geometry of Algorithms With Orthogonality Con-
+straints," SIAM Journal on Matrix Analysis and Applications, 20, 303-353.</mixed-citation>
+        </ref>
+        <ref id="d1925457e380a1310">
+          
+            <mixed-citation id="d1925457e384" publication-type="other">
+Fan, J., and Zhang, J. T. (2000), "Two-Step Estimation of Functional Linear Models With Applications to Longi-
+tudinal Data," Journal of Royal Statistical Society, Ser. B, 62, 303-322.</mixed-citation>
+        </ref>
+        <ref id="d1925457e395a1310">
+          
+            <mixed-citation id="d1925457e399" publication-type="other">
+Ferraty, F., and Vieu, P. (2006), Nonparametric Functional Data Analysis: Theory and Practice, New York:
+Springer.</mixed-citation>
+        </ref>
+        <ref id="d1925457e409a1310">
+          
+            <mixed-citation id="d1925457e413" publication-type="other">
+Golub, G. H., Heath, M., and Wahba, G. (1979), "Generalized Cross Validation as a Method for Choosing a Good
+Ridge Parameter," Technometrics, 21, 215-224.</mixed-citation>
+        </ref>
+        <ref id="d1925457e423a1310">
+          
+            <mixed-citation id="d1925457e427" publication-type="other">
+Green, P. J., and Silverman, B. W. (1994), Nonparametric Regression and Generalized Linear Models: A Rough-
+ness Penalty Approach, London: Chapman &amp;amp; Hall/CRC.</mixed-citation>
+        </ref>
+        <ref id="d1925457e437a1310">
+          
+            <mixed-citation id="d1925457e441" publication-type="other">
+Hall, P., and Horowitz, J. L. (2007), "Methodology and Convergence Rates for Functional Linear Regression,"
+Annals of Statistics, 35, 41-69.</mixed-citation>
+        </ref>
+        <ref id="d1925457e451a1310">
+          
+            <mixed-citation id="d1925457e455" publication-type="other">
+Hall, P., Müller, H.-G., and Wang, J.-L. (2006), "Properties of Principal Component Methods for Functional and
+Longitudinal Data Analysis," Annals of Statistics, 34, 1493-1517.</mixed-citation>
+        </ref>
+        <ref id="d1925457e465a1310">
+          
+            <mixed-citation id="d1925457e469" publication-type="other">
+James, G. M., Hastie, T. J., and Sugar, C. A. (2000), "Principal Component Models for Sparse Functional Data,"
+Biometrika, 87, 587-602.</mixed-citation>
+        </ref>
+        <ref id="d1925457e480a1310">
+          
+            <mixed-citation id="d1925457e484" publication-type="other">
+Kaslow, R. A., Ostrow, D. G., Detels, R., Phair, J. P., Polk, B. F., and Rinaldo, C. R. (1987), "The Multicenter
+AIDS Cohort Study: Rationale, Organization, and Selected Characteristics of the Participants," American
+Journal of Epidemiology, 126 (2), 310-318.</mixed-citation>
+        </ref>
+        <ref id="d1925457e497a1310">
+          
+            <mixed-citation id="d1925457e501" publication-type="other">
+Matron, S. J., Müller, H.-G., Rice, J., Wang, J.-L., Wang, N., and Wang, Y. (2004), "Discussion of Nonparametric
+and Semiparametric Regression," Statistica Sinica, 14, 615-629.</mixed-citation>
+        </ref>
+        <ref id="d1925457e511a1310">
+          
+            <mixed-citation id="d1925457e515" publication-type="other">
+Muirhead, R. J. (1982), Aspects of Multivariate Statistical Theory, New Jersey: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d1925457e522a1310">
+          
+            <mixed-citation id="d1925457e526" publication-type="other">
+Paul, D., and Peng, J. (2008), "Principal Components Analysis for Sparsely Observed Correlated Functional Data
+Using a Kernel Smoothing Approach," technical report (arXiv:0807.1106).</mixed-citation>
+        </ref>
+        <ref id="d1925457e536a1310">
+          
+            <mixed-citation id="d1925457e540" publication-type="other">
+- (2009), "Consistency of Restricted Maximum Likelihood Estimators of Principal Components," Annals
+of Statistics, 37 (3), 1229-1271.</mixed-citation>
+        </ref>
+        <ref id="d1925457e550a1310">
+          
+            <mixed-citation id="d1925457e554" publication-type="other">
+Ramsay, J., and Silverman, B. W. (2005), Functional Data Analysis (2nd ed.), New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d1925457e562a1310">
+          
+            <mixed-citation id="d1925457e566" publication-type="other">
+Rice, J. A., and Wu, C. O. (2001), "Nonparametric Mixed Effects Models for Unequally Sampled Noisy Curves,"
+Biometrics, 57, 253-259.</mixed-citation>
+        </ref>
+        <ref id="d1925457e576a1310">
+          
+            <mixed-citation id="d1925457e580" publication-type="other">
+Stone, M. (1977), "An Asymptotic Equivalence of Choice of Model by Cross Validation and Akaike's Information
+Criterion," Journal of Royal Statistical Society, Ser. B, 39, 44-47.</mixed-citation>
+        </ref>
+        <ref id="d1925457e590a1310">
+          
+            <mixed-citation id="d1925457e594" publication-type="other">
+Wu, C., and Chiang, C. (2000), "Kernel Smoothing on Varying Coefficient Models With Longitudinal Dependent
+Variables," Statistica Sinica, 10, 433-456.</mixed-citation>
+        </ref>
+        <ref id="d1925457e604a1310">
+          
+            <mixed-citation id="d1925457e608" publication-type="other">
+Yao, E, Müller, H.-G., and Wang, J.-L. (2005), "Functional Data Analysis for Sparse Longitudinal Data," Journal
+of the American Statistical Association, 100, 577-590.</mixed-citation>
+        </ref>
+        <ref id="d1925457e618a1310">
+          
+            <mixed-citation id="d1925457e622" publication-type="other">
+- (2006), "Functional Linear Regression for Longitudinal Data," Annals of Statistics, 33, 2873-2903.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

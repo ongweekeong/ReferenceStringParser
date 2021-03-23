@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260298</issue-id>
+         <article-id pub-id-type="jstor">1391159</article-id>
+         
+         <title-group>
+            <article-title>Selecting the Number of Knots for Penalized Splines</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David</given-names>
+                  <surname>Ruppert</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>735</fpage>
+         <lpage>757</lpage>
+         <page-range>735-757</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391159"/>
+         
+         
+         <abstract>
+            <p>Penalized splines, or P-splines, are regression splines fit by least-squares with a roughness penalty. P-splines have much in common with smoothing splines, but the type of penalty used with a P-spline is somewhat more general than for a smoothing spline. Also, the number and location of the knots of a P-spline is not fixed as with a smoothing spline. Generally, the knots of a P-spline are at fixed quantiles of the independent variable and the only tuning parameters to choose are the number of knots and the penalty parameter. In this article, the effects of the number of knots on the performance of P-splines are studied. Two algorithms are proposed for the automatic selection of the number of knots. The myopic algorithm stops when no improvement in the generalized cross-validation statistic (GCV) is noticed with the last increase in the number of knots. The full search examines all candidates in a fixed sequence of possible numbers of knots and chooses the candidate that minimizes GCV. The myopic algorithm works well in many cases but can stop prematurely. The full-search algorithm worked well in all examples examined. A Demmler-Reinsch type diagonalization for computing univariate and additive P-splines is described. The Demmler-Reinsch basis is not effective for smoothing splines because smoothing splines have too many knots. For P-splines, however, the Demmler-Reinsch basis is very useful for super-fast generalized cross-validation.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Additive models</kwd>
+            <kwd>Full search</kwd>
+            <kwd>Myopic search</kwd>
+            <kwd>P-spline</kwd>
+            <kwd>Smoothing</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d805662e138a1310">
+               
+               <mixed-citation id="d805662e142" publication-type="book">
+Chambers, J.M., and Hastie, T.J. (1993), Statistical Models in S, New York and London: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>Chambers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Models in S</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e164a1310">
+               
+               <mixed-citation id="d805662e168" publication-type="journal">
+Chaudhuri, P., and Marron, J.S. (1999), "SiZer for Exploration of Structures in Curves," Journal of the American
+Statistical Association, 94, 807-823.<object-id pub-id-type="doi">10.2307/2669996</object-id>
+               <fpage>807</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e184a1310">
+               
+               <mixed-citation id="d805662e188" publication-type="journal">
+Denison, D.G.T., Mallick, B.K., and Smith, A.F.M. (1998), "Automatic Bayesian Curve Fitting,"Journal of
+the Royal Statistical Society, Series B, 60, 333-350.<person-group>
+                     <string-name>
+                     <surname>Denison</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>333</fpage>
+               <volume>60</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e220a1310">
+               
+               <mixed-citation id="d805662e224" publication-type="journal">
+Eilers, P.H.C., and Marx, B.D. (1996), "Flexible Smoothing With B-splines and Penalties" (with discussion),
+Statistical Science, 11, 89-121.<object-id pub-id-type="jstor">10.2307/2246049</object-id>
+               <fpage>89</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e241a1310">
+               
+               <mixed-citation id="d805662e245" publication-type="book">
+Eubank, R.L. (1988), Spline Smoothing and Nonparametric Regression, New York and Basil: Marcel Dekker.<person-group>
+                     <string-name>
+                     <surname>Eubank</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spline Smoothing and Nonparametric Regression</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e267a1310">
+               
+               <mixed-citation id="d805662e271" publication-type="journal">
+Friedman, J.H. (1991), "Multivariate Adaptive Regression Splines" (with discussion), The Annals of Statistics,
+19, 1-141.<object-id pub-id-type="jstor">10.2307/2241837</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e287a1310">
+               
+               <mixed-citation id="d805662e291" publication-type="journal">
+Friedman, J.H., and Silverman, B.W. (1989), "Flexible Parsimonious Smoothing and Additive Modeling" (with
+discussion), Technometrics, 31, 3-39.<object-id pub-id-type="doi">10.2307/1270359</object-id>
+               <fpage>3</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e307a1310">
+               
+               <mixed-citation id="d805662e311" publication-type="book">
+Gill, P.E., Murray, W., and Wright, M.H. (1981), Practical Optimization, New York, Academic Press.<person-group>
+                     <string-name>
+                     <surname>Gill</surname>
+                  </string-name>
+                  </person-group>
+               <source>Practical Optimization</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e333a1310">
+               
+               <mixed-citation id="d805662e337" publication-type="journal">
+Hastie, T. (1996), "Pseudosplines," Journal of the Royal Statistical Society, Series B, 58, 379-396.<person-group>
+                     <string-name>
+                     <surname>Hastie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>379</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e366a1310">
+               
+               <mixed-citation id="d805662e370" publication-type="book">
+Hastie, T., and Tibshirani, R. (1990), Generalized Additive Models, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Hastie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Additive Models</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e393a1310">
+               
+               <mixed-citation id="d805662e397" publication-type="journal">
+Luo, Z., and Wahba, G. (1997), "Hybrid Adaptive Splines," Journal of the American Statistical Association, 92,
+107-116.<object-id pub-id-type="doi">10.2307/2291454</object-id>
+               <fpage>107</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e413a1310">
+               
+               <mixed-citation id="d805662e417" publication-type="journal">
+Marx B. D., and Eilers P. H. C. (1998), "Direct Generalized Additive Modeling with Penalized Likelihood,"
+Computational Statistics and Data Analysis, 28, 193-209.<person-group>
+                     <string-name>
+                     <surname>Marx</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>28</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e449a1310">
+               
+               <mixed-citation id="d805662e453" publication-type="book">
+Nychka, D. (2000), "Spatial Process Estimates as Smoothers," Smoothing and Regression. Approaches, Compu-
+tation and Application, ed. M. G. Schimek, New York: Wiley, pp. 393-424.<person-group>
+                     <string-name>
+                     <surname>Nychka</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Spatial Process Estimates as Smoothers</comment>
+               <fpage>393</fpage>
+               <source>Smoothing and Regression. Approaches, Computation and Application</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e485a1310">
+               
+               <mixed-citation id="d805662e489" publication-type="journal">
+O'Sullivan, F. (1986), "A Statistical Perspective on Ill-Posed Inverse Problems" (with discussion), Statistical
+Science, 1, 505-527.<object-id pub-id-type="jstor">10.2307/2245801</object-id>
+               <fpage>505</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e505a1310">
+               
+               <mixed-citation id="d805662e509" publication-type="journal">
+(1988), "Fast Computation of Fully Automated Log-Density and Log-Hazard Estimators," SIAM Journal
+of Scientific and Statistical Computation, 9, 363-379.<person-group>
+                     <string-name>
+                     <surname>O'Sullivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>9</volume>
+               <source>SIAM Journal of Scientific and Statistical Computation</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e541a1310">
+               
+               <mixed-citation id="d805662e545" publication-type="journal">
+Ruppert, D., and Carroll, R.J. (2000), "Spatially-Adaptive Penalties for Spline Fitting," Australian and New
+Zealand Journal of Statistics, 42, 205-223.<person-group>
+                     <string-name>
+                     <surname>Ruppert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>42</volume>
+               <source>Australian and New Zealand Journal of Statistics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e578a1310">
+               
+               <mixed-citation id="d805662e582" publication-type="journal">
+Stone, C.J., Hansen, M., Kooperberg, C., and Truong, Y K. (1997), "Polynomial Splines and Their Tensor Products
+in Extended Linear Modeling" (with discussion), The Annals of Statistics, 25, 1371-1470.<object-id pub-id-type="jstor">10.2307/2959054</object-id>
+               <fpage>1371</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e598a1310">
+               
+               <mixed-citation id="d805662e602" publication-type="journal">
+Ullah, A. (1985), "Specification Analysis of Econometric Models," Journal of Quantitative Economics, 2, 187-
+209.<person-group>
+                     <string-name>
+                     <surname>Ullah</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>2</volume>
+               <source>Journal of Quantitative Economics</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e634a1310">
+               
+               <mixed-citation id="d805662e638" publication-type="book">
+Wahba, G. (1990), Spline Models for Observational Data, Philadelphia: Society for Industrial and Applied Math-
+ematics.<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spline Models for Observational Data</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d805662e663a1310">
+               
+               <mixed-citation id="d805662e667" publication-type="journal">
+Wand, M.P. (2000), "A Comparison of Regression Spline Smoothing Procedures," Computational Statistics, 15,
+443-462.<person-group>
+                     <string-name>
+                     <surname>Wand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>15</volume>
+               <source>Computational Statistics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

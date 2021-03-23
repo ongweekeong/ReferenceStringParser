@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">47</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">175</issue>
+         <issue-id>i334593</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008098</article-id>
+         
+         <title-group>
+            <article-title>Symmetric FFTs</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul N.</given-names>
+                  <surname>Swarztrauber</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1986</year>
+         </pub-date>
+         <fpage>323</fpage>
+         <lpage>346</lpage>
+         <page-range>323-346</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1986 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008098"/>
+         
+         
+         <abstract>
+            <p>In this paper, we examine the FFT of sequences $x_n = x_{N + n}$ with period $N$ that satisfy certain symmetric relations. It is known that one can take advantage of these relations in order to reduce the computing time required by the FFT. For example, the time required for the FFT of a real sequence is about half that required for the FFT of a complex sequence. Also, the time required for the FFT of a real even sequence $x_n = x_{N - n}$ requires about half that required for a real sequence. We first define a class of five symmetries that are shown to be "closed" in the sense that if $x_n$ has any one of the symmetries, then no additional symmetries are generated in the course of the FFT. Symmetric FFTs are developed that take advantage of these intermediate symmetries. They do not require the traditional pre- and postprocessing associated with symmetric FFTs and, as a consequence, they are somewhat more efficient and general than existing symmetric FFTs.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>42-04</kwd>
+            <kwd>65F05</kwd>
+            <kwd>65T05</kwd>
+            <kwd>65P05</kwd>
+            <kwd>FFT</kwd>
+            <kwd>fast Fourier transform</kwd>
+            <kwd>symmetric FFTs</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1445518e145a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1445518e152" publication-type="journal">
+G. D. BERGLAND, "A fast Fourier transform for real-valued series," Comm. ACM, v. 11, 1968, pp.
+703-710.<person-group>
+                     <string-name>
+                     <surname>Bergland</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>703</fpage>
+               <volume>11</volume>
+               <source>Comm. ACM</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e184a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1445518e191" publication-type="book">
+E. 0. BRIGHAM, The Fast Fourier Transform, Prentice-Hall, Englewood Cliffs, N. J., 1974.<person-group>
+                     <string-name>
+                     <surname>Brigham</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Fast Fourier Transform</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e213a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1445518e220" publication-type="journal">
+J. W. COOLEY, P. A. W. LEWIS &amp; P. D. WELSH, "The fast Fourier transform algorithm:
+Programming considerations in the calculation of sine, cosine and Laplace transforms," J. Sound
+Vibration, v. 12, 1970, pp. 315-337.<person-group>
+                     <string-name>
+                     <surname>Cooley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>12</volume>
+               <source>J. Sound Vibration</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e255a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1445518e262" publication-type="journal">
+J. DOLLIMORE, "Some algorithms for use with the fast Fourier transform," J. Inst. Math. Appl. , v.
+12, 1973, pp. 115-117.<person-group>
+                     <string-name>
+                     <surname>Dollimore</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>115</fpage>
+               <volume>12</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e295a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1445518e302" publication-type="journal">
+B. FORNBERG, "A vector implementation of the fast Fourier transform," Math. Comp., v. 36, 1981,
+pp. 189-191.<object-id pub-id-type="doi">10.2307/2007735</object-id>
+               <fpage>189</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e318a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1445518e325" publication-type="journal">
+R. W. HOCKNEY, "A fast direct solution of Poisson's equation using Fourier analysis," J. Assoc.
+Comput. Mach., v. 12, 1965, pp. 95-113.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>12</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e357a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1445518e364" publication-type="journal">
+P. N. SWARZTRAUBER, "The methods of cyclic reduction, Fourier analysis and the FACR algorithm
+for the discrete solution of Poisson's equation on a rectangle," SIAM Rev., v. 19, 1977, pp. 490-501.<object-id pub-id-type="jstor">10.2307/2029616</object-id>
+               <fpage>490</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e380a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1445518e387" publication-type="book">
+P. N. SWARZTRAUBER, "Vectorizing the FFTs," in Parallel Computations (G. Rodrigue, ed.),
+Academic Press, New York, 1982, pp. 490-501.<person-group>
+                     <string-name>
+                     <surname>Swarztrauber</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Vectorizing the FFTs</comment>
+               <fpage>490</fpage>
+               <source>Parallel Computations</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e419a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1445518e426" publication-type="book">
+P. N. SWARZTRAUBER, "Software for the spectral analysis of scalar and vector functions on the
+sphere," in Large Scale Scientific Computation (S. V. Parter, ed.), Academic Press, New York, 1984, pp.
+271-299.<person-group>
+                     <string-name>
+                     <surname>Swarztrauber</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Software for the spectral analysis of scalar and vector functions on the sphere</comment>
+               <fpage>271</fpage>
+               <source>Large Scale Scientific Computation</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e461a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1445518e468" publication-type="journal">
+P. N. SWARZTRAUBER, "FFT algorithms for vector computers," Parallel Computing, v. 1, 1984, pp.
+45-63.<person-group>
+                     <string-name>
+                     <surname>Swarztrauber</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>45</fpage>
+               <volume>1</volume>
+               <source>Parallel Computing</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e501a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1445518e508" publication-type="book">
+P. N. SWARZTRAUBER, "Fast Poisson solvers," MAA Studies in Numerical Analysis, Vol. 24 (G. H.
+GColub, ed.), Mathematical Association of America, 1984, pp. 319-370.<person-group>
+                     <string-name>
+                     <surname>Swarztrauber</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Poisson solvers</comment>
+               <fpage>319</fpage>
+               <volume>24</volume>
+               <source>MAA Studies in Numerical Analysis</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1445518e543a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1445518e550" publication-type="journal">
+C. TEMPERTON, "Fast mixed-radix real Fourier transforms," J. Comput. Phys., v. 52, 1983, pp.
+340-350.<person-group>
+                     <string-name>
+                     <surname>Temperton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>340</fpage>
+               <volume>52</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

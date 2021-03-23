@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">77</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">264</issue>
+         <issue-id>i40008732</issue-id>
+         <article-id pub-id-type="jstor">40234595</article-id>
+         <title-group>
+            <article-title>A Superconvergent LDG-Hybridizable Galerkin Method for Second-Order Elliptic Problems</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Bernardo</given-names>
+                  <surname>Cockburn</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bo</given-names>
+                  <surname>Dong</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Johnny</given-names>
+                  <surname>Guzmán</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>1887</fpage>
+         <lpage>1916</lpage>
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234595"/>
+      
+      
+         <abstract>
+            <p>We identify and study an LDG-hybridizable Galerkin method, which is not an LDG method, for second-order elliptic problems in several space dimensions with remarkable convergence properties. Unlike all other known discontinuous Galerkin methods using polynomials of degree k ≥ 0 for both the potential as well as the flux, the order of convergence in L² of both unknowns is k + 1. Moreover, both the approximate potential as well as its numerical trace superconverge in L²-like norms, to suitably chosen projections of the potential, with order k + 2. This allows the application of element-by-element postprocessing of the approximate solution which provides an approximation of the potential converging with order k+2 in L². The method can be thought to be in between the hybridized version of the Raviart-Thomas and that of the Brezzi-Douglas-Marini mixed methods.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 65M60</kwd>
+            <kwd>Primary 65N30</kwd>
+            <kwd>Primary 35L65</kwd>
+            <kwd>Discontinuous Galerkin methods</kwd>
+            <kwd>hybridization</kwd>
+            <kwd>superconvergence</kwd>
+            <kwd>second-order elliptic problems</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1783066e174a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1783066e181" publication-type="other">
+D. N. Arnold and F. Brezzi, Mixed and nonconforming finite element methods: implemen-
+tation, postprocessing and error estimates, RAIRO Modél. Math. Anal. Numér. 19 (1985),
+7-32. MR813687 (87g:65126)</mixed-citation>
+        </ref>
+        <ref id="d1783066e194a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1783066e201" publication-type="other">
+D. N. Arnold, F. Brezzi, B. Cockburn, and L. D. Marini, Unified analysis of discontinu-
+ous Galerkin methods for elliptic problems, SIAM J. Numer. Anal. 39 (2002), 1749-1779.
+MR1885715 (2002k:65183)</mixed-citation>
+        </ref>
+        <ref id="d1783066e214a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1783066e221" publication-type="other">
+J. H. Bramble and J. Xu, A local post-processing technique for improving the accuracy in
+mixed finite-element approximations, SIAM J. Numer. Anal. 26 (1989), no. 6, 1267-1275.
+MR1025087 (90m:65193)</mixed-citation>
+        </ref>
+        <ref id="d1783066e234a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1783066e241" publication-type="other">
+F. Brezzi, J. Douglas, Jr., and L. D. Marini, Two families of mixed finite elements for second
+order elliptic problems, Numer. Math. 47 (1985), 217-235. MR799685 (87g:65133)</mixed-citation>
+        </ref>
+        <ref id="d1783066e252a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1783066e259" publication-type="other">
+P. Castillo, B. Cockburn, I. Perugia, and D. Schötzau, An a priori error analysis of the
+local discontinuous Galerkin method for elliptic problems, SIAM J. Numer. Anal. 38 (2000),
+1676-1706. MR1813251 (2002k:65175)</mixed-citation>
+        </ref>
+        <ref id="d1783066e272a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1783066e279" publication-type="other">
+F. Celiker and B. Cockburn, Superconvergence of the numerical traces of discontinuous
+Galerkin and hybridized mixed methods for convection-diffusion problems in one space di-
+mension, Math. Comp. 76 (2007), 67-96. MR2261012</mixed-citation>
+        </ref>
+        <ref id="d1783066e292a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1783066e299" publication-type="other">
+Z. Chen, Equivalence between and multigrid algorithms for nonconforming and mixed
+methods for second-order elliptic problems, East-West J. Numer. Math. 4 (1996), 1-33.
+MR1393063 (98c:65184)</mixed-citation>
+        </ref>
+        <ref id="d1783066e312a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1783066e319" publication-type="other">
+P. Ciarlet, The finite element method for elliptic problems, North-Holland, Armsterdam,
+1978. MR0520174 (58:25001)</mixed-citation>
+        </ref>
+        <ref id="d1783066e329a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1783066e336" publication-type="other">
+B. Cockburn and B. Dong, An analysis of the minimal dissipation local discontinuous
+Galerkin method for convection-diffusion problems, J. Sci. Comput. 32 (2007), 233-262.
+MR2320571</mixed-citation>
+        </ref>
+        <ref id="d1783066e349a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1783066e356" publication-type="other">
+B. Cockburn and J. Gopalakrishnan, A characterization of hybridized mixed methods for
+second order elliptic problems, SIAM J. Numer. Anal. 42 (2004), 283-301. MR2051067
+(2005e:65183)</mixed-citation>
+        </ref>
+        <ref id="d1783066e370a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1783066e377" publication-type="other">
+B. Cockburn, J. Gopalakrishnan, and R. Lazarov, Unified hybridization of discontinuous
+Galerkin, mixed and continuous Galerkin methods for second order elliptic problems, Sub-
+mitted.</mixed-citation>
+        </ref>
+        <ref id="d1783066e390a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1783066e397" publication-type="other">
+B. Cockburn and C.-W. Shu, The local discontinuous Galerkin method for time-dependent
+convection-diffusion systems, SIAM J. Numer. Anal. 35 (1998), 2440-2463. MR1655854
+(99j:65163)</mixed-citation>
+        </ref>
+        <ref id="d1783066e410a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1783066e417" publication-type="other">
+J. Douglas. Jr. and J. E. Roberts, Global estimates for mixed methods for second order elliptic
+equations. Math. Comp. 44 (1985), 39-52. MR771029 (86b:65122)</mixed-citation>
+        </ref>
+        <ref id="d1783066e427a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1783066e434" publication-type="other">
+L. Gastaldi and R. H. Nochetto, Sharp maximum norm error estimates for general mixed
+finite element approximations to second order elliptic equations, RAIRO Modél. Math. Anal.
+Numér. 23 (1989). 103-128. MR1015921 (91b:65125)</mixed-citation>
+        </ref>
+        <ref id="d1783066e447a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1783066e454" publication-type="other">
+J. T. Oden and J. K. Lee, Dual-mixed hybrid finite element method for second-order elliptic
+problems, Mathematical aspects of finite element methods (Proc. Conf., Consiglio Naz. delle
+Ricerche (C.N.R.), Rome, 1975), Springer, Berlin, 1977, pp. 275-291. Lecture Notes in Math.,
+Vol. 606. MR0520341 (58:25010)</mixed-citation>
+        </ref>
+        <ref id="d1783066e470a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1783066e477" publication-type="other">
+P. A. Raviart and J. M. Thomas, A mixed finite element method for second order elliptic
+problems, Mathematical Aspects of Finite Element Method (I. Galligani and E, Magenes,
+eds.). Lecture Notes in Math. 606, Springer- Ver lag, New York, 1977, pp. 292-315. MR0483555
+(58:3547)</mixed-citation>
+        </ref>
+        <ref id="d1783066e494a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1783066e501" publication-type="other">
+Rolf Stenberg, A family of mixed finite elements for the elasticity problem, Numer. Math 53
+(1988), 513-538. MR954768 (89h:65192)</mixed-citation>
+        </ref>
+        <ref id="d1783066e511a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1783066e518" publication-type="other">
+Rolf Stenberg, Postprocessing schemes for some mixed finite elements, RAIRO Modél. Math.
+Anal. Numér. 25 (1991), 151-167. MR1086845 (92a:65303)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

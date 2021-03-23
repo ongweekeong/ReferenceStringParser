@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260275</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390726</article-id>
+         
+         <title-group>
+            <article-title>Subregion-Adaptive Integration of Functions Having a Dominant Peak</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Alan</given-names>
+                  <surname>Genz</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Robert E.</given-names>
+                  <surname>Kass</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>92</fpage>
+         <lpage>111</lpage>
+         <page-range>92-111</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390726"/>
+         
+         
+         <abstract>
+            <p>Many statistical multiple integration problems involve integrands that have a dominant peak. In applying numerical methods to solve these problems, statisticians have paid relatively little attention to existing quadrature methods and available software developed in the numerical analysis literature. One reason these methods have been largely overlooked, even though they are known to be more efficient than Monte Carlo for well-behaved problems of low dimensionality, may be that when applied naively they are poorly suited for peaked-integrand problems. In this article we use transformations based on "split t" distributions to allow the integrals to be efficiently computed using a subregion-adaptive numerical integration algorithm. Our split t distributions are modifications of those suggested by Geweke and may also be used to define Monte Carlo importance functions. We then compare our approach to Monte Carlo. In the several examples we examine here, we find subregion-adaptive integration to be substantially more efficient than importance sampling.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian computation</kwd>
+            <kwd>Importance sampling</kwd>
+            <kwd>Monte Carlo</kwd>
+            <kwd>Multiple integrals</kwd>
+            <kwd>Numerical quadrature</kwd>
+            <kwd>Split t distributions</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4495343e154a1310">
+               
+               <mixed-citation id="d4495343e158" publication-type="book">
+Bates, D.M., and Watts, D.G. (1988), Nonlinear Regression Analysis and its Applications, New York: John
+Wiley and Sons.<person-group>
+                     <string-name>
+                     <surname>Bates</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression Analysis and its Applications</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e183a1310">
+               
+               <mixed-citation id="d4495343e187" publication-type="journal">
+Berntsen, J., and Espelid, T. 0. (1982), "On the Construction of Higher Degree Three Dimensional Imbedded
+Integration Rules," SIAM Journal of Numerical Analysis, 25, 222-234.<person-group>
+                     <string-name>
+                     <surname>Berntsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>222</fpage>
+               <volume>25</volume>
+               <source>SIAM Journal of Numerical Analysis</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e219a1310">
+               
+               <mixed-citation id="d4495343e223" publication-type="journal">
+Berntsen, J., Espelid, T.O., and Genz, A. (1991a), "An Adaptive Algorithm for the Approximate Calculation
+of Multiple Integrals," ACM TOMS, 17, 437-451.<person-group>
+                     <string-name>
+                     <surname>Berntsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>437</fpage>
+               <volume>17</volume>
+               <source>ACM TOMS</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e255a1310">
+               
+               <mixed-citation id="d4495343e259" publication-type="journal">
+(1991b), "Algorithm 698: DCUHRE- An Adaptive Multiple Integration Routine for a Vector of Inte-
+grals," ACM TOMS, 17, 452-456.<person-group>
+                     <string-name>
+                     <surname>Berntsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>452</fpage>
+               <volume>17</volume>
+               <source>ACM TOMS</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e292a1310">
+               
+               <mixed-citation id="d4495343e296" publication-type="journal">
+Carlin, B.P., Kass, R.E., Lerch, J., and Huguenard, B. (1992), "Predicting Working Memory Failure: A
+Subjective Bayesian Approach to Model Selection," Journal of the American Statistical Association, 87,
+319-327.<object-id pub-id-type="doi">10.2307/2290262</object-id>
+               <fpage>319</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e315a1310">
+               
+               <mixed-citation id="d4495343e319" publication-type="journal">
+Chen, C.F. (1985), "On Asymptotic Normality of Limiting Density Functions with Bayesian Implications,"
+Journal of the Royal Statistical Society, 47, 540-546.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>540</fpage>
+               <volume>47</volume>
+               <source>Journal of the Royal Statistical Society</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e351a1310">
+               
+               <mixed-citation id="d4495343e355" publication-type="book">
+Cools, R., and Dellaportas, P. (1994), "The Role of Embedded Integration Rules in Bayesian Statistics,"
+technical report, Athens University of Economics, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Cools</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Role of Embedded Integration Rules in Bayesian Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e380a1310">
+               
+               <mixed-citation id="d4495343e384" publication-type="journal">
+Cools, R., and Haegemans, A. (1994), "An Imbedded Family of Cubature Formulas for n-Dimensional Product
+Regions," Journal of Computational and Applied Mathematics, 51, 251-262.<person-group>
+                     <string-name>
+                     <surname>Cools</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>251</fpage>
+               <volume>51</volume>
+               <source>Journal of Computational and Applied Mathematics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e416a1310">
+               
+               <mixed-citation id="d4495343e420" publication-type="book">
+Davis, P.J., and Rabinowitz P. (1984), Methods of Numerical Integration, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of Numerical Integration</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e442a1310">
+               
+               <mixed-citation id="d4495343e446" publication-type="journal">
+Dellaportas, P., and Wright, D. (1991), "Positive Imbedded Integration in Bayesian Analysis," Statistics and
+Computing, 1, 1-12.<person-group>
+                     <string-name>
+                     <surname>Dellaportas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>1</volume>
+               <source>Statistics and Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e479a1310">
+               
+               <mixed-citation id="d4495343e483" publication-type="journal">
+DiCiccio, T.J., Kass, R.E., Raftery, A.E., and Wasserman, L. (in press), "Computing Bayes Factors by Com-
+bining Simulation and Asymptotic Approximations," Journal of the American Statistical Association.<person-group>
+                     <string-name>
+                     <surname>DiCiccio</surname>
+                  </string-name>
+                  </person-group>
+               <source>Journal of the American Statistical Association</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e505a1310">
+               
+               <mixed-citation id="d4495343e509" publication-type="book">
+Engels, H. (1980), Numerical Quadrature and Cubature, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Engels</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Quadrature and Cubature</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e531a1310">
+               
+               <mixed-citation id="d4495343e535" publication-type="book">
+Evans, M. (1991), "Adaptive Importance Sampling and Chaining," in Statistical Numerical Integration, Contem-
+porary Mathematics, 115, eds. N. Flournoy and R. K. Tsutakawa, Providence, RI: American Mathematical
+Society, pp. 137-143.<person-group>
+                     <string-name>
+                     <surname>Evans</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Adaptive Importance Sampling and Chaining</comment>
+               <fpage>137</fpage>
+               <volume>115</volume>
+               <source>Statistical Numerical Integration, Contemporary Mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e573a1310">
+               
+               <mixed-citation id="d4495343e577" publication-type="journal">
+Evans, M., and Swartz, T. (1992), "Some Integration Strategies for Problems in Statistical Inference," Com-
+puting Science and Statistics, 24, 310-317.<person-group>
+                     <string-name>
+                     <surname>Evans</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>310</fpage>
+               <volume>24</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e609a1310">
+               
+               <mixed-citation id="d4495343e613" publication-type="journal">
+(1995), "Methods for Approximating Integrals in Statistics With Special Emphasis on Bayesian Inte-
+gration Problems," Statistical Science, 10, 254-272.<object-id pub-id-type="jstor">10.2307/2246014</object-id>
+               <fpage>254</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e629a1310">
+               
+               <mixed-citation id="d4495343e633" publication-type="journal">
+Genz, A. (1986), "Fully Symmetric Interpolatory Rules for Multiple Integrals," SIAM Journal of Numerical
+Analysis, 23, 1273-1283.<object-id pub-id-type="jstor">10.2307/2157427</object-id>
+               <fpage>1273</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e650a1310">
+               
+               <mixed-citation id="d4495343e654" publication-type="book">
+Genz, A., and Kass, R.E. (1991), "An Application of Subregion Adaptive Numerical Integration to a Bayesian
+Inference Problem," in Computing Science and Statistics, ed. E. Keramidas, Fairfax, VA: Interface Foun-
+dation of America, pp. 441-444.<person-group>
+                     <string-name>
+                     <surname>Genz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An Application of Subregion Adaptive Numerical Integration to a Bayesian Inference Problem</comment>
+               <fpage>441</fpage>
+               <source>Computing Science and Statistics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e689a1310">
+               
+               <mixed-citation id="d4495343e693" publication-type="journal">
+Genz, A., and Keister, B. (1996), "Fully Symmetric Interpolatory Rules for Multiple Integrals Over Infinite
+Regions," Journal of Computational and Applied Mathematics, 71, 299-309.<person-group>
+                     <string-name>
+                     <surname>Genz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>299</fpage>
+               <volume>71</volume>
+               <source>Journal of Computational and Applied Mathematics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e725a1310">
+               
+               <mixed-citation id="d4495343e729" publication-type="journal">
+Genz, A., and Malik, A.A. (1983), "An Imbedded Family of Fully Symmetric Numerical Integration Rules,"
+SIAM Journal of Numerical Analysis, 20, 580-587.<object-id pub-id-type="jstor">10.2307/2157273</object-id>
+               <fpage>580</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e745a1310">
+               
+               <mixed-citation id="d4495343e749" publication-type="journal">
+Geweke, J. (1989), "Bayesian Inference in Econometric Models Using Monte Carlo Integration," Econometrica,
+57, 1317-1340.<object-id pub-id-type="doi">10.2307/1913710</object-id>
+               <fpage>1317</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e765a1310">
+               
+               <mixed-citation id="d4495343e769" publication-type="book">
+(1991), "Generic, Algorithmic Approaches to Monte Carlo Integration in Bayesian Inference," in Statis-
+tical Multiple Integration, Contemporary Mathematics, eds. N. Flournoy and R. K. Tsutakawa, Providence,
+RI: American Mathematical Society, pp. 117-135.<person-group>
+                     <string-name>
+                     <surname>Geweke</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Generic, Algorithmic Approaches to Monte Carlo Integration in Bayesian Inference</comment>
+               <fpage>117</fpage>
+               <source>Statistical Multiple Integration</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e804a1310">
+               
+               <mixed-citation id="d4495343e808" publication-type="book">
+Johnson, N.L., and Kotz, S. (1970), Continuous Univariate Distributions-I, New York: John Wiley and Sons.<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Continuous Univariate Distributions-I</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e831a1310">
+               
+               <mixed-citation id="d4495343e835" publication-type="journal">
+Kass, R.E. (1987), "Computing Observed Information by Finite Differences," Communications in Statistics:
+Simulation and Computation, 16, 587-599.<person-group>
+                     <string-name>
+                     <surname>Kass</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>587</fpage>
+               <volume>16</volume>
+               <source>Communications in Statistics: Simulation and Computation</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e867a1310">
+               
+               <mixed-citation id="d4495343e871" publication-type="journal">
+Keast, P. (1979), "Some Fully Symmetric Rules for Product Spaces," Journal of the Institute of Mathematics
+and its Applications, 23, 251-264.<person-group>
+                     <string-name>
+                     <surname>Keast</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>251</fpage>
+               <volume>23</volume>
+               <source>Journal of the Institute of Mathematics and its Applications</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e903a1310">
+               
+               <mixed-citation id="d4495343e907" publication-type="journal">
+Keast, P., and Lyness, J.N. (1979), "On the Structures of Fully Symmetric Multidimensional Quadrature
+Rules," SIAM Journal of Numerical Analysis, 16, 11-29.<object-id pub-id-type="jstor">10.2307/2156893</object-id>
+               <fpage>11</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e923a1310">
+               
+               <mixed-citation id="d4495343e927" publication-type="journal">
+Monahan, J., and Genz, A. (1996), "A Comparison of Omnibus Methods for Bayesian Computation," Computing
+Science and Statistics, 27, 471-480.<person-group>
+                     <string-name>
+                     <surname>Monahan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>471</fpage>
+               <volume>27</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e959a1310">
+               
+               <mixed-citation id="d4495343e963" publication-type="journal">
+(in press), "Spherical-Radial Integration Rules for Bayesian Computation," Journal of the American
+Statistical Association, 92.<person-group>
+                     <string-name>
+                     <surname>Monahan</surname>
+                  </string-name>
+                  </person-group>
+               <volume>92</volume>
+               <source>Journal of the American Statistical Association</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e988a1310">
+               
+               <mixed-citation id="d4495343e992" publication-type="other">
+NAG, Numerical Algorithms Group Limited, Wilkinson House, Jordan Hill Road, Oxford, OX2 8DR, UK</mixed-citation>
+            </ref>
+            <ref id="d4495343e1000a1310">
+               
+               <mixed-citation id="d4495343e1004" publication-type="journal">
+Naylor, J.C., and Smith, A.F.M. (1982), "Applications of a Method for the Efficient Computation of Posterior
+Distributions," Applied Statistics, 31, 214-225.<object-id pub-id-type="doi">10.2307/2347995</object-id>
+               <fpage>214</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e1020a1310">
+               
+               <mixed-citation id="d4495343e1024" publication-type="journal">
+Shaw, J.E.H. (1988a), "A Quasirandom Approach to Integration in Bayesian Statistics," The Annals of
+Statistics, 16, 895-914.<object-id pub-id-type="jstor">10.2307/2241763</object-id>
+               <fpage>895</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e1040a1310">
+               
+               <mixed-citation id="d4495343e1044" publication-type="book">
+(1988b), "Aspects of Numerical Integration and Summarisation," in Bayesian Statistics 3, eds. J.
+Bernardo, H. H. Degroot, D. V. Lindley, and A. F. M. Smith, Cambridge, MA: Oxford University
+Press, 411-428.<person-group>
+                     <string-name>
+                     <surname>Shaw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Aspects of Numerical Integration and Summarisation</comment>
+               <fpage>411</fpage>
+               <source>Bayesian Statistics 3</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e1079a1310">
+               
+               <mixed-citation id="d4495343e1083" publication-type="book">
+Tanner, M. (1993), Tools for Statistical Inference New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tools for Statistical Inference</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495343e1105a1310">
+               
+               <mixed-citation id="d4495343e1109" publication-type="journal">
+van Dooren, P., and de Ridder, L. (1976), "An Adaptive Algorithm for Numerical Integration over an N-
+Dimensional Rectangular Region," Journal of Computational and Applied Mathematics, 2, 207-217.<person-group>
+                     <string-name>
+                     <surname>van Dooren</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>207</fpage>
+               <volume>2</volume>
+               <source>Journal of Computational and Applied Mathematics</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

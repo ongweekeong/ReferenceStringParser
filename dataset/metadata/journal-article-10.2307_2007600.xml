@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">42</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">166</issue>
+         <issue-id>i334584</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007600</article-id>
+         
+         <title-group>
+            <article-title>On the Existence and Computation of $LU$-Factorizations with Small Pivots</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Tony F.</given-names>
+                  <surname>Chan</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1984</year>
+         </pub-date>
+         <fpage>535</fpage>
+         <lpage>547</lpage>
+         <page-range>535-547</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1984 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007600"/>
+         
+         
+         <abstract>
+            <p>Let $A$ be an $n$ by $n$ matrix which may be singular with a one-dimensional null space, and consider the $LU$-factorization of $A$. When $A$ is exactly singular, we show conditions under which a pivoting strategy will produce a zero $n$th pivot. When $A$ is not singular, we show conditions under which a pivoting strategy will produce an $n$th pivot that is $O(\sigma_n)$ or $O(\kappa^{-1}(A))$, where $\sigma_n$ is the smallest singular value of $A$ and $\kappa(A)$ is the condition number of $A$. These conditions are expressed in terms of the elements of $A^{-1}$ in general but reduce to conditions on the elements of the singular vectors corresponding to $\sigma_n$ when $A$ is nearly or exactly singular. They can be used to build a 2-pass factorization algorithm which is guaranteed to produce a small $n$th pivot for nearly singular matrices. As an example, we exhibit an $LU$-factorization of the $n$ by $n$ upper triangular matrix $$T = \begin{bmatrix}1&amp;-1&amp;&amp;-1&amp;&amp;\cdot&amp;\cdot&amp;-1\\&amp;1&amp;&amp;\cdot&amp;&amp;&amp;\cdot\\&amp;&amp;&amp;1&amp;\cdot&amp;&amp; &amp;\\&amp;&amp;&amp;&amp;\cdot&amp;\cdot&amp;&amp;\cdot\\&amp;&amp;0&amp;&amp;\cdot&amp;\cdot&amp;\cdot\\&amp;&amp;&amp;&amp;&amp;&amp;\cdot&amp;-1\\&amp;&amp;&amp;&amp;&amp;&amp;&amp; 1\end{bmatrix}$$ that has an $n$th pivot equal to $2^{-(n - 2)}$.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>15A03</kwd>
+            <kwd>15A09</kwd>
+            <kwd>15A12</kwd>
+            <kwd>65F05</kwd>
+            <kwd>65F20</kwd>
+            <kwd>65F35</kwd>
+            <kwd>$LU$-factorizations</kwd>
+            <kwd>singular systems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d218522e148a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d218522e155" publication-type="journal">
+T. F. CHAN, "An improved algorithm for computing the singular value decomposition," ACM Trans.
+Math. Software, v. 8, 1982, pp. 72-83.<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>72</fpage>
+               <volume>8</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e187a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d218522e194" publication-type="book">
+T. F. CHAN, Deflation Techniques and Block-Elimination Algorithms for Solving Bordered Singular
+Systems, Technical Report 226, Computer Science Department, Yale University, New Haven, CT, 1982<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Deflation Techniques and Block-Elimination Algorithms for Solving Bordered Singular Systems</source>
+               <year>1982</year>
+            </mixed-citation>
+               <mixed-citation id="d218522e218" publication-type="journal">
+SIAM J. Sci. Statist Comput., v. 5, 1984.<volume>5</volume>
+               <source>SIAM J. Sci. Statist Comput.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e234a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d218522e241" publication-type="book">
+T. F. CHAN, Deflated Decomposition of Solutions of Nearly Singular Systems, Technical Report 225,
+Computer Science Department, Yale University, New Haven, CT, 1982<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Deflated Decomposition of Solutions of Nearly Singular Systems</source>
+               <year>1982</year>
+            </mixed-citation>
+               <mixed-citation id="d218522e265" publication-type="journal">
+SIAM J. Numer. Anal. (To
+appear.)<source>SIAM J. Numer. Anal.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e278a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d218522e285" publication-type="journal">
+T. F. CHAN &amp; H. B. KELLER, "Arclength continuation and multi-grid techniques for nonlinear
+eigenvalue problems," SIAM J. Sci. Statist. Comput., v. 3, 1982, pp. 173-194.<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>3</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e318a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d218522e325" publication-type="journal">
+A. K. CLINE, "An elimination method for the solution of linear least squares problems," SIAM J.
+Numer. Anal., v. 10, 1973, pp. 283-289.<object-id pub-id-type="jstor">10.2307/2156356</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e341a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d218522e348" publication-type="journal">
+A. K. CLINE, C. B. MOLER, G. W. STEWART &amp; J. H. WILKINSON, "An estimate for the condition
+number of a matrix," SIAM J. Numer. Anal., v. 16, 1979, pp. 368-375.<object-id pub-id-type="jstor">10.2307/2156842</object-id>
+               <fpage>368</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e364a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d218522e371" publication-type="journal">
+A. K. CLINE &amp; R. J. PLEMMONS, "12 solutions to underdetermined linear systems," SIAM Rev., v. 18,
+1976, pp. 92-106.<object-id pub-id-type="jstor">10.2307/2029001</object-id>
+               <fpage>92</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e387a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d218522e394" publication-type="book">
+J. J. DONGARRA, J. R. BUNCH, C. B. MOLER &amp; G. W. STEWART, LINPACK User's Guide, SIAM,
+Philadelphia, PA, 1979.<person-group>
+                     <string-name>
+                     <surname>Dongarra</surname>
+                  </string-name>
+                  </person-group>
+               <source>LINPACK User's Guide</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e419a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d218522e426" publication-type="journal">
+G. H. GOLUB &amp; C. REINSCH, "Singular value decomposition and least squares solutions," Numer.
+Math., v. 14, 1970, pp. 403-420.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>403</fpage>
+               <volume>14</volume>
+               <source>Numer. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e458a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d218522e465" publication-type="journal">
+G. H. GOLUB &amp; J. H. WILKINSON, "Ill-conditioned eigensystems and the computation of Jordan
+canonical form," SIAM Rev., v. 18, 1976, pp. 578-619.<object-id pub-id-type="jstor">10.2307/2029711</object-id>
+               <fpage>578</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e482a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d218522e489" publication-type="book">
+H. B. KELLER, "Numerical solution of bifurcation and nonlinear eigenvalue problems," In
+Applications of Bifurcation Theory (P. Rabinowitz, ed.), Academic Press, New York, 1977, pp. 359-384.<person-group>
+                     <string-name>
+                     <surname>Keller</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical solution of bifurcation and nonlinear eigenvalue problems</comment>
+               <fpage>359</fpage>
+               <source>Applications of Bifurcation Theory</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e521a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d218522e528" publication-type="other">
+H. B. KELLER, Singular Systems, Inverse Interation and Least Squares, unpublished manuscript,
+Applied Mathematics Department, Caltech, Pasadena, CA, 1978.</mixed-citation>
+            </ref>
+            <ref id="d218522e538a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d218522e545" publication-type="book">
+H. B. KELLER, Numerical Continuation Methods, Short Course Lecture Notes, National Bureau of
+Standards, Center for Applied Mathematics, 1981.<person-group>
+                     <string-name>
+                     <surname>Keller</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Continuation Methods</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e570a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d218522e577" publication-type="book">
+H. B. KELLER, "Practical procedures in path following near limit points," in Computing Methods in
+Applied Sciences and Engineering (Glowinski and Lions, eds.), North-Holland, Amsterdam, 1982.<person-group>
+                     <string-name>
+                     <surname>Keller</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Practical procedures in path following near limit points</comment>
+               <source>Computing Methods in Applied Sciences and Engineering</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e606a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d218522e613" publication-type="journal">
+H. B. KELLER, " The bordering algorithm and path following near singular points of higher nullity,"
+SIAM J. Sci. Statist. Comput., v. 4, 1983.<person-group>
+                     <string-name>
+                     <surname>Keller</surname>
+                  </string-name>
+                  </person-group>
+               <volume>4</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e642a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d218522e649" publication-type="journal">
+R. G. MELHEM &amp; W. C. RHEINBOLDT, "A comparison of methods for determining turning points of
+nonlinear equations," Computing, v. 29, 1982, pp. 201-226.<person-group>
+                     <string-name>
+                     <surname>Melhem</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>29</volume>
+               <source>Computing</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e682a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d218522e689" publication-type="journal">
+D. P. O'LEARY, "Estimating matrix condition numbers," SIAM J. Sci. Statist. Comput., v. 1, 1980,
+pp. 205-209.<person-group>
+                     <string-name>
+                     <surname>O'leary</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e721a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d218522e728" publication-type="journal">
+G. PETERS &amp; J. H. WILKINSON, "The least squares problem and pseudo-inverses," Comput. J., v. 13,
+1970,pp.309-316.<person-group>
+                     <string-name>
+                     <surname>Peters</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>13</volume>
+               <source>Comput. J.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e760a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d218522e767" publication-type="journal">
+R. J. PLEMMONS, "Linear least squares by elimination and MGS," J. Assoc. Comput. Mach., v. 21,
+1974, pp. 581-585.<person-group>
+                     <string-name>
+                     <surname>Plemmons</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>581</fpage>
+               <volume>21</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e799a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d218522e806" publication-type="journal">
+W. C. RHEINBOLDT, "Numerical methods for a class of finite dimensional bifurcation problems,"
+SIAM J. Numer. Anal., v. 15, 1978, pp. 1-11.<object-id pub-id-type="jstor">10.2307/2156560</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e822a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d218522e829" publication-type="journal">
+G. W. STEWART, "On the implicit deflation of nearly singular systems of linear equations," SIAM
+J. Sci. Statist. Comput., v. 2, 1981, pp. 136-140.<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>136</fpage>
+               <volume>2</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218522e861a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d218522e868" publication-type="other">
+R. K. H. SZETO, The Flow Between Rotating Coaxial Disks, Ph.D. thesis, California Institute of
+Technology, 1978.</mixed-citation>
+            </ref>
+            <ref id="d218522e879a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d218522e886" publication-type="book">
+J. H. WILKINSON, The Algebraic Eigenvalue Problem, Oxford Univ. Press, London, 1965.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Algebraic Eigenvalue Problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

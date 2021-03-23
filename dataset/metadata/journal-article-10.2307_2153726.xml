@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">216</issue>
+         <issue-id>i337672</issue-id>
+         <article-id pub-id-type="jstor">2153726</article-id>
+         
+         <title-group>
+            <article-title>Fast Evaluation of the Gaunt Coefficients</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Yu-Lin</given-names>
+                  <surname>Xu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1601</fpage>
+         <lpage>1612</lpage>
+         <page-range>1601-1612</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153726"/>
+         
+         
+         <abstract>
+            <p>Addition theorems for vector spherical harmonics require the determination of the Gaunt coefficients that appear in a linearization expansion of the product of two associated Legendre functions. This paper presents an algorithm for the efficient calculation of these coefficients through solving the most appropriate (lower triangular) linear system and derives all relevant recurrence relations needed in the calculation. This algorithm is also applicable to the calculation of the Clebsch-Gordan coefficients that are closely related to the Gaunt coefficients and are frequently encountered in the quantum theory of angular momentum. The new method described in this paper reduces the computing time to ∼ 1%, compared to the existing formulation that is widely used. This new method can be applied to the calculation of both low- and high-degree coefficients, while the existing formulation works well only for low degrees.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>78A45</kwd>
+            <kwd>33C90</kwd>
+            <kwd>81V80</kwd>
+            <kwd>Light scattering</kwd>
+            <kwd>Gaunt coefficients</kwd>
+            <kwd>Clebsch-Gordan coefficients</kwd>
+            <kwd>Legendre functions</kwd>
+            <kwd>computational method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d761916e148a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d761916e155" publication-type="book">
+G. Arfken, Mathematical methods for physicists, 3rd ed., Academic Press, Orlando, 1985,
+698-700. MR 34:5339<person-group>
+                     <string-name>
+                     <surname>Arfken</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <fpage>698</fpage>
+               <source>Mathematical methods for physicists</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e187a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d761916e194" publication-type="journal">
+F. Borghese, P. Denti, G. Toscano, and 0. I. Sindoni, Electromagnetic scattering by a cluster
+of spheres, Appl. Opt.18 (1979), 116-120.<person-group>
+                     <string-name>
+                     <surname>Borghese</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>116</fpage>
+               <volume>18</volume>
+               <source>Appl. Opt.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e226a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d761916e233" publication-type="journal">
+F. Borghese, P. Denti, R. Saija, G. Toscano, and 0. I. Sindoni, Multiple electromagnetic
+scattering from a cluster of spheres. I. Theory, Aerosol Sci. Technol.4 (1984), 227-235.<person-group>
+                     <string-name>
+                     <surname>Borghese</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>4</volume>
+               <source>Aerosol Sci. Technol.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e265a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d761916e272" publication-type="journal">
+—, Use of group theory for the description of electromagnetic scattering from molecular
+systems, J. Opt. Soc. Amer.A 1 (1984), 183-191. MR 85b:78021<person-group>
+                     <string-name>
+                     <surname>Borghese</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>183</fpage>
+               <volume>A 1</volume>
+               <source>J. Opt. Soc. Amer.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e305a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d761916e312" publication-type="other">
+J. H. Bruning, Ph.D. dissertation, Department of Electrical Engineering, University of Illinois,
+1969.</mixed-citation>
+            </ref>
+            <ref id="d761916e322a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d761916e329" publication-type="journal">
+J. H Bruning and Y. T. Lo, Multiple scattering of EM waves by spheres, Part I &amp; II, IEEE
+Trans. Ant. Prop.AP-19 (1971), 378-400.<person-group>
+                     <string-name>
+                     <surname>Bruning</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>378</fpage>
+               <volume>AP-19</volume>
+               <source>IEEE Trans. Ant. Prop.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e361a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d761916e368" publication-type="journal">
+0. R. Cruzan, Translation addition theorems for spherical vector wave functions, Quart. Appl.
+Math.20 (1962), 33-40. MR 24:A2687<person-group>
+                     <string-name>
+                     <surname>Cruzan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>20</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e400a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d761916e407" publication-type="book">
+A. R. Edmonds, Angular momentum in quantum mechanics, Princeton University Press, 1957.
+MR 20:2201<person-group>
+                     <string-name>
+                     <surname>Edmonds</surname>
+                  </string-name>
+                  </person-group>
+               <source>Angular momentum in quantum mechanics</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e432a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d761916e439" publication-type="journal">
+B. Friedman and J. Russek, Addition theorems for spherical waves, Quart. Appl. Math.12
+(1954), 13-23. MR 15:702h<person-group>
+                     <string-name>
+                     <surname>Friedman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>13</fpage>
+               <volume>12</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1954</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e471a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d761916e478" publication-type="journal">
+K. A. Fuller, G. W. Kattawar, and R. T. Wang, Electromagnetic scattering from two dielectric
+spheres: further comparisons between theory and experiment, Appl. Opt.25 (1986), 2521-
+2529.<person-group>
+                     <string-name>
+                     <surname>Fuller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2521</fpage>
+               <volume>25</volume>
+               <source>Appl. Opt.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e514a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d761916e521" publication-type="other">
+K. A. Fuller, Ph.D. dissertation, Department of Physics, Texas A&amp;M University, 1987.</mixed-citation>
+            </ref>
+            <ref id="d761916e528a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d761916e535" publication-type="journal">
+K. A. Fuller and G. W. Kattawar, Consummate solution to the problem of classical electro-
+magnetic scattering by ensembles of spheres. I &amp; II, Opt. Lett.13 (1988), 90-92, 1063-1065.<person-group>
+                     <string-name>
+                     <surname>Fuller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>90</fpage>
+               <volume>13</volume>
+               <source>Opt. Lett.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e567a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d761916e574" publication-type="journal">
+K. A. Fuller, Optical resonances and two-sphere systems, Appl. Opt.30 (1991), 4716-4731.<person-group>
+                     <string-name>
+                     <surname>Fuller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4716</fpage>
+               <volume>30</volume>
+               <source>Appl. Opt.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e603a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d761916e610" publication-type="journal">
+J. A. Gaunt, On the triplets of helium, Philos. Trans. Roy. Soc. (London) Ser. A 228 (1929),
+151-196.<person-group>
+                     <string-name>
+                     <surname>Gaunt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>151</fpage>
+               <volume>228</volume>
+               <source>Philos. Trans. Roy. Soc. (London) Ser. A</source>
+               <year>1929</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e642a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d761916e649" publication-type="journal">
+J. M. Gérardy and M. Ausloos, Absorption spectrum of clusters of spheres from the general
+solution of Maxwell's equations. II. Optical properties of aggregated metal spheres, Phys. Rev.
+B 25 (1982), 4204-4229.<person-group>
+                     <string-name>
+                     <surname>Gérardy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4204</fpage>
+               <volume>B 25</volume>
+               <source>Phys. Rev.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e684a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d761916e691" publication-type="journal">
+0. A. Germogeneva (Hermogeneva), The scattering of a plane electromagnetic wave by two
+spheres, Akad. Nauk SSSR4 (1963), 403-405.<person-group>
+                     <string-name>
+                     <surname>Germogeneva</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>403</fpage>
+               <volume>4</volume>
+               <source>Akad. Nauk SSSR</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e724a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d761916e731" publication-type="journal">
+A. Goyette and A. Navon, Two dielectric spheres in an electric field, Phys. Rev.B 13 (1976),
+4320-4327.<person-group>
+                     <string-name>
+                     <surname>Goyette</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4320</fpage>
+               <volume>B 13</volume>
+               <source>Phys. Rev.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e763a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d761916e770" publication-type="journal">
+A-K. Hamid, I. R. Ciric, and M. Hamid, Electromagnetic scattering by an arbitrary configu-
+ration of dielectric spheres, Canad. J. Phys.68 (1990), 1419-1428.<person-group>
+                     <string-name>
+                     <surname>Hamid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1419</fpage>
+               <volume>68</volume>
+               <source>Canad. J. Phys.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e802a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d761916e809" publication-type="journal">
+S. Levine and G. 0 Olaofe, Scattering of electromagnetic waves by two equal spherical parti-
+cles, J. Colloid Interface Sci.27 (1968), 442-457.<person-group>
+                     <string-name>
+                     <surname>Levine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>442</fpage>
+               <volume>27</volume>
+               <source>J. Colloid Interface Sci.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e841a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d761916e848" publication-type="journal">
+C. Liang and Y. T. Lo, Scattering by two spheres, Radio Sci.2 (1967), 1481-1495.<person-group>
+                     <string-name>
+                     <surname>Liang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1481</fpage>
+               <volume>2</volume>
+               <source>Radio Sci.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e877a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d761916e884" publication-type="journal">
+D. W. Mackowski, Analysis of radioactive scattering for multiple sphere configurations, Proc.
+Roy. Soc. London Ser.A 433 (1991), 599-614. MR 92h:78012<person-group>
+                     <string-name>
+                     <surname>Mackowski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>599</fpage>
+               <volume>433</volume>
+               <source>Proc. Roy. Soc. London Ser.A</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e916a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d761916e923" publication-type="book">
+A. Messiah, Quantum mechanics, Volume II, North-Holland Publishing Company, Amster-
+dam, 1962, p. 1057. MR 26:4643<person-group>
+                     <string-name>
+                     <surname>Messiah</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1057</fpage>
+               <volume>II</volume>
+               <source>Quantum mechanics</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e956a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d761916e963" publication-type="journal">
+V. I. Rozenberg, Diffraction of electromagnetic waves from an arbitrary set of spheres, Radio
+Eng. Electron. Phys. (USSR)16 (1971), 394-404.<person-group>
+                     <string-name>
+                     <surname>Rozenberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>394</fpage>
+               <volume>16</volume>
+               <source>Radio Eng. Electron. Phys. (USSR)</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e995a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d761916e1002" publication-type="journal">
+S. Stein, Addition theorems for spherical wave functions, Quart. Appl. Math.19 (1961),
+15-24. MR 22:11161<person-group>
+                     <string-name>
+                     <surname>Stein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>15</fpage>
+               <volume>19</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1034a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d761916e1041" publication-type="book">
+W. J. Thompson, Angular momentum, John Wiley &amp; Sons, Inc., New York, 1994, Chap. 7,
+pp. 269-270. MR 95f:81002<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <source>Angular momentum</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1070a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d761916e1077" publication-type="journal">
+W. Trinks, Zur Vielfachstreuung an kleinen Kugeln, Ann. Phys.22 (1935), 561-590.<person-group>
+                     <string-name>
+                     <surname>Trinks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>561</fpage>
+               <volume>22</volume>
+               <source>Ann. Phys.</source>
+               <year>1935</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1106a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d761916e1113" publication-type="journal">
+V. Twersky, Multiple scattering of electromagnetic waves by arbitrary configurations, J. Math.
+Phys.8 (1967), 589-610.<person-group>
+                     <string-name>
+                     <surname>Twersky</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>589</fpage>
+               <volume>8</volume>
+               <source>J. Math. Phys.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1145a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d761916e1152" publication-type="journal">
+Y. M. Wang and W. C. Chew, A recursive T-matrix approach for the solution of electromag-
+netic scattering by many spheres, IEEE Trans. Ant. Prop.41 (1993), 1633-1639.<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1633</fpage>
+               <volume>41</volume>
+               <source>IEEE Trans. Ant. Prop.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1185a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d761916e1192" publication-type="journal">
+P. C. Waterman and R. Truell, Multiple scattering of waves, J. Math. Phys.2 (1961), 512-537.
+MR 23:B788<person-group>
+                     <string-name>
+                     <surname>Waterman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>512</fpage>
+               <volume>2</volume>
+               <source>J. Math. Phys.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1224a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d761916e1231" publication-type="book">
+E. P. Winger, On the matrices which reduce the Kronecker products of representations of
+simply reducible groups, Quantum Theory of Angular Momentum (L. C. Biedenharn and H.
+van Dam, eds.), Academic Press, New York, 1965.<person-group>
+                     <string-name>
+                     <surname>Winger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the matrices which reduce the Kronecker products of representations of simply reducible groups</comment>
+               <source>Quantum Theory of Angular Momentum</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1263a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d761916e1270" publication-type="journal">
+D. H. Woodward, Multiple light scattering by spherical dielectric particles, J. Opt. Soc. Amer.
+54 (1964), 1325-1331.<person-group>
+                     <string-name>
+                     <surname>Woodward</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1325</fpage>
+               <volume>54</volume>
+               <source>J. Opt. Soc. Amer.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1302a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d761916e1309" publication-type="book">
+D. A. Varshalovich, A. N. Moskalev, and V. K. Khersonskii, Quantum theory of angular
+momentum, World Scientific, Singapore, 1988, Chap. 8, pp. 235-289. MR 90j:81062<person-group>
+                     <string-name>
+                     <surname>Varshalovich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <source>Quantum theory of angular momentum</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1338a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d761916e1345" publication-type="journal">
+Yu-lin Xu, Electromagnetic scattering by an aggregate of spheres, Appl. Opt.34 (1995), 4573-
+4588.<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4573</fpage>
+               <volume>34</volume>
+               <source>Appl. Opt.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761916e1377a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d761916e1384" publication-type="book">
+R. N. Zare, Angular momentum, Wiley, New York, 1988.<person-group>
+                     <string-name>
+                     <surname>Zare</surname>
+                  </string-name>
+                  </person-group>
+               <source>Angular momentum</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">79</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">271</issue>
+         <issue-id>i20779098</issue-id>
+         <article-id pub-id-type="jstor">20779107</article-id>
+         <title-group>
+            <article-title>ON SOME FAST WELL-BALANCED FIRST ORDER SOLVERS FOR NONCONSERVATIVE SYSTEMS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>MANUEL J.</given-names>
+                  <surname>CASTRO</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>ALBERTO</given-names>
+                  <surname>PARDO</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>CARLOS</given-names>
+                  <surname>PARÉS</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>E. F.</given-names>
+                  <surname>TORO</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>1427</fpage>
+         <lpage>1472</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/20779107"/>
+      
+      
+         <abstract>
+            <p>The goal of this article is to design robust and simple first order explicit solvers for one-dimensional nonconserative hyperbolic systems. These solvers are intended to be used as the basis for higher order methods for one or multidimensional problems. The starting point for the development of these solvers is the general definition of a Roe linearization introduced by Toumi in 1992 based on the use of a family of paths. Using this concept, Roe methods can be extended to nonconservative systems. These methods have good well-balanced and robustness properties, but they have also some drawbacks: in particular, their implementation requires the explicit knowledge of the eigenstructure of the intermediate matrices. Our goal here is to design numerical methods based on a Roe linearization which overcome this drawback. The idea is to split the Roe matrices into two parts which are used to calculate the contributions at the cells to the right and to the left, respectively. This strategy is used to generate two different one-parameter families of schemes which contain, as particular cases, some generalizations to nonconservative systems of the well-known Lax-Friedrichs, Lax-Wendroff, FORCE, and GFORCE schemes. Some numerical experiments are presented to compare the behaviors of the schemes introduced here with Roe methods.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1805847e402a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1805847e409" publication-type="other">
+E. Audusse, F. Bouchut, M.O. Bristeau, R. Klein, B. Perthame. A fast and stable well-
+balanced scheme with hydrostatic reconstruction for shallow water flows, SIAM J. Sci. Comp.
+25 (6): 2050-2065, 2004. MR2086830 (2005f:76069)</mixed-citation>
+        </ref>
+        <ref id="d1805847e422a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1805847e429" publication-type="other">
+A. Bermúdez, .E. Vázquez. Upwind methods for hyperbolic conservation laws with source
+terms. Computers and Fluids, 23(8): 1049-1071, 1994. MR1314237 (95i:76065)</mixed-citation>
+        </ref>
+        <ref id="d1805847e439a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1805847e446" publication-type="other">
+F. Bouchut. Nonlinear Stability of Finite Volume Methods for Hyperbolic Conservation Laws
+and Well-Balanced Schemes for Sources. Birkhäuser, 2004. MR2128209 (2005m:65002)</mixed-citation>
+        </ref>
+        <ref id="d1805847e456a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1805847e463" publication-type="other">
+A. Canestrelli, A. Siviglia, M. Dumbser, E.F. Toro. Well-balanced high-order centered
+schemes for non-conservative hyperbolic systems. Applications to Shallow Water Equations
+with fixed and mobile bed. Adv. Water Resour, doi:10.1016/j.advwatres.2009.02.006, 2009.</mixed-citation>
+        </ref>
+        <ref id="d1805847e477a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1805847e484" publication-type="other">
+M. Castro, A. Ferreiro, J.A. Garcia-Rodriguez, J.M. González, J. Macías, C. Parés, .E.
+Vázquez-Cendón. On the numerical treatment of wet/dry fronts in shallow flows: Applica-
+tion to one-layer and two-layer 1-D shallow water system. Math, and Comp. Model., 42:
+419-439, 2005. MR2163780 (2006c:76021)</mixed-citation>
+        </ref>
+        <ref id="d1805847e500a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1805847e507" publication-type="other">
+M.J. Castro, P.G. LeFloch, M.L. Muñoz, C. Parés. Why many theories of shock waves are
+necessary: Convergence error in formally path-consistent schemes. J. Comput. Phys. 227:
+8107-8129, 2008. MR2442446 (2009g:76071)</mixed-citation>
+        </ref>
+        <ref id="d1805847e520a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1805847e527" publication-type="other">
+M.J. Castro, J.M Gallardo, C. Parés. High order finite volume schemes based on reconstruc-
+tion of states for solving hyperbolic systems with nonconservative products. Applications to
+shallow water systems. Math. Comp., 75: 1103-1134, 2006. MR2219021 (2007a:65119)</mixed-citation>
+        </ref>
+        <ref id="d1805847e540a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1805847e547" publication-type="other">
+M.J. Castro, J. Macías, C. Parés. A Q-Scheme for a class of systems of coupled con-
+servation laws with source term. Application to a two-layer 1-D shallow water system.
+Math. Mod. Num. Anal. 35(1): 107-127, 2001. MR1811983 (2001m:76063)</mixed-citation>
+        </ref>
+        <ref id="d1805847e560a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1805847e567" publication-type="other">
+M.J. Castro, A. Pardo, C. Parés. Well-balanced numerical schemes based on a generalized
+hydrostatic reconstruction technique. Math. Mod. Meth. App. Sci., 17: 2055-2113, 2007.
+MR2371563 (2009c:65186)</mixed-citation>
+        </ref>
+        <ref id="d1805847e580a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1805847e587" publication-type="other">
+G. Dal Maso, P.G. LeFloch, F. Murat. Definition and weak stability of nonconservative
+products. J. Math. Pures Appl. 74: 483-548, 1995. MR1365258 (97b:46052)</mixed-citation>
+        </ref>
+        <ref id="d1805847e598a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1805847e605" publication-type="other">
+B. Einfeldt. On Godunov-type methods for gas dynamics. SIAM J. Numer. Anal. 25: 294-
+318, 1988. MR933726 (89e:65086)</mixed-citation>
+        </ref>
+        <ref id="d1805847e615a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1805847e622" publication-type="other">
+J.M. Gallardo, C. Parés, M. Castro. On a well-balanced high-order finite volume scheme
+for shallow water equations with topography and dry areas. J. Comput. Phys. 227: 574—601,
+2007. MR2361537 (2008m:76080)</mixed-citation>
+        </ref>
+        <ref id="d1805847e635a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1805847e642" publication-type="other">
+T. Gallouët, J.M. Hérard, N. Seguin. Some approximate Godunov schemes to com-
+pute shallow-water equations with topography. Computers and Fluids 32: 479-513, 2003.
+MR1966639 (2004a:76095)</mixed-citation>
+        </ref>
+        <ref id="d1805847e655a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1805847e662" publication-type="other">
+A. Harten, J.M. Hyman. Self-adjusting grid methods for one-dimensional hyperbolic con-
+servation laws. J. Comput. Phys. 50: 235-269, 1983. MR707200 (85g:65111)</mixed-citation>
+        </ref>
+        <ref id="d1805847e672a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1805847e679" publication-type="other">
+T.Y. Hou, P.G. LeFloch. Why nonconservative schemes converge to wrong solutions: Error
+analysis. Math, of Comput. 62: 497-530, 1994. MR1201068 (94g:65093)</mixed-citation>
+        </ref>
+        <ref id="d1805847e689a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1805847e696" publication-type="other">
+P.G. LeFloch, T.P. Liu.Existence theory for nonlinear hyperbolic systems in nonconservative
+form. Forum Math. 5: 261-280, 1993. MR1216035 (94e:35086)</mixed-citation>
+        </ref>
+        <ref id="d1805847e707a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1805847e714" publication-type="other">
+R. LeVeque. Balancing source terms and flux gradients in high-resolution Godunov meth-
+ods: The quasi-steady wave-propagation algorithm. J. Comput. Phys. 146: 346-365, 1998.
+MR1650496 (99j:65182)</mixed-citation>
+        </ref>
+        <ref id="d1805847e727a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1805847e734" publication-type="other">
+A. Marquina. Local piecewise hyperbolic reconstructions for nonlinear scalar conservation
+laws.. SIAM J. Sci. Comp 15: 892-915, 1994. MR1278006 (95a:65137)</mixed-citation>
+        </ref>
+        <ref id="d1805847e744a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1805847e751" publication-type="other">
+M.L. Muñoz, C. Parés. Godunov method for nonconservative hyperbolic systems, ESAIM:
+M2AN 41(1): 169-185, 2007. MR2323696 (2008g:65112)</mixed-citation>
+        </ref>
+        <ref id="d1805847e761a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1805847e768" publication-type="other">
+C. Parés. Numerical methods for nonconservative hyperbolic systems: A theoretical frame-
+work. SIAM J. Num. Anal. 44(1): 300-321, 2006. MR2217384 (2006m:65169)</mixed-citation>
+        </ref>
+        <ref id="d1805847e778a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1805847e785" publication-type="other">
+C. Parés, M.J. Castro. On the well-balance property of Roe's method for nonconservative
+hyperbolic systems. Applications to Shallow-Water Systems. M2AN, 38(5): 821-852, 2004.
+MR2104431 (2006f:65085)</mixed-citation>
+        </ref>
+        <ref id="d1805847e798a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1805847e805" publication-type="other">
+S. Noelle, Y. Xing, C.W. Shu. High-order well-balanced finite volume WENO schemes for
+shallow water equation with moving water, J. Comput. Phys. 226: 29-58, 2007. MR2356351
+(2008f:76124)</mixed-citation>
+        </ref>
+        <ref id="d1805847e819a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1805847e826" publication-type="other">
+P.L. Roe. Approximate Riemann solvers, parameter vectors and difference schemes. J. Com-
+put. Phys. 43: 357-371, 1981. MR640362 (82k:65055)</mixed-citation>
+        </ref>
+        <ref id="d1805847e836a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1805847e843" publication-type="other">
+J.B. Schijf, J.C. Schonfeld. Theoretical considerations on the motion of salt and fresh water.
+In Proc. of the Minn. Int. Hydraulics Conv., Joint meeting IAHR and Hyd. Div. ASCE.,
+321-333, 1953.</mixed-citation>
+        </ref>
+        <ref id="d1805847e856a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1805847e863" publication-type="other">
+E.F. Toro, S.J. Billett. Centred TVD schemes for hyperbolic conservation laws. IMA J.
+Numer. Anal. 20(1): 47-79, 2000. MR1736950 (2001h:65097)</mixed-citation>
+        </ref>
+        <ref id="d1805847e873a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1805847e880" publication-type="other">
+E.F. Toro, A. Siviglia. PRICE: Primitive centred schemes for hyperbolic systems.
+Int. Jour. Num. Meth. Fluids, 42: 1263-1291, 2003. MR1994077</mixed-citation>
+        </ref>
+        <ref id="d1805847e890a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d1805847e897" publication-type="other">
+E.F. Toro, V.A. Titarev. MUSTA fluxes for systems of conservation laws. J. Comput. Phys.
+216(2): 403-429, 2006. MR2235378</mixed-citation>
+        </ref>
+        <ref id="d1805847e907a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d1805847e914" publication-type="other">
+I. Toumi. A weak formulation of Roes approximate Riemann solver. J. Comput. Phys.
+102(2): 360-373, 1992. MR1187694 (93h:65126)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

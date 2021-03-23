@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">27</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">122</issue>
+         <issue-id>i334545</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005613</article-id>
+         
+         <title-group>
+            <article-title>On the Numerical Computation of Parabolic Problems for Preceding Times</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>B. L.</given-names>
+                  <surname>Buzbee</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Alfred</given-names>
+                  <surname>Carasso</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1973</year>
+         </pub-date>
+         <fpage>237</fpage>
+         <lpage>266</lpage>
+         <page-range>237-266</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1973 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005613"/>
+         
+         
+         <abstract>
+            <p>We develop and analyze a general procedure for computing selfadjoint parabolic problems backwards in time, given an a priori bound on the solutions. The method is applicable to mixed problems with variable coefficients which may depend on time. We obtain error bounds which are naturally related to certain convexity inequalities in parabolic equations. In the time-dependent case, our difference scheme discerns three classes of problems. In the most severe case, we recover a convexity result of Agmon and Nirenberg. We illustrate the method with a numerical experiment.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65M30</kwd>
+            <kwd>65M15</kwd>
+            <kwd>35R25</kwd>
+            <kwd>35K35</kwd>
+            <kwd>65M20</kwd>
+            <kwd>34G05</kwd>
+            <kwd>35A35</kwd>
+            <kwd>39A40</kwd>
+            <kwd>Improperly posed problems</kwd>
+            <kwd>backward parabolic equations</kwd>
+            <kwd>time-dependent coefficients</kwd>
+            <kwd>finite-difference scheme</kwd>
+            <kwd>jury-procedure</kwd>
+            <kwd>the backward beam equation</kwd>
+            <kwd>block Gaussian elimination</kwd>
+            <kwd>method of lines</kwd>
+            <kwd>variable domain operator</kwd>
+            <kwd>smoothing by growing diffusion coefficient</kwd>
+            <kwd>convexity inequalities for parabolic equations</kwd>
+            <kwd>long-time backward computation</kwd>
+            <kwd>matrix decomposition</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d165076e201a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d165076e208" publication-type="book">
+R. S. ANDERSSEN, A Review of Numerical Methods for Certain Improperly Posed
+Parabolic Partial Differential Equations, Technical Report No. 36, Computer Centre, Australian
+National University, August 1970.<person-group>
+                     <string-name>
+                     <surname>Anderssen</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Review of Numerical Methods for Certain Improperly Posed Parabolic Partial Differential Equations</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e237a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d165076e244" publication-type="journal">
+B. L. BUZBEE, G. H. GOLUB &amp; C. W. NIELSON, "On direct methods for solving
+Poisson's equations," SIAM J. Numer. Anal., v. 7, 1970, pp. 627-656.<object-id pub-id-type="jstor">10.2307/2949380</object-id>
+               <fpage>627</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e260a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d165076e267" publication-type="book">
+J. R. CANNON, Some Numerical Results for the Solution of the Heat Equation Back-
+wards in Time, Proc. Adv. Sympos. Numerical Solutions of Nonlinear Differential Equations
+(Madison, Wis., 1966), Wiley, New York, 1966, pp. 21-54. MR 34 #7037.<person-group>
+                     <string-name>
+                     <surname>Cannon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Numerical Results for the Solution of the Heat Equation Backwards in Time</comment>
+               <fpage>21</fpage>
+               <source>Proc. Adv. Sympos. Numerical Solutions of Nonlinear Differential Equations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e302a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d165076e309" publication-type="book">
+J. R. CANNON &amp; J. DOUGLAS, JR., The Approximation of Harmonic and Parabolic
+Functions on Half-Spaces From Interior Data, Numerical Analysis of Partial Differential
+Equations (CIME 20 Ciclo, Ispra, 1967), Edizioni Cremonese, Rome, 1968, pp. 193-230.
+MR 39 #5076.<person-group>
+                     <string-name>
+                     <surname>Cannon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Approximation of Harmonic and Parabolic Functions on Half-Spaces From Interior Data</comment>
+               <fpage>193</fpage>
+               <source>Numerical Analysis of Partial Differential Equations</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e348a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d165076e355" publication-type="journal">
+A. CARASSO, "The abstract backward beam equation," SIAM J. Math. Anal., v. 2,
+1971, pp. 193-212. MR 44 #5636.<person-group>
+                     <string-name>
+                     <surname>Carasso</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>2</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e387a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d165076e394" publication-type="journal">
+A. CARASSO, "The backward beam equation: Two A-stable schemes for parabolic
+problems," SIAM J. Numer. Anal., v. 9, 1972, pp. 406-434.<object-id pub-id-type="jstor">10.2307/2156140</object-id>
+               <fpage>406</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e410a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d165076e417" publication-type="book">
+R. COURANT, Methods of Mathematical Physics. Vol. II: Partial Differential Equa-
+tions, Interscience, New York, 1962. MR 25 #4216.<person-group>
+                     <string-name>
+                     <surname>Courant</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Methods of Mathematical Physics</comment>
+               <volume>II</volume>
+               <source>Partial Differential Equations</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e449a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d165076e456" publication-type="book">
+J. DOUGLAS, JR., Approximate Solution of Physically Unstable Problems, Pcole
+CEA-EDF, Paris, 1965.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximate Solution of Physically Unstable Problems</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e481a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d165076e488" publication-type="book">
+J. DOUGLAS, JR., The Approximate Solution of An Unstable Physical Problem Sub-
+ject to Constraints, Functional Analysis and Optimization, Academic Press, New York, 1966,
+pp. 65-66. MR 35 #6962.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Approximate Solution of An Unstable Physical Problem Subject to Constraints</comment>
+               <fpage>65</fpage>
+               <source>Functional Analysis and Optimization</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e523a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d165076e530" publication-type="book">
+J. DOUGLAS, JR., Approximate Continuation of Harmonic and Parabolic Functions,
+Proc. Sympos. Numerical Solution of Partial Differential Equations (Univ. Maryland, 1965),
+Academic Press, New York, 1966, pp. 353-364. MR 34 #2206.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Approximate Continuation of Harmonic and Parabolic Functions</comment>
+               <fpage>353</fpage>
+               <source>Proc. Sympos. Numerical Solution of Partial Differential Equations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e566a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d165076e573" publication-type="book">
+A. FRIEDMAN, Partial Differential Equations, Holt, Rinehart and Winston, New York,
+1969.<person-group>
+                     <string-name>
+                     <surname>Friedman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Partial Differential Equations</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e598a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d165076e605" publication-type="journal">
+F. JOHN, "Numerical solution of the equation of heat conduction for preceding
+times," Ann. Mat. Pura Appl., v. 40, 1955, pp. 129-142. MR 19, 323.<person-group>
+                     <string-name>
+                     <surname>John</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>40</volume>
+               <source>Ann. Mat. Pura Appl.</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e637a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d165076e644" publication-type="book">
+T. KATO, Perturbation Theory for Linear Operators, Die Grundlehren der math.
+Wissenschaften, Band 132, Springer-Verlag, New York, 1966. MR 34 #3324.<person-group>
+                     <string-name>
+                     <surname>Kato</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Perturbation Theory for Linear Operators</comment>
+               <source>Die Grundlehren der math. Wissenschaften</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e673a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d165076e680" publication-type="book">
+R. LATTÈS &amp; J.-L. LIONS, Méthode de Quasi-Reversibilité et Applications, Travaux et
+Recherches Mathématiques, no. 15, Dunod, Paris, 1967. MR 38 #874.<person-group>
+                     <string-name>
+                     <surname>Lattès</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Méthode de Quasi-Reversibilité et Applications</comment>
+               <source>Travaux et Recherches Mathématiques</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e709a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d165076e716" publication-type="book">
+M. M. LAVRENTIEV, Some Improperly Posed Problems of Mathematical Physics,
+Springer Tracts in Natural Philosophy, vol. II, Springer-Verlag, New York, 1967.<person-group>
+                     <string-name>
+                     <surname>Lavrentiev</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Improperly Posed Problems of Mathematical Physics</comment>
+               <volume>II</volume>
+               <source>Springer Tracts in Natural Philosophy</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e748a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d165076e755" publication-type="book">
+M. M. LAVRENTIEV, "Numerical solution of conditionally properly posed problems,"
+Numerical Solution of Partial Differential Equations. II (SYNSPADE 1970), B. Hubbard
+(Editor), Academic Press, New York, 1971.<person-group>
+                     <string-name>
+                     <surname>Lavrentiev</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical solution of conditionally properly posed problems</comment>
+               <volume>II</volume>
+               <source>Numerical Solution of Partial Differential Equations</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e791a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d165076e798" publication-type="journal">
+M. LEES &amp; M. H. PROTTER, "Unique continuation for parabolic differential equations
+and inequalities," Duke Math. J., v. 28, 1961, pp. 369-382. MR 25 #4254.<person-group>
+                     <string-name>
+                     <surname>Lees</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>28</volume>
+               <source>Duke Math. J.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e830a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d165076e837" publication-type="journal">
+J. L. LIONS &amp; B. MALGRANGE, "Sur l'unicit6 retrograde dans les problemes mixtes
+paraboliques," Math. Scand., v. 8, 1960, pp. 277-286. MR 25 #4269.<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>277</fpage>
+               <volume>8</volume>
+               <source>Math. Scand.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e869a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d165076e876" publication-type="book">
+J. L. LIONS, Équations Différentielles Opérationnelles et Problèmes aux Limites, Die
+Grundlehren der math. Wissenschaften, Band 111, Springer-Verlag, Berlin, 1961. MR 27
+#3935.<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Équations Différentielles Opérationnelles et Problèmes aux Limites</comment>
+               <source>Die Grundlehren der math. Wissenschaften</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e908a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d165076e915" publication-type="book">
+Y. L. LUKE, The Special Functions and Their Approximations. Vols. 1, 2, Math. in
+Sci. and Engineering, vol. 53, Academic Press, New York, 1969. MR 39 #3039; MR 40
+#2909.<person-group>
+                     <string-name>
+                     <surname>Luke</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Special Functions and Their Approximations</comment>
+               <volume>1</volume>
+               <source>Math. in Sci. and Engineering</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e950a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d165076e957" publication-type="journal">
+K. MILLER, "Three circle theorems in partial differential equations and applications
+to improperly posed problems," Arch. Rational Mech. Anal., v. 16, 1964, pp. 126-154. MR 29
+#1435.<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>126</fpage>
+               <volume>16</volume>
+               <source>Arch. Rational Mech. Anal.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e992a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d165076e999" publication-type="conference">
+L. E. PAYNE, On Some Non Well Posed Problems For Partial Differential Equations,
+Proc. Adv. Sympos. Numerical Solutions of Nonlinear Differential Equations (Madison, Wis.,
+1966), Wiley, New York, 1966, pp. 239-263. MR 35 #4606.<person-group>
+                     <string-name>
+                     <surname>Payne</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On Some Non Well Posed Problems For Partial Differential Equations</comment>
+               <fpage>239</fpage>
+               <source>Proc. Adv. Sympos. Numerical Solutions of Nonlinear Differential Equations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1035a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d165076e1042" publication-type="journal">
+C. PUCCI, "Sui problem di Cauchy non "ben posti"," Atti Accad. Naz. Lincei Rend.
+Cl. Sci. Fis. Mat. Natur., v. 18, 1955, pp. 473-477. MR 19, 426.<person-group>
+                     <string-name>
+                     <surname>Pucci</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>473</fpage>
+               <volume>18</volume>
+               <source>Atti Accad. Naz. Lincei Rend. Cl. Sci. Fis. Mat. Natur.</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1074a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d165076e1081" publication-type="book">
+R. D. RICHTMYER &amp; K. W. MORTON, Difference Methods for Initial-Value Problems,
+2nd ed., Interscience Tracts in Pure and Appl. Math., no. 4, Interscience, New York, 1967.
+MR 36 #3515.<person-group>
+                     <string-name>
+                     <surname>Richtmyer</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <comment content-type="section">Difference Methods for Initial-Value Problems</comment>
+               <source>Interscience Tracts in Pure and Appl. Math.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1116a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d165076e1123" publication-type="journal">
+R. SAYLOR, "Time reversal in abstract Cauchy problems," SIAM J. Math. Anal., v. 2,
+1971, pp. 454-457.<person-group>
+                     <string-name>
+                     <surname>Saylor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>454</fpage>
+               <volume>2</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1155a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d165076e1162" publication-type="book">
+R. S. VARGA, "Some results in approximation theory with applications to numerical
+analysis," Numerical Solution of Partial Differential Equations. II (SYNSPADE 1970),
+B. Hubbard (Editor), Academic Press, New York, 1971.<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some results in approximation theory with applications to numerical analysis</comment>
+               <volume>II</volume>
+               <source>Numerical Solution of Partial Differential Equations</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1197a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d165076e1204" publication-type="book">
+F. JOHN, Partial Differential Equations, Math. Appl. to Physics, Springer, New York,
+1970, pp. 229-315. MR 41 #5752.<person-group>
+                     <string-name>
+                     <surname>John</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Partial Differential Equations</comment>
+               <fpage>229</fpage>
+               <source>Math. Appl. to Physics</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1236a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d165076e1243" publication-type="journal">
+J. N. FRANKLIN, "Well-posed stochastic extensions of ill-posed linear problems,"
+J. Math. Anal. Appl. , v. 31, 1970, pp. 682-716. MR 42 #2556.<person-group>
+                     <string-name>
+                     <surname>Franklin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>682</fpage>
+               <volume>31</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d165076e1276a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d165076e1283" publication-type="journal">
+W. L. MIRANKER, "A well posed problem for the backward heat equation," Proc.
+Amer. Math. Soc., v. 12, 1961, pp. 243-247. MR 22 #11216.<object-id pub-id-type="doi">10.2307/2034314</object-id>
+               <fpage>243</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

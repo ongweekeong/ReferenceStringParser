@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i27594074</issue-id>
+         <article-id pub-id-type="jstor">27594083</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186004X12605</article-id>
+         <title-group>
+            <article-title>Statistical Simulations on Parallel Computers</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Hana</given-names>
+                  <surname>Ševčíková</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>886</fpage>
+         <lpage>906</lpage>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594083"/>
+         
+         
+         <abstract>
+            <p>The potential benefits of parallel computing for time-consuming statistical applications are well known, but have not been widely realized in practice, perhaps in part due to associated technical obstacles. This article develops a simple framework for programming statistical simulations using parallel processing, which does not require changing programming language or forgoing the use of standard statistical libraries. The basic idea of using parallel computing for statistical simulation studies is straightforward in principle, and is based on the standard master-slave model. However, there are several technical obstacles that can make it difficult to implement in practice. These include: nonreproducibility of results due to variations in the distribution of random numbers among processes, creation of excessive numbers of slaves, proliferation of slaves with very short lifetimes, and slaves destroyed due to hardware failures. This article proposes solutions for each of these difficulties, and together these solutions constitute an overall parallel computing framework for statistical simulation studies. In an experiment with 15 processors, the methods detailed here led to increases in speed by factors that can actually exceed the maximum expected factor of 15, due to the efficiencies of the proposed problem decomposition methods. Different gains may be achieved with different strategies, depending on the problem decomposition used and heterogeneity of the processors. Fault tolerance is an important feature of the framework. In an experiment with faults, a non-fault-tolerant version of our method took almost twice as long, and did not produce any results, while the fault-tolerant method dealt efficiently with the faults. We conclude that parallel computing can greatly improve the efficiency of statistical computation without greatly increasing programming complexity, and that it deserves wider investigation for such applications. Software to implement the proposed framework in R is available from http://www.stat.washington.edu/hana.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Distributed systems</kwd>
+            <kwd>Fault tolerance</kwd>
+            <kwd>Master-slave model</kwd>
+            <kwd>Mixture models</kwd>
+            <kwd>Parallel processing</kwd>
+            <kwd>Random number generation</kwd>
+            <kwd>Statistical applications</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1866620e160a1310">
+               
+               <mixed-citation id="d1866620e164" publication-type="other">
+Adams, N., Kirby, S., Harris, P., and Clegg, D., (1996), "A Review of Parallel Processing for Statistical Compu-
+tation," Statistics and Computing, 6, 37–49.</mixed-citation>
+            </ref>
+            <ref id="d1866620e174a1310">
+               
+               <mixed-citation id="d1866620e178" publication-type="other">
+Barak, A., Guday, S., and Wheeler, R. (1993), The MOSIX Distributed Operating System, Load Balancing for
+Unix, volume 672 of Lecture Notes in Computer Science, New York: Springer Verlag.</mixed-citation>
+            </ref>
+            <ref id="d1866620e188a1310">
+               
+               <mixed-citation id="d1866620e192" publication-type="other">
+Dongarra, J., Hempel, R., Hey, A., and Walker, D. (1994), "MPI: A Message-Passing Interface Standard," Inter-
+nationaljournal of Supercomputer Applications, 8, 159–416.</mixed-citation>
+            </ref>
+            <ref id="d1866620e202a1310">
+               
+               <mixed-citation id="d1866620e206" publication-type="other">
+Flynn, M. (1972), "Some Computer Organizations and their Effectiveness," IEEE Transactions on Computers, 21,
+948–960.</mixed-citation>
+            </ref>
+            <ref id="d1866620e217a1310">
+               
+               <mixed-citation id="d1866620e221" publication-type="other">
+Foster, I. (1995), Designing and Building Parallel Programs, Reading, MA: Addison-Wesley.</mixed-citation>
+            </ref>
+            <ref id="d1866620e228a1310">
+               
+               <mixed-citation id="d1866620e232" publication-type="other">
+Geist, A., Beguelin, A., Dongarra, J., Jiang, W., Manchek, R., and Sunderam, V. (1994), PVM: Parallel Virtual
+Machine, Cambridge, MA: The MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d1866620e242a1310">
+               
+               <mixed-citation id="d1866620e246" publication-type="other">
+Hough, P. D., Kolda, T. G., and Torczon, V. J. (2001), "Asynchronous Parallel Pattern Search for Nonlinear
+Optimization," SIAM Journal of Scientific Computing, 23, 134–156.</mixed-citation>
+            </ref>
+            <ref id="d1866620e256a1310">
+               
+               <mixed-citation id="d1866620e260" publication-type="other">
+McLachlan, G., and Peel, D. (2000), Finite Mixture Models, New York: Wiley.</mixed-citation>
+            </ref>
+            <ref id="d1866620e267a1310">
+               
+               <mixed-citation id="d1866620e271" publication-type="other">
+Na Li, M. (2002), rsprng [on-line]. Available at http://cran.r-project.org.</mixed-citation>
+            </ref>
+            <ref id="d1866620e278a1310">
+               
+               <mixed-citation id="d1866620e282" publication-type="other">
+Na Li, M., and Rossini, A. (2001), "RPVM: Cluster Statistical Computing in R," technical report, University of
+Washington [on-line]. Available at http://www.analytics.washington.edu/Zope/projects/rpvm/.</mixed-citation>
+            </ref>
+            <ref id="d1866620e293a1310">
+               
+               <mixed-citation id="d1866620e297" publication-type="other">
+Srinivasan, A., and Mascagni, M. (2000), "SPRNG: A Scalable Library for Pseudorandom Number Generation,"
+ACM Transactions and Mathematical Software, 26, 436–461.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

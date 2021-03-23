@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i23241032</issue-id>
+         <article-id pub-id-type="jstor">23248942</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Mining High-Dimensional Data</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>On Adaptive Regularization Methods in Boosting</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Mark</given-names>
+                  <surname>Culp</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>George</given-names>
+                  <surname>Michailidis</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kjell</given-names>
+                  <surname>Johnson</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>937</fpage>
+         <lpage>955</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23248942"/>
+      
+      
+         <abstract>
+            <p>Boosting algorithms build models on dictionaries of learners constructed from the data, where a coefficient in this model relates to the contribution of a particular learner relative to the other learners in the dictionary. Regularization for these models is currently implemented by iteratively applying a simple local tolerance parameter, which scales each coefficient toward zero. Stochastic enhancements, such as bootstrapping, incorporate a random mechanism in the construction of the ensemble to improve robustness, reduce computation time, and improve accuracy. In this article, we propose a novel local estimation scheme for direct data-driven estimation of regularization parameters in boosting algorithms with stochastic enhancements based on a penalized loss optimization framework. In addition, k-fold cross-validated estimates of this penalty are obtained during its construction. This leads to a computationally fast and effective way of estimating this parameter for boosting algorithms with stochastic enhancements. The procedure is illustrated on both real and synthetic data. The R code used in this manuscript is available as supplemental material.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d979911e231a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d979911e238" publication-type="other">
+Dekel,
+Shalev-Shwartz, and Singer 2005</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d979911e247" publication-type="other">
+Culp and Michailidis 2008</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d979911e263a1310">
+          
+            <mixed-citation id="d979911e267" publication-type="other">
+Asuncion, A., and Newman, D. (2007), "UCI Machine Learning Repository," University of California, Irvine,
+School of Information and Computer Sciences, available at http://www.ics.uci.edu/~mIearn/MLRepository.
+html. [946]</mixed-citation>
+        </ref>
+        <ref id="d979911e280a1310">
+          
+            <mixed-citation id="d979911e284" publication-type="other">
+Breiman, L. (1996), "Bagging Predictors," Machine Learning, 24 (2), 123-140. [937-939]</mixed-citation>
+        </ref>
+        <ref id="d979911e291a1310">
+          
+            <mixed-citation id="d979911e295" publication-type="other">
+— (2001), "Random Forests," Machine Learning, 45 (1), 5-32. [938]</mixed-citation>
+        </ref>
+        <ref id="d979911e302a1310">
+          
+            <mixed-citation id="d979911e306" publication-type="other">
+Culp, M., and Michailidis, G. (2008), "Graph-Based Semisupervised Learning," IEEE Transactions on Pattern
+Analysis and Machine Intelligence, 30 (1), 174-179. [942]</mixed-citation>
+        </ref>
+        <ref id="d979911e317a1310">
+          
+            <mixed-citation id="d979911e321" publication-type="other">
+Culp, ML, Michailidis, G., and Johnson, K. (2010), "The Ensemble Bridge Algorithm: A New Modeling Tool for
+Drug Discovery Problems," Journal of Chemical Information and Modeling, 50 (2), 309-316. [938,946]</mixed-citation>
+        </ref>
+        <ref id="d979911e331a1310">
+          
+            <mixed-citation id="d979911e335" publication-type="other">
+Dekel, O., Shalev-Shwartz, S., and Singer, Y. (2005), "Smooth e-Insensitive Regression by Loss Symmetrization,"
+Journal of Machine Learning Research, 6, 711-741. [942]</mixed-citation>
+        </ref>
+        <ref id="d979911e345a1310">
+          
+            <mixed-citation id="d979911e349" publication-type="other">
+Dimitriadou, E., Hornik, K., Leisch, F., Meyer, D„ and Weingessel, A. (2006), "el071: Misc Functions of the
+Department of Statistics (el 071), TU Wien," R package version 1.5-16. [952]</mixed-citation>
+        </ref>
+        <ref id="d979911e359a1310">
+          
+            <mixed-citation id="d979911e363" publication-type="other">
+Freund, Y., and Schapire, R. (1996), "Experiments With a New Boosting Algorithm," in International Conference
+on Machine Learning, Boston, MA: Morgan Kaufmann, pp. 148-156. [937,938,941]</mixed-citation>
+        </ref>
+        <ref id="d979911e373a1310">
+          
+            <mixed-citation id="d979911e377" publication-type="other">
+Friedman, J. (2001), "Greedy Function Approximation: A Gradient Boosting Machine," The Annals of Statistics,
+29 (5), 1189-1232. [938.941]</mixed-citation>
+        </ref>
+        <ref id="d979911e387a1310">
+          
+            <mixed-citation id="d979911e391" publication-type="other">
+— (2002), "Stochastic Gradient Boosting," Computational Statistics &amp; Data Analysis, 38 (4), 367-378.
+[938,941]</mixed-citation>
+        </ref>
+        <ref id="d979911e402a1310">
+          
+            <mixed-citation id="d979911e406" publication-type="other">
+Hastie. T., Tibshirani, R., and Friedman, J. (2001), The Elements of Statistical Learning: Data Mining, Inference
+and Prediction (1st ed.), New York: Springer-Verlag. [940,952]</mixed-citation>
+        </ref>
+        <ref id="d979911e416a1310">
+          
+            <mixed-citation id="d979911e420" publication-type="other">
+Leach, A., and Gillet, V. (eds.) (2003), An Introduction to Chemoinformatics, London: Kluwer Academic. [946]</mixed-citation>
+        </ref>
+        <ref id="d979911e427a1310">
+          
+            <mixed-citation id="d979911e431" publication-type="other">
+McCallum, A., Nigam, K., Rennie, J., and Seymore, K. (1999), "Automating the Construction of Internet Portals
+With Machine Learning," Information Retrieval Journal, 3, 127-163. [946]</mixed-citation>
+        </ref>
+        <ref id="d979911e441a1310">
+          
+            <mixed-citation id="d979911e445" publication-type="other">
+Mease, D., and Wyner, A. (2008), "Evidence Contrary to the Statistical View of Boosting," Journal of Machine
+Learning Research, 9, 131-156. [941,948]</mixed-citation>
+        </ref>
+        <ref id="d979911e455a1310">
+          
+            <mixed-citation id="d979911e459" publication-type="other">
+R Development Core Team (2006), R: A Language and Environment for Statistical Computing, Vienna, Austria:
+R Foundation for Statistical Computing, aivailable at http://www.R-project.org. [951]</mixed-citation>
+        </ref>
+        <ref id="d979911e469a1310">
+          
+            <mixed-citation id="d979911e473" publication-type="other">
+Ratsch, G., Onoda, T„ and Miiller, K. (2001), "Soft Margins for AdaBoost," Machine Learning, 42 (3), 287-320.
+[941]</mixed-citation>
+        </ref>
+        <ref id="d979911e484a1310">
+          
+            <mixed-citation id="d979911e488" publication-type="other">
+Ripley, B. (1996), Pattern Recognition and Neural Networks, New York: Cambridge University Press. [937]</mixed-citation>
+        </ref>
+        <ref id="d979911e495a1310">
+          
+            <mixed-citation id="d979911e499" publication-type="other">
+Rosset, S. (2005), "Robust Boosting and Its Relation to Bagging," in KDD'05: Proceeding of the Eleventh ACM
+SIGKDD International Conference on Knowledge Discovery in Data Mining, Chicago, IL: ACM, pp. 249-
+255. [938]</mixed-citation>
+        </ref>
+        <ref id="d979911e512a1310">
+          
+            <mixed-citation id="d979911e516" publication-type="other">
+Rosset, S., Zhu, J., and Hastie, T. (2004), "Boosting as a Regularized Path to a Maximum Margin Classifier,"
+Journal of Machine Learning Research, 5, 941-973. [938,940,941]</mixed-citation>
+        </ref>
+        <ref id="d979911e526a1310">
+          
+            <mixed-citation id="d979911e530" publication-type="other">
+Therneau, T., Atkinson, B., and Ripley. B. (2007), "rpart: Recursive Partitioning," R package version 3.1-36.
+[951,952]</mixed-citation>
+        </ref>
+        <ref id="d979911e540a1310">
+          
+            <mixed-citation id="d979911e544" publication-type="other">
+Valiant, L. (1984), "A Theory of the Learnable," in Proceedings of the 16th Annual ACM Symposium on Theory
+of Computing, New York: ACM, pp. 436-445. [937]</mixed-citation>
+        </ref>
+        <ref id="d979911e554a1310">
+          
+            <mixed-citation id="d979911e558" publication-type="other">
+Venables, W. N., and Ripley, B. D. (2002), Modern Applied Statistics With S (4th ed.). New York: Springer. [951]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

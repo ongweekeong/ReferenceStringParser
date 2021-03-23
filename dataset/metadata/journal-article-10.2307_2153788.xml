@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">215</issue>
+         <issue-id>i337671</issue-id>
+         <article-id pub-id-type="jstor">2153788</article-id>
+         
+         <title-group>
+            <article-title>The Frequency Decomposition Multilevel Method: A Robust Additive Hierarchical Basis Preconditioner</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Rob</given-names>
+                  <surname>Stevenson</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>983</fpage>
+         <lpage>997</lpage>
+         <page-range>983-997</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153788"/>
+         
+         
+         <abstract>
+            <p>Hackbusch's frequency decomposition multilevel method is characterized by the application of three additional coarse-grid corrections in parallel to the standard one. Each coarse-grid correction was designed to damp errors from a different part of the frequency spectrum. In this paper, we introduce a cheap variant of this method, partly based on semicoarsening, which demands fewer recursive calls than the original version. Using the theory of the additive Schwarz methods, we will prove robustness of our method as a preconditioner applied to anisotropic equations.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N55</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Frequency decomposition</kwd>
+            <kwd>multilevel method</kwd>
+            <kwd>semicoarsening</kwd>
+            <kwd>finite elements</kwd>
+            <kwd>hierarchical basis</kwd>
+            <kwd>additive Schwarz method</kwd>
+            <kwd>subspace decomposition</kwd>
+            <kwd>robustness</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1000664e163a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1000664e170" publication-type="journal">
+J.H. Bramble and J.E. Pasciak, New convergence estimates for multigrid algorithms, Math.
+Comp.49 (1987), 311-329. MR 89b:65234<object-id pub-id-type="doi">10.2307/2008314</object-id>
+               <fpage>311</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e186a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1000664e193" publication-type="conference">
+W. Hackbusch, A new approach to robust multi-grid methods, ICIAM '87: Proceedings of
+the First International Conference on Industrial and Applied Mathematics (Philadelphia)
+(J. McKenna and R. Team, eds.), SIAM, 1988. MR 90f:65193<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new approach to robust multi-grid methods</comment>
+               <source>ICIAM '87: Proceedings of the First International Conference on Industrial and Applied Mathematics (Philadelphia)</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e225a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1000664e232" publication-type="journal">
+— The frequency decomposition multi-grid method I. Application to anisotropic equa-
+tions, Numer. Math.56 (1989), 229-245. MR 90i:65212<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>229</fpage>
+               <volume>56</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e264a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1000664e271" publication-type="book">
+—Iterative lösung großer schwachbesetzter gleichungssysteme, B.G. Teubner, Stuttgart,
+1991. MR 92i:65002<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative lösung großer schwachbesetzter gleichungssysteme</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e297a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1000664e304" publication-type="journal">
+— The frequency decomposition multi-grid method II. Convergence analysis based on
+the additive Schwarz method, Numer. Math.63 (1992), 433-453. MR 93j:65203<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>433</fpage>
+               <volume>63</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e336a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1000664e343" publication-type="conference">
+—The frequency decomposition multi-grid method, Multigrid Methods IV, Proceedings
+of the Fourth European Multigrid Conference, Amsterdam, July 6-9, 1993 (Basel) (P.W.
+Hemker and P. Wesseling, eds.), Birkhduser, 1994, pp. 43-56. MR 95h:65095<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The frequency decomposition multi-grid method</comment>
+               <fpage>43</fpage>
+               <source>Multigrid Methods IV, Proceedings of the Fourth European Multigrid Conference, Amsterdam, July 6-9, 1993 (Basel)</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e378a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1000664e385" publication-type="other">
+J. Junkherr, Multigrid methods for weakly singular integral equations of the first kind, Ph.D.
+thesis, Christian-Albrechts-Universitait Kiel, 1994.</mixed-citation>
+            </ref>
+            <ref id="d1000664e395a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1000664e402" publication-type="journal">
+W. Mulder, A new multigrid approach to convection problems, J. Comp. Phys.83 (1989),
+303-323. MR 90f:76013<person-group>
+                     <string-name>
+                     <surname>Mulder</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>303</fpage>
+               <volume>83</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e434a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1000664e441" publication-type="journal">
+N.H. Naik and J. Van Rosendale, The improved robustness of multigrid elliptic solvers based
+on multiple semicoarsened grids, SIAM J. Numer. Anal.30 (1993), 215-229. MR 94b:65159<object-id pub-id-type="jstor">10.2307/2158103</object-id>
+               <fpage>215</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e457a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1000664e464" publication-type="journal">
+C.W. Oosterlee and P. Wesseling, On the robustness of a multiple semi-coarsened grid method,
+ZAMM75 (1995), no. 4, 251-257. CMP 95:12<person-group>
+                     <string-name>
+                     <surname>Oosterlee</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>251</fpage>
+               <volume>75</volume>
+               <source>ZAMM</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e500a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1000664e507" publication-type="journal">
+R.P. Stevenson, Robustness of the additive and multiplicative frequency decomposition multi-
+level method, Computing54 (1995), 331-346. CMP 95:13<person-group>
+                     <string-name>
+                     <surname>Stevenson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>54</volume>
+               <source>Computing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e539a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1000664e546" publication-type="journal">
+J. Xu, Iterative methods by space decomposition and subspace correction, SIAM Rev.34
+(1992), 581-613. MR 93k:65029<object-id pub-id-type="jstor">10.2307/2132629</object-id>
+               <fpage>581</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000664e562a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1000664e569" publication-type="journal">
+H. Yserentant, Old and new convergence proofs for multigrid methods, Acta Numerica (1993),
+285-326. MR 94i:65128<person-group>
+                     <string-name>
+                     <surname>Yserentant</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <source>Acta Numerica</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

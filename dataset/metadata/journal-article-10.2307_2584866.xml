@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">224</issue>
+         <issue-id>i344564</issue-id>
+         <article-id pub-id-type="jstor">2584866</article-id>
+         
+         <title-group>
+            <article-title>A Sweep-Plane Algorithm for Generating Random Tuples in Simple Polytopes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Josef</given-names>
+                  <surname>Leydold</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Wolfgang</given-names>
+                     <surname>Hörmann</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1617</fpage>
+         <lpage>1635</lpage>
+         <page-range>1617-1635</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584866"/>
+         
+         
+         <abstract>
+            <p>A sweep-plane algorithm of Lawrence for convex polytope computation is adapted to generate random tuples on simple polytopes. In our method an affine hyperplane is swept through the given polytope until a random fraction (sampled from a proper univariate distribution) of the volume of the polytope is covered. Then the intersection of the plane with the polytope is a simple polytope with smaller dimension. In the second part we apply this method to construct a black-box algorithm for log-concave and T-concave multivariate distributions by means of transformed density rejection.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)01004-7</kwd>
+            <kwd>65C10</kwd>
+            <kwd>65C05</kwd>
+            <kwd>68U20</kwd>
+            <kwd>Uniform Distributions</kwd>
+            <kwd>Polytope</kwd>
+            <kwd>Rejection Method</kwd>
+            <kwd>Multivariate Log-Concave Distributions</kwd>
+            <kwd>Universal Method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2333708e215a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2333708e222" publication-type="book">
+D. Avis, A C implementation of the reverse search vertex enumeration algorithm, Tech.
+report, School of Computer Science, McGill University, Montreal, Quebec, 1993, report and
+code available at ftp://mutt.cs.mcgill.ca/pub/C.<person-group>
+                     <string-name>
+                     <surname>Avis</surname>
+                  </string-name>
+                  </person-group>
+               <source>A C implementation of the reverse search vertex enumeration algorithm</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e251a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2333708e258" publication-type="journal">
+D. Avis and K. Fukuda, A pivoting algorithm for convex hull and vertex enum-eration of
+arrangements and polyhedra, Discrete Comput. Geom. 8 (1992), 295-313. MR 93h:68137<person-group>
+                     <string-name>
+                     <surname>Avis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>295</fpage>
+               <volume>8</volume>
+               <source>Discrete Comput. Geom.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e290a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2333708e297" publication-type="book">
+M. Berger, Geometrie, 2 ed., vol. 3, Convexes et polytopes, polyedres reguliers, aires et vol-
+umes. Fernand Nathan, Paris, 1978. MR 81k:51001c<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>3</volume>
+               <source>Geometrie</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e329a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2333708e336" publication-type="journal">
+H. Bieri and W. Nef, A recursive sweep-plane algorithm, determining all cells of a finite
+division of Rm, Computing 28 (1982), 189-198. MR 83k:52014<person-group>
+                     <string-name>
+                     <surname>Bieri</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>189</fpage>
+               <volume>28</volume>
+               <source>Computing</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e369a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2333708e376" publication-type="journal">
+—A sweep-plane algorithm for the volume of polyhedra represented in boolean form,
+Linear Algebra Appl. 52/53 (1983), 69-97. MR 85h:52007<person-group>
+                     <string-name>
+                     <surname>Bieri</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>52</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e408a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2333708e415" publication-type="book">
+Th. Christof, Porta - a polyhedron representation transformation, Universitat Heidelberg,
+code available at ftp://elib.zib-borlin.de/pub/mathprog.<person-group>
+                     <string-name>
+                     <surname>Christof</surname>
+                  </string-name>
+                  </person-group>
+               <source>Porta - a polyhedron representation transformation</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e437a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2333708e444" publication-type="book">
+J. Dagpunar, Principles of random variate generation, Clarendon Press, Oxford, 1988. MR
+90d:65020<person-group>
+                     <string-name>
+                     <surname>Dagpunar</surname>
+                  </string-name>
+                  </person-group>
+               <source>Principles of random variate generation</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e469a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2333708e476" publication-type="book">
+L. Devroye, Nonuniform random variate generation, Springer-Verlag, New-York, 1986. MR
+87i:65012<person-group>
+                     <string-name>
+                     <surname>Devroye</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonuniform random variate generation</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e501a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2333708e508" publication-type="journal">
+M. E. Dyer and A. M. Frieze, On the complexity of computing the volume of a polyhedron,
+SIAM J. Comput. 17 (1988), no. 5, 967-974. MR 90f:68077<person-group>
+                     <string-name>
+                     <surname>Dyer</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>967</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e543a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2333708e550" publication-type="book">
+H. Edelsbrunner, Algorithms in combinatorial geometry, EATCS Monographs on Theoretical
+Computer Science, vol. 10, Springer-Verlag, 1987. MR 89a:68025<person-group>
+                     <string-name>
+                     <surname>Edelsbrunner</surname>
+                  </string-name>
+                  </person-group>
+               <volume>10</volume>
+               <source>Algorithms in combinatorial geometry</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e580a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2333708e587" publication-type="book">
+K. Fukuda, cdd reference manual, Tech. report, ETH Zentrum, Zurich, Switzerland, 1995,
+report and code availeable at ftp://iforl3.ethz.ch/pub/fukuda/cdd.<person-group>
+                     <string-name>
+                     <surname>Fukuda</surname>
+                  </string-name>
+                  </person-group>
+               <source>cdd reference manual</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e612a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2333708e619" publication-type="journal">
+W. R. Gilks and P. Wild, Adaptive rejection sampling for Gibbs sampling, Appl. Statistics 41
+(1992), 337-348.<person-group>
+                     <string-name>
+                     <surname>Gilks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>337</fpage>
+               <volume>41</volume>
+               <source>Appl. Statistics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e651a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2333708e658" publication-type="book">
+I. S. Gradshteyn and I. M. Ryzhnik, Table of integrals, series, and products, 5th ed., Academic
+Press, 1965. MR 33:5952<person-group>
+                     <string-name>
+                     <surname>Gradshteyn</surname>
+                  </string-name>
+                  </person-group>
+               <edition>5</edition>
+               <source>Table of integrals, series, and products</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e687a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2333708e694" publication-type="book">
+P. Gritzmann and V. Klee, On the complexity of some basic problems in computational
+convexity. II: Volume and mixed volumes. Polytopes: abstract, convex and computational,
+(Scarborough, Ontario, Canada) (T. Bisztriczky et al., eds.), NATO ASI Series, Ser. C, Math.
+Phys. Sci., no. 440, NATO Advanced Study Institute, Kluwer Academic Publishers, 1994,
+pp. 373-466. MR 96k:52012<person-group>
+                     <string-name>
+                     <surname>Gritzmann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the complexity of some basic problems in computational convexity. II: Volume and mixed volumes</comment>
+               <fpage>373</fpage>
+               <source>Polytopes: abstract, convex and computational</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e735a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2333708e742" publication-type="journal">
+B. Grünbaum, Convex polytopes, Interscience, 1967. MR 37:2085<person-group>
+                     <string-name>
+                     <surname>Grünbaum</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interscience</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e764a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2333708e771" publication-type="journal">
+H. Hadwiger, Eulers Charakteristik und kombinatorische Geometrie, J. Reine Angew. Math.
+194 (1955), 101-110. MR 17:402a<person-group>
+                     <string-name>
+                     <surname>Hadwiger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>194</volume>
+               <source>J. Reine Angew. Math.</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e804a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2333708e811" publication-type="journal">
+—Eine Schnittrekursion für die Eulersche Charakteristik euklidischer Polyeder, Elem.
+Math. 23 (1968), no. 6, 121-132. MR 38:5112<person-group>
+                     <string-name>
+                     <surname>Hadwiger</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>121</fpage>
+               <volume>23</volume>
+               <source>Elem. Math.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e846a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d2333708e853" publication-type="journal">
+W. Hörmann, A rejection technique for sampling from T-concave distributions, ACM Trans.
+Math. Software 21 (1995), no. 2, 182-193. MR 96b:65018<person-group>
+                     <string-name>
+                     <surname>Hörmann</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>182</fpage>
+               <volume>21</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e888a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d2333708e895" publication-type="journal">
+—A universal generator for bivariate log-concave distributions, Computing 52 (1994),
+89-96. MR 94j:65014<person-group>
+                     <string-name>
+                     <surname>Hörmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>89</fpage>
+               <volume>52</volume>
+               <source>Computing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e927a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d2333708e934" publication-type="book">
+W. Hörmann and G. Derflinger, Universal generators for correlation induction, Compstat,
+Proceedings in Computational Statistics (Heidelberg) (R. Dutter and W. Grossmann, eds.),
+Physica-Verlag, 1994, pp. 52-57. MR 95j:62003<person-group>
+                     <string-name>
+                     <surname>Hörmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>52</fpage>
+               <source>Universal generators for correlation induction</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e966a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d2333708e973" publication-type="book">
+M. E. Johnson, Multivariate statistical simulation, John Wiley &amp; Sons, New York, 1987.<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multivariate statistical simulation</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e995a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d2333708e1002" publication-type="journal">
+J. Lawrence, Polytope volume computation, Math. Comput. 57 (1991), no. 195, 259-271. MR
+91j:52019<person-group>
+                     <string-name>
+                     <surname>Lawrence</surname>
+                  </string-name>
+                  </person-group>
+               <issue>195</issue>
+               <fpage>259</fpage>
+               <volume>57</volume>
+               <source>Math. Comput.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1038a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d2333708e1045" publication-type="journal">
+P. McMullen, The maximum number of faces of a convex polytope, Mathematika 17 (1970),
+179-184. MR 44:921<person-group>
+                     <string-name>
+                     <surname>McMullen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>17</volume>
+               <source>Mathematika</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1077a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d2333708e1084" publication-type="book">
+T. S. Motzkin, H. Raiffa, G. L. Thompson, and R. M. Thrall, The double description method,
+Contribution to the Theory of Games, Vol. II (H. W. Kuhn and A. W. Tucker, eds.), Annals
+of Math. Studies, vol. 28, Princton University Press, 1953, pp. 81-103. MR 15:638g<person-group>
+                     <string-name>
+                     <surname>Motzkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>II</volume>
+               <source>The double description method</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1119a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d2333708e1126" publication-type="book">
+W. Nef, Beiträge zur Theorie der Polyeder, Herbert Lang, Bern, 1978. MR 58:18152<person-group>
+                     <string-name>
+                     <surname>Nef</surname>
+                  </string-name>
+                  </person-group>
+               <source>Beiträge zur Theorie der Polyeder</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1148a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d2333708e1155" publication-type="journal">
+A. Prékopa, On logarithmic concave measures and functions, Acta Sci. Math. Hungarica 34
+(1973), 335-343. MR 53:8357<person-group>
+                     <string-name>
+                     <surname>Prékopa</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>335</fpage>
+               <volume>34</volume>
+               <source>Acta Sci. Math. Hungarica</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1187a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d2333708e1194" publication-type="journal">
+G. C. Shephard, An elementary proof of Gram's theorem for convex polytopes, Canad. J.
+Math. 19 (1967), 1214-1217. MR 37:822<person-group>
+                     <string-name>
+                     <surname>Shephard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1214</fpage>
+               <volume>19</volume>
+               <source>Canad. J. Math.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1226a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d2333708e1233" publication-type="journal">
+S. Stefanescu and I. Vaduva, On computer generation of random vectors by transformations
+of uniformly distributed vectors, Computing 39 (1987), 141-153. MR 89i:65008<person-group>
+                     <string-name>
+                     <surname>Stefanescu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>141</fpage>
+               <volume>39</volume>
+               <source>Computing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1266a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d2333708e1273" publication-type="journal">
+J. C. Wakefield, A. E. Gelfand, and A. F. M. Smith, Efficient generation of random variates
+via the ratio-of-uniforms method, Statist. Comput. 1 (1991), 129-133.<person-group>
+                     <string-name>
+                     <surname>Wakefield</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>1</volume>
+               <source>Statist. Comput.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333708e1305a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d2333708e1312" publication-type="book">
+G. M. Ziegler, Lectures on polytopes, Graduate Texts in Mathematics, vol. 152, Springer-
+Verlag, New York, 1995. MR 96a:52011<person-group>
+                     <string-name>
+                     <surname>Ziegler</surname>
+                  </string-name>
+                  </person-group>
+               <volume>152</volume>
+               <source>Lectures on polytopes</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

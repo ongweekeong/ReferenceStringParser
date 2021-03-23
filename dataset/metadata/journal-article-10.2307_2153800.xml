@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">215</issue>
+         <issue-id>i337671</issue-id>
+         <article-id pub-id-type="jstor">2153800</article-id>
+         
+         <title-group>
+            <article-title>On Restarting the Arnoldi Method for Large Nonsymmetric Eigenvalue Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ronald B.</given-names>
+                  <surname>Morgan</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1213</fpage>
+         <lpage>1230</lpage>
+         <page-range>1213-1230</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153800"/>
+         
+         
+         <abstract>
+            <p>The Arnoldi method computes eigenvalues of large nonsymmetric matrices. Restarting is generally needed to reduce storage requirements and orthogonalization costs. However, restarting slows down the convergence and makes the choice of the new starting vector difficult if several eigenvalues are desired. We analyze several approaches to restarting and show why Sorensen's implicit QR approach is generally far superior to the others. Ritz vectors are combined in precisely the right way for an effective new starting vector. Also, a new method for restarting Arnoldi is presented. It is mathematically equivalent to the Sorensen approach but has additional uses.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F15</kwd>
+            <kwd>15A18</kwd>
+            <kwd>Arnoldi</kwd>
+            <kwd>Krylov subspaces</kwd>
+            <kwd>eigenvalues</kwd>
+            <kwd>sparse matrices</kwd>
+            <kwd>nonsymmetric matrices</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1000481e163a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1000481e170" publication-type="journal">
+W. E. Arnoldi, The principle of minimized iterations in the solution of the matrix eigenvalue
+problem, Quart. Appl. Math., 9 (1951), 17-29. MR 13:163e<person-group>
+                     <string-name>
+                     <surname>Arnoldi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>9</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e202a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1000481e209" publication-type="journal">
+J. W. Daniel, W. B. Gragg, L. Kaufman and G. W. Stewart, Reorthogonalization and stable
+algorithms for updating the Gram-Schmidt QR factorization, Math. Comp.30 (1976), 772-
+795. MR 55:4638<object-id pub-id-type="doi">10.2307/2005398</object-id>
+               <fpage>772</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e228a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1000481e235" publication-type="journal">
+E. R. Davidson, The iterative calculation of a few of the lowest eigenvalues and correspond-
+ing eigenvectors of large real-symmetric matrices, J. Comput. Phys.17 (1975), 87-94. MR
+52:2168<person-group>
+                     <string-name>
+                     <surname>Davidson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>17</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e270a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1000481e277" publication-type="journal">
+I. S. Duff, R. G. Grimes, and J. G. Lewis, Sparse matrix test problems, ACM Trans. Math.
+Soft.15 (1989), 1-14.<person-group>
+                     <string-name>
+                     <surname>Duff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>15</volume>
+               <source>ACM Trans. Math. Soft.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e310a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1000481e317" publication-type="journal">
+T. Ericsson and A. Ruhe, The spectral transformation Lanczos method for the numerical
+solution of large sparse generalized symmetric eigenvalue problems, Math. Comp.35 (1980),
+1251-1268. MR 83b:65034<object-id pub-id-type="doi">10.2307/2006390</object-id>
+               <fpage>1251</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e336a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1000481e343" publication-type="book">
+G. H. Golub and C. F. Van Loan, Matrix Computations, 2nd ed., Johns Hopkins University
+Press, Baltimore, 1989. MR 90d:65055<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Matrix Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e372a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1000481e379" publication-type="journal">
+A. Jennings and W. J. Stewart, A simultaneous iteration algorithm for real matrices, ACM
+Trans. Math. Software7 (1981), 184-198. MR 83d:65118<person-group>
+                     <string-name>
+                     <surname>Jennings</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>184</fpage>
+               <volume>7</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e411a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1000481e418" publication-type="other">
+R. B. Lehoucq, Analysis and Implementation of an Implicitly Restarted Arnoldi Iteration,
+Ph.D. thesis, Rice University, Houston, TX, 1995.</mixed-citation>
+            </ref>
+            <ref id="d1000481e428a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1000481e435" publication-type="journal">
+R. B. Morgan, Computing interior eigenvalues of large matrices, Linear Algebra Appl. 154-
+156 (1991), 289-309. MR 92e:65050<person-group>
+                     <string-name>
+                     <surname>Morgan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>289</fpage>
+               <volume>154</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e467a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1000481e474" publication-type="journal">
+R. B. Morgan, Generalizations of Davidson's method for computing eigenvalues of large non-
+symmetric matrices, J. Comput. Phys.101 (1992), 287-291. MR 93e:65063<person-group>
+                     <string-name>
+                     <surname>Morgan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>287</fpage>
+               <volume>101</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e507a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1000481e514" publication-type="journal">
+R. B. Morgan, A restarted GMRES method augmented with eigenvectors, SIAM J. Matrix
+Anal. Appl.16 (1995), 1154-1171. CMP 96:01<person-group>
+                     <string-name>
+                     <surname>Morgan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1154</fpage>
+               <volume>16</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e546a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1000481e553" publication-type="journal">
+R. B. Morgan and D. S. Scott, Generalizations of Davidson's method for computing eigen-
+values of sparse symmetric matrices, SIAM J. Sci. Statist. Comput.7 (1986), 817-825. MR
+87g:65056<person-group>
+                     <string-name>
+                     <surname>Morgan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>817</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e588a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1000481e595" publication-type="journal">
+B. Nour-Omid, B. N. Parlett, R. L. Taylor, Lanczos versus subspace iteration for solution of
+eigenvalue problems, Inter. J. Num. Meth. Eng.19 (1983), 859-871.<person-group>
+                     <string-name>
+                     <surname>Nour-Omid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>859</fpage>
+               <volume>19</volume>
+               <source>Inter. J. Num. Meth. Eng.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e627a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1000481e634" publication-type="book">
+B. N. Parlett, The Symmetric Eigenvalue Problem, Prentice-Hall, Englewood Cliffs, N.J.,
+1980. MR 81j:65063<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Symmetric Eigenvalue Problem</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e659a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1000481e666" publication-type="journal">
+B. N. Parlett and Y. Saad, Complex shift and invert strategies for real matrices, Linear
+Algebra Appl.88/89 (1987), 575-595. MR 88d:65056<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>575</fpage>
+               <volume>88</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e698a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1000481e705" publication-type="journal">
+B. N. Parlett, D. R. Taylor and Z. A. Liu, A look-ahead Lanczos algorithm for unsymmetric
+matrices, Math. Comp., vol. 44, 1985, pp. 105-124. MR 86f:65072<object-id pub-id-type="doi">10.2307/2007796</object-id>
+               <fpage>105</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e722a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1000481e729" publication-type="book">
+A. Ruhe, Matrix pencils, Lecture Notes in Mathematics, No. 973, Springer Verlag, New York,
+1983, pp. 104-120. MR 84c:65009<person-group>
+                     <string-name>
+                     <surname>Ruhe</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Matrix pencils</comment>
+               <fpage>104</fpage>
+               <source>Lecture Notes in Mathematics</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e761a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1000481e768" publication-type="journal">
+Y. Saad, Chebyshev acceleration techniques for solving nonsymmetric eigenvalue problems,
+Math. Comp.42 (1984), 567-588. MR 85i:65049<object-id pub-id-type="doi">10.2307/2007602</object-id>
+               <fpage>567</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e784a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1000481e791" publication-type="book">
+Y. Saad, Numerical Methods for Large Eigenvalue Problems, Halsted Press, New York, NY,
+1992. MR 93h:65052<person-group>
+                     <string-name>
+                     <surname>Saad</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Methods for Large Eigenvalue Problems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e816a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1000481e823" publication-type="journal">
+Y. Saad, Numerical solution of large nonsymmetric eigenvalue problems, Comput. Phys. Com-
+mun.53 (1989), 71-90. MR 90f:65064<person-group>
+                     <string-name>
+                     <surname>Saad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>71</fpage>
+               <volume>53</volume>
+               <source>Comput. Phys. Commun.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e855a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1000481e862" publication-type="journal">
+Y. Saad, On the rates of convergence of the Lanczos and the block Lanczos methods, SIAM
+J. Numer. Anal.17 (1980), 687-706. MR 82g:65022<object-id pub-id-type="jstor">10.2307/2156670</object-id>
+               <fpage>687</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e878a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1000481e885" publication-type="journal">
+Y. Saad, Variations on Arnoldi's method for computing eigenelements of large unsymmetric
+matrices, Linear Algebra Appl.34 (1980), 269-295. MR 81m:65055<person-group>
+                     <string-name>
+                     <surname>Saad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <volume>34</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e918a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1000481e925" publication-type="journal">
+Y. Saad and M. H. Schultz, GMRES: a generalized minimum residual algorithm for solv-
+ing nonsymmetric linear systems, SIAM J. Sci. Statist. Comput.7 (1986), 856-869. MR
+87g:65064<person-group>
+                     <string-name>
+                     <surname>Saad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>856</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e960a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1000481e967" publication-type="journal">
+D. C. Sorensen, Implicit application of polynomial filters in a k-step Arnoldi method, SIAM
+J. Matrix Anal. Appl.13 (1992), 357-385. MR 92i:65076<person-group>
+                     <string-name>
+                     <surname>Sorensen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>357</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000481e999a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1000481e1006" publication-type="book">
+J. H. Wilkinson, The Algebraic Eigenvalue Problem, Clarendon Press, Oxford, 1965. MR
+32:1894<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Algebraic Eigenvalue Problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

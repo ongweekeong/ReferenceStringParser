@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">295</issue>
+         <issue-id>i24488873</issue-id>
+         <article-id pub-id-type="doi">10.2307/24489199</article-id>
+         <title-group>
+            <article-title>NUMERICAL APPROXIMATION OF FRACTIONAL POWERS OF ELLIPTIC OPERATORS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>ANDREA</given-names>
+                  <surname>BONITO</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>JOSEPH E.</given-names>
+                  <surname>PASCIAK</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>2083</fpage>
+         <lpage>2110</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24489199"/>
+      
+      
+         <abstract>
+            <p>We present and study a novel numerical algorithm to approximate the action of Tβ := L-β where L is a symmetric and positive definite unbounded operator on a Hilbert space H₀. The numerical method is based on a representation formula for T-β in terms of Bochner integrals involving (I + t²L)⁻¹ for t ∈ (0, ∞). To develop an approximation to Tβ, we introduce a finite element approximation Lh to L and base our approximation to Tβ on ${\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}:={\mathrm{L}}_{\mathrm{h}}^{-\mathrm{\beta }}$. The direct evaluation of ${\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}$ is extremely expensive as it involves expansion in the basis of eigenfunctions for Lh. The above mentioned representation formula holds for ${\mathrm{T}}_{\mathrm{h}}^{-\mathrm{\beta }}$ and we propose three quadrature approximations denoted generically by ${\mathrm{Q}}_{\mathrm{h}}^{\mathrm{\beta }}$. The two results of this paper bound the errors in the H₀ inner product of ${\mathrm{T}}^{\mathrm{\beta }}-{\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}\mathrm{\pi }\mathrm{h}$ and ${\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}-{\mathrm{Q}}_{\mathrm{h}}^{\mathrm{\beta }}$ where πh is the H₀ orthogonal projection into the finite element space. We note that the evaluation of ${\mathrm{Q}}_{\mathrm{h}}^{\mathrm{\beta }}$ involves application of (I+(ti)²Lh)⁻¹ with ti being either a quadrature point or its inverse. Efficient solution algorithms for these problems are available and the problems at different quadrature points can be straightforwardly solved in parallel. Numerical experiments illustrating the theoretical estimates are provided for both the quadrature error ${\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}-{\mathrm{Q}}_{\mathrm{h}}^{\mathrm{\beta }}$ and the finite element error ${\mathrm{T}}^{\mathrm{\beta }}-{\mathrm{T}}_{\mathrm{h}}^{\mathrm{\beta }}\mathrm{\pi }\mathrm{h}$.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1894e190a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1894e197" publication-type="other">
+C. Bacuta, J. H. Bramble, and J. E. Pasciak, New interpolation results and applications to
+finite element methods for elliptic boundary value problems, East-West J. Numer. Math. 9
+(2001), no. 3, 179-198. MR1862579 (2002h:41053)</mixed-citation>
+        </ref>
+        <ref id="d1894e210a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1894e217" publication-type="other">
+0. G. Bakunin, Turbulence and Diffusion, Springer Series in Synergetics, Springer-Verlag,
+Berlin, 2008. Scaling versus equations. MR2450437 (2009j:76001)</mixed-citation>
+        </ref>
+        <ref id="d1894e227a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1894e234" publication-type="other">
+A. V. Balakrishnan, Fractional powers of closed operators and the semigroups generated by
+them, Paciac J. Math. 10 (I960), 419-437. MR0115096 (22 #5899)</mixed-citation>
+        </ref>
+        <ref id="d1894e244a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1894e251" publication-type="other">
+P. W. Bates, On some nonlocal evolution equations arising in materials science, Nonlin-
+ear dynamics and evolution equations, Fields Inst. Commun., vol. 48, Amer. Math. Soc.,
+Providence, RI, 2006, pp. 13-52. MR2223347 (2007g:35097)</mixed-citation>
+        </ref>
+        <ref id="d1894e265a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1894e272" publication-type="other">
+M. Sh. Birman and M. Z. Solomjak, Spectral Theory of Self adjoint Operators in Hilbert Space,
+Mathematics and its Applications (Soviet Series), D. Reidel Publishing Co., Dordrecht, 1987.
+Translated from the 1980 Russian original by S. Khrushchev and V. Peller. MR1192782
+(93g:47001)</mixed-citation>
+        </ref>
+        <ref id="d1894e288a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1894e295" publication-type="other">
+J. H. Bramble and X. Zhang, The analysis of multigrid methods, Handb. Numer. Anal., VII,
+North-Holland, Amsterdam, 2000, pp. 173-415. MR1804746 (2001m:65183)</mixed-citation>
+        </ref>
+        <ref id="d1894e305a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1894e312" publication-type="other">
+L. Caffarelli and L. Silvestre, An extension problem related to the fractional Lapla-
+cian, Comm. Partial Differential Equations 32 (2007), no. 7-9, 1245—1260, DOI
+10.1080/03605300600987306. MR2354493 (2009k:35096)</mixed-citation>
+        </ref>
+        <ref id="d1894e325a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1894e332" publication-type="other">
+P. Carr, H. Geman, D.B. Madan, and M. Yor, The fine structure of asset returns: An em-
+pirical investigation, Journal of Business, 75(2):305—332, APR 2002.</mixed-citation>
+        </ref>
+        <ref id="d1894e342a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1894e349" publication-type="other">
+P. Constantin and J. Wu, Behavior of solutions of 2D quasi-geostrophic equations, SIAM
+J. Math. Anal. 30 (1999), no. 5, 937-948, DOI 10.1137/S0036141098337333. MR1709781
+(2000j: 76019)</mixed-citation>
+        </ref>
+        <ref id="d1894e362a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1894e369" publication-type="other">
+M. Dauge, Elliptic Boundary Value Problems on Corner Domains: Smoothness and Asymp-
+totics of Solutions, Lecture Notes in Mathematics, vol. 1341, Springer-Verlag, Berlin, 1988.
+MR961439 (91a:35078)</mixed-citation>
+        </ref>
+        <ref id="d1894e383a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1894e390" publication-type="other">
+G. Duvaut and J.-L. Lions, Inequalities in Mechanics and Physics, Springer-Verlag, Berlin,
+1976. Translated from the French by C. W. John; Grundlehren der Mathematischen Wis-
+senschaften, 219. MR0521262 (58 #25191)</mixed-citation>
+        </ref>
+        <ref id="d1894e403a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1894e410" publication-type="other">
+A. C. Eringen, Nonlocal Continuum Field Theories, Springer-Verlag, New York, 2002.
+MR1918950 (2003m:74003)</mixed-citation>
+        </ref>
+        <ref id="d1894e420a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1894e427" publication-type="other">
+H. Fujita and T. Suzuki, Evolution problems, Handb. Numer. Anal., II, North-Holland, Am-
+sterdam, 1991, pp. 789-928. MR1115241</mixed-citation>
+        </ref>
+        <ref id="d1894e437a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1894e444" publication-type="other">
+I. P. Gavrilyuk, An algorithmic representation of fractional powers of positive operators,
+Numer. Funct. Anal. Optim. 17 (1996), no. 3-4, 293-305, DOI 10.1080/01630569608816695.
+MR1393162 (98b:47049)</mixed-citation>
+        </ref>
+        <ref id="d1894e457a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1894e464" publication-type="other">
+I. P. Gavrilyuk, W. Hackbusch, and B. N. Khoromskij, "H-matrix approximation for the
+operator exponential with applications, Numer. Math. 92 (2002), no. 1, 83-111, DOI
+10.1007/s002110100360. MR1917366 (2003g:65061)</mixed-citation>
+        </ref>
+        <ref id="d1894e477a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1894e484" publication-type="other">
+I. P. Gavrilyuk, W. Hackbusch, and B. N. Khoromskij, Data-sparse approximation to the
+operator-valued functions of elliptic operator, Math. Comp. 73 (2004), no. 247, 1297-1324,
+DOI 10.1090/S0025-5718-03-01590-4. MR2047088 (2005b:47086)</mixed-citation>
+        </ref>
+        <ref id="d1894e498a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1894e505" publication-type="other">
+I. P. Gavrilyuk, W. Hackbusch, and B. N. Khoromskij, Data-sparse approximation to a class
+of operator-valued functions, Math. Comp. 74 (2005), no. 250, 681—708, DOI 10.1090/S0025-
+5718-04-01703-X. MR2114643 (2005i:65068)</mixed-citation>
+        </ref>
+        <ref id="d1894e518a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1894e525" publication-type="other">
+I. P. Gavrilyuk, W. Hackbusch, and B. N. Khoromskij, Hierarchical tensor-product approxi-
+mation to the inverse and related operators for high-dimensional elliptic problems, Comput-
+ing 74 (2005), no. 2, 131-157, DOI 10.1007/s00607-004-0086-y. MR2133692 (2006f:65049)</mixed-citation>
+        </ref>
+        <ref id="d1894e538a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1894e545" publication-type="other">
+G. Gilboa and S. Osher, Nonlocal operators with applications to image processing, Mul-
+tiscale Model. Simul. 7 (2008), no. 3, 1005-1028, DOI 10.1137/070698592. MR2480109
+(2010b:94006)</mixed-citation>
+        </ref>
+        <ref id="d1894e558a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1894e565" publication-type="other">
+J.-L. Guermond, The LBB condition in fractional Sobolev spaces and applications, IMA
+J. Numer. Anal. 29 (2009), no. 3, 790-805, DOI 10.1093/imanum/drn028. MR2520170
+(2010f:65256)</mixed-citation>
+        </ref>
+        <ref id="d1894e578a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1894e585" publication-type="other">
+M. Ilic, F. Liu, I. Turner, and V. Anh, Numerical approximation of a fractional-in-space diffu-
+sion equation. I, Fract. Calc. Appl. Anal. 8 (2005), no. 3, 323-341. MR2252038 (2007e;35163)</mixed-citation>
+        </ref>
+        <ref id="d1894e595a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1894e602" publication-type="other">
+M. Ilic, F. Liu, I. Turner, and V. Anh, Numerical approximation of a fractional-in-space
+diffusion equation. II. With nonhomogeneous boundary conditions, Fract. Calc. Appl. Anal.
+9 (2006), no. 4, 333-349. MR2300467 (2007k:35535)</mixed-citation>
+        </ref>
+        <ref id="d1894e616a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1894e623" publication-type="other">
+R. B. Kellogg, Interpolation between subspaces of a Hilbert space, Technical report, Univ. of
+Maryland, Inst., Fluid Dynamics and App. Math., Tech. Note BN-719, 1971.</mixed-citation>
+        </ref>
+        <ref id="d1894e633a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1894e640" publication-type="other">
+J. Lund and K. L. Bowers, Sine Methods for Quadrature and Differential Equations, Soci-
+ety for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 1992. MR1171217
+(93i:65004)</mixed-citation>
+        </ref>
+        <ref id="d1894e653a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1894e660" publication-type="other">
+B. M. McCay and M. N. L. Narasimhan, Theory of nonlocal electromagnetic fluids (English,
+with Russian and Polish summaries), Arch. Mech. (Arch. Mech. Stos.) 33 (1981), no. 3,
+365-384. MR660727 (83f:76103)</mixed-citation>
+        </ref>
+        <ref id="d1894e673a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1894e680" publication-type="other">
+W. McLean and V. Thomee, Iterative solution of shifted positive-definite linear systems aris-
+ing in a numerical method for the heat equation based on Laplace transformation and quad-
+rature, ANZIAM J. 53 (2011), no. 2, 134-155, DOI 10.1017/S1446181112000107. MR2966174</mixed-citation>
+        </ref>
+        <ref id="d1894e693a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d1894e700" publication-type="other">
+S. A. Nazarov and B. A. Plamenevsky, Elliptic Problems in Domains with Piecewise Smooth
+Boundaries, de Gruyter Expositions in Mathematics, vol. 13, Walter de Gruyter &amp; Co., Berlin,
+1994. MR1283387 (95h:35001)</mixed-citation>
+        </ref>
+        <ref id="d1894e713a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d1894e720" publication-type="other">
+R. H. Nochetto, E. Otarola, and A. J. Salgado, A PDE approach to fractional diffusion in
+general domains: a priori error analysis, submitted.</mixed-citation>
+        </ref>
+        <ref id="d1894e731a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d1894e738" publication-type="other">
+S. A. Silling, Reformulation of elasticity theory for discontinuities and long-range forces,
+J. Mech. Phys. Solids 48 (2000), no. 1, 175-209, DOI 10.1016/S0022-5096(99)00029-0.
+MR1727557 (2000i:74008)</mixed-citation>
+        </ref>
+        <ref id="d1894e751a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d1894e758" publication-type="other">
+V. Thomee, Galerkin Finite Element Methods for Parabolic Problems, Springer Series in
+Computational Mathematics, vol. 25, Springer-Verlag, Berlin, 1997. MR1479170 (98m:65007)</mixed-citation>
+        </ref>
+        <ref id="d1894e768a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d1894e775" publication-type="other">
+Q. Yang, I. Turner, F. Liu, and M. Ilic, Novel numerical methods for solving the time-space
+fractional diffusion equation in two dimensions, SIAM J. Sci. Comput. 33 (2011), no. 3,
+1159-1180, DOI 10.1137/100800634. MR2800568 (2012h:65169)</mixed-citation>
+        </ref>
+        <ref id="d1894e788a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d1894e795" publication-type="other">
+Toshio Yoshida. Functional Analysis. Springer-Verlag, New York, 1995.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

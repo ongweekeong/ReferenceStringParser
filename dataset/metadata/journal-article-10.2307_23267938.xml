@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">280</issue>
+         <issue-id>i23267881</issue-id>
+         <article-id pub-id-type="jstor">23267938</article-id>
+         <title-group>
+            <article-title>LANGEVIN DYNAMICS WITH CONSTRAINTS AND COMPUTATION OF FREE ENERGY DIFFERENCES</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>TONY</given-names>
+                  <surname>LELIÈVRE</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>MATHIAS</given-names>
+                  <surname>ROUSSET</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>GABRIEL</given-names>
+                  <surname>STOLTZ</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>2071</fpage>
+         <lpage>2125</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23267938"/>
+      
+      
+         <abstract>
+            <p>In this paper, we consider Langevin processes with mechanical constraints. The latter are a fundamental tool in molecular dynamics simulation for sampling purposes and for the computation of free energy differences. The results of this paper can be divided into three parts. (i) We propose a simple discretization of the constrained Langevin process based on a splitting strategy. We show how to correct the scheme so that it samples exactly the canonical measure restricted on a submanifold, using a Metropolis-Hastings correction in the spirit of the Generalized Hybrid Monte Carlo (GHMC) algorithm. Moreover, we obtain, in some limiting regime, a consistent discretization of the overdamped Langevin (Brownian) dynamics on a submanifold, also sampling exactly the correct canonical measure with constraints. (ii) For free energy computation using thermodynamic integration, we rigorously prove that the longtime average of the Lagrange multipliers of the constrained Langevin dynamics yields the gradient of a rigid version of the free energy associated with the constraints. A second order time discretization using the Lagrange multipliers is proposed. (iii) The Jarzynski-Crooks fluctuation relation is proved for Langevin processes with mechanical constraints evolving in time. An original numerical discretization without time discretization error is proposed, and its overdamped limit is studied. Numerical illustrations are provided for (ii) and (iii).</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d4524233e194a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d4524233e201" publication-type="other">
+[19].</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d4524233e217a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d4524233e224" publication-type="other">
+E. Akhmatskaya and S. Reich, GSHMC: an efficient method for molecular simulation, J. Com-
+put. Phys. 227 (2008), no. 10, 4934-4954. MR2414842 (2009d:65006)</mixed-citation>
+        </ref>
+        <ref id="d4524233e234a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d4524233e241" publication-type="other">
+L. Ambrosio, N. Fusco, and D. Pallara, Functions of bounded variation and free discontinuity
+problems, Oxford Science Publications, 2000. MR1857292 (2003a:49002)</mixed-citation>
+        </ref>
+        <ref id="d4524233e251a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d4524233e258" publication-type="other">
+V. I. Arnol'd, Mathematical methods of classical mechanics, Graduate Texts in Mathematics,
+vol. 60, Springer-Verlag, 1989. MR997295 (90c:58046)</mixed-citation>
+        </ref>
+        <ref id="d4524233e268a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d4524233e275" publication-type="other">
+N. Bou-Rabee and H. Owhadi, Long-run behavior of variational integrators in the stochastic
+context, SIAM J. Numer. Anal. 48 (2010), 278-297. MR2608370 (2011c:65014)</mixed-citation>
+        </ref>
+        <ref id="d4524233e286a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d4524233e293" publication-type="other">
+R. Chetrite and K. Gawegdzki, Fluctuation relations for diffusion processes, Commun. Math.
+Phys. (2008), no. 282, 469-518. MR2421485 (2009f:82026)</mixed-citation>
+        </ref>
+        <ref id="d4524233e303a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d4524233e310" publication-type="other">
+C. Chipot and A. Pohorille (eds.), Free energy calculations, Springer Series in Chemical
+Physics, vol. 86, Springer, 2007.</mixed-citation>
+        </ref>
+        <ref id="d4524233e320a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d4524233e327" publication-type="other">
+N. Chopin, T. Lelievre, and G. Stoltz, Free energy methods for bayesian inference: Efficient
+exploration of univariate gaussian mixture posteriors, Stat. Comput., arXiv:1003.0428v4,
+(2011).</mixed-citation>
+        </ref>
+        <ref id="d4524233e340a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d4524233e347" publication-type="other">
+G. Ciccotti, R. Kapral, and E. Vanden-Eijnden, Blue Moon sampling, vectorial reaction coor-
+dinates, and unbiased constrained dynamics, Chem. Phys. Chem 6 (2005), no. 9, 1809-1814.</mixed-citation>
+        </ref>
+        <ref id="d4524233e357a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d4524233e364" publication-type="other">
+G. Ciccotti, T. Lelievre, and E. Vanden-Eijnden, Projection of diffusions on submanifolds:
+Application to mean force computation, Commun. Pure Appl. Math. 61 (2008), no. 3, 371-
+408. MR2376846 (2008k:82116)</mixed-citation>
+        </ref>
+        <ref id="d4524233e377a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d4524233e384" publication-type="other">
+G. E. Crooks, Nonequilibrium measurements of free energy-differences for microscopically
+reversible markovian systems, J. Stat. Phys. 90 (1998), no. 5, 1481-1487. MR1628273
+(99e:82056)</mixed-citation>
+        </ref>
+        <ref id="d4524233e398a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d4524233e405" publication-type="other">
+-, Entropy production fluctuation theorem and the nonequilibrium work relation for
+free-energy differences, Phys. Rev. E 60 (1999), no. 3, 2721-2726.</mixed-citation>
+        </ref>
+        <ref id="d4524233e415a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d4524233e422" publication-type="other">
+E. Darve, Thermodynamic integration using constrained and unconstrained dynamics, Free
+Energy Calculations (C. Chipot and A. Pohorille, eds.), Springer, 2007, pp. 119-170.</mixed-citation>
+        </ref>
+        <ref id="d4524233e432a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d4524233e439" publication-type="other">
+C. Dellago, P. G. Bolhuis, and D. Chandler, On the calculation of reaction rate constants in
+the transition path ensemble, J. Chem. Phys. 110 (1999), no. 14, 6617-6625.</mixed-citation>
+        </ref>
+        <ref id="d4524233e449a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d4524233e456" publication-type="other">
+W. K. den Otter, Thermodynamic integration of the free energy along a reaction coordinate
+in Cartesian coordinates, J. Chem. Phys. 112 (2000), no. 17, 7283-7292.</mixed-citation>
+        </ref>
+        <ref id="d4524233e466a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d4524233e473" publication-type="other">
+P. A. M. Dirac, Generalized Hamiltonian dynamics, Canadian J. Math. 2 (1950), 129-148.
+MR0043724 (13:306b)</mixed-citation>
+        </ref>
+        <ref id="d4524233e483a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d4524233e490" publication-type="other">
+S. Duane, A. D. Kennedy, B. J. Pendleton, and D. Roweth, Hybrid Monte-Carlo, Phys. Lett.
+B 195 (1987), no. 2, 216-222.</mixed-citation>
+        </ref>
+        <ref id="d4524233e501a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d4524233e508" publication-type="other">
+M. Duflo, Random iterative models, Springer, 1997. MR1485774 (98m:62239)</mixed-citation>
+        </ref>
+        <ref id="d4524233e515a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d4524233e522" publication-type="other">
+W. E and E. Vanden-Eijnden, Metastability, conformation dynamics, and transition pathways
+in complex systems, Multiscale Modelling and Simulation (S. Attinger and P. Koumoutsakos,
+eds.), Lect. Notes Comput. Sci. Eng., vol. 39, Springer, Berlin, 2004, pp. 35-68. MR2089952
+(2005e:82109)</mixed-citation>
+        </ref>
+        <ref id="d4524233e538a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d4524233e545" publication-type="other">
+S. N. Ethier and T. G. Kurtz, Markov processes: Characterization and convergence, Wiley
+Series in Probability and Statistics, John Wiley &amp; Sons, 1986. MR838085 (88a:60130)</mixed-citation>
+        </ref>
+        <ref id="d4524233e555a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d4524233e562" publication-type="other">
+L. C. Evans and R. F. Gariepy, Measure theory and fine properties of functions, Studies in
+Advanced Mathematics, CRC Press, 1992. MR1158660 (93f:28001)</mixed-citation>
+        </ref>
+        <ref id="d4524233e572a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d4524233e579" publication-type="other">
+M. Fixman, Simulation of polymer dynamics. I. General theory, J. Chem. Phys. 69 (1978),
+1527-1537.</mixed-citation>
+        </ref>
+        <ref id="d4524233e589a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d4524233e596" publication-type="other">
+E. Hairer, C. Lubich, and G. Wanner, Geometric numerical integration: Structure-preserving
+algorithms for ordinary differential equations, Springer Series in Computational Mathematics,
+vol. 31, Springer-Verlag, 2006. MR2221614 (2006m:65006)</mixed-citation>
+        </ref>
+        <ref id="d4524233e610a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d4524233e617" publication-type="other">
+C. Hartmann, An ergodic sampling scheme for constrained Hamiltonian systems with ap-
+plications to molecular dynamics, J. Stat. Phys. 130 (2008), no. 4, 687-711. MR2387561
+(2008m:37140)</mixed-citation>
+        </ref>
+        <ref id="d4524233e630a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d4524233e637" publication-type="other">
+C. Hartmann and C. Schiitte, A constrained Hybrid Monte Carlo algorithm and the problem
+of calculating the free energy in several variables, Z. Angew. Math. Mech. 85 (2005), no. 10,
+700-710. MR2172065 (2006e:82095)</mixed-citation>
+        </ref>
+        <ref id="d4524233e650a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d4524233e657" publication-type="other">
+-, A geometric approach to constrained molecular dynamics and free energy, Commun.
+Math. Sci. 3 (2005), no. 1, 1-20. MR2132822 (2005k:70036)</mixed-citation>
+        </ref>
+        <ref id="d4524233e667a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d4524233e674" publication-type="other">
+-, Comment on two distinct notions of free energy, Physica D 228 (2007), no. 1, 59-63.
+MR2334508 (2008c:82005)</mixed-citation>
+        </ref>
+        <ref id="d4524233e684a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d4524233e691" publication-type="other">
+L. Hormander, Hypoelliptic second order differential equations, Acta Math. 119 (1967), 147-
+171. MR0222474 (36:5526)</mixed-citation>
+        </ref>
+        <ref id="d4524233e701a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d4524233e708" publication-type="other">
+A. M. Horowitz, A generalized guided Monte Carlo algorithm, Phys. Lett. B 268 (1991),
+247-252.</mixed-citation>
+        </ref>
+        <ref id="d4524233e719a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d4524233e726" publication-type="other">
+C. Jarzynski, Nonequilibrium equality for free energy differences, Phys. Rev. Lett. 78 (1997),
+no. 14, 2690-2693.</mixed-citation>
+        </ref>
+        <ref id="d4524233e736a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d4524233e743" publication-type="other">
+W. Kliemann, Recurrence and invariant measures for degenerate diffusions, Ann. Probab. 15
+(1987), no. 2, 690-707. MR885138 (88d:58134)</mixed-citation>
+        </ref>
+        <ref id="d4524233e753a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d4524233e760" publication-type="other">
+J. Latorre, C. Hartmann, and Ch. Schiitte, Free energy computation by controlled Langevin
+processes, Procedia Computer Science 1 (2010), 1591-1600.</mixed-citation>
+        </ref>
+        <ref id="d4524233e770a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d4524233e777" publication-type="other">
+B. J. Leimkuhler and S. Reich, Simulating Hamiltonian dynamics, Cambridge Monographs
+on Applied and Computational Mathematics, vol. 14, Cambridge University Press, 2005.</mixed-citation>
+        </ref>
+        <ref id="d4524233e787a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d4524233e794" publication-type="other">
+B. J. Leimkuhler and R. D. Skeel, Symplectic numerical integrators in constrained Hamilton-
+ian systems, J. Comput. Phys. 112 (1994), no. 1, 117-125. MR1277499 (95h:58053)</mixed-citation>
+        </ref>
+        <ref id="d4524233e804a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d4524233e811" publication-type="other">
+T. Lelievre, M. Rousset, and G. Stoltz, Computation of free energy differences through
+nonequilibrium stochastic dynamics: The reaction coordinate case, J. Comput. Phys. 222
+(2007), no. 2, 624-643. MR2313418 (2008a:82052)</mixed-citation>
+        </ref>
+        <ref id="d4524233e825a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d4524233e832" publication-type="other">
+-, Free energy computations. A mathematical perspective, Imperial College Press, 2010.
+MR2681239</mixed-citation>
+        </ref>
+        <ref id="d4524233e842a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d4524233e849" publication-type="other">
+T. Lelievre, M. Rousset, and G. Stoltz, Langevin dynamics with constraints and computation
+of free energy differences, arXiv preprint 1006.4914 (2010).</mixed-citation>
+        </ref>
+        <ref id="d4524233e859a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d4524233e866" publication-type="other">
+P. B. Mackenzie, An improved hybrid Monte Carlo method, Phys. Lett. B 226 (1989), no. 3-4,
+369-371.</mixed-citation>
+        </ref>
+        <ref id="d4524233e876a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d4524233e883" publication-type="other">
+J. Marsden and T. Ratiu, Introduction to mechanics and symmetry, Texts in Applied Math-
+ematics, vol. 17, Springer, 2003. MR1723696 (2000i:70002)</mixed-citation>
+        </ref>
+        <ref id="d4524233e893a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d4524233e900" publication-type="other">
+G. N. Milstein and M. V. Tretyakov, Quasi-symplectic methods for Langevin-type equations,
+IMA J. Numer. Anal. 23 (2003), 593-626. MR2011342 (2004h:37131)</mixed-citation>
+        </ref>
+        <ref id="d4524233e910a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d4524233e917" publication-type="other">
+-, Stochastic numerics for mathematical physics, Scientific Computation, Springer,
+2004. MR2069903 (2005f:60004)</mixed-citation>
+        </ref>
+        <ref id="d4524233e928a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d4524233e935" publication-type="other">
+D. D. L. Minh and A. B. Adib, Optimized free energies from bidirectional single-molecule
+force spectroscopy, Phys. Rev. Lett. 100 (2008), 180602.</mixed-citation>
+        </ref>
+        <ref id="d4524233e945a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d4524233e952" publication-type="other">
+S. Park, F. Khalili-Araghi, E. Tajkhorshid, and K. Schulten, Free energy calculation from
+steered molecular dynamics simulations using Jarzynski's equality, J. Chem. Phys. 119 (2003),
+no. 6, 3559-3566.</mixed-citation>
+        </ref>
+        <ref id="d4524233e965a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d4524233e972" publication-type="other">
+D. C. Rapaport, The art of molecular dynamics simulations, Cambridge University Press,
+1995.</mixed-citation>
+        </ref>
+        <ref id="d4524233e982a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d4524233e989" publication-type="other">
+S. Reich, Smoothed Langevin dynamics of hiqhly oscillatory systems, Physica D 138 (2000),
+210-224. MR1744627 (2001k:37137)</mixed-citation>
+        </ref>
+        <ref id="d4524233e999a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d4524233e1006" publication-type="other">
+J. Schlitter and M. Klahn, A new concise expression for the free energy of a reaction coordi-
+nate, J. Chem. Phys. 118 (2003), no. 5, 2057-2060.</mixed-citation>
+        </ref>
+        <ref id="d4524233e1016a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d4524233e1023" publication-type="other">
+J. E. Straub, M. Borkovec, and B. J. Berne, Molecular-dynamics study of an isomerizing
+diatomic in a Lennard-Jones fluid, J. Chem. Phys. 89 (1988), no. 8, 4833-4847.</mixed-citation>
+        </ref>
+        <ref id="d4524233e1034a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d4524233e1041" publication-type="other">
+E. Vanden-Eijnden and G. Ciccotti, Second-order integrators for Langevin equations with
+holonomic constraints, Chem. Phys. Lett. 429 (2006), no. 1-3, 310-316.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">218</issue>
+         <issue-id>i337674</issue-id>
+         <article-id pub-id-type="jstor">2153892</article-id>
+         
+         <title-group>
+            <article-title>Accelerated Polynomial Approximation of Finite Order Entire Functions by Growth Reduction</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Jürgen</given-names>
+                     <surname>Müller</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>743</fpage>
+         <lpage>761</lpage>
+         <page-range>743-761</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153892"/>
+         
+         
+         <abstract>
+            <p>Let f be an entire function of positive order and finite type. The subject of this note is the convergence acceleration of polynomial approximants of f by incorporating information about the growth of f(z) for z → ∞. We consider "near polynomial approximation" on a compact plane set K, which should be thought of as a circle or a real interval. Our aim is to find sequences (f&lt;sub&gt;n&lt;/sub&gt;)&lt;sub&gt;n&lt;/sub&gt; of functions which are the product of a polynomial of degree ≤ n and an "easy computable" second factor and such that (f&lt;sub&gt;n&lt;/sub&gt;)&lt;sub&gt;n&lt;/sub&gt; converges essentially faster to f on K than the sequence (P&lt;sup&gt;*&lt;/sup&gt;&lt;sub&gt;n&lt;/sub&gt;)&lt;sub&gt;n&lt;/sub&gt; of best approximating polynomials of degree ≤ n. The resulting method, which we call Reduced Growth method (RG-method) is introduced in Section 2. In Section 5, numerical examples of the RG-method applied to the complex error function and to Bessel functions are given.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65B99</kwd>
+            <kwd>30D10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d547857e153a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d547857e160" publication-type="journal">
+Amos, D.E., A portable package for Bessel functions of a complex argument and nonnegative
+order, ACM Trans. Math. Softw., 12 (1986), 265-273 CMP 19:12<person-group>
+                     <string-name>
+                     <surname>Amos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>12</volume>
+               <source>ACM Trans. Math. Softw.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e192a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d547857e199" publication-type="book">
+Berenstein, C.A., Gay, R., Complex analysis and special topics in harmonic analysis, Springer,
+New York, 1995. MR 96j:30001<person-group>
+                     <string-name>
+                     <surname>Berenstein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Complex analysis and special topics in harmonic analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e224a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d547857e231" publication-type="book">
+Cheney, E.W., Approximation theory, McGraw-Hill, New York, 1966. MR 36:5568<person-group>
+                     <string-name>
+                     <surname>Cheney</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximation theory</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e253a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d547857e260" publication-type="journal">
+Coleman, J.P., Myers, N.J., The Faber polynomials for annular sectors, Math. Comp., 64
+(1995), 181-203. MR 95c:30006<object-id pub-id-type="doi">10.2307/2153328</object-id>
+               <fpage>181</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e277a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d547857e284" publication-type="journal">
+Ellacott, S.W., Computation of Faber series with application to numerical polynomial approx-
+imation in the complex plane, Math. Comp., 40 (1983), 575-587. MR 84e:65021<object-id pub-id-type="doi">10.2307/2007534</object-id>
+               <fpage>575</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e300a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d547857e307" publication-type="journal">
+Elliott, D., Truncation error in Pade approximations to certain functions, an alternative ap-
+proach, Math. Comp., 21 (1967), 398-406. MR 37:3252<object-id pub-id-type="doi">10.2307/2003242</object-id>
+               <fpage>398</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e323a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d547857e330" publication-type="journal">
+Gabutti, B., On two methods for accelerating convergence of series, Numer. Math., 43 (1984),
+439-461. MR 85i:65005<person-group>
+                     <string-name>
+                     <surname>Gabutti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>439</fpage>
+               <volume>43</volume>
+               <source>Numer. Math.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e362a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d547857e369" publication-type="journal">
+Gabutti, B., Lyness, J.N., An acceleration method for the power series of entire functions of
+order 1, Math. Comp., 39 (1982), 587-597. MR 83j:65011<object-id pub-id-type="doi">10.2307/2007336</object-id>
+               <fpage>587</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e385a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d547857e392" publication-type="book">
+Gaier, D., Lectures on complex approximation, Birkhiuser, Boston, 1987. MR 88i:30059b<person-group>
+                     <string-name>
+                     <surname>Gaier</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lectures on complex approximation</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e414a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d547857e421" publication-type="journal">
+Gatermann, K., Hoffmann, Ch., Opfer, G., Faber polynomials on circular sectors, Math.
+Comp., 58 (1992), 241-253. MR 92h:30011<object-id pub-id-type="doi">10.2307/2153031</object-id>
+               <fpage>241</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e438a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d547857e445" publication-type="journal">
+Gautschi, W., Efficient computation of the complex error function, SIAM J. Numer. Anal., 7
+(1970), 187-198. MR 45:2889<object-id pub-id-type="jstor">10.2307/2949591</object-id>
+               <fpage>187</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e461a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d547857e468" publication-type="journal">
+Geddes, K.O., Near minimax polynomial approximation in an elliptical region, SIAM J. Nu-
+mer. Anal., 15 (1978), 1225-1233. MR 80a:65062<object-id pub-id-type="jstor">10.2307/2156739</object-id>
+               <fpage>1225</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e484a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d547857e491" publication-type="journal">
+Geddes, K.O., Mason, J.C., Polynomial approximation by projections on the unit circle, SIAM
+J. Numer. Anal., 12 (1975), 111-120. MR 51:1230<object-id pub-id-type="jstor">10.2307/2156264</object-id>
+               <fpage>111</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e507a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d547857e514" publication-type="book">
+Henrici, P., Applied and computational complex analysis, Vol. II, Wiley, New York, 1991. MR
+93b:30001<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <volume>II</volume>
+               <source>Applied and computational complex analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e543a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d547857e550" publication-type="book">
+Hettich, R., Zencke, P., Numerische Methoden der Approximation und semi-infiniten Opti-
+mierung, Teubner, Stuttgart, 1982. MR 84a:90069<person-group>
+                     <string-name>
+                     <surname>Hettich</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerische Methoden der Approximation und semi-infiniten Optimierung</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e575a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d547857e582" publication-type="journal">
+Jones, W.B., Thron, W.F., On the computation of incomplete gamma functions in the complex
+domain, J. Comp. Appl. Math., 12 &amp; 13 (1985), 401-417. MR 87c:65023<person-group>
+                     <string-name>
+                     <surname>Jones</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>401</fpage>
+               <volume>12</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e615a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d547857e622" publication-type="journal">
+Kövari, T., Pommerenke, Ch., On Faber polynomials and Faber expansions, Math. Z., 99
+(1967), 193-206. MR 37:3013<person-group>
+                     <string-name>
+                     <surname>Kövari</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>99</volume>
+               <source>Math. Z.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e654a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d547857e661" publication-type="journal">
+Lewin, B.J., Distribution of zeros of entire functions, Amer. Math. Soc., 1964.<person-group>
+                     <string-name>
+                     <surname>Lewin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Amer. Math. Soc.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e683a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d547857e690" publication-type="journal">
+Lyness, J.N., Sande, G., Algorithm 413, Evaluation of normalized Taylor coefficients of an
+analytic function, Comm. ACM, 14 (1971), 669-675.<person-group>
+                     <string-name>
+                     <surname>Lyness</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>669</fpage>
+               <volume>14</volume>
+               <source>Comm. ACM</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e722a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d547857e729" publication-type="book">
+Markushevich, A.I., The theory of functions, 2nd ed., Chelsea, New York, 1977. MR 56:3258<person-group>
+                     <string-name>
+                     <surname>Markushevich</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The theory of functions</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e754a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d547857e761" publication-type="journal">
+Müller, J., Convergence acceleration of polynomial expansions for finite order entire functions,
+Habilitationsschrift, Trier 1995.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <source>Convergence acceleration of polynomial expansions for finite order entire functions</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e786a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d547857e793" publication-type="other">
+Müller, J., Convergence acceleration of Taylor sections for finite order entire functions, sub-
+mitted.</mixed-citation>
+            </ref>
+            <ref id="d547857e804a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d547857e811" publication-type="journal">
+Poppe; G.P.M., Wijers, C.M., More efficient computation of the complex error function, ACM
+Trans. Math. Softw., 16 (1990), 38-46. MR 91h:65068a<person-group>
+                     <string-name>
+                     <surname>Poppe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>38</fpage>
+               <volume>16</volume>
+               <source>ACM Trans. Math. Softw.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e843a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d547857e850" publication-type="journal">
+Rice, J.R., The degree of convergence for entire functions, Duke Math. J., 38 (1971), 429-440.
+MR 44:4217<person-group>
+                     <string-name>
+                     <surname>Rice</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>429</fpage>
+               <volume>38</volume>
+               <source>Duke Math. J.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e882a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d547857e889" publication-type="book">
+Rivlin, T.J., The Chebyshev polynomials, Wiley, New York, 1974. MR 56:9142<person-group>
+                     <string-name>
+                     <surname>Rivlin</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Chebyshev polynomials</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e911a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d547857e918" publication-type="book">
+Schonfelder, J.L., Special functions in the NAG library. In: Software for numerical mathemat-
+ics, D.J. Evans (Editor), Academic Press, New York, 1974. MR 50:6095<person-group>
+                     <string-name>
+                     <surname>Schonfelder</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Special functions in the NAG library</comment>
+               <source>Software for numerical mathematics</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e947a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d547857e954" publication-type="journal">
+Steinmetz, N., Exceptional values of solutions of linear differential equations, Math. Z., 201
+(1989), 317-326. MR 90i:30044<person-group>
+                     <string-name>
+                     <surname>Steinmetz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>201</volume>
+               <source>Math. Z.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e986a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d547857e993" publication-type="book">
+Watanabe, T., Natori, M., Oguni, T., Mathematical software for the P.C. and work stations,
+North-Holland, Amsterdam, 1994. MR 95g:65008<person-group>
+                     <string-name>
+                     <surname>Watanabe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical software for the P.C. and work stations</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e1019a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d547857e1026" publication-type="journal">
+Weideman, J.A.C., Computation of the complex error function, SIAM J. Numer. Anal., 31
+(1994), 1497-1518. MR 95h:65012a<object-id pub-id-type="jstor">10.2307/2158232</object-id>
+               <fpage>1497</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e1042a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d547857e1049" publication-type="journal">
+Wild, P., Accelerating the convergence of power series of certain entire functions, Numer.
+Math., 51 (1987), 583-595. MR 89a:65007<person-group>
+                     <string-name>
+                     <surname>Wild</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>583</fpage>
+               <volume>51</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547857e1081a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d547857e1088" publication-type="journal">
+Winiarski, T., Approximation and interpolation of entire functions, Ann. Polon. Math.23
+(1970), 259-273. MR 42:7913<person-group>
+                     <string-name>
+                     <surname>Winiarski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>259</fpage>
+               <volume>23</volume>
+               <source>Ann. Polon. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

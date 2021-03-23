@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">7</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40000565</issue-id>
+         <article-id pub-id-type="jstor">40011019</article-id>
+         <title-group>
+            <article-title>Text Planning with Opportunistic Control</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Sergei</given-names>
+                  <surname>Nirenburg</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>99</fpage>
+         <lpage>124</lpage>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1992 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40011019"/>
+         
+         
+         <abstract>
+            <p>This report describes the current state of our central research thrust in the area of natural language generation. We have already reported on our text-level theory of lexical selection in natural language generation ([59, 60]), on a unification-based syntactic processor for syntactic generation ([73]) and designed arelatively flexible blackboard-oriented architecture for integrating these and other types of processing activities in generation ([60]). We have implemented these ideas in our prototype generator, Diogenes - a Distributed, Opportunistic Generation System - and tested our lexical selection and syntactic generation modules in a comprehensive natural language processing project - the KBMT-89 machine translation system ([15]). At this stage we are developing a more comprehensive Diogenes system, concentrating on both the theoretical and the system-building aspects of a) formulating a more comprehensive theory of distributed natural language generation; b) extending current theories of text organization as they pertain to the task of planning natural language texts; c) improving and extending the knowledge representation and the actual body of background knowledge (both domain and discourse/pragmatic) required for comprehensive text planning; d) designing and implementing algorithms for dynamic realization of text structure and integrating them into the blackboard style of communication and control; e) designing and implementing control algorithms for distributed text planning and realization. In this document we describe our ideas concerning opportunistic control for a natural language generation planner and present a research and development plan for the Diogenes project.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>text generation</kwd>
+            <kwd>planning</kwd>
+            <kwd>control</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1439020e153a1310">
+               <label>1</label>
+               
+               <p>
+               <mixed-citation id="d1439020e160" publication-type="other">
+(David McDonald,</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d1439020e166" publication-type="other">
+[36, 40]).</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e173a1310">
+               <label>4</label>
+               
+               <p>
+               <mixed-citation id="d1439020e180" publication-type="other">
+Thomason's [72]</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e187a1310">
+               <label>8</label>
+               
+               <p>
+               <mixed-citation id="d1439020e194" publication-type="other">
+"context
+spaces" (1985: 56).</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e204a1310">
+               <label>10</label>
+               
+               <p>
+               <mixed-citation id="d1439020e211" publication-type="other">
+GOSSIP [26],</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e219a1310">
+               <label>13</label>
+               
+               <p>
+               <mixed-citation id="d1439020e226" publication-type="other">
+([27], p. 295)</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e233a1310">
+               <label>15</label>
+               
+               <p>
+               <mixed-citation id="d1439020e240" publication-type="other">
+[58, 60].</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d1439020e247a1310">
+               <label>16</label>
+               
+               <p>
+               <mixed-citation id="d1439020e254" publication-type="other">
+[60].</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d1439020e270a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1439020e277" publication-type="other">
+Anscombre, J.-C. and O. Ducrot. 1983. L' argumentation dans la langue. Bruxelles:
+Mardaga.</mixed-citation>
+            </ref>
+            <ref id="d1439020e287a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1439020e294" publication-type="other">
+Appelt, D. 1985. Planning English Sentences. Cambridge: Cambridge University
+Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e304a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1439020e311" publication-type="other">
+deKleer, J., J. Doyle, G. L. Steele, and G. J. Sussman. 1978. AMORD, A Deductive
+Procedure System. MIT AI Memo 435.</mixed-citation>
+            </ref>
+            <ref id="d1439020e321a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1439020e328" publication-type="other">
+Barrow, H. G. and J. M. Tenenbaum. 1976. MSYS: A System for Reasoning About
+Scenes. Technical Note 121, SRI International, Menlo Park CA.</mixed-citation>
+            </ref>
+            <ref id="d1439020e339a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1439020e346" publication-type="other">
+Brown, R. 1989. Augmentation, in Goodman, ed., Special Issue on Knowledge-Based
+Machine Translation. Machine Translation 4:129-147.</mixed-citation>
+            </ref>
+            <ref id="d1439020e356a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1439020e363" publication-type="other">
+Cohen, P. R. and C. R. Perrault. 1979. Elements of a Plan-based theory of speech acts.
+Cognitive Science 3:177-212.</mixed-citation>
+            </ref>
+            <ref id="d1439020e373a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1439020e380" publication-type="other">
+Dahlgren, K. 1988. Naive Semantics for Natural Language Understanding. Dor-
+drecht: Kluwer.</mixed-citation>
+            </ref>
+            <ref id="d1439020e390a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1439020e397" publication-type="other">
+Defrise, C. and S. Nirenburg. 1989. Aspects of Text Meaning, ms, Center for Machine
+Translation, Carnegie Mellon University.</mixed-citation>
+            </ref>
+            <ref id="d1439020e407a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1439020e414" publication-type="other">
+Derr, M. and K. McKeown. 1984. Using Focus to Generate Complex and Simple
+Sentences. Proceedings of COLING-84.</mixed-citation>
+            </ref>
+            <ref id="d1439020e424a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1439020e431" publication-type="other">
+DiMarco, C. and G. Hirst. 1988. Stylistic Grammars m Language Translation. Pro-
+ceedings of COLING-88.</mixed-citation>
+            </ref>
+            <ref id="d1439020e442a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1439020e449" publication-type="other">
+Ducrot, 0. 1984. Polyphonic Lalies, nr. 4.</mixed-citation>
+            </ref>
+            <ref id="d1439020e456a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1439020e463" publication-type="other">
+Englemore, R. and T. Morgan (eds.) 1988. Blackboard Systems. Reading, MA:
+Addison-Wesley.</mixed-citation>
+            </ref>
+            <ref id="d1439020e473a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1439020e480" publication-type="other">
+Erman, L. and F. Hayes-Roth, V. Lesser, and R. Reddy. 1980. The HEARSAY-II
+Speech Understanding System: Integrating Knowledge to Resolve Uncertainty. ACM
+Computing Surveys 12:213-53.</mixed-citation>
+            </ref>
+            <ref id="d1439020e493a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1439020e500" publication-type="other">
+Goldman, N. 1975. Conceptual Generation. In: R. Schank (ed.), Conceptual Infor-
+mation Processing. Amsterdam: North Holland, pp. 289-372.</mixed-citation>
+            </ref>
+            <ref id="d1439020e510a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1439020e517" publication-type="other">
+Goodman, K.W. and S. Nirenburg (eds.) 1989. KBMT-89. Research Report, Center
+for Machine Translation, Carnegie Mellon University.</mixed-citation>
+            </ref>
+            <ref id="d1439020e527a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1439020e534" publication-type="other">
+Granville, R.A. 1983. Cohesion in Computer Text Generation: Lexical Substitu-
+tion. Technical Report MIT/LCS/TR-310, Laboratory for Computer Science, Mas-
+sachusetts Institute of Technology.</mixed-citation>
+            </ref>
+            <ref id="d1439020e548a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1439020e555" publication-type="other">
+Grosz, B. and C. Sidner. 1986. Attention, Intentions, and the Structure of Discourse.
+Computational Linguistics, 12:175-204.</mixed-citation>
+            </ref>
+            <ref id="d1439020e565a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1439020e572" publication-type="other">
+Hayes-Roth, B. ( 1985). A Blackboard Architecture for Control. Artificial Intelligence
+26:251-321.</mixed-citation>
+            </ref>
+            <ref id="d1439020e582a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1439020e589" publication-type="other">
+Hinkelman, E. and J. Allen. 1989. Two Constraints on Speech Act Ambiguity. Uni-
+versity of Rochester Technical Report. To appear in Proceedings of ACL-89.</mixed-citation>
+            </ref>
+            <ref id="d1439020e599a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1439020e606" publication-type="other">
+Hovy, E. 1987. Generating Natural Language under Pragmatic Constraints. Yale
+University Ph.D. Dissertation.</mixed-citation>
+            </ref>
+            <ref id="d1439020e616a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1439020e623" publication-type="other">
+Hovy, E. 1988. Planning Coherent Multisentential Text. Proceedings of ACL-88.</mixed-citation>
+            </ref>
+            <ref id="d1439020e630a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1439020e637" publication-type="other">
+Hovy, E. 1988. Two Types of Planning in Language Generation. Proceedings of
+ACL-88.</mixed-citation>
+            </ref>
+            <ref id="d1439020e648a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1439020e655" publication-type="other">
+Hovy, E. 1988. Three Approaches to Planning a Coherent Text. Presentation at the
+4th International Workshop on Natural Language Generation. Santa Catalina Island,
+July.</mixed-citation>
+            </ref>
+            <ref id="d1439020e668a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1439020e675" publication-type="other">
+Jacobs, P. 1985. A knowledge-based approach to language production. Ph.D. disser-
+tation, University of California at Berkeley.</mixed-citation>
+            </ref>
+            <ref id="d1439020e685a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1439020e692" publication-type="other">
+Kenschaft, E. 1988. Linearization in DIOGENES. Technical Memo, Center for Machine
+Translation, Carnegie Mellon University. June.</mixed-citation>
+            </ref>
+            <ref id="d1439020e702a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1439020e709" publication-type="other">
+Iordanskaja, L., R. Kittredge and A. Polguère. 1991. Lexical Selection and Para-
+phrase in a Meaning -Text Generation Model. In: C. Paris, W. Swartout and W. Mann,
+eds. Natural Language Generation in Artificial Intelligence and Computational
+Linguistics. Kluwer Academic Publishers.</mixed-citation>
+            </ref>
+            <ref id="d1439020e725a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1439020e732" publication-type="other">
+Lesser, V. and D. Corkill. 1981. Functionally Accurate, Cooperative Distributed
+Systems. IEEE Transactions on Systems, Man, and Cybernetics 11:81-96.</mixed-citation>
+            </ref>
+            <ref id="d1439020e742a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1439020e749" publication-type="other">
+Lesser, V. and D. Corkill. 1983. The Distributed Vehicle Monitoring Testbed: A Tool
+for Investigating Distributed Problem Solving Networks. AI Magazine, Fall, 15-33.</mixed-citation>
+            </ref>
+            <ref id="d1439020e760a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1439020e767" publication-type="other">
+Litman, D. and J. Allen. 1987. Recognizing and Relating Discourse Intentions and
+Task-oriented plans. University of Rochester Technical Report.</mixed-citation>
+            </ref>
+            <ref id="d1439020e777a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1439020e784" publication-type="other">
+Mann, W. 1983. An Overview of the Nigel Text Generation Grammar. USC/ISI
+Research Report 83-113.</mixed-citation>
+            </ref>
+            <ref id="d1439020e794a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1439020e801" publication-type="other">
+Mann W.C. and S.A.Thompson 1987. Rhetorical Structure Theory: A Theory of Text
+Organization. In: Livia Polanyi, (ed) The Structure of Discourse. Norwood, NJ:
+Ablex.</mixed-citation>
+            </ref>
+            <ref id="d1439020e814a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1439020e821" publication-type="other">
+Mann, W., R. Albano, J. Bateman, E. Hovy, T. Kasper and R. Whitney. 1988. The
+Penman Manual. USC/ISI Research Report.</mixed-citation>
+            </ref>
+            <ref id="d1439020e831a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1439020e838" publication-type="other">
+McCoy, K. 1985. Correcting Object-related Misconceptions, PhD Thesis, Univ. of
+Pennsylvania.</mixed-citation>
+            </ref>
+            <ref id="d1439020e848a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1439020e855" publication-type="other">
+McDonald, D. 1983. Natural Language Generation as a Computational Problem, in
+M. Brady and R. Berwick, eds., Computational Models of Discourse. Cambridge,
+MA: MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e869a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1439020e876" publication-type="other">
+McDonald, D. and J. Pustejovsky. 1985. A Computational Theory of Prose Style for
+Natural Language Generation. Proceedings of the European Chapter of the ACL.</mixed-citation>
+            </ref>
+            <ref id="d1439020e886a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1439020e893" publication-type="other">
+McDonald, D., M. Vaughan and J. Pustejovsky, 1987. Factors Contributing to Ef-
+ficiency in Natural Language Generation. In: G. Kempen (ed.) Natural Language
+Generation. Dordrecht: Kluwer.</mixed-citation>
+            </ref>
+            <ref id="d1439020e906a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1439020e913" publication-type="other">
+McKeown, K. 1985. Text Generation. Cambridge: Cambridge University Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e920a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1439020e927" publication-type="other">
+McKeown, K. and M. Elhadad. 1989. A Comparison of Surface Language Gener-
+ators: A Case Study in Choice of Connectives. Columbia University Department
+of Computer Science Technical Report.</mixed-citation>
+            </ref>
+            <ref id="d1439020e940a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1439020e947" publication-type="other">
+Mel' čuk, LA. 1974. Towards a Theory of Linguistic Models of the Meaning-Text
+Type. Moscow: Nauka.</mixed-citation>
+            </ref>
+            <ref id="d1439020e957a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1439020e964" publication-type="other">
+Meteer, M., D. McDonald, S. Anderson, D. Foster, L. Gay, A. Huettner and P. Si-
+bun. 1987. Mumble-86: Design and Implementation. University of Massachusetts
+Technical Report COINS-87-87.</mixed-citation>
+            </ref>
+            <ref id="d1439020e978a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1439020e985" publication-type="other">
+Moore, J. and C. Paris. 1989. Planning Text for Advisory Dialogs. Proceedings of
+ACL-89.</mixed-citation>
+            </ref>
+            <ref id="d1439020e995a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1439020e1002" publication-type="other">
+Nirenburg, S. 1985. Interlingua Design in TRANSLATOR. In: S. Nirenburg (ed.),
+Proceedings of the Conference on Theoretical and Methodological Issues in
+Machine Translation, Hamilton, NY, August.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1015a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1439020e1022" publication-type="other">
+Nirenburg, S., V. Raskin and A. Tucker 1986. On Knowledge-Based Machine Trans-
+lation. Proceedings of COLING-86.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1032a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1439020e1039" publication-type="other">
+Nirenburg, S. and V. Raskin. 1986. A Metric for Computational Analysis of Meaning:
+Toward an Applied Theory of Linguistic Semantics. Proceedings of COLING-86.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1049a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1439020e1056" publication-type="other">
+Nirenburg, S. 1 986. Knowledge and Choices in Machine Translation. In: S . Nirenburg
+(ed.), Machine Translation: Theoretical and Methodological Issues. Cambridge:
+Cambridge University Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1069a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1439020e1076" publication-type="other">
+Nirenburg, S., V. Raskin and A. Tucker. 1987. The Structure of Interlingua in TRANS-
+LATOR. In: S. Nirenburg (ed.), Machine Translation: Theoretical and Method-
+ological Issues. Cambridge: Cambridge University Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1090a1310">
+               <label>47</label>
+               
+               
+               <mixed-citation id="d1439020e1099" publication-type="other">
+Nirenburg, S. and V. Raskin. 1987. The Subworld Concept Lexicon and the Lexicon
+Management System. Computational Linguistics, vol. 13, issue 3-4.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1109a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d1439020e1116" publication-type="other">
+Nirenburg, S. and J. Carbonell. 1987. Integrating Discourse Pragmatics and Propo-
+sitional Knowledge in Multilingual Natural Language Processing. Computers and
+Translation 2:105-116.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1129a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d1439020e1136" publication-type="other">
+Nirenburg, S. and V. Raskin. 1987. The Analysis Lexicon and the Lexicon Manage-
+ment System. Computers and Translation, 2:177-188.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1146a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d1439020e1153" publication-type="other">
+Nirenburg, S. 1988. ONTOS: A System that Supports Acquisition of Large Computa-
+tional Lexicons. Proceedings of the Symposium on Linguistic Approaches to Artificial
+Intelligence, Duisburg University, West Germany. March.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1166a1310">
+               <label>51</label>
+               
+               <mixed-citation id="d1439020e1173" publication-type="other">
+Nirenburg, S. and I. Monarch. 1988. ONTOS : An Ontology-Based Knowledge Acqui-
+sition and Maintenance System. Proceedings of the Second Workshop on Knowledge
+Acquisition. Banff, Canada, November.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1186a1310">
+               <label>52</label>
+               
+               <mixed-citation id="d1439020e1193" publication-type="other">
+Nirenburg, S., V. Lesser and E. Nyberg. 1989. Controlling a Natural Language Gen-
+eration Planner. Proceedings of IJCAI-89, Detroit, August.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1204a1310">
+               <label>53</label>
+               
+               <mixed-citation id="d1439020e1211" publication-type="other">
+Nirenburg, S. 1989 . Knowledge-B ased Machine Translation. Special issue of Machine
+Translation: Knowledge-Based MT, Kenneth Goodman, Guest Editor. 4:5-24.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1221a1310">
+               <label>54</label>
+               
+               <mixed-citation id="d1439020e1228" publication-type="other">
+Nirenburg, S. and L. Levin. 1989. Knowledge Representation Support. Special issue
+of Machine Translation: Knowledge-Based MT, Kenneth Goodman, Guest Editor.
+4:25-52.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1241a1310">
+               <label>55</label>
+               
+               <mixed-citation id="d1439020e1248" publication-type="other">
+Nirenburg, S., I. Nirenburg and J. Reynolds. 1985. The Control Structure of POPLAR:
+a Personality-Oriented Planner. Proceedings of 3rd Annual Conference on Intelligent
+Systems. Oakland University, Rochester, Michigan, April.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1261a1310">
+               <label>56</label>
+               
+               <mixed-citation id="d1439020e1268" publication-type="other">
+Nirenburg, S. and V. Raskin. 1987. Dealing with Space in Natural Language Process-
+ing. Proceedings of the Workshop on Spatial Reasoning and Multi-Sensor Fusion.
+Chicago, October.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1281a1310">
+               <label>57</label>
+               
+               <mixed-citation id="d1439020e1288" publication-type="other">
+Nirenburg, S. and I. Monarch. 1987. The Role of Ontology in Concept Acquisition
+for Knowledge-Based Systems. Proceedings of the 1st International Workshop on
+Knowledge Acquisition, Reading, England, September.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1301a1310">
+               <label>58</label>
+               
+               <mixed-citation id="d1439020e1308" publication-type="other">
+Nirenburg, S. 1988. Resolution of Lexical Synonymy at the Word Level. Presentation
+at the 4th International Workshop on Natural Language Generation. Santa Catalina
+Island, July.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1322a1310">
+               <label>59</label>
+               
+               <mixed-citation id="d1439020e1329" publication-type="other">
+Nirenburg, S. and I. Nirenburg, 1988. A Framework for Lexical Selection in Natural
+Language Generation. Proceedings of COLING-88.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1339a1310">
+               <label>60</label>
+               
+               <mixed-citation id="d1439020e1346" publication-type="other">
+Nirenburg, S., E. Nyberg, R. McCardell, S. Huffman, E. Kenschaft and I. Nirenburg.
+1988. Diogenes-88. Technical Report CMU-CMT-88-107. Carnegie-Mellon Univer-
+sity. June.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1359a1310">
+               <label>61</label>
+               
+               <mixed-citation id="d1439020e1366" publication-type="other">
+Nirenburg, S., I. Monarch, and T. Kaufmann. 1988. Acquisition of Very Large
+Knowledge Bases: Methodology, Tools and Applications. Technical Report CMU-
+CMT-88-108. Carnegie-Mellon University. June.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1379a1310">
+               <label>62</label>
+               
+               <mixed-citation id="d1439020e1386" publication-type="other">
+Nirenburg, S. and J. Carbonell. 1987. Integrating Discourse Pragmatics and Propo-
+sitional Knowledge in Multilingual Natural Language Processing. Computers and
+Translation 2:105-116.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1399a1310">
+               <label>63</label>
+               
+               <mixed-citation id="d1439020e1406" publication-type="other">
+Nirenburg, S. 1987 . Knowledge and Choices in Machine Translation, in S . Nirenburg,
+ed., Machine Translation: Theoretical and Methodological Issues, Cambridge:
+Cambridge University Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1419a1310">
+               <label>64</label>
+               
+               <mixed-citation id="d1439020e1426" publication-type="other">
+Nyberg, E. 1988. The FrameKit User's Guide. Technical Memo CMU-CMT-88-
+MEMO. Carnegie-Mellon University. February.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1437a1310">
+               <label>65</label>
+               
+               <mixed-citation id="d1439020e1444" publication-type="other">
+Nyberg, E., S. Nirenburg and R. McCardell. 1988. The DIOGENES User's Guide.
+Technical Memo CMU-CMT-88-MEMO. Carnegie-Mellon University. August.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1454a1310">
+               <label>66</label>
+               
+               <mixed-citation id="d1439020e1461" publication-type="other">
+Paris, C. 1988. Generation and Explanation: Building and Explanation Facility for
+the Explainable Expert Systems Framework. Presentation at the 4th International
+Workshop on N1 Generation. Santa Catalina Island, July.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1474a1310">
+               <label>67</label>
+               
+               <mixed-citation id="d1439020e1481" publication-type="other">
+Pustejovsky, J. and S. Nirenburg. 1987. Lexical Selection in the Process of Language
+Generation. Proceedings of ACL-87.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1491a1310">
+               <label>68</label>
+               
+               <mixed-citation id="d1439020e1498" publication-type="other">
+Reichman, R. 1985. Getting Computers to Talk like You and Me. MIT Press,
+Cambridge, Massachusetts.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1508a1310">
+               <label>69</label>
+               
+               <mixed-citation id="d1439020e1515" publication-type="other">
+Sacerdoti, E. 1977. A Structure for Plans and Behavior Elsevier North Holland.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1522a1310">
+               <label>70</label>
+               
+               <mixed-citation id="d1439020e1529" publication-type="other">
+Smith, R. and R. Davis. 1981. Frameworks for Cooperation in Distributed Problem
+Solving, IEEE Transactions on Systems, Man, and Cybernetics, 11:61-70.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1540a1310">
+               <label>71</label>
+               
+               <mixed-citation id="d1439020e1547" publication-type="other">
+Sondheimer, N., S. Cumming and R. Albano. 1988. How to Realize a Concept.
+Presentation at the Workshop on Lexical Semantics, Brandeis University, May.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1557a1310">
+               <label>72</label>
+               
+               <mixed-citation id="d1439020e1564" publication-type="other">
+Thomason, R. 1989. Accommodation, meaning, and implicature: interdisciplinary
+foundations for pragmatics. In Intentions in communication. P. Cohen, J. Morgan,
+and M. Pollack, eds. Cambridge, MA: MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1577a1310">
+               <label>73</label>
+               
+               <mixed-citation id="d1439020e1584" publication-type="other">
+Tomita, M. and E. Nyberg. 1988. The Generation Kit and Transformation Kit
+User's Guide. Technical Memo CMU-CMT-88-MEMO. Carnegie-Mellon Univer-
+sity. November.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1597a1310">
+               <label>74</label>
+               
+               <mixed-citation id="d1439020e1604" publication-type="other">
+Tucker, A., S. Nirenburg and V. Raskin. 1986. Discourse, Cohesion and Semantics of
+Expository Text. Proceedings of COUNG-86.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1614a1310">
+               <label>75</label>
+               
+               <mixed-citation id="d1439020e1621" publication-type="other">
+Ward, N. 1988. Issues in Word Choice. Proceedings of COLING-88.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1628a1310">
+               <label>76</label>
+               
+               <mixed-citation id="d1439020e1635" publication-type="other">
+Warner R.G., 1979. Discourse Connectives in English. Ph.D. Dissertation, The Ohio
+State University. Published by Garland, New York, in 1985.</mixed-citation>
+            </ref>
+            <ref id="d1439020e1646a1310">
+               <label>77</label>
+               
+               <mixed-citation id="d1439020e1653" publication-type="other">
+Werner, P. and S. Nirenburg. 1988. A Specification Language that Supports the Re-
+alization of Intersentential Anaphora. Proceedings of the AAAI Workshop on Natural
+Language Generation.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

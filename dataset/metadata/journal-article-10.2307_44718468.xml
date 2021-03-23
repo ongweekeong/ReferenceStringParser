@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SOCIETY OF AUTOMOTIVE ENGINEERS, INC.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">111</volume>
+         <issue-id>i40198352</issue-id>
+         <article-id pub-id-type="jstor">44718468</article-id>
+         <title-group>
+            <article-title>Simulating Dynamics of Flight: New Approach for Old Problem</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Sherif</given-names>
+                  <surname>Ali</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>584</fpage>
+         <lpage>590</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2003 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44718468"/>
+      
+      
+         <abstract>
+            <p>A generic FORTRAN code is developed, according to AIAA R-004-1992 standard, to simulate the aircraft flight dynamics (SAFlight: Simulation of Aircraft Flight). SAFlight reads a user provided aircraft data file, then trims and flies the aircraft according to the user-specified flight-condition, weight-configuration, and control-inputs. The code then transfers the time-domain traces to the frequency domain using the well-known Fast Fourier Transform technique. The main contributions in this work is using a state of the art Ordinary-Differential-Equation (ODE) solver to integrate the equations of motion in the state-space form, and reducing the trimming iterations by finding a good starting point. As expected, SAFlight was able to simulate 800 seconds of flight MHz with excellent accuracy in less than 1 computing second on a Pentium III 600. The code is validated against original equipment manufacturer codes for steady (trimming) and unsteady cases. The matching was found to be excellent in most cases.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d358e159a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d358e166" publication-type="other">
+J. Roskam, "Airplane Flight Dynamics and Automatic
+Flight Controls, Vol. 1 REVISED," ISBN:
+1884885179, DARcorporation, January 2001.</mixed-citation>
+        </ref>
+        <ref id="d358e179a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d358e186" publication-type="other">
+S.F. Ali, "Fast Solution for the Supersonic Flow over
+Oscillating Cone," 8th AIAA/NASA/USAF/ISSMO
+Symposium on Multidisciplinary Analysis and
+Optimization", Long Beach, California, USA, 6-8 Sep.
+2000.</mixed-citation>
+        </ref>
+        <ref id="d358e205a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d358e212" publication-type="other">
+S.F. Ali, "Using the State Space Method to Solve the
+Supersonic Flow over Right Circular Cone," 12th
+Conference on Aeronautical Sciences &amp; Aviation
+Technology, Military Technical College, Cairo, Egypt,
+May 1999.</mixed-citation>
+        </ref>
+        <ref id="d358e231a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d358e238" publication-type="other">
+R.A. Sotack, R.S.Chowdhry, C.S. Buttrill, "High
+Speed Civil Transport Aircraft Simulation:
+Reference-H Cycle 1, MATLAB Implementation,"
+NASA TM-1999-209530, NAS 1.15:209530E-17900,
+1999.</mixed-citation>
+        </ref>
+        <ref id="d358e258a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d358e265" publication-type="other">
+Z.X. Yao, S.F. Ali, I. Jadic, R.M.C. So, and D.D. Liu,
+"Investigation of Flow Induced Vibration and Wing
+Buffeting Using Vortex Dynamics Model,"
+International Forum on Aeroelsticity and Structural
+Dynamics, Manchester Buisness School,
+Manchester, UK, 1995.</mixed-citation>
+        </ref>
+        <ref id="d358e288a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d358e295" publication-type="other">
+I.F. Shapine, and M.K. Gordon, "Computer Solution
+of Ordinary Deferential Equations: The Initial Value
+Problem", FTP or E-mail: netlip@research.att.com,
+1995.</mixed-citation>
+        </ref>
+        <ref id="d358e311a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d358e318" publication-type="other">
+E. B. Jackson, "Manual for a Workstation-Based
+Generic Flight Simulation Program (LaRCsim)
+Version 1.4," NASA TM-110164, May 1995.</mixed-citation>
+        </ref>
+        <ref id="d358e331a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d358e338" publication-type="other">
+AIAA Recommended Practice for Atmospheric and
+Space Flight Vehicle Coordinate Systems (R-004-
+1992), ISBN: 1-56347-416-6, AIAA, 1992.</mixed-citation>
+        </ref>
+        <ref id="d358e351a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d358e358" publication-type="other">
+B. Etkin, "Dynamics of Flight-Stability and Control,"
+ISBN: 0471089362, Wiley, John &amp; Sons,
+Incorporated, January 1982.</mixed-citation>
+        </ref>
+        <ref id="d358e371a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d358e378" publication-type="other">
+R.E. McFarland, "A Standard Kinematic Model for
+Flight Simulation at NASA -Ames," NASA CR-2497,
+January 1975.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

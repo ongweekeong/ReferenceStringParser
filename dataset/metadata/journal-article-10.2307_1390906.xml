@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260266</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390906</article-id>
+         
+         <title-group>
+            <article-title>
+               Exact Inference for Kendall's S and Spearman's ρ with Extension to Fisher's Exact Test in r × c Contingency Tables 
+            </article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul D.</given-names>
+                  <surname>Valz</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mary E.</given-names>
+                  <surname>Thompson</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>459</fpage>
+         <lpage>472</lpage>
+         <page-range>459-472</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1994 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390906"/>
+         
+         
+         <abstract>
+            <p>
+               We formulate the problem of exact inference for Kendall's S and Spearman's D algebraically, using a general recursion formula developed by Smid for the score S with ties in both rankings. Analogous recursion formulas are shown to hold for the score D as well as for a log transform, F, of the score used in Fisher's exact test of independence in contingency tables. A new implementation of Mehta and Patel's network algorithm is then applied to obtain exact significance levels of either S or D for observations from both continuous and discrete distributions. A simple extension is made to obtain Fisher's exact test in r × c contingency tables. Observed CPU times for contingency table problems four to six of Mehta and Patel and problems four and five of Clarkson, Fan, and Joe are roughly 2/3 of those obtained using Clarkson's et al. implementation of the network algorithm. It is shown that a hierarchy, with F &gt; S &gt; D, holds regarding the rate of aggregation. An algorithm for rapid lexicographic enumeration of entries in a frequency table is also given. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Fisher's exact test</kwd>
+            <kwd>Frequency tables</kwd>
+            <kwd>Kendall's S statistic</kwd>
+            <kwd>Network algorithm</kwd>
+            <kwd>Rank correlation with ties in both rankings</kwd>
+            <kwd>Significance levels</kwd>
+            <kwd>
+               Spearman's ρ statistic 
+            </kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1642188e202a1310">
+               
+               <mixed-citation id="d1642188e206" publication-type="book">
+Agresti, A. (1984), Analysis of Ordinal Categorical Data, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of Ordinal Categorical Data</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e228a1310">
+               
+               <mixed-citation id="d1642188e232" publication-type="journal">
+(1992), "Exact Inference for Contingency Tables," Statistical Science, 7, 131-177.<object-id pub-id-type="jstor">10.2307/2246001</object-id>
+               <fpage>131</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e245a1310">
+               
+               <mixed-citation id="d1642188e249" publication-type="journal">
+Agresti, A., Mehta, C.R., and Patel, N.R. (1990), "Exact Inference for Contingency Tables With Ordered
+Categories," Journal of the American Statistical Association, 85, 453-458.<object-id pub-id-type="doi">10.2307/2289783</object-id>
+               <fpage>453</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e265a1310">
+               
+               <mixed-citation id="d1642188e269" publication-type="book">
+Aho, A.V., Hopcroft, J.E., and Ullman, J.D. (1987), Data Structures and Algorithms, Reading, MA: Addison-
+Wesley.<person-group>
+                     <string-name>
+                     <surname>Aho</surname>
+                  </string-name>
+                  </person-group>
+               <source>Data Structures and Algorithms</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e295a1310">
+               
+               <mixed-citation id="d1642188e299" publication-type="journal">
+Akl, S.G. (1981), "A Comparison of Combination Generation Methods," ACM Transactions on Mathematical
+Software, 7, 42-45.<person-group>
+                     <string-name>
+                     <surname>Akl</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>42</fpage>
+               <volume>7</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e331a1310">
+               
+               <mixed-citation id="d1642188e335" publication-type="journal">
+Baker, R.J. (1977), "Exact Distributions Derived From Two-Way Tables," Applied Statistics, 26, 199-206.<object-id pub-id-type="doi">10.2307/2347038</object-id>
+               <fpage>199</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e348a1310">
+               
+               <mixed-citation id="d1642188e352" publication-type="journal">
+Burr, E.J. (1960), "The Distribution of Kendall's Score S for a Pair of Tied Rankings," Biometrika, 47,
+151-171.<object-id pub-id-type="doi">10.2307/2332967</object-id>
+               <fpage>151</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e368a1310">
+               
+               <mixed-citation id="d1642188e372" publication-type="journal">
+Clarkson, D.B., and Fan, Y. (1989), "Some Improvements to the Network Algorithm for Computing Exact
+Probabilities in Contingency Tables," IMSL Technical Research Report.<person-group>
+                     <string-name>
+                     <surname>Clarkson</surname>
+                  </string-name>
+                  </person-group>
+               <source>IMSL Technical Research Report</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e397a1310">
+               
+               <mixed-citation id="d1642188e401" publication-type="journal">
+Clarkson, D.B., Fan, Y., and Joe, H. (1993), "A Remark on Algorithm 643: FEXACT, ACM Transactions on
+Mathematical Software, 19, 485-488.<person-group>
+                     <string-name>
+                     <surname>Clarkson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>485</fpage>
+               <volume>19</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e433a1310">
+               
+               <mixed-citation id="d1642188e437" publication-type="conference">
+Franklin, L.A. (1987a), "The Complete Exact Null Distribution of Spearman's rho for n = 12(1)16, in
+Proceedings of the 19th Symposium on the Interface between Statistics and Computer Science, 337-342.<person-group>
+                     <string-name>
+                     <surname>Franklin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Complete Exact Null Distribution of Spearman's rho for n = 12(1)16</comment>
+               <fpage>337</fpage>
+               <source>Proceedings of the 19th Symposium on the Interface between Statistics and Computer Science</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e470a1310">
+               
+               <mixed-citation id="d1642188e474" publication-type="journal">
+(1987b), "Approximations, Convergence and Exact Tables for Spearman's Rank Correlation Coeffi-
+cient," Proceedings of the Statistical Computing Section of the American Statistical Association, 244-247.<person-group>
+                     <string-name>
+                     <surname>Franklin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>244</fpage>
+               <source>Proceedings of the Statistical Computing Section of the American Statistical Association</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e503a1310">
+               
+               <mixed-citation id="d1642188e507" publication-type="book">
+Gilbert, R. 0. (1987), Statistical Methods for Environmental Pollution Monitoring, New York: Van Nostrand.<person-group>
+                     <string-name>
+                     <surname>Gilbert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Methods for Environmental Pollution Monitoring</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e529a1310">
+               
+               <mixed-citation id="d1642188e533" publication-type="book">
+Hipel, K.W., and McLeod, A.I. (1994), Time Series Modelling of Water Resources and Environmental Systems,
+Amsterdam: Elsevier.<person-group>
+                     <string-name>
+                     <surname>Hipel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time Series Modelling of Water Resources and Environmental Systems</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e558a1310">
+               
+               <mixed-citation id="d1642188e562" publication-type="journal">
+Hirji, K.F. (1992), "Computing Exact Distributions for Polytomous Response Data," Journal of the American
+Statistical Association, 87, 487-492.<object-id pub-id-type="doi">10.2307/2290281</object-id>
+               <fpage>487</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e578a1310">
+               
+               <mixed-citation id="d1642188e582" publication-type="journal">
+Joe, H. (1988), "Extreme Probabilities for Contingency Tables Under Row and Column Independence With
+Applications to Fisher's Exact Test," Communications in Statistics, Theory and Methods, 17, 3677-3685.<person-group>
+                     <string-name>
+                     <surname>Joe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3677</fpage>
+               <volume>17</volume>
+               <source>Communications in Statistics, Theory and Methods</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e614a1310">
+               
+               <mixed-citation id="d1642188e618" publication-type="book">
+Kendall, M.G. (1975), Rank Correlation Methods (4th ed), London: Griffin and Co. Ltd.<person-group>
+                     <string-name>
+                     <surname>Kendall</surname>
+                  </string-name>
+                  </person-group>
+               <edition>4</edition>
+               <source>Rank Correlation Methods</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e644a1310">
+               
+               <mixed-citation id="d1642188e648" publication-type="book">
+Lehmann, E.L. (1975), Nonparametrics: Statistical Methods Based on Ranks, San Francisco: Holden-Day.<person-group>
+                     <string-name>
+                     <surname>Lehmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonparametrics: Statistical Methods Based on Ranks</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e670a1310">
+               
+               <mixed-citation id="d1642188e674" publication-type="journal">
+March, D.L. (1972), "Exact Probabilities for R x C Contingency Tables, Communications of the ACM, 15,
+991-992.<person-group>
+                     <string-name>
+                     <surname>March</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>991</fpage>
+               <volume>15</volume>
+               <source>Communications of the ACM</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e706a1310">
+               
+               <mixed-citation id="d1642188e710" publication-type="journal">
+Mehta, C.R. (1992), "An Interdisciplinary Approach to Exact Inference for Contingency Tables," Statistical
+Science, 7, 167-170.<object-id pub-id-type="jstor">10.2307/2246007</object-id>
+               <fpage>167</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e726a1310">
+               
+               <mixed-citation id="d1642188e730" publication-type="journal">
+Mehta, C.R., and Patel, N.R. (1980), "A Network Algorithm for the Exact Treatment of the 2 x k Contingency
+Table," Communications in Statistics, Ser. B9, 6, 649-664.<person-group>
+                     <string-name>
+                     <surname>Mehta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>649</fpage>
+               <volume>6</volume>
+               <source>Communications in Statistics, Ser. B9</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e762a1310">
+               
+               <mixed-citation id="d1642188e766" publication-type="journal">
+(1983), "A Network Algorithm for Performing Fisher's Exact Test in r x c Contingency Tables,"
+Journal of the American Statistical Association, 78, 427-434.<object-id pub-id-type="doi">10.2307/2288652</object-id>
+               <fpage>427</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e782a1310">
+               
+               <mixed-citation id="d1642188e786" publication-type="journal">
+(1986), "FEXACT: A Fortran Subroutine for Fisher's Exact Test in Unordered r x c Contingency
+Tables," ACM Transactions on Mathematical Software, 12, 154-161.<person-group>
+                     <string-name>
+                     <surname>Mehta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>154</fpage>
+               <volume>12</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e819a1310">
+               
+               <mixed-citation id="d1642188e823" publication-type="journal">
+Mifsud, C.J. (1963), "Algorithm 154. Combination in Lexicographical Order," Communications of the ACM,
+3, 103.<person-group>
+                     <string-name>
+                     <surname>Mifsud</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>3</volume>
+               <source>Communications of the ACM</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e855a1310">
+               
+               <mixed-citation id="d1642188e859" publication-type="journal">
+Panneton, M., and Robillard, P. (1972a), "The Exact Distribution of Kendall's S With Ties in One Ranking,"
+Applied Statistics, 21, 321-323.<object-id pub-id-type="doi">10.2307/2346280</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e875a1310">
+               
+               <mixed-citation id="d1642188e879" publication-type="journal">
+(1972b), "Algorithm AS 54. Kendall's S Frequency Distribution," Applied Statistics, 21, 345-348.<object-id pub-id-type="doi">10.2307/2346291</object-id>
+               <fpage>345</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e892a1310">
+               
+               <mixed-citation id="d1642188e896" publication-type="book">
+Press, W.H., Flannery, B.P., Teukolsky, S.A., and Vetterling, W.T. (1990), NUMERICAL RECIPES: The
+Art of Scientific Computing, Cambridge, U.K.: Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Press</surname>
+                  </string-name>
+                  </person-group>
+               <source>NUMERICAL RECIPES: The Art of Scientific Computing</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e921a1310">
+               
+               <mixed-citation id="d1642188e925" publication-type="book">
+Reingold, E.M., Nievergelt, J., and Deo, N. (1977), Combinatorial Algorithms: Theory and Practice, Engle-
+wood Cliffs, NJ: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Reingold</surname>
+                  </string-name>
+                  </person-group>
+               <source>Combinatorial Algorithms: Theory and Practice</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e950a1310">
+               
+               <mixed-citation id="d1642188e954" publication-type="journal">
+Smid, L.J. (1956), "On the Distribution of the Test Statistics of Kendall and Wilcoxon's Two Sample Test
+When Ties are Present," Statistica Neerlandica, 10, 205-214.<person-group>
+                     <string-name>
+                     <surname>Smid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>10</volume>
+               <source>Statistica Neerlandica</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e987a1310">
+               
+               <mixed-citation id="d1642188e991" publication-type="book">
+StatXact-Turbo (1992), Statistical Software for Exact Nonparametric Inference, Cambridge, MA: Cytel Software
+Corporation.<person-group>
+                     <string-name>
+                     <surname>StatXact-Turbo</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Software for Exact Nonparametric Inference</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e1016a1310">
+               
+               <mixed-citation id="d1642188e1020" publication-type="book">
+Valz, P. D. (1990), Developments in Rank Correlation Procedures, unpublished Ph.D. thesis, The University
+of Western Ontario, Dept. of Statistical and Actuarial Sciences.<person-group>
+                     <string-name>
+                     <surname>Valz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Developments in Rank Correlation Procedures</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e1045a1310">
+               
+               <mixed-citation id="d1642188e1049" publication-type="journal">
+Valz, P.D., McLeod, A.I., and Thompson, M.E. (in press), "Cumulant Generating Function and Tail Probability
+Approximations for Kendall's Score With Tied Rankings," The Annals of Statistics.<person-group>
+                     <string-name>
+                     <surname>Valz</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Annals of Statistics</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1642188e1071a1310">
+               
+               <mixed-citation id="d1642188e1075" publication-type="journal">
+Vollset, S.E., Hirji, K.F., and Elashoff, R.M. (1991), "Fast Computation of Exact Confidence Limits for the
+Common Odds Ratio in a Series of 2 x 2 Tables," Journal of the American Statistical Association, 86,
+404-409.<object-id pub-id-type="doi">10.2307/2290585</object-id>
+               <fpage>404</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

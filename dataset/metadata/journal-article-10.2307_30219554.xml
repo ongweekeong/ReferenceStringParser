@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">21</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i30219551</issue-id>
+         <article-id pub-id-type="jstor">30219554</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-008-9041-6</article-id>
+         <title-group>
+            <article-title>Pivot Language Approach for Phrase-Based Statistical Machine Translation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Hua</given-names>
+                  <surname>Wu</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Haifeng</given-names>
+                  <surname>Wang</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2007</year>
+         </pub-date>
+         <fpage>165</fpage>
+         <lpage>181</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2008 Springer Science Business Media B.V.</copyright-statement>
+         </permissions>
+         
+         <self-uri xlink:href="https://www.jstor.org/stable/30219554"/>
+         
+         
+         <abstract>
+            <p>
+              This paper proposes a novel method for phrase-based statistical machine translation based on the use of a pivot language. To translate between languages
+              <tex-math>$L_{s}$</tex-math>
+              and
+              <tex-math>$L_{t}$</tex-math>
+              with limited bilingual resources, we bring in a third language,
+              <tex-math>$L_{p}$</tex-math>
+              , called the pivot language. For the language pairs
+              <tex-math>$L_{s}$</tex-math>
+              -
+              <tex-math>$L_{p}$</tex-math>
+              and
+              <tex-math>$L_{p}$</tex-math>
+              -
+              <tex-math>$L_{t}$</tex-math>
+              , there exist large bilingual corpora. Using only
+              <tex-math>$L_{s}$</tex-math>
+              -
+              <tex-math>$L_{p}$</tex-math>
+              and
+              <tex-math>$L_{p}$</tex-math>
+              -
+              <tex-math>$L_{t}$</tex-math>
+              bilingual corpora, we can build a translation model for
+              <tex-math>$L_{s}$</tex-math>
+              -
+              <tex-math>$L_{t}$</tex-math>
+              . The advantage of this method lies in the fact that we can perform translation between
+              <tex-math>$L_{s}$</tex-math>
+              and
+              <tex-math>$L_{t}$</tex-math>
+              even if there is no bilingual corpus available for this language pair. Using BLEU as a metric, our pivot language approach significantly outperforms the standard model trained on a small bilingual corpus. Moreover, with a small
+              <tex-math>$L_{s}$</tex-math>
+              -
+              <tex-math>$L_{t}$</tex-math>
+              bilingual corpus available, our method can further improve translation quality by using the additional
+              <tex-math>$L_{s}$</tex-math>
+              -
+              <tex-math>$L_{p}$</tex-math>
+              and
+              <tex-math>$L_{p}$</tex-math>
+              -
+              <tex-math>$L_{t}$</tex-math>
+              bilingual corpora.
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Pivot language</kwd>
+            <kwd>Phrase-based statistical machine translation</kwd>
+            <kwd>Scarce bilingual resources</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d3752161e328a1310">
+               <label>3</label>
+               
+               <p>
+               <mixed-citation id="d3752161e335" publication-type="other">
+http://www.statmt.org/wmt06/shared-task/baseline.html</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d3752161e342a1310">
+               <label>5</label>
+               
+               <p>
+               <mixed-citation id="d3752161e349" publication-type="other">
+Koehn (2005)</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3752161e365a1310">
+               
+               <mixed-citation id="d3752161e369" publication-type="other">
+Alshawi H, Bangalore S, Douglas S (2000) Learning dependency translation models as collections of finite-
+state head transducers. Comput Linguist 26(1):45-60</mixed-citation>
+            </ref>
+            <ref id="d3752161e379a1310">
+               
+               <mixed-citation id="d3752161e383" publication-type="other">
+Aswani N, Gaizauskas R (2005) Aligning words in English-Hindi parallel corpora. In: Proceedings of the
+ACL 2005 workshop on building and using parallel texts: data-driven machine translation and beyond,
+Ann Arbor, MI, pp 115-118</mixed-citation>
+            </ref>
+            <ref id="d3752161e396a1310">
+               
+               <mixed-citation id="d3752161e400" publication-type="other">
+Borin L (2000) You'll take the high road and I'll take the low road: using a third language to improve bilingual
+word alignment. In: Proceedings of the 18th international conference on computational linguistics:
+COLING 2000 in Europe, Saarbriicken, Germany, pp 97-103</mixed-citation>
+            </ref>
+            <ref id="d3752161e413a1310">
+               
+               <mixed-citation id="d3752161e417" publication-type="other">
+Brown PF, Della Pietra SA, Della Pietra VJ, Mercer RL (1993) The mathematics of statistical machine
+translation: parameter estimation. Comput Linguist 19(2):263-311</mixed-citation>
+            </ref>
+            <ref id="d3752161e428a1310">
+               
+               <mixed-citation id="d3752161e432" publication-type="other">
+Callison-Burch C, Koehn P, Osborne M (2006) Improved statistical machine translation using paraphrases.
+In: Proceedings of the human language technology conference of the North American chapter of the
+association of computational linguistics, New York, NY, pp 17-24</mixed-citation>
+            </ref>
+            <ref id="d3752161e445a1310">
+               
+               <mixed-citation id="d3752161e449" publication-type="other">
+Chiang D (2005) A hierarchical phrase-based model for statistical machine translation. In: 43rd annual
+meeting of the association for computational linguistics, Ann Arbor, MI, pp 263-270</mixed-citation>
+            </ref>
+            <ref id="d3752161e459a1310">
+               
+               <mixed-citation id="d3752161e463" publication-type="other">
+Diab M, Resnik P (2002) An unsupervised method for word sense tagging using parallel corpora. In: 40th
+annual meeting of the association for computational linguistics, Philadelphia, PA, pp 255-262</mixed-citation>
+            </ref>
+            <ref id="d3752161e473a1310">
+               
+               <mixed-citation id="d3752161e477" publication-type="other">
+Gollins T, Sanderson M (2001) Improving cross language information retrieval with triangulated translation.
+In: Proceedings of the 24th annual international ACM SIGIR conference on research and development
+in information retrieval, New Orleans, LA, pp 90-95</mixed-citation>
+            </ref>
+            <ref id="d3752161e490a1310">
+               
+               <mixed-citation id="d3752161e494" publication-type="other">
+Kishida K, Kando N (2003) Two-stage refinement of query translation in a pivot language approach to
+cross-lingual information retrieval: an experiment at CLEF 2003. In: Proceedings of cross-language
+evaluation forum, CLEF 2003, Trondheim, Norway, pp 253-262</mixed-citation>
+            </ref>
+            <ref id="d3752161e507a1310">
+               
+               
+               <mixed-citation id="d3752161e513" publication-type="other">
+Koehn P (2004) Pharaoh: a beam search decoder for phrase-based statistical machine translation mod-
+els. In: Machine translation: from real users to research; 6th conference of the association for
+machine translation in the Americas, AMTA 2004, Washington, DC. Springer, Berlin, Germany,
+pp 115-124</mixed-citation>
+            </ref>
+            <ref id="d3752161e530a1310">
+               
+               <mixed-citation id="d3752161e534" publication-type="other">
+Koehn P (2005) Europarl: a parallel corpus for statistical machine translation. In: MT summit X, the tenth
+machine translation summit, Phuket, Thailand, pp 79-86</mixed-citation>
+            </ref>
+            <ref id="d3752161e544a1310">
+               
+               <mixed-citation id="d3752161e548" publication-type="other">
+Koehn P, Monz C (2006) Manual and automatic evaluation of machine translation between european
+languages. In: Proceedings of the HLT/NAACL 2006 workshop on statistical machine translation,
+New York, NY, pp 102-121</mixed-citation>
+            </ref>
+            <ref id="d3752161e561a1310">
+               
+               <mixed-citation id="d3752161e565" publication-type="other">
+Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. In: HLT-NAACL: human language
+technology conference of the North American chapter of the association for computational linguistics,
+Edmonton, AL, Canada, pp 127-133</mixed-citation>
+            </ref>
+            <ref id="d3752161e578a1310">
+               
+               <mixed-citation id="d3752161e582" publication-type="other">
+Lopez A, Resnik P (2005) Improved HMM alignment models for languages with scarce resources. In: Pro-
+ceedings of ACL 2005 workshop on building and using parallel texts: data driven machine translation
+and beyond, Ann Arbor, MI, pp 83-86</mixed-citation>
+            </ref>
+            <ref id="d3752161e595a1310">
+               
+               <mixed-citation id="d3752161e599" publication-type="other">
+Lopez A, Resnik P (2006) Word-based alignment, phrase-based translation: what's the link? In: AMTA
+2006, proceedings of the 7th conference of the association for machine translation in the Americas:
+visions for the future of machine translation, Boston, MA, pp 90-99</mixed-citation>
+            </ref>
+            <ref id="d3752161e612a1310">
+               
+               <mixed-citation id="d3752161e616" publication-type="other">
+Martin J, Mihalcea R, Pedersen T (2005) Word alignment for languages with scarce resources. In: Proceed-
+ings of the ACL-2005 workshop on building and using parallel texts: data-driven machine translation
+and beyond, Ann Arbor, MI, pp 65-74</mixed-citation>
+            </ref>
+            <ref id="d3752161e630a1310">
+               
+               <mixed-citation id="d3752161e634" publication-type="other">
+Melamed D (2004) Statistical machine translation by parsing. In: 42nd annual meeting of the association
+for computational linguistics, proceedings of the conference, Barcelona, Spain, pp 653-660</mixed-citation>
+            </ref>
+            <ref id="d3752161e644a1310">
+               
+               <mixed-citation id="d3752161e648" publication-type="other">
+Mellebeek B, Owczarzak K, Groves D, Van Genabith J, Way A (2006) A syntactic skeleton for statistical
+machine translation. In: 11th annual conference of the European association for machine translation,
+proceedings, Oslo, Norway, pp 195-202</mixed-citation>
+            </ref>
+            <ref id="d3752161e661a1310">
+               
+               <mixed-citation id="d3752161e665" publication-type="other">
+NieBen S, Ney H (2004) Statistical machine translation with scarce resources using morpho-syntactic
+information. Comput Linguist 30(2):181-204</mixed-citation>
+            </ref>
+            <ref id="d3752161e675a1310">
+               
+               <mixed-citation id="d3752161e679" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: 41st annual meeting of
+the association for computational linguistics, Sapporo, Japan, pp 160-167</mixed-citation>
+            </ref>
+            <ref id="d3752161e689a1310">
+               
+               <mixed-citation id="d3752161e693" publication-type="other">
+Och FJ, Ney H (2002) Discriminative training and maximum entropy models for statistical machine trans-
+lation. In: 40th annual meeting of the association for computational linguistics, Philadelphia, PA,
+pp 295-302</mixed-citation>
+            </ref>
+            <ref id="d3752161e706a1310">
+               
+               <mixed-citation id="d3752161e710" publication-type="other">
+Och FJ, Ney H (2004) The alignment template approach to statistical machine translation. Comput Linguist
+30(4):417-449</mixed-citation>
+            </ref>
+            <ref id="d3752161e721a1310">
+               
+               <mixed-citation id="d3752161e725" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W (2002) BLEU: a method for automatic evaluation of machine
+translation. In: 40th annual meeting of the association for computational linguistics, Philadelphia, PA,
+pp 311-318</mixed-citation>
+            </ref>
+            <ref id="d3752161e738a1310">
+               
+               <mixed-citation id="d3752161e742" publication-type="other">
+Quirk C, Menezes A, Cherry C (2005) Dependency treelet translation: syntactically informed phrasal
+SMT. In: 43rd annual meeting of the association for computational linguistics, Ann Arbor, MI,
+pp 271-279</mixed-citation>
+            </ref>
+            <ref id="d3752161e755a1310">
+               
+               <mixed-citation id="d3752161e759" publication-type="other">
+Resnik P, Smith NA (2003) The web as a parallel corpus. Comput Linguist 29(3):349-380</mixed-citation>
+            </ref>
+            <ref id="d3752161e766a1310">
+               
+               <mixed-citation id="d3752161e770" publication-type="other">
+Schafer C, Yarowsky D (2002) Inducing translation lexicons via diverse similarity measures and bridge
+languages. In: COLING 2002: the 19th international conference on computational linguistics,
+proceedings, Taipei, Taiwan, pp 1-7</mixed-citation>
+            </ref>
+            <ref id="d3752161e783a1310">
+               
+               <mixed-citation id="d3752161e787" publication-type="other">
+Tufiş D, Ion R, Ceausu A, Ştefănescu D (2005) Combined word alignments. In: Proceedings of the ACL
+2005 workshop on building and using parallel texts: data-driven machine translation and beyond,
+Ann Arbor, MI, pp 107-110</mixed-citation>
+            </ref>
+            <ref id="d3752161e800a1310">
+               
+               <mixed-citation id="d3752161e804" publication-type="other">
+Utiyama M, Isahara H (2007) A comparison of pivot methods for phrase-based statistical machine transla-
+tion. In: Proceedings of human language technology: the conference of the North American chapter
+of the association for computational linguistics, Rochester, NY, pp 484-491</mixed-citation>
+            </ref>
+            <ref id="d3752161e818a1310">
+               
+               <mixed-citation id="d3752161e822" publication-type="other">
+Vandeghinste V, Schuurman I, Carl M, Markantonatou S, Badia T (2006) METIS-II: machine translation for
+low-resource languages. In: Proceedings of the fifth international conference on language resources
+and evaluation, Genoa, Italy, pp 1284-1289</mixed-citation>
+            </ref>
+            <ref id="d3752161e835a1310">
+               
+               <mixed-citation id="d3752161e839" publication-type="other">
+Wang H, Wu H, Liu Z (2006) Word alignment for languages with scarce resources using bilingual corpora
+of other language pairs. In: Proceedings of the 21st international conference on computational linguis-
+tics and 44th annual meeting of the association for computational linguistics main conference poster
+sessions, Sydney, Australia, pp 874-881</mixed-citation>
+            </ref>
+            <ref id="d3752161e855a1310">
+               
+               <mixed-citation id="d3752161e859" publication-type="other">
+Wu D (1997) Stochastic inversion transduction grammars and bilingual parsing of parallel corpora. Comput
+Linguist 23(3):377-403</mixed-citation>
+            </ref>
+            <ref id="d3752161e869a1310">
+               
+               <mixed-citation id="d3752161e873" publication-type="other">
+Yamada K, Knight K (2001) A syntax-based statistical translation model. In: Association for computational
+linguistics, 39th annual meeting and 10th conference of the European chapter, proceedings of the
+conference, Toulouse, France, pp 523-530</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

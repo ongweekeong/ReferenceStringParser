@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">292</issue>
+         <issue-id>i24488617</issue-id>
+         <article-id pub-id-type="doi">10.2307/24488619</article-id>
+         <title-group>
+            <article-title>VARIATIONAL DISCRETIZATION OF WAVE EQUATIONS ON EVOLVING SURFACES</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>CHRISTIAN</given-names>
+                  <surname>LUBICH</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>DHIA</given-names>
+                  <surname>MANSOUR</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>513</fpage>
+         <lpage>542</lpage>
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488619"/>
+      
+      
+         <abstract>
+            <p>A linear wave equation on a moving surface is derived from Hamilton's principle of stationary action. The variational principle is discretized with functions that are piecewise linear in space and time. This yields a discretization of the wave equation in space by evolving surface finite elements and in time by a variational integrator, a version of the leapfrog or Störmer–Verlet method. We study stability and convergence of the full discretization in the natural time-dependent norms under the same CFL condition that is required for a fixed surface. Using a novel modified Ritz projection for evolving surfaces, we prove optimal-order error bounds. Numerical experiments illustrate the behavior of the fully discrete method.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2953e144a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2953e151" publication-type="other">
+David Adalsteinsson and James A. Sethian, Transport and diffusion of material quantities
+on propagating interfaces via level set methods, J. Comput. Phys. 185 (2003), no. 1, 271—288,
+DOI 10.1016/S0021-9991 (02)00057-8. MR2010161 (2004i:65072)</mixed-citation>
+        </ref>
+        <ref id="d2953e164a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2953e171" publication-type="other">
+Thierry Aubin, Nonlinear Analysis on Manifolds. Monge-Ampere Equations, Grundlehren
+der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences],
+vol. 252, Springer-Verlag, New York, 1982. MR681859 (85j:58002)</mixed-citation>
+        </ref>
+        <ref id="d2953e184a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2953e191" publication-type="other">
+P. Bastian, M. Blatt, A. Dedner, C. Engwer, J. Fahlke, C. Graser, R. Klofkorn, M. Nolte,
+M. Ohlberger, and O. Sander, 2012. http://www.dune-project.org.</mixed-citation>
+        </ref>
+        <ref id="d2953e201a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2953e208" publication-type="other">
+Klaus Deckelnick, Gerhard Dziuk, and Charles M. Elliott, Computation of geometric par-
+tial differential equations and mean curvature flow, Acta Numer. 14 (2005), 139—232, DOI
+10.1017/S0962492904000224. MR2168343 (2006h:65159)</mixed-citation>
+        </ref>
+        <ref id="d2953e222a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2953e229" publication-type="other">
+Andreas Dedner, Robert Klofkorn, Martin Nolte, and Mario Ohlberger, A generic inter-
+face for parallel and adaptive discretization schemes: abstraction principles and the DUNE-
+FEM module, Computing 90 (2010), no. 3-4, 165-196, DOI 10.1007/s00607-010-0110-3.
+MR2735465 (2011m:65277)</mixed-citation>
+        </ref>
+        <ref id="d2953e245a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2953e252" publication-type="other">
+A. Dedner, R. Klofkorn, M. Nolte, and M. Ohlberger, 2012. http://dune.mathematik.uni-
+freiburg.de.</mixed-citation>
+        </ref>
+        <ref id="d2953e262a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2953e269" publication-type="other">
+Todd Dupont, L2-estimates for Galerkin methods for second order hyperbolic equations,
+SIAM J. Numer. Anal. 10 (1973), 880-889. MR0349045 (50 #1539)</mixed-citation>
+        </ref>
+        <ref id="d2953e279a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2953e286" publication-type="other">
+Gerhard Dziuk, Finite Elements for the Beltrami Operator On Arbitrary Surfaces, Partial
+differential equations and calculus of variations, Lecture Notes in Math., vol. 1357, Springer,
+Berlin, 1988, pp. 142-155, DOI 10.1007/BFb0082865. MR976234 (90i:65194)</mixed-citation>
+        </ref>
+        <ref id="d2953e299a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2953e306" publication-type="other">
+Gerhard Dziuk and Charles M. Elliott, Finite elements on evolving surfaces, IMA J. Numer.
+Anal. 27 (2007), no. 2, 262-292, DOI 10.1093/imanum/drl023. MR2317005 (2008c:65253)</mixed-citation>
+        </ref>
+        <ref id="d2953e316a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2953e323" publication-type="other">
+Gerhard Dziuk and Charles M. Elliott, L2-estimates for the evolving surface finite ele-
+ment method, Math. Comp. 82 (2013), no. 281, 1-24, DOI 10.1090/S0025-5718-2012-02601-9.
+MR2983013</mixed-citation>
+        </ref>
+        <ref id="d2953e337a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2953e344" publication-type="other">
+Gerhard Dziuk and Charles M. Elliott, Finite element methods for surface PDEs, Acta Nu-
+mer. 22 (2013), 289-396. MR3038698</mixed-citation>
+        </ref>
+        <ref id="d2953e354a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2953e361" publication-type="other">
+Gerhard Dziuk, Dietmar Kroner, and Thomas Miiller, Conservation laws on moving surfaces,
+Interfaces Free Bound. 15 (2013), no. 2, 203-236. MR3105772</mixed-citation>
+        </ref>
+        <ref id="d2953e371a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2953e378" publication-type="other">
+Gerhard Dziuk, Christian Lubich, and Dhia Mansour, Runge-Kutta time discretization of
+parabolic differential equations on evolving surfaces, IMA J. Numer. Anal. 32 (2012), no. 2,
+394-416, DOI 10.1093/imanum/drr017. MR2911394</mixed-citation>
+        </ref>
+        <ref id="d2953e391a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2953e398" publication-type="other">
+David Gilbarg and Neil S. Trudinger, Elliptic Partial Differential Equations of Second Or-
+der, 2nd ed., Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of
+Mathematical Sciences], vol. 224, Springer-Verlag, Berlin, 1983. MR737190 (86c:35035)</mixed-citation>
+        </ref>
+        <ref id="d2953e411a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2953e418" publication-type="other">
+Ernst Hairer, Christian Lubich, and Gerhard Wanner, Geometric numerical integra-
+tion illustrated by the Stormer-Verlet method, Acta Numer. 12 (2003), 399-450, DOI
+10.1017/S0962492902000144. MR2249159 (2007f:37136)</mixed-citation>
+        </ref>
+        <ref id="d2953e431a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2953e438" publication-type="other">
+Ernst Hairer, Christian Lubich, and Gerhard Wanner, Geometric Numerical Integration,
+2nd ed., Springer Series in Computational Mathematics, vol. 31, Springer-Verlag, Berlin,
+2006. Structure-preserving algorithms for ordinary differential equations. MR2221614
+(2006m:65006)</mixed-citation>
+        </ref>
+        <ref id="d2953e455a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2953e462" publication-type="other">
+Ernst Hairer, Syvert P. N0rsett, and Gerhard Wanner, Solving Ordinary Differential Equa-
+tions. I, 2nd ed., Springer Series in Computational Mathematics, vol. 8, Springer-Verlag,
+Berlin, 1993. Nonstiff problems. MR1227985 (94c:65005)</mixed-citation>
+        </ref>
+        <ref id="d2953e475a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2953e482" publication-type="other">
+Ernst Hairer and Gerhard Wanner, Solving Ordinary Differential Equations. II, 2nd ed.,
+Springer Series in Computational Mathematics, vol. 14, Springer-Verlag, Berlin, 1996. Stiff
+and differential-algebraic problems. MR1439506 (97m:65007)</mixed-citation>
+        </ref>
+        <ref id="d2953e495a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2953e502" publication-type="other">
+Martin Lenz, Simplice Firmin Nemadjieu, and Martin Rumpf, A convergent finite volume
+scheme for diffusion on evolving surfaces, SIAM J. Numer. Anal. 49 (2011), no. 1, 15-37,
+DOI 10.1137/090776767. MR2764419 (2012h:65180)</mixed-citation>
+        </ref>
+        <ref id="d2953e515a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2953e522" publication-type="other">
+Shingyu Leung, John Lowengrub, and Hongkai Zhao, A grid based particle method for solv-
+ing partial differential equations on evolving surfaces and modeling high order geometri-
+cal motion, J. Comput. Phys. 230 (2011), no. 7, 2540-2561, DOI 10.1016/j.jcp.2010.12.029.
+MR2772929 (2012b:65151)</mixed-citation>
+        </ref>
+        <ref id="d2953e538a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2953e545" publication-type="other">
+Christian Lubich, Dhia Mansour, and Chandrasekhar Venkataraman, Backward difference
+time discretization of parabolic differential equations on evolving surfaces, IMA J. Numer.
+Anal. 33 (2013), no. 4, 1365-1385, DOI 10.1093/imanum/drs044. MR3119720</mixed-citation>
+        </ref>
+        <ref id="d2953e558a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2953e565" publication-type="other">
+Dhia Mansour, Numerical analysis of partial differential equations on evolving surfaces, Dis-
+sertation (PhD thesis), Univ. Tubingen, 2013.</mixed-citation>
+        </ref>
+        <ref id="d2953e576a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2953e583" publication-type="other">
+Dhia Mansour, Gauss-Runge-Kutta time discretization of wave equations on evolving sur-
+faces, published on line in Numer. Math. (2014).</mixed-citation>
+        </ref>
+        <ref id="d2953e593a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2953e600" publication-type="other">
+Jerrold E. Marsden and Matthew West, Discrete mechanics and variational integrators, Acta
+Numer. 10 (2001), 357-514, DOI 10.1017/S096249290100006X. MR2009697 (2004h:37130)</mixed-citation>
+        </ref>
+        <ref id="d2953e610a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2953e617" publication-type="other">
+Yuri B. Suris, Hamiltonian methods of Runge-Kutta type and their variational interpreta-
+tion (Russian, with English summary), Mat. Model. 2 (1990), no. 4, 78-87. MR1064467
+(92b:65051)</mixed-citation>
+        </ref>
+        <ref id="d2953e630a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d2953e637" publication-type="other">
+Alexander P. Veselov, Integrable systems with discrete time, and difference opera-
+tors (Russian), Funktsional. Anal, i Prilozhen. 22 (1988), no. 2, 1-13, 96, DOI
+10.1007/BF01077598; English transl., Funct. Anal. Appl. 22 (1988), no. 2, 83-93. MR947601
+(90a:58081)</mixed-citation>
+        </ref>
+        <ref id="d2953e653a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d2953e660" publication-type="other">
+Morten Vierling, Control-constrained parabolic optimal control problems on evolving surfaces
+— theory and variational discretization, Preprint arXiv:1106.0622, 2011.</mixed-citation>
+        </ref>
+        <ref id="d2953e670a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d2953e677" publication-type="other">
+Joseph Wloka, Partial Differential Equations, Cambridge University Press, Cambridge, 1987.
+Translated from the German by C. B. Thomas and M. J. Thomas. MR895589 (88d:35004)</mixed-citation>
+        </ref>
+        <ref id="d2953e688a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d2953e695" publication-type="other">
+Jian-Jun Xu and Hong-Kai Zhao, An Eulerian formulation for solving partial differential
+equations along a moving interface, J. Sci. Comput. 19 (2003), no. 1-3, 573-594, DOI
+10.1023/A: 1025336916176. Special issue in honor of the sixtieth birthday of Stanley Osher.
+MR2028859 (2004j:65129)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

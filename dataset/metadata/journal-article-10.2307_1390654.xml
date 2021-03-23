@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260288</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390654</article-id>
+         
+         <title-group>
+            <article-title>Markov Chain Monte Carlo Convergence Assessment via Two-Way Analysis of Variance</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>S. P.</given-names>
+                  <surname>Brooks</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>P.</given-names>
+                  <surname>Giudici</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>266</fpage>
+         <lpage>285</lpage>
+         <page-range>266-285</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390654"/>
+         
+         
+         <abstract>
+            <p>In this article we discuss the problem of assessing the performance of Markov chain Monte Carlo (MCMC) algorithms on the basis of simulation output. In essence, we extend the original ideas of Gelman and Rubin and, more recently, Brooks and Gelman, to problems where we are able to split the variation inherent within the MCMC simulation output into two distinct groups. We show how such a diagnostic may be useful in assessing the performance of MCMC samplers addressing model choice problems, such as the reversible jump MCMC algorithm. In the model choice context, we show how the reversible jump MCMC simulation output for parameters that retain a coherent interpretation throughout the simulation, can be used to assess convergence. By considering various decompositions of the sampling variance of this parameter, we can assess the performance of our MCMC sampler in terms of its mixing properties both within and between models and we illustrate our approach in both the graphical Gaussian models and normal mixtures context. Finally, we provide an example of the application of our diagnostic to the assessment of the influence of different starting values on MCMC simulation output, thereby illustrating the wider utility of our method beyond the Bayesian model choice and reversible jump MCMC context.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian inference</kwd>
+            <kwd>Bayesian model choice</kwd>
+            <kwd>Finite mixture models</kwd>
+            <kwd>Graphical models</kwd>
+            <kwd>Markov chain Monte Carlo</kwd>
+            <kwd>Run-length determination</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3068368e154a1310">
+               
+               <mixed-citation id="d3068368e158" publication-type="journal">
+Brooks, S.P. (1997), Discussion of "On Bayesian Analysis of Mixtures with an Unknown Number of Compo-
+nents," by S. Richardson and P. J. Green, Journal of the Royal Statistical Society, Series B, 59, 774-775.<person-group>
+                     <string-name>
+                     <surname>Brooks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>774</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e190a1310">
+               
+               <mixed-citation id="d3068368e194" publication-type="journal">
+(1998), "Markov Chain Monte Carlo Method and its Application," The Statistician, 47, 69-100.<object-id pub-id-type="jstor">10.2307/2988428</object-id>
+               <fpage>69</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e207a1310">
+               
+               <mixed-citation id="d3068368e211" publication-type="journal">
+Brooks, S.P., and Gelman, A. (1998), "Alternative Methods for Monitoring Convergence of Iterative Simu-
+lations," Journal of Computational and Graphical Statistics, 7, 434-455.<object-id pub-id-type="doi">10.2307/1390675</object-id>
+               <fpage>434</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e227a1310">
+               
+               <mixed-citation id="d3068368e231" publication-type="journal">
+Brooks, S.P., and Roberts, G. 0. (1999), "Diagnosing Convergence of Markov Chain Monte Carlo Algorithms,"
+Statistics and Computing, 8, 319-335.<person-group>
+                     <string-name>
+                     <surname>Brooks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>319</fpage>
+               <volume>8</volume>
+               <source>Statistics and Computing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e264a1310">
+               
+               <mixed-citation id="d3068368e268" publication-type="book">
+Clyde, M.A. (in press), "Bayesian Model Averaging and Model Search Strategies," in Bayesian Statistics 6,
+eds. J. M. Bernardo, A. F. M. Smith, A. P. Dawid, and J. 0. Berger, New York: Oxford University Press,
+pp. 157-186.<person-group>
+                     <string-name>
+                     <surname>Clyde</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Model Averaging and Model Search Strategies</comment>
+               <fpage>157</fpage>
+               <source>Bayesian Statistics 6</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e300a1310">
+               
+               <mixed-citation id="d3068368e304" publication-type="journal">
+Cowles, M.K., and Carlin, B.P. (1996), "Markov Chain Monte Carlo Convergence Diagnostics: A Comparative
+Review," Journal of the American Statistical Association, 91, 883-904.<object-id pub-id-type="doi">10.2307/2291683</object-id>
+               <fpage>883</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e320a1310">
+               
+               <mixed-citation id="d3068368e324" publication-type="journal">
+Dawid, A.P., and Lauritzen, S.L. (1993), "Hyper Markov Laws in the Statistical Analysis of Decomposable
+Graphical Models," The Annals of Statistics, 21, 1272-1317.<object-id pub-id-type="jstor">10.2307/2242197</object-id>
+               <fpage>1272</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e340a1310">
+               
+               <mixed-citation id="d3068368e344" publication-type="journal">
+Dellaportas, P., and Forster, J. (in press), "Markov Chain Monte Carlo Model Determination for Hierarchical
+and Graphical Log-Linear Models," Biometrika.<person-group>
+                     <string-name>
+                     <surname>Dellaportas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrika</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e366a1310">
+               
+               <mixed-citation id="d3068368e370" publication-type="journal">
+Diebolt, J., and Robert, C. (1994), "Estimation of Finite Mixture Distributions through Bayesian Sampling,"
+Journal of the Royal Statistical Society, Series B, 56, 589-590.<person-group>
+                     <string-name>
+                     <surname>Diebolt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>589</fpage>
+               <volume>56</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e402a1310">
+               
+               <mixed-citation id="d3068368e406" publication-type="journal">
+Feng, Z.D., and McCulloch, C.E. (1996), "Using Bootstrap Likelihood Ratios in Finite Mixture Models,"
+Journal of the Royal Statistical Society, Series B, 58, 609-617.<person-group>
+                     <string-name>
+                     <surname>Feng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>609</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e439a1310">
+               
+               <mixed-citation id="d3068368e443" publication-type="journal">
+Gelman, A., and Rubin, D.B. (1992a), "Inference from Iterative Simulation Using Multiple Sequences,"
+Statistical Science, 7, 457-511.<object-id pub-id-type="jstor">10.2307/2246093</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e459a1310">
+               
+               <mixed-citation id="d3068368e463" publication-type="book">
+(1992b), "A Single Series from the Gibbs Sampler Provides a False Sense of Security," in Bayesian
+Statistics 4, eds. J. M. Bernardo, J. 0. Berger, A. P. Dawid, and A. F. M. Smith, New York: Oxford
+University Press, pp. 625-631.<person-group>
+                     <string-name>
+                     <surname>Gelman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Single Series from the Gibbs Sampler Provides a False Sense of Security</comment>
+               <fpage>625</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e498a1310">
+               
+               <mixed-citation id="d3068368e502" publication-type="journal">
+Giudici, P., and Green, P.J. (in press), "Decomposable Graphical Gaussian Model Determination," Biometrika.<person-group>
+                     <string-name>
+                     <surname>Giudici</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrika</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e521a1310">
+               
+               <mixed-citation id="d3068368e525" publication-type="journal">
+Green, P.J. (1995), "Reversible Jump MCMC Computation and Bayesian Model Determination," Biometrika,
+82, 711-732.<object-id pub-id-type="doi">10.2307/2337340</object-id>
+               <fpage>711</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e541a1310">
+               
+               <mixed-citation id="d3068368e545" publication-type="book">
+Lauritzen, S.L. (1996), Graphical Models, New York: Oxford University Press<person-group>
+                     <string-name>
+                     <surname>Lauritzen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Graphical Models</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e567a1310">
+               
+               <mixed-citation id="d3068368e571" publication-type="book">
+McLachlan, G.J., and Basford, K.E. (1988), Mixture Models: Inference and Applications to Clustering, New
+York: Dekker.<person-group>
+                     <string-name>
+                     <surname>McLachlan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixture Models: Inference and Applications to Clustering</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e597a1310">
+               
+               <mixed-citation id="d3068368e601" publication-type="book">
+Mengersen, K.L., and Robert, C. (1996), "Testing for Mixtures: A Bayesian Entropy Approach," in Bayesian
+Statistics 5, eds. J. M. Bernardo, A. F. M. Smith, A. P. Dawid, and J. 0. Berger, New York: Oxford
+University Press, pp. 255-276.<person-group>
+                     <string-name>
+                     <surname>Mengersen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Testing for Mixtures: A Bayesian Entropy Approach</comment>
+               <fpage>255</fpage>
+               <source>Bayesian Statistics 5</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e636a1310">
+               
+               <mixed-citation id="d3068368e640" publication-type="book">
+Nobile, A. (1994), Bayesian Analysis of Finite Mixture Distributions, unpublished Ph.D. thesis, Carnegie Mellon
+University.<person-group>
+                     <string-name>
+                     <surname>Nobile</surname>
+                  </string-name>
+                  </person-group>
+               <source>Bayesian Analysis of Finite Mixture Distributions</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e665a1310">
+               
+               <mixed-citation id="d3068368e669" publication-type="book">
+Raftery, A.E., and Lewis, S.M. (1992), "How Many Iterations in the Gibbs Sampler?" in Bayesian Statistics
+4, eds. J. M. Bernardo, A. F. M. Smith, A. P. Dawid, and J. 0. Berger, New York: Oxford University
+Press, pp. 763-774.<person-group>
+                     <string-name>
+                     <surname>Raftery</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">How Many Iterations in the Gibbs Sampler?</comment>
+               <fpage>763</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e704a1310">
+               
+               <mixed-citation id="d3068368e708" publication-type="journal">
+Richardson, S., and Green, P.J. (1997), "On Bayesian Analysis of Mixtures With an Unknown Number of
+Components" (with discussion), Journal of the Royal Statistical Society, Series B, 59, 731-792.<person-group>
+                     <string-name>
+                     <surname>Richardson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>731</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e740a1310">
+               
+               <mixed-citation id="d3068368e744" publication-type="book">
+Robert, C. (1995), "Mixtures of Distributions: Inference and Estimation," in Practical Markov Chain Monte
+Carlo, eds. W. R. Gilks, S. Richardson, and D. Spiegelhalter, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mixtures of Distributions: Inference and Estimation</comment>
+               <source>Practical Markov Chain Monte Carlo</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e773a1310">
+               
+               <mixed-citation id="d3068368e777" publication-type="book">
+Spiegelhalter, D.J., Thomas, A., Best, N.G., and Gilks, W.R. (1996), BUGS Examples (vol. 1), Cambridge:
+MRC Biostatistics Unit.<person-group>
+                     <string-name>
+                     <surname>Spiegelhalter</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1</volume>
+               <source>BUGS Examples</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e807a1310">
+               
+               <mixed-citation id="d3068368e811" publication-type="book">
+Titterington, D.M., Smith, A.F.M., and Makov, U.E. (1985), Statistical Analysis of Finite Mixture Distribu-
+tions, Chichester: Wiley.<person-group>
+                     <string-name>
+                     <surname>Titterington</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis of Finite Mixture Distributions</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068368e836a1310">
+               
+               <mixed-citation id="d3068368e840" publication-type="book">
+Whittaker, J. (1990), Graphical Models in Applied Multivariate Statistics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Whittaker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Graphical Models in Applied Multivariate Statistics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

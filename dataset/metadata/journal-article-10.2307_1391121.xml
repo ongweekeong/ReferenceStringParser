@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260297</issue-id>
+         <article-id pub-id-type="jstor">1391121</article-id>
+         
+         <title-group>
+            <article-title>Simple Accurate Approximation of Likelihood Profiles</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jian-Shen</given-names>
+                  <surname>Chen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Robert I.</given-names>
+                  <surname>Jennrich</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>714</fpage>
+         <lpage>732</lpage>
+         <page-range>714-732</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391121"/>
+         
+         
+         <abstract>
+            <p>Likelihood profiles for arbitrary functions of the model parameters are useful for constructing likelihood ratio confidence intervals, diagnosing linear approximation intervals, suggesting linearizing transforms, and many other purposes. This article investigates a simple integration method for producing accurate approximations to likelihood profiles that avoid problems associated with producing exact profiles. A basic theorem guarantees that the approximation can achieve any desired precision. In many cases the method requires no more than adding a few lines of code to that required to produce the maximum likelihood estimate of the parameter vector. Standard methods for computing likelihood profiles are based on solving a sequence of constrained maximum likelihood problems. Each problem generates a point on the profile. An earlier article proposed an integration method that generates the entire profile directly by solving a differential equation. That method, however, requires the Hessian of the log-likelihood which can be difficult to produce. The method considered here requires only the gradient. It may be particularly useful in conjunction with the EM algorithm which typically does not produce any type of confidence interval.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>EM applications</kwd>
+            <kwd>Integration methods</kwd>
+            <kwd>Likelihood ratio intervals</kwd>
+            <kwd>Maximum likelihood estimation</kwd>
+            <kwd>Nonlinear regression</kwd>
+            <kwd>Parameter trace</kwd>
+            <kwd>Signed root deviance profile</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1768736e157a1310">
+               
+               <mixed-citation id="d1768736e161" publication-type="book">
+Bates, D.M., and Watts, D.G. (1988), Nonlinear Regression Analysis and its Applications, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Bates</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression Analysis and its Applications</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e183a1310">
+               
+               <mixed-citation id="d1768736e187" publication-type="other">
+Chen, J. S. (1991), Confidence Intervals for Parametric Functions in Nonlinear Regression, unpublished Ph.D.
+dissertation, UCLA, Department of Mathematics.</mixed-citation>
+            </ref>
+            <ref id="d1768736e197a1310">
+               
+               <mixed-citation id="d1768736e201" publication-type="journal">
+Chen, J.S., and Jennrich, R.I. (1996), "The Signed Root Deviance Profile and Confidence Intervals in Maximum
+Likelihood Analysis," Journal of the American Statistical Association91, 993-998.<object-id pub-id-type="doi">10.2307/2291718</object-id>
+               <fpage>993</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e217a1310">
+               
+               <mixed-citation id="d1768736e221" publication-type="journal">
+Cook, R.D., and Weisberg, S. (1990), "Confidence Curves in Nonlinear Regression," Journal of the American
+Statistical Association, 85, 544-551.<object-id pub-id-type="doi">10.2307/2289796</object-id>
+               <fpage>544</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e238a1310">
+               
+               <mixed-citation id="d1768736e242" publication-type="journal">
+Demptser, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood from Incomplete Data via the EM
+Algorithm," Journal of the Royal Statistical Society, Series B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Demptser</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e274a1310">
+               
+               <mixed-citation id="d1768736e278" publication-type="journal">
+Donaldson, J.R., and Schnable, R.B. (1987), "Computational Experience with Confidence Regions and Confidence
+Intervals for Nonlinear Least Squares," Technometrics, 29, 67-82.<object-id pub-id-type="doi">10.2307/1269884</object-id>
+               <fpage>67</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e294a1310">
+               
+               <mixed-citation id="d1768736e298" publication-type="book">
+Draper, N.R., and Smith, H. (1981), Applied Regression Analysis (2nd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Draper</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Applied Regression Analysis</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e323a1310">
+               
+               <mixed-citation id="d1768736e327" publication-type="journal">
+Fisher, R.A. (1925), "Theory of Statistical Estimation," Proceedings of the Cambridge Philosophical Society, 22,
+700-725.<person-group>
+                     <string-name>
+                     <surname>Fisher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>700</fpage>
+               <volume>22</volume>
+               <source>Proceedings of the Cambridge Philosophical Society</source>
+               <year>1925</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e359a1310">
+               
+               <mixed-citation id="d1768736e363" publication-type="book">
+Luenberger, D.G. (1984), Linear and Nonlinear Programming, Reading, MA: Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Luenberger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear and Nonlinear Programming</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e385a1310">
+               
+               <mixed-citation id="d1768736e389" publication-type="book">
+Ratkowsky, D.A. (1983), Nonlinear Regression Modeling, New York: Marcel Dekker.<person-group>
+                     <string-name>
+                     <surname>Ratkowsky</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Regression Modeling</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768736e412a1310">
+               
+               <mixed-citation id="d1768736e416" publication-type="journal">
+Schilling, W. (1947), "A Frequency Distribution Representation as a Sum of Two Poisson Distributions," Journal
+of the American Statistical Association, 42, 407-424.<object-id pub-id-type="doi">10.2307/2280544</object-id>
+               <fpage>407</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

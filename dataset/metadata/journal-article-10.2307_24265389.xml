@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">computermusicj</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100532</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Computer Music Journal</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>MIT Press</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">01489267</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15315169</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">37</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i24265378</issue-id>
+         <article-id pub-id-type="jstor">24265389</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Music Information Retrieval</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Classification of Musical Timbre Using Bayesian Networks</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Patrick J.</given-names>
+                  <surname>Donnelly</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>John W.</given-names>
+                  <surname>Sheppard</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2013</year>
+         </pub-date>
+         <fpage>70</fpage>
+         <lpage>86</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>©2014 Massachusetts Institute of Technology</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24265389"/>
+      
+      
+         <abstract>
+            <p>In this article, we explore the use of Bayesian networks for identifying the timbre of musical instruments. Peak spectral amplitude in ten frequency windows is extracted for each of 20 time windows to be used as features. Over a large data set of 24,000 audio examples covering the full musical range of 24 different common orchestral instruments, four different Bayesian network structures, including naive Bayes, are examined and compared with two support vector machines and a k-nearest neighbor classifier. Classification accuracy is examined by instrument, instrument family, and data set size. Bayesian networks with conditional dependencies in the time and frequency dimensions achieved 98 percent accuracy in the instrument classification task and 97 percent accuracy in the instrument family identification task. These results demonstrate a significant improvement over the previous approaches in the literature on this data set. Additionally, we tested our Bayesian approach on the widely used Iowa musical instrument data set, with similar results.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d212274e284a1310">
+          
+            <mixed-citation id="d212274e288" publication-type="other">
+Agostini, G., M. Longari, and E. Pollastri. 2003. "Musical
+Instrument Timbre Classification with Spectral Fea-
+tures." EURASIP Journal on Applied Signal Processing
+2003:5-14.</mixed-citation>
+        </ref>
+        <ref id="d212274e304a1310">
+          
+            <mixed-citation id="d212274e308" publication-type="other">
+Bagwall, C.( et al. 2013. "Sound eXchange." Available
+online at sox.sourceforge.net. Accessed May 2013.</mixed-citation>
+        </ref>
+        <ref id="d212274e318a1310">
+          
+            <mixed-citation id="d212274e322" publication-type="other">
+Barbedo, J. G. A., and G. Tzanetakis. 2011. "Musical
+Instrument Classification Using Individual Partials."
+IEEE Transactions on Audio, Speech, and Language
+Processing 19(1): 111-122.</mixed-citation>
+        </ref>
+        <ref id="d212274e338a1310">
+          
+            <mixed-citation id="d212274e342" publication-type="other">
+Benetos, E., M. Kotti, and C. Kotropoulos. 2006. "Musical
+Instrument Classification Using Non-Negative Matrix
+Factorization Algorithms." In IEEE International
+Symposium on Circuits and Systems (ISCAS), pp.
+1844-1847.</mixed-citation>
+        </ref>
+        <ref id="d212274e362a1310">
+          
+            <mixed-citation id="d212274e366" publication-type="other">
+Boser, B.( I. Guyon, and V. Vapnik. 1992. "A Training
+Algorithm for Optimal Margin Classifiers." In Proceed-
+ings of the Fifth Annual Workshop on Computational
+Learning Theory, pp. 144-152.</mixed-citation>
+        </ref>
+        <ref id="d212274e382a1310">
+          
+            <mixed-citation id="d212274e386" publication-type="other">
+Burred, J. J., A. Robel, and T. Sikora. 2009. "Polyphonic
+Musical Instrument Recognition Based on a Dynamic
+Model of the Spectral Envelope." In IEEE Interna-
+tional Conference on Acoustics, Speech, and Signal
+Processing, pp. 173-176.</mixed-citation>
+        </ref>
+        <ref id="d212274e405a1310">
+          
+            <mixed-citation id="d212274e409" publication-type="other">
+Burred, J. J., A. Robel, and T. Sikora. 2010. "Dynamic
+Spectral Envelope Modeling for Timbre Analysis of
+Musical Instrument Sounds." IEEE Transactions on
+Audio, Speech, and Language Processing 18(3):663-674.</mixed-citation>
+        </ref>
+        <ref id="d212274e425a1310">
+          
+            <mixed-citation id="d212274e429" publication-type="other">
+Chen, S., and J. Goodman. 1996. "An Empirical Study
+of Smoothing Techniques for Language Modeling."
+In Proceedings of the 34th Annual Meeting of the
+Association for Computational Linguistics, pp. 310-
+318.</mixed-citation>
+        </ref>
+        <ref id="d212274e448a1310">
+          
+            <mixed-citation id="d212274e452" publication-type="other">
+Cover, T., and P. Hart. 1967. "Nearest Neighbor Pattern
+Classification." IEEE Transactions on Information
+Theory 13(l):21-27.</mixed-citation>
+        </ref>
+        <ref id="d212274e465a1310">
+          
+          
+            <mixed-citation id="d212274e471" publication-type="other">
+Deng, J., C. Simmermacher, and S. Cranefield. 2008. "A
+Study on Feature Analysis for Musical Instrument
+Classification." IEEE Transactions on Systems, Man,
+and Cybernetics, Part B: Cybernetics 38(2):429-
+438.</mixed-citation>
+        </ref>
+        <ref id="d212274e491a1310">
+          
+            <mixed-citation id="d212274e495" publication-type="other">
+Donnelly, P., and C. Limb. 2009. "Music." In L. R.
+Squire, ed. Encyclopedia of Neuroscience. Amsterdam:
+Elsevier, pp. 1151-1158.</mixed-citation>
+        </ref>
+        <ref id="d212274e508a1310">
+          
+            <mixed-citation id="d212274e512" publication-type="other">
+EastWest. 2013. "Quantum Leap Symphonic Orchestra
+Library." Available online at www.soundsonline.com/
+Symphonic-Orchestra. Accessed March 2012.</mixed-citation>
+        </ref>
+        <ref id="d212274e525a1310">
+          
+            <mixed-citation id="d212274e529" publication-type="other">
+Eronen, A. 2003. "Musical Instrument Recognition Using
+ICA-based Transform of Features and Discriminatively
+Trained HMMs." In Proceedings of the Seventh In-
+ternational Symposium on Signal Processing and Its
+Applications, vol. 2, pp. 133-136.</mixed-citation>
+        </ref>
+        <ref id="d212274e548a1310">
+          
+            <mixed-citation id="d212274e552" publication-type="other">
+Essid, S., G. Richard, and B. David. 2006. "Musical
+Instrument Recognition by Pairwise Classification
+Strategies." IEEE Transactions on Audio, Speech, and
+Language Processing 14(4): 1401-1412.</mixed-citation>
+        </ref>
+        <ref id="d212274e568a1310">
+          
+            <mixed-citation id="d212274e572" publication-type="other">
+Fayyad, U., and K. B. Irani. 1992. "On the Handling
+of Continuous-valued Attributes in Decision Tree
+Generation." Machine Learning 8(1):87-102.</mixed-citation>
+        </ref>
+        <ref id="d212274e585a1310">
+          
+            <mixed-citation id="d212274e589" publication-type="other">
+Fayyad, U., and K. B. Irani. 1993. "Multi-Interval Dis-
+cretization of Continuous-valued Attributes for Classi-
+fication Learning." In Proceedings of the International
+Joint Conference on Artificial Intelligence, pp. 1022-
+1027.</mixed-citation>
+        </ref>
+        <ref id="d212274e609a1310">
+          
+            <mixed-citation id="d212274e613" publication-type="other">
+Friedman, N., D. Geiger, and M. Goldszmidt. 1997.
+"Bayesian Network Classifiers." Machine Learning
+29(2): 131—163.</mixed-citation>
+        </ref>
+        <ref id="d212274e626a1310">
+          
+            <mixed-citation id="d212274e630" publication-type="other">
+Fujinaga, I., and K. MacMillan. 2000. "Realtime Recog-
+nition of Orchestral Instruments." In Proceedings of
+the International Computer Music Conference, pp.
+241-243.</mixed-citation>
+        </ref>
+        <ref id="d212274e646a1310">
+          
+            <mixed-citation id="d212274e650" publication-type="other">
+Grey, J. 1977. "Multidimensional Perceptual Scaling of
+Musical Timbres." Journal of the Acoustical Society of
+America 61 (5):1270—1277.</mixed-citation>
+        </ref>
+        <ref id="d212274e663a1310">
+          
+            <mixed-citation id="d212274e667" publication-type="other">
+Heittola, T., A. Klapuri, and T. Virtanen. 2009. "Musical
+Instrument Recognition in Polyphonic Audio Using
+Source-Filter Model for Sound Separation." In Proceed-
+ings of the International Society for Music Information
+Retrieval, pp. 327-332.</mixed-citation>
+        </ref>
+        <ref id="d212274e686a1310">
+          
+            <mixed-citation id="d212274e690" publication-type="other">
+Jain, P., and A. Kapoor. 2009. "Active Learning for
+Large Multi-Class Problems." In IEEE Conference on
+Computer Vision and Pattern Recognition, pp. 762-769.</mixed-citation>
+        </ref>
+        <ref id="d212274e703a1310">
+          
+            <mixed-citation id="d212274e707" publication-type="other">
+Jelinek, F. 1997. Statistical Methods for Speech Recogni-
+tion. Cambridge, Massachusetts: MIT Press.</mixed-citation>
+        </ref>
+        <ref id="d212274e718a1310">
+          
+            <mixed-citation id="d212274e722" publication-type="other">
+Joder, C., S. Essid, and G. Richard. 2009. "Temporal
+Integration for Audio Classification with Application to
+Musical Instrument Classification." IEEE Transactions
+on Audio, Speech, and Language Processing 17(1): 174-
+186.</mixed-citation>
+        </ref>
+        <ref id="d212274e741a1310">
+          
+            <mixed-citation id="d212274e745" publication-type="other">
+jVSTwRapper. 2013. "Java-based Audio Plug-Ins." Avail-
+able online at jvstwrapper.sourceforge.net. Accessed
+March 2012.</mixed-citation>
+        </ref>
+        <ref id="d212274e758a1310">
+          
+            <mixed-citation id="d212274e762" publication-type="other">
+Kaminskyj, I., and T. Czaszejko. 2005. "Automatic
+Recognition of Isolated Monophonic Musical Instru-
+ment Sounds Using kNNC." Journal of Intelligent
+Information Systems 24(2):199-221.</mixed-citation>
+        </ref>
+        <ref id="d212274e778a1310">
+          
+            <mixed-citation id="d212274e782" publication-type="other">
+Kostek, B. 2004. "Musical Instrument Classification and
+Duet Analysis Employing Music Information Retrieval
+Techniques." Proceedings of the IEEE 92(4):712-
+729.</mixed-citation>
+        </ref>
+        <ref id="d212274e798a1310">
+          
+            <mixed-citation id="d212274e802" publication-type="other">
+Liu, J., and L. Xie. 2010. "SVM-Based Automatic Classifi-
+cation of Musical Instruments." In Proceedings of the
+International Conference on Intelligent Computation
+Technology and Automation, vol. 3, pp. 669-673.</mixed-citation>
+        </ref>
+        <ref id="d212274e818a1310">
+          
+            <mixed-citation id="d212274e822" publication-type="other">
+Livshin, A., and X. Rodet. 2003. "The Importance of
+Cross Database Evaluation in Sound Classification." In
+Proceedings of the International Symposium on Music
+Information Retrieval, pp. 241-242.</mixed-citation>
+        </ref>
+        <ref id="d212274e839a1310">
+          
+            <mixed-citation id="d212274e843" publication-type="other">
+Marques, J., and R Moreno. 1999. "A Study of Musical
+Instrument Classification Using Gaussian Mixture
+Models and Support Vector Machines." CRL Technical
+Report Series 4. Cambridge, UK: Cambridge Research
+Laboratory.</mixed-citation>
+        </ref>
+        <ref id="d212274e862a1310">
+          
+            <mixed-citation id="d212274e866" publication-type="other">
+Native Instruments. 2013. "Kontakt." Available online at
+www.native-instruments.com/en/products/komplete/
+synths-samplers/kontakt-5. Accessed March 2012.</mixed-citation>
+        </ref>
+        <ref id="d212274e879a1310">
+          
+            <mixed-citation id="d212274e883" publication-type="other">
+Quinlan, J. R. 1993. C4.5: Programs for Machine Learning,
+vol. 1. San Mateo, California: Morgan Kaufmann.</mixed-citation>
+        </ref>
+        <ref id="d212274e893a1310">
+          
+            <mixed-citation id="d212274e897" publication-type="other">
+Tsoumakas, G., and I. Katakis. 2007. "Multi-Label
+Classification: An Overview." International Journal of
+Data Warehousing and Mining 3(3): 1-13.</mixed-citation>
+        </ref>
+        <ref id="d212274e910a1310">
+          
+            <mixed-citation id="d212274e914" publication-type="other">
+University of Iowa. 2013. "Musical Instrument Sam-
+ples." Available online at theremin.music.uiowa.edu/
+MIS.html. Accessed May 2013.</mixed-citation>
+        </ref>
+        <ref id="d212274e927a1310">
+          
+            <mixed-citation id="d212274e931" publication-type="other">
+Vaill, C. 2013. "Normalize." Available online at normal-
+ize.nongnu.org. Accessed May 2013.</mixed-citation>
+        </ref>
+        <ref id="d212274e942a1310">
+          
+            <mixed-citation id="d212274e946" publication-type="other">
+Vapnik, V. 1999. The Nature of Statistical Learning
+Theory. Berlin: Springer.</mixed-citation>
+        </ref>
+        <ref id="d212274e956a1310">
+          
+            <mixed-citation id="d212274e960" publication-type="other">
+von Hornbostel, E. M., and C. Sachs. 1914. Systematik
+der Musikinstrumente. Berlin: Behrend. Translated by
+A. Baines and K. P. Wachsmann as "Classification of
+Musical Instruments." 1961. Galpin Society Journal
+14:3-29.</mixed-citation>
+        </ref>
+        <ref id="d212274e979a1310">
+          
+            <mixed-citation id="d212274e983" publication-type="other">
+Wieczorkowska, A. 1999. "Classification of Musical In-
+strument Sounds Using Decision Trees." In Proceedings
+of the International Symposium on Sound Engineering
+and Mastering, vol. 99, pp. 225-230.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

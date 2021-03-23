@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">54</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">190</issue>
+         <issue-id>i334608</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008501</article-id>
+         
+         <title-group>
+            <article-title>The Runge-Kutta Local Projection Discontinuous Galerkin Finite Element Method for Conservation Laws. IV: The Multidimensional Case</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bernardo</given-names>
+                  <surname>Cockburn</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Suchung</given-names>
+                  <surname>Hou</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Chi-Wang</given-names>
+                  <surname>Shu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>545</fpage>
+         <lpage>581</lpage>
+         <page-range>545-581</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1990 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008501"/>
+         
+         
+         <abstract>
+            <p>In this paper we study the two-dimensional version of the Runge-Kutta Local Projection Discontinuous Galerkin (RKDG) methods, already defined and analyzed in the one-dimensional case. These schemes are defined on general triangulations. They can easily handle the boundary conditions, verify maximum principles, and are formally uniformly high-order accurate. Preliminary numerical results showing the performance of the schemes on a variety of initial-boundary value problems are shown.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65M60</kwd>
+            <kwd>65N30</kwd>
+            <kwd>35L65</kwd>
+            <kwd>Discontinuous finite elements</kwd>
+            <kwd>local projection</kwd>
+            <kwd>multidimensional conservation laws</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3519235e254a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3519235e261" publication-type="journal">
+C. Bardos, A. Y. LeRoux and J. C. Nedelec, First order quasilinear equations with boundary
+conditions, Comm. Partial Differential Equations4 (1979), 1017-1034.<person-group>
+                     <string-name>
+                     <surname>Bardos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1017</fpage>
+               <volume>4</volume>
+               <source>Comm. Partial Differential Equations</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e293a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3519235e300" publication-type="journal">
+J. B. Bell, C. N. Dawson, and G. R. Shubin, An unsplit, higher-order Godunov method for
+scalar conservation laws in multiple dimensions, J. Comput. Phys.74 (1988), 1-24.<person-group>
+                     <string-name>
+                     <surname>Bell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>74</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e332a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3519235e339" publication-type="conference">
+G. Chavent, B. Cockburn, G. Cohen, and J. Jaffrd, A discontinuous finite element method for
+nonlinear hyperbolic equations, Innovative Numerical Methods in Engineering (Proc. 4th
+Internat. Sympos. (Georgia Institute of Technology, Atlanta, Georgia), Springer-Verlag,
+1986, pp. 337-342.<person-group>
+                     <string-name>
+                     <surname>Chavent</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A discontinuous finite element method for nonlinear hyperbolic equations</comment>
+               <fpage>337</fpage>
+               <source>Innovative Numerical Methods in Engineering (Proc. 4th Internat. Sympos.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e377a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3519235e384" publication-type="book">
+P. G. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+1975.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e410a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3519235e417" publication-type="book">
+B. Cockburn and C.-W. Shu, The Runge-Kutta local projection P1 discontinuous
+Galerkin finite element method for scalar conservation laws, Institute for Mathematics and
+its Applications Preprint Series # 388, Univ. of Minnesota (1988)<person-group>
+                     <string-name>
+                     <surname>Cockburn</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Runge-Kutta local projection P1 discontinuous Galerkin finite element method for scalar conservation laws</source>
+               <year>1988</year>
+            </mixed-citation>
+               <mixed-citation id="d3519235e445" publication-type="conference">
+Proceedings of First Na-
+tional Fluid Dynamics Congress, Cincinnati, Ohio, July 24-28, 1988<source>Proceedings of First National Fluid Dynamics Congress, Cincinnati, Ohio, July 24-28</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e461a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3519235e468" publication-type="journal">
+— TVB Runge-Kutta local projection discontinuous Galerkin finite element method for
+conservation laws II: Generalframework, Math. Comp.52 (1989), 411-435.<object-id pub-id-type="doi">10.2307/2008474</object-id>
+               <fpage>411</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e484a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3519235e491" publication-type="journal">
+B. Cockburn, S.-Y. Lin, and C.-W. Shu, TVB Runge-Kutta local projection discontinuous-
+Galerkin finite element method for conservation laws III: One-dimensional systems, J. Com-
+put. Phys.84 (1989), 90-113.<person-group>
+                     <string-name>
+                     <surname>Cockburn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>90</fpage>
+               <volume>84</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e526a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3519235e533" publication-type="journal">
+B. Cockburn, Quasimonotone schemes for scalar conservation laws, I, SIAM J. Numer. Anal.
+26 (1989), 1325-1341.<object-id pub-id-type="jstor">10.2307/2157742</object-id>
+               <fpage>1325</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e549a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3519235e556" publication-type="journal">
+— Quasimonotone schemes for scalar conservation laws, II, SIAM J. Numer. Anal.27
+(1990), 247-258.<object-id pub-id-type="jstor">10.2307/2157911</object-id>
+               <fpage>247</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e572a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3519235e579" publication-type="journal">
+— Quasimonotone schemes for scalar conservation laws, III, SIAM J. Numer. Anal.27
+(1990), 259-276.<object-id pub-id-type="jstor">10.2307/2157912</object-id>
+               <fpage>259</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e596a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3519235e603" publication-type="journal">
+M. Crandall and A. Majda, Monotone difference approximations for scalar conservation laws,
+Math. Comp.34 (1980), 1-21.<object-id pub-id-type="doi">10.2307/2006218</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e619a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3519235e626" publication-type="book">
+E. Giusti, Minimal surfaces and functions of bounded variation, Birkhauser, Basel, 1984.<person-group>
+                     <string-name>
+                     <surname>Giusti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Minimal surfaces and functions of bounded variation</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e648a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3519235e655" publication-type="journal">
+J. Goodman and R. LeVeque, On the accuracy of stable schemes for 2D scalar conservation
+laws, Math. Comp.45 (1985), 15-21.<object-id pub-id-type="doi">10.2307/2008046</object-id>
+               <fpage>15</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e671a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3519235e678" publication-type="journal">
+A. Harten, On a class of high-resolution total-variation-stablefinite-difference schemes, SIAM
+J. Numer. Anal.21 (1984), 1-23.<object-id pub-id-type="jstor">10.2307/2157043</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e694a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3519235e701" publication-type="conference">
+—Preliminary results on the extension of ENO schemes to two-dimensional problems,
+in Proceedings of the International Conference on Hyperbolic Problems, Saint-Etienne,
+January 1986.<person-group>
+                     <string-name>
+                     <surname>Harten</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Preliminary results on the extension of ENO schemes to two-dimensional problems</comment>
+               <source>Proceedings of the International Conference on Hyperbolic Problems, Saint-Etienne</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e733a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3519235e740" publication-type="journal">
+— ENO schemes with subcell resolutions, J. Comput. Phys.83 (1989), pp. 148-184.<person-group>
+                     <string-name>
+                     <surname>Harten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>148</fpage>
+               <volume>83</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e770a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3519235e777" publication-type="journal">
+A. Harten and S. Osher, Uniformly high-order accurate nonoscillatory schemes, I, SIAM J.
+Numer. Anal.24 (1987), 279-309.<object-id pub-id-type="jstor">10.2307/2157557</object-id>
+               <fpage>279</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e793a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3519235e800" publication-type="journal">
+A. Harten, B. Engquist, S. Osher, and S. Chakravarthy, Uniformly high-order accurate
+nonoscillatory schemes, III, J. Comput. Phys.71 (1987), 231-303.<person-group>
+                     <string-name>
+                     <surname>Harten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>71</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e832a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3519235e839" publication-type="journal">
+T. Hughes and A. Brook, Streamline Upwind-Petrov-Galerkin formulations for convection
+dominated flows with particular emphasis on the incompressible Navier-Stokes equations,
+Comput. Methods Appl. Mech. Engrg.32 (1982), 199-259.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>32</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e874a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3519235e881" publication-type="book">
+T. Hughes and M. Mallet, A high-precision finite element method for shock-tube calculations,
+Finite Elements in Fluids, vol. 6 (R. H. Gallagher, G. F. Carey, J. T. Oden, and 0. C.
+Zienkiewicz, eds.), 1985, pp. 339-353.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A high-precision finite element method for shock-tube calculations</comment>
+               <fpage>339</fpage>
+               <volume>6</volume>
+               <source>Finite Elements in Fluids</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e919a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3519235e926" publication-type="journal">
+T. Hughes, L. P. Franca, M. Mallet and A. Misukami, A new finite element formulation for
+computationalfluid dynamics, I, Comput. Methods Appl. Mech. Engrg.54 (1986), 223-234.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>54</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e958a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3519235e965" publication-type="journal">
+— A new finite element formulation for computational fluid dynamics, II, Comput.
+Methods Appl. Mech. Engrg.54 (1986), 341-355.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>341</fpage>
+               <volume>54</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e998a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3519235e1005" publication-type="journal">
+— A new finite element formulation for computational fluid dynamics, III, Comput.
+Methods Appl. Mech. Engrg.58 (1986), 305-328.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>305</fpage>
+               <volume>58</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1037a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3519235e1044" publication-type="journal">
+— A new finite element formulation for computational fluid dynamics, IV, Comput.
+Methods Appl. Mech. Engrg.58 (1986), 329-336.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>58</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1076a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3519235e1083" publication-type="journal">
+C. Johnson and J. Saranen, Streamline diffusion methods for problems in fluid mechanics,
+Math. Comp.47 (1986), 1-18.<object-id pub-id-type="doi">10.2307/2008079</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1099a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d3519235e1106" publication-type="journal">
+C. Johnson and A. Szepessy, On the convergence of a finite element method for a nonlinear
+hyperbolic conservation law, Math. Comp.49 (1987), 427-444.<object-id pub-id-type="doi">10.2307/2008320</object-id>
+               <fpage>427</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1122a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d3519235e1129" publication-type="journal">
+C. Johnson, A. Szepessy and P. Hansbo, On the convergence of shock-capturing streamline
+diffusion finite element methods for hyperbolic conservation laws, Math. Comp.54 (1990),
+107-129.<object-id pub-id-type="doi">10.2307/2008684</object-id>
+               <fpage>107</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1148a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d3519235e1155" publication-type="journal">
+W. B. Lindquist, The scalar Riemann problem in two spatial dimensions: piecewise smooth-
+ness of solutions and its breakdown, SIAM J. Math. Anal.17 (1986), 1178-1197.<person-group>
+                     <string-name>
+                     <surname>Lindquist</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1178</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1188a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d3519235e1195" publication-type="journal">
+— Construction of solutions for two-dimensional Riemann problems, Comput. Math.
+Appl.12A (1986), 615-630.<person-group>
+                     <string-name>
+                     <surname>Lindquist</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>615</fpage>
+               <volume>12A</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1227a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d3519235e1234" publication-type="journal">
+B. J. Lucier, A moving mesh numerical method for hyperbolic conservation laws, Math.
+Comp.46 (1986), 59-69.<object-id pub-id-type="doi">10.2307/2008214</object-id>
+               <fpage>59</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1250a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d3519235e1257" publication-type="book">
+—Regularity through approximation for scalar conservation laws, IMA Preprint # 336
+(1987).<person-group>
+                     <string-name>
+                     <surname>Lucier</surname>
+                  </string-name>
+                  </person-group>
+               <source>Regularity through approximation for scalar conservation laws</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1282a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d3519235e1289" publication-type="journal">
+S. Osher, Convergence of generalized MUSCL schemes, SIAM J. Numer. Anal.22 (1984),
+947-961.<object-id pub-id-type="jstor">10.2307/2157408</object-id>
+               <fpage>947</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1305a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d3519235e1312" publication-type="journal">
+S. Osher and S. Chakravarthy, High resolution schemes and the entropy condition, SIAM J.
+Numer. Anal.21 (1984), 955-984.<object-id pub-id-type="jstor">10.2307/2156937</object-id>
+               <fpage>955</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1328a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d3519235e1335" publication-type="journal">
+R. Sanders, A third-order accurate variation nonexpansive difference scheme for single non-
+linear conservation laws, Math. Comp.51 (1988), 535-558.<object-id pub-id-type="doi">10.2307/2008762</object-id>
+               <fpage>535</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1352a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d3519235e1359" publication-type="journal">
+C.-W. Shu, TVB uniformly high-order schemes for conservation laws, Math. of Comp.49
+(1987), 105-121.<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>105</fpage>
+               <volume>49</volume>
+               <source>Math. of Comp.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1391a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d3519235e1398" publication-type="journal">
+— TVB boundary treatment for numerical solutions of conservation laws, Math. Comp.
+49 (1987), 123-134.<object-id pub-id-type="doi">10.2307/2008253</object-id>
+               <fpage>123</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1414a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d3519235e1421" publication-type="journal">
+— TVD time discretizations, SIAM J. Sci. Statist. Comput.9 (1988), 1073-1084.<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1073</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1450a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d3519235e1457" publication-type="journal">
+C.-W. Shu and S. Osher, Efficient implementation of essentially non-oscillatory shock-
+capturing schemes, J. Comput. Phys.77 (1988), 439-471.<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>439</fpage>
+               <volume>77</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1489a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d3519235e1496" publication-type="journal">
+— Efficient implementation of essentially non-oscillatory shock-capturing schemes, II, J.
+Comput. Phys.83 (1989), 32-78.<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>32</fpage>
+               <volume>83</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1528a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d3519235e1535" publication-type="journal">
+P. Sweby, High resolution schemes using flux limiters for hyperbolic conservation laws, SIAM
+J. Numer. Anal.21 (1984), 995-1011.<object-id pub-id-type="jstor">10.2307/2156939</object-id>
+               <fpage>995</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1552a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d3519235e1559" publication-type="book">
+C. Tong and Z. Yu-Xi, Two dimensional Riemann problems for a single conservation law,
+Institute of Mathematics, Academia Sinica, Preprint # 20 (1985).<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <source>Two dimensional Riemann problems for a single conservation law</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1584a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d3519235e1591" publication-type="journal">
+C. Tong and C. Guiquiang, Some fundamental concepts about systems of two spatial dimen-
+sional conservation laws, Acta Math. Sci.6 (1986), 463-474.<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>463</fpage>
+               <volume>6</volume>
+               <source>Acta Math. Sci.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3519235e1623a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d3519235e1630" publication-type="journal">
+D. Wagner, The Riemann problem in two space dimensions for a single conservation law,
+SIAM J. Math. Anal.14 (1983), 534-559.<person-group>
+                     <string-name>
+                     <surname>Wagner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>534</fpage>
+               <volume>14</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

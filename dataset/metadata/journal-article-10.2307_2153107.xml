@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">60</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">202</issue>
+         <issue-id>i337658</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153107</article-id>
+         
+         <title-group>
+            <article-title>A Parallel Algorithm for Computing the Eigenvalues of a Symmetric Tridiagonal Matrix</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul N.</given-names>
+                  <surname>Swarztrauber</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1993</year>
+         </pub-date>
+         <fpage>651</fpage>
+         <lpage>668</lpage>
+         <page-range>651-668</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1993 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153107"/>
+         
+         
+         <abstract>
+            <p>A parallel algorithm, called polysection, is presented for computing the eigenvalues of a symmetric tridiagonal matrix. The method is based on a quadratic recurrence in which the characteristic polynomial is constructed on a binary tree from polynomials whose degree doubles at each level. Intervals that contain exactly one zero are determined by the zeros of polynomials at the previous level which ensures that different processors compute different zeros. The signs of the polynomials at the interval endpoints are determined a priori and used to guarantee that all zeros are found. The use of finite-precision arithmetic may result in multiple zeros; however, in this case, the intervals coalesce and their number determines exactly the multiplicity of the zero. For an N × N matrix the eigenvalues can be determined in O(log&lt;sup&gt;2&lt;/sup&gt; N) time with N&lt;sup&gt;2&lt;/sup&gt; processors and O(N) time with N processors. The method is compared with a parallel variant of bisection that requires O(N&lt;sup&gt;2&lt;/sup&gt;) time on a single processor, O(N) time with N processors, and O(log N) time with N&lt;sup&gt;2&lt;/sup&gt; processors.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F15</kwd>
+            <kwd>65H05</kwd>
+            <kwd>15A18</kwd>
+            <kwd>26C10</kwd>
+            <kwd>68Q10</kwd>
+            <kwd>Parallel computing</kwd>
+            <kwd>symmetric tridiagonal matrix</kwd>
+            <kwd>eigenvalues</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d1426792e148a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1426792e155" publication-type="journal">
+W. Barth, R. S. Martin, and J. H. Wilkinson, Calculation of the eigenvalues of a symmetric
+tridiagonal matrix by the method of bisection, Numer. Math.9 (1967), 386-393.<person-group>
+                     <string-name>
+                     <surname>Barth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>386</fpage>
+               <volume>9</volume>
+               <source>Numer. Math.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e187a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1426792e194" publication-type="journal">
+J. R. Bunch, C. P. Nielsen, and D. C. Sorensen, Rank-one modification of the symmetric
+eigenproblem, Numer. Math.31 (1978), 31-48.<person-group>
+                     <string-name>
+                     <surname>Bunch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>31</volume>
+               <source>Numer. Math.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e226a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1426792e233" publication-type="journal">
+J. J. M. Cuppen, A divide and conquer method for the symmetric tridiagonal eigenproblem,
+Numer. Math.36 (1981), 177-195.<person-group>
+                     <string-name>
+                     <surname>Cuppen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>177</fpage>
+               <volume>36</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e265a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1426792e272" publication-type="journal">
+J. Demmel and W. Kahan, Accurate singular values of bidiagonal matrices, SIAM J. Sci.
+Statist. Comput.11 (1990), 873-912.<person-group>
+                     <string-name>
+                     <surname>Demmel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>873</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e305a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1426792e312" publication-type="book">
+J. Demmel and W. Gragg, On computing accurate singular values and eigenvalues of acyclic
+matrices, IMA Preprint Series, no. 962, Institute for Math. and its Appl., Univ. of Min-
+nesota, 1992.<person-group>
+                     <string-name>
+                     <surname>Demmel</surname>
+                  </string-name>
+                  </person-group>
+               <source>On computing accurate singular values and eigenvalues of acyclic matrices</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e341a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1426792e348" publication-type="journal">
+J. J. Dongarra and D. C. Sorensen, A fully parallel algorithm for the symmetric eigenvalue
+problem, SIAM J. Sci. Statist. Comput.8 (1987), s139-s154.<person-group>
+                     <string-name>
+                     <surname>Dongarra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>s139</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e380a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1426792e387" publication-type="journal">
+D. J. Evans, J. Shanehchi, and C. C. Rick, A modified bisection algorithm for the deter-
+mination of the eigenvalues of a symmetric tridiagonal matrix, Numer. Math.38 (1982),
+417-419.<person-group>
+                     <string-name>
+                     <surname>Evans</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>417</fpage>
+               <volume>38</volume>
+               <source>Numer. Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e422a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1426792e429" publication-type="journal">
+I. C. F. Ipsen and E. R. Jessup, Solving the symmetric tridiagonal eigenvalue problem on
+the hypercube, SIAM J. Sci. Statist. Comput.11 (1990), 203-229.<person-group>
+                     <string-name>
+                     <surname>Ipsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>203</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e461a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1426792e468" publication-type="book">
+W. Kahan, Accurate eigenvalues of a symmetric tri-diagonal matrix, Tech. Report CS41,
+Comput. Sci. Dept., Stanford University, July 22, 1966, with revisions to June 1968, avail-
+able from the author at the University of California at Berkeley.<person-group>
+                     <string-name>
+                     <surname>Kahan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Accurate eigenvalues of a symmetric tri-diagonal matrix</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e497a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1426792e504" publication-type="journal">
+A. S. Krishnakumar and M. Morf, Eigenvalues of a symmetric tridiagonal matrix: a divide
+and conquer approach, Numer. Math.48 (1986), 349-368.<person-group>
+                     <string-name>
+                     <surname>Krishnakumar</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>349</fpage>
+               <volume>48</volume>
+               <source>Numer. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e537a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1426792e544" publication-type="journal">
+R. E. Ladner and M. J. Fisher, Parallel prefix computation, J. Assoc. Comput. Mach.27
+(1980), pp. 831-838.<person-group>
+                     <string-name>
+                     <surname>Ladner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>831</fpage>
+               <volume>27</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e576a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1426792e583" publication-type="journal">
+S.-S. Lo, B. Philippe, and A. H. Sameh, A multiprocessor algorithm for the symmetric tridi-
+agonal eigenvalue problem, SIAM J. Sci. Statist. Comput.8 (1987), s155-s 165.<person-group>
+                     <string-name>
+                     <surname>Lo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>s155</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e615a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1426792e622" publication-type="journal">
+A. H. Sameh and D. J. Kuch, A parallel QR algorithm for symmetric tridiagonal matrices,
+IEEE Trans. Comput.26 (1977), 147-153.<person-group>
+                     <string-name>
+                     <surname>Sameh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>26</volume>
+               <source>IEEE Trans. Comput.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e654a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1426792e661" publication-type="book">
+R. Schreiber, Computing generalized inverses and eigenvalues of symmetric matrices using
+systolic arrays, Computing Methods in Applied Sciences and Engineering VI (R. Glowinski
+and J.-L. Lions, eds.), North-Holland, Amsterdam, 1984, pp. 285-295.<person-group>
+                     <string-name>
+                     <surname>Schreiber</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computing generalized inverses and eigenvalues of symmetric matrices using systolic arrays</comment>
+               <fpage>285</fpage>
+               <source>Computing Methods in Applied Sciences and Engineering VI</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e696a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1426792e703" publication-type="book">
+B. T. Smith, J. M. Boyle, J. J. Dongarra, B. S. Garbow, Y. Ikebe, V. C. Klema, and C. B.
+Moler, Matrix eigensystem routines—EISPACK Guide, 2nd ed., Lecture Notes in Comput.
+Sci., vol. 6, Springer-Verlag, New York, 1976.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <comment content-type="section">Matrix eigensystem routines—EISPACK Guide</comment>
+               <volume>6</volume>
+               <source>Lecture Notes in Comput. Sci.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e741a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1426792e748" publication-type="journal">
+D. C. Sorensen and P. T. P. Tang, On the orthogonality of eigenvectors computed by divide-
+and-conquer techniques, SIAM J. Numer. Anal.28 (1991), 1172-1775.<object-id pub-id-type="jstor">10.2307/2157958</object-id>
+               <fpage>1172</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e765a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1426792e772" publication-type="journal">
+H. S. Stone, Parallel tridiagonal solvers, ACM Trans. Math. Software1 (1975), 289-307.<person-group>
+                     <string-name>
+                     <surname>Stone</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>289</fpage>
+               <volume>1</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e801a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1426792e808" publication-type="journal">
+P. N. Swarztrauber, A direct method for the discrete solution of separable elliptic equations,
+SIAM J. Numer. Anal.11 (1974), 1136-1150.<object-id pub-id-type="jstor">10.2307/2156231</object-id>
+               <fpage>1136</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e824a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1426792e831" publication-type="journal">
+— A parallel algorithm for solving general tridiagonal equations, Math. Comp.33 (1979),
+185-199.<object-id pub-id-type="doi">10.2307/2006035</object-id>
+               <fpage>185</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e847a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1426792e854" publication-type="journal">
+J. H. Wilkinson, Calculation of the eigenvalues of a symmetric tridiagonal matrix by the
+method of bisection, Numer. Math.4 (1962), 362-367.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>362</fpage>
+               <volume>4</volume>
+               <source>Numer. Math.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426792e886a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1426792e893" publication-type="book">
+—The algebraic eigenvalue problem, Clarendon Press, Oxford, 1965.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The algebraic eigenvalue problem</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">79</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">269</issue>
+         <issue-id>i40025497</issue-id>
+         <article-id pub-id-type="jstor">40590418</article-id>
+         <title-group>
+            <article-title>THE NUMBER FIELD SIEVE FOR INTEGERS OF LOW WEIGHT</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>OLIVER</given-names>
+                  <surname>SCHIROKAUER</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>583</fpage>
+         <lpage>602</lpage>
+      
+         <permissions>
+            <copyright-statement>© 2010 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40590418"/>
+      
+      
+         <abstract>
+            <p>We define the weight of an integer N to be the smallest ω such that N can be represented as
+              $\sum _{i = 1}^\omega \,c_i 2^{c_i } $
+              , with
+              $ \in _1 ,\,..., \in _\omega \, \in \,\{ 1,\, - 1\} $
+              . Since arithmetic modulo a prime of low weight is particularly efficiënt, it is tempting to use such primes in cryptographic protocols. In this paper we consider the difficulty of the discrete logarithm problem modulo a prime N of low weight, as well as the difficulty of factoring an integer N of low weight. We describe a version of the number field sieve which handles both problems. In the case that ω = 2, the method is the same as the special number field sieve, which runs conjecturally in time exp
+              $((32/9)^{1/3} \, + \,0(1))(\log \,N)^{1/3} (\log \,\log \,N)^{2/3} $
+              for N → ∞. For fixed ω &gt; 2, we conjecture that there is a constant ξ less than
+              $(32/9)^{1/3} \,((2\omega - 3)/(\omega - 1))^{1/3} $
+              such that the running time of the algorithm is at most exp
+              $(\xi \, + \,0(1))(\log \,N)^{1/3} (\log \,\log \,N)^{2/3} $
+              for N → ∞. We further conjecture that no ξ less than
+              $(32/9)^{1/3} ((\sqrt {2\omega } - \,2\sqrt 2 \, + \,1)/(\omega \, - \,1)^{2/3} $
+              has this property. Our analysis reveals that on average the method performs significantly better than it does in the worst case. We consider all the examples given in a recent paper of Koblitz and Menezes and demonstrate that in every case but one, our algorithm runs faster than the standard versions of the number field sieve.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2800477e125a1310">
+            <label>[1]</label>
+          
+            <mixed-citation id="d2800477e132" publication-type="other">
+J.P. Buhler, H.W. Lenstra, Jr., C. Pomerance, Factoring integers with the number field sieve,
+in [8], pp. 50-94. MR1321221</mixed-citation>
+        </ref>
+        <ref id="d2800477e142a1310">
+            <label>[2]</label>
+          
+            <mixed-citation id="d2800477e149" publication-type="other">
+E.R. Canfield, P. Erdös, C. Pomerance, On a problem of Oppenheim concerning "factorisatio
+numerorum", J. Number Theory 17 (1983), 1-28. MR712964 (85j:11012)</mixed-citation>
+        </ref>
+        <ref id="d2800477e159a1310">
+            <label>[3]</label>
+          
+            <mixed-citation id="d2800477e166" publication-type="other">
+A. Commeine, I. Semaev, An algorithm to solve the discrete logarithm problem with the
+number field sieve, Public Key Cryptography, Lecture Notes in Comput. Sei., vol. 3958,
+Springer-Verlag, Berlin, 2006, pp. 174-190. MR2423189</mixed-citation>
+        </ref>
+        <ref id="d2800477e179a1310">
+            <label>[4]</label>
+          
+            <mixed-citation id="d2800477e186" publication-type="other">
+M. Filaseta, A further generalization of an irreducibility theorem of A. Cohn, Canad. J.
+Math. 34 (1982), 1390-1395. MR678678 (85g:11014)</mixed-citation>
+        </ref>
+        <ref id="d2800477e197a1310">
+            <label>[5]</label>
+          
+            <mixed-citation id="d2800477e204" publication-type="other">
+A. Joux, R. Lercier, Improvements on the general number field sieve for discrete logarithms
+in prime fields, Math. Comp. 72 (2003), 953-967. MR1954978 (2003k:11192)</mixed-citation>
+        </ref>
+        <ref id="d2800477e214a1310">
+            <label>[6]</label>
+          
+            <mixed-citation id="d2800477e221" publication-type="other">
+N. Koblitz, A. Menezes, Pairing-based cryptography at high security levels, Cryptography
+and Coding: 10th IMA International Conference, Lecture Notes in Comput. Sei, vol. 3796,
+Sprineer-Verlag, Berlin, 2005, dd. 13-36. MR2235246 (2007b:94235)</mixed-citation>
+        </ref>
+        <ref id="d2800477e234a1310">
+            <label>[7]</label>
+          
+            <mixed-citation id="d2800477e241" publication-type="other">
+A.K. Lenstra, Unbelievable security: Matching AES security using public key systems, Ad-
+vances in Cryptology -ASIACRYPT 2001, Lecture Notes in Comput. Sei., vol. 2248, Springer-
+Verlag, Berlin, 2001, pp. 67-86. MR1934516 (2003h:94042)</mixed-citation>
+        </ref>
+        <ref id="d2800477e254a1310">
+            <label>[8]</label>
+          
+            <mixed-citation id="d2800477e261" publication-type="other">
+A.K. Lenstra, H.W. Lenstra, Jr., (eds.), The development of the number field sieve, Lecture
+Notes in Mathematics, 1554, Springer-Verlag, Berlin, 1993. MR1321216 (96m:11116)</mixed-citation>
+        </ref>
+        <ref id="d2800477e271a1310">
+            <label>[9]</label>
+          
+            <mixed-citation id="d2800477e278" publication-type="other">
+A.K. Lenstra, H.W. Lenstra, Jr., M.S. Manasse, J.M. Pollard, The number field sieve, in [8],
+pp. 11-42. MR1321219</mixed-citation>
+        </ref>
+        <ref id="d2800477e288a1310">
+            <label>[10]</label>
+          
+            <mixed-citation id="d2800477e295" publication-type="other">
+G. Manku, J. Sawada, A loopless Gray code for minimal signed-binary representations, 13th
+Annual European Symposium on Algorithms, Lecture Notes in Comput. Sci., vol. 3669,
+Springer-Verlag, Berlin, 2005, pp. 438-447. MR2257959</mixed-citation>
+        </ref>
+        <ref id="d2800477e309a1310">
+            <label>[11]</label>
+          
+            <mixed-citation id="d2800477e316" publication-type="other">
+K. McCurley, The discrete logarithm problem, Cryptology and Computational Number The-
+ory, Proc. Sympos. Appl. Math., vol. 42, Amer. Math. Soc, Providence, RI, 1990, pp. 49-74.
+MR1095551 (92d:11133)</mixed-citation>
+        </ref>
+        <ref id="d2800477e329a1310">
+            <label>[12]</label>
+          
+            <mixed-citation id="d2800477e336" publication-type="other">
+O. Schirokauer, Discrete logarithms and local units, Theory and Applications of Numbers
+without Large Prime Factors, Philos. Trans. Roy. Soc. London, Ser. A, vol. 345, Royal Society,
+London, 1993, pp. 409-424. MR1253502 (95c:11156)</mixed-citation>
+        </ref>
+        <ref id="d2800477e349a1310">
+            <label>[13]</label>
+          
+            <mixed-citation id="d2800477e356" publication-type="other">
+O. Schirokauer, The impact of the number field sieve on the discrete logarithm problem, Algo-
+rithmic Number Theory: Lattices, Number Fields, Curves, and Cryptography, Mathematical
+Sciences Research Institute Publications, Cambridge University Press, Cambridge, 2008.</mixed-citation>
+        </ref>
+        <ref id="d2800477e369a1310">
+            <label>[14]</label>
+          
+            <mixed-citation id="d2800477e376" publication-type="other">
+J. Solinas, Generalized Mersenne numbers, Technical Report CORR 99-39 (1999).</mixed-citation>
+        </ref>
+        <ref id="d2800477e383a1310">
+            <label>[15]</label>
+          
+            <mixed-citation id="d2800477e390" publication-type="other">
+P. Stevenhagen, The number field sieve, Algorithmic Number Theory: Lattices, Number
+Fields, Curves, and Cryptography, Mathematical Sciences Research Institute Publications,
+Cambridge University Press, Cambridge, 2008.</mixed-citation>
+        </ref>
+        <ref id="d2800477e403a1310">
+            <label>[16]</label>
+          
+            <mixed-citation id="d2800477e410" publication-type="other">
+P. Stevenhagen, H.W. Lenstra, Jr., Chebotare'v and his density theorem, The Mathematical
+Intelligencer 18 (1996), 26-37. MR1395088 (97e:11144)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">22</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40011373</issue-id>
+         <article-id pub-id-type="jstor">40285151</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-008-9044-3</article-id>
+         <title-group>
+            <article-title>Using Target-Language Information to Train Part-of-Speech Taggers for Machine Translation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Felipe</given-names>
+                  <surname>Sánchez-Martínez</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Juan Antonio</given-names>
+                  <surname>Pérez-Ortiz</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Mikel L.</given-names>
+                  <surname>Forcada</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2008</year>
+         </pub-date>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>29</fpage>
+         <lpage>66</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2008 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+         
+         <self-uri xlink:href="https://www.jstor.org/stable/40285151"/>
+         
+         
+         <abstract>
+            <p>Although corpus-based approaches to machine translation (MT) are growing in interest, they are not applicable when the translation involves lessresourced language pairs for which there are no parallel corpora available; in those cases, the rule-based approach is the only applicable solution. Most rule-based MT systems make use of part-of-speech (PoS) taggers to solve the PoS ambiguities in the source-language texts to translate; those MT systems require accurate PoS taggers to produce reliable translations in the target language (TL). The standard statistical approach to PoS ambiguity resolution (or tagging) uses hidden Markov models (HMM) trained in a supervised way from hand-tagged corpora, an expensive resource not always available, or in an unsupervised way through the Baum-Welch expectation-maximization algorithm; both methods use information only from the language being tagged. However, when tagging is considered as an intermediate task for the translation procedure, that is, when the PoS tagger is to be embedded as a module within an MT system, information from the TL can be (unsupervisedly) used in the training phase to increase the translation quality of the whole MT system. This paper presents a method to train HMM-based PoS taggers to be used in MT; the new method uses not only information from the source language (SL), as general-purpose methods do, but also information from the TL and from the remaining modules of the MT system in which the PoS tagger is to be embedded. We find that the translation quality of the MT system embedding a PoS tagger trained in an unsupervised manner through this new method is clearly better than that of the same MT system embedding a PoS tagger trained through the Baum-Welch algorithm, and comparable to that obtained by embedding a PoS tagger trained in a supervised way from hand-tagged corpora.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Rule-based machine translation</kwd>
+            <kwd>Part-of-speech tagging</kwd>
+            <kwd>Hidden Markov models</kwd>
+            <kwd>Language modeling</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d734775e271a1310">
+               <label>3</label>
+               
+               <p>
+               <mixed-citation id="d734775e278" publication-type="other">
+GNU GPL license; it can be freely downloaded from http://
+sf.net/projects/apertium.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e288a1310">
+               <label>6</label>
+               
+               
+               <p>
+               <mixed-citation id="d734775e297" publication-type="other">
+SRILM (Stolcke 2002);</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e304a1310">
+               <label>8</label>
+               
+               <p>
+               <mixed-citation id="d734775e311" publication-type="other">
+http://www.elpais.com.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e318a1310">
+               <label>9</label>
+               
+               <p>
+               <mixed-citation id="d734775e325" publication-type="other">
+http://www.lemonde.fr.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e333a1310">
+               <label>10</label>
+               
+               <p>
+               <mixed-citation id="d734775e340" publication-type="other">
+http://www.avui.es.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e347a1310">
+               <label>11</label>
+               
+               <p>
+               <mixed-citation id="d734775e354" publication-type="other">
+http://www.20minutos.es.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e361a1310">
+               <label>12</label>
+               
+               <p>
+               <mixed-citation id="d734775e368" publication-type="other">
+http://www.andorra.ad.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e375a1310">
+               <label>15</label>
+               
+               <p>
+               <mixed-citation id="d734775e382" publication-type="other">
+http://apertium.sf.net.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734775e389a1310">
+               <label>16</label>
+               
+               <p>
+               <mixed-citation id="d734775e396" publication-type="other">
+XML formats (http://www.w3.org/XML/)</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d734775e412a1310">
+               
+               <mixed-citation id="d734775e416" publication-type="other">
+Armentano-OllerC, Carrasco RC, Corbí-Bellot AM, Forcada ML, Ginestí-Rosell M, Ortiz-Rojas S, Pérez-
+Ortiz JA, Ramirez-Sánchez G, Sánchez-Martínez F, Scalco MA (2006) Open-source Portuguese-Span-
+ish machine translation. In: Computational processing of the Portuguese language, proceedings of the
+7th international workshop on computational processing of written and spoken Portuguese, vol 3960
+of lecture notes in computer science. Itatiaia, RJ, Brazil: Springer- Verlag, pp 50-59</mixed-citation>
+            </ref>
+            <ref id="d734775e435a1310">
+               
+               <mixed-citation id="d734775e439" publication-type="other">
+Armentano-Oller C, Forcada ML (2006) Open-source machine translation between small languages: Cata-
+lan and Aranese Occitan. In: Proceedings of strategies for developing machine translation for minor-
+ity languages (5th workshop on speech and language technology for minority languages), Genoa,
+Italy, pp 51-54</mixed-citation>
+            </ref>
+            <ref id="d734775e455a1310">
+               
+               <mixed-citation id="d734775e459" publication-type="other">
+Arnold D (2003) Why translation is difficult for computers. In: Somers H (ed) Computers and translation:
+a translator's guide. Amsterdam/Philadelphia: John Benjamins, pp 119-142</mixed-citation>
+            </ref>
+            <ref id="d734775e469a1310">
+               
+               <mixed-citation id="d734775e473" publication-type="other">
+Baum LE (1972) An inequality and associated maximization technique in statistical estimation of probabi-
+listic functions of a Markov process. Inequalities 3:1-8</mixed-citation>
+            </ref>
+            <ref id="d734775e484a1310">
+               
+               <mixed-citation id="d734775e488" publication-type="other">
+Baum LE, Petrie T (1966) Statistical inference for probabilistic functions of finite state Markov chains.
+Ann Math Stat 37(6):1554-1563</mixed-citation>
+            </ref>
+            <ref id="d734775e498a1310">
+               
+               <mixed-citation id="d734775e502" publication-type="other">
+Brants T, Samuelsson C (1995) Tagging the Teleman corpus. In: Proceedings of the 10th Nordic conference
+of computational linguistics, Helsinki, Finland, pp 7-20</mixed-citation>
+            </ref>
+            <ref id="d734775e512a1310">
+               
+               <mixed-citation id="d734775e516" publication-type="other">
+Brill E (1992) A simple rule-based part-of-speech tagger. In: Proceedings of the 3rd applied natural language
+processing conference, Trente, Italy, pp 152-155</mixed-citation>
+            </ref>
+            <ref id="d734775e526a1310">
+               
+               <mixed-citation id="d734775e530" publication-type="other">
+Brill E (1995a) Transformation-based error-driven learning and natural language processing: a case study
+in part of speech tagging. Comput Linguist 21(4):543-565</mixed-citation>
+            </ref>
+            <ref id="d734775e540a1310">
+               
+               <mixed-citation id="d734775e544" publication-type="other">
+Brill E (1995b) Unsupervised learning of disambiguation rules for part of speech tagging. In: Proceedings
+of the third workshop on very large corpora, Somerset, NJ, pp 1-13</mixed-citation>
+            </ref>
+            <ref id="d734775e554a1310">
+               
+               <mixed-citation id="d734775e558" publication-type="other">
+Brown PF, Delia Pietra SA, Delia Pietra VJ, Mercer RL (1993) The mathematics of statistical machine
+translation: parameter estimation. Comput Linguist 19(2):263- 311</mixed-citation>
+            </ref>
+            <ref id="d734775e569a1310">
+               
+               <mixed-citation id="d734775e573" publication-type="other">
+Carbonell J, Klein S, Miller D, Steinbaum M, Grassiany T, Frei J (2006) Context-based machine transla-
+tion. In: Proceedings of the 7th conference of the association for machine translation in the Americas.
+Visions for the future of machine translation, Cambridge, MA, pp 19-28</mixed-citation>
+            </ref>
+            <ref id="d734775e586a1310">
+               
+               <mixed-citation id="d734775e590" publication-type="other">
+Carl M, Way A (eds) (2003) Recent advances in example-based machine translation, vol 21.
+Dordrecht/Boston/London: Kluwer Academic Publishers.</mixed-citation>
+            </ref>
+            <ref id="d734775e600a1310">
+               
+               <mixed-citation id="d734775e604" publication-type="other">
+Cutting D, Kupiec J, Pedersen J, Sibun P (1992) A practical part-of-speech tagger. In: Proceedings of the
+3rd applied natural language processing conference, Trente, Italy, pp 133-140</mixed-citation>
+            </ref>
+            <ref id="d734775e614a1310">
+               
+               <mixed-citation id="d734775e618" publication-type="other">
+Dermatas E, Kokkinakis G (1995) Automatic stochastic tagging of natural language texts. Comput Linguist
+21(2):137-163</mixed-citation>
+            </ref>
+            <ref id="d734775e628a1310">
+               
+               <mixed-citation id="d734775e632" publication-type="other">
+Dien D, Kiem H (2003) POS-tagger for English- Vietnamese bilingual corpus. In: Proceedings of the work-
+shop on building and using parallel texts: data driven machine translation and beyond, at the human
+language technology and the north American chapter of the association for computational linguistics
+joint conference, Edmonton, Canada, pp 88-95</mixed-citation>
+            </ref>
+            <ref id="d734775e648a1310">
+               
+               <mixed-citation id="d734775e652" publication-type="other">
+Efron B, Tibshirani RJ (1993) An introduction to the bootstrap Vol. 57 of monographs on statistics and
+applied probability. London, UK: Chapman &amp; Hall/CRC</mixed-citation>
+            </ref>
+            <ref id="d734775e663a1310">
+               
+               <mixed-citation id="d734775e667" publication-type="other">
+Foster G, Isabelle P, Plamondon P (1997) Target text mediated interactive machine translation. Mach Transl
+2(1-2): 175-194</mixed-citation>
+            </ref>
+            <ref id="d734775e677a1310">
+               
+               <mixed-citation id="d734775e681" publication-type="other">
+Gale WA, Church KW (1990) Poor estimates of context are worse than none. In: Proceedings ot the third
+DARPA workshop on speech and natural language. San Mateo, CA: Morgan Kaufmann Publishers
+Inc., pp 283-287</mixed-citation>
+            </ref>
+            <ref id="d734775e694a1310">
+               
+               <mixed-citation id="d734775e698" publication-type="other">
+Gale WA, Sampson G (1995)Good-turing frequency estimation without tears. J Quant Linguist 2(3):
+217-237</mixed-citation>
+            </ref>
+            <ref id="d734775e708a1310">
+               
+               <mixed-citation id="d734775e712" publication-type="other">
+Jelinek F (1997) Statistical methods for speech recognition. Cambridge, MA: MIT Press</mixed-citation>
+            </ref>
+            <ref id="d734775e719a1310">
+               
+               <mixed-citation id="d734775e723" publication-type="other">
+Kim JD, Lee SZ, Rim HC (1999) HMM specialization with selective kexicahzation. In: Proceedings ot
+the joint SIGDAT conference on empirical methods in natural language processing and very large
+corpora, College Park, MD, pp 121-127</mixed-citation>
+            </ref>
+            <ref id="d734775e736a1310">
+               
+               <mixed-citation id="d734775e740" publication-type="other">
+Koehn P (2004) Statistical significance tests for machine translation evaluation. In: Proceedings ot the
+conference on empirical methods in natural language processing. Barcelona, Spain, pp 388-395</mixed-citation>
+            </ref>
+            <ref id="d734775e751a1310">
+               
+               <mixed-citation id="d734775e755" publication-type="other">
+Koehn P (2008) Statistical machine translation. Cambridge, UK: Cambridge University Press</mixed-citation>
+            </ref>
+            <ref id="d734775e762a1310">
+               
+               <mixed-citation id="d734775e766" publication-type="other">
+Kupiec J (1992) Robust part-of-speech tagging using a hidden Markov model. Comput Speech Lang
+6(3):225-242</mixed-citation>
+            </ref>
+            <ref id="d734775e776a1310">
+               
+               <mixed-citation id="d734775e780" publication-type="other">
+Levenshtein VI (1965) Binary codes capable of correcting deletions, insertions, and reversals. Doklady
+Akademii Nauk SSSR 163(4):845-848. English translation in Soviet Physics Doklady 10(8):707-710
+(1966)</mixed-citation>
+            </ref>
+            <ref id="d734775e793a1310">
+               
+               <mixed-citation id="d734775e797" publication-type="other">
+Manning CD, Schutze H (1999) Foundations of statistical natural language processing. Cambridge, MA:
+MIT Press</mixed-citation>
+            </ref>
+            <ref id="d734775e807a1310">
+               
+               <mixed-citation id="d734775e811" publication-type="other">
+Merialdo B (1994) Tagging English text with a probabilistic model. Comput Linguist 20(2):155-171</mixed-citation>
+            </ref>
+            <ref id="d734775e818a1310">
+               
+               <mixed-citation id="d734775e822" publication-type="other">
+Nagao M (1984) Framework of a mechanical translation between Japanese and English by analogy princi-
+ple. In: Elithorn A, Banerji R (eds) Artificial and human intelligence. Amsterdam, The Netherlands:
+North Holland, pp 173-180</mixed-citation>
+            </ref>
+            <ref id="d734775e836a1310">
+               
+               <mixed-citation id="d734775e840" publication-type="other">
+Och FJ (2005) Statistical machine translation: foundations and recent advances. Tutorial at MT Summit X,
+Phuket, Thailand</mixed-citation>
+            </ref>
+            <ref id="d734775e850a1310">
+               
+               <mixed-citation id="d734775e854" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu WJ (2002) BLEU: a method for automatic evaluation of machine
+translation. In: 40th Annual meeting of the association for computational linguistics. Association for
+Computational Linguistics, Philadelphia, PA, pp 311-318</mixed-citation>
+            </ref>
+            <ref id="d734775e867a1310">
+               
+               <mixed-citation id="d734775e871" publication-type="other">
+Pla F, Molina A (2004) Improving part-of-speech tagging using lexicalized HMMs. Nat Lang Eng
+10(2):167-189</mixed-citation>
+            </ref>
+            <ref id="d734775e881a1310">
+               
+               <mixed-citation id="d734775e885" publication-type="other">
+Rabiner LR (1989) A tutorial on hidden Markov models and selected applications in speech recognition.
+Proc Inst Electr Electron Ene (IEEE) 77(2):257-286</mixed-citation>
+            </ref>
+            <ref id="d734775e895a1310">
+               
+               <mixed-citation id="d734775e899" publication-type="other">
+Sanchez- Villamil E, Forcada ML, Carrasco RC (2004) Unsupervised training of a finite-state sliding-
+window part-of-speech tagger. In: Advances in natural language processing, proceedings of the 4th
+international conference EsTAL (Espana for Natural Language Processing), Vol 3230 of lecture notes
+in computer science. Alicante, Spain: Springer- Verlag, pp 454-463</mixed-citation>
+            </ref>
+            <ref id="d734775e915a1310">
+               
+               <mixed-citation id="d734775e919" publication-type="other">
+Sánchez-Martinez F, Pérez-Ortiz JA, Forcada ML (2004a) Cooperative unsupervised training of the part-of-
+speech taggers in a bidirectional machine translation system. In: Proceedings of the tenth conference
+on theoretical and methodological issues in machine translation, Baltimore, MD, pp 135-144</mixed-citation>
+            </ref>
+            <ref id="d734775e933a1310">
+               
+               <mixed-citation id="d734775e937" publication-type="other">
+Sánchez-Martínez F, Pérez-Ortiz JA, Forcada ML (2004b) Exploring the use of target-language infor-
+mation to train the part-of-speech tagger of machine translation systems. In: Advances in natural
+language processing, proceedings of the 4th international conference EsTAL (Espana for Natural Lan-
+guage Processing), vol 3230 of lecture notes in computer science. Alicante, Spain: Springer– Verlag,
+pp 137-148</mixed-citation>
+            </ref>
+            <ref id="d734775e956a1310">
+               
+               <mixed-citation id="d734775e960" publication-type="other">
+Sánchez-Martinez F, Pérez-Ortiz JA, Forcada ML (2006) Speeding up target-language driven part-of-speech
+tagger training for machine translation. In: Advances in artificial intelligence, proceedings of the 5th
+Mexican international conference on artificial intelligence, vol 4293 of lecture notes in computer
+science. Apizaco, Tlaxcala, Mexico: Springer– Verlag, pp 844-854</mixed-citation>
+            </ref>
+            <ref id="d734775e976a1310">
+               
+               <mixed-citation id="d734775e980" publication-type="other">
+Snover M, Dorr B, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation edit rate with targeted
+human annotation. In: Proceedings of the 7th conference of the association for machine translation in
+the Americas. Visions for the future of machine translation, Cambridge, MA, pp 223-231</mixed-citation>
+            </ref>
+            <ref id="d734775e993a1310">
+               
+               <mixed-citation id="d734775e997" publication-type="other">
+Stolcke A (2002) SRILM — an extensible language modeling toolkit. In: Proceedings of the international
+conference on spoken language processing, Denver, CO, pp 901-904</mixed-citation>
+            </ref>
+            <ref id="d734775e1007a1310">
+               
+               <mixed-citation id="d734775e1011" publication-type="other">
+Yarowsky D, Ngai G (2001) Inducing multilingual POS taggers and NP bracketers via robust projection
+across aligned corpora. In: Proceedings of the second meeting of the North American chapter of the
+association for computational linguistics, Pittsburgh, PA, pp 200-207</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

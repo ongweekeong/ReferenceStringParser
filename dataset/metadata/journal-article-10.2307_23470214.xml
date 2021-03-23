@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">revifinastud</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100802</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>The Review of Financial Studies</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Oxford University Press</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">08939454</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">14657368</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">26</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">8</issue>
+         <issue-id>i23469890</issue-id>
+         <article-id pub-id-type="jstor">23470214</article-id>
+         <title-group>
+            <article-title>Capturing Option Anomalies with a Variance-Dependent Pricing Kernel</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Peter</given-names>
+                  <surname>Christoffersen</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Steven</given-names>
+                  <surname>Heston</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kris</given-names>
+                  <surname>Jacobs</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>8</month>
+            <year>2013</year>
+         </pub-date>
+         <fpage>1962</fpage>
+         <lpage>2006</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright © 2013 The Society for Financial Studies</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:role="external-fulltext-any"
+                   xlink:href="http://dx.doi.org/10.1093/rfs/hht033"
+                   xlink:title="an external site"/>
+      
+      
+         <abstract>
+            <p>We develop a GARCH option model with a new pricing kernel allowing for a variance premium. While the pricing kernel is monotonic in the stock return and in variance, its projection onto the stock return is nonmonotonic. A negative variance premium makes it U shaped. We present new semiparametric evidence to confirm this U-shaped relationship between the risk-neutral and physical probability densities. The new pricing kernel substantially improves our ability to reconcile the time-series properties of stock returns with the cross-section of option prices. It provides a unified explanation for the implied volatility puzzle, the overreaction of long-term options to changes in short-term variance, and the fat tails of the risk-neutral return distribution relative to the physical distribution.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d19e256a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d19e263" publication-type="other">
+Day and Lewis (1992)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e269" publication-type="other">
+Canina and Figlewski (1993)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e275" publication-type="other">
+Lamoureux and Lastrapes (1993)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e282" publication-type="other">
+Jorion (1995)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e288" publication-type="other">
+Fleming (1998)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e294" publication-type="other">
+Blair, Poon, and Taylor (2001)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e300" publication-type="other">
+Chernov (2007)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e307a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d19e314" publication-type="other">
+Engle (1982)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e320" publication-type="other">
+Bollerslev (1986).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e327a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d19e334" publication-type="other">
+Hull and White (1987)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e340" publication-type="other">
+Melino and Turnbull (1990)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e346" publication-type="other">
+Wiggins (1987)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e353" publication-type="other">
+Fleming and Kirby (2003)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e360a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d19e367" publication-type="other">
+Cox-Ingersoll-Ross (1985)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e373" publication-type="other">
+Benzoni, Collin-Dufresne, and Goldstein (2006)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e379" publication-type="other">
+Bakshi, Madan, and Panayotov (2010)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e387a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d19e394" publication-type="other">
+Andersen, Benzoni, and Lund (2002)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e400" publication-type="other">
+Bakshi, Cao, and Chen (1997)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e406" publication-type="other">
+Bates (1996b</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e413" publication-type="other">
+2000</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e419" publication-type="other">
+2006)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e425" publication-type="other">
+Broadie,
+Chernov, and Johannes (2007)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e434" publication-type="other">
+Chernov and Ghysels (2000)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e440" publication-type="other">
+Eraker (2004)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e446" publication-type="other">
+Eraker, Johannes, and Poison
+(2003)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e456" publication-type="other">
+Pan (2002)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e462" publication-type="other">
+Broadie, Chernov, and Johannes (2007)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e468" publication-type="other">
+Eraker (2004)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e474" publication-type="other">
+Eraker, Johannes, and Poison (2003)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e480" publication-type="other">
+Bates (2012)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e486" publication-type="other">
+Carr and Wu (2004)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e493" publication-type="other">
+Huang and Wu (2004)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e499" publication-type="other">
+Bates (2000)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e505" publication-type="other">
+Christoffersen, Heston, and Jacobs (2009)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e512a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d19e519" publication-type="other">
+Lamoureux and Paseka (2009)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e525" publication-type="other">
+Heston (1993)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e532a1310">
+            <label>10</label>
+          
+            <p>
+               <mixed-citation id="d19e539" publication-type="other">
+Bates (2000</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e545" publication-type="other">
+2003)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e551" publication-type="other">
+Broadie, Chernov, and Johannes (2007)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e558" publication-type="other">
+Chernov and Ghysels (2000)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e564" publication-type="other">
+Eraker (2004)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e570" publication-type="other">
+Heston and Nandi (2000)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e576" publication-type="other">
+Jones (2003)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e582" publication-type="other">
+Pan (2002).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e589a1310">
+            <label>11</label>
+          
+            <p>
+               <mixed-citation id="d19e596" publication-type="other">
+Coval and Shumway (2001)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e602" publication-type="other">
+Bondarenko (2003)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e608" publication-type="other">
+Driessen and Maenhout (2007).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e615a1310">
+            <label>12</label>
+          
+            <p>
+               <mixed-citation id="d19e622" publication-type="other">
+Bakshi, Cao, and Chen (1997)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e629a1310">
+            <label>13</label>
+          
+            <p>
+               <mixed-citation id="d19e636" publication-type="other">
+Bates (2000)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e642" publication-type="other">
+Christoffersen, Heston, and Jacobs (2009)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e648" publication-type="other">
+Huang and Wu (2004).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d19e656a1310">
+            <label>14</label>
+          
+            <p>
+               <mixed-citation id="d19e663" publication-type="other">
+Carr and Wu (2007)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d19e669" publication-type="other">
+Trolle and Schwartz (2009)</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d19e685a1310">
+          
+            <mixed-citation id="d19e689" publication-type="other">
+Ait-Sahalia, Y., and A. Lo. 1998. Nonparametric estimation of state-price densities implicit in financial asset
+prices. Journal of Finance 53:499-547.</mixed-citation>
+        </ref>
+        <ref id="d19e699a1310">
+          
+            <mixed-citation id="d19e703" publication-type="other">
+—. 2000. Nonparametric risk management and implied risk aversion. Journal of Econometrics 94:9-51.</mixed-citation>
+        </ref>
+        <ref id="d19e710a1310">
+          
+            <mixed-citation id="d19e714" publication-type="other">
+Andersen, T. G, L. Benzoni, and J. Lund. 2002. Estimating jump-diffusions for equity returns. Journal of Finance
+57:1239-84.</mixed-citation>
+        </ref>
+        <ref id="d19e724a1310">
+          
+            <mixed-citation id="d19e728" publication-type="other">
+Bakshi, G, C. Cao, and Z. Chen. 1997. Empirical performance of alternative option pricing models. Journal of
+Finance 52:2003-49.</mixed-citation>
+        </ref>
+        <ref id="d19e739a1310">
+          
+            <mixed-citation id="d19e743" publication-type="other">
+Bakshi, G, and N. Kapadia. 2003. Delta hedged gains and the negative market volatility risk premium. Review
+of Financial Studies 16:527-66.</mixed-citation>
+        </ref>
+        <ref id="d19e753a1310">
+          
+            <mixed-citation id="d19e757" publication-type="other">
+Bakshi, G, D. Madan, and G Panayotov. 2010. Returns of claims on the upside and the viability of U-shaped
+pricing kernels. Journal of Financial Economics 97:130-54.</mixed-citation>
+        </ref>
+        <ref id="d19e767a1310">
+          
+            <mixed-citation id="d19e771" publication-type="other">
+Banz, R., and M. Miller. 1978. Prices for state-contingent claims: Some estimates and applications. Journal of
+Business 51:653-72.</mixed-citation>
+        </ref>
+        <ref id="d19e781a1310">
+          
+            <mixed-citation id="d19e785" publication-type="other">
+Barone-Adesi, G, R. Engle, and L. Mancini. 2008. A GARCH option pricing model with filtered historical
+simulation. Review of Financial Studies 21:1223-58.</mixed-citation>
+        </ref>
+        <ref id="d19e795a1310">
+          
+            <mixed-citation id="d19e799" publication-type="other">
+Bates, D. 1996a. Testing option pricing models. Statistical methods in finance. In Handbook of statistics. Eds.
+G S. Maddala and C. R. Rao, 567-611. Amsterdam: Elsevier.</mixed-citation>
+        </ref>
+        <ref id="d19e809a1310">
+          
+            <mixed-citation id="d19e813" publication-type="other">
+—. 1996b. Jumps and stochastic volatility: Exchange rate processes implicit in Deutsche mark options.
+Review of Financial Studies 9:69-107.</mixed-citation>
+        </ref>
+        <ref id="d19e824a1310">
+          
+            <mixed-citation id="d19e828" publication-type="other">
+—. 2000. Post-'87 crash fears in the S&amp;P 500 futures option market. Journal of Econometrics 94:181-238.</mixed-citation>
+        </ref>
+        <ref id="d19e835a1310">
+          
+            <mixed-citation id="d19e839" publication-type="other">
+—. 2003. Empirical option pricing: A retrospection. Journal of Econometrics 116:387-404.</mixed-citation>
+        </ref>
+        <ref id="d19e846a1310">
+          
+            <mixed-citation id="d19e850" publication-type="other">
+—. 2006. Maximum likelihood estimation of latent affine processes. Review of Financial Studies 19:909-65.</mixed-citation>
+        </ref>
+        <ref id="d19e857a1310">
+          
+            <mixed-citation id="d19e861" publication-type="other">
+—. 2008. The market for crash risk. Journal of Economic Dynamics and Control 32:2291-321.</mixed-citation>
+        </ref>
+        <ref id="d19e868a1310">
+          
+            <mixed-citation id="d19e872" publication-type="other">
+—. 2012. U.S. stock market crash risk, 1926-2010. Journal of Financial Economics 105:229-59.</mixed-citation>
+        </ref>
+        <ref id="d19e879a1310">
+          
+            <mixed-citation id="d19e883" publication-type="other">
+Benzoni, L., P. Collin-Dufresne, and R. Goldstein. 2011. Explaining asset pricing puzzles associated with the
+1987 market crash. Journal of Financial Economics 101:552-73.</mixed-citation>
+        </ref>
+        <ref id="d19e894a1310">
+          
+            <mixed-citation id="d19e898" publication-type="other">
+Black, F., and M. Scholes. 1973. The pricing of options and corporate liabilities. Journal of Political Economy
+81:637-59.</mixed-citation>
+        </ref>
+        <ref id="d19e908a1310">
+          
+            <mixed-citation id="d19e912" publication-type="other">
+Blair, B., S.-H. Poon, and S. Taylor. 2001. Forecasting S&amp;P500 volatility: The incremental information content
+of implied volatilities and high-frequency index returns. Journal of Econometrics 105:5-26.</mixed-citation>
+        </ref>
+        <ref id="d19e922a1310">
+          
+            <mixed-citation id="d19e926" publication-type="other">
+Bliss, R., and N. Panigirtzoglou. 2004. Option-implied risk aversion estimates. Journal of Finance 59:407-46.</mixed-citation>
+        </ref>
+        <ref id="d19e933a1310">
+          
+            <mixed-citation id="d19e937" publication-type="other">
+Bollerslev, T. 1986. Generalized autoregressive conditional heteroskedasticity. Journal of Econometrics
+31:307-27.</mixed-citation>
+        </ref>
+        <ref id="d19e947a1310">
+          
+            <mixed-citation id="d19e951" publication-type="other">
+—. 1987. A conditionally heteroskedastic time series model for speculative prices and rates of return. Review
+of Economics and Statistics 69:542-47.</mixed-citation>
+        </ref>
+        <ref id="d19e961a1310">
+          
+            <mixed-citation id="d19e965" publication-type="other">
+Bollerslev, T., and H. Mikkelsen. 1996. Modeling and pricing long memory in stock market volatility. Journal
+of Econometrics 73:151-84.</mixed-citation>
+        </ref>
+        <ref id="d19e976a1310">
+          
+            <mixed-citation id="d19e980" publication-type="other">
+Bollerslev, T., G Tauchen, and H. Zhou. 2009. Expected stock return and variance risk premia. Review of Financial
+Studies 22:4463-92.</mixed-citation>
+        </ref>
+        <ref id="d19e990a1310">
+          
+            <mixed-citation id="d19e994" publication-type="other">
+Bondarenko, O. 2003. Why are put options so expensive? Working Paper, University of Illinois at Chicago.</mixed-citation>
+        </ref>
+        <ref id="d19e1001a1310">
+          
+            <mixed-citation id="d19e1005" publication-type="other">
+Breeden, D., and R. Litzenberger. 1978. Prices of state-contingent claims implicit in option prices. Journal of
+Business 51:621-51.</mixed-citation>
+        </ref>
+        <ref id="d19e1015a1310">
+          
+            <mixed-citation id="d19e1019" publication-type="other">
+Brennan, M. 1979. The pricing of contingent claims in discrete-time models. Journal of Finance 34:53-68.</mixed-citation>
+        </ref>
+        <ref id="d19e1026a1310">
+          
+            <mixed-citation id="d19e1030" publication-type="other">
+Broadie, M., M. Chernov, and M. Johannes. 2007. Model specification and risk premiums: Evidence from futures
+options. Journal of Finance 62:1453-90.</mixed-citation>
+        </ref>
+        <ref id="d19e1040a1310">
+          
+            <mixed-citation id="d19e1044" publication-type="other">
+—. 2009. Understanding index option returns. Review of Financial Studies 22:4493-529.</mixed-citation>
+        </ref>
+        <ref id="d19e1052a1310">
+          
+            <mixed-citation id="d19e1056" publication-type="other">
+Brown, D. P., and J. C. Jackwerth. 2012. The pricing kernel puzzle: Reconciling index option data and economic
+theory. In Derivative securities pricing and modelling. Eds. J. A. Batten and N. Wagner, 155-83. West Yorkshire,
+UK: Emerald Group Publishing Limited.</mixed-citation>
+        </ref>
+        <ref id="d19e1069a1310">
+          
+            <mixed-citation id="d19e1073" publication-type="other">
+Canina, L., and S. Figlewski. 1993. The informational content of implied volatility. Review of Financial Studies
+6:659-81.</mixed-citation>
+        </ref>
+        <ref id="d19e1083a1310">
+          
+            <mixed-citation id="d19e1087" publication-type="other">
+Carr, P., and L. Wu. 2004. Time-changed Levy processes and option pricing. Journal of Financial Economics
+17:113-41.</mixed-citation>
+        </ref>
+        <ref id="d19e1097a1310">
+          
+            <mixed-citation id="d19e1101" publication-type="other">
+—. 2007. Stochastic skew in currency options. Journal of Financial Economics 86:213-47.</mixed-citation>
+        </ref>
+        <ref id="d19e1108a1310">
+          
+            <mixed-citation id="d19e1112" publication-type="other">
+Chabi-Yo, F. 2012. Pricing kernels with stochastic skewness and volatility risk. Management Science 58:624-40.</mixed-citation>
+        </ref>
+        <ref id="d19e1119a1310">
+          
+            <mixed-citation id="d19e1123" publication-type="other">
+Chabi-Yo, F., R. Garcia, and E. Renault. 2008. State dependence can explain the risk aversion puzzle. Review of
+Financial Studies 21:973-1011.</mixed-citation>
+        </ref>
+        <ref id="d19e1134a1310">
+          
+            <mixed-citation id="d19e1138" publication-type="other">
+Chernov, M. 2003. Empirical reverse engineering of the pricing kernel. Journal of Econometrics 116:329—64.</mixed-citation>
+        </ref>
+        <ref id="d19e1145a1310">
+          
+            <mixed-citation id="d19e1149" publication-type="other">
+—. 2007. On the role of risk premia in volatility forecasting. Journal of Business and Economic Statistics
+25:411-26.</mixed-citation>
+        </ref>
+        <ref id="d19e1159a1310">
+          
+            <mixed-citation id="d19e1163" publication-type="other">
+Chernov, M., and E. Ghysels. 2000. A study towards a unified approach to the joint estimation of objective and
+risk neutral measures for the purpose of option valuation. Journal of Financial Economics 56:407-58.</mixed-citation>
+        </ref>
+        <ref id="d19e1173a1310">
+          
+            <mixed-citation id="d19e1177" publication-type="other">
+Christoffersen, P., S. Heston, and K. Jacobs. 2006. Option valuation with conditional skewness. Journal of
+Econometrics 131:253-84.</mixed-citation>
+        </ref>
+        <ref id="d19e1187a1310">
+          
+            <mixed-citation id="d19e1191" publication-type="other">
+—. 2009. The shape and term structure of the index option smirk: Why multifactor stochastic volatility
+models work so well. Management Science 55:1914-32.</mixed-citation>
+        </ref>
+        <ref id="d19e1201a1310">
+          
+            <mixed-citation id="d19e1205" publication-type="other">
+Christoffersen, P., K. Jacobs, C. Ornthanalai, and Y. Wang. 2008. Option valuation with long-run and short-run
+volatility components. Journal of Financial Economics 90:272-97.</mixed-citation>
+        </ref>
+        <ref id="d19e1216a1310">
+          
+            <mixed-citation id="d19e1220" publication-type="other">
+Coval, J., and T. Shumway. 2001. Expected option returns. Journal of Finance 56:983-1009.</mixed-citation>
+        </ref>
+        <ref id="d19e1227a1310">
+          
+            <mixed-citation id="d19e1231" publication-type="other">
+Cox, J., J. Ingersoll, and S. Ross. 1985. An intertemporal general equilibrium model of asset prices. Econometrica
+53:363-84.</mixed-citation>
+        </ref>
+        <ref id="d19e1241a1310">
+          
+            <mixed-citation id="d19e1245" publication-type="other">
+David, A., and P. Veronesi. 2011. Investor and central bank uncertainty and fear measures embedded in index
+options. Working Paper, University of Chicago.</mixed-citation>
+        </ref>
+        <ref id="d19e1255a1310">
+          
+            <mixed-citation id="d19e1259" publication-type="other">
+Day, T., and C. Lewis. 1992. Stock market volatility and the information content of stock index options. Journal
+of Econometrics 52:267-87.</mixed-citation>
+        </ref>
+        <ref id="d19e1269a1310">
+          
+            <mixed-citation id="d19e1273" publication-type="other">
+Driessen, J., and P. Maenhout. 2007. An empirical portfolio perspective on option pricing anomalies. Review of
+Finance 11:561-603.</mixed-citation>
+        </ref>
+        <ref id="d19e1283a1310">
+          
+            <mixed-citation id="d19e1287" publication-type="other">
+Duan, J. 1995. The GARCH option pricing model. Mathematical Finance 5:13-32.</mixed-citation>
+        </ref>
+        <ref id="d19e1295a1310">
+          
+            <mixed-citation id="d19e1299" publication-type="other">
+Duan, J., and J.-G Simonato. 2001. American option pricing under GARCH by a Markov chain approximation.
+Journal of Economic Dynamics and Control 25:1689-718.</mixed-citation>
+        </ref>
+        <ref id="d19e1309a1310">
+          
+            <mixed-citation id="d19e1313" publication-type="other">
+Dumas, B., J. Fleming, and R. Whaley. 1998. Implied volatility functions: Empirical tests. Journal of Finance
+53:2059-106.</mixed-citation>
+        </ref>
+        <ref id="d19e1323a1310">
+          
+            <mixed-citation id="d19e1327" publication-type="other">
+Engle, R. 1982. Autoregressive conditional heteroskedasticity with estimates of the variance of UK inflation.
+Econometrica 50:987-1008.</mixed-citation>
+        </ref>
+        <ref id="d19e1337a1310">
+          
+            <mixed-citation id="d19e1341" publication-type="other">
+Engle, R., and G Lee. 1999. A permanent and transitory component model of stock return volatility. In
+Cointegration, causality, and forecasting: A Festschrift in honor of Clive W. J. Granger. Eds. R. Engle and
+H. White, 475-97. New York: Oxford University Press.</mixed-citation>
+        </ref>
+        <ref id="d19e1354a1310">
+          
+            <mixed-citation id="d19e1358" publication-type="other">
+Eraker, B. 2004. Do stock prices and volatility jump? Reconciling evidence from spot and option prices. Journal
+of Finance 59:1367-403.</mixed-citation>
+        </ref>
+        <ref id="d19e1368a1310">
+          
+            <mixed-citation id="d19e1372" publication-type="other">
+Eraker, B., M. Johannes, and N. Poison. 2003. The role of jumps in returns and volatility. Journal of Finance
+58:1269-300.</mixed-citation>
+        </ref>
+        <ref id="d19e1383a1310">
+          
+            <mixed-citation id="d19e1387" publication-type="other">
+Fleming, J. 1998. The quality of market volatility forecasts implied by S&amp;P 100 index option prices. Journal of
+Empirical Finance 5:317-45.</mixed-citation>
+        </ref>
+        <ref id="d19e1397a1310">
+          
+            <mixed-citation id="d19e1401" publication-type="other">
+Fleming, J., and C. Kirby. 2003. A closer look at the relation between GARCH and stochastic autoregressive
+volatility. Journal of Financial Econometrics 1:365-419.</mixed-citation>
+        </ref>
+        <ref id="d19e1411a1310">
+          
+            <mixed-citation id="d19e1415" publication-type="other">
+Heston, S. 1993. A closed-form solution for options with stochastic volatility with applications to bond and
+currency options. Review of Financial Studies 6:327-43.</mixed-citation>
+        </ref>
+        <ref id="d19e1425a1310">
+          
+            <mixed-citation id="d19e1429" publication-type="other">
+Heston, S., and S. Nandi. 2000. A closed-form GARCH option pricing model. Review of Financial Studies
+13:585-626.</mixed-citation>
+        </ref>
+        <ref id="d19e1439a1310">
+          
+            <mixed-citation id="d19e1443" publication-type="other">
+Huang, J.-Z., and L. Wu. 2004. Specification analysis of option pricing models based on time-changed Levy
+processes. Journal of Finance 59:1405-39.</mixed-citation>
+        </ref>
+        <ref id="d19e1453a1310">
+          
+            <mixed-citation id="d19e1457" publication-type="other">
+Hull, J., and A. White. 1987. The pricing of options with stochastic volatilities. Journal of Finance 42:281-300.</mixed-citation>
+        </ref>
+        <ref id="d19e1465a1310">
+          
+            <mixed-citation id="d19e1469" publication-type="other">
+Jackwerth, J. 2000. Recovering risk aversion from option prices and realized returns. Review of Financial Studies
+13:433-51.</mixed-citation>
+        </ref>
+        <ref id="d19e1479a1310">
+          
+            <mixed-citation id="d19e1483" publication-type="other">
+Jones, C. 2003. The dynamics of stochastic volatility: Evidence from underlying and options markets. Journal
+of Econometrics 116:181-224.</mixed-citation>
+        </ref>
+        <ref id="d19e1493a1310">
+          
+            <mixed-citation id="d19e1497" publication-type="other">
+Jorion, P. 1995. Predicting volatility in the foreign exchange market. Journal of Finance 50:507-28.</mixed-citation>
+        </ref>
+        <ref id="d19e1504a1310">
+          
+            <mixed-citation id="d19e1508" publication-type="other">
+Lamoureux, C., and W. Lastrapes. 1993. Forecasting stock-return variance: Toward an understanding of stochastic
+implied volatilities. Review of Financial Studies 6:293-326.</mixed-citation>
+        </ref>
+        <ref id="d19e1518a1310">
+          
+            <mixed-citation id="d19e1522" publication-type="other">
+Lamoureux, C, and A. Paseka. 2009. Information in option prices and the underlying asset dynamics. Working
+Paper, University of Arizona.</mixed-citation>
+        </ref>
+        <ref id="d19e1532a1310">
+          
+            <mixed-citation id="d19e1536" publication-type="other">
+Liu, J., J. Pan, and T. Wang. 2004. An equilibrium model of rare event premia. Review of Financial Studies
+18:131-64.</mixed-citation>
+        </ref>
+        <ref id="d19e1547a1310">
+          
+            <mixed-citation id="d19e1551" publication-type="other">
+Melino, A., and S. Turnbull. 1990. Pricing foreign currency options with stochastic volatility. Journal of
+Econometrics 45:239-65.</mixed-citation>
+        </ref>
+        <ref id="d19e1561a1310">
+          
+            <mixed-citation id="d19e1565" publication-type="other">
+Pan, J. 2002. The jump-risk premia implicit in options: Evidence from an integrated time-series study. Journal
+of Financial Economics 63:3-50.</mixed-citation>
+        </ref>
+        <ref id="d19e1575a1310">
+          
+            <mixed-citation id="d19e1579" publication-type="other">
+Poteshman, A. 2001. Underreaction, overreaction, and increasing misreaction to information in the options
+market. Journal of Finance 56:851-76.</mixed-citation>
+        </ref>
+        <ref id="d19e1589a1310">
+          
+            <mixed-citation id="d19e1593" publication-type="other">
+Ritchken, P., and R. Trevor. 1999. Pricing options under generalized G ARCH and stochastic volatility processes.
+Journal of Finance 54:377-402.</mixed-citation>
+        </ref>
+        <ref id="d19e1603a1310">
+          
+            <mixed-citation id="d19e1607" publication-type="other">
+Rompolis, L., and E. Tzavalis. 2008. Recovering risk neutral densities from option prices: A new approach.
+Journal of Financial and Quantitative Analysis 43:1037-54.</mixed-citation>
+        </ref>
+        <ref id="d19e1617a1310">
+          
+            <mixed-citation id="d19e1621" publication-type="other">
+Rosenberg, J., and R. Engle. 2002. Empirical pricing kernels. Journal of Financial Economics 64:341-72.</mixed-citation>
+        </ref>
+        <ref id="d19e1629a1310">
+          
+            <mixed-citation id="d19e1633" publication-type="other">
+Rubinstein, M. 1976. The valuation of uncertain income streams and the pricing of options. Bell Journal of
+Economics 7:407-25.</mixed-citation>
+        </ref>
+        <ref id="d19e1643a1310">
+          
+            <mixed-citation id="d19e1647" publication-type="other">
+—. 1994. Implied binomial trees. Journal of Finance 49:771-818.</mixed-citation>
+        </ref>
+        <ref id="d19e1654a1310">
+          
+            <mixed-citation id="d19e1658" publication-type="other">
+Santa-Clara, P., and S. Yan. 2010. Crashes, volatility, and the equity premium. Review of Economics and Statistics
+92:435-51.</mixed-citation>
+        </ref>
+        <ref id="d19e1668a1310">
+          
+            <mixed-citation id="d19e1672" publication-type="other">
+Shive, S., and T. Shumway. 2006. Is the pricing kernel monotonie? Working Paper, Notre Dame University.</mixed-citation>
+        </ref>
+        <ref id="d19e1679a1310">
+          
+            <mixed-citation id="d19e1683" publication-type="other">
+Stein, J. 1989. Overreactions in the options markets. Journal of Finance 44:1011-23.</mixed-citation>
+        </ref>
+        <ref id="d19e1690a1310">
+          
+            <mixed-citation id="d19e1694" publication-type="other">
+Trolle, A., and E. Schwartz. 2009. Unspanned stochastic volatility and the pricing of commodity derivatives.
+Review of Financial Studies 22:4423-61.</mixed-citation>
+        </ref>
+        <ref id="d19e1705a1310">
+          
+            <mixed-citation id="d19e1709" publication-type="other">
+Wiggins, J. 1987. Option values under stochastic volatility: Theory and empirical evidence. Journal of Financial
+Economics 19:351-72.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

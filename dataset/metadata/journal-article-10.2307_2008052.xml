@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">45</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">171</issue>
+         <issue-id>i334589</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008052</article-id>
+         
+         <title-group>
+            <article-title>High-Order Local Rate of Convergence by Mesh-Refinement in the Finite Element Method</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Kenneth</given-names>
+                  <surname>Eriksson</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1985</year>
+         </pub-date>
+         <fpage>109</fpage>
+         <lpage>142</lpage>
+         <page-range>109-142</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1985 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008052"/>
+         
+         
+         <abstract>
+            <p>We seek approximations of the solution $u$ of the Neumann problem for the equation $Lu = f$ in $\Omega$ with special emphasis on high-order accuracy at a given point $x_0 \in \overline \Omega$. Here $\Omega$ is a bounded domain in $R^N (N \geq 2)$ with smooth boundary, and $L$ is a second-order, uniformly elliptic, differential operator with smooth coefficients. An approximate solution $u_h$ is determined by the standard Galerkin method in a space of continuous piecewise polynomials of degree at most $r - 1$ on a partition $\Delta_h(x_0, \alpha)$ of $\Omega$. Here $h$ is a global mesh-size parameter, and $\alpha$ is the degree of a certain systematic refinement of the mesh around the given point $x_0$, where larger $\alpha$'s mean finer mesh, and $\alpha = 0$ corresponds to the quasi-uniform case with no refinement. It is proved that, for suitable (sufficiently large) $\alpha$'s the high-order error estimate $(u - u_h)(x_0) = O(h^{2r - 2})$ holds. A corresponding estimate with the same order of convergence is obtained for the first-order derivatives of $u - u_h$. These estimates are sharp in the sense that the required degree of refinement in each case is essentially the same as is needed for the local approximation to this order near $x_0$. For the estimates to hold, it is sufficient that the exact solution $u$ have derivatives to the $r$th order which are bounded close to $x_0$ and square integrable in the rest of $\Omega$. The proof of this uses high-order negative-norm estimates of $u - u_h$. The number of elements in the considered partitions is of the same order as in the corresponding quasi-uniform ones. Applications of the results to other types of boundary value problems are indicated.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>Finite element method</kwd>
+            <kwd>Galerkin approximation</kwd>
+            <kwd>mesh-refinement</kwd>
+            <kwd>high-order local convergence</kwd>
+            <kwd>Neumann problem</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1094970e142a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1094970e149" publication-type="book">
+R. A. ADAMS, Sobolev Spaces. Academic Press, New York, 1975.<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev Spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e171a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1094970e178" publication-type="journal">
+J. H. BRAMBLE &amp; S. R. HILBERT, "Estimation of linear functionals on Sobolev spaces with
+application to Fourier transforms and spline interpolation," SIAM J. Numer. Anal., 7, 1970, pp. 112-124.<object-id pub-id-type="jstor">10.2307/2949585</object-id>
+               <fpage>112</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e194a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1094970e201" publication-type="journal">
+J. H. BRAMBLE &amp; J. E. OSBORN, "Rate of convergence estimates for nonselfadjoint eigenvalue
+approximations," Math. Comp., v. 27, 1973, pp. 525-549.<object-id pub-id-type="doi">10.2307/2005658</object-id>
+               <fpage>525</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e217a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1094970e224" publication-type="journal">
+J. H. BRAMBLE &amp; A. H. SCHATZ, "Higher order local accuracy by averaging in the finite, element
+method," Math. Comp., v. 31, 1977, pp. 94-111.<object-id pub-id-type="doi">10.2307/2005782</object-id>
+               <fpage>94</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e241a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1094970e248" publication-type="journal">
+K. ERIKSSON, "Improved accuracy by adapted mesh-refinements in the finite element method,"
+Math. Comp., v. 44, 1985, pp. 321-343.<object-id pub-id-type="doi">10.2307/2007955</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e264a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1094970e271" publication-type="journal">
+K. ERIKSSON, "Finite element methods of optimal order for problems with singular data," Math.
+Comp., v. 44, 1985, pp. 345-360.<object-id pub-id-type="doi">10.2307/2007956</object-id>
+               <fpage>345</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e287a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1094970e294" publication-type="book">
+P. G. CIARLET, The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam, 1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e316a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1094970e323" publication-type="journal">
+S. R. HILBERT, "A mollifier useful for approximations in Sobolev spaces and some applications to
+approximating solutions of differential equations," Math. Comp., v. 27, 1973, pp. 81-89.<object-id pub-id-type="doi">10.2307/2005248</object-id>
+               <fpage>81</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e339a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1094970e346" publication-type="journal">
+Ju. P. KRASOVSKIĬ, "Isolation of singularities of the Green's function," Math. USSR-Izv., v. 1,
+1967, pp. 935-966.<person-group>
+                     <string-name>
+                     <surname>Krasovskiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>935</fpage>
+               <volume>1</volume>
+               <source>Math. USSR-Izv.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e378a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1094970e385" publication-type="other">
+A. Louis &amp; F. NATTERER, Acceleration of Convergence for Finite Element Solutions of the Poisson
+Equation on Irregular Meshes, Preprint, 1977.</mixed-citation>
+            </ref>
+            <ref id="d1094970e396a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1094970e403" publication-type="conference">
+J. A. NITSCHE, L∞-Error Analysis for Finite Elements, Proc. 3rd Conf. on Mathematics of Finite
+Elements and Applications, Brunel University, 1978.<person-group>
+                     <string-name>
+                     <surname>Nitsche</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">L∞-Error Analysis for Finite Elements</comment>
+               <source>Proc. 3rd Conf. on Mathematics of Finite Elements and Applications, Brunel University</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e432a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1094970e439" publication-type="journal">
+J. A. NITSCHE &amp; A. H. SCHATZ, "Interior estimates for Ritz-Galerkin methods," Math. Comp., v.
+28, 1974, pp. 937-958.<object-id pub-id-type="doi">10.2307/2005356</object-id>
+               <fpage>937</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e455a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1094970e462" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "Interior maximum norm estimates for finite element methods,"
+Math. Comp., v. 31, 1977, pp. 414-442.<object-id pub-id-type="doi">10.2307/2006424</object-id>
+               <fpage>414</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e478a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1094970e485" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "Maximum norm estimates in the finite element method on plane
+polygonal domains. Part 1," Math. Comp., v. 32, 1978, pp. 73-109.<object-id pub-id-type="doi">10.2307/2006259</object-id>
+               <fpage>73</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e501a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1094970e508" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "Maximum norm estimates in the finite element method on plane
+polygonal domains. Part 2: Refinements," Math. Comp., v. 33, 1979, pp. 465-492.<object-id pub-id-type="doi">10.2307/2006291</object-id>
+               <fpage>465</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e524a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1094970e531" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "On the quasi-optimality in L,,, of the flf-projection into finite
+element spaces," Math. Comp., v. 38, 1982, pp. 1-22.<object-id pub-id-type="doi">10.2307/2007461</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e548a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1094970e555" publication-type="journal">
+M. SCHECHTER, "On LP estimates and regularity. I." Amer. J. Math., v. 85, 1963, pp. 1-13.<person-group>
+                     <string-name>
+                     <surname>Schechter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>85</volume>
+               <source>Amer. J. Math.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e584a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1094970e591" publication-type="journal">
+R. SCHREIBER, "Finite element methods of high-order accuracy for singular two-point boundary
+value problems with nonsmooth solutions," SIAM J. Numer. Anal., v. 17, 1980, pp. 547-566.<object-id pub-id-type="jstor">10.2307/2156911</object-id>
+               <fpage>547</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e607a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1094970e614" publication-type="journal">
+R. SCOTT, "Optimal L., estimates for the finite element method on irregular meshes," Math.
+Comp., v. 30, 1976, pp. 681-697.<object-id pub-id-type="doi">10.2307/2005390</object-id>
+               <fpage>681</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1094970e630a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1094970e637" publication-type="journal">
+V. THOMÉE, "High order local approximations to derivatives in the finite element method," Math.
+Comp., v. 31, 1977, pp. 652-660.<person-group>
+                     <string-name>
+                     <surname>Thomée</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>652</fpage>
+               <volume>31</volume>
+               <source>Math. Comp.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

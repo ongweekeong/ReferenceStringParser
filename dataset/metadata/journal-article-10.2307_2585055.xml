@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">226</issue>
+         <issue-id>i344566</issue-id>
+         <article-id pub-id-type="jstor">2585055</article-id>
+         
+         <title-group>
+            <article-title>The Asymptotic Efficiency of Randomized Nets for Quadrature</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Fred J.</given-names>
+                  <surname>Hickernell</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Hee Sun</given-names>
+                  <surname>Hong</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>767</fpage>
+         <lpage>791</lpage>
+         <page-range>767-791</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585055"/>
+         
+         
+         <abstract>
+            <p>An L&lt;sub&gt;2&lt;/sub&gt;-type discrepancy arises in the average- and worst-case error analyses for multidimensional quadrature rules. This discrepancy is uniquely defined by K(x, y), which serves as the covariance kernel for the space of random functions in the average-case analysis and a reproducing kernel for the space of functions in the worst-case analysis. This article investigates the asymptotic order of the root mean square discrepancy for randomized (0, m, s)-nets in base b. For moderately smooth K(x, y) the discrepancy is O(N&lt;sup&gt;-1&lt;/sup&gt; [log(N)]&lt;sup&gt;(s-1)/2&lt;/sup&gt;), and for K(x, y) with greater smoothness the discrepancy is O(N&lt;sup&gt;-3/2&lt;/sup&gt;[log(N)]&lt;sup&gt;(s-1)/2&lt;/sup&gt;), where N = b&lt;sup&gt;m&lt;/sup&gt; is the number of points in the net. Numerical experiments indicate that the (t, m, s)-nets of Faure, Niederreiter and Sobol' do not necessarily attain the higher order of decay for sufficiently smooth kernels. However, Niederreiter nets may attain the higher order for kernels corresponding to spaces of periodic functions.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01019-4</kwd>
+            <kwd>65D30</kwd>
+            <kwd>65D32</kwd>
+            <kwd>L&lt;sub&gt;2&lt;/sub&gt;-Discrepancy</kwd>
+            <kwd>Multidimensional Integration</kwd>
+            <kwd>(t,m,s)-Nets</kwd>
+            <kwd>Number-Theoretic Nets and Sequences</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1223994e157a1310">
+               <label>AS64</label>
+               
+               <mixed-citation id="d1223994e164" publication-type="book">
+M. Abramowitz and I. A. Stegun (eds.), Handbook of mathematical functions with for-
+mulas, graphs and mathematical tables, U. S. Government Printing Office, Washington,
+DC, 1964. MR 29:4914<person-group>
+                     <string-name>
+                     <surname>Abramowitz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of mathematical functions with formulas, graphs and mathematical tables</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e193a1310">
+               <label>BF88</label>
+               
+               <mixed-citation id="d1223994e200" publication-type="journal">
+P. Bratley and B. L. Fox, Algorithm 659: Implementing Sobol's quasirandom sequence
+generator, ACM Irans. Math. Softw.14 (1988), 88-100.<person-group>
+                     <string-name>
+                     <surname>Bratley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>88</fpage>
+               <volume>14</volume>
+               <source>ACM Irans. Math. Softw.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e232a1310">
+               <label>BFN92</label>
+               
+               <mixed-citation id="d1223994e239" publication-type="journal">
+P. Bratley, B. L. Fox, and H. Niederreiter, Implementation and tests of low-discrepancy
+sequences, ACM Trans. Model. Comput. Simul.2 (1992), 195-213.<person-group>
+                     <string-name>
+                     <surname>Bratley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>195</fpage>
+               <volume>2</volume>
+               <source>ACM Trans. Model. Comput. Simul.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e271a1310">
+               <label>Ent96</label>
+               
+               <mixed-citation id="d1223994e278" publication-type="other">
+K. Entacher, Generalized Haar function systems in the theory of uniform distribution
+modulo one, Ph.D. thesis, University of Salzburg, 1996.</mixed-citation>
+            </ref>
+            <ref id="d1223994e289a1310">
+               <label>Fau82</label>
+               
+               <mixed-citation id="d1223994e296" publication-type="journal">
+H. Faure, Discrepance de suites associees a un systeme de num6ration (en dimension
+s), Acta Arith.41 (1982), 337-351. MR 84m:10050<person-group>
+                     <string-name>
+                     <surname>Faure</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>337</fpage>
+               <volume>41</volume>
+               <source>Acta Arith.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e328a1310">
+               <label>Gen92</label>
+               
+               <mixed-citation id="d1223994e335" publication-type="journal">
+A. Genz, Numerical computation of multivariate normal probabilities, J. Comput.
+Graph. Statist.1 (1992), 141-150.<person-group>
+                     <string-name>
+                     <surname>Genz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>141</fpage>
+               <volume>1</volume>
+               <source>J. Comput. Graph. Statist.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e367a1310">
+               <label>Hic95</label>
+               
+               <mixed-citation id="d1223994e374" publication-type="book">
+F. J. Hickernell, A comparison of random and quasirandom points for multidimen-
+sional quadrature, Monte Carlo and Quasi-Monte Carlo Methods in Scientific Com-
+puting (H. Niederreiter and P. J.-S. Shiue, eds.), Lecture Notes in Statistics, vol. 106,
+Springer-Verlag, New York, 1995, pp. 213-227. MR 97j:65002<person-group>
+                     <string-name>
+                     <surname>Hickernell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A comparison of random and quasirandom points for multidimensional quadrature</comment>
+               <fpage>213</fpage>
+               <volume>106</volume>
+               <source>Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e415a1310">
+               <label>Hic96a</label>
+               
+               <mixed-citation id="d1223994e422" publication-type="journal">
+F. J. Hickernell, The mean square discrepancy of randomized nets, ACM Trans. Model.
+Comput. Simul.6 (1996), 274-296.<person-group>
+                     <string-name>
+                     <surname>Hickernell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>274</fpage>
+               <volume>6</volume>
+               <source>ACM Trans. Model. Comput. Simul.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e454a1310">
+               <label>Hic96b</label>
+               
+               <mixed-citation id="d1223994e461" publication-type="journal">
+F. J. Hickernell, Quadrature error bounds with applications to lattice rules, SIAM J.
+Numer. Anal.33 (1996), 1995-2016. MR 97m:65050<object-id pub-id-type="jstor">10.2307/2158341</object-id>
+               <fpage>1995</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e477a1310">
+               <label>Hic98</label>
+               
+               <mixed-citation id="d1223994e484" publication-type="journal">
+F. J. Hickernell, A generalized discrepancy and quadrature error bound, Math. Comp.
+67 (1998), 299-322. MR 98c:65032<object-id pub-id-type="jstor">10.2307/2584985</object-id>
+               <fpage>299</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e501a1310">
+               <label>HW81</label>
+               
+               <mixed-citation id="d1223994e508" publication-type="book">
+L. K. Hua and Y. Wang, Applications of number theory to numerical analysis, Springer-
+Verlag, Berlin, and Science Press, Beijing, 1981. MR 83g:10034<person-group>
+                     <string-name>
+                     <surname>Hua</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applications of number theory to numerical analysis</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e533a1310">
+               <label>LSW94</label>
+               
+               <mixed-citation id="d1223994e540" publication-type="journal">
+G. Larcher, W. Ch. Schmid, and R. Wolf, Representation of functions as Walsh series
+to different bases and an application to the numerical integration of high-dimensional
+Walsh series., Math. Comp.63 (1994), 701-716. MR 95a:65045<object-id pub-id-type="doi">10.2307/2153290</object-id>
+               <fpage>701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e559a1310">
+               <label>LT94</label>
+               
+               <mixed-citation id="d1223994e566" publication-type="journal">
+G. Larcher and C. IYaunfellner, On the numerical integration of Walsh series by
+number-theoretic methods, Math. Comp.63 (1994), 277-291. MR 94j:65030<object-id pub-id-type="doi">10.2307/2153574</object-id>
+               <fpage>277</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e582a1310">
+               <label>MC94</label>
+               
+               <mixed-citation id="d1223994e589" publication-type="journal">
+W. J. Morokoff and R. E. Caflisch, Quasi-random sequences and their discrepancies,
+SIAM J. Sci. Comput.15 (1994), 1251-1279. MR 95e:65009<person-group>
+                     <string-name>
+                     <surname>Morokoff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1251</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e621a1310">
+               <label>Nie92</label>
+               
+               <mixed-citation id="d1223994e628" publication-type="book">
+H. Niederreiter, Random number generation and quasi-Monte Carlo methods, SIAM,
+Philadelphia, 1992. MR 93h:65008<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random number generation and quasi-Monte Carlo methods</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e653a1310">
+               <label>Owe95</label>
+               
+               <mixed-citation id="d1223994e660" publication-type="book">
+A. B. Owen, Randomly permuted (t, m, s)-nets and (t, s)-sequences, Monte Carlo and
+Quasi-Monte Carlo Methods in Scientific Computing (H. Niederreiter and P. J.-S. Shiue,
+eds.), Lecture Notes in Statistics, vol. 106, Springer-Verlag, New York, 1995, pp. 299-
+317. MR 97k:65013<person-group>
+                     <string-name>
+                     <surname>Owen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Randomly permuted (t, m, s)-nets and (t, s)-sequences</comment>
+               <fpage>299</fpage>
+               <volume>106</volume>
+               <source>Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e702a1310">
+               <label>Owe97a</label>
+               
+               <mixed-citation id="d1223994e709" publication-type="journal">
+A. B. Owen, Monte Carlo variance of scrambled equidistribution quadrature, SIAM J.
+Numer. Anal.34 (1997), 1884-1910. CMP 98:01<object-id pub-id-type="jstor">10.2307/2952022</object-id>
+               <fpage>1884</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e725a1310">
+               <label>Owe97b</label>
+               
+               <mixed-citation id="d1223994e732" publication-type="journal">
+A. B. Owen, Scrambled net variance for integrals of smooth functions, Ann. Stat.25
+(1997), 1541-1562. CMP 97:16<object-id pub-id-type="jstor">10.2307/2959062</object-id>
+               <fpage>1541</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e748a1310">
+               <label>Rit95</label>
+               
+               <mixed-citation id="d1223994e755" publication-type="other">
+K. Ritter, Average case analysis of numerical problems, Ph.D. thesis, Universität
+Erlangen-Nürnberg, Erlangen, Germany, 1995.</mixed-citation>
+            </ref>
+            <ref id="d1223994e765a1310">
+               <label>Sai88</label>
+               
+               <mixed-citation id="d1223994e772" publication-type="book">
+S. Saitoh, Theory of reproducing kernels and its applications, Longman Scientific &amp;
+Technical, Essex, England, 1988. MR 90f:46045<person-group>
+                     <string-name>
+                     <surname>Saitoh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of reproducing kernels and its applications</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e797a1310">
+               <label>SJ94</label>
+               
+               <mixed-citation id="d1223994e804" publication-type="book">
+I. H. Sloan and S. Joe, Lattice methods for multiple integration, Oxford University
+Press, Oxford, 1994. MR 98a:65026<person-group>
+                     <string-name>
+                     <surname>Sloan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lattice methods for multiple integration</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e829a1310">
+               <label>Ton90</label>
+               
+               <mixed-citation id="d1223994e836" publication-type="book">
+Y. L. Tong, The multivariate normal distribution, Springer-Verlag, New York, 1990.
+MR 91g:60021<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <source>The multivariate normal distribution</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e862a1310">
+               <label>Wah90</label>
+               
+               <mixed-citation id="d1223994e869" publication-type="book">
+G. Wahba, Spline models for observational data, SIAM, Philadelphia, 1990. MR
+91g:62028<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spline models for observational data</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e894a1310">
+               <label>Was93</label>
+               
+               <mixed-citation id="d1223994e901" publication-type="journal">
+G. W. Wasilkowski, Integration and approximation of multivariate functions: Average
+case complexity with isotropic Wiener measure, Bull. Amer. Math. Soc.28 (1993),
+308-314. MR 93i:65136<person-group>
+                     <string-name>
+                     <surname>Wasilkowski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>308</fpage>
+               <volume>28</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e936a1310">
+               <label>Woź91</label>
+               
+               <mixed-citation id="d1223994e943" publication-type="journal">
+H. Woźniakowski, Average case complexity of multivariate integration, Bull. Amer.
+Math. Soc.24 (1991), 185-194. MR 91i:65224<person-group>
+                     <string-name>
+                     <surname>Woźniakowski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>185</fpage>
+               <volume>24</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223994e975a1310">
+               <label>Zar68</label>
+               
+               <mixed-citation id="d1223994e982" publication-type="journal">
+S. K. Zaremba, Some applications of multidimensional integration by parts, Ann. Polon.
+Math.21 (1968), 85-96. MR 38:4034<person-group>
+                     <string-name>
+                     <surname>Zaremba</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>85</fpage>
+               <volume>21</volume>
+               <source>Ann. Polon. Math.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

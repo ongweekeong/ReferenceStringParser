@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">223</issue>
+         <issue-id>i344563</issue-id>
+         <article-id pub-id-type="jstor">2585163</article-id>
+         
+         <title-group>
+            <article-title>A Negative-Norm Least Squares Method for Reissner-Mindlin Plates</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James H.</given-names>
+                  <surname>Bramble</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Tong</given-names>
+                  <surname>Sun</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>901</fpage>
+         <lpage>916</lpage>
+         <page-range>901-916</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585163"/>
+         
+         
+         <abstract>
+            <p>In this paper a least squares method, using the minus one norm developed by Bramble, Lazarov, and Pasciak, is introduced to approximate the solution of the Reissner-Mindlin plate problem with small parameter t, the thickness of the plate. The reformulation of Brezzi and Fortin is employed to prevent locking. Taking advantage of the least squares approach, we use only continuous finite elements for all the unknowns. In particular, we may use continuous linear finite elements. The difficulty of satisfying the inf-sup condition is overcome by the introduction of a stabilization term into the least squares bilinear form, which is very cheap computationally. It is proved that the error of the discrete solution is optimal with respect to regularity and uniform with respect to the parameter t. Apart from the simplicity of the elements, the stability theorem gives a natural block diagonal preconditioner of the resulting least squares system. For each diagonal block, one only needs a preconditioner for a second order elliptic problem.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00972-7</kwd>
+            <kwd>65N30</kwd>
+            <kwd>73V05</kwd>
+            <kwd>65F10</kwd>
+            <kwd>Plate</kwd>
+            <kwd>Locking</kwd>
+            <kwd>Least Squares</kwd>
+            <kwd>Finite Element</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1291835e160a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1291835e167" publication-type="journal">
+D. Arnold and R. Falk, A uniformly accurate finite element method for the Reissner-Mindlin
+plate, SIAM J. Numer. Anal.26 (1989), pp. 1276-1290. MR 91c:65068<object-id pub-id-type="jstor">10.2307/2157739</object-id>
+               <fpage>1276</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e183a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1291835e190" publication-type="journal">
+D. Arnold and R. Falk, Analysis of a linear-linear finite element for the Reissner-Mindlin
+plate model, Math. Models and Methods in Applied Sciences, 7 (1997), pp. 217-238. MR
+98b:73034<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>7</volume>
+               <source>Math. Models and Methods in Applied Sciences</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e225a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1291835e232" publication-type="journal">
+D. Arnold, R. Falk and R. Winther, Preconditioning in H(div) and applications, Math. Comp.
+66 (1997), pp. 957-984. MR 97i:65177<object-id pub-id-type="jstor">10.2307/2153753</object-id>
+               <fpage>957</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e248a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1291835e255" publication-type="journal">
+D. Arnold, R. Falk and R. Winther, Preconditioning discrete approximations of the Reissner-
+Mindlin plate model, RAIRO Modél. Math. Anal. Numér.31 (1997), pp. 517-557. CMP 97:15<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>517</fpage>
+               <volume>31</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e288a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1291835e295" publication-type="book">
+J. Bramble, Multigrid Methods, Pitman Research Notes in Mathematics Series, Longman
+Scientific &amp; Technical, London. Copublished with Johh Wiley &amp; Sons, Inc., New York, 1993.
+MR 95b:65002<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid Methods</comment>
+               <source>Pitman Research Notes in Mathematics Series</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e327a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1291835e334" publication-type="journal">
+J. Bramble, R. Lazarov and J. Pasciak, A least-square approach based on a discrete minus one
+inner product for first order systems, Math. Comp., 66 (1997), pp. 935-955. MR 97m:65202<object-id pub-id-type="jstor">10.2307/2153752</object-id>
+               <fpage>935</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e350a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1291835e357" publication-type="journal">
+J. Bramble and J. Pasciak, Least-squares methods for Stokes equations based on a discrete
+minus one inner product, J. Comp. Appl. Math., 74 (1996), pp. 155-173. CMP 97:07<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>74</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e389a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1291835e396" publication-type="journal">
+J. Bramble and J. Pasciak, New convergence estimates for multigrid algorithms, Math. Comp.
+49(1987), pp. 311-329. MR 89b:65234<object-id pub-id-type="doi">10.2307/2008314</object-id>
+               <fpage>311</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e412a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1291835e419" publication-type="journal">
+S. Brenner, Multigrid methods for parameter dependent problems, RAIRO Modél. Math. Anal.
+Numér.30 (1996), pp. 265-297. MR 97c:73076<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>30</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e451a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1291835e458" publication-type="book">
+S. Brenner and L. Scott, The Mathematical Theory of Finite Element Methods, Springer-
+Verlag, 1994. MR 95f:65001<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Mathematical Theory of Finite Element Methods</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e484a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1291835e491" publication-type="journal">
+F. Brezzi and M. Fortin, Numerical approximation of Mindlin-Reissner plate, Math. Comp.
+47 (1986), pp. 151-158. MR 87g:73057<object-id pub-id-type="doi">10.2307/2008086</object-id>
+               <fpage>151</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e507a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1291835e514" publication-type="journal">
+F. Brezzi, M. Fortin and R. Stenberg, Error analysis of mixed-interpolated elements for
+Reissner-Mindlin plates, Math. Models and Methods in Applied Sciences, 1 (1991), pp. 125-
+151. MR 92e:73030<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>125</fpage>
+               <volume>1</volume>
+               <source>Math. Models and Methods in Applied Sciences</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e549a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1291835e556" publication-type="journal">
+R. Duran and E. Liberman, On mixed finite element methods for Reissner-Mindlin plate
+models, Math. Comp., 58 (1992), pp. 561-573. MR 92f:65135<object-id pub-id-type="doi">10.2307/2153202</object-id>
+               <fpage>561</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e572a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1291835e579" publication-type="journal">
+T. Hughes and L. Franca, A stable bilinear element formulation for Reissner-Mindlin plate
+theory: Uniform convergence of all higher-order spaces, Comp. Meths. Appl. Mech. Engrg.,
+67 (1988), pp. 223-240. MR 89g:73033<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>67</volume>
+               <source>Comp. Meths. Appl. Mech. Engrg.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e614a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1291835e621" publication-type="journal">
+E. Onate, F. Zarate and F. Flores, A simple triangular element for thick and thin plate and
+shell analysis, Int. J. Numer. Method. Engrg., 37 (1994), pp. 2569-2582.<person-group>
+                     <string-name>
+                     <surname>Onate</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2569</fpage>
+               <volume>37</volume>
+               <source>Int. J. Numer. Method. Engrg.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e653a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1291835e660" publication-type="journal">
+P. Peisker, A multigrid method for Reissner-Mindlin plates, Numer. Math., 59 (1991), 511-
+528. MR 92g:73083<person-group>
+                     <string-name>
+                     <surname>Peisker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>511</fpage>
+               <volume>59</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e693a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1291835e700" publication-type="book">
+V. Girault and P. Raviart, Finite element approximation of the Navier-Stokes equations.
+Lecture Notes in Math. #749, Springer-Verlag, New York, 1981. MR 83b:65122<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element approximation of the Navier-Stokes equations</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291835e725a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1291835e732" publication-type="conference">
+R. Stenberg, A new finite element formulation for the plate bending problem, Proceedings
+of the International Conference on Asymptotic Methods for Elastic Structures, Lisbon, 1993.
+MR 96k:73084<person-group>
+                     <string-name>
+                     <surname>Stenberg</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new finite element formulation for the plate bending problem</comment>
+               <source>Proceedings of the International Conference on Asymptotic Methods for Elastic Structures, Lisbon</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

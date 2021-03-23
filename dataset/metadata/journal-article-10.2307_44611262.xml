@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">101</volume>
+         <issue-id>i40192725</issue-id>
+         <article-id pub-id-type="jstor">44611262</article-id>
+         <title-group>
+            <article-title>Multidimensional Port-and-Cylinder Gas Flow, Fuel Spray, and Combustion Calculations for a Port-Fuel-Injection Engine</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Tang-Wei</given-names>
+                  <surname>Kuo</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>912</fpage>
+         <lpage>941</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 1993 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44611262"/>
+      
+      
+         <abstract>
+            <p>An existing multidimensional in-cylinder flow code, KIVA, was modified to conduct port-and-cylinder gas flow, fuel spray, and combustion calculations in a port-fuel-injection engine. The effect of a moving valve with a stem was modeled using a novel internal obstacle technique in which the valve was represented by a group of discrete computational particles. Previously developed spray and combustion models were used to simulate fuel injection and combustion processes for a solidcone shaped, pressure-atomized spray with isooctane as the fuel. The spray model was further modified to handle interactions between the spray drops and the valve. The model was applied to a generic port-fuel-injection engine with variations in port orientation, spray cone angle, and valve configuration (without and with a 180-degree shroud). Calculation results for gas flow, fuel spray, and combustion indicated that the effect of a moving valve was modeled adequately using the new internal obstacle treatment technique. In particular, the proposed spray/valve interaction submodel seems to handle the impingement process between the spray drops and the valve quite well. The results also indicated that the spray cone angle and valve shroud had strong influences on the time history of injected fuel that enters the cylinder before intake valve closing and on the distribution of fuel-air mixture in the cylinder at the time of the spark. For excessive spray/valve and/or spray/port wall impingement, the amount of presentcycle-injected fuel entering the cylinder can be greatly reduced. Engines with port-fuel-injection (PFI) systems have become popular as a means of improving vehicle performance through faster response and higher specific output and for improving exhaust emission control [1]. The combustion process in PFI engines is known to be affected strongly by fuel-air mixing, which is governed by the gas flow and fuel-injection processes. The complex and transient nature of these processes, however, makes it extremely difficult to fully understand the performance and emissions characteristics of these engines [2-7]. Those engine parameters that are known to affect the gas flow and fuel injection processes of the PFI system include: port and valve configurations, combustion chamber shape, injector tip location, injection timing, spray cone angle and targeting, spray momentum and drop size. The overall performance of the engine is the net result of these complex interactions. Thus, capability to isolate individual parameter effects on engine performance is clearly needed for better PFI system design. Furthermore, there is current interest in engines that operate on alternate fuels such as methanol. The lower energy content per unit mass and higher latent heat of vaporization of methanol could add additional difficulties in applying alternate fuels to PFI engines. In particular, very different ignition requirements and/or delicate control of the combustion process may be needed as a result of its slow fuel evaporation. In a previous study [8], General Motors Research Laboratories' (GMR) version of the multidimensional in-cylinder flow code, KIVA, was modified to calculate gas flow and fuel spray in an engine intake port. The code was further modified to conduct port-and-cylinder gas flow and fuel injection calculations in a generic port-fuel-injection engine with a moving valve [9]. The ability to make port-and-cylinder gas flow calculations with a moving valve is essential from a model validation standpoint. For instance, accurate assessment of various submodels is difficult if an assumed flow field is needed at intake valve closing to start the calculation. Furthermore, coupling the cylinder calculation with the valve/port calculation enables us to systematically examine parameters that are known to simultaneously affect the gas flow and fuel injection processes of the PFI engine. Thus, the objective of this work was to apply the model for a generic portfuel-injection engine to illustrate the detailed information and understanding the model can provide regarding gas flow, fuel spray, and combustion processes in the port and cylinder of the PFI engine during the intake, compression, and expansion strokes. A parametric study was also made with variations in port orientation, spray cone angle and valve configuration (without and with a 180-degree shroud) to further demonstrate the model's capability. This paper is organized as follows. First, the port and cylinder geometries are described. Then, details are given of the flow, turbulence, valve, spray, ignition, and combustion submodels including the initial and boundary conditions. Finally, the results of three calculations with variations in port orientation, spray cone angle, and valve configuration are discussed which represent a parametric study of the model performance.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d162e352a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d162e359" publication-type="other">
+World engines 1990, WARD Engine
+Update, 1990.</mixed-citation>
+        </ref>
+        <ref id="d162e369a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d162e376" publication-type="other">
+Kosowski, M. G., "Soot Formation in a
+Multipoint-Fuel-Injected Spark-Ignited
+Engine," SAE Trans. Vol. 94, Section
+2, pp. 789-796, 1985.</mixed-citation>
+        </ref>
+        <ref id="d162e392a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d162e399" publication-type="other">
+Bandel, W., Fraidl, G. K., Mikulic, L.
+A., Quissek, F. and Carstensen, H.,
+"Investigation of Mixture Preparation
+and Charge Motion Effects on the Com-
+bustion of Fast-Burn Gasoline
+Engines," SAE Paper No. 890160, 1989.</mixed-citation>
+        </ref>
+        <ref id="d162e422a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d162e429" publication-type="other">
+Quader, A. A., "How Injector, Engine,
+and Fuel Variables Impact Smoke and
+Hydrocarbon Emissions with Port Fuel
+Injection," SAE Paper No. 890623,
+1989.</mixed-citation>
+        </ref>
+        <ref id="d162e449a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d162e456" publication-type="other">
+Takemura, J., Sanbuyashi, D. and Ando,
+H., "Effect of Turbulence in Intake
+Port of MPI Engine on Fuel Transport
+Phenomena and Nonuniformity of Fuel/
+Air Mixing in Cylinder," SAE Paper
+No. 900162, 1990.</mixed-citation>
+        </ref>
+        <ref id="d162e479a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d162e486" publication-type="other">
+Kadota, T., Mizutani, S., Wu, C.-Y.
+and Hoshiro, M., "Fuel Droplet Size
+Measurements in the Combustion Chamber
+of a Motored SI Engine via Laser Mie
+Scattering," SAE Paper No. 900477,
+1990.</mixed-citation>
+        </ref>
+        <ref id="d162e509a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d162e516" publication-type="other">
+Kadota, T., Zhao, F.-Q. and Miyoshi,
+K., "Rayleigh Scattering Measurements
+of Transient Fuel Vapor Consentration
+in a Motored Spark Ignition Engine,"
+SAE Paper No. 900481, 1990.</mixed-citation>
+        </ref>
+        <ref id="d162e535a1310">
+            <label>8</label>
+          
+          
+            <mixed-citation id="d162e544" publication-type="other">
+Kuo, Tang -Wei and Chang, Shengming,
+"Three-Dimensional Computations of
+Flow and Fuel Injection in an Engine
+Intake Port," ASME Trans., Journal of
+Engineering for Gas Turbines and
+Power, Vol. 113, No. 3, pp. 427-432,
+1991.</mixed-citation>
+        </ref>
+        <ref id="d162e570a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d162e577" publication-type="other">
+Kuo, Tang-Wei, "Three-Dimensional
+Port -and -Cylinder Gas Flow and Fuel-
+Injection Calculations for a Port-
+Fuel-Injection Engine," Society of
+Engineering Science Preprint
+ESP28-91043, 1991.</mixed-citation>
+        </ref>
+        <ref id="d162e600a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d162e607" publication-type="other">
+Amsden, A. A., Ramshaw, J. D.,
+O'Rourke, P. J. and Dukowicz, J. K.,
+"KIVA: A Computer Program for Two-and
+Three-Dimensional Fluid Flows with
+Chemical Reactions and Fuel Sprays,"
+LA-10245-MS, Los Alamos National Labo-
+ratories, February 1985.</mixed-citation>
+        </ref>
+        <ref id="d162e634a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d162e641" publication-type="other">
+Amsden, A. A., Ramshaw, J. D., Clout-
+man, L. D. and O'Rourke, P. J.,
+"Improvements and Extensions to the
+KIVA Computer Program," LA-10534-MS,
+Los Alamos National Laboratories,
+October 1985.</mixed-citation>
+        </ref>
+        <ref id="d162e664a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d162e671" publication-type="other">
+El Tahry, S. H., "The k-e Equations in
+Compressible Flows," Journal of
+Energy, Vol. 7, No. 4, pp. 345-353,
+1983.</mixed-citation>
+        </ref>
+        <ref id="d162e687a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d162e694" publication-type="other">
+Duggal, V. K., Kuo, Tang-Wei, Muker-
+jee, T., Prezekwas, A. J., and Sin-
+ghal, A. K., "Three-Dimensional Model-
+ing of In-Cylinder Processes in D.I.
+Diesel Engines," SAE Trans. Vol. 93,
+Section 2, pp. 30-43, 1984.</mixed-citation>
+        </ref>
+        <ref id="d162e717a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d162e724" publication-type="other">
+O'Rourke, P. J. and Amsden, A. A.,
+"Three Dimensional Numerical Simula-
+tions of the UPS-292 Stratified Charge
+Engine," SAE Trans. Vol. 96, Recipro-
+cating engines -Spark Ignition and
+Diesel, pp. 710-727, 1987.</mixed-citation>
+        </ref>
+        <ref id="d162e747a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d162e754" publication-type="other">
+Kuo, Tang-Wei and Yu, R. C., "Modeling
+of Transient Evaporating Spray Mixing
+Processes -Effect of Injection Char-
+acteristics," SAE Trans. Vol. 93, Sec-
+tion 2, pp. 16-29, 1984.</mixed-citation>
+        </ref>
+        <ref id="d162e773a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d162e780" publication-type="other">
+Reitz, R. D., "Modeling Atomization
+Processes in High-Pressure Vaporizing
+Sprays," Atomization and Spray Tech-
+nology, Vol. 3, pp. 309-337, 1988.</mixed-citation>
+        </ref>
+        <ref id="d162e797a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d162e804" publication-type="other">
+Naber, J. D. and Reitz, R. D., "Model-
+ing Engine Spray /Wall Impingement,"
+SAE Paper No. 880107, 1988.</mixed-citation>
+        </ref>
+        <ref id="d162e817a1310">
+            <label>18</label>
+          
+          
+            <mixed-citation id="d162e826" publication-type="other">
+Najt, P. M. and Kuo, Tang-Wei, "An
+Experimental and Computational Evalua-
+tion of Two Dual-Intake-Valve Combus-
+tion Chambers," SAE Paper No. 902140,
+1990.</mixed-citation>
+        </ref>
+        <ref id="d162e845a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d162e852" publication-type="other">
+Kuo, Tang-Wei and Reitz, R. D., "Com-
+putation of Premixed-Charge Combustion
+in Pancake and Pent-Roof Engines," SAE
+Paper No. 890670, 1989.</mixed-citation>
+        </ref>
+        <ref id="d162e868a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d162e875" publication-type="other">
+Metghalchi, M. and Keck, J., "Burning
+Velocities of Mixtures of Air with
+Methanol, Isooctane, and Indolene at
+High Pressure and Temperature," Com-
+bustion and Flame, Vol. 48,
+pp. 191-210, 1982.</mixed-citation>
+        </ref>
+        <ref id="d162e898a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d162e905" publication-type="other">
+Kuo, Tang-Wei, "What Causes Slower
+Flame Propagation in the Lean-Combus-
+tion Engine?" ASME Trans., Journal of
+Engineering for Gas Turbines and
+Power, Vol. 112, No. 3, pp. 348-356,
+1990.</mixed-citation>
+        </ref>
+        <ref id="d162e928a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d162e935" publication-type="other">
+Reitz, R. D. and Kuo, Tang-Wei,
+"Modeling of HC Emissions due to Crev-
+ice Flows in Premixed-Charge Engines,"
+SAE Paper No. 892085, 1989.</mixed-citation>
+        </ref>
+        <ref id="d162e952a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d162e959" publication-type="other">
+Lienesch, J. H., "Engine Simulation
+Identifies Optimum Combustion Chamber
+Design," Paper No. 80.4.4.7, 18th
+FISITA Congress, 1980.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">64</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">212</issue>
+         <issue-id>i337668</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153369</article-id>
+         
+         <title-group>
+            <article-title>Average-Case Optimality of a Hybrid Secant-Bisection Method</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Erich</given-names>
+                  <surname>Novak</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Klaus</given-names>
+                  <surname>Ritter</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Henryk</given-names>
+                     <surname>Woźniakowski</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>1517</fpage>
+         <lpage>1539</lpage>
+         <page-range>1517-1539</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1995 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153369"/>
+         
+         
+         <abstract>
+            <p>We present an average-case complexity analysis for the zerofinding problem for functions from &lt;tex-math&gt;$C^r(\lbrack0, 1\rbrack), r \geq 2$&lt;/tex-math&gt;, which change sign at the endpoints. This class of functions is equipped with a conditional r-folded Wiener measure. We prove that the average-case complexity of computing an ε-approximation is of order log log(1/ε), and that a hybrid secant-bisection method with a suitable adaptive stopping rule is almost optimal. This method uses only function evaluations. We stress that the adaptive stopping rule is crucial. If one uses a nonadaptive stopping rule, then the cost has to be of order log(1/ε). Hence, the adaptive stopping rule is exponentially more powerful than arbitrary nonadaptive stopping rules. Our algorithm is a slightly simplified version of the hyrbrid methods proposed by Dekker in 1969 and Bus and Dekker in 1975. These algorithms are still considered as "the best algorithms for zerofinding" by Kahaner, Moler, and Nash in their book on numerical methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65H05</kwd>
+            <kwd>68Q25</kwd>
+            <kwd>Zerofinding</kwd>
+            <kwd>hybrid secant-bisection method</kwd>
+            <kwd>hybrid Newton-bisection method</kwd>
+            <kwd>average-case complexity</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d2049126e190a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2049126e197" publication-type="journal">
+G. Alefeld, F. A. Potra, and Yixun Shi, On enclosing simple roots of nonlinear equations,
+Math. of Comp.61 (1993), 733-744.<person-group>
+                     <string-name>
+                     <surname>Alefeld</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>733</fpage>
+               <volume>61</volume>
+               <source>Math. of Comp.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e229a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2049126e236" publication-type="journal">
+J. C. P. Bus and T. J. Dekker, Two efficient algorithms with guaranteed convergence for
+finding a zero of a function, ACM Trans. Math. Software1 (1975), 330-345.<person-group>
+                     <string-name>
+                     <surname>Bus</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>330</fpage>
+               <volume>1</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e268a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2049126e275" publication-type="book">
+T. J. Dekker, Finding a zero by means of successive linear interpolation, Constructive
+Aspects of the Fundamental Theorem of Algebra (B. Dejon and P. Henrici, eds.),
+Wiley-Interscience, New York, 1969.<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finding a zero by means of successive linear interpolation</comment>
+               <source>Constructive Aspects of the Fundamental Theorem of Algebra</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e307a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2049126e314" publication-type="book">
+D. Kahaner, C. Moler, and S. Nash, Numerical methods and software, Prentice-Hall, Engle-
+wood Cliffs, NJ, 1989.<person-group>
+                     <string-name>
+                     <surname>Kahaner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical methods and software</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e340a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2049126e347" publication-type="journal">
+L. V. Kantorovich, Functional analysis and applied mathematics (in Russian), Uspekhi
+Mat. Nauk3 (1948), 89-185.<person-group>
+                     <string-name>
+                     <surname>Kantorovich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>89</fpage>
+               <volume>3</volume>
+               <source>Uspekhi Mat. Nauk</source>
+               <year>1948</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e379a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2049126e386" publication-type="book">
+M. Ledoux and M. Talagrand, Probability in Banach spaces, Springer-Verlag, Berlin, 1991.<person-group>
+                     <string-name>
+                     <surname>Ledoux</surname>
+                  </string-name>
+                  </person-group>
+               <source>Probability in Banach spaces</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e408a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2049126e415" publication-type="journal">
+E. Novak and K. Ritter, Some complexity results for zero finding for univariate functions, J.
+Complexity9 (1993), 15-40.<person-group>
+                     <string-name>
+                     <surname>Novak</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>15</fpage>
+               <volume>9</volume>
+               <source>J. Complexity</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e447a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2049126e454" publication-type="book">
+J. M. Ortega and W. C. Rheinboldt, Iterative solution of nonlinear equations in several
+variables, Academic Press, New York, 1970.<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative solution of nonlinear equations in several variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e479a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2049126e486" publication-type="book">
+A. M. Ostrowski, Solution of equations in Euclidean and Banach spaces, Academic Press,
+New York, 1973.<person-group>
+                     <string-name>
+                     <surname>Ostrowski</surname>
+                  </string-name>
+                  </person-group>
+               <source>Solution of equations in Euclidean and Banach spaces</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e511a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2049126e518" publication-type="journal">
+K. Ritter, Average errors for zero finding lower bounds for smooth or monotone functions,
+Aequationes Math.48 (1994), 194-219.<person-group>
+                     <string-name>
+                     <surname>Ritter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>194</fpage>
+               <volume>48</volume>
+               <source>Aequationes Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e551a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2049126e558" publication-type="journal">
+J. Sacks and D. Ylvisaker, Designs for regression problems with correlated errors III, Ann.
+Math. Statist.41 (1970), 2057-2074.<person-group>
+                     <string-name>
+                     <surname>Sacks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2057</fpage>
+               <volume>41</volume>
+               <source>Ann. Math. Statist.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e590a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2049126e597" publication-type="journal">
+K. Sikorski, Optimal solution for nonlinear equations, J. Complexity1 (1985), 197-209.<person-group>
+                     <string-name>
+                     <surname>Sikorski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>1</volume>
+               <source>J. Complexity</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e626a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2049126e633" publication-type="book">
+J. F. Traub, Iterative methods for the solution of equations, Prentice-Hall, Englewood Cliffs,
+NJ, 1964.<person-group>
+                     <string-name>
+                     <surname>Traub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative methods for the solution of equations</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2049126e658a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2049126e665" publication-type="journal">
+G. W. Wasilkowski, Information of varying cardinality, J. Complexity2 (1986), 204-228.<person-group>
+                     <string-name>
+                     <surname>Wasilkowski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>204</fpage>
+               <volume>2</volume>
+               <source>J. Complexity</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260287</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390621</article-id>
+         
+         <title-group>
+            <article-title>Robust Frequency Estimation Using Elemental Sets</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Gordon K.</given-names>
+                  <surname>Smyth</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Douglas M.</given-names>
+                  <surname>Hawkins</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>196</fpage>
+         <lpage>214</lpage>
+         <page-range>196-214</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390621"/>
+         
+         
+         <abstract>
+            <p>The extraction of sinusoidal signals from time-series data is a classic problem of ongoing interest in the statistics and signal processing literatures. Obtaining least squares estimates is difficult because the sum of squares has local minima O(1/n) apart in the frequencies. In practice the frequencies are often estimated using ad hoc and inefficient methods. Problems of data quality have received little attention. An elemental set is a subset of the data containing the minimum number of points such that the unknown parameters in the model can be identified. This article shows that, using a variant of the classical method of Prony, parameter estimates for a sum of sinusoids can be obtained algebraically from an elemental set. Elemental set methods are used to construct finite algorithm estimators that approximately minimize the least squares, least trimmed sum of squares, or least median of squares criteria. The elemental set estimators prove able in simulations to resolve the frequencies to the correct local minima of the objective functions. When used as the first stage of an MM estimator, the constructed estimators based on the trimmed sum of squares and least median of squares criteria produce final estimators which have high breakdown properties and which are simultaneously efficient when no outliers are present. The approach can also be applied to sums of exponentials, and sums of damped sinusoids. The article includes simulations with one and two sinusoids and two data examples.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>High breakdown</kwd>
+            <kwd>High efficiency</kwd>
+            <kwd>Least median of squares</kwd>
+            <kwd>Least trimmed sum of squares</kwd>
+            <kwd>MM estimators</kwd>
+            <kwd>Sums of exponential functions</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3199742e154a1310">
+               
+               <mixed-citation id="d3199742e158" publication-type="book">
+Andrews, D.F., and Herzberg, A.M. (1985), Data. A Collection of Problems From Many Fields for the Student
+and Research Worker, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Andrews</surname>
+                  </string-name>
+                  </person-group>
+               <source>Data. A Collection of Problems From Many Fields for the Student and Research Worker</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e183a1310">
+               
+               <mixed-citation id="d3199742e187" publication-type="book">
+Atkinson, A.C., and Weisberg, S. (1991), "Simulated Annealing for the Detection of Multiple Outliers Using
+Least Squares and Least Median of Squares Fitting," in Directions on Robust Statistics: Part I, eds. W.
+Stahel and S. Weisberg, New York: Springer, pp. 7-20.<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulated Annealing for the Detection of Multiple Outliers Using Least Squares and Least Median of Squares Fitting</comment>
+               <fpage>7</fpage>
+               <source>Directions on Robust Statistics: Part I</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e222a1310">
+               
+               <mixed-citation id="d3199742e226" publication-type="book">
+Brockwell, P.J., and Davis, R.A. (1991), Time Series. Theory and Methods (2nd ed.), New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Brockwell</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Time Series. Theory and Methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e251a1310">
+               
+               <mixed-citation id="d3199742e255" publication-type="book">
+Fisher, N.I., Lewis, T., and Embleton, B.J.J. (1987), Statistical Analysis of Spherical Data, Cambridge, UK:
+Cambridge University Press.<person-group>
+                     <string-name>
+                     <surname>Fisher</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis of Spherical Data</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e281a1310">
+               
+               <mixed-citation id="d3199742e285" publication-type="book">
+Hampel, F.R., Ronchetti, E.M., Rousseeuw, P.J., and Stahel, W.A. (1986), Robust Statistics. The Approach
+Based on Influence Functions, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Hampel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Statistics. The Approach Based on Influence Functions</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e310a1310">
+               
+               <mixed-citation id="d3199742e314" publication-type="journal">
+Hawkins, D.M. (1993), "The Accuracy of Elemental Set Approximations for Regression," Journal of the
+American Statistical Association, 88, 580-589.<object-id pub-id-type="doi">10.2307/2290339</object-id>
+               <fpage>580</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e330a1310">
+               
+               <mixed-citation id="d3199742e334" publication-type="journal">
+Hawkins, D.M., Bradu, D., and Kass, G.V. (1984), "Location of Several Outliers in Multiple Regression Data
+Using Elemental Sets," Technometrics, 26, 197-208.<object-id pub-id-type="doi">10.2307/1267545</object-id>
+               <fpage>197</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e350a1310">
+               
+               <mixed-citation id="d3199742e354" publication-type="journal">
+Kahn, M., Mackisack, M.S., Osborne, M.R., and Smyth, G.K. (1992), "On the Consistency of Prony's Method
+and Related Algorithms," Journal of Computational and Graphical Statistics, 1, 329-349.<object-id pub-id-type="doi">10.2307/1390787</object-id>
+               <fpage>329</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e370a1310">
+               
+               <mixed-citation id="d3199742e374" publication-type="journal">
+Kundu, D., and Kannan, N. (1997), "Constrained Maximum Likelihood Estimators for Superimposed Expo-
+nential Signals," Communications in Statistics—Simulation and Computation, 26, 733-764.<person-group>
+                     <string-name>
+                     <surname>Kundu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>733</fpage>
+               <volume>26</volume>
+               <source>Communications in Statistics—Simulation and Computation</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e406a1310">
+               
+               <mixed-citation id="d3199742e410" publication-type="journal">
+Kay, S.M., and Marple, S.L. (1981), "Spectrum Analysis-A Modern Perspective," Proceedings of the IEEE,
+69, 1380-1419.<person-group>
+                     <string-name>
+                     <surname>Kay</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1380</fpage>
+               <volume>69</volume>
+               <source>Proceedings of the IEEE</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e443a1310">
+               
+               <mixed-citation id="d3199742e447" publication-type="journal">
+Mackisack, M.S., Osborne, M.R., and Smyth, G.K. (1994), "A Modified Prony Algorithm for Estimating
+Sinusoidal Frequencies," Journal of Statistical Computing and Simulation, 49, 111-124.<person-group>
+                     <string-name>
+                     <surname>Mackisack</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>111</fpage>
+               <volume>49</volume>
+               <source>Journal of Statistical Computing and Simulation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e479a1310">
+               
+               <mixed-citation id="d3199742e483" publication-type="book">
+Marazzi, M. (1991), "Algorithms and Programs for Robust Linear Regression," in Directions in Robust Statistics
+and Diagnostics, Part I, eds. W. Stahel and S. Weisberg, New York: Springer-Verlag, pp. 183-200.<person-group>
+                     <string-name>
+                     <surname>Marazzi</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms and Programs for Robust Linear Regression</comment>
+               <fpage>183</fpage>
+               <source>Directions in Robust Statistics and Diagnostics, Part I</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e515a1310">
+               
+               <mixed-citation id="d3199742e519" publication-type="journal">
+Osborne, M.R., and Smyth, G.K. (1991), "A Modified Prony Algorithm for Fitting Functions Defined by
+Difference Equations," SIAM Journal on Scientific and Statistical Computing, 12, 362-382.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>362</fpage>
+               <volume>12</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e551a1310">
+               
+               <mixed-citation id="d3199742e555" publication-type="journal">
+(1995), "A Modified Prony Algorithm for Exponential Function Fitting," SIAM Journal on Scientific
+and Statistical Computing, 16, 119-138.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>119</fpage>
+               <volume>16</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e587a1310">
+               
+               <mixed-citation id="d3199742e591" publication-type="journal">
+Prony, R. (1795), "Essai experimental et Analytique," Journal de L'École Polytechnique, 2, 24-76.<person-group>
+                     <string-name>
+                     <surname>Prony</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>24</fpage>
+               <volume>2</volume>
+               <source>Journal de L'École Polytechnique</source>
+               <year>1795</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e620a1310">
+               
+               <mixed-citation id="d3199742e624" publication-type="book">
+Reimann, J. D. (1994), Frequency Estimation Using Unequally-Spaced Astronomical Data, unpublished Ph.D.
+Thesis, University of California, Berkeley.<person-group>
+                     <string-name>
+                     <surname>Reimann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Frequency Estimation Using Unequally-Spaced Astronomical Data</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e650a1310">
+               
+               <mixed-citation id="d3199742e654" publication-type="journal">
+Rice, J.A., and Rosenblatt, M. (1988), "On Frequency Estimation," Biometrika, 75, 477-484.<object-id pub-id-type="doi">10.2307/2336597</object-id>
+               <fpage>477</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e667a1310">
+               
+               <mixed-citation id="d3199742e671" publication-type="journal">
+Rousseeuw, P.J. (1984), "Least-Median of Squares Regression," Journal of the American Statistical Association,
+79, 871-880.<object-id pub-id-type="doi">10.2307/2288718</object-id>
+               <fpage>871</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e687a1310">
+               
+               <mixed-citation id="d3199742e691" publication-type="book">
+Roussseeuw, P.J. and Leroy, A.M. (1987), Robust Regression and Outlier Detection, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Roussseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression and Outlier Detection</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e713a1310">
+               
+               <mixed-citation id="d3199742e717" publication-type="journal">
+Smyth, G.K. (in press), "Employing Symmetry Constraints for Improved Frequency Estimation by Eigenanal-
+ysis Methods," Technometrics.<person-group>
+                     <string-name>
+                     <surname>Smyth</surname>
+                  </string-name>
+                  </person-group>
+               <source>Technometrics</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e739a1310">
+               
+               <mixed-citation id="d3199742e743" publication-type="journal">
+Stromberg, A.J. (1993), "Computation of High Breakdown Nonlinear Regression Parameters," Journal of the
+American Statistical Association, 88, 237-244.<object-id pub-id-type="doi">10.2307/2290718</object-id>
+               <fpage>237</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e759a1310">
+               
+               <mixed-citation id="d3199742e763" publication-type="journal">
+(1995), "Consistency of the Least Median of Squares Estimator in Nonlinear Least Squares," Commu-
+nications in Statistics—Theory and Methods, 24, 1971-1984.<person-group>
+                     <string-name>
+                     <surname>Stromberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1971</fpage>
+               <volume>24</volume>
+               <source>Communications in Statistics—Theory and Methods</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e796a1310">
+               
+               <mixed-citation id="d3199742e800" publication-type="journal">
+Stromberg, A.J., and Ruppert, D. (1992), "Breakdown in Nonlinear Regression," Journal of the American
+Statistical Association, 87, 991-997.<object-id pub-id-type="doi">10.2307/2290636</object-id>
+               <fpage>991</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3199742e816a1310">
+               
+               <mixed-citation id="d3199742e820" publication-type="journal">
+Yohai, V.J. (1987), "High Breakdown Point and High Efficiency Robust Estimates for Regression," The Annals
+of Statistics, 15, 642-656.<object-id pub-id-type="jstor">10.2307/2241331</object-id>
+               <fpage>642</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

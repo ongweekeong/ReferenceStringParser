@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i25651260</issue-id>
+         <article-id pub-id-type="jstor">25651264</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>High-Dimensional Data</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Variable Selection in Linear Regression With Many Predictors</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Airong</given-names>
+                  <surname>Cai</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ruey S.</given-names>
+                  <surname>Tsay</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Rong</given-names>
+                  <surname>Chen</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>573</fpage>
+         <lpage>591</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651264"/>
+      
+      
+         <abstract>
+            <p>With advanced capability in data collection, applications of linear regression analysis now often involve a large number of predictors. Variable selection thus has become an increasingly important issue in building a linear regression model. For a given selection criterion, variable selection is essentially an optimization problem that seeks the optimal solution over 2
+              m
+              possible linear regression models, where m is the total number of candidate predictors. When m is large, exhaustive search becomes practically impossible. Simple suboptimal procedures such as forward addition, backward elimination, and backward-forward stepwise procedure are fast but can easily be trapped in a local solution. In this article we propose a relatively simple algorithm for selecting explanatory variables in a linear regression for a given variable selection criterion. Although the algorithm is still a suboptimal algorithm, it has been shown to perform well in extensive empirical study. The main idea of the procedure is to partition the candidate predictors into a small number of groups. Working with various combinations of the groups and iterating the search through random regrouping, the search space is substantially reduced, hence increasing the probability of finding the global optimum. By identifying and collecting "important" variables throughout the iterations, the algorithm finds increasingly better models until convergence. The proposed algorithm performs well in simulation studies with 60 to 300 predictors. As a by-product of the proposed procedure, we are able to study the behavior of variable selection criteria when the number of predictors is large. Such a study has not been possible with traditional search algorithms.
+             This article has supplementary material online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d881320e247a1310">
+          
+            <mixed-citation id="d881320e251" publication-type="other">
+Aeberhard, S., de Vel, O., and Coomans, D. (1993), "Fast Variable Selection," in Computing Science and Statis-
+tics: Proceedings of the 25th Symposium on the Interface, Fairfax Station, VA: Interface Foundation of North
+America, pp. 210-212.</mixed-citation>
+        </ref>
+        <ref id="d881320e264a1310">
+          
+            <mixed-citation id="d881320e268" publication-type="other">
+Akaike, H. (1973), "Maximum Likelihood Identification of Gaussian Autoregressive Moving Average Models,"
+Biometrika, 60, 255-265.</mixed-citation>
+        </ref>
+        <ref id="d881320e278a1310">
+          
+            <mixed-citation id="d881320e282" publication-type="other">
+- (1974), "A New Look at Statistical Model Identification," IEEE Transactions on Automatic Control,
+AC-19, 716-723.</mixed-citation>
+        </ref>
+        <ref id="d881320e292a1310">
+          
+            <mixed-citation id="d881320e296" publication-type="other">
+Allen, D. M. (1971), "The Prediction Sum of Squares as a Criterion for Selecting Predictor Variables," Technical
+Report 23, Dept. of Statistics, University of Kentucky.</mixed-citation>
+        </ref>
+        <ref id="d881320e307a1310">
+          
+            <mixed-citation id="d881320e311" publication-type="other">
+Antoch, J. (1986), "Algorithmic Development in Variable Selection Procedures," in Proceedings in Computa-
+tional Statistics, 1986, Heidelberg: Physica-Verlag, pp. 83-90.</mixed-citation>
+        </ref>
+        <ref id="d881320e321a1310">
+          
+            <mixed-citation id="d881320e325" publication-type="other">
+Antoniadis, A., and Fan, J. (2001), "Regularization of Wavelests Approximations" (with discussion), Journal of
+the American Statistical Association, 96, 939-967.</mixed-citation>
+        </ref>
+        <ref id="d881320e335a1310">
+          
+            <mixed-citation id="d881320e339" publication-type="other">
+Candes, E., and Tao, T. (2007), "The Dantzig Selector: Statistical Estimation When p Is Much Larger Than rc,"
+The Annals of Statistics, 35, 2313-2351.</mixed-citation>
+        </ref>
+        <ref id="d881320e349a1310">
+          
+            <mixed-citation id="d881320e353" publication-type="other">
+Chatterjee, S., Laudato, M., and Lynch, L. A. (1996), "Genetic Algorithms and Their Statistical Applications: An
+Introduction," Computational Statistics and Data Analysis, 22, 633-651.</mixed-citation>
+        </ref>
+        <ref id="d881320e363a1310">
+          
+            <mixed-citation id="d881320e367" publication-type="other">
+Donoho, D. (2000), "High-Dimensional Data Analysis: The Curses and Blessings of Dimensionality," Aide-
+Memoire of a lecture at AMS conference Math Challeges of the 21st Century.</mixed-citation>
+        </ref>
+        <ref id="d881320e377a1310">
+          
+            <mixed-citation id="d881320e381" publication-type="other">
+Draper, H., and Smith, H. (1998), Applied Regression Analysis (3rd ed.), New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d881320e389a1310">
+          
+            <mixed-citation id="d881320e393" publication-type="other">
+Efron, B., Hastie, T., Johnstone, I., and Tibshirani, R. (2004), "Least Angle Regression," The Annals of Statistics,
+32, 402-451.</mixed-citation>
+        </ref>
+        <ref id="d881320e403a1310">
+          
+            <mixed-citation id="d881320e407" publication-type="other">
+Fan, J., and Li, R. (2006), "Statistical Challenges With High Dimensionality: Feature Selection in Knowledge
+Discovery," in Proceedings of the International Congress of Mathematicians, Vol. Ill, eds. M. Sanz-Sole,
+J. Soria, J. Varona, and J. Verdera, Zurich: European Mathematical Society, pp. 595-622.</mixed-citation>
+        </ref>
+        <ref id="d881320e420a1310">
+          
+            <mixed-citation id="d881320e424" publication-type="other">
+Fernandez, C, Ley, E., and Steel, M. (2001), "Benchmark Priors for Bayesian Model Averaging," Journal of
+Econometrics, 100, 381-427.</mixed-citation>
+        </ref>
+        <ref id="d881320e434a1310">
+          
+            <mixed-citation id="d881320e438" publication-type="other">
+Ferri, M., and Piccioni, M. (1992), "Optimal Selection of Statistical Units. An Approach via Simulated Anneal-
+ing," Computational Statistics and Data Analysis, 13, 47-61.</mixed-citation>
+        </ref>
+        <ref id="d881320e448a1310">
+          
+            <mixed-citation id="d881320e452" publication-type="other">
+Frank, I. E., and Friedman, J. H. (1993), "A Statistical View of Some Chemometrics Regression Tools," Techno-
+metrics, 35, 109-148.</mixed-citation>
+        </ref>
+        <ref id="d881320e462a1310">
+          
+            <mixed-citation id="d881320e466" publication-type="other">
+Furnival, G. M., and Wilson, R. W. J. (1974), "Regressions by Leaps and Bounds," Technometrics, 4, 499-511.</mixed-citation>
+        </ref>
+        <ref id="d881320e474a1310">
+          
+            <mixed-citation id="d881320e478" publication-type="other">
+Gatu, C, and Kontoghiorghes, E. J. (2006), "Branch-and-Bound Algorithms for Computing the Best-Subset Re-
+gression Models," Journal of Computational and Graphical Statistics, 15, 139-156.</mixed-citation>
+        </ref>
+        <ref id="d881320e488a1310">
+          
+            <mixed-citation id="d881320e492" publication-type="other">
+George, E. I., and McCulloch, R. E. (1993), "Variable Selection via Gibbs Sampling," Journal of the American
+Statistical Association, 88, 881-889.</mixed-citation>
+        </ref>
+        <ref id="d881320e502a1310">
+          
+            <mixed-citation id="d881320e506" publication-type="other">
+Haughton, D. M. A. (1988), "On the Choice of a Model to Fit Data From an Exponential Family," The Annals of
+Statistics, 16, 342-355.</mixed-citation>
+        </ref>
+        <ref id="d881320e516a1310">
+          
+            <mixed-citation id="d881320e520" publication-type="other">
+Johnsson, T. (1992), "A Procedure for Stepwise Regression Analysis," Statistical Papers, 33, 21-29.</mixed-citation>
+        </ref>
+        <ref id="d881320e527a1310">
+          
+            <mixed-citation id="d881320e531" publication-type="other">
+Jornsten, R. (2007), "Simultaneous Model Selection via Rate-Distortion Theory, With Applications to Clustering
+and Significance Analysis," technical report, Dept. of Statistics, Rutgers University.</mixed-citation>
+        </ref>
+        <ref id="d881320e541a1310">
+          
+            <mixed-citation id="d881320e545" publication-type="other">
+Mallows, C. L. (1973), "Some Comments on Cp," Technometrics, 15, 661-675.</mixed-citation>
+        </ref>
+        <ref id="d881320e553a1310">
+          
+            <mixed-citation id="d881320e557" publication-type="other">
+Mendieta, G. R., Boneh, S., and Walsh, R. (1994), "A Simulation Study to Evaluate the Performance of a New
+Variable Selection Method in Regression," in Computing Science and Statistics. Computationally Intensive
+Statistical Methods. Proceedings of the 26th Symposium on the Interface, Fairfax Station, VA: Interface
+Foundation of North America, pp. 515-518.</mixed-citation>
+        </ref>
+        <ref id="d881320e573a1310">
+          
+            <mixed-citation id="d881320e577" publication-type="other">
+Miller, A. (1990), Subset Selection in Regression, London: Chapman &amp;amp; Hall.</mixed-citation>
+        </ref>
+        <ref id="d881320e584a1310">
+          
+            <mixed-citation id="d881320e588" publication-type="other">
+Miller, T. W., and Ribic, C. A. (1995), "Tree-Structured Variable Selection Methods," in ASA Proceedings of the
+Statistical Computing Section, Alexandria, VA: American Statistical Association, pp. 142-147.</mixed-citation>
+        </ref>
+        <ref id="d881320e598a1310">
+          
+            <mixed-citation id="d881320e602" publication-type="other">
+Mitchell, T. J., and Beauchamp, J. J. (1988), "Bayesian Variable Selection in Linear Regression," Journal of the
+American Statistical Association, 83, 1023-1032.</mixed-citation>
+        </ref>
+        <ref id="d881320e612a1310">
+          
+            <mixed-citation id="d881320e616" publication-type="other">
+Pauler, D. K. (1998), "The Schwarz Criterion and Related Methods for Normal Linear Models," Biometrika, 85,
+13-27.</mixed-citation>
+        </ref>
+        <ref id="d881320e626a1310">
+          
+            <mixed-citation id="d881320e630" publication-type="other">
+Pearson, K. (1896), "Mathematical Contributions to the Theory of Evolution: III. Regression, Heredity and Pan-
+mixia," Philosophical Transactions of the Royal Society of London, 187, 253-318.</mixed-citation>
+        </ref>
+        <ref id="d881320e641a1310">
+          
+            <mixed-citation id="d881320e645" publication-type="other">
+Rao, C. R., and Wu, Y. (1989), "A Strongly Consistent Procedure for Model Selection in a Regression Problem,"
+Biometrika, 76, 369-374.</mixed-citation>
+        </ref>
+        <ref id="d881320e655a1310">
+          
+            <mixed-citation id="d881320e659" publication-type="other">
+Ronchetti, E., and Staudte, R. G. (1994), "A Robust Version of Mallows' cp" Journal of the American Statistical
+Association, 89, 550-559.</mixed-citation>
+        </ref>
+        <ref id="d881320e669a1310">
+          
+            <mixed-citation id="d881320e673" publication-type="other">
+Schwarz, G. (1978), "Estimating the Dimension of a Model," The Annals of Statistics, 6, 461^64.</mixed-citation>
+        </ref>
+        <ref id="d881320e680a1310">
+          
+            <mixed-citation id="d881320e684" publication-type="other">
+Shen, X., and Ye, J. (2002), "Adaptive Model Selection," Journal of the American Statistical Association, 97,
+210-221.</mixed-citation>
+        </ref>
+        <ref id="d881320e694a1310">
+          
+            <mixed-citation id="d881320e698" publication-type="other">
+Tibshirani, R. (1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Soci-
+ety, Ser. B, 58(1), 267-288.</mixed-citation>
+        </ref>
+        <ref id="d881320e708a1310">
+          
+            <mixed-citation id="d881320e712" publication-type="other">
+Tibshirani, R., and Knight, K. (1999), "The Covariance Inflation Criterion for Adaptive Model Selection," Journal
+of the Royal Statistical Society, Ser. B, 61, 529-546.</mixed-citation>
+        </ref>
+        <ref id="d881320e723a1310">
+          
+            <mixed-citation id="d881320e727" publication-type="other">
+Zhang, L. J., Lin, T. M., Liu, S. J., and Chen, R. (2007), "Lookahead and Piloting Strategies for Variable Selec-
+tion," Statistica Sinica, 17 (3), 985-1003.</mixed-citation>
+        </ref>
+        <ref id="d881320e737a1310">
+          
+            <mixed-citation id="d881320e741" publication-type="other">
+Zheng, X., and Loh, W.-Y. (1997), "A Consistent Variable Selection Criterion for Linear Models With High-
+Dimensional Covariates," Statistica Sinica, 1, 311-325.</mixed-citation>
+        </ref>
+        <ref id="d881320e751a1310">
+          
+            <mixed-citation id="d881320e755" publication-type="other">
+Zou, H. (2006), "The Adaptive Lasso and Its Oracle Properties," Journal of the American Statistical Association,
+101, 1418-1429.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

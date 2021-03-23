@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i25651277</issue-id>
+         <article-id pub-id-type="jstor">25651280</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Mixed-Effects Models</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Gauss—Seidel Estimation of Generalized Linear Mixed Models With Application to Poisson Modeling of Spatially Varying Disease Rates</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Subharup</given-names>
+                  <surname>Guha</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Louise</given-names>
+                  <surname>Ryan</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Michele</given-names>
+                  <surname>Morara</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>818</fpage>
+         <lpage>837</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651280"/>
+      
+      
+         <abstract>
+            <p>Generalized linear mixed models (GLMMs) are often fit by computational procedures such as penalized quasi-likelihood (PQL). Special cases of GLMMs are generalized linear models (GLMs), which are often fit using algorithms like iterative weighted least squares (IWLS). High computational costs and memory space constraints make it difficult to apply these iterative procedures to datasets having a very large number of records. We propose a computationally efficient strategy based on the Gauss—Seidel algorithm that iteratively fits submodels of the GLMM to collapsed versions of the data. The strategy is applied to investigate the relationship between ischemic heart disease, socioeconomic status, and age/gender category in New South Wales, Australia, based on outcome data consisting of approximately 33 million records. For Poisson and binomial regression models, the Gauss—Seidel approach is found to substantially outperform existing methods in terms of maximum analyzable sample size. Remarkably, for both models, the average time per iteration and the total time until convergence of the Gauss—Seidel procedure are less than 0.3% of the corresponding times for the IWLS algorithm. Platform-independent pseudo-code for fitting GLMS, as well as the source code used to generate and analyze the datasets in the simulation studies, are available online as supplemental materials.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1925291e195a1310">
+          
+            <mixed-citation id="d1925291e199" publication-type="other">
+Banerjee, S., Carlin, B., and Gelfand, A. (2004), Hierarchical Modeling and Analysis for Spatial Data, FL:
+Chapman &amp;amp; Hall/CRC.</mixed-citation>
+        </ref>
+        <ref id="d1925291e209a1310">
+          
+            <mixed-citation id="d1925291e213" publication-type="other">
+Bates, D. M., and DebRoy, S. (2004), "Linear Mixed Models and Penalized Least Squares," Journal of Multivari-
+ate Analysis, 91, 1-17.</mixed-citation>
+        </ref>
+        <ref id="d1925291e223a1310">
+          
+            <mixed-citation id="d1925291e227" publication-type="other">
+Besag, J., Mollie, A., and York, J. (1991), "Bayesian Image Restoration, With Two Applications in Spatial Sta-
+tistics," Annals of the Institute of Statistical Mathematics, 43, 1-20.</mixed-citation>
+        </ref>
+        <ref id="d1925291e237a1310">
+          
+            <mixed-citation id="d1925291e241" publication-type="other">
+Breslow, N. E., and Clayton, D. G. (1993), "Approximate Inference in Generalized Linear Mixed Models," Jour-
+nal of the American Statistical Association, 88, 9-25.</mixed-citation>
+        </ref>
+        <ref id="d1925291e252a1310">
+          
+            <mixed-citation id="d1925291e256" publication-type="other">
+Clayton, D., and Kaldor, J. (1987), "Empirical Bayes Estimates of Age-Standardized Relative Risks for Use in
+Disease Mapping," Biometrics, 43, 671-681.</mixed-citation>
+        </ref>
+        <ref id="d1925291e266a1310">
+          
+            <mixed-citation id="d1925291e270" publication-type="other">
+Cressie, N. A. C. (1991), Statistics for Spatial Data (2nd ed.), New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d1925291e277a1310">
+          
+            <mixed-citation id="d1925291e281" publication-type="other">
+Darroch, J. N., and Ratcliff, D. (1972), "Generalized Iterative Scaling for Log-Linear Models," The Annals of
+Mathematical Statistics, 43, 1470-1480.</mixed-citation>
+        </ref>
+        <ref id="d1925291e291a1310">
+          
+            <mixed-citation id="d1925291e295" publication-type="other">
+Davidian, M., and Giltinan, D. M. (1993), "Nonlinear Models for Repeated Measurement Data: An Overview
+and Update," Journal of Agricultural, Biological, and Environmental Statistics, 8, 387^419.</mixed-citation>
+        </ref>
+        <ref id="d1925291e305a1310">
+          
+            <mixed-citation id="d1925291e309" publication-type="other">
+Engel, B., and Keen, A. (1994), "A Simple Approach for the Analysis of Generalized Linear Mixed Models,"
+Statistica Neerlandica, 48, 1-22.</mixed-citation>
+        </ref>
+        <ref id="d1925291e319a1310">
+          
+            <mixed-citation id="d1925291e323" publication-type="other">
+Givens, G. H., and Hoeting, J. A. (2005), Computational Statistics, Hoboken, NJ: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d1925291e331a1310">
+          
+            <mixed-citation id="d1925291e335" publication-type="other">
+Green, R J. (1987), "Penalized Likelihood for General Semi-Parametric Regression Models," International Sta-
+tistical Review, 55, 245-259.</mixed-citation>
+        </ref>
+        <ref id="d1925291e345a1310">
+          
+            <mixed-citation id="d1925291e349" publication-type="other">
+Guha, S., and Ryan, L. (2006), "Gauss-Seidel Estimation of Generalized Linear Mixed Models With Application
+to Poisson Modeling of Spatially Varying Disease Rates," Working Paper 61, Harward University.</mixed-citation>
+        </ref>
+        <ref id="d1925291e359a1310">
+          
+            <mixed-citation id="d1925291e363" publication-type="other">
+Leroux, B. G., Lei, X., and Breslow, N. (2000), "Estimation of Spatial Disease Rates in Small Areas: A New
+Mixed Model for Spatial Dependence," in Statistical Models in Epidemiology, the Environment, and Clinical
+Trials. The IMA Volumes in Mathematics and Its Applications, Vol. 116, eds. M. E. Halloran and D. Berry,
+New York: Springer-Verlag, pp. 179-191.</mixed-citation>
+        </ref>
+        <ref id="d1925291e379a1310">
+          
+            <mixed-citation id="d1925291e383" publication-type="other">
+Ma, J., and Hudson, M. (1997), "Modified Fisher Scoring Algorithms Using Jacobi or Gauss-Seidel Subitera-
+tions," Computational Statistics, 12, 467-4-79.</mixed-citation>
+        </ref>
+        <ref id="d1925291e393a1310">
+          
+            <mixed-citation id="d1925291e397" publication-type="other">
+McCullagh, P., and Nelder, J. A. (1999), Generalized Linear Models (2nd ed.), Boca Raton, FL: CRC Press.</mixed-citation>
+        </ref>
+        <ref id="d1925291e404a1310">
+          
+            <mixed-citation id="d1925291e408" publication-type="other">
+Ortega, J. M., and Rheinboldt, W. C. (2000), Iterative Solution of Nonlinear Equations in Several Variables,
+Philadelphia, PA: Society for Industrial and Applied Mathematics.</mixed-citation>
+        </ref>
+        <ref id="d1925291e419a1310">
+          
+            <mixed-citation id="d1925291e423" publication-type="other">
+Pinheiro, J. C, and Bates, D. M. (2000), Mixed-Effects Models in S and S-PLUS, Berlin: Springer.</mixed-citation>
+        </ref>
+        <ref id="d1925291e430a1310">
+          
+            <mixed-citation id="d1925291e434" publication-type="other">
+Thisted, R. A. (1988), Elements of Statistical Computing, Boca Raton, FL: CRC Press.</mixed-citation>
+        </ref>
+        <ref id="d1925291e441a1310">
+          
+            <mixed-citation id="d1925291e445" publication-type="other">
+Waclawiw, M. A., and Liang, K.-Y. (1993), "Prediction of Random Effects in the Generalized Linear Model,"
+Journal of the American Statistical Association, 88, 171-178.</mixed-citation>
+        </ref>
+        <ref id="d1925291e455a1310">
+          
+            <mixed-citation id="d1925291e459" publication-type="other">
+Wolflnger, R., and O'Connell, M. (1993), "Generalized Linear Mixed Models: A Pseudo-Likelihood Approach,"
+Journal of Statistical Computation and Simulation, 48, 233-243.</mixed-citation>
+        </ref>
+        <ref id="d1925291e469a1310">
+          
+            <mixed-citation id="d1925291e473" publication-type="other">
+Wolfinger, R., Tobias, R., and Sail, J. (1994), "Computing Gaussian Likelihoods and Their Derivatives for General
+Linear Mixed Models," SI AM Journal of Statistical Computing, 15, 1294-1310.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

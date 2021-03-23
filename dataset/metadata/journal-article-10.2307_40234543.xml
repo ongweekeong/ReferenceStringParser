@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">77</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">262</issue>
+         <issue-id>i40008730</issue-id>
+         <article-id pub-id-type="jstor">40234543</article-id>
+         <title-group>
+            <article-title>Arnoldi and Jacobi-Davidson Methods for Generalized Eigenvalue Problems Ax = λBx with Singular B</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Joost</given-names>
+                  <surname>Rommes</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>995</fpage>
+         <lpage>1015</lpage>
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234543"/>
+      
+      
+         <abstract>
+            <p>In many physical situations, a few specific eigenvalues of a large sparse generalized eigenvalue problem Ax = λBx are needed. If exact linear solves with A--σB are available, implicitly restarted Arnoldi with purification is a common approach for problems where B is positive semidefinite. In this paper, a new approach based on implicitly restarted Arnoldi will be presented that avoids most of the problems due to the singularity of B. Secondly, if exact solves are not available, Jacobi-Davidson QZ will be presented as a robust method to compute a few specific eigenvalues. Results are illustrated by numerical experiments.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 65F15</kwd>
+            <kwd>Primary 65F50</kwd>
+            <kwd>Sparse generalized eigenvalue problems</kwd>
+            <kwd>purification</kwd>
+            <kwd>semi-inner product</kwd>
+            <kwd>implicitly restarted Arnoldi</kwd>
+            <kwd>Jacobi-Davidson</kwd>
+            <kwd>preconditioning</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d4832896e156a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d4832896e163" publication-type="other">
+K. A. Cliffe, T. J. Garratt, and A. Spence, Eigenvalues of the discretized Navier-Stokes
+equation with application to the detection of Hopf bifurcations, Adv. Math. Comp. 1 (1993),
+337-356. MR1242379 (94k:65052)</mixed-citation>
+        </ref>
+        <ref id="d4832896e176a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d4832896e183" publication-type="other">
+---, Eigenvalues of block matrices arising from problems in fluid mechanics, SIAM J. Ma-
+trix Anal. Appl. 15 (1994), no. 4, 1310-1318. MR1293919 (95g:65053)</mixed-citation>
+        </ref>
+        <ref id="d4832896e193a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d4832896e200" publication-type="other">
+K. A. Cliffe, A. Spence, and S. J. Tavener, The numerical analysis of bifurcation problems with
+application to fluid mechanics, Acta Numerica 9 (2000), 39-131. MR1883627 (2003b:37125)</mixed-citation>
+        </ref>
+        <ref id="d4832896e210a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d4832896e217" publication-type="other">
+H. Elman, D. Silvester, and A. Wathen, Finite Elements and Fast Iterative Solvers, First ed.,
+Oxford University Press, 2005. MR2155549 (2006f:65002)</mixed-citation>
+        </ref>
+        <ref id="d4832896e228a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d4832896e235" publication-type="other">
+T. Ericsson, A generalised eigenvalue problem and the Lanczos algorithm, Large Scale Eigen-
+value Problems (J. Cullum and R.A. Willoughby, eds.), Elsevier Science Publishers BV, 1986,
+pp. 95-119. MR875436 (88c:65035)</mixed-citation>
+        </ref>
+        <ref id="d4832896e248a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d4832896e255" publication-type="other">
+T. Ericsson and A. Ruhe, The spectral transformation Lanczos method for the numerical
+solution of large sparse generalized symmetric eigenvalue problems, Math. Comp. 35 (1980),
+1251-1268. MR583502 (83b:65034)</mixed-citation>
+        </ref>
+        <ref id="d4832896e268a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d4832896e275" publication-type="other">
+D. R. Fokkema, G. L. G. Sleijpen, and H. A. van der Vorst, Jacobi-Davidson style QR and QZ
+algorithms for the reduction of matrix pencils, SIAM J. Sc. Comp. 20 (1998), no. 1, 94-125.
+MR1639102 (99e:65061)</mixed-citation>
+        </ref>
+        <ref id="d4832896e288a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d4832896e295" publication-type="other">
+T. J. Garratt, The numerical detection of Hopf bifurcations in large systems arising in fluid
+mechanics, Ph.D. thesis, University of Bath, 1991.</mixed-citation>
+        </ref>
+        <ref id="d4832896e305a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d4832896e312" publication-type="other">
+P. M. Gresho, D. K. Gartling, J. R. Torczynski, K. A. Cliffe, K. H. Winters, T. J. Garratt,
+A. Spence, and J. W. Goodrich, Is the steady viscous incompressible two-dimensional flow
+over a backward-facing step at Re=800 stable?, Int. J. Num. Meth.Fluids 17 (1993), 501-541.
+MR1235004 (94h:76055)</mixed-citation>
+        </ref>
+        <ref id="d4832896e328a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d4832896e335" publication-type="other">
+R. B. Lehoucq and J. A. Scott, Implicitly restarted Arnoldi methods and eigenvalues of the
+discretized Navier Stokes equations, Tech. Report SAND97-2712J, Sandia National Labora-
+tory, 1997.</mixed-citation>
+        </ref>
+        <ref id="d4832896e349a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d4832896e356" publication-type="other">
+R. B. Lehoucq and D. C. Sorensen, Deflation techniques within an implicitly restarted Arnoldi
+iteration, SIAM J. Matrix Anal. Appl. 17 (1996), 789-821. MR1410702 (97k:65091)</mixed-citation>
+        </ref>
+        <ref id="d4832896e366a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d4832896e373" publication-type="other">
+R. H. Lehoucq, D. C. Sorensen, and C. Yang, ARPACK SOFTWARE, see:
+http://www.caam.rice.edu/software/ARPACK/.</mixed-citation>
+        </ref>
+        <ref id="d4832896e383a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d4832896e390" publication-type="other">
+K. Meerbergen and D. Roose, The restarted Arnoldi method applied to iterative linear system
+solvers for the computation of rightmost eigenvalues, SIAM J. Matrix Anal. Appl. 18 (1997),
+no. 1, 1-20. MR1428194 (98b:65042)</mixed-citation>
+        </ref>
+        <ref id="d4832896e403a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d4832896e410" publication-type="other">
+K. Meerbergen and A. Spence, Implicitly restarted Arnoldi with purification for the shift-
+invert transformation, Math. Comp. 66 (1997), no. 218, 667-689. MR1408376 (97h:65048)</mixed-citation>
+        </ref>
+        <ref id="d4832896e420a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d4832896e427" publication-type="other">
+K. Meerbergen, A. Spence, and D. Roose, Shift-invert and Cayley transforms for detection of
+rightmost eigenvalues of nonsymmetric matrices, BIT 34 (1994), no. 3, 409-423. MR1429941
+(97i:65060)</mixed-citation>
+        </ref>
+        <ref id="d4832896e440a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d4832896e447" publication-type="other">
+B. Nour-Omid, B. N. Parlett, T. Ericsson, and P. S. Jensen, How to implement the spectral
+transformation, Math. Comp. 48 (1987), no. 178, 663-673. MR878698 (88f:65062)</mixed-citation>
+        </ref>
+        <ref id="d4832896e458a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d4832896e465" publication-type="other">
+Y. Saad and M. H. Schultz, GMRES: A generalized minimial residual algorithm for solv-
+ing nonsymmetric linear systems, SIAM J. Sci. Stat. Comput. 7 (1986), no. 3, 856-869.
+MR848568 (87g:65064)</mixed-citation>
+        </ref>
+        <ref id="d4832896e478a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d4832896e485" publication-type="other">
+D. Silvester, H. Elman, and A. Ramage, Incompressible Flow and Iterative Solver Software,
+http://www.maths.manchester.ac.uk/ djs/ifiss/.</mixed-citation>
+        </ref>
+        <ref id="d4832896e495a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d4832896e502" publication-type="other">
+G. L. G. Sleijpen, J. G. L. Booten, D. R. Fokkema, and H. A. van der Vorst, Jacobi-Davidson
+type methods for generalized eigenproblems and polynomial eigenproblems, BIT 36 (1996),
+no. 3, 595-633. MR1410100 (97k:65095)</mixed-citation>
+        </ref>
+        <ref id="d4832896e515a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d4832896e522" publication-type="other">
+G. L. G. Sleijpen and H. A. van der Vorst, A Jacobi- Davidson iteration method for linear
+eigenvalue problems, SIAM J. Matrix Anal. Appl. 17 (1996), no. 2, 401-425. MR1384515
+(96m:65042)</mixed-citation>
+        </ref>
+        <ref id="d4832896e535a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d4832896e542" publication-type="other">
+G. L. G. Sleijpen, H. A. van der Vorst, and E. Meijerink, Efficient expansion of subspaces in
+the Jacobi- Davidson method, Electronic Transactions on Numerical Analysis 7 (1998), 75-89.
+MR1667640 (99i:65040)</mixed-citation>
+        </ref>
+        <ref id="d4832896e555a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d4832896e562" publication-type="other">
+D. C. Sorensen, Implicit application of polynomial filters in a k-step Arnoldi method, SIAM
+J. Matrix Anal. Appl. 13 (1992), 357-385. MR1146670 (92i:65076)</mixed-citation>
+        </ref>
+        <ref id="d4832896e573a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d4832896e580" publication-type="other">
+---, Deflation for implicitly restarted Arnoldi methods, Tech. Report TR98-12, Rice Uni-
+versity, 1998.</mixed-citation>
+        </ref>
+        <ref id="d4832896e590a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d4832896e597" publication-type="other">
+T. L. van Noorden and J. Rommes, Computing a partial real ordered generalized Schur
+form using the Jacobi-Davidson method, Num. Lin. Alg. Appl. 14 (2007), no. 3, 197-215.
+MR2301912</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

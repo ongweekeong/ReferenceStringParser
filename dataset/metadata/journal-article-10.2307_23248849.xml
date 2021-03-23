@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i23240479</issue-id>
+         <article-id pub-id-type="jstor">23248849</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>What's in a Name? That Which We Call EM</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Online EM Algorithm for Hidden Markov Models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Olivier</given-names>
+                  <surname>Cappé</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>728</fpage>
+         <lpage>749</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23248849"/>
+      
+      
+         <abstract>
+            <p>Online (also called "recursive" or "adaptive") estimation of fixed model parameters in hidden Markov models is a topic of much interest in times series modeling. In this work, we propose an online parameter estimation algorithm that combines two key ideas. The first one, which is deeply rooted in the Expectation-Maximization (EM) methodology, consists in reparameterizing the problem using complete-data sufficient statistics. The second ingredient consists in exploiting a purely recursive form of smoothing in HMMs based on an auxiliary recursion. Although the proposed online EM algorithm resembles a classical stochastic approximation (or Robbins—Monro) algorithm, it is sufficiently different to resist conventional analysis of convergence. We thus provide limited results which identify the potential limiting points of the recursion as well as the large-sample behavior of the quantities involved in the algorithm. The performance of the proposed algorithm is numerically evaluated through simulations in the case of a noisily observed Markov chain. In this case, the algorithm reaches estimation results that are comparable to those of the maximum likelihood estimator for large sample sizes. The supplemental material for this article available online includes an appendix with the proofs of Theorem 1 and Corollary 1 stated in Section 4 as well as the MATLAB/OCTAVE code used to implement the algorithm in the case of a noisily observed Markov chain considered in Section 5.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d753109e214a1310">
+          
+            <mixed-citation id="d753109e218" publication-type="other">
+Baum, L. E., and Eagon, J. A. (1967), "An Inequality With Applications to Statistical Estimation for Probalistic
+Functions of Markov Processes and to a Model for Ecology," Bulletin of the American Mathematical Society,
+73, 360-363. [728]</mixed-citation>
+        </ref>
+        <ref id="d753109e231a1310">
+          
+            <mixed-citation id="d753109e235" publication-type="other">
+Baum, L. E., and Petrie, T. P. (1966), "Statistical Inference for Probabilistic Functions of Finite State Markov
+Chains," The Annals of Mathematical Statistics, 37, 1554—1563. [736]</mixed-citation>
+        </ref>
+        <ref id="d753109e245a1310">
+          
+            <mixed-citation id="d753109e249" publication-type="other">
+Baum, L. E., Petrie, T. P., Soules, G., and Weiss, N. (1970), "A Maximization Technique Occurring in the Sta-
+tistical Analysis of Probabilistic Functions of Markov Chains," The Annals of Statistics, 41 (1), 164-171.
+[728]</mixed-citation>
+        </ref>
+        <ref id="d753109e262a1310">
+          
+            <mixed-citation id="d753109e266" publication-type="other">
+Bickel, P. J., Ritov, Y., and Ryden, T. (1998), "Asymptotic Normality of the Maximum Likelihood Estimator for
+General Hidden Markov Models," Journal of the Royal Statistical Society, Ser. B, 26, 1614-1635. [736]</mixed-citation>
+        </ref>
+        <ref id="d753109e277a1310">
+          
+            <mixed-citation id="d753109e281" publication-type="other">
+Cappe, O. (2009), "Online Sequential Monte Carlo EM Algorithm," in IEEE Workshop on Statistical Signal
+Processing (SSP), Cardiff, Wales, U.K. [747]</mixed-citation>
+        </ref>
+        <ref id="d753109e291a1310">
+          
+            <mixed-citation id="d753109e295" publication-type="other">
+Cappe, O., and Moulines, E. (2009), "On-Line Expectation-Maximization Algorithm for Latent Data Models,"
+Journal of the Royal Statistical Society, Ser. B, 71 (3), 593-613. [729,732,733,735,737,747]</mixed-citation>
+        </ref>
+        <ref id="d753109e305a1310">
+          
+            <mixed-citation id="d753109e309" publication-type="other">
+Cappe, O., Moulines, E., and Ryden, T. (2005), Inference in Hidden Markov Models, New York: Springer. [730.
+731]</mixed-citation>
+        </ref>
+        <ref id="d753109e319a1310">
+          
+            <mixed-citation id="d753109e323" publication-type="other">
+Chung, S. H., Moore, J. B„ Xia, L., Premkumar, L. S., and Gage, P. W. (1990), "Characterization of Single Chan-
+nel Currrents Using Digital Signal Processing Techniques Based on Hidden Markov Models," Philosophical
+Transactions of the Royal Society of London, Ser. B: Biological Sciences, 329, 265-285. [739]</mixed-citation>
+        </ref>
+        <ref id="d753109e336a1310">
+          
+            <mixed-citation id="d753109e340" publication-type="other">
+de Gunst, M. C. M., Kiinsch, H. R., and Schouten, J. G. (2001), "Statistical Analysis of Ion Channel Data Using
+Hidden Markov Models With Correlated State-Dependent Noise and Filtering," Journal of the American
+Statistical Association, 96 (455), 805-815. [739]</mixed-citation>
+        </ref>
+        <ref id="d753109e353a1310">
+          
+            <mixed-citation id="d753109e357" publication-type="other">
+Del Moral, P., Doucet, A., and Singh, S. S. (2009), "Forward Smoothing Using Sequential Monte Carlo," Tech-
+nical Report CUED/F-INFENG/TR 638, Cambridge University, Engineering Dept. [747]</mixed-citation>
+        </ref>
+        <ref id="d753109e368a1310">
+          
+            <mixed-citation id="d753109e372" publication-type="other">
+Douc, R„ Moulines, E., and Ryden, T. (2004), "Asymptotic Properties of the Maximum Likelihood Estimator in
+Autoregressive Models With Markov Regime," The Annals of Statistics, 32 (5), 2254—2304. [736,737]</mixed-citation>
+        </ref>
+        <ref id="d753109e382a1310">
+          
+            <mixed-citation id="d753109e386" publication-type="other">
+Elliott, R. J., Aggoun, L., and Moore, J. B. (1995), Hidden Markov Models: Estimation and Control, New York:
+Springer. [729,731]</mixed-citation>
+        </ref>
+        <ref id="d753109e396a1310">
+          
+            <mixed-citation id="d753109e400" publication-type="other">
+Elliott, R. J., Ford, J. J„ and Moore, J. B. (2002), "On-Line Almost-Sure Parameter Estimation for Partially Ob-
+served Discrete-Time Linear Systems With Known Noise Characteristics," International Journal of Adaptive
+Control and Signal Processing, 16 (6), 435^153. [734]</mixed-citation>
+        </ref>
+        <ref id="d753109e413a1310">
+          
+            <mixed-citation id="d753109e417" publication-type="other">
+Ford, J. (1998), "Adaptive Hidden Markov Model Estimation and Applications," Ph.D. thesis, Australian National
+University. [734]</mixed-citation>
+        </ref>
+        <ref id="d753109e427a1310">
+          
+            <mixed-citation id="d753109e431" publication-type="other">
+Kantas, N„ Doucet, A., Singh, S., and Maciejowski, J. (2009), "An Overview of Sequential Monte Carlo Methods
+for Parameter Estimation in General State-Space Models," in Proceedings of the IFAC Symposium on System
+Identification (SYSID), Saint-Malo, France. [729,734]</mixed-citation>
+        </ref>
+        <ref id="d753109e444a1310">
+          
+            <mixed-citation id="d753109e448" publication-type="other">
+Krishnamurthy, V., and Moore, J. B. (1993), "On-Line Estimation of Hidden Markov Model Parameters Based on
+the Kullback-Leibler Information Measure," IEEE Transactions on Signal Processing, 41 (8), 2557-2573.
+[729]</mixed-citation>
+        </ref>
+        <ref id="d753109e462a1310">
+          
+            <mixed-citation id="d753109e466" publication-type="other">
+Le Gland, F., and Mevel, L. (1997), "Recursive Estimation in HMMs," in Proceedings of the IEEE Conference
+on Decision and Control, New York: IEEE, pp. 3468-3473. [729,735]</mixed-citation>
+        </ref>
+        <ref id="d753109e476a1310">
+          
+            <mixed-citation id="d753109e480" publication-type="other">
+Mongillo, G„ and Deneve, S. (2008), "Online Learning With Hidden Markov Models," Neural Computation, 20
+(7), 1706-1716. [729,734,735,738]</mixed-citation>
+        </ref>
+        <ref id="d753109e490a1310">
+          
+            <mixed-citation id="d753109e494" publication-type="other">
+Neal, R. M., and Hinton, G. E. (1999), "A View of the EM Algorithm That Justifies Incremental, Sparse, and
+Other Variants," in Learning in Graphical Models, ed. M. I. Jordan, Cambridge, MA: MIT Press, pp. 355—
+368. [735,743,745]</mixed-citation>
+        </ref>
+        <ref id="d753109e507a1310">
+          
+            <mixed-citation id="d753109e511" publication-type="other">
+Polyak, B. T. (1990), "A New Method of Stochastic Approximation Type," Automation and Remote Control, 51,
+98-107. [746]</mixed-citation>
+        </ref>
+        <ref id="d753109e521a1310">
+          
+            <mixed-citation id="d753109e525" publication-type="other">
+Rabiner, L. R. (1989), "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition,"
+Proceedings of the IEEE, 77 (2), 257-285. [735,738]</mixed-citation>
+        </ref>
+        <ref id="d753109e535a1310">
+          
+            <mixed-citation id="d753109e539" publication-type="other">
+Roberts, W. J. J., and Ephraim, Y. (2008), "An EM Algorithm for Ion-Channel Current Estimation," IEEE Trans-
+actions on Signal Processing, 56, 26-33. [739]</mixed-citation>
+        </ref>
+        <ref id="d753109e550a1310">
+          
+            <mixed-citation id="d753109e554" publication-type="other">
+Ruppert, D. (1988), "Efficient Estimation From a Slowly Convergent Robbins-Monro Process," Technical Re-
+port 781, Cornell University, School of Operations Research and Industrial Engineering. [746]</mixed-citation>
+        </ref>
+        <ref id="d753109e564a1310">
+          
+            <mixed-citation id="d753109e568" publication-type="other">
+Ryden, T. (1997), "On Recursive Estimation for Hidden Markov Models," Stochastic Processes and Their Appli-
+cations, 66 (1), 79-96. [729]</mixed-citation>
+        </ref>
+        <ref id="d753109e578a1310">
+          
+            <mixed-citation id="d753109e582" publication-type="other">
+Sato, M. (2000), "Convergence of On-Line EM Algorithm," in Proceedings of the International Conference
+on Neural Information Processing, Vol. 1, Taejon: Korea Advanced Institute of Science and Technology,
+pp. 476-481. [747]</mixed-citation>
+        </ref>
+        <ref id="d753109e595a1310">
+          
+            <mixed-citation id="d753109e599" publication-type="other">
+Zeitouni, O., andDembo, A. (1988), "Exact Filters for the Estimation of the Number of Transitions of Finite-State
+Continuous-Time Markov Processes," IEEE Transactions on Information Theory, 34 (4), 890-893. [729,731]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

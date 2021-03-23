@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">77</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">261</issue>
+         <issue-id>i40008729</issue-id>
+         <article-id pub-id-type="jstor">40234501</article-id>
+         <title-group>
+            <article-title>Evaluating the Evans Function: Order Reduction in Numerical Methods</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Simon</given-names>
+                  <surname>Malham</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jitse</given-names>
+                  <surname>Niesen</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>159</fpage>
+         <lpage>179</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2008 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234501"/>
+      
+      
+         <abstract>
+            <p>We consider the numerical evaluation of the Evans function, a Wronskian- like determinant that arises in the study of the stability of travelling waves. Constructing the Evans function involves matching the solutions of a linear ordinary differential equation depending on the spectral parameter. The problem becomes stiff as the spectral parameter grows. Consequently, the Gauss-Legendre method has previously been used for such problems; however more recently, methods based on the Magnus expansion have been proposed. Here we extensively examine the stiff regime for a general scalar Schöodinger operator. We show that although the fourth-order Magnus method suffers from order reduction, a fortunate cancellation when computing the Evans matching function means that fourth-order convergence in the end result is preserved. The Gauss-Legendre method does not suffer from order reduction, but it does not experience the cancellation either, and thus it has the same order of convergence in the end result. Finally we discuss the relative merits of both methods as spectral tools.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 65L15</kwd>
+            <kwd>Secondary 65L20</kwd>
+            <kwd>Secondary 65N25</kwd>
+            <kwd>Evans function</kwd>
+            <kwd>Magnus method</kwd>
+            <kwd>order reduction</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1225007e177a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1225007e184" publication-type="other">
+A. L. Afendikov and T. J. Bridges, Instability of the Hocking-Stewartson pulse and its im-
+plications for three-dimensional Poiseuille flow, Proc. R. Soc. Lond. A 457 (2001), 257-272.
+MR1848089 (2002e:76024)</mixed-citation>
+        </ref>
+        <ref id="d1225007e197a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1225007e204" publication-type="other">
+J. Alexander, R. Gardner, and C. Jones, A topological invariant arising in the stability analysis
+of travelling waves, J. Reine Angew. Math. 410 (1990), 167-212. MR1068805 (92d:58028)</mixed-citation>
+        </ref>
+        <ref id="d1225007e214a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1225007e221" publication-type="other">
+N. D. Aparicio, S. J. A. Malham, and M. Oliver, Numerical evaluation of the Evans function
+by Magnus integration, BIT 45 (2005), 219-258. MR2176193 (2006j:65158)</mixed-citation>
+        </ref>
+        <ref id="d1225007e231a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1225007e238" publication-type="other">
+T. J. Bridges, G. Derks, and G. Gottwald, Stability and instability of solitary waves of me fifth-
+order KdV equation: A numerical framework, Physica D 172 (2002), 190-216. MR1946769
+(2004i:37148)</mixed-citation>
+        </ref>
+        <ref id="d1225007e252a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1225007e259" publication-type="other">
+L. Q. Brin, Numerical testing of the stability of viscous shock waves, ph.D. thesis, Indiana
+University, 1998.</mixed-citation>
+        </ref>
+        <ref id="d1225007e269a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1225007e276" publication-type="other">
+---, Numerical testing of the stability of viscous shock waves, Math, of Comput. 70 (2000),
+no. 235, 1071-1088. MR1710652 (2001j:65118)</mixed-citation>
+        </ref>
+        <ref id="d1225007e286a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1225007e293" publication-type="other">
+P. J. Davis and P. Rabinowitz, Numerical integration, Blaisdell, 1967. MR0211604 (35:2482)</mixed-citation>
+        </ref>
+        <ref id="d1225007e300a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1225007e307" publication-type="other">
+I. Degani and J. Schiff, RCMS: Right correction Magnus series approach for integration of
+linear ordinary differential equations with highly oscillatory solution, J. Comput. Appl. Math
+193 (2006), no. 2, 413-436. MR2229552</mixed-citation>
+        </ref>
+        <ref id="d1225007e320a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1225007e327" publication-type="other">
+K. Engø, On the construction of geometric integrators in the RKMK class, BIT 40 (2000),
+no. 1, 41-61. MR1759033 (2001c:65081)</mixed-citation>
+        </ref>
+        <ref id="d1225007e337a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1225007e344" publication-type="other">
+J. W. Evans, Nerve axon equations: IV The stable and unstable pulse, Indiana Univ. Math.
+J. 24 (1975), no. 12, 1169-1190. MR0393891 (52:14698)</mixed-citation>
+        </ref>
+        <ref id="d1225007e355a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1225007e362" publication-type="other">
+M. Facão and D. F. Parker, Stability of screening solitons in photorefractive media, Phys.
+Rev. E 68 (2003), no. 1, 016610.</mixed-citation>
+        </ref>
+        <ref id="d1225007e372a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1225007e379" publication-type="other">
+R. A. Fisher, The wave of advance of advantageous genes, Ann. Eugenics 7 (1937), 353-369.</mixed-citation>
+        </ref>
+        <ref id="d1225007e386a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1225007e393" publication-type="other">
+C. González, A. Ostermann, and M. Thalhammer, A second-order Magnus integrator for non-
+autonomous parabolic problems, J. Comput. Appl. Math 189 (2006), 142-156. MR2202970
+(2006j:65269)</mixed-citation>
+        </ref>
+        <ref id="d1225007e406a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1225007e413" publication-type="other">
+L. Greenberg and M. Marietta, Numerical solution of non-self-adjoint Sturm-Liouville prob-
+lems and related systems, SIAM J. Numer. Anal. 38 (2001), no. 6, 1800-1845. MR1856233
+(2002g:65086)</mixed-citation>
+        </ref>
+        <ref id="d1225007e426a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1225007e433" publication-type="other">
+V. Gubernov, G. N. Mercer, H. S. Sidhu, and R. O. Weber, Evans function stability of
+non-adiabatic combustion waves, Proc. R. Soc. Lond. A 460 (2004), no. 2048, 2415-2435.
+MR2073926 (2005f:80012)</mixed-citation>
+        </ref>
+        <ref id="d1225007e446a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1225007e453" publication-type="other">
+E. Hairer and G. Wanner, Solving ordinary differential equations II. Stiff and differential-
+algebraic problems, second ed., Springer-Verlag, Berlin, 1996. MR1439506 (97m:65007)</mixed-citation>
+        </ref>
+        <ref id="d1225007e464a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1225007e471" publication-type="other">
+M. Hochbruck and C. Lubich, On Magnus integrators for time-dependent Schrödinger equa-
+tions, SIAM J. Numer. Anal. 41 (2003), no. 3, 945-963. MR2005189 (2004g:65089)</mixed-citation>
+        </ref>
+        <ref id="d1225007e481a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1225007e488" publication-type="other">
+A. Iserles, A first course in the numerical analysis of differential equations, Cambridge Uni-
+versity Press, 1996. MR1384977 (97m:65003)</mixed-citation>
+        </ref>
+        <ref id="d1225007e498a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1225007e505" publication-type="other">
+---, On the global error of discretization methods for highly-oscillatory ordinary differ-
+ential equations, BIT 42 (2002), no. 3, 561-599. MR1931887 (2003i:65056)</mixed-citation>
+        </ref>
+        <ref id="d1225007e515a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1225007e522" publication-type="other">
+A. Iserles, H. Z. Munthe-Kaas, S. P. Nørsett, and Antonella Zanna, Lie-group methods, Acta
+Numerica 9 (2000), 215-365. MR1883629 (2003a:37123)</mixed-citation>
+        </ref>
+        <ref id="d1225007e532a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1225007e539" publication-type="other">
+L. Jódar and M. Marietta, Solving ODEs arising from non-selfadjoint Hamiltonian eigen-
+problems, Adv. Comput. Math. 13 (2000), 231-256. MR1772541 (2001m:65091)</mixed-citation>
+        </ref>
+        <ref id="d1225007e549a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1225007e556" publication-type="other">
+T. Kapitula and B. Sandstede, Edge bifurcations for near integrable systems via Evans func-
+tion techniques, SIAM J. Math. Anal. 33 (2002), no. 5, 1117-1143. MR1897705 (2003c:37109)</mixed-citation>
+        </ref>
+        <ref id="d1225007e567a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1225007e574" publication-type="other">
+A. Kolmogorov, I. Petrovsky, and N. Piskunov, Étude de l'équation de la diffusion avec
+croissance de la quantité de matiére et son application à un probléme biologique, Bull. Univ.
+d'État à Moscou, Série Internationale, A 1 (1937), 1-25.</mixed-citation>
+        </ref>
+        <ref id="d1225007e587a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1225007e594" publication-type="other">
+W. Magnus, On the exponential solution of differential equations for a linear operator, Comm.
+Pure and Appl. Math. 7 (1954), 639-673. MR0067873 (16:790a)</mixed-citation>
+        </ref>
+        <ref id="d1225007e604a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1225007e611" publication-type="other">
+P. C. Moan, Efficient approximation of Sturm-Liouville problems using Lie-group methods,
+Tech. Report 1998/NA11, DAMTP, University of Cambridge , UK, 1998.</mixed-citation>
+        </ref>
+        <ref id="d1225007e621a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1225007e628" publication-type="other">
+P. C. Moan and J. Niesen, Convergence of the Magnus series, Submitted, 2006.
+arXiv:math/0609198</mixed-citation>
+        </ref>
+        <ref id="d1225007e638a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d1225007e645" publication-type="other">
+C. Moler and C. van Loan, Nineteen dubious ways to compute the exponential of a matrix,
+twenty-five years later, SIAM Review 45 (2003), no. 1, 3-49. MR1981253 (2004d:15012)</mixed-citation>
+        </ref>
+        <ref id="d1225007e655a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d1225007e662" publication-type="other">
+J. D. Murray, Mathematical biology, Springer, 1989. MR1007836 (90g:92001)</mixed-citation>
+        </ref>
+        <ref id="d1225007e670a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d1225007e677" publication-type="other">
+J. Niesen, On the global error committed when evaluating the Evans function numeri-
+cally, Tech. Report HWM 06/43, Dept of Mathematics, Heriot-Watt University, 2006.
+arXiv:math/0611855</mixed-citation>
+        </ref>
+        <ref id="d1225007e690a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d1225007e697" publication-type="other">
+R. L. Pego and M. I. Weinstein, Eigenvalues, and instabilities of solitary waves, Philos. Trans.
+R. Soc. Lond. A 340 (1992), no. 1, 47-94. MR1177566 (93g:35115)</mixed-citation>
+        </ref>
+        <ref id="d1225007e707a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d1225007e714" publication-type="other">
+A. Prothero and A. Robinson, On the stability and accuracy of one-step methods for solv-
+ing stiff systems of ordinary differential equations, Math, of Comput. 28 (1974), 145-162.
+MR0331793 (48:10125)</mixed-citation>
+        </ref>
+        <ref id="d1225007e727a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d1225007e734" publication-type="other">
+J. D. Pryce, Numerical solution of Sturm-Liouville problems, Clarendon Press, Oxford, 1993.
+MR1283388 (95h:65056)</mixed-citation>
+        </ref>
+        <ref id="d1225007e744a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d1225007e751" publication-type="other">
+B. Sandstede, Stability of travelling waves, Handbook of Dynamical Systems II (B. Fiedler,
+ed.), North-Holland, 2002, pp. 983-1055. MR1901069 (2004e:37121)</mixed-citation>
+        </ref>
+        <ref id="d1225007e761a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d1225007e768" publication-type="other">
+J. Swinton and J. Elgin, Stability of travelling pulse solutions to a laser equation, Phys. Lett.
+A 145 (1990), no. 8-9, 428-433. MR1052867 (91c:81190)</mixed-citation>
+        </ref>
+        <ref id="d1225007e779a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d1225007e786" publication-type="other">
+D. Terman, Stability of planar wave solutions to a combustion model, SIAM J. Math. Anal.
+21 (1990), no. 5, 1139-1171. MR1062397 (91f:35138)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

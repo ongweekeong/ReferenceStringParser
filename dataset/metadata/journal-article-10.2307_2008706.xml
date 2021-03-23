@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">54</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">189</issue>
+         <issue-id>i334607</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008706</article-id>
+         
+         <title-group>
+            <article-title>Integer Relations Among Algebraic Numbers</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bettina</given-names>
+                  <surname>Just</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>467</fpage>
+         <lpage>477</lpage>
+         <page-range>467-477</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1990 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008706"/>
+         
+         
+         <abstract>
+            <p>
+               A vector $m = (m_1,\ldots, m_n) \in \mathbf{Z}^n\backslash\{0\}$ is called an integer relation for the real numbers $\alpha_1,\ldots, \alpha_n$, if $\sum \alpha_im_i = 0$ holds. We present an algorithm that, when given algebraic numbers $\alpha_1,\ldots, \alpha_n$ and a parameter $\varepsilon$, either finds an integer relation for $\alpha_1,\ldots, \alpha_n$ or proves that no relation of Euclidean length shorter than $1/\varepsilon$ exists. Each algebraic number is assumed to be given by its minimal polynomial and by a sufficiently precise rational approximation. Our algorithm uses the Lenstra-Lenstra-Lovász lattice basis reduction technique. It performs $$\operatorname{poly} (\log 1/\varepsilon, n, \log \max_i\quad\text{height}(\alpha_i), \lbrack\mathbf{Q}(\alpha_1,\ldots, \alpha_n): \mathbf{Q}\rbrack)$$ bit operations. The straightforward algorithm that works with a primitive element of the field extension $\mathbf{Q}(\alpha_1,\ldots, \alpha_n)$ of $\mathbf{Q}$ would take $$\operatorname{poly} \bigg(n, \log \max_i\quad\text{height}(\alpha_i), \prod^n_{i = 1}\quad\text{degree}(\alpha_i)\bigg)$$ bit operations. In order to prove the correctness of the algorithm, we show a lower bound for $|\sum \alpha_im_i|$ if $m$ is not an integer relation for $\alpha_1,\ldots, \alpha_n$, which may be interesting in its own right. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>68Q25</kwd>
+            <kwd>68Q40</kwd>
+            <kwd>12F10</kwd>
+            <kwd>Integer relation</kwd>
+            <kwd>algebraic number</kwd>
+            <kwd>lattice basis reduction</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d5007261e157a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d5007261e164" publication-type="journal">
+L. Babai, B. Just, and F. Meyer auf der Heide, On the limits of computations with the floor
+function, Inf. Comput.78 (1988), 99-107.<person-group>
+                     <string-name>
+                     <surname>Babai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>78</volume>
+               <source>Inf. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e196a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d5007261e203" publication-type="book">
+G. Bergman, Notes on Ferguson and Forcade 's generalized Euclidean algorithm, preprint, Dept.
+of Math., Univ. of California, Berkeley, 1980.<person-group>
+                     <string-name>
+                     <surname>Bergman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Notes on Ferguson and Forcade 's generalized Euclidean algorithm</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e228a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d5007261e235" publication-type="book">
+G. Birkhoff and S. Mac Lane, A survey of modern algebra, Macmillan, New York, 1965.<person-group>
+                     <string-name>
+                     <surname>Birkhoff</surname>
+                  </string-name>
+                  </person-group>
+               <source>A survey of modern algebra</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e257a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d5007261e264" publication-type="book">
+B. Buchberger, G. Collins, and R. Loos (eds.), Computer algebra. Symbolic and algebraic
+computation, Springer, Wien and New York, 1982.<person-group>
+                     <string-name>
+                     <surname>Buchberger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer algebra. Symbolic and algebraic computation</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e290a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d5007261e297" publication-type="journal">
+V. Brun, En generalisation al kjedebroken. I; II, Skr. Vid. Selsk. Kristiana, Mat. Nat. K1.6
+(1919), 1-29<person-group>
+                     <string-name>
+                     <surname>Brun</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>6</volume>
+               <source>Skr. Vid. Selsk. Kristiana, Mat. Nat. K1.</source>
+               <year>1919</year>
+            </mixed-citation>
+               <mixed-citation id="d5007261e328" publication-type="journal">
+6 (1920), 1-24.<fpage>1</fpage>
+               <volume>6</volume>
+               <year>1920</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e344a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d5007261e351" publication-type="journal">
+H. Ferguson and R. Forcade, Generalization of the Euclidean algorithm for real numbers to all
+dimensions higher than two, Bull. Amer. Math. Soc.(N. S.)1 (1979), 912-914.<person-group>
+                     <string-name>
+                     <surname>Ferguson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="series title">N. S.</comment>
+               <fpage>912</fpage>
+               <volume>1</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e386a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d5007261e393" publication-type="journal">
+—, Multidimensional Euclidean algorithms, J. Reine Angew. Math.334 (1982), 171-181.<person-group>
+                     <string-name>
+                     <surname>Ferguson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>171</fpage>
+               <volume>334</volume>
+               <source>J. Reine Angew. Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e422a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d5007261e429" publication-type="book">
+G. Fischer and R. Sacher, Einführung in die Algebra, Teubner, Stuttgart, 1983.<person-group>
+                     <string-name>
+                     <surname>Fischer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Einführung in die Algebra</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e451a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d5007261e458" publication-type="journal">
+J. Hastad, B. Just, J. C. Lagarias, and C. P. Schnorr, Polynomial time algorithms for finding
+integer relations among real numbers, SIAM J. Comput.18 (1989), 859-881.<person-group>
+                     <string-name>
+                     <surname>Hastad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>859</fpage>
+               <volume>18</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e490a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d5007261e497" publication-type="journal">
+C. G. J. Jacobi, 411gemeine Theorie der kettenbruchihnlichen Algorithmen, J. Reine Angew.
+Math.69 (1868), 29-64.<person-group>
+                     <string-name>
+                     <surname>Jacobi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>29</fpage>
+               <volume>69</volume>
+               <source>J. Reine Angew. Math.</source>
+               <year>1868</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e530a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d5007261e537" publication-type="conference">
+R. Kannan, Improved algorithms for integer programming and related problems, 15th ACM
+Sympos. on Theory of Computing, Association for Computing Machinery, New York, 1983,
+pp. 193-206.<person-group>
+                     <string-name>
+                     <surname>Kannan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Improved algorithms for integer programming and related problems</comment>
+               <fpage>193</fpage>
+               <source>15th ACM Sympos. on Theory of Computing, Association for Computing Machinery, New York</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e572a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d5007261e579" publication-type="journal">
+R. Kannan, A. K. Lenstra, and L. Lovdsz, Polynomialfactorization and nonrandomness of bits
+of algebraic and some transcendental numbers, Math. Comp.182 (1988), 235-250.<object-id pub-id-type="doi">10.2307/2007927</object-id>
+               <fpage>235</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e595a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d5007261e602" publication-type="conference">
+J. C. Lagarias, The computational complexity of simultaneous Diophantine approximation prob-
+lems, 23rd Annual Sympos. on the Foundations of Computer Science, IEEE Computer Society
+Press, Los Angeles, Calif., 1982, pp. 32-39.<person-group>
+                     <string-name>
+                     <surname>Lagarias</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The computational complexity of simultaneous Diophantine approximation problems</comment>
+               <fpage>32</fpage>
+               <source>23rd Annual Sympos. on the Foundations of Computer Science, IEEE Computer Society Press, Los Angeles, Calif.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e637a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d5007261e644" publication-type="journal">
+A. K. Lenstra, H. W. Lenstra, and L. Lovasz, Factoring polynomials with rational coefficients,
+Math. Ann.261 (1982), 513-534.<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>513</fpage>
+               <volume>261</volume>
+               <source>Math. Ann.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e676a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d5007261e683" publication-type="journal">
+0. Perron, Grundlagen fir eine Theorie des Jacobischen Kettenbruchalgorithmus, Math. Ann.
+64 (1907), 1-76.<person-group>
+                     <string-name>
+                     <surname>Perron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>64</volume>
+               <source>Math. Ann.</source>
+               <year>1907</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e715a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d5007261e722" publication-type="journal">
+C. P. Schnorr, 4 hierarchy of polynomial time lattice basis reduction algorithms, Theor. Com-
+put. Sci.53 (1987), 201-224.<person-group>
+                     <string-name>
+                     <surname>Schnorr</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>53</volume>
+               <source>Theor. Comput. Sci.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e755a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d5007261e762" publication-type="journal">
+—, 4 more efficient algorithm for lattice basis reduction, J. Algorithms9 (1988), 47-62.<person-group>
+                     <string-name>
+                     <surname>Schnorr</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>47</fpage>
+               <volume>9</volume>
+               <source>J. Algorithms</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e791a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d5007261e798" publication-type="conference">
+A. Schönhage, Factorization of univariate integer polynomials by Diophantine approximation
+and by an improved basis reduction algorithm, Proc. of 11th ICALP Antwerpen, Lecture Notes
+in Comput. Sci., vol. 172, Springer, 1984.<person-group>
+                     <string-name>
+                     <surname>Schönhage</surname>
+                  </string-name>
+                  </person-group>
+               <volume>172</volume>
+               <source>Factorization of univariate integer polynomials by Diophantine approximation and by an improved basis reduction algorithm</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007261e830a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d5007261e837" publication-type="journal">
+G. Szekeres, Multidimensional continued fractions, Ann. Univ. Sci. Budapest. Eötvös Sect.
+Math.13 (1970), 113-140.<person-group>
+                     <string-name>
+                     <surname>Szekeres</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>13</volume>
+               <source>Ann. Univ. Sci. Budapest. Eötvös Sect. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

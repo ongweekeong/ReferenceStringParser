@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">83</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">285</issue>
+         <issue-id>i24488196</issue-id>
+         <article-id pub-id-type="jstor">24488209</article-id>
+         <title-group>
+            <article-title>AUTOMATIC EVALUATIONS OF CROSS-DERIVATIVES</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>ANDREAS</given-names>
+                  <surname>GRIEWANK</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>LUTZ</given-names>
+                  <surname>LEHMANN</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>HERNAN</given-names>
+                  <surname>LEOVEY</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>MARAT</given-names>
+                  <surname>ZILBERMAN</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2014</year>
+         </pub-date>
+         <fpage>251</fpage>
+         <lpage>274</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2014 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488209"/>
+      
+      
+         <abstract>
+            <p>Cross-derivatives are mixed partial derivatives involving at most one differentiation in each one of n coordinate directions. They are a computational tool in combinatorics and of potential use in high-dimensional integration. Here we present two methods that evaluate all 2n cross-derivatives at a given point. The computational complexity is, respectively, 3n and n²2n times that of the underlying function. The asymptotically faster method involves a final interpolation step, which can easily be carried out using extra-accurate subtractions to reduce the effect of numerical round-off. Further complexity reductions for large n can be obtained through faster polynomial multiplications, e.g., Karatsuba's method or FFT.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1770184e205a1310">
+            <label>BGLS10</label>
+          
+            <mixed-citation id="d1770184e212" publication-type="other">
+Torsten Bosse, Andreas Griewank, Lutz Lehmann, and Volker Schlofihauer, On
+Hessian- and Jacobian-free SQP methods - a total quasi-Newton scheme with com-
+pact storage, Recent Advances in Optimization and its Applications in Engineering
+(Moritz Diehl, Francois Glineur, Elias Jarlebring, and Wim Michiels, eds.), Springer
+Berlin Heidelberg, 2010, pp. 63-72.</mixed-citation>
+        </ref>
+        <ref id="d1770184e231a1310">
+            <label>BHKK07</label>
+          
+            <mixed-citation id="d1770184e238" publication-type="other">
+Andreas Bjorklund, Thore Husfeldt, Petteri Kaski, and Mikko Koivisto, Fourier meets
+Mobius: fast subset convolution, Proceedings of the Thirty-Ninth Annual ACM Sym-
+posium on Theory of Computing (New York, NY, USA), STOC '07, ACM, 2007,
+pp. 67-74. MR2402429 (2010e:68220)</mixed-citation>
+        </ref>
+        <ref id="d1770184e254a1310">
+            <label>CU09</label>
+          
+            <mixed-citation id="d1770184e261" publication-type="other">
+Isabelle Charpentier and Jean Utke, Fast higher-order derivative tensors with Rapso-
+dia, Optimization Methods Software 24 (2009), no. 1, 1-14.</mixed-citation>
+        </ref>
+        <ref id="d1770184e271a1310">
+            <label>DP10</label>
+          
+            <mixed-citation id="d1770184e278" publication-type="other">
+Josef Dick and Friedrich Pillichshammer, Digital nets and sequences, Cambridge Uni-
+versity Press, Cambridge, 2010, Discrepancy theory and quasi-Monte Carlo integra-
+tion. MR2683394</mixed-citation>
+        </ref>
+        <ref id="d1770184e292a1310">
+            <label>GJ79</label>
+          
+            <mixed-citation id="d1770184e299" publication-type="other">
+M. R. Garey and D. S. Johnson, Computer and Intractability. A Guide to the Theory
+of NP-Completeness, Freeman &amp;; Co., New York, 1979. MR519066 (80g:68056)</mixed-citation>
+        </ref>
+        <ref id="d1770184e309a1310">
+            <label>GKS10</label>
+          
+            <mixed-citation id="d1770184e316" publication-type="other">
+Michael Griebel, Frances Y. Kuo, and Ian H. Sloan, The smoothing effect of the
+ANOVA decomposition, J. Complexity 26 (2010), no. 5, 523-551. MR2719646</mixed-citation>
+        </ref>
+        <ref id="d1770184e326a1310">
+            <label>Gla04</label>
+          
+            <mixed-citation id="d1770184e333" publication-type="other">
+Paul Glasserman, Monte Carlo methods in financial engineering, Applications of
+Mathematics (New York), vol. 53, Springer-Verlag, New York, 2004, Stochastic Mod-
+elling and Applied Probability. MR1999614 (2004g:65005)</mixed-citation>
+        </ref>
+        <ref id="d1770184e346a1310">
+            <label>Gri06</label>
+          
+            <mixed-citation id="d1770184e353" publication-type="other">
+Michael Griebel, Sparse grids and related approximation schemes for higher dimen-
+sional problems, Foundations of computational mathematics, Santander 2005, London
+Math. Soc. Lecture Note Ser., vol. 331, Cambridge Univ. Press, Cambridge, 2006,
+pp. 106-161. MR2277104 (2007k:65206)</mixed-citation>
+        </ref>
+        <ref id="d1770184e369a1310">
+            <label>GUW00</label>
+          
+            <mixed-citation id="d1770184e376" publication-type="other">
+Andreas Griewank, Jean Utke, and Andrea Walther, Evaluating higher derivative
+tensors by forward propagation of univariate Taylor series., Math. Comp. 69 (2000),
+no. 231, 1117-1130 (English). MR1651755 (2000j:65033)</mixed-citation>
+        </ref>
+        <ref id="d1770184e389a1310">
+            <label>GW02</label>
+          
+            <mixed-citation id="d1770184e396" publication-type="other">
+Andreas Griewank and Andrea Walther, On constrained optimization by adjoint based
+quasi-Newton methods, Optimization Methods and Software 17 (2002), no. 5, 869-889.
+MR1953823 (2003m:90162)</mixed-citation>
+        </ref>
+        <ref id="d1770184e410a1310">
+            <label>GW08a</label>
+          
+            <mixed-citation id="d1770184e417" publication-type="other">
+—,Evaluating derivatives, second ed., Society for Industrial and Applied Math-
+ematics (SIAM), Philadelphia, PA, 2008, Principles and techniques of algorithmic
+differentiation. MR2454953</mixed-citation>
+        </ref>
+        <ref id="d1770184e430a1310">
+            <label>GW08a</label>
+          
+            <mixed-citation id="d1770184e437" publication-type="other">
+Andreas Griewank and Andrea Walther, Evaluating derivatives: Principles and tech-
+niques of algorithmic differentiation, 2nd ed., Other Titles in Applied Mathematics,
+no. 105, SIAM, Philadelphia, PA, 2008. MR2454953 (2011a:65053)</mixed-citation>
+        </ref>
+        <ref id="d1770184e450a1310">
+            <label>GWK07</label>
+          
+            <mixed-citation id="d1770184e457" publication-type="other">
+Andreas Griewank, Andrea Walther, and Maciek Korzec, Maintaining factorized KKT
+systems subject to rank-one updates of Hessians and Jacobians, Optim. Methods
+Softw. 22 (2007), no. 2, 279-295. MR2288765 (2007i:90109)</mixed-citation>
+        </ref>
+        <ref id="d1770184e470a1310">
+            <label>Hic98</label>
+          
+            <mixed-citation id="d1770184e477" publication-type="other">
+Fred J. Hickernell, Lattice rules: How well do they measure up?, Random and quasi-
+random point sets, Lecture Notes in Statist., vol. 138, Springer, New York, 1998,
+pp. 109-166. MR1662841 (2000b:65007)</mixed-citation>
+        </ref>
+        <ref id="d1770184e490a1310">
+            <label>JK08</label>
+          
+            <mixed-citation id="d1770184e497" publication-type="other">
+Stephen Joe and Frances Y. Kuo, Constructing Sobol' sequences with better two-
+dimensional projections, SIAM J. Sci. Comput. 30 (2008), no. 5, 2635-2654.
+MR2429482 (2009j:65066)</mixed-citation>
+        </ref>
+        <ref id="d1770184e510a1310">
+            <label>Knu69</label>
+          
+            <mixed-citation id="d1770184e517" publication-type="other">
+Donald E. Knuth, The art of computer programming, volume ii: Seminumerical al-
+gorithms, Addison-Wesley, Reading, MA, 1969. MR0378456 (51:14624)</mixed-citation>
+        </ref>
+        <ref id="d1770184e528a1310">
+            <label>KS05</label>
+          
+            <mixed-citation id="d1770184e535" publication-type="other">
+Frances Y. Kuo and Ian H. Sloan, Lifting the curse of dimensionality, Notices Amer.
+Math. Soc. 52 (2005), no. 11, 1320-1329. MR2183869 (2006j:65061)</mixed-citation>
+        </ref>
+        <ref id="d1770184e545a1310">
+            <label>Kub08</label>
+          
+            <mixed-citation id="d1770184e552" publication-type="other">
+Koichi Kubota, Combinatorial computation with automatic differentiation, Advances
+in Automatic Differentiation (Christian H. Bischof, H. Martin Biicker, Paul D. Hov-
+land, Uwe Naumann, and Jean Utke, eds.), Lecture Notes in Computational Sci-
+ence and Engineering, vol. 64, Springer, Berlin, 2008, pp. 315—325. MR2531693
+(2010g:05205)</mixed-citation>
+        </ref>
+        <ref id="d1770184e571a1310">
+            <label>LG12</label>
+          
+            <mixed-citation id="d1770184e578" publication-type="other">
+Hernan Leovey and Andreas Griewank, Computation of optimal weights for quasi-
+Monte Carlo via algorithmic differentiation, In preparation (2012).</mixed-citation>
+        </ref>
+        <ref id="d1770184e588a1310">
+            <label>Mar04</label>
+          
+            <mixed-citation id="d1770184e595" publication-type="other">
+George Marsaglia, Evaluating the normal distribution, Journal of Statistical Software
+11 (2004), no. 5, 1-11.</mixed-citation>
+        </ref>
+        <ref id="d1770184e605a1310">
+            <label>MN98</label>
+          
+            <mixed-citation id="d1770184e612" publication-type="other">
+Makoto Matsumoto and Takuji Nishimura, Mersenne twister: a 623-dimensionally
+equidistributed uniform pseudo-random number generator, ACM Trans. Model. Com-
+put. Simul. 8 (1998), 3-30.</mixed-citation>
+        </ref>
+        <ref id="d1770184e625a1310">
+            <label>NC06</label>
+          
+            <mixed-citation id="d1770184e632" publication-type="other">
+Dirk Nuyens and Ronald Cools, Fast algorithms for component-by-component con-
+struction of rank-1 lattice rules in shift-invariant reproducing kernel Hilbert spaces,
+Math. Comp. 75 (2006), no. 254, 903-920 (electronic). MR2196999 (2007a:65032)</mixed-citation>
+        </ref>
+        <ref id="d1770184e646a1310">
+            <label>Nie92</label>
+          
+            <mixed-citation id="d1770184e653" publication-type="other">
+Harald Niederreiter, Random number generation and quasi-Monte Carlo methods,
+CBMS-NSF Regional Conference Series in Applied Mathematics, vol. 63, Society for
+Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 1992. MR1172997
+(93h:65008)</mixed-citation>
+        </ref>
+        <ref id="d1770184e669a1310">
+            <label>Nuy07</label>
+          
+            <mixed-citation id="d1770184e676" publication-type="other">
+D.Nuyens, Fast construction of good lattice rules, PhD. Thesis, Katholieke Univer-
+siteit Leuven (2007), 903-920.</mixed-citation>
+        </ref>
+        <ref id="d1770184e686a1310">
+            <label>NW08</label>
+          
+            <mixed-citation id="d1770184e693" publication-type="other">
+Erich Novak and Henryk Wozniakowski, Tractability of multivariate problems. Volume
+i: Linear information, EMS Tracts in Mathematics, vol. 6, European Mathematical
+Society (EMS), Zurich, 2008. MR2455266 (2009m:46037)</mixed-citation>
+        </ref>
+        <ref id="d1770184e706a1310">
+            <label>NW10</label>
+          
+            <mixed-citation id="d1770184e713" publication-type="other">
+—,Tractability of multivariate problems. Volume II: Standard information for
+functionals, EMS Tracts in Mathematics, vol. 12, European Mathematical Society
+(EMS), Zurich, 2010. MR2676032 (2011h:46093)</mixed-citation>
+        </ref>
+        <ref id="d1770184e726a1310">
+            <label>ORO05</label>
+          
+            <mixed-citation id="d1770184e733" publication-type="other">
+Takeshi Ogita, Siegfried M. Rump, and Shin'ichi Oishi, Accurate Sum and Dot Prod-
+uct, SIAM J. Sci. Comput 26 (2005), no. 6, 1955-1988. MR2196584 (2006i:65077)</mixed-citation>
+        </ref>
+        <ref id="d1770184e743a1310">
+            <label>Rys63</label>
+          
+            <mixed-citation id="d1770184e750" publication-type="other">
+H. J. Ryser, Combinatorial mathematics, Carus Mathematical Monographs, no. 14,
+Mathematical Association of America, 1963. MR0150048 (27:51)</mixed-citation>
+        </ref>
+        <ref id="d1770184e761a1310">
+            <label>WF03</label>
+          
+            <mixed-citation id="d1770184e768" publication-type="other">
+Xiaoqun Wang and Kai-Tai Fang, The effective dimension and quasi-Monte Carlo
+integration, J. Complexity 19 (2003), no. 2, 101-124. MR1966664 (2003m:62016)</mixed-citation>
+        </ref>
+        <ref id="d1770184e778a1310">
+            <label>WS07</label>
+          
+            <mixed-citation id="d1770184e785" publication-type="other">
+Xiaoqun Wang and Ian H. Sloan, Brownian bridge and principal component analysis:
+towards removing the curse of dimensionality, IMA J. Numer. Anal. 27 (2007), no. 4,
+631-654. MR2371825 (2009a:62248)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

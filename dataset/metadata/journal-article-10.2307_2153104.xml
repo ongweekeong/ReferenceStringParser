@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">60</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">202</issue>
+         <issue-id>i337658</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153104</article-id>
+         
+         <title-group>
+            <article-title>Runge-Kutta Methods and Local Uniform Grid Refinement</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>R. A.</given-names>
+                  <surname>Trompert</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. G.</given-names>
+                  <surname>Verwer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1993</year>
+         </pub-date>
+         <fpage>591</fpage>
+         <lpage>616</lpage>
+         <page-range>591-616</page-range>
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1993 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153104"/>
+         
+         
+         <abstract>
+            <p>Local uniform grid refinement (LUGR) is an adaptive grid technique for computing solutions of partial differential equations possessing sharp spatial transitions. Using nested, finer-and-finer uniform subgrids, the LUGR technique refines the space grid locally around these transitions, so as to avoid discretization on a very fine grid covering the entire physical domain. This paper examines the LUGR technique for time-dependent problems when combined with static regridding. Static regridding means that in the course of the time evolution, the space grid is adapted at discrete times. The present paper considers the general class of Runge-Kutta methods for the numerical time integration. Following the method of lines approach, we develop a mathematical framework for the general Runge-Kutta LUGR method applied to multispace-dimensional problems. We hereby focus on parabolic problems, but a considerable part of the examination applies to hyperbolic problems as well. Much attention is paid to the local error analysis. The central issue here is a "refinement condition" which is to underly the refinement strategy. By obeying this condition, spatial interpolation errors are controlled in a manner that the spatial accuracy obtained is comparable to the spatial accuracy on the finest grid if this grid would be used without any adaptation. A diagonally implicit Runge-Kutta method is discussed for illustration purposes, both theoretically and numerically.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65M50</kwd>
+            <kwd>65M20</kwd>
+            <kwd>Partial differential equations</kwd>
+            <kwd>numerical mathematics</kwd>
+            <kwd>time-dependent problems</kwd>
+            <kwd>Runge-Kutta methods</kwd>
+            <kwd>adaptive grid methods</kwd>
+            <kwd>error analysis</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d1426593e197a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1426593e204" publication-type="journal">
+S. Adjerid and J. E. Flaherty, A local refinement finite element method for two dimensional
+parabolic systems, SIAM J. Sci. Statist. Comput.9 (1988), 792-811.<person-group>
+                     <string-name>
+                     <surname>Adjerid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>792</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e236a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1426593e243" publication-type="journal">
+D. C. Arney and J. E. Flaherty, An adaptive local mesh refinement methodfor time-dependent
+partial differential equations, Appl. Numer. Math.5 (1989), 257-274.<person-group>
+                     <string-name>
+                     <surname>Arney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>257</fpage>
+               <volume>5</volume>
+               <source>Appl. Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e275a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1426593e282" publication-type="journal">
+M. J. Berger and J. Oliger, Adaptive mesh refinement for hyperbolic partial differential equa-
+tions, J. Comput. Phys.53 (1984), 484-512.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>484</fpage>
+               <volume>53</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e314a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1426593e321" publication-type="other">
+M. Crouzeix and P. A. Raviart, Approximation des problemes d'évolution. 1: Etude des
+méthodes linéaires a pas multiples et des méthodes de Runge-Kutta, unpublished lecture
+notes, Université de Rennes, France.</mixed-citation>
+            </ref>
+            <ref id="d1426593e335a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1426593e342" publication-type="book">
+K. Dekker and J. G. Verwer, Stability of Runge-Kutta methods for stiff nonlinear differential
+equations, North-Holland, Amsterdam-New York-Oxford, 1984.<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stability of Runge-Kutta methods for stiff nonlinear differential equations</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e367a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1426593e374" publication-type="book">
+W. D. Gropp, Local uniform mesh refinement on vector and parallel processors, Large Scale
+Scientific Computing (P. Deuflhard and B. Engquist, eds.), Progr. Sci. Comput., Birkhauser,
+Boston, 1987, pp. 349-367.<person-group>
+                     <string-name>
+                     <surname>Gropp</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Local uniform mesh refinement on vector and parallel processors</comment>
+               <fpage>349</fpage>
+               <source>Large Scale Scientific Computing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e409a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1426593e416" publication-type="journal">
+—, Local uniform mesh refinement with moving grids, SIAM J. Sci. Statist. Comput.8
+(1987), 292-304.<person-group>
+                     <string-name>
+                     <surname>Gropp</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>292</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e448a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1426593e455" publication-type="journal">
+J. M. Sanz-Serna and J. G. Verwer, Stability and convergence at the PDE/stif ODE interface,
+Appl. Numer. Math.5 (1989), 117-132.<person-group>
+                     <string-name>
+                     <surname>Sanz-Serna</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>117</fpage>
+               <volume>5</volume>
+               <source>Appl. Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e487a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1426593e494" publication-type="journal">
+J. M. Sanz-Serna, J. G. Verwer, and W. H. Hundsdorfer, Convergence and order reduction
+of Runge-Kutta schemes applied to evolutionary problems in partial differential equations,
+Numer. Math.50 (1987), 405-418.<person-group>
+                     <string-name>
+                     <surname>Sanz-Serna</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>405</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e529a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1426593e536" publication-type="book">
+R. A. Trompert and J. G. Verwer, Runge-Kutta methods and local uniform grid refinement,
+Report NM-R9022, Centre for Mathematics and Computer Science, Amsterdam, preprint.<person-group>
+                     <string-name>
+                     <surname>Trompert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Runge-Kutta methods and local uniform grid refinement</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e559a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1426593e566" publication-type="journal">
+—, A static-regridding method for two dimensional parabolic partial differential equations,
+Appl. Numer. Math.8 (1991), 65-90.<person-group>
+                     <string-name>
+                     <surname>Trompert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <volume>8</volume>
+               <source>Appl. Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1426593e598a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1426593e605" publication-type="journal">
+—, Analysis of the implicit Euler local uniform grid refinement method, SIAM J. Sci.
+Statist. Comput.14 (1993).<person-group>
+                     <string-name>
+                     <surname>Trompert</surname>
+                  </string-name>
+                  </person-group>
+               <volume>14</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

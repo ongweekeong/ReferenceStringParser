@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15372715</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i24737208</issue-id>
+         <article-id pub-id-type="doi">10.2307/24737271</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>MCMC and Optimization</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Markov Chain Monte Carlo From Lagrangian Dynamics</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Shiwei</given-names>
+                  <surname>Lan</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Vasileios</given-names>
+                  <surname>Stathopoulos</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Babak</given-names>
+                  <surname>Shahbaba</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Mark</given-names>
+                  <surname>Girolami</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>357</fpage>
+         <lpage>378</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737271"/>
+      
+      
+         <abstract>
+            <p>Hamiltonian Monte Carlo (HMC) improves the computational efficiency of the Metropolis–Hastings algorithm by reducing its random walk behavior. Riemannian HMC (RHMC) further improves the performance of HMC by exploiting the geometric properties of the parameter space. However, the geometric integrator used for RHMC involves implicit equations that require fixed-point iterations. In some cases, the computational overhead for solving implicit equations undermines RHMC's benefits. In an attempt to circumvent this problem, we propose an explicit integrator that replaces the momentum variable in RHMC by velocity. We show that the resulting transformation is equivalent to transforming Riemannian Hamiltonian dynamics to Lagrangian dynamics. Experimental results suggest that our method improves RHMC's overall computational efficiency in the cases considered. All computer programs and datasets are available online (http://www.ics.uci.edu/babaks/Site/Codes.html) to allow replication of the results reported in this article.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1402e262a1310">
+          
+            <mixed-citation id="d1402e266" publication-type="other">
+Aman, S., and Nagaoka, H. (2000), Methods of Information Geometry, New York: Oxford University Press. [358]</mixed-citation>
+        </ref>
+        <ref id="d1402e273a1310">
+          
+            <mixed-citation id="d1402e277" publication-type="other">
+Beskos, A., Pinski, J. F., Sanz-Serna, J. M., and Stuart, A. M. (2011), "Hybrid Monte Carlo on Hilbert Spaces,"
+Stochastic Processes and Applications, 121,2201-2230. [361]</mixed-citation>
+        </ref>
+        <ref id="d1402e287a1310">
+          
+            <mixed-citation id="d1402e291" publication-type="other">
+Bishop, R. L., and Goldberg, S. I., (2000), Tensor Analysis on Manifolds, Mineola, NY: Dover Publications, Inc.
+[369]</mixed-citation>
+        </ref>
+        <ref id="d1402e301a1310">
+          
+            <mixed-citation id="d1402e305" publication-type="other">
+Chin, S. A. (2009), "Explicit Symplectic Integrators for Solving Nonseparable Hamiltonians," Physical Review
+E, 80,037701-037701-4. [369]</mixed-citation>
+        </ref>
+        <ref id="d1402e316a1310">
+          
+            <mixed-citation id="d1402e320" publication-type="other">
+Duane, S., Kennedy, A. D., Pendleton, B. J., and Roweth, D. (1987), "Hybrid Monte Carlo," Physics Letters B,
+195,216-222. [357]</mixed-citation>
+        </ref>
+        <ref id="d1402e330a1310">
+          
+            <mixed-citation id="d1402e334" publication-type="other">
+Dullweber, A., Leimkuhler, B., and McLachlan, R. (1997), "Split-Hamiltonian Methods for Rigid Body Molecular
+Dynamic," Journal of Chemical Physics, 107, 5840-5852. [368]</mixed-citation>
+        </ref>
+        <ref id="d1402e344a1310">
+          
+            <mixed-citation id="d1402e348" publication-type="other">
+Geyer, C. J. (1992), "Practical Markov Chain Monte Carlo," Statistical Science, 7,473^83. [363]</mixed-citation>
+        </ref>
+        <ref id="d1402e355a1310">
+          
+            <mixed-citation id="d1402e359" publication-type="other">
+Girolami, M., and Calderhead, B. (2011), "Riemann Manifold Langevin and Hamiltonian Monte Carlo Methods"
+(with discussion), Journal of the Royal Statistical Society, Series B, 73,123-214. [358,359,363,364,365,368]</mixed-citation>
+        </ref>
+        <ref id="d1402e369a1310">
+          
+            <mixed-citation id="d1402e373" publication-type="other">
+Green, P. J. (1995), "Reversible Jump Markov Chain Monte Carlo Computation and Bayesian Model Determina-
+tion," Biometrika, 82, 711-732. [361,370]</mixed-citation>
+        </ref>
+        <ref id="d1402e383a1310">
+          
+            <mixed-citation id="d1402e387" publication-type="other">
+Leimkuhler, B„ and Reich, S. (2004), Simulating Hamiltonian Dynamic, New York: Cambridge University Press.
+[359,360,370,374]</mixed-citation>
+        </ref>
+        <ref id="d1402e398a1310">
+          
+            <mixed-citation id="d1402e402" publication-type="other">
+Liu, J. S, (2001), "Molecular Dynamic and Hybrid Monte Carlo," in Monte Carlo Strategies in Scientific Com-
+puting, ed. Jun S. Liu, New York: Springer-Verlag, pp. 183-204. [371]</mixed-citation>
+        </ref>
+        <ref id="d1402e412a1310">
+          
+            <mixed-citation id="d1402e416" publication-type="other">
+Marin, J. M., Mengersen, K. L., and Robert, C. (2005), "Bayesian Modeling and Inference on Mixtures of
+Distributions," in Handbook of Statistics (Vol. 25), eds. D. Dey and C. R. Rao, Amsterdam: Elsevier,
+pp. 459-507. [367]</mixed-citation>
+        </ref>
+        <ref id="d1402e429a1310">
+          
+            <mixed-citation id="d1402e433" publication-type="other">
+McLachlan, G. J., and Peel, D. (2000), Finite Mixture Models, New York: Wiley. [367]</mixed-citation>
+        </ref>
+        <ref id="d1402e440a1310">
+          
+            <mixed-citation id="d1402e444" publication-type="other">
+Neal, R. M. (2010), "MCMC Using Hamiltonian Dynamic," in Handbook of Markov Chain Monte Carlo, eds.
+S. Brooks, A. Gelman, G. Jones, and X. L. Meng, Boca Raton, FL: Chapman and Hall/CRC, pp. 113-162.
+[357,368]</mixed-citation>
+        </ref>
+        <ref id="d1402e457a1310">
+          
+            <mixed-citation id="d1402e461" publication-type="other">
+Sexton, J. C., and Weingarten, D. H. (1992), "Hamiltonian Evolution for the Hybrid Monte Carlo Algorithm,"
+Nuclear Physics B, 380, 665-677. [368]</mixed-citation>
+        </ref>
+        <ref id="d1402e471a1310">
+          
+            <mixed-citation id="d1402e475" publication-type="other">
+Shahbaba, B., Lan, S., Johnson, W., and Neal, R. (2014), "Split Hamiltonian Monte Carlo," Statistics and
+Computing, 24, 339-349. [368]</mixed-citation>
+        </ref>
+        <ref id="d1402e486a1310">
+          
+            <mixed-citation id="d1402e490" publication-type="other">
+Stathopoulos, V., and Girolami, M. (2011), "Manifold MCMC for Mixtures," in Mixture Estimation and Appli-
+cations, eds. K. Mengersen, C. P. Robert, and M. D. Titteringhton, West Sussex, UK: Wiley, pp. 255-276.
+[367]</mixed-citation>
+        </ref>
+        <ref id="d1402e503a1310">
+          
+            <mixed-citation id="d1402e507" publication-type="other">
+Verlet, L. ( 1967), "Computer "Experiments" on Classical Fluids. I. Thermodynamical Properties of Lennard-Jones
+Molecules," Physical Review, 159, 98-103. [359]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

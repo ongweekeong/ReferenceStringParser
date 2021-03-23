@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">232</issue>
+         <issue-id>i344572</issue-id>
+         <article-id pub-id-type="jstor">2585081</article-id>
+         
+         <title-group>
+            <article-title>Analysis of the Finite Precision Bi-Conjugate Gradient Algorithm for Nonsymmetric Linear Systems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Charles H.</given-names>
+                  <surname>Tong</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Qiang</given-names>
+                  <surname>Ye</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>1559</fpage>
+         <lpage>1575</lpage>
+         <page-range>1559-1575</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585081"/>
+         
+         
+         <abstract>
+            <p>In this paper we analyze the bi-conjugate gradient algorithm in finite precision arithmetic, and suggest reasons for its often observed robustness. By using a tridiagonal structure, which is preserved by the finite precision bi-conjugate gradient iteration, we are able to bound its residual norm by a minimum polynomial of a perturbed matrix (i.e. the residual norm of the exact GMRES applied to a perturbed matrix) multiplied by an amplification factor. This shows that occurrence of near-breakdowns or loss of biorthogonality does not necessarily deter convergence of the residuals provided that the amplification factor remains bounded. Numerical examples are given to gain insights into these bounds.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01171-0</kwd>
+            <kwd>65F10</kwd>
+            <kwd>65N20</kwd>
+            <kwd>Bi-Conjugate Gradient Algorithm</kwd>
+            <kwd>Error Analysis</kwd>
+            <kwd>Convergence Analysis</kwd>
+            <kwd>Nonsymmetric Linear Systems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4070236e157a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4070236e164" publication-type="journal">
+Z. Bai, Error Analysis of the Lanczos Algorithm for the Nonsymmetric Eigenvalue Problem,
+Math. Comp., 62:209-226 (1994). MR 94c:65045<object-id pub-id-type="doi">10.2307/2153404</object-id>
+               <fpage>209</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e180a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4070236e187" publication-type="journal">
+R. E. Bank and T. F. Chan, An Analysis of the Composite Step Biconjugate Gradient Algo-
+rithm for Solving nonsymmetric Systems, Numer. Math., 66:295-319 (1993). MR 94i:65043<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>295</fpage>
+               <volume>66</volume>
+               <source>Numer. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e219a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4070236e226" publication-type="conference">
+T. Barth and T. A. Manteuffel, Variable Metric Conjugate Gradient Methods, Proceedings of
+the 10th International Symposium on Matrix Analysis and Parallel Computing, Keio Univer-
+sity, Yokohama, Japan, March 14-16, 1994.<person-group>
+                     <string-name>
+                     <surname>Barth</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variable Metric Conjugate Gradient Methods</comment>
+               <source>Proceedings of the 10th International Symposium on Matrix Analysis and Parallel Computing, Keio University, Yokohama, Japan, March 14-16</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e258a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4070236e265" publication-type="journal">
+J. Cullum and A. Greenbaum, Relation between Galerkian and norm-minimizing iterative
+methods for solving linear systems SIAM J. Matrix Anal. Appl.17:223-247 (1996). MR
+97b:65035<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e301a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4070236e308" publication-type="other">
+D. Day, Semi-duality in the two-sided Lanczos algorithm. Ph.D. Thesis, University of Cali-
+fornial, Berkeley, 1993.</mixed-citation>
+            </ref>
+            <ref id="d4070236e318a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4070236e325" publication-type="journal">
+I. S. Duff, R. G. Grimes, and J. G. Lewis, Sparse Matrix Test Problems, ACM Trans. Math.
+Softw., 15:1-14 (1989).<person-group>
+                     <string-name>
+                     <surname>Duff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>15</volume>
+               <source>ACM Trans. Math. Softw.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e357a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4070236e364" publication-type="conference">
+R. Fletcher, Conjugate Gradient Methods for Indefinite Systems, in Proc. Dundee Conference
+on Numerical Analysis, 1975, Lecture Notes in Mathematics 506, G. A. Watson, ed., Springer-
+Verlag, Berlin, pp. 73-89 (1976). MR 57:1841<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Conjugate Gradient Methods for Indefinite Systems</comment>
+               <fpage>73</fpage>
+               <source>Proc. Dundee Conference on Numerical Analysis, 1975</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e399a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4070236e406" publication-type="journal">
+R. W. Freund and N. M. Nachtigal, QMR: a Quasi-minimal Residual Method for non-
+Hermitian Linear Systems, Numer. Math., 60:315-339 (1991). MR 92g:65034<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>60</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e438a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4070236e445" publication-type="book">
+G. H. Golub and M. L. Overton, Convergence of a two-stage Richardson iterative procedure
+for solving systems of linear equations. in Numerical Analysis, Lect. Notes Math 912, (ed.
+G.A. Watson), Springer, New York Heidelberg Berlin pp.128-139. MR 83f:65045<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Convergence of a two-stage Richardson iterative procedure for solving systems of linear equations</comment>
+               <fpage>128</fpage>
+               <volume>912</volume>
+               <source>Numerical Analysis</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e480a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4070236e487" publication-type="book">
+G. H. Golub and M. L. Overton, The convergence of inexact Chebyshev and Richardson
+iterative methods for solving linear systems. Numer. Math.53:571-593 (1988). MR 90b:65054<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The convergence of inexact Chebyshev and Richardson iterative methods for solving linear systems</comment>
+               <fpage>571</fpage>
+               <volume>53</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e523a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4070236e530" publication-type="book">
+G. H. Golub, C. F. Van Loan, Matrix Computations, The Johns Hopkins University Press,
+Baltimore, 1983. MR 85h:65063<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Computations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e555a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4070236e562" publication-type="book">
+A. Greenbaum, Behavior of Slightly Perturbed Lanczos and Conjugate-Gradient Recurrences,
+Lin. Alg. and its Appl., 113:7-63 (1989). MR 90e:65044<person-group>
+                     <string-name>
+                     <surname>Greenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Behavior of Slightly Perturbed Lanczos and Conjugate-Gradient Recurrences</comment>
+               <fpage>7</fpage>
+               <volume>113</volume>
+               <source>Lin. Alg. and its Appl.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e597a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4070236e604" publication-type="book">
+A. Greenbaum, Accuracy of Computed Solutions from Conjugate-Gradient-Like Methods,
+PCG '94, Matrix Analysis and Parallel Computing, Keio University, March 14-16, 1994.<person-group>
+                     <string-name>
+                     <surname>Greenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Accuracy of Computed Solutions from Conjugate-Gradient-Like Methods</comment>
+               <source>PCG '94, Matrix Analysis and Parallel Computing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e633a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4070236e640" publication-type="journal">
+A. Greenbaum and Z. Strakos, Predicting the behavior of finite precision Lanczos and Conju-
+gate Gradient computations, SIAM J. Matrix Anal. Appl.13:121-137 (1992). MR 92j:65043<person-group>
+                     <string-name>
+                     <surname>Greenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e672a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4070236e679" publication-type="other">
+A. Greenbaum, V. Druskin, and L. Knizhnerman, Private communication.</mixed-citation>
+            </ref>
+            <ref id="d4070236e686a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4070236e693" publication-type="journal">
+C. Lanczos, Solution of Systems of Linear Equations by Minimized Iterations, J. Res. Natl.
+Bur. Stand.49:33-53 (1952). MR 14:501g<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>49</volume>
+               <source>J. Res. Natl. Bur. Stand.</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e726a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4070236e733" publication-type="other">
+R. Lehoucq, Analysis and implementation of an implicitly restarted iteration Ph.D. Thesis,
+Rice University, Houston, Texas, May 1995.</mixed-citation>
+            </ref>
+            <ref id="d4070236e743a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4070236e750" publication-type="journal">
+Y. Notay, On the convergence rate of the conjugate gradients in presence of rounding errors,
+Numer. Math.65:301-317 (1993). MR 94j:65050<person-group>
+                     <string-name>
+                     <surname>Notay</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>301</fpage>
+               <volume>65</volume>
+               <source>Numer. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e782a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4070236e789" publication-type="journal">
+C. Paige, Error Analysis of the Lanczos Algorithm for Tridiagonalizing a Symmetric Matrix,
+J. Inst. Math. Appl., 18:341-349 (1976). MR 58:19082<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>341</fpage>
+               <volume>18</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e821a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4070236e828" publication-type="journal">
+C. Paige, Accuracy and Effectiveness of the Lanczos Algorithm for the Symmetric Eigenprob-
+lem, Linear Alg. Appl.34(1980):235-258. MR 82b:65025<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>34</volume>
+               <source>Linear Alg. Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e860a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4070236e867" publication-type="journal">
+Y. Saad, Analysis of some Krylov subspace approximations to the matrix exponential opera-
+tors, SIAM J. Numer. Anal.29:209-228 (1992). MR 92m:65050<object-id pub-id-type="jstor">10.2307/2158085</object-id>
+               <fpage>209</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e883a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4070236e890" publication-type="journal">
+P. Sonneveld, CGS, a Fast Lanczos-type Solver for Nonsymmetric Linear Systems, SIAM J.
+Sci. Stat. Comput., 10:36-52 (1989). MR 89k:65052<person-group>
+                     <string-name>
+                     <surname>Sonneveld</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>36</fpage>
+               <volume>10</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e923a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4070236e930" publication-type="book">
+C. H. Tong, A Comparative Study of Preconditioned Lanczos Methods for Nonsymmetric
+Linear Systems, Tech. Report SAND91-9240B, Sandia National Lab., Livermore, 1992.<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Comparative Study of Preconditioned Lanczos Methods for Nonsymmetric Linear Systems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e955a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4070236e962" publication-type="book">
+L. N. Trefethen, Approximation theory and numerical linear algebra, in Algorithms for Ap-
+proximation II, J.C. Mason and M.G. Cox eds., Chapman and Hall, London, 1990, pp. 336-
+360. MR 91j:65063<person-group>
+                     <string-name>
+                     <surname>Trefethen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Approximation theory and numerical linear algebra</comment>
+               <fpage>336</fpage>
+               <source>Algorithms for Approximation II</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e997a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4070236e1004" publication-type="journal">
+H. A. Van der Vorst, Bi-CGSTAB: A Fast and Smoothly Converging Variant of Bi-CG
+for the Solution of Nonsymmetric Linear Systems, SIAM J. Sci. Stat. Comput., 13:631-644
+(1992). MR 92j:65048<person-group>
+                     <string-name>
+                     <surname>Van der Vorst</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>631</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e1039a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4070236e1046" publication-type="book">
+H. A. Van der Vorst, The convergence behaviour of preconditioned CG and CGS in Lect. Notes
+in Math. 1457, ed. 0. Axelsson and L. Kolotilina, pp. 121-136, Springer, Berlin Heidelberg
+New York (1990), pp. 126-136. MR 92a:65141<person-group>
+                     <string-name>
+                     <surname>Van der Vorst</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The convergence behaviour of preconditioned CG and CGS</comment>
+               <fpage>126</fpage>
+               <source>Lect. Notes in Math. 1457</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070236e1081a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4070236e1088" publication-type="journal">
+Q. Ye, A convergence analysis of nonsymmetric Lanczos algorithms, Math. Comp.56:677-691
+(1991). MR 91m:65115<object-id pub-id-type="doi">10.2307/2008401</object-id>
+               <fpage>677</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

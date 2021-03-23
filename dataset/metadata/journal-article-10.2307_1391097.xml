@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260293</issue-id>
+         <article-id pub-id-type="jstor">1391097</article-id>
+         
+         <title-group>
+            <article-title>Implementations of the Monte Carlo EM Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Richard A.</given-names>
+                  <surname>Levine</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>George</given-names>
+                  <surname>Casella</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>422</fpage>
+         <lpage>439</lpage>
+         <page-range>422-439</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391097"/>
+         
+         
+         <abstract>
+            <p>The Monte Carlo EM (MCEM) algorithm is a modification of the EM algorithm where the expectation in the E-step is computed numerically through Monte Carlo simulations. The most flexible and generally applicable approach to obtaining a Monte Carlo sample in each iteration of an MCEM algorithm is through Markov chain Monte Carlo (MCMC) routines such as the Gibbs and Metropolis-Hastings samplers. Although MCMC estimation presents a tractable solution to problems where the E-step is not available in closed form, two issues arise when implementing this MCEM routine: (1) how do we minimize the computational cost in obtaining an MCMC sample? and (2) how do we choose the Monte Carlo sample size? We address the first question through an application of importance sampling whereby samples drawn during previous EM iterations are recycled rather than running an MCMC sampler each MCEM iteration. The second question is addressed through an application of regenerative simulation. We obtain approximate independent and identical samples by subsampling the generated MCMC sample during different renewal periods. Standard central limit theorems may thus be used to gauge Monte Carlo error. In particular, we apply an automated rule for increasing the Monte Carlo sample size when the Monte Carlo error overwhelms the EM estimate at any given iteration. We illustrate our MCEM algorithm through analyses of two datasets fit by generalized linear mixed models. As a part of these applications, we demonstrate the improvement in computational cost and efficiency of our routine over alternative MCEM strategies.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Generalized linear mixed models</kwd>
+            <kwd>Gibbs sampler</kwd>
+            <kwd>Importance sampling</kwd>
+            <kwd>Markov chain Monte Carlo</kwd>
+            <kwd>Metropolis-Hastings algorithm</kwd>
+            <kwd>Regenerative simulation</kwd>
+            <kwd>Renewal theory</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d726423e157a1310">
+               
+               <mixed-citation id="d726423e161" publication-type="journal">
+Albert, J.H., and Chib, S. (1993), "Bayesian Analysis of Binary and Polychotomous Response Data,' Journal of
+the American Statistical Association88, 669-679.<object-id pub-id-type="doi">10.2307/2290350</object-id>
+               <fpage>669</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e177a1310">
+               
+               <mixed-citation id="d726423e181" publication-type="journal">
+Booth, J.G., and Hobert, J.P. (1999), "Maximizing Generalized Linear Mixed Model Likelihoods with an Auto-
+mated Monte Carlo EM Algorithm," Journal of the Royal Statistical Society, Ser. B, 61, 265-285<person-group>
+                     <string-name>
+                     <surname>Booth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>61</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e213a1310">
+               
+               <mixed-citation id="d726423e217" publication-type="journal">
+Casella, G., and Robert, C.P. (1998), "Post-Processing Accept-Reject Samples: Recycling and Rescaling," Journal
+of Computational and Graphical Statistics, 7, 139-157.<object-id pub-id-type="doi">10.2307/1390810</object-id>
+               <fpage>139</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e233a1310">
+               
+               <mixed-citation id="d726423e237" publication-type="journal">
+Chan, J.S.K., and Kuk, A.Y.C. (1997), "Maximum Likelihood Estimation for Probit-linear Mixed Models with
+Correlated Random Effects," Biometrics53, 86-97.<object-id pub-id-type="doi">10.2307/2533099</object-id>
+               <fpage>86</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e254a1310">
+               
+               <mixed-citation id="d726423e258" publication-type="journal">
+Chan, K.S., and Geyer, C. (1994), Discussion of "Markov Chains for Exploring Posterior Distributions,," by L.
+Tierney, The Annals of Statistics, 22, 1747-1758.<object-id pub-id-type="jstor">10.2307/2242481</object-id>
+               <fpage>1747</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e274a1310">
+               
+               <mixed-citation id="d726423e278" publication-type="journal">
+Chan, K.S., and Ledolter, J. (1995), "Monte Carlo EM Estimation for Time Series Models Involving Counts,"
+Journal of the American Statistical Association90, 242-252.<object-id pub-id-type="doi">10.2307/2291149</object-id>
+               <fpage>242</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e294a1310">
+               
+               <mixed-citation id="d726423e298" publication-type="book">
+Geyer, C.J. (1991), "Reweighting Monte Carlo Mixtures," Technical Report 568, University of Minnesota, School
+of Statistics.<person-group>
+                     <string-name>
+                     <surname>Geyer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Reweighting Monte Carlo Mixtures</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e323a1310">
+               
+               <mixed-citation id="d726423e327" publication-type="journal">
+-- (1992), "Practical Markov Chain Monte Carlo," Statistical Science, 7, 473-483.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e340a1310">
+               
+               <mixed-citation id="d726423e344" publication-type="journal">
+Kipnis, C., and Varadhan, S.R.S. (1986), "Central Limit Theorem for Additive Functionals of Reversible Markov
+Processes and Applications to Simple Exclusions," Communications in Mathematical Physics104, 1-19.<person-group>
+                     <string-name>
+                     <surname>Kipnis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>104</volume>
+               <source>Communications in Mathematical Physics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e376a1310">
+               
+               <mixed-citation id="d726423e380" publication-type="journal">
+Liu, J.S. (1996), "Metropolized Independent Sampling with Comparisons to Rejection Sampling and Importance
+Sampling," Statistics and Computing6, 113-119.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>6</volume>
+               <source>Statistics and Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e413a1310">
+               
+               <mixed-citation id="d726423e417" publication-type="book">
+McCullagh, P., and Nelder, J.A. (1989), Generalized Liner Models (2nd ed.), New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Generalized Liner Models</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e442a1310">
+               
+               <mixed-citation id="d726423e446" publication-type="journal">
+McCulloch, C.E. (1994). Maximum Likelihood Variance Components Estimation for Binary Data. Journal of the
+American Statistical Association89, 330-335.<object-id pub-id-type="doi">10.2307/2291229</object-id>
+               <fpage>330</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e462a1310">
+               
+               <mixed-citation id="d726423e466" publication-type="journal">
+-- (1997), "Maximum Likelihood Algorithms for Generalized Linear Mixed Models," Journal of the Amer-
+ican Statistical Association, 92, 162-170.<object-id pub-id-type="doi">10.2307/2291460</object-id>
+               <fpage>162</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e482a1310">
+               
+               <mixed-citation id="d726423e486" publication-type="journal">
+Mengersen, K.L., and Tweedie, R.L. (1996), "Rates of Convergence of the Hastings and Metropolis Algorithms,"
+The Annals of Statistics, 24, 101-121.<object-id pub-id-type="jstor">10.2307/2242610</object-id>
+               <fpage>101</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e502a1310">
+               
+               <mixed-citation id="d726423e506" publication-type="journal">
+Mykland, P., Tierney, L., and Yu, B. (1995), "Regeneration in Markov Chain Samplers," Journal of the American
+Statistical Association, 90, 233-241.<object-id pub-id-type="doi">10.2307/2291148</object-id>
+               <fpage>233</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e522a1310">
+               
+               <mixed-citation id="d726423e526" publication-type="journal">
+Robert, C.P. (1994), Discussion of "Markov Chains for Exploring Posterior Distributions," by L. Tierney, The
+Annals of Statistics, 22, 1742-1747.<object-id pub-id-type="jstor">10.2307/2242480</object-id>
+               <fpage>1742</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e543a1310">
+               
+               <mixed-citation id="d726423e547" publication-type="journal">
+-- (1995a), "Convergence Control Methods for Markov Chain Monte Carlo Algorithms," Statistical Science,
+10, 231-253.<object-id pub-id-type="jstor">10.2307/2246013</object-id>
+               <fpage>231</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e563a1310">
+               
+               <mixed-citation id="d726423e567" publication-type="journal">
+-- (1995b), "Simulation of Truncated Normal Variables," Statistics and Computing, 5, 121-125.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>5</volume>
+               <source>Statistics and Computing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e596a1310">
+               
+               <mixed-citation id="d726423e600" publication-type="book">
+Robert, C.P., and Casella, G. (1999), Monte Carlo Statistical Methods, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo Statistical Methods</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e622a1310">
+               
+               <mixed-citation id="d726423e626" publication-type="journal">
+Robert, C.P., Ryden, T., and Titterington, D.M. (1999), "Convergence Controls for MCMC Algorithms, With
+Applications to Hidden Markov Chains," Journal of Statistical Computation and Simulation, 64, 327-355.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>327</fpage>
+               <volume>64</volume>
+               <source>Journal of Statistical Computation and Simulation</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e658a1310">
+               
+               <mixed-citation id="d726423e662" publication-type="book">
+Tanner, M.A. (1993), Tools for Statistical Inference (2nd ed.), New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Tools for Statistical Inference</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e687a1310">
+               
+               <mixed-citation id="d726423e691" publication-type="journal">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions ," The Annals of Statistics, 22,1701-1762.<object-id pub-id-type="jstor">10.2307/2242477</object-id>
+               <fpage>1701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e705a1310">
+               
+               <mixed-citation id="d726423e709" publication-type="journal">
+Wei, G.C.G., and Tanner, M.A. (1990), "A Monte Carlo Implementation of the EM Algorithm and the Poor
+Man's Data Augmentation Algorithms," Journal of the American Statistical Association, 85, 699-704.<object-id pub-id-type="doi">10.2307/2290005</object-id>
+               <fpage>699</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e725a1310">
+               
+               <mixed-citation id="d726423e729" publication-type="journal">
+Wu, C.F.J. (1983), "On the Convergence Properties of the EM Algorithm," The Annals of Statistics, 11, 95-103.<object-id pub-id-type="jstor">10.2307/2240463</object-id>
+               <fpage>95</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726423e742a1310">
+               
+               <mixed-citation id="d726423e746" publication-type="book">
+van Dyk, D. (in press), "Nesting EM Algorithms for Computational Efficiency' Statistica Sinica.<person-group>
+                     <string-name>
+                     <surname>van Dyk</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistica Sinica</source>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

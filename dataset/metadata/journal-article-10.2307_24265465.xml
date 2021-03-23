@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">computermusicj</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100532</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Computer Music Journal</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>MIT Press</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">01489267</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15315169</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">37</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i24265459</issue-id>
+         <article-id pub-id-type="jstor">24265465</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Timing and Synchronization in Performance</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Predicting an Orchestral Conductor's Baton Movements Using Machine Learning</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Donald G.</given-names>
+                  <surname>Dansereau</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Nathan</given-names>
+                  <surname>Brock</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jeremy R.</given-names>
+                  <surname>Cooperstock</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2013</year>
+         </pub-date>
+         <fpage>28</fpage>
+         <lpage>45</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>©2013 Massachusetts Institute of Technology</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24265465"/>
+      
+      
+         <abstract>
+            <p>Telematic musical performance, in which performers at two or more sites collaborate via networked audio and video, suffers significantly from latency. In the extreme case, performers at all sites slow to match their delayed counterparts, resulting in a steadily decreasing temp. Introducing video of a conductor does not immediately solve the problem, as conductor video is also subjected to network latencies. This article lays the groundwork for an alternative approach to mitigating the effects of latency in distributed orchestral performances, based on generation of a predicted version of the conductor's baton trajectory. The prediction step is the most fundamental problem in this scheme, for which we propose the use of conventional machine learning techniques. Specifically, we demonstrate a particle filter and an extended Kalman filter that each track the location of the baton's tip and predict it multiple beats into the future; we compare these with a conventional feature-based method. We also describe a generic two-part framework that prescribes the incorporation of rehearsal data into a probabilistic model, which is then adapted during live performance. Finally, we suggest a framework and experimental methodology for establishing perceptually based metrics for predicted baton paths. Note that the perceptual efficacy of the presented methods requires experimental confirmation beyond the scope of this article.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3052750e284a1310">
+          
+            <mixed-citation id="d3052750e288" publication-type="other">
+Bartlette, C., et al. 2006. "Effect of Network Latency on
+Interactive Musical Performance." Music Perception
+24(l):49-59.</mixed-citation>
+        </ref>
+        <ref id="d3052750e301a1310">
+          
+            <mixed-citation id="d3052750e305" publication-type="other">
+Bevilacqua, F., et al. 2010. "Continuous Realtime Ges-
+ture Following and Recognition." In S. Kopp and
+I. Wachsmuth, eds. Gesture in Embodied Commu-
+nication and Human-Computer Interaction, Lecture
+Notes in Computer Science, vol. 5934. Berlin: Springer,
+pp. 73-84.</mixed-citation>
+        </ref>
+        <ref id="d3052750e328a1310">
+          
+            <mixed-citation id="d3052750e332" publication-type="other">
+Black, M., and A. Jepson. 1998. "Recognizing Temporal
+Trajectories Using the Condensation Algorithm." In
+Proceedings of the Third IEEE International Conference
+on Automatic Face and Gesture Recognition, pp. 16-21.</mixed-citation>
+        </ref>
+        <ref id="d3052750e348a1310">
+          
+            <mixed-citation id="d3052750e352" publication-type="other">
+Chafe, C., f. Caceres, and M. Gurevich. 2010. "Effect of
+temporal separation on synchronization in rhythmic
+performance." Perception 39(7):982-992.</mixed-citation>
+        </ref>
+        <ref id="d3052750e366a1310">
+          
+            <mixed-citation id="d3052750e370" publication-type="other">
+Gordon, N. J., D. J. Salmond, and A. F. M. Smith.
+1993. "Novel Approach to Nonlinear/Non-Gaussian
+Bayesian State Estimation." Radai and Signal Process-
+ing 140(2): 107-113.</mixed-citation>
+        </ref>
+        <ref id="d3052750e386a1310">
+          
+            <mixed-citation id="d3052750e390" publication-type="other">
+Ilmonen, T., and T. Takala. 2005. "Detecting Emotional
+Content from the Motion of an Orchestra Conductor."
+In Proceedings of the Sixth International Conference
+on Gesture in Human-Computer Interaction and
+Simulation, pp. 292-295.</mixed-citation>
+        </ref>
+        <ref id="d3052750e409a1310">
+          
+            <mixed-citation id="d3052750e413" publication-type="other">
+Khan, Z., T. Balch, and F. Dellaert. 2004. "A Rao-
+Blackwellized Particle Filter for EigenTracking." In
+Proceedings of the IEEE Computer Society Conference
+on Computer Vision and Pattern Recognition, vol. 2,
+pp. 980-986.</mixed-citation>
+        </ref>
+        <ref id="d3052750e432a1310">
+          
+            <mixed-citation id="d3052750e436" publication-type="other">
+Kolesnik, P., and M. Wanderley. 2004. "Recognition,
+Analysis, and Performance with Expressive Conduct-
+ing Gestures." In Proceedings of the International
+Computer Music Conference, pp. 572-575.</mixed-citation>
+        </ref>
+        <ref id="d3052750e452a1310">
+          
+            <mixed-citation id="d3052750e456" publication-type="other">
+Lee, E., et al. 2006. "CONGA: A Framework for Adaptive
+Conducting Gesture Analysis." In Proceedings of
+the International Conference on New Interfaces for
+Musical Expression, pp. 260-265.</mixed-citation>
+        </ref>
+        <ref id="d3052750e472a1310">
+          
+            <mixed-citation id="d3052750e476" publication-type="other">
+Lee, Y. W. 2008. "Application of the Particle Filter
+for Simple Gesture Recognition." In Proceedings of
+the Fourth International Conference on Intelligent
+Computing: Advanced Intelligent Computing Theories
+and Applications, pp. 534-540.</mixed-citation>
+        </ref>
+        <ref id="d3052750e496a1310">
+          
+            <mixed-citation id="d3052750e500" publication-type="other">
+Modler, P., and T. Myatt. 2004. "A Video System for
+Recognizing Gestures by Artificial Neural Networks
+for Expressive Musical Control." In Gesture-Based
+Communication in Human-Computer Interaction,
+pp. 541-548.</mixed-citation>
+        </ref>
+        <ref id="d3052750e519a1310">
+          
+            <mixed-citation id="d3052750e523" publication-type="other">
+Morita, H., S. Hashimoto, and S. Ohteru. 1991. "A
+Computer Music System that Follows a Human
+Conductor." Computer 24(7):44~53.</mixed-citation>
+        </ref>
+        <ref id="d3052750e536a1310">
+          
+            <mixed-citation id="d3052750e540" publication-type="other">
+Murphy, D. 2004. "Live Interpretation of Conductors'
+Beat Patterns." In Proceedings of the 13th Danish Con-
+ference on Pattern Recognition and Image Analysis,
+pp. 111-120.</mixed-citation>
+        </ref>
+        <ref id="d3052750e556a1310">
+          
+            <mixed-citation id="d3052750e560" publication-type="other">
+Nijholt, A., et al. 2008. "The Virtual Conductor: Learning
+and Teaching about Music, Performing, and Con-
+ducting." In Proceedings of the International Confer-
+ence on Advanced Learning Technologies, pp. 897-
+899.</mixed-citation>
+        </ref>
+        <ref id="d3052750e579a1310">
+          
+            <mixed-citation id="d3052750e583" publication-type="other">
+Olmos, A., et al. 2009. "Exploring the Role of Latency and
+Orchestra Placement on the Networked Performance of
+a Distributed Opera." In Twelfth Annual International
+Workshop on Presence, p. 9.</mixed-citation>
+        </ref>
+        <ref id="d3052750e599a1310">
+          
+            <mixed-citation id="d3052750e603" publication-type="other">
+Orio, N., S. Lemouton, and D. Schwarz. 2003. "Score
+Following: State of the Art and New Developments."
+In Proceeding of the International Conference on New
+Interfaces for Musical Expression, pp. 36-41.</mixed-citation>
+        </ref>
+        <ref id="d3052750e620a1310">
+          
+            <mixed-citation id="d3052750e624" publication-type="other">
+Rudolf, M. 1995. The Grammar of Conducting: A Compre-
+hensive Guide to Baton Technique and Interpretation.
+3rd ed. New York: Schirmer Books.</mixed-citation>
+        </ref>
+        <ref id="d3052750e637a1310">
+          
+            <mixed-citation id="d3052750e641" publication-type="other">
+Visell, Y., and J. Cooperstock. 2007. "Modeling and
+Continuous Sonification of Affordances for Gesture-
+Based Interfaces." In Proceedings of the 13th Inter-
+national Conference on Auditory Display, pp. 423-
+429.</mixed-citation>
+        </ref>
+        <ref id="d3052750e660a1310">
+          
+            <mixed-citation id="d3052750e664" publication-type="other">
+Welch, G., and G. Bishop. 1995. "An Introduction to the
+Kalman Filter." Technical Report TR95-041, University
+of North Carolina, Department of Computer Science,
+Chapel Hill, North Carolina.</mixed-citation>
+        </ref>
+        <ref id="d3052750e680a1310">
+          
+            <mixed-citation id="d3052750e684" publication-type="other">
+Willey, B. 1990. "The Relationship between Tempo
+and Delay and its Effect on Musical Performance."
+The Journal of the Acoustical Society of America
+88(S1):71.</mixed-citation>
+        </ref>
+        <ref id="d3052750e700a1310">
+          
+            <mixed-citation id="d3052750e704" publication-type="other">
+Yuen, S., P. Novotny, and R. Howe. 2008. "Quasiperiodic
+Predictive Filtering for Robot-assisted Beating Heart
+Surgery." In Proceedings of the IEEE International
+Conference on Robotics and Automation, pp. 3875-
+3880.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

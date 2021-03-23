@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i27594145</issue-id>
+         <article-id pub-id-type="jstor">27594148</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186005X77243</article-id>
+         <title-group>
+            <article-title>Using Random Quasi-Monte-Carlo within Particle Filters, with Application to Financial Time Series</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Paul</given-names>
+                  <surname>Fearnhead</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>751</fpage>
+         <lpage>769</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2005 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594148"/>
+      
+      
+         <abstract>
+            <p>This article presents a new particle filter algorithm which uses random quasi-Monte-Carlo to propagate particles. The filter can be used generally, but here it is shown that for one-dimensional state-space models, if the number of particles is N, then the rate of convergence of this algorithm is N$N^{-1}$. This compares favorably with the $N^{-1/2}$ convergence rate of standard particle filters. The computational complexity of the new filter is quadratic in the number of particles, as opposed to the linear computational complexity of standard methods. I demonstrate the new filter on two important financial time series models, an ARCH model and a stochastic volatility model. Simulation studies show that for fixed CPU time, the new filter can be orders of magnitude more accurate than existing particle filters. The new filter is particularly efficient at estimating smooth functions of the states, where empirical rates of convergence are N$N^{-3/2}$; and for performing smoothing, where both the new and existing filters have the same computational complexity.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>ARCH</kwd>
+            <kwd>Filtering</kwd>
+            <kwd>Rate of convergence</kwd>
+            <kwd>Sequential Monte Carlo</kwd>
+            <kwd>Smoothing</kwd>
+            <kwd>Stochastic volatility</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d933107e139a1310">
+          
+            <mixed-citation id="d933107e143" publication-type="other">
+Bollerslev, T., Engle, R. F., and Nelson, D. B. (1994), "ARCH Models," in The Handbook of Econometics (vol.
+4), eds. R. F. Engle and D. B. Nelson, Amsterdam: North-Holland, pp. 2959–3038.</mixed-citation>
+        </ref>
+        <ref id="d933107e153a1310">
+          
+            <mixed-citation id="d933107e157" publication-type="other">
+Bolviken, E., and Storvik, G. (2001), "Deterministic and Stochastic Particle Filters in State-Space Models," in
+Sequential Monte Carlo Methods in Practice, eds. A. Doucet, N. de Freitas, and N. Gordon, New York:
+Springer–Verlag, 97–116.</mixed-citation>
+        </ref>
+        <ref id="d933107e170a1310">
+          
+            <mixed-citation id="d933107e174" publication-type="other">
+Carpenter, J., Clifford, P., and Fearnhead, P. (1999), "An Improved Particle Filter for Non-linear Problems," IEEE
+Proceedings—Radar, Sonar and Navigation, 146, 2–7.</mixed-citation>
+        </ref>
+        <ref id="d933107e184a1310">
+          
+            <mixed-citation id="d933107e188" publication-type="other">
+Chopin, N. (2002), "A Sequential Particle Filter Method for Static Models," Biometrika, 89, 539–551.</mixed-citation>
+        </ref>
+        <ref id="d933107e196a1310">
+          
+            <mixed-citation id="d933107e200" publication-type="other">
+Crisan, D. (2001), "Particle Filters—A Theoretical Perspective," in Sequential Monte Carlo Methods in Practice,
+eds. A. Doucet, N. de Freitas, and N. Gordon, New York: Springer–Verlag, pp. 17–41.</mixed-citation>
+        </ref>
+        <ref id="d933107e210a1310">
+          
+            <mixed-citation id="d933107e214" publication-type="other">
+Crisan, D., and Doucet, A. (2002), "A Survey of Convergence Results on Particle Filtering Methods for Practi-
+tioners," IEEE Transactions on Signal Processing, 50, 736–746.</mixed-citation>
+        </ref>
+        <ref id="d933107e224a1310">
+          
+            <mixed-citation id="d933107e228" publication-type="other">
+Doucet, A., de Freitas, J. F. G., and Gordon, N. J. (eds.) (2001), Sequential Monte Carlo Methods in Practice,
+New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d933107e238a1310">
+          
+            <mixed-citation id="d933107e242" publication-type="other">
+Fearnhead, P. (2004), "Particle Filters for Mixture Models With an Unknown Number of Components," Statistics
+and Computing, 14, 11–21.</mixed-citation>
+        </ref>
+        <ref id="d933107e252a1310">
+          
+            <mixed-citation id="d933107e256" publication-type="other">
+Fearnhead, P., and Clifford, P. (2003), "Online Inference for Hidden Markov Models," Journal of the Royal
+Statistical Society, Series B, 65, 887–899.</mixed-citation>
+        </ref>
+        <ref id="d933107e266a1310">
+          
+            <mixed-citation id="d933107e270" publication-type="other">
+Gordon, N., Salmond, D., and Smith, A. F. M. (1993), "Novel Approach to Nonlinear/Non-Gaussian Bayesian
+State Estimation," IEEE Proceedings-F, 140, 107–113.</mixed-citation>
+        </ref>
+        <ref id="d933107e281a1310">
+          
+            <mixed-citation id="d933107e285" publication-type="other">
+Harvey, A. C., Ruiz, E., and Sentana, E. (1992), "Unobserved Component Times Series Models With ARCH
+Disturbances," Journal of Econometrics, 52, 129–158.</mixed-citation>
+        </ref>
+        <ref id="d933107e295a1310">
+          
+            <mixed-citation id="d933107e299" publication-type="other">
+Hull, J., and White, A. (1987), "The Pricing of Options on Assets with Stochastic Volatilities," Journal of Finance,
+42, 281–300.</mixed-citation>
+        </ref>
+        <ref id="d933107e309a1310">
+          
+            <mixed-citation id="d933107e313" publication-type="other">
+Kitagawa, G. (1987), "Non-Gaussian State-Space Modelling of Non-stationary Time Series" (with discussion),
+Journal of the American Statistical Association, 82, 1032–1063.</mixed-citation>
+        </ref>
+        <ref id="d933107e323a1310">
+          
+            <mixed-citation id="d933107e327" publication-type="other">
+—(1996), "Monte Carlo Filter and Smoother for Non-Gaussian Nonlinear State Space Models," Journal of
+Computational and Graphical Statistics, 5, 1–25.</mixed-citation>
+        </ref>
+        <ref id="d933107e337a1310">
+          
+            <mixed-citation id="d933107e341" publication-type="other">
+Kong, A., Liu, J. S., and Wong, W. H. (1994), "Sequential Imputations and Bayesian Missing Data Problems,"
+Journal of the American Statistical Association, 89, 278–288.</mixed-citation>
+        </ref>
+        <ref id="d933107e351a1310">
+          
+            <mixed-citation id="d933107e355" publication-type="other">
+Liu, J. S., and Chen, R. (1995), "Blind Deconvolution via Sequential Imputations," Journal of the American
+Statistical Association, 90, 567–576.</mixed-citation>
+        </ref>
+        <ref id="d933107e366a1310">
+          
+            <mixed-citation id="d933107e370" publication-type="other">
+—(1998), "Sequential Monte Carlo Methods for Dynamic Systems," Journal of the American Statistical
+Association, 93, 1032–1044.</mixed-citation>
+        </ref>
+        <ref id="d933107e380a1310">
+          
+            <mixed-citation id="d933107e384" publication-type="other">
+Liu, J. S., Chen, R., and Logvinenko, T. (2001), "A Theoretical Framework for Sequential Importance Sampling
+with Resampling," in Sequential Monte Carlo Methods in Practice, eds. A. Doucet, N. de Freitas, and
+N. Gordon, New York: Springer-Verlag, pp. 225–246.</mixed-citation>
+        </ref>
+        <ref id="d933107e397a1310">
+          
+            <mixed-citation id="d933107e401" publication-type="other">
+Maskell, S., Rollaon, M., Gordon, N., and Salmond, D. (2003), "Efficient Particle Filtering for Multiple Target
+Tracking with Application to Tracking in Structured Images," Image and Vision Computing, 21, 931–939.</mixed-citation>
+        </ref>
+        <ref id="d933107e411a1310">
+          
+            <mixed-citation id="d933107e415" publication-type="other">
+Niederreiter, H. (1978), "Quasi-Monte Carlo Methods and Pseudo-Random Numbers," Bulletin of the American
+Mathematical Society, 84, 957–1041.</mixed-citation>
+        </ref>
+        <ref id="d933107e425a1310">
+          
+            <mixed-citation id="d933107e429" publication-type="other">
+–(1992), Random Number Generation and Quasi-Monte Carlo Methods, Philadelphia: SIAM.</mixed-citation>
+        </ref>
+        <ref id="d933107e436a1310">
+          
+            <mixed-citation id="d933107e440" publication-type="other">
+Owen, A. B. (1995), "Randomly Permuted (t, m, s)-nets and (t, s)-sequences," in Monte Carlo and Quasi-Monte
+Carlo Methods in Scientific Computing, eds. H. Neiderreiter and P. J. S. Shiue, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d933107e451a1310">
+          
+            <mixed-citation id="d933107e455" publication-type="other">
+—(1997), "Scrambled Net Variance for Integrals of Smooth Functions," The Annals of Statistics, 25, 1541–
+1562.</mixed-citation>
+        </ref>
+        <ref id="d933107e465a1310">
+          
+            <mixed-citation id="d933107e469" publication-type="other">
+—(1998), "Monte Carlo Extensions of Quasi-Monte Carlo," in Winter Simulation Conference Proceedings,
+pp. 571–577. Available online from http://www-stat.stanford.edu/~owen/reports/.</mixed-citation>
+        </ref>
+        <ref id="d933107e479a1310">
+          
+            <mixed-citation id="d933107e483" publication-type="other">
+Pitt, M. K., and Shephard, N. (1999), "Filtering via Simulation: Auxiliary Particle Filters," Journal of the American
+Statistical Association, 94, 590–599.</mixed-citation>
+        </ref>
+        <ref id="d933107e493a1310">
+          
+            <mixed-citation id="d933107e497" publication-type="other">
+Ridgeway, G., and Madigan, D. (2003), "A Sequential Monte Carlo Method for Bayesian Analysis of Massive
+Datasets," Data Mining and Knowledge Discovery, 7, 301–319.</mixed-citation>
+        </ref>
+        <ref id="d933107e507a1310">
+          
+            <mixed-citation id="d933107e511" publication-type="other">
+Ripley, B. D. (1987), Stochastic Simulation, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d933107e518a1310">
+          
+            <mixed-citation id="d933107e522" publication-type="other">
+Shephard, N., and Pitt, M. K. (1997), "Likelihood Analysis of Non-Gaussian Measurement Time Series,"
+Biometrika, 84, 653–667.</mixed-citation>
+        </ref>
+        <ref id="d933107e533a1310">
+          
+            <mixed-citation id="d933107e537" publication-type="other">
+Smith, J. Q., and Santos, A. F. (2003), "Second Order Filter Distribution Approximations for Financial Time Series
+with Extreme Outlier," submitted. Available online from http://www4.fe.uc.pt/gemf/estudos/resumos/2003/
+resumo2003_03.htm.</mixed-citation>
+        </ref>
+        <ref id="d933107e550a1310">
+          
+            <mixed-citation id="d933107e554" publication-type="other">
+West, M. (1992), "Modelling with Mixtures," in Bayesian Statistics 4, eds. J. M. Bernardo, J. O. Berger, A. P.
+Dawid, and A. F. M. Smith, London: Clarendon Press.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

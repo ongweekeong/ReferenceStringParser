@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">76</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">257</issue>
+         <issue-id>i40008725</issue-id>
+         <article-id pub-id-type="jstor">40234386</article-id>
+         <title-group>
+            <article-title>Modular Exponentiation via the Explicit Chinese Remainder Theorem</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Daniel J.</given-names>
+                  <surname>Bernstein</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jonathan P.</given-names>
+                  <surname>Sorenson</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2007</year>
+         </pub-date>
+         <fpage>443</fpage>
+         <lpage>454</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2007 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234386"/>
+      
+      
+         <abstract>
+            <p>Fix pairwise coprime positive integers
+              $p_1 ,p_2 ,....,p_s $
+              . We propose representing integers u modulo m, where m is any positive integer up to roughly
+              $\sqrt {p_1 ,p_2 ,....,p_s } $
+              , as vectors
+              $(u\bmod p_1 ,u\bmod p_2 ,....,u\bmod p_s )$
+              . We use this representation to obtain a new result on the parallel complexity of modular exponentiation: there is an algorithm for the Common CRCW PRAM that, given positive integers x, e, and m in binary, of total bit length n, computes
+              $x^e $
+              mod m in time
+              $O(n/\lg \lg n)$
+              using
+              $n^{O(1)} $
+              processors. For comparison, a parallelization of the standard binary algorithm takes superlinear time; Adleman and Kompella gave an
+              $O((\lg n)^3 )$
+              expected time algorithm using
+              $O((\lg n)^3 )$
+              processors; von zur Gathen gave an NC algorithm for the highly special case that m is polynomially smooth.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 11Y16</kwd>
+            <kwd>Secondary 68W10</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d930603e137a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d930603e144" publication-type="other">
+Leonard M. Adleman, Kireeti Kompella, Proceedings of the 20th ACM symposium on theory
+of computing, Association for Computing Machinery, New York, 1988.</mixed-citation>
+        </ref>
+        <ref id="d930603e154a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d930603e161" publication-type="other">
+---, Using smoothness to achieve parallelism, in [1] (1988), 528-538.</mixed-citation>
+        </ref>
+        <ref id="d930603e168a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d930603e175" publication-type="other">
+Amod Agashe, Kristin Lauter, Ramarathnam Venkatesan, Constructing elliptic curves with
+a known number of points over a prime field, in [33] (2004), 1-17. URL: http : //research .
+microsoft.com/~klauter/. MR2005m:11112</mixed-citation>
+        </ref>
+        <ref id="d930603e188a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d930603e195" publication-type="other">
+Manindra Agrawal, Neeraj Kayal, Nitin Saxena, PRIMES is in P, Annals of Mathematics
+160 (2004), 781-793. URL: http://ProjectEuclid.Org/Dienst/UI/1.0/Summarize/euclid.
+annm/1111770735. MR2123939 (2006a:11170)</mixed-citation>
+        </ref>
+        <ref id="d930603e209a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d930603e216" publication-type="other">
+Paul W. Beame, Stephen A. Cook, H. James Hoover, Log depth circuits for division
+and related problems, SIAM Journal on Computing 15 (1986), 994-1003. ISSN 0097-5397.
+MR0861365 (88b:68059)</mixed-citation>
+        </ref>
+        <ref id="d930603e229a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d930603e236" publication-type="other">
+Daniel J. Bernstein, Detecting perfect powers in essentially linear time, and other studies in
+computational number theory, Ph.D. thesis, University of California at Berkeley, 1995.</mixed-citation>
+        </ref>
+        <ref id="d930603e246a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d930603e253" publication-type="other">
+Daniel J. Bernstein, Multidigit modular multiplication with the explicit Chinese remainder
+theorem, in [6] (1995). URL: http://cr.yp.to/papers.html#mmecrt.</mixed-citation>
+        </ref>
+        <ref id="d930603e263a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d930603e270" publication-type="other">
+Daniel J. Bernstein, Fast multiplication and its applications, to appear. URL: http://cr.yp.
+to/papers.html#multapps.ID 8758803e61822d485d54251b27b1a20d.</mixed-citation>
+        </ref>
+        <ref id="d930603e280a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d930603e287" publication-type="other">
+Daniel J. Bernstein, Pippenger's exponentiation algorithm, to be incorporated into author's
+High-speed cryptography book. URL:http://cr.yp.to/papers.html#pippenger.</mixed-citation>
+        </ref>
+        <ref id="d930603e297a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d930603e304" publication-type="other">
+Allan Borodin, Robert T. Moenck, Fast modular transforms, Journal of Computer and System
+Sciences 8 (1974), 366-386; older version, not a subset, in [21]. ISSN 0022-0000. URL: http:
+//cr.yp.to/bib/entries.html#1974/borodin. MR0371144 (51:7365)</mixed-citation>
+        </ref>
+        <ref id="d930603e318a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d930603e325" publication-type="other">
+Henri Cohen, A course in computational algebraic number theory, Graduate Texts in Math-
+matics, 138, Springer- Verlag, Berlin, 1993. ISBN 3-5440-55640-0. MR1228206 (94i:11105)</mixed-citation>
+        </ref>
+        <ref id="d930603e335a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d930603e342" publication-type="other">
+Richard Cole, Uzi Vishkin, Faster optimal parallel prefix sums and list ranking, Information
+and Computation 81 (1989), 334-352. ISSN 0890-5401. MR1000070 (90k:68056)</mixed-citation>
+        </ref>
+        <ref id="d930603e352a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d930603e359" publication-type="other">
+Jean-Marc Couveignes, Computing a square root for the number field sieve, in [19] (1993),
+95-102. MR13212222</mixed-citation>
+        </ref>
+        <ref id="d930603e369a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d930603e376" publication-type="other">
+Shawna Meyer Eikenberry, Jonathan P. Sorenson, Efficient algorithms for computing the
+Jacobi symbol, Journal of Symbolic Computation 26 (1998), 509-523. ISSN 0747-7171.
+MR1646683 (99h:11146)</mixed-citation>
+        </ref>
+        <ref id="d930603e389a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d930603e396" publication-type="other">
+Faith E. Fich, The complexity of computation on the parallel random access machine, in [26]
+(1993), 843-899. MR1212591 (94c:68086)</mixed-citation>
+        </ref>
+        <ref id="d930603e406a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d930603e413" publication-type="other">
+Daniel M. Gordon, A survey of fast exponentiation methods, Journal of Algorithms 27 (1998;,
+129-146. ISSN 0196-6774. URL: http://www.ccrwest.org/gordon/dan.html. MR1613189
+(99g:94014)</mixed-citation>
+        </ref>
+        <ref id="d930603e427a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d930603e434" publication-type="other">
+Richard M. Karp (chairman), 13th annual symposium on switching and automata theory,
+IEEE Computer Society, Northridge, 1972.</mixed-citation>
+        </ref>
+        <ref id="d930603e444a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d930603e451" publication-type="other">
+Donald E. Knuth, The art of computer programming, volume 2: seminumerical algorithms,
+3rd edition, Addison- Wesley, Reading, 1997. ISBN 0-201-89684-2.</mixed-citation>
+        </ref>
+        <ref id="d930603e461a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d930603e468" publication-type="other">
+Arjen K. Lenstra, Hendrik W. Lenstra, Jr. (editors), The development of the number field
+sieve, Lecture Notes in Mathematics, 1554, Springer- Verlag, Berlin, 1993. ISBN 3-540-57013-
+6. MR1321216 (96m:11116)</mixed-citation>
+        </ref>
+        <ref id="d930603e481a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d930603e488" publication-type="other">
+Alfred J. Menezes, Paul C. van Oorschot, Scott A. Vanstone, Handbook of applied cryptogra-
+phy, CRC Press, Boca Raton, Florida, 1996. ISBN 0-8493-8523-7. URL: http://cacr.math.
+uwaterloo.ca/hac. MR1412797 (99g:94015)</mixed-citation>
+        </ref>
+        <ref id="d930603e501a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d930603e508" publication-type="other">
+Robert T. Moenck, Allan Borodin, Fast modular transforms via division, in [17] (1972), 90-
+96; newer version, not a superset, in [10]. URL: http://cr.yp.to/bib/entries.html#1972/
+moenck. MR0371144 (51:7365)</mixed-citation>
+        </ref>
+        <ref id="d930603e521a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d930603e528" publication-type="other">
+Peter L. Montgomery, An FFT extension of the elliptic curve method of factorization, Ph.D.
+thesis, University of California at Los Angeles, 1992. URL: http://cr.yp.to/bib/entries.
+html#1992/montgomery.</mixed-citation>
+        </ref>
+        <ref id="d930603e542a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d930603e549" publication-type="other">
+Peter L. Montgomery, Robert D. Silverman, An FFT extension to the P - 1 factoring al-
+gorithm, Mathematics of Computation 54 (1990), 839-854. ISSN 0025-5718. MR1011444
+(90j:11142)</mixed-citation>
+        </ref>
+        <ref id="d930603e562a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d930603e569" publication-type="other">
+Andrew M. Odlyzko, Gary Walsh, Hugh Williams (editors), Conference on the mathematics
+of public key cryptography: the Fields Institute for Research in the Mathematical Sciences,
+Toronto, Ontario, June 12-17, 1999, book of preprints distributed at the conference, 1999.</mixed-citation>
+        </ref>
+        <ref id="d930603e582a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d930603e589" publication-type="other">
+Christos M. Papadimitriou, Computational complexity, Addison- Wesley, Reading, Mas-
+sachusetts, 1994. ISBN 0-201-53082-1. MR1251285 (95f:68082)</mixed-citation>
+        </ref>
+        <ref id="d930603e599a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d930603e606" publication-type="other">
+John H. Reif (editor), Synthesis of parallel algorithms, Morgan Kaufman, San Mateo, Cali-
+fornia, 1993. ISBN 1-55860-135-X. MR1212591 (94c:68086)</mixed-citation>
+        </ref>
+        <ref id="d930603e616a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d930603e623" publication-type="other">
+J. Barkley Rosser, Lowell Schoenfeld, Approximate formulas for some functions of prime
+numbers, Illinois Journal of Mathematics 6 (1962), 64-94. ISSN 0019-2082. URL: http:
+//cr.yp.to/bib/entries.html#1962/rosser.MR0137689 (25:1139)</mixed-citation>
+        </ref>
+        <ref id="d930603e636a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d930603e643" publication-type="other">
+Arnold Schönhage, Volker Strassen, Schnelle Multiplikation groβler Zahlen, Comput-
+ing 7 (1971), 281-292. ISSN 0010-485X. URL: http://cr.yp.to/bib/entries. html#1971/
+schoenhage-mult. MR0292344 (45:1431)</mixed-citation>
+        </ref>
+        <ref id="d930603e657a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d930603e664" publication-type="other">
+Jonathan P. Sorenson, A sublinear-time parallel algorithm for integer modular exponentia-
+tion, in [24] (1999).</mixed-citation>
+        </ref>
+        <ref id="d930603e674a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d930603e681" publication-type="other">
+Jonathan P. Sorenson, Ian Parberry, Two fast parallel prime number sieves, Information
+and Computation 144 (1994), 115-130. ISSN 0890-5401. MR1294306 (95h:11097)</mixed-citation>
+        </ref>
+        <ref id="d930603e691a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d930603e698" publication-type="other">
+Larry Stockmeyer, Uzi Vishkin, Simulation of parallel random access machines by circuits,
+SIAM Journal on Computing 13 (1984), 409-422. ISSN 0097-5397. MR0739997 (85g:68018)</mixed-citation>
+        </ref>
+        <ref id="d930603e708a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d930603e715" publication-type="other">
+Stephen R. Tate, Newton iteration and integer division, in [26] (1993), 539-572. MR1212591
+(94c:68086)</mixed-citation>
+        </ref>
+        <ref id="d930603e725a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d930603e732" publication-type="other">
+Alf van der Poorten, Andreas Stein (editors), High primes and misdemeanours: lectures
+in honour of the 60th birthday of Hugh Cowie Williams, American Mathematical Society,
+Providence, 2004. ISBN 0-8218-3353-7. MR2005b:11003</mixed-citation>
+        </ref>
+        <ref id="d930603e745a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d930603e752" publication-type="other">
+Uzi Vishkin, Advanced parallel prefix-sums, list ranking and connectivity, in [26] (1993), 215-
+257. MR1212591 (94c:68086)</mixed-citation>
+        </ref>
+        <ref id="d930603e763a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d930603e770" publication-type="other">
+Joachim von zur Gathen, Computing powers in parallel, SIAM Journal on Computing 16
+(1987), 930-945. MR0908877 (89j:68060)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

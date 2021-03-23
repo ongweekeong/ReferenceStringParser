@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i27594160</issue-id>
+         <article-id pub-id-type="jstor">27594169</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X100290</article-id>
+         <title-group>
+            <article-title>Branch-and-Bound Algorithms for Computing the Best-Subset Regression Models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Cristian</given-names>
+                  <surname>Gatu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Erricos John</given-names>
+                  <surname>Kontoghiorghes</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>139</fpage>
+         <lpage>156</lpage>
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594169"/>
+      
+      
+         <abstract>
+            <p>An efficient branch-and-bound algorithm for computing the best-subset regression models is proposed. The algorithm avoids the computation of the whole regression tree that generates all possible subset models. It is formally shown that if the branch-and-bound test holds, then the current subtree together with its right-hand side subtrees are cut. This reduces significantly the computational burden of the proposed algorithm when compared to an existing leaps-and-bounds method which generates two trees. Specifically, the proposed algorithm, which is based on orthogonal transformations, outperforms by O(n3) the leaps-and-bounds strategy. The criteria used in identifying the best subsets are based on monotone functions of the residual sum of squares (RSS) such as R2, adjusted R2, mean square error of prediction, and Cp. Strategies and heuristics that improve the computational performance of the proposed algorithm are investigated. A computationally efficient heuristic version of the branch-and-bound strategy which decides to cut subtrees using a tolerance parameter is proposed. The heuristic algorithm derives models close to the best ones. However, it is shown analytically that the relative error of the RSS, and consequently the corresponding statistic, of the computed subsets is smaller than the value of the tolerance parameter which lies between zero and one. Computational results and experiments on random and real data are presented and analyzed.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Least squares</kwd>
+            <kwd>QR decomposition</kwd>
+            <kwd>Subset regression</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d25023e159a1310">
+          
+            <mixed-citation id="d25023e163" publication-type="other">
+Allen, D. M. (1971), "Mean Square Error of Prediction as a Criterion for Selecting Variables," Technomet rics, 13,
+469–475.</mixed-citation>
+        </ref>
+        <ref id="d25023e173a1310">
+          
+            <mixed-citation id="d25023e177" publication-type="other">
+Breiman, L. (1995), "Better Subset Regression Using Nonnegative GArrote," Technometrics, 37, 373–383.</mixed-citation>
+        </ref>
+        <ref id="d25023e184a1310">
+          
+            <mixed-citation id="d25023e188" publication-type="other">
+Clarke, M. R. B. (1981), "Algorithm AS 163. A Givens Algorithm for Moving from one Linear Model to Another
+Without Going Back to the Data," Applied Statistics, 30, 198–203.</mixed-citation>
+        </ref>
+        <ref id="d25023e198a1310">
+          
+            <mixed-citation id="d25023e202" publication-type="other">
+Edwards, D., and Havránek, T. (1987), "A Fast Model Selection Procedure for Large Families of Models," Journal
+of the American Statistical Association, 82, 205–213.</mixed-citation>
+        </ref>
+        <ref id="d25023e213a1310">
+          
+            <mixed-citation id="d25023e217" publication-type="other">
+Fan, J., and Li, R. Li (2001), "Variable Selection via Nonconcave Penalized Likelihood and its Oracle Properties,"
+Journal of the American Statistical Association, 96, 1348–1360.</mixed-citation>
+        </ref>
+        <ref id="d25023e227a1310">
+          
+            <mixed-citation id="d25023e231" publication-type="other">
+Furnival, G. M., and Wilson, R. W. (1974), "Regression by Leaps and Bounds," Technometrics, 16, 499–511.</mixed-citation>
+        </ref>
+        <ref id="d25023e238a1310">
+          
+            <mixed-citation id="d25023e242" publication-type="other">
+Gatu, C, and Kontoghiorghes, E. J. (2003), "Parallel Algorithms for Computing all Possible Subset Regression
+Models using the QR Decomposition," Parallel Computing, 29, 505–521.</mixed-citation>
+        </ref>
+        <ref id="d25023e252a1310">
+          
+            <mixed-citation id="d25023e256" publication-type="other">
+—(2005), "Efficient Strategies for Deriving the Subset VAR Models," Computational Management Science,
+2, 253–278.</mixed-citation>
+        </ref>
+        <ref id="d25023e266a1310">
+          
+            <mixed-citation id="d25023e270" publication-type="other">
+—(in press), "Estimating all Possible SUR Models With Permuted Exogenous Data Matrices Derived from
+a VAR Process," Journal of Economic Dynamics and Control.</mixed-citation>
+        </ref>
+        <ref id="d25023e280a1310">
+          
+            <mixed-citation id="d25023e284" publication-type="other">
+Golub, G. H., and Van Loan, C. F. ( 1996), Matrix Computations (3rd ed.), Baltimore, MD: Johns Hopkins University
+Press</mixed-citation>
+        </ref>
+        <ref id="d25023e295a1310">
+          
+            <mixed-citation id="d25023e299" publication-type="other">
+Goodnight, J. H. (1979), "A Tutorial on the SWEEP Operator," The American Statistician, 33, 116–135.</mixed-citation>
+        </ref>
+        <ref id="d25023e306a1310">
+          
+            <mixed-citation id="d25023e310" publication-type="other">
+Hastie, T. J., and Tibshirani, R. J. (1990), Generalized Additive Models, London: Chapman &amp;amp; Hall.</mixed-citation>
+        </ref>
+        <ref id="d25023e317a1310">
+          
+            <mixed-citation id="d25023e321" publication-type="other">
+Hastie, T. J., Tibshirani, R. J., and Friedman, J. (2001), The Elements of Statistical Learning. Data Mining,
+Inference, and Prediction, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d25023e331a1310">
+          
+            <mixed-citation id="d25023e335" publication-type="other">
+Hocking, R. R. ( 1972), "Criteria for Selection of a Subset Regression: Which One Should be Used?," Technometrics,
+14,967–970.</mixed-citation>
+        </ref>
+        <ref id="d25023e345a1310">
+          
+            <mixed-citation id="d25023e349" publication-type="other">
+—(1976), "The Analysis and Selection of Variables in Linear Regression," Biometrics, 32, 1–49.</mixed-citation>
+        </ref>
+        <ref id="d25023e356a1310">
+          
+            <mixed-citation id="d25023e360" publication-type="other">
+—(1983), "Developments in Linear Regression Methodology: 1959-1982," Technometrics, 25, 219–230.</mixed-citation>
+        </ref>
+        <ref id="d25023e368a1310">
+          
+            <mixed-citation id="d25023e372" publication-type="other">
+Hocking, R. R., and Leslie, R. N. (1967), "Selection of the Best Subset in Regression Analysis," Technometrics,
+9,531–540.</mixed-citation>
+        </ref>
+        <ref id="d25023e382a1310">
+          
+            <mixed-citation id="d25023e386" publication-type="other">
+Kontoghiorghes, E. J. (1995), "New Parallel Strategies for Block Updating the QR Decomposition," Parallel
+Algorithms and Applications, 5 229–239.</mixed-citation>
+        </ref>
+        <ref id="d25023e396a1310">
+          
+            <mixed-citation id="d25023e400" publication-type="other">
+–(1999), "Parallel Strategies for Computing the Orthogonal Factorizations used in the Estimation of Econo-
+metric Models," Algorithmica, 25, 58–74.</mixed-citation>
+        </ref>
+        <ref id="d25023e410a1310">
+          
+            <mixed-citation id="d25023e414" publication-type="other">
+—(2000a), Parallel Algorithms for Linear Models: Numerical Methods and Estimation Problems, Boston,
+MA: Kluwer.</mixed-citation>
+        </ref>
+        <ref id="d25023e424a1310">
+          
+            <mixed-citation id="d25023e428" publication-type="other">
+—(2000b), "Parallel Strategies for Rank-fc Updating of the QR Decomposition," SIAM Journal on Matrix
+Analysis and Applications, 22, 714–725.</mixed-citation>
+        </ref>
+        <ref id="d25023e438a1310">
+          
+            <mixed-citation id="d25023e442" publication-type="other">
+Kontoghiorghes, E. J., and Clarke, M. R. B. (1993a), "Solving the Updated and Downdated Ordinary Linear Model
+on Massively Parallel SIMD Systems," Parallel Algorithms and Applications, 2, 243–252.</mixed-citation>
+        </ref>
+        <ref id="d25023e453a1310">
+          
+            <mixed-citation id="d25023e457" publication-type="other">
+—(1993b), "Parallel Reorthogonalization of the QR Decomposition After Deleting Columns," Parallel Com-
+puting, 6, 703–707.</mixed-citation>
+        </ref>
+        <ref id="d25023e467a1310">
+          
+            <mixed-citation id="d25023e471" publication-type="other">
+LaMotte, L. R., and Hocking, R. R. (1970), "Computational Efficiency in the Selection of Regression Variables,"
+Technometrics, 12, 83–93.</mixed-citation>
+        </ref>
+        <ref id="d25023e481a1310">
+          
+            <mixed-citation id="d25023e485" publication-type="other">
+Lawler, E. L., and Wood, D. E. (1966), "Branch-and-Bound Methods: A Survey," Operations Research, 14, 699–
+719.</mixed-citation>
+        </ref>
+        <ref id="d25023e495a1310">
+          
+            <mixed-citation id="d25023e499" publication-type="other">
+Lee, E. K. (2002), "Branch-and-Bound Methods," in Handbook of Applied Optimization, eds. P. M. Pardalos and
+M. G. C. Resende, Cambridge, MA: Oxford University Press, pp. 53–65.</mixed-citation>
+        </ref>
+        <ref id="d25023e509a1310">
+          
+            <mixed-citation id="d25023e513" publication-type="other">
+Mallows, C. L. (1995), "More Comments on CP," Technometrics, 37, 362–372.</mixed-citation>
+        </ref>
+        <ref id="d25023e520a1310">
+          
+            <mixed-citation id="d25023e524" publication-type="other">
+Miller, A. J. (1984), "Selection of Subsets of Regression Variables," Journal of the Royal Statistical Society, 147,
+389–425.</mixed-citation>
+        </ref>
+        <ref id="d25023e535a1310">
+          
+            <mixed-citation id="d25023e539" publication-type="other">
+–( 1992), "Algorithm AS 274: Least Squares Routines to Supplement those of Gentleman," Applied Statistics,
+41,458–178.</mixed-citation>
+        </ref>
+        <ref id="d25023e549a1310">
+          
+            <mixed-citation id="d25023e553" publication-type="other">
+–(2002), Subset Selection in Regression, New York: Chapman and Hall. Related software can be found
+online at http://users.bigpond.net.au/amiller/.</mixed-citation>
+        </ref>
+        <ref id="d25023e563a1310">
+          
+            <mixed-citation id="d25023e567" publication-type="other">
+Narendra, P. M., and Fukunaga, K. (1977), "A Branch and Bound Algorithm for Feature Subset Selection," IEEE
+Transactions on Computers, C-26, 9, 917–922.</mixed-citation>
+        </ref>
+        <ref id="d25023e577a1310">
+          
+            <mixed-citation id="d25023e581" publication-type="other">
+Ridout, M. S. (1988), "Algorithm AS 233: An Improved Branch and Bound Algorithm for Feature Subset Selec-
+tion," Applied Statistics, 37, 139–147.</mixed-citation>
+        </ref>
+        <ref id="d25023e591a1310">
+          
+            <mixed-citation id="d25023e595" publication-type="other">
+Roberts, S. J. (1984), "Algorithm AS 199: A Branch and Bound Algorithm for Determining the Optimal Feature
+Subset of Given Size," Applied Statistics, 33, 236–241.</mixed-citation>
+        </ref>
+        <ref id="d25023e605a1310">
+          
+            <mixed-citation id="d25023e609" publication-type="other">
+Seber, G. A. F (1977), Linear Regression Analysis, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d25023e617a1310">
+          
+            <mixed-citation id="d25023e621" publication-type="other">
+Smith, D. M., and Bremner, J. M. (1989), "All Possible Subset Regressions using the QR Decomposition," Com-
+putational Statistics and Data Analysis, 1, 217–235.</mixed-citation>
+        </ref>
+        <ref id="d25023e631a1310">
+          
+            <mixed-citation id="d25023e635" publication-type="other">
+Tibshirani, R. ( 1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Society,
+Series B, 58, 267–288.</mixed-citation>
+        </ref>
+        <ref id="d25023e645a1310">
+          
+            <mixed-citation id="d25023e649" publication-type="other">
+Winker, P. (2001), Optimization Heuristics in Econometrics: Applications of Threshold Accepting, New York:
+Wiley.</mixed-citation>
+        </ref>
+        <ref id="d25023e659a1310">
+          
+            <mixed-citation id="d25023e663" publication-type="other">
+Zellner, D., Keller, F, and Zellner, G. E. (2004), "Variable Selection in Logistic Regression Models," Communi-
+cations in Statistics-Simulation and Computation, 3, 787–805.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

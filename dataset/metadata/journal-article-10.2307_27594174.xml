@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i27594160</issue-id>
+         <article-id pub-id-type="jstor">27594174</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X100579</article-id>
+         <title-group>
+            <article-title>Parallel Markov Chain Monte Carlo Simulation by Pre-Fetching</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>A. E.</given-names>
+                  <surname>Brockwell</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>246</fpage>
+         <lpage>261</lpage>
+      
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594174"/>
+      
+      
+         <abstract>
+            <p>In recent years, parallel processing has become widely available to researchers. It can be applied in an obvious way in the context of Monte Carlo simulation, but techniques for "parallelizing" Markov chain Monte Carlo (MCMC) algorithms are not so obvious, apart from the natural approach of generating multiple chains in parallel. Although generation of parallel chains is generally the easiest approach, in cases where burn-in is a serious problem, it is often desirable to use parallelization to speed up generation of a single chain. This article briefly discusses some existing methods for parallelization of MCMC algorithms, and proposes a new "pre-fetching" algorithm to parallelize generation of a single chain.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Bayesian</kwd>
+            <kwd>Inference</kwd>
+            <kwd>Parallel processing</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d25060e138a1310">
+          
+            <mixed-citation id="d25060e142" publication-type="other">
+Beran, J. (1994), Statistics for Long-Memory Processes, New York: Chapman and Hall.</mixed-citation>
+        </ref>
+        <ref id="d25060e149a1310">
+          
+            <mixed-citation id="d25060e153" publication-type="other">
+Bradford, R., and Thomas, A. (1996), "Markov Chain Monte Carlo Methods for Family Trees using Parallel
+Processor," Statistics and Computing, 6, 67–75.</mixed-citation>
+        </ref>
+        <ref id="d25060e163a1310">
+          
+            <mixed-citation id="d25060e167" publication-type="other">
+Brockwell, A. E., and Kadane, J. B. (2005), "Identification of Regeneration Times in MCMC Simulation, with
+Application to Adaptive Schemes," Journal of Computational and Graphical Statistics, 14, 436–458.</mixed-citation>
+        </ref>
+        <ref id="d25060e177a1310">
+          
+            <mixed-citation id="d25060e181" publication-type="other">
+Brockwell, P. J., and Davis, R. A. (1991), Time Series: Theory and Methods (2nd ed.), Berlin: Springer.</mixed-citation>
+        </ref>
+        <ref id="d25060e189a1310">
+          
+            <mixed-citation id="d25060e193" publication-type="other">
+Carlin, B. P., Poison, N. G., and Sroffer, D. S. (1992), "A Monte Carlo Approach to Nonnormal and Nonlinear
+State-Space Modeling," Journal of the American Statistical Association, 87, 493–500.</mixed-citation>
+        </ref>
+        <ref id="d25060e203a1310">
+          
+            <mixed-citation id="d25060e207" publication-type="other">
+Choi, J., Dongarra, J., Pozo, R., and Walker, D. (1992), "ScaLAPACK: A Scalable Linear Algebra Library for
+Distributed Memory Concurrent Computers," in Proceedings of the Fourth Symposium on the Frontiers of
+Massively Parallel Computation, IEEE Computer Society Press, pp. 120–127.</mixed-citation>
+        </ref>
+        <ref id="d25060e220a1310">
+          
+            <mixed-citation id="d25060e224" publication-type="other">
+Gilks, W. R., Richardson, S., and Spiegelhalter, D. J. (1996), Markov Chain Monte Carlo in Practice, Boca Raton:
+Chapman and Hall/CRC.</mixed-citation>
+        </ref>
+        <ref id="d25060e234a1310">
+          
+            <mixed-citation id="d25060e238" publication-type="other">
+Glynn, P. W., and Heidelberger, P. (1992), "Analysis of Initial Transient State Deletion for Parallel Steady-State
+Simulations," SI AM Journal on Scientific and Statistical Computing, 13, 904–922.</mixed-citation>
+        </ref>
+        <ref id="d25060e248a1310">
+          
+            <mixed-citation id="d25060e252" publication-type="other">
+Granger, C. W., and Joyeux, R. (1980), "An Introduction to Long-Memory Time Series Models and Fractional
+Differencing," Journal of Time Series Analysis, 1, 15–29.</mixed-citation>
+        </ref>
+        <ref id="d25060e262a1310">
+          
+            <mixed-citation id="d25060e266" publication-type="other">
+Gropp, W., Lusk, E., and Skjellum, A. (1999), Using MPI: Portable Parallel Programming with the Message-
+Passing Interface, Cambridge: The MIT Press.</mixed-citation>
+        </ref>
+        <ref id="d25060e277a1310">
+          
+            <mixed-citation id="d25060e281" publication-type="other">
+Hosking, J. R. M. (1981), "Fractional Differencing," Biometrika, 68, 165–176.</mixed-citation>
+        </ref>
+        <ref id="d25060e288a1310">
+          
+            <mixed-citation id="d25060e292" publication-type="other">
+L'Ecuyer, P., Simard, R., Chen, E. J., and Kelton, W. D. (2002), "An Objected-Oriented Random-Number Package
+with Many Long Streams and Substreams," Operations Research, 50, 1073–1075.</mixed-citation>
+        </ref>
+        <ref id="d25060e302a1310">
+          
+            <mixed-citation id="d25060e306" publication-type="other">
+Mascagni, M., and Srinivasan, A. (2000), "SPRNG: A Scalable Library for Pseudorandom Number Generation,"
+ACMTMS: ACM Transactions on Mathematical Software, 26.</mixed-citation>
+        </ref>
+        <ref id="d25060e316a1310">
+          
+            <mixed-citation id="d25060e320" publication-type="other">
+Mykland, P., Tierney, L., and Yu, B. (1995), "Regeneration in Markov Chain Samplers," Journal of the American
+Statistical Association, 90, 233–241.</mixed-citation>
+        </ref>
+        <ref id="d25060e330a1310">
+          
+            <mixed-citation id="d25060e334" publication-type="other">
+Propp, J. G., and Wilson, D. B. (1996), "Exact Sampling with Coupled Markov Chains and Applications to
+Statistical Mechanics," Random Structures and Algorithms, 9, 223-252.</mixed-citation>
+        </ref>
+        <ref id="d25060e344a1310">
+          
+            <mixed-citation id="d25060e348" publication-type="other">
+Rosenthal, J. (2000), "Parallel Computing and Monte Carlo Algorithms," Far East Journal ofTheoretical Statistics,
+4, 207–236.</mixed-citation>
+        </ref>
+        <ref id="d25060e359a1310">
+          
+            <mixed-citation id="d25060e363" publication-type="other">
+Sowell, F (1992), "Maximum Likelihood Estimation of Stationary Univariate Fractionally Integrated Time Series
+Models," Jounal of Econometrics, 53, 165–188.</mixed-citation>
+        </ref>
+        <ref id="d25060e373a1310">
+          
+            <mixed-citation id="d25060e377" publication-type="other">
+Whiley, M., and Wilson, S. P. (2004), "Parallel Algorithms for Markov Chain Monte Carlo Methods in Latent
+Spatial Gaussian Models," Statistics and Computing, 14, 171–179.</mixed-citation>
+        </ref>
+        <ref id="d25060e387a1310">
+          
+            <mixed-citation id="d25060e391" publication-type="other">
+Wilkinson, D. J. (2004), "Parallel Bayesian Computation," in Handbook of Parallel Computing and Statistics,
+New York: Marcel Dekker, chapter 18.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

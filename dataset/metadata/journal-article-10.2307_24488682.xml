@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">83</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">290</issue>
+         <issue-id>i24488616</issue-id>
+         <article-id pub-id-type="jstor">24488682</article-id>
+         <title-group>
+            <article-title>EXPLICIT BARYCENTRIC WEIGHTS FOR POLYNOMIAL INTERPOLATION IN THE ROOTS OR EXTREMA OF CLASSICAL ORTHOGONAL POLYNOMIALS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>HAIYONG</given-names>
+                  <surname>WANG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>DAAN</given-names>
+                  <surname>HUYBRECHS</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>STEFAN</given-names>
+                  <surname>VANDEWALLE</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>11</month>
+            <year>2014</year>
+         </pub-date>
+         <fpage>2893</fpage>
+         <lpage>2914</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2014 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488682"/>
+      
+      
+         <abstract>
+            <p>Barycentric interpolation is arguably the method of choice for numerical polynomial interpolation. The polynomial interpolant is expressed in terms of function values using the so-called barycentric weights, which depend on the interpolation points. Few explicit formulae for these barycentric weights are known. In [H. Wang and S. Xiang, Math. Comp., 81 (2012), 861–877], the authors have shown that the barycentric weights of the roots of Legendre polynomials can be expressed explicitly in terms of the weights of the corresponding Gaussian quadrature rule. This idea was subsequently implemented in the Chebfun package [L. N. Trefethen and others, The Chebfun Development Team, 2011] and in the process generalized by the Chebfun authors to the roots of Jacobi, Laguerre and Hermite polynomials. In this paper, we explore the generality of the link between barycentric weights and Gaussian quadrature and show that such relationships are related to the existence of lowering operators for orthogonal polynomials. We supply an exhaustive list of cases, in which all known formulae are recovered and also some new formulae are derived, including the barycentric weights for Gauss-Radau and Gauss-Lobatto points. Based on a fast 𝒪(n) algorithm for the computation of Gaussian quadrature, due to Hale and Townsend, this leads to an 𝒪(n) computational scheme for barycentric weights.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d689154e186a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d689154e193" publication-type="other">
+Jean-Paul Beirut and Lloyd N. Trefethen, Barycentric Lagrange interpolation, SIAM Rev.
+46 (2004), no. 3, 501-517 (electronic), DOI 10.1137/S0036144502417715. MR2115059
+(2005k:65018)</mixed-citation>
+        </ref>
+        <ref id="d689154e206a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d689154e213" publication-type="other">
+I. Bogaert, B. Michiels, and J. Fostier, 0(1) computation of Legendre polynomials and Gauss-
+Legendre nodes and weights for parallel computing, SIAM J. Sci. Comput. 34 (2012), no. 3,
+C83-C101, DOI 10.1137/110855442. MR2970283</mixed-citation>
+        </ref>
+        <ref id="d689154e226a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d689154e233" publication-type="other">
+Yang Chen and Mourad E. H. Ismail, Ladder operators and differential equations for orthogo-
+nal polynomials, J. Phys. A 30 (1997), no. 22, 7817-7829, DOI 10.1088/0305-4470/30/22/020.
+MR1616931 (2000i:33011)</mixed-citation>
+        </ref>
+        <ref id="d689154e246a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d689154e253" publication-type="other">
+E. W. Cheney, Introduction to approximation theory, McGraw-Hill Book Co., New York,
+1966. MR0222517 (36 #5568)</mixed-citation>
+        </ref>
+        <ref id="d689154e264a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d689154e271" publication-type="other">
+Germund Dahlquist and Ake Bjorck, Numerical methods in scientific computing. Vol. I,
+Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 2008. MR2412832
+(2009b:65003)</mixed-citation>
+        </ref>
+        <ref id="d689154e284a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d689154e291" publication-type="other">
+Philip J. Davis, Interpolation and approximation, Dover Publications Inc., New York, 1975.
+Republication, with minor corrections, of the 1963 original, with a new preface and bibliog-
+raphy. MR0380189 (52 #1089)</mixed-citation>
+        </ref>
+        <ref id="d689154e304a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d689154e311" publication-type="other">
+Philip J. Davis and Philip Rabinowitz, Methods of numerical integration, 2nd ed., Computer
+Science and Applied Mathematics, Academic Press Inc., Orlando, FL, 1984. MR760629
+(86d:65004)</mixed-citation>
+        </ref>
+        <ref id="d689154e324a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d689154e331" publication-type="other">
+A. Dutt, M. Gu, and V. Rokhlin, Fast algorithms for polynomial interpolation, inte-
+gration, and differentiation, SIAM J. Numer. Anal. 33 (1996), no. 5, 1689-1711, DOI
+10.1137/0733082. MR1411845 (97h:65015)</mixed-citation>
+        </ref>
+        <ref id="d689154e344a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d689154e351" publication-type="other">
+Walter Gautschi, Numerical analysis, An introduction, Birkhauser Boston, Inc., Boston, MA,
+1997. MR1454125 (98d:65001)</mixed-citation>
+        </ref>
+        <ref id="d689154e361a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d689154e368" publication-type="other">
+Walter Gautschi, High-order Gauss-Lobatto formulae, Mathematical journey through anal-
+ysis, matrix theory and scientific computation (Kent, OH, 1999), Numer. Algorithms 25
+(2000), no. 1-4, 213-222, DOI 10.1023/A:1016689830453. MR1827155 (2002c:65043)</mixed-citation>
+        </ref>
+        <ref id="d689154e382a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d689154e389" publication-type="other">
+Walter Gautschi, Gauss-Radau formulae for Jacobi and Laguerre weight functions, Math.
+Comput. Simulation 54 (2000), no. 4-5, 403-412, DOI 10.1016/S0378-4754(00)00179-8. 1999
+International Symposium on Computational Sciences, to honor John R. Rice (West Lafayette,
+IN). MR1808697 (2001k:65049)</mixed-citation>
+        </ref>
+        <ref id="d689154e405a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d689154e412" publication-type="other">
+Andreas Glaser, Xiangtao Liu, and Vladimir Rokhlin, A fast algorithm for the calculation
+of the roots of special functions, SIAM J. Sci. Comput. 29 (2007), no. 4, 1420-1438, DOI
+10.1137/06067016X. MR2341794 (2009c:33056)</mixed-citation>
+        </ref>
+        <ref id="d689154e425a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d689154e432" publication-type="other">
+Gene H. Golub and John H. Welsch, Calculation of Gauss quadrature rules, Math. Comp.
+23 (1969), 221-230; addendum, ibid. 23 (1969), no. 106, loose microfiche suppl, A1-A10.
+MR0245201 (39 #6513)</mixed-citation>
+        </ref>
+        <ref id="d689154e445a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d689154e452" publication-type="other">
+Nicholas Hale and Alex Townsend, Fast and accurate computation of Gauss-Legendre and
+Gauss-Jacobi quadrature nodes and weights, SIAM J. Sci. Comput. 35 (2013), no. 2, A652-
+A674, DOI 10.1137/120889873. MR3033086</mixed-citation>
+        </ref>
+        <ref id="d689154e465a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d689154e472" publication-type="other">
+Nicholas Hale and Lloyd N. Trefethen, Chebfun and numerical quadrature, Sci. China Math.
+55 (2012), no. 9, 1749-1760, DOI 10.1007/sll425-012-4474-z. MR2960859</mixed-citation>
+        </ref>
+        <ref id="d689154e482a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d689154e489" publication-type="other">
+Peter Henrici, Essentials of numerical analysis with pocket calculator demonstrations, John
+Wiley &amp; Sons Inc., New York, 1982. MR655251 (83h:65002)</mixed-citation>
+        </ref>
+        <ref id="d689154e500a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d689154e507" publication-type="other">
+Nicholas J. Higham, The numerical stability of barycentric Lagrange interpolation, IMA
+J. Numer. Anal. 24 (2004), no. 4, 547-556, DOI 10.1093/imanum/24.4.547. MR2094569
+(2005e:65007)</mixed-citation>
+        </ref>
+        <ref id="d689154e520a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d689154e527" publication-type="other">
+J. C. Mason and D. C. Handscomb, Chebyshev polynomials, Chapman &amp; Hall/CRC, Boca
+Raton, FL, 2003. MR1937591 (2004h:33001)</mixed-citation>
+        </ref>
+        <ref id="d689154e537a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d689154e544" publication-type="other">
+Arnold F. Nikiforov and Vasilii B. Uvarov, Special functions of mathematical physics,
+Birkhauser Verlag, Basel, 1988. A unified introduction with applications; Translated from
+the Russian and with a preface by Ralph P. Boas; With a foreword by A. A. Samarskii.
+MR922041 (89h:33001)</mixed-citation>
+        </ref>
+        <ref id="d689154e560a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d689154e567" publication-type="other">
+Rodrigo B. Platte, Lloyd N. Trefethen, and Arno B. J. Kuijlaars, Impossibility of fast stable
+approximation of analytic functions from equispaced samples, SIAM Rev. 53 (2011), no. 2,
+308-318, DOI 10.1137/090774707. MR2806639 (2012e:41018)</mixed-citation>
+        </ref>
+        <ref id="d689154e580a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d689154e587" publication-type="other">
+H. E. Salzer, Lagrangian interpolation at the Chebyshev points xr,^ = cos(u~f ri), v — 0(1)n•
+some unnoted advantages, Comput. J. 15 (1972), 156-159. MR0315865 (47 #4414)</mixed-citation>
+        </ref>
+        <ref id="d689154e597a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d689154e604" publication-type="other">
+Jie Shen and Tao Tang, Spectral and high-order methods with applications, Mathematics
+Monograph Series, vol. 3, Science Press Beijing, Beijing, 2006. MR2723481 (2012b:65001)</mixed-citation>
+        </ref>
+        <ref id="d689154e615a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d689154e622" publication-type="other">
+Eduard L. Stiefel, An introduction to numerical mathematics, Translated by Werner C. Rhein-
+boldt and Cornelie J. Rheinboldt, Academic Press, New York, 1963. MR0181077 (31 #5306)</mixed-citation>
+        </ref>
+        <ref id="d689154e632a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d689154e639" publication-type="other">
+Endre Siili and David F. Mayers, An introduction to numerical analysis, Cambridge Univer-
+sity Press, Cambridge, 2003. MR2006500</mixed-citation>
+        </ref>
+        <ref id="d689154e649a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d689154e656" publication-type="other">
+G. Szego, Orthogonal Polynomials, Colloquium Publications 23, A, Providence, Rhode Island,
+1939.</mixed-citation>
+        </ref>
+        <ref id="d689154e666a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d689154e673" publication-type="other">
+Craig A. Tracy and Harold Widom, Fredholm determinants, differential equations and matrix
+models, Comm. Math. Phys. 163 (1994), no. 1, 33-72. MR1277933 (95e:82005)</mixed-citation>
+        </ref>
+        <ref id="d689154e683a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d689154e690" publication-type="other">
+Lloyd N. Trefethen, Approximation theory and approximation practice, Society for Industrial
+and Applied Mathematics (SIAM), Philadelphia, PA, 2013. MR3012510</mixed-citation>
+        </ref>
+        <ref id="d689154e700a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d689154e707" publication-type="other">
+L. N. Trefethen and others, Chebfun Version 4.0, The Chebfun Development Team,
+http://www.maths.ox.ac.uk/chebfun/, 2011.</mixed-citation>
+        </ref>
+        <ref id="d689154e718a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d689154e725" publication-type="other">
+Haiyong Wang and Shuhuang Xiang, On the convergence rates of Legendre approxima-
+tion, Math. Comp. 81 (2012), no. 278, 861-877, DOI 10.1090/S0025-5718-2011-02549-4.
+MR2869040 (2012k:41021)</mixed-citation>
+        </ref>
+        <ref id="d689154e738a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d689154e745" publication-type="other">
+M. Webb, L. N. Trefethen and P. Gonnet, Stability of barycentric interpolation formulas for
+extrapolation, SIAM J. Sci. Comput., 34 (2012), A3009-A3015.</mixed-citation>
+        </ref>
+        <ref id="d689154e755a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d689154e762" publication-type="other">
+Wilhelm Werner, Polynomial interpolation: Lagrange versus Newton, Math. Comp. 43
+(1984), no. 167, 205-217, DOI 10.2307/2007406. MR744931 (86g:65024)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

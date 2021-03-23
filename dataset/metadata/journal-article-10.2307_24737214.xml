@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i24736240</issue-id>
+         <article-id pub-id-type="jstor">24737214</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Clustering and Pattern Detection</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Statistical Significance of Clustering Using Soft Thresholding</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Hanwen</given-names>
+                  <surname>Huang</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Yufeng</given-names>
+                  <surname>Liu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ming</given-names>
+                  <surname>Yuan</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>J. S.</given-names>
+                  <surname>Marron</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>975</fpage>
+         <lpage>993</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737214"/>
+      
+      
+         <abstract>
+            <p>Clustering methods have led to a number of important discoveries in bioinformatics and beyond. A major challenge in their use is determining which clusters represent important underlying structure, as opposed to spurious sampling artifacts. This challenge is especially serious, and very few methods are available, when the data are very high in dimension. Statistical significance of clustering (SigClust) is a recently developed cluster evaluation tool for high-dimensional low sample size (HDLSS) data. An important component of the SigClust approach is the very definition of a single cluster as a subset of data sampled from a multivariate Gaussian distribution. The implementation of SigClust requires the estimation of the eigenvalues of the covariance matrix for the null multivariate Gaussian distribution. We show that the original eigenvalue estimation can lead to a test that suffers from severe inflation of Type I error, in the important case where there are a few very large eigenvalues. This article addresses this critical challenge using a novel likelihood based soft thresholding approach to estimate these eigenvalues, which leads to a much improved SigClust. Major improvements in SigClust performance are shown by both mathematical analysis, based on the new notion of theoretical cluster index (TCI), and extensive simulation studies. Applications to some cancer genomic data further demonstrate the usefulness of these improvements.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1501e226a1310">
+          
+            <mixed-citation id="d1501e230" publication-type="other">
+Baek, J., and McLachlan, G. J. (2011), "Mixtures of Common Factor Analyzers for Clustering High-Dimensional
+Microarray Data," Bioinformatics, 27, 1269-1276. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e240a1310">
+          
+            <mixed-citation id="d1501e244" publication-type="other">
+Baik, J., and Silverstein, J. W. (2006), "Eigenvalues of Large Sample Covariance Matrices of Spiked Population
+Models," Journal of Multivariate Analysis, 97, 1382-1408. [980]</mixed-citation>
+        </ref>
+        <ref id="d1501e254a1310">
+          
+            <mixed-citation id="d1501e258" publication-type="other">
+Bouveyron, C., and Brunet-Saumard, C. (2014), "Model-Based Clustering of High-Dimensional Data: A Review,"
+Computational Statistics and Data Analysis, 71, 52-78. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e268a1310">
+          
+            <mixed-citation id="d1501e272" publication-type="other">
+Cai, T. T., Liu, W„ and Luo, X. (2011), "A Constrained L 1 Minimization Approach to Sparse Precision Matrix
+Estimation," Journal of the American Statistical Association, 106, 594-607. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e283a1310">
+          
+            <mixed-citation id="d1501e287" publication-type="other">
+Chandriani, S., Frengen, E., Cowling, V. H., Pendergrass, S. A., Pérou, C. M., Whitfield, M. L., and Cole, M.
+D. (2009), "A Core MYC Gene Expression Signature is Prominent in Basal-like Breast Cancer But Only
+Partially Overlaps the Core Serum Response," PLoS ONE, 4, e6693. [976,977]</mixed-citation>
+        </ref>
+        <ref id="d1501e300a1310">
+          
+            <mixed-citation id="d1501e304" publication-type="other">
+Danaher, P., Wang, P., and Witten, D. (2014), "The Joint Graphical Lasso for Inverse Covariance Estimation
+Across Multiple Classes," Journal of the Royal Statistical Society, Series B, 76, 373-397. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e314a1310">
+          
+            <mixed-citation id="d1501e318" publication-type="other">
+Duda, R. O., Hart, P. E., and Stork, D. G. (2000), Pattern Classification, New York: Wiley-Interscience. [975]</mixed-citation>
+        </ref>
+        <ref id="d1501e325a1310">
+          
+            <mixed-citation id="d1501e329" publication-type="other">
+Fan, C., Oh, D. S., Wessels, L., Weigelt, B., Nuyten, D. S., Nobel, A. B., van't Veer, L. J., and Pérou, C. M.
+(2006), "Concordance Among Gene-expression Based Predictors for Breast Cancer," New England Journal
+of Medicine, 355, 560-569. [989]</mixed-citation>
+        </ref>
+        <ref id="d1501e342a1310">
+          
+            <mixed-citation id="d1501e346" publication-type="other">
+Fan, J., Feng, Y., and Wu, Y. (2009), "Network Exploration Via the Adaptive Lasso and SCAD Penalties," The
+Annals of Applied Statistics, 3, 521-541. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e356a1310">
+          
+            <mixed-citation id="d1501e360" publication-type="other">
+Fazel, M. (2002), "Matrix Rank Minimization and Applications," Ph.D. Thesis, Stanford University. [981]</mixed-citation>
+        </ref>
+        <ref id="d1501e368a1310">
+          
+            <mixed-citation id="d1501e372" publication-type="other">
+Fazel, M„ Hindi, H., and Boyd, S. P. (2001), "A Rank Minimization Heuristic With Application to Minimum
+Order System Approximation," Proceedings of the American Control Conference, 6, 4734-4739. [981]</mixed-citation>
+        </ref>
+        <ref id="d1501e382a1310">
+          
+            <mixed-citation id="d1501e386" publication-type="other">
+Fraley, C., and Raftery, A. (2002), "Model-Based Clustering, Discriminant Analysis, and Density Estimation,"
+Journal of the American Statistical Association, 97, 611-631. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e396a1310">
+          
+            <mixed-citation id="d1501e400" publication-type="other">
+Friedman, J. H., Hastie, T., and Tibshirani, R. (2008), "Sparse Inverse Covariance Estimation With the Graphical
+Lasso," Biostatistics, 9,432^141. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e410a1310">
+          
+            <mixed-citation id="d1501e414" publication-type="other">
+Hastie, T., Tibshirani, R., and Friedman, J. (2009), The Elements of Statistical Learning (2nd ed.), New York:
+Springer. [975]</mixed-citation>
+        </ref>
+        <ref id="d1501e424a1310">
+          
+            <mixed-citation id="d1501e428" publication-type="other">
+Liu, Y., Hayes, D. N., Nobel, A., and Marron, J. S. (2008), "Statistical Significance of Clustering for High-
+dimension, Low-Sample Size Data," Journal of the American Statistical Association, 103, 1281-1293.
+[976,979,980,989]</mixed-citation>
+        </ref>
+        <ref id="d1501e441a1310">
+          
+            <mixed-citation id="d1501e445" publication-type="other">
+MacQueen, J. (1967), "Some Methods for Classification and Analysis of Multivariate Observations," in Fifth
+Berkeley Symposium on Mathematical Statistics and Probability, Oakland: University of California Press,
+pp. 281-297. [978]</mixed-citation>
+        </ref>
+        <ref id="d1501e459a1310">
+          
+            <mixed-citation id="d1501e463" publication-type="other">
+Maitra, R., Melnykov, V., and Lahiri, S. N. (2012), "Bootstrapping for Significance of Compact Clusters in
+Multidimensional Datasets Journal of the American Statistical Association, 107, 378-392. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e473a1310">
+          
+            <mixed-citation id="d1501e477" publication-type="other">
+McLachlan, G., and Peel, D. (2000), Finite Mixture Models, New York: Wiley. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e484a1310">
+          
+            <mixed-citation id="d1501e488" publication-type="other">
+McNicholas, P., and Murphy, T. (2010), "Model-Based Clustering of Microarray Expression Data Via Latent
+Gaussian Mixture Models," Bioinformatics, 26, 2705-2712. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e498a1310">
+          
+            <mixed-citation id="d1501e502" publication-type="other">
+McShane, L. M., Radmacher, M. D„ Freidlin, B., Yu, R„ Li, M.-C., and Simon, R. (2002), "Methods for
+Assessing Reproducibility of Clustering Patterns Observed in Analyses of Microarray Data," Bioinformatics,
+18, 1462-1469. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e515a1310">
+          
+            <mixed-citation id="d1501e519" publication-type="other">
+Meinshausen, N., and Biihlmann, P. (2006), "High Dimensional Graphs and Variable Selection With the Lasso,"
+The Annals of Statistics, 34, 1436-1462. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e529a1310">
+          
+            <mixed-citation id="d1501e533" publication-type="other">
+Milano, A., Pendergrass, S. A., Sargent, J. L„ George, L. K., McCalmont, T. H., Connolly, M. K„ and Whitfield,
+M. L. (2008), "Molecular Subsets in the Gene Expression Signatures of Scleroderma Skin," PLoS ONE, 3,
+e2696. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e547a1310">
+          
+            <mixed-citation id="d1501e551" publication-type="other">
+Pan, W„ and Shen, X. (2007), "Penalized Model-based Clustering With Application to Variable Selection." Journal
+of Machine Learning Research, 8, 1145-1164. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e561a1310">
+          
+            <mixed-citation id="d1501e565" publication-type="other">
+Parker, J. S., Mullins, M„ Cheang. M. C. U., Leung, S., Voduc, D., Vickery, T., Davies, S., Fauron, C., He, X.,
+Hu, Z., Quackenbush, J. F., Stijleman, I. J., Palazzo, J., Marron, J. S., Nobel, A. B., Mardis, E., Nielsen, T.
+O., Ellis, M. J., Pérou, C. M., and Bernard, P. S. (2009), "Supervised Risk Predictor of Breast Cancer Based
+on Intrinsic Subtypes," Journal of Clinical Oncology, 27, 1160-1167. [989]</mixed-citation>
+        </ref>
+        <ref id="d1501e581a1310">
+          
+            <mixed-citation id="d1501e585" publication-type="other">
+Rothman, A., Levina, E., and Zhu, J. (2008), "Sparse Permutation Invariant Covariance Estimation," Electronic
+Journal of Statistics, 2,494-515. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e595a1310">
+          
+            <mixed-citation id="d1501e599" publication-type="other">
+Sarle, W. S„ and Kuo, A. H. (1993), "The Modeclus Procedure," Technical Report P-256, Cary, NC: SAS Institute
+Inc. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e609a1310">
+          
+            <mixed-citation id="d1501e613" publication-type="other">
+Suzuki, R., and Shimodaira, H. (2006), "Pvclust: an R Package for Assessing the Uncertainty in Hierarchical
+Clustering," Bioinformatics, 22, 1540-1542. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e623a1310">
+          
+            <mixed-citation id="d1501e627" publication-type="other">
+TCGA (2010), The Cancer Genome Atlas Research Network, available at http://cancergenome.nih.gov/wwd/
+pilot_program/research_network/cgcc.asp. [989]</mixed-citation>
+        </ref>
+        <ref id="d1501e638a1310">
+          
+            <mixed-citation id="d1501e642" publication-type="other">
+Tibshirani, R., and Walther, G. (2005), "Cluster Validation by Prediction Strength," Journal of Computational
+and Graphical Statistics, 14, 511-528. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e652a1310">
+          
+            <mixed-citation id="d1501e656" publication-type="other">
+Verhaak, R. G., Hoadley, K. A., Purdom, E., Wang, V., Qi, Y., Wilkerson, M. D., Miller, C. R., Ding, L., Golub,
+T., Mesirov, J. P., Alexe, G., Lawrence, M., O'Kelly, M., Tamayo, P., Weir, B. A., Gabriel, S., Winckler, W.,
+Gupta, S., Jakkula, L., Feiler, H. S., Hodgson, J. G., James, C. D., Sarkaria, J. N., Brennan, C., Kahn, A.,
+Spellman, P. T., Wilson, R. K., Speed, T. P., Gray, J. W., Meyerson, M., Getz, G., Pérou, C. M., Hayes, D. N.,
+and Cancer Genome Atlas Research Network, (2010), "Integrated Genomic Analysis Identifies Clinically
+Relevant Subtypes of Glioblastoma Characterized by Abnormalities in PDGFRA. IDH1, EGFR, and NF1,"
+Cancer Cell, 17, 98-110. [976,977,989]</mixed-citation>
+        </ref>
+        <ref id="d1501e682a1310">
+          
+            <mixed-citation id="d1501e686" publication-type="other">
+Wang, S., and Zhu, J. (2008), "Variable Selection for Model-Based High-dimensional Clustering and Its Appli-
+cation to Microarray Data," Biometrics, 64,440^148. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e696a1310">
+          
+            <mixed-citation id="d1501e700" publication-type="other">
+Witten, D., Tibshirani. R„ and Hastie, T. (2009), "A Penalized Matrix Decomposition, With Applications to Sparse
+Principal Components and Canonical Correlation Analysis," Biostatistics, 10, 515-534. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e710a1310">
+          
+            <mixed-citation id="d1501e714" publication-type="other">
+Xie, B., Pan, W., and Shen, X. (2008), "Penalized Model-based Clustering With Cluster-Specific Diagonal
+Covariance Matrices and Grouped Variables," Electronic Journal of Statistics, 2, 168-212. [976]</mixed-citation>
+        </ref>
+        <ref id="d1501e724a1310">
+          
+            <mixed-citation id="d1501e728" publication-type="other">
+Yuan, M. (2010), "Sparse Inverse Covariance Matrix Estimation Via Linear Programming," Journal of Machine
+Learning Research, 11, 2261-2286. [977]</mixed-citation>
+        </ref>
+        <ref id="d1501e739a1310">
+          
+            <mixed-citation id="d1501e743" publication-type="other">
+Yuan, M., and Lin, Y. (2007), "Model Selection and Estimation in the Gaussian Graphical Model," Biometrika,
+94, 19-35. [977]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

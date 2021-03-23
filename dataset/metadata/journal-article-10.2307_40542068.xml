@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">23</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i40023373</issue-id>
+         <article-id pub-id-type="jstor">40542068</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-009-9056-7</article-id>
+         <title-group>
+            <article-title>Symbolic-to-Statistical Hybridization: Extending Generation-Heavy Machine Translation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nizar</given-names>
+                  <surname>Habash</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bonnie</given-names>
+                  <surname>Dorr</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Christof</given-names>
+                  <surname>Monz</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>2</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>23</fpage>
+         <lpage>63</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2009 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40542068"/>
+      
+      
+         <abstract>
+            <p>The last few years have witnessed an increasing interest in hybridizing surface-based statistical approaches and rule-based symbolic approaches to machine translation (MT). Much of that work is focused on extending statistical MT systems with symbolic knowledge and components. In the brand of hybridization discussed here, we go in the opposite direction: adding statistical bilingual components to a symbolic system. Our base system is Generation-heavy machine translation (GHMT), a primarily symbolic asymmetrical approach that addresses the issue of Interlingual MT resource poverty in source-poor/target-rich language pairs by exploiting symbolic and statistical target-language resources. GHMT's statistical components are limited to target-language models, which arguably makes it a simple form of a hybrid system. We extend the hybrid nature of GHMT by adding statistical bilingual components. We also describe the details of retargeting it to Arabic-English MT. The morphological richness of Arabic brings several challenges to the hybridization task. We conduct an extensive evaluation of multiple system variants. Our evaluation shows that this new variant of GHMT—a primarily symbolic system extended with monolingual and bilingual statistical components—has a higher degree of grammaticality than a phrase-based statistical MT system, where grammaticality is measured in terms of correct verb-argument realization and long-distance dependency translation.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Hybrid machine translation</kwd>
+            <kwd>Generation-heavy machine translation</kwd>
+            <kwd>Statistical machine translation</kwd>
+            <kwd>Arabic-English machine translation</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d644738e286a1310">
+            <label>8</label>
+          
+            <p>
+               <mixed-citation id="d644738e293" publication-type="other">
+Carbonell et al. 2006</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e300a1310">
+            <label>9</label>
+          
+            <p>
+               <mixed-citation id="d644738e307" publication-type="other">
+Beaven 1992;</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d644738e313" publication-type="other">
+Whitelock 1992</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e320a1310">
+            <label>10</label>
+          
+            <p>
+               <mixed-citation id="d644738e327" publication-type="other">
+Fellbaum 1998</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e334a1310">
+            <label>13</label>
+          
+            <p>
+               <mixed-citation id="d644738e341" publication-type="other">
+Johnson 2001</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e349a1310">
+            <label>15</label>
+          
+            <p>
+               <mixed-citation id="d644738e356" publication-type="other">
+Aymerich (2001).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e363a1310">
+            <label>17</label>
+          
+            <p>
+               <mixed-citation id="d644738e370" publication-type="other">
+http://www.systransoft.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e377a1310">
+            <label>20</label>
+          
+            <p>
+               <mixed-citation id="d644738e384" publication-type="other">
+http://www.apptek.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e391a1310">
+            <label>21</label>
+          
+            <p>
+               <mixed-citation id="d644738e398" publication-type="other">
+http://www.sakhr.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e405a1310">
+            <label>24</label>
+          
+            <p>
+               <mixed-citation id="d644738e412" publication-type="other">
+Kulick et al. 2006</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e419a1310">
+            <label>26</label>
+          
+            <p>
+               <mixed-citation id="d644738e426" publication-type="other">
+Roth et al. 2008</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e434a1310">
+            <label>29</label>
+          
+            <p>
+               <mixed-citation id="d644738e441" publication-type="other">
+Black et al.
+1991</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e451a1310">
+            <label>31</label>
+          
+            <p>
+               <mixed-citation id="d644738e458" publication-type="other">
+http://www.nist.gov/speech/tests/mt/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d644738e465a1310">
+            <label>33</label>
+          
+            <p>
+               <mixed-citation id="d644738e472" publication-type="other">
+Koehn 2004b</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d644738e478" publication-type="other">
+Press et al. 2002; Och 2003</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d644738e494a1310">
+          
+            <mixed-citation id="d644738e498" publication-type="other">
+Abdel-Monem A, Shaalan K, Rafea A, Baraka H (2003) A proposed approach for generating Arabic from
+interlingua in a multilingual machine translation system. In: Proceedings of the 4th conference on
+language engineering. Cairo, Egypt, pp 197-206</mixed-citation>
+        </ref>
+        <ref id="d644738e511a1310">
+          
+            <mixed-citation id="d644738e515" publication-type="other">
+Alsharaf H, Cardey S, Greenfield P, Shen Y (2004) Problems and solutions in machine translation involving
+Arabic, Chinese and French. In: Proceedings of the international conference on information technol-
+ogy. Las Vegas, NA, pp 293-297</mixed-citation>
+        </ref>
+        <ref id="d644738e528a1310">
+          
+            <mixed-citation id="d644738e532" publication-type="other">
+Antworth Ε (1990) PC-KIMMO: a two-level processor for morphological analysis. Dallas Summer Institute
+of Linguistics, Dallas, TX</mixed-citation>
+        </ref>
+        <ref id="d644738e542a1310">
+          
+            <mixed-citation id="d644738e546" publication-type="other">
+Ayan NF, Borr B, Habash Ν (2004) Multi-align: combining linguistic and statistical techniques to improve
+alignments for adaptable MT. In: Proceedings of the conference of the Association for Machine Trans-
+lation in the Americas (AMTA-2004). Washington DC. USA, dd 17-26</mixed-citation>
+        </ref>
+        <ref id="d644738e560a1310">
+          
+            <mixed-citation id="d644738e564" publication-type="other">
+Aymerich J (2001) Generation of noun-noun compounds in the Spanish-English machine translation system
+SPANAM. In: Proceedings of the eighth machine translation summit (MT SUMMIT VIII). Santiago
+de Compostela, Spain</mixed-citation>
+        </ref>
+        <ref id="d644738e577a1310">
+          
+            <mixed-citation id="d644738e581" publication-type="other">
+Banerjee S, Lavie A (2005) METEOR: an automatic metric for MT evaluation with improved correlation
+with human judgments. In: Proceedings of the ACL workshop on intrinsic and extrinsic evaluation
+measures for machine translation and/or summarization. Ann Arbor, MI, pp 65-72</mixed-citation>
+        </ref>
+        <ref id="d644738e594a1310">
+          
+            <mixed-citation id="d644738e598" publication-type="other">
+Bangalore S, Rambow O (2000a) Corpus-based lexical choice in natural language generation. In: ACL
+2000: 38th annual meeting of the association for computational linguistics. Hong Kong, China,
+pp 464-471</mixed-citation>
+        </ref>
+        <ref id="d644738e611a1310">
+          
+            <mixed-citation id="d644738e615" publication-type="other">
+Bangalore S, Rambow Ο (2000b) Exploiting a probabilistic hierarchical model for generation. In: Pro-
+ceedings of the 18th international conference on computational linguistics. Saarbrücken, Germany,
+pp 42-48</mixed-citation>
+        </ref>
+        <ref id="d644738e628a1310">
+          
+            <mixed-citation id="d644738e632" publication-type="other">
+Beaven J (1992) Shake and bake machine translation. In: Proceedings of fifteenth [sic] international con-
+ference on computational linguistics. Nantes, France, pp 603-609</mixed-citation>
+        </ref>
+        <ref id="d644738e642a1310">
+          
+            <mixed-citation id="d644738e646" publication-type="other">
+Bikel D (2002) Design of a multi-lingual, parallel-processing statistical parsing engine. In: Proceedings of
+HLT 2002, second international conference on human language technology conference. San Diego,
+CA,pp 178-182</mixed-citation>
+        </ref>
+        <ref id="d644738e660a1310">
+          
+            <mixed-citation id="d644738e664" publication-type="other">
+Black E, Abney S, Flickinger D, Gdaniec C, Grishman R, Harrison P, Hindle D, Ingria R, Jelinek F,
+Klavans J, Liberman M, Marcus M, Roukos S, Santorini B, Strzalkowski Τ (1991) A procedure for
+quantitatively comparing the syntactic coverage of English grammars. In: Proceedings of the 1991
+DARPA speech and natural language workshop. Pacific Grove, CA, Morgan Kaufmann, pp 306-311</mixed-citation>
+        </ref>
+        <ref id="d644738e680a1310">
+          
+            <mixed-citation id="d644738e684" publication-type="other">
+Brown R, Frederking R (1995) Applying statistical English language modeling to symbolic machine trans-
+lation. In: Proceedings of the sixth international conference on theoretical and methodological issues
+in machine translation. Leuven, Belgium, pp 221-239</mixed-citation>
+        </ref>
+        <ref id="d644738e697a1310">
+          
+            <mixed-citation id="d644738e701" publication-type="other">
+Brown P, Della-Pietra S, Della-Pietra V, Mercer R (1993) The mathematics of machine translation: param-
+eter estimation. Comput Linguist 19(2):263-311</mixed-citation>
+        </ref>
+        <ref id="d644738e711a1310">
+          
+            <mixed-citation id="d644738e715" publication-type="other">
+Brown RD, Hutchinson R, Bennett PN, Carbonell JG, Jansen P (2003) Reducing boundary friction using
+translation-fragment overlap. In: MT Summit IX, Proceedings of the ninth machine translation summit.
+New Orleans. LA, pp 24-31</mixed-citation>
+        </ref>
+        <ref id="d644738e728a1310">
+          
+            <mixed-citation id="d644738e732" publication-type="other">
+Buckwalter Τ (2002) Buckwalter Arabic morphological analyzer version 1 .0. Linguistic Data Consortium
+Catalog No.: LDC2002L49</mixed-citation>
+        </ref>
+        <ref id="d644738e742a1310">
+          
+            <mixed-citation id="d644738e746" publication-type="other">
+Callison-Burch C, Osborne M, Koehn Ρ (2006) Re-evaluating the role of BLEU in machine translation
+research. In: Proceedings of the 11th conference of the European chapter of the association for com-
+putational linguistics (EACL'06). Trento, Italy, pp 249-256</mixed-citation>
+        </ref>
+        <ref id="d644738e760a1310">
+          
+            <mixed-citation id="d644738e764" publication-type="other">
+Carbonell J, Klein S, Miller D, Steinbaum M, Grassiany Τ, Frey J (2006) Context-based machine transla-
+tion. In: Proceedings of the 7th conference of the association for machine translation in the Americas:
+visions for the future of machine translation. Cambridge, MA, pp 19-28</mixed-citation>
+        </ref>
+        <ref id="d644738e777a1310">
+          
+            <mixed-citation id="d644738e781" publication-type="other">
+Charniak Ε (1997) Statistical parsing with a context-free grammar and word statistics. In: Proceedings of
+the AAAI. Providence, RI, pp 598-603</mixed-citation>
+        </ref>
+        <ref id="d644738e791a1310">
+          
+            <mixed-citation id="d644738e795" publication-type="other">
+Charniak Ε (2000) A maximum-entropy-inspired parser. In: Proceedings of the 1st North American chapter
+of the association for computational linguistics conference. Seattle, WA, pp 132-139</mixed-citation>
+        </ref>
+        <ref id="d644738e805a1310">
+          
+            <mixed-citation id="d644738e809" publication-type="other">
+Charniak E, Johnson M (2001 ) Edit detection and parsing for transcribed speech. In: Proceedings of the sec-
+ond meeting of the North American chapter of the association for computational linguistics. Pittsburgh,
+PA, pp 118-126</mixed-citation>
+        </ref>
+        <ref id="d644738e822a1310">
+          
+            <mixed-citation id="d644738e826" publication-type="other">
+Collins M (1997) Three generative, lexicalised models for statistical parsing. In: 35th annual meeting of the
+association for computational linguistics and 8th conference of the European chapter of the association
+for computational linguistics, proceedings of the conference. Madrid, Spain, pp 16-23</mixed-citation>
+        </ref>
+        <ref id="d644738e839a1310">
+          
+            <mixed-citation id="d644738e843" publication-type="other">
+Collins M, Koehn P, Kucerova I (2005) Clause restructuring for statistical machine translation. In: 43rd
+annual meeting of the association for computational linguistics. Ann Arbor, MI, pp 531-540</mixed-citation>
+        </ref>
+        <ref id="d644738e854a1310">
+          
+            <mixed-citation id="d644738e858" publication-type="other">
+Cormen TH, Leiserson CE, Rivest RL, Stein C (2001 ) Introduction to algorithms, 2nd edn. The MIT Press,
+Cambridge, MA</mixed-citation>
+        </ref>
+        <ref id="d644738e868a1310">
+          
+            <mixed-citation id="d644738e872" publication-type="other">
+Crego JM, Mariğo JB (2007) Syntax-enhanced N-gram-based SMT. In: Machine translation Summit XI,
+proceedings. Copenhagen, Denmark, pp 111-118</mixed-citation>
+        </ref>
+        <ref id="d644738e882a1310">
+          
+            <mixed-citation id="d644738e886" publication-type="other">
+Daumé H III, Knight K, Langkilde-Geary I, Marcu D, Yamada Κ (2002) The importance of lexicalized syn-
+tax models for natural language generation tasks. In: Proceedings of the international natural language
+generation conference (INLG-02). New York, NY, pp 9-16</mixed-citation>
+        </ref>
+        <ref id="d644738e899a1310">
+          
+            <mixed-citation id="d644738e903" publication-type="other">
+Diab M, Hacioglu K, Jurafsky D (2004) Automatic tagging of Arabic text: from raw text to base phrase
+chunks. In: Proceedings of the 5th meeting of the North American chapter of the association for
+computational linguistics/human language technologies conference (HLT-NAACL04). Boston, MA,
+pp 149-152</mixed-citation>
+        </ref>
+        <ref id="d644738e919a1310">
+          
+            <mixed-citation id="d644738e923" publication-type="other">
+Doddington G (2002) Automatic evaluation of machine translation quality using n-gram co-occurrence sta-
+tistics. In: Proceedings of the second international conference on human language technology research.
+San Francisco, CA, pp 138-145</mixed-citation>
+        </ref>
+        <ref id="d644738e936a1310">
+          
+            <mixed-citation id="d644738e940" publication-type="other">
+Dorr BJ (1993a) Interlingual Machine translation: a parameterized approach. Artif Intell 63(1 &amp; 2):
+429-492</mixed-citation>
+        </ref>
+        <ref id="d644738e951a1310">
+          
+            <mixed-citation id="d644738e955" publication-type="other">
+Dorr BJ (1993b) Machine translation: a view from the Lexicon. The MIT Press, Cambridge, MA</mixed-citation>
+        </ref>
+        <ref id="d644738e962a1310">
+          
+            <mixed-citation id="d644738e966" publication-type="other">
+Dorr BJ (2001) LCS verb database. Technical Report Online Software Database, University of Maryland,
+College Park, MD (with Mari Olsen and Nizar Habash and Scott Thomas), http://www.umiacs.umd.
+edu/~bonnie/LCS_Database_Docmentation.html</mixed-citation>
+        </ref>
+        <ref id="d644738e979a1310">
+          
+            <mixed-citation id="d644738e983" publication-type="other">
+Dorr BJ, Habash Ν (2002) Interlingua approximation: a generation-heavy approach. In: Workshop on
+interlingua reliability, fifth conference of the association for machine translation in the Americas,
+AMTA-2002. Tiburon, CA, pp 1-6</mixed-citation>
+        </ref>
+        <ref id="d644738e996a1310">
+          
+            <mixed-citation id="d644738e1000" publication-type="other">
+Dorr BJ, Jordan PW, Benoit JW (1999) A survey of current research in machine translation. In: Zelkowitz
+M (ed) Advances in computers. Academic Press, London, pp 1-68</mixed-citation>
+        </ref>
+        <ref id="d644738e1010a1310">
+          
+            <mixed-citation id="d644738e1014" publication-type="other">
+Dorr ΒJ, Pearl L, Hwa R, Habash Ν (2002) DUSTer: a method for unraveling cross-language divergences for
+statistical word-level alignment. In: Proceedings of the 5th conference of the association for machine
+translation in the Americas (AMTA-02). Springer-Verlag, Berlin/Heidelberg, pp 31-43</mixed-citation>
+        </ref>
+        <ref id="d644738e1027a1310">
+          
+            <mixed-citation id="d644738e1031" publication-type="other">
+Dugast L, Senellart J, Koehn Ρ (2009) Selective addition of corpus-extracted phrasal lexical rules to a rule-
+based machine translation system. In: MT Summit XII, proceedings of the twelfth machine translation
+summit. Ottawa. ON. Canada, dd 222-229</mixed-citation>
+        </ref>
+        <ref id="d644738e1045a1310">
+          
+            <mixed-citation id="d644738e1049" publication-type="other">
+El Isbihani A, Khadivi S, Bender O, Ney Η (2006) Morpho-syntactic Arabic preprocessing for Arabic to
+English statistical machine translation. In: Proceedings of the NAACL workshop on statistical machine
+translation. New York, NY, pp 15-22</mixed-citation>
+        </ref>
+        <ref id="d644738e1062a1310">
+          
+            <mixed-citation id="d644738e1066" publication-type="other">
+Fellbaum C (1998) WordNet: an electronic lexical database. MIT Press, Cambridge, MA. http://www.
+cogsci.princeton.edu/~wn (2000, September 7)</mixed-citation>
+        </ref>
+        <ref id="d644738e1076a1310">
+          
+            <mixed-citation id="d644738e1080" publication-type="other">
+Font-Llitjós A, Vogel S (2007) A walk on the other side:adding statistical components to a transfer-based
+translation system. In: Proceedings of the workshop on syntax and structure in statistical translation
+at the human language technology conference of the North American chapter of the association for
+computational linguistics. Rochester, NY, pp 72-79</mixed-citation>
+        </ref>
+        <ref id="d644738e1096a1310">
+          
+            <mixed-citation id="d644738e1100" publication-type="other">
+Giménez J, Márquez L (2007) Linguistic features for automatic evaluation of heterogenous MT systems.
+In: Proceedings of the second workshop on statistical machine translation. Prague, Czech Republic,
+pp 256-264</mixed-citation>
+        </ref>
+        <ref id="d644738e1113a1310">
+          
+            <mixed-citation id="d644738e1117" publication-type="other">
+Goldwater S, McClosky D (2005) Improving statistical MT through morphological analysis. In: HLT/EMN-
+LP 2005, proceedings of human language technology conference and conference on empirical methods
+in natural language processing. Vancouver, BC, Canada, pp 676-683</mixed-citation>
+        </ref>
+        <ref id="d644738e1130a1310">
+          
+            <mixed-citation id="d644738e1134" publication-type="other">
+Graff D (1994) UN parallel text (Spanish-English). Linguistic Data Consortium Catalog No. LDC94T4A</mixed-citation>
+        </ref>
+        <ref id="d644738e1142a1310">
+          
+            <mixed-citation id="d644738e1146" publication-type="other">
+Graff D (2003a) Arabic Gigaword. Linguistic Data Consortium Catalog No. LDC2003T12</mixed-citation>
+        </ref>
+        <ref id="d644738e1153a1310">
+          
+            <mixed-citation id="d644738e1157" publication-type="other">
+Graff D (2003b) English Gigaword corpus. Linguistic Data Consortium Catalog No. LDC2003T05</mixed-citation>
+        </ref>
+        <ref id="d644738e1164a1310">
+          
+            <mixed-citation id="d644738e1168" publication-type="other">
+Grimshaw J, Mester A (1988) Light verbs and theta-marking. Linguist Inq 19:205-232</mixed-citation>
+        </ref>
+        <ref id="d644738e1175a1310">
+          
+            <mixed-citation id="d644738e1179" publication-type="other">
+Habash Ν (2000) oxyGen: a language independent linearization engine. In: AMTA-2000, fourth confer-
+ence of the association for machine translation in the Americas: envisioning machine translation in
+the information future. Cuernavaca, Mexico, pp 68-79</mixed-citation>
+        </ref>
+        <ref id="d644738e1192a1310">
+          
+            <mixed-citation id="d644738e1196" publication-type="other">
+Habash Ν (2003a) Generation heavy hybrid machine translation. Ph.D. thesis, University of Maryland,
+College Park, MD</mixed-citation>
+        </ref>
+        <ref id="d644738e1206a1310">
+          
+            <mixed-citation id="d644738e1210" publication-type="other">
+Habash Ν (2003b) Matador: a large scale Spanish-English GHMT system. In: MT Summit IX, proceedings
+of the ninth machine translation summit. New Orleans, LA, pp 149-156</mixed-citation>
+        </ref>
+        <ref id="d644738e1221a1310">
+          
+            <mixed-citation id="d644738e1225" publication-type="other">
+Habash Ν (2004) The use of a structural N-gram language model in generation-heavy hybrid machine trans-
+lation. In: Belz A, Evans R, Piwek Ρ (eds) Natural language generation, third international conference,
+INLG 2004. Springer-Verlag, Berlin, Heidelberg, NY, pp 61-69</mixed-citation>
+        </ref>
+        <ref id="d644738e1238a1310">
+          
+            <mixed-citation id="d644738e1242" publication-type="other">
+Habash Ν (2007a) Arabic morphological representations for machine translation. In: van den Bosch A,
+Soudi A, Neumann G (eds) Arabic computational morphology: knowledge-based and empirical meth-
+ods. Springer, Dordrecht, The Netherlands pp 263-285</mixed-citation>
+        </ref>
+        <ref id="d644738e1255a1310">
+          
+            <mixed-citation id="d644738e1259" publication-type="other">
+Habash Ν (2007b) Syntactic preprocessing for statistical MT. In: Machine translation summit XI, proceed-
+ings. Copenhagen, Denmark, pp 215-222</mixed-citation>
+        </ref>
+        <ref id="d644738e1269a1310">
+          
+            <mixed-citation id="d644738e1273" publication-type="other">
+Habash N, Dorr BJ (2002) Handling translation divergences: combining statistical and symbolic techniques
+in generation-heavy machine translation. In: Machine translation: from research to real users, 5th
+conference of the association for machine translation in the Americas, AMTA 2002, proceedings.
+Springer-Verlag, Berlin Heidelberg, New York, pp 84-93</mixed-citation>
+        </ref>
+        <ref id="d644738e1289a1310">
+          
+            <mixed-citation id="d644738e1293" publication-type="other">
+Habash N, Dorr BJ (2003) A categorial variation database for English. In: HLT-NAACL: human language
+technology conference of the North American chapter of the association for computational linguistics,
+Vol. 1. Edmonton, AL, Canada, pp 96-102</mixed-citation>
+        </ref>
+        <ref id="d644738e1306a1310">
+          
+            <mixed-citation id="d644738e1310" publication-type="other">
+Habash N, Elkholy A (2008) SEPIA: surface span extension to syntactic dependency precision-based MT
+evaluation. In: Proceedings of the NIST metrics for machine translation workshop at the association
+for machine translation in the Americas conference, AMTA-2008. Waikiki, HI</mixed-citation>
+        </ref>
+        <ref id="d644738e1324a1310">
+          
+            <mixed-citation id="d644738e1328" publication-type="other">
+Habash N, Rambow O (2004) Extracting a tree adjoining grammar from the Penn Arabic Treebank. In:
+Proceedings of Traitement Automatique du Langage Naturel (TALN-04). pp 277-284. Fez, Morocco</mixed-citation>
+        </ref>
+        <ref id="d644738e1338a1310">
+          
+            <mixed-citation id="d644738e1342" publication-type="other">
+Habash N, Rambow O (2005) Arabic tokenization, part-of-speech tagging and morphological disambig-
+uation in one fell swoop. In: 43rd annual meeting of the association for computational linguistics
+(ACL'05). Ann Arbor, MI, pp 573-580</mixed-citation>
+        </ref>
+        <ref id="d644738e1355a1310">
+          
+            <mixed-citation id="d644738e1359" publication-type="other">
+Habash N, Sadat F (2006) Arabic preprocessing schemes for statistical machine translation. In: Proceed-
+ings of the 7th meeting of the North American chapter of the association for computational linguis-
+tics/human language technologies conference (HLT-NAACL06). New York, NY, pp 49-52</mixed-citation>
+        </ref>
+        <ref id="d644738e1372a1310">
+          
+            <mixed-citation id="d644738e1376" publication-type="other">
+Habash N, Dorr BJ, Traum D (2003) Hybrid natural language generation from lexical conceptual structures.
+Mach Transl 18:81-127</mixed-citation>
+        </ref>
+        <ref id="d644738e1386a1310">
+          
+            <mixed-citation id="d644738e1390" publication-type="other">
+Habash Ν, Soudi A, Buckwalter Τ (2007) On Arabic transliteration. In: van den Bosch A, Soudi A, Neu-
+mann G (eds) Arabic computational morphology: knowledge-based and empirical methods. Springer,
+Dordrecht, The Netherlands, pp 15-22</mixed-citation>
+        </ref>
+        <ref id="d644738e1403a1310">
+          
+            <mixed-citation id="d644738e1407" publication-type="other">
+Han C, Lavoie B, Palmer M, Rambow O, Kittredge R, Korelsky T, Kim N, Kim M (2000) Handling structural
+divergences and recovering dropped arguments in a Korean/English machine translation system. In:
+AMTA-2000, fourth conference of the association for machine translation in the Americas: envisioning
+machine translation in the information future. Cuernavaca, Mexico, pp 40-53</mixed-citation>
+        </ref>
+        <ref id="d644738e1424a1310">
+          
+            <mixed-citation id="d644738e1428" publication-type="other">
+Hwa R (2001) Const2Dep Tool. http://www.cs.cmu.edu/afs/cs/user/alavie/MTEval/code/hwc/const2dep/</mixed-citation>
+        </ref>
+        <ref id="d644738e1435a1310">
+          
+            <mixed-citation id="d644738e1439" publication-type="other">
+Jackendoff R (1983) Semantics and cognition. The MIT Press, Cambridge, MA</mixed-citation>
+        </ref>
+        <ref id="d644738e1446a1310">
+          
+            <mixed-citation id="d644738e1450" publication-type="other">
+Jackendoff R (1990) Semantic structures. The MIT Press, Cambridge, MA</mixed-citation>
+        </ref>
+        <ref id="d644738e1457a1310">
+          
+            <mixed-citation id="d644738e1461" publication-type="other">
+Johnson M (2001) Joint and conditional estimation of tagging and parsing models. In: Association for com-
+putational linguistics, 39th annual meeting and 10th conference of the European chapter, proceedings
+of the conference. Toulouse, France, pp 314-321</mixed-citation>
+        </ref>
+        <ref id="d644738e1474a1310">
+          
+            <mixed-citation id="d644738e1478" publication-type="other">
+Knight K, Hatzivassiloglou V (1995) Two-level, many-paths generation. In: 33rd annual meeting of the
+association for comnutational linguistics (ACL-95V Cambridge. MA. dd 252-260</mixed-citation>
+        </ref>
+        <ref id="d644738e1488a1310">
+          
+            <mixed-citation id="d644738e1492" publication-type="other">
+Koehn Ρ (2004a) Pharaoh: a beam search decoder for phrase-based statistical machine translation mod-
+els. In: Proceedings of the 6th biennial conference of the association for machine translation in the
+Americas. Washington, DC, pp 115-124</mixed-citation>
+        </ref>
+        <ref id="d644738e1506a1310">
+          
+            <mixed-citation id="d644738e1510" publication-type="other">
+Koehn Ρ (2004b) Statistical significance tests for machine translation evaluation. In: Proceedings of the
+2004 conference on empirical methods in natural language processing conference. Barcelona, Spain,
+pp 388-395</mixed-citation>
+        </ref>
+        <ref id="d644738e1523a1310">
+          
+            <mixed-citation id="d644738e1527" publication-type="other">
+Koehn P, Och F, Marcu D (2003) Statistical phrase-based translation. In: HLT-NAACL: human language
+technology conference of the North American chapter of the association for computational linguistics.
+Edmonton, AL, Canada, pp 127-133</mixed-citation>
+        </ref>
+        <ref id="d644738e1540a1310">
+          
+            <mixed-citation id="d644738e1544" publication-type="other">
+Kulick S, Gabbard R, Marcus M (2006) Parsing the Arabic Treebank: analysis and improvements. In:
+Proceedings of the Treebanks and linguistic theories conference. Prague, Czech Republic, pp 31-42</mixed-citation>
+        </ref>
+        <ref id="d644738e1554a1310">
+          
+            <mixed-citation id="d644738e1558" publication-type="other">
+Langkilde I (2000) Forest-based statistical sentence generation. In: 1st meeting of the North American
+chapter of the association for computational linguistics, proceedings. Seattle, WA, pp 170-177</mixed-citation>
+        </ref>
+        <ref id="d644738e1568a1310">
+          
+            <mixed-citation id="d644738e1572" publication-type="other">
+Langkilde I, Knight Κ (1998a) Generating word lattices from abstract meaning representation. Technical
+report, Information Science Institute, University of Southern California, Marinadel Rey, CA</mixed-citation>
+        </ref>
+        <ref id="d644738e1582a1310">
+          
+            <mixed-citation id="d644738e1586" publication-type="other">
+Langkilde I, Knight Κ (1998b) Generation that exploits corpus-based statistical knowledge. In: COL-
+ING-ACL 98, 36th annual meeting of the association for computational linguistics and 17th interna-
+tional conference on computational linguistics, proceedings of the conference. Montreal, QC, Canada,
+pp 704-710</mixed-citation>
+        </ref>
+        <ref id="d644738e1603a1310">
+          
+            <mixed-citation id="d644738e1607" publication-type="other">
+Lavoie B, Kittredge R, Korelsky T, Rambow Ο (2000) A framework for MT and multilingual NLG systems
+based on uniform lexico-structural processing. In: 6th applied natural language processing conference,
+proceedings of the conference. Seattle, WA, pp 63-67</mixed-citation>
+        </ref>
+        <ref id="d644738e1620a1310">
+          
+            <mixed-citation id="d644738e1624" publication-type="other">
+Lavoie B, White M, Korelsky Τ (2001) Inducing lexico-structural transfer rules from parsed bi-texts. In:
+Proceedings of the 39th annual meeting of the association for computational linguistics -DDMT
+workshop. Toulouse, France, pp 17-24</mixed-citation>
+        </ref>
+        <ref id="d644738e1637a1310">
+          
+            <mixed-citation id="d644738e1641" publication-type="other">
+Lee Y-S (2004) Morphological analysis for statistical machine translation. In: Proceedings of the 5th meet-
+ing of the North American chapter of the association for computational linguistics/human language
+technologies conference (HLT-NAACL04) Boston. MA. pp 57-60</mixed-citation>
+        </ref>
+        <ref id="d644738e1654a1310">
+          
+            <mixed-citation id="d644738e1658" publication-type="other">
+Levin Β (1993) English verb classes and alternations: a preliminary investigation. University of Chicago
+Press, Chicago, IL</mixed-citation>
+        </ref>
+        <ref id="d644738e1668a1310">
+          
+            <mixed-citation id="d644738e1672" publication-type="other">
+Liu D, Gildea D (2005) Syntactic features for evaluation of machine translation. In: Proceedings of the ACL
+workshop on intrinsic and extrinsic evaluation measures for machine translation and/or summarization.
+Ann Arbor. Ml pp 25-32</mixed-citation>
+        </ref>
+        <ref id="d644738e1685a1310">
+          
+            <mixed-citation id="d644738e1689" publication-type="other">
+Maamouri M, Bies A, Buckwalter T, Mekki W (2004) The Penn Arabic Treebank: building a large-scale
+annotated Arabic Corpus. In: NEMLAR conference on Arabic language resources and tools. Cairo,
+Egypt, PP 102-109</mixed-citation>
+        </ref>
+        <ref id="d644738e1703a1310">
+          
+            <mixed-citation id="d644738e1707" publication-type="other">
+Macleod C, Grishman R, Meyers A, Barrett L, Reeves R(1998) NOMLEX: a lexicon of nominalizations.
+In: Proceedings of EURALEX'98. Liège, Belgium, pp 187-193</mixed-citation>
+        </ref>
+        <ref id="d644738e1717a1310">
+          
+            <mixed-citation id="d644738e1721" publication-type="other">
+Marcus MP, Santorini B, Marcinkiewicz MA (1994) Building a large annotated Corpus of English: the
+Penn Treebank. Comput Linguist 19(2):313-330</mixed-citation>
+        </ref>
+        <ref id="d644738e1731a1310">
+          
+            <mixed-citation id="d644738e1735" publication-type="other">
+Mel'ǔuk I (1988) Dependency syntax: theory and practice. State University of New York Press, Albany,
+NY</mixed-citation>
+        </ref>
+        <ref id="d644738e1745a1310">
+          
+            <mixed-citation id="d644738e1749" publication-type="other">
+Nasr A, Rambow O (2006) Parsing with lexicalized probabilistic recursive transition networks. In: Yli-Jyrä
+A, Karttunen L, Karhumäki J (eds) Finite-state methods and natural language processing, vol 4002 of
+lecture notes in computer science. Springer-Verlag, Berlin/Heidelberg, pp 156-166</mixed-citation>
+        </ref>
+        <ref id="d644738e1762a1310">
+          
+            <mixed-citation id="d644738e1766" publication-type="other">
+Nasr A, Rambow O, Palmer M, Rosenzweig J (1997) Enriching lexical transfer with cross-linguistic seman-
+tic features (or how to do interlingua without interlingua). In: Proceedings of the 2nd international
+workshop on interlingua. San Diego, CA</mixed-citation>
+        </ref>
+        <ref id="d644738e1779a1310">
+          
+            <mixed-citation id="d644738e1783" publication-type="other">
+Nguyen TP, Shimazu A (2006) Improving phrase-based statistical machine translation with morphosyn-
+tactic transformation. Mach Transl 20(3):147-166</mixed-citation>
+        </ref>
+        <ref id="d644738e1794a1310">
+          
+            <mixed-citation id="d644738e1798" publication-type="other">
+Nießen S, Ney H (2004) Statistical machine translation with scarce resources using morpho-syntactic infor-
+mation. Comput Linguist 3(2):181-204</mixed-citation>
+        </ref>
+        <ref id="d644738e1808a1310">
+          
+            <mixed-citation id="d644738e1812" publication-type="other">
+Och FJ (2003) Minimum error rate training for statistical machine translation. In: 41st annual meeting of
+the association for computational linguistics. Sapporo, Japan, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d644738e1822a1310">
+          
+            <mixed-citation id="d644738e1826" publication-type="other">
+Och FJ (2005) Google system description for the 2005 NIST MT evaluation. In: MT Eval workshop (unpub-
+lished talk)</mixed-citation>
+        </ref>
+        <ref id="d644738e1836a1310">
+          
+            <mixed-citation id="d644738e1840" publication-type="other">
+Owczarzak K, van Genabith J, Way A (2007) Labelled dependencies in machine translation evaluation. In:
+Proceedings of the second workshop on statistical machine translation. Prague, Czech Republic, pp
+104-111</mixed-citation>
+        </ref>
+        <ref id="d644738e1853a1310">
+          
+            <mixed-citation id="d644738e1857" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W-J (2002) BLEU: a method for automatic evaluation of machine
+translation. In: 40th annual meeting of the association for computational linguistics. Philadelphia, PA,
+pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d644738e1870a1310">
+          
+            <mixed-citation id="d644738e1874" publication-type="other">
+Popović M, Ney H (2004) Towards the use of word stems and suffixes for statistical machine translation.
+In: Proceedings of the 4th international conference on language resources and evaluation (LREC).
+Lisbon, Portugal, pp 1585-1588</mixed-citation>
+        </ref>
+        <ref id="d644738e1888a1310">
+          
+            <mixed-citation id="d644738e1892" publication-type="other">
+Porter M (1980) An algorithm for suffix stripping. Program 14(3):130-137</mixed-citation>
+        </ref>
+        <ref id="d644738e1899a1310">
+          
+            <mixed-citation id="d644738e1903" publication-type="other">
+Press WH, Teukolsky SA, Vetterling WT, Flannery BP (2002) Numerical recipes in C++. Cambridge Uni-
+versity Press, Cambridge, UK</mixed-citation>
+        </ref>
+        <ref id="d644738e1913a1310">
+          
+            <mixed-citation id="d644738e1917" publication-type="other">
+Quirk C, Menezes A, Cherry C (2005) Dependency treelet translation: syntactically informed phrasal SMT.
+In: 43rd annual meeting of the association for computational linguistics. Ann Arbor, MI, pp 271-279</mixed-citation>
+        </ref>
+        <ref id="d644738e1927a1310">
+          
+            <mixed-citation id="d644738e1931" publication-type="other">
+Ratnaparkhi A (2000) Trainable methods for surface natural language generation. In: Proceedings of the
+1st annual North American association of computational linguistics (NAACL-2000). Seattle, WA, pp
+194-201</mixed-citation>
+        </ref>
+        <ref id="d644738e1944a1310">
+          
+            <mixed-citation id="d644738e1948" publication-type="other">
+Resnik Ρ (1997) Evaluating multilingual gisting of web pages. AAAI symposium on natural language
+processing for the world wide web, Stanford, CA</mixed-citation>
+        </ref>
+        <ref id="d644738e1958a1310">
+          
+            <mixed-citation id="d644738e1962" publication-type="other">
+Resnik P, Olsen M, Diab M (1999) The bible as a parallel corpus: annotating the book of 2000 tongues.
+Comput Humanit 33:129-153</mixed-citation>
+        </ref>
+        <ref id="d644738e1973a1310">
+          
+            <mixed-citation id="d644738e1977" publication-type="other">
+Riesa J, Yarowsky D (2006) Minimally supervised morphological segmentation with applications
+to machine translation. In: Proceedings of the 7th conference of the association for machine
+translation in the Americas: visions for the future of machine translation. Cambridge, MA,
+pp 185-192</mixed-citation>
+        </ref>
+        <ref id="d644738e1993a1310">
+          
+            <mixed-citation id="d644738e1997" publication-type="other">
+Rogers W (2000) TREC Spanish corpus. Linguistic Data Consortium catalog no. LDC2000T5 1</mixed-citation>
+        </ref>
+        <ref id="d644738e2004a1310">
+          
+            <mixed-citation id="d644738e2008" publication-type="other">
+Roth R, Rambow O, Habash N, Diab M, Rudin C (2008) Arabic morphological tagging, diacritization, and
+lemmatization using lexeme models and feature ranking. In: 46th annual meeting of the association for
+computational linguistics: human language technologies, proceedings of the conference, short papers.
+Columbus, OH, pp 117-120</mixed-citation>
+        </ref>
+        <ref id="d644738e2024a1310">
+          
+            <mixed-citation id="d644738e2028" publication-type="other">
+Sadat F, Habash Ν (2006) Combination of Arabic preprocessing schemes for statistical machine transla-
+tion. In: Proceedings of the 21st international conference on computational linguistics and 44th annual
+meeting of the association for computational linguistics. Sydney. Australia, pp 1-8</mixed-citation>
+        </ref>
+        <ref id="d644738e2041a1310">
+          
+            <mixed-citation id="d644738e2045" publication-type="other">
+Senellart J (2006) Boosting linguistic rule-based MT system with corpus-based approaches. In: Presentation.
+GALE PI Meeting. Boston, MA</mixed-citation>
+        </ref>
+        <ref id="d644738e2055a1310">
+          
+            <mixed-citation id="d644738e2059" publication-type="other">
+Sharaf M (2002) Implications of the agreement features in (English to Arabic) machine translation. Master's
+thesis, Al-Azhar University, Cairo, Egypt</mixed-citation>
+        </ref>
+        <ref id="d644738e2070a1310">
+          
+            <mixed-citation id="d644738e2074" publication-type="other">
+Sima'an Κ (2000) Tree-gram parsing: lexical dependencies and structural relations. In: 38th annual meeting
+of the association for computational linguistics (ACL' 00). Hong Kong, China, pp 37-44</mixed-citation>
+        </ref>
+        <ref id="d644738e2084a1310">
+          
+            <mixed-citation id="d644738e2088" publication-type="other">
+Snover M, Dorr BJ, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation error rate with targeted
+human annotation. In: Proceedings of the 7th conference of the association for machine translation in
+the Americas: visions for the future of machine translation. Cambridge, MA, pp 223-231</mixed-citation>
+        </ref>
+        <ref id="d644738e2101a1310">
+          
+            <mixed-citation id="d644738e2105" publication-type="other">
+Soudi A (2004) Challenges in the generation of Arabic from interlingua. In: Proceedings of Traitement
+Automatique des Langues Naturelles (TALN-04). Fez, Morocco, pp 343-350</mixed-citation>
+        </ref>
+        <ref id="d644738e2115a1310">
+          
+            <mixed-citation id="d644738e2119" publication-type="other">
+Soudi A, Cavalli-Sforza V, Jamari A (2002) A prototype English-to-Arabic interlingua-based MT system.
+In: Proceedings of the third international conference on language resources and evaluation: workshop
+on Arabic language resources and evaluation: status and prospects. Las Palmas de Gran Canaria, Spain,
+pp 18-25</mixed-citation>
+        </ref>
+        <ref id="d644738e2135a1310">
+          
+            <mixed-citation id="d644738e2139" publication-type="other">
+Stolcke A. (2002) SRILM -an extensible language modeling toolkit. In: Proceedings of the international
+conference on spoken language processing (ICSLP), vol 2. Denver, CO, pp 901-904</mixed-citation>
+        </ref>
+        <ref id="d644738e2149a1310">
+          
+            <mixed-citation id="d644738e2153" publication-type="other">
+Tanaka T, Baldwin Τ (2003) Translation selection for Japanese-English noun-noun compounds. In: MT
+Summit IX, proceedings of the ninth machine translation summit. New Orleans, LA, pp 378-385</mixed-citation>
+        </ref>
+        <ref id="d644738e2164a1310">
+          
+            <mixed-citation id="d644738e2168" publication-type="other">
+Tapanainen P, Jarvinen Τ (1997) A non-projective dependency parser. In: Proceedings of the 5th conference
+on applied natural language pro cessing. Washington, DC, pp 64-71</mixed-citation>
+        </ref>
+        <ref id="d644738e2178a1310">
+          
+            <mixed-citation id="d644738e2182" publication-type="other">
+Traum D, Habash Ν (2000) Generation from lexical conceptual structures. In: Proceedings of the work-
+shop on applied interlinguas, North American association of computational linguistics/applied natural
+language processing conference, NAACL/ANLP-2000. Seattle, WA, pp 34-41</mixed-citation>
+        </ref>
+        <ref id="d644738e2195a1310">
+          
+            <mixed-citation id="d644738e2199" publication-type="other">
+Vauquois Β (1968) A survey of formal grammars and algorithms for recognition and transformation in
+machine translation. In: IFIP congress-68. Edinburgh, UK, pp 254-260</mixed-citation>
+        </ref>
+        <ref id="d644738e2209a1310">
+          
+            <mixed-citation id="d644738e2213" publication-type="other">
+Watanabe H, Kurohashi S, Aramaki Ε (2000) Finding structural correspondences from bilingual parsed cor-
+pus for corpus-based translation. In: Proceedings of the 18th international conference on computational
+linguistics, vol 2. Saarbrücken, Germany, pp 906-912</mixed-citation>
+        </ref>
+        <ref id="d644738e2226a1310">
+          
+            <mixed-citation id="d644738e2230" publication-type="other">
+Whitelock Ρ (1992) Shake-and-bake translation. In: Proceedings of fifteenth [sic] international conference
+on computational linguistics. Nantes, France, pp 784-791</mixed-citation>
+        </ref>
+        <ref id="d644738e2240a1310">
+          
+            <mixed-citation id="d644738e2244" publication-type="other">
+Xia F, McCord M (2004) Improving a statistical MT system with automatically learned rewrite patterns.
+In: Proceedings of the 20th international conference on computational linguistics (COLING 2004).
+Geneva, Switzerland, pp 508-514</mixed-citation>
+        </ref>
+        <ref id="d644738e2258a1310">
+          
+            <mixed-citation id="d644738e2262" publication-type="other">
+Zhang Y, Zens R, Ney H (2007) Chunk-level reordering of source language sentences with automatically
+learned rules for statistical machine translation. In: Proceedings of the workshop on syntax and struc-
+ture in statistical translation at the human language technology conference of the North American
+chapter of the association for computational linguistics. Rochester, NY, pp 1-8</mixed-citation>
+        </ref>
+        <ref id="d644738e2278a1310">
+          
+            <mixed-citation id="d644738e2282" publication-type="other">
+Zollmann A, Venugopal A, Vogel S (2006) Bridging the inflection morphology gap for Arabic statistical
+machine translation. In: Proceedings of the human language technology conference of the NAACL,
+companion volume: short papers. New York, NY, pp 201-204</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">26</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i23321971</issue-id>
+         <article-id pub-id-type="jstor">23321973</article-id>
+         <title-group>
+            <article-title>What types of word alignment improve statistical machine translation?</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Patrik</given-names>
+                  <surname>Lambert</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Simon</given-names>
+                  <surname>Petitrenaud</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Yanjun</given-names>
+                  <surname>Ma</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Andy</given-names>
+                  <surname>Way</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>289</fpage>
+         <lpage>323</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media Dordrecht 2012</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23321973"/>
+      
+      
+         <abstract>
+            <p>In most statistical machine translation (SMT) systems, bilingual segments are extracted via word alignment. However, there is a need for systematic study as to what alignment characteristics can benefit MT under specific experimental settings such as the type of MT system, the language pair or the type or size of the corpus. In this paper we perform, in each of these experimental settings, a statistical analysis of the data and study the sample correlation coefficients between a number of alignment or phrase table characteristics and variables such as the phrase table size, the number of untranslated words or the BLEU score. We report results for two different SMT systems (a phrase-based and an n-gram-based system) on Chinese-to-English FBIS and BTEC data, and Spanish-to-English European Parliament data. We find that the alignment characteristics which help in translation greatly depend on the MT system and on the corpus size. We give alignment hints to improve BLEU score, depending on the SMT system used and the type of corpus. For example, for phrase-based SMT, dense alignments are required with larger corpora, especially on the target side, while with smaller corpora, more precise, sparser alignments are better, especially on the source side. Avoiding some long-distance crossing links may also improve BLEU score with small corpora. We take these conclusions into account to modify two types of alignment systems, and get 1 to 1.6 % relative improvements in BLEU score on two held-out corpora, although the improved system is different in each corpus.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d63183e408a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d63183e415" publication-type="other">
+http://nlp.cs.berkeley.edu/pages/WordAligner.html.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e422a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d63183e429" publication-type="other">
+http://code.google.eom/p/bia-aligner.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e436a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d63183e443" publication-type="other">
+Spall (1998)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e450a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d63183e457" publication-type="other">
+http://www.tcstar.org/openlab2006.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e465a1310">
+            <label>7</label>
+          
+            <p>
+               <mixed-citation id="d63183e472" publication-type="other">
+http://gps-tsc.upc.es/veu/LR.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e479a1310">
+            <label>8</label>
+          
+            <p>
+               <mixed-citation id="d63183e486" publication-type="other">
+http://www.ldc.upenn.edu.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d63183e493a1310">
+            <label>9</label>
+          
+            <p>
+               <mixed-citation id="d63183e500" publication-type="other">
+http://www.statmt.org/wmtl l/translation-task.html.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d63183e516a1310">
+          
+            <mixed-citation id="d63183e520" publication-type="other">
+Ayan NF, Dorr BJ (2006) Going beyond AER: an extensive analysis of word alignments and their impact
+on MT. In: Proceedings of the 21st international conference on computational linguistics and 44th
+annual meeting of the association for computational linguistics. Sydney, Australia, pp 9-16</mixed-citation>
+        </ref>
+        <ref id="d63183e533a1310">
+          
+            <mixed-citation id="d63183e537" publication-type="other">
+Brown PF, Delia Pietra SA, Delia Pietra VJ, Mercer RL (1993) The mathematics of statistical machine
+translation: parameter estimation. Comput Linguist 19(2):263-311</mixed-citation>
+        </ref>
+        <ref id="d63183e547a1310">
+          
+            <mixed-citation id="d63183e551" publication-type="other">
+Chen B, Federico M (2006) Improving phrase-based statistical translation through combination of word
+alignment. In: Proceedings of FinTAL—5th international conference on natural language processing.
+Turku, Finland, pp 356-367</mixed-citation>
+        </ref>
+        <ref id="d63183e564a1310">
+          
+            <mixed-citation id="d63183e568" publication-type="other">
+Clark JH, Dyer C, Lavie A, Smith NA (2011) Better hypothesis testing for statistical machine translation:
+controlling for optimizer instability. In: Proceedings of the 49th annual meeting of the association for
+computational linguistics. Portland, Oregon, USA, pp 176-181</mixed-citation>
+        </ref>
+        <ref id="d63183e582a1310">
+          
+            <mixed-citation id="d63183e586" publication-type="other">
+Crego JM, Marino JB (2007) Improving SMT by coupling reordering and decoding. Mach Trans 20(3):
+199-215</mixed-citation>
+        </ref>
+        <ref id="d63183e596a1310">
+          
+            <mixed-citation id="d63183e600" publication-type="other">
+DeNero J, Klein D (2007) Tailoring word alignments to syntactic machine translation. In: Proceedings of
+the 45th annual meeting of the association for computational linguistics. Prague, Czech Republic,
+pp 17-24</mixed-citation>
+        </ref>
+        <ref id="d63183e613a1310">
+          
+            <mixed-citation id="d63183e617" publication-type="other">
+Fraser A, Marcu D (2007) Measuring word alignment quality for statistical machine translation. Comput
+Linguist 33(3):293-303</mixed-citation>
+        </ref>
+        <ref id="d63183e627a1310">
+          
+            <mixed-citation id="d63183e631" publication-type="other">
+Guzman F, Gao Q. Vogel S (2009) Reassessment of the role of phrase extraction in PBSMT. In: Proceedings
+of machine translation summit XII. Ottawa, Canada, pp 49-56</mixed-citation>
+        </ref>
+        <ref id="d63183e641a1310">
+          
+            <mixed-citation id="d63183e645" publication-type="other">
+Hollander M, Wolfe D (1973) Nonparametric statistical methods. Wiley, New York</mixed-citation>
+        </ref>
+        <ref id="d63183e652a1310">
+          
+            <mixed-citation id="d63183e656" publication-type="other">
+Jolliffe IT (2002) Principal component analysis. Springer, New York</mixed-citation>
+        </ref>
+        <ref id="d63183e664a1310">
+          
+            <mixed-citation id="d63183e668" publication-type="other">
+Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. In: Proceedings of the human language
+technology conference of the NAACL. Edmonton, Canada, pp 48-54</mixed-citation>
+        </ref>
+        <ref id="d63183e678a1310">
+          
+            <mixed-citation id="d63183e682" publication-type="other">
+Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, Bertold) N, Cowan B, Shen W, Moran C, Zens
+R, Dyer C, Bojar O, Constantin A, Herbst E (2007) Moses: open source toolkit for statistical machine
+translation. In: Proceedings of the 45th annual meeting of the association for computational linguis-
+tics (demo and poster sessions). Association for Computational Linguistics, Prague, Czech Republic,
+pp 177-180</mixed-citation>
+        </ref>
+        <ref id="d63183e701a1310">
+          
+            <mixed-citation id="d63183e705" publication-type="other">
+Lambert P. Banchs RE (2006) Tuning machine translation parameters with SPSA. In: Proceedings of the
+international workshop on spoken language translation, IWSLT'06. Kyoto, Japan, pp 190-196</mixed-citation>
+        </ref>
+        <ref id="d63183e715a1310">
+          
+            <mixed-citation id="d63183e719" publication-type="other">
+Lambert P, Banchs RE (2011) BIA: a discriminative phrase alignment toolkit. Prague Bulletin of Mathe-
+matical Linguistics 97</mixed-citation>
+        </ref>
+        <ref id="d63183e729a1310">
+          
+            <mixed-citation id="d63183e733" publication-type="other">
+Lambert P, de Gispert A, Banchs RE, Marino JB (2005) Guidelines for word alignment evaluation and
+manual alignment. Lang Resour Eval 39(4):267-285</mixed-citation>
+        </ref>
+        <ref id="d63183e743a1310">
+          
+            <mixed-citation id="d63183e747" publication-type="other">
+Lambert P, Banchs RE, Crego JM (2007) Discriminative alignment training without annotated data for
+machine translation. In: Proceedings of the human language technology conference of the NAACL
+(short papers). Rochester, NY, USA, pp 85-88</mixed-citation>
+        </ref>
+        <ref id="d63183e761a1310">
+          
+            <mixed-citation id="d63183e765" publication-type="other">
+Lambert P, Ma Y, Ozdowska S, Way A (2009) Tracking relevant alignment characteristics for machine
+translation. In: Proceedings of machine translation summit XII. Ottawa, Canada, pp 268-275</mixed-citation>
+        </ref>
+        <ref id="d63183e775a1310">
+          
+            <mixed-citation id="d63183e779" publication-type="other">
+Liang P, Taskar B, Klein D (2006) Alignment by agreement. In: Proceedings of the human language tech-
+nology conference of the NAACL. New York City, USA, pp 104-111</mixed-citation>
+        </ref>
+        <ref id="d63183e789a1310">
+          
+            <mixed-citation id="d63183e793" publication-type="other">
+Liu Y, LiuQ, LinS (2010) Discriminative word alignment by linear modeling. Comput Linguist 36(3):303-
+339</mixed-citation>
+        </ref>
+        <ref id="d63183e803a1310">
+          
+            <mixed-citation id="d63183e807" publication-type="other">
+Marino JB, Banchs RE, Crego JM, de Gispert A, Lambert P, Fonollosa JA, Costa-jussá MR (2006) N-gram
+based machine translation. Comput Linguist 32(4):527-549</mixed-citation>
+        </ref>
+        <ref id="d63183e817a1310">
+          
+            <mixed-citation id="d63183e821" publication-type="other">
+Melamed ID (2000) Models of translational equivalence among words. Comput Linguist 26(2):22l-249</mixed-citation>
+        </ref>
+        <ref id="d63183e828a1310">
+          
+            <mixed-citation id="d63183e832" publication-type="other">
+Moore RC (2005) A discriminative framework for bilingual word alignment. In: Proceedings of human lan-
+guage technology conference and conference on empirical methods in natural language processing.
+Vancouver, Canada, pp 81-88</mixed-citation>
+        </ref>
+        <ref id="d63183e846a1310">
+          
+            <mixed-citation id="d63183e850" publication-type="other">
+Näther W (2001) Random fuzzy variable of second order and applications to statistical inference. Inform
+Sei 133:69-88</mixed-citation>
+        </ref>
+        <ref id="d63183e860a1310">
+          
+            <mixed-citation id="d63183e864" publication-type="other">
+Neider J, Mead R (1965) A simplex method for function minimization. Comput J 7:308-313</mixed-citation>
+        </ref>
+        <ref id="d63183e871a1310">
+          
+            <mixed-citation id="d63183e875" publication-type="other">
+Och F, Ney H (2004) The alignment template approach to statistical machine translation. Comput Linguist
+30(4):417-449</mixed-citation>
+        </ref>
+        <ref id="d63183e885a1310">
+          
+            <mixed-citation id="d63183e889" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: Proceedings of the 41th
+annual meeting of the association for computational linguistics, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d63183e899a1310">
+          
+            <mixed-citation id="d63183e903" publication-type="other">
+Och FJ, Ney H (2003) A systematic comparison of various statistical alignment models. Comput Linguist
+29(1):19—51</mixed-citation>
+        </ref>
+        <ref id="d63183e913a1310">
+          
+            <mixed-citation id="d63183e917" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W-J (2002) Bleu: a method for automatic evaluation of machine trans-
+lation. In: Proceedings of the 40th annual meeting of the association for computational linguistics.
+Philadelphia, USA, pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d63183e931a1310">
+          
+            <mixed-citation id="d63183e935" publication-type="other">
+Rodgers JL, Nicewander WA (1988) Thirteen ways to look at the correlation coefficient. Am Stat 42( 1 ):59-
+66</mixed-citation>
+        </ref>
+        <ref id="d63183e945a1310">
+          
+            <mixed-citation id="d63183e949" publication-type="other">
+Spall JC (1992) Multivariate stochastic approximation using a simultaneous perturbation gradient approx-
+imation. IEEE Trans Automat Control 37:332-341</mixed-citation>
+        </ref>
+        <ref id="d63183e959a1310">
+          
+            <mixed-citation id="d63183e963" publication-type="other">
+Spall JC (1998) An overview of the simultaneous perturbation method for efficient optimization. Johns
+Hopkins APL Techn Digest 19(4):482-492</mixed-citation>
+        </ref>
+        <ref id="d63183e973a1310">
+          
+            <mixed-citation id="d63183e977" publication-type="other">
+Stephens MA (1974) EDF statistics for goodness of fit and some comparisons. J Am Stat Assoc 69:730-737</mixed-citation>
+        </ref>
+        <ref id="d63183e984a1310">
+          
+            <mixed-citation id="d63183e988" publication-type="other">
+Takezawa T, Sumita E, Sugaya F, Yamamoto H, Yamamoto S (2002) Toward a broad-coverage bilingual
+corpus for speech translation of travel conversations in the real world. In: Proceedings of third inter-
+national conference on language resources and evaluation 2002. Las Palmas, Canary Islands, Spain,
+pp 147-152</mixed-citation>
+        </ref>
+        <ref id="d63183e1004a1310">
+          
+            <mixed-citation id="d63183e1008" publication-type="other">
+Vilar D, Popovic M, Ney H (2006) AER: do we need to "improve" our alignments? In: Proceedings of the
+international workshop on spoken language translation, IWSLT'06. Kyoto, Japan, pp 205-212</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

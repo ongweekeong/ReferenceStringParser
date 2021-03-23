@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260291</issue-id>
+         <article-id pub-id-type="jstor">1391031</article-id>
+         
+         <title-group>
+            <article-title>A Robust Approach to Categorical Data Analysis</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Karen V.</given-names>
+                  <surname>Shane</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jeffrey S.</given-names>
+                  <surname>Simonoff</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>135</fpage>
+         <lpage>157</lpage>
+         <page-range>135-157</page-range>
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391031"/>
+         
+         
+         <abstract>
+            <p>Categorical data analysis is typically performed by fitting models to the observed counts in a contingency table using maximum likelihood. An inherent problem with maximum likelihood fits is their sensitivity to outlier cells, ones whose counts are not consistent with the presupposed model. Robust alternatives to maximum likelihood estimation, including least median of chi-squared residuals, least median of weighted squared residuals, and analogous methods using least trimmed functions, are proposed in this article. Equivariance and breakdown properties are discussed. Monte Carlo simulation results and three real examples are used to illustrate the properties of the estimators in practice. In particular, whereas the maximum likelihood estimates break down in the presence of outlying cells, the robust estimators do not as long as the contamination does not exceed the breakdown point. The proposed estimators perform similarly in the simulations; they are competitive with median polish when fitting independence, and generalize easily to other, more complex, models.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Breakdown point</kwd>
+            <kwd>Contingency table</kwd>
+            <kwd>Least median of squares</kwd>
+            <kwd>Least trimmed squares</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d46988e269a1310">
+               
+               <mixed-citation id="d46988e273" publication-type="book">
+Agresti, A. (1984), Analysis of Ordinal Categorical Data, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of Ordinal Categorical Data</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e295a1310">
+               
+               <mixed-citation id="d46988e299" publication-type="book">
+(1990), Categorical Data Analysis, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Categorical Data Analysis</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e321a1310">
+               
+               <mixed-citation id="d46988e325" publication-type="journal">
+Albert, J.H. (1997), "Bayesian Testing and Estimation of Association in a Two-Way Contingency Table," Journal
+of the American Statistical Association, 92, 685-693.<object-id pub-id-type="doi">10.2307/2965716</object-id>
+               <fpage>685</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e341a1310">
+               
+               <mixed-citation id="d46988e345" publication-type="book">
+Barnett, V., and Lewis, T. (1994), Outliers in Statistical Data (3rd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Barnett</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Outliers in Statistical Data</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e371a1310">
+               
+               <mixed-citation id="d46988e375" publication-type="journal">
+Brown, M.B. (1974), "Identification of the Sources of Significance in Two-Way Contingency Tables," Applied
+Statistics, 23, 405-413.<object-id pub-id-type="doi">10.2307/2347132</object-id>
+               <fpage>405</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e391a1310">
+               
+               <mixed-citation id="d46988e395" publication-type="journal">
+Box, G.E.P., and Jones, S. (1986), Discussion of "Testing in Industrial Experiments With Ordered Categorical
+Data," by V. N. Nair, Technometrics, 28, 295-301.<object-id pub-id-type="doi">10.2307/1268976</object-id>
+               <fpage>295</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e411a1310">
+               
+               <mixed-citation id="d46988e415" publication-type="journal">
+DuMouchel, W. (1999), "Bayesian Data Mining in Large Frequency Tables, With an Application to the FDA
+Spontaneous Reporting System" (with discussion), The American Statistician, 53, 177-202.<person-group>
+                     <string-name>
+                     <surname>DuMouchel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>177</fpage>
+               <volume>53</volume>
+               <source>The American Statistician</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e447a1310">
+               
+               <mixed-citation id="d46988e451" publication-type="book">
+Emerson, J.D., and Hoaglin, D.C. (1983), "Analysis of Two-Way Tables by Medians," in Understanding Robust
+and Exploratory Data Analysis, edited by D. C. Hoaglin, F. Mosteller, and J. W. Tukey, New York: Wiley,
+pp. 166-210.<person-group>
+                     <string-name>
+                     <surname>Emerson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analysis of Two-Way Tables by Medians</comment>
+               <fpage>166</fpage>
+               <source>Understanding Robust and Exploratory Data Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e486a1310">
+               
+               <mixed-citation id="d46988e490" publication-type="journal">
+Fienberg, S.E. (1969), "Preliminary Graphical Analysis and Quasi-Independence for Two-Way Contingency
+Tables," Applied Statistics, 18, 153-168.<object-id pub-id-type="doi">10.2307/2346257</object-id>
+               <fpage>153</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e506a1310">
+               
+               <mixed-citation id="d46988e510" publication-type="journal">
+Fuchs, C., and Kenett, R. (1980), "A Test for Detecting Outlying Cells in the Multinomial Distribution and Two-
+Way Contingency Tables," Journal of the American Statistical Association, 75, 395-398.<object-id pub-id-type="doi">10.2307/2287465</object-id>
+               <fpage>395</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e527a1310">
+               
+               <mixed-citation id="d46988e531" publication-type="journal">
+Goodman, L.A. (1968), "Quasi-Independence and Interactions in Contingency Tables With or Without Missing
+Entries," Journal of the American Statistical Association, 63, 1091-1131.<object-id pub-id-type="doi">10.2307/2285873</object-id>
+               <fpage>1091</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e547a1310">
+               
+               <mixed-citation id="d46988e551" publication-type="journal">
+Grizzle, J.E., Starmer, F., and Koch, G.G. (1969), "Analysis of Categorical Data by Linear Models," Biometrics,
+25,489-504.<object-id pub-id-type="doi">10.2307/2528901</object-id>
+               <fpage>489</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e567a1310">
+               
+               <mixed-citation id="d46988e571" publication-type="journal">
+Hawkins, D.M. (1993a), "The Feasible Set Algorithm for Least Median of Squares Regression," Computational
+Statistics and Data Analysis, 16, 81- 101.<person-group>
+                     <string-name>
+                     <surname>Hawkins</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>16</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e603a1310">
+               
+               <mixed-citation id="d46988e607" publication-type="journal">
+(1993b), "The Accuracy of Elemental Set Approximations for Regression," Journal of the American
+Statistical Association, 88, 580-589.<object-id pub-id-type="doi">10.2307/2290339</object-id>
+               <fpage>580</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e623a1310">
+               
+               <mixed-citation id="d46988e627" publication-type="journal">
+(1994), "The Feasible Solution Algorithm for Least Trimmed Squares Regression," Computational Statis-
+tics and Data Analysis, 17, 185-196.<person-group>
+                     <string-name>
+                     <surname>Hawkins</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>185</fpage>
+               <volume>17</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e659a1310">
+               
+               <mixed-citation id="d46988e663" publication-type="journal">
+(1995), "Convergence of the Feasible Solution Algorithm for Least Median of Squares Regression,"
+Computational Statistics and Data Analysis, 19, 519-538.<person-group>
+                     <string-name>
+                     <surname>Hawkins</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>519</fpage>
+               <volume>19</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e696a1310">
+               
+               <mixed-citation id="d46988e700" publication-type="journal">
+Hawkins, D.M., and Olive, D.J. (1999), "Improved Feasible Solution Algorithms for High Breakdown Estimation,"
+Computational Statistics and Data Analysis, 30, 1-11.<person-group>
+                     <string-name>
+                     <surname>Hawkins</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>30</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e732a1310">
+               
+               <mixed-citation id="d46988e736" publication-type="journal">
+Hubert, M. (1997), "The Breakdown Value of the LI Estimator in Contingency Tables," Statistics and Probability
+Letters, 33, 419-425.<person-group>
+                     <string-name>
+                     <surname>Hubert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>419</fpage>
+               <volume>33</volume>
+               <source>Statistics and Probability Letters</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e768a1310">
+               
+               <mixed-citation id="d46988e772" publication-type="journal">
+Hubert, M., and Rousseeuw, P.J. (1997), "Robust Regression With Both Continuous and Binary Regressors,"
+Journal of Statistical Planning and Inference, 57, 153-163.<person-group>
+                     <string-name>
+                     <surname>Hubert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>153</fpage>
+               <volume>57</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e804a1310">
+               
+               <mixed-citation id="d46988e808" publication-type="journal">
+Kotze, T.J.v W., and Hawkins, D. M. (1984), "The Identification of Outliers in Two-Way Contingency Tables
+Using 2 x 2 Subtables," Applied Statistics, 33, 215-223.<object-id pub-id-type="doi">10.2307/2347447</object-id>
+               <fpage>215</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e824a1310">
+               
+               <mixed-citation id="d46988e828" publication-type="book">
+Mili, L., and Coakley, C.W. (1993), "Robust Estimation in Structured Linear Regression," Technical Report
+Number 93-13, Virginia Polytechnic Institute and State University.<person-group>
+                     <string-name>
+                     <surname>Mili</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Estimation in Structured Linear Regression</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e853a1310">
+               
+               <mixed-citation id="d46988e857" publication-type="journal">
+(1996), "Robust Estimation in Structured Linear Regression," The Annals of Statistics, 24, 2593-2607.<object-id pub-id-type="jstor">10.2307/2242701</object-id>
+               <fpage>2593</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e871a1310">
+               
+               <mixed-citation id="d46988e875" publication-type="book">
+Mosteller, F., and Parunak, A. (1985), "Identifying Extreme Cells in a Sizable Contingency Table: Probabilistic
+and Exploratory Approaches," in Exploring Data Tables, Trends and Shapes, edited by D. C. Hoaglin, FE
+Mosteller, and J. W. Tukey, New York: Wiley, pp. 189-224.<person-group>
+                     <string-name>
+                     <surname>Mosteller</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Identifying Extreme Cells in a Sizable Contingency Table: Probabilistic and Exploratory Approaches</comment>
+               <fpage>189</fpage>
+               <source>Exploring Data Tables, Trends and Shapes</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e910a1310">
+               
+               <mixed-citation id="d46988e914" publication-type="book">
+Read, T.R.C., and Cressie, N.A.C. (1988), Goodness-of-Fit Statistics for Discrete Multivariate Data, New York:
+Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Read</surname>
+                  </string-name>
+                  </person-group>
+               <source>Goodness-of-Fit Statistics for Discrete Multivariate Data</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e939a1310">
+               
+               <mixed-citation id="d46988e943" publication-type="journal">
+Rousseeuw, P.J. (1984), "Least Median of Squares Regression," Journal of the American Statistical Association,
+79, 871-880.<object-id pub-id-type="doi">10.2307/2288718</object-id>
+               <fpage>871</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e959a1310">
+               
+               <mixed-citation id="d46988e963" publication-type="book">
+Rousseeuw, P.J., and Hubert, M. (1998), "Recent Developments in PROGRESS," in L1-statistical Procedures
+and Related Topics, ed. Y Dodge, Institute of Mathematical Statistics Lecture Notes-Monograph Series,
+Volume 31, Hayward, CA: IMS, pp. 201-214.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Recent Developments in PROGRESS</comment>
+               <fpage>201</fpage>
+               <volume>31</volume>
+               <source>L1-statistical Procedures and Related Topics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e1001a1310">
+               
+               <mixed-citation id="d46988e1005" publication-type="book">
+Rousseeuw, P.J., and Leroy, A.M. (1987), Robust Regression and Outlier Detection, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression and Outlier Detection</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e1027a1310">
+               
+               <mixed-citation id="d46988e1031" publication-type="other">
+Shane, K. V. (1998), A Robust Approach to Categorical Data Analysis, unpublished Ph.D. dissertation, Department
+of Statistics and Operations Research, New York University.</mixed-citation>
+            </ref>
+            <ref id="d46988e1042a1310">
+               
+               <mixed-citation id="d46988e1046" publication-type="journal">
+Silverman, J., Kline, J., Hutzler, M., Stein, Z., Warburton, D. (1985), "Maternal Employment and the Chromosomal
+Characteristics of Spontaneously Aborted Conceptions," Journal of Occupational Medicine, 27, 427-438.<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>427</fpage>
+               <volume>27</volume>
+               <source>Journal of Occupational Medicine</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d46988e1078a1310">
+               
+               <mixed-citation id="d46988e1082" publication-type="journal">
+Simonoff, J.S. (1988), "Detecting Outlying Cells in Two-Way Contingency Tables via Backwards Stepping,"
+Technometrics, 30, 339-345.<object-id pub-id-type="doi">10.2307/1270088</object-id>
+               <fpage>339</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

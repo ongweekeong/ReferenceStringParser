@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i27594192</issue-id>
+         <article-id pub-id-type="jstor">27594202</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X133933</article-id>
+         <title-group>
+            <article-title>Unbiased Recursive Partitioning: A Conditional Inference Framework</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Torsten</given-names>
+                  <surname>Hothorn</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kurt</given-names>
+                  <surname>Hornik</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Achim</given-names>
+                  <surname>Zeileis</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>651</fpage>
+         <lpage>674</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594202"/>
+      
+      
+         <abstract>
+            <p>Recursive binary partitioning is a popular tool for regression analysis. Two fundamental problems of exhaustive search procedures usually applied to fit such models have been known for a long time: overfitting and a selection bias towards covariates with many possible splits or missing values. While pruning procedures are able to solve the overfitting problem, the variable selection bias still seriously affects the interpretability of tree-structured regression models. For some special cases unbiased procedures have been suggested, however lacking a common theoretical foundation. We propose a unified framework for recursive partitioning which embeds tree-structured regression models into a well defined theory of conditional inference procedures. Stopping criteria based on multiple test procedures are implemented and it is shown that the predictive performance of the resulting trees is as good as the performance of established exhaustive search procedures. It turns out that the partitions and therefore the models induced by both approaches are structurally different, confirming the need for an unbiased variable selection. Moreover, it is shown that the prediction accuracy of trees with early stopping is equivalent to the prediction accuracy of pruned trees with unbiased variable selection. The methodology presented here is applicable to all kinds of regression problems, including nominal, ordinal, numeric, censored as well as multivariate response variables and arbitrary measurement scales of the covariates. Data from studies on glaucoma classification, node positive breast cancer survival and mammography experience are re-analyzed.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Multiple testing</kwd>
+            <kwd>Multivariate regression trees</kwd>
+            <kwd>Ordinal regression trees</kwd>
+            <kwd>Permutation tests</kwd>
+            <kwd>Variable selection</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d4708672e186a1310">
+          
+            <mixed-citation id="d4708672e190" publication-type="other">
+Agresti, A. (2002), Categorical Data Analysis (2nd ed.), Hoboken, NJ: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d4708672e197a1310">
+          
+            <mixed-citation id="d4708672e201" publication-type="other">
+Berger, R. L., and Hsu, J. C. (1996), "Bioequivalence Trials, Intersection-Union Tests and Equivalence Confidence
+Sets" (with discussion), Statistical Science, 11, 283–319.</mixed-citation>
+        </ref>
+        <ref id="d4708672e211a1310">
+          
+            <mixed-citation id="d4708672e215" publication-type="other">
+Blake, C, and Merz, C. (1998), "UCI Repository of Machine Learning Databases." Available online at http:
+//www. ics. uci. edu/~mlearn/MLRepository. html.</mixed-citation>
+        </ref>
+        <ref id="d4708672e225a1310">
+          
+            <mixed-citation id="d4708672e229" publication-type="other">
+Breiman, L., Friedman, J. H., Olshen, R. A., and Stone, C. J. (1984), Classification and Regression Trees, Belmont,
+CA: Wadsworth.</mixed-citation>
+        </ref>
+        <ref id="d4708672e240a1310">
+          
+            <mixed-citation id="d4708672e244" publication-type="other">
+De'ath, G. (2002), "Multivariate Regression Trees: A New Technique for Modeling Species-Environment Rela-
+tionships," Ecology, 83, 1105–1117.</mixed-citation>
+        </ref>
+        <ref id="d4708672e254a1310">
+          
+            <mixed-citation id="d4708672e258" publication-type="other">
+Dobra, A., and Gehrke, J. (2001), "Bias Correction in Classification Tree Construction," in Proceedings of the
+Eighteenth International Conference on Machine Learning, San Francisco: Morgan Kaufmann, pp. 90–97.</mixed-citation>
+        </ref>
+        <ref id="d4708672e268a1310">
+          
+            <mixed-citation id="d4708672e272" publication-type="other">
+Fieller, E. C. (1940), "The Biological Standardization of Insulin," Journal of the Royal Statistical Society, Sup-
+plement, 7, 1–64.</mixed-citation>
+        </ref>
+        <ref id="d4708672e282a1310">
+          
+            <mixed-citation id="d4708672e286" publication-type="other">
+Frank, E., and Witten, I. H. (1998), "Using a Permutation Test for Attribute Selection in Decision Trees," in
+Proceedings of the Fifteenth International Conference on Machine Learning, San Francisco: Morgan Kaufmann,
+pp. 152–160.</mixed-citation>
+        </ref>
+        <ref id="d4708672e299a1310">
+          
+            <mixed-citation id="d4708672e303" publication-type="other">
+Genz, A. (1992), "Numerical Computation of Multivariate Normal Probabilities," Journal of Computational and
+Graphical Statistics, 1, 141–149.</mixed-citation>
+        </ref>
+        <ref id="d4708672e313a1310">
+          
+            <mixed-citation id="d4708672e317" publication-type="other">
+Goodman, L. A. (1965), "On Simultaneous Confidence Intervals for Multinomial Proportions," Technometrics, 7,
+247–254.</mixed-citation>
+        </ref>
+        <ref id="d4708672e328a1310">
+          
+            <mixed-citation id="d4708672e332" publication-type="other">
+Hosmer, D. W., and Lemeshow, S. (2000), Applied Logistic Regression (2nd ed.), New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d4708672e339a1310">
+          
+            <mixed-citation id="d4708672e343" publication-type="other">
+Hothorn, T., Hornik, K., van de Wiel, M. A., and Zeileis, A. (2006), "A Lego System for Conditional Inference,"
+The American Statistician, 60, 257–263.</mixed-citation>
+        </ref>
+        <ref id="d4708672e353a1310">
+          
+            <mixed-citation id="d4708672e357" publication-type="other">
+Hothorn, T., Leisch, F., Zeileis, A., and Hornik, K. (2005), "The Design and Analysis of Benchmark Experiments,"
+Journal of Computational and Graphical Statistics, 14, 675–699.</mixed-citation>
+        </ref>
+        <ref id="d4708672e367a1310">
+          
+            <mixed-citation id="d4708672e371" publication-type="other">
+Jensen, D. D., and Cohen, P. R. (2000), "Multiple Comparisons in Induction Algorithms," Machine Learning, 38,
+309–338.</mixed-citation>
+        </ref>
+        <ref id="d4708672e381a1310">
+          
+            <mixed-citation id="d4708672e385" publication-type="other">
+Kass, G. (1980), "An Exploratory Technique for Investigating Large Quantities of Categorical Data," Applied
+Statistics, 29, 119–127.</mixed-citation>
+        </ref>
+        <ref id="d4708672e395a1310">
+          
+            <mixed-citation id="d4708672e399" publication-type="other">
+Kim, H., and Loh, W.-Y. (2001), "Classification Trees with Unbiased Multiway Splits," Journal of the American
+Statistical Association, 96, 589–604.</mixed-citation>
+        </ref>
+        <ref id="d4708672e410a1310">
+          
+            <mixed-citation id="d4708672e414" publication-type="other">
+—(2003), "Classification Trees with Bivariate Linear Discriminant Node Models," Journal of Computational
+and Graphical Statistics, 12, 512–530.</mixed-citation>
+        </ref>
+        <ref id="d4708672e424a1310">
+          
+            <mixed-citation id="d4708672e428" publication-type="other">
+Lausen, B., Hothorn, T., Bretz, F., and Schumacher, M. (2004), "Assessment of Optimal Selected Prognostic
+Factors," Biometrical Journal, 46, 364–374.</mixed-citation>
+        </ref>
+        <ref id="d4708672e438a1310">
+          
+            <mixed-citation id="d4708672e442" publication-type="other">
+Lausen, B., and Schumacher, M. (1992), "Maximally Selected Rank Statistics," Biometrics, 48, 73–85.</mixed-citation>
+        </ref>
+        <ref id="d4708672e449a1310">
+          
+            <mixed-citation id="d4708672e453" publication-type="other">
+LeBlanc, M., and Crowley, J. (1992), "Relative Risk Trees for Censored Survival Data," Biometrics, 48,411–425.</mixed-citation>
+        </ref>
+        <ref id="d4708672e460a1310">
+          
+            <mixed-citation id="d4708672e464" publication-type="other">
+—(1993), "Survival Trees by Goodness of Split," Journal of the American Statistical Association, 88, 457–
+467.</mixed-citation>
+        </ref>
+        <ref id="d4708672e474a1310">
+          
+            <mixed-citation id="d4708672e478" publication-type="other">
+Loh, W.-Y. (2002), "Regression Trees With Unbiased Variable Selection and Interaction Detection," Statistica
+Sinica, 12,361–386.</mixed-citation>
+        </ref>
+        <ref id="d4708672e489a1310">
+          
+            <mixed-citation id="d4708672e493" publication-type="other">
+Loh, W.-Y, and Shih, Y.-S. (1997), "Split Selection Methods for Classification Trees," Statistica Sinica, 7, 815–
+840.</mixed-citation>
+        </ref>
+        <ref id="d4708672e503a1310">
+          
+            <mixed-citation id="d4708672e507" publication-type="other">
+Loh, W.-Y, and Vanichsetakul, N. (1988), "Tree-Structured Classification via Generalized Discriminant Analysis"
+(with discussion), Journal of the American Statistical Association, 83, 715–725.</mixed-citation>
+        </ref>
+        <ref id="d4708672e517a1310">
+          
+            <mixed-citation id="d4708672e521" publication-type="other">
+Mardin, C. Y, Hothorn, T., Peters, A., Jiinemann, A. G., Nguyen, N. X., and Lausen, B. (2003), "New Glau-
+coma Classification Method Based on Standard HRT Parameters by Bagging Classification Trees," Journal of
+Glaucoma, 12,340–346.</mixed-citation>
+        </ref>
+        <ref id="d4708672e534a1310">
+          
+            <mixed-citation id="d4708672e538" publication-type="other">
+Martin, J. K. (1997), "An Exact Probability Metric for Decision Tree Splitting and Stopping," Machine Learning,
+28,257–291.</mixed-citation>
+        </ref>
+        <ref id="d4708672e548a1310">
+          
+            <mixed-citation id="d4708672e552" publication-type="other">
+Miller, R., and Siegmund, D. (1982), "Maximally Selected Chi Square Statistics," Biometrics, 38, 1011–1016.</mixed-citation>
+        </ref>
+        <ref id="d4708672e559a1310">
+          
+            <mixed-citation id="d4708672e563" publication-type="other">
+Mingers, J. (1987), "Expert Systems—Rule Induction With Statistical Data," Journal of the Operations Research
+Society, 38, 39–47.</mixed-citation>
+        </ref>
+        <ref id="d4708672e574a1310">
+          
+            <mixed-citation id="d4708672e578" publication-type="other">
+Molinaro, A. M., Dudoit, S., and van der Laan, M. J. (2004), "Tree-Based Multivariate Regression and Density
+Estimation with Right-Censored Data," Journal of Multivariate Analysis, 90, 154–177.</mixed-citation>
+        </ref>
+        <ref id="d4708672e588a1310">
+          
+            <mixed-citation id="d4708672e592" publication-type="other">
+Morgan, J. N., and Sonquist, J. A. (1963), "Problems in the Analysis of Survey Data, and a Proposal," Journal of
+the American Statistical Association, 58, 415–434.</mixed-citation>
+        </ref>
+        <ref id="d4708672e602a1310">
+          
+            <mixed-citation id="d4708672e606" publication-type="other">
+Murthy, S. K. (1998), "Automatic Construction of Decision Trees from Data: A Multi-disciplinary Survey," Data
+Mining and Knowledge Discovery, 2, 345–389.</mixed-citation>
+        </ref>
+        <ref id="d4708672e616a1310">
+          
+            <mixed-citation id="d4708672e620" publication-type="other">
+Noh, H. G., Song, M. S., and Park, S. H. (2004), "An Unbiased Method for Constructing Multilabel Classification
+Trees," Computational Statistics &amp;amp; Data Analysis, 47, 149–164.</mixed-citation>
+        </ref>
+        <ref id="d4708672e630a1310">
+          
+            <mixed-citation id="d4708672e634" publication-type="other">
+O'Brien, S. M. (2004), "Cutpoint Selection for Categorizing a Continuous Predictor," Biometrics, 60, 504–509.</mixed-citation>
+        </ref>
+        <ref id="d4708672e641a1310">
+          
+          
+            <mixed-citation id="d4708672e647" publication-type="other">
+Peters, A., Hothorn, T., and Lausen, B. (2002), "ipred: Improved Predictors," R News, 2, 33–36. Available online
+at http://CRAN.R-project.org/doc/Rnews/.</mixed-citation>
+        </ref>
+        <ref id="d4708672e658a1310">
+          
+            <mixed-citation id="d4708672e662" publication-type="other">
+Quinlan, J. R. (1993), C4.5: Programs for Machine Learning, San Mateo, CA: Morgan Kaufmann Publishers Inc.
+R Development Core Team (2004), R: A Language and Environment for Statistical Computing, R Foundation for
+Statistical Computing, Vienna, Austria. Online at http://www.R-project.org.</mixed-citation>
+        </ref>
+        <ref id="d4708672e675a1310">
+          
+            <mixed-citation id="d4708672e679" publication-type="other">
+Rasch, D. (1995), Mathematische Statistik, Heidelberg, Leipzig: Johann Ambrosius Barth Verlag.</mixed-citation>
+        </ref>
+        <ref id="d4708672e686a1310">
+          
+            <mixed-citation id="d4708672e690" publication-type="other">
+Schumacher, M., Holländer, N., Schwarzer, G., and Sauerbrei, W. (2001 ), "Prognostic Factor Studies," in Statistics
+in Clinical Oncology, ed. J. Crowley, New York, Basel: Marcel Dekker, pp. 321–378.</mixed-citation>
+        </ref>
+        <ref id="d4708672e700a1310">
+          
+            <mixed-citation id="d4708672e704" publication-type="other">
+Segal, M. R. (1988), "Regression Trees for Censored Data," Biometrics, 44, 35–47.</mixed-citation>
+        </ref>
+        <ref id="d4708672e711a1310">
+          
+            <mixed-citation id="d4708672e715" publication-type="other">
+Shih, Y.-S. (1999), "Families of Splitting Criteria for Classification Trees," Statistics and Computing, 9, 309–315.</mixed-citation>
+        </ref>
+        <ref id="d4708672e722a1310">
+          
+            <mixed-citation id="d4708672e726" publication-type="other">
+—(2004), "A Note on Split Selection Bias in Classification Trees," Computational Statistics &amp;amp; Data Analysis,
+45, 457–466.</mixed-citation>
+        </ref>
+        <ref id="d4708672e737a1310">
+          
+            <mixed-citation id="d4708672e741" publication-type="other">
+Strasser, H., and Weber, C. (1999), "On the Asymptotic Theory of Permutation Statistics," Mathematical Methods
+of Statistics, 8, 220–250. Preprint available online at http:// epub.wu-wien.ac.at/ dyn/ openURL?id=oai:epub.
+wu- wien. ac. at.epub- wu-01 _94c.</mixed-citation>
+        </ref>
+        <ref id="d4708672e754a1310">
+          
+            <mixed-citation id="d4708672e758" publication-type="other">
+Strehl, A., and Ghosh, J. (2003), "Cluster Ensembles—A Knowledge Reuse Framework for Combining Multiple
+Partitions," Journal of Machine Learning Research, 3, 583–617.</mixed-citation>
+        </ref>
+        <ref id="d4708672e768a1310">
+          
+            <mixed-citation id="d4708672e772" publication-type="other">
+Therneau, T. M., and Atkinson, E. J. (1997), "An Introduction to Recursive Partitioning Using the rpart Routine,"
+Technical Report 61, Section of Biostatistics, Mayo Clinic, Rochester. Available online at http://www.mayo.
+edu/hsr/techrptZ61.pdf.</mixed-citation>
+        </ref>
+        <ref id="d4708672e785a1310">
+          
+            <mixed-citation id="d4708672e789" publication-type="other">
+Westfall, P. H., and Young, S. S. (1993), Resampling-Based Multiple Testing, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d4708672e796a1310">
+          
+            <mixed-citation id="d4708672e800" publication-type="other">
+White, A. P., and Liu, W. Z. (1994), "Bias in Information-Based Measures in Decision Tree Induction," Machine
+Learning, 15, 321–329.</mixed-citation>
+        </ref>
+        <ref id="d4708672e810a1310">
+          
+            <mixed-citation id="d4708672e814" publication-type="other">
+Zhang, H. (1998), "Classification Trees for Multiple Binary Responses," Journal of the American Statistical
+Association, 93, 180–193.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

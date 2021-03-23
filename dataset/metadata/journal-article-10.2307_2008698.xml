@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">54</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">189</issue>
+         <issue-id>i334607</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008698</article-id>
+         
+         <title-group>
+            <article-title>Multiplicative Congruential Random Number Generators with Modulus $2^\beta$: An Exhaustive Analysis for $\beta = 32$ and a Partial Analysis for $\beta = 48$</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>George S.</given-names>
+                  <surname>Fishman</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>331</fpage>
+         <lpage>344</lpage>
+         <page-range>331-344</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1990 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008698"/>
+         
+         
+         <abstract>
+            <p>This paper presents the results of a search to find optimal maximal period multipliers for multiplicative congruential random number generators with moduli $2^{32}$ and $2^{48}$. Here a multiplier is said to be optimal if the distance between adjacent parallel hyperplanes on which $k$-tuples lie does not exceed the minimal achievable distance by more than 25 percent for $k = 2,\ldots, 6$. This criterion is considerably more stringent than prevailing standards of acceptability and leads to a total of only 132 multipliers out of the more than 536 million candidate multipliers that exist for modulus $2^{32}$ and to only 42 multipliers in a sample of about 67.1 million tested among the more than $351 \times 10^{11}$ candidate multipliers for modulus $2^{48}$. Section 1 reviews the basic properties of multiplicative congruential generators and $\S2$ describes worst case performance measures. These include the maximal distance between adjacent parallel hyperplanes, the minimal number of parallel hyperplanes, the minimal distance between $k$-tuples and the discrepancy. For modulus $2^{32}, \S3$ presents the ten best multipliers and compares their performances with those of two multipliers that have been recommended in the literature. Comparisons using packing measures in the space of $k$-tuples and in the dual space are also made. For modulus $2^{48}, \S4$ also presents analogous results for the five best multipliers and for two multipliers suggested in the literature.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65C10</kwd>
+            <kwd>Congruential generator</kwd>
+            <kwd>discrepancy</kwd>
+            <kwd>random number generation</kwd>
+            <kwd>spectral test</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d5007356e138a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d5007356e145" publication-type="book">
+J. H. Ahrens and U. Dieter, Uniform random numbers, Technical University of Graz, 1977.<person-group>
+                     <string-name>
+                     <surname>Ahrens</surname>
+                  </string-name>
+                  </person-group>
+               <source>Uniform random numbers</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e167a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d5007356e174" publication-type="other">
+W. Beyer, Private communication, 1988.</mixed-citation>
+            </ref>
+            <ref id="d5007356e181a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d5007356e188" publication-type="journal">
+I. Borosh and H. Niederreiter, Optimal multipliers for pseudo-random number generation by
+the linear congruential method, BIT23 (1983), 65-74.<person-group>
+                     <string-name>
+                     <surname>Borosh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <volume>23</volume>
+               <source>BIT</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e220a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d5007356e227" publication-type="book">
+J. W. S. Cassels, An introduction to the geometry of numbers, Springer-Verlag, New York, 1959.<person-group>
+                     <string-name>
+                     <surname>Cassels</surname>
+                  </string-name>
+                  </person-group>
+               <source>An introduction to the geometry of numbers</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e250a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d5007356e257" publication-type="journal">
+R. R. Coveyou and R. D. MacPherson, Fourier analysis of uniform random number generators,
+J. Assoc. Comput. Mach.14 (1967), 100-119.<person-group>
+                     <string-name>
+                     <surname>Coveyou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>100</fpage>
+               <volume>14</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e289a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d5007356e296" publication-type="journal">
+U. Dieter, Pseudo-random numbers: the exact distribution of pairs, Math. Comp.25 (1971),
+855-883.<object-id pub-id-type="doi">10.2307/2004352</object-id>
+               <fpage>855</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e312a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d5007356e319" publication-type="journal">
+—, How to calculate shortest vectors in a lattice, Math. Comp.29 (1975), 827-833.<object-id pub-id-type="doi">10.2307/2005293</object-id>
+               <fpage>827</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e332a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d5007356e339" publication-type="other">
+M. Durst, Private communication, 1989.</mixed-citation>
+            </ref>
+            <ref id="d5007356e346a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d5007356e353" publication-type="journal">
+G. S. Fishman and L. R. Moore, An exhaustive analysis of multiplicative congruential random
+number generators with modulus 231 - 1, SIAM J. Sci. Statist. Comput.7 (1986), 24-45.<person-group>
+                     <string-name>
+                     <surname>Fishman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>24</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e385a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d5007356e392" publication-type="book">
+D. E. Knuth, The art of computer programming: Semi-numerical algorithms, 2nd ed., Addison-
+Wesley, 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The art of computer programming: Semi-numerical algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e422a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d5007356e429" publication-type="journal">
+G. Marsaglia, Random numbers fall mainly in the plane, Proc. Nat. Acad. Sci. U.S.A.61
+(1968), 25-28.<person-group>
+                     <string-name>
+                     <surname>Marsaglia</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>25</fpage>
+               <volume>61</volume>
+               <source>Proc. Nat. Acad. Sci. U.S.A.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e461a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d5007356e468" publication-type="book">
+—The structure of linear congruential sequences, in Applications of Number Theory to
+Numerical Analysis (S. K. Zaremba, ed.), Academic Press, New York, 1972, pp. 249-285.<person-group>
+                     <string-name>
+                     <surname>Marsaglia</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The structure of linear congruential sequences</comment>
+               <fpage>249</fpage>
+               <source>Applications of Number Theory to Numerical Analysis</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e500a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d5007356e507" publication-type="journal">
+H. Niederreiter, Statistical independence of linear congruential pseudo-random numbers, Bull.
+Amer. Math. Soc.82 (1976), 927-929.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>927</fpage>
+               <volume>82</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e539a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d5007356e546" publication-type="journal">
+—, Pseudo-random numbers and optimal coefficients, Adv. Math.26 (1977), 99-18 1.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>26</volume>
+               <source>Adv. Math.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e575a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d5007356e582" publication-type="journal">
+—, The serial test for linear congruential pseudo-random numbers, Bull. Amer. Math. Soc.
+84 (1978), 273-274.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>273</fpage>
+               <volume>84</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e614a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d5007356e621" publication-type="journal">
+—, Quasi-Monte Carlo methods and pseudo-random numbers, Bull. Amer. Math. Soc.84
+(1978), 957-1041.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>957</fpage>
+               <volume>84</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e654a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d5007356e661" publication-type="journal">
+—, The serial test for pseudo-random numbers generated by the linear congruential method,
+Numer. Math.46 (1985), 51-68.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>51</fpage>
+               <volume>46</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5007356e693a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d5007356e700" publication-type="journal">
+C. S. Smith, Multiplicative pseudo-random number generators with prime modulus, J. Assoc.
+Comput. Mach.18 (1971), 586-593.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>586</fpage>
+               <volume>18</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

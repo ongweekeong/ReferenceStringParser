@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">277</issue>
+         <issue-id>i23075137</issue-id>
+         <article-id pub-id-type="jstor">23075222</article-id>
+         <title-group>
+            <article-title>A PROJECTION-BASED ERROR ANALYSIS OF HDG METHODS FOR TIMOSHENKO BEAMS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>FATIH</given-names>
+                  <surname>CELIKER</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>BERNARDO</given-names>
+                  <surname>COCKBURN</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>KE</given-names>
+                  <surname>SHI</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>131</fpage>
+         <lpage>151</lpage>
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075222"/>
+      
+      
+         <abstract>
+            <p>In this paper, we give the first a priori error analysis of the hybridizable discontinuous Galerkin (HDG) methods for Timoshenko beams. The analysis is based on the use of a projection especially designed to fit the structure of the numerical traces of the HDG method. This property allows us to prove in a very concise manner that the projection of the errors is bounded in terms of the distance between the exact solution and its projection. The study of the influence of the stabilization function on the approximation is then reduced to the study of how they affect the approximation properties of the projection in a single element. Surprisingly, and unlike any other discontinuous Galerkin method, this can be done without assuming any positivity property of the stabilization function of the HDG method. We apply this approach to HDG methods using polynomials of degree k ≥ 0 in all of the unknowns, and show that the projection of the error in each of them superconverges with order k + 2 when k ≥ 1 and converges with order 1 for k = 0. As a result, we show that the HDG methods converge with optimal order k + 1 for all the unknowns, and that they are free from shear locking. Finally, we show that all of the numerical traces converge with order 2k + 1. Numerical experiments validating these results are shown.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2241533e158a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2241533e165" publication-type="other">
+F. Celiker, Discontinuous Galerkin methods for Structural Mechanics, Ph.D. thesis, Univer-
+sity of Minnesota, 2005.</mixed-citation>
+        </ref>
+        <ref id="d2241533e175a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2241533e182" publication-type="other">
+F. Celiker and B. Cockburn, Element-by-element post-processing of discontinuous Galerkin
+methods for Timoshenko beams, J. Sci. Comput. 27 (2006), 177-187. MR2285774
+(2007i:74042)</mixed-citation>
+        </ref>
+        <ref id="d2241533e195a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2241533e202" publication-type="other">
+F. Celiker, B. Cockburn, S. Giizey, R. Kannapady, S.-C. Soon, H. K. Stolarski, and K. K.
+Tamma, Discontinuous Galerkin methods for Timoshenko beams, Numerical Mathematics
+and Advanced Applications, ENUMATH 2003, Springer, 2003, pp. 221-231.</mixed-citation>
+        </ref>
+        <ref id="d2241533e215a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2241533e222" publication-type="other">
+F. Celiker, B. Cockburn and K. Shi, Hybridizable discontinuous Galerkin methods for Tim-
+oshenko beams, J. Sci. Comput. 44 (2010), 1-37 MR2647497</mixed-citation>
+        </ref>
+        <ref id="d2241533e233a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2241533e240" publication-type="other">
+F. Celiker, B. Cockburn, and H. Stolarski, Locking-free optimal discontinuous Galerkin meth-
+ods for Timoshenko beams, SIAM J. Numer. Anal. 44 (2006), 2297-2325. MR2272595
+(2007m:65108)</mixed-citation>
+        </ref>
+        <ref id="d2241533e253a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2241533e260" publication-type="other">
+B. Cockburn, J. Gopalakrishnan, and R. Lazarov, Unified hybridization of discontinuous
+Galerkin, mixed and continuous Galerkin methods for second order elliptic problems, SIAM
+J. Numer. Anal. 47 (2009), 1319-1365. MR2485455 (2010b:65251)</mixed-citation>
+        </ref>
+        <ref id="d2241533e273a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2241533e280" publication-type="other">
+B. Cockburn, J. Gopalakrishnan, and F.-J. Sayas, A projection-based error analysis of HDG
+methods, Math. Comp. 79 (2010), 1351-1367. MR2629996</mixed-citation>
+        </ref>
+        <ref id="d2241533e290a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2241533e297" publication-type="other">
+S. P. Timoshenko, On the correction for shear of the differential equation for transverse
+vibrations of prismatic bar, Philosophical Magazine 41 (1921), 744-746.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

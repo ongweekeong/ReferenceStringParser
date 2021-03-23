@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">45</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">172</issue>
+         <issue-id>i334590</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008128</article-id>
+         
+         <title-group>
+            <article-title>On Some High-Order Accurate Fully Discrete Galerkin Methods for the Korteweg-de Vries Equation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Vassilios A.</given-names>
+                  <surname>Dougalis</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ohannes A.</given-names>
+                  <surname>Karakashian</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1985</year>
+         </pub-date>
+         <fpage>329</fpage>
+         <lpage>345</lpage>
+         <page-range>329-345</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1985 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008128"/>
+         
+         
+         <abstract>
+            <p>We construct and analyze fully discrete Galerkin (finite-element) methods of high order of accuracy for the numerical solution of the periodic initial-value problem for the Korteweg-de Vries equation. The methods are based on a standard space discretization using smooth periodic splines on a uniform mesh. For the time stepping, we use two schemes of third (resp. fourth) order of accuracy which are modifications of well-known, diagonally implicit Runge-Kutta methods and require the solution of two (resp. three) nonlinear systems of equations at each time step. These systems are solved approximately by Newton's method. Provided the initial iterates are chosen in a specific, accurate way, we show that only one Newton iteration per system is needed to preserve the stability and order of accuracy of the scheme. Under certain mild restrictions on the space mesh length and the time step we prove $L^2$-error estimates of optimal rate of convergence for both schemes.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>35Q20</kwd>
+            <kwd>65M15</kwd>
+            <kwd>65L07</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d3167093e147a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3167093e154" publication-type="journal">
+R. ALEXANDER, "Diagonally implicit Runge-Kutta methods for stiff O.D.E.'s," SIAM J. Numer.
+Anal., v. 14, 1976, pp. 1006-1021.<object-id pub-id-type="jstor">10.2307/2156678</object-id>
+               <fpage>1006</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e170a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3167093e177" publication-type="journal">
+G. A. BAKER, V. A. DOUGALIS &amp; 0. A. KARAKASHIAN, Convergence of Galerkin approximations
+for the Korteweg-de Vries equation," Math. Comp., v. 40, 1983, pp. 419-433.<object-id pub-id-type="doi">10.2307/2007524</object-id>
+               <fpage>419</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e193a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3167093e200" publication-type="journal">
+J. L. BONA &amp; R. SMITH, "The initial-value problem for the Korteweg-de Vries equation," Philos.
+Trans. Roy. Soc. London Ser. A, v. 278, 1975, pp. 555-604.<person-group>
+                     <string-name>
+                     <surname>Bona</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>555</fpage>
+               <volume>278</volume>
+               <source>Philos. Trans. Roy. Soc. London Ser. A</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e232a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3167093e239" publication-type="journal">
+K. BURRAGE &amp; J. C. BUTCHER, "Stability criteria for implicit Runge-Kutta methods," SIAM J.
+Numer. Anal., v. 16, 1979, pp. 46-57.<object-id pub-id-type="jstor">10.2307/2156895</object-id>
+               <fpage>46</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e256a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3167093e263" publication-type="other">
+M. CROUZEIX, Sur l'Approximation des Équations Différentielles Opérationnelles Linéaires par des
+Méthodes de Runge-Kutta, Thèse, Université Paris VI, 1975.</mixed-citation>
+            </ref>
+            <ref id="d3167093e273a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3167093e280" publication-type="journal">
+M. CROUZEIX, "Sur la B-stabilit6 des methodes de Runge-Kutta," Numer. Math., v. 32, 1979, pp.
+75-82.<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>75</fpage>
+               <volume>32</volume>
+               <source>Numer. Math.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e312a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3167093e319" publication-type="journal">
+V. THOMÉE &amp; B. WENDROFF," Convergence estimates for Galerkin methods for variable coefficient
+initial value problems," SIAM J. Numer. Anal., v. 11, 1974, pp. 1059-1068.<person-group>
+                     <string-name>
+                     <surname>Thomée</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1059</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e351a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3167093e358" publication-type="book">
+L. B. WAHLBIN, "A dissipative Galerkin method for the numerical solution of first order hyperbolic
+equations," in Mathematical Aspects of Finite Elements in Partial Differential Equations (C. de Boor, ed.),
+Academic Press, New York, 1974, pp. 147-169.<person-group>
+                     <string-name>
+                     <surname>Wahlbin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A dissipative Galerkin method for the numerical solution of first order hyperbolic equations</comment>
+               <fpage>147</fpage>
+               <source>Mathematical Aspects of Finite Elements in Partial Differential Equations</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3167093e393a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3167093e400" publication-type="journal">
+R. WINTHER, "A conservative finite element method for the Korteweg-de Vries equation," Math.
+Comp., v. 34, 1980, pp. 23-43.<object-id pub-id-type="doi">10.2307/2006219</object-id>
+               <fpage>23</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

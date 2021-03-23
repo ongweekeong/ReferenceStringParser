@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260269</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390847</article-id>
+         
+         <title-group>
+            <article-title>Exact Cumulant Calculations for Pearson X&lt;sup&gt;2&lt;/sup&gt; and Zelterman Statistics for r-Way Contingency Tables</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James E.</given-names>
+                  <surname>Stafford</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>199</fpage>
+         <lpage>212</lpage>
+         <page-range>199-212</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1995 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390847"/>
+         
+         
+         <abstract>
+            <p>We present a computer algebra procedure that calculates exact cumulants for Pearson X&lt;sup&gt;2&lt;/sup&gt; and Zelterman statistics for r-way contingency tables. The algorithm is an example of how an overwhelming algebraic problem can be solved neatly through computer implementation by emulating tactics that one uses by hand. For inference purposes the cumulants may be used to assess chi-square approximations or to improve this approximation via Edgeworth expansions. Edgeworth approximations are compared to the computer-intensive techniques of Mehta and Patel that provide exact and arbitrarily close results. Comparisons to approximations that utilize the gamma distribution (Mielke and Berry) are also made.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Computer algebra</kwd>
+            <kwd>Edgeworth expansion</kwd>
+            <kwd>Expectation</kwd>
+            <kwd>Mathematica</kwd>
+            <kwd>Nested sums</kwd>
+            <kwd>Partitions</kwd>
+            <kwd>Symbolic computation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1627075e145a1310">
+               
+               <mixed-citation id="d1627075e149" publication-type="book">
+Andrews, D.F., and Herzberg, A.M. (1985), Data, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Andrews</surname>
+                  </string-name>
+                  </person-group>
+               <source>Data</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e171a1310">
+               
+               <mixed-citation id="d1627075e175" publication-type="journal">
+Andrews, D.F., and Stafford, J.E. (1993), "Tools for the Symbolic Computation of Asymptotic Expansions,"
+Journal of the Royal Statistical Society, Ser. B, 55, 613-628.<person-group>
+                     <string-name>
+                     <surname>Andrews</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>613</fpage>
+               <volume>55</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e207a1310">
+               
+               <mixed-citation id="d1627075e211" publication-type="book">
+Barndorff-Nielsen, O., and Cox, D.R. (1989), Asymptotic Techniques for Use in Statistics, New York: Chapman
+and Hall.<person-group>
+                     <string-name>
+                     <surname>Barndorff-Nielsen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Asymptotic Techniques for Use in Statistics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e236a1310">
+               
+               <mixed-citation id="d1627075e240" publication-type="journal">
+Berry, K.J., and Mielke, P.W. (1986), "R by C Chi-Square Analyses With Small Expected Cell Frequencies,"
+Educational and Psychological Measurement, 46, 169-173.<person-group>
+                     <string-name>
+                     <surname>Berry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>169</fpage>
+               <volume>46</volume>
+               <source>Educational and Psychological Measurement</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e273a1310">
+               
+               <mixed-citation id="d1627075e277" publication-type="journal">
+(1988), "Monte Carlo Comparisons of the Asymptotic Chi-square and Likelihood Ratio Tests With the
+Nonasymptotic Chi-Square Test for Sparse R by C Tables," Psychological Bulletin, 103, 256-264.<person-group>
+                     <string-name>
+                     <surname>Berry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>256</fpage>
+               <volume>103</volume>
+               <source>Psychological Bulletin</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e309a1310">
+               
+               <mixed-citation id="d1627075e313" publication-type="journal">
+(1989), "Analyzing Independence in r-way Contingency Tables," Educational and Psychological Mea-
+surement, 49, 605-607.<person-group>
+                     <string-name>
+                     <surname>Berry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>605</fpage>
+               <volume>49</volume>
+               <source>Educational and Psychological Measurement</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e345a1310">
+               
+               <mixed-citation id="d1627075e349" publication-type="book">
+Bishop, Y.M.M., Fienberg, S.E., and Holland, P.W. (1975), Discrete Multivariate Analysis: Theory and
+Practise, Cambridge, MA: The M.I.T. Press.<person-group>
+                     <string-name>
+                     <surname>Bishop</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discrete Multivariate Analysis: Theory and Practise</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e374a1310">
+               
+               <mixed-citation id="d1627075e378" publication-type="book">
+Bortkewitsch, L. von (1898), Das Gesetz der Kleinen Kahlen, Leipzig: Teubner.<person-group>
+                     <string-name>
+                     <surname>Bortkewitsch</surname>
+                  </string-name>
+                  </person-group>
+               <source>Das Gesetz der Kleinen Kahlen</source>
+               <year>1898</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e400a1310">
+               
+               <mixed-citation id="d1627075e404" publication-type="journal">
+Cochran, W.G. (1942), "The x2 Correction for Continuity," Iowa State College Journal of Science, 16, 421-
+436.<person-group>
+                     <string-name>
+                     <surname>Cochran</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>421</fpage>
+               <volume>16</volume>
+               <source>Iowa State College Journal of Science</source>
+               <year>1942</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e436a1310">
+               
+               <mixed-citation id="d1627075e440" publication-type="book">
+Cox, D.R., and Snell, E.J. (1981), Applied Statistics: Principles and Examples, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Cox</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied Statistics: Principles and Examples</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e463a1310">
+               
+               <mixed-citation id="d1627075e467" publication-type="journal">
+Dawson, R.B. (1954), "A Simplified Expression for the Variance of the x2 Function on a Contingency Table,"
+Biometrika, 41, 280.<object-id pub-id-type="doi">10.2307/2333028</object-id>
+               <fpage>280</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e483a1310">
+               
+               <mixed-citation id="d1627075e487" publication-type="journal">
+Does, R.J.M.M. (1983), "An Edgeworth Expansion for Simple Linear Rank Statistics Under the Null-
+Hypothesis," The Annals of Statistics, 11, 607-624.<object-id pub-id-type="jstor">10.2307/2240574</object-id>
+               <fpage>607</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e503a1310">
+               
+               <mixed-citation id="d1627075e507" publication-type="journal">
+Fisher, R.A. (1924), "On the Interpretation of x2 From Contingency Tables, and on the Calculation of P,"
+Journal of the Royal Statistical Society, 85, 87-94.<object-id pub-id-type="doi">10.2307/2340521</object-id>
+               <fpage>87</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e523a1310">
+               
+               <mixed-citation id="d1627075e527" publication-type="journal">
+Haldane, J.B.S. (1939), "The Mean and Variance of x2, When Used as a Test of Homogeneity, When
+Expectations are Small," Biometrika, 31, 346-355.<object-id pub-id-type="doi">10.2307/2334976</object-id>
+               <fpage>346</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e543a1310">
+               
+               <mixed-citation id="d1627075e547" publication-type="journal">
+Hoel, P.G. (1938), "On the Chi-Square Distribution for Small Samples," The Annals of Mathematical Statistics
+9, 158-165.<object-id pub-id-type="jstor">10.2307/2957729</object-id>
+               <fpage>158</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e563a1310">
+               
+               <mixed-citation id="d1627075e567" publication-type="book">
+Kendall, W.S. (1992), "Computer Algebra and Yoke Geometry I: When is an Expression a Tensor?" Research
+Report 238, Warwick University, Dept. of Statistics,<person-group>
+                     <string-name>
+                     <surname>Kendall</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Algebra and Yoke Geometry I: When is an Expression a Tensor?</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e593a1310">
+               
+               <mixed-citation id="d1627075e597" publication-type="journal">
+(1993), "Computer Algebra in Probability and Statistics," Statistica Neerlandica, 47, 9-25.<person-group>
+                     <string-name>
+                     <surname>Kendall</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>9</fpage>
+               <volume>47</volume>
+               <source>Statistica Neerlandica</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e626a1310">
+               
+               <mixed-citation id="d1627075e630" publication-type="journal">
+Lewis, T., Saunders, I.W., and Westcott, M. (1984), "The Moments of the Pearson Chi-Squared Statistic and
+the Minimum Expected Value in Two-Way Tables," Biometrika, 71, 512-522.<object-id pub-id-type="doi">10.2307/2336560</object-id>
+               <fpage>512</fpage>
+            </mixed-citation>
+               <mixed-citation id="d1627075e645" publication-type="journal">
+Correction (1989), 76, 407.<fpage>407</fpage>
+               <volume>76</volume>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e661a1310">
+               
+               <mixed-citation id="d1627075e665" publication-type="journal">
+McCullagh, P. (1985), "On the Asymptotic Distribution of Pearson's Statistic in Linear Exponential Family
+Models," International Statistics Review, 53, 61-67.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>61</fpage>
+               <volume>53</volume>
+               <source>International Statistics Review</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e697a1310">
+               
+               <mixed-citation id="d1627075e701" publication-type="journal">
+(1986), "The Conditional Distribution of Goodness-of-Fit Statistics for Discrete Data," Journal of the
+American Statistical Association, 81, 104-107.<object-id pub-id-type="doi">10.2307/2287974</object-id>
+               <fpage>104</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e717a1310">
+               
+               <mixed-citation id="d1627075e721" publication-type="book">
+(1987), Tensor Methods in StatisticsNew York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tensor Methods in Statistics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e743a1310">
+               
+               <mixed-citation id="d1627075e747" publication-type="book">
+McCullagh, P., and Nelder, J.A. (1989), Generalized Linear Models, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Linear Models</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e770a1310">
+               
+               <mixed-citation id="d1627075e774" publication-type="book">
+Mehta, C.R., and Patel, N.R. (1991), StatXact: Statistical Software for Exact Nonparametric Inference, Cam-
+bridge, MA: CYTEL Co.<person-group>
+                     <string-name>
+                     <surname>Mehta</surname>
+                  </string-name>
+                  </person-group>
+               <source>StatXact: Statistical Software for Exact Nonparametric Inference</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e799a1310">
+               
+               <mixed-citation id="d1627075e803" publication-type="journal">
+Mielke, P.W., and Berry, K.J. (1985), "Nonasymptotic Inferences Based on the Chi-Square Statistic for r by
+c Contingency Tables, Journal of Statistical Planning and Inference, 12, 41-45.<person-group>
+                     <string-name>
+                     <surname>Mielke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>12</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e835a1310">
+               
+               <mixed-citation id="d1627075e839" publication-type="journal">
+(1988), "Cumulant Methods for Analysing Independence of r-way Contingency Tables and Goodness
+of Fit Frequency Data," Biometrika, 75, 790-793.<object-id pub-id-type="doi">10.2307/2336322</object-id>
+               <fpage>790</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e855a1310">
+               
+               <mixed-citation id="d1627075e859" publication-type="journal">
+Morris, C. (1975), "Central Limit Theorems for Multinomial Sums," The Annals of Statistics, 3, 165-188.<object-id pub-id-type="jstor">10.2307/2958086</object-id>
+               <fpage>165</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e872a1310">
+               
+               <mixed-citation id="d1627075e876" publication-type="journal">
+Patefield, W.M. (1981), "An Efficient Method of Generating Random r by c Tables With Given Row and
+Column Totals," Applied Statistics, 30, 91-97.<object-id pub-id-type="doi">10.2307/2346669</object-id>
+               <fpage>91</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e892a1310">
+               
+               <mixed-citation id="d1627075e896" publication-type="journal">
+Pearson, K. (1900), "On a Criterion That a Given System of Deviations From the Probable in the Case of
+a Correlated System of Variables is Such That it Can Be Reasonably Supposed to Have Arisen From
+Random Sampling," Philosophical Magazine, 50, 157-175.<person-group>
+                     <string-name>
+                     <surname>Pearson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>50</volume>
+               <source>Philosophical Magazine</source>
+               <year>1900</year>
+            </mixed-citation>
+               <mixed-citation id="d1627075e930" publication-type="book">
+Reprinted in Karl Pearson's Early Statistical
+Papers (1948), ed. E. S. Pearson, Cambridge, UK: Cambridge University Press, Cambridge.<source>Karl Pearson's Early Statistical Papers</source>
+               <year>1948</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e947a1310">
+               
+               <mixed-citation id="d1627075e951" publication-type="journal">
+Stafford, J.E. (1994), "Automating the Partition of Indexes," Journal of Computational and Graphical Statistics,
+3, 249-260.<object-id pub-id-type="doi">10.2307/1390910</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e967a1310">
+               
+               <mixed-citation id="d1627075e971" publication-type="journal">
+Stafford, J.E., and Andrews, D.F. (1993), "A Symbolic Algorithm for Studying Adjustments to the Profile
+Likelihood," Biometrika, 80, 715-730.<object-id pub-id-type="doi">10.2307/2336864</object-id>
+               <fpage>715</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e987a1310">
+               
+               <mixed-citation id="d1627075e991" publication-type="journal">
+Stafford, J.E., Andrews, D.F., and Wang, Y. (1994), "Symbolic Computation: A Unified Approach to Studying
+Likelihood," Statistics and Computation, 4, 235-245.<person-group>
+                     <string-name>
+                     <surname>Stafford</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>4</volume>
+               <source>Statistics and Computation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e1023a1310">
+               
+               <mixed-citation id="d1627075e1027" publication-type="journal">
+Tschepourkowsky, E. (1904), "Contributions to the Study of Interracial Correlation," Biometrika, 4, 286-312.<object-id pub-id-type="doi">10.2307/2331615</object-id>
+               <fpage>286</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e1040a1310">
+               
+               <mixed-citation id="d1627075e1044" publication-type="book">
+Wolfram, S. (1988), Mathematica: A System for Doing Mathematics by Computer (2nd Ed), New York: Addison
+Wesley.<person-group>
+                     <string-name>
+                     <surname>Wolfram</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Mathematica: A System for Doing Mathematics by Computer</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e1073a1310">
+               
+               <mixed-citation id="d1627075e1077" publication-type="journal">
+Yarnold, J.K. (1972), "Asymptotic Approximations for the Probability That a Sum of Lattice Random Vectors
+Lies in a Convex Set," The Annals of Mathematical Statistics, 43, 1566-1580.<object-id pub-id-type="jstor">10.2307/2240079</object-id>
+               <fpage>1566</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1627075e1094a1310">
+               
+               <mixed-citation id="d1627075e1098" publication-type="journal">
+Zelterman, D. (1987), "Goodness-of-Fit Tests for Large Sparse Multinomial Distributions," Journal of the
+American Statistical Association, 82, 624-629.<object-id pub-id-type="doi">10.2307/2289474</object-id>
+               <fpage>624</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

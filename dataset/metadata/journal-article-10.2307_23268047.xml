@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">279</issue>
+         <issue-id>i23267882</issue-id>
+         <article-id pub-id-type="jstor">23268047</article-id>
+         <title-group>
+            <article-title>MULTILEVEL PRECONDITIONING FOR THE FINITE VOLUME METHOD</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>YONGHAI</given-names>
+                  <surname>LI</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>SHI</given-names>
+                  <surname>SHU</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>YUESHENG</given-names>
+                  <surname>XU</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>QINGSONG</given-names>
+                  <surname>ZOU</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>1399</fpage>
+         <lpage>1428</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23268047"/>
+      
+      
+         <abstract>
+            <p>We consider the precondition of linear systems which resulted from the finite volume method (FVM) for elliptic boundary value problems. With the help of the interpolation operator from the trial space to the test space of the FVM and the operator induced by the FVM bilinear form, we show that both wavelet preconditioners and multilevel preconditioners designed originally for the finite element method (FEM) of a boundary value problem can be used to precondition the FVM of the same boundary value problem. We prove that such preconditioners ensure that the resulting coefficient matrix of the FVM has a uniformly bounded condition number. We present seven numerical examples to confirm our theoretical findings.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d328556e255a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d328556e262" publication-type="other">
+R. E. Bank and D. J. Rose, Some error estimates for the box method, SIAM J. Numer. Anal.,
+24 (1987), 777-787. MR899703 (88j:65235)</mixed-citation>
+        </ref>
+        <ref id="d328556e272a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d328556e279" publication-type="other">
+J. H. Bramble, J. E. Pasciak and J. Xu, Parallel multilevel preconditioners, Math. Comp., 55
+(1990), 1-22. MR1023042 (90k:65170)</mixed-citation>
+        </ref>
+        <ref id="d328556e289a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d328556e296" publication-type="other">
+Z. Cai, J. Mandel and S. McCormick, The finite volume element for diffusion equations on
+general triangulations, SIAM J. Numer. Anal., 28 (1991), 392-402. MR1087511 (92j:65165)</mixed-citation>
+        </ref>
+        <ref id="d328556e306a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d328556e313" publication-type="other">
+Z. Cai, On the finite volume element method, Numer. Math., 58 (1991), 713-735. MR1090257
+(92d:65188)</mixed-citation>
+        </ref>
+        <ref id="d328556e324a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d328556e331" publication-type="other">
+L. Chen, A new class of high order finite volume methods for second order elliptic equations,
+SIAM J. Numer. Anal., 47(2010), 4021-4043. MR2585177</mixed-citation>
+        </ref>
+        <ref id="d328556e341a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d328556e348" publication-type="other">
+Z. Chen, The error estimate of generalized difference method 3rd-order Hermite type for
+elliptic partial differential equations, Northeast. Math. J., 8 (1992), 127-135. MR1182874
+(93e:65125)</mixed-citation>
+        </ref>
+        <ref id="d328556e361a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d328556e368" publication-type="other">
+Z. Chen, R. Li and A. Zhou, A note on the optimal estimate of the finite volume element
+method, Adv. Comput. Math., 16 (2002), 291-302. MR1894926 (2002m:65113)</mixed-citation>
+        </ref>
+        <ref id="d328556e378a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d328556e385" publication-type="other">
+Z. Chen, B. Wu and Y. Xu, Multilevel augmentation methods for differential equations, Adv.
+Comput. Math., 24(2006), 213-238. MR2222269 (2007a:65075)</mixed-citation>
+        </ref>
+        <ref id="d328556e395a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d328556e402" publication-type="other">
+Z. Chen, J. Wu and Y. Xu, Higher-order finite volume methods for elliptic boundary value
+problems, Adv. Comput. Math., to appear.</mixed-citation>
+        </ref>
+        <ref id="d328556e412a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d328556e419" publication-type="other">
+Z. Chen and Y. Xu, The Petrov-Galerkin and iterated Petrov-Galerkin methods for second-
+kind integral equations, SIAM J. Numer. Anal., 35 (1998), 406-434. MR1618413 (99h:65214)</mixed-citation>
+        </ref>
+        <ref id="d328556e430a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d328556e437" publication-type="other">
+S. H. Chou and D. Y. Kwak, A covolume method based on rotated bilinears for the generalized
+Stokes problem, SIAM J. Numer. Anal, 35 (1998), 494-507. MR1618834 (99d:65302)</mixed-citation>
+        </ref>
+        <ref id="d328556e447a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d328556e454" publication-type="other">
+S. H. Chou and D. Y. Kwak, Multigrid algorithms for a vertex-centered covolume method for
+elliptic problems, Numer. Math., 90 (2002), 441-458. MR1884225 (2002k:65209)</mixed-citation>
+        </ref>
+        <ref id="d328556e464a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d328556e471" publication-type="other">
+P. G. Ciarlet, The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam,
+1978. MR0520174 (58:25001)</mixed-citation>
+        </ref>
+        <ref id="d328556e481a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d328556e488" publication-type="other">
+W. Dahmen, Wavelet and multiscale methods for operator equations, Acta Numerica 7 (1997),
+55-228. MR1489256 (98m:65102)</mixed-citation>
+        </ref>
+        <ref id="d328556e498a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d328556e505" publication-type="other">
+W. Dahmen and A. Kunoth, Multilevel precorditioning, Numer. Math., 63 (1992), 315-344.
+MR1186345 (93j:65065)</mixed-citation>
+        </ref>
+        <ref id="d328556e515a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d328556e522" publication-type="other">
+W. Dahmen, S. Prossdorf, and R. Schneider, Wavelet approximation methods for pseudodif-
+ferential equations I: Stability and convergence, Math. Z., 215 (1994), 583-620. MR1269492
+(95g:65148)</mixed-citation>
+        </ref>
+        <ref id="d328556e536a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d328556e543" publication-type="other">
+W. Dahmen, R. Schneider and Y. Xu, Nonlinear functionals of wavelet expansions - Adap-
+tive reconstruction and fast evaluation, Numer. Math. 86 (2000), 49-101. MR1774010
+(2001g:65180)</mixed-citation>
+        </ref>
+        <ref id="d328556e556a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d328556e563" publication-type="other">
+W. Dahmen and R. Stevenson, Element-by-element contruction of wavelets satisfying stability
+and moment conditions, SIAM J. Numer. Anal. 37(1999), 319-352. MR1742747 (2001c:65144)</mixed-citation>
+        </ref>
+        <ref id="d328556e573a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d328556e580" publication-type="other">
+R. A. DeVore and G. G. Lorentz, Constructive Approximation, Springer-Verlag, Berlin, 1993.
+MR1261635 (95f:41001)</mixed-citation>
+        </ref>
+        <ref id="d328556e590a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d328556e597" publication-type="other">
+R. Eymard, T. Gallouet, and R. Herbin, Finite Volume Methods, in Handbook of Numerical
+Analysis VII, North-Holland, Amsterdam, 2000, pp. 713-1020. MR1804748 (2002e:65138)</mixed-citation>
+        </ref>
+        <ref id="d328556e607a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d328556e614" publication-type="other">
+R. E. Ewing, T. Lin, and Y. Lin, On the accuracy of finite volume element method based
+on piecewise linear polynomials, SIAM J. Numer. Anal., 39 (2002), 1865-1888. MR1897941
+(2003d:65105)</mixed-citation>
+        </ref>
+        <ref id="d328556e627a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d328556e634" publication-type="other">
+S. C. Eisenstat, H. C. Elman, and M. H. Schultz, Variational iterative methods for nonsym-
+metric linear systems, SIAM. J. Numer. Anal. 20(1983), 345-357. MR694523 (84h:65030)</mixed-citation>
+        </ref>
+        <ref id="d328556e645a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d328556e652" publication-type="other">
+M. Griebel and P. Oswald, Tensor product type subspace splittings and multilevel itera-
+tive methods for anisotropic problems, Adv. Comput. Math., 4 (1995), 171-206. MR1338900
+(96e:65069)</mixed-citation>
+        </ref>
+        <ref id="d328556e665a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d328556e672" publication-type="other">
+R.-Q. Jia and S. T. Liu, Wavelet bases of Hermite cubic splines on the interval, Adv. Comput.
+Math. 25 (2006), 23-39. MR2231693 (2007e:42043)</mixed-citation>
+        </ref>
+        <ref id="d328556e682a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d328556e689" publication-type="other">
+U. Kotyczka and P. Oswald, Piecewise linear pre-wavelets of small Support, in Approximation
+Theory VIII, Vol 2. Wavelets and Multilevel Approximation, Charles K. Chui and Larry L.
+Schumaker (eds.), 243-250, World Scientific Publishing Co.,1995. MR1471789 (98e:42035)</mixed-citation>
+        </ref>
+        <ref id="d328556e702a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d328556e709" publication-type="other">
+R. Li, Generalized difference methods for two points boundary problem, Acta Scietiarum
+Naturalium Universitatis Jilineness, 1 (1982), 26-40 (in Chinese).</mixed-citation>
+        </ref>
+        <ref id="d328556e719a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d328556e726" publication-type="other">
+R. Li and P. Zhu, Generalized difference methods for second order elliptic partial differential
+equations (I), Numer. Math., A Journal of Chinese Univ., 2 (1982), 140-152 (in Chinese).</mixed-citation>
+        </ref>
+        <ref id="d328556e736a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d328556e743" publication-type="other">
+R. Li, Generalized difference methods for a nonlinear Dirichlet problem, SIAM J. Numer.
+Anal., 24 (1987), 77-88. MR874736 (88c:65091)</mixed-citation>
+        </ref>
+        <ref id="d328556e754a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d328556e761" publication-type="other">
+Y. Li and R. Li, Generalized difference methods on arbitrary quadrilateral networks, J. Com-
+put. Math., 17 (1999), 653-672. MR1723103 (2000g:65103)</mixed-citation>
+        </ref>
+        <ref id="d328556e771a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d328556e778" publication-type="other">
+R. Li, Z. Chen and W. Wu, The generalized difference methods for differential equations
+(Numerical analysis of finite volume methods), Marcel Dekker, New York, 2000. MR1731376
+(2000j: 65003)</mixed-citation>
+        </ref>
+        <ref id="d328556e791a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d328556e798" publication-type="other">
+J. Lv and Y. Li, L2 error estimate of the finite volume element methods on quadrilateral
+meshes, Adv. Comput. Math., 33 (2010), 129-148. MR2659583 (2011e:65234)</mixed-citation>
+        </ref>
+        <ref id="d328556e808a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d328556e815" publication-type="other">
+P. Oswald, On function spaces related to finite element approximatin theory, Zeitschrift fur
+Analysis und ihre Anwendungen Bd., 9 (1990), 43-64. MR1063242 (91g:65246)</mixed-citation>
+        </ref>
+        <ref id="d328556e825a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d328556e832" publication-type="other">
+P. Oswald, On discrete norm estimates related to multilevel preconditioners in the finite
+element method, Constructive Theory of Functions, Varna' 91, Sofia, 1992, 203-214.</mixed-citation>
+        </ref>
+        <ref id="d328556e842a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d328556e849" publication-type="other">
+Y. Saad and M. H. Schultz, GMRES: A generalized minimal residual algorithm for solving
+nonsymmetric linear systems, SIAM J. Sci. Statist. Comput., 7 (1986), 856-869. MR848568
+(87g:65064)</mixed-citation>
+        </ref>
+        <ref id="d328556e863a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d328556e870" publication-type="other">
+R. Stevenson, Locally supported, piecewise polynomial biorthogonal wavelets on non-uniform
+meshes, Constr. Approx., 19 (2003), 477-508. MR1998901 (2005a:42032)</mixed-citation>
+        </ref>
+        <ref id="d328556e880a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d328556e887" publication-type="other">
+E. Siili, The accuracy of cell vertex finite volume methods on quadrilateral meshes, Math.
+Comp., 59 (1992), 359-382. MR1134740 (93a:65158)</mixed-citation>
+        </ref>
+        <ref id="d328556e897a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d328556e904" publication-type="other">
+Y. Sun, Z. Wang, and Y. Liu, Spectral finite volume method for conservation laws on unstruc-
+tured grids VI: Extension to viscous flow, J. Comp. Phys., 215 (2006), 41-58. MR2215651</mixed-citation>
+        </ref>
+        <ref id="d328556e914a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d328556e921" publication-type="other">
+J. Xu, Iterative methods by space decomposition and subspace correction, SIAM Review, 34
+(1992), 581-613. MR1193013 (93k:65029)</mixed-citation>
+        </ref>
+        <ref id="d328556e931a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d328556e938" publication-type="other">
+J. Xu, An introduction to multigrid convergence theory, in "Iterative Methods in Scientific
+Computing", (editors: R. Chan, T. Chan and G. Golub), Springer-Verlag, Singapore, 1997.
+MR1661962</mixed-citation>
+        </ref>
+        <ref id="d328556e951a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d328556e958" publication-type="other">
+J. Xu, An introduction to multilevel methods, in Wavelets, Multilevel Methods and Elliptic
+PDEs, 213-302, edited by M. Ainsworth, J. Levesley, M. Marietta, W. A. Light, Oxford Univ.
+Press, New York, 1997. MR1600688 (99d:65329)</mixed-citation>
+        </ref>
+        <ref id="d328556e972a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d328556e979" publication-type="other">
+J. Xu and X. Cai, A preconditioned GMRES method for nonsymmetric and indefinite prob-
+lems, Math. Comp., 59 (1992), 311-319. MR1134741 (93a:65059)</mixed-citation>
+        </ref>
+        <ref id="d328556e989a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d328556e996" publication-type="other">
+J. Xu, and Y. Zhu, Uniform convergent multigrid methods for elliptic problem with strong
+discontinuous coefficients, Mathematical Models and Methods in Applied Sciences, 2008, 18,
+77-105. MR2378084 (2008k:65271)</mixed-citation>
+        </ref>
+        <ref id="d328556e1009a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d328556e1016" publication-type="other">
+J. Xu and Q. Zou, Analysis of linear and quadratic finite volume methods for elliptic equations.
+Numerische Mathematik, 111(2009), 469-492. MR2470148 (2009i:65199)</mixed-citation>
+        </ref>
+        <ref id="d328556e1026a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d328556e1033" publication-type="other">
+Y. Xu and Q. Zou, Adaptive wavelet methods for elliptic operator equations with nonlinear
+terms, Adv. Comput. Math., 19 (2003), 99-146. MR1973461 (2004f:65201)</mixed-citation>
+        </ref>
+        <ref id="d328556e1043a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d328556e1050" publication-type="other">
+Y. Xu and Q. Zou, Tree wavelet approximations with applications, Sciences in China Ser. A
+Math., 48 (2005), 680-702. MR2158483 (2006c:42036)</mixed-citation>
+        </ref>
+        <ref id="d328556e1060a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d328556e1067" publication-type="other">
+H. Yserentant, On the multi-level splitting of finite element spaces, Numer. Math., 49 (1986),
+379-412. MR853662 (88d:65068a)</mixed-citation>
+        </ref>
+        <ref id="d328556e1078a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d328556e1085" publication-type="other">
+H. Yserentant, Two preconditioners based on the multi-level splitting of finite element spaces,
+Numer. Math., 58 (1990), 163-184. MR1069277 (91j:65076)</mixed-citation>
+        </ref>
+        <ref id="d328556e1095a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d328556e1102" publication-type="other">
+P. Zhu and R. Li, Generalized difference methods (finite volume methods) for second order
+elliptic partial differential equations (II), Numer. Math. A Journal of Chinese Univ., 4 (1982),
+360-375 (in Chinese). MR696348 (84m:65116)</mixed-citation>
+        </ref>
+        <ref id="d328556e1115a1310">
+            <label>49</label>
+          
+            <mixed-citation id="d328556e1122" publication-type="other">
+Q. Zou, Hierarchical error estimates for finite volume approximation solution of elliptic equa-
+tions, Applied Numerical Mathematics, 60 (2010), 142-153. MR2566084 (2010j:65215)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

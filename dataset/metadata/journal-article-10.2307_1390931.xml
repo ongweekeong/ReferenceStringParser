@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260276</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390931</article-id>
+         
+         <title-group>
+            <article-title>On the Orderings and Groupings of Conditional Maximizations within ECM-Type Algorithms</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David A.</given-names>
+                  <surname>van Dyk</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Xiao-Li</given-names>
+                  <surname>Meng</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>202</fpage>
+         <lpage>223</lpage>
+         <page-range>202-223</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390931"/>
+         
+         
+         <abstract>
+            <p>The ECM and ECME algorithms are generalizations of the EM algorithm in which the maximization (M) step is replaced by several conditional maximization (CM) steps. The order that the CM-steps are performed is trivial to change and generally affects how fast the algorithm converges. Moreover, the same order of CM-steps need not be used at each iteration and in some applications it is feasible to group two or more CM-steps into one larger CM-step. These issues also arise when implementing the Gibbs sampler, and in this article we study them in the context of fitting log-linear and random-effects models with ECM-type algorithms. We find that some standard theoretical measures of the rate of convergence can be of little use in comparing the computational time required, and that common strategies such as using a random ordering may not provide the desired effects. We also develop two algorithms for fitting random-effects models to illustrate that with careful selection of CM-steps, ECM-type algorithms can be substantially faster than the standard EM algorithm.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Contingency table</kwd>
+            <kwd>Convergence rate</kwd>
+            <kwd>Data augmentation</kwd>
+            <kwd>Gibbs sampler</kwd>
+            <kwd>EM algorithm</kwd>
+            <kwd>Incomplete data</kwd>
+            <kwd>IPF</kwd>
+            <kwd>Missing data</kwd>
+            <kwd>Model reduction</kwd>
+            <kwd>Random-effects models</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3136084e199a1310">
+               
+               <mixed-citation id="d3136084e203" publication-type="journal">
+Amit, Y., and Grenander, U. (1991), "Comparing Sweep Strategies for Stochastic Relaxation," Journal of
+Multivariate Analysis, 37, 197-222.<person-group>
+                     <string-name>
+                     <surname>Amit</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>37</volume>
+               <source>Journal of Multivariate Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e235a1310">
+               
+               <mixed-citation id="d3136084e239" publication-type="journal">
+Beaton, A.E. (1964), "The Use of Special Matrix Operations in Statistical Calculus," Education Testing Service
+Research Bulletin, RB-64-51.<person-group>
+                     <string-name>
+                     <surname>Beaton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>51</fpage>
+               <volume>RB-64</volume>
+               <source>Education Testing Service Research Bulletin</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e271a1310">
+               
+               <mixed-citation id="d3136084e275" publication-type="journal">
+Dempster, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood Estimation from Incomplete-
+Data via the EM Algorithm" (with discussion), Journal of the Royal Statistical Society, Ser. B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e307a1310">
+               
+               <mixed-citation id="d3136084e311" publication-type="journal">
+Fessler, J.A., and Hero, A. O (1994), "Space-Alternating Generalized Expectation-Maximization Algorithm,"
+IEEE Transactions on Signal Processing, 42, 2664-2677.<person-group>
+                     <string-name>
+                     <surname>Fessler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2664</fpage>
+               <volume>42</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e344a1310">
+               
+               <mixed-citation id="d3136084e348" publication-type="journal">
+(1995), "Penalized Maximum-Likelihood Image Reconstruction using Space-Alternating Generalized
+EM Algorithms," IEEE Transactions on Image Processing, 4, 1417-1438.<person-group>
+                     <string-name>
+                     <surname>Fessler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1417</fpage>
+               <volume>4</volume>
+               <source>IEEE Transactions on Image Processing</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e380a1310">
+               
+               <mixed-citation id="d3136084e384" publication-type="journal">
+Laird, N., Lange, N., and Stram, D. (1987), "Maximum Likelihood Computations With Repeated Measures:
+Applications of the EM Algorithm," Journal of the American Statistical Association, 82, 97-105.<object-id pub-id-type="doi">10.2307/2289129</object-id>
+               <fpage>97</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e400a1310">
+               
+               <mixed-citation id="d3136084e404" publication-type="journal">
+Laird, N.M., and Ware, J.H. (1982), "Random Effects Models for Longitudinal Data," Biometrics, 38, 967-974.<object-id pub-id-type="doi">10.2307/2529876</object-id>
+               <fpage>967</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e417a1310">
+               
+               <mixed-citation id="d3136084e421" publication-type="book">
+Little, R.J.A., and Rubin, D.B. (1987), Statistical Analysis With Missing Data, New York: John Wiley &amp;
+Sons.<person-group>
+                     <string-name>
+                     <surname>Little</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis With Missing Data</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e446a1310">
+               
+               <mixed-citation id="d3136084e450" publication-type="journal">
+Liu, C., and Rubin, D.B. (1994), "The ECME Algorithm: A Simple Extension of ECM With Fast Monotone
+Convergence," Biometrika, 81, 633-648.<object-id pub-id-type="doi">10.2307/2337067</object-id>
+               <fpage>633</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e466a1310">
+               
+               <mixed-citation id="d3136084e470" publication-type="journal">
+Liu, J.S., Wong, W.H., and Kong A. (1994), "Covariance Structures of the Gibbs Sampler With Applications
+to the Comparisons of Estimators and Augmentation Schemes," Biometrika, 81, 27-40.<object-id pub-id-type="doi">10.2307/2337047</object-id>
+               <fpage>27</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e487a1310">
+               
+               <mixed-citation id="d3136084e491" publication-type="journal">
+(1995), "Covariance Structure and Convergence Rate of the Gibbs Sampler With Various Scans,"
+Journal of the Royal Statistical Society, Ser. B, 57157-169.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>57</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e523a1310">
+               
+               <mixed-citation id="d3136084e527" publication-type="journal">
+Meng, X.L. (1994), "On the Rate of Convergence of the ECM Algorithm," The Annals Statistics, 22, 326-339.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>326</fpage>
+               <volume>22</volume>
+               <source>The Annals Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e556a1310">
+               
+               <mixed-citation id="d3136084e560" publication-type="book">
+Meng, X.L., and Rubin, D.B. (1991), "IPF for Contingency Tables With Missing Data Via the ECM Algo-
+rithm," Proceedings of the Statistics Computing Section, Alexandria. VA: American Statistical Association,
+pp. 244-247.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>244</fpage>
+               <source>Proceedings of the Statistics Computing Section</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e592a1310">
+               
+               <mixed-citation id="d3136084e596" publication-type="book">
+(1992), "Recent Extensions to the EM Algorithm" (with discussion), in Bayesian Statistics 4, eds. J.
+M. Bemardo, J. O Berger, A. P. Dawid, and A. F. M. Smith, New York: Oxford University Press, pp.
+307-320.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Recent Extensions to the EM Algorithm</comment>
+               <fpage>307</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e631a1310">
+               
+               <mixed-citation id="d3136084e635" publication-type="journal">
+(1993), "Maximum Likelihood Estimation via the ECM Algorithm: A General Framework," Biometrika,
+80, 267-278.<object-id pub-id-type="doi">10.2307/2337198</object-id>
+               <fpage>267</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e651a1310">
+               
+               <mixed-citation id="d3136084e655" publication-type="journal">
+(1994), "On the Global and Componentwise Rates of Convergence of the EM Algorithm," Linear
+Algebra and its Applications (special issue honoring Ingram Olkin), 199, 413-425.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>413</fpage>
+               <volume>199</volume>
+               <source>Linear Algebra and its Applications</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e688a1310">
+               
+               <mixed-citation id="d3136084e692" publication-type="journal">
+Meng, X.L., and van Dyk, D.A. (1997), "Fast EM-Type Implementations for Mixed-Effects Models," revised
+for Journal of the Royal Statistical Society, Ser. B.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e717a1310">
+               
+               <mixed-citation id="d3136084e721" publication-type="journal">
+(in press), "The EM Algorithm-An Old Folk Song Sung to a Fast New Tune" (with discussion),
+Journal of the Royal Statistical Society, Ser. B, 59.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e746a1310">
+               
+               <mixed-citation id="d3136084e750" publication-type="book">
+Ortega, J.M., and Rheinboldt, W.C. (1970), Iterative Solutions of Nonlinear Equations in Several Variables,
+New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solutions of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136084e775a1310">
+               
+               <mixed-citation id="d3136084e779" publication-type="book">
+van Dyk, D.A., and Meng, X.L. (1995), "Some Findings on the Orderings and Groupings of Conditional Max-
+imizations Within ECM-type Algorithms," technical report No. 397, University of Chicago, Department
+of Statistics.<person-group>
+                     <string-name>
+                     <surname>van Dyk</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some Findings on the Orderings and Groupings of Conditional Maximizations Within ECM-type Algorithms</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

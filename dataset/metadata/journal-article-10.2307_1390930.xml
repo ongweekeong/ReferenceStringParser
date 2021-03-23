@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260276</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390930</article-id>
+         
+         <title-group>
+            <article-title>A Subpixel Image Restoration Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>John</given-names>
+                  <surname>Gavin</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Christopher</given-names>
+                  <surname>Jennison</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>182</fpage>
+         <lpage>201</lpage>
+         <page-range>182-201</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390930"/>
+         
+         
+         <abstract>
+            <p>In statistical image reconstruction, data are often recorded on a regular grid of squares, known as pixels, and the reconstructed image is defined on the same pixel grid. Thus, the reconstruction of a continuous planar image is piecewise constant on pixels, and boundaries in the image consist of horizontal and vertical edges lying between pixels. This approximation to the true boundary can result in a loss of information that may be quite noticeable for small objects, only a few pixels in size. Increasing the resolution of the sensor may not be a practical alternative. If some prior assumptions are made about the true image, however, reconstruction to a greater accuracy than that of the recording sensor's pixel grid is possible. We adopt a Bayesian approach, incorporating prior information about the true image in a stochastic model that attaches higher probability to images with shorter total edge length. In reconstructions, pixels may be of a single color or split between two colors. The model is illustrated using both real and simulated data.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian statistical image reconstruction</kwd>
+            <kwd>Confocal microscopy</kwd>
+            <kwd>Deconvolution</kwd>
+            <kwd>Edge detection</kwd>
+            <kwd>Gibbs sampler</kwd>
+            <kwd>Markov chain Monte Carlo</kwd>
+            <kwd>Metropolis algorithm</kwd>
+            <kwd>Subpixel resolution</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3136108e309a1310">
+               
+               <mixed-citation id="d3136108e313" publication-type="journal">
+Besag, J.E. (1986), "On the Statistical Analysis of Dirty Pictures" (with discussion), Journal of the Royal
+Statistical Society, Series B, 48, 259-302.<person-group>
+                     <string-name>
+                     <surname>Besag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>259</fpage>
+               <volume>48</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e345a1310">
+               
+               <mixed-citation id="d3136108e349" publication-type="journal">
+Besag, J.E., Green, P.J., Higdon, D., and Mengersen, K. (1995), "Bayesian Computation and Stochastic
+Systems," Statistical Science, 10, 3-66.<object-id pub-id-type="jstor">10.2307/2246224</object-id>
+               <fpage>3</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e365a1310">
+               
+               <mixed-citation id="d3136108e369" publication-type="journal">
+Bhattacharya, A., Reddy, C.S.S., and Srivastav, S.K. (1993), "Remote Sensing for Active Volcano Monitoring
+in Barren Island, India," Photogrammetric Engineering and Remote Sensing, LIX (8), 1293.<person-group>
+                     <string-name>
+                     <surname>Bhattacharya</surname>
+                  </string-name>
+                  </person-group>
+               <issue>8</issue>
+               <fpage>1293</fpage>
+               <volume>LIX</volume>
+               <source>Photogrammetric Engineering and Remote Sensing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e404a1310">
+               
+               <mixed-citation id="d3136108e408" publication-type="journal">
+Boult, T.E., and Wolberg, G. (1993), "Local Image Reconstruction and Subpixel Restoration Algorithms,"
+CVGIP: Graphical Models and Image Processing, 55, 63-77.<person-group>
+                     <string-name>
+                     <surname>Boult</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>63</fpage>
+               <volume>55</volume>
+               <source>CVGIP: Graphical Models and Image Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e441a1310">
+               
+               <mixed-citation id="d3136108e445" publication-type="journal">
+Crawford, J.W., Ritz, K., and Young, I.M. (1993), "Quantification of Fungal Morphology, Gaseous Transport
+and Microbial Dynamics in Soil: An Integrated Framework Using Fractal Geometry," Geoderma, 56,
+157-172.<person-group>
+                     <string-name>
+                     <surname>Crawford</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>56</volume>
+               <source>Geoderma</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e480a1310">
+               
+               <mixed-citation id="d3136108e484" publication-type="journal">
+Foody, G.M. (1994), "Ordinal-Level Classification of Sub-Pixel Tropical Forest Cover," Photogrammetric
+Engineering and Remote Sensing, LX (1), 61.<person-group>
+                     <string-name>
+                     <surname>Foody</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>61</fpage>
+               <volume>LX</volume>
+               <source>Photogrammetric Engineering and Remote Sensing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e519a1310">
+               
+               <mixed-citation id="d3136108e523" publication-type="journal">
+Gatherer, A., and Meng, T. (1992), "Robust Subpixel Alignment in Lithography," Journal of Vacuum Science
+&amp; Technology B, 10, 2662-2666.<person-group>
+                     <string-name>
+                     <surname>Gatherer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2662</fpage>
+               <volume>10</volume>
+               <source>Journal of Vacuum Science &amp; Technology B</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e555a1310">
+               
+               <mixed-citation id="d3136108e559" publication-type="other">
+Gavin, J. (1995), "Subpixel Image Analysis," unpublished PhD thesis, University of Bath.<person-group>
+                     <string-name>
+                     <surname>Gavin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Subpixel Image Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e581a1310">
+               
+               <mixed-citation id="d3136108e585" publication-type="journal">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and the Bayesian Restoration
+of Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721-741.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>721</fpage>
+               <volume>6</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e617a1310">
+               
+               <mixed-citation id="d3136108e621" publication-type="book">
+Geman, D., Geman, S., and Graffigne, C. (1987), "Locating Texture and Object Boundaries," in Pattern
+Recognition Theory and Application, (vol. F30), eds. P. A. Devijver and J. Kittler, Berlin: Springer-
+Verlag, pp. 165-177.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Locating Texture and Object Boundaries</comment>
+               <fpage>165</fpage>
+               <volume>F30</volume>
+               <source>Pattern Recognition Theory and Application</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e660a1310">
+               
+               <mixed-citation id="d3136108e664" publication-type="journal">
+Geman, D., Geman, S., Graffigne, C., and Dong, P. (1990), "Boundary Detection by Constrained Optimization,"
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 12, 609-628.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>609</fpage>
+               <volume>12</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e696a1310">
+               
+               <mixed-citation id="d3136108e700" publication-type="book">
+Glasbey, C.A., and Horgan, G.W. (1994), Image Analysis for the Biological Sciences, Chichester, England:
+John Wiley &amp; Sons.<person-group>
+                     <string-name>
+                     <surname>Glasbey</surname>
+                  </string-name>
+                  </person-group>
+               <source>Image Analysis for the Biological Sciences</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e725a1310">
+               
+               <mixed-citation id="d3136108e729" publication-type="journal">
+Green, P.J. (1994), Discussion of "Representations of Knowledge in Complex Systems," by U. Grenander and
+M. Miller, Journal of the Royal Statistical Society, Series B, 56, 589-590.<person-group>
+                     <string-name>
+                     <surname>Green</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>589</fpage>
+               <volume>56</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e761a1310">
+               
+               <mixed-citation id="d3136108e765" publication-type="journal">
+- (1995), "Reversible Jump Markov Chain Monte Carlo Computation and Bayesian Model Determina-
+tion," Biometrika, 82, 711-732.<object-id pub-id-type="doi">10.2307/2337340</object-id>
+               <fpage>711</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e781a1310">
+               
+               <mixed-citation id="d3136108e785" publication-type="book">
+Grenander, U. (1983), "Tutorial in Pattern Theory," unpublished technical report, Brown University, Div. of
+Applied Mathematics.<person-group>
+                     <string-name>
+                     <surname>Grenander</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tutorial in Pattern Theory</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e810a1310">
+               
+               <mixed-citation id="d3136108e814" publication-type="journal">
+Grenander, U., and Miller, M. (1994), "Representations of Knowledge in Complex Systems" (with discussion),
+Journal of the Royal Statistical Society, Series B, 56, 549-603.<person-group>
+                     <string-name>
+                     <surname>Grenander</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>549</fpage>
+               <volume>56</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e847a1310">
+               
+               <mixed-citation id="d3136108e851" publication-type="journal">
+Hastings, W.K. (1970), "Monte Carlo Sampling Methods Using Markov Chains and Their Applications,"
+Biometrika, 57, 97-109.<object-id pub-id-type="doi">10.2307/2334940</object-id>
+               <fpage>97</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e867a1310">
+               
+               <mixed-citation id="d3136108e871" publication-type="book">
+Hitchcock, D., and Glasbey, C. A. (1994), "Binary Image Restoration at Subpixel Resolution From Multi-level
+Data," unpublished technical report, Scottish Agricultural Statistics Service, JCMB, King's Buildings,
+Edinburgh, EH9 3JZ, Scotland.<person-group>
+                     <string-name>
+                     <surname>Hitchcock</surname>
+                  </string-name>
+                  </person-group>
+               <source>Binary Image Restoration at Subpixel Resolution From Multi-level Data</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e900a1310">
+               
+               <mixed-citation id="d3136108e904" publication-type="journal">
+Huertas, A., and Medioni, G. (1986), "Detection of Intensity Changes With Subpixel Accuracy Using Laplacian-
+Gaussian Masks," IEEE Transactions on Pattern Analysis and Machine Intelligence, 8, 651-663.<person-group>
+                     <string-name>
+                     <surname>Huertas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>651</fpage>
+               <volume>8</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e936a1310">
+               
+               <mixed-citation id="d3136108e940" publication-type="journal">
+Jasinski, M.F. (1990), "Sensitivity of the Normalized Difference Vegetation Index to Subpixel Canopy Cover,
+Soil Albedo and Pixel Scale," Remote Sensing of the Environment, 32, 169-187.<person-group>
+                     <string-name>
+                     <surname>Jasinski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>169</fpage>
+               <volume>32</volume>
+               <source>Remote Sensing of the Environment</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e972a1310">
+               
+               <mixed-citation id="d3136108e976" publication-type="journal">
+Jasinski, M.F., and Eagleson, P.S. (1990), "Estimation of Subpixel Vegetation Cover Using Red Infrared
+Scattergrams," IEEE Transactions on Geoscience and Remote Sensing, 28, 253-267.<person-group>
+                     <string-name>
+                     <surname>Jasinski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>253</fpage>
+               <volume>28</volume>
+               <source>IEEE Transactions on Geoscience and Remote Sensing</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1008a1310">
+               
+               <mixed-citation id="d3136108e1012" publication-type="book">
+Jennison, C., and Jubb, M. (1988), "Statistical Image Restoration and Refinement," in Information Processing
+in Medical Imaging, eds. C. N. de Graaf and M. A. Viergerer, New York: Plenum Press, pp. 255-262.<person-group>
+                     <string-name>
+                     <surname>Jennison</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Statistical Image Restoration and Refinement</comment>
+               <fpage>255</fpage>
+               <source>Information Processing in Medical Imaging</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1045a1310">
+               
+               <mixed-citation id="d3136108e1049" publication-type="book">
+Jubb, M., and Jennison, C. (1991), "Aggregation and Refinement in Binary Image Restoration," in Spatial
+Statistics and Imaging, IMS Lecture Notes, (vol. 20), ed. A. Possolo, Hayward, CA: pp. 150-162.<person-group>
+                     <string-name>
+                     <surname>Jubb</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Aggregation and Refinement in Binary Image Restoration</comment>
+               <fpage>150</fpage>
+               <volume>20</volume>
+               <source>Spatial Statistics and Imaging, IMS Lecture Notes</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1084a1310">
+               
+               <mixed-citation id="d3136108e1088" publication-type="journal">
+Koplowitz, J., and Sundar Raj, A.P. (1987), "A Robust Filtering Algorithm for Subpixel Reconstruction
+of Chain Coded Line Drawings," IEEE Transaction on Pattern Analysis and Machine Intelligence, 9,
+451-457.<person-group>
+                     <string-name>
+                     <surname>Koplowitz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>451</fpage>
+               <volume>9</volume>
+               <source>IEEE Transaction on Pattern Analysis and Machine Intelligence</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1123a1310">
+               
+               <mixed-citation id="d3136108e1127" publication-type="journal">
+Lorensen, W.E., and Cline, H.E. (1987), "Marching Cubes: A High Resolution 3D Surface Construction
+Algorithm," Computer Graphics, 91, 163-169.<person-group>
+                     <string-name>
+                     <surname>Lorensen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>91</volume>
+               <source>Computer Graphics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1159a1310">
+               
+               <mixed-citation id="d3136108e1163" publication-type="journal">
+Lyvers, E.P., Mitchell, 0. R. Akey, M. L., and Reeves, A. P. (1989), "Subpixel Measurements Using a
+Moment-Based Edge Operator," IEEE Transactions on Pattern Analysis and Machine Intelligence, 11,
+1293-1309.<person-group>
+                     <string-name>
+                     <surname>Lyvers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1293</fpage>
+               <volume>11</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1198a1310">
+               
+               <mixed-citation id="d3136108e1202" publication-type="journal">
+Metropolis, N., Rosenbluth, A.W., Rosenbluth, M.N., Teller, A.H., and Teller, E. (1953), "Equations of State
+Calculations by Fast Computing Machines," Journal of Chemical Physics, 21, 1087-1092.<person-group>
+                     <string-name>
+                     <surname>Metropolis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1087</fpage>
+               <volume>21</volume>
+               <source>Journal of Chemical Physics</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1234a1310">
+               
+               <mixed-citation id="d3136108e1238" publication-type="journal">
+Oakley, J.P., and Shann, R.T. (1991), "Efficient Method for Finding the Position of Object Boundaries to
+Sub-Pixel Precision," Image and Vision Computing, 9, 262-272.<person-group>
+                     <string-name>
+                     <surname>Oakley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>262</fpage>
+               <volume>9</volume>
+               <source>Image and Vision Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1271a1310">
+               
+               <mixed-citation id="d3136108e1275" publication-type="journal">
+Ritz, K., and Crawford, J.W. (1990), "Quantification of the Fractal Nature of Colonies of Trichoderma viride,"
+Mycological Research, 94, 1138-1141.<person-group>
+                     <string-name>
+                     <surname>Ritz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1138</fpage>
+               <volume>94</volume>
+               <source>Mycological Research</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1307a1310">
+               
+               <mixed-citation id="d3136108e1311" publication-type="journal">
+Sandor, T., and Spears, J.R. (1985), "Statistical Considerations on the Precision of Assessing Blood Vessel
+Diameter in Cine Coronary Angiography," Computers and Biomedical Research, 18, 531-543.<person-group>
+                     <string-name>
+                     <surname>Sandor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>531</fpage>
+               <volume>18</volume>
+               <source>Computers and Biomedical Research</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1343a1310">
+               
+               <mixed-citation id="d3136108e1347" publication-type="journal">
+Sriraman, R., Koplowitz, J., and Mohan, S. (1989), "Tree Searched Chain Coding for Subpixel Reconstruction
+of Planar Curves," IEEE Transactions on Pattern Analysis and Machine Intelligence, 11, 95-104.<person-group>
+                     <string-name>
+                     <surname>Sriraman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>11</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1379a1310">
+               
+               <mixed-citation id="d3136108e1383" publication-type="conference">
+Srivastava, A., Miller, M.I., and Grenander, U. (1991), "Jump Diffusion Processes for Object Tracking and
+Direction Tracking and Direction Finding," in Proceedings of the 29th Annual Allerton Conference on
+Communication, Control and Computing, pp. 563-570.<person-group>
+                     <string-name>
+                     <surname>Srivastava</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Jump Diffusion Processes for Object Tracking and Direction Tracking and Direction Finding</comment>
+               <fpage>563</fpage>
+               <source>Proceedings of the 29th Annual Allerton Conference on Communication, Control and Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1418a1310">
+               
+               <mixed-citation id="d3136108e1422" publication-type="journal">
+Szirányi, T. (1992), "Statistical Subpixel Measurement Technology of Light-Beam Width and Profiles," Optics
+and Lasers in Engineering, 16, 1-15.<person-group>
+                     <string-name>
+                     <surname>Szirányi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>16</volume>
+               <source>Optics and Lasers in Engineering</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1454a1310">
+               
+               <mixed-citation id="d3136108e1458" publication-type="journal">
+Tabatabai, A.J., and Mitchell, O R. (1984), "Edge Location to Subpixel Values in Digital Imagery," IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 6, 188-201.<person-group>
+                     <string-name>
+                     <surname>Tabatabai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>188</fpage>
+               <volume>6</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1491a1310">
+               
+               <mixed-citation id="d3136108e1495" publication-type="journal">
+Weir, N., and Djorgovski, S. (1991), "A Subpixel Deconvolution Method for Astronomical Images," Funda-
+mental Theories of Physics, 43, 275-283.<person-group>
+                     <string-name>
+                     <surname>Weir</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>275</fpage>
+               <volume>43</volume>
+               <source>Fundamental Theories of Physics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1527a1310">
+               
+               <mixed-citation id="d3136108e1531" publication-type="journal">
+West, G.A.W., and Clarke, T.A. (1990), "A Survey and Examination of Subpixel Measurement Techniques,"
+Proceedings of the Society of Photo-optical Instrumentation Engineers, 1395, pp. 456-463.<person-group>
+                     <string-name>
+                     <surname>West</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>456</fpage>
+               <volume>1395</volume>
+               <source>Proceedings of the Society of Photo-optical Instrumentation Engineers</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3136108e1563a1310">
+               
+               <mixed-citation id="d3136108e1567" publication-type="journal">
+Young, R.A. (1987), "Locating Industrial Parts With Subpixel Accuracies," Proceedings of the Society of
+Photo-optical Instrumentation Engineers, 728, pp. 2-9.<person-group>
+                     <string-name>
+                     <surname>Young</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <volume>728</volume>
+               <source>Proceedings of the Society of Photo-optical Instrumentation Engineers</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

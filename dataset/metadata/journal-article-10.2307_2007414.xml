@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">43</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">167</issue>
+         <issue-id>i334585</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007414</article-id>
+         
+         <title-group>
+            <article-title>A Monte Carlo Factoring Algorithm With Linear Storage</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>C. P.</given-names>
+                  <surname>Schnorr</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>H. W.</given-names>
+                  <surname>Lenstra,</surname>
+                  <suffix>Jr.</suffix>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1984</year>
+         </pub-date>
+         <fpage>289</fpage>
+         <lpage>311</lpage>
+         <page-range>289-311</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1984 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007414"/>
+         
+         
+         <abstract>
+            <p>We present an algorithm which will factor an integer $n$ quite efficiently if the class number $h(-n)$ is free of large prime divisors. The running time $T(n)$ (number of compositions in the class group) satisfies $\operatorname{prob}\lbrack T(m) \leqslant n^{1/2r} \rbrack \gtrsim (r - 2)^{-(r - 2)}$ for random $m \in [n/2, n]$ and $r \geqslant 2$. So far it is unpredictable which numbers will be factored fast. Running the algorithm on all discriminants $-ns$ with $s \leqslant r^r$ and $r = \sqrt{\ln n/\ln \ln n}$, every composite integer $n$ will be factored in $o(\exp \sqrt{\ln n \ln \ln n})$ bit operations. The method requires an amount of storage space which is proportional to the length of the input $n$. In our analysis we assume a lower bound on the frequency of class numbers $h(-m), m \leqslant n$, which are free of large prime divisors.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>10A30</kwd>
+            <kwd>10C07</kwd>
+            <kwd>68C25</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d4333256e147a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4333256e154" publication-type="journal">
+R. P. BRENT, "An improved Monte Carlo factorization algorithm," BIT, v. 20, 1980, pp. 176-184.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>176</fpage>
+               <volume>20</volume>
+               <source>BIT</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e183a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4333256e190" publication-type="book">
+J. W. S. CASSELS, Rational Quadratic Forms, Academic Press, London, New York, 1978.<person-group>
+                     <string-name>
+                     <surname>Cassels</surname>
+                  </string-name>
+                  </person-group>
+               <source>Rational Quadratic Forms</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e212a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4333256e219" publication-type="other">
+H. COHEN &amp; H. W. LENSTRA, JR., Divisibility by Small Primes of Class Numbers, Personal
+communication, 1982.</mixed-citation>
+            </ref>
+            <ref id="d4333256e229a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4333256e236" publication-type="journal">
+J. D. DIXON, "Asymptotically fast factorization of integers," Math. Comp., v. 36, 1981, pp.
+255-260.<object-id pub-id-type="doi">10.2307/2007743</object-id>
+               <fpage>255</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e253a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4333256e260" publication-type="book">
+C. F. GAUSS, Disquisitiones Arithmeticae, Leipzig, 1801: English transl. by A. A. Clarke, Yale
+University Press, New Haven and London, 1966.<person-group>
+                     <string-name>
+                     <surname>Gauss</surname>
+                  </string-name>
+                  </person-group>
+               <source>Disquisitiones Arithmeticae</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e285a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4333256e292" publication-type="book">
+G. H. HARDY &amp; E. M. WRIGHT, An Introduction to the Theory of Numbers, 5th ed., Oxford Univ.
+Press, Oxford, 1979.<person-group>
+                     <string-name>
+                     <surname>Hardy</surname>
+                  </string-name>
+                  </person-group>
+               <edition>5</edition>
+               <source>An Introduction to the Theory of Numbers</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e321a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4333256e328" publication-type="book">
+D. E. KNUTH, The Art of Computer Programming, Vol. 2, Seminumerical Algorithms, 2nd ed.,
+Addison-Wesley, Reading, Mass., 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The Art of Computer Programming, Vol. 2, Seminumerical Algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e357a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4333256e364" publication-type="book">
+P. G. LEJEUNE DIRICHLET &amp; R. DEDEKIND, Vorlesungen über Zahlentheorie, Braunschweig, 1893;
+reprint, New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Dirichlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>Vorlesungen über Zahlentheorie</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e389a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4333256e396" publication-type="book">
+H. W. LENSTRA, JR., On the Calculation of Regulators and Class Numbers of Quadratic Fields,
+Journées Arithmétiques 1980 (J. V. Armitage, Ed.), Cambridge Univ. Press, Oxford, 1982, pp. 123-150.<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the Calculation of Regulators and Class Numbers of Quadratic Fields</comment>
+               <fpage>123</fpage>
+               <source>Journées Arithmétiques</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e428a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4333256e435" publication-type="book">
+G. B. MATHEWS, Theory of numbers, 1892<person-group>
+                     <string-name>
+                     <surname>Mathews</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of numbers</source>
+               <year>1892</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e458a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4333256e465" publication-type="book">
+L. MONIER, Algorithmes de Factorisation d'Entiers, These d'informatique, Universite Paris Sud,
+1980.<person-group>
+                     <string-name>
+                     <surname>Monier</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithmes de Factorisation d'Entiers</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e490a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4333256e497" publication-type="journal">
+M. A. MORRISON &amp; J. BRILLHART, "A method of factorization and the factorization of F7," Math.
+Comp., v. 29, 1975, pp. 183-205.<object-id pub-id-type="doi">10.2307/2005475</object-id>
+               <fpage>183</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e513a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4333256e520" publication-type="journal">
+J. M. POLLARD, "A Monte Carlo method for factorization," BIT, v. 15, 1975, pp. 331-334.<person-group>
+                     <string-name>
+                     <surname>Pollard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>15</volume>
+               <source>BIT</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e549a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4333256e556" publication-type="book">
+C. POMERANCE, "Analysis and comparison of some integer factoring algorithms," Computational
+Methods in Number Theory (R. Tijdemen and H. Lenstra, Eds.), Mathematical Centrum, Amsterdam,
+1981.<person-group>
+                     <string-name>
+                     <surname>Pomerance</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analysis and comparison of some integer factoring algorithms</comment>
+               <source>Computational Methods in Number Theory</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e588a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4333256e595" publication-type="journal">
+R. L. RIVEST, A. SHAMIR &amp; L. ADLEMAN, "A method for obtaining digital signatures and public key
+cryptosystems," Comm. ACM, v. 21, 1978, pp. 120-126.<person-group>
+                     <string-name>
+                     <surname>Rivest</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>120</fpage>
+               <volume>21</volume>
+               <source>Comm. ACM</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e627a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4333256e634" publication-type="journal">
+J. SATTLER &amp; C. P. SCHNORR, "Ein Effizienzvergleich der Faktorisierungsverfahren von Morrison-
+Brillhart und Schroeppel," Computing, v. 30, 1983, pp. 91-110.<person-group>
+                     <string-name>
+                     <surname>Sattler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>30</volume>
+               <source>Computing</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e667a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4333256e674" publication-type="conference">
+D. SHANKS, Class Number, A Theory of Factorization,and Genera, Proc. Sympos. Pure Math., vol. 20,
+Amer. Math. Soc., Providence, R. I., 1971, pp. 415-440.<person-group>
+                     <string-name>
+                     <surname>Shanks</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Class Number, A Theory of Factorization,and Genera</comment>
+               <fpage>415</fpage>
+               <volume>20</volume>
+               <source>Proc. Sympos. Pure Math.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e709a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4333256e716" publication-type="book">
+J. SATTLER &amp; C. P. SCHNORR, Generating Random Walks in Groups, Preprint, Universitat Frankfurt,
+1983; submitted for publication.<person-group>
+                     <string-name>
+                     <surname>Sattler</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generating Random Walks in Groups</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e741a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4333256e748" publication-type="journal">
+C. P. SCHNORR, "Refined analysis and improvements on some factoring algorithms," J. Algorithms,
+v. 3, 1982, pp. 101-127.<person-group>
+                     <string-name>
+                     <surname>Schnorr</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>3</volume>
+               <source>J. Algorithms</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e780a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4333256e787" publication-type="book">
+C. P. SCHNORR &amp; M. SEYSEN, An Improved Composition Algorithm, Preprint, Universitat Frankfurt,
+1982; submitted for publication.<person-group>
+                     <string-name>
+                     <surname>Schnorr</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Improved Composition Algorithm</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e812a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4333256e819" publication-type="journal">
+C. L. SIEGEL, "Uber die Klassenzahl quadratischer Zahlk6rper," Acta Arith., v. 1, 1936, pp. 83-86.<person-group>
+                     <string-name>
+                     <surname>Siegel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>83</fpage>
+               <volume>1</volume>
+               <source>Acta Arith.</source>
+               <year>1936</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4333256e848a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4333256e855" publication-type="other">
+S. S. WAGSTAFF &amp; M. C. WUNDERLICH, A Comparison of Two Factorization Methods, Unpublished
+manuscript.</mixed-citation>
+            </ref>
+            <ref id="d4333256e866a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4333256e873" publication-type="book">
+H. G. ZIMMER, Computational Problems, Methods, and Results in Algebraic Number Theory, Lecture
+Notes in Math., Vol. 262, Springer, Berlin and New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Zimmer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational Problems, Methods, and Results in Algebraic Number Theory</comment>
+               <volume>262</volume>
+               <source>Lecture Notes in Math.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

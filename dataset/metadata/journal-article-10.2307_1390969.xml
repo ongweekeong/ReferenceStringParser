@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260294</issue-id>
+         <article-id pub-id-type="jstor">1390969</article-id>
+         
+         <title-group>
+            <article-title>A Markov Chain Monte Carlo Algorithm for Approximating Exact Conditional Probabilities</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Brian S.</given-names>
+                  <surname>Caffo</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James G.</given-names>
+                  <surname>Booth</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>730</fpage>
+         <lpage>745</lpage>
+         <page-range>730-745</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390969"/>
+         
+         
+         <abstract>
+            <p>Conditional inference eliminates nuisance parameters by conditioning on their sufficient statistics. For contingency tables conditional inference entails enumerating all tables with the same sufficient statistics as the observed data. For moderately sized tables and/or complex models, the computing time to enumerate these tables is often prohibitive. Monte Carlo approximations offer a viable alternative provided it is possible to obtain samples from the correct conditional distribution. This article presents an MCMC extension of the importance sampling algorithm, using a rounded normal candidate to update randomly chosen cells while leaving the remainder of the table fixed. This local approximation can greatly increase the efficiency of the rounded normal candidate. By choosing the number of cells to be updated at random, a balance is struck between dependency in the Markov chain and accuracy of the candidate.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Batch means</kwd>
+            <kwd>Log-linear model</kwd>
+            <kwd>Metropolis-Hastings</kwd>
+            <kwd>Reference set</kwd>
+            <kwd>Regeneration</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4861998e150a1310">
+               
+               <mixed-citation id="d4861998e154" publication-type="book">
+Agresti, A. (1990), Categorical Data Analysis, New York: Wiley<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Categorical Data Analysis</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e176a1310">
+               
+               <mixed-citation id="d4861998e180" publication-type="journal">
+(1992), "A Survey of Exact Inference for Contingency Tables" (Disc: P153-177), StatSci, 7, 131-153.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>7</volume>
+               <source>StatSci</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e209a1310">
+               
+               <mixed-citation id="d4861998e213" publication-type="journal">
+(1999), "Exact Inference for Categorical Data: Recent Advances and Continuing Corntroversies," Statistics
+in Medicine, 18, 2191-2207.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2191</fpage>
+               <volume>18</volume>
+               <source>Statistics in Medicine</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e245a1310">
+               
+               <mixed-citation id="d4861998e249" publication-type="journal">
+Agresti, A., Wackerly, D., and Boyett, J.M. (1979), "Exact Conditional Tests for Cross-classifications: Approxi-
+mation of Attained Significance Levels," Psychometrika, 44, 75-84.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>75</fpage>
+               <volume>44</volume>
+               <source>Psychometrika</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e282a1310">
+               
+               <mixed-citation id="d4861998e286" publication-type="journal">
+Barndorff-Nielsen, 0. E. (1986), "Inference on Full or Partial Parameters Based on the Standardized Signed Log
+Likelihood Ratio," Biometrika, 73, 307-322.<object-id pub-id-type="doi">10.2307/2336207</object-id>
+               <fpage>307</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e302a1310">
+               
+               <mixed-citation id="d4861998e306" publication-type="journal">
+Besag, J., Green, P., Higdon, D., and Mengersen, K. (1995), "Bayesian Computation and Stochastic Systems"
+(Disc: P41-66), Statistical Science, 10, 3-41.<object-id pub-id-type="jstor">10.2307/2246224</object-id>
+               <fpage>3</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e322a1310">
+               
+               <mixed-citation id="d4861998e326" publication-type="journal">
+Booth, J.G., and Butler, R.W. (1999), "An Importance Sampling Algorithm for Exact Conditional Test in Log-
+Linear Models," Biometrika.<person-group>
+                     <string-name>
+                     <surname>Booth</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrika</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e351a1310">
+               
+               <mixed-citation id="d4861998e355" publication-type="journal">
+Chib, S., and Greenberg, E. (1995), "Understanding the Metropolis-Hastings Algorithm," The American Statisti-
+cian, 49, 327-335.<person-group>
+                     <string-name>
+                     <surname>Chib</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>327</fpage>
+               <volume>49</volume>
+               <source>The American Statistician</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e387a1310">
+               
+               <mixed-citation id="d4861998e391" publication-type="journal">
+Coull, B., and Agresti, A. (1999), "The Use of Mixed Logit Models to Reflect Subject Heterogeneity in Capture-
+Recapture Studies," Biometrics, 55, 294-301.<object-id pub-id-type="jstor">10.2307/2533926</object-id>
+               <fpage>294</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e407a1310">
+               
+               <mixed-citation id="d4861998e411" publication-type="journal">
+Daniels, H.E. (1954), "Saddlepoint Approximation in Statistics," Annals of Mathematical Statistics, 25, 631-650.<object-id pub-id-type="jstor">10.2307/2236650</object-id>
+               <fpage>631</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e425a1310">
+               
+               <mixed-citation id="d4861998e429" publication-type="journal">
+Davison, A.C. (1988), "Approximate Conditional Inference in Generalized Linear Models," Journal of the Royal
+Statistical Society, Series B, 445-461.<person-group>
+                     <string-name>
+                     <surname>Davison</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e458a1310">
+               
+               <mixed-citation id="d4861998e462" publication-type="journal">
+Diaconis, P., and Sturmfels, B. (1998), "Algebraic Algorithms for Sampling from Conditional Distributions," The
+Annals of Statistics, 26 363-397.<object-id pub-id-type="jstor">10.2307/119991</object-id>
+               <fpage>363</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e478a1310">
+               
+               <mixed-citation id="d4861998e482" publication-type="journal">
+Forster, J.J., McDonald, J.W., and Smith, P.W.F. (1996), "Monte Carlo Exact Conditional Tests for Log-linear
+and Logistic Models," Journal of the Royal Statistical Society, Series B, 445-453.<person-group>
+                     <string-name>
+                     <surname>Forster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e511a1310">
+               
+               <mixed-citation id="d4861998e515" publication-type="journal">
+Gail, M., and Mantel, N. (1977), "Counting the Number of r x C Contingency Tables With Fixed Margins,"
+Journal of the American Statistical Association, 72, 859-862.<object-id pub-id-type="doi">10.2307/2286475</object-id>
+               <fpage>859</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e531a1310">
+               
+               <mixed-citation id="d4861998e535" publication-type="journal">
+Geyer, C.J. (1992), "Practical Markov Chain Monte Carlo" (Disc: P483-503), Statistical Science, 7, 473-483.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e548a1310">
+               
+               <mixed-citation id="d4861998e552" publication-type="journal">
+Good, I.J. (1976), "On the Application of Symmetric Dirichlet Distributions and Their Mixtures to Contingency
+Tables," The Annals of Statistics, 4, 1159-1189.<object-id pub-id-type="jstor">10.2307/2958586</object-id>
+               <fpage>1159</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e569a1310">
+               
+               <mixed-citation id="d4861998e573" publication-type="journal">
+(1979), "A Comparison of Some Statistical Estimates for the Numbers of Contingency Tables," Journal
+of Statistical Computation and Simulation, 8, 312-314.<person-group>
+                     <string-name>
+                     <surname>Good</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>312</fpage>
+               <volume>8</volume>
+               <source>Journal of Statistical Computation and Simulation</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e605a1310">
+               
+               <mixed-citation id="d4861998e609" publication-type="journal">
+Kolassa, J.E., and Tanner, M.A. (1994), "Approximate Conditional Inference in Exponential Families Via the
+Gibbs Sampler," Journal of the American Statistical Association, 89, 697-702.<object-id pub-id-type="doi">10.2307/2290874</object-id>
+               <fpage>697</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e625a1310">
+               
+               <mixed-citation id="d4861998e629" publication-type="journal">
+Landis, J., R., and Koch, G. G. (1977), "An Application of Hierarchical Kappa-type Statistics in the Assessment
+of Majority Agreement Among Multiple Observers," Biometrics, 33, 363-374.<object-id pub-id-type="doi">10.2307/2529786</object-id>
+               <fpage>363</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e645a1310">
+               
+               <mixed-citation id="d4861998e649" publication-type="journal">
+Lugannani, R., and Rice, S. (1980), "Saddle Point Approximation for the Distribution of the Sum of Independent
+Random Variables," Advances in Applied Probability, 12, 475-490.<object-id pub-id-type="doi">10.2307/1426607</object-id>
+               <fpage>475</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e665a1310">
+               
+               <mixed-citation id="d4861998e669" publication-type="journal">
+McCullagh, P. (1986), "The Conditional Distribution of Goodness-of-Fit Statistics for Discrete Data," Journal of
+the American Statistical Association, 81, 104-107.<object-id pub-id-type="doi">10.2307/2287974</object-id>
+               <fpage>104</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e685a1310">
+               
+               <mixed-citation id="d4861998e689" publication-type="book">
+McCullagh, P., and Nelder, J.A. (1989), Generalized Linear Models (2nd ed.), New York: Chapman &amp; Hall.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Generalized Linear Models</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e715a1310">
+               
+               <mixed-citation id="d4861998e719" publication-type="journal">
+Mehta, C.R., and Patel, N.R. (1983), "A Network Algorithm for Performing Fisher's Exact Test in r x C
+Contingency Tables," Journal of the American Statistical Association, 78, 427-434.<object-id pub-id-type="doi">10.2307/2288652</object-id>
+               <fpage>427</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e735a1310">
+               
+               <mixed-citation id="d4861998e739" publication-type="journal">
+Mehta, C., Patel, N., and Senchauduri, P. (2000), "Efficient Monte Carlo Methods for Conditional Logistic Re-
+gression," Journal of the American Statistical Association, 95, 99-108.<object-id pub-id-type="doi">10.2307/2669530</object-id>
+               <fpage>99</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e755a1310">
+               
+               <mixed-citation id="d4861998e759" publication-type="journal">
+Mykland, P., Tierney, L., and Yu, B. (1995), "Regeneration in Markov Chain Samplers," Journal of the American
+Statistical Association, 90, 233-241.<object-id pub-id-type="doi">10.2307/2291148</object-id>
+               <fpage>233</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e775a1310">
+               
+               <mixed-citation id="d4861998e779" publication-type="journal">
+Patefield, W.M. (1981), "[Algorithm AS 159] An Efficient Method of Generating Random R x C Tables With
+Given Row and Column Totals," ApplStat, 30, 91-97.<person-group>
+                     <string-name>
+                     <surname>Patefield</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>30</volume>
+               <source>ApplStat</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e811a1310">
+               
+               <mixed-citation id="d4861998e815" publication-type="conference">
+Patel, N., Mehta, C.R., and Senchauduri, P. (1999), "Markov Chain Monte Carlo Exact Inference for Exact Logistic
+Regression," Invited Session, Joint Statistical Meetings<person-group>
+                     <string-name>
+                     <surname>Patel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Markov Chain Monte Carlo Exact Inference for Exact Logistic Regression</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e840a1310">
+               
+               <mixed-citation id="d4861998e844" publication-type="journal">
+Paul, S., and Deng, D. (2000), "Goodness of Fit of Generalized Linear Models to Sparse Data," Journal of the
+Royal Statistical Society, Series B, 62, 323-333.<person-group>
+                     <string-name>
+                     <surname>Paul</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>323</fpage>
+               <volume>62</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e877a1310">
+               
+               <mixed-citation id="d4861998e881" publication-type="journal">
+Pierce, D.A. and Peters, D. (1992), "Practical Use of Higher Order Asymptotics for Multiparameter Exponential
+Families (Disc: P725-737)," Journal of the Royal Statistical Society, Series B, 54, 701-725.<person-group>
+                     <string-name>
+                     <surname>Pierce</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>701</fpage>
+               <volume>54</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e913a1310">
+               
+               <mixed-citation id="d4861998e917" publication-type="journal">
+(1999), "Improving on Exact Tests by Approximate Conditioning," Biometrika.<person-group>
+                     <string-name>
+                     <surname>Pierce</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrika</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e939a1310">
+               
+               <mixed-citation id="d4861998e943" publication-type="book">
+Searle, S.R. (1997), Linear Models, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Searle</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Models</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e965a1310">
+               
+               <mixed-citation id="d4861998e969" publication-type="journal">
+Skovgaard, lb M. (1987), "Saddlepoint Expansions for Conditional Distributions," Journal of Applied Probability,
+24, 875-887.<object-id pub-id-type="doi">10.2307/3214212</object-id>
+               <fpage>875</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e985a1310">
+               
+               <mixed-citation id="d4861998e989" publication-type="journal">
+Smith, P.W.F., Forster, J.J., and McDonald, J.W. (1996), "Monte Carlo Exact Tests for Square Contingency
+Tables," Journal of the Royal Statistical Society, Series A, 159, 309-321.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>159</volume>
+               <source>Journal of the Royal Statistical Society, Series A</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e1021a1310">
+               
+               <mixed-citation id="d4861998e1025" publication-type="journal">
+Strawderman, R.L., and Wells, M.T. (1998), "Approximately Exact Inference for the Common Odds Ratio,"
+Journal of the American Statistical Association, 93, 1294-1307.<object-id pub-id-type="doi">10.2307/2670044</object-id>
+               <fpage>1294</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4861998e1042a1310">
+               
+               <mixed-citation id="d4861998e1046" publication-type="journal">
+Waterman, R.P., and Lindsay, B.G. (1996), "A Simple and Accurate Method for Approximate Conditional
+Inference Applied to Exponential Family Models," Journal of the Royal Statistical Society, Series B, 177-
+188.<person-group>
+                     <string-name>
+                     <surname>Waterman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>177</fpage>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

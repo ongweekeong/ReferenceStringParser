@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SOCIETY OF AUTOMOTIVE ENGINEERS, INC.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">110</volume>
+         <issue-id>i40198351</issue-id>
+         <article-id pub-id-type="jstor">44718317</article-id>
+         <title-group>
+            <article-title>Time Triggered CAN (TTCAN)</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Thomas</given-names>
+                  <surname>Fuehrer</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bernd</given-names>
+                  <surname>Mueller</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Florian</given-names>
+                  <surname>Hartwich</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Robert</given-names>
+                  <surname>Hugel</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>143</fpage>
+         <lpage>149</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2002 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44718317"/>
+      
+      
+         <abstract>
+            <p>Connecting microcontrollers, sensors and actuators by several communication systems is state of the art within the electronic architectures of modern vehicles. The communication among these components is widely based on the event triggered communication on the Controller-Area-Network (CAN) protocol. The arbitrating mechanism of this protocol ensures that all messages are transferred according to the priority of their identifiers and that the message with the highest priority will not be disturbed. In the future some mission critical subnetworks within the upcoming generations of vehicle systems, e.g. x-by-wire systems (xbws), will additionally require deterministic behavior in communication during service. Even at maximum bus load, the transmission of all safety related messages must be guaranteed. Moreover it must be possible to determine the point of time when the message will be transmitted with high precision. One way to solve this issue using CAN is the extension of the standard CAN protocol to a time triggered protocol TTCAN. The communication is based on the periodic transmission of a reference message by a time master. This allows to introduce a system wide global network time with high precision. Based on this time the different messages are assigned to time windows within a basic cycle. A big advantage of TTCAN compared to classic scheduled systems is the possibility to transmit event triggered messages in certain "arbitrating" time windows as well.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d309e241a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d309e248" publication-type="other">
+TTP -A Protocol for Fault-Tolerant Real-Time
+Systems; H. Kopetz, G. Grünsteidl; IEEE Computer;
+January 1994, pp. 14-23.</mixed-citation>
+        </ref>
+        <ref id="d309e261a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d309e268" publication-type="other">
+OSEKTime: A dependable Real-Time Fault-Tolerant
+Operating System and Communication Layer as an
+enabling Technology for By-Wire Applications; St.
+Poledna, M. Glück, Ch. Tanzer, TTTech; S. Boutin,
+Renault; E. Dilger, Th. Führer, Robert Bosch GmbH;
+Ch. Ebner, BMW Technik; E. Fuchs, DeComSys; R.
+Belschner, B. Hedenetz, DaimlerChrysler; B.
+Holzmann, A. Schedi, BMW AG; R. Nossal, B.
+Pfaffeneder, Siemens AG; Th. Ringler, TU-Stuttgart;
+Y. Domaratsky, A. Krüger, Motorola; A. Zahir, ETAS
+GmbH; SAE 2000, Detroit, Michigan, U.S.A.</mixed-citation>
+        </ref>
+        <ref id="d309e306a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d309e313" publication-type="other">
+The Steer-By-Wire prototype implementation:
+Realizing time triggered system design, fail silence
+behavior and active replication with fault-tolerance
+support; Th. Führer, Robert Bosch GmbH; A. Schedi,
+DaimlerChrysler; SAE 1999, Detroit, Michigan,
+U.S.A.</mixed-citation>
+        </ref>
+        <ref id="d309e336a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d309e343" publication-type="other">
+Composability in the Time-Triggered Architecture; H.
+Kopetz, TU-Wien; SAE 2000, Detroit, Michigan,
+U.S.A.</mixed-citation>
+        </ref>
+        <ref id="d309e357a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d309e364" publication-type="other">
+Road vehicles -Controller area network (CAN) -
+Part 1: Controller area network data link layer and
+medium access control; ISO 11898-1.</mixed-citation>
+        </ref>
+        <ref id="d309e377a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d309e384" publication-type="other">
+Road vehicles -Controller area network (CAN) -
+Part 2: High-speed medium access unit; ISO
+11898-2.</mixed-citation>
+        </ref>
+        <ref id="d309e397a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d309e404" publication-type="other">
+Road vehicles -Controller area network (CAN) -
+Part 4: Time triggered communication; Working Draft
+ISO 11898-4.</mixed-citation>
+        </ref>
+        <ref id="d309e417a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d309e424" publication-type="other">
+C_CAN User's Manual; Robert Bosch GmbH; 2000;
+http://www.bosch.de/de_e/productworld/k/products/p
+rod/can/docu/Users_Manual_C_CAN.pdf.</mixed-citation>
+        </ref>
+        <ref id="d309e437a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d309e444" publication-type="other">
+Guaranteeing Message Latencies on Controller Area
+Network (CAN); K. Tindell, A. Burns; Proceedings 1st
+International CAN Conference; 1994; pp 2-11.</mixed-citation>
+        </ref>
+        <ref id="d309e457a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d309e464" publication-type="other">
+Real-Time Systems: Design Principles for
+Distributed Embedded Applications; H. Kopetz;
+Kluwer Academic Publishers; 1997; ISBN 0-7923-
+9894-7.</mixed-citation>
+        </ref>
+        <ref id="d309e481a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d309e488" publication-type="other">
+CAN Network with Time Triggered Communication;
+F. Hartwich, B. Müller, Th. Führer, R. Hugel, Robert
+Bosch GmbH; Proceedings 7th International CAN
+Conference; 2000; Amsterdam.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

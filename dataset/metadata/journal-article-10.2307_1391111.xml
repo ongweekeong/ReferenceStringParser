@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260297</issue-id>
+         <article-id pub-id-type="jstor">1391111</article-id>
+         
+         <title-group>
+            <article-title>Approximate Dirichlet Process Computing in Finite Normal Mixtures: Smoothing and Prior Information</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Hemant</given-names>
+                  <surname>Ishwaran</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Lancelot F.</given-names>
+                  <surname>James</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>508</fpage>
+         <lpage>532</lpage>
+         <page-range>508-532</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391111"/>
+         
+         
+         <abstract>
+            <p>A rich nonparametric analysis of the finite normal mixture model is obtained by working with a precise truncation approximation of the Dirichlet process. Model fitting is carried out by a simple Gibbs sampling algorithm that directly samples the nonparametric posterior. The proposed sampler mixes well, requires no tuning parameters, and involves only draws from simple distributions, including the draw for the mass parameter that controls clustering, and the draw for the variances with the use of a nonconjugate uniform prior. Working directly with the nonparametric prior is conceptually appealing and among other things leads to graphical methods for studying the posterior mixing distribution as well as penalized MLE procedures for deriving point estimates. We discuss methods for automating selection of priors for the mean and variance components to avoid over or undersmoothing the data. We also look at the effectiveness of incorporating prior information in the form of frequentist point estimates.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Almost sure truncation</kwd>
+            <kwd>Blocked Gibbs sampler</kwd>
+            <kwd>Nonparametric hierarchical model</kwd>
+            <kwd>Penalized MLE</kwd>
+            <kwd>
+               Pólya urn Gibbs sampling 
+            </kwd>
+            <kwd>Random probability measure</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1768797e169a1310">
+               
+               <mixed-citation id="d1768797e173" publication-type="book">
+Akaike, H. (1973), "Information Theory and an Extension of the Maximum Likelihood Principle," in Second
+International Symposium on Information Theory, eds. B.N. Petrov and F. Csaki, Budapest: Akademiai
+Kiado, pp. 267-281.<person-group>
+                     <string-name>
+                     <surname>Akaike</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Information Theory and an Extension of the Maximum Likelihood Principle</comment>
+               <fpage>267</fpage>
+               <source>Second International Symposium on Information Theory</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e208a1310">
+               
+               <mixed-citation id="d1768797e212" publication-type="journal">
+Bush, C.A., and MacEachern, S. N (1996), "A Semiparametric Bayesian Model for Randomised Block Designs,"
+Biometrika, 83, 275-285.<object-id pub-id-type="jstor">10.2307/2337600</object-id>
+               <fpage>275</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e228a1310">
+               
+               <mixed-citation id="d1768797e232" publication-type="journal">
+Chen, J. (1995), "Optimal Rate of Convergence for Finite Mixture Models," The Annals of Statistics, 23, 221-233.<object-id pub-id-type="jstor">10.2307/2242408</object-id>
+               <fpage>221</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e245a1310">
+               
+               <mixed-citation id="d1768797e249" publication-type="journal">
+Chib, S. (1995), "Marginal Likelihood from the Gibbs Output," Journal of the American Statistical Association,
+90, 1313-1321.<object-id pub-id-type="doi">10.2307/2291521</object-id>
+               <fpage>1313</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e266a1310">
+               
+               <mixed-citation id="d1768797e270" publication-type="book">
+Devroye, L. (1986), Non-Uniform Random Variate Generation, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Devroye</surname>
+                  </string-name>
+                  </person-group>
+               <source>Non-Uniform Random Variate Generation</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e292a1310">
+               
+               <mixed-citation id="d1768797e296" publication-type="journal">
+Diebolt, J., and Robert, C.P. (1994), "Estimation of Finite Mixture Distributions Through Bayesian Sampling,"
+Journal of the Royal Statistical Society, Series B, 56, 363-375.<person-group>
+                     <string-name>
+                     <surname>Diebolt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>56</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e328a1310">
+               
+               <mixed-citation id="d1768797e332" publication-type="journal">
+Donnelly, P., and Joyce, P. (1989), "Continuity and Weak Convergence of Ranked and Size-Biased Permutations
+on the Infinite Simplex," Stochastic Processes and Their Applications, 31, 89-103.<person-group>
+                     <string-name>
+                     <surname>Donnelly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>89</fpage>
+               <volume>31</volume>
+               <source>Stochastic Processes and Their Applications</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e364a1310">
+               
+               <mixed-citation id="d1768797e368" publication-type="book">
+Efron, B., and Tibshirani, R.J. (1993), An Introduction to the Bootstrap, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Bootstrap</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e390a1310">
+               
+               <mixed-citation id="d1768797e394" publication-type="other">
+Escobar, M. D. (1988), "Estimating the Means of Several Normal Populations by Nonparametric Estimation of
+the Distribution of the Means," Unpublished dissertation, Yale University.</mixed-citation>
+            </ref>
+            <ref id="d1768797e404a1310">
+               
+               <mixed-citation id="d1768797e408" publication-type="journal">
+(1994), "Estimating Normal Means With a Dirichlet Process Prior," Journal of the American Statisticial
+Association, 89, 268-277.<fpage>268</fpage>
+               <volume>89</volume>
+               <source>Journal of the American Statisticial Association</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e432a1310">
+               
+               <mixed-citation id="d1768797e436" publication-type="journal">
+Escobar, M.D., and West, M. (1995), "Bayesian Density Estimation and Inference Using Mixtures," Journal of
+the American Statistical Association, 90, 577-588.<object-id pub-id-type="doi">10.2307/2291069</object-id>
+               <fpage>577</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e452a1310">
+               
+               <mixed-citation id="d1768797e456" publication-type="journal">
+Ferguson, T.S. (1973), "A Bayesian Analysis of Some Nonparametric Problems," The Annals of Statistics, 1,
+209-230.<object-id pub-id-type="jstor">10.2307/2958008</object-id>
+               <fpage>209</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e472a1310">
+               
+               <mixed-citation id="d1768797e476" publication-type="journal">
+(1974), "Prior Distributions on Spaces of Probability Measures," The Annals of Statistics, 2, 615-629.<object-id pub-id-type="jstor">10.2307/2958401</object-id>
+               <fpage>615</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e489a1310">
+               
+               <mixed-citation id="d1768797e493" publication-type="book">
+(1983), "Bayesian Density Estimation by Mixtures of Normal Distributions," in Recent Advances in
+Statistics, eds. M. H. Rizvi, J. Rustagi, and D. Siegmund, New York: Academic Press, pp. 287-302.<person-group>
+                     <string-name>
+                     <surname>Ferguson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Density Estimation by Mixtures of Normal Distributions</comment>
+               <fpage>287</fpage>
+               <source>Recent Advances in Statistics</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e525a1310">
+               
+               <mixed-citation id="d1768797e529" publication-type="journal">
+Ishwaran, H., and James, L.F. (2001), "Gibbs Sampling Methods for Stick-Breaking Priors," Journal of the
+American Statistical Association, 96, 161-173.<object-id pub-id-type="jstor">10.2307/2670356</object-id>
+               <fpage>161</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e545a1310">
+               
+               <mixed-citation id="d1768797e549" publication-type="journal">
+Ishwaran H., James, L. F., and Sun, J. (2001), "Bayesian Model Selection in Finite Mixtures by Marginal Density
+Decompositions," Journal of the American Statistical Association, 96, 1316-1332.<object-id pub-id-type="jstor">10.2307/3085902</object-id>
+               <fpage>1316</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e566a1310">
+               
+               <mixed-citation id="d1768797e570" publication-type="journal">
+Ishwaran, H., and Zarepour, M. (2000), "Markov Chain Monte Carlo in Approximate Dirichlet and Beta Two-
+Parameter Process Hierarchical Models," Biometrika, 87, 371-390<object-id pub-id-type="jstor">10.2307/2673470</object-id>
+               <fpage>371</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e586a1310">
+               
+               <mixed-citation id="d1768797e590" publication-type="journal">
+Izenman, A.J., and Sommer, C.J. (1988), "Philatelic Mixtures and Multimodal Densities," Journal of the American
+Statistical Association, 83, 941-953.<object-id pub-id-type="doi">10.2307/2290118</object-id>
+               <fpage>941</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e606a1310">
+               
+               <mixed-citation id="d1768797e610" publication-type="journal">
+Kuo, L. (1986), "Computations of Mixtures of Dirichlet Processes," SIAM Journal of Scientific and Statistical
+Computing, 7, 60-71.<person-group>
+                     <string-name>
+                     <surname>Kuo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>60</fpage>
+               <volume>7</volume>
+               <source>SIAM Journal of Scientific and Statistical Computing</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e642a1310">
+               
+               <mixed-citation id="d1768797e646" publication-type="journal">
+Lo, A.Y. (1984), "On a Class of Bayesian Nonparametric Estimates: I. Density Estimates," The Annals of Statistics,
+12, 351-357.<object-id pub-id-type="jstor">10.2307/2241054</object-id>
+               <fpage>351</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e662a1310">
+               
+               <mixed-citation id="d1768797e666" publication-type="journal">
+MacEachern, S.N. (1994), "Estimating Normal Means With a Conjugate Style Dirichlet Process Prior," Commu-
+nications in Statistics—Simulation and Computation, 23, 727-741.<person-group>
+                     <string-name>
+                     <surname>MacEachern</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>727</fpage>
+               <volume>23</volume>
+               <source>Communications in Statistics—Simulation and Computation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e698a1310">
+               
+               <mixed-citation id="d1768797e702" publication-type="journal">
+MacEachern, S.N., and Müller, P. (1998), "Estimating Mixtures of Dirichlet Process Models," Journal of Com-
+putational and Graphical Statistics, 2, 223-238.<object-id pub-id-type="doi">10.2307/1390815</object-id>
+               <fpage>223</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e719a1310">
+               
+               <mixed-citation id="d1768797e723" publication-type="other">
+McCloskey, J. W. (1965), "A Model for the Distribution of Individuals by Species in an Environment," Unpublished
+Ph.D. thesis, Michigan State University.</mixed-citation>
+            </ref>
+            <ref id="d1768797e733a1310">
+               
+               <mixed-citation id="d1768797e737" publication-type="journal">
+Minnotte, M.C., and Scott, D.W. (1993), "The Mode Tree: A Tool for Visualization of Nonparametric Density
+Features," Journal of Computational and Graphical Statistics, 2, 51-68.<object-id pub-id-type="doi">10.2307/1390955</object-id>
+               <fpage>51</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e753a1310">
+               
+               <mixed-citation id="d1768797e757" publication-type="journal">
+Muliere, P., and Tardella, L. (1998), "Approximating Distributions of Random Functionals of Ferguson-Dirichlet
+Priors," Canadian Journal of Statistics, 26, 283-297.<person-group>
+                     <string-name>
+                     <surname>Muliere</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>283</fpage>
+               <volume>26</volume>
+               <source>Canadian Journal of Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e789a1310">
+               
+               <mixed-citation id="d1768797e793" publication-type="journal">
+Muller, P., Erkanli, A., and West, M. (1996), "Bayesian Curve Fitting Using Multivariate Normal Mixtures,"
+Biometrika, 83, 67-79.<object-id pub-id-type="jstor">10.2307/2337433</object-id>
+               <fpage>67</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e809a1310">
+               
+               <mixed-citation id="d1768797e813" publication-type="journal">
+Neal, R.M. (2000), "Markov Chain Sampling Methods for Dirichlet Process Mixture Models," Journal of Com-
+putational and Graphical Statistics, 9, 249-265.<object-id pub-id-type="doi">10.2307/1390653</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e829a1310">
+               
+               <mixed-citation id="d1768797e833" publication-type="journal">
+Perman, M., Pitman, J., and Yor, M. (1992), "Size-Biased Sampling of Poisson Point Processes and Excursions,"
+Probability Theory and Related Fields, 92, 21-39.<person-group>
+                     <string-name>
+                     <surname>Perman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>21</fpage>
+               <volume>92</volume>
+               <source>Probability Theory and Related Fields</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e866a1310">
+               
+               <mixed-citation id="d1768797e870" publication-type="journal">
+Richardson, S., and Green, P.J. (1997), "On Bayesian Analysis of Mixtures With an Unknown Number of
+Components," Journal of the Royal Statistical Society, Series B, 59, 731-792.<person-group>
+                     <string-name>
+                     <surname>Richardson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>731</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e902a1310">
+               
+               <mixed-citation id="d1768797e906" publication-type="journal">
+Roeder, K. (1990), "Density Estimation with Confidence Sets Exemplified by Superclusters and Voids in the
+Galaxies," Journal of the American Statistical Association, 85, 617-624.<object-id pub-id-type="doi">10.2307/2289993</object-id>
+               <fpage>617</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e922a1310">
+               
+               <mixed-citation id="d1768797e926" publication-type="journal">
+Roeder, K., and Wasserman, L. (1997), "Practical Bayesian Density Estimation Using Mixtures of Normals,"
+Journal of the American Statistical Association, 92, 894-902.<object-id pub-id-type="doi">10.2307/2965553</object-id>
+               <fpage>894</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e942a1310">
+               
+               <mixed-citation id="d1768797e946" publication-type="journal">
+Schwartz, G. (1978), "Estimating the Dimension of a Model," The Annals of Statistics, 6, 461-464.<person-group>
+                     <string-name>
+                     <surname>Schwartz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>461</fpage>
+               <volume>6</volume>
+               <source>The Annals of Statistics</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e975a1310">
+               
+               <mixed-citation id="d1768797e979" publication-type="journal">
+Sethuraman, J. (1994), "A Constructive Definition of Dirichlet Priors," Statistica Sinica, 4, 639-650.<person-group>
+                     <string-name>
+                     <surname>Sethuraman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>639</fpage>
+               <volume>4</volume>
+               <source>Statistica Sinica</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e1008a1310">
+               
+               <mixed-citation id="d1768797e1012" publication-type="journal">
+Sethuraman, J., and Tiwari, R.C. (1982), "Convergence of Dirichlet Measures and the Interpretation of Their
+Parameters," Statistical Decision Theory and Related Topics III, 2, 305-315.<person-group>
+                     <string-name>
+                     <surname>Sethuraman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>305</fpage>
+               <volume>2</volume>
+               <source>Statistical Decision Theory and Related Topics III</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e1045a1310">
+               
+               <mixed-citation id="d1768797e1049" publication-type="journal">
+Silverman, B.W. (1981), "Using kKemel Density Estimates to Investigate Multimodality," Journal of the Royal
+Statistical Society, Series B, 43, 97-99.<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>43</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e1081a1310">
+               
+               <mixed-citation id="d1768797e1085" publication-type="book">
+Walker, S., and Damien, P. (1998), "Sampling Methods for Bayesian Nonparametric Inference Involving Stochastic
+Processes," in Practical Nonparametric and Semiparametric Bayesian Statistics, eds. D. Dey, P. Mueller,
+and D. Sinha, New York: Springer Lecture Notes, pp. 243-254.<person-group>
+                     <string-name>
+                     <surname>Walker</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Sampling Methods for Bayesian Nonparametric Inference Involving Stochastic Processes</comment>
+               <fpage>243</fpage>
+               <source>Practical Nonparametric and Semiparametric Bayesian Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e1120a1310">
+               
+               <mixed-citation id="d1768797e1124" publication-type="book">
+West, M., Muller, P., and Escobar, M.D. (1994), "Hierarchical Priors and Mixture Models, With Applications in
+Regression and Density Estimation," in A Tribute to D. V Lindley, eds. A.F.M Smith and P.R. Freeman, New
+York: Wiley.<person-group>
+                     <string-name>
+                     <surname>West</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Hierarchical Priors and Mixture Models, With Applications in Regression and Density Estimation</comment>
+               <source>A Tribute to D. V Lindley</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1768797e1156a1310">
+               
+               <mixed-citation id="d1768797e1160" publication-type="journal">
+Wilson, I.G. (1983), "Add a New Dimension to your Philately," The American Philatelist, 97, 342-349.<person-group>
+                     <string-name>
+                     <surname>Wilson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>342</fpage>
+               <volume>97</volume>
+               <source>The American Philatelist</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

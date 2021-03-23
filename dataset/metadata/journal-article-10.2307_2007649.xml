@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">36</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">154</issue>
+         <issue-id>i334572</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007649</article-id>
+         
+         <title-group>
+            <article-title>The Finite Element Method with Nonuniform Mesh Sizes for Unbounded Domains</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>C. I.</given-names>
+                  <surname>Goldstein</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1981</year>
+         </pub-date>
+         <fpage>387</fpage>
+         <lpage>404</lpage>
+         <page-range>387-404</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1981 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007649"/>
+         
+         
+         <abstract>
+            <p>The finite element method with nonuniform mesh sizes is employed to approximately solve elliptic boundary value problems in unbounded domains. Consider the following model problem: $$-\Delta u = f\quad\text{in}\quad\Omega^C, \quad u = g\quad\text{on}\quad\partial\Omega, \quad \frac{\partial u}{\partial r} + \frac{1}{r} u = o\bigg(\frac{1}{r}\bigg)\quad\text{as}\quad r = |x| \rightarrow \infty,$$ where $\Omega^C$ is the complement in $R^3$ (three-dimensional Euclidean space) of a bounded set $\Omega$ with smooth boundary $\partial\Omega$, $f$ and $g$ are smooth functions, and $f$ has bounded support. This problem is approximately solved by introducing an artificial boundary $\Gamma_R$ near infinity, e.g. a sphere of sufficiently large radius $R$. The intersection of this sphere with $\Omega^C$ is denoted by $\Omega^C_R$ and the given problem is replaced by $$-\Delta u_R = f\quad\text{in}\quad\Omega^C_R, \quad u_R = g\quad\text{on}\quad\partial\Omega, \quad \frac{\partial u_R}{\partial r} + \frac{1}{r} u_R = 0\quad\text{on}\quad\Gamma_R.$$ This problem is then solved approximately by the finite element method, resulting in an approximate solution $u^h_R$ for each $h &gt; 0$. In order to obtain a reasonably small error for $u - u^h_R = (u - u_R) + (u_R - u^h_R)$, it is necessary to make $R$ large. This necessitates the solution of a large number of linear equations, so that this method is often not very good when a uniform mesh size $h$ is employed. It is shown that a nonuniform mesh may be introduced in such a way that optimal error estimates hold and the number of equations is bounded by $Ch^{-3}$ with $C$ independent of $h$ and $R$.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N15</kwd>
+            <kwd>65N30</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2496724e129a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2496724e136" publication-type="book">
+I. BABUŠKA &amp; A. K. AzIZ, "Survey lectures on the mathematical foundations of the finite element
+method," The Mathematical Foundations of the Finite Element Method with Applications to Partial
+Differential Equations (A. K. Aziz, Ed.), Academic Press, New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Survey lectures on the mathematical foundations of the finite element method</comment>
+               <source>The Mathematical Foundations of the Finite Element Method with Applications to Partial Differential Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e168a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2496724e175" publication-type="book">
+P. G. CIARLET, The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam,
+1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e200a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2496724e207" publication-type="book">
+G. STRANG &amp; G. Fix, An Analysis of the Finite Element Method, Prentice-Hall, Englewood Cliffs,
+N. J., 1973.<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Analysis of the Finite Element Method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e232a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2496724e239" publication-type="journal">
+I. BABUŠKA, "The finite element method for infinite domains. I," Math. Comp., v. 26, 1972, pp.
+1-11.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>26</volume>
+               <source>Math. Comp.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e272a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2496724e279" publication-type="journal">
+J. GIROIRE &amp; J. C. NEDELEC, "Numerical solutions of an exterior Neumann problem using a
+double layer potential," Math. Comp., v. 32, 1978, pp. 973-990.<object-id pub-id-type="doi">10.2307/2006329</object-id>
+               <fpage>973</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e295a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2496724e302" publication-type="other">
+S. MARIN, A Finite Element Method for Problems Involving the Helmholtz Equation in Two
+Dimensional Exterior Regions, Thesis, Carnegie-Mellon University, Pittsburgh, Pa., 1978.</mixed-citation>
+            </ref>
+            <ref id="d2496724e312a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2496724e319" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "Maximum norm estimates in the finite element method on
+plane polygonal domains. Part 2, Refinements," Math. Comn., v. 33, 1979, pp. 465-492.<person-group>
+                     <string-name>
+                     <surname>Schatz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>465</fpage>
+               <volume>33</volume>
+               <source>Math. Comn.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e351a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2496724e358" publication-type="journal">
+I. BABUŠKA, "Finite element method for domains with corners," Computing, v. 6, 1970, pp.
+264-273.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>264</fpage>
+               <volume>6</volume>
+               <source>Computing</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e390a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2496724e397" publication-type="book">
+S. C. EISENSTAT &amp; M. H. ScHuLTz, "Computational aspects of the finite element method," The
+Mathematical Foundations of the Finite Element Method (A. K. Aziz, Ed.), Academic Press, New York,
+1972, pp. 505-524.<person-group>
+                     <string-name>
+                     <surname>Eisenstat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational aspects of the finite element method</comment>
+               <fpage>505</fpage>
+               <source>The Mathematical Foundations of the Finite Element Method</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e432a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2496724e439" publication-type="journal">
+R. W. THATCHER, "The use of infinite grid refinements at singularities in the solution of Laplace's
+equation," Numer. Math., v. 25, 1976, pp. 163-178.<person-group>
+                     <string-name>
+                     <surname>Thatcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>25</volume>
+               <source>Numer. Math.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e472a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2496724e479" publication-type="book">
+0. D. KELLOGG, Foundations of Potential Theory, Ungar, New York, 1929.<person-group>
+                     <string-name>
+                     <surname>Kellogg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Foundations of Potential Theory</source>
+               <year>1929</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e501a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2496724e508" publication-type="journal">
+G. C. HSAIO &amp; R. C. MACCAMY, "Solution of boundary value problems by integral equations of
+the first kind," SIAM Rev., v. 15, 1973, pp. 687-705.<person-group>
+                     <string-name>
+                     <surname>Hsaio</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>687</fpage>
+               <volume>15</volume>
+               <source>SIAM Rev.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e540a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2496724e547" publication-type="journal">
+M. SCHECHTER, "General boundary value problems for elliptic partial differential equations,"
+Comm. Pure Appl. Math., v. 12, 1959, pp. 457-486.<person-group>
+                     <string-name>
+                     <surname>Schechter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>457</fpage>
+               <volume>12</volume>
+               <source>Comm. Pure Appl. Math.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2496724e579a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2496724e586" publication-type="book">
+A. BAYLISS, M. GUNZBERGER &amp; E. TuRKEL, Boundary Conditions for the Numerical Solution of
+Elliptic Equations in Exterior Regions, ICASE Report 80-1, 1979.<person-group>
+                     <string-name>
+                     <surname>Bayliss</surname>
+                  </string-name>
+                  </person-group>
+               <source>Boundary Conditions for the Numerical Solution of Elliptic Equations in Exterior Regions</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">58</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">197</issue>
+         <issue-id>i337653</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153037</article-id>
+         
+         <title-group>
+            <article-title>The Monte Carlo Algorithm with a Pseudorandom Generator</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. F.</given-names>
+                  <surname>Traub</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>H.</given-names>
+                     <surname>Woźniakowski</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>323</fpage>
+         <lpage>339</lpage>
+         <page-range>323-339</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1992 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153037"/>
+         
+         
+         <abstract>
+            <p>We analyze the Monte Carlo algorithm for the approximation of multivariate integrals when a pseudorandom generator is used. We establish lower and upper bounds on the error of such algorithms. We prove that as long as a pseudorandom generator is capable of producing only finitely many points, the Monte Carlo algorithm with such a pseudorandom generator fails for L&lt;sub&gt;2&lt;/sub&gt; or continuous functions. It also fails for Lipschitz functions if the number of points does not depend on the number of variables. This is the case if a linear congruential generator is used with one initial seed. On the other hand, if a linear congruential generator of period m is used for each component, with independent uniformly distributed initial seeds, then the Monte Carlo algorithm with such a pseudorandom generator using n function values behaves as for the uniform distribution and its expected error is roughly n&lt;sup&gt;-1/2&lt;/sup&gt; as long as the number n of function values is less than m&lt;sup&gt;2&lt;/sup&gt;.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65C05</kwd>
+            <kwd>65C10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d264673e165a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d264673e172" publication-type="conference">
+E. Bach, Realistic analysis of some randomized algorithms, Proc. 19th ACM Sympos. on
+Theory of Computing, 1987, pp. 453-461.<person-group>
+                     <string-name>
+                     <surname>Bach</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Realistic analysis of some randomized algorithms</comment>
+               <fpage>453</fpage>
+               <source>Proc. 19th ACM Sympos. on Theory of Computing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e204a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d264673e211" publication-type="journal">
+N. S. Bakhvalov, On approximate computation of integrals, Vestnik Moskov. Gos. Univ.
+Ser. Mat. Mekh. Astronom. Fiz. Khim.4 (1959), 3-18.<person-group>
+                     <string-name>
+                     <surname>Bakhvalov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>4</volume>
+               <source>Vestnik Moskov. Gos. Univ. Ser. Mat. Mekh. Astronom. Fiz. Khim.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e243a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d264673e250" publication-type="journal">
+M. Blum and S. Micali, How to generate cryptographically strong sequences of pseudo-
+random bits, SIAM J. Comput.13 (1984), 850-863.<person-group>
+                     <string-name>
+                     <surname>Blum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>850</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e282a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d264673e289" publication-type="book">
+P. J. Davis and P. Rabinowitz, Methods of numerical integration, 2nd ed., Academic Press,
+New York, 1984.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Methods of numerical integration</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e319a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d264673e326" publication-type="journal">
+S. Haber, A modified Monte Carlo quadrature, Math. Comp.20 (1966), 361-368.<object-id pub-id-type="doi">10.2307/2003589</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e339a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d264673e346" publication-type="journal">
+J. H. Halton, On the efficiency of certain quasi-random sequences of points in evaluating
+multi-dimensional integrals, Numer. Math.2 (1960), 84-90.<person-group>
+                     <string-name>
+                     <surname>Halton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>84</fpage>
+               <volume>2</volume>
+               <source>Numer. Math.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e378a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d264673e385" publication-type="book">
+J. M. Hammersley and D. C. Handscomb, Monte Carlo methods, Methuen, London, 1964.<person-group>
+                     <string-name>
+                     <surname>Hammersley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo methods</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e407a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d264673e414" publication-type="journal">
+B. L. Granovskii and S. M. Ermakov, The Monte Carlo method, J. Soviet Math.7 (1977),
+161-192.<person-group>
+                     <string-name>
+                     <surname>Granovskii</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>161</fpage>
+               <volume>7</volume>
+               <source>J. Soviet Math.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e446a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d264673e453" publication-type="book">
+P. A. Kalos and P. A. Whitlock, Monte Carlo methods, Wiley, New York, 1986.<person-group>
+                     <string-name>
+                     <surname>Kalos</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo methods</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e475a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d264673e482" publication-type="conference">
+H. J. Karloff and P. Raghavan, Randomized algorithms and pseudorandom numbers, Proc.
+20th ACM Sympos. on Theory of Computing, 1988, pp. 310-321.<person-group>
+                     <string-name>
+                     <surname>Karloff</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Randomized algorithms and pseudorandom numbers</comment>
+               <fpage>310</fpage>
+               <source>Proc. 20th ACM Sympos. on Theory of Computing</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e515a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d264673e522" publication-type="book">
+D. E. Knuth, The art of computer programming, 2nd ed., vol. 2, Addison-Wesley, Reading,
+MA, 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>2</volume>
+               <source>The art of computer programming</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e554a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d264673e561" publication-type="book">
+J. Kuczyński and H. Wozniakowski, Estimating the largest eigenvalue by the power and
+Lanczos algorithms with a random start, Report, Dept. of Computer Science, Columbia
+University, 1989; to appear in SIMAX.<person-group>
+                     <string-name>
+                     <surname>Kuczyński</surname>
+                  </string-name>
+                  </person-group>
+               <source>Estimating the largest eigenvalue by the power and Lanczos algorithms with a random start</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e590a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d264673e597" publication-type="conference">
+D. H. Lehmer, Mathematical models in large-scale computing units, Proc. 2nd Sympos. on
+Large-Scale Digital Calculating Machinery (Cambridge, MA, 1949), Harvard Univ. Press,
+Cambridge, MA, 1951, pp. 141-146.<person-group>
+                     <string-name>
+                     <surname>Lehmer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mathematical models in large-scale computing units</comment>
+               <fpage>141</fpage>
+               <source>Proc. 2nd Sympos. on Large-Scale Digital Calculating Machinery (Cambridge, MA, 1949)</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e632a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d264673e639" publication-type="journal">
+H. Niederreiter, Quasi-Monte Carlo methods and pseudo-random numbers, Bull. Amer.
+Math. Soc.84 (1978), 957-1041.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>957</fpage>
+               <volume>84</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e671a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d264673e678" publication-type="book">
+—Quasi-Monte Carlo methods for multidimensional numerical integration, Numerical
+Integration III (H. BraB and G. Hammerlin, eds.), Internat. Ser. Numer. Math., vol. 85,
+Birkhauser Verlag, Basel, 1988, pp. 157-171.<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Quasi-Monte Carlo methods for multidimensional numerical integration</comment>
+               <fpage>157</fpage>
+               <volume>85</volume>
+               <source>Numerical Integration III</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e716a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d264673e723" publication-type="journal">
+—Recent trends in random number and random vector generation, Fifth Internat. Conf.
+on Stochastic Programming 1989, Ann. Operations Research (to appear).<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ann. Operations Research</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e746a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d264673e753" publication-type="book">
+E. Novak, Deterministic and stochastic error bounds in numerical analysis, Lectures Notes
+in Math., vol. 1349, Springer-Verlag, Berlin, 1988.<person-group>
+                     <string-name>
+                     <surname>Novak</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1349</volume>
+               <source>Deterministic and stochastic error bounds in numerical analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e782a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d264673e789" publication-type="book">
+I. M. Sobol, Die Monte Carlo-Methode, Deutsch Verlag, Frankfurt, 1985.<person-group>
+                     <string-name>
+                     <surname>Sobol</surname>
+                  </string-name>
+                  </person-group>
+               <source>Die Monte Carlo-Methode</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e811a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d264673e818" publication-type="journal">
+A. G. Sukharev, Optimal numerical integration formulas for some classes of functions of
+several variables, Soviet Math. Dokl.20 (1979), 472-475.<person-group>
+                     <string-name>
+                     <surname>Sukharev</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>472</fpage>
+               <volume>20</volume>
+               <source>Soviet Math. Dokl.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e850a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d264673e857" publication-type="book">
+J. F. Traub, G. W. Wasilkowski, and H. Wozniakowski, Information-based complexity,
+Academic Press, New York, 1988.<person-group>
+                     <string-name>
+                     <surname>Traub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Information-based complexity</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d264673e882a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d264673e889" publication-type="conference">
+A. Yao, Theory and application of trapdoor functions, Proc. 23rd IEEE Sympos. on Foun-
+dation of Computer Science, 1982.<person-group>
+                     <string-name>
+                     <surname>Yao</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Theory and application of trapdoor functions</comment>
+               <source>Proc. 23rd IEEE Sympos. on Foundation of Computer Science</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

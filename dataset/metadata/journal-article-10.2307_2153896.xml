@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">218</issue>
+         <issue-id>i337674</issue-id>
+         <article-id pub-id-type="jstor">2153896</article-id>
+         
+         <title-group>
+            <article-title>Computing Canonical Heights with Little (Or No) Factorization</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Joseph H.</given-names>
+                  <surname>Silverman</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>787</fpage>
+         <lpage>805</lpage>
+         <page-range>787-805</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153896"/>
+         
+         
+         <abstract>
+            <p>Let E/Q be an elliptic curve with discriminant Δ, and let P ∈ E(Q). The standard method for computing the canonical height ĥ(P) is as a sum of local heights ĥ(P) = λ̂&lt;sub&gt;∞&lt;/sub&gt;(P) + ∑&lt;sub&gt;p&lt;/sub&gt; λ̂&lt;sub&gt;p&lt;/sub&gt; (P). There are well-known series for computing the archimedean height λ̂&lt;sub&gt;∞&lt;/sub&gt;(P), and the non-archimedean heights λ̂&lt;sub&gt;p&lt;/sub&gt;(P) are easily computed as soon as all prime factors of Δ have been determined. However, for curves with large coefficients it may be difficult or impossible to factor Δ. In this note we give a method for computing the nonarchimedean contribution to ĥ(P) which is quite practical and requires little or no factorization. We also give some numerical examples illustrating the algorithm.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11G05</kwd>
+            <kwd>11Y50</kwd>
+            <kwd>Elliptic curve</kwd>
+            <kwd>canonical height</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d547752e135a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d547752e142" publication-type="other">
+C. Batut, D. Bernardi, H. Cohen, M. Olivier, PARI-GP, Version 1.3.7.</mixed-citation>
+            </ref>
+            <ref id="d547752e149a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d547752e156" publication-type="other">
+D. Bernardi, Décomprime, Version 1.0, un program de décomposition des nombres en facteurs
+premiers utilisant les courbes elliptiques.</mixed-citation>
+            </ref>
+            <ref id="d547752e166a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d547752e173" publication-type="book">
+H. Cohen, A course in computational algebraic number theory, Graduate Texts in Math., vol.
+138, Springer Verlag, Berlin, 1993. MR 94i:11105<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A course in computational algebraic number theory</comment>
+               <volume>138</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e205a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d547752e212" publication-type="book">
+J. Cremona, Algorithms for Modular Elliptic Curves, Cambridge University Press, Cambridge,
+1992. MR 93m:11053<person-group>
+                     <string-name>
+                     <surname>Cremona</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithms for Modular Elliptic Curves</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e238a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d547752e245" publication-type="journal">
+S. Fermiger, Un exemple de courbe elliptique definie sur Q de rang &gt; 19, C.R. Acad. Sci.
+Paris315 (1992), 719-722.<person-group>
+                     <string-name>
+                     <surname>Fermiger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>719</fpage>
+               <volume>315</volume>
+               <source>C.R. Acad. Sci. Paris</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e277a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d547752e284" publication-type="journal">
+H.G. Folz and H.G. Zimmer, What is the rank of the Demjanenko matrix?, J. Symbolic
+Computation4 (1987), 53-67. MR 88k:11038<person-group>
+                     <string-name>
+                     <surname>Folz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>4</volume>
+               <source>J. Symbolic Computation</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e316a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d547752e323" publication-type="journal">
+F. Hazama, Demjanenko matrix, class numbers, and Hodge group, J. Number Theory34
+(1990), 174-177. MR 90m:11090<person-group>
+                     <string-name>
+                     <surname>Hazama</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>174</fpage>
+               <volume>34</volume>
+               <source>J. Number Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e355a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d547752e362" publication-type="journal">
+A. Kraus, Quelques remarques a propos des invariants C4, C6, et A d'une courbe elliptique,
+Acta Arith.54 (1989), 75-80. MR 90j:11045<person-group>
+                     <string-name>
+                     <surname>Kraus</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>75</fpage>
+               <volume>54</volume>
+               <source>Acta Arith.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e394a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d547752e401" publication-type="journal">
+M. Laska, An algorithm for finding a minimal Weierstrass equation for an elliptic curve,
+Math. Comp.38 (1982), 257-260. MR 84e:14033<object-id pub-id-type="doi">10.2307/2007483</object-id>
+               <fpage>257</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e417a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d547752e424" publication-type="journal">
+H. Lenstra Jr., Factoring integers with elliptic curves, Annals of Math.126 (1987), 649-673.
+MR 89g:11125<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>649</fpage>
+               <volume>126</volume>
+               <source>Annals of Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e457a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d547752e464" publication-type="journal">
+J.-F. Mestre, Construction de courbes elliptique sur Q de rang &gt; 12, C.R. Acad. Sci. Paris
+295 (1982), 643-644. MR 84b:14019<person-group>
+                     <string-name>
+                     <surname>Mestre</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>643</fpage>
+               <volume>295</volume>
+               <source>C.R. Acad. Sci. Paris</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e496a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d547752e503" publication-type="journal">
+—, Un exemple de courbes elliptique definie sur Q de rang &gt; 15, C.R. Acad. Sci. Paris
+314 (1992), 453-455. MR 93b:11071<person-group>
+                     <string-name>
+                     <surname>Mestre</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>453</fpage>
+               <volume>314</volume>
+               <source>C.R. Acad. Sci. Paris</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e535a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d547752e542" publication-type="journal">
+K. Nagao, An example of elliptic curve over Q with rank &gt; 20, Proc. Japan Acad.69 (1993),
+291-293. MR 95a:11052<person-group>
+                     <string-name>
+                     <surname>Nagao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>291</fpage>
+               <volume>69</volume>
+               <source>Proc. Japan Acad.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e574a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d547752e581" publication-type="journal">
+K. Nagao and T. Kouya, An example of elliptic curve over Q with rank &gt; 21, Proc. Japan
+Acad.70 (1994), 104-105. MR 95e:11063<person-group>
+                     <string-name>
+                     <surname>Nagao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>104</fpage>
+               <volume>70</volume>
+               <source>Proc. Japan Acad.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e613a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d547752e620" publication-type="book">
+H. Riesel, Prime Numbers and Computer Methods for Factorization, Birkhaiuser, Boston,
+1985. MR 88k:11002<person-group>
+                     <string-name>
+                     <surname>Riesel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Prime Numbers and Computer Methods for Factorization</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e645a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d547752e652" publication-type="journal">
+J. Sands and W. Schwarz, A Demjanenko matrix for abelian fields of prime power conductor,
+J. Number Theory52 (1995), 85-97. MR 96b:11141<person-group>
+                     <string-name>
+                     <surname>Sands</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>85</fpage>
+               <volume>52</volume>
+               <source>J. Number Theory</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e685a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d547752e692" publication-type="journal">
+W. Schwarz, Demjanenko matrix and 2-divisibility of class numbers, Arch. Math.60 (1993),
+154-156. MR 94g:11095<person-group>
+                     <string-name>
+                     <surname>Schwarz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>154</fpage>
+               <volume>60</volume>
+               <source>Arch. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e724a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d547752e731" publication-type="book">
+J.H. Silverman, The Arithmetic of Elliptic Curves, Graduate Texts in Math., vol. 106, Sprin-
+ger-Verlag, Berlin and New York, 1986. MR 87g:11070<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <volume>106</volume>
+               <source>The Arithmetic of Elliptic Curves</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e760a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d547752e767" publication-type="book">
+—Advanced Topics in the Arithmetic of Elliptic Curves, Graduate Texts in Math., vol.
+151, Springer-Verlag, Berlin and New York, 1994. MR 96b:11074<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Advanced Topics in the Arithmetic of Elliptic Curves</comment>
+               <volume>151</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e799a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d547752e806" publication-type="journal">
+—, Computing heights on elliptic curves, Math. Comp.51 (1988), 339-358. MR
+89d: 1 1049<object-id pub-id-type="doi">10.2307/2008597</object-id>
+               <fpage>339</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e822a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d547752e829" publication-type="journal">
+H.M. Tschöpe and H.G. Zimmer, Computation of the N6ron-Tate height on elliptic curves,
+Math. Comp.48 (1987), 351-370. MR 87m:14025<person-group>
+                     <string-name>
+                     <surname>Tschöpe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>351</fpage>
+               <volume>48</volume>
+               <source>Math. Comp.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e861a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d547752e868" publication-type="book">
+J. Tate, Algorithm for determining the type of a singular fiber in an elliptic pencil, Modular
+Functions of One Variable IV (B.J. Birch and W.Kuyk, eds.), (Antwerp, 1972, Lect. Notes in
+Math. 272, Springer-Verlag, Berlin, 1975. MR 52:13850<person-group>
+                     <string-name>
+                     <surname>Tate</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithm for determining the type of a singular fiber in an elliptic pencil</comment>
+               <source>Modular Functions of One Variable IV</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d547752e901a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d547752e908" publication-type="book">
+H. Zimmer, A limit formula for the canonical height of an elliptic curve and its application
+to height computations., Number Theory (R.A. Mollin, ed.), Walter de Gruyter, Berlin-New
+York, 1990, pp. 641-659. MR 93d:11060<person-group>
+                     <string-name>
+                     <surname>Zimmer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A limit formula for the canonical height of an elliptic curve and its application to height computations</comment>
+               <fpage>641</fpage>
+               <source>Number Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">39</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">160</issue>
+         <issue-id>i334578</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007334</article-id>
+         
+         <title-group>
+            <article-title>Relative Distance--An Error Measure in Round-Off Error Analysis</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Abraham</given-names>
+                  <surname>Ziv</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1982</year>
+         </pub-date>
+         <fpage>563</fpage>
+         <lpage>569</lpage>
+         <page-range>563-569</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1982 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007334"/>
+         
+         
+         <abstract>
+            <p>Olver (SIAM J. Numer. Anal., v. 15, 1978, pp. 368-393) suggested relative precision as an attractive substitute for relative error in round-off error analysis. He remarked that in certain respects the error measure $d(\bar x, x) = \min\{\alpha \mid 1 - \alpha \leqslant x/\bar x \leqslant 1/(1 - \alpha)\}, \bar x \neq 0, x/\ bar x &gt; 0$ is even more favorable, through it seems to be inferior because of two drawbacks which are not shared by relative precision: (i) the inequality $d(\bar x^k, x^k) \leqslant |k| d(\bar x, x)$ is not true for $0 &lt; |k| &lt; 1$. (ii) $d(\bar x, x)$ is not defined for complex $\bar x, x$. In this paper the definition of $d(\cdot,\cdot)$ is replaced by $d(\bar x, x) =|\bar x - x|/\max\{|\bar x|, |x|\}$. This definition is equivalent to the first in case $\bar x \neq 0, x/\bar x &gt; 0$, and is free of (ii). The inequality $d(\bar x^k, x^k) \leqslant |k| d(\bar x, x)$ is replaced by the more universally valid inequality $d(\bar x^k, x^k) \leqslant |k| d(\bar x, x)/(1 - \delta), \delta = \max\{d(\bar x, x), |k| d(\bar x, x)\}$. The favorable properties of $d(\cdot,\cdot)$ are preserved in the complex case. Moreover, its definition may be generalized to linear normed spaces by $d(\bar x, x) = \|\bar x - x\|/\max\{\|\bar x\|, \|x\|\}$. Its properties in such spaces raise the possibility that with further investigation it might become the basis for error analysis in some vector, matrix, and function spaces.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65G05</kwd>
+            <kwd>Relative error</kwd>
+            <kwd>round-off error analysis</kwd>
+            <kwd>metric</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1668249e135a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1668249e142" publication-type="journal">
+VIJAY B. AGGARWAL &amp; JAMES W. BURGMEIER, "A roundoff error model with applications to
+arithmetic expressions," SIAM J. Comput., v. 8, 1979, pp. 60-72.<person-group>
+                     <string-name>
+                     <surname>Aggarwal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>60</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668249e174a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1668249e181" publication-type="book">
+A. N. KOLMOGOROV &amp; S. C. FOMIN, Elements of the Theory of Functions and Functional Analysis,
+Graylock Press, Rochester, New York, 1957.<person-group>
+                     <string-name>
+                     <surname>Kolmogorov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elements of the Theory of Functions and Functional Analysis</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668249e206a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1668249e213" publication-type="journal">
+F. W. J. OLVER, "A new approach to error arithmetic," SIAM J. Numer. Anal., v. 15, 1978, pp.
+368-393.<object-id pub-id-type="jstor">10.2307/2156758</object-id>
+               <fpage>368</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668249e229a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1668249e236" publication-type="book">
+PAT H. STERBENZ, Floating Point Computation, Prentice-Hall, Englewood Cliffs, N. J., 1974.<person-group>
+                     <string-name>
+                     <surname>Sterbenz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Floating Point Computation</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668249e259a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1668249e266" publication-type="book">
+G. W. STEWART, Introduction to Matrix Computations, Academic Press, New York and London,
+1973.<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Matrix Computations</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668249e291a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1668249e298" publication-type="book">
+J. H. WILKINSON, Rounding Errors in Algebraic Processes, Prentice-Hall, Englewood Cliffs, N. J.,
+1963.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Rounding Errors in Algebraic Processes</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

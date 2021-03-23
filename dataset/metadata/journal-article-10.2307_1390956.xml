@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260259</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390956</article-id>
+         
+         <title-group>
+            <article-title>Heuristic Search Algorithms for the Minimum Volume Ellipsoid</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David L.</given-names>
+                  <surname>Woodruff</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David M.</given-names>
+                  <surname>Rocke</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1993</year>
+         </pub-date>
+         <fpage>69</fpage>
+         <lpage>95</lpage>
+         <page-range>69-95</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1993 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390956"/>
+         
+         
+         <abstract>
+            <p>A method of robust estimation of multivariate location and shape that has attracted a lot of attention recently is Rousseeuw's minimum volume ellipsoid estimator (MVE). This estimator has a high breakdown point but is difficult to compute successfully. In this article, we apply methods of heuristic search to this problem, including simulated annealing, genetic algorithms, and tabu search, and compare the results to the undirected random search algorithm that is often cited. Heuristic search provides several effective algorithms that are far more computationally efficient than random search. Furthermore, random search, as currently implemented, is shown to be ineffective for larger problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Breakdown point</kwd>
+            <kwd>Genetic algorithms</kwd>
+            <kwd>Multivariate location and shape</kwd>
+            <kwd>Robust estimation</kwd>
+            <kwd>Simulated annealing</kwd>
+            <kwd>Tabu search</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1326781e154a1310">
+               
+               <mixed-citation id="d1326781e158" publication-type="book">
+Andrews, D.F., Bickel, P.J., Hampel, F.R., Huber, P.J., Rogers, W.H., and Tukey, J.W. (1972), Robust
+Estimates of Location: Survey and Advances, Princeton: Princeton University Press.<person-group>
+                     <string-name>
+                     <surname>Andrews</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Estimates of Location: Survey and Advances</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e183a1310">
+               
+               <mixed-citation id="d1326781e187" publication-type="book">
+Atkinson, A.C., and Weisberg, S. (1991), "Simulated Annealing for the Detection of Multiple Outliers Using
+Least Squares and Least Median of Squares Fitting," in Directions in Robust Statistics and Diagnostics
+Part I, eds. W. Stahel and S. Weisberg, New York: Springer-Verlag, 7-20.<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulated Annealing for the Detection of Multiple Outliers Using Least Squares and Least Median of Squares Fitting</comment>
+               <source>Directions in Robust Statistics and Diagnostics Part I</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e219a1310">
+               
+               <mixed-citation id="d1326781e223" publication-type="journal">
+Campbell, N.A. (1980), "Robust Procedures in Multivariate Analysis I: Robust Covariance Estimation,"
+Applied Statistics, 29, 231-237.<object-id pub-id-type="doi">10.2307/2346896</object-id>
+               <fpage>231</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e239a1310">
+               
+               <mixed-citation id="d1326781e243" publication-type="journal">
+- (1982), "Robust Procedures in Multivariate Analysis I: Robust Canonical Variate Analysis," Applied
+Statistics, 31, 1-8.<object-id pub-id-type="doi">10.2307/2347068</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e260a1310">
+               
+               <mixed-citation id="d1326781e264" publication-type="journal">
+Cook, R.D., and Hawkins, D.M. (1990), "Comment," Journal of the American Statistical Association, 85,
+640-644.<object-id pub-id-type="doi">10.2307/2289996</object-id>
+               <fpage>640</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e280a1310">
+               
+               <mixed-citation id="d1326781e284" publication-type="journal">
+Davies, P.L. (1987), "Asymptotic Behavior of S-Estimators of Multivariate Location Parameters and Disper-
+sion Matrices," The Annals of Statistics, 15, 1269-1292.<object-id pub-id-type="jstor">10.2307/2241828</object-id>
+               <fpage>1269</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e300a1310">
+               
+               <mixed-citation id="d1326781e304" publication-type="book">
+Davis, L. (ed.) (1991), Handbook of Genetic Algorithms, New York: Van Nostrand Reinhold.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of Genetic Algorithms</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e326a1310">
+               
+               <mixed-citation id="d1326781e330" publication-type="journal">
+Devlin, S.J., Gnanadesikan, R., and Kettenring, J.R. (1981), "Robust Estimation of Dispersion Matrices and
+Principal Components," Journal of the American Statistical Association, 76, 354-362.<object-id pub-id-type="doi">10.2307/2287836</object-id>
+               <fpage>354</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e346a1310">
+               
+               <mixed-citation id="d1326781e350" publication-type="book">
+Donoho, D. L. (1982), "Breakdown Properties of Multivariate Location Estimators," unpublished PhD quali-
+fying paper, Harvard University, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Donoho</surname>
+                  </string-name>
+                  </person-group>
+               <source>Breakdown Properties of Multivariate Location Estimators</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e375a1310">
+               
+               <mixed-citation id="d1326781e379" publication-type="book">
+Donoho, D.L., and Huber, P.J. (1983), "The Notion of Breakdown Point," in A Festschrift for Erich L.
+Lehmann, eds. P. J. Bickel, K. A. Doksum and J. L. Hodges, Belmont, CA: Wadsworth, 157-184.<person-group>
+                     <string-name>
+                     <surname>Donoho</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Notion of Breakdown Point</comment>
+               <source>A Festschrift for Erich L. Lehmann</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e409a1310">
+               
+               <mixed-citation id="d1326781e413" publication-type="book">
+Faigle, U., and Kern, W. (1989), "Some Convergence Results for Probabilistic Tabu Search," working paper,
+University of Twente, The Netherlands, Dept. of Applied Mathematics.<person-group>
+                     <string-name>
+                     <surname>Faigle</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some Convergence Results for Probabilistic Tabu Search</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e438a1310">
+               
+               <mixed-citation id="d1326781e442" publication-type="book">
+Fox, B.L. (1991), "Eliminating a Pathology of Simulated Annealing," working paper, University of Colorado,
+Denver, Dept. of Mathematics.<person-group>
+                     <string-name>
+                     <surname>Fox</surname>
+                  </string-name>
+                  </person-group>
+               <source>Eliminating a Pathology of Simulated Annealing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e467a1310">
+               
+               <mixed-citation id="d1326781e471" publication-type="journal">
+Glover, F. (1989), "Tabu Search-Part I," ORSA Journal on Computing, 1, 190-206.<person-group>
+                     <string-name>
+                     <surname>Glover</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>190</fpage>
+               <volume>1</volume>
+               <source>ORSA Journal on Computing</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e500a1310">
+               
+               <mixed-citation id="d1326781e504" publication-type="journal">
+- (1990), "Tabu Search-Part II," ORSA Journal on Computing, 2, 4-32.<person-group>
+                     <string-name>
+                     <surname>Glover</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4</fpage>
+               <volume>2</volume>
+               <source>ORSA Journal on Computing</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e533a1310">
+               
+               <mixed-citation id="d1326781e537" publication-type="book">
+Glover, F., and Laguna, M. (1990), "Target Analysis to Improve Tabu Search," Technical Report ORP89-21,
+University of Texas, Austin, Graduate Program in Operations Research.<person-group>
+                     <string-name>
+                     <surname>Glover</surname>
+                  </string-name>
+                  </person-group>
+               <source>Target Analysis to Improve Tabu Search</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e562a1310">
+               
+               <mixed-citation id="d1326781e566" publication-type="book">
+Goldberg, D.E. (1989), Genetic Algorithms in Search Optimization and Machine Learning, Reading, MA:
+Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Goldberg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Genetic Algorithms in Search Optimization and Machine Learning</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e592a1310">
+               
+               <mixed-citation id="d1326781e596" publication-type="journal">
+Hajek, B. (1988), "Cooling Schedules for Optimal Annealing," Mathematics of Operations Research, 13,
+311-329.<person-group>
+                     <string-name>
+                     <surname>Hajek</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>311</fpage>
+               <volume>13</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e628a1310">
+               
+               <mixed-citation id="d1326781e632" publication-type="book">
+Hampel, F.R., Ronchetti, E.M., Rousseeuw, P.J., and Stahel, W.A. (1986), Robust Statistics: The Approach
+Based on Influence Functions, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Hampel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Statistics: The Approach Based on Influence Functions</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e657a1310">
+               
+               <mixed-citation id="d1326781e661" publication-type="book">
+Hartl, R.F. (1991), "A Global Convergence Proof for a Class of Genetic Algorithms," working paper, Vienna
+University of Technology, Institute of Econometrics, Operations Research and Systems Theory.<person-group>
+                     <string-name>
+                     <surname>Hartl</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Global Convergence Proof for a Class of Genetic Algorithms</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e686a1310">
+               
+               <mixed-citation id="d1326781e690" publication-type="book">
+Huber, P.J. (1981), Robust Statistics, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Huber</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Statistics</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e712a1310">
+               
+               <mixed-citation id="d1326781e716" publication-type="journal">
+(1985), "Projection Pursuit," The Annals of Statistics, 13, 435-475.<object-id pub-id-type="jstor">10.2307/2241175</object-id>
+               <fpage>435</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e729a1310">
+               
+               <mixed-citation id="d1326781e733" publication-type="journal">
+Johnson, D.S., Aragon, C.R., McGeoch, L.A., and Schevon, C. (1989), "Optimization by Simulated
+Annealing: An Experimental Evaluation; Part I, Graph Partitioning," Operations Research, 37, 865-892.<object-id pub-id-type="jstor">10.2307/171470</object-id>
+               <fpage>865</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e750a1310">
+               
+               <mixed-citation id="d1326781e754" publication-type="journal">
+Kempthorne, P.J., and Mendel, M.B. (1990), "Comment," Journal of the American Statistical Association,
+85, 647-648.<object-id pub-id-type="doi">10.2307/2289998</object-id>
+               <fpage>647</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e770a1310">
+               
+               <mixed-citation id="d1326781e774" publication-type="book">
+Laguna, M., Barnes, J.W., and Glover, F. (1990), "Scheduling Jobs with Linear Delay Penalties and Sequence
+Dependent Setup Costs and Times Using Tabu Search," Research Report, University of Texas, Austin,
+Dept. of Mechanical Engineering.<person-group>
+                     <string-name>
+                     <surname>Laguna</surname>
+                  </string-name>
+                  </person-group>
+               <source>Scheduling Jobs with Linear Delay Penalties and Sequence Dependent Setup Costs and Times Using Tabu Search</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e803a1310">
+               
+               <mixed-citation id="d1326781e807" publication-type="book">
+Liepins, G.E., and Baluja, S. (1991), "apGA: An Adaptive Parallel Genetic Algorithm," working paper, Oak
+Ridge National Laboratory.<person-group>
+                     <string-name>
+                     <surname>Liepins</surname>
+                  </string-name>
+                  </person-group>
+               <source>apGA: An Adaptive Parallel Genetic Algorithm</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e832a1310">
+               
+               <mixed-citation id="d1326781e836" publication-type="book">
+Liepins, G.E., and Vose, M.D. (1990), "Characterizing Crossover in Genetic Algorithms," working paper,
+Oak Ridge National Laboratory.<person-group>
+                     <string-name>
+                     <surname>Liepins</surname>
+                  </string-name>
+                  </person-group>
+               <source>Characterizing Crossover in Genetic Algorithms</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e861a1310">
+               
+               <mixed-citation id="d1326781e865" publication-type="journal">
+Lopuhaä, H.P. (1989), "On the Relation Between S-Estimators and M-Estimators of Multivariate Location
+and Covariance," The Annals of Statistics, 17, 1662-1683.<person-group>
+                     <string-name>
+                     <surname>Lopuhaä</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1662</fpage>
+               <volume>17</volume>
+               <source>The Annals of Statistics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e897a1310">
+               
+               <mixed-citation id="d1326781e901" publication-type="journal">
+Lopuhaä, H.P., and Rousseeuw, P.J. (1991), "Breakdown Points of Affine Equivariant Estimators of Multi-
+variate Location and Covariance Matrices," The Annals of Statistics, 19, 229-248.<person-group>
+                     <string-name>
+                     <surname>Lopuhaä</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>229</fpage>
+               <volume>19</volume>
+               <source>The Annals of Statistics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e934a1310">
+               
+               <mixed-citation id="d1326781e938" publication-type="journal">
+Lundy, M., and Mees, A. (1986), "Convergence of an Annealing Algorithm," Math Programming, 34, 111-124.<person-group>
+                     <string-name>
+                     <surname>Lundy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>111</fpage>
+               <volume>34</volume>
+               <source>Math Programming</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e967a1310">
+               
+               <mixed-citation id="d1326781e971" publication-type="journal">
+Maronna, R.A. (1976), "Robust M-Estimators of Multivariate Location and Scatter," The Annals of Statistics,
+4, 51-67.<object-id pub-id-type="jstor">10.2307/2957994</object-id>
+               <fpage>51</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e987a1310">
+               
+               <mixed-citation id="d1326781e991" publication-type="book">
+Portnoy, S. (1987), "Using Regression Fractiles to Identify Outliers," in Statistical Data Analysis Based on
+the L1-Norm, ed. Y. Dodge. Amsterdam: North-Holland, 345-356.<person-group>
+                     <string-name>
+                     <surname>Portnoy</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Using Regression Fractiles to Identify Outliers</comment>
+               <fpage>345</fpage>
+               <source>Statistical Data Analysis Based on the L1-Norm</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1023a1310">
+               
+               <mixed-citation id="d1326781e1027" publication-type="book">
+Rousseeuw, P.J. (1985). "Multivariate Estimation With High Breakdown Point," in Mathematical Statistics
+and Applications, Volume B, eds. W. Grossmann, G. Pflug, I. Vincze, and W. Werz, Dordrecht: Reidel,
+283-297.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multivariate Estimation With High Breakdown Point</comment>
+               <source>Mathematical Statistics and Applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1059a1310">
+               
+               <mixed-citation id="d1326781e1063" publication-type="book">
+Rousseeuw, P.J., and Leroy, A.M. (1987), Robust Regression and Outlier Detection, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robust Regression and Outlier Detection</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1085a1310">
+               
+               <mixed-citation id="d1326781e1089" publication-type="journal">
+Rousseeuw, P.J., and van Zomeren, B.C. (1990a), "Unmasking Multivariate Outliers and Leverage Points,"
+Journal of the American Statistical Association, 85, 633-639.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>633</fpage>
+               <volume>85</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1122a1310">
+               
+               <mixed-citation id="d1326781e1126" publication-type="journal">
+(1990b), "Rejoinder," Journal of the American Statistical Association, 85, 648-651.<object-id pub-id-type="doi">10.2307/2289999</object-id>
+               <fpage>648</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1139a1310">
+               
+               <mixed-citation id="d1326781e1143" publication-type="book">
+(1991), "Robust Distances: Simulations and Cutoff Values," in Directions in Robust Statistics and
+Diagnostics Part Il, eds. W. Stahel and S. Weisberg, New York: Springer-Verlag, 195-204.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Robust Distances: Simulations and Cutoff Values</comment>
+               <fpage>195</fpage>
+               <source>Directions in Robust Statistics and Diagnostics Part II</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1175a1310">
+               
+               <mixed-citation id="d1326781e1179" publication-type="journal">
+Ruppert, D., and Simpson, D.G. (1990), "Comment," Journal of the American Statistical Association, 85,
+644-646.<object-id pub-id-type="doi">10.2307/2289997</object-id>
+               <fpage>644</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1195a1310">
+               
+               <mixed-citation id="d1326781e1199" publication-type="book">
+Schaffer, J.D. (1987), "Some Effects of Selection Procedures on Hyperplane Sampling by Genetic Algorithms,"
+in Genetic Algorithms and Simulated Annealing, ed. L. Davis, London: Pitman.<person-group>
+                     <string-name>
+                     <surname>Schaffer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Effects of Selection Procedures on Hyperplane Sampling by Genetic Algorithms</comment>
+               <source>Genetic Algorithms and Simulated Annealing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1228a1310">
+               
+               <mixed-citation id="d1326781e1232" publication-type="book">
+Skorin-Kapov, J. (1991), "Extensions of a Tabu Search Adaptation to the Quadratic Assignment Problem,"
+Working Paper HAR-90-006, State University of New York at Stony Brook, W. A. Harriman School for
+Management and Policy.<person-group>
+                     <string-name>
+                     <surname>Skorin-Kapov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Extensions of a Tabu Search Adaptation to the Quadratic Assignment Problem</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1261a1310">
+               
+               <mixed-citation id="d1326781e1265" publication-type="book">
+Stahel, W. A. (1981), "Robuste Schätzungen: Infinitesimale Optimalität und Schätzungen von Kovarianzma-
+trizen," unpublished PhD thesis, Eidgenössishe Technische Hochschule, Zurich.<person-group>
+                     <string-name>
+                     <surname>Stahel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Robuste Schätzungen: Infinitesimale Optimalität und Schätzungen von Kovarianzmatrizen</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1291a1310">
+               
+               <mixed-citation id="d1326781e1295" publication-type="book">
+Statistical Sciences (1991), S-Plus for DOS Reference Manual, Seattle: Author.<person-group>
+                     <string-name>
+                     <surname>Statistical Sciences</surname>
+                  </string-name>
+                  </person-group>
+               <source>S-Plus for DOS Reference Manual</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1317a1310">
+               
+               <mixed-citation id="d1326781e1321" publication-type="conference">
+Syswerda, G. (1989), "Uniform Crossover in Genetic Algorithms," in Proceedings of the Third International
+Conference on Genetic Algorithms, ed. J. Shaffer, San Mateo, CA: Morgan Kaufmann Publishers, 2- 9.<person-group>
+                     <string-name>
+                     <surname>Syswerda</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Uniform Crossover in Genetic Algorithms</comment>
+               <fpage>2</fpage>
+               <source>Proceedings of the Third International Conference on Genetic Algorithms</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1353a1310">
+               
+               <mixed-citation id="d1326781e1357" publication-type="conference">
+Tanese, R. (1989), "Distributed Genetic Algorithms," in Proceedings of the Third International Conference on
+Genetic Algorithms, ed. J. Shaffer, San Mateo, CA: Morgan Kaufmann Publishers, 434- -439.<person-group>
+                     <string-name>
+                     <surname>Tanese</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Distributed Genetic Algorithms</comment>
+               <fpage>434</fpage>
+               <source>Proceedings of the Third International Conference on Genetic Algorithms</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1389a1310">
+               
+               <mixed-citation id="d1326781e1393" publication-type="book">
+Tyler, D.E. (1983), "Robustness and Efficiency Properties of Scatter Matrices," Biometrika, 70, 411-420.<person-group>
+                     <string-name>
+                     <surname>Tyler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>411</fpage>
+               <volume>70</volume>
+               <source>Biometrika</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1422a1310">
+               
+               <mixed-citation id="d1326781e1426" publication-type="book">
+-~ (1991), "Some Issues in the Robust Estimation of Multivariate Location and Scatter," in Directions in
+Robust Statistics and Diagnostics Part II, eds. W. Stahel and S. Weisberg, New York: Springer-Verlag,
+327-336.<person-group>
+                     <string-name>
+                     <surname>Tyler</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Issues in the Robust Estimation of Multivariate Location and Scatter</comment>
+               <fpage>327</fpage>
+               <source>Directions in Robust Statistics and Diagnostics Part II</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1461a1310">
+               
+               <mixed-citation id="d1326781e1465" publication-type="conference">
+Whitley, D. (1989), "The GENTITOR Algorithm and Selection Pressure: Why Rank-Based Allocation of
+Reproductive Trials is Best," in Proceedings of the Third International Conference on Genetic Algorithms,
+ed. J. Shaffer, San Mateo, CA: Morgan Kaufmann Publishers, 116-121.<person-group>
+                     <string-name>
+                     <surname>Whitley</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The GENTITOR Algorithm and Selection Pressure: Why Rank-Based Allocation of Reproductive Trials is Best</comment>
+               <fpage>116</fpage>
+               <source>Proceedings of the Third International Conference on Genetic Algorithms</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1501a1310">
+               
+               <mixed-citation id="d1326781e1505" publication-type="book">
+Woodruff, D.L., and Rocke, D.M. (1991), "Computation of the Minimum Volume Ellipsoid Estimator Using
+Heuristic Search," Technical Report, University of California, Davis, Graduate School of Management.<person-group>
+                     <string-name>
+                     <surname>Woodruff</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computation of the Minimum Volume Ellipsoid Estimator Using Heuristic Search</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1326781e1530a1310">
+               
+               <mixed-citation id="d1326781e1534" publication-type="journal">
+Woodruff, D. L., and Zemel, E. (1990), "Hashing Vectors for Tabu Search," unpublished article submitted to
+Annals of OR.<person-group>
+                     <string-name>
+                     <surname>Woodruff</surname>
+                  </string-name>
+                  </person-group>
+               <source>Annals of OR</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

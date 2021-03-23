@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260300</issue-id>
+         <article-id pub-id-type="jstor">1391194</article-id>
+         
+         <title-group>
+            <article-title>Accelerating Computation in Markov Random Field Models for Spatial Data via Structured MCMC</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Murali</given-names>
+                  <surname>Haran</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James S.</given-names>
+                  <surname>Hodges</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bradley P.</given-names>
+                  <surname>Carlin</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>249</fpage>
+         <lpage>264</lpage>
+         <page-range>249-264</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391194"/>
+         
+         
+         <abstract>
+            <p>Spatial Poisson models for areal count data use nonstationary "intrinsic autoregressions," also often referred to as "conditionally autoregressive" (CAR) models. Bayesian inference for these models has generally involved using single parameter updating Markov chain Monte Carlo algorithms, which often exhibit slow mixing (i.e., poor convergence) properties. These spatial models are richly parameterized and lend themselves to the structured Markov chain Monte Carlo (SMCMC) algorithms. SMCMC provides a simple, general, and flexible framework for accelerating convergence in an MCMC sampler by providing a systematic way to block groups of similar parameters while taking full advantage of the posterior correlation structure induced by the model and data. Among the SMCMC strategies considered here are blocking using different size blocks (grouping by geographical region), reparameterization, updating jointly with and without model hyperparameters, "oversampling" some of the model parameters, and "pilot adaptation" versus continuous tuning techniques for the proposal density. We apply the techniques presented here to datasets on cancer mortality and late detection in the state of Minnesota. We find that, compared to univariate sampling procedures, our techniques will typically lead to more accurate posterior estimates, and they are sometimes also far more efficient in terms of the number of effective samples generated per second.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Blocking</kwd>
+            <kwd>Convergence acceleration</kwd>
+            <kwd>Disease mapping</kwd>
+            <kwd>Gibbs sampling</kwd>
+            <kwd>Hierarchical model</kwd>
+            <kwd>Hierarchical centering</kwd>
+            <kwd>Metropolis-Hastings algorithm</kwd>
+            <kwd>Reparameterization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2000921e172a1310">
+               
+               <mixed-citation id="d2000921e176" publication-type="journal">
+Bernardinelli, L., Clayton, D., and Montomoli, C. (1995), "Bayesian Estimates of Disease Maps: How Important
+are Priors?" Statistics in Medicine, 14, 2411-2431.<person-group>
+                     <string-name>
+                     <surname>Bernardinelli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2411</fpage>
+               <volume>14</volume>
+               <source>Statistics in Medicine</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e208a1310">
+               
+               <mixed-citation id="d2000921e212" publication-type="journal">
+Besag, J., Green, P., Higdon, D., and Mengerson, K. (1995), "Bayesian Computation and Stochastic Systems,"
+Statistical Science, 10, 3-41.<object-id pub-id-type="jstor">10.2307/2246224</object-id>
+               <fpage>3</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e228a1310">
+               
+               <mixed-citation id="d2000921e232" publication-type="journal">
+Besag, J., and Kooperberg, C. (1995), "On Conditional and Intrinsic Autoregressions," Biometrika, 82, 733-746.<object-id pub-id-type="doi">10.2307/2337341</object-id>
+               <fpage>733</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e245a1310">
+               
+               <mixed-citation id="d2000921e249" publication-type="journal">
+Besag, J., York, J., and Mollie, A. (1991), "Bayesian Image Restoration, with Applications in Spatial Statistics"
+(with discussion), Annals of the Institute of Statistical Mathematics, 43, 1-59.<person-group>
+                     <string-name>
+                     <surname>Besag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>43</volume>
+               <source>Annals of the Institute of Statistical Mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e282a1310">
+               
+               <mixed-citation id="d2000921e286" publication-type="book">
+Best, N.G., Waller, L.A., Thomas, A., Conlon, E.M., and Arnold, R.A. (1999), "Bayesian Models for Spatially
+Correlated Diseases and Exposure Data," in Bayesian Statistics 6, eds. J.M. Bernardo et al., Oxford: Oxford
+University Press, pp. 131-156.<person-group>
+                     <string-name>
+                     <surname>Best</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Models for Spatially Correlated Diseases and Exposure Data</comment>
+               <fpage>131</fpage>
+               <source>Bayesian Statistics 6</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e321a1310">
+               
+               <mixed-citation id="d2000921e325" publication-type="book">
+Cancer Surveillance and Control Program (1997) "Case Completeness and Data Quality Audit: Minnesota Cancer
+Surveillance System 1994-1995," Technical report, Minnesota Department of Health.<person-group>
+                     <string-name>
+                     <surname>Cancer Surveillance and Control Program</surname>
+                  </string-name>
+                  </person-group>
+               <source>Case Completeness and Data Quality Audit: Minnesota Cancer Surveillance System 1994-1995</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e350a1310">
+               
+               <mixed-citation id="d2000921e354" publication-type="journal">
+Cowles, M.K. (2002), "MCMC Sampler Convergence Rates for Hierarchical Normal Linear Models: A Simulation
+Approach," Statistics and Computing, 12, 377-389.<person-group>
+                     <string-name>
+                     <surname>Cowles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>377</fpage>
+               <volume>12</volume>
+               <source>Statistics and Computing</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e386a1310">
+               
+               <mixed-citation id="d2000921e390" publication-type="journal">
+(2003), "Efficient Model-Fitting and Model-Comparison for High-Dimensional Bayesian Geostatistical
+Models," Journal of Statistical Planning and Inference, 112, 221-239.<person-group>
+                     <string-name>
+                     <surname>Cowles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>112</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e422a1310">
+               
+               <mixed-citation id="d2000921e426" publication-type="journal">
+Eberly, L.E., and Carlin, B.P. (2000), "Identifiability and Convergence Issues for Markov Chain Monte Carlo
+Fitting of Spatial Models," Statistics in Medicine, 19, 2279-2294.<person-group>
+                     <string-name>
+                     <surname>Eberly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2279</fpage>
+               <volume>19</volume>
+               <source>Statistics in Medicine</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e458a1310">
+               
+               <mixed-citation id="d2000921e462" publication-type="journal">
+Gelfand, A., Sahu, S., and Carlin, B.P. (1995), "Efficient Parameterizations for Normal Linear Mixed Models,"
+Biometrika, 82, 479-488.<object-id pub-id-type="doi">10.2307/2337527</object-id>
+               <fpage>479</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e479a1310">
+               
+               <mixed-citation id="d2000921e483" publication-type="journal">
+Geyer, C.J. (1992), "Practical Markov Chain Monte Carlo," Statistical Science, 7, 473-483.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e496a1310">
+               
+               <mixed-citation id="d2000921e500" publication-type="journal">
+Geyer, C.J., and Thompson, E.A. (1995) "Annealing Markov Chain Monte Carlo with Applications to Ancestral
+Inference," Journal of the American Statistical Association, 90, 909-920.<object-id pub-id-type="doi">10.2307/2291325</object-id>
+               <fpage>909</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e516a1310">
+               
+               <mixed-citation id="d2000921e520" publication-type="other">
+Haran, M. (2003), "Efficient Perfect and MCMC Sampling Methods for Bayesian Spatial and Components of Vari-
+ance Models," Unpublished Ph.D. dissertation, School of Statistics and Division of Biostatistics, University
+of Minnesota.</mixed-citation>
+            </ref>
+            <ref id="d2000921e533a1310">
+               
+               <mixed-citation id="d2000921e537" publication-type="journal">
+Hodges, J.S. (1998) "Some Algebra and Geometry for Hierarchical Models, Applied to Diagnostics" (with
+discussion), Journal of the Royal Statistical Society, Ser. B, 60, 497-36.<person-group>
+                     <string-name>
+                     <surname>Hodges</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>497</fpage>
+               <volume>60</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e569a1310">
+               
+               <mixed-citation id="d2000921e573" publication-type="book">
+Hodges, J.S., and Carlin, B.P. (2001), "A Note on the Precision of the Conditionally Autoregressive Prior in
+Spatial Models," Research Report 2001-024, Division of Biostatistics, University of Minnesota.<person-group>
+                     <string-name>
+                     <surname>Hodges</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Note on the Precision of the Conditionally Autoregressive Prior in Spatial Models</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e598a1310">
+               
+               <mixed-citation id="d2000921e602" publication-type="journal">
+Kass, R.E., Carlin, B.P., Gelman, A., and Neal, R. (1998), "Markov Chain Monte Carlo in Practice: A Roundtable
+Discussion," The American Statistician, 52, 93-100.<person-group>
+                     <string-name>
+                     <surname>Kass</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>52</volume>
+               <source>The American Statistician</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e635a1310">
+               
+               <mixed-citation id="d2000921e639" publication-type="journal">
+Knorr-Held, L., and Rue, H. (2002), "On Block Updating in Markov Random Field Models for Disease Mapping,"
+to appear in Scandinavian Journal of Statistics.<person-group>
+                     <string-name>
+                     <surname>Knorr-Held</surname>
+                  </string-name>
+                  </person-group>
+               <source>Scandinavian Journal of Statistics</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e664a1310">
+               
+               <mixed-citation id="d2000921e668" publication-type="journal">
+Liu, J.S. (1994), "The Collapsed Gibbs Sampler in Bayesian Computations with Applications to a Gene Regulation
+Problem," Journal of the American Statistical Association, 89, 958-966.<object-id pub-id-type="doi">10.2307/2290921</object-id>
+               <fpage>958</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e684a1310">
+               
+               <mixed-citation id="d2000921e688" publication-type="book">
+Liu, J.S., and Sabatti, C. (1999), "Simulated Sintering: Markov Chain Monte Carlo with Spaces of Varying
+Dimensions," in Bayesian Statistics 6, eds. J. M. Bernardo et al., Oxford: Oxford University Press, pp.
+389-413.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulated Sintering: Markov Chain Monte Carlo with Spaces of Varying Dimensions</comment>
+               <fpage>389</fpage>
+               <source>Bayesian Statistics 6</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e723a1310">
+               
+               <mixed-citation id="d2000921e727" publication-type="journal">
+Liu, J.S., Wong, W.H., and Kong, A. (1994), "Covariance Structure of the Gibbs Sampler with Applications to the
+Comparisons of Estimators and Augmentation Schemes," Journal of the American Statistical Association,
+89, 958-966.<object-id pub-id-type="doi">10.2307/2290921</object-id>
+               <fpage>958</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e746a1310">
+               
+               <mixed-citation id="d2000921e750" publication-type="journal">
+Neal, R.M. (1996), "Sampling From Multimodal Distributions Using Tempered Transitions," Statistics and Com-
+puting, 6, 353-366.<person-group>
+                     <string-name>
+                     <surname>Neal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>353</fpage>
+               <volume>6</volume>
+               <source>Statistics and Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e782a1310">
+               
+               <mixed-citation id="d2000921e786" publication-type="journal">
+Roberts, G., and Sahu, S. (1997), "Updating Schemes, Correlation Structure, Blocking and Parameterization for
+the Gibbs Sampler," Journal of the Royal Statistical Society, Series B, 59, 291-317.<person-group>
+                     <string-name>
+                     <surname>Roberts</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>291</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e819a1310">
+               
+               <mixed-citation id="d2000921e823" publication-type="journal">
+Rue, H. (2001), "Fast Sampling of Gaussian Markov Random Fields," Journal of the Royal Statistical Society,
+Series B, 63, 325-338.<person-group>
+                     <string-name>
+                     <surname>Rue</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>325</fpage>
+               <volume>63</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e855a1310">
+               
+               <mixed-citation id="d2000921e859" publication-type="journal">
+Sargent, D.J., Hodges, J.S., and Carlin, B.P. (2000), "Structured Markov Chain Monte Carlo," Journal of
+Computational and Graphical Statistics, 9, 217-234.<object-id pub-id-type="doi">10.2307/1390651</object-id>
+               <fpage>217</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000921e875a1310">
+               
+               <mixed-citation id="d2000921e879" publication-type="journal">
+Waller, L.A., Carlin, B.P., Xia, H., and Gelfand, A.E. (1997), "Hierarchical Spatio-Temporal Mapping of Disease
+Rates," Journal of the American Statistical Association, 92, 607-617.<object-id pub-id-type="doi">10.2307/2965708</object-id>
+               <fpage>607</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

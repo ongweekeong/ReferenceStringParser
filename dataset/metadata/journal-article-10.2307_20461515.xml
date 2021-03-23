@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i20461513</issue-id>
+         <article-id pub-id-type="jstor">20461515</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-007-9022-1</article-id>
+         <title-group>
+            <article-title>Improving Phrase-Based Statistical Machine Translation with Morphosyntactic Transformation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Thai Phuong</given-names>
+                  <surname>Nguyen</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Akira</given-names>
+                  <surname>Shimazu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>147</fpage>
+         <lpage>166</lpage>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2007 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/20461515"/>
+         
+         
+         <abstract>
+            <p>We present a phrase-based statistical machine translation approach which uses linguistic analysis in the preprocessing phase. The linguistic analysis includes morphological transformation and syntactic transformation. Since the word-order problem is solved using syntactic transformation, there is no reordering in the decoding phase. For morphological transformation, we use hand-crafted transformational rules. For syntactic transformation, we propose a transformational model based on a probabilistic context-free grammar. This model is trained using a bilingual corpus and a broad-coverage parser of the source language. This approach is applicable to language pairs in which the target language is poor in resources. We considered translation from English to Vietnamese and from English to French. Our experiments showed significant BLEU-score improvements in comparison with Pharaoh, a state-of-the-art phrase-based SMT system.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Phrase-based statistical MT</kwd>
+            <kwd>Reordering</kwd>
+            <kwd>Preprocessing</kwd>
+            <kwd>Morphological transformation</kwd>
+            <kwd>Syntactic transformation</kwd>
+            <kwd>Pharaoh decoder</kwd>
+            <kwd>BLEU score</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d2397588e181a1310">
+               <label>1</label>
+               
+               <p>
+               <mixed-citation id="d2397588e188" publication-type="other">
+Marcus et al. 1993</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d2397588e195a1310">
+               <label>2</label>
+               
+               <p>
+               <mixed-citation id="d2397588e202" publication-type="other">
+Goldwater and McClosky 2005</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d2397588e209a1310">
+               <label>3</label>
+               
+               <p>
+               <mixed-citation id="d2397588e216" publication-type="other">
+Brown et al. (1993)</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d2397588e223a1310">
+               <label>7</label>
+               
+               <p>
+               <mixed-citation id="d2397588e230" publication-type="other">
+Collins 1999</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d2397588e238a1310">
+               <label>10</label>
+               
+               <p>
+               <mixed-citation id="d2397588e245" publication-type="other">
+Fox (2002)</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d2397588e251" publication-type="other">
+Knight and Graehl (2005)</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d2397588e258a1310">
+               <label>12</label>
+               
+               <p>
+               <mixed-citation id="d2397588e265" publication-type="other">
+Collins et al. (2005).</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2397588e281a1310">
+               
+               <mixed-citation id="d2397588e285" publication-type="other">
+Al-Onaizan Y, Curin J, Jahr M, Knight K, Lafferty J, Melamed D, Och F-J, Purdy D, Smith NA, Yarowsky D
+(1999) Statistical machine translation. Final Report, JHU Summer Workshop 1999, Johns Hopkins
+University, Baltimore, MD</mixed-citation>
+            </ref>
+            <ref id="d2397588e298a1310">
+               
+               <mixed-citation id="d2397588e302" publication-type="other">
+Bikel DM (2004) Intricacies of Collins' parsing model. Comput Ling 30:479-511</mixed-citation>
+            </ref>
+            <ref id="d2397588e309a1310">
+               
+               <mixed-citation id="d2397588e313" publication-type="other">
+Brown PF, Delia Pietra SA, Delia Pietra VJ, Mercer RL (1993) The mathematics of statistical machine
+translation. Comput Ling 22:39-69</mixed-citation>
+            </ref>
+            <ref id="d2397588e323a1310">
+               
+               <mixed-citation id="d2397588e327" publication-type="other">
+Charniak E (2000) A maximum-entropy-inspired parser. In: 1st Meeting of the North American Chapter of
+the Association for Computational Linguistics, Seattle, Washington, pp 132-139</mixed-citation>
+            </ref>
+            <ref id="d2397588e338a1310">
+               
+               <mixed-citation id="d2397588e342" publication-type="other">
+Charniak E, Knight K, Yamada K (2003) Syntax-based language models for statistical machine translation.
+In: Summit MT IX: Proceedings of the Ninth Machine Translation Summit, New Orleans, USA, pp
+40-46</mixed-citation>
+            </ref>
+            <ref id="d2397588e355a1310">
+               
+               <mixed-citation id="d2397588e359" publication-type="other">
+Chiang D (2005) A hierarchical phrase-based model for statistical machine translation. In: 43rd Annual
+Meeting of the Association for Computational Linguistics, Ann Arbor, Michigan, pp 263-270</mixed-citation>
+            </ref>
+            <ref id="d2397588e369a1310">
+               
+               <mixed-citation id="d2397588e373" publication-type="other">
+Collins M (1999) Head-driven statistical models for natural language parsing. PhD thesis, University of
+Pennsylvania, Philadelphia, PA</mixed-citation>
+            </ref>
+            <ref id="d2397588e383a1310">
+               
+               <mixed-citation id="d2397588e387" publication-type="other">
+Collins M, Koehn P, Kučerová I (2005) Clause restructuring for statistical machine translation. In: 43rd
+Annual Meeting of the Association for Computational Linguistics, Ann Arbor, Michigan, pp 531-540</mixed-citation>
+            </ref>
+            <ref id="d2397588e397a1310">
+               
+               <mixed-citation id="d2397588e401" publication-type="other">
+Ding Y, Palmer M (2005) Machine translation using probabilistic synchronous dependency insertion gram-
+mars. In: 43rd Annual Meeting of the Association for Computational Linguistics, Ann Arbor, Michi-
+gan, pp 541-548</mixed-citation>
+            </ref>
+            <ref id="d2397588e414a1310">
+               
+               <mixed-citation id="d2397588e418" publication-type="other">
+Fox H (2002) Phrasal cohesion and statistical machine translation. In: Proceedings of the ACL-02 Con-
+ference on Empirical Methods in Natural Language Processing, (EMNLP-02), Philadelphia PA, pp
+304-311</mixed-citation>
+            </ref>
+            <ref id="d2397588e432a1310">
+               
+               <mixed-citation id="d2397588e436" publication-type="other">
+Goldwater S, McClosky D (2005) Improving statistical MT through morphological analysis. In: Proceed-
+ings of Human Language Technology Conference and Conference on Empirical Methods in Natural
+Language Processing, Vancouver BC, pp 676-683</mixed-citation>
+            </ref>
+            <ref id="d2397588e449a1310">
+               
+               <mixed-citation id="d2397588e453" publication-type="other">
+Johnson M (2002) A simple pattern-matching algorithm for recovering empty nodes and their antecedents.
+In: 40th Annual Meeting of the Association for Computational Linguistics, Philadelphia, Pennsylva-
+nia, pp 136-143</mixed-citation>
+            </ref>
+            <ref id="d2397588e466a1310">
+               
+               <mixed-citation id="d2397588e470" publication-type="other">
+Klein D, Manning CD (2003) Accurate unlexicalized parsing. In: 41st Annual Meeting of the Association
+for Computational Linguistics, Sapporo, Japan, pp 423-430</mixed-citation>
+            </ref>
+            <ref id="d2397588e480a1310">
+               
+               <mixed-citation id="d2397588e484" publication-type="other">
+Knight K, Graehl J (2005) An overview of probabilistic tree transducers for natural language process-
+ing. In: Gelbukh AF (ed) Computational linguistics and intelligent text processing, 6th international
+conference CICLing 2005, Mexico City, Mexico. Springer, Berlin, Germany, pp 1-24</mixed-citation>
+            </ref>
+            <ref id="d2397588e497a1310">
+               
+               <mixed-citation id="d2397588e501" publication-type="other">
+Koehn P (2004) Pharaoh: A beam search decoder for phrase-based statistical machine translation models.
+In: Frederking RE, Taylor KB (eds) Machine translation: From real users to research, 6th Conference
+of the Association for Machine Translation of the Americas, AMTA 2004, Washington DC. Springer,
+Berlin, pp 115-124</mixed-citation>
+            </ref>
+            <ref id="d2397588e517a1310">
+               
+               <mixed-citation id="d2397588e521" publication-type="other">
+Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. In: HLT-NAACL: Human Lan-
+guage Technology Conference of the North American Chapter of the Association for Computational
+Linguistics, Edmonton, Alberta, Canada, pp 127-133</mixed-citation>
+            </ref>
+            <ref id="d2397588e535a1310">
+               
+               <mixed-citation id="d2397588e539" publication-type="other">
+Lee Y-S (2004) Morphological analysis for statistical machine translation. In: HLT-NAACL 2004 Human
+Language Technology Conference of the North American Chapter of the Association for Compu-
+tational Linguistics, Boston, Massachusetts, Companion Volume: Short Papers, Student Research
+Workshop, Demonstrations, Tutorials Abstracts pp 57-60</mixed-citation>
+            </ref>
+            <ref id="d2397588e555a1310">
+               
+               <mixed-citation id="d2397588e559" publication-type="other">
+Lehmann EL (1986) Testing statistical hypotheses. 2. Springer, Berlin, Germany</mixed-citation>
+            </ref>
+            <ref id="d2397588e566a1310">
+               
+               <mixed-citation id="d2397588e570" publication-type="other">
+Marcu D, Wong W (2002) A phrase-based, joint probability model for statistical machine translation.
+In: Proceedings of the ACL-02 Conference on Empirical Methods in Natural Language Processing,
+(EMNLP-02), Philadelphia PA, pp 133-139</mixed-citation>
+            </ref>
+            <ref id="d2397588e583a1310">
+               
+               <mixed-citation id="d2397588e587" publication-type="other">
+Marcus MP, Santorini B, Marcinkiewicz MA (1993) Building a large annotated corpus of English: the Penn
+TreeBank. Comput Ling 19:313-330</mixed-citation>
+            </ref>
+            <ref id="d2397588e597a1310">
+               
+               <mixed-citation id="d2397588e601" publication-type="other">
+Melamed ID (2004) Statistical machine translation by parsing. In: 42nd Annual Meeting of the Association
+for Computational Linguistics, Barcelona, Spain, pp 653-660</mixed-citation>
+            </ref>
+            <ref id="d2397588e611a1310">
+               
+               <mixed-citation id="d2397588e615" publication-type="other">
+Nguyen TP, Nguyen VV, Le AC (2003) Vietnamese word segmentation using Hidden Markov Model. In:
+Proceedings of International Workshop for Computer, Information, and Communication Technologies
+in Korea and Vietnam, Hanoi, Vietnam, pp 13-17</mixed-citation>
+            </ref>
+            <ref id="d2397588e629a1310">
+               
+               <mixed-citation id="d2397588e633" publication-type="other">
+Nguyen TP, Shimazu A (2006) Improving phrase-based SMT with morpho-syntactic analysis and transfor-
+mation. In: AMTA 2006, Proceedings of the 7th Conference of the Association for Machine Translation
+of the Americas: Visions for the future of machine translation, Cambridge, Massachusetts, pp 138-147</mixed-citation>
+            </ref>
+            <ref id="d2397588e646a1310">
+               
+               <mixed-citation id="d2397588e650" publication-type="other">
+Niessen S, Ney H (2004) Statistical machine translation with scarce resources using morpho-syntactic
+information. Comput Ling 30:181-204</mixed-citation>
+            </ref>
+            <ref id="d2397588e660a1310">
+               
+               <mixed-citation id="d2397588e664" publication-type="other">
+Och FJ, Gildea D, Khudanpur S, Sarkar A, Yamada K, Fraser A, Kumar S, Shen L, Smith D, Eng K, Jain V,
+Jin Z, Radev D (2004) A smorgasbord of features for statistical machine translation. In: HLT-NAACL
+2004 Human Language Technology Conference of the North American chapter of the Association for
+Computational Linguistics, Boston, Massachusetts, pp 161-168</mixed-citation>
+            </ref>
+            <ref id="d2397588e680a1310">
+               
+               <mixed-citation id="d2397588e684" publication-type="other">
+Och FJ, Ney H (2000) Improved statistical alignment models. In: 38th Annual meeting of the association
+for computational linguistics. Hong Kong, China, pp 440-447</mixed-citation>
+            </ref>
+            <ref id="d2397588e694a1310">
+               
+               <mixed-citation id="d2397588e698" publication-type="other">
+Och FJ, Ney H (2004) The alignment template approach to statistical machine translation. Comput Ling
+30:417-449</mixed-citation>
+            </ref>
+            <ref id="d2397588e708a1310">
+               
+               <mixed-citation id="d2397588e712" publication-type="other">
+Papineni KA, Roukos S, Ward T, Zhu WJ (2001) Bleu: a method for automatic evaluation of machine trans-
+lation. Technical report RC22176 (W0109-022), IBM Research Division, Thomas J. Watson Research
+Center, Yorktown Heights, NY</mixed-citation>
+            </ref>
+            <ref id="d2397588e726a1310">
+               
+               <mixed-citation id="d2397588e730" publication-type="other">
+Pham NH, Nguyen LM, Le AC, Nguyen PT, Nguyen VV (2003) LVT: An English-Vietnamese machine
+translation system. In: First National Conference on Fundamental and Applied Research in Information
+Technology FAIR-03, Hanoi, Vietnam, pp 173-180</mixed-citation>
+            </ref>
+            <ref id="d2397588e743a1310">
+               
+               <mixed-citation id="d2397588e747" publication-type="other">
+Quirk C, Menezes A, Cherry C (2005) Dependency treelet translation: Syntactically informed phrasal SMT.
+In: 43rd Annual Meeting of the Association for Computational Linguistics, Ann Arbor, Michigan, pp
+271-279</mixed-citation>
+            </ref>
+            <ref id="d2397588e760a1310">
+               
+               <mixed-citation id="d2397588e764" publication-type="other">
+Shen L, Sarkar A, Och FJ (2004) Discriminative reranking for machine translation. In: HLT-NAACL 2004
+Human Language Technology Conference of the North American Chapter of the Association for
+Computational Linguistics, Boston, Massachusetts, pp 177-184</mixed-citation>
+            </ref>
+            <ref id="d2397588e777a1310">
+               
+               <mixed-citation id="d2397588e781" publication-type="other">
+Stolcke A (2002) SRILM-An extensible language modeling toolkit. In: International Conference on Spoken
+Language Processing, Denver, Colorado, pp 901-904</mixed-citation>
+            </ref>
+            <ref id="d2397588e791a1310">
+               
+               <mixed-citation id="d2397588e795" publication-type="other">
+Xia F, McCord M (2004) Improving a statistical MT system with automatically learned rewrite patterns.
+In: 20th International Conference on Computational Linguistics, Geneva, Switzerland, pp 508-514</mixed-citation>
+            </ref>
+            <ref id="d2397588e805a1310">
+               
+               <mixed-citation id="d2397588e809" publication-type="other">
+Yamada K, Knight K (2001) A syntax-based statistical translation model. In: Association for Computational
+Linguistics 39th Annual Meeting and 10th Conference of the European Chapter, Toulouse, France, pp
+523-529</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

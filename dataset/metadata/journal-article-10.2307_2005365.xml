@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">28</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">128</issue>
+         <issue-id>i334551</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005365</article-id>
+      
+         <title-group>
+            <article-title>Algebraic-Numerical Method for the Slightly Perturbed Harmonic Oscillator</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>A.</given-names>
+                  <surname>Nadeau</surname>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>J.</given-names>
+                  <surname>Guyard</surname>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>M. R.</given-names>
+                  <surname>Feix</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1974</year>
+         </pub-date>
+         <fpage>1057</fpage>
+         <lpage>1066</lpage>
+         <page-range>1057-1066</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1974 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005365"/>
+      
+      
+         <abstract>
+            <p>The solution of slightly perturbed harmonic oscillators can easily be obtained in the form of a series given by Poisson's method. However, this perturbation method leads to secular terms unbounded for large time (the time unit being the fundamental period of the harmonic oscillator), which prevent the use of finite series. The analytical elimination of such terms was first solved by Poincaré and, more recently, generalized by Krylov and Bogoliubov. Unfortunately, these methods are very difficult to handle and are not easily carried out for high orders. A numerical reinitialization method is combined here with the Poisson perturbation treatment to avoid the growth of secular terms and therefore to get the solution at any time. The advantages of such a method is that the analytical work can be carried to high orders keeping the step of numerical integration to a relatively large value (compared to a purely numerical method). This algorithm has been tested on the Mathieu equation. A method for the computation of the eigenvalues of this equation is given. By properly selecting the order of the perturbation and the time step of reinitialization, we can recover, at any order, all the effects of the slight perturbation (including all the unstable zones). Consequently, such a method is a useful intermediate between purely analytical and purely numerical algorithms.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>34C15</kwd>
+            <kwd>34B30</kwd>
+            <kwd>34E10</kwd>
+            <kwd>65L05</kwd>
+            <kwd>Nonlinear harmonic oscillator</kwd>
+            <kwd>Poisson perturbation method</kwd>
+            <kwd>secular terms</kwd>
+            <kwd>Krylov-Bogoliubov method</kwd>
+            <kwd>Mathieu equation</kwd>
+         </kwd-group>
+         <custom-meta-group>
+        
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>[Bibliography]</title>
+        <ref id="d737486e187a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d737486e194" publication-type="book">
+N. N. BOGOLIUBOV &amp; Y. A. MITROPOL'SKII, Asymptotic Methods in the Theory of
+Non-Linear Oscillations, Fizmatgiz, Moscow, 1958; English transl., Gordon and Breach, New York,
+1961. MR 20 #6812; 25 #5242.<person-group>
+                  <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <surname>Bogoliubov</surname>
+                  </string-name>
+               </person-group>
+               <source>Asymptotic Methods in the Theory of Non-Linear Oscillations</source>
+               <year>1961</year>
+            </mixed-citation>
+        </ref>
+        <ref id="d737486e223a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d737486e230" publication-type="book">
+S. CHANDRASEKHAR, The Plasma in a Magnetic Field (edited by R. K. M. Landshoff),
+Stanford Univ. Press, Palo Alto, Calif., 1958.<person-group>
+                  <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <surname>Chandrasekhar</surname>
+                  </string-name>
+               </person-group>
+               <source>The Plasma in a Magnetic Field</source>
+               <year>1958</year>
+            </mixed-citation>
+        </ref>
+        <ref id="d737486e255a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d737486e262" publication-type="journal">
+H. R. LEWIS, Jr., "Class of exact invariants for classical and quantum time-dependent
+harmonic oscillators," J. Mathematical Phys., v. 9, 1968, p. 1976.<person-group>
+                  <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <surname>Lewis</surname>
+                  </string-name>
+               </person-group>
+               <fpage>1976</fpage>
+               <volume>9</volume>
+               <source>J. Mathematical Phys.</source>
+               <year>1968</year>
+            </mixed-citation>
+        </ref>
+        <ref id="d737486e294a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d737486e301" publication-type="journal">
+J. GUYARD, A. NADEAU, G. BAUMANN &amp; M. R. FEIX, "Eigenvalues of the Hill equa-
+tion to any order in the adiabatic limit," J. Mathematical Phys., v. 12, 1971, pp. 488-492. MR 43
+#5825.<person-group>
+                  <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <surname>Guyard</surname>
+                  </string-name>
+               </person-group>
+               <fpage>488</fpage>
+               <volume>12</volume>
+               <source>J. Mathematical Phys.</source>
+               <year>1971</year>
+            </mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

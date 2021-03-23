@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i24736739</issue-id>
+         <article-id pub-id-type="jstor">24737287</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Lasso and Related Methodologies</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Learning Interactions via Hierarchical Group-Lasso Regularization</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Michael</given-names>
+                  <surname>Lim</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Trevor</given-names>
+                  <surname>Hastie</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>627</fpage>
+         <lpage>654</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737287"/>
+      
+      
+         <abstract>
+            <p>We introduce a method for learning pairwise interactions in a linear regression or logistic regression model in a manner that satisfies strong hierarchy: whenever an interaction is estimated to be nonzero, both its associated main effects are also included in the model. We motivate our approach by modeling pairwise interactions for categorical variables with arbitrary numbers of levels, and then show how we can accommodate continuous variables as well. Our approach allows us to dispense with explicitly applying constraints on the main effects and interactions for identifiability, which results in interpretable interaction models. We compare our method with existing approaches on both simulated and real data, including a genome-wide association study, all using our R package glinternet.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1334e190a1310">
+          
+            <mixed-citation id="d1334e194" publication-type="other">
+Bach, F. (2008), "Exploring Large Feature Spaces With Hierarchical Multiple Kernel Learning," in Advances
+in Neural Information Processing Systems (number 21), eds. D. Koller, D. Schuurmans, Y. Bengio, and L.
+Bottou, Cambridge, MA: MIT Press, pp. 105-112. [628]</mixed-citation>
+        </ref>
+        <ref id="d1334e207a1310">
+          
+            <mixed-citation id="d1334e211" publication-type="other">
+Beck, A., and Teboulle, M. (2009), "A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse
+Problems," SI AM Journal on Imaging Sciences, 2, 183-202. [651]</mixed-citation>
+        </ref>
+        <ref id="d1334e221a1310">
+          
+            <mixed-citation id="d1334e225" publication-type="other">
+Becker, S. R., Candes, E. J., and Grant, M. C. (2011), "Templates for Convex Cone Problems With Applications
+to Sparse Signal Recovery," Mathematical Programming Computation, 3, 165-218. [652]</mixed-citation>
+        </ref>
+        <ref id="d1334e235a1310">
+          
+            <mixed-citation id="d1334e239" publication-type="other">
+Bien, J., Taylor, J., and Tibshirani, R. (2013), "A Lasso for Hierarchical Interactions," The Annals of Statistics,
+41,1111-1141. [628,642]</mixed-citation>
+        </ref>
+        <ref id="d1334e250a1310">
+          
+            <mixed-citation id="d1334e254" publication-type="other">
+Chen, C., Schwender, H., Keith, J., Nunkesser, R., Mengersen, K, and Macrossan, P. (2011), "Methods for
+Identifying snp Interactions: A Review on Variations of Logic Regression, Random Forest and Bayesian
+Logistic Regression," IEEE/ACM Transactions on Computational Biology andBioinformatics, 8,1580-1591.
+[628]</mixed-citation>
+        </ref>
+        <ref id="d1334e270a1310">
+          
+            <mixed-citation id="d1334e274" publication-type="other">
+Freund, Y., and Schapire, R. E. (1995), "A Decision-Theoretic Generalization of on-Line Learning and an
+Application to Boosting," in Proceedings of the Second European Conference on Computational Learning
+Theory, EuroCOLT '95, London, UK: Springer-Verlag, pp. 23-37. [649]</mixed-citation>
+        </ref>
+        <ref id="d1334e287a1310">
+          
+            <mixed-citation id="d1334e291" publication-type="other">
+Friedman, J. H. (2001 ), "Greedy Function Approximation: A Gradient Boosting Machine," The Annals of Statistics,
+29, 1189-1232. [649]</mixed-citation>
+        </ref>
+        <ref id="d1334e301a1310">
+          
+            <mixed-citation id="d1334e305" publication-type="other">
+Jacob, L., Obozinski, G., and Vert, J.-P. (2009), "Group Lasso With Overlap and Graph Lasso," in Proceedings
+of the 26th Annual International Conference on Machine Learning, ICML '09, New York, NY: ACM, pp.
+433-440. [632]</mixed-citation>
+        </ref>
+        <ref id="d1334e318a1310">
+          
+            <mixed-citation id="d1334e322" publication-type="other">
+Koren, Y. (2009), "Collaborative Filtering With Temporal Dynamics," in Proceedings of the 15th ACM SIGKDD
+International Conference on Knowledge Discovery and Data Mining (KDD'09), pp. 447-456. [627]</mixed-citation>
+        </ref>
+        <ref id="d1334e332a1310">
+          
+            <mixed-citation id="d1334e336" publication-type="other">
+Miller, M., Lind, G., Li, N., and Jang, S.-Y. (2007), "Genetic Analysis Workshop 15: Simulation of a Complex
+Genetic Model for Rheumatoid Arthritis in Nuclear Families Including a Dense snp Map With Linkage
+Disequilibrium Between Marker Loci and Trait Loci," BMC Proceedings, 1-7, S4. [647]</mixed-citation>
+        </ref>
+        <ref id="d1334e350a1310">
+          
+            <mixed-citation id="d1334e354" publication-type="other">
+O'Donoghue, B., and Candes, E. (2012), "Adaptive Restart for Accelerated Gradient Schemes," Foundations of
+Computational Mathematics. [651]</mixed-citation>
+        </ref>
+        <ref id="d1334e364a1310">
+          
+            <mixed-citation id="d1334e368" publication-type="other">
+Radchenko, P., and James, G. (2010), "Variable Selection Using Adaptive Non-Linear Interaction Structures in
+High Dimensions," Journal of the American Statistical Association, 105, 1541-1553. [628]</mixed-citation>
+        </ref>
+        <ref id="d1334e378a1310">
+          
+            <mixed-citation id="d1334e382" publication-type="other">
+Rosasco, L., Santoro, M., Mosci, S., Verri, A., and Villa, S. (2010), "A Regularization Approach to Nonlinear
+Variable Selection," in AISTATS 2010 Proceedings (Vol. 9 of Journal of Machine Learning Research), pp.
+653-660. [628]</mixed-citation>
+        </ref>
+        <ref id="d1334e395a1310">
+          
+            <mixed-citation id="d1334e399" publication-type="other">
+Ruczinski, I., Kooperberg, C., and LeBlanc, M. (2003), "Logic Regression," Journal of Computational and
+Graphical Statistics, 12,475-511. [642]</mixed-citation>
+        </ref>
+        <ref id="d1334e409a1310">
+          
+            <mixed-citation id="d1334e413" publication-type="other">
+Scheffé, L. (1959), The Analysis of Variance, New York: Wiley. [635]</mixed-citation>
+        </ref>
+        <ref id="d1334e420a1310">
+          
+            <mixed-citation id="d1334e424" publication-type="other">
+Schwender, H., and Ickstadt, K. (2008), "Identification of snp Interactions Using Logic Regression," Biostatistics,
+9, 187-198. [627]</mixed-citation>
+        </ref>
+        <ref id="d1334e435a1310">
+          
+            <mixed-citation id="d1334e439" publication-type="other">
+Simon, N., Friedman, J., Hastie, T., and Tibshirani, R. (2013), "A Sparse-Group Lasso," Journal of Computational
+and Graphical Statistics, 22, 231-245. [652]</mixed-citation>
+        </ref>
+        <ref id="d1334e449a1310">
+          
+            <mixed-citation id="d1334e453" publication-type="other">
+Tibshirani, R. ( 1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Society,
+Series B, 58, 267-288. [628]</mixed-citation>
+        </ref>
+        <ref id="d1334e463a1310">
+          
+            <mixed-citation id="d1334e467" publication-type="other">
+Tibshirani, R., Bien, J., Friedman, J., Hastie, T., Simon, N., Taylor, J., and Tibshirani, R. J. (2012), "Strong
+Rules for Discarding Predictors in Lasso-Type Problems," Journal of the Royal Statistical Society, Series B,
+[628,640,641]</mixed-citation>
+        </ref>
+        <ref id="d1334e480a1310">
+          
+            <mixed-citation id="d1334e484" publication-type="other">
+Yuan, M., and Lin, Y. (2006), "Model Selection and Estimation in Regression With Grouped Variables," Journal
+of the Royal Statistical Society, Series B, 68,49-67. [628,631,651]</mixed-citation>
+        </ref>
+        <ref id="d1334e494a1310">
+          
+            <mixed-citation id="d1334e498" publication-type="other">
+Zhao, P., Rocha, G., and Yu, B. (2009), "Grouped and Hierarchical Model Selection Through Composite Absolute
+Penalties," The Annals of Statistics, 37, 3468-3497. [642]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

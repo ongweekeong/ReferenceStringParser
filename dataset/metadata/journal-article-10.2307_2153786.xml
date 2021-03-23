@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">215</issue>
+         <issue-id>i337671</issue-id>
+         <article-id pub-id-type="jstor">2153786</article-id>
+         
+         <title-group>
+            <article-title>Preconditioners for Nonconforming Discretizations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Peter</given-names>
+                  <surname>Oswald</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>923</fpage>
+         <lpage>941</lpage>
+         <page-range>923-941</page-range>
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153786"/>
+         
+         
+         <abstract>
+            <p>We prove an abstract norm equivalence for a two-level method, which allows us to reduce the construction of preconditioners for nonconforming finite element discretizations to known cases of conforming elements.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+            <kwd>65F35</kwd>
+            <kwd>65N22</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Nonconforming finite elements</kwd>
+            <kwd>preconditioned iterative methods</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1000204e179a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1000204e186" publication-type="book">
+R. E. Bank, PLTMG - A software package for solving elliptic partial differential equations.
+User's guide 6.0, SIAM, Philadelphia, 1990. CMP 90:12<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <source>PLTMG - A software package for solving elliptic partial differential equations</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e211a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1000204e218" publication-type="journal">
+R. E. Bank, A. Weiser, Some a posteriori error estimators for elliptic partial differential
+equations, Math. Comp.44 (1985), 283-301. MR 86g:65207<object-id pub-id-type="doi">10.2307/2007953</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e234a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1000204e241" publication-type="journal">
+R. E. Bank, B. D. Welfert, A posteriori error estimates for the Stokes problem, SIAM J.
+Numer. Anal.28 (1991), 591-623. MR 92a:65284<object-id pub-id-type="jstor">10.2307/2157720</object-id>
+               <fpage>591</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e257a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1000204e264" publication-type="journal">
+F. A. Bornemann, H. Yserentant, A basic norm equivalence for the theory of multilevel meth-
+ods, Numer. Math.64 (1993), 455-476. MR 94b:65155<person-group>
+                     <string-name>
+                     <surname>Bornemann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>455</fpage>
+               <volume>64</volume>
+               <source>Numer. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e297a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1000204e304" publication-type="book">
+D. Braess, Finite Elemente, Springer, Berlin, 1992.<person-group>
+                     <string-name>
+                     <surname>Braess</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Elemente</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e326a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1000204e333" publication-type="journal">
+D. Braess, R. Verfiirth, Multigrid methods for nonconforming finite element methods, SIAM
+J. Numer. Anal.27 (1990), 979-986. MR 91j:65164<object-id pub-id-type="jstor">10.2307/2157692</object-id>
+               <fpage>979</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e349a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1000204e356" publication-type="book">
+J. H. Bramble, Multigrid methods, Pitman Research Notes in Mathematical Sciences, vol. 294,
+Longman Sci.&amp;Techn., Harlow, Essex, 1993. MR 95b:65002<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid methods</comment>
+               <volume>294</volume>
+               <source>Pitman Research Notes in Mathematical Sciences</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e388a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1000204e395" publication-type="journal">
+J. H. Bramble, J. E. Pasciak, J. Xu, The analysis of multigrid algorithms with nonnested
+spaces or noninherited quadratic forms, Math. Comp.56 (1991), 1-34. MR 91h:65159<object-id pub-id-type="doi">10.2307/2008527</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e411a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1000204e418" publication-type="journal">
+J. H. Bramble, J. E. Pasciak, J. Xu, Parallel multilevel preconditioners, Math. Comp.55
+(1990), 1-22. MR 90k:65170<object-id pub-id-type="doi">10.2307/2008789</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e434a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1000204e441" publication-type="journal">
+S. Brenner, An optimal-order multigrid method for P1 nonconforming finite elements, Math.
+Comp.52 (1989), 1-15. MR 89f:65119<object-id pub-id-type="doi">10.2307/2008649</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e458a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1000204e465" publication-type="journal">
+S. Brenner, An optimal-order nonconforming multigrid method for the biharmonic equation,
+SIAM J.Numer. Anal.26 (1989), 1124-1138. MR 90i:65189<object-id pub-id-type="jstor">10.2307/2157919</object-id>
+               <fpage>1124</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e481a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1000204e488" publication-type="journal">
+S. Brenner, A nonconforming multigrid method for the stationary Stokes equations, Math.
+Comp.55 (1990), 411-437. MR 91d:65167<object-id pub-id-type="doi">10.2307/2008426</object-id>
+               <fpage>411</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e504a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1000204e511" publication-type="conference">
+S. Brenner, Multigrid methods for nonconforming finite elements, in Proc. Fourth Copper
+Mountain Conf. on Multigrid Methods (J. Mandel et al., eds.), SIAM, Philadelphia, 1989, pp.
+54-65. MR 91h:65189<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid methods for nonconforming finite elements</comment>
+               <fpage>54</fpage>
+               <source>Proc. Fourth Copper Mountain Conf. on Multigrid Methods</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e546a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1000204e553" publication-type="journal">
+S. Brenner, A multigrid algorithm for the lowest-order Raviart- Thomas mixed triangular finite
+element method, SIAM J. Numer. Anal., 29 (1992), 647-678. MR 93j:65175<object-id pub-id-type="jstor">10.2307/2158272</object-id>
+               <fpage>647</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e569a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1000204e576" publication-type="book">
+S. Brenner, Two-level additive Schwarz preconditioners for nonconforming finite element
+methods, preprint, Univ. of South Carolina, 1993.<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Two-level additive Schwarz preconditioners for nonconforming finite element methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e601a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1000204e608" publication-type="book">
+S. Brenner, A two-level additive Schwarz preconditioner for nonconforming plate elements,
+preprint, Univ. of South Carolina, 1993.<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>A two-level additive Schwarz preconditioner for nonconforming plate elements</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e634a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1000204e641" publication-type="book">
+S. Brenner, A two-level additive Schwarz preconditioner for macroelement approximations of
+the plate bending problem, preprint, Univ. of South Carolina, 1993.<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>A two-level additive Schwarz preconditioner for macroelement approximations of the plate bending problem</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e666a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1000204e673" publication-type="book">
+F. Brezzi, M. Fortin, Mixed and hybrid finite element methods, Springer, Berlin, 1991. MR
+92d:65187<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixed and hybrid finite element methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e698a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1000204e705" publication-type="book">
+P. G. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e730a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1000204e737" publication-type="book">
+P. G. Ciarlet, Basic error estimates for elliptic problems, in Handbook of Numerical Analysis,
+vol. II: Finite element methods (part 1) (P. G. Ciarlet, J.-L. Lions, eds.), North Holland,
+Amsterdam, 1991, pp. 17-351. CMP 91:14<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Basic error estimates for elliptic problems</comment>
+               <fpage>17</fpage>
+               <source>Handbook of Numerical Analysis, vol. II: Finite element methods (part 1)</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e772a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1000204e779" publication-type="conference">
+L. C. Cowsar, Domain decomposition methods for nonconforming finite element spaces of
+Lagrange type, in Proc. 6th Copper Mountain Conference on Multigrid Methods (N. D. Melson
+et al., eds.), NASA Conf. Publ. 3224, 1993, pp. 93-109.<person-group>
+                     <string-name>
+                     <surname>Cowsar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition methods for nonconforming finite element spaces of Lagrange type</comment>
+               <fpage>93</fpage>
+               <source>Proc. 6th Copper Mountain Conference on Multigrid Methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e814a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1000204e821" publication-type="journal">
+M. Crouzeix, P. A. Raviart, Conforming and nonconforming finite element methods for solv-
+ing the stationary Stokes equation, RAIRO Anal. Numér.7, R-3 (1973), 33-76. MR 49:8401<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>7</volume>
+               <source>RAIRO Anal. Numér.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e854a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1000204e861" publication-type="journal">
+W.Dahmen, A.Kunoth, Multilevel preconditioning, Numer. Math.63 (1992), 315-344. MR
+93j:65065<person-group>
+                     <string-name>
+                     <surname>Dahmen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>63</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e893a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1000204e900" publication-type="journal">
+W. Dahmen, P. Oswald, X.-Q. Shi, C' -hierarchical bases, J. Comp. Appl. Math.51 (1994),
+37-56. MR 95e:65098<person-group>
+                     <string-name>
+                     <surname>Dahmen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>37</fpage>
+               <volume>51</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e932a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1000204e939" publication-type="journal">
+P. Deuflhard, P. Leinen, H. Yserentant, Concepts of an adaptive finite element code, IMPACT,
+Comput. Sci. Engng.1 (1989), 3-35.<person-group>
+                     <string-name>
+                     <surname>Deuflhard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>1</volume>
+               <source>IMPACT, Comput. Sci. Engng.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e971a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1000204e978" publication-type="journal">
+W. Dörfler, Hierarchical bases for elliptic problems, Math.Comp.58 (1992), 513-529. MR
+92f:65134<person-group>
+                     <string-name>
+                     <surname>Dörfler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>513</fpage>
+               <volume>58</volume>
+               <source>Math.Comp.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1010a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1000204e1017" publication-type="book">
+W. Dörfler, A note on the preconditioned by Bramble, Pasciak, and Xu, preprint, Inst. fur
+Angew. Math., Univ. Zurich, 1991.<person-group>
+                     <string-name>
+                     <surname>Dörfler</surname>
+                  </string-name>
+                  </person-group>
+               <source>A note on the preconditioned by Bramble, Pasciak, and Xu</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1042a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1000204e1049" publication-type="book">
+V. Girault, P. A. Raviart, Finite element methods for Navier-Stokes equations, Springer,
+Berlin, 1986. MR 88b:65129<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element methods for Navier-Stokes equations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1075a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1000204e1082" publication-type="journal">
+M. Griebel, P. Oswald, On the abstract theory of additive and multiplicative Schwarz algo-
+rithms, Numer. Math.70 (1995),163-180. CMP 95:10<person-group>
+                     <string-name>
+                     <surname>Griebel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>70</volume>
+               <source>Numer. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1114a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1000204e1121" publication-type="journal">
+M. R. Hanisch, Multigrid preconditioning for the biharmonic Dirichlet problem, SIAM J.
+Numer. Anal.30 (1993), 184-214. MR 94e:65131<object-id pub-id-type="jstor">10.2307/2158102</object-id>
+               <fpage>184</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1137a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1000204e1144" publication-type="book">
+R. H. W. Hoppe, B. Wohlmuth, Element-oriented and edge-oriented error estimators for
+nonconforming finite element methods, preprint, TU Munich, 1992.<person-group>
+                     <string-name>
+                     <surname>Hoppe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Element-oriented and edge-oriented error estimators for nonconforming finite element methods</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1169a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1000204e1176" publication-type="book">
+G. A. Mohr, Finite elements for solids, fluids, and optimization, Oxford Univ. Press, Oxford,
+1992. MR 95f: 65003<person-group>
+                     <string-name>
+                     <surname>Mohr</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite elements for solids, fluids, and optimization</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1201a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1000204e1208" publication-type="conference">
+S. V. Nepomnyaschikh, Decomposition and fictitious domain methods for elliptic boundary
+value problems, in 5th. Conf. on Domain Decomposition Methods for Partial Differential
+Equations (T. F. Chan et al., eds.), SIAM, Philadelphia, 1992, pp. 62-72. MR 93i:65116<person-group>
+                     <string-name>
+                     <surname>Nepomnyaschikh</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Decomposition and fictitious domain methods for elliptic boundary value problems</comment>
+               <fpage>62</fpage>
+               <source>5th. Conf. on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1243a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1000204e1250" publication-type="journal">
+S. V. Nepomnyaschikh, Fictitious components and subdomain alternating methods, Sov. J.
+Numer. Anal. Math. Modelling5 (1990), 53-68.<person-group>
+                     <string-name>
+                     <surname>Nepomnyaschikh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>5</volume>
+               <source>Sov. J. Numer. Anal. Math. Modelling</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1283a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1000204e1290" publication-type="journal">
+P. Oswald, On a hierarchical basis multilevel method with nonconforming P1 elements, Nu-
+mer. Math.62 (1992), 189-212. MR 93b:65059<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>189</fpage>
+               <volume>62</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1322a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1000204e1329" publication-type="journal">
+P. Oswald, On a BPX-preconditioner for P1 elements, Computing51 (1993), 125-133. MR
+94k:65064<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>125</fpage>
+               <volume>51</volume>
+               <source>Computing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1361a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1000204e1368" publication-type="journal">
+P. Oswald, Hierarchical conforming finite element methods for the biharmonic equation, SIAM
+J. Numer. Anal.29 (1992), 1610-1625. MR 93k:65098<object-id pub-id-type="jstor">10.2307/2158260</object-id>
+               <fpage>1610</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1384a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1000204e1391" publication-type="book">
+P. Oswald, Multilevel finite element approximation: theory and applications, Teubner Skripten
+zur Numerik, Teubner, Stuttgart, 1994. CMP 95:06<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multilevel finite element approximation: theory and applications</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1416a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1000204e1423" publication-type="journal">
+P. Oswald, Multilevel preconditioners for discretizations of the biharmonic equation by rect-
+angular finite elements, J. Numer. Lin. Alg. Appl.2 (1995) (to appear).<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <volume>2</volume>
+               <source>J. Numer. Lin. Alg. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1452a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1000204e1459" publication-type="journal">
+P. Peisker, D. Braess, A conjugate gradient method and a multigrid algorithm for Morley's
+finite element approximation of the biharmonic equation, Numer. Math.50 (1987), 567-586.
+MR 88e:65147<person-group>
+                     <string-name>
+                     <surname>Peisker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1495a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1000204e1502" publication-type="journal">
+P. Peisker, W. Rust, E. Stein, Iterative solution methods for plate bending problems: multi-
+grid and preconditioned cg algorithms, SIAM J. Numer. Anal.27 (1990), 1450-1465. MR
+91h:73055<object-id pub-id-type="jstor">10.2307/2157763</object-id>
+               <fpage>1450</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1521a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1000204e1528" publication-type="journal">
+J. Pitkäranta, Analysis of some low-order finite element schemes for Reissner-Mindlin and
+Kirchhoff plates, Numer. Math.53 (1988), 237-254. MR 89f:65126<person-group>
+                     <string-name>
+                     <surname>Pitkäranta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>53</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1560a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1000204e1567" publication-type="conference">
+M. Sarkis, Two-level Schwarz methods for nonconforming finite elements and discontinuous
+coefficients, in Proc. 6th Copper Mountain Conference on Multigrid Methods (N. D. Melson
+et al., eds.), NASA Conf. Publ. 3224, 1993, pp. 543-565.<person-group>
+                     <string-name>
+                     <surname>Sarkis</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Two-level Schwarz methods for nonconforming finite elements and discontinuous coefficients</comment>
+               <fpage>543</fpage>
+               <source>Proc. 6th Copper Mountain Conference on Multigrid Methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1602a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1000204e1609" publication-type="book">
+P. Trouve, Three basic nonconforming approximations of thin plates and shells: the semiloof,
+the delinquent, and the DKT finite element methods, in The Mathematics of Finite Elements
+and Applications VII MAFELAP 1990 (J. R. Whiteman, ed.), Acad. Press, London, 1991,
+pp. 459-469. CMP 92:03<person-group>
+                     <string-name>
+                     <surname>Trouve</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Three basic nonconforming approximations of thin plates and shells: the semiloof, the delinquent, and the DKT finite element methods</comment>
+               <fpage>459</fpage>
+               <source>The Mathematics of Finite Elements and Applications VII MAFELAP 1990</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1647a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1000204e1654" publication-type="journal">
+P. S. Vassilevski, J. Wang, An application of the abstract multilevel theory to nonconforming
+finite element methods, SIAM J. Numer. Anal.32 (1995), 235-248. CMP 95:07<object-id pub-id-type="jstor">10.2307/2158294</object-id>
+               <fpage>235</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1670a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1000204e1677" publication-type="journal">
+R. Verfürth, A posteriori error estimators for the Stokes equations, Numer. Math.55 (1989),
+309-325. MR 90d:65187<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>55</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1710a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d1000204e1717" publication-type="journal">
+J. Xu, Iterative methods by space decomposition and subspace correction, SIAM Review34
+(1992), 581-613. MR 93k:65029<object-id pub-id-type="jstor">10.2307/2132629</object-id>
+               <fpage>581</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1733a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d1000204e1740" publication-type="conference">
+J. Xu, Convergence estimates for some multigrid algorithms, in III. Int. Symp. on Domain
+Decomposition Methods for Partial Differential Equations (T. F. Chan, R. Glowinski, J.
+Periaux, 0. B. Widlund, eds.), SIAM, Philadelphia, 1990, pp. 174-187. MR 91f:65194<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Convergence estimates for some multigrid algorithms</comment>
+               <fpage>174</fpage>
+               <source>III. Int. Symp. on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1775a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d1000204e1782" publication-type="book">
+H. Yserentant, Old and new convergence proofs for multigrid methods, Acta Numerica, 1993,
+Cambr. Univ. Press, Cambridge, 1993, pp. 285-326. MR 94i:65128<person-group>
+                     <string-name>
+                     <surname>Yserentant</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Old and new convergence proofs for multigrid methods</comment>
+               <fpage>285</fpage>
+               <source>Acta Numerica</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000204e1814a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d1000204e1821" publication-type="journal">
+X. Zhang, Multilevel Schwarz methods for the biharmonic Dirichlet problem, SIAM J. Sci.
+Comput.15 (1994), 621-644. CMP 94:11<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>621</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">220</issue>
+         <issue-id>i337676</issue-id>
+         <article-id pub-id-type="jstor">2153682</article-id>
+         
+         <title-group>
+            <article-title>A Subspace Limited Memory Quasi-Newton Algorithm for Large-Scale Nonlinear Bound Constrained Optimization</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Q.</given-names>
+                  <surname>Ni</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Y.</given-names>
+                  <surname>Yuan</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>1509</fpage>
+         <lpage>1520</lpage>
+         <page-range>1509-1520</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153682"/>
+         
+         
+         <abstract>
+            <p>In this paper we propose a subspace limited memory quasi-Newton method for solving large-scale optimization with simple bounds on the variables. The limited memory quasi-Newton method is used to update the variables with indices outside of the active set, while the projected gradient method is used to update the active variables. The search direction consists of three parts: a subspace quasi-Newton direction, and two subspace gradient and modified gradient directions. Our algorithm can be applied to large-scale problems as there is no need to solve any subproblems. The global convergence of the method is proved and some numerical results are also given.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65K05</kwd>
+            <kwd>90C06</kwd>
+            <kwd>90C30</kwd>
+            <kwd>Subspace quasi-Newton method</kwd>
+            <kwd>limited memory</kwd>
+            <kwd>projected search</kwd>
+            <kwd>large-scale problem</kwd>
+            <kwd>bound constrained optimization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1384286e160a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1384286e167" publication-type="book">
+R.H. Byrd, P. Lu, J. Nocedal and C. Zhu, A limited memory algorithm for bound constrained
+optimization, Report NAM-8, EECS Department, Northwestern University, 1994.<person-group>
+                     <string-name>
+                     <surname>Byrd</surname>
+                  </string-name>
+                  </person-group>
+               <source>A limited memory algorithm for bound constrained optimization</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e192a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1384286e199" publication-type="journal">
+R.H. Byrd, J. Nocedal and B. Schnabel, Representation of quasi-Newton matrices and their
+use in limited memory methods, Math. Prog., Vol. 63, (1994), 129-156. MR 95a:90116<person-group>
+                     <string-name>
+                     <surname>Byrd</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>63</volume>
+               <source>Math. Prog.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e231a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1384286e238" publication-type="book">
+I. Bongartz, A.R. Conn, N. Gould, and Ph.L. Toint, CUTE: constrained and unconstrained
+testing environment, Research Report, IBM T.J. Watson Research Center, Yorktown, USA.<person-group>
+                     <string-name>
+                     <surname>Bongartz</surname>
+                  </string-name>
+                  </person-group>
+               <source>CUTE: constrained and unconstrained testing environment</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e260a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1384286e267" publication-type="journal">
+A.R. Conn, N.I.M. Gould and Ph.L. Toint, Global convergence of a class of trust region
+algorithm for optimization with simple bounds, SIAM J. Numer. Anal.25 (1988), 433-460.
+MR 89h:90192<object-id pub-id-type="jstor">10.2307/2157325</object-id>
+               <fpage>433</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e287a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1384286e294" publication-type="journal">
+A.R. Conn, N.I.M. Gould and Ph.L. Toint, Testing a class of methods for solving minimiza-
+tion problems with simple bounds on the variables, Math. Comp.50 (1988), 399-430. MR
+89e:65061<object-id pub-id-type="doi">10.2307/2008615</object-id>
+               <fpage>399</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e313a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1384286e320" publication-type="book">
+A.R. Conn, N.I.M. Gould and Ph.L. Toint, LANCELOT: a Fortran package for large-scale
+nonlinear optimization (Release A), Number 17 in Springer Series in Computational Mathe-
+matics, Springer Verlag, Heidelberg, New York, 1992. CMP 93:12<person-group>
+                     <string-name>
+                     <surname>Conn</surname>
+                  </string-name>
+                  </person-group>
+               <source>LANCELOT: a Fortran package for large-scale nonlinear optimization (Release A)</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e349a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1384286e356" publication-type="book">
+R. Fletcher, Practical Methods of Optimization, John Wiley and Sons, Chichester, 1987. MR
+89j:65050<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <source>Practical Methods of Optimization</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e381a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1384286e388" publication-type="other">
+P. Lu, Bound constrained nonlinear optimization and limited memory methods, Ph.D. Thesis,
+Dept. of Electrical Engineering and Computer Science, Northwestern University, Evanston,
+Illinois, 1992.</mixed-citation>
+            </ref>
+            <ref id="d1384286e401a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1384286e408" publication-type="journal">
+J.J. Moré and G. Toraldo, On the solution of large quadratic programming problems with
+bound constraints, SIAM J. Optimization1 (1991), 93-113. MR 91k:90137<person-group>
+                     <string-name>
+                     <surname>Moré</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Optimization</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e440a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1384286e447" publication-type="journal">
+Q. Ni, General large-scale nonlinear programming using sequential quadratic programming
+methods, Bayreuther Mathematische Schriften, 45 (1993), 133-236. MR 94h:90052<person-group>
+                     <string-name>
+                     <surname>Ni</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>45</volume>
+               <source>Bayreuther Mathematische Schriften</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e480a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1384286e487" publication-type="journal">
+J. Nocedal, Updating quasi-Newton matrices with limited storage, Math.Comp.35 (1980),
+773-782. MR 81g:65077<object-id pub-id-type="doi">10.2307/2006193</object-id>
+               <fpage>773</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e503a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1384286e510" publication-type="book">
+M.J.D. Powell, A fast algorithm for nonlinearly constrained optimization calculations, Lecture
+Notes in Mathematics 630. (1978), 144-157. MR 58:3448<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>144</fpage>
+               <volume>630</volume>
+               <source>A fast algorithm for nonlinearly constrained optimization calculations</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1384286e542a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1384286e549" publication-type="book">
+C. Zhu, R.H. Byrd, P. Lu, and J. Nocedal, L-BFGS-B Fortran subroutines for large-scale
+bound constrained optimization, Report NAM-11, EECS Department, Northwestern Univer-
+sity, 1994.<person-group>
+                     <string-name>
+                     <surname>Zhu</surname>
+                  </string-name>
+                  </person-group>
+               <source>L-BFGS-B Fortran subroutines for large-scale bound constrained optimization</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

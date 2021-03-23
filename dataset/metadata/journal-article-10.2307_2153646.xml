@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">217</issue>
+         <issue-id>i337673</issue-id>
+         <article-id pub-id-type="jstor">2153646</article-id>
+         
+         <title-group>
+            <article-title>
+               Preconditioning the Poincaré-Steklov Operator by Using Green's Function 
+            </article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jinchao</given-names>
+                  <surname>Xu</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sheng</given-names>
+                  <surname>Zhang</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>125</fpage>
+         <lpage>138</lpage>
+         <page-range>125-138</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153646"/>
+         
+         
+         <abstract>
+            <p>
+               This paper is concerned with the Poincaré-Steklov operator that is widely used in domain decomposition methods. It is proved that the inverse of the Poincaré-Steklov operator can be expressed explicitly by an integral operator with a kernel being the Green's function restricted to the interface. As an application, for the discrete Poincaré-Steklov operator with respect to either a line (edge) or a star-shaped web associated with a single vertex point, a preconditioner can be constructed by first imbedding the line as the diameter of a disk, or the web as a union of radii of a disk, and then using the Green's function on the disk. The proposed technique can be effectively used in conjunction with various existing domain decomposition techniques, especially with the methods based on vertex spaces (from multi-subdomain decomposition). Some numerical results are reported. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N20</kwd>
+            <kwd>65F10</kwd>
+            <kwd>Domain decomposition</kwd>
+            <kwd>preconditioner</kwd>
+            <kwd>Schur complement</kwd>
+            <kwd>Green's function</kwd>
+            <kwd>multigrid</kwd>
+            <kwd>
+               Poincaré-Steklov operator 
+            </kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1036389e214a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1036389e221" publication-type="journal">
+J. H. Bramble, J. E. Pasciak, and A. H. Schatz. The construction of preconditioners for elliptic
+problems by substructuring, I. Math. Comp., 47:103-134, 1986. MR 87m:65174<object-id pub-id-type="doi">10.2307/2008084</object-id>
+               <fpage>103</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e237a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1036389e244" publication-type="journal">
+— An iterative method for elliptic problems on regions partitioned into substructures.
+Math. Comp., 46:361-369, 1986. MR 88a:65123<object-id pub-id-type="doi">10.2307/2007981</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e260a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1036389e267" publication-type="journal">
+— The construction of preconditioners for elliptic problems by substructuring, II. Math.
+Comp., 49:1-16, 1987. MR 88j:65248<object-id pub-id-type="doi">10.2307/2008246</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e283a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1036389e290" publication-type="journal">
+— The construction of preconditioners for elliptic problems by substructuring, IV. Math.
+Comp., 53:1-24, 1989. MR 89m:65098<object-id pub-id-type="doi">10.2307/2008346</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e307a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1036389e314" publication-type="conference">
+J. H. Bramble, J. E. Pasciak, and J. Xu. A multilevel preconditioner for domain decomposition
+boundary systems. In Proceeding of 10th International Conference on Computing Methods in
+Applied Sciences and Engineering. INRIA, 1991.<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A multilevel preconditioner for domain decomposition boundary systems</comment>
+               <source>Proceeding of 10th International Conference on Computing Methods in Applied Sciences and Engineering</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e346a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1036389e353" publication-type="book">
+M. Dryja. A method of domain decomposition for 3-D finite element elliptic problems. In R.
+Glowinski, G. H. Golub, G. A. Meurant, and J. Periaux, editors, First International Sym-
+posium on Domain Decomposition Methods for Partial Differential Equations, Philadelphia,
+PA, 1988. SIAM. MR 90b:65200<person-group>
+                     <string-name>
+                     <surname>Dryja</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A method of domain decomposition for 3-D finite element elliptic problems</comment>
+               <source>First International Symposium on Domain Decomposition Methods for Partial Differential Equations, Philadelphia, PA</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e388a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1036389e395" publication-type="journal">
+M. Dryja and 0. B. Widlund. Domain decomposition algorithms with small overlap. SIAM
+J. Sci. Statist. Comput., 15:604-620, 1994. MR 95d:65102<person-group>
+                     <string-name>
+                     <surname>Dryja</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>604</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e427a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1036389e434" publication-type="book">
+P. Grisvard. Elliptic problems in nonsmooth domains. Pitman Advanced Publishing Program,
+Boston, 1985. MR 86m:35044<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Elliptic problems in nonsmooth domains</comment>
+               <source>Pitman Advanced Publishing Program</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e463a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1036389e470" publication-type="journal">
+L. Greengard J. Carrier and V. Rokhlin. A fast adaptive multipole algorithm for particle
+simulations. SIAM J. Sci. Statist. Comput., 9:669-686, 1988. MR 89e:65008<person-group>
+                     <string-name>
+                     <surname>Greengard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>669</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e502a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1036389e509" publication-type="book">
+J. L. Lions and E. Magenes. Nonhomogeneous Boundary Value Problems and Applications,
+volume I. Springer, New York, Heidelberg, Berlin, 1972. MR 50:2670<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Nonhomogeneous Boundary Value Problems and Applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e539a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1036389e546" publication-type="journal">
+A. M. Matsokin and S. V. Nepomnyashchikh. A Schwarz alternating method in a subspace.
+Soviet Mathematics, 29:78-84, 1985.<person-group>
+                     <string-name>
+                     <surname>Matsokin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>78</fpage>
+               <volume>29</volume>
+               <source>Soviet Mathematics</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e578a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1036389e585" publication-type="journal">
+— Norms in the space of traces of mesh functions. Soviet J. Numer. Anal. Math. Mod-
+elling, 3:199-216, 1988.<person-group>
+                     <string-name>
+                     <surname>Matsokin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>3</volume>
+               <source>Soviet J. Numer. Anal. Math. Modelling</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e617a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1036389e624" publication-type="book">
+J. Nec̆as. Les Méthodes directes en Théorie des Équations Elliptiques. Academia, Prague,
+1967. MR 37:3168<person-group>
+                     <string-name>
+                     <surname>Nec̆as</surname>
+                  </string-name>
+                  </person-group>
+               <source>Les Méthodes directes en Théorie des Équations Elliptiques</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e649a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1036389e656" publication-type="journal">
+B. F. Smith. An optimal domain decomposition preconditioner for the finite element solution
+of linear elasticity problems. SIAM J. Sci. Statist. Comput., 13:364-378, 1992. MR 92g:73080<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>364</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e688a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1036389e695" publication-type="journal">
+B. F. Smith and 0. B. Widlund. A domain decomposition algorithm using a hierarchical basis.
+SIAM J. Sci. Statist. Comput., 11:1212-1220, 1990. MR 91m:65125<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1212</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e727a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1036389e734" publication-type="journal">
+C. H. Tong, T. F. Chan and C. J. Kuo. A domain decomposition preconditioner based on a
+change to a multilevel nodal basis. SIAM J. Sci. Statist. Comput., 12:1486-1495, 1991. MR
+92i:65070<person-group>
+                     <string-name>
+                     <surname>Tong</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1486</fpage>
+               <volume>12</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e770a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1036389e777" publication-type="other">
+J. Xu. Theory of multilevel methods. Ph.D. thesis, Cornell University, May 1989.</mixed-citation>
+            </ref>
+            <ref id="d1036389e784a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1036389e791" publication-type="journal">
+— Iterative methods by space decomposition and subspace correction. SIAM Review,
+34:581-613, 1992. MR 93k:65029<object-id pub-id-type="jstor">10.2307/2132629</object-id>
+               <fpage>581</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1036389e807a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1036389e814" publication-type="book">
+—Multigrid and domain decomposition methods. Research Monograph (preprint), 1995.<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid and domain decomposition methods</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

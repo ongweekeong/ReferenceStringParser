@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">226</issue>
+         <issue-id>i344566</issue-id>
+         <article-id pub-id-type="jstor">2585060</article-id>
+         
+         <title-group>
+            <article-title>Computing Rational Points on Rank 1 Elliptic Curves Via L-Series and Canonical Heights</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Joseph H.</given-names>
+                  <surname>Silverman</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>835</fpage>
+         <lpage>858</lpage>
+         <page-range>835-858</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585060"/>
+         
+         
+         <abstract>
+            <p>Let E/Q be an elliptic curve of rank 1. We describe an algorithm which uses the value of L'(E, 1) and the theory of canonical heghts to efficiently search for points in E(Q) and E(Z&lt;sub&gt;S&lt;/sub&gt;). For rank 1 elliptic curves E/Q of moderately large conductor (say on the order of 10&lt;sup&gt;7&lt;/sup&gt; to 10&lt;sup&gt;10&lt;/sup&gt;) and with a generator having moderately large canonical height (say between 13 and 50), our algorithm is the first practical general purpose method for determining if the set E(Z&lt;sub&gt;S&lt;/sub&gt;) contains non-torsion points.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01068-6</kwd>
+            <kwd>11G05</kwd>
+            <kwd>11Y50</kwd>
+            <kwd>Elliptic Curve</kwd>
+            <kwd>Canonical Height</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1223928e138a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1223928e145" publication-type="other">
+C. Batut, D. Bernardi, H. Cohen, M. Olivier, PARI-GP, a computer system for number theory,
+Version 1.39.</mixed-citation>
+            </ref>
+            <ref id="d1223928e155a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1223928e162" publication-type="book">
+B.J. Birch, H.P.F. Swinnerton-Dyer, Elliptic curves and modular functions, Modular Func-
+tions of One Variable IV (B.J. Birch, W. Kuyk, eds.), Lecture Notes in Math. 476, Springer-
+Verlag, Berlin, 1975. MR 52:5685<person-group>
+                     <string-name>
+                     <surname>Birch</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Elliptic curves and modular functions</comment>
+               <volume>476</volume>
+               <source>Modular Functions of One Variable IV</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e197a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1223928e204" publication-type="book">
+A. Bremner, On the equation y2 = X(X2 + p), Number Theory and Applications (R.A.
+Mollin, ed.), Kluwer Academic Publishers, 1989, pp. 3-22. MR 92h:11047<person-group>
+                     <string-name>
+                     <surname>Bremner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the equation y2 = X(X2 + p)</comment>
+               <fpage>3</fpage>
+               <source>Number Theory and Applications</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e236a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1223928e243" publication-type="journal">
+A. Bremner, J.W.S. Cassels, On the equation y2 = X(X2 + p), Math. Comp.42 (1984),
+257-264. MR 85f:11017<object-id pub-id-type="doi">10.2307/2007578</object-id>
+               <fpage>257</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e260a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1223928e267" publication-type="book">
+H. Cohen, A Course in Computational Algebraic Number Theory, Graduate Texts in Math.,
+vol. 138, Springer Verlag, Berlin, 1993. MR 94i:11105<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Course in Computational Algebraic Number Theory</comment>
+               <volume>138</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e299a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1223928e306" publication-type="book">
+J. Cremona, Algorithms for Modular Elliptic Curves, Cambridge University Press, Cambridge,
+1992. MR 93m:11053<person-group>
+                     <string-name>
+                     <surname>Cremona</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithms for Modular Elliptic Curves</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e331a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1223928e338" publication-type="other">
+—, private communication, November 1995.</mixed-citation>
+            </ref>
+            <ref id="d1223928e345a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1223928e352" publication-type="journal">
+F. Diamond, On deformation rings and Hecke rings, Annals of Math.144 (1996), 137-166.
+MR 97d: 1I 172<person-group>
+                     <string-name>
+                     <surname>Diamond</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>137</fpage>
+               <volume>144</volume>
+               <source>Annals of Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e384a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1223928e391" publication-type="book">
+N. Elkies, Heegner point computations, Algorithmic Number Theory (L.M. Adelman, M.-D.
+Huang, eds.), ANTS-I, Lecture Notes in Computer Science, vol. 877, 1994, pp. 122-133. MR
+96f: 11080<person-group>
+                     <string-name>
+                     <surname>Elkies</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Heegner point computations</comment>
+               <fpage>122</fpage>
+               <volume>877</volume>
+               <source>Algorithmic Number Theory</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e429a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1223928e436" publication-type="journal">
+B. Gross and D. Zagier, Heegner points and derivatives of L-series, Invent. Math.84 (1986),
+225-320. MR 87j:11057<person-group>
+                     <string-name>
+                     <surname>Gross</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>225</fpage>
+               <volume>84</volume>
+               <source>Invent. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e469a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1223928e476" publication-type="book">
+V.A. Kolyvagin, Euler systems, The Grothendieck Festschrift, Vol. II, Birkhaiuser, Boston,
+1990, pp. 435-483. MR 92g:11109<person-group>
+                     <string-name>
+                     <surname>Kolyvagin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Euler systems</comment>
+               <fpage>435</fpage>
+               <volume>II</volume>
+               <source>The Grothendieck Festschrift</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e511a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1223928e518" publication-type="journal">
+D. Rohrlich, Variation of the root number in families of elliptic curves, Compositio Math.87
+(1993), 119-151. MR 94d:11045<person-group>
+                     <string-name>
+                     <surname>Rohrlich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>119</fpage>
+               <volume>87</volume>
+               <source>Compositio Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e550a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1223928e557" publication-type="journal">
+K. Rubin, p-adic L-functions and rational points on elliptic curves with complex multiplica-
+tion, Invent. Math.107 (1992), 323-350. MR 92m:11063<person-group>
+                     <string-name>
+                     <surname>Rubin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>323</fpage>
+               <volume>107</volume>
+               <source>Invent. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e589a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1223928e596" publication-type="other">
+J.H. Silverman, The Néron-Tate Height on Elliptic Curves, Ph.D. thesis, Harvard, 1981.</mixed-citation>
+            </ref>
+            <ref id="d1223928e603a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1223928e610" publication-type="book">
+—The Arithmetic of Elliptic Curves, Graduate Texts in Math., vol. 106, Springer-
+Verlag, Berlin and New York, 1986. MR 87g:11070<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Arithmetic of Elliptic Curves</comment>
+               <volume>106</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e642a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1223928e649" publication-type="book">
+—Advanced Topics in the Arithmetic of Elliptic Curves, Graduate Texts in Math., vol.
+151, Springer-Verlag, Berlin and New York, 1994. MR 96b:11074<person-group>
+                     <string-name>
+                     <surname>Silverman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Advanced Topics in the Arithmetic of Elliptic Curves</comment>
+               <volume>151</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e682a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1223928e689" publication-type="journal">
+— The difference between the Weil height and the canonical height on elliptic curves,
+Math. Comp.55 (1990), 723-743. MR 91d:11063<object-id pub-id-type="doi">10.2307/2008444</object-id>
+               <fpage>723</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e705a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1223928e712" publication-type="journal">
+R. Taylor and A. Wiles, Ring-theoretic properties of certain Hecke algebras, Annals of Math.
+141 (1995), 553-572. MR 96d:11072<person-group>
+                     <string-name>
+                     <surname>Taylor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>553</fpage>
+               <volume>141</volume>
+               <source>Annals of Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e744a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1223928e751" publication-type="journal">
+D. Ulmer, A construction of local points on elliptic curves over modular curves, International
+Math. Research Notes7 (1995), 349-363. MR 97b:11076<person-group>
+                     <string-name>
+                     <surname>Ulmer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>349</fpage>
+               <volume>7</volume>
+               <source>International Math. Research Notes</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e783a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1223928e790" publication-type="journal">
+A. Wiles, Modular elliptic curves and Fermat's last theorem, Annals of Math.141 (1995),
+443-551. MR 96d:11071<person-group>
+                     <string-name>
+                     <surname>Wiles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>141</volume>
+               <source>Annals of Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1223928e822a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1223928e829" publication-type="other">
+D. Zagier, private communication.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

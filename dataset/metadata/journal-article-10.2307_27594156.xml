@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i27594145</issue-id>
+         <article-id pub-id-type="jstor">27594156</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186005X78585</article-id>
+         <title-group>
+            <article-title>Computation of the Information Matrix for Models with Spatial Interaction on a Lattice</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Oleg A.</given-names>
+                  <surname>Smirnov</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>910</fpage>
+         <lpage>927</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2005 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594156"/>
+      
+      
+         <abstract>
+            <p>This article demonstrates a fast and practical procedure for the maximum likelihood estimation of models with spatial interaction on a lattice, such as Gaussian Markov random fields (conditional autoregressive models, or CAR) and spatial autoregressive models (SAR). Focusing on the computation of the information matrix, I designed an algorithm for computing the information matrix without storing an inverse of the spatial differencing operator, a large sparse matrix. To accomplish this efficiently, I developed a sparse version of the conjugate gradient method for the case of sparse matrices and sparse vectors. Numerical stability and modest computational requirements of the proposed method make it a viable method for large spatial datasets. Large datasets are becoming fairly popular in spatial statistics, so this method's advantages in accelerating ML estimation and effectively relaxing limitations on the size of data underscore its practicality. I apply the method to the analysis of employment in a spatial economy.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Gaussian Markov random field</kwd>
+            <kwd>Information matrix</kwd>
+            <kwd>Maximum likelihood estimation</kwd>
+            <kwd>Sparse conjugate gradient method</kwd>
+            <kwd>Spatial autoregressive model</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d932436e135a1310">
+          
+            <mixed-citation id="d932436e139" publication-type="other">
+Anderson, E., Bai, Z., Bischof, C., Blackford, S., Demmel, J., Dongarra, J., Du Croz, J., Greenbaum, A., Ham-
+marling, S., McKenney, A., and Sorensen, D. (1999), LAPACK User's Guide (3rd ed.), Philadelphia, PA:
+SIAM. Available online at http://www.netlib.org/lapack/lug/lapack_lug.html.</mixed-citation>
+        </ref>
+        <ref id="d932436e152a1310">
+          
+            <mixed-citation id="d932436e156" publication-type="other">
+Anselin, L. (1988), Spatial Econometrics: Methods and Models, Netherlands: Kluwer.</mixed-citation>
+        </ref>
+        <ref id="d932436e163a1310">
+          
+            <mixed-citation id="d932436e167" publication-type="other">
+Anselin, L., and Bera, A. K. (1998), "Spatial Dependence in Linear Regression Models with an Introduction to
+Spatial Econometrics," in Handbook of Applied Economic Statistics, eds. A. Ullah and D. E. Giles, New
+York: Marcel Dekker, pp. 237–89.</mixed-citation>
+        </ref>
+        <ref id="d932436e180a1310">
+          
+            <mixed-citation id="d932436e184" publication-type="other">
+Barro, R. J. (1999), Inequality, Growth, and Investment, National Bureau of Economic Research, NBER Working
+paper No. 7038, pp. 1–52.</mixed-citation>
+        </ref>
+        <ref id="d932436e195a1310">
+          
+            <mixed-citation id="d932436e199" publication-type="other">
+Benirschka, M., and Binkley, J. K. ( 1994), "Land Price Volatility in a Geographically Dispersed Market," American
+Journal of Agricultural Economics, 75, 185–195.</mixed-citation>
+        </ref>
+        <ref id="d932436e209a1310">
+          
+            <mixed-citation id="d932436e213" publication-type="other">
+Besag, J. (1974), "Spatial Interaction and the Statistical Analysis of Lattice Systems," Journal of the Royal
+Statistical Society, Series B, 36, 192–236.</mixed-citation>
+        </ref>
+        <ref id="d932436e223a1310">
+          
+            <mixed-citation id="d932436e227" publication-type="other">
+Besag, J., and Higdon, D. (1999), "Bayesian Analysis of Agricultural Field Experiments," Journal of the Royal
+Statistical Society, Series B, 61, 691–746.</mixed-citation>
+        </ref>
+        <ref id="d932436e237a1310">
+          
+            <mixed-citation id="d932436e241" publication-type="other">
+Cressie, N. (1993), Statistics for Spatial Data, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d932436e248a1310">
+          
+            <mixed-citation id="d932436e252" publication-type="other">
+Driscoll, J. C., and Kraay A. C. (1998), "Consistent Covariance Matrix Estimation with Spatially Dependent Panel
+Data," The Review of Economics and Statistics, 80, 549–560.</mixed-citation>
+        </ref>
+        <ref id="d932436e262a1310">
+          
+            <mixed-citation id="d932436e266" publication-type="other">
+Fingleton, B. (2001), "Equilibrium and Economic Growth: Spatial Econometric Models and Simulations," Journal
+of Regional Science, 41, 117–148.</mixed-citation>
+        </ref>
+        <ref id="d932436e277a1310">
+          
+            <mixed-citation id="d932436e281" publication-type="other">
+Gabaix, X. (1999), "Zipf's Law and the Growth of Cities," American Economic Review, 89, 129–132.</mixed-citation>
+        </ref>
+        <ref id="d932436e288a1310">
+          
+            <mixed-citation id="d932436e292" publication-type="other">
+George, A., and Liu, J. W. H. (1981), Computer Solution of Large Sparse Positive Definite Systems, Englewood
+Cliffs, NJ: Prentice-Hall.</mixed-citation>
+        </ref>
+        <ref id="d932436e302a1310">
+          
+            <mixed-citation id="d932436e306" publication-type="other">
+Gilbert, J. R., Moler, C, and Schreiber, R. (1992), "Sparse Matrices in MATLAB: Design and Implementation,"
+SIAM Journal on Matrix Analysis and Applications, 13, 333–356.</mixed-citation>
+        </ref>
+        <ref id="d932436e316a1310">
+          
+            <mixed-citation id="d932436e320" publication-type="other">
+Golub, G. H., and van Loan, C. F. (1996), Matrix Computations (3rd ed.), Baltimore, MD: John Hopkins University
+Press.</mixed-citation>
+        </ref>
+        <ref id="d932436e330a1310">
+          
+            <mixed-citation id="d932436e334" publication-type="other">
+Griffith, D. A. (2000), "Eigenfunction Properties and Approximations of Selected Incidence Matrices Employed
+in Spatial Analyses," Linear Algebra and its Applications, 321, 95–112.</mixed-citation>
+        </ref>
+        <ref id="d932436e344a1310">
+          
+            <mixed-citation id="d932436e348" publication-type="other">
+—(2003), Spatial Autocorrelation and Spatial Filtering, Berlin: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d932436e356a1310">
+          
+            <mixed-citation id="d932436e360" publication-type="other">
+Haining, R. (1990), Spatial Data Analysis in the Social and Environmental Sciences, Cambridge, UK: Cambridge
+University Press.</mixed-citation>
+        </ref>
+        <ref id="d932436e370a1310">
+          
+            <mixed-citation id="d932436e374" publication-type="other">
+Mathsoft (1996), S+ SpatialStats Users' Manual for Windows and Unix, Seattle, WA: Mathsoft.</mixed-citation>
+        </ref>
+        <ref id="d932436e381a1310">
+          
+            <mixed-citation id="d932436e385" publication-type="other">
+Ng, G. E., and Raghavan, P. (1999), "Performance of Greedy Ordering Heuristics for Sparse Cholesky Factoriza-
+tion," SI AM Journal on Matrix Analysis and Applications, 20, 902–914.</mixed-citation>
+        </ref>
+        <ref id="d932436e395a1310">
+          
+            <mixed-citation id="d932436e399" publication-type="other">
+North, D. C. (1955), "Location Theory and Regional Economic Growth," Journal of Political Economy, 63,
+243–258.</mixed-citation>
+        </ref>
+        <ref id="d932436e409a1310">
+          
+            <mixed-citation id="d932436e413" publication-type="other">
+Ord, K. (1975), "Estimation Methods for Models of Spatial Interaction," Journal of the American Statistical
+Association, 70, 120–126.</mixed-citation>
+        </ref>
+        <ref id="d932436e423a1310">
+          
+            <mixed-citation id="d932436e427" publication-type="other">
+Pace, R. K., and Barry, R. (1997), "Sparse Spatial Autoregressions," Statistics and Probability Letters, 33, 291–297.</mixed-citation>
+        </ref>
+        <ref id="d932436e435a1310">
+          
+            <mixed-citation id="d932436e439" publication-type="other">
+Pace, R. K., and LeSage, J. P. (2002), "Semiparametric Maximum Likelihood Estimates of Spatial Dependence,"
+Geographical Analysis, 34, 76–90.</mixed-citation>
+        </ref>
+        <ref id="d932436e449a1310">
+          
+            <mixed-citation id="d932436e453" publication-type="other">
+Rupasingha, A., Goetz, S. J., and Freshwater, D. (2002), "Social and Institutional Factors as Determinants of
+Economic Growth: Evidence from the United States Counties," Papers in Regional Science, 81, 139–155.</mixed-citation>
+        </ref>
+        <ref id="d932436e463a1310">
+          
+            <mixed-citation id="d932436e467" publication-type="other">
+Rue, H. (2001), "Fast Sampling of Gaussian Markov Random Fields," Journal of the Royal Statistical Society,
+Series B, 63, 325–338.</mixed-citation>
+        </ref>
+        <ref id="d932436e477a1310">
+          
+            <mixed-citation id="d932436e481" publication-type="other">
+Smirnov, O., and Anselin, L. (2001), "Fast Maximum Likelihood Estimation of Very Large Spatial Autoregressive
+Models: a Characteristic Polynomial Approach," Computational Statistics and Data Analysis, 35, 301–319.</mixed-citation>
+        </ref>
+        <ref id="d932436e491a1310">
+          
+            <mixed-citation id="d932436e495" publication-type="other">
+Watkins, D. S. (2002), Fundamentals of Matrix Computations (2nd ed.), New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d932436e502a1310">
+          
+            <mixed-citation id="d932436e506" publication-type="other">
+Whittle, P. (1954), "On Stationary Processes in the Plane," Biometrika, 41, 434–449.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

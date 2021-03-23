@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">50</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">181</issue>
+         <issue-id>i334599</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007933</article-id>
+         
+         <title-group>
+            <article-title>Integer Sets with Distinct Subset-Sums</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>W. F.</given-names>
+                  <surname>Lunnon</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1988</year>
+         </pub-date>
+         <fpage>297</fpage>
+         <lpage>320</lpage>
+         <page-range>297-320</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1988 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007933"/>
+         
+         
+         <abstract>
+            <p>In Section 1 we introduce the problem of finding minimal-height sets of $n$ natural numbers with distinct subset-sums (SSD), and in Section 2 review the well-known Conway-Guy sequence $\mathbf u$, conjectured to yield a minimal SSD set for every $n$. We go on (Section 3) to prove that $\mathbf u$ certainly cannot be improved upon by any "greedy" sequence, to verify numerically (Section 4) that it does yield SSD sets for $n &lt; 80$, and (Section 5) by direct search to show that these are minimal for $n \leqslant 8$. There is a brief interlude (Section 6) on the problem of decoding the subset from its sum. In Section 7 generalizations of $\mathbf u$ are constructed which are asymptotically smaller: Defining the Limit Ratio of a sequence $\mathbf w$ to be $\alpha = lim_{n \rightarrow \infty} w_n/2^{n - 1}$, the Atkinson-Negro-Santoro sequence $\mathbf v$ (known to give SSD sets) has $\alpha = 0.6334$, Conway-Guy (conjectured to) has $\alpha = 0.4703$, and our best generalization has $\alpha = 0.4419$. We also (Section 8) discuss when such sequences have the same $\alpha$, and (Section 9) how $\alpha$ may efficiently be computed to high accuracy.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11B13</kwd>
+            <kwd>05-04</kwd>
+            <kwd>05A99</kwd>
+            <kwd>11J13</kwd>
+            <kwd>94A60</kwd>
+            <kwd>65B05</kwd>
+            <kwd>SSD</kwd>
+            <kwd>Conway-Guy</kwd>
+            <kwd>Knapsack problem</kwd>
+            <kwd>backtrack search</kwd>
+            <kwd>divide-and-conquer</kwd>
+            <kwd>Richardson extrapolation</kwd>
+            <kwd>MACSYMA</kwd>
+            <kwd>MDCF</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1345270e167a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1345270e174" publication-type="journal">
+R. K. Guy, "Sets of integers whose subsets have distinct sums," Ann. Discrete Math., v. 12, 1982, pp.
+141-154.<person-group>
+                     <string-name>
+                     <surname>Guy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>141</fpage>
+               <volume>12</volume>
+               <source>Ann. Discrete Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e206a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1345270e213" publication-type="book">
+R. K. Guy, Unsolved Problems in Number Theory, Springer-Verlag, Berlin and New York, 1981.<person-group>
+                     <string-name>
+                     <surname>Guy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Unsolved Problems in Number Theory</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e235a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1345270e242" publication-type="book">
+M. GARDNER, Science Fiction Puzzle Tales, Penguin, 1981.<person-group>
+                     <string-name>
+                     <surname>Gardner</surname>
+                  </string-name>
+                  </person-group>
+               <source>Science Fiction Puzzle Tales</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e264a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1345270e271" publication-type="book">
+R. SEDGEWICK, Algorithms, Addison-Wesley, Reading, Mass., 1983.<person-group>
+                     <string-name>
+                     <surname>Sedgewick</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithms</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e294a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1345270e301" publication-type="journal">
+A. K. LENSTRA, H. W. LENSTRA &amp; L. LovAsz, "Factoring polynomials with rational coefficients,"
+Math. Ann., v. 261, 1982, pp. 515-534.<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>515</fpage>
+               <volume>261</volume>
+               <source>Math. Ann.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e333a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1345270e340" publication-type="book">
+C.- E. FRÖBERG, Numerical Mathematics, Benjamin Cummings, Menlo Park, Calif., 1985.<person-group>
+                     <string-name>
+                     <surname>Fröberg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Mathematics</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e362a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1345270e369" publication-type="book">
+MACSYMA Reference Manual, MIT, Cambridge, 1982.<source>MACSYMA Reference Manual</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e382a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1345270e389" publication-type="book">
+A. C. HEARN (editor), REDUCE User's Manual 3.1, Rand Corporation, Santa Monica, Calif., 1984.<person-group>
+                     <string-name>
+                     <surname>Hearn</surname>
+                  </string-name>
+                  </person-group>
+               <source>REDUCE User's Manual</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e411a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1345270e418" publication-type="book">
+A. J. BRENTJES, Multi-Dimensional Continued Fraction Algorithms, Math. Centre Tracts 145,
+Mathematisch Centrum, Amsterdam, 1981.<person-group>
+                     <string-name>
+                     <surname>Brentjes</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multi-Dimensional Continued Fraction Algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e443a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1345270e450" publication-type="conference">
+W. F. LUNNON, MDCF Algorithms and their Applications, Proc. Cardiff Conference on the
+Application of Computers to Mathematics, University College, Cardiff, 1986.<person-group>
+                     <string-name>
+                     <surname>Lunnon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">MDCF Algorithms and their Applications</comment>
+               <source>Proc. Cardiff Conference on the Application of Computers to Mathematics, University College, Cardiff</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e480a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1345270e487" publication-type="journal">
+J. C. LAGARIAS &amp; A. M. ODLYZKO, "Solving low-density subset problems," J. Assoc. Comput.
+Mach., v. 32, 1985, pp. 229-246.<person-group>
+                     <string-name>
+                     <surname>Lagarias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>229</fpage>
+               <volume>32</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1345270e519a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1345270e526" publication-type="book">
+M. D. ATKINSON, A. NEGRO &amp; N. SANTORO, Integer Sets with Lexicographically Ordered Subset
+Sums, Technical Report no. 100, Carlton Univ., 1986.<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Integer Sets with Lexicographically Ordered Subset Sums</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

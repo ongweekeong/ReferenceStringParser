@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">219</issue>
+         <issue-id>i337675</issue-id>
+         <article-id pub-id-type="jstor">2153755</article-id>
+         
+         <title-group>
+            <article-title>Numerical Solution of the Scalar Double-Well Problem Allowing Microstructure</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Carsten</given-names>
+                  <surname>Carstensen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Peter</given-names>
+                     <surname>Plecháč</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>997</fpage>
+         <lpage>1026</lpage>
+         <page-range>997-1026</page-range>
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153755"/>
+         
+         
+         <abstract>
+            <p>The direct numerical solution of a non-convex variational problem (P) typically faces the difficulty of the finite element approximation of rapid oscillations. Although the oscillatory discrete minimisers are properly related to corresponding Young measures and describe real physical phenomena, they are costly and difficult to compute. In this work, we treat the scalar double-well problem by numerical solution of the relaxed problem (RP) leading to a (degenerate) convex minimisation problem. The problem (RP) has a minimiser u and a related stress field σ = DW&lt;sup&gt;**&lt;/sup&gt;(∇ u) which is known to coincide with the stress field obtained by solving (P) in a generalised sense involving Young measures. If u&lt;sub&gt;h&lt;/sub&gt; is a finite element solution, &lt;tex-math&gt;$\sigma_h:= DW^{\ast\ast}(\nabla u_h)$&lt;/tex-math&gt; is the related discrete stress field. We prove a priori and a posteriori estimates for σ - σ&lt;sub&gt;h&lt;/sub&gt; in L&lt;sup&gt;4/3&lt;/sup&gt;(Ω) and weaker weighted estimates for ∇ u - ∇ u&lt;sub&gt;h&lt;/sub&gt;. The a posteriori estimate indicates an adaptive scheme for automatic mesh refinements as illustrated in numerical experiments.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N15</kwd>
+            <kwd>65N30</kwd>
+            <kwd>35J70</kwd>
+            <kwd>73C60</kwd>
+            <kwd>Non-convex minimisation</kwd>
+            <kwd>Young measures</kwd>
+            <kwd>microstructure</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2846269e233a1310">
+               <label>Bal89</label>
+               
+               <mixed-citation id="d2846269e240" publication-type="book">
+J.M. Ball, A version of the fundamental theorem for Young measures, In M Rascle,
+D. Serre, and M. Slemrod, editors, Partial differential equations and continuum models
+of phase transitions, LNP 344, pages 207-215, 1989. MR 91c:49021<person-group>
+                     <string-name>
+                     <surname>Ball</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A version of the fundamental theorem for Young measures</comment>
+               <fpage>207</fpage>
+               <source>Partial differential equations and continuum models of phase transitions</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e275a1310">
+               <label>BC94</label>
+               
+               <mixed-citation id="d2846269e282" publication-type="journal">
+B. Brighi and M. Chipot, Approximated convex envelope of a function, SIAM J. Numer.
+Anal., 31, 1994. MR 94m:49049<object-id pub-id-type="jstor">10.2307/2158155</object-id>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e295a1310">
+               <label>BJ87</label>
+               
+               <mixed-citation id="d2846269e302" publication-type="journal">
+J. M. Ball and R. D. James, Fine phase mixtures as minimisers of energy, Arch. Rational
+Mech. Anal., 100:13-52, 1987. MR 89c:80005<person-group>
+                     <string-name>
+                     <surname>Ball</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>13</fpage>
+               <volume>100</volume>
+               <source>Arch. Rational Mech. Anal.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e334a1310">
+               <label>BJ92</label>
+               
+               <mixed-citation id="d2846269e341" publication-type="journal">
+J. M. Ball and R. D. James, Proposed experimental tests of the theory of fine mi-
+crostructure and the two-well problem, Phil. Trans. R. Soc. Lond. A., 338:389-450,
+1992.<person-group>
+                     <string-name>
+                     <surname>Ball</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>389</fpage>
+               <volume>338</volume>
+               <source>Phil. Trans. R. Soc. Lond. A.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e377a1310">
+               <label>BP90</label>
+               
+               <mixed-citation id="d2846269e384" publication-type="journal">
+P. Bauman and D. Phillips, A nonconvex variational problem related to change of phase,
+Appl. Math. Optimization, 21:113-138, 1990. MR 90i:49004<person-group>
+                     <string-name>
+                     <surname>Bauman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>21</volume>
+               <source>Appl. Math. Optimization</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e416a1310">
+               <label>BS94</label>
+               
+               <mixed-citation id="d2846269e423" publication-type="book">
+S. C. Brenner and L. R. Scott, The mathematical theory of finite element methods,
+volume 15 of Texts in Applied Mathematics, Springer Verlag, New York, 1994. MR
+95f:65001<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The mathematical theory of finite element methods</comment>
+               <volume>15</volume>
+               <source>Texts in Applied Mathematics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e458a1310">
+               <label>CC92</label>
+               
+               <mixed-citation id="d2846269e465" publication-type="journal">
+M. Chipot and C. Collins, Numerical approximations in variational problems with po-
+tential wells, SIAM J. Numer. Anal., 29:1002-1019, 1992. MR 93j:65171<object-id pub-id-type="jstor">10.2307/2157988</object-id>
+               <fpage>1002</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e481a1310">
+               <label>Chi91</label>
+               
+               <mixed-citation id="d2846269e488" publication-type="journal">
+M. Chipot, Numerical analysis of oscillations in nonconvex problems, Numer. Math.,
+59:747-767, 1991. MR 92h:65164<person-group>
+                     <string-name>
+                     <surname>Chipot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>747</fpage>
+               <volume>59</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e520a1310">
+               <label>CL91</label>
+               
+               <mixed-citation id="d2846269e527" publication-type="journal">
+C. Collins and M. Luskin, Optimal order error estimates for the finite element approx-
+imation of a solution of a nonconvex variational problem, Math. Comp., 57:621-637,
+1991. MR 92a:65276<object-id pub-id-type="doi">10.2307/2938708</object-id>
+               <fpage>621</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e546a1310">
+               <label>Cle75</label>
+               
+               <mixed-citation id="d2846269e553" publication-type="journal">
+P. Clement, Approximation by finite element functions using local regularization,
+RAIRO Sér. Rouge Anal. Numér., R-2:77-84, 1975. MR 53:4569<person-group>
+                     <string-name>
+                     <surname>Clement</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>R-2</volume>
+               <source>RAIRO Sér. Rouge Anal. Numér.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e586a1310">
+               <label>Dac89</label>
+               
+               <mixed-citation id="d2846269e593" publication-type="book">
+B. Dacorogna, Direct methods in the calculus of variations, Springer, Berlin, 1989. MR
+90e:49001<person-group>
+                     <string-name>
+                     <surname>Dacorogna</surname>
+                  </string-name>
+                  </person-group>
+               <source>Direct methods in the calculus of variations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e618a1310">
+               <label>DK91</label>
+               
+               <mixed-citation id="d2846269e625" publication-type="journal">
+P. Pedregal D. Kinderlehrer, Characterisations of Young measures generated by gradi-
+ents, Arch. Rat. Mech. Anal., 115:329-365, 1991. MR 92k:49089<person-group>
+                     <string-name>
+                     <surname>Kinderlehrer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>115</volume>
+               <source>Arch. Rat. Mech. Anal.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e657a1310">
+               <label>EG92</label>
+               
+               <mixed-citation id="d2846269e664" publication-type="book">
+L. C. Evans and R. F. Gariepy, Measure theory and fine properties of functions, CRC
+Press, 1992. MR 92f:28001<person-group>
+                     <string-name>
+                     <surname>Evans</surname>
+                  </string-name>
+                  </person-group>
+               <source>Measure theory and fine properties of functions</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e689a1310">
+               <label>Fre90</label>
+               
+               <mixed-citation id="d2846269e696" publication-type="journal">
+D. French, On the convergence of finite element approximations of a relaxed variational
+problem, SIAM J. Num. Anal., 27:419-436, 1990. MR 91f:65167<person-group>
+                     <string-name>
+                     <surname>French</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>419</fpage>
+               <volume>27</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e728a1310">
+               <label>Fri94</label>
+               
+               <mixed-citation id="d2846269e735" publication-type="journal">
+G. Friesecke, A necessary and sufficient condition for non-attainment and formation of
+microstructure almost everywhere in scalar variational problems, Proc. R. Soc. Edin,
+124A:437-471, 1994. MR 96g:49001<person-group>
+                     <string-name>
+                     <surname>Friesecke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>437</fpage>
+               <volume>124A</volume>
+               <source>Proc. R. Soc. Edin</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e770a1310">
+               <label>GKR86</label>
+               
+               <mixed-citation id="d2846269e777" publication-type="journal">
+J. Goodman, R. V. Kohn, and L. Reyna, Numerical study of a relaxed variational
+problem from optimal design, Comput. Methods Appl. Mech. Engrg., 57:107-127, 1986.
+MR 88a:73054<person-group>
+                     <string-name>
+                     <surname>Goodman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>107</fpage>
+               <volume>57</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e813a1310">
+               <label>GT81</label>
+               
+               <mixed-citation id="d2846269e820" publication-type="journal">
+M. E. Gurtin and R. Temam, On the anti-plane shear problem in elasticity, J. Elasticity,
+11:197-206, 1981. MR 82d:73030<person-group>
+                     <string-name>
+                     <surname>Gurtin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>11</volume>
+               <source>J. Elasticity</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e852a1310">
+               <label>KP91</label>
+               
+               <mixed-citation id="d2846269e859" publication-type="journal">
+D. Kinderlehrer and P. Pedregal, Weak convergence of integrands and the Young mea-
+sure representation, SIAM J Math. Anal., 23:1-19, 1991. MR 92m:49076<person-group>
+                     <string-name>
+                     <surname>Kinderlehrer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>23</volume>
+               <source>SIAM J Math. Anal.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e891a1310">
+               <label>Nas84</label>
+               
+               <mixed-citation id="d2846269e898" publication-type="journal">
+S. Nash, Newton-type minimization via the Lanczos method, SIAM J. Num. Anal.,
+21:770-787, 1984. MR 86h:65092<person-group>
+                     <string-name>
+                     <surname>Nash</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>770</fpage>
+               <volume>21</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e930a1310">
+               <label>NW92</label>
+               
+               <mixed-citation id="d2846269e937" publication-type="book">
+R. A. Nicolaides and N. J. Walkington, Computation of microstructure utilizing Young
+measure representations, In C.A. Rogers and R.A. Rogers, editors, Recent Advances
+in Adaptive and Sensory Materials and their Applications, pages 131-141, Lancaster,
+1992. Technomic Publishing Co.<person-group>
+                     <string-name>
+                     <surname>Nicolaides</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computation of microstructure utilizing Young measure representations</comment>
+               <fpage>131</fpage>
+               <source>Recent Advances in Adaptive and Sensory Materials and their Applications</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e975a1310">
+               <label>NW95</label>
+               
+               <mixed-citation id="d2846269e982" publication-type="journal">
+R. A. Nicolaides and N. J. Walkington, Strong convergence of numerical solutions to
+degenerate variational problems, Math. Comp., 64:117-127, 1995. MR 95m:65183<object-id pub-id-type="doi">10.2307/2153325</object-id>
+               <fpage>117</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e998a1310">
+               <label>Ped92</label>
+               
+               <mixed-citation id="d2846269e1005" publication-type="journal">
+P. Pedregal, Jensen's inequality in calculus of variations, Differential Integral Equations,
+7:57-72, 1994. MR 94i:49032<person-group>
+                     <string-name>
+                     <surname>Pedregal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>7</volume>
+               <source>Differential Integral Equations</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e1038a1310">
+               <label>Rou</label>
+               
+               <mixed-citation id="d2846269e1045" publication-type="book">
+T. Roubíček, Relaxation in optimization theory and variational calculus, DeGruyter,
+Berlin 1997.<person-group>
+                     <string-name>
+                     <surname>Roubíček</surname>
+                  </string-name>
+                  </person-group>
+               <source>Relaxation in optimization theory and variational calculus</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2846269e1070a1310">
+               <label>Ver94</label>
+               
+               <mixed-citation id="d2846269e1077" publication-type="journal">
+R. Verfürth, A posteriori error estimates for nonlinear problems. Finite element dis-
+cretization of elliptic equations, Math. Comp., 62:445-475, 1994. MR 94j:65136<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <volume>62</volume>
+               <source>Math. Comp.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

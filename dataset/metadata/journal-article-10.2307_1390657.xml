@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260288</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390657</article-id>
+         
+         <title-group>
+            <article-title>On the LASSO and Its Dual</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Michael R.</given-names>
+                  <surname>Osborne</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Brett</given-names>
+                  <surname>Presnell</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Berwin A.</given-names>
+                  <surname>Turlach</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>319</fpage>
+         <lpage>337</lpage>
+         <page-range>319-337</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390657"/>
+         
+         
+         <abstract>
+            <p>Proposed by Tibshirani, the least absolute shrinkage and selection operator (LASSO) estimates a vector of regression coefficients by minimizing the residual sum of squares subject to a constraint on the l&lt;sup&gt;1&lt;/sup&gt;-norm of the coefficient vector. The LASSO estimator typically has one or more zero elements and thus shares characteristics of both shrinkage estimation and variable selection. In this article we treat the LASSO as a convex programming problem and derive its dual. Consideration of the primal and dual problems together leads to important new insights into the characteristics of the LASSO estimator and to an improved method for estimating its covariance matrix. Using these results we also develop an efficient algorithm for computing LASSO estimates which is usable even in cases where the number of regressors exceeds the number of observations. An S-Plus library based on this algorithm is available from StatLib.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Convex programming</kwd>
+            <kwd>Dual problem</kwd>
+            <kwd>Partial least squares</kwd>
+            <kwd>Penalized regression</kwd>
+            <kwd>Quadratic programming</kwd>
+            <kwd>Regression</kwd>
+            <kwd>Shrinkage</kwd>
+            <kwd>Subset selection</kwd>
+            <kwd>Variable selection</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3068323e175a1310">
+               
+               <mixed-citation id="d3068323e179" publication-type="book">
+Brown, P.J. (1993), Measurement, Regression, and Calibration, Oxford: Clarendon Press.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <source>Measurement, Regression, and Calibration</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e201a1310">
+               
+               <mixed-citation id="d3068323e205" publication-type="journal">
+Chen, S.S., Donoho, D.L., and Saunders, M.A. (1999), "Atomic Decomposition by Basis Pursuit," SIAM Jour-
+nal on Scientific Computing, 20, 33-61 (http://www-stat.stanford.edu/-donoho/Reports/1995/30401.ps.Z).<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>20</volume>
+               <source>SIAM Journal on Scientific Computing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e237a1310">
+               
+               <mixed-citation id="d3068323e241" publication-type="journal">
+Clark, D.I., and Osborne, M.R. (1988), "On Linear Restricted and Interval Least-Squares Problems," IMA
+Journal of Numerical Analysis, 8, 23-36.<person-group>
+                     <string-name>
+                     <surname>Clark</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>8</volume>
+               <source>IMA Journal of Numerical Analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e273a1310">
+               
+               <mixed-citation id="d3068323e277" publication-type="journal">
+Frank, I.E.., and Friedman, J. H. (1993), "A Statistical View of Some Chemometrics Regression Tools" (with
+discussion), Technometrics, 35, 109-148.<object-id pub-id-type="doi">10.2307/1269656</object-id>
+               <fpage>109</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e294a1310">
+               
+               <mixed-citation id="d3068323e298" publication-type="journal">
+Fu, W.J. (1998), "Penalized Regression: The Bridge Versus the Lasso," Journal of Computational and Graph-
+ical Statistics, 7, 397-416.<object-id pub-id-type="doi">10.2307/1390712</object-id>
+               <fpage>397</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e314a1310">
+               
+               <mixed-citation id="d3068323e318" publication-type="book">
+Gallant, A.R. (1987), Nonlinear Statistical Models, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Gallant</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonlinear Statistical Models</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e340a1310">
+               
+               <mixed-citation id="d3068323e344" publication-type="book">
+Haagen, K., Bartholomew, D.J., Deistler, M. (eds) (1993), Statistical Modelling and Latent Variables, New
+York; Amsterdam: Elsevier/North-Holland.<person-group>
+                     <string-name>
+                     <surname>Haagen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Modelling and Latent Variables</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e369a1310">
+               
+               <mixed-citation id="d3068323e373" publication-type="journal">
+Koch, I. (1996), "On the Asymptotic Performance of Median Smoothers in Image Analysis and Nonparametric
+Regression," The Annals of Statistics, 24, 1648-1666.<object-id pub-id-type="jstor">10.2307/2242743</object-id>
+               <fpage>1648</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e389a1310">
+               
+               <mixed-citation id="d3068323e393" publication-type="journal">
+Meyer, M.C. (1999), "An Extension of the Mixed Primal-Dual Bases Algorithm to the Case of More Constraints
+Than Dimensions," Journal of Statistical Planning and Inference, 81, 13-31.<person-group>
+                     <string-name>
+                     <surname>Meyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>13</fpage>
+               <volume>81</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e425a1310">
+               
+               <mixed-citation id="d3068323e429" publication-type="book">
+Miller, A.J. (1990), Subset Selection in Regression, vol. 40 of Monographs on Statistics and Applied Probability,
+London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Subset Selection in Regression</comment>
+               <volume>40</volume>
+               <source>Monographs on Statistics and Applied Probability</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e462a1310">
+               
+               <mixed-citation id="d3068323e466" publication-type="book">
+Nash, S.G., and Sofer, A. (1996), Linear and Nonlinear Programming, New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>Nash</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear and Nonlinear Programming</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e488a1310">
+               
+               <mixed-citation id="d3068323e492" publication-type="book">
+Osborne, M.R. (1985), Finite Algorithms in Optimization and Data Analysis, Wiley Series in Probability and
+Mathematical Statistics, Chichester: Wiley.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Algorithms in Optimization and Data Analysis</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e517a1310">
+               
+               <mixed-citation id="d3068323e521" publication-type="book">
+Osborne, M.R., Presnell, B., and Turlach, B.A. (1998), "Knot Selection for Regression Splines via the
+Lasso," in Dimension Reduction, Computational Complexity, and Information, ed. S. Weisberg, vol. 30 of
+Computing Science and Statistics, Fairfax Station, VA: Interface Foundation of North America, pp.44-49,
+(http://www.maths.uwa.edu.au/hberwin/psfiles/interface98.ps.gz).<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Knot Selection for Regression Splines via the Lasso</comment>
+               <fpage>44</fpage>
+               <volume>30</volume>
+               <source>Dimension Reduction, Computational Complexity, and Information</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e562a1310">
+               
+               <mixed-citation id="d3068323e566" publication-type="journal">
+-~ (in press), "A New Approach to Variable Selection in Least Squares Problems," IMA Journal of
+Numerical Analysis.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <source>IMA Journal of Numerical Analysis</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e588a1310">
+               
+               <mixed-citation id="d3068323e592" publication-type="book">
+Rao, C.R. (1973), Linear Statistical Inference and Its Applications (2nd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Rao</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Linear Statistical Inference and Its Applications</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e617a1310">
+               
+               <mixed-citation id="d3068323e621" publication-type="book">
+Rockafellar, R.T. (1970), Convex Analysis, vol. 28 of Princeton Mathematical Series, Princeton, NJ: Princeton
+University Press.<person-group>
+                     <string-name>
+                     <surname>Rockafellar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Convex Analysis</comment>
+               <volume>28</volume>
+               <source>Princeton Mathematical Series</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e654a1310">
+               
+               <mixed-citation id="d3068323e658" publication-type="journal">
+Sardy, S., Bruce, A.G., and Tseng, P. (2000), "Block Coordinate Relaxation Methods for Nonparametric
+Wavelet Denoising," Journal of Computational and Graphical Statistics, 9, 361-379.<object-id pub-id-type="doi">10.2307/1390659</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e674a1310">
+               
+               <mixed-citation id="d3068323e678" publication-type="journal">
+Stamey, T.A., Kabalin, J.N., McNeal, J.E., Johnstone, I.M., Freiha, F., Redwine, E.A., and Yang, N. (1989),
+"Prostate Specific Antigen in the Diagnosis and Treatment of Adenocarcinoma of the Prostate: II. Radical
+Prostatectomy Treated Patients," Journal of Urology, 141, 1076-1083.<person-group>
+                     <string-name>
+                     <surname>Stamey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1076</fpage>
+               <volume>141</volume>
+               <source>Journal of Urology</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068323e713a1310">
+               
+               <mixed-citation id="d3068323e717" publication-type="journal">
+Tibshirani, R. (1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical
+Society, Series B, 58, 267-288.<person-group>
+                     <string-name>
+                     <surname>Tibshirani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>267</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">215</issue>
+         <issue-id>i337671</issue-id>
+         <article-id pub-id-type="jstor">2153790</article-id>
+         
+         <title-group>
+            <article-title>Finite Element Approximation of Diffusion Equations with Convolution Terms</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Małgorzata</given-names>
+                     <surname>Peszyńska</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1019</fpage>
+         <lpage>1037</lpage>
+         <page-range>1019-1037</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153790"/>
+         
+         
+         <abstract>
+            <p>Approximation of solutions to diffusion equations with memory represented by convolution integral terms is considered. Such problems arise from modeling of flows in fissured media. Convergence of the method is proved and results of numerical experiments confirming the theoretical results are presented. The advantages of implementation of the algorithm in a multiprocessing environment are discussed.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65M15</kwd>
+            <kwd>45K05</kwd>
+            <kwd>35K99</kwd>
+            <kwd>76S05</kwd>
+            <kwd>Integro-partial differential equations</kwd>
+            <kwd>finite elements</kwd>
+            <kwd>convolution integrals</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d999897e169a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d999897e176" publication-type="journal">
+T. Arbogast, Analysis of the Simulation of Single Phase Flow Through a Naturally Fractured
+Reservoir, SIAM J. Numer. Anal.26 (1989), 12-29. MR 90e:76122<object-id pub-id-type="jstor">10.2307/2157704</object-id>
+               <fpage>12</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e192a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d999897e199" publication-type="book">
+T. Arbogast, J. Douglas (Jr.), Dual-Porosity Models for Flow in Naturally Fractured Reser-
+voirs, In "Dynamics of Fluids in Hierarchical Porous Media," J. H. Cushman, ed., Academic
+Press, London, 1990, 177-221.<person-group>
+                     <string-name>
+                     <surname>Arbogast</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Dual-Porosity Models for Flow in Naturally Fractured Reservoirs</comment>
+               <fpage>177</fpage>
+               <source>Dynamics of Fluids in Hierarchical Porous Media</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e234a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d999897e241" publication-type="journal">
+T. Arbogast, J. Douglas (Jr.), U. Hornung, Derivation of the Double Porosity Model of Single
+Phase Flow via Homogenization Theory, SIAM J. Math. Anal.21 (1990), 823-836. MR
+91d:76074<person-group>
+                     <string-name>
+                     <surname>Arbogast</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>823</fpage>
+               <volume>21</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e276a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d999897e283" publication-type="journal">
+Xiao Chuan Cai, Additive Schwarz algorithms for parabolic convection-diffusion equations,
+Numer. Math.60 (1991), 41-61. MR 93a:65127<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>60</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e316a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d999897e323" publication-type="journal">
+Xiao Chuan Cai, W.D. Gropp, D.E. Keyes, Convergence rate estimate for a domain decom-
+position method, Numer. Math.61 (1992), 153-169. MR 92k:65181<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>153</fpage>
+               <volume>61</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e355a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d999897e362" publication-type="journal">
+C. Chen, V. Thomee, L. B. Wahlbin, Finite element approximation of a parabolic integro-
+differential equation with a weakly singular kernel, Math. Comp.58 (1992), 587-602. MR
+93g:65120<object-id pub-id-type="doi">10.2307/2153204</object-id>
+               <fpage>587</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e381a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d999897e388" publication-type="book">
+P. G. Ciarlet, The Finite Element Method for Elliptic Problems, (1978) North-Holland. MR
+58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e413a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d999897e420" publication-type="book">
+M. Dryja, 0. Widlund, An Additive Variant of the Schwarz Alternating Method for the Case of
+Many Subregions, Technical Report 339, Department of Computer Science, Courant Institute
+of Mathematical Sciences, New York, December 1987.<person-group>
+                     <string-name>
+                     <surname>Dryja</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Additive Variant of the Schwarz Alternating Method for the Case of Many Subregions</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e449a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d999897e456" publication-type="book">
+M. Dryja, O.B. Widlund, Some Domain Decomposition Algorithms for Elliptic Problems, in:
+Iterative Methods for Large Linear Systems, Academic Press, 1990. CMP 90:07<person-group>
+                     <string-name>
+                     <surname>Dryja</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some Domain Decomposition Algorithms for Elliptic Problems, in: Iterative Methods for Large Linear Systems</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e481a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d999897e488" publication-type="conference">
+Domain Decomposition Methods for Partial Differential Equations, Proceedings of the First
+International Symposium on Domain Decomposition Methods for Partial Differential Equa-
+tions, R. Glowinski, G. H. Golub, G. A. Meurant, J. Periaux eds., Paris, France, January,
+1987, SIAM, Philadelphia, 1988.<comment content-type="section">Domain Decomposition Methods for Partial Differential Equations</comment>
+               <source>Proceedings of the First International Symposium on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e515a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d999897e522" publication-type="book">
+A. Greenbaum, Congming Li, Han Zheng Cao, Parallelizing Preconditioned Conjugate Gra-
+dient Algorithms, Technical Report, Courant Institute, 1988.<person-group>
+                     <string-name>
+                     <surname>Greenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <source>Parallelizing Preconditioned Conjugate Gradient Algorithms</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e547a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d999897e554" publication-type="book">
+G. Gripenberg, S.-O. Londen, 0. Staffans, Volterra Integral and Functional Equations, Cam-
+bridge University Press, Cambridge, 1990. MR 91c:45003<person-group>
+                     <string-name>
+                     <surname>Gripenberg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Volterra Integral and Functional Equations</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e579a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d999897e586" publication-type="journal">
+K.H. Hoffmann, J. Zou, Parallel efficiency of domain decomposition methods, Parallel Com-
+puting19 (1993), 1375-1392.<person-group>
+                     <string-name>
+                     <surname>Hoffmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1375</fpage>
+               <volume>19</volume>
+               <source>Parallel Computing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e618a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d999897e625" publication-type="journal">
+U. Hornung, R. E. Showalter, Diffusion Models for Fractured Media, Jour. Math. Anal. Appl.
+147 (1990), 69-80. MR 91d:76072<person-group>
+                     <string-name>
+                     <surname>Hornung</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>147</volume>
+               <source>Jour. Math. Anal. Appl.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e657a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d999897e664" publication-type="journal">
+Y. Lin, V. Thomee, L. B. Wahlbin, Ritz-Volterra projections to finite element spaces and
+applications to integrodifferential and related eqautions, SIAM J. Numer. Anal.28 (1991),
+1047-1070. MR 92k:65193<object-id pub-id-type="jstor">10.2307/2157786</object-id>
+               <fpage>1047</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e683a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d999897e690" publication-type="book">
+P. Linz, Analytical and Numerical Methods for Volterra Equations, (1985) SIAM, Philadel-
+phia. MR 86m:65163<person-group>
+                     <string-name>
+                     <surname>Linz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analytical and Numerical Methods for Volterra Equations</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e716a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d999897e723" publication-type="journal">
+C. Lubich, Convolution Quadrature and Discretized Operational Calculus, Parts I &amp; 2, Nu-
+mer. Math.52 (1988), 129-145 &amp; 413-425. MR 89g:65018; MR 89g:65019<person-group>
+                     <string-name>
+                     <surname>Lubich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>52</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e755a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d999897e762" publication-type="journal">
+R. C. MacCamy, J. S. Wong, Stability Theorems for Some Functional Equations, Trans. Amer.
+Math. Soc.164 (1972), 1-37. MR 45:2432<object-id pub-id-type="doi">10.2307/1995957</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e778a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d999897e785" publication-type="journal">
+Maria-Luisa Mascarenhas, A linear homogenization problem with time dependent coefficient,
+Trans. Amer. Math. Soc281 (1984), 179-195. MR 85c:45002<object-id pub-id-type="doi">10.2307/1999528</object-id>
+               <fpage>179</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e801a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d999897e808" publication-type="book">
+V. McLean, V. Thomee, L.B. Wahlbin, Discretization with variable time steps of an evolu-
+tion equation with a positive type memory term, Applied Mathematics Report AMRR 93.18,
+December 1993 School of Math., The University of New South Wales.<person-group>
+                     <string-name>
+                     <surname>McLean</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discretization with variable time steps of an evolution equation with a positive type memory term</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e837a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d999897e844" publication-type="journal">
+R. K. Miller, An integrodifferential equation for rigid heat conductors with memory, Jour.
+Math. Anal. Appl.66 (1978), 313-332. MR 80g:45015<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>313</fpage>
+               <volume>66</volume>
+               <source>Jour. Math. Anal. Appl.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e876a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d999897e883" publication-type="journal">
+B. Neta, Numerical Solution of a Nonlinear Integro-differential Equation, Jour. Math. Anal.
+Appl.89 (1982), 598-611. MR 84a:65105<person-group>
+                     <string-name>
+                     <surname>Neta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>598</fpage>
+               <volume>89</volume>
+               <source>Jour. Math. Anal. Appl.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e916a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d999897e923" publication-type="journal">
+J. W. Nunziato, On heat conduction in materials with memory, Quarterly Appl. Math.29
+(1971), 187-204. MR 45:4749<person-group>
+                     <string-name>
+                     <surname>Nunziato</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>29</volume>
+               <source>Quarterly Appl. Math.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e955a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d999897e962" publication-type="journal">
+A.K. Pani, V. Thomee, L.B. Wahlbin, Numerical methods for hyperbolic and parabolic inte-
+grodifferential equations, J. Integral Equations Appl.4 (1992), 533-584. MR 94c:65167<person-group>
+                     <string-name>
+                     <surname>Pani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>533</fpage>
+               <volume>4</volume>
+               <source>J. Integral Equations Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e994a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d999897e1001" publication-type="other">
+M. Peszyńska, Fluid Flow Through Fissured Media. Mathematical Analysis and Numerical
+Approach, Ph. D. Thesis (1992), University of Augsburg.</mixed-citation>
+            </ref>
+            <ref id="d999897e1011a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d999897e1018" publication-type="book">
+M. Peszyńska, Finite element approximation of a model of nonisothermal flow through fissured
+media, in: Finite Element Methods, M. Kfizek, P. Neittaanmaiki, R. Stenberg (Eds), Marcel
+Dekker, 1994, 357-366.<person-group>
+                     <string-name>
+                     <surname>Peszyńska</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite element approximation of a model of nonisothermal flow through fissured media</comment>
+               <fpage>357</fpage>
+               <source>Finite Element Methods</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1053a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d999897e1060" publication-type="journal">
+M. Peszyńska, On a model for nonisothermal flow in fissured media, Differential Integral
+Equations8 (1995), 1497-1516. CMP 95:12<person-group>
+                     <string-name>
+                     <surname>Peszyńska</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1497</fpage>
+               <volume>8</volume>
+               <source>Differential Integral Equations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1092a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d999897e1099" publication-type="journal">
+M. Peszyńska, Analysis of an integro-differential equation arising from modelling of flows
+with fading memory through fissured media, J. Partial Diff. Eqs.8 (1995), 159-173. MR
+96a:45007<person-group>
+                     <string-name>
+                     <surname>Peszyńska</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>159</fpage>
+               <volume>8</volume>
+               <source>J. Partial Diff. Eqs.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1135a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d999897e1142" publication-type="book">
+A.H. Schatz, V. Thomee, W.L. Wendland, Mathematical Theory of Finite and Boundary
+Element Methods, Birkhduser, Basel-Boston-Berlin, 1990. MR 92f:65004<person-group>
+                     <string-name>
+                     <surname>Schatz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical Theory of Finite and Boundary Element Methods</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1167a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d999897e1174" publication-type="conference">
+R. E. Showalter, Distributed Microstructure Models of Porous Media, in: "Flow in Porous
+Media: proceedings of the Oberwolfach conference, June 21-27, 1992", J. Douglas Jr. and U.
+Hornung, eds., Birkhduser, Basel, 1993, 155-163. MR 95a:76091<person-group>
+                     <string-name>
+                     <surname>Showalter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Distributed Microstructure Models of Porous Media</comment>
+               <fpage>155</fpage>
+               <source>Flow in Porous Media: proceedings of the Oberwolfach conference, June 21-27, 1992</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1209a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d999897e1216" publication-type="journal">
+I. H. Sloan, V. Thomee, Time Discretization of an Integro-Differential Equation of Parabolic
+Type, SIAM J. Numer. Anal.23 (1986) 1052-1061. MR 87j:65113<object-id pub-id-type="jstor">10.2307/2157515</object-id>
+               <fpage>1052</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1232a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d999897e1239" publication-type="book">
+L. Tartar, Nonlocal effects induced by homogenization, in: "Partial Differential Equations and
+the Calculus of Variations, Essays in Honor of Ennio de Giorgi," F. Colombini et. al., eds.,
+Birkhhuser, Boston, 1989, 925-938. MR 91c:35018<person-group>
+                     <string-name>
+                     <surname>Tartar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Nonlocal effects induced by homogenization</comment>
+               <fpage>925</fpage>
+               <source>Partial Differential Equations and the Calculus of Variations, Essays in Honor of Ennio de Giorgi</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1274a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d999897e1281" publication-type="journal">
+L. Tartar, Memory effects and homogenization, Arch. Rat. Mech. Anal.111 (1990), 121-133.
+MR 92h:35019<person-group>
+                     <string-name>
+                     <surname>Tartar</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>111</volume>
+               <source>Arch. Rat. Mech. Anal.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1313a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d999897e1320" publication-type="book">
+V. Thomée, L. B. Wahlbin, Long time numerical solution of a parabolic equation with memory,
+Dept. of Math, Chalmers University of Technology, The University of G6teborg, Preprint No
+1992-12/ISSN 0347-2809<person-group>
+                     <string-name>
+                     <surname>Thomée</surname>
+                  </string-name>
+                  </person-group>
+               <issn>0347-2809</issn>
+               <source>Long time numerical solution of a parabolic equation with memory</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1350a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d999897e1357" publication-type="journal">
+M. F. Wheeler, A Priori L2 Error Estimates for Galerkin Approximations to Parabolic Partial
+Differential Equations, SIAM J. Numer. Anal., 10 (1973), 723-759. MR 50:3613<object-id pub-id-type="jstor">10.2307/2156281</object-id>
+               <fpage>723</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d999897e1373a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d999897e1380" publication-type="journal">
+Nai-ying Zhang, On fully discrete Galerkin approximations for partial integro-differential
+equations of parabolic type, Math. of Comp.60 (1993) 133-166. MR 93d:65088<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>60</volume>
+               <source>Math. of Comp.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

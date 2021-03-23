@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">220</issue>
+         <issue-id>i337676</issue-id>
+         <article-id pub-id-type="jstor">2153678</article-id>
+         
+         <title-group>
+            <article-title>Analysis of a FEM/BEM Coupling Method for Transonic Flow Computations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>H.</given-names>
+                  <surname>Berger</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>G.</given-names>
+                  <surname>Warnecke</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>W. L.</given-names>
+                  <surname>Wendland</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>1407</fpage>
+         <lpage>1440</lpage>
+         <page-range>1407-1440</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153678"/>
+         
+         
+         <abstract>
+            <p>A sensitive issue in numerical calculations for exterior flow problems, e.g. around airfoils, is the treatment of the far field boundary conditions on a computational domain which is bounded. In this paper we investigate this problem for two-dimensional transonic potential flows with subsonic far field flow around airfoil profiles. We take the artificial far field boundary in the subsonic flow region. In the far field we approximate the subsonic potential flow by the Prandtl-Glauert linearization. The latter leads via the Green representation theorem to a boundary integral equation on the far field boundary. This defines a nonlocal boundary condition for the interior ring domain. Our approach leads naturally to a coupled finite element/boundary element method for numerical calculations. It is compared with local boundary conditions. The error analysis for the method is given and we prove convergence provided the solution to the analytic transonic flow problem around the profile exists.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>68N38</kwd>
+            <kwd>76H05</kwd>
+            <kwd>49M10</kwd>
+            <kwd>35L67</kwd>
+            <kwd>Transonic full potential equation</kwd>
+            <kwd>artificial boundary conditions</kwd>
+            <kwd>finite elements</kwd>
+            <kwd>boundary elements</kwd>
+            <kwd>asymptotic error analysis</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1383919e206a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1383919e213" publication-type="book">
+AGARD Advisory Report No. 211, Test Cases for Inviscid Flow Field Methods, Report of
+Fluid Dynamics Panel Working Group 07, 1985.<source>Test Cases for Inviscid Flow Field Methods</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e229a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1383919e236" publication-type="journal">
+D. N. Arnold and W.L. Wendland, "The convergence of spline collocation for strongly elliptic
+equations on curves", Numer. Math.47, 317-341 (1985). MIR 87f:65142<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>47</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e268a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1383919e275" publication-type="book">
+I. Babuška and A. K. Aziz, "Survey lectures on the mathematical foundations of the finite
+element method", in The Mathematical Foundation of the Finite Element Method with
+Applications to Partial Differential Equations, A.K. Aziz (ed.), Academic Press, New York
+1-359 (1972). MR 54:9111<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Survey lectures on the mathematical foundations of the finite element method</comment>
+               <fpage>1</fpage>
+               <source>The Mathematical Foundation of the Finite Element Method with Applications to Partial Differential Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e313a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1383919e320" publication-type="book">
+E. B. Becker, G. F. Carey and J. T. Oden, Finite Elements, Vol. VI: Fluid Mechanics,
+Prentice-Hall Inc., Englewood Cliffs, New Jersey, 1984.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Elements, Vol. VI: Fluid Mechanics</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e346a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1383919e353" publication-type="other">
+H. Berger, "Finite-Element-Approximationen für transsonische Strömungen", Doctoral
+Thesis, Universität Stuttgart, Germany, 1989.</mixed-citation>
+            </ref>
+            <ref id="d1383919e363a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1383919e370" publication-type="journal">
+H. Berger, "A convergent finite element formulation for transonic flows", Numer. Math.56,
+425-447 (1989). NIR 91g:65204<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>425</fpage>
+               <volume>56</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e402a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1383919e409" publication-type="journal">
+H. Berger and M. Feistauer, "Analysis of the finite element variational crimes in the numer-
+ical approximation of transonic flow". Math. Comp.61, 493-521 (1993). NIR 94a:65055<object-id pub-id-type="doi">10.2307/2153238</object-id>
+               <fpage>493</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e425a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1383919e432" publication-type="book">
+H. Berger, G. Warnecke and W. Wendland, "Finite Element-Berechnungen für transsonis-
+che Strömungen unter Berücksichtigung verschiedener Fernfeldrandbedingungen." In:
+Strömungen mit Ablösungen, DGLR-Bericht 88-05, Bonn (1988) 233-242.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite Element-Berechnungen für transsonische Strömungen unter Berücksichtigung verschiedener Fernfeldrandbedingungen</comment>
+               <fpage>233</fpage>
+               <source>Strömungen mit Ablösungen</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e467a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1383919e474" publication-type="journal">
+H. Berger, G. Warnecke and W. Wendland, "Finite elements for transonic potential
+flows," Numer. Meth. Part. Diff. Eqns.6, 17-42 (1990). NIR 91h:76053<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>6</volume>
+               <source>Numer. Meth. Part. Diff. Eqns.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e506a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1383919e513" publication-type="book">
+H. Berger, G. Warnecke and W.L. Wendland, "Coupling of FEM and BEM for transonic
+flows", in The Mathematics of Finite Elements and Applications (J.R. Whiteman ed.) John
+Wiley &amp; Sons, Chichester, 323-350 (1994). NIR 95f:76053<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Coupling of FEM and BEM for transonic flows</comment>
+               <fpage>323</fpage>
+               <source>The Mathematics of Finite Elements and Applications</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e549a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1383919e556" publication-type="book">
+L. Bers, "Mathematical aspects of subsonic and transonic gas dynamics," in Surveys in
+Applied Mathematics III, Wiley, New York, 1958. NIR 20:2960<person-group>
+                     <string-name>
+                     <surname>Bers</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mathematical aspects of subsonic and transonic gas dynamics</comment>
+               <source>Surveys in Applied Mathematics III</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e585a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1383919e592" publication-type="journal">
+L. Bers, "Existence and uniqueness of subsonic flow past a given profile," Commun. Pure
+Appl. Math.7, 441-504 (1954). NIR 16:417a<person-group>
+                     <string-name>
+                     <surname>Bers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>441</fpage>
+               <volume>7</volume>
+               <source>Commun. Pure Appl. Math.</source>
+               <year>1954</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e624a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1383919e631" publication-type="book">
+B. Bojarski, "Subsonic flow of compressible fluid," in Mathematical Problems in Fluid Me-
+chanics, Polish Academy of Sciences, Warsaw, 1967. NIR 37:4995<person-group>
+                     <string-name>
+                     <surname>Bojarski</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Subsonic flow of compressible fluid</comment>
+               <source>Mathematical Problems in Fluid Mechanics</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e660a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1383919e667" publication-type="journal">
+H. Brezis and G. Stampacchia, "Une nouvelle methode pour l'etude d'ecoulements station-
+naires," C. R. Acad. Sci. Paris276, 129-132 (1973). NIR 47:4521<person-group>
+                     <string-name>
+                     <surname>Brezis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>276</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e699a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1383919e706" publication-type="book">
+NI. 0. Bristeau, R. Glowinski, J. Periaux, P. Perrier, 0. Pironneau and G. Poirier, "Appli-
+cation of optimal control and finite element methods to the calculation of transonic flows
+and incompressible flows," in Numerical Methods in Applied Fluid Dynamics, B. Hunt (ed.),
+Academic Press, New York, 203-312 (1980). NIR 83h:65120<person-group>
+                     <string-name>
+                     <surname>Bristeau</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Application of optimal control and finite element methods to the calculation of transonic flows and incompressible flows</comment>
+               <fpage>203</fpage>
+               <source>Numerical Methods in Applied Fluid Dynamics</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e744a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1383919e751" publication-type="book">
+NI. 0. Bristeau, R. Glowinski, J. Periaux, P. Perrier, 0. Pironneau and G. Poirier, "Transonic
+flow simulations by finite elements and least squares methods," in Finite Elements in Fluids
+IV, R. H. Gallagher, G. Carey, J. T. Oden, and 0. C. Zienkiewicz (eds.), Wiley, Chichester,
+453-482 (1982).<person-group>
+                     <string-name>
+                     <surname>Bristeau</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Transonic flow simulations by finite elements and least squares methods</comment>
+               <fpage>453</fpage>
+               <source>Finite Elements in Fluids IV</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e790a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1383919e797" publication-type="journal">
+NI. 0. Bristeau, R. Glowinski, J. Periaux, P. Perrier, 0. Pironneau and G. Poirier, "On
+the numerical solution of nonlinear problems in fluid dynamics by least squares and finite
+element methods II. Application to transonic flow simulations," Comput. Methods Appl.
+Mech. Engrg.51, 363-394 (1985). NIR 87d:76100<person-group>
+                     <string-name>
+                     <surname>Bristeau</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>51</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e835a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1383919e842" publication-type="book">
+P. G. Ciarlet, The Finite Element Method for Elliptic Problems, North-Holland, Amster-
+dam, 1978. NIR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e867a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1383919e874" publication-type="journal">
+J. F. Ciavaldini, NI. Pogu and G. Tournemine, " Une nouvelle approche dans le plain physique
+pour le calcul d'ecoulements subcritiques et stationaires autor d'un profil portant," J. de
+Mécanique16, 257-288 (1977). NIR 56:10418<person-group>
+                     <string-name>
+                     <surname>Ciavaldini</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>257</fpage>
+               <volume>16</volume>
+               <source>J. de Mécanique</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e909a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1383919e916" publication-type="journal">
+J. F. Ciavaldini, NI. Pogu and G. Tournemine, "Existence and regularity of stream functions
+for subsonic flows past profiles with a sharp trailing edge," Arch. Rat. Mech. Anal.93, 1-14
+(1986). NIR 87d:76108<person-group>
+                     <string-name>
+                     <surname>Ciavaldini</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>93</volume>
+               <source>Arch. Rat. Mech. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e951a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1383919e958" publication-type="book">
+C. Coclici and W.L. Wendland, "On the treatment of the Kutta-Joukowski condition in
+transonic flow computations", in preparation (Preprint 95-14 MIA Univ. Stuttgart).<person-group>
+                     <string-name>
+                     <surname>Coclici</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the treatment of the Kutta-Joukowski condition in transonic flow computations</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e980a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1383919e987" publication-type="journal">
+NI. Costabel, "Boundary integral operators on Lipschitz domains: Elementary results,"
+SIAM J. Math. Anal.19, 613-626 (1988). NIR 89h:35090<person-group>
+                     <string-name>
+                     <surname>Costabel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>613</fpage>
+               <volume>19</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1020a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1383919e1027" publication-type="book">
+R. Courant and D. Hilbert, Methods of Mathematical Physics II, Interscience Publishers,
+New York, 1962. NIR 25:4216<person-group>
+                     <string-name>
+                     <surname>Courant</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of Mathematical Physics II</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1052a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1383919e1059" publication-type="book">
+R. Courant and K. 0. Friedrichs, Supersonic Flow and Shock Waves, Wiley, New York
+(1948). [Reprinted by Springer-Verlag, New York (1985).] NIR 10:637c; NIR 54:9284<person-group>
+                     <string-name>
+                     <surname>Courant</surname>
+                  </string-name>
+                  </person-group>
+               <source>Supersonic Flow and Shock Waves</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1084a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1383919e1091" publication-type="journal">
+NI. Crouzeix and V. Thomee, "The stability on Lp and W' of the L2-projection onto finite
+element function spaces", Math. Comp.48, 521-532 (1987). NIR 88f:41016<object-id pub-id-type="doi">10.2307/2007825</object-id>
+               <fpage>521</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1107a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1383919e1114" publication-type="journal">
+NI. Dauge and NI. Pogu, "Existence et regularity de la function potential pour des
+ecoulements subcritiques s'etablissant autour d'un corps a singularity conique," Ann. Fac.
+des Sci. de ToulouseIX, 213-242 (1988). CMIP 97:05<person-group>
+                     <string-name>
+                     <surname>Dauge</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>213</fpage>
+               <volume>IX</volume>
+               <source>Ann. Fac. des Sci. de Toulouse</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1149a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1383919e1156" publication-type="journal">
+M. Djaoua, "A method of calculation of lifting flows around two-dimensional corner-shaped
+bodies," Math. Comp.36, 405-425 (1981). NIR 82c:76011<object-id pub-id-type="doi">10.2307/2007650</object-id>
+               <fpage>405</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1172a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1383919e1179" publication-type="book">
+H. Federer, Geometric Measure Theory, Springer-Verlag, Berlin-Heidelberg-New York
+(1969). NIR 41:1976<person-group>
+                     <string-name>
+                     <surname>Federer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geometric Measure Theory</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1205a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1383919e1212" publication-type="journal">
+M. Feistauer, J. Felcman, M. Rokyta and Z. Vldsek, "Finite-element solution of flow prob-
+lems with trailing conditions," J. Comp. Appl. Math.44, 131-165 (1992). NIR 94d:76052<person-group>
+                     <string-name>
+                     <surname>Feistauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>44</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1244a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1383919e1251" publication-type="book">
+M. Feistauer, G.C. Hsiao, R.E. Kleinman and R. Tezaur, "Analysis and numerical realization
+of coupled BEM and FEM for nonlinear exterior problems", in Inverse Scattering and
+Potential Problems in Mathematical Physics (R.E Kleinman, R. Kress and E. NIartensen
+eds.), Verlag Peter Lang, Frankfurt, 47-73 (1995). NIR 95m:76045<person-group>
+                     <string-name>
+                     <surname>Feistauer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analysis and numerical realization of coupled BEM and FEM for nonlinear exterior problems</comment>
+               <fpage>47</fpage>
+               <source>Inverse Scattering and Potential Problems in Mathematical Physics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1289a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1383919e1296" publication-type="journal">
+NI. Feistauer and J. Necas, "On the solvability of transonic potential flow problems," Z.
+Anal. Anw.4, 305-329 (1985). NIR 87a:76078<person-group>
+                     <string-name>
+                     <surname>Feistauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>305</fpage>
+               <volume>4</volume>
+               <source>Z. Anal. Anw.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1328a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1383919e1335" publication-type="journal">
+NI. Feistauer and A. Zenisek, "Finite element solution of nonlinear elliptic problems," Nu-
+mer. Math.50, 451-475 (1987). NIR 88f:65195<person-group>
+                     <string-name>
+                     <surname>Feistauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>451</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1367a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1383919e1374" publication-type="book">
+G.J. Fix and G. Strang, An Analysis of the Finite Element Method, Prentice Hall, Engle-
+wood Cliffs, N.J. (1973). NIR 56:1747<person-group>
+                     <string-name>
+                     <surname>Fix</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Analysis of the Finite Element Method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1399a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1383919e1406" publication-type="journal">
+F. I. Frankl and NI. Keldysh, "Die auI3ere Neumannsche Aufgabe fur nichtlineare elliptische
+Differentialgleichungen mit Anwendungen auf die Theorie der Fliugel im kompressiblen Gas,"
+Bull. Acad. Sci. URSS12, 561-607 (1934).<person-group>
+                     <string-name>
+                     <surname>Frankl</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>561</fpage>
+               <volume>12</volume>
+               <source>Bull. Acad. Sci. URSS</source>
+               <year>1934</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1442a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1383919e1449" publication-type="journal">
+G. N. Gatica and G. C. Hsiao, "The coupling of boundary element and finite element
+methods for a nonlinear exterior boundary value problem," Numer. Math.61, 171-214
+(1992).<person-group>
+                     <string-name>
+                     <surname>Gatica</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>171</fpage>
+               <volume>61</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1484a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1383919e1491" publication-type="book">
+R. Glowinski and 0. Pironneau, "On the computation of transonic flows," in Funct. Anal.
+and Num. Anal., H. Fujita (ed.), Jap. Soc. Prom. Sci., Tokyo-Kyoto, 143-173 (1978).<person-group>
+                     <string-name>
+                     <surname>Glowinski</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the computation of transonic flows</comment>
+               <fpage>143</fpage>
+               <source>Funct. Anal. and Num. Anal.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1523a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1383919e1530" publication-type="journal">
+U. Göhner and G. Warnecke, "A shock indicator for adaptive transonic flow computations",
+Numer. Math.66, 423-448 (1994). NIR 95a:65199<person-group>
+                     <string-name>
+                     <surname>Göhner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>423</fpage>
+               <volume>66</volume>
+               <source>Numer. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1562a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1383919e1569" publication-type="journal">
+G. C. Hsiao and W. L. Wendland, "A finite element method for an integral equation of the
+first kind", J. Math. Anal. Appl.58, 449-481 (1977). NIR 57:1945<person-group>
+                     <string-name>
+                     <surname>Hsiao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>449</fpage>
+               <volume>58</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1601a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1383919e1608" publication-type="journal">
+C. Johnson and J. C. Nedelec, "On the coupling of boundary integral and finite element
+methods," Math. Comp.35, 1063-1079 (1980). NIR 82c:65072<object-id pub-id-type="doi">10.2307/2006375</object-id>
+               <fpage>1063</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1624a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1383919e1631" publication-type="journal">
+B. L. Keyfitz and G. Warnecke, "The existence of viscous profiles and admissibility for
+transonic shocks," Commun. Part. Diff. Eqns.16, 1197-1221 (1991). NIR 92i:76063<person-group>
+                     <string-name>
+                     <surname>Keyfitz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1197</fpage>
+               <volume>16</volume>
+               <source>Commun. Part. Diff. Eqns.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1664a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1383919e1671" publication-type="book">
+N. Kroll and R. K. Jain, Solution of Two-Dimensional Euler Equation Experience with a
+Finite Volume Code, DFVLR-Forschungsbericht 87-41, DFVLR Institut fur Entwurfsaero-
+dynamik, Braunschweig 1987.<person-group>
+                     <string-name>
+                     <surname>Kroll</surname>
+                  </string-name>
+                  </person-group>
+               <source>Solution of Two-Dimensional Euler Equation Experience with a Finite Volume Code</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1700a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1383919e1707" publication-type="book">
+L. D. Landau and E. NI. Lifschitz, Lehrbuch der theoretischen Physik VI - Hydrodynamik,
+Akademie Verlag, Berlin (1981). NIR 93b:00001c<person-group>
+                     <string-name>
+                     <surname>Landau</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lehrbuch der theoretischen Physik VI - Hydrodynamik</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1732a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1383919e1739" publication-type="other">
+M. N. LeRoux, Résolution numérique du problème du potential dans le plan par une méthode
+variationelle d'éléments finis, Doctoral Thesis, University Rennes, 1974.</mixed-citation>
+            </ref>
+            <ref id="d1383919e1749a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1383919e1756" publication-type="journal">
+J. Mandel and J. Necas, "Convergence of finite elements for transonic potential flows",
+SIAM J. Numer. Anal.24, 985-996 (1987). NIR 89a:65170<object-id pub-id-type="jstor">10.2307/2157633</object-id>
+               <fpage>985</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1772a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1383919e1779" publication-type="journal">
+C. S. Morawetz, ".Non-Existence of Transonic Flow Past a Profile I", Commun. Pure Apll.
+Math.9, 45-68 (1956). NIR 17:1149d<person-group>
+                     <string-name>
+                     <surname>Morawetz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>45</fpage>
+               <volume>9</volume>
+               <source>Commun. Pure Apll. Math.</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1811a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1383919e1818" publication-type="journal">
+C. S. Morawetz, "Non-Existence of Transonic Flow Past a Profile II", Commun. Pure Appl.
+Math.10, 107-131 (1957). NIR 19:490e<person-group>
+                     <string-name>
+                     <surname>Morawetz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>107</fpage>
+               <volume>10</volume>
+               <source>Commun. Pure Appl. Math.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1851a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d1383919e1858" publication-type="journal">
+C. S. Morawetz, "Non-Existence of Transonic Flow Past a Profile III", Commun. Pure
+Appl. Math.17, 357-367 (1964). NIR 32:1994<person-group>
+                     <string-name>
+                     <surname>Morawetz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>357</fpage>
+               <volume>17</volume>
+               <source>Commun. Pure Appl. Math.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1890a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d1383919e1897" publication-type="journal">
+C. S. Morawetz, "On a Weak Solution for a Transonic Flow Problem", Cummun. Pur Appl.
+Math.38, 797-818 (1985). NIR 87c:76087<person-group>
+                     <string-name>
+                     <surname>Morawetz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>797</fpage>
+               <volume>38</volume>
+               <source>Cummun. Pur Appl. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1929a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d1383919e1936" publication-type="journal">
+F. Murat, "L'injection du c6ne positiv de H-' dans W-I"q est compact pour tout q &lt; 2,"
+J. Math. Pures Appl.60, 309-322 (1981). NIR 83b:46045<person-group>
+                     <string-name>
+                     <surname>Murat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>60</volume>
+               <source>J. Math. Pures Appl.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e1968a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d1383919e1975" publication-type="book">
+J. Nečas, Compacite par Entropie et Ecoulements de Fluides, Lecture Notes Universit6 de
+Charles et E.N-S., NIasson, Paris (1989).<person-group>
+                     <string-name>
+                     <surname>Nečas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Compacite par Entropie et Ecoulements de Fluides</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2000a1310">
+               <label>51</label>
+               
+               <mixed-citation id="d1383919e2007" publication-type="journal">
+NI. Pogu and G. Tournemine, "Sur une classe de problems monotones poses dans des
+ouverts non bornes, methode d'approche, algorithmes de resolution et application," Rev.
+Roumaine Math. Pures Appl.31, 317-341 (1986). NIR 88a:35051<person-group>
+                     <string-name>
+                     <surname>Pogu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>31</volume>
+               <source>Rev. Roumaine Math. Pures Appl.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2042a1310">
+               <label>52</label>
+               
+               <mixed-citation id="d1383919e2049" publication-type="journal">
+R. Rannacher and R. Scott, "Some optimal error estimates for piecewise linear finite element
+approximations". Math. Comp.38, 437-445 (1982). NIR 83e:65180<object-id pub-id-type="doi">10.2307/2007280</object-id>
+               <fpage>437</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2066a1310">
+               <label>53</label>
+               
+               <mixed-citation id="d1383919e2073" publication-type="book">
+A. Rizzi and H. Viviant, Eds., Numerical Methods for the Computation of Inviscid Tran-
+sonic Flows with Shock Wawes — Notes on Numerical Fluid Mechanics III, Vieweg, Braun-
+schweig, 1986. MR 83j:76002<person-group>
+                     <string-name>
+                     <surname>Rizzi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Methods for the Computation of Inviscid Transonic Flows with Shock Wawes — Notes on Numerical Fluid Mechanics III</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2102a1310">
+               <label>54</label>
+               
+               <mixed-citation id="d1383919e2109" publication-type="book">
+J. Smoller. Shock Waves and Reaction Diffusion Equations. Springer-Verlag. Berlin (1983).<person-group>
+                     <string-name>
+                     <surname>Smoller</surname>
+                  </string-name>
+                  </person-group>
+               <source>Shock Waves and Reaction Diffusion Equations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2131a1310">
+               <label>55</label>
+               
+               <mixed-citation id="d1383919e2138" publication-type="book">
+I.L. Sofronov and S.V. Tscyncov. "Application of the linear potential flow model to the
+artificial boundary conditions construction for the Euler equations." (Preprint No. 41 Nat.
+Center of NIath. Simulation. Russian Acad. Sci. Moscow. 1991.) To appear.<person-group>
+                     <string-name>
+                     <surname>Sofronov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Application of the linear potential flow model to the artificial boundary conditions construction for the Euler equations</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2167a1310">
+               <label>56</label>
+               
+               <mixed-citation id="d1383919e2174" publication-type="book">
+G. Warnecke. "Admissibility of solutions to the Riemann problems for systems of mixed
+type - transonic small disturbance theory." In: Nonlinear Evolution Equations that Change
+Type. B. L. Keyfitz and NI. Shearer (eds.). IMA-Series Volume 27. Springer-Verlag. New
+York. 258-284 (1990). MR 91f:35187<person-group>
+                     <string-name>
+                     <surname>Warnecke</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Admissibility of solutions to the Riemann problems for systems of mixed type - transonic small disturbance theory</comment>
+               <fpage>258</fpage>
+               <volume>27</volume>
+               <source>Nonlinear Evolution Equations that Change Type</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1383919e2215a1310">
+               <label>57</label>
+               
+               <mixed-citation id="d1383919e2222" publication-type="book">
+J. Zierep. Theoretische Gasdynamik. Braun. Karlsruhe (1976).<person-group>
+                     <string-name>
+                     <surname>Zierep</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theoretische Gasdynamik</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

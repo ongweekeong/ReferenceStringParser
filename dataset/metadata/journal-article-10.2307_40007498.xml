@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i40000389</issue-id>
+         <article-id pub-id-type="jstor">40007498</article-id>
+         <title-group>
+            <article-title>Hybrid Natural Language Generation from Lexical Conceptual Structures</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nizar</given-names>
+                  <surname>Habash</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bonnie</given-names>
+                  <surname>Dorr</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>David</given-names>
+                  <surname>Traum</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>81</fpage>
+         <lpage>127</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40007498"/>
+         
+         
+         <abstract>
+            <p>This paper describes Lexogen, a system for generating natural-language sentences from Lexical Conceptual Structure, an interlingual representation. The system has been developed as part of a Chinese-English Machine Translation (MT) system; however, it is designed to be used for many other MT language pairs and natural language applications. The contributions of this work include: (1) development of a large-scale Hybrid Natural Language Generation system with language-independent components; (2) enhancements to an interlingual representation and associated algorithm for generation from ambiguous input; (3) development of an efficient reusable language-independent linearization module with a grammar description language that can be used with other systems; (4) improvements to an earlier algorithm for hierarchically mapping thematic roles to surface positions; and (5) development of a diagnostic tool for lexicon coverage and correctness and use of the tool for verification of English, Spanish, and Chinese lexicons. An evaluation of Chinese-English translation quality shows comparable performance with a commercial translation system. The generation system can also be extended to other languages and this is demonstrated and evaluated for Spanish.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Hybrid Natural Language Generation</kwd>
+            <kwd>Multilingual Natural Language Generation</kwd>
+            <kwd>interlingua</kwd>
+            <kwd>Lexical Conceptual Structure</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <ref-list>
+            <title>Notes</title>
+            <ref id="d4718442e263a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4718442e270" publication-type="other">
+(Langkilde-Geary, 2002).</mixed-citation>
+            </ref>
+            <ref id="d4718442e277a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4718442e284" publication-type="other">
+Dorr and Olsen (1996)</mixed-citation>
+               <mixed-citation id="d4718442e290" publication-type="other">
+Olsen et al. (2001)</mixed-citation>
+            </ref>
+            <ref id="d4718442e297a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4718442e304" publication-type="other">
+Levin and
+Rappaport Hovav (1996).</mixed-citation>
+            </ref>
+            <ref id="d4718442e314a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4718442e321" publication-type="other">
+(Mann and Matthiessen, 1985).</mixed-citation>
+            </ref>
+            <ref id="d4718442e329a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4718442e336" publication-type="other">
+Hovy (1999)</mixed-citation>
+               <mixed-citation id="d4718442e342" publication-type="other">
+ISLE (2000).</mixed-citation>
+            </ref>
+            <ref id="d4718442e349a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4718442e356" publication-type="other">
+(Langkilde-Geary, 2002).</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d4718442e372a1310">
+               
+               <mixed-citation id="d4718442e376" publication-type="other">
+Alshawi, Hiyan, Srinivas Bangalore, and Shona Douglas: 2000, 'Learning Dependency Translation
+Models as Collections of Finite-State Head Transducers', Computational Linguistics 26, 45-60.</mixed-citation>
+            </ref>
+            <ref id="d4718442e386a1310">
+               
+               <mixed-citation id="d4718442e390" publication-type="other">
+Alsina, Alex and Sam A. Mchombo: 1993, 'Object Asymmetries and the Chichewa Applicative
+Construction', in Sam A. Mchombo (ed.): Aspects of Automated Natural Language Generation,
+Stanford, CA: CSLI Publications, pp. 1-6.</mixed-citation>
+            </ref>
+            <ref id="d4718442e403a1310">
+               
+               <mixed-citation id="d4718442e407" publication-type="other">
+Baker, Carl Lee: 1989, English Syntax, Cambridge, MA: The MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e414a1310">
+               
+               <mixed-citation id="d4718442e418" publication-type="other">
+Bangalore, Srinivas and Owen Rambow: 2000, 'Corpus-Based Lexical Choice in Natural Language
+Generation', in 38th Annual Meeting of the Association for Computational Linguistics, Hong
+Kong, pp. 464-471.</mixed-citation>
+            </ref>
+            <ref id="d4718442e432a1310">
+               
+               <mixed-citation id="d4718442e436" publication-type="other">
+Bangalore, S., O. Rambow, and S. Whittaker: 2000, 'Evaluation Metrics for Generation', in Proceed-
+ings of the 1st International Conference on Natural Language Generation (INLG 2000), Mitzpe
+Ramon, Israel, pp. 1-8.</mixed-citation>
+            </ref>
+            <ref id="d4718442e449a1310">
+               
+               <mixed-citation id="d4718442e453" publication-type="other">
+Bateman, John A.: 1997, 'Enabling technology for multilingual natural language generation: the
+KPML development environment', Natural Language Engineering 3, 15-55.</mixed-citation>
+            </ref>
+            <ref id="d4718442e463a1310">
+               
+               <mixed-citation id="d4718442e467" publication-type="other">
+Bateman, J., C. Matthiessen, and L. Zeng: 1999, 'Multilingual natural language generation for
+multilingual software: a functional linguistic approach', Applied Artificial Intelligence 13,
+607-639.</mixed-citation>
+            </ref>
+            <ref id="d4718442e480a1310">
+               
+               <mixed-citation id="d4718442e484" publication-type="other">
+Bresnan, J. and J. Kanerva: 1989, 'Locative Inversion in Chichewa: A Case Study of Factorization in
+Grammar', Linguistic Inquiry 20, 1-50.</mixed-citation>
+            </ref>
+            <ref id="d4718442e494a1310">
+               
+               <mixed-citation id="d4718442e498" publication-type="other">
+Carrier-Duncan, J.: 1985, 'Linking of Thematic Roles in Derivational Word Formation', Linguistic
+Inquiry 16, 1-34.</mixed-citation>
+            </ref>
+            <ref id="d4718442e508a1310">
+               
+               <mixed-citation id="d4718442e512" publication-type="other">
+Chandioux, John: 1989, 'MÉTÉO: 100 Million Words Later', in D. L. Hammond (ed.), American
+Translators Association Conference 1989: Coming of Age, Medford, NJ: Learned Information,
+pp. 449-453.</mixed-citation>
+            </ref>
+            <ref id="d4718442e526a1310">
+               
+               <mixed-citation id="d4718442e530" publication-type="other">
+Charniak, E.: 2000, 'Statistical Techniques in Natural Language Processing', in The MIT Encyclope-
+dia of the Cognitive Sciences, Cambridge: MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e540a1310">
+               
+               <mixed-citation id="d4718442e544" publication-type="other">
+Church, Kenneth W. and Eduard H. Hovy: 1993, 'Good Applications for Crummy Machine
+Translation', Machine Translation 8, 239-258.</mixed-citation>
+            </ref>
+            <ref id="d4718442e554a1310">
+               
+               <mixed-citation id="d4718442e558" publication-type="other">
+Cole, R., J. Mariani, H. Uszkoreit, A. Zaenen, and V. Zue: 1997, Survey of the State of the Art in
+Human Language Technology, Cambridge University Press, Cambridge, UK.</mixed-citation>
+            </ref>
+            <ref id="d4718442e568a1310">
+               
+               <mixed-citation id="d4718442e572" publication-type="other">
+Dorr, Bonnie Jean: 1993a, 'Interlingual Machine Translation: A Parameterized Approach', Artificial
+Intelligence 63, 429-492.</mixed-citation>
+            </ref>
+            <ref id="d4718442e582a1310">
+               
+               <mixed-citation id="d4718442e586" publication-type="other">
+Dorr, Bonnie Jean: 1993b, Machine Translation: A View from the Lexicon, Cambridge, MA: The
+MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e596a1310">
+               
+               <mixed-citation id="d4718442e600" publication-type="other">
+Dorr, Bonnie J.: 1994, 'Machine Translation Divergences: A Formal Description and Proposed
+Solution', Computational Linguistics 20, 597-633.</mixed-citation>
+            </ref>
+            <ref id="d4718442e611a1310">
+               
+               <mixed-citation id="d4718442e615" publication-type="other">
+Dorr, Bonnie J.: 1997 a, 'Large-Scale Acquisition of LCS-Based Lexicons for Foreign Language
+Tutoring', in Fifth Conference on Applied Natural Language Processing, Washington, DC, pp.
+139-146.</mixed-citation>
+            </ref>
+            <ref id="d4718442e628a1310">
+               
+               <mixed-citation id="d4718442e632" publication-type="other">
+Dorr, Bonnie J.: 1997b, 'Large-Scale Dictionary Construction for Foreign Language Tutoring and
+Interlingual Machine Translation', Machine Translation 12, 271-322.</mixed-citation>
+            </ref>
+            <ref id="d4718442e642a1310">
+               
+               <mixed-citation id="d4718442e646" publication-type="other">
+Dorr, B. J.: 2001, 'LCS Verb Database', Technical Report Online Software Database, University of
+Maryland, College Park, MD.
+http: / /www. umiacs.umd.edu/~bonnie/LCS_Database_Docmentation. html.</mixed-citation>
+            </ref>
+            <ref id="d4718442e659a1310">
+               
+               <mixed-citation id="d4718442e663" publication-type="other">
+Dorr, B. J. and T. Gaasterland: 2002, 'Constraints on the Generation of Tense, Aspect, and Connect-
+ing Words from Temporal Expressions', Technical Report CS-TR-4391, UMIACS-TR-2002-71,
+LAMP-TR-091. University of Maryland, College Park, MD, USA.</mixed-citation>
+            </ref>
+            <ref id="d4718442e676a1310">
+               
+               <mixed-citation id="d4718442e680" publication-type="other">
+Dorr, Bonnie J., Joseph Garman, and Amy Weinberg: 1995, 'From Syntactic Encodings to Thematic
+Roles: Building Lexical Entries for Interlingual MT', Machine Translation 9, 221-250.</mixed-citation>
+            </ref>
+            <ref id="d4718442e690a1310">
+               
+               <mixed-citation id="d4718442e694" publication-type="other">
+Dorr, Bonnie, Nizar Habash, and David Traum: 1998, 'A Thematic Hierarchy for Efficient Genera-
+tion from Lexical-Conceptal Structure, in David Farwell, Laurie Gerber and Eduard Hovy (eds),
+Machine Translation and the Information Soup: Third Conference of the Association for Machine
+Translation in the Americas, AMTA'98, Berlin: Springer, pp. 333-343.</mixed-citation>
+            </ref>
+            <ref id="d4718442e711a1310">
+               
+               <mixed-citation id="d4718442e715" publication-type="other">
+Dorr, Bonnie J., Gina-Anne Levow, and Dekang Lin: 2000, 'Building a Chinese-English Mapping
+Between Verb Concepts for Multilingual Applications', In White (2000), pp. 1-12.</mixed-citation>
+            </ref>
+            <ref id="d4718442e725a1310">
+               
+               <mixed-citation id="d4718442e729" publication-type="other">
+Dorr, Bonnie J., Gina-Anne Levow, and Dekang Lin: forthcoming, 'Construction of a Chinese-
+English Verb Lexicon for Embedded Machine Translation in Cross-Language Information
+Retrieval', to appear in Machine Translation (Special Issue on Embedded MT).</mixed-citation>
+            </ref>
+            <ref id="d4718442e742a1310">
+               
+               <mixed-citation id="d4718442e746" publication-type="other">
+Dorr, Bonnie J. and Mari Broman Olsen: 1996, 'Multilingual Generation: The Role of Telicity in
+Lexical Choice and Syntactic Realization', Machine Translation 11, 37-74.</mixed-citation>
+            </ref>
+            <ref id="d4718442e756a1310">
+               
+               <mixed-citation id="d4718442e760" publication-type="other">
+Elhadad, Michael, Kathleen McKeown, and J. Robin: 1997, 'Floating Constraints in Lexical Choice',
+Computational Linguistics 23, 195-240.</mixed-citation>
+            </ref>
+            <ref id="d4718442e770a1310">
+               
+               <mixed-citation id="d4718442e774" publication-type="other">
+Elhadad, Michael and Jacques Robin: 1992, 'Controlling Content Realization with Functional Uni-
+fication Grammars', in Robert Dale, Eduard Hovy, Dietmar Rosner, and Oliviero Stock (eds),
+Aspects of Automated Natural Language Generation: The 6th International Workshop on Natural
+Language Generation, Berlin: Springer, pp. 89-104.</mixed-citation>
+            </ref>
+            <ref id="d4718442e790a1310">
+               
+               <mixed-citation id="d4718442e794" publication-type="other">
+Fellbaum, C: 1998, WordNet: An Electronic Lexical Database, Cambridge, MA: The MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e802a1310">
+               
+               <mixed-citation id="d4718442e806" publication-type="other">
+Giorgi, A.: 1984, 'Toward a Theory of Long Distance Anaphors: A GB Approach', The Linguistic
+Review 3, 307-361.</mixed-citation>
+            </ref>
+            <ref id="d4718442e816a1310">
+               
+               <mixed-citation id="d4718442e820" publication-type="other">
+Grimshaw, J. and A. Mester: 1988, 'Light Verbs and Theta-Marking', Linguistic Inquiry 19, 205-232.</mixed-citation>
+            </ref>
+            <ref id="d4718442e827a1310">
+               
+               <mixed-citation id="d4718442e831" publication-type="other">
+Habash, Nizar: 2000, 'Oxygen: A Language Independent Linearization Engine', in White (2000),
+pp. 68-79.</mixed-citation>
+            </ref>
+            <ref id="d4718442e841a1310">
+               
+               <mixed-citation id="d4718442e845" publication-type="other">
+Habash, Nizar: 2001, A Reference Manual to the Linearization Engine oxyGen version 1.6',
+Technical report CS-TR-4295, University of Maryland, College Park, MD.</mixed-citation>
+            </ref>
+            <ref id="d4718442e855a1310">
+               
+               <mixed-citation id="d4718442e859" publication-type="other">
+Habash, Nizar and Bonnie Dorr: 2001a, 'Large Scale Language Independent Generation Using
+Thematic Hierarchies', in MT Summit VIII: Machine Translation in the Information Age,
+Santiago de Compostela, Spain, pp. 139-144.</mixed-citation>
+            </ref>
+            <ref id="d4718442e872a1310">
+               
+               <mixed-citation id="d4718442e876" publication-type="other">
+Habash, Nizar and Bonnie J. Dorr: 2001b, 'Large Scale Language Independent Generation: Using
+Thematic Hierarchies', Technical report LAMP-TR-075, CS-TR-4280, UMIACS-TR-2001-59,
+University of Maryland, College Park, MD.</mixed-citation>
+            </ref>
+            <ref id="d4718442e890a1310">
+               
+               <mixed-citation id="d4718442e894" publication-type="other">
+Halliday, Michael A. K.: 1985, An Introduction to Functional Grammar, London: Edward Arnold.</mixed-citation>
+            </ref>
+            <ref id="d4718442e901a1310">
+               
+               <mixed-citation id="d4718442e905" publication-type="other">
+Hirst, Graeme: 1987, Semantic Interpretation and the Resolution of Ambiguity, New York: Cam-
+bridge University Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e915a1310">
+               
+               <mixed-citation id="d4718442e919" publication-type="other">
+Hovy, Eduard: 1988, 'Generating Natural Language under Pragmatic Constraints', Ph.D. thesis, Yale
+University.</mixed-citation>
+            </ref>
+            <ref id="d4718442e929a1310">
+               
+               <mixed-citation id="d4718442e933" publication-type="other">
+Hovy, Eduard: 1999, 'Toward Finely Differentiated Evaluation Metrics for Machine Translation', in
+Proceedings of the EAGLES Workshop on Standards and Evaluation, Pisa, Italy, pp. 127-133.</mixed-citation>
+            </ref>
+            <ref id="d4718442e943a1310">
+               
+               <mixed-citation id="d4718442e947" publication-type="other">
+International Standards for Language Engineering (ISLE): 2000, 'The ISLE Classification of
+Machine Translation Evaluations', http://www.isi.edu/natural-language/mteval/, [ac-
+cessed 9/8/2003].</mixed-citation>
+            </ref>
+            <ref id="d4718442e960a1310">
+               
+               <mixed-citation id="d4718442e964" publication-type="other">
+Jackendoff, Ray S.: 1972, Semantic Interpretation in Generative Grammar, Cambridge, MA: The
+MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e975a1310">
+               
+               <mixed-citation id="d4718442e979" publication-type="other">
+Jackendoff, Ray S.: 1983, Semantics and Cognition, Cambridge, MA: The MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e986a1310">
+               
+               <mixed-citation id="d4718442e990" publication-type="other">
+Jackendoff, Ray S.: 1990, Semantic Structures, Cambridge, MA: The MIT Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e997a1310">
+               
+               <mixed-citation id="d4718442e1001" publication-type="other">
+Jackendoff, Ray S.: 1996, 'The Proper Treatment of Measuring Out, Telicity, and Perhaps Even
+Quantification in English', Natural Language and Linguistic Theory 14, 305-354.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1011a1310">
+               
+               <mixed-citation id="d4718442e1015" publication-type="other">
+Joshi, A. K.: 1987, 'An Introduction to Tree Adjoining Grammars', in A. Manaster-Ramer (ed.):
+Mathematics of Language, John Benjamins, Amsterdam, pp. 87-1 15</mixed-citation>
+            </ref>
+            <ref id="d4718442e1025a1310">
+               
+               <mixed-citation id="d4718442e1029" publication-type="other">
+Jurafsky, Daniel and James H. Martin: 2000, Speech and Language Processing: An Introduction
+to Natural Language Processing, Computational Linguistics, and Speech Recognition, Upper
+Saddle River, New Jersey: Prentice Hall.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1042a1310">
+               
+               <mixed-citation id="d4718442e1046" publication-type="other">
+Kay, Martin: 1979, 'Functional Grammar', in Proceedings of the 5th Annual Meeting of the Berkeley
+Linguistics Society, Berkeley, CA, pp. 142-158.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1057a1310">
+               
+               <mixed-citation id="d4718442e1061" publication-type="other">
+Kiparsky, P.: 1985, 'Morphology and Grammatical Relations', unpublished ms., Stanford University.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1068a1310">
+               
+               <mixed-citation id="d4718442e1072" publication-type="other">
+Kittredge, Richard, Lidija Iordanskaja, and Alain Polguere: 1988, 'Multi-Lingual Text Genera-
+tion and the Meaning-Text Theory', in Second International Conference on Theoretical and
+Methodological Issues in Machine Translation of Natural Languages, Pittsburgh, Pennsylvania.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1085a1310">
+               
+               <mixed-citation id="d4718442e1089" publication-type="other">
+Knight, Kevin, Ishwar Chander, Matthew Haines, Vasileios Hatzivassiloglou, Eduard Hovy, Masayo
+Iida, Steve K. Luk, Akitoshi Okumura, Richard Whitney, and Kenji Yamada: 1994, 'Integrating
+Knowledge Bases and Statistics in MT', in Technology Partnerships for Crossing the Language
+Barrier: Proceedings of the First Conference of the Association for Machine Translation in the
+Americas, Columbia, Maryland, pp. 134-141.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1108a1310">
+               
+               <mixed-citation id="d4718442e1112" publication-type="other">
+Knight, Kevin, Ishwar Chander, Matthew Haines, Vasileios Hatzivassiloglou, Eduard H. Hovy,
+Masayo Iida, Steve K. Luk, Richard Whitney, and Kenji Yamada: 1995, 'Filling Knowledge
+Gaps in a Broad-Coverage Machine Translation System', in Proceedings of the Fourteenth
+International Joint Conference on Artificial Intelligence, Montreal, Quebec, pp. 1390-1397.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1128a1310">
+               
+               <mixed-citation id="d4718442e1132" publication-type="other">
+Knight, Kevin and Vasileios Hatzivassiloglou: 1995, 'Two-Level, Many-Paths Generation', in 33rd
+Annual Meeting of the Association for Computational Linguistics, Cambridge, MA, pp. 252-260.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1142a1310">
+               
+               <mixed-citation id="d4718442e1146" publication-type="other">
+Knight, Kevin and Steve K. Luk: 1994, 'Building a Large Knowledge Base for Machine Translation',
+in Proceedings of the 12th National Conference on Artificial Intelligence, Seattle, WA, pp. 773-
+778.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1160a1310">
+               
+               <mixed-citation id="d4718442e1164" publication-type="other">
+Langkilde, Irene and Kevin Knight: 1998a, 'Generating Word Lattices from Abstract Meaning Rep-
+resentation', Technical report, Information Sciences Institute, University of Southern California,
+Marina del Rey, CA.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1177a1310">
+               
+               <mixed-citation id="d4718442e1181" publication-type="other">
+Langkilde, Irene and Kevin Knight: 1998b, 'Generation that Exploits Corpus-Based Statistical
+Knowledge', in COLING-ACL '98: 36th Annual Meeting of the Association for Computational
+Linguistics and 17th International Conference on Computational Linguistics, Montreal, Quebec,
+pp. 704-710.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1197a1310">
+               
+               <mixed-citation id="d4718442e1201" publication-type="other">
+Langkilde, Irene and Kevin Knight: 1998c, 'The Practical Value of n-Grams in Generation', in Pro-
+ceedings of the 9th International Natural Language Workshop (INLG'98), Niagara-on-the-Lake,
+Ontario, pp. 248-255.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1214a1310">
+               
+               <mixed-citation id="d4718442e1218" publication-type="other">
+Langkilde-Geary, Irene: 2002, 'An Empirical Verification of Coverage and Correctness for a General-
+Purpose Sentence Generator', in Proceedings of International Natural Language Generation
+Conference (INLG'02), Harriman, NY, pp. 17-24</mixed-citation>
+            </ref>
+            <ref id="d4718442e1231a1310">
+               
+               <mixed-citation id="d4718442e1235" publication-type="other">
+Larson, R.: 1988, 'On the Double Object Construction', Linguistic Inquiry 19, 335-391.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1242a1310">
+               
+               <mixed-citation id="d4718442e1246" publication-type="other">
+Levin, Beth: 1993, English Verb Classes and Alternations: A Preliminary Investigation, Chicago, IL:
+University of Chicago Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1257a1310">
+               
+               <mixed-citation id="d4718442e1261" publication-type="other">
+Levin, B. and M. Rappaport Hovav: 1996, 'From Lexical Semantics to Argument Realization',
+Technical report, Northwestern University, Evanston IL, and Bar Ilan University, Ramat Gan,
+Israel, ftp://ftp.ling.nwu.edu/pub/beth/borer96.ps.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1274a1310">
+               
+               <mixed-citation id="d4718442e1278" publication-type="other">
+Malouf, Robert: 2000, 'The Order of Prenominal Adjectives in Natural Language Generation', in
+38th Annual Meeting of the Association for Computational Linguistics, Hong Kong, pp. 85-92.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1288a1310">
+               
+               <mixed-citation id="d4718442e1292" publication-type="other">
+Mann, William C. and Christian Matthiessen: 1985, 'Demonstration of the Nigel Text Generation
+Computer Program', in James D. Benson and William S. Greaves (eds), Systemic Perspectives
+on Discourse, Volume 1, Norwood, NJ: Ablex, pp. 50-83.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1305a1310">
+               
+               <mixed-citation id="d4718442e1309" publication-type="other">
+Marcu, D., L. Carlson, and M. Watanabe: 2000, 'An Empirical Study in Multilingual Natural Lan-
+guage Generation: What Should a Text Planner Do?', in First International Natural Language
+Generation Conference (INLG'2000), Mitzpe Ramon, Israel, pp. 17-23.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1322a1310">
+               
+               <mixed-citation id="d4718442e1326" publication-type="other">
+Miller, George A. and Christiane Fellbaum: 1991, 'Semantic Networks of English', in Beth Levin
+and Steven Pinker (eds), Lexical and Conceptual Semantics, Amsterdam: Elsevier, pp. 197-229.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1336a1310">
+               
+               <mixed-citation id="d4718442e1340" publication-type="other">
+Nagao, Makoto: 1989, 'Two Years After the MT SUMMIT', in MT Summit II: Final Programme,
+Exhibition, Papers, Munich, Germany, pp. 100-105.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1351a1310">
+               
+               <mixed-citation id="d4718442e1355" publication-type="other">
+Nishgauchi, T.: 1984, 'Control and the Thematic Domain', Language 60, 215-260.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1362a1310">
+               
+               <mixed-citation id="d4718442e1366" publication-type="other">
+Okumura, Akitoshi, Kazunori Muraki, and Susumu Akamine: 1991, 'Multi-lingual Sentence Gen-
+eration from the PIVOT Interlingua', in Machine Translation Summit III Proceedings, Wash-</mixed-citation>
+            </ref>
+            <ref id="d4718442e1376a1310">
+               
+               <mixed-citation id="d4718442e1380" publication-type="other">
+ington, D.C., pp. 67-71. Repr. in: Sergei Nirenburg (ed.) Progress in Machine Translation,
+Amsterdam/Tokyo (1993): IOS Press/Ohmsha, pp. 119-125.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1390a1310">
+               
+               <mixed-citation id="d4718442e1394" publication-type="other">
+Olsen, Mari Broman: 1997, A Semantic and Pragmatic Model of Lexical and Grammatical Aspect,
+New York: Garland Press.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1404a1310">
+               
+               <mixed-citation id="d4718442e1408" publication-type="other">
+Olsen, Mari, David Traum, Carol Van Ess-Dykema, and Amy Weinberg: 2001, 'Implicit Cues for
+Explicit Generation: Using Telicity as a Cue for Tense Structure in a Chinese to English MT
+System', in MT Summit VIII: Machine Translation in the Information Age, Proceedings, Santiago
+de Compostela, Spain, pp. 259-264.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1424a1310">
+               
+               <mixed-citation id="d4718442e1428" publication-type="other">
+Papineni, Kishore, Salim Roukos, Todd Ward, and Wei-Jing Zhu: 2002, 'Bleu: A Method for
+Automatic Evaluation of Machine Translation', in 40th Annual Meeting of the Association of
+Computational Linguistics, Philadelphia, PA, pp. 311-318.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1442a1310">
+               
+               <mixed-citation id="d4718442e1446" publication-type="other">
+Paris, C, K. Vander Linden, M. Fischer, A. Hartley, L. Pemberton, R. Power, and D. Scott:
+1995, 'A Support Tool for Writing Multilingual Instructions', in Proceedings of the Fourteenth
+International Joint Conference on Artificial Intelligence, Montréal, Canada, pp. 1398-1404.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1459a1310">
+               
+               <mixed-citation id="d4718442e1463" publication-type="other">
+Penman: 1989, 'The Penman Reference Manual', ISI, University of Southern California, Marina del
+Rey, CA.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1473a1310">
+               
+               <mixed-citation id="d4718442e1477" publication-type="other">
+Polguère, A.: 1991, 'Everything Has Not Been Said about Interlinguae: The Case of Multilin-
+gual Text Generation Systems', in Proceedings of Natural Language Processing Pacific Rim
+Symposium (NLPRS '91), Singapore, pp. 314-320.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1490a1310">
+               
+               <mixed-citation id="d4718442e1494" publication-type="other">
+Quirk, Randolf, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik: 1985, A Comprehensive
+Grammar of the English Language, London: Longman.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1504a1310">
+               
+               <mixed-citation id="d4718442e1508" publication-type="other">
+Ratnaparkhi, Adwait: 2000, 'Trainable Methods for Surface Natural Language Generation', in 1st
+Meeting of the North American Chapter of the Association for Computational Linguistics,
+Seattle, WA, pp. 194-201.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1521a1310">
+               
+               <mixed-citation id="d4718442e1525" publication-type="other">
+Reiter, Ehud: 1995, 'NLG vs Templates', in Proceedings of the Fifth European Workshop on Natural
+Language Generation, Leiden, The Netherlands, pp. 95-106.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1536a1310">
+               
+               <mixed-citation id="d4718442e1540" publication-type="other">
+Rosetta, M. T.: 1994, Compositional Translation, Dordrecht: Kluwer.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1547a1310">
+               
+               <mixed-citation id="d4718442e1551" publication-type="other">
+Rösner, Dietmar: 1994, Automatische Generierung von mehrsprachigen Instruktionstexten aus
+einer Wissensbasis [Automatic knowledge-based generation of multilingual instruction texts].
+Habilitationsschrift, Fakultat fur Informatik, Universität Stuttgart.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1564a1310">
+               
+               <mixed-citation id="d4718442e1568" publication-type="other">
+Rösner, Dietmar and Manfred Stede: 1994, 'TECHDOC: Multilingual Generation of Online and
+Offline Instructional Text', in 4th Conference on Applied Natural Language Processing, Stuttgart,
+Germany, pp. 209-210.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1581a1310">
+               
+               <mixed-citation id="d4718442e1585" publication-type="other">
+Shaw, James and Vasileios Hatzivassiloglou: 1999, 'Ordering Among Premodifiers', in 37th Annual
+Meeting of the Association for Computational Linguistics, College Park, MD, pp. 135-143.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1595a1310">
+               
+               <mixed-citation id="d4718442e1599" publication-type="other">
+Vander Linden, K. and D. Scott: 1995, 'Raising the Interlingual Ceiling with Multilingual Text
+Generation', in Proceedings of the IJCAI Workshop on Multilingual Text Generation, Montreal,
+Canada, pp. 95-101.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1612a1310">
+               
+               <mixed-citation id="d4718442e1616" publication-type="other">
+White, John S. (ed.): 2000, Envisioning Machine Translation in the Information Future: 4th Con-
+ference of the Association for Machine Translation in the Americas, AMTA 2000, Berlin:
+Springer.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1630a1310">
+               
+               <mixed-citation id="d4718442e1634" publication-type="other">
+Wilkins, Wendy: 1988, 'Thematic Structure and Reflexivization', in Wendy Wilkins (ed.), Syntax
+and Semantics 21: Thematic Relations, San Diego, CA: Academic Press, pp. 191-213.</mixed-citation>
+            </ref>
+            <ref id="d4718442e1644a1310">
+               
+               <mixed-citation id="d4718442e1648" publication-type="other">
+XTAG-Group, T.: 1999, 'A Lexicalized Tree Adjoining Grammar for English', Technical report,
+Institute for Research in Cognitive Science, University of Pennsylvania, Philadelphia, PA.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

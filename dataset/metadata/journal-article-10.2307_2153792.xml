@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">215</issue>
+         <issue-id>i337671</issue-id>
+         <article-id pub-id-type="jstor">2153792</article-id>
+         
+         <title-group>
+            <article-title>A Fast Iterative Method to Compute the Flow Around a Submerged Body</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Johan F.</given-names>
+                  <surname>Malmliden</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>N. Anders</given-names>
+                  <surname>Petersson</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1067</fpage>
+         <lpage>1083</lpage>
+         <page-range>1067-1083</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153792"/>
+         
+         
+         <abstract>
+            <p>We develop an efficient iterative method for computing the steady linearized potential flow around a submerged body moving in a liquid of finite constant depth. In this paper we restrict the presentation to the two-dimensional problem, but the method is readily generalizable to the three-dimensional case, i.e., the flow in a canal. The problem is indefinite, which makes the convergence of most iterative methods unstable. To circumvent this difficulty, we decompose the problem into two more easily solvable subproblems and form a Schwarz-type iteration to solve the original problem. The first subproblem is definite and can therefore be solved by standard iterative methods. The second subproblem is indefinite but has no body. It is therefore easily and efficiently solvable by separation of variables. We prove that the iteration converges for sufficiently small Froude numbers. In addition, we present numerical results for a second-order accurate discretization of the problem. We demonstrate that the iterative method converges rapidly, and that the convergence rate improves when the Froude number decreases. We also verify numerically that the convergence rate is essentially independent of the grid size.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N12</kwd>
+            <kwd>76B20</kwd>
+            <kwd>Schwarz iteration</kwd>
+            <kwd>finite difference approximation</kwd>
+            <kwd>composite overlapping grid</kwd>
+            <kwd>potential flow</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1000609e187a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1000609e194" publication-type="book">
+D. L. Brown, G. Chesshire, and W. D. Henshaw, Getting started with CMPGRD. Introductory
+user's guide and reference manual. LA-UR 90-3729, Los Alamos National Laboratory, 1989.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Getting started with CMPGRD</comment>
+               <source>Introductory user's guide and reference manual</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e223a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1000609e230" publication-type="book">
+D. L. Brown, G. Chesshire, and W. D. Henshaw, An explanation of the CMPGRD compos-
+ite grid data structure. IBM Research Report RC 14354, IBM Research Division, Yorktown
+Heights, NY, 1990.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <source>An explanation of the CMPGRD composite grid data structure</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e259a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1000609e266" publication-type="journal">
+J. Cahouet and M. Lenoir, Resolution numerique du probleme non lineaire de la resistance de
+vagues bidimensionelle. C. R. Acad. Sc. Paris II, 297:819-822, 1983. MR 86j:76009<person-group>
+                     <string-name>
+                     <surname>Cahouet</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>819</fpage>
+               <volume>297</volume>
+               <source>C. R. Acad. Sc. Paris II</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e298a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1000609e305" publication-type="journal">
+G. Chesshire and W. D. Henshaw, Composite overlapping meshes for the solution of partial
+differential equations. J. Comput. Phys., 90(1):1-64, 1990. MR 91f:76043<person-group>
+                     <string-name>
+                     <surname>Chesshire</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>1</fpage>
+               <volume>90</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e341a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1000609e348" publication-type="book">
+R. Courant and D. Hilbert, Methods of Mathematical Physics, vol II. Interscience Publishers,
+New York, 1962. MR 25:4216<person-group>
+                     <string-name>
+                     <surname>Courant</surname>
+                  </string-name>
+                  </person-group>
+               <volume>II</volume>
+               <source>Methods of Mathematical Physics</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e377a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1000609e384" publication-type="conference">
+C. W. Dawson, A practical computer method for solving ship wave problems. In Proceedings
+of the Second International Conference on Numerical Ship Hydrodynamics, pages 30-38.
+University of California, Berkeley, 1977.<person-group>
+                     <string-name>
+                     <surname>Dawson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A practical computer method for solving ship wave problems</comment>
+               <fpage>30</fpage>
+               <source>Proceedings of the Second International Conference on Numerical Ship Hydrodynamics</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e419a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1000609e426" publication-type="journal">
+L. J. Doctors and R. F. Beck, Convergence properties of the Neumann-Kelvin problem for a
+submerged body. J. Ship Res., 31:227-234, 1987.<person-group>
+                     <string-name>
+                     <surname>Doctors</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>31</volume>
+               <source>J. Ship Res.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e458a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1000609e465" publication-type="book">
+S. Eisenstat, M. Gursky, M. H. Schultz, and A. H. Sherman, The Yale matrix package II: The
+non-symmetric case. Report 114, Dept. of Computer Science, Yale University, 1977.<person-group>
+                     <string-name>
+                     <surname>Eisenstat</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Yale matrix package II: The non-symmetric case</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e490a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1000609e497" publication-type="journal">
+P. S. Jensen, On the numerical radiation condition in the steady state ship wave problem. J.
+Ship Res., 31:14-22, 1987.<person-group>
+                     <string-name>
+                     <surname>Jensen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>14</fpage>
+               <volume>31</volume>
+               <source>J. Ship Res.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e529a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1000609e536" publication-type="journal">
+M. Lenoir and A. Tounsi, The localized finite element method and its application to the two-
+dimensional sea-keeping problem. SIAM J. Numer. Anal., 25:729-752, 1988. MR 89k:65138<object-id pub-id-type="jstor">10.2307/2157603</object-id>
+               <fpage>729</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e553a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1000609e560" publication-type="other">
+W. Lindemuth, T. J. Ratcliffe, and A. M. Reed, SHD 1260-1, David W. Taylor Naval Ship
+Research &amp; Development Center, 1988.</mixed-citation>
+            </ref>
+            <ref id="d1000609e570a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1000609e577" publication-type="book">
+J. F. Malmliden, An efficient numerical method for 3-D flow around a submerged body.
+TRITA-NA 9306, Department of Numerical Analysis and Computing Science, Royal Institute
+of Technology, 1993.<person-group>
+                     <string-name>
+                     <surname>Malmliden</surname>
+                  </string-name>
+                  </person-group>
+               <source>An efficient numerical method for 3-D flow around a submerged body</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e606a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1000609e613" publication-type="journal">
+C. C. Mei and H. S. Chen, A hybrid element method for steady linearized free-surface flows.
+Int. J. Numer. Meth. Eng., 10:1153-1175, 1976.<person-group>
+                     <string-name>
+                     <surname>Mei</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1153</fpage>
+               <volume>10</volume>
+               <source>Int. J. Numer. Meth. Eng.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e645a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1000609e652" publication-type="journal">
+D. E. Nakos and P. D. Sclavounos, On steady and unsteady ship wave patterns. J. Fluid
+Mech., 215:263-288, 1990. MR 91c:76022<person-group>
+                     <string-name>
+                     <surname>Nakos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>263</fpage>
+               <volume>215</volume>
+               <source>J. Fluid Mech.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e684a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1000609e691" publication-type="journal">
+J. N. Newman, Evaluation of the wave-resistance Green function: Part 2. The single integral
+on the centerplane. J. Ship Res., 31(3):145-150, 1987.<person-group>
+                     <string-name>
+                     <surname>Newman</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>145</fpage>
+               <volume>31</volume>
+               <source>J. Ship Res.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e726a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1000609e733" publication-type="journal">
+N. A. Petersson, A numerical method to calculate the two-dimensional flow around an under-
+water obstacle. SIAM J. Numer. Anal., 29:20-31, 1992. MR 92j:76010<object-id pub-id-type="jstor">10.2307/2158073</object-id>
+               <fpage>20</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e750a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1000609e757" publication-type="journal">
+N. A. Petersson and J. F. Malmliden, Computing the flow around a submerged body using
+composite grids. J. Comput. Phys., 105:47-57, 1993.<person-group>
+                     <string-name>
+                     <surname>Petersson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>47</fpage>
+               <volume>105</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e789a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1000609e796" publication-type="book">
+G. B. Whitham, Linear and nonlinear waves. Wiley-Interscience, New York, 1974. MR
+58:3905<person-group>
+                     <string-name>
+                     <surname>Whitham</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear and nonlinear waves</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e821a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1000609e828" publication-type="journal">
+G. X. Wu and R. E. Taylor, Hydrodynamic forces on submerged oscillating cylinders at forward
+speed. Proc. R. Soc. Lond., A 414:149-170, 1987.<person-group>
+                     <string-name>
+                     <surname>Wu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>149</fpage>
+               <volume>A 414</volume>
+               <source>Proc. R. Soc. Lond.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1000609e860a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1000609e867" publication-type="conference">
+F. Xia and L. Larsson, A calculation method for the lifting potential flow around yawed surface
+piercing 3-D bodies. In Proceedings of the 16'th Symposium on Naval Hydrodynamics, 1986,
+pp. 583-597.<person-group>
+                     <string-name>
+                     <surname>Xia</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A calculation method for the lifting potential flow around yawed surface piercing 3-D bodies</comment>
+               <fpage>583</fpage>
+               <source>Proceedings of the 16'th Symposium on Naval Hydrodynamics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

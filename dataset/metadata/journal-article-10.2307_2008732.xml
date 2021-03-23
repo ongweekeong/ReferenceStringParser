@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">53</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">188</issue>
+         <issue-id>i334606</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008732</article-id>
+         
+         <title-group>
+            <article-title>Computing Gretest Common Divisors and Factorizations in Quadratic Number Fields</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Erich</given-names>
+                  <surname>Kaltofen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Heinrich</given-names>
+                  <surname>Rolletschek</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1989</year>
+         </pub-date>
+         <fpage>697</fpage>
+         <lpage>720</lpage>
+         <page-range>697-720</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1989 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008732"/>
+         
+         
+         <abstract>
+            <p>In a quadratic number field $\mathbf{Q}(\sqrt D), D$ a squarefree integer, with class number 1, any algebraic integer can be decomposed uniquely into primes, but for only 21 domains Euclidean algorithms are known. It was shown by Cohn [5] that for $D \leq -19$ even remainder sequences with possibly nondecreasing norms cannot determine the GCD of arbitrary inputs. We extend this result by showing that there does not even exist an input in these domains for which the GCD computation becomes possible by allowing nondecreasing norms or remainders whose norms are not as small as possible. We then provide two algorithms for computing the GCD of algebraic integers in quadratic number fields $\mathbf{Q}(\sqrt D)$. The first applies only to complex quadratic number fields with class number 1, and is based on a short vector construction in a lattice. Its complexity is $O(S^3)$, where $S$ is the number of bits needed to encode the input. The second algorithm allows us to compute GCD's of algebraic integers in arbitrary number fields (ideal GCD's if the class number is &gt;1). It requires only $O(S^2)$ binary steps for fixed $D$, but works poorly if $D$ is large. Finally, we prove that in any domain, the computation of the prime factorization of an algebraic integer can be reduced in polynomial time to the problem of factoring its norm into rational primes. Our reduction is based on a constructive version of a theorem by A. Thue.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11R11</kwd>
+            <kwd>Quadratic number fields</kwd>
+            <kwd>greatest common divisor</kwd>
+            <kwd>factorization</kwd>
+            <kwd>polynomial-time complexity</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d4981701e150a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4981701e157" publication-type="journal">
+E. S. BARNES &amp; H. P. F. SwINNERTON-DYER, "The homogeneous minima of binary
+quadratic forms," Acta Math., v. 87, 1952, pp. 255-323.<person-group>
+                     <string-name>
+                     <surname>Barnes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>87</volume>
+               <source>Acta Math.</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e189a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4981701e196" publication-type="journal">
+A. BRAUER &amp; R. L. REYNOLDS, "On a theorem of Aubry-Thue", Canad. J. Math., v. 3,
+1951, pp. 367-374.<person-group>
+                     <string-name>
+                     <surname>Brauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>367</fpage>
+               <volume>3</volume>
+               <source>Canad. J. Math.</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e228a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4981701e235" publication-type="conference">
+B. F. CAVINESS &amp; G. E. COLLINS, Algorithms for Gaussian Integer Arithmetic, Proc. 1976
+ACM Symp. Symbolic Algebraic Comp., 1976, pp. 36-45.<person-group>
+                     <string-name>
+                     <surname>Caviness</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms for Gaussian Integer Arithmetic</comment>
+               <fpage>36</fpage>
+               <source>Proc. 1976 ACM Symp. Symbolic Algebraic Comp.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e267a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4981701e274" publication-type="journal">
+H. CHATLAND &amp; H. DAVENPORT, "Euclid's algorithm in real quadratic fields," Canad. J.
+Math., v. 2, 1950, pp. 289-296.<person-group>
+                     <string-name>
+                     <surname>Chatland</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>289</fpage>
+               <volume>2</volume>
+               <source>Canad. J. Math.</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e307a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4981701e314" publication-type="journal">
+P. M. COHN, "On the structure of GL2 of a ring," Publ. Math. IHES, v. 30, 1966, pp. 365-413.<person-group>
+                     <string-name>
+                     <surname>Cohn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>365</fpage>
+               <volume>30</volume>
+               <source>Publ. Math. IHES</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e343a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4981701e350" publication-type="journal">
+G. E. COOKE, "A weakening of the Euclidean property for integral domains and applications
+to algebraic number theory I," J. Reine Angew. Math., v. 282, 1976, pp. 133-156.<person-group>
+                     <string-name>
+                     <surname>Cooke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>282</volume>
+               <source>J. Reine Angew. Math.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e382a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4981701e389" publication-type="journal">
+G. E. COOKE &amp; P. J. WEINBERGER, "On the construction of division chains in algebraic
+number rings, with applications to SL2," Comm. Algebra, v. 3, no. 6, 1975, pp. 481-524.<person-group>
+                     <string-name>
+                     <surname>Cooke</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>481</fpage>
+               <volume>3</volume>
+               <source>Comm. Algebra</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e424a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4981701e431" publication-type="book">
+G. H. HARDY &amp; E. M. WRIGHT, An Introduction to the Theory of Numbers, Oxford Univ.
+Press, Oxford, 1979.<person-group>
+                     <string-name>
+                     <surname>Hardy</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to the Theory of Numbers</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e456a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4981701e463" publication-type="book">
+H. HASSE, Vorlesungen über die Zahlentheorie, Springer-Verlag, Berlin, 1950.<person-group>
+                     <string-name>
+                     <surname>Hasse</surname>
+                  </string-name>
+                  </person-group>
+               <source>Vorlesungen über die Zahlentheorie</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e485a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4981701e492" publication-type="journal">
+L.-K. HUA, "On the least solution of Pell's equation," Bull. Amer. Math. Soc., v. 48, 1942,
+pp. 731-735.<person-group>
+                     <string-name>
+                     <surname>Hua</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>731</fpage>
+               <volume>48</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1942</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e525a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4981701e532" publication-type="book">
+A. HURWITZ, Mathematische Werke, 2, Birkhauser Verlag, Basel, 1963.<person-group>
+                     <string-name>
+                     <surname>Hurwitz</surname>
+                  </string-name>
+                  </person-group>
+               <volume>2</volume>
+               <source>Mathematische Werke</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e557a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4981701e564" publication-type="book">
+R. KANNAN, "Algebraic geometry of numbers," in Annual Review in Computer Science (J. F.
+Traub, ed.), vol. 2, Annual Reviews Inc., Palo Alto, California, 1987, pp. 231-267.<person-group>
+                     <string-name>
+                     <surname>Kannan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algebraic geometry of numbers</comment>
+               <fpage>231</fpage>
+               <volume>2</volume>
+               <source>Annual Review in Computer Science</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e599a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4981701e606" publication-type="journal">
+R. KANNAN &amp; A. BACHEM, "Polynomial algorithms for computing the Smith and Hermite
+normal forms of an integer matrix," SIAM J. Comput., v. 8, 1981, pp. 499-507.<person-group>
+                     <string-name>
+                     <surname>Kannan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>499</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e638a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4981701e645" publication-type="book">
+D. E. KNUTH, The Art of Computer Programming, vol. 2, Semi-Numerical Algorithms, 2nd ed.,
+Addison-Wesley, Reading, Mass., 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The Art of Computer Programming, vol. 2, Semi-Numerical Algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e674a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4981701e681" publication-type="journal">
+G. LAMÉ, "Note sur la limite du nombre des divisions dans la recherche du plus grand
+diviseur entre deux nombres entiers," C. R. Acad. Sci. Paris, v. 19, 1844, pp. 867-870.<person-group>
+                     <string-name>
+                     <surname>Lamé</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>867</fpage>
+               <volume>19</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>1844</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e713a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4981701e720" publication-type="book">
+S. LANG, Algebraic Number Theory, Addison-Wesley, Reading, Mass., 1970.<person-group>
+                     <string-name>
+                     <surname>Lang</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algebraic Number Theory</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e743a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4981701e750" publication-type="journal">
+D. LAZARD, "Le meilleur algorithme d'Euclide pour K[XI et Z," C. R. Acad. Sci. Paris, v.
+284, 1977, pp. 1-4.<person-group>
+                     <string-name>
+                     <surname>Lazard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>284</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e782a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4981701e789" publication-type="journal">
+A. K. LENSTRA, JR., H. W. LENSTRA &amp; L. LovAsz, "Factoring polynomials with rational
+coefficients," Math. Ann., v. 261, 1982, pp. 515-534.<person-group>
+                     <string-name>
+                     <surname>Lenstra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>515</fpage>
+               <volume>261</volume>
+               <source>Math. Ann.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e821a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4981701e828" publication-type="journal">
+T. NAGELL, "Sur un th6or6me d'Axel Thue," Ark. Mat., v. 1, no. 33, 1951, pp. 489-496.<person-group>
+                     <string-name>
+                     <surname>Nagell</surname>
+                  </string-name>
+                  </person-group>
+               <issue>33</issue>
+               <fpage>489</fpage>
+               <volume>1</volume>
+               <source>Ark. Mat.</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e860a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4981701e867" publication-type="journal">
+M. POHST &amp; H. ZASSENHAUS, "An effective number theoretic method of computing the
+fundamental units of an algebraic number field," Math. Comp., v. 31, 1977, pp. 754-770.<object-id pub-id-type="doi">10.2307/2006009</object-id>
+               <fpage>754</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e883a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4981701e890" publication-type="book">
+H. ROLLETSCHEK, "The Euclidean algorithm for Gaussian integers," Proc. EUROCAL '83,
+Springer Lecture Notes in Comput. Sci., vol. 162, 1983, pp. 12-23.<person-group>
+                     <string-name>
+                     <surname>Rolletschek</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Euclidean algorithm for Gaussian integers</comment>
+               <fpage>12</fpage>
+               <volume>162</volume>
+               <source>Proc. EUROCAL '83</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e925a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4981701e932" publication-type="journal">
+H. ROLLETSCHEK, "On the number of divisions of the Euclidean algorithm applied to
+Gaussian integers," J. Symb. Comput., v. 2, 1986, pp. 269-291.<person-group>
+                     <string-name>
+                     <surname>Rolletschek</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <volume>2</volume>
+               <source>J. Symb. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e965a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4981701e972" publication-type="journal">
+H. ROLLETSCHEK, "Shortest division chains in imaginary quadratic number fields," J.
+Symb. Comput. (To appear.)<person-group>
+                     <string-name>
+                     <surname>Rolletschek</surname>
+                  </string-name>
+                  </person-group>
+               <source>J. Symb. Comput.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e994a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4981701e1001" publication-type="journal">
+P. SAMUEL, "About Euclidean rings," J. Algebra, v. 19, 1971, pp. 282-301.<person-group>
+                     <string-name>
+                     <surname>Samuel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>282</fpage>
+               <volume>19</volume>
+               <source>J. Algebra</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1030a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4981701e1037" publication-type="book">
+R. J. SCHOOF, "Quadratic fields and factorization," in Computational Methods in Number
+Theory, Part II (H. W. Lenstra, Jr. and R. Tijdeman, eds.), Mathematical Centre Tracts, vol. 154,
+Mathematisch Centrum, Amsterdam, 1982, pp. 89-139.<person-group>
+                     <string-name>
+                     <surname>Schoof</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Quadratic fields and factorization</comment>
+               <fpage>89</fpage>
+               <volume>154</volume>
+               <source>Computational Methods in Number Theory</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1075a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4981701e1082" publication-type="journal">
+R. J. SCHOOF, "Elliptic curves over finite fields and the computation of square roots
+mod p," Math. Comp., v. 44, 1985, pp. 483-494.<object-id pub-id-type="doi">10.2307/2007968</object-id>
+               <fpage>483</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1098a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4981701e1105" publication-type="journal">
+A. SCHÖNHAGE, "Schnelle Kettenbruchentwicklungen," Acta Inform., v. 1, 1971, pp. 139-
+144.<person-group>
+                     <string-name>
+                     <surname>Schönhage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>1</volume>
+               <source>Acta Inform.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1137a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d4981701e1144" publication-type="book">
+D. SHANKS, Solved and Unsolved Problems in Number Theory I, 2nd ed., Chelsea, New York,
+1978.<person-group>
+                     <string-name>
+                     <surname>Shanks</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Solved and Unsolved Problems in Number Theory I</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1174a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d4981701e1181" publication-type="journal">
+H. STARK, "A complete determination of complex quadratic fields of class number one,"
+Michigan Math. J., v. 17, 1967, pp. 1-27.<person-group>
+                     <string-name>
+                     <surname>Stark</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>17</volume>
+               <source>Michigan Math. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1213a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d4981701e1220" publication-type="journal">
+A. THUE, "Et par antydninger til en taltheoretisk methode," Vid. Selsk. Forhandlinger Chris-
+tiania, no. 7, 1902.<person-group>
+                     <string-name>
+                     <surname>Thue</surname>
+                  </string-name>
+                  </person-group>
+               <issue>7</issue>
+               <source>Vid. Selsk. Forhandlinger Christiania</source>
+               <year>1902</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1249a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d4981701e1256" publication-type="conference">
+P. S. WANG, A p-adic Algorithm for Univariate Partial Fractions, Proc. 1981 ACM Symp.
+Symbolic Algebraic Comput., 1981, pp. 212-217.<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A p-adic Algorithm for Univariate Partial Fractions</comment>
+               <fpage>212</fpage>
+               <source>Proc. 1981 ACM Symp. Symbolic Algebraic Comput.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4981701e1288a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d4981701e1295" publication-type="conference">
+P. J. WEINBERGER, On Euclidean Rings of Algebraic Integers, Proc. Sympos. Pure Math.,
+vol. 24, Amer. Math. Soc., Providence, R.I., 1973, pp. 321-332.<person-group>
+                     <string-name>
+                     <surname>Weinberger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On Euclidean Rings of Algebraic Integers</comment>
+               <fpage>321</fpage>
+               <volume>24</volume>
+               <source>Proc. Sympos. Pure Math.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

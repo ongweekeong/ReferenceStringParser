@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">214</issue>
+         <issue-id>i337670</issue-id>
+         <article-id pub-id-type="jstor">2153604</article-id>
+         
+         <title-group>
+            <article-title>An Efficient Spectral Method for Ordinary Differential Equations with Rational Function Coefficients</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Evangelos A.</given-names>
+                  <surname>Coutsias</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Thomas</given-names>
+                  <surname>Hagstrom</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David</given-names>
+                  <surname>Torres</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>611</fpage>
+         <lpage>635</lpage>
+         <page-range>611-635</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153604"/>
+         
+         
+         <abstract>
+            <p>We present some relations that allow the efficient approximate inversion of linear differential operators with rational function coefficients. We employ expansions in terms of a large class of orthogonal polynomial families, including all the classical orthogonal polynomials. These families obey a simple 3-term recurrence relation for differentiation, which implies that on an appropriately restricted domain the differentiation operator has a unique banded inverse. The inverse is an integration operator for the family, and it is simply the tridiagonal coefficient matrix for the recurrence. Since in these families convolution operators (i.e., matrix representations of multiplication by a function) are banded for polynomials, we are able to obtain a banded representation for linear differential operators with rational coefficients. This leads to a method of solution of initial or boundary value problems that, besides having an operation count that scales linearly with the order of truncation N, is computationally well conditioned. Among the applications considered is the use of rational maps for the resolution of sharp interior layers.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65Q05</kwd>
+            <kwd>65L60</kwd>
+            <kwd>65P05</kwd>
+            <kwd>76M25</kwd>
+            <kwd>33A45</kwd>
+            <kwd>33C55</kwd>
+            <kwd>33C45</kwd>
+            <kwd>Spectral methods</kwd>
+            <kwd>orthogonal polynomials</kwd>
+            <kwd>boundary value problems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d861742e187a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d861742e194" publication-type="book">
+M. Abramowitz and I. Stegun, Handbook of Mathematical Functions, Dover, New York,
+(1965). MR 29:4914<person-group>
+                     <string-name>
+                     <surname>Abramowitz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of Mathematical Functions</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e219a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d861742e226" publication-type="journal">
+A. Bayliss, D. Gottlieb, B. Matkowsky and M. Minkoff, An adaptive pseudo-spectral method
+for reaction diffusion problems, J. Comp. Phys., 81, (1989), 421-443.<person-group>
+                     <string-name>
+                     <surname>Bayliss</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>421</fpage>
+               <volume>81</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e258a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d861742e265" publication-type="journal">
+A. Bayliss and E. Turkel, Mappings and accuracy for Chebyshev pseudo-spectral computa-
+tions, J. Comp. Phys., 101, (1992), 349-359.CMP 92:15<person-group>
+                     <string-name>
+                     <surname>Bayliss</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>349</fpage>
+               <volume>101</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e297a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d861742e304" publication-type="journal">
+C. Bernardi and Y. Maday, Polynomial interpolation results in Sobolev spaces, J. Comput.
+and Appl. Math., 43, 53-82, 1992. MR 93k:65010<person-group>
+                     <string-name>
+                     <surname>Bernardi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>43</volume>
+               <source>J. Comput. and Appl. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e337a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d861742e344" publication-type="book">
+C. Canuto, M. Hussaini, A. Quarteroni and T. Zang, Spectral Methods in Fluid Dynamics,
+Springer Verlag, Berlin, (1988). MR 89m:76004<person-group>
+                     <string-name>
+                     <surname>Canuto</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spectral Methods in Fluid Dynamics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e369a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d861742e376" publication-type="journal">
+C.W. Clenshaw, The numerical solution of linear differential equations in Chebyshev series,
+Proc. Camb. Phil. Soc., 53, 134-149, (1957). MR 18:516a<person-group>
+                     <string-name>
+                     <surname>Clenshaw</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>134</fpage>
+               <volume>53</volume>
+               <source>Proc. Camb. Phil. Soc.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e408a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d861742e415" publication-type="book">
+E. Coddington and N. Levinson, Theory of Ordinary Differential Equations, McGraw-Hill,
+New York, (1955). MR 16:1022b<person-group>
+                     <string-name>
+                     <surname>Coddington</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of Ordinary Differential Equations</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e440a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d861742e447" publication-type="other">
+E.A. Coutsias, T. Hagstrom, J.S. Hesthaven and D. Torres, Integration preconditioners for
+differential operators in spectral τ-methods, 1995 (preprint).</mixed-citation>
+            </ref>
+            <ref id="d861742e457a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d861742e464" publication-type="journal">
+E.A. Coutsias, F.R. Hansen, T. Huld, G. Knorr and J.P. Lynov, Spectral Methods for Nu-
+merical Plasma Simulations, Phys. Scripta, 40, 270-279, 1989.<person-group>
+                     <string-name>
+                     <surname>Coutsias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>270</fpage>
+               <volume>40</volume>
+               <source>Phys. Scripta</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e496a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d861742e503" publication-type="journal">
+B. Fornberg, A review of pseudospectral methods for solving partial differential equations,
+Acta Numerica (1994), 203-267.CMP 94:16<person-group>
+                     <string-name>
+                     <surname>Fornberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>203</fpage>
+               <source>A review of pseudospectral methods for solving partial differential equations, Acta Numerica</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e533a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d861742e540" publication-type="book">
+L. Fox and I.B. Parker, Chebyshev Polynomials in Numerical Analysis, Oxford Univ. Press,
+London, (1968). MR 37:3733<person-group>
+                     <string-name>
+                     <surname>Fox</surname>
+                  </string-name>
+                  </person-group>
+               <source>Chebyshev Polynomials in Numerical Analysis</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e565a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d861742e572" publication-type="book">
+D. Gottlieb and S. Orszag, Numerical Analysis of Spectral Methods: Theory and Applications,
+SIAM, Philadelphia, (1977). MR 58:24983<person-group>
+                     <string-name>
+                     <surname>Gottlieb</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Analysis of Spectral Methods: Theory and Applications</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e597a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d861742e604" publication-type="journal">
+L. Greengard, Spectral integration and two-point boundary value problems, SIAM J. Numer.
+Anal., 28, (1991), 1071-1080. MR 92H:65033<object-id pub-id-type="jstor">10.2307/2157787</object-id>
+               <fpage>1071</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e620a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d861742e627" publication-type="book">
+H. Hochstadt, The Functions of Mathematical Physics, Dover, New York (1986). MR
+88b:33001<person-group>
+                     <string-name>
+                     <surname>Hochstadt</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Functions of Mathematical Physics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e652a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d861742e659" publication-type="book">
+C. Lanczos, Applied Analysis, Prentice-Hall, London, (1956). MR 18:823c<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied Analysis</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e681a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d861742e688" publication-type="book">
+W. Magnus and F. Oberhettinger, Formulas and Theorems for the Special Functions of Math-
+ematical Physics, Chelsea, New York (1949). MR 8:532b<person-group>
+                     <string-name>
+                     <surname>Magnus</surname>
+                  </string-name>
+                  </person-group>
+               <source>Formulas and Theorems for the Special Functions of Mathematical Physics</source>
+               <year>1949</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e714a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d861742e721" publication-type="journal">
+L. Trefethen and M. Trummer, An instability phenomenon in spectral methods, SIAM J.
+Numer. Anal., 24, (1987), 1008-1023. MR 89a:65139<object-id pub-id-type="jstor">10.2307/2157635</object-id>
+               <fpage>1008</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e737a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d861742e744" publication-type="journal">
+L.S. Tuckerman, Transformations of matrices into banded form, J. Comp. Phys., 84, 360-376
+(1989). MR 91g:65082<person-group>
+                     <string-name>
+                     <surname>Tuckerman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>360</fpage>
+               <volume>84</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d861742e776a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d861742e783" publication-type="book">
+N. N. Lebedev, Special Functions and their Applications, Dover, New York, 1972. MR 50:2568<person-group>
+                     <string-name>
+                     <surname>Lebedev</surname>
+                  </string-name>
+                  </person-group>
+               <source>Special Functions and their Applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

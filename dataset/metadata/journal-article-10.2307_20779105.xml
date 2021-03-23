@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">79</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">271</issue>
+         <issue-id>i20779098</issue-id>
+         <article-id pub-id-type="jstor">20779105</article-id>
+         <title-group>
+            <article-title>A DIRECT COUPLING OF LOCAL DISCONTINUOUS GALERKIN AND BOUNDARY ELEMENT METHODS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>GABRIEL N.</given-names>
+                  <surname>GATICA</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>NORBERT</given-names>
+                  <surname>HEUER</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>FRANCISCO-JAVIER</given-names>
+                  <surname>SAYAS</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>1369</fpage>
+         <lpage>1394</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/20779105"/>
+      
+      
+         <abstract>
+            <p>The coupling of local discontinuous Galerkin (LDG) and boundary element methods (BEM), which has been developed recently to solve linear and nonlinear exterior transmission problems, employs a mortar-type auxiliary unknown to deal with the weak continuity of the traces at the interface boundary. As a consequence, the main features of LDG and BEM are maintained and hence the coupled approach benefits from the advantages of both methods. In this paper we propose and analyze a simplified procedure that avoids the mortar variable by employing LDG subspaces whose functions are continuous on the coupling boundary. The continuity can be implemented either directly or indirectly via the use of Lagrangian multipliers. In this way, the normal derivative becomes the only boundary unknown, and hence the total number of unknown functions is reduced by two. We prove the stability of the new discrete scheme and derive an a priori error estimate in the energy norm. A numerical example confirming the theoretical result is provided. The analysis is also extended to the case of nonlinear problems and to the coupling with other discontinuous Galerkin methods.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1806081e176a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1806081e183" publication-type="other">
+D.N. Arnold, An interior penalty finite element method with discontinuous elements. SIAM
+Journal on Numerical Analysis, vol. 19, 4, pp. 742-760, (1982). MR664882 (83f:65173)</mixed-citation>
+        </ref>
+        <ref id="d1806081e193a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1806081e200" publication-type="other">
+D.N. Arnold, F. Brezzi, B. Cockburn and L.D. Marini, Unified analysis of discontinuous
+Galerkin methods for elliptic problems. SIAM Journal on Numerical Analysis, vol. 39, 5, pp.
+1749-1779, (2002). MR1885715 (2002k:65183)</mixed-citation>
+        </ref>
+        <ref id="d1806081e213a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1806081e220" publication-type="other">
+I. Babuska and M. Suri, The h-p version of the finite element method with quasiuniform
+meshes. RAIRO Modélisation Mathématique et Analyse Numérique, vol. 21, pp. 199-238,
+(1987). MR896241 (88d:65154)</mixed-citation>
+        </ref>
+        <ref id="d1806081e233a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1806081e240" publication-type="other">
+I. Babuska and M. Suri, The optimal convergence rate of the p-version of the finite element
+method. SIAM Journal on Numerical Analysis, vol. 24, pp. 750-776, (1987). MR899702
+(88k:65102)</mixed-citation>
+        </ref>
+        <ref id="d1806081e254a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1806081e261" publication-type="other">
+I. Babuska and M. Zlámal, onconforming elements in the finite element method with
+penalty. SIAM Journal on Numerical Analysis, vol. 10, pp. 863-875, (1973). MR0345432
+(49:10168)</mixed-citation>
+        </ref>
+        <ref id="d1806081e274a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1806081e281" publication-type="other">
+A. Bespalov and N. Heuer, The hp-version of the boundary element method with quasi-
+uniform meshes in three dimensions. ESAIM Mathematical Modelling and Numerical Anal-
+ysis, vol. 42, 5, pp. 821-849, (2008). MR2454624 (2009f:65277)</mixed-citation>
+        </ref>
+        <ref id="d1806081e294a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1806081e301" publication-type="other">
+R. Bustinza and G.N. Gatica, A local discontinuous Galerkin method for nonlinear diffusion
+problems with mixed boundary conditions. SIAM Journal on Scientific Computing, vol. 26, 1,
+pp. 152-177, (2004). MR2114338 (2005k:65201)</mixed-citation>
+        </ref>
+        <ref id="d1806081e314a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1806081e321" publication-type="other">
+R. Bustinza and G.N. Gatica, A mixed local discontinuous Galerkin method for a class of
+nonlinear problems in fluid mechanics. Journal of Computational Physics, vol. 207, pp. 427-
+456, (2005). MR2144625 (2006a:76069)</mixed-citation>
+        </ref>
+        <ref id="d1806081e334a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1806081e341" publication-type="other">
+R. Bustinza, G.N. Gatica and F.-J. Sayas, On the coupling of local discontinuous Galerkin
+and boundary element methods for nonlinear exterior transmission problems. IMA Journal
+of Numerical Analysis, vol. 28, 2, pp. 225-244, (2008). MR2401197 (2009c:65295)</mixed-citation>
+        </ref>
+        <ref id="d1806081e354a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1806081e361" publication-type="other">
+R. Bustinza, G.N. Gatica and F.-J. Sayas, A LDG-BEM coupling for a class of nonlin-
+ear exterior transmission problems. In Numerical Mathematics and Advanced Applications:
+Proceedings of ENUMATH 2005 (A. Bermudez de Castro, D. Gómez, P. Quíntela, and
+P. Salgado, eds.), pp. 1129-1136, Springer-Verlag, 2006. MR2303745</mixed-citation>
+        </ref>
+        <ref id="d1806081e378a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1806081e385" publication-type="other">
+R. Bustinza, G.N. Gatica and F.-J. Sayas, A look at how LDG and BEM can be coupled.
+ESAIM Proceedings, vol. 21, pp. 88-97, (2007). MR2404055 (2009c:65332)</mixed-citation>
+        </ref>
+        <ref id="d1806081e395a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1806081e402" publication-type="other">
+B. Cockburn and C. Dawson, Some extensions of the local discontinuous Galerkin method for
+convection-diffusion equations in multidimensions. In Proceedings of the 10th Conference on
+the Mathematics of Finite Elements and Applications, J. R. Whiteman, ed., Elsevier, 2000,
+pp. 225-238. MR1801979 (2001j:65142)</mixed-citation>
+        </ref>
+        <ref id="d1806081e418a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1806081e425" publication-type="other">
+M. Costabel, Symmetric methods for the coupling of finite elements and boundary elements.
+In Boundary Elements IX, vol. 1 (C. A. Brebbia et al., eds.), pp. 411-420, Springer, 1987
+MR965328 (89j:65068)</mixed-citation>
+        </ref>
+        <ref id="d1806081e438a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1806081e445" publication-type="other">
+M. Costabel, Boundary integral operators on Lipschitz domains: Elementary results. SIAM
+Journal on Mathematical Analysis, vol. 19, pp. 613-626, (1988). MR937473 (89h:35090)</mixed-citation>
+        </ref>
+        <ref id="d1806081e455a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1806081e462" publication-type="other">
+J. Douglas Jr., T. Dupont, Interior Penalty Procedures for Elliptic and Parabolic Galerkin
+Methods. Lecture notes in Physics, vol. 58, Springer, Berlin, 1976. MR0440955 (55:13823)</mixed-citation>
+        </ref>
+        <ref id="d1806081e472a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1806081e479" publication-type="other">
+M. Feistauer, Mathematical and numerical study of nonlinear problems in fluid mechanics.
+In Proc. Conf. Equadiff 6, edited by J. Vosmansky and M. Zlámal, Brno 1985, Springer,
+Berlin, pp. 3-16. MR877102 (88f:76002)</mixed-citation>
+        </ref>
+        <ref id="d1806081e493a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1806081e500" publication-type="other">
+M. Feistauer, On the finite element approximation of a cascade flow problem. Numerische
+Mathematik, vol. 50, pp. 655-684, (1997). MR884294 (88h:65205)</mixed-citation>
+        </ref>
+        <ref id="d1806081e510a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1806081e517" publication-type="other">
+G.N. Gatica and F.-J. Sayas, An a priori error analysis for the coupling of local discontinuous
+Galerkin and boundary element methods. Mathematics of Computation, vol. 75, pp. 1675-
+1696, (2006). MR2240630 (2007e:65119)</mixed-citation>
+        </ref>
+        <ref id="d1806081e530a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1806081e537" publication-type="other">
+P. Grisvard, Singularities in Boundary Value Problems. Recherches in Mathématiques Ap-
+pliquées, Masson, Paris, 1992. MR1173209 (93h:35004)</mixed-citation>
+        </ref>
+        <ref id="d1806081e547a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1806081e554" publication-type="other">
+H. Han, A new class of variational formulations for the coupling of finite and boundary
+element methods. Journal of Computational Mathematics, vol. 8, 3, pp. 223-232, (1990).
+MR1299224</mixed-citation>
+        </ref>
+        <ref id="d1806081e567a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1806081e574" publication-type="other">
+B. Heise, Nonlinear field calculations with multigrid Newton methods. Impact of Computing
+in Science and Engineering, vol. 5, pp. 75-110, (1993). MR1223880 (95a:78002)</mixed-citation>
+        </ref>
+        <ref id="d1806081e584a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1806081e591" publication-type="other">
+B. Heise, Analysis of a fully discrete finite element method for a nonlinear magnetic field
+problem. SIAM Journal on Numerical Analysis, vol. 31, 3, pp. 745-759, (1994). MR1275111
+(95i:65156)</mixed-citation>
+        </ref>
+        <ref id="d1806081e605a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1806081e612" publication-type="other">
+P. Houston, J. Robson and E. Süli, Discontinuous Galerkin finite element approximation of
+quasilinear elliptic boundary value problems I: the scalar case. IMA Journal of Numerical
+Analysis, vol. 25, 4, pp. 726-749, (2005). MR2170521 (2006k:65322)</mixed-citation>
+        </ref>
+        <ref id="d1806081e625a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1806081e632" publication-type="other">
+G.C. Hsiao and W. Wendland, Boundary Integral Equations. Applied Mathematical Sciences,
+vol. 164, Springer-Verlag Berlin Heidelberg, 2008. MR2441884 (2009i:45001)</mixed-citation>
+        </ref>
+        <ref id="d1806081e642a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1806081e649" publication-type="other">
+J.-C. Nédélec, Integral equations with nonintegrable kernels. Integral Equations and Operator
+Theory, vol. 5, pp. 562-572, (1982). MR665149 (84i:45011)</mixed-citation>
+        </ref>
+        <ref id="d1806081e659a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1806081e666" publication-type="other">
+B. Rivière, M.F. Wheeler and V. Girault, Improved energy estimates for interior penalty,
+constrained and discontinuous Galerkin methods for elliptic problems I. Computational Geo-
+sciences, vol. 3, pp. 337-360, (1999). MR1750076 (2001d:65145)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

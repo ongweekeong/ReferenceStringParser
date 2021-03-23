@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">280</issue>
+         <issue-id>i23267881</issue-id>
+         <article-id pub-id-type="jstor">23267933</article-id>
+         <title-group>
+            <article-title>ACCURACY-ENHANCEMENT OF DISCONTINUOUS GALERKIN SOLUTIONS FOR CONVECTION-DIFFUSION EQUATIONS IN MULTIPLE-DIMENSIONS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>LIANGYUE</given-names>
+                  <surname>JI</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>YAN</given-names>
+                  <surname>XU</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>JENNIFER K.</given-names>
+                  <surname>RYAN</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>1929</fpage>
+         <lpage>1950</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23267933"/>
+      
+      
+         <abstract>
+            <p>Discontinuous Galerkin (DG) methods exhibit "hidden accuracy" that makes superconvergence of this method an increasing popular topic to address. Previous investigations have focused on the superconvergent properties of ordinary differential equations and linear hyperbolic equations. Additionally, superconvergence of order
+              $\mathrm{k}+\frac{3}{2}$
+              for the convection-diffusion equation that focuses on a special projection using the upwind flux was presented by Cheng and Shu. In this paper we demonstrate that it is possible to extend the smoothness-increasing accuracy-conserving (SIAC) filter for use on the multidimensional linear convection-diffusion equation in order to obtain 2k+m order of accuracy, where m depends upon the flux and takes on the values 0, ½, or 1. The technique that we use to extract this hidden accuracy was initially introduced by Cockburn, Luskin, Shu, and Süli for linear hyperbolic equations and extended by Ryan et al. as a smoothness-increasing accuracy-conserving filter. We solve this convection-diffusion equation using the local discontinuous Galerkin (LDG) method and show theoretically that it is possible to obtain 𝓞(h
+              2k+m
+              ) in the negative-order norm. By post-processing the LDG solution to a linear convection equation using a specially designed kernel such as the one by Cockburn et al., we can compute this same order accuracy in the L
+              2
+              -norm. Additionally, we present numerical studies that confirm that we can improve the LDG solution from 𝓞(h
+              k+1
+              ) to 𝓞(h
+              2k+1
+              ) using alternating fluxes and that we actually obtain 𝓞(h
+              2k+2
+              ) for diffusion-dominated problems.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d4524483e331a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d4524483e338" publication-type="other">
+S. Adjerid and A. Klauser, Superconvergence of discontinuous finite element solutions for
+transient convection-diffusion problems, Journal on Scientific Computing, 22-23 (2005), pp.
+5-24. MR2142188 (2006a:65120)</mixed-citation>
+        </ref>
+        <ref id="d4524483e351a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d4524483e358" publication-type="other">
+J.H. Bramble and A.H. Schatz, Higher order local accuracy by averaging in the finite element
+method, Mathematics of Computation, 31 (1977), pp. 94-111. MR0431744 (55:4739)</mixed-citation>
+        </ref>
+        <ref id="d4524483e368a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d4524483e375" publication-type="other">
+F.Celiker and B. Cockburn, Superconvergence of the numerical traces of discontinuous
+Galerkin and Hybridized methods for convection-diffusion problems in one space dimension,
+Mathematics of Computation, 76 (2007), pp. 67-96. MR2261012 (2008e:65225)</mixed-citation>
+        </ref>
+        <ref id="d4524483e388a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d4524483e395" publication-type="other">
+Y. Cheng and C.-W. Shu, Superconvergence of discontinuous Galerkin and local discontinu-
+ous Galerkin schemes for linear hyperbolic and convection-diffusion equations in one space
+dimension, SIAM Journal on Numerical Analysis, 47 (2010), pp. 4044-4072. MR2585178
+(2011e:65187)</mixed-citation>
+        </ref>
+        <ref id="d4524483e412a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d4524483e419" publication-type="other">
+P. Ciarlet, The finite element method for elliptic problem, North Holland, 1975. MR0520174
+(58:25001)</mixed-citation>
+        </ref>
+        <ref id="d4524483e429a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d4524483e436" publication-type="other">
+B. Cockburn, Discontinuous Galerkin methods for methods for convection-dominated prob-
+lems, in High-order methods for computational physics, T.J. Barth and H. Deconinck, editors,
+Lecture Notes in Computational Science and Engineering, volume 9, Springer, 1999, pp. 69-
+224. MR1712278 (2000f:76095)</mixed-citation>
+        </ref>
+        <ref id="d4524483e452a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d4524483e459" publication-type="other">
+B. Cockburn, M. Luskin, C.-W. Shu, E. Siili, Enhanced accuracy by post-processing for finite
+element methods for hyperbolic equations, Mathematics of Computation, 72 (2003), pp. 577-
+606. MR1954957 (2004g:65129)</mixed-citation>
+        </ref>
+        <ref id="d4524483e472a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d4524483e479" publication-type="other">
+B. Cockburn and C.-W. Shu, The local discontinuous Galerkin method for time-dependent
+convection-diffusion systems, SIAM Journal on Numerical Analysis, 35 (1998), pp. 2440-2463.
+MR1655854 (99j:65163)</mixed-citation>
+        </ref>
+        <ref id="d4524483e492a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d4524483e499" publication-type="other">
+B. Cockburn and C.-W. Shu, Runge-Kutta Discontinuous Galerkin methods for convection-
+dominated problems, Journal on Scientific Computing, 16 (2001), pp. 173-261. MR1873283
+(2002i:65099)</mixed-citation>
+        </ref>
+        <ref id="d4524483e512a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d4524483e519" publication-type="other">
+S. Curtis, R. M. Kirby, J. K. Ryan and C.-W. Shu, Postprocessing for the discontinuous
+Galerkin method over nonuniform meshes, SIAM Journal on Scientific Computing, 30 (2007),
+pp. 272-289. MR2377442 (2009a:65249)</mixed-citation>
+        </ref>
+        <ref id="d4524483e533a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d4524483e540" publication-type="other">
+S. Gottlieb, C.-W. Shu, and E. Tadmor, Strong stability preserving high-order time discretiza-
+tion methods, SIAM Review, 43 (2001), pp. 89-112. MR1854647 (2002f:65132)</mixed-citation>
+        </ref>
+        <ref id="d4524483e550a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d4524483e557" publication-type="other">
+M.S. Mock and P.D. Lax, The computation of discontinuous solutions of linear hyperbolic
+equations, Communications on Pure and Applied Mathematics, 18 (1978), pp. 423-430.
+MR0468216 (57:8054)</mixed-citation>
+        </ref>
+        <ref id="d4524483e570a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d4524483e577" publication-type="other">
+J.K. Ryan and B. Cockburn, Local Derivative Post-processing for the discontinuous Galerkin
+method, Journal of Computational Physics, 228 (2009), pp. 8642-8664. MR2558770
+(2010j:65192)</mixed-citation>
+        </ref>
+        <ref id="d4524483e590a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d4524483e597" publication-type="other">
+J.K. Ryan and C.-W. Shu, One-sided post-processing for the discontinuous Galerkin methods,
+Methods and Applications of Analysis, 10 (2003), pp. 295-307. MR2074753</mixed-citation>
+        </ref>
+        <ref id="d4524483e607a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d4524483e614" publication-type="other">
+J.K. Ryan, C.-W. Shu, and H. Atkins, Extension of a post-processing technique for the discon-
+tinuous Galerkin method for hyperbolic equations with application to an aeroacoustic problem,
+SIAM Journal on Scientific Computing, 26 (2005), pp. 821-843. MR2126114 (2005m:65222)</mixed-citation>
+        </ref>
+        <ref id="d4524483e627a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d4524483e634" publication-type="other">
+P. van Slingerland, J.K. Ryan, and C.W. Vuik, Position-Dependent Smoothness-Increasing
+Accuracy-Conserving (SIAC) Filtering for Accuracy for Improving discontinuous Galerkin
+solutions, SIAM Journal on Scientific Computing, 33 2011, pp. 802-825</mixed-citation>
+        </ref>
+        <ref id="d4524483e648a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d4524483e655" publication-type="other">
+M. Steffan, S. Curtis, R.M. Kirby, and J.K. Ryan, Investigation of smoothness enhancing
+accuracy-conserving filters for improving streamline integration through discontinuous fields,
+IEEE-TVCG, 14 (2008), pp. 680-692.</mixed-citation>
+        </ref>
+        <ref id="d4524483e668a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d4524483e675" publication-type="other">
+V. Thomee, High order local approximations to derivatives in the finite element method,
+Mathematics of Computation, 31 (1977), pp. 652-660. MR0438664 (55:11572)</mixed-citation>
+        </ref>
+        <ref id="d4524483e685a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d4524483e692" publication-type="other">
+Y. Xu and C.-W. Shu, Error estimates of the semi-discrete local discontinuous Galerkin
+method for nonlinear convection-diffusion and KdV equations, Computer Methods in Applied
+Mechanics and Engineering, 196 (2007), pp. 3805-3822. MR2340006 (2009e:65139)</mixed-citation>
+        </ref>
+        <ref id="d4524483e705a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d4524483e712" publication-type="other">
+Y. Xu and C.-W. Shu, Local discontinuous Galerkin methods for high-order time-dependent
+partial differential equations, Communications in Computational Physics, 7 (2010), pp. 1-46.
+MR2673127 (2011g:65204)</mixed-citation>
+        </ref>
+        <ref id="d4524483e725a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d4524483e732" publication-type="other">
+J. Yan and C.-W. Shu, A local discontinuous Galerkin method for KdV type equations, SIAM
+Journal on Numerical Analysis, 40 (2002), pp. 769-791. MR1921677 (2003e:65181)</mixed-citation>
+        </ref>
+        <ref id="d4524483e742a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d4524483e749" publication-type="other">
+Q. Zhang and C.-W. Shu, Error estimates to smooth solutions of Runge-Kutta discontinuous
+Galerkin methods for scalar conservation laws, SIAM Journal on Numerical Analysis, 42
+(2004), pp. 641-666. MR2084230 (2005h:65149)</mixed-citation>
+        </ref>
+        <ref id="d4524483e763a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d4524483e770" publication-type="other">
+Z. Zhang, Z. Xie and Z. Zhang, Superconvergence of discontinuous Galerkin methods
+for convection-diffusion problems, Journal on Scientific Computing, 41 (2009), pp. 70-93.
+MR2540105 (2010k:65141)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

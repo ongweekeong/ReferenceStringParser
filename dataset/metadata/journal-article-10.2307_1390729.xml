@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260275</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390729</article-id>
+         
+         <article-categories>
+            <subj-group>
+               <subject>Special Section: Student Paper Competition Winning Entries</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Estimating Precision in Functional Images</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ranjan</given-names>
+                  <surname>Maitra</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>132</fpage>
+         <lpage>142</lpage>
+         <page-range>132-142</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390729"/>
+         
+         
+         <abstract>
+            <p>Functional imaging of biologic parameters like in vivo tissue metabolism is made possible by Positron Emission Tomography (PET). Many techniques have been suggested for extracting such images from dynamic time-course sequences of reconstructed PET scans. Quantitating the precision of these estimates is important for drawing inferences on the biologic parameters. Analytic variance formulas are not immediate owing to the nonlinear methods used in extraction. The usual resampling approach is infeasible because each image reconstruction in PET is a computationally demanding solution to a high-dimensional linear inverse problem. We suggest an alternative simulation approach that approximates the distribution of reconstructed PET scans and performs a parametric bootstrap in the imaging domain. Results on a simplified model chosen to match the characteristics of PET reconstruction are very encouraging. Mixture analysis is used to estimate functional images; however, the suggested approach is general enough to extend to other techniques or imaging methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bootstrap</kwd>
+            <kwd>Convolution</kwd>
+            <kwd>Fast Fourier transform</kwd>
+            <kwd>Filtered backprojection</kwd>
+            <kwd>Generalized linear model</kwd>
+            <kwd>Mixture analysis</kwd>
+            <kwd>Multivariate Gaussian distribution</kwd>
+            <kwd>PET</kwd>
+            <kwd>Radio tracer</kwd>
+            <kwd>Radon transform</kwd>
+            <kwd>Source distribution</kwd>
+            <kwd>Sub-TAC</kwd>
+            <kwd>TAC</kwd>
+            <kwd>Toeplitz matrix</kwd>
+            <kwd>Variable-span smoother</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4495308e213a1310">
+               
+               <mixed-citation id="d4495308e217" publication-type="journal">
+Alpert, N.M., Chesler, D.A., Correia, J.A., Ackerman, R.H., Chang, J.H., Finklestein, S., Davis, S.M.,
+Brownell, G.L., and Taveras, J.M. (1982), "Estimation of the Local Statistical Noise in Emission
+Computed Tomography," IEEE Transactions on Medical Imaging, MI-1, 142-146.<person-group>
+                     <string-name>
+                     <surname>Alpert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>142</fpage>
+               <volume>1</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e252a1310">
+               
+               <mixed-citation id="d4495308e256" publication-type="journal">
+Blomqvist, G., Eriksson L., and Rosenqvist G. (1995), "The Effect of Spatial Correlation on the Quantification
+in Positron Emission Tomography," Neuroimage, 2.<person-group>
+                     <string-name>
+                     <surname>Blomqvist</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <source>Neuroimage</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e285a1310">
+               
+               <mixed-citation id="d4495308e289" publication-type="journal">
+Carson, R.E., Yan, Y., Daube-Witherspoon, M.E., Freedman, N., Bacharach, S.L., and Herscovitch, P. (1993),
+"An Approximation Formula for the Variance of PET Region-of-Interest Values," IEEE Transactions on
+Medical Imaging, 12, 240-250.<person-group>
+                     <string-name>
+                     <surname>Carson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>240</fpage>
+               <volume>12</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e324a1310">
+               
+               <mixed-citation id="d4495308e328" publication-type="conference">
+Choudhury, K.R., and O'Sullivan, F. (1995), "A Statistical Examination of FBP and ML for Estimating
+Mixture Models from Dynamic PET Data," 1995 IEEE Nuclear Science Symposium and Medical Imaging
+Conference Record, 3, 1237-1241.<person-group>
+                     <string-name>
+                     <surname>Choudhury</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Statistical Examination of FBP and ML for Estimating Mixture Models from Dynamic PET Data</comment>
+               <fpage>1237</fpage>
+               <volume>3</volume>
+               <source>1995 IEEE Nuclear Science Symposium and Medical Imaging Conference Record</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e367a1310">
+               
+               <mixed-citation id="d4495308e371" publication-type="book">
+Efron, B. (1982), The Jackknife, the Bootstrap and Other Resampling Plans, Philadelphia, PA: SIAM.<person-group>
+                     <string-name>
+                     <surname>Efron</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Jackknife, the Bootstrap and Other Resampling Plans</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e393a1310">
+               
+               <mixed-citation id="d4495308e397" publication-type="book">
+Friedman, J.H. (1984), "A Variable Span Smoother," technical report 5, Laboratory for Computational Statistics,
+Stanford University, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Friedman</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Variable Span Smoother</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e422a1310">
+               
+               <mixed-citation id="d4495308e426" publication-type="journal">
+Haynor, D.R., and Woods, S.D. (1989), "Resampling Estimates of Precision in Emission Tomography," IEEE
+Transactions on Medical Imaging, 8, 337-343.<person-group>
+                     <string-name>
+                     <surname>Haynor</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>337</fpage>
+               <volume>8</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e458a1310">
+               
+               <mixed-citation id="d4495308e462" publication-type="journal">
+Huesman, R.H. (1984), "A New Fast Algorithm for the Evaluation of Regions of Interest and Statistical
+Uncertainty in Computed Tomography," Physics in Medicine and Biology, 29, 543-552.<person-group>
+                     <string-name>
+                     <surname>Huesman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>543</fpage>
+               <volume>29</volume>
+               <source>Physics in Medicine and Biology</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e494a1310">
+               
+               <mixed-citation id="d4495308e498" publication-type="other">
+Maitra, R. (1996), "Variability Estimation in Linear Inverse Problems," unpublished Ph.D. dissertation, Uni-
+versity of Washington, Dept. of Statistics.</mixed-citation>
+            </ref>
+            <ref id="d4495308e508a1310">
+               
+               <mixed-citation id="d4495308e512" publication-type="conference">
+Maitra, R., and O'Sullivan, F. (1995), "Estimating the Variability of Reconstructed PET Data: A Technique
+Based on Approximating the Reconstruction Filter by a sum of Gaussian Kernels," 1995 IEEE Nuclear
+Science Symposium and Medical Imaging Conference Record, 3, 1411-1414.<person-group>
+                     <string-name>
+                     <surname>Maitra</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Estimating the Variability of Reconstructed PET Data: A Technique Based on Approximating the Reconstruction Filter by a sum of Gaussian Kernels</comment>
+               <fpage>1411</fpage>
+               <volume>3</volume>
+               <source>1995 IEEE Nuclear Science Symposium and Medical Imaging Conference Record</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e551a1310">
+               
+               <mixed-citation id="d4495308e555" publication-type="journal">
+(1997), "Variability Assessment in PET and Related Generalized Deconvolution Models," submitted to
+the Journal of the American Statistical Association.<person-group>
+                     <string-name>
+                     <surname>Maitra</surname>
+                  </string-name>
+                  </person-group>
+               <source>Journal of the American Statistical Association</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e580a1310">
+               
+               <mixed-citation id="d4495308e584" publication-type="journal">
+O'Sullivan, F. (1993), "Imaging Radiotracer Model Parameters in PET: A Mixture Analysis Approach," IEEE
+Transactions on Medical Imaging, 12, 399-412.<person-group>
+                     <string-name>
+                     <surname>O'Sullivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>399</fpage>
+               <volume>12</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e616a1310">
+               
+               <mixed-citation id="d4495308e620" publication-type="journal">
+(1994), "Metabolic Images From Dynamic Positron Emission Tomography Studies," Statistical Methods
+in Medical Research, 3, 87-101.<person-group>
+                     <string-name>
+                     <surname>O'Sullivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>3</volume>
+               <source>Statistical Methods in Medical Research</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e652a1310">
+               
+               <mixed-citation id="d4495308e656" publication-type="journal">
+O'Sullivan, F., Pawitan, Y., and Haynor, D. (1993), "Reducing Negativity Artifacts in Emission Tomography:
+Post-Processing Filtered Backprojection Solutions," IEEE Transactions on Medical Imaging, 12, 653-663.<person-group>
+                     <string-name>
+                     <surname>O'Sullivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>653</fpage>
+               <volume>12</volume>
+               <source>IEEE Transactions on Medical Imaging</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e688a1310">
+               
+               <mixed-citation id="d4495308e692" publication-type="journal">
+Phelps, M.E., Huang, S.C., Hoffman, E.J., Selin, C., Sokoloff, L., and Kuhl, D.E. (1979), "Tomographic
+Measurement of Local Cerebral Glucose Metabolic Rate in Humans With [F-18]2-Fluoro-2-deoxy-D-
+glucose: Validation of Method," The Annals of Neurology, 6, 371-388.<person-group>
+                     <string-name>
+                     <surname>Phelps</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>371</fpage>
+               <volume>6</volume>
+               <source>The Annals of Neurology</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e727a1310">
+               
+               <mixed-citation id="d4495308e731" publication-type="journal">
+Snyder, D.L., Thomas, L.J., and Ter-Porgossian, M.M. (1981), "A Mathematical Model for Positron Emission
+Tomography System Having Time of Flight Measurement," IEEE Transactions on Nuclear Science, 28,
+3575-3581.<person-group>
+                     <string-name>
+                     <surname>Snyder</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3575</fpage>
+               <volume>28</volume>
+               <source>IEEE Transactions on Nuclear Science</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e767a1310">
+               
+               <mixed-citation id="d4495308e771" publication-type="journal">
+Ter-Porgossian, M.M., Raichle, M.E., and Sobel, B.E. (1980), "Positron Emission Tomography," Scientific
+American, 243, 170-181.<person-group>
+                     <string-name>
+                     <surname>Ter-Porgossian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>170</fpage>
+               <volume>243</volume>
+               <source>Scientific American</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495308e803a1310">
+               
+               <mixed-citation id="d4495308e807" publication-type="journal">
+Vardi, Y., Shepp, L.A., and Kaufman, L.A. (1985), "Statistical Model for Positron Emission Tomography,"
+Journal of the American Statistical Association, 80, 8-37.<object-id pub-id-type="doi">10.2307/2288030</object-id>
+               <fpage>8</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

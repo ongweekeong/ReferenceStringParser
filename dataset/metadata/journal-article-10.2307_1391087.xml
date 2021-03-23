@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260290</issue-id>
+         <article-id pub-id-type="doi">10.2307/1391087</article-id>
+         
+         <title-group>
+            <article-title>Cluster Analysis for Large Datasets: An Effective Algorithm for Maximizing the Mixture Likelihood</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Daniel A.</given-names>
+                  <surname>Coleman</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David L.</given-names>
+                  <surname>Woodruff</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>672</fpage>
+         <lpage>688</lpage>
+         <page-range>672-688</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391087"/>
+         
+         
+         <abstract>
+            <p>The primary model for cluster analysis is the latent class model. This model yields the mixture likelihood. Due to numerous local maxima, the success of the EM algorithm in maximizing the mixture likelihood depends on the initial starting point of the algorithm. In this article, good starting points for the EM algorithm are obtained by applying classification methods to randomly selected subsamples of the data. The performance of the resulting two-step algorithm, classification followed by EM, is compared to, and found superior to, the baseline algorithm of EM started from a random partition of the data. Though the algorithm is not complicated, comparing it to the baseline algorithm and assessing its performance with several classification methods is nontrivial. The strategy employed for comparing the algorithms is to identify canonical forms for the easiest and most difficult datasets to cluster within a large collection of cluster datasets and then to compare the performance of the two algorithms on these datasets. This has led to the discovery that, in the case of three homogeneous clusters, the most difficult datasets to cluster are those in which the clusters are arranged on a line and the easiest are those in which the clusters are arranged on an equilateral triangle. The performance of the two-step algorithm is assessed using several classification methods and is shown to be able to cluster large, difficult datasets consisting of three highly overlapping clusters arranged on a line with 10,000 observations and 8 variables.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Classification</kwd>
+            <kwd>EM algorithm</kwd>
+            <kwd>Local search</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d674235e144a1310">
+               
+               <mixed-citation id="d674235e148" publication-type="journal">
+Banfield, J.D., and Raftery, A.E. (1993), "Model-Based Gaussian and Non-Gaussian Clustering," Biometrics,
+49, 803-821.<object-id pub-id-type="doi">10.2307/2532201</object-id>
+               <fpage>803</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e164a1310">
+               
+               <mixed-citation id="d674235e168" publication-type="journal">
+Bryant, P.G. (1991), "Large-Sample Results for Optimization-Based Clustering Methods," Journal of Classi-
+fication, 8, 31-44.<person-group>
+                     <string-name>
+                     <surname>Bryant</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>8</volume>
+               <source>Journal of Classification</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e200a1310">
+               
+               <mixed-citation id="d674235e204" publication-type="journal">
+Bryant, P.G., and Williamson, J.A. (1978), "Asymptotic Behavior of Classification Maximum Likelihood
+Estimates," Biometrika, 65, 273-281.<object-id pub-id-type="doi">10.2307/2335205</object-id>
+               <fpage>273</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e220a1310">
+               
+               <mixed-citation id="d674235e224" publication-type="journal">
+Celeux, G., and Govaert, G. (1992), "A Classification EM Algorithm for Clustering and Two Stochastic
+Versions," Computational Statistics and Data Analysis, 14, 315-332.<person-group>
+                     <string-name>
+                     <surname>Celeux</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>14</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e257a1310">
+               
+               <mixed-citation id="d674235e261" publication-type="journal">
+Coleman, D.A., Dong, X., Hardin, J., Rocke, D.M., and Woodruff, D.L. (1999), "Clustering Without an
+a-priori Metric," Computational Statistics and Data Analysis, 31, 1-11.<person-group>
+                     <string-name>
+                     <surname>Coleman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>31</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e293a1310">
+               
+               <mixed-citation id="d674235e297" publication-type="book">
+Cox, D.R., and Oakes, D. (1984), Analysis of Survival Data, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Cox</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of Survival Data</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e319a1310">
+               
+               <mixed-citation id="d674235e323" publication-type="journal">
+Dempster, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood from Incomplete Data via the
+EM Algorithm," Journal of the Royal Statistical Society, Series B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e355a1310">
+               
+               <mixed-citation id="d674235e359" publication-type="journal">
+Everitt, B.S. (1993), "Maximum Likelihood Estimation of the Parameters in a Mixture of Two univariate
+Normal Distributions; A Comparison of Different Algorithms," The Statistician, 33, 205-215.<object-id pub-id-type="doi">10.2307/2987851</object-id>
+               <fpage>205</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e375a1310">
+               
+               <mixed-citation id="d674235e379" publication-type="journal">
+Friedman, H.P., and Rubin, J. (1967), "On Some Invariant Criteria for Grouping Data," Journal of the American
+Statistical Association, 62, 1159-1178.<object-id pub-id-type="doi">10.2307/2283767</object-id>
+               <fpage>1159</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e395a1310">
+               
+               <mixed-citation id="d674235e399" publication-type="journal">
+Gehan, E.A. (1965), "A Generalized Two-Sample Wilcoxon Test for Doubly Censored Data," Biometrika, 52,
+650-653.<object-id pub-id-type="doi">10.2307/2333721</object-id>
+               <fpage>650</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e416a1310">
+               
+               <mixed-citation id="d674235e420" publication-type="book">
+Johnson, R.A., and Wichern, D.W. (1992), Applied Multivariate Statistical Analysis (3rd ed.), Englewood
+Cliffs, NJ: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Applied Multivariate Statistical Analysis</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e449a1310">
+               
+               <mixed-citation id="d674235e453" publication-type="journal">
+Marriot, F.H.C. (1975), "Separating Mixtures of Normal Distributions," Biometrics, 31, 767-769.<person-group>
+                     <string-name>
+                     <surname>Marriot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>767</fpage>
+               <volume>31</volume>
+               <source>Biometrics</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e482a1310">
+               
+               <mixed-citation id="d674235e486" publication-type="book">
+McLachlan, G.J., and Basford, K.E. (1988), Mixture Models, Inference and Applications to Clustering, New
+York: Marcel Dekker.<person-group>
+                     <string-name>
+                     <surname>McLachlan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixture Models, Inference and Applications to Clustering</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e511a1310">
+               
+               <mixed-citation id="d674235e515" publication-type="journal">
+Meng, X.L., and Van Dyk, D. (1997), "The EM Algorithm-An Old Folk Song Sung to a Fast New Tune,"
+Journal of the Royal Statistical Society, Series B, 59, 511-540.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>511</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e547a1310">
+               
+               <mixed-citation id="d674235e551" publication-type="journal">
+Murtagh, F., and Raftery, A.E. (1984), "Fitting Straight Lines to Point Patterns," Pattern Recognition, 17,
+479-483.<person-group>
+                     <string-name>
+                     <surname>Murtagh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>479</fpage>
+               <volume>17</volume>
+               <source>Pattern Recognition</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e583a1310">
+               
+               <mixed-citation id="d674235e587" publication-type="journal">
+Rocke, D.M., and Woodruff, D.L. (1996), "Identification of Outliers in Multivariate Data," Journal of the
+American Statistical Association, 91, 1-15.<object-id pub-id-type="doi">10.2307/2291724</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e604a1310">
+               
+               <mixed-citation id="d674235e608" publication-type="book">
+Rousseeuw, P.J. (1985), "Multivariate Estimation with High Breakdown Point," in Mathematical Statistics
+and Applications (vol. B), eds. W. Grossman, G. Pflug, I. Vincze, and W. Dordrecht, Boston: Reidel.<person-group>
+                     <string-name>
+                     <surname>Rousseeuw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multivariate Estimation with High Breakdown Point</comment>
+               <volume>B</volume>
+               <source>Mathematical Statistics and Applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e640a1310">
+               
+               <mixed-citation id="d674235e644" publication-type="book">
+Spath, H. (1985), Cluster Dissection and Analysis: Theory FORTRAN Programs, and Examples, Chichester:
+Ellis Horwood Limited.<person-group>
+                     <string-name>
+                     <surname>Spath</surname>
+                  </string-name>
+                  </person-group>
+               <source>Cluster Dissection and Analysis: Theory FORTRAN Programs, and Examples</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e669a1310">
+               
+               <mixed-citation id="d674235e673" publication-type="journal">
+Scott, A.J., and Symons, M.J. (1971), "Clustering Based on Likelihood Ratio Criteria," Biometrics, 27,
+387-397.<object-id pub-id-type="doi">10.2307/2529003</object-id>
+               <fpage>387</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e689a1310">
+               
+               <mixed-citation id="d674235e693" publication-type="journal">
+Symons, M.J. (1981), "Clustering Criteria and Multivariate Normal Mixtures," Biometrics, 37, 35-43.<object-id pub-id-type="doi">10.2307/2530520</object-id>
+               <fpage>35</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674235e706a1310">
+               
+               <mixed-citation id="d674235e710" publication-type="journal">
+Ward, J.H. (1963), "Hierarchical Groupings to Optimize an Objective Function," Journal of the American
+Statistical Association, 58, 236-244.<object-id pub-id-type="doi">10.2307/2282967</object-id>
+               <fpage>236</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

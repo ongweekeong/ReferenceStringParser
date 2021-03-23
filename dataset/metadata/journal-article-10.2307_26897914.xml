@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article dtd-version="1.0" article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019979</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jcode">saeintejaltepowe</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Alternative Powertrains</journal-title>
+         </journal-title-group>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">21674191</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">21674205</issn>
+         <publisher>
+            <publisher-name specific-use="jstor-licensing-publisher">SAE International</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26897914</article-id>
+         <title-group>
+            <article-title>An Energy Management Strategy for Through-the-Road Type Plug-in Hybrid Electric Vehicles</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Chen</surname>
+                  <given-names>Ming-Yen</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Yang</surname>
+                  <given-names>Kang</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Sun</surname>
+                  <given-names>Yun-Zhong</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Cheng</surname>
+                  <given-names>Jung-Ho</given-names>
+               </string-name>
+            </contrib>
+         </contrib-group>
+
+
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                   xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">
+            <day>1</day>
+            <month>1</month>
+            <year>2019</year>
+            <string-date>2019</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">8</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">1</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26897910</issue-id>
+         <fpage>61</fpage>
+         <lpage>74</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2019 National Taiwan University</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26897914"/>
+         <abstract xml:lang="eng">
+            <p>This article proposes an energy management strategy for a through-the-road (TTR) plug-in hybrid electric vehicle (PHEV) to achieve efficient fuel consumption performance. The target hybrid powertrain includes an electric traction motor, an integrated starter/generator (ISG), and a gasoline internal combustion engine (ICE) in the front axle and another electric motor in the rear axle. The energy management strategy is organized into six functional modules. The power mode is determined by the driver’s pedal demand, vehicle states, and the characteristics of the related power units to increase the overall system efficiency. The energy management strategy and the vehicle models are established in the Matlab/Simulink by using dSPACE Automotive Simulation Models (ASM) software. The proposed strategy is examined in terms of three test scenarios in the Model-in-the-Loop (MiL) simulations. The vehicle operates in the EV mode in the range from 40% to 70% battery state of charge (SOC) to improve the fuel consumption. The ICE is ignited to charge the battery if SOC is under 40%. In the acceleration simulation, the ICE involves in the power output to compensate the required acceleration torque when the vehicle speed is over 80 kilometers per hour (kph). The simulation results show that the fuel consumption is computed as 77.34 miles per gallon (MPG) by adopting the proposed energy management strategy.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>References</title>
+         <ref id="r1">
+            <label>1.</label>
+            <mixed-citation id="c1">Salmasi, F.R., “Control Strategies for Hybrid Electric Vehicles: Evolution, Classification, Comparison, and Future Trends,” IEEE Transactions on Vehicular Technology 56(5):2393-2404, 2007, doi:10.1109/TVT.2007.899933.</mixed-citation>
+         </ref>
+         <ref id="r2">
+            <label>2.</label>
+            <mixed-citation id="c2">Yu, C.-H., Tseng, C.-Y., and Lin, Y.-T., “Research on Parameter Optimization for the Energy Management System of Hybrid Electric Vehicle,” Journal of Technology 30(4):289- 301, 2015, doi:10.1117/12.784226.</mixed-citation>
+         </ref>
+         <ref id="r3">
+            <label>3.</label>
+            <mixed-citation id="c3">Luo, Y.G., Chen, T., Zhang, S.W., and Li, K.Q., “Intelligent Hybrid Electric Vehicle ACC with Coordinated Control of Tracking Ability, Fuel Economy, and Ride Comfort,” IEEE Transactions on Intelligent Transportation Systems 16(4), 2015, doi:10.1109/TITS.2014.2387356.</mixed-citation>
+         </ref>
+         <ref id="r4">
+            <label>4.</label>
+            <mixed-citation id="c4">Yuan, Z., Teng, L., Sun, F.C., and Peng, H., “Comparative Study of Dynamic Programming and Pontryagin’s Minimum Principle on Energy Management for a Parallel Hybrid Electric Vehicles,” Energies 6:2305-2318, 2013, doi:10.3390/EN6042305.</mixed-citation>
+         </ref>
+         <ref id="r5">
+            <label>5.</label>
+            <mixed-citation id="c5">Lin, C.C., Peng, H., Grizzle, J.W., and Kang, J.M., “Power Management Strategy for a Parallel Hybrid Electric Truck,” IEEE Transactions on Control Systems Technology 11(6):839- 849, 2003, doi:10.1109/TCST.2003.815606.</mixed-citation>
+         </ref>
+         <ref id="r6">
+            <label>6.</label>
+            <mixed-citation id="c6">Luo, Y.G., Chen, T., Zhang, S.W., and Li, K.Q., “Intelligent Hybrid Electric Vehicle ACC with Coordinated Control of Tracking Ability, Fuel Economy, and Ride Comfort,” IEEE Transactions on Intelligent Transportation Systems 16(4):2303-2308, 2015, doi:10.1109/TITS.2014.2387356.</mixed-citation>
+         </ref>
+         <ref id="r7">
+            <label>7.</label>
+            <mixed-citation id="c7">Zhang, Y., Liu, H.P., and Guo, Q., “Varying-Domain Optimal Management Strategy for Parallel Hybrid Electric Vehicles,” IEEE Transactions on Vehicular Technology 83(2):603-616, 2014, doi:10.1109/TVT.2013.2276432.</mixed-citation>
+         </ref>
+         <ref id="r8">
+            <label>8.</label>
+            <mixed-citation id="c8">Paganelli, G., Delprat, S., Guerra, T.M., Rimaux, J. et al., “Equivalent Consumption Minimization Strategy for Parallel Hybrid Powertrains,” IEEE Vehicular Technology Conference 4:2076-2081, 2002, doi:10.1109/VTC.2002.1002989.</mixed-citation>
+         </ref>
+         <ref id="r9">
+            <label>9.</label>
+            <mixed-citation id="c9">Yan, F.J., Wang, J.M., and Huang, K.S., “Hybrid Electric Vehicle Model Predictive Control Torque-Split Strategy Incorporating Engine Transient Characteristics,” IEEE Transactions on Vehicular Technology 51(6):2458-2467, 2012, doi:10.1109/TVT.2012.2197767.</mixed-citation>
+         </ref>
+         <ref id="r10">
+            <label>10.</label>
+            <mixed-citation id="c10">Khoucha, F., Benbouzid, M.E.H., and Kheloui, A., “An Optimal Fuzzy Logic Power Sharing Strategy for Parallel Hybrid Electric Vehicles,” IEEE Transactions on Vehicle Power and Propulsion Conference, 2010, doi:10.1109/VPPC.2010.5729008.</mixed-citation>
+         </ref>
+         <ref id="r11">
+            <label>11.</label>
+            <mixed-citation id="c11">Jeon, S., Park, Y., Lee, J., and Jo, S., “Multi-Mode Driving Control of a Parallel Hybrid Electric Vehicle Using Driving Pattern Recognition,” Journal of Dynamic Systems, Measurement, and Control 124(1):141-149, 2002, doi:10.1115/1.1434264.</mixed-citation>
+         </ref>
+         <ref id="r12">
+            <label>12.</label>
+            <mixed-citation id="c12">Lacandia, F., Tribioli, L., Onori, S., and Rizzoni, G., “Adaptive Energy Management Strategy Calibration in PHEVs Based on a Sensitivity Study,” in 11th International Conference on Engines and Vehicles, 2013.</mixed-citation>
+         </ref>
+         <ref id="r13">
+            <label>13.</label>
+            <mixed-citation id="c13">Sharma, O.P., Onori, S., and Guezennec, Y., “Analysis of Pontryagin’s Minimum Principle-Based Energy Management Strategy for PHEV Applications,” in 5th Annual Dynamic Systems and Control Conference and 11th Motion and Vibration Conference, 2012 (invited paper).</mixed-citation>
+         </ref>
+         <ref id="r14">
+            <label>14.</label>
+            <mixed-citation id="c14">Onori, S. and Tribioli, L., “Adaptive Pontryagin's Minimum Principle Supervisory Controller Design for the Plug-in Hybrid GM Chevrolet Volt,” Applied Energy 147:224- 234, 2015.</mixed-citation>
+         </ref>
+         <ref id="r15">
+            <label>15.</label>
+            <mixed-citation id="c15">Chou, F.-C., “Research on Telematics Enabled Intelligent Eco-driving Technology for Electric Vehicles,” M.S. thesis, Dept. Mech. Eng., National Taiwan Univ., Taipei, Taiwan, 2013.</mixed-citation>
+         </ref>
+         <ref id="r16">
+            <label>16.</label>
+            <mixed-citation id="c16">Wu, J., Peng, J., He, H., and Luo, J., “Comparative Analysis on the Ruled Based Control Strategy of Two Typical Hybrid Electric Vehicle Powertrain,” Energy Procedia 104:384-389, 2016, doi:10.1016/j-egypro.2016.12.065.</mixed-citation>
+         </ref>
+         <ref id="r17">
+            <label>17.</label>
+            <mixed-citation id="c17">Liu, J. and Peng, H., “Modeling and Control of a Power- Split Hybrid Vehicle,” IEEE Transactions on Control Systems Technology 16(6), 2008, doi:10.1109/TCST.2008.919447.</mixed-citation>
+         </ref>
+         <ref id="r18">
+            <label>18.</label>
+            <mixed-citation id="c18">Mobility and transport - European Commission, “Current Speed Limit Policies - Mobility and Transport, European Commission,” 2019. Available at: https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/speed_limits/current_speed_limit_policies_en</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+   <floats-group>
+      <fig>
+         <label>FIGURE 1</label>
+         <caption id="ca-1">
+            <p>The classification of the control algorithms in the energy management strategy. Reprinted with permission from Ref. [1]. © 2007 IEEE</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 1</label>
+         <caption id="ca-2">
+            <p>The target hybrid vehicle parameters. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 2</label>
+         <caption id="ca-3">
+            <p>The powertrain structure of the target PHEV. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 2</label>
+         <caption id="ca-4">
+            <p>The specification of the powertrain components. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 3</label>
+         <caption id="ca-5">
+            <p>The functional modules. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 3</label>
+         <caption id="ca-6">
+            <p>The hierarchy of the energy management strategy. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 4</label>
+         <caption id="ca-7">
+            <p>The functional modules structure of the energy management strategy. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 5</label>
+         <caption id="ca-8">
+            <p>The torque constraints for each power unit. © 2019 National Taiwan University.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 6</label>
+         <caption id="ca-9">
+            <p>The calculation of the overall torque request in the TQD module. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 7</label>
+         <caption id="ca-10">
+            <p>Four modes in the energy management strategy. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 8</label>
+         <caption id="ca-11">
+            <p>The power mode selection logic diagram. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 9</label>
+         <caption id="ca-12">
+            <p>The best gear-shifting simulation result. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 10</label>
+         <caption id="ca-13">
+            <p>Torque split ratio of TM1 in EV mode. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 11</label>
+         <caption id="ca-14">
+            <p>Torque split ratio of TM2 in EV mode. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 12</label>
+         <caption id="ca-15">
+            <p>The operation points of the torque split strategy in the BOOST mode. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 13</label>
+         <caption id="ca-16">
+            <p>The operation points of the torque split strategy in ICE mode. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 14</label>
+         <caption id="ca-17">
+            <p>The operation area of TQC module. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 15</label>
+         <caption id="ca-18">
+            <p>The simulation architecture. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 16</label>
+         <caption id="ca-19">
+            <p>The driver’s model. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 17</label>
+         <caption id="ca-20">
+            <p>The vehicle moving friction diagram. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 18</label>
+         <caption id="ca-21">
+            <p>The simulation results in the first scenario (a) The vehicle speed and power mode switch in the first simulation scenario (Initial SOC = 20%) (b) The battery SOC in the first simulation scenario. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 19</label>
+         <caption id="ca-22">
+            <p>The simulation results in the second scenario (a) The vehicle speed and power mode switch in the second simulation scenario (Initial SOC = 45%) (b) The battery SOC in the second simulation scenario (c) The operation of the clutches and the torque of each power unit in the second simulation scenario. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 20</label>
+         <caption id="ca-23">
+            <p>The simulation results in the third scenario (a) The vehicle speed and power mode switch in the third simulation scenario (Initial SOC = 100%) (b) The operation of the clutches and the torque of each power unit in the third simulation scenario. © 2019 National Taiwan University</p>
+         </caption>
+      </fig>
+   </floats-group>
+</article>

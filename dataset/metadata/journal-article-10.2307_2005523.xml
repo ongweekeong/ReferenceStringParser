@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">27</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">124</issue>
+         <issue-id>i334547</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005523</article-id>
+         
+         <title-group>
+            <article-title>Self-Scaling Variable Metric Algorithms without Line Search for Unconstrained Minimization</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Shmuel S.</given-names>
+                  <surname>Oren</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1973</year>
+         </pub-date>
+         <fpage>873</fpage>
+         <lpage>885</lpage>
+         <page-range>873-885</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1973 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005523"/>
+         
+         
+         <abstract>
+            <p>This paper introduces a new class of quasi-Newton algorithms for unconstrained minimization in which no line search is necessary and the inverse Hessian approximations are positive definite. These algorithms are based on a two-parameter family of rank two, updating formulae used earlier with line search in self-scaling variable metric algorithms. It is proved that, in a quadratic case, the new algorithms converge at least weak superlinearly. A special case of the above algorithms was implemented and tested numerically on several test functions. In this implementation, however, cubic interpolation was performed whenever the objective function was not satisfactorily decreased on the first "shot" (with unit step size), but this did not occur too often, except for very difficult functions. The numerical results indicate that the new algorithm is competitive and often superior to previous methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>90C30</kwd>
+            <kwd>Function minimization</kwd>
+            <kwd>unconstrained minimization</kwd>
+            <kwd>quasi-Newton methods</kwd>
+            <kwd>variable metric methods</kwd>
+            <kwd>self-scaling variable metric algorithms</kwd>
+            <kwd>scaling</kwd>
+            <kwd>quasi-Newton algorithms with line search</kwd>
+            <kwd>gradient methods</kwd>
+            <kwd>Hessian matrix inverse approximation</kwd>
+            <kwd>conditioning of search methods</kwd>
+            <kwd>convergence rates</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d1992023e170a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1992023e177" publication-type="journal">
+Y. BARD, "On a numerical instability of Davidon-like methods," Math. Camp., v. 22,
+1968, pp. 665-666. MR 38 #858.<person-group>
+                     <string-name>
+                     <surname>Bard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>665</fpage>
+               <volume>22</volume>
+               <source>Math. Camp.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e209a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1992023e216" publication-type="journal">
+C. G. BROYDEN, "Quasi-Newton methods and their applications to function minimiza-
+tion," Math. Comp., v. 21, 1967, pp. 368-381. MR 36 #7317.<object-id pub-id-type="doi">10.2307/2003239</object-id>
+               <fpage>368</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e232a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1992023e239" publication-type="journal">
+C. G. BROYDEN, "The convergence of a class of double-rank minimization algorithms
+2: The new algorithm," J. Inst. Math. Appl. , v. 6, 1970, pp. 222-231.<person-group>
+                     <string-name>
+                     <surname>Broyden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>222</fpage>
+               <volume>6</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e271a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1992023e278" publication-type="book">
+A. R. COLVILLE, A Comparative Study on Nonlinear Programming Codes, IBM Tech.
+Rep. No. 320-2949, 1968.<person-group>
+                     <string-name>
+                     <surname>Colville</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Comparative Study on Nonlinear Programming Codes</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e304a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1992023e311" publication-type="book">
+W. C. DAVIDON, Variable Metric Method for Minimization, A.E.C. Research and
+Development Rep. ANL-5990 (Rev.), 1959.<person-group>
+                     <string-name>
+                     <surname>Davidon</surname>
+                  </string-name>
+                  </person-group>
+               <source>Variable Metric Method for Minimization</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e336a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1992023e343" publication-type="journal">
+W. C. DAVIDON, "Variance algorithm for minimization," Comput. J., v. 10, 1968,
+pp. 406-410. MR 36 #4790.<person-group>
+                     <string-name>
+                     <surname>Davidon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>406</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e375a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1992023e382" publication-type="journal">
+L. C. W. DIXON, "Variable metric algorithms: Necessary and sufficient conditions for
+identical behavior of non-quadratic functions," J. Optimization Theory Appl., v. 10, 1972, pp.
+34-40.<person-group>
+                     <string-name>
+                     <surname>Dixon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>34</fpage>
+               <volume>10</volume>
+               <source>J. Optimization Theory Appl.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e417a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1992023e424" publication-type="journal">
+R. FLETCHER &amp; M. J. D. POWELL, "A rapidly convergent descent method for minimiza-
+tion," Comput. J., v. 6, 1964, pp. 163-168. MR 27 #2096.<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>6</volume>
+               <source>Comput. J.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e456a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1992023e463" publication-type="journal">
+R. FLETCHER, "A new approach to variable metric algorithms," Comput. J., v. 13,
+1970, pp. 317-322.<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>13</volume>
+               <source>Comput. J.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e495a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1992023e502" publication-type="journal">
+P. E. GILL &amp; W. MURRAY, "Quasi-Newton methods for unconstrained optimization,"
+J. Inst. Math. Appl., v. 9, 1972, pp. 91-108.<person-group>
+                     <string-name>
+                     <surname>Gill</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>9</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e535a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1992023e542" publication-type="journal">
+A. A. GOLDSTEIN, "On steepest descent," J. Soc. Indust. Appl. Math. Ser. A Control,
+v. 3, 1965, pp. 147-151. MR 32 #2249.<person-group>
+                     <string-name>
+                     <surname>Goldstein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>3</volume>
+               <source>J. Soc. Indust. Appl. Math. Ser. A Control</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e574a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1992023e581" publication-type="journal">
+J. GREENSTADT, "Variations on variable metric methods," Math. Comp., v. 24, 1970,
+pp. 1-22. MR 41 #2895.<object-id pub-id-type="doi">10.2307/2004872</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e597a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1992023e604" publication-type="book">
+A. S. HOUSEHOLDER, The Theory of Matrices in Numerical Analysis, Blaisdell, New
+York, 1964. MR 30 #5475.<person-group>
+                     <string-name>
+                     <surname>Householder</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Theory of Matrices in Numerical Analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e629a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1992023e636" publication-type="journal">
+H. Y. HUANG, "Unified approach to quadratically convergent algorithms for function
+minimization," J. Optimization Theory Appl., v. 5, 1970, pp. 405-423. MR 44 #6134.<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>405</fpage>
+               <volume>5</volume>
+               <source>J. Optimization Theory Appl.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e668a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1992023e675" publication-type="book">
+L. V. KANTOROVIČ &amp; G. P. AKILOv, Functional Analysis in Normed Spaces, Fiz-
+matgiz, Moscow, 1959<person-group>
+                     <string-name>
+                     <surname>Kantorovič</surname>
+                  </string-name>
+                  </person-group>
+               <source>Functional Analysis in Normed Spaces</source>
+               <year>1959</year>
+            </mixed-citation>
+               <mixed-citation id="d1992023e699" publication-type="book">
+English transl., Internat. Series of Monographs in Pure and Appl. Math.,
+vol. 46, Macmillan, New York, 1964. MR 22 #9837; MR 35 #4699.<volume>46</volume>
+               <source>Internat. Series of Monographs in Pure and Appl. Math.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e718a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1992023e725" publication-type="book">
+D. G. LUENBERGER, Introduction to Linear and Nonlinear Programming, Addison-
+Wesley, Reading, Mass., 1973.<person-group>
+                     <string-name>
+                     <surname>Luenberger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Linear and Nonlinear Programming</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e751a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1992023e758" publication-type="book">
+B. A. MURTAGH &amp; R. W. H. SARGENT, A Constrained Minimization Method With
+Quadratic Convergence, Optimization (Sympos., Univ. Keele, 1968), Academic Press, London,
+1969, pp. 215-245. MR 44 #1442.<person-group>
+                     <string-name>
+                     <surname>Murtagh</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Constrained Minimization Method With Quadratic Convergence</comment>
+               <fpage>215</fpage>
+               <source>Optimization</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e793a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1992023e800" publication-type="other">
+S. S. OREN, Self-Scaling Variable Metric Algorithms for Unconstrained Minimization,
+Ph.D. Thesis, Department of Engineering-Economic Systems, Stanford University, Stanford,
+Calif., 1972.</mixed-citation>
+            </ref>
+            <ref id="d1992023e813a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1992023e820" publication-type="conference">
+S. S. OREN &amp; D. G. LUENBERGER, The Self-Scaling Variable Metric Algorithm, Proc.
+Fifth Hawaii International Conference on System Sciences, January, 1972.<person-group>
+                     <string-name>
+                     <surname>Oren</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Self-Scaling Variable Metric Algorithm</comment>
+               <source>Proc. Fifth Hawaii International Conference on System Sciences, January</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e849a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1992023e856" publication-type="journal">
+S. S. OREN &amp; D. G. LUENBERGER, "Self-scaling variable metric (SSVM) algorithms.
+I: Criteria and sufficient conditions for scaling a class of algorithms," Management Sci.
+(To appear.)<person-group>
+                     <string-name>
+                     <surname>Oren</surname>
+                  </string-name>
+                  </person-group>
+               <source>Management Sci.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e881a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1992023e888" publication-type="journal">
+S. S. OREN, "Self-scaling variable metric (SSVM) algorithms. II: Implementation
+and experiments," Management Sci. (To appear.)<person-group>
+                     <string-name>
+                     <surname>Oren</surname>
+                  </string-name>
+                  </person-group>
+               <source>Management Sci.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e910a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1992023e917" publication-type="book">
+M. J. D. POWELL, "Rank one methods for unconstrained optimization," in Integer and
+Nonlinear Programming, J. Abadie (Editor), North-Holland, Amsterdam, 1970, pp. 139-156.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Rank one methods for unconstrained optimization</comment>
+               <fpage>139</fpage>
+               <source>Integer and Nonlinear Programming</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e950a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1992023e957" publication-type="book">
+M. J. D. POWELL, Recent Advances in Unconstrained Optimization, Report No. T. P.,
+430, A. E. R. E., Harwell, 1970.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <source>Recent Advances in Unconstrained Optimization</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1992023e982a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1992023e989" publication-type="journal">
+H. H. ROSENBROCK, "An automatic method for finding the greatest or least value
+of a function," Comput. J., v. 3, 1961, pp. 175-184. MR 24 #B2081.<person-group>
+                     <string-name>
+                     <surname>Rosenbrock</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>175</fpage>
+               <volume>3</volume>
+               <source>Comput. J.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

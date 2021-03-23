@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">19</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i25703565</issue-id>
+         <article-id pub-id-type="jstor">25703572</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Clustering</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Combining Mixture Components for Clustering</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Jean-Patrick</given-names>
+                  <surname>Baudry</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Adrian E.</given-names>
+                  <surname>Raftery</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Gilles</given-names>
+                  <surname>Celeux</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kenneth</given-names>
+                  <surname>Lo</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Raphaël</given-names>
+                  <surname>Gottardo</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>332</fpage>
+         <lpage>353</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25703572"/>
+      
+      
+         <abstract>
+            <p>Model-based clustering consists of fitting a mixture model to data and identifying each cluster with one of its components. Multivariate normal distributions are typically used. The number of clusters is usually determined from the data, often using BIC. In practice, however, individual clusters can be poorly fitted by Gaussian distributions, and in that case model-based clustering tends to represent one non-Gaussian cluster by a mixture of two or more Gaussian distributions. If the number of mixture components is interpreted as the number of clusters, this can lead to overestimation of the number of clusters. This is because BIC selects the number of mixture components needed to provide a good approximation to the density, rather than the number of clusters as such. We propose first selecting the total number of Gaussian mixture components, K, using BIC and then combining them hierarchically according to an entropy criterion. This yields a unique soft clustering for each number of clusters less than or equal to K. These clusterings can be compared on substantive grounds, and we also describe an automatic way of selecting the number of clusters via a piecewise linear regression fit to the rescaled entropy plot. We illustrate the method with simulated data and a flow cytometry dataset. Supplemental materials are available on the journal web site and described at the end of the article.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1736269e301a1310">
+          
+            <mixed-citation id="d1736269e305" publication-type="other">
+Banfield, J. D., and Raftery, A. E. (1993), "Model-Based Gaussian and Non-Gaussian Clustering," Biometrics,
+49, 803-821. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e315a1310">
+          
+            <mixed-citation id="d1736269e319" publication-type="other">
+Biernacki, C, Celeux, G., and Govaert, G. (2000), "Assessing a Mixture Model for Clustering With the Integrated
+Completed Likelihood," IEEE Transactions on Pattern Analysis and Machine Intelligence, 22, 719-725.
+[333-335,3421</mixed-citation>
+        </ref>
+        <ref id="d1736269e332a1310">
+          
+            <mixed-citation id="d1736269e336" publication-type="other">
+Brinkman, R. R., Gasparetto, M., Lee, S.-J. J., Ribickas, A. J., Perkins, J., Janssen, W, Smiley, R., and Smith,
+C. (2007), "High-Content Row Cytometry and Temporal Data Analysis for Defining a Cellular Signature of
+Graft-versus-Host Disease," Biology of Blood and Marrow Transplantation, 13, 691-700. [346,347,349]</mixed-citation>
+        </ref>
+        <ref id="d1736269e349a1310">
+          
+            <mixed-citation id="d1736269e353" publication-type="other">
+Byers, S. D., and Raftery, A. E. (1998), "Nearest Neighbor Clutter Removal for Estimating Features in Spatial
+Point Processes," Journal of the American Statistical Association, 93, 577-584. [339]</mixed-citation>
+        </ref>
+        <ref id="d1736269e364a1310">
+          
+            <mixed-citation id="d1736269e368" publication-type="other">
+Celeux, G., and Govaert, G. (1992), "A Classification EM Algorithm for Clustering and Two Stochastic Versions,"
+Computational Statistics &amp; Data Analysis, 14, 315-332. [344]</mixed-citation>
+        </ref>
+        <ref id="d1736269e378a1310">
+          
+            <mixed-citation id="d1736269e382" publication-type="other">
+Dasgupta, A., and Raftery, A. E. (1998), "Detecting Features in Spatial Point Processes With Clutter via Model-
+Based Clustering," Journal of the American Statistical Association, 93, 294-302. [334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e392a1310">
+          
+            <mixed-citation id="d1736269e396" publication-type="other">
+Fraley, C, and Raftery, A. E. (1998), "How Many Clusters? Answers via Model-Based Cluster Analysis," The
+Computer Journal, 41, 578-588. [333,334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e406a1310">
+          
+            <mixed-citation id="d1736269e410" publication-type="other">
+- (2002), "Model-Based Clustering, Discriminant Analysis and Density Estimation," Journal of the Amer-
+ican Statistical Association, 97, 611-631. [333]</mixed-citation>
+        </ref>
+        <ref id="d1736269e420a1310">
+          
+            <mixed-citation id="d1736269e424" publication-type="other">
+Hagenaars, J. A., and McCutcheon, A. L. (2002), Applied Latent Class Analysis, Cambridge, U.K.: Cambridge
+University Press. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e434a1310">
+          
+            <mixed-citation id="d1736269e438" publication-type="other">
+Hartigan, J. A., and Hartigan, P. M. (1985), "The Dip Test of Unimodality," The Annals of Statistics, 13, 78-84.
+[351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e449a1310">
+          
+            <mixed-citation id="d1736269e453" publication-type="other">
+Jörnsten, R., and Kele§, S. (2008), "Mixture Models With Multiple Levels, With Application to the Analysis of
+Multifactor Gene Expression Data," Bio statistics, 9, 540-554. [352]</mixed-citation>
+        </ref>
+        <ref id="d1736269e463a1310">
+          
+            <mixed-citation id="d1736269e467" publication-type="other">
+Kass, R. E., and Raftery, A. E. (1995), "Bayes Factors," Journal of the American Statistical Association, 90,
+773-795.[334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e477a1310">
+          
+            <mixed-citation id="d1736269e481" publication-type="other">
+Keribin, C. (1998), "Consistent Estimate of the Order of Mixture Models," Comptes Rendus de I'Acamdemie des
+Sciences, Série I-Mathematiques, 326, 243-248. [334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e491a1310">
+          
+            <mixed-citation id="d1736269e495" publication-type="other">
+- (2000), "Consistent Estimation of the Order of Mixture Models," Sankhyā, 62, 49-66. [334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e502a1310">
+          
+            <mixed-citation id="d1736269e506" publication-type="other">
+Lazarsfeld, P. F. (1950), "The Logical and Mathematical Foundations of Latent Structure Analysis," in Measure-
+ment and Prediction. The American Soldier: Studies in Social Psychology in World War II, Vol. IV, eds. S. A.
+Stouffer et al., Princeton, NJ: Princeton University Press, Chapter 10. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e519a1310">
+          
+            <mixed-citation id="d1736269e523" publication-type="other">
+Li, J. (2005), "Clustering Based on a Multilayer Mixture Model," Journal of Computational and Graphical Sta-
+tistics, 14, 547-568. [343,351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e534a1310">
+          
+            <mixed-citation id="d1736269e538" publication-type="other">
+Lo, K., Brinkman, R. R., and Gottardo, R. (2008), "Automated Gating of Flow Cytometry Data via Robust Model-
+Based Clustering," Cytometry A, 73, 321-332. [347,349]</mixed-citation>
+        </ref>
+        <ref id="d1736269e548a1310">
+          
+            <mixed-citation id="d1736269e552" publication-type="other">
+McLachlan, G. (1982), "The Classification and Mixture Maximum Likelihood Approaches to Cluster Analysis,"
+in Handbook of Statistics, Vol. 2, eds. P. Krishnaiah and L. Kanal, Amsterdam: North-Holland, pp. 199-208.
+[333]</mixed-citation>
+        </ref>
+        <ref id="d1736269e565a1310">
+          
+            <mixed-citation id="d1736269e569" publication-type="other">
+McLachlan, G., and Basford, K. (1988), Mixture Models: Inference and Applications to Clustering, New York:
+Dekker. [333]</mixed-citation>
+        </ref>
+        <ref id="d1736269e579a1310">
+          
+            <mixed-citation id="d1736269e583" publication-type="other">
+McLachlan, G. J., and Peel, D. (2000), Finite Mixture Models, New York: Wiley. [333]</mixed-citation>
+        </ref>
+        <ref id="d1736269e590a1310">
+          
+            <mixed-citation id="d1736269e594" publication-type="other">
+Schwarz, G. (1978), "Estimating the Dimension of a Model," The Annals of Statistics, 6, 461-464. [334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e601a1310">
+          
+            <mixed-citation id="d1736269e605" publication-type="other">
+Steele, R. J. (2002), "Importance Sampling Methods for Inference in Mixture Models and Missing Data," Ph.D.
+thesis, University of Washington, Dept. of Statistics, Seattle, WA. [333,334]</mixed-citation>
+        </ref>
+        <ref id="d1736269e616a1310">
+          
+            <mixed-citation id="d1736269e620" publication-type="other">
+Tantrum, J., Murua, A., and Stuetzle, W. (2003), "Assessment and Pruning of Hierarchical Model Based Clus-
+tering," in Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and
+Data Mining, New York: Association for Computing Machinery, pp. 197-205. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e633a1310">
+          
+            <mixed-citation id="d1736269e637" publication-type="other">
+Tibshirani, R., Walther, G., and Hastie, T. (2001), "Estimating the Number of Clusters in a Data Set via the Gap
+Statistic," Journal of the Royal Statistical Society, Ser. B, 63, 411^23. [350]</mixed-citation>
+        </ref>
+        <ref id="d1736269e647a1310">
+          
+            <mixed-citation id="d1736269e651" publication-type="other">
+Walther, G. (2002), "Detecting the Presence of Mixing With Multiscale Maximum Likelihood," Journal of the
+American Statistical Association, 91, 508-513. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e661a1310">
+          
+            <mixed-citation id="d1736269e665" publication-type="other">
+Wang, N., and Raftery, A. E. (2002), "Nearest Neighbor Variance Estimation (NNVE): Robust Covariance Esti-
+mation via Nearest Neighbor Cleaning" (with discussion), Journal of the American Statistical Association,
+91, 994-1019. [351]</mixed-citation>
+        </ref>
+        <ref id="d1736269e678a1310">
+          
+            <mixed-citation id="d1736269e682" publication-type="other">
+Ward, J. H. (1963), "Hierarchical Grouping to Optimize an Objective Function," Journal of the American Statis-
+tical Association, 58, 236-244. [346]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

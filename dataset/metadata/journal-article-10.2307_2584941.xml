@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">227</issue>
+         <issue-id>i344567</issue-id>
+         <article-id pub-id-type="jstor">2584941</article-id>
+         
+         <title-group>
+            <article-title>An Approximate Inertial Manifolds Approach to Postprocessing the Galerkin Method for the Navier-Stokes Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Bosco</given-names>
+                     <surname>García-Archilla</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Julia</given-names>
+                  <surname>Novo</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Edriss S.</given-names>
+                  <surname>Titi</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>893</fpage>
+         <lpage>911</lpage>
+         <page-range>893-911</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584941"/>
+         
+         
+         <abstract>
+            <p>In a recent paper we have introduced a postprocessing procedure for the Galerkin method for dissipative evolution partial differential equations with periodic boundary conditions. The postprocessing technique uses approximate inertial manifolds to approximate the high modes (the small scale components) in the exact solutions in terms of the Galerkin approximations, which in this case play the role of the lower modes (large scale components). This procedure can be seen as a defect-correction technique. But contrary to standard procedures, the correction is computed only when the time evolution is completed. Here we extend these results to more realistic boundary conditions. Specifically, we study in detail the two-dimensional Navier-Stokes equations subject to homogeneous (nonslip) Dirichlet boundary conditions. We also discuss other equations, such as reaction-diffusion systems and the Cahn-Hilliard equations.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01057-1</kwd>
+            <kwd>65P25</kwd>
+            <kwd>Dissipative Equations</kwd>
+            <kwd>Spectral Methods</kwd>
+            <kwd>Approximate Inertial Manifolds</kwd>
+            <kwd>Nonlinear Galerkin Methods</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2925540e190a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2925540e197" publication-type="book">
+S. Agmon, Lectures on Elliptic Boundary Value Problems. Mathematical Studies, Van Nos-
+trand, Princeton, NJ, 1965. MR 31:2504<person-group>
+                     <string-name>
+                     <surname>Agmon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Lectures on Elliptic Boundary Value Problems</comment>
+               <source>Mathematical Studies</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e226a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2925540e233" publication-type="journal">
+A. Ait Ou Ammi and M. Marion, Nonlinear Galerkin methods and mixed finite elements:
+Two -grid algorithms for the Navier-Stokes equations, Numer. Math., 68, 1994, 189-213. MR
+95c:65174<person-group>
+                     <string-name>
+                     <surname>Ammi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>189</fpage>
+               <volume>68</volume>
+               <source>Numer. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e268a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2925540e275" publication-type="journal">
+R. E. Bank and D. J. Rose, Analysis of multilevel iterative methods for nonlinear finite
+element equations, Math. Comp., 39 , 1982, 453-465. MR 83j:65105<object-id pub-id-type="doi">10.2307/2007324</object-id>
+               <fpage>453</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e291a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2925540e298" publication-type="journal">
+P. F. Batcho and G. E. Karniadakis, Generalized Stokes Eigenfunctions: a new trial basis for
+the solution of incompressible Navier-Stokes equations, J. Comp. Phys., 115, 1994, 121-146.
+MR 95g:76037<person-group>
+                     <string-name>
+                     <surname>Batcho</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>115</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e334a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2925540e341" publication-type="journal">
+H. Brézis and T. Gallouet, Nonlinear Schrodinger evolution equations, Nonlin. Anal., 4, 1980,
+677-681. MR 81i:35139<person-group>
+                     <string-name>
+                     <surname>Brézis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>677</fpage>
+               <volume>4</volume>
+               <source>Nonlin. Anal.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e373a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2925540e380" publication-type="book">
+P. Constantin and C. Foias, Navier-Stokes Equations, Chicago Lectures in Mathematics, The
+University of Chicago, 1988. MR 90b:35190<person-group>
+                     <string-name>
+                     <surname>Constantin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Navier-Stokes Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e405a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2925540e412" publication-type="journal">
+C. N. Dawson and M. F. Wheeler, Two-Grid methods for mixed Finite Element approxima-
+tions of nonlinear parabolic equations, Contemporary Mathematics, 180, 1994192-204. MR
+95j:65117<person-group>
+                     <string-name>
+                     <surname>Dawson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>192</fpage>
+               <volume>180</volume>
+               <source>Contemporary Mathematics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e447a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2925540e454" publication-type="journal">
+A. Debussche and M. Marion, On the construction of families of approximate inertial mani-
+folds, J. Diff. Eq., 100, 1992, 173-201. MR 94e:35076<person-group>
+                     <string-name>
+                     <surname>Debussche</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>100</volume>
+               <source>J. Diff. Eq.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e486a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2925540e493" publication-type="journal">
+C. Devulder and M. Marion, A class of numerical algorithms for large time integration: the
+nonlinear Galerkin method, SIAM J. Numer. Anal., 29, 1992, 462-483. MR 93d:65079<object-id pub-id-type="jstor">10.2307/2158135</object-id>
+               <fpage>462</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e509a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2925540e516" publication-type="journal">
+C. Devulder, M. Marion and E. S. Titi, On the rate of convergence of Nonlinear Galerkin
+methods, Math. Comp., 60, 1993, 495-514. MR 93h:76017<object-id pub-id-type="doi">10.2307/2153099</object-id>
+               <fpage>495</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e533a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2925540e540" publication-type="journal">
+J. Douglas, Jr. and T. Dupont, A Galerkin method for a nonlinear Dirichlet problem, Math.
+Comp., 29, 1975, 698-696. MR 55:4742<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>698</fpage>
+               <volume>29</volume>
+               <source>Math. Comp.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e572a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2925540e579" publication-type="journal">
+T. Dubois, F. Jauberteau, M. Marion and R. Temam, Subgrid modelling and interaction of
+small and Large wavelengths in turbulent flows, Comp. Phys. Comm., 65, 1991, 100-106.
+MR 92b:35123<person-group>
+                     <string-name>
+                     <surname>Dubois</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>100</fpage>
+               <volume>65</volume>
+               <source>Comp. Phys. Comm.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e614a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2925540e621" publication-type="journal">
+C. Foias, M. S. Jolly, I. G. Kevrekidis, G. R. Sell and E. S. Titi, On the computation of
+inertial manifolds, Phys. Lett. A, 131, 1988, 433-436. MR 89k:65154<person-group>
+                     <string-name>
+                     <surname>Foias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>433</fpage>
+               <volume>131</volume>
+               <source>Phys. Lett. A</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e653a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2925540e660" publication-type="journal">
+C. Foias, 0. Manley and R. Temam, Modelling of the interaction of small and large eddies
+in two dimensional turbulent flows, RAIRO Math. Mod. Num. Anal., 22, 1988, 93-114. MR
+89h:76022<person-group>
+                     <string-name>
+                     <surname>Foias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>22</volume>
+               <source>RAIRO Math. Mod. Num. Anal.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e695a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2925540e702" publication-type="journal">
+C. Foias, G. R. Sell and R. Temam, Inertial manifolds for nonlinear evolutionary equations,
+J. Diff. Eq., 73, 1988, 309-353. MR 89e:58020<person-group>
+                     <string-name>
+                     <surname>Foias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>73</volume>
+               <source>J. Diff. Eq.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e734a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2925540e741" publication-type="journal">
+C. Foias, G. R. Sell and E. S. Titi, Exponential tracking and approximation of inertial man-
+ifolds for dissipative nonlinear equations, J. Dynamics and Diff. Eq., 1, 1989, 199-243. MR
+90k:35031<person-group>
+                     <string-name>
+                     <surname>Foias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>1</volume>
+               <source>J. Dynamics and Diff. Eq.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e777a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2925540e784" publication-type="journal">
+C. Foias, R. Temam, Algebraic approximation of attractors: the finite dimensional case,
+Physica D, 32, 1988, 163-182. MR 89k:58161<person-group>
+                     <string-name>
+                     <surname>Foias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>32</volume>
+               <source>Physica D</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e816a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d2925540e823" publication-type="other">
+J. de Frutos, B. García-Archilla and J. Novo, A postprocessed Galerkin method with Cheby-
+shev and Legendre polynomials, (submitted).</mixed-citation>
+            </ref>
+            <ref id="d2925540e833a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d2925540e840" publication-type="journal">
+B. García-Archilla, Some practical experience with the time integration of dissipative equa-
+tions J. Comp. Phys., 122, 1995, 25-29. CMP 96:03<person-group>
+                     <string-name>
+                     <surname>García-Archilla</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>25</fpage>
+               <volume>122</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e872a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d2925540e879" publication-type="journal">
+B. García-Archilla and J. de Frutos, Time integration of the nonlinear Galerkin method, IMA
+J. Num. Anal., 14, 1994, 221-244. MR 96h:65121<person-group>
+                     <string-name>
+                     <surname>García-Archilla</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>14</volume>
+               <source>IMA J. Num. Anal.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e911a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d2925540e918" publication-type="journal">
+B. García-Archilla, J. Novo and E. S. Titi, Postprocessing the Galerkin method: a novel
+approach to approximate inertial manifolds, SIAM J. Numer. Anal.35, 1998, 941-972. CMP
+98:11<person-group>
+                     <string-name>
+                     <surname>García-Archilla</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>941</fpage>
+               <volume>35</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e953a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d2925540e960" publication-type="other">
+B. García-Archilla and E. S. Titi, Postprocessing Galerkin methods: The finite-element case,
+(submitted).</mixed-citation>
+            </ref>
+            <ref id="d2925540e971a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d2925540e978" publication-type="journal">
+J. Hale, Asymptotic Behavior of Dissipative Systems. Mathematical Surveys and Mono-
+graphs, 25, AMS, Providence, 1988. MR 89g:58059<person-group>
+                     <string-name>
+                     <surname>Hale</surname>
+                  </string-name>
+                  </person-group>
+               <volume>25</volume>
+               <source>Mathematical Surveys and Monographs</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1007a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d2925540e1014" publication-type="book">
+D. Henry, Geometric Theory of Semilinear Parabolic Equations. Springer-Verlag, Berlin,
+1988. MR 83j:35084<person-group>
+                     <string-name>
+                     <surname>Henry</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geometric Theory of Semilinear Parabolic Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1039a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d2925540e1046" publication-type="journal">
+F. Jauberteau, C. Rosier and R. Temam, A nonlinear Galerkin method for the Navier-Stokes
+equations, Comput. Meth. Appl. Mech. Eng., 8, 1990, 245-260. MR 91k:76130<person-group>
+                     <string-name>
+                     <surname>Jauberteau</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>245</fpage>
+               <volume>8</volume>
+               <source>Comput. Meth. Appl. Mech. Eng.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1078a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d2925540e1085" publication-type="journal">
+M. S. Jolly, I. G. Kevrekidis, E. S. Titi, Approximate inertial manifolds for the Kuramoto-
+Sivashinsky equation: analysis and computations, Physica D, 44, 1990, 38-60. MR 91f:35217<person-group>
+                     <string-name>
+                     <surname>Jolly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>38</fpage>
+               <volume>44</volume>
+               <source>Physica D</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1117a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d2925540e1124" publication-type="journal">
+M. S. Jolly, I. G. Kevrekidis, E. S. Titi, Preserving dissipation in approximate inertial forms
+for the Kuramoto-Sivashinsky equation, Jour. of Dynamics and Diff. Eq. , 3, 1991, 179-197.
+MR 92b:35165<person-group>
+                     <string-name>
+                     <surname>Jolly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>3</volume>
+               <source>Jour. of Dynamics and Diff. Eq.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1159a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d2925540e1166" publication-type="journal">
+D. A. Jones, L. G. Margolin and E. S. Titi, On the effectiveness of the approximate inertial
+manifold A computational study, Theor. Comp. Fluid Dynam., 7, 1995, 243-260.<person-group>
+                     <string-name>
+                     <surname>Jones</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>243</fpage>
+               <volume>7</volume>
+               <source>Theor. Comp. Fluid Dynam.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1199a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d2925540e1206" publication-type="journal">
+D. A. Jones and E. S. Titi, A remark on quasi-stationary approximate inertial manifolds for
+the 2D Navier-Stokes equations, SIAM J. Math. Anal., 25, 1994, 894-914. MR 95c:35173<person-group>
+                     <string-name>
+                     <surname>Jones</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>894</fpage>
+               <volume>25</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1238a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d2925540e1245" publication-type="journal">
+D. A. Jones and E. S. Titi, C1 approximations of inertial manifolds for dissipative nonlinear
+equations, Jour. Diff. Equ., 127, 1996, 54-86. MR 97g:58154<person-group>
+                     <string-name>
+                     <surname>Jones</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>54</fpage>
+               <volume>127</volume>
+               <source>Jour. Diff. Equ.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1277a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d2925540e1284" publication-type="journal">
+L. Mansfield, On the solution of nonlinear finite element systems, SIAM J. Numer. Anal.,
+17, 1980, 752-765. MR 82a:65090<object-id pub-id-type="jstor">10.2307/2156797</object-id>
+               <fpage>752</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1300a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d2925540e1307" publication-type="journal">
+M. Marion and R. Temam, Nonlinear Galerkin Methods, SIAM J. Numer. Anal., 26, 1989,
+1139-1157. MR 91a:65220<object-id pub-id-type="jstor">10.2307/2157920</object-id>
+               <fpage>1139</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1323a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d2925540e1330" publication-type="journal">
+M. Marion and R. Temam, Nonlinear Galerkin methods: The finite element case, Numer.
+Math., 57, 1990, 205-226. MR 92d:65200<person-group>
+                     <string-name>
+                     <surname>Marion</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>57</volume>
+               <source>Numer. Math.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1362a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d2925540e1369" publication-type="journal">
+M. Marion and J. Xu, Error estimates on a new nonlinear Galerkin method based on two-grid
+finite elements, SIAM J. Numer. Anal., 32, 1995, 1170-1184. MR 96f:65136<object-id pub-id-type="jstor">10.2307/2158514</object-id>
+               <fpage>1170</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1386a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d2925540e1393" publication-type="other">
+J. Novo, Postproceso de Métodos espectrales. Ph. D. Thesis, Universidad de Valladolid, 1997.</mixed-citation>
+            </ref>
+            <ref id="d2925540e1400a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d2925540e1407" publication-type="conference">
+R. Rautmann, On the convergence rate of nonstationary Navier-Stokes approximations, Pro-
+ceedings of IUTAM Sympos., Paderborn (Germany) 1979,Lecture Notes in Mathematics, 771,
+Springer -Verlag, Berlin, New York, 1980, 425-449. MR 81c:35106<person-group>
+                     <string-name>
+                     <surname>Rautmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>425</fpage>
+               <source>Proceedings of IUTAM Sympos., Paderborn (Germany) 1979</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1439a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d2925540e1446" publication-type="journal">
+J. Shen, Long time stability and convergence for fully discrete nonlinear Galerkin methods,
+Appl. Anal., 38, 1990, 201-229. MR 93a:65130<person-group>
+                     <string-name>
+                     <surname>Shen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>38</volume>
+               <source>Appl. Anal.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1478a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d2925540e1485" publication-type="book">
+R. Temam, Infinite Dimensional Dynamical Systems in Mechanics and Physics, Applied
+Mathematical Sciences, 68, Springer-Verlag, Berlin, 1988. MR 89m:58056<person-group>
+                     <string-name>
+                     <surname>Temam</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Infinite Dimensional Dynamical Systems in Mechanics and Physics</comment>
+               <volume>68</volume>
+               <source>Applied Mathematical Sciences</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1517a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d2925540e1524" publication-type="journal">
+R. Temam, Attractors for the Navier-Stokes equations: localization and approximation, J.
+Fac. Sci., Univ. of Tokyo, Sec. IA Math., 36, 1989, 629-647. MR 90m:58128<person-group>
+                     <string-name>
+                     <surname>Temam</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>629</fpage>
+               <volume>36</volume>
+               <source>J. Fac. Sci., Univ. of Tokyo, Sec. IA Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1556a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d2925540e1563" publication-type="conference">
+R. Temam, Dynamical systems, turbulence and the numerical solution of the Navier Stokes
+equations, in Proceedings of the 11th International Conference on Numerical Methods in
+Fluid Dynamics (Williamsburg), eds. D. Dwoyer and R. Voigt, Lecture Notes in Physics,
+Springer-Verlag, Berlin, 1990, pp. 78-98. MR 90i:76055<person-group>
+                     <string-name>
+                     <surname>Temam</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Dynamical systems, turbulence and the numerical solution of the Navier Stokes equations</comment>
+               <fpage>78</fpage>
+               <source>Proceedings of the 11th International Conference on Numerical Methods in Fluid Dynamics (Williamsburg)</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1602a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d2925540e1609" publication-type="journal">
+E. S. Titi, On approximate inertial manifolds to the Navier-Stokes equations, J. Math. Anal.
+Appl., 149, 1990, 540-557. MR 91j:35226<person-group>
+                     <string-name>
+                     <surname>Titi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>540</fpage>
+               <volume>149</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1641a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d2925540e1648" publication-type="journal">
+R. Wallace and D. Sloan, Numerical solutions of a nonlinear dissipative system using a pseu-
+dospectral method and inertial manifolds, SIAM J. Sci. Comput., 16, 1995, 1049-1070. MR
+97b:65136<person-group>
+                     <string-name>
+                     <surname>Wallace</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1049</fpage>
+               <volume>16</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1683a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d2925540e1690" publication-type="journal">
+J. Xu, A novel two-grid method for semi-linear elliptic equations, SIAM J. Sci. Comput., 15,
+1994, 231-237. MR 94m:65178<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2925540e1722a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d2925540e1729" publication-type="journal">
+J. Xu, Two-grid discretization techniques for linear and nonlinear problems, SIAM J. Numer.
+Anal., 33, 1996, 1759-1777. MR 97i:65169<object-id pub-id-type="jstor">10.2307/2158329</object-id>
+               <fpage>1759</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

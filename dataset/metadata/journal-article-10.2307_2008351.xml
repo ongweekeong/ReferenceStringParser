@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">53</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">187</issue>
+         <issue-id>i334605</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008351</article-id>
+         
+         <title-group>
+            <article-title>Improved Condition Number for Spectral Methods</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Wilhelm</given-names>
+                  <surname>Heinrichs</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1989</year>
+         </pub-date>
+         <fpage>103</fpage>
+         <lpage>119</lpage>
+         <page-range>103-119</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1989 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008351"/>
+         
+         
+         <abstract>
+            <p>For the known spectral methods (Galerkin, Tau, Collocation) the condition number behaves like $O(N^4)$ ($N$: maximal degree of polynomials). We introduce a spectral method with an $O(N^2)$ condition number. The advantages with respect to propagation of rounding errors and preconditioning are demonstrated. A direct solver for constant coefficient problems is given. Extensions to variable coefficient problems and first-order problems are discussed. Numercial results are presented, showing the effectiveness of our methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>65N35</kwd>
+            <kwd>Spectral methods</kwd>
+            <kwd>condition number</kwd>
+            <kwd>direct solver</kwd>
+            <kwd>iterative methods</kwd>
+            <kwd>elliptic problems</kwd>
+            <kwd>first-order problems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d804357e148a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d804357e155" publication-type="book">
+I. BABUŠKA &amp; A. K. Aziz, "Survey lectures on the mathematical foundations of the finite
+element method," in The Mathematical Foundations of the Finite Element Method with Applications
+to Partial Differential Equations (A. K. Aziz, ed.), Academic Press, New York and London, 1972,
+pp. 3-360.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Survey lectures on the mathematical foundations of the finite element method</comment>
+               <fpage>3</fpage>
+               <source>The Mathematical Foundations of the Finite Element Method with Applications to Partial Differential Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e193a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d804357e200" publication-type="journal">
+C. CANUTO &amp; A. QUARTERONI, "Approximation results for orthogonal polynomials in
+Sobolev spaces," Math. Comp., v. 38, 1982, pp. 67-86.<object-id pub-id-type="doi">10.2307/2007465</object-id>
+               <fpage>67</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e216a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d804357e223" publication-type="book">
+C. CANUTO &amp; A. QUARTERONI, "Variational methods in the theoretical analysis of spectral
+methods," in Spectral Methods for Partial Differential Equations (R. G. Voigt, D. Gottlieb and
+M. Y. Hussaini, eds.), SIAM, Philadelphia, Pa., 1984, pp. 55-78.<person-group>
+                     <string-name>
+                     <surname>Canuto</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variational methods in the theoretical analysis of spectral methods</comment>
+               <fpage>55</fpage>
+               <source>Spectral Methods for Partial Differential Equations</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e258a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d804357e265" publication-type="journal">
+C. CANUTO &amp; A. QUARTERONI, "Spectral and pseudospectral methods for parabolic prob-
+lems with nonperiodic boundary conditions," Calcolo, v. 18, 1981, pp. 197-218.<person-group>
+                     <string-name>
+                     <surname>Canuto</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>18</volume>
+               <source>Calcolo</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e298a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d804357e305" publication-type="journal">
+D. FUNARO, "A preconditioning matrix for the Chebyshev differencing operator," SIAM J.
+Numer. Anal., v. 24, 1987, pp. 1024-1031.<object-id pub-id-type="jstor">10.2307/2157636</object-id>
+               <fpage>1024</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e321a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d804357e328" publication-type="book">
+D. GOTTLIEB &amp; S. A. ORSZAG, Numerical Analysis of Spectral Methods: Theory and Appli-
+cations, CBMS-NSF Regional Conference Series in Applied Mathematics No. 26, SIAM, Philadel-
+phia, Pa., 1977.<person-group>
+                     <string-name>
+                     <surname>Gottlieb</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Analysis of Spectral Methods: Theory and Applications</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e357a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d804357e364" publication-type="journal">
+D. B. HAIDVOGEL &amp; T. ZANG, "An accurate solution of Poisson's equation by expansion
+in Chebyshev polynomials," J. Comput. Phys., v. 30, 1979, pp. 167-180.<person-group>
+                     <string-name>
+                     <surname>Haidvogel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>167</fpage>
+               <volume>30</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e396a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d804357e403" publication-type="book">
+W. HEINRICHS, Kollokationsverfahren und Mehrgittermethoden bei elliptischen Randwertauf-
+gaben, GMD-Bericht Nr. 168, R. Oldenbourg Verlag, Miinchen/Wien, 1987.<person-group>
+                     <string-name>
+                     <surname>Heinrichs</surname>
+                  </string-name>
+                  </person-group>
+               <source>Kollokationsverfahren und Mehrgittermethoden bei elliptischen Randwertaufgaben</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e428a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d804357e435" publication-type="journal">
+W. HEINRICHS, "Line relaxation for spectral multigrid methods," J. Comput. Phys., v. 77,
+1988, pp. 166-182.<person-group>
+                     <string-name>
+                     <surname>Heinrichs</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>166</fpage>
+               <volume>77</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e467a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d804357e474" publication-type="journal">
+W. HEINRICHS, "Collocation and full multigrid methods," Appl. Math. Comput., v. 26, 1988,
+pp. 35-45.<person-group>
+                     <string-name>
+                     <surname>Heinrichs</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>35</fpage>
+               <volume>26</volume>
+               <source>Appl. Math. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e507a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d804357e514" publication-type="journal">
+W. HEINRICHS, "Konvergenzaussagen fur Kollokationsverfahren bei elliptischen Randwert-
+aufgaben," Numer. Math., v. 54, 1989, pp. 619-637.<person-group>
+                     <string-name>
+                     <surname>Heinrichs</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>619</fpage>
+               <volume>54</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e546a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d804357e553" publication-type="journal">
+W. HEINRICHS, "Strong convergence estimates for pseudospectral methods," Submitted to
+SIAM J. Numer. Anal.<person-group>
+                     <string-name>
+                     <surname>Heinrichs</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM J. Numer. Anal.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e575a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d804357e582" publication-type="book">
+M. A. KRASNOSEL'SKII, G. M. VAINIKKO, P. P. ZABREIKO, YA. B. RUTITSKII &amp; Y. YA.
+STETSENKO, Approximate Solution of Operator Equations, Wolters-Noordhoff, Groningen, 1972.<person-group>
+                     <string-name>
+                     <surname>Krasnosel'skii</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximate Solution of Operator Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e607a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d804357e614" publication-type="book">
+TH. MEIS &amp; U. MARCOWITZ, Numerische Behandlung partieller Differentialgleichungen,
+Springer-Verlag, Berlin and New York, 1978.<person-group>
+                     <string-name>
+                     <surname>Meis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerische Behandlung partieller Differentialgleichungen</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e639a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d804357e646" publication-type="journal">
+J. NEČAS, "Sur une m6thode pour r6soudre les 6quations aux deriv6es partielles du type
+elliptique, voisine de la variationelle," Ann. Sci. Norm. Sup. Pisa, v. 16, 1962, pp. 305-326.<person-group>
+                     <string-name>
+                     <surname>Nečas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>305</fpage>
+               <volume>16</volume>
+               <source>Ann. Sci. Norm. Sup. Pisa</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e678a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d804357e685" publication-type="journal">
+S. A. ORSZAG, "Spectral methods for problems in complex geometries," J. Comput. Phys.,
+v. 37, 1980, pp. 70-92.<person-group>
+                     <string-name>
+                     <surname>Orszag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>70</fpage>
+               <volume>37</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e718a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d804357e725" publication-type="book">
+T. N. PHILLIPS, T. A. ZANG &amp; M. Y. HUSSAINI, "Spectral multigrid methods for Dirich-
+let problems," in Multigrid Methods for Integral and Differential Equations (D. J. Paddon and H.
+Holstein, eds.), Clarendon Press, Oxford, 1985, pp. 231-252.<person-group>
+                     <string-name>
+                     <surname>Phillips</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Spectral multigrid methods for Dirichlet problems</comment>
+               <fpage>231</fpage>
+               <source>Multigrid Methods for Integral and Differential Equations</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e760a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d804357e767" publication-type="book">
+J. SCHRÖDER, Operator Inequalities, Academic Press, New York, 1980.<person-group>
+                     <string-name>
+                     <surname>Schröder</surname>
+                  </string-name>
+                  </person-group>
+               <source>Operator Inequalities</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d804357e789a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d804357e796" publication-type="journal">
+T. A. ZANG, Y. S. WONG &amp; M. Y. HUSSAINI, "Spectral multigrid methods for elliptic
+equations. II," J. Comput. Phys., v. 54, 1984, pp. 489-507.<person-group>
+                     <string-name>
+                     <surname>Zang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>489</fpage>
+               <volume>54</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

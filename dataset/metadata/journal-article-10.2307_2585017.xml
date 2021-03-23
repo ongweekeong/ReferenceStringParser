@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">231</issue>
+         <issue-id>i344571</issue-id>
+         <article-id pub-id-type="jstor">2585017</article-id>
+         
+         <title-group>
+            <article-title>Evaluating Higher Derivative Tensors by Forward Propagation of Univariate Taylor Series</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Andreas</given-names>
+                  <surname>Griewank</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jean</given-names>
+                  <surname>Utke</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Andrea</given-names>
+                  <surname>Walther</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>1117</fpage>
+         <lpage>1130</lpage>
+         <page-range>1117-1130</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585017"/>
+         
+         
+         <abstract>
+            <p>This article considers the problem of evaluating all pure and mixed partial derivatives of some vector function defined by an evaluation procedure. The natural approach to evaluating derivative tensors might appear to be their recursive calculation in the usual forward mode of computational differentiation. However, with the approach presented in this article, much simpler data access patterns and similar or lower computational counts can be achieved through propagating a family of univariate Taylor series of a suitable degree. It is applicable for arbitrary orders of derivatives. Also it is possible to calculate derivatives only in some directions instead of the full derivative tensor. Explicit formulas for all tensor entries as well as estimates for the corresponding computational complexities are given.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(00)01120-0</kwd>
+            <kwd>65D05</kwd>
+            <kwd>65Y20</kwd>
+            <kwd>68Q40</kwd>
+            <kwd>Higher Order Derivatives</kwd>
+            <kwd>Computational Differentiation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d712728e175a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d712728e182" publication-type="journal">
+Christian H. Bischof, George F. Corliss, and Andreas Griewank, Structured second- and
+higher-order derivatives through univariate Taylor series. Optimization Methods and Soft-
+ware 2 (1993), 211-232.<person-group>
+                     <string-name>
+                     <surname>Bischof</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>211</fpage>
+               <volume>2</volume>
+               <source>Optimization Methods and Software</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e217a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d712728e224" publication-type="journal">
+Martin Berz, Differential algebraic description of beam dynamics to very high orders. Particle
+Accelerators12 (1989), 109-124.<person-group>
+                     <string-name>
+                     <surname>Berz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>12</volume>
+               <source>Particle Accelerators</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e256a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d712728e263" publication-type="book">
+Martin Berz, Algorithms for higher derivatives in many variables with applications to bear
+physics. In George F. Corliss and Andreas Griewank, editors, Automatic Differentiation of Al-
+gorithms - Theory, Implementation, and Applications SIAM (1991), 147-156. MR 92h:65031<person-group>
+                     <string-name>
+                     <surname>Berz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms for higher derivatives in many variables with applications to bear physics</comment>
+               <fpage>147</fpage>
+               <source>Automatic Differentiation of Algorithms - Theory, Implementation, and Applications SIAM</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e298a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d712728e305" publication-type="journal">
+Andreas Griewank, David Juedes, and Jean Utke, ADOL-C: A package for the automatic
+differentiation of algorithms written in C/C++. ACM Trans. Math. Software22 (1996),
+131-167.<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>22</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e341a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d712728e348" publication-type="journal">
+Andreas Griewank and George W. Reddien, Computation of cusp singularities for opera-
+tor equations and their discretizations. J. Comput. Appl. Math.26 (1989), 133-153. MR
+91e:58036<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>26</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e383a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d712728e390" publication-type="book">
+Andreas Griewank, On automatic differentiation. In Masao Iri and K. Tanabe, editors, Math-
+ematical programming: Recent developments and applications Kluwer Academic Publishers
+(1989), 83-108. MR 92k:65002<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On automatic differentiation</comment>
+               <fpage>83</fpage>
+               <source>Mathematical programming: Recent developments and applications</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e425a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d712728e432" publication-type="conference">
+Andreas Griewank, Automatic evaluation of first- and higher-derivative vectors. In R. Seydel,
+F. W. Schneider, T. Kiipper, and H. Troger, editors, Proceedings of the Conference "Bi-
+furcation and Chaos: Analysis, Algorithms, Applications Birkhäuser (1991), 124-137. MR
+91m:58001<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Automatic evaluation of first- and higher-derivative vectors</comment>
+               <fpage>124</fpage>
+               <source>Proceedings of the Conference "Bifurcation and Chaos: Analysis, Algorithms, Applications Birkhäuser</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e470a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d712728e477" publication-type="book">
+Andreas Griewank, Computational differentiation and optimization. In J. Birge and K. Murty,
+editors, Mathematical Programming: State of the Art University of Michigan (1994), 102-131.<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational differentiation and optimization</comment>
+               <fpage>102</fpage>
+               <source>Mathematical Programming: State of the Art University of Michigan</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e509a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d712728e516" publication-type="book">
+Ulf Hutschenreiter, A new method for bevel gear tooth flank computation. In Martin Berz,
+Christian Bischof, George F. Corliss and Andreas Griewank, editors, Computational Differ-
+entiation - Techniques, Applications, and Tools SIAM (1996), 161-172.<person-group>
+                     <string-name>
+                     <surname>Hutschenreiter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new method for bevel gear tooth flank computation</comment>
+               <fpage>161</fpage>
+               <source>Computational Differentiation - Techniques, Applications, and Tools SIAM</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712728e551a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d712728e558" publication-type="journal">
+Rich Neidinger, An efficient method for the numerical evaluation of partial derivatives of
+arbitrary order. ACM Trans. Math. Software18 (1992), 159-173. MR 93b:65040<person-group>
+                     <string-name>
+                     <surname>Neidinger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>159</fpage>
+               <volume>18</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

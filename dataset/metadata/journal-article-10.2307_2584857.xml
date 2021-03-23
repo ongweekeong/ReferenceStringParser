@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">224</issue>
+         <issue-id>i344564</issue-id>
+         <article-id pub-id-type="jstor">2584857</article-id>
+         
+         <title-group>
+            <article-title>A Comparison of Regularizations for an Ill-Posed Problem</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Karen A.</given-names>
+                  <surname>Ames</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Gordon W.</given-names>
+                  <surname>Clark</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James F.</given-names>
+                  <surname>Epperson</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Seth F.</given-names>
+                  <surname>Oppenheimer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1451</fpage>
+         <lpage>1471</lpage>
+         <page-range>1451-1471</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584857"/>
+         
+         
+         <abstract>
+            <p>We consider numerical methods for a "quasi-boundary value" regularization of the backward parabolic problem given by \begin{equation*}\begin{cases} u_t + Au = 0, 0 &lt; t &lt; T \\ u(T) = f,\end{cases}\end{equation*} where A is positive self-adjoint and unbounded. The regularization, due to Clark and Oppenheimer, perturbs the final value u(T) by adding αu(0), where α is a small parameter. We show how this leads very naturally to a reformulation of the problem as a second-kind Fredholm integral equation, which can be very easily approximated using methods previously developed by Ames and Epperson. Error estimates and examples are provided. We also compare the regularization used here with that from Ames and Epperson.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)01014-X</kwd>
+            <kwd>35A35</kwd>
+            <kwd>35R25</kwd>
+            <kwd>65M30</kwd>
+            <kwd>65M15</kwd>
+            <kwd>Quasi-Reversibility</kwd>
+            <kwd>Final Value Problems</kwd>
+            <kwd>Ill-Posed Problems</kwd>
+            <kwd>Freholm Equations</kwd>
+            <kwd>Numerical Methods</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2333717e190a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2333717e197" publication-type="journal">
+Ames, K.A., and Epperson, J.F., A Kernel-based Method for the Approximate Solution of
+Backward Parabolic Problems, SIAM J. Num. Anal., Vol 34, no. 4, 1997, pp. 1357-1390.
+CMP 97:16<person-group>
+                     <string-name>
+                     <surname>Ames</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>1357</fpage>
+               <volume>34</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e235a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2333717e242" publication-type="book">
+Brenner, S.C., and Scott, R.S., The Mathematical Theory of Finite Element Methods,
+Springer-Verlag, New York, 1994. MR 95f:65001<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Mathematical Theory of Finite Element Methods</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e267a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2333717e274" publication-type="journal">
+Bramble, J., Schatz, A., Thomee, V., and Wahlbin, L., Some convergence estimates for
+semidiscrete Galerkin approximations for parabolic equations, SIAM J. Num. Anal., 14
+(1977), pp. 218-241. MR 56:7231<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>218</fpage>
+               <volume>14</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e309a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2333717e316" publication-type="journal">
+Clark, G. and Oppenheimer, C., Quasireversibility Methods for Non-Well-Posed Problems,
+Elect. J. Diff. Eqns., 1994. MR 96a:34123<person-group>
+                     <string-name>
+                     <surname>Clark</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elect. J. Diff. Eqns.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e342a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2333717e349" publication-type="book">
+Golub, G., and van Loan, C., Matrix Computations, Johns Hopkins University Press, Balti-
+more, 1983. MR 85h:65063<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Computations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e374a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2333717e381" publication-type="book">
+Groetsch, C., The theory of Tikhonov Regularization for Fredholm Equations of the First
+Kind, Pitman, Boston, 1984. MR 85k:45020<person-group>
+                     <string-name>
+                     <surname>Groetsch</surname>
+                  </string-name>
+                  </person-group>
+               <source>The theory of Tikhonov Regularization for Fredholm Equations of the First Kind</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e406a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2333717e413" publication-type="book">
+Kelley, C.T., Iterative Methods for Linear and Nonlinear Equations, SIAM, Philadelphia,
+1995. MR 96d:65002<person-group>
+                     <string-name>
+                     <surname>Kelley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Methods for Linear and Nonlinear Equations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e438a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2333717e445" publication-type="book">
+Lattes, R. and Lions, J.L., Methode de Quasi-Reversibility et Applications, Dunod, Paris,
+1967 (English translation R. Bellman, Elsevier, New York, 1969) MR 38:874<person-group>
+                     <string-name>
+                     <surname>Lattes</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methode de Quasi-Reversibility et Applications</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e470a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2333717e477" publication-type="journal">
+Miranker, W. L., A well-posed problem for the backward heat equation, Proc. Amer. Math.
+Soc., 12 (1961), pp. 243-247. MR 22:11216<object-id pub-id-type="doi">10.2307/2034314</object-id>
+               <fpage>243</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e493a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2333717e500" publication-type="conference">
+Miller, K., Stabilized quasireversibility and other nearly best possible methods for non-
+well-posed problems, Symposium on Non-Well-Posed Problems and Logarithmic Convexity,
+Lecture Notes in Mathematics, Vol. 316, Springer-Verlag, Berlin, 1973, pp. 161-176. MR
+52:14710<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Stabilized quasireversibility and other nearly best possible methods for nonwell-posed problems</comment>
+               <fpage>161</fpage>
+               <volume>316</volume>
+               <source>Symposium on Non-Well-Posed Problems and Logarithmic Convexity</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e542a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2333717e549" publication-type="conference">
+Payne, L.E., Some general remarks on improperly posed problems for partial differential
+equations, Symposium on Non-Well-Posed Problems and Logarithmic Convexity, Lecture
+Notes in Mathematics, Vol. 316, Springer-Verlag, Berlin, 1973, pp 1-30 MR 53:13892<person-group>
+                     <string-name>
+                     <surname>Payne</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some general remarks on improperly posed problems for partial differential equations</comment>
+               <fpage>1</fpage>
+               <volume>316</volume>
+               <source>Symposium on Non-Well-Posed Problems and Logarithmic Convexity</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e587a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2333717e594" publication-type="other">
+Shewchuk, J.R., An introduction to the conjugate gradient method without the agonizing
+pain, electronically published manuscript.</mixed-citation>
+            </ref>
+            <ref id="d2333717e604a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2333717e611" publication-type="journal">
+Showalter, R.E., The Final Value Problem for Evolution Equations, J. Math. Anal. Appl.,
+47, 1974, pp 563-572 MR 50:5131<person-group>
+                     <string-name>
+                     <surname>Showalter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>563</fpage>
+               <volume>47</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e643a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2333717e650" publication-type="book">
+Showalter, R.E., Cauchy Problem for Hyper-Parabolic Partial Differential Equations, Trends
+in the Theory and Practice of Non-Linear Analysis, Elsevier, 1983 MR 87f:35121<person-group>
+                     <string-name>
+                     <surname>Showalter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Cauchy Problem for Hyper-Parabolic Partial Differential Equations</comment>
+               <source>Trends in the Theory and Practice of Non-Linear Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2333717e679a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2333717e686" publication-type="journal">
+Winther, R., Some Superlinear Convergence Results for the Conjugate Gradient Method,
+SIAM J. Num. Anal., Vol. 17, no. 1, 1980, pp. 14-17. MR 81k:65060<person-group>
+                     <string-name>
+                     <surname>Winther</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>14</fpage>
+               <volume>17</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

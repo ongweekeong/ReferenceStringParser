@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">7</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260279</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390768</article-id>
+         
+         <title-group>
+            <article-title>Functional Compatibility, Markov Chains, and Gibbs Sampling with Improper Posteriors</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James P.</given-names>
+                  <surname>Hobert</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>George</given-names>
+                  <surname>Casella</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>42</fpage>
+         <lpage>60</lpage>
+         <page-range>42-60</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390768"/>
+         
+         
+         <abstract>
+            <p>The members of a set of conditional probability density functions are called "compatible" if there exists a joint probability density function that generates them. We generalize this concept by calling the conditionals "functionally compatible" if there exists a non-negative function that behaves like a joint density as far as generating the conditionals according to the probability calculus, but whose integral over the whole space is not necessarily finite. A necessary and sufficient condition for functional compatibility is given that provides a method of calculating this function, if it exists. A Markov transition function is then constructed using a set of functionally compatible conditional densities and it is shown, using the compatibility results, that the associated Markov chain is positive recurrent if and only if the conditionals are compatible. A Gibbs Markov chain, constructed via "Gibbs conditionals" from a hierarchical model with an improper posterior, is a special case. Therefore, the results of this article can be used to evaluate the consequences of applying the Gibbs sampler when the posterior's impropriety is unknown to the user. Our results cannot, however, be used to detect improper posteriors. Monte Carlo approximations based on Gibbs chains are shown to have undesirable limiting behavior when the posterior is improper. The results are applied to a Bayesian hierarchical one-way random effects model with an improper posterior distribution. The model is simple, but also quite similar to some models with improper posteriors that have been used in conjunction with the Gibbs sampler in the literature.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian hierarchical model</kwd>
+            <kwd>Compatible conditional densities</kwd>
+            <kwd>Improper prior</kwd>
+            <kwd>Markov transition function</kwd>
+            <kwd>Monte Carlo</kwd>
+            <kwd>Null Markov chain</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d715809e154a1310">
+               
+               <mixed-citation id="d715809e158" publication-type="journal">
+Arnold, B.C., and Press, S. (1989), "Compatible Conditional Distributions," Journal of the American Statistical
+Association, 84, 152-156.<object-id pub-id-type="doi">10.2307/2289858</object-id>
+               <fpage>152</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e174a1310">
+               
+               <mixed-citation id="d715809e178" publication-type="book">
+Bartle, R.G. (1976), The Elements of Real Analysis, (2nd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Bartle</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>The Elements of Real Analysis</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e203a1310">
+               
+               <mixed-citation id="d715809e207" publication-type="book">
+Berger, J. O.(1985), Statistical Decision Theory and Bayesian Analysis, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Decision Theory and Bayesian Analysis</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e229a1310">
+               
+               <mixed-citation id="d715809e233" publication-type="journal">
+Besag, J. (1974), "Spatial Interaction and the Statistical Analysis of Lattice Systems" (with discussion), Journal
+of the Royal Statistical Society, Series B, 36, 192-236.<person-group>
+                     <string-name>
+                     <surname>Besag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>192</fpage>
+               <volume>36</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e266a1310">
+               
+               <mixed-citation id="d715809e270" publication-type="book">
+Billingsley, P. (1986), Probability and Measure, (2nd ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Billingsley</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Probability and Measure</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e295a1310">
+               
+               <mixed-citation id="d715809e299" publication-type="journal">
+Casella, G., and George, E.I. (1992), "Explaining the Gibbs Sampler," The American Statistician, 46, 167-174.<person-group>
+                     <string-name>
+                     <surname>Casella</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>167</fpage>
+               <volume>46</volume>
+               <source>The American Statistician</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e328a1310">
+               
+               <mixed-citation id="d715809e332" publication-type="journal">
+Chaloner, K. (1987), "A Bayesian Approach to the Estimation of Variance Components for the Unbalanced
+One-way Random Model," Technometrics, 29, 323-337.<object-id pub-id-type="doi">10.2307/1269342</object-id>
+               <fpage>323</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e348a1310">
+               
+               <mixed-citation id="d715809e352" publication-type="journal">
+Chan, K.S. (1993), "Asymptotic Behavior of the Gibbs Sampler," Journal of the American Statistical Associ-
+ation, 88, 320-326.<object-id pub-id-type="doi">10.2307/2290727</object-id>
+               <fpage>320</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e368a1310">
+               
+               <mixed-citation id="d715809e372" publication-type="journal">
+Chan, K.S., and Geyer, C.J. (1994), Comments on "Markov Chains for Exploring Posterior Distributions,"
+The Annals of Statistics, 22, 1747-1757.<object-id pub-id-type="jstor">10.2307/2242481</object-id>
+               <fpage>1747</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e388a1310">
+               
+               <mixed-citation id="d715809e392" publication-type="journal">
+Cowles, M.K., and Carlin, B.P. (1996), "Markov Chain Monte Carlo Convergence Diagnostics: A Comparative
+Review," Journal of the American Statistical Association, 91, 883-904.<object-id pub-id-type="doi">10.2307/2291683</object-id>
+               <fpage>883</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e409a1310">
+               
+               <mixed-citation id="d715809e413" publication-type="journal">
+Gelfand, A.E., Hills, S.E., Racine-Poon, A., and Smith, A.F.M. (1990), "Illustration of Bayesian Inference
+in Normal Data Models Using Gibbs Sampling," Journal of the American Statistical Association, 85,
+972-985.<object-id pub-id-type="doi">10.2307/2289594</object-id>
+               <fpage>972</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e432a1310">
+               
+               <mixed-citation id="d715809e436" publication-type="book">
+Gelfand, A.E., and Sahu, S.K. (1996), "Identifiability, Propriety and Parameterization with Regard to
+Simulation-Based Fitting of Generalized Linear Mixed Models," technical report, University of Con-
+necticut, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Gelfand</surname>
+                  </string-name>
+                  </person-group>
+               <source>Identifiability, Propriety and Parameterization with Regard to Simulation-Based Fitting of Generalized Linear Mixed Models</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e465a1310">
+               
+               <mixed-citation id="d715809e469" publication-type="journal">
+Gelfand, A.E., and Smith, A.F.M. (1990), "Sampling-Based Approaches to Calculating Marginal Densities,"
+Journal of the American Statistical Association, 85, 398-409.<object-id pub-id-type="doi">10.2307/2289776</object-id>
+               <fpage>398</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e485a1310">
+               
+               <mixed-citation id="d715809e489" publication-type="journal">
+Gelman, A., and Rubin, D.B. (1992), "Inference from Iterative Simulation Using Multiple Sequences" (with
+discussion), Statistical Science, 7, 457-472.<object-id pub-id-type="jstor">10.2307/2246093</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e505a1310">
+               
+               <mixed-citation id="d715809e509" publication-type="journal">
+Gelman, A., and Speed, T.P. (1993), "Characterizing a Joint Probability Distribution by Conditionals," Journal
+of the Royal Statistical Society, Series B, 55, 185-188.<person-group>
+                     <string-name>
+                     <surname>Gelman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>185</fpage>
+               <volume>55</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e541a1310">
+               
+               <mixed-citation id="d715809e545" publication-type="book">
+Geweke, J. (1996), Handbook of Computational Economics, Amsterdam: North-Holland, chap. 15.<person-group>
+                     <string-name>
+                     <surname>Geweke</surname>
+                  </string-name>
+                  </person-group>
+               <source>Handbook of Computational Economics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e568a1310">
+               
+               <mixed-citation id="d715809e572" publication-type="journal">
+Geyer, C.J. (1992), "Practical Markov Chain Monte Carlo" (with discussion), Statistical Science, 7, 473-483.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e585a1310">
+               
+               <mixed-citation id="d715809e589" publication-type="journal">
+Gourieroux, C., and Monfort, A. (1979), "On the Characterization of a Joint Probability Distribution by Con-
+ditional Distributions," Journal of Econometrics, 10, 115-118.<person-group>
+                     <string-name>
+                     <surname>Gourieroux</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>115</fpage>
+               <volume>10</volume>
+               <source>Journal of Econometrics</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e621a1310">
+               
+               <mixed-citation id="d715809e625" publication-type="journal">
+Hill, B.M. (1965), "Inference about Variance Components in the One-Way Model," Journal of the American
+Statistical Association, 60, 806-825.<object-id pub-id-type="doi">10.2307/2283247</object-id>
+               <fpage>806</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e641a1310">
+               
+               <mixed-citation id="d715809e645" publication-type="journal">
+(1975), "A Simple General Approach to Inference about the Tail of a Distribution," The Annals of
+Statistics, 3, 1163-1174.<object-id pub-id-type="jstor">10.2307/2958370</object-id>
+               <fpage>1163</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e661a1310">
+               
+               <mixed-citation id="d715809e665" publication-type="book">
+Hobert, J. P. (1994), "Occurrences and Consequences of Nonpositive Markov Chains in Gibbs Sampling,"
+unpublished PhD thesis, Cornell University, Biometrics Unit.<person-group>
+                     <string-name>
+                     <surname>Hobert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Occurrences and Consequences of Nonpositive Markov Chains in Gibbs Sampling</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e690a1310">
+               
+               <mixed-citation id="d715809e694" publication-type="journal">
+Hobert, J.P., and Casella, G. (1996), "The Effect of Improper Priors on Gibbs Sampling in Hierarchical Linear
+Mixed Models," Journal of the American Statistical Association, 91, 1461-1473.<object-id pub-id-type="doi">10.2307/2291572</object-id>
+               <fpage>1461</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e711a1310">
+               
+               <mixed-citation id="d715809e715" publication-type="journal">
+Ibrahim, J.G., and Laud, P.W. (1991), "On Bayesian Analysis of Generalized Linear Models Using Jeffreys's
+Prior," Journal of the American Statistical Association, 86, 981-986.<object-id pub-id-type="doi">10.2307/2290514</object-id>
+               <fpage>981</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e731a1310">
+               
+               <mixed-citation id="d715809e735" publication-type="journal">
+Kass, R.E., and Steffey, D. (1989), "Approximate Bayesian Inference in Conditionally Independent Hierarchical
+Models (Parametric Empirical Bayes Models)," Journal of the American Statistical Association, 84, 717-
+726.<object-id pub-id-type="doi">10.2307/2289653</object-id>
+               <fpage>717</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e754a1310">
+               
+               <mixed-citation id="d715809e758" publication-type="book">
+Lehmann, E.L. (1983), Theory of Point Estimation, Pacific Grove, CA: Wadsworth &amp; Brook/Cole.<person-group>
+                     <string-name>
+                     <surname>Lehmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of Point Estimation</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e780a1310">
+               
+               <mixed-citation id="d715809e784" publication-type="journal">
+Liu, J.S., Wong, W.H., and Kong, A. (1994), "Covariance Structure of the Gibbs Sampler with Applications
+to the Comparisons of Estimators and Augmentation Schemes," Biometrika, 81, 27-40.<object-id pub-id-type="doi">10.2307/2337047</object-id>
+               <fpage>27</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e800a1310">
+               
+               <mixed-citation id="d715809e804" publication-type="book">
+Meyn, S.P., and Tweedie, R.L. (1993), Markov Chains and Stochastic Stability, London: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Meyn</surname>
+                  </string-name>
+                  </person-group>
+               <source>Markov Chains and Stochastic Stability</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e826a1310">
+               
+               <mixed-citation id="d715809e830" publication-type="journal">
+Natarajan, R., and McCulloch, C.E. (1995), "A Note on the Existence of the Posterior Distribution for a Class
+of Mixed Models for Binomial Responses," Biometrika, 82, 639-643.<object-id pub-id-type="doi">10.2307/2337540</object-id>
+               <fpage>639</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e847a1310">
+               
+               <mixed-citation id="d715809e851" publication-type="journal">
+Raftery, A.E., and Banfield, J.D. (1991), Comment on "Bayesian Image Restoration, with Two Applications
+in Spatial Statistics," Annals of the Institute of Statistical Mathematics, 43, 32-43.<person-group>
+                     <string-name>
+                     <surname>Raftery</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>32</fpage>
+               <volume>43</volume>
+               <source>Annals of the Institute of Statistical Mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e883a1310">
+               
+               <mixed-citation id="d715809e887" publication-type="conference">
+Roberts, G. 0. (1992), "Convergence Diagnostics of the Gibbs Sampler," in Bayesian Statistics 4. Proceedings
+of the Fourth Valencia International Meeting, eds. J. M. Bernardo, J. 0. Berger, A. P. Dawid, and A. F. M.
+Smith, Oxford: Oxford University Press, pp. 775-782.<person-group>
+                     <string-name>
+                     <surname>Roberts</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Convergence Diagnostics of the Gibbs Sampler</comment>
+               <fpage>775</fpage>
+               <source>Bayesian Statistics 4. Proceedings of the Fourth Valencia International Meeting</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e922a1310">
+               
+               <mixed-citation id="d715809e926" publication-type="journal">
+Robert, C.P. (1995), "Convergence Control Methods for Markov chain Monte Carlo Algorithms," Statistical
+Science, 10, 231-253.<object-id pub-id-type="jstor">10.2307/2246013</object-id>
+               <fpage>231</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e942a1310">
+               
+               <mixed-citation id="d715809e946" publication-type="journal">
+Roberts, G.O., and Polson, N.G. (1994), "On the Geometric Convergence of the Gibbs Sampler," Journal of
+the Royal Statistical Society, Series B, 56, 377-384.<person-group>
+                     <string-name>
+                     <surname>Roberts</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>377</fpage>
+               <volume>56</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e978a1310">
+               
+               <mixed-citation id="d715809e982" publication-type="journal">
+Roberts, G.O., Sahu, S.K., and Gilks, W.R. (1995), Comments on "Bayesian Computation and Stochastic
+Systems," Statistical Science, 10, 49-51.<object-id pub-id-type="jstor">10.2307/2246228</object-id>
+               <fpage>49</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e998a1310">
+               
+               <mixed-citation id="d715809e1002" publication-type="book">
+Tanner, M.A. (1996), Tools for Statistical Inference: Methods for the Exploration of Posterior Distributions
+and Likelihood Functions, (3rd ed.), New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Tools for Statistical Inference: Methods for the Exploration of Posterior Distributions and Likelihood Functions</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e1032a1310">
+               
+               <mixed-citation id="d715809e1036" publication-type="journal">
+Tiao, G.C., and Tan, W.Y. (1965), "Bayesian Analysis of Random-Effect Models in the Analysis of Variance.
+I: Posterior Distribution of Variance Components," Biometrika, 52, 37-53.<object-id pub-id-type="doi">10.2307/2333810</object-id>
+               <fpage>37</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e1052a1310">
+               
+               <mixed-citation id="d715809e1056" publication-type="journal">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions," The Annals of Statistics, 22, 1701-
+1762.<object-id pub-id-type="jstor">10.2307/2242477</object-id>
+               <fpage>1701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e1072a1310">
+               
+               <mixed-citation id="d715809e1076" publication-type="journal">
+Tierney, L., Kass, R.E., and Kadane, J.B. (1989), "Fully Exponential Laplace Approximations to Expectations
+and Variances of Nonpositive Functions," Journal of the American Statistical Association, 84, 710-716.<object-id pub-id-type="doi">10.2307/2289652</object-id>
+               <fpage>710</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715809e1092a1310">
+               
+               <mixed-citation id="d715809e1096" publication-type="journal">
+Wang, C.S., Rutledge, J.J., and Gianola, D. (1993), "Marginal Inferences about Variance Components in a
+Mixed Linear Model using Gibbs Sampling," Genetique, Selection, Evolution, 25, 41-62.<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>25</volume>
+               <source>Genetique, Selection, Evolution</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

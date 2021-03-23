@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">78</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">267</issue>
+         <issue-id>i40008734</issue-id>
+         <article-id pub-id-type="jstor">40234658</article-id>
+         <title-group>
+            <article-title>A Posteriori Error Estimator and Error Control for Contact Problems</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Alexander</given-names>
+                  <surname>Weiss</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Barbara I.</given-names>
+                  <surname>Wohlmuth</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>1237</fpage>
+         <lpage>1267</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2009 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40234658"/>
+      
+      
+         <abstract>
+            <p>In this paper, we consider two error estimators for one-body contact problems. The first error estimator is defined in terms of H(div)-conforming stress approximations and equilibrated fluxes while the second is a standard edge-based residual error estimator without any modification with respect to the contact. We show reliability and efficiency for both estimators. Moreover, the error is bounded by the first estimator with a constant one plus a higher order data oscillation term plus a term arising from the contact that is shown numerically to be of higher order. The second estimator is used in a control-based AFEM refinement strategy, and the decay of the error in the energy is shown. Several numerical tests demonstrate the performance of both estimators.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Primary 65N30</kwd>
+            <kwd>Primary 65N15</kwd>
+            <kwd>Primary 65N50</kwd>
+            <kwd>Equilibrated fluxes</kwd>
+            <kwd>Lagrange multipliers</kwd>
+            <kwd>a posteriori error estimates</kwd>
+            <kwd>contact problems</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d5412571e427a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d5412571e434" publication-type="other">
+M. Ainsworth, Robust a posteriori error estimation for nonconforming finite element ap-
+proximation, SIAM J. Numer. Anal., 42 (2005), pp. 2320-234. MR2139395 (2006j:65331)</mixed-citation>
+        </ref>
+        <ref id="d5412571e444a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d5412571e451" publication-type="other">
+M. Ainsworth and J. Oden, A posteriori error estimation in finite element analysis, John
+Wiley and Sons, New York, 2000. MR1885308 (2003b:65001)</mixed-citation>
+        </ref>
+        <ref id="d5412571e461a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d5412571e468" publication-type="other">
+M. Ainsworth, J. Oden, and C. Lee, Local a posteriori error estimators for variational
+inequalities, Numer. Methods Partial Differ. Equations, 9 (1993), pp. 23-33. MR1193438
+(93m:49015)</mixed-citation>
+        </ref>
+        <ref id="d5412571e481a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d5412571e488" publication-type="other">
+D. Arnold and R. Winther, Mixed finite elements for elasticity, Numer. Math., 92 (2002),
+pp. 401-419. MR1930384 (2003i:65103)</mixed-citation>
+        </ref>
+        <ref id="d5412571e499a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d5412571e506" publication-type="other">
+I. Babuska and M. Vogelius, Feedback and adaptive finite element solution of one-
+dimensional boundary value problems, Numer. Math., 44 (1984), pp. 75-102. MR745088
+(85k:65070)</mixed-citation>
+        </ref>
+        <ref id="d5412571e519a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d5412571e526" publication-type="other">
+I. Babuška and T. Strouboulis, The finite element method and its reliability, Oxford:
+Clarendon Press, 2001. MR1857191 (2002k:65001)</mixed-citation>
+        </ref>
+        <ref id="d5412571e536a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d5412571e543" publication-type="other">
+F. Ben Belgacem, Numerical simulation of some variational inequalities arisen from uni-
+lateral contact prqblems by the finite element methods, SIAM J. Numer. Anal., 37 (2000),
+pp. 1198-1216. MR1756422 (2002c:74066)</mixed-citation>
+        </ref>
+        <ref id="d5412571e556a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d5412571e563" publication-type="other">
+F. Ben Belgacem, P. Hild, and P. Laborde, Extension of the mortar finite element method
+to a variational inequality modeling unilateral contact, Mathematical Models &amp; Methods in
+Applied Sciences, 9 (1999), pp. 287-303. MR1674556 (99m:73066)</mixed-citation>
+        </ref>
+        <ref id="d5412571e576a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d5412571e583" publication-type="other">
+F. Ben Belgacem and Y. Renard, Hybrid finite element methods for the Signorini problem,
+Mathematics of Computation, 72 (2003), pp. 1117-1145. MR1972730 (2004d:65139)</mixed-citation>
+        </ref>
+        <ref id="d5412571e593a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d5412571e600" publication-type="other">
+P. Binev, W. Dahmen, and R. DeVore, Adaptive finite element methods with convergence
+rates, Numer. Math, 97 (2004), pp. 219-268. MR2050077 (2005d:65222)</mixed-citation>
+        </ref>
+        <ref id="d5412571e611a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d5412571e618" publication-type="other">
+H. Blum and F. Suttmeier, An adaptive finite element discretisation for a simplified Sig-
+norini problem, Calcolo, 37 (2000), pp. 65-77. MR1819903 (2002a:65171)</mixed-citation>
+        </ref>
+        <ref id="d5412571e628a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d5412571e635" publication-type="other">
+V. Bostan and W. Han, A posteriori error analysis for finite element solutions of a fric-
+tional contact problem, Comput. Methods Appl. Mech. Engrg., 195 (2006), pp. 1252-1274.
+MR2195300 (2008a:74076)</mixed-citation>
+        </ref>
+        <ref id="d5412571e648a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d5412571e655" publication-type="other">
+V. Bostan, W. Han, and B. Reddy, A posteriori error estimation and adaptive solution of
+elliptic variational inequalities of the second kind, Appl. Numer. Math., 52 (2005), pp. 13-38.
+MR2102908 (2005i:65167)</mixed-citation>
+        </ref>
+        <ref id="d5412571e668a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d5412571e675" publication-type="other">
+D. Braess, A posteriori error estimators for obstacle problems - another look, Numer. Math.,
+101 (2005), pp. 523-549. MR2194822 (2006k:65287)</mixed-citation>
+        </ref>
+        <ref id="d5412571e685a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d5412571e692" publication-type="other">
+D. Braess, C. Carstensen, and R. Hoppe, Convergence analysis of a conforming adaptive
+finite element method for an obstacle problem, Numer. Math., 107 (2007), pp. 455-471.
+MR2336115 (2008f:65208)</mixed-citation>
+        </ref>
+        <ref id="d5412571e705a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d5412571e712" publication-type="other">
+D. Braess and W. Dahmen, The mortar element method revisited-what are the right
+norms?, in Domain decomposition methods in science and engineering. Papers of the thir-
+teenth international conference on domain decomposition methods, Debit et al., eds., 2002,
+pp. 27-40. MR2004064</mixed-citation>
+        </ref>
+        <ref id="d5412571e729a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d5412571e736" publication-type="other">
+U. Brink and E. Stein, A posteriori error estimation in large-strain elasticity using equili-
+brated local Neumann problems, Comput. Methods Appl. Mech. Eng., 161 (1998), pp. 77-101.
+MR1633995 (99h:73074)</mixed-citation>
+        </ref>
+        <ref id="d5412571e749a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d5412571e756" publication-type="other">
+G. Buscaglia, R. Duran, E. Fancello, R. Feijoo, and C. Padra, An adaptive finite
+element approach for frictionless contact problems, Int. J. Numer. Meth. Engng., 50 (2001),
+pp. 394-418. MR1807471 (2001j:74085)</mixed-citation>
+        </ref>
+        <ref id="d5412571e769a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d5412571e776" publication-type="other">
+C. Carstensen and S. B artels, Each averaging technique yields reliable a posteriori error
+control in FEM on unstructured grids. I: Low order conforming, nonconforming, and mixed
+FEM, Math. Comput. 71 (2002), pp. 945-969. MR1898741 (2003e:65212)</mixed-citation>
+        </ref>
+        <ref id="d5412571e789a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d5412571e796" publication-type="other">
+C. Carstensen, S. Bartels, and S. Jansche, A posteriori error estimates for nonconform-
+ing finite element methods, Numer. Math., 92 (2002), pp. 233-256. MR1922920 (2003g:65139)</mixed-citation>
+        </ref>
+        <ref id="d5412571e806a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d5412571e813" publication-type="other">
+C. Carstensen, P. Causin, and R. Sacco, A posteriori dual-mixed adaptive finite ele-
+ment error control for Lame and Stokes equations, Numer. Math., 101 (2005), pp. 309-332.
+MR2195346 (2007b:74040)</mixed-citation>
+        </ref>
+        <ref id="d5412571e826a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d5412571e833" publication-type="other">
+C. Carstensen, O. Scherf, and P. Wriggers, Adaptive finite elements for elastic bodies
+in contact, SIAM J. Sci. Comput., 20 (1999), pp. 1605-1626. MR1694675 (2000j:74065)</mixed-citation>
+        </ref>
+        <ref id="d5412571e844a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d5412571e851" publication-type="other">
+P. Coorevits, P. Hild, K. Lhalouani, and T. Sassi, Mixed finite element methods for uni-
+lateral problems: Convergence analysis and numerical studies, Mathematics of Computation,
+71 (2001), pp. 1-25. MR1862986 (2002g:74043)</mixed-citation>
+        </ref>
+        <ref id="d5412571e864a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d5412571e871" publication-type="other">
+E. Dari, R. Duran, C. Padra, and V. Vampa, A posteriori error estimators for noncon-
+forming finite element methods, Math. Modelling Numer. Anal., 30 (1996), pp. 385-400.
+MR1399496 (97f:65066)</mixed-citation>
+        </ref>
+        <ref id="d5412571e884a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d5412571e891" publication-type="other">
+W. Dörfler, A convergent adaptive algorithm for Poisson's equation, SIAM J. Numer.
+Anal., 33 (1996), pp. 1106-1124. MR1393904 (97e:65139)</mixed-citation>
+        </ref>
+        <ref id="d5412571e901a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d5412571e908" publication-type="other">
+B. Erdmann, M. Frei, R. Hoppe, R. Kornhuber, and U. Wiest, Adaptive finite element
+methods for variational inequalities, East-West J. Numer. Math., 1 (1993), pp. 165-197.
+MR1253634 (94k:65154)</mixed-citation>
+        </ref>
+        <ref id="d5412571e921a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d5412571e928" publication-type="other">
+W. Han, A posteriori error analysis via duality theory. With applications in modeling and
+numerical approximations, Springer, New York, 2005. MR2101057 (2005k:65003)</mixed-citation>
+        </ref>
+        <ref id="d5412571e938a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d5412571e945" publication-type="other">
+J. Haslinger, I. Hlavác̆ek, and J. Nec̆as, Numerical methods for unilateral problems in
+solid mechanics, in Handbook of Numerical Analysis, P. Ciarlet and J.-L. Lions, eds., vol. IV,
+North-Holland, Amsterdam, 1996, pp. 313-485. MR1422506</mixed-citation>
+        </ref>
+        <ref id="d5412571e959a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d5412571e966" publication-type="other">
+P. Hild, Numerical implementation of two nonconforming finite element methods for unilat-
+eral contact, Computer Methods in Applied Mechanics and Engineering, 184 (2000), pp. 99-
+123. MR1752624 (2000k:74058)</mixed-citation>
+        </ref>
+        <ref id="d5412571e979a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d5412571e986" publication-type="other">
+P. Hild and P. Laborde, Quadratic finite element methods for unilateral contact problems,
+Applied Numerical Mathematics, 41 (2002), pp. 410-421. MR1903172 (2003e:65221)</mixed-citation>
+        </ref>
+        <ref id="d5412571e996a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d5412571e1003" publication-type="other">
+P. Hild and S. Nicaise, A posteriori error estimations of residual type for Signorini's
+problem, Numer. Math., 101 (2005), pp. 523-549. MR2194827 (2006j:65347)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1013a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d5412571e1020" publication-type="other">
+R. Hoppe and R. Kornhuber, Adaptive multilevel methods for obstacle problems, SIAM J.
+Numer. Anal., 31 (1994), pp. 301-323. MR1276702 (95c:65181)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1030a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d5412571e1037" publication-type="other">
+S. Hüeber and B. Wohlmuth, A primal-dual active set strategy for non-linear multibody
+contact problems, Computer Methods in Applied Mechanics and Engineering, 194 (2005),
+pp. 3147-3166. MR2142538 (2005m:74071)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1050a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d5412571e1057" publication-type="other">
+C. Johnson, Adaptive finite element methods for the obstacle problem, Math. Models Meth-
+ods Appl. Sci., 2 (1992), pp. 483-487. MR1189062 (93k:65093)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1068a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d5412571e1075" publication-type="other">
+D. Kelly, The self-equilibration of residuals and complementary a posteriori error esti-
+mates in the finite element method, Int. J. Numer. Methods Eng., 20 (1984), pp. 1491-1506.
+MR759999 (85h:73039)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1088a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d5412571e1095" publication-type="other">
+D. Kelly and J. Isles, Procedures for residual equilibration and local error estimation in
+the finite element method, Commun. Appl. Numer. Methods, 5 (1989), pp. 497-505.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1105a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d5412571e1112" publication-type="other">
+N. Kikuchi and J. Oden, Contact problems in elasticity: A study of variational inequalities
+and finite element methods, vol. 8, SIAM Studies in Applied Mathematics, Philadelphia,
+1988. MR961258 (89j:73097)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1125a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d5412571e1132" publication-type="other">
+L. Scott and S. Zhang, Finite element interpolation of nonsmooth functions satisfying
+boundary conditions, Math. Comp., 54 (1990), pp. 483-493. MR1011446 (90j:65021)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1142a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d5412571e1149" publication-type="other">
+P. Ladeveze and D. Leguillon, Error estimate procedure in the finite element method and
+applications, SIAM J. Numer. Anal., 20 (1983), pp. 485-509. MR701093 (84g:65150)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1159a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d5412571e1166" publication-type="other">
+P. Ladevèze and E. Maunder, A general method for recovering equilibrating element trac-
+tions, Comput. Methods Appl. Mech. Engrg., 137 (1996), pp. 111-151.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1177a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d5412571e1184" publication-type="other">
+C. Lee and J. Oden, A posteriori error estimation of h-p finite element approximations
+of frictional contact problems., Comput. Methods Appl. Mech. Eng., 113 (1994), pp. 11-45.
+MR1266922 (95f:73070)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1197a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d5412571e1204" publication-type="other">
+P. Morin, R. Nochetto, and K. Slebert, Data oscillation and convergence of adaptive
+FEM, SIAM J. Numer. Anal., 38 (2000), pp. 466-488. MR1770058 (2001g:65157)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1214a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d5412571e1221" publication-type="other">
+---, Convergence of adaptive finite element methods, SIAM Rev., 44 (2002), pp. 631-658.
+MR1980447</mixed-citation>
+        </ref>
+        <ref id="d5412571e1231a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d5412571e1238" publication-type="other">
+S. Nicaise, K. Witowski, and B. Wohlmuth, An a posteriori error estimator for the Lamé
+equation based on H(div)-conforming stress approximations, IMA J. Numer. Anal., 28 (2008),
+pp. 331-353. MR2401201</mixed-citation>
+        </ref>
+        <ref id="d5412571e1251a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d5412571e1258" publication-type="other">
+R. Nochetto and K. Mekchay, Convergence of adaptive finite element methods for gen-
+eral second order linear elliptic PDEs, SIAM J. Numer. Anal., 43 (2005), pp. 1803-1827.
+MR2192319 (2006i:65201)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1271a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d5412571e1278" publication-type="other">
+R. Nochetto, A. Schmidt, K. Siebert, and A. Veeser, Pointwise a posteriori error
+estimates for monotone semi-linear equations, Numer. Math., 104 (2006), pp. 515-538.
+MR2249676 (2008a:65201)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1292a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d5412571e1299" publication-type="other">
+S. Ohnimus, E. Stein, and E. Walhorn, Local error estimates of FEM for displacements
+and stresses in linear elasticity by solving local Neumann problems, Int. J. Numer.Meth.
+Engng., 52 (2001), pp. 727-746. MR1857633 (2002f:74075)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1312a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d5412571e1319" publication-type="other">
+E. Stein and S. Ohnimus, Equilibrium, method for postprocessing and error estimation in
+the finite element method, Comput. Assist. Mech. Eng. Sci., 4 (1997), pp. 645-666.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1329a1310">
+            <label>49</label>
+          
+            <mixed-citation id="d5412571e1336" publication-type="other">
+---, Anisotropic discretization- and model-error estimation in solid mechanics by lo-
+cal Neumann problems, Comput. Methods Appl Mech. Engrg., 176 (1999), pp. 363-385.
+MR1665353 (2000d:74078)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1349a1310">
+            <label>50</label>
+          
+            <mixed-citation id="d5412571e1356" publication-type="other">
+E. Stein, S. Ohnimus, and E. Walhorn, Adaptive finite element discretization in elastic-
+ity and elastoplasticity by global and local error estimators using local Neumann-problems,
+Zeitschrift f. Angewandte Mathematik und Mechanik, 79 (1999), pp. 147-150.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1369a1310">
+            <label>51</label>
+          
+            <mixed-citation id="d5412571e1376" publication-type="other">
+R. Stevenson, An optimal adaptive finite element method, SIAM J. Numer. Anal., 42 (2005),
+pp. 2188-2217. MR2139244 (2006e:65226)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1386a1310">
+            <label>52</label>
+          
+            <mixed-citation id="d5412571e1393" publication-type="other">
+---, Optimality of a standard adaptive finite element method, Found. Comput. Math., 7
+(2007), pp. 245-269. MR2324418 (2008i:65272)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1404a1310">
+            <label>53</label>
+          
+            <mixed-citation id="d5412571e1411" publication-type="other">
+A. Veeser, On a posteriori error estimation for constant obstacle problems, in Numerical
+methods for viscosity solutions and applications, Falcone, ed., vol. 59 of World Scientific. Ser.
+Adv. Math. Appl. Sci., Singapore, 2001, pp. 221-234. MR1886715</mixed-citation>
+        </ref>
+        <ref id="d5412571e1424a1310">
+            <label>54</label>
+          
+            <mixed-citation id="d5412571e1431" publication-type="other">
+R. Verfürth, A posteriori error estimation and adaptive mesh-refinement techniques,
+J. Comp. Appl. Math., 50 (1994), pp. 67-83. MR1284252 (95c:65171)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1441a1310">
+            <label>55</label>
+          
+            <mixed-citation id="d5412571e1448" publication-type="other">
+---, A review of a posteriori error estimation and adaptive mesh-refinement techniques,
+Wiley-Teubner Series Advances in Numerical Mathematics, Wiley-Teubner, Chichester,
+Stuttgart, 1996.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1461a1310">
+            <label>56</label>
+          
+            <mixed-citation id="d5412571e1468" publication-type="other">
+---, A review of a posteriori error estimation techniques for elasticity problems, Comput.
+Methods Appl. Mech. Engrg., 176 (1999), pp. 419-440. MR1665355 (2000f:74075)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1478a1310">
+            <label>57</label>
+          
+            <mixed-citation id="d5412571e1485" publication-type="other">
+Y. Wang, Preconditioning for the mixed formulation of linear plane elasticity, Ph.D. thesis,
+Texas A &amp; M University, 2004.</mixed-citation>
+        </ref>
+        <ref id="d5412571e1495a1310">
+            <label>58</label>
+          
+            <mixed-citation id="d5412571e1502" publication-type="other">
+B. Wohlmuth, Discretization Methods and Iterative Solvers Based on Domain Decomposi-
+tion, Springer, Berlin, 2001. MR1820470 (2002c:65231)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1513a1310">
+            <label>59</label>
+          
+            <mixed-citation id="d5412571e1520" publication-type="other">
+---, A comparison of dual Lagrange multiplier spaces for mortar finite element dis-
+cretizations, M²AN Math. Model. Numer. Anal., 36 (2002), pp. 995-1012. MR1958655
+(2004b:65193)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1533a1310">
+            <label>60</label>
+          
+            <mixed-citation id="d5412571e1540" publication-type="other">
+---, An a posteriori error estimator for two-body contact problems on non-matching
+meshes, J. Sci Comp., 33 (2007), pp. 25-45. MR2338331 (2008f:74084)</mixed-citation>
+        </ref>
+        <ref id="d5412571e1550a1310">
+            <label>61</label>
+          
+            <mixed-citation id="d5412571e1557" publication-type="other">
+P. Wriggers and O. Scherf, Different a posteriori error estimators and indicators for
+contact problems, Math. Comput. Modelling, 28 (1998), pp. 437-447. MR1648773 (99f: 73079)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

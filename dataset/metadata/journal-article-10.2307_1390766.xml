@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">7</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260279</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390766</article-id>
+         
+         <title-group>
+            <article-title>Toward Black-Box Sampling: A Random-Direction Interior-Point Markov Chain Approach</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ming-Hui</given-names>
+                  <surname>Chen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bruce</given-names>
+                  <surname>Schmeiser</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>22</lpage>
+         <page-range>1-22</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1998 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390766"/>
+         
+         
+         <abstract>
+            <p>
+               We briefly discuss issues concerning "black-box" algorithms for estimating properties of a k-dimensional posterior distribution with density &lt;tex-math&gt;$\pi (\underline{\theta}|\text{data})$&lt;/tex-math&gt;. Typically, &lt;tex-math&gt;$\pi (\underline{\theta}|\text{data})$&lt;/tex-math&gt; is not known in closed form, but can be computed at any point &lt;tex-math&gt;$\underline{\theta}\in R^{k}$&lt;/tex-math&gt; as the product of the likelihood function and the prior density. Black-box algorithms provide estimates to a user who must specify only minimal information about the distribution, the properties to be estimated, and the desired precision of the estimates. Ideally, reasonable performance should require no tuning of algorithm parameters. We propose a random-direction interior-point (RDIP) Markov chain approach to black-box sampling. RDIP requires only that the product of the likelihood function and the prior density can be computed at any point τ. We introduce an auxiliary variable Δ and consider a random variable (Τ, Δ) from the interior of S, the region under the surface &lt;tex-math&gt;$\delta =\pi (\underline{\theta}|\text{data})$&lt;/tex-math&gt; and above the plane δ = 0. Instead of directly sampling Τ from &lt;tex-math&gt;$\pi (\underline{\theta}|\text{data})$&lt;/tex-math&gt;, RDIP generates a Markov chain &lt;tex-math&gt;$\{(\underline{\Theta}_{i},\Delta _{i}),i\geq 0\}$&lt;/tex-math&gt; from the uniform distribution on S. Then the Markov chain &lt;tex-math&gt;$\{\underline{\Theta}_{i},i\geq 0\}$&lt;/tex-math&gt; has a unique stationary distribution &lt;tex-math&gt;$\pi (\underline{\theta}|\text{data})$&lt;/tex-math&gt;. We develop variations of the RDIP samplers, study their performance, and discuss algorithm parameter values. Three examples are presented, two illustrative examples that use RDIP alone, and a more complex application that takes RDIP steps within a Gibbs sampler. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian computation</kwd>
+            <kwd>Gibbs sampler</kwd>
+            <kwd>Hit-and-Run</kwd>
+            <kwd>Metropolis-Hastings algorithm</kwd>
+            <kwd>Monte Carlo</kwd>
+            <kwd>Multidimensional integrals</kwd>
+            <kwd>Posterior distributions</kwd>
+            <kwd>Prior distributions</kwd>
+            <kwd>Simulation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d715848e187a1310">
+               
+               <mixed-citation id="d715848e191" publication-type="journal">
+Albert, J.H., and Chib, S. (1993), "Bayesian Analysis of Binary and Polychotomous Response Data," Journal
+of the American Statistical Association, 88, 669-679.<object-id pub-id-type="doi">10.2307/2290350</object-id>
+               <fpage>669</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e207a1310">
+               
+               <mixed-citation id="d715848e211" publication-type="journal">
+Bélisle, C.J.P., Romeijn, H.E., and Smith, R.L. (1993), "Hit-and-Run Algorithms for Generating Multivariate
+Distributions," Mathematics of Operations Research, 18, 2, 255-266.<person-group>
+                     <string-name>
+                     <surname>Bélisle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <volume>18</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e243a1310">
+               
+               <mixed-citation id="d715848e247" publication-type="book">
+Berger, J.O. (1993), "The Present and Future of Bayesian Multivariate Analysis," in Multivariate Analysis:
+Future Directions, ed. C.R. Rao, Amsterdam: North-Holland, pp. 25-53.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Present and Future of Bayesian Multivariate Analysis</comment>
+               <fpage>25</fpage>
+               <source>Multivariate Analysis: Future Directions</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e279a1310">
+               
+               <mixed-citation id="d715848e283" publication-type="journal">
+Berger, J.O., and Chen M.-H. (1993), "Determining Retirement Patterns: Prediction for a Multinomial Distri-
+bution with Constrained Parameter Space," The Statistician, 42, 427-443.<object-id pub-id-type="doi">10.2307/2348476</object-id>
+               <fpage>427</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e300a1310">
+               
+               <mixed-citation id="d715848e304" publication-type="journal">
+Chen, M.-H. (1994), "Importance Weighted Marginal Bayesian Posterior Density Estimation," Journal of the
+American Statistical Association, 89, 818-824. .<object-id pub-id-type="doi">10.2307/2290907</object-id>
+               <fpage>818</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e320a1310">
+               
+               <mixed-citation id="d715848e324" publication-type="journal">
+Chen, M.-H., Nandram, B, and Ross, E.W. (1996), "A Gibbs Sampling Approach for Predicting Shelf-Life of
+a Military Ration with Sensory Data," Journal of Agricultural, Biological and Environmental Statistics,
+1, 377-392'<object-id pub-id-type="doi">10.2307/1400525</object-id>
+               <fpage>377</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e343a1310">
+               
+               <mixed-citation id="d715848e347" publication-type="journal">
+Chen, M.-H., and Schmeiser, B.W. (1993), "Performance of the Gibbs, Hit-and-Run, and Metropolis Samplers,"
+Journal of Computational and Graphical Statistics, 2, 251-272.<object-id pub-id-type="doi">10.2307/1390645</object-id>
+               <fpage>251</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e363a1310">
+               
+               <mixed-citation id="d715848e367" publication-type="book">
+(1994), "Random-Direction Interior-Point Markov Chains: A Family of Black-Box Samplers," in Pro-
+ceedings of the Section on Bayesian Statistical Science, Alexandria, VA: American Statistical Association,
+pp. 1-6.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Random-Direction Interior-Point Markov Chains: A Family of Black-Box Samplers</comment>
+               <fpage>1</fpage>
+               <source>Proceedings of the Section on Bayesian Statistical Science</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e402a1310">
+               
+               <mixed-citation id="d715848e406" publication-type="journal">
+(1996), "General Hit-and-Run Monte Carlo Sampling for Evaluating Multidimensional Integrals,"
+Operations Research Letters, 19, 161-169.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>161</fpage>
+               <volume>19</volume>
+               <source>Operations Research Letters</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e438a1310">
+               
+               <mixed-citation id="d715848e442" publication-type="journal">
+Cowles, M.K. (1996), "Accelerating Monte Carlo Markov Chain Convergence for Cumulative-link Generalized
+Linear Models," Statistics and Computing, 6, 101-111.<person-group>
+                     <string-name>
+                     <surname>Cowles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>6</volume>
+               <source>Statistics and Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e475a1310">
+               
+               <mixed-citation id="d715848e479" publication-type="journal">
+Cowles, M.K., and Carlin, B.P. (1996), "Markov Chain Monte Carlo Convergence Diagnostics: A Comparative
+Review," Journal of the American Statistical Association, 91, 883-904.<object-id pub-id-type="doi">10.2307/2291683</object-id>
+               <fpage>883</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e495a1310">
+               
+               <mixed-citation id="d715848e499" publication-type="journal">
+Gelfand, A.E., and Smith, A.F.M. (1990), "Sampling Based Approaches to Calculating Marginal Densities,"
+Journal of the American Statistical Association, 85, 398-409.<object-id pub-id-type="doi">10.2307/2289776</object-id>
+               <fpage>398</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e515a1310">
+               
+               <mixed-citation id="d715848e519" publication-type="journal">
+Gelfand, A.E., Smith, A.F.M., and Lee, T.M. (1992), "Bayesian Analysis of Constrained Parameter and
+Truncated Data Problems Using Gibbs Sampling," Journal of American Statistical Association, 87, 523-
+532.<person-group>
+                     <string-name>
+                     <surname>Gelfand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>523</fpage>
+               <volume>87</volume>
+               <source>Journal of American Statistical Association</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e554a1310">
+               
+               <mixed-citation id="d715848e558" publication-type="journal">
+Gelman A., and Rubin, D.B. (1992), "Inference from Iterative Simulation Using Multiple Sequences," Statistical
+Science, 7, 457-511.<object-id pub-id-type="jstor">10.2307/2246093</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e574a1310">
+               
+               <mixed-citation id="d715848e578" publication-type="journal">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and the Bayesian Restoration
+of Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721-741.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>721</fpage>
+               <volume>6</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e610a1310">
+               
+               <mixed-citation id="d715848e614" publication-type="journal">
+Geweke, J. (1989), "Bayesian Inference in Econometrics Models Using Monte Carlo Integration," Economet-
+rica, 57, 1317-1340.<object-id pub-id-type="doi">10.2307/1913710</object-id>
+               <fpage>1317</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e631a1310">
+               
+               <mixed-citation id="d715848e635" publication-type="journal">
+Geyer, C.J. (1992), "Practical Markov Chain Monte Carlo," Statistical Science, 7, 473-511.<object-id pub-id-type="jstor">10.2307/2246094</object-id>
+               <fpage>473</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e648a1310">
+               
+               <mixed-citation id="d715848e652" publication-type="book">
+Gilks, W.R. (1992), "Derivative-Free Adaptive Rejection Sampling for Gibbs Sampling," in Bayesian Statistics
+4, eds. J.M. Bernardo, J.O. Berger, D.V. Lindley, and A.F.M. Smith, London: Oxford University Press,
+pp. 641-665.<person-group>
+                     <string-name>
+                     <surname>Gilks</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Derivative-Free Adaptive Rejection Sampling for Gibbs Sampling</comment>
+               <fpage>641</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e687a1310">
+               
+               <mixed-citation id="d715848e691" publication-type="journal">
+Gilks, W.R., Thomas, A., and Spiegelhalter, D.J. (1994), "A Language and Program for Complex Bayesian
+Modeling," The Statistician, 43, 169-177.<object-id pub-id-type="doi">10.2307/2348941</object-id>
+               <fpage>169</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e707a1310">
+               
+               <mixed-citation id="d715848e711" publication-type="book">
+Goel, P.K. (1988), "Software for Bayesian Analysis: Current Status and Additional Needs," in Bayesian Statis-
+tics 3, eds. J.M. Bernardo, M.H.DeGroot, D.V.Lindley, and A.F.M. Smith, London: Oxford University
+Press, pp. 173-188.<person-group>
+                     <string-name>
+                     <surname>Goel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Software for Bayesian Analysis: Current Status and Additional Needs</comment>
+               <fpage>173</fpage>
+               <source>Bayesian Statistics 3</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e746a1310">
+               
+               <mixed-citation id="d715848e750" publication-type="journal">
+Hastings, W.K. (1970), "Monte Carlo Sampling Methods Using Markov Chains and Their Applications,"
+Biometrika, 57, 97-109.<object-id pub-id-type="doi">10.2307/2334940</object-id>
+               <fpage>97</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e766a1310">
+               
+               <mixed-citation id="d715848e770" publication-type="journal">
+JRSSB (1993), Discussion on the Meeting on the Gibbs Sampling and Other Markov Chain Monte Carlo
+Methods, Journal of the Royal Statistical Society, Ser. B, 55, 53-102.<person-group>
+                     <string-name>
+                     <surname>JRSSB</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>55</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e803a1310">
+               
+               <mixed-citation id="d715848e807" publication-type="journal">
+Metropolis, N., Rosenbluth, A.W., Rosenbluth, M.N., Teller, A.H., and Teller, E. (1953), "Equations of State
+Calculations by Fast Computing Machines," Journal of Chemical Physics, 21, 1087-1092.<person-group>
+                     <string-name>
+                     <surname>Metropolis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1087</fpage>
+               <volume>21</volume>
+               <source>Journal of Chemical Physics</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e839a1310">
+               
+               <mixed-citation id="d715848e843" publication-type="book">
+Müller, P. (1991), "A Generic Approach to Posterior Integration and Gibbs Sampling," Technical Report
+#91-09, Purdue University, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Müller</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Generic Approach to Posterior Integration and Gibbs Sampling</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e868a1310">
+               
+               <mixed-citation id="d715848e872" publication-type="journal">
+Nandram, B., and Chen, M.-H. (1996), "Reparameterizing the Generalized Linear Model to Accelerate Gibbs
+Sampler Convergence," Journal of Statistical Computation and Simulation, 54, 129-144.<person-group>
+                     <string-name>
+                     <surname>Nandram</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>54</volume>
+               <source>Journal of Statistical Computation and Simulation</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e904a1310">
+               
+               <mixed-citation id="d715848e908" publication-type="book">
+Pedrosa, A.M.C., and Schmeiser, B.W. (1994), "Estimating Variance of the Sample Mean: Optimal Batch Size
+Estimation and 1-2-1 Overlapping Batch Means," Technical Report SMS94-3, Purdue University, School
+of Industrial Engineering.<person-group>
+                     <string-name>
+                     <surname>Pedrosa</surname>
+                  </string-name>
+                  </person-group>
+               <source>Estimating Variance of the Sample Mean: Optimal Batch Size Estimation and 1-2-1 Overlapping Batch Means</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e937a1310">
+               
+               <mixed-citation id="d715848e941" publication-type="journal">
+Ritter, C., and Tanner, M.A. (1992), "Facilitating the Gibbs Sampler: The Gibbs Stopper and the Griddy-Gibbs
+Sampler," Journal of the American Statistical Association, 87, 861-868.<object-id pub-id-type="doi">10.2307/2290225</object-id>
+               <fpage>861</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e957a1310">
+               
+               <mixed-citation id="d715848e961" publication-type="conference">
+Schmeiser, B.W., Avramidis, T.N., and Hashem, S. (1990), "Overlapping Batch Statistics," in Proceedings of
+the 1990 Winter Simulation Conference, pp. 395-398.<person-group>
+                     <string-name>
+                     <surname>Schmeiser</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping Batch Statistics</comment>
+               <fpage>395</fpage>
+               <source>Proceedings of the 1990 Winter Simulation Conference</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e994a1310">
+               
+               <mixed-citation id="d715848e998" publication-type="book">
+Schmeiser, B.W., and Chen, M.-H. (1991), "On Hit-and-Run Monte Carlo Sampling for Evaluating Multidi-
+mensional Integrals," revision of Technical Report 91-39, Dept. of Statistics, Purdue University.<person-group>
+                     <string-name>
+                     <surname>Schmeiser</surname>
+                  </string-name>
+                  </person-group>
+               <source>On Hit-and-Run Monte Carlo Sampling for Evaluating Multidimensional Integrals</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1023a1310">
+               
+               <mixed-citation id="d715848e1027" publication-type="journal">
+Smith, R.L. (1984), "Efficient Monte Carlo Procedures for Generating Points Uniformly Distributed over
+Bounded Regions," Operations Research, 32, 1297-1308.<object-id pub-id-type="jstor">10.2307/170949</object-id>
+               <fpage>1297</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1043a1310">
+               
+               <mixed-citation id="d715848e1047" publication-type="book">
+Spiegelhalter, D.J., Thomas, A., and Best, N.G. (1996), "Computation on Bayesian Graphical Models," in
+Bayesian Statistics 5, eds. J.M. Bernado, J.O. Berger, A.P. Dawid, and A.F.M. Smith, London: Oxford
+University Press, pp. 407-426.<person-group>
+                     <string-name>
+                     <surname>Spiegelhalter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computation on Bayesian Graphical Models</comment>
+               <fpage>407</fpage>
+               <source>Bayesian Statistics 5</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1082a1310">
+               
+               <mixed-citation id="d715848e1086" publication-type="book">
+Tanner, M.A. (1996), Tools for Statistical Inference, (3rd ed.), New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Tools for Statistical Inference</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1111a1310">
+               
+               <mixed-citation id="d715848e1115" publication-type="journal">
+Tanner, M.A., and Wong, W.H. (1987), "The Calculation of Posterior Distributions by Data Augmentation,"
+Journal of the American Statistical Association, 82, 528-550.<object-id pub-id-type="doi">10.2307/2289457</object-id>
+               <fpage>528</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1131a1310">
+               
+               <mixed-citation id="d715848e1135" publication-type="book">
+Thomas, A., Spiegelhalter, D.J., and Gilks, W.R. (1992), "BUGS: A Program to Perform Bayesian Inference
+Using Gibbs Sampling," in Bayesian Statistics 4, eds. J.M. Bernardo, J.O. Berger, D.V. Lindley, and
+A.F.M. Smith, London: Oxford University Press, pp. 837-842.<person-group>
+                     <string-name>
+                     <surname>Thomas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">BUGS: A Program to Perform Bayesian Inference Using Gibbs Sampling</comment>
+               <fpage>837</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1171a1310">
+               
+               <mixed-citation id="d715848e1175" publication-type="journal">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions" (with discussion), The Annals of
+Statistics, 22, 1701-1762.<object-id pub-id-type="jstor">10.2307/2242477</object-id>
+               <fpage>1701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d715848e1191a1310">
+               
+               <mixed-citation id="d715848e1195" publication-type="book">
+Wolpert, R.L. (1991), "Monte Carlo Importance Sampling in Bayesian Statistics," in Statistical Multiple
+Integration, eds. N. Flournoy and R. Tsutakawa, Contemporary Mathematics, 116, 101-115.<person-group>
+                     <string-name>
+                     <surname>Wolpert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>116</volume>
+               <source>Contemporary Mathematics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

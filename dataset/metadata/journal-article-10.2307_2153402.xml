@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">62</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">205</issue>
+         <issue-id>i337661</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153402</article-id>
+         
+         <title-group>
+            <article-title>Computation of Topological Degree Using Interval Arithmetic, and Applications</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Oliver</given-names>
+                  <surname>Aberth</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>171</fpage>
+         <lpage>178</lpage>
+         <page-range>171-178</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1994 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153402"/>
+         
+         
+         <abstract>
+            <p>A method is described for computing the topological degree of a mapping from R&lt;sup&gt;n&lt;/sup&gt; into R&lt;sup&gt;n&lt;/sup&gt; defined n functions of n variables on a region specified as a product of n intervals, a generalized box B. The method is an adaptation of Kearfott's method to boxes, and begins by checking the signs of the n functions on the boundary of B with interval arithmetic. On the basis of this check, a portion, B&lt;sup&gt;(1)&lt;/sup&gt;, of the boundary of B is designated for further investigation, and one of the n functions defining the mapping is dropped. The signs of the remaining functions are checked on the boundary of B&lt;sup&gt;(1)&lt;/sup&gt;. Again a portion, B&lt;sup&gt;(2)&lt;/sup&gt;, of the boundary of B&lt;sup&gt;(1)&lt;/sup&gt; is designated for further investigation, and another of the functions is dropped. On the nth cycle of the process, the topological degree finally is evaluated by determining the signs of a single function on a collection of isolated points, comprising the boundary of a region B&lt;sup&gt;(n -1)&lt;/sup&gt;. When the topological degree is nonzero, there is at least one point inside B where the n functions are simultaneously zero. To locate such a point, the familiar bisection method for functions f(x) defined over an interval [ a, b], using sign changes of f(x), is easily generalized to apply to n functions defined over boxes, using the topological degree. For this application we actually use the topological degree mod 2, the crossing parity, because its computation is easier. If the n functions have all partial derivatives in the box B, with a nonzero Jacobian at any point where the functions are simultaneously zero, then all such points inside B can be located by another method, which also uses the crossing parity.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>55M25</kwd>
+            <kwd>65H10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d2271292e129a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2271292e136" publication-type="book">
+0. Aberth, Precise numerical analysis, Wm. C. Brown, Dubuque, Iowa, 1988.<person-group>
+                     <string-name>
+                     <surname>Aberth</surname>
+                  </string-name>
+                  </person-group>
+               <source>Precise numerical analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e158a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2271292e165" publication-type="journal">
+0. Aberth and M. J. Schaefer, Precise scientific computation with range arithmetic, via
+C + +, ACM Trans. Math. Software18 (1992), 481-491.<person-group>
+                     <string-name>
+                     <surname>Aberth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>481</fpage>
+               <volume>18</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e197a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2271292e204" publication-type="book">
+G. Alefeld and J. Herzberger, Introduction to interval computation, Translated by Jon
+Rokne, Academic Press, New York, 1983.<person-group>
+                     <string-name>
+                     <surname>Alefeld</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to interval computation</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e229a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2271292e236" publication-type="book">
+P. Alexandroff and H. Hopf, Topologie, Chelsea, New York, 1935.<person-group>
+                     <string-name>
+                     <surname>Alexandroff</surname>
+                  </string-name>
+                  </person-group>
+               <source>Topologie</source>
+               <year>1935</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e259a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2271292e266" publication-type="book">
+R. C. Buck, Advanced calculus, 2nd ed., McGraw-Hill, New York, 1965.<person-group>
+                     <string-name>
+                     <surname>Buck</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Advanced calculus</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e291a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2271292e298" publication-type="book">
+J. Cronin, Fixed points and topolgical degree in nonlinear analysis, Math Surveys, no. 11,
+Amer. Math. Soc., Providence, RI, 1964.<person-group>
+                     <string-name>
+                     <surname>Cronin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fixed points and topolgical degree in nonlinear analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e323a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2271292e330" publication-type="journal">
+C. Harvey and F. Stenger, A two-dimensional analogue to the method of bisections for solving
+nonlinear equations, Quart. Appl. Math.33 (1975), 351-368.<person-group>
+                     <string-name>
+                     <surname>Harvey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>351</fpage>
+               <volume>33</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e362a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2271292e369" publication-type="journal">
+R. B. Kearfott, An efficient degree-computation methodfor a generalized method of bisection,
+Numer. Math.32 (1979), 109-127.<person-group>
+                     <string-name>
+                     <surname>Kearfott</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>32</volume>
+               <source>Numer. Math.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e401a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2271292e408" publication-type="conference">
+—A summary of recent experiments to compute the topological degree, Applied Nonlin-
+ear Analysis, Proceedings of an International Conference on Applied Nonlinear Analysis,
+University of Texas at Arlington, April 20-22, 1978 (V. Laskshmikantham, ed.), Academic
+Press, New York, 1979, pp. 627-633.<person-group>
+                     <string-name>
+                     <surname>Kearfott</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A summary of recent experiments to compute the topological degree</comment>
+               <fpage>627</fpage>
+               <source>Applied Nonlinear Analysis, Proceedings of an International Conference on Applied Nonlinear Analysis, University of Texas at Arlington, April 20-22, 1978</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e446a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2271292e453" publication-type="journal">
+— Abstract generalized bisection and a cost bound, Math. Comp.49 (1987), 187-202.<object-id pub-id-type="doi">10.2307/2008257</object-id>
+               <fpage>187</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e467a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2271292e474" publication-type="book">
+R. E. Moore, Methods and applications of interval analysis, SIAM Stud. Appl. Math., SIAM,
+Philadelphia, PA, 1979.<person-group>
+                     <string-name>
+                     <surname>Moore</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods and applications of interval analysis</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e499a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2271292e506" publication-type="book">
+—Interval analysis, Prentice-Hall, Englewood Cliffs, NJ, 1966.<person-group>
+                     <string-name>
+                     <surname>Moore</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interval analysis</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e528a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2271292e535" publication-type="book">
+A. Neumaier, Interval methods for systems of equations, Cambridge Univ. Press, Cambridge,
+1990.<person-group>
+                     <string-name>
+                     <surname>Neumaier</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interval methods for systems of equations</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e560a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2271292e567" publication-type="journal">
+T. O'Neal and J. Thomas, The calculation of the topological degree by quadrature, SIAM J.
+Numer. Anal.12 (1975), 673-680.<person-group>
+                     <string-name>
+                     <surname>O'Neal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>673</fpage>
+               <volume>12</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e599a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2271292e606" publication-type="journal">
+K. Sikorski, A three-dimensional analogue to the method of bisections for solving nonlinear
+equations, Math. Comp.33 (1979), 722-738.<object-id pub-id-type="doi">10.2307/2006307</object-id>
+               <fpage>722</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2271292e622a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2271292e629" publication-type="journal">
+F. Stenger, Computing the topological degree of a mapping in Rn , Numer. Math.25 (1975),
+23-38.<person-group>
+                     <string-name>
+                     <surname>Stenger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>25</volume>
+               <source>Numer. Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

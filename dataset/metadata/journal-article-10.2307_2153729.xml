@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">216</issue>
+         <issue-id>i337672</issue-id>
+         <article-id pub-id-type="jstor">2153729</article-id>
+         
+         <title-group>
+            <article-title>An Application of Diophantine Approximation to the Construction of Rank-1 Lattice Quadrature Rules</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>T. N.</given-names>
+                  <surname>Langtry</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1635</fpage>
+         <lpage>1662</lpage>
+         <page-range>1635-1662</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153729"/>
+         
+         
+         <abstract>
+            <p>Lattice quadrature rules were introduced by Frolov (1977), Sloan (1985) and Sloan and Kachoyan (1987). They are quasi-Monte Carlo rules for the approximation of integrals over the unit cube in R&lt;sup&gt;s&lt;/sup&gt; and are generalizations of `number-theoretic' rules introduced by Korobov (1959) and Hlawka (1962)--themselves generalizations, in a sense, of rectangle rules for approximating one-dimensional integrals, and trapezoidal rules for periodic integrands. Error bounds for rank-1 rules are known for a variety of classes of integrands. For periodic integrands with unit period in each variable, these bounds are conveniently characterized by the figure of merit ρ, which was originally introduced in the context of number-theoretic rules. The problem of finding good rules of order N (that is, having N nodes) then becomes that of finding rules with large values of ρ. This paper presents a new approach, based on the theory of simultaneous Diophantine approximation, which uses a generalized continued fraction algorithm to construct rank-1 rules of high order.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65D30</kwd>
+            <kwd>65D32</kwd>
+            <kwd>11J25</kwd>
+            <kwd>11J70</kwd>
+            <kwd>Numerical quadrature</kwd>
+            <kwd>numerical cubature</kwd>
+            <kwd>multiple integration</kwd>
+            <kwd>lattice rules</kwd>
+            <kwd>continued fractions</kwd>
+            <kwd>Diophantine approximation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d762023e154a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d762023e161" publication-type="journal">
+N. S. Bakhvalov, Approximate computation of multiple integrals, Vestnik Moskov. Univ. Ser.
+Mat. Meh. Astr. Fiz. Him.4 (1959), 3-18 (Russian). MR 22:6077<person-group>
+                     <string-name>
+                     <surname>Bakhvalov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>4</volume>
+               <source>Vestnik Moskov. Univ. Ser. Mat. Meh. Astr. Fiz. Him.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e193a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d762023e200" publication-type="book">
+M. Beckers and A. Haegemans, Transformation of integrands for lattice rules, Numerical
+Integration: Recent Developments, Software and Applications (T. 0. Espelid and A. Genz,
+eds.), Kluwer Academic Publishers, Dordrecht, 1992, pp. 329-340. CMP 93:06<person-group>
+                     <string-name>
+                     <surname>Beckers</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Transformation of integrands for lattice rules</comment>
+               <fpage>329</fpage>
+               <source>Numerical Integration: Recent Developments, Software and Applications</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e235a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d762023e242" publication-type="journal">
+M. Bourdeau and A. Pitre, Tables of good lattices in four and five dimensions, Numer. Math.
+47 (1985), 39-43. MR 86h:65027<person-group>
+                     <string-name>
+                     <surname>Bourdeau</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>39</fpage>
+               <volume>47</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e274a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d762023e281" publication-type="journal">
+A. J. Brentjes, Multidimensional Continued Fraction Algorithms, Math. Centre Tracts145
+(1981). MR 83b:10038<person-group>
+                     <string-name>
+                     <surname>Brentjes</surname>
+                  </string-name>
+                  </person-group>
+               <volume>145</volume>
+               <source>Math. Centre Tracts</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e311a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d762023e318" publication-type="journal">
+—, A two-dimensional continued fraction algorithm for best approximations with an
+application in cubic number fields, J. Reine Angew. Math.326 (1981), 18-44. MR 83b: 10037<person-group>
+                     <string-name>
+                     <surname>Brentjes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>18</fpage>
+               <volume>326</volume>
+               <source>J. Reine Angew. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e350a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d762023e357" publication-type="book">
+J. W. S. Cassels, An Introduction to Diophantine Approximation, Cambridge University Press,
+Cambridge, 1957. MR 19:396h<person-group>
+                     <string-name>
+                     <surname>Cassels</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to Diophantine Approximation</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e382a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d762023e389" publication-type="journal">
+T. W. Cusick, The Szekeres multidimensional continued fraction, Math. Comp.31 (1977),
+280-317. MR 55:2775<object-id pub-id-type="doi">10.2307/2005800</object-id>
+               <fpage>280</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e405a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d762023e412" publication-type="book">
+L. E. Dickson, Studies in the Theory of Numbers, Chelsea, New York, 1961.<person-group>
+                     <string-name>
+                     <surname>Dickson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Studies in the Theory of Numbers</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e434a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d762023e441" publication-type="journal">
+S. A. R. Disney, Error bounds for rank 1 lattice quadrature rules modulo composites, Monatsh.
+Math.110 (1990), 89-100. MR 91m:65067<person-group>
+                     <string-name>
+                     <surname>Disney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>89</fpage>
+               <volume>110</volume>
+               <source>Monatsh. Math.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e473a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d762023e480" publication-type="journal">
+S. A. R. Disney and I. H. Sloan, Error bounds for the method of good lattice points, Math.
+Comp.56 (1991), 257-266. MR 91m:65068<object-id pub-id-type="doi">10.2307/2008540</object-id>
+               <fpage>257</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e497a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d762023e504" publication-type="journal">
+—, Lattice integration rules of maximal rank formed by copying rank 1 rules, SIAM J.
+Numer. Anal.29 (1992), 566-577. MR 92k:65034<object-id pub-id-type="jstor">10.2307/2158143</object-id>
+               <fpage>566</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e520a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d762023e527" publication-type="journal">
+K. K. Frolov, On the connection between quadrature formulas and sublattices of the lattice of
+integral vectors, Dokl. Akad. Nauk SSSR232 (1977), 40-43 (Russian). MR 55:272<person-group>
+                     <string-name>
+                     <surname>Frolov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>40</fpage>
+               <volume>232</volume>
+               <source>Dokl. Akad. Nauk SSSR</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e559a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d762023e566" publication-type="journal">
+S. Haber, Parameters for integrating periodic functions of several variables, Math. Comp.41
+(1983), 115-129. MR 85g:65033<object-id pub-id-type="doi">10.2307/2007770</object-id>
+               <fpage>115</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e582a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d762023e589" publication-type="journal">
+E. Hlawka, Zur angendherten Berechnung mehrfacher Integrale, Monatsh. Math.66 (1962),
+140-151. MR 26:888<person-group>
+                     <string-name>
+                     <surname>Hlawka</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>140</fpage>
+               <volume>66</volume>
+               <source>Monatsh. Math.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e621a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d762023e628" publication-type="book">
+L. K. Hua and Y. Wang, Applications of Number Theory to Numerical Analysis, Springer-
+Verlag and Science Press, Berlin and Beijing, 1981. MR 83g:10034<person-group>
+                     <string-name>
+                     <surname>Hua</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applications of Number Theory to Numerical Analysis</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e653a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d762023e660" publication-type="journal">
+S. Joe and S. A. R. Disney, Intermediate rank lattice rules for multidimensional integration,
+SIAM J. Numer. Anal.30 (1993), 569-582. MR 94c:65031<object-id pub-id-type="jstor">10.2307/2158178</object-id>
+               <fpage>569</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e677a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d762023e684" publication-type="journal">
+G. Kedem and S. K. Zaremba, A table of good lattice points in three dimensions, Numer.
+Math.23 (1974), 175-180. MR 51:9440<person-group>
+                     <string-name>
+                     <surname>Kedem</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>175</fpage>
+               <volume>23</volume>
+               <source>Numer. Math.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e716a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d762023e723" publication-type="book">
+A. Ya. Khinchin, Continued Fractions, 3rd ed., State Publishing House of Physical-
+Mathematical Literature, Moscow, 1961 (Russian)<person-group>
+                     <string-name>
+                     <surname>Khinchin</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Continued Fractions</source>
+               <year>1961</year>
+            </mixed-citation>
+               <mixed-citation id="d762023e751" publication-type="other">
+English transl., University of Chicago
+Press, Chicago and London, 1964. MR 28:5037</mixed-citation>
+            </ref>
+            <ref id="d762023e761a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d762023e768" publication-type="journal">
+N. M. Korobov, The approximate computation of multiple integrals, Dokl. Akad. Nauk SSSR
+124 (1959), 1207-1210 (Russian). MR 21:2848<person-group>
+                     <string-name>
+                     <surname>Korobov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1207</fpage>
+               <volume>124</volume>
+               <source>Dokl. Akad. Nauk SSSR</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e800a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d762023e807" publication-type="journal">
+—, Properties and calculation of optimal coefficients, Dokl. Akad. Nauk SSSR132
+(1960), 1009-1012 (Russian). MR 22:11517<person-group>
+                     <string-name>
+                     <surname>Korobov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1009</fpage>
+               <volume>132</volume>
+               <source>Dokl. Akad. Nauk SSSR</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e839a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d762023e846" publication-type="journal">
+J. C. Lagarias, Some new results in simultaneous Diophantine approximation, Queen's Papers
+in Pure and Applied Math.54 (1980), 453-474.<person-group>
+                     <string-name>
+                     <surname>Lagarias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>453</fpage>
+               <volume>54</volume>
+               <source>Queen's Papers in Pure and Applied Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e878a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d762023e885" publication-type="journal">
+—, Best simultaneous Diophantine approximations II. Behavior of consecutive best ap-
+proximations, Pacific J. Math.102 (1982), 61-88. MR 84d:10039b<person-group>
+                     <string-name>
+                     <surname>Lagarias</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>61</fpage>
+               <volume>102</volume>
+               <source>Pacific J. Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e918a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d762023e925" publication-type="journal">
+T. N. Langtry, The determination of canonical forms for lattice quadrature rules, J. Comp.
+Appl. Math.59 (1995), 129-143. MR 96c:65040<person-group>
+                     <string-name>
+                     <surname>Langtry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>59</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e957a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d762023e964" publication-type="journal">
+J. N. Lyness and P. Keast, Application of the Smith normal form to the structure of lattice
+rules, SIAM J. Matrix Anal. Appl.16 (1995), 218-231. MR 95k:65043<person-group>
+                     <string-name>
+                     <surname>Lyness</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>218</fpage>
+               <volume>16</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e996a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d762023e1003" publication-type="journal">
+J. N. Lyness and T. 0. S0revik, A search program for finding optimal integration lattices,
+Computing47 (1991), 103-120. MR 92k:65037<person-group>
+                     <string-name>
+                     <surname>Lyness</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>47</volume>
+               <source>Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1035a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d762023e1042" publication-type="journal">
+—, An algorithm for finding optimal integration lattices of composite order, BIT32
+(1992), 665-675. MR 93i:65038<person-group>
+                     <string-name>
+                     <surname>Lyness</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>665</fpage>
+               <volume>32</volume>
+               <source>BIT</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1074a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d762023e1081" publication-type="journal">
+—, Lattice rules by component scaling, Math. Comp.61 (1993), 799-820. MR 94a:65011<object-id pub-id-type="doi">10.2307/2153254</object-id>
+               <fpage>799</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1094a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d762023e1101" publication-type="book">
+D. Maisonneuve, Recherche et utilisation des 'Bon Treillis'. Programmation et résultats
+numériques, Applications of Number Theory to Numerical Analysis (S. K. Zaremba, ed.),
+Academic Press, New York, 1972, pp. 121-201. MR 49:8270<person-group>
+                     <string-name>
+                     <surname>Maisonneuve</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Recherche et utilisation des 'Bon Treillis'. Programmation et résultats numériques</comment>
+               <fpage>121</fpage>
+               <source>Applications of Number Theory to Numerical Analysis</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1137a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d762023e1144" publication-type="journal">
+H. Niederreiter, Quasi-Monte Carlo methods and pseudo-random numbers, Bull. Amer. Math.
+Soc.84 (1978), 957-1041. MR 80d:65016<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>957</fpage>
+               <volume>84</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1176a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d762023e1183" publication-type="book">
+—Random Number Generation and Quasi-Monte Carlo Methods, SIAM (Society for
+Industrial and Applied Mathematics), Philadelphia, Pennsylvania, 1992. MR 93h:65008<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random Number Generation and Quasi-Monte Carlo Methods</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1208a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d762023e1215" publication-type="journal">
+—, The existence of efficient lattice rules for multidimensional numerical integration,
+Math. Comp.58 (1992), 305-314, S7-S16. MR 92e:65023<object-id pub-id-type="doi">10.2307/2153035</object-id>
+               <fpage>305</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1231a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d762023e1238" publication-type="journal">
+—, Improved error bounds for lattice rules, J. Complexity9 (1993), 60-75. MR
+94e:65027<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>60</fpage>
+               <volume>9</volume>
+               <source>J. Complexity</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1270a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d762023e1277" publication-type="journal">
+H. Niederreiter and I. H. Sloan, Integration of non-periodic functions of two variables by
+Fibonacci lattice rules, J. Comp. Appl. Math.51 (1994), 57-70. MR 95f:65056<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>51</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1309a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d762023e1316" publication-type="book">
+—Quasi-Monte Carlo methods with modified vertex weights, Numerical IntegrationIV
+(H. BraJ3 and G. Hammerlin, eds.), International Series of Numerical Mathematics, No. 112,
+Birkhduser, Basel, 1993, pp. 253-265. MR 94m:65015<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Quasi-Monte Carlo methods with modified vertex weights</comment>
+               <fpage>253</fpage>
+               <volume>IV</volume>
+               <source>Numerical Integration</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1355a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d762023e1362" publication-type="journal">
+A. I. Saltykov, Tables for computing multiple integrals by the method of optimal coefficients,
+USSR Comput. Math. and Math. Phys.3 (1963), 235-242. MR 27:962<person-group>
+                     <string-name>
+                     <surname>Saltykov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>3</volume>
+               <source>USSR Comput. Math. and Math. Phys.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1394a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d762023e1401" publication-type="book">
+W. M. Schmidt, Diophantine Approximation, Springer-Verlag, Berlin, 1980. MR 81j:10038<person-group>
+                     <string-name>
+                     <surname>Schmidt</surname>
+                  </string-name>
+                  </person-group>
+               <source>Diophantine Approximation</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1423a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d762023e1430" publication-type="journal">
+I. H. Sloan, Lattice methods for multiple integration, J. Comp. Appl. Math. 12 and13 (1985),
+131-143. MR 86f:65045<person-group>
+                     <string-name>
+                     <surname>Sloan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>13</volume>
+               <source>J. Comp. Appl. Math. 12 and</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1462a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d762023e1469" publication-type="book">
+—, , Numerical integration in high dimensions—the lattice rule approach, Numerical Inte-
+gration: Recent Developments, Software and Applications (T. 0. Espelid and A. Genz, eds.),
+Kluwer Academic Publishers, Dordrecht, 1992, pp. 55-69. MR 94c:65029<person-group>
+                     <string-name>
+                     <surname>Sloan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical integration in high dimensions—the lattice rule approach</comment>
+               <fpage>55</fpage>
+               <source>Numerical Integration: Recent Developments, Software and Applications</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1504a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d762023e1511" publication-type="book">
+I. H. Sloan and S. Joe, Lattice Methods for Multiple Integration, Oxford University Press,
+Oxford, 1994.<person-group>
+                     <string-name>
+                     <surname>Sloan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lattice Methods for Multiple Integration</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1536a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d762023e1543" publication-type="journal">
+I. H. Sloan and P. J. Kachoyan, Lattice methods for multiple integration: theory, error analysis
+and examples, SIAM J. Numer. Anal.24 (1987), 116-128. MR 88e:65023<object-id pub-id-type="jstor">10.2307/2157389</object-id>
+               <fpage>116</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1560a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d762023e1567" publication-type="journal">
+I. H. Sloan and J. N. Lyness, The representation of lattice quadrature rules as multiple sums,
+Math. Comp.52 (1989), 81-94. MR 90a:65053<object-id pub-id-type="doi">10.2307/2008654</object-id>
+               <fpage>81</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1583a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d762023e1590" publication-type="journal">
+I. H. Sloan and L. Walsh, Computer search of rank-2 lattice rules for multidimensional quad-
+rature, Math. Comp.54 (1990), 281-302. MR 91a:65061<object-id pub-id-type="doi">10.2307/2008695</object-id>
+               <fpage>281</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1606a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d762023e1613" publication-type="journal">
+J. Spanier and E. H Maize, Quasi-random methods for estimating integrals using relatively
+small samples, SIAM Review36 (1994), 18-44. MR 95b:65013<object-id pub-id-type="jstor">10.2307/2132560</object-id>
+               <fpage>18</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1629a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d762023e1636" publication-type="journal">
+G. Szekeres, Multidimensional continued fractions, Ann. Univ. Sci. Budapest Eötvös Sect.
+Math.13 (1970), 113-140. MR 47:1753<person-group>
+                     <string-name>
+                     <surname>Szekeres</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>13</volume>
+               <source>Ann. Univ. Sci. Budapest Eötvös Sect. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1668a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d762023e1675" publication-type="book">
+—Search for the three dimensional approximation constant, Diophantine Analysis: Pro-
+ceedings of the Number Theory Section of the 1985 Australian Mathematical Society Con-
+vention. London Mathematical Society Lecture Note Series (J. H. Loxton and A. J. van der
+Poorten, eds.), vol. 109, Cambridge University Press, Cambridge, 1986, pp. 139-146. MR
+88b:11041<person-group>
+                     <string-name>
+                     <surname>Szekeres</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Search for the three dimensional approximation constant</comment>
+               <fpage>139</fpage>
+               <volume>109</volume>
+               <source>Diophantine Analysis: Proceedings of the Number Theory Section of the 1985 Australian Mathematical Society Convention</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1719a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d762023e1726" publication-type="journal">
+R. T. Worley, On integration lattices, BIT31 (1991), 529-539. MR 92h:65042<person-group>
+                     <string-name>
+                     <surname>Worley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>529</fpage>
+               <volume>31</volume>
+               <source>BIT</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1756a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d762023e1763" publication-type="journal">
+S. K. Zaremba, Good lattice points, discrepancy and numerical integration, Ann. Mat. Pura
+Appl.73 (1966), 293-317. MR 36:1107<person-group>
+                     <string-name>
+                     <surname>Zaremba</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>293</fpage>
+               <volume>73</volume>
+               <source>Ann. Mat. Pura Appl.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1795a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d762023e1802" publication-type="book">
+—La méthode des "bons treillis" pour le calcul des intégrales multiples, Applications
+of Number Theory to Numerical Analysis (S. K. Zaremba, ed.), Academic Press, New York,
+1972, pp. 31-119. MR 49:8271<person-group>
+                     <string-name>
+                     <surname>Zaremba</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">La méthode des "bons treillis" pour le calcul des intégrales multiples</comment>
+               <fpage>31</fpage>
+               <source>Applications of Number Theory to Numerical Analysis</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762023e1837a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d762023e1844" publication-type="journal">
+P. Zinterhof, Gratis lattice points for numerical integration, Computing38 (1987), 347-353.
+MR 88i:65036<person-group>
+                     <string-name>
+                     <surname>Zinterhof</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>347</fpage>
+               <volume>38</volume>
+               <source>Computing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i27594177</issue-id>
+         <article-id pub-id-type="jstor">27594179</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X113430</article-id>
+         <title-group>
+            <article-title>Sparse Principal Component Analysis</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Hui</given-names>
+                  <surname>Zou</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Trevor</given-names>
+                  <surname>Hastie</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Robert</given-names>
+                  <surname>Tibshirani</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>265</fpage>
+         <lpage>286</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594179"/>
+      
+      
+         <abstract>
+            <p>Principal component analysis (PCA) is widely used in data processing and dimensionality reduction. However, PCA suffers from the fact that each principal component is a linear combination of all the original variables, thus it is often difficult to interpret the results. We introduce a new method called sparse principal component analysis (SPCA) using the lasso (elastic net) to produce modified principal components with sparse loadings. We first show that PCA can be formulated as a regression-type optimization problem; sparse loadings are then obtained by imposing the lasso (elastic net) constraint on the regression coefficients. Efficient algorithms are proposed to fit our SPCA models for both regular multivariate data and gene expression arrays. We also give a new formula to compute the total variance of modified principal components. As illustrations, SPCA is applied to real and simulated data with encouraging results.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Arrays</kwd>
+            <kwd>Gene expression</kwd>
+            <kwd>Lasso/elastic net</kwd>
+            <kwd>Multivariate analysis</kwd>
+            <kwd>Singular value decomposition</kwd>
+            <kwd>Thresholding</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1370107e163a1310">
+          
+            <mixed-citation id="d1370107e167" publication-type="other">
+Alter, O., Brown, P., and Botstein, D. (2000), "Singular Value Decomposition for Genome-Wide Expression Data
+Processing and Modeling," in Proceedings of the National Academy of Sciences, 97, pp. 10101–10106.</mixed-citation>
+        </ref>
+        <ref id="d1370107e177a1310">
+          
+            <mixed-citation id="d1370107e181" publication-type="other">
+Cadima, J., and Jolliffe, I. (1995), "Loadings and Correlations in the Interpretation of Principal Components,"
+Journal of Applied Statistics, 22, 203–214.</mixed-citation>
+        </ref>
+        <ref id="d1370107e191a1310">
+          
+            <mixed-citation id="d1370107e195" publication-type="other">
+Efron, B., Hastie, T., Johnstone, I., and Tibshirani, R. (2004), "Least Angle Regression," The Annals of Statistics,
+32, 407–99.</mixed-citation>
+        </ref>
+        <ref id="d1370107e205a1310">
+          
+            <mixed-citation id="d1370107e209" publication-type="other">
+Hancock, P., Burton, A., and Bruce, V. (1996), "Face Processing: Human Perception and Principal Components
+Analysis," Memory and Cognition, 24, 26–40.</mixed-citation>
+        </ref>
+        <ref id="d1370107e220a1310">
+          
+            <mixed-citation id="d1370107e224" publication-type="other">
+Hastie, T., Tibshirani, R., and Friedman, J. (2001), The Elements of Statistical Learning; Data mining, Inference
+and Prediction, New York: Springer Verlag.</mixed-citation>
+        </ref>
+        <ref id="d1370107e234a1310">
+          
+            <mixed-citation id="d1370107e238" publication-type="other">
+Hastie, T., Tibshirani, R., Eisen, M., Brown, P., Ross, D., Scherf, U., Weinstein, J., Alizadeh, A., Staudt, L.,
+and Botstein, D. (2000), " 'gene Shaving' as a Method for Identifying Distinct Sets of Genes With Similar
+Expression Patterns," Genome Biology, 1, 1–21.</mixed-citation>
+        </ref>
+        <ref id="d1370107e251a1310">
+          
+            <mixed-citation id="d1370107e255" publication-type="other">
+Jeffers, J. (1967), "Two Case Studies in the Application of Principal Component," Applied Statistics, 16, 225–236.</mixed-citation>
+        </ref>
+        <ref id="d1370107e262a1310">
+          
+            <mixed-citation id="d1370107e266" publication-type="other">
+Jolliffe, I. (1986), Principal Component Analysis, New York: Springer Verlag.</mixed-citation>
+        </ref>
+        <ref id="d1370107e273a1310">
+          
+            <mixed-citation id="d1370107e277" publication-type="other">
+—(1995), "Rotation of Principal Components: Choice of Normalization Constraints," Journal of Applied
+Statistics, 22, 29-35.</mixed-citation>
+        </ref>
+        <ref id="d1370107e287a1310">
+          
+            <mixed-citation id="d1370107e291" publication-type="other">
+Jolliffe, L T., Trendafilov, N. T., and Uddin, M. (2003), "A Modified Principal Component Technique Based on
+the Lasso," Journal of Computational and Graphical Statistics, 12, 531-547.</mixed-citation>
+        </ref>
+        <ref id="d1370107e302a1310">
+          
+            <mixed-citation id="d1370107e306" publication-type="other">
+Mardia, K., Kent, J., and Bibby, J. (1979), Multivariate Analysis, New York: Academic Press.</mixed-citation>
+        </ref>
+        <ref id="d1370107e313a1310">
+          
+            <mixed-citation id="d1370107e317" publication-type="other">
+McCabe, G. (1984), "Principal Variables," Technometrics, 26, 137–144.</mixed-citation>
+        </ref>
+        <ref id="d1370107e324a1310">
+          
+            <mixed-citation id="d1370107e328" publication-type="other">
+Osborne, M. R., Presnell, B., and Turlach, B. A. (2000), "A New Approach to Variable Selection in Least Squares
+Problems," IMA Journal of Numerical Analysis, 20, 389–403.</mixed-citation>
+        </ref>
+        <ref id="d1370107e338a1310">
+          
+            <mixed-citation id="d1370107e342" publication-type="other">
+Ramaswamy, S., Tamayo, P., Rifkin, R., Mukheriee, S., Yeang, C., Angelo, M., Ladd, C., Reich, M., Latulippe,
+E., Mesirov, J., Poggio, T., Gerald, W., Loda, M., Lander, E., and Golub, T. (2001), "Multiclass Cancer
+Diagnosis using Tumor Gene Expression Signature," in Proceedings of the National Academy of Sciences,
+98, pp. 15149–15154.</mixed-citation>
+        </ref>
+        <ref id="d1370107e358a1310">
+          
+            <mixed-citation id="d1370107e362" publication-type="other">
+Tibshirani, R. (1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Society,
+Series B, 58, 267–288.</mixed-citation>
+        </ref>
+        <ref id="d1370107e372a1310">
+          
+            <mixed-citation id="d1370107e376" publication-type="other">
+Tibshirani, R., Hastie, T., Narasimhan, B., and Chu, G. (2002), "Diagnosis of Multiple Cancer Types by Shrunken
+Centroids of Gene," in Proceedings of the National Academy of Sciences, 99, 6567–6572.</mixed-citation>
+        </ref>
+        <ref id="d1370107e387a1310">
+          
+            <mixed-citation id="d1370107e391" publication-type="other">
+Vines, S. (2000), "Simple Principal Components," Applied Statistics, 49, 441–451.</mixed-citation>
+        </ref>
+        <ref id="d1370107e398a1310">
+          
+            <mixed-citation id="d1370107e402" publication-type="other">
+Zou, H., and Hastie, T. (2005), "Regularization and Variable Selection via the Elastic Net," Journal of the Royal
+Statistical Society, Series B, 67, 301–320.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

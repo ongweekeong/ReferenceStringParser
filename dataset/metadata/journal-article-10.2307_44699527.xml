@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SOCIETY OF AUTOMOTIVE ENGINEERS, INC.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">113</volume>
+         <issue-id>i40197103</issue-id>
+         <article-id pub-id-type="jstor">44699527</article-id>
+         <title-group>
+            <article-title>Enhancing Reliability of Drive-by-Wire Control Units by Fault Compensation using Data Fusion</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Oliver</given-names>
+                  <surname>Rooks</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Axel</given-names>
+                  <surname>Ramstein</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Uwe</given-names>
+                  <surname>Kiencke</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Armin</given-names>
+                  <surname>Sulzmann</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Gernot</given-names>
+                  <surname>Spiegelberg</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>147</fpage>
+         <lpage>153</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2005 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44699527"/>
+      
+      
+         <abstract>
+            <p>As future drive-by-wire systems have no mechanical fallback level, the increased safety requirements need to be met by software-based solutions. The task of the software is to provide services in the field of fault detection and compensation as well as control of redundant hardware structures. Particularly the implementation of fault detection and error correction avoids fatal output of drive-by-wire control units caused by erroneous input signals. This article describes the implementation of a module compensating faults in the input signals of a vehicle function, which controls the longitudinal dynamics of a truck. The error correction is achieved by means of data fusion. Sensing units consisting of the sensor as well as the preprocessing unit often are provided by external suppliers. In some cases information regarding the characteristics of their output data written on the CAN bus is not available. In order to avoid the time-consuming and costly acquisition of this information a method is presented allowing for the estimation of the data quality. This approach is based on the analysis of the time response, the information content and the estimation of the measurement noise variance of the CAN-data. The quality measures are incorporated in a fuzzy-weighted aggregation of the signals and a subsequent filtering with an information filter. This article describes how data fusion can be used profitably for the error compensation of fault-tolerant control systems. The estimation method of data characteristics introduced in this paper allows for a substitution of the erroneous signals with a marginal loss in quality. Additionally in the fault free case an improvement of the data quality regarding noise and dynamics can be achieved.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d120e256a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d120e263" publication-type="other">
+Qiang Gan and Chris J. Harris. Comparison
+of two measurement fusion methods for kalman-
+filter-based multisensor data fusion. Aerospace
+and Electronic Systems, IEEE Transactions on,
+37(1):273-280, 2001.</mixed-citation>
+        </ref>
+        <ref id="d120e282a1310">
+            <label>2</label>
+          
+          
+            <mixed-citation id="d120e291" publication-type="other">
+Raman K. Mehra. On the identification of vari-
+ances and adaptive kalman filtering. IEEE Trans-
+actions on Automatic Control, 15(2):175-184,
+1970.</mixed-citation>
+        </ref>
+        <ref id="d120e307a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d120e314" publication-type="other">
+Oliver Nelies. Nonlinear system identification:
+from classical approaches to neural networks and
+fuzzy models. Springer Verlag, Heidelberg, 2001.</mixed-citation>
+        </ref>
+        <ref id="d120e327a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d120e334" publication-type="other">
+J. A. Roecker and C. D. McGillem. Comparison of
+two-sensor tracking methods based on state vec-
+tor fusion and measurement fusion. Aerospace
+and Electronic Systems, IEEE Transactions on,
+24(4):447-449, 1988.</mixed-citation>
+        </ref>
+        <ref id="d120e354a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d120e361" publication-type="other">
+Oliver Rooks, Michael Armbruster, Serge Büchli,
+Armin Sulzmann, and Gemot Spiegelberg. Re-
+dundancy management for drive-by-wire com-
+puter systems. In Safecomp 2003, Edinburgh,
+2003.</mixed-citation>
+        </ref>
+        <ref id="d120e380a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d120e387" publication-type="other">
+Gemot Spiegelberg. Ein Beitrag zur Erhhung der
+Verkehrssicherheit und Funktionalitt von Fahrzeu-
+gen unter Einbindung des Antriebstrangmoduls
+
+              MOT
+              
+              X - ACT: Dissertation. Cuvillier Verlag,
+            
+Göttingen, 2002.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

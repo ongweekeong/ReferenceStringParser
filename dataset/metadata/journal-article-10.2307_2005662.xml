@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">27</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">123</issue>
+         <issue-id>i334546</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005662</article-id>
+         
+         <title-group>
+            <article-title>Numerical Methods for Computing Angles Between Linear Subspaces</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Åke</given-names>
+                     <surname>Björck</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Gene H.</given-names>
+                  <surname>Golub</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1973</year>
+         </pub-date>
+         <fpage>579</fpage>
+         <lpage>594</lpage>
+         <page-range>579-594</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1973 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005662"/>
+         
+         
+         <abstract>
+            <p>Assume that two subspaces $F$ and $G$ of a unitary space are defined as the ranges (or null spaces) of given rectangular matrices $A$ and $B$. Accurate numerical methods are developed for computing the principal angles $\theta_k(F, G)$ and orthogonal sets of principal vectors $u_k \in F$ and $\upsilon_k \in G, k = 1, 2, \cdots, q = \dim(G) \leqq \dim(F)$. An important application in statistics is computing the canonical correlations $\sigma_k = \cos \theta_k$ between two sets of variates. A perturbation analysis shows that the condition number for $\theta_k$ essentially is $\max(\kappa(A), _\kappa(B))$, where $\kappa$ denotes the condition number of a matrix. The algorithms are based on a preliminary $QR$-factorization of $A$ and $B$ (or $A^H$ and $B^H$), for which either the method of Householder transformations (HT) or the modified Gram-Schmidt method (MGS) is used. Then $\cos \theta_k$ and $\sin \theta_k$ are computed as the singular values of certain related matrices. Experimental results are given, which indicates that MGS gives $\theta_k$ with equal precision and fewer arithmetic operations than HT. However, HT gives principal vectors, which are orthogonal to working accuracy, which is not generally true for MGS. Finally, the case when $A$ and/or $B$ are rank deficient is discussed.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F30</kwd>
+            <kwd>65F20</kwd>
+            <kwd>62H20</kwd>
+            <kwd>62-04</kwd>
+            <kwd>Numerical linear algebra</kwd>
+            <kwd>least squares</kwd>
+            <kwd>singular values</kwd>
+            <kwd>canonical correlations</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1091149e184a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1091149e191" publication-type="book">
+S. N. AFRIAT, "Orthogonal and oblique projectors and the characteristics of pairs
+of vector spaces," Proc. Cambridge Philos. Sac., v.53, 1957, pp. 800-816. MR 20 #1389.<person-group>
+                     <string-name>
+                     <surname>Afriat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Orthogonal and oblique projectors and the characteristics of pairs of vector spaces</comment>
+               <fpage>800</fpage>
+               <volume>53</volume>
+               <source>Proc. Cambridge Philos. Sac.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e226a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1091149e233" publication-type="journal">
+A. BJÖRCK, "Solving linear least squares problems by Gram-Schmidt orthogonaliza-
+tion," Nordisk Tidskr. Informationsbehandling (BIT), v. 7, 1967, pp. 1-21. MR 53 #5126.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>7</volume>
+               <source>Nordisk Tidskr. Informationsbehandling (BIT)</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e265a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1091149e272" publication-type="journal">
+A. BJÖRCK, "Iterative refinement of linear least squares solutions. II," Nordisk Tidskr.
+Informationsbehandling (BIT), v. 8, 1968, pp. 8-30. MR 39 #1094.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>8</fpage>
+               <volume>8</volume>
+               <source>Nordisk Tidskr. Informationsbehandling (BIT)</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e304a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1091149e311" publication-type="journal">
+A. BJÖRCK &amp; C. BOWIE, "An iterative algorithm for computing the best estimate
+of an orthogonal matrix," SIAM J. Numer. Anal., v. 8, 1971, pp. 358-364.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>358</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e344a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1091149e351" publication-type="journal">
+P. BUSINGER &amp; G. H. GOLUB, "Handbook series linear algebra. Linear least squares
+solutions by Householder transformations," Numer. Math., v. 7, 1965, pp. 269-276. MR
+31 #862.<person-group>
+                     <string-name>
+                     <surname>Businger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <volume>7</volume>
+               <source>Numer. Math.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e386a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1091149e393" publication-type="journal">
+C. COHEN &amp; A. BEN-ISRAEL, "On the computation of canonical correlations," Calliers
+Centre Études Recherche Opér., v. 11, 1969, pp. 121-132. MR 40 #6683<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>121</fpage>
+               <volume>11</volume>
+               <source>Calliers Centre Études Recherche Opér.</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e425a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1091149e432" publication-type="other">
+C. COHEN, An Investigation of the Geometry of Subspaces for Some Multivariate
+Statistical Models, Thesis, Dept. of Indust. Eng., University of Illinois, Urbana, Ill., 1969.</mixed-citation>
+            </ref>
+            <ref id="d1091149e442a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1091149e449" publication-type="journal">
+G. DAHLQUIST, B. SJ6BERG &amp; P. SVENSSON, "Comparison of the method of averages
+with the method of least squares," Math. Comp., v. 22, 1968, pp. 833-845. MR 39 #1099.<object-id pub-id-type="doi">10.2307/2004582</object-id>
+               <fpage>833</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e465a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1091149e472" publication-type="journal">
+C. DAVIES &amp; W. KAHAN, "The rotation of eigenvectors by a perturbation. III," SIAM
+J. Numer. Anal., v. 7, 1970, pp. 1-46.<person-group>
+                     <string-name>
+                     <surname>Davies</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>7</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e504a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1091149e511" publication-type="journal">
+C. ECKART &amp; G. YOUNG, "The approximation of one matrix by another of lower
+rank," Psychometrika, v. 1, 1936, pp. 211-218.<person-group>
+                     <string-name>
+                     <surname>Eckart</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>211</fpage>
+               <volume>1</volume>
+               <source>Psychometrika</source>
+               <year>1936</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e544a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1091149e551" publication-type="journal">
+C. ECKART &amp; G. YOUNG, "A principal axis transformation for non-Hermitian matrices,"
+Bull. Amer. Math. Soc., v. 45, 1939, pp. 118-121.<person-group>
+                     <string-name>
+                     <surname>Eckart</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>118</fpage>
+               <volume>45</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1939</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e583a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1091149e590" publication-type="book">
+D. K. FADDEEV, V. N. KUBtANOVSKAJA &amp; V. N. FADDEEVA, Sur les Systèmes Linéaires
+Algébriques de Matrices Rectangulaires et Mal-Conditionnées (Actes Colloq. Internat. C.N.R.S.
+No. 165, Besangon, 1966) Editions C.N.R.S., Paris, 1968, pp. 161-170. MR 37 #6017.<person-group>
+                     <string-name>
+                     <surname>Faddeev</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>161</fpage>
+               <source>Sur les Systèmes Linéaires Algébriques de Matrices Rectangulaires et Mal-Conditionnées</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e622a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1091149e629" publication-type="journal">
+G. Fix &amp; R. HEIBERGER, "An algorithm for the ill conditioned generalized eigenvalue
+problem," Numer. Math. (To appear.)<person-group>
+                     <string-name>
+                     <surname>Fix</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numer. Math.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e651a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1091149e658" publication-type="journal">
+R. J. HANSON &amp; C. L. LAWSON, "Extensions and applications of the Householder
+algorithm for solving linear squares problems," Math. Comp., v. 23, 1969, pp. 787-812. MR
+41 #2905.<object-id pub-id-type="doi">10.2307/2004965</object-id>
+               <fpage>787</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e677a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1091149e684" publication-type="book">
+I. C. GOHBERG &amp; M. G. KREYN, Introduction to the Theory of Linear Nonselfadjoint
+Operators, "Nauka," Moscow, 1965<person-group>
+                     <string-name>
+                     <surname>Gohberg</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Nauka</comment>
+               <source>Introduction to the Theory of Linear Nonselfadjoint Operators</source>
+               <year>1965</year>
+            </mixed-citation>
+               <mixed-citation id="d1091149e712" publication-type="other">
+English transl. Transl. Math. Monographs, vol. 18, Amer.
+Math. Soc., Providence, R. I., 1969. MR 39 #7447.</mixed-citation>
+            </ref>
+            <ref id="d1091149e722a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1091149e729" publication-type="journal">
+G. H. GOLUB, "Numerical methods for solving linear least squares problems," Numer.
+Math., v. 7, 1965, pp. 206-216. MR 31 #5323.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>206</fpage>
+               <volume>7</volume>
+               <source>Numer. Math.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e762a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1091149e769" publication-type="journal">
+G. H. GOLUB &amp; C. REINSCH, "Singular value decompositions and least squares solu-
+tions," Numer. Math., v. 14, 1970, pp. 403-420.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>403</fpage>
+               <volume>14</volume>
+               <source>Numer. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e801a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1091149e808" publication-type="book">
+I. J. GOOD, The Estimation of Probabilities. An Essay on Modern Bayesian Methods,
+Research Monograph No. 30, M.I.T. Press, Cambridge, Mass., 1965, pp. 87-89. MR 32 #3186.<person-group>
+                     <string-name>
+                     <surname>Good</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <source>The Estimation of Probabilities. An Essay on Modern Bayesian Methods</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e837a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1091149e844" publication-type="journal">
+H. HOTELLING, "Relations between two sets of variates," Biometrika, v. 28, 1936, pp.
+321-377.<object-id pub-id-type="doi">10.2307/2333955</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e860a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1091149e867" publication-type="journal">
+A. VAN DER SLUIS, "Condition numbers and equilibration of matrices," Numer.
+Math., v. 14, 1969/1970, pp. 14-23. MR 40 #6760.<person-group>
+                     <string-name>
+                     <surname>van der Sluis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>14</fpage>
+               <volume>14</volume>
+               <source>Numer. Math.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e899a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1091149e906" publication-type="journal">
+J. M. VARAH, "Computing invariant subspaces of a general matrix when the eigen-
+system is poorly conditioned," Math. Comp., v. 24, 1970, pp. 137-149. MR 41 #9434.<object-id pub-id-type="doi">10.2307/2004882</object-id>
+               <fpage>137</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e922a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1091149e929" publication-type="book">
+P. A WEDIN, On Pseudoinverses of Perturbed Matrices, Dept. of Comput. Sci., Lund
+University, Lund, Sweden, 1969.<person-group>
+                     <string-name>
+                     <surname>Wedin</surname>
+                  </string-name>
+                  </person-group>
+               <source>On Pseudoinverses of Perturbed Matrices</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1091149e955a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1091149e962" publication-type="book">
+J. WILKINSON, "Error analysis of transformations based on the use of matrices of
+the form I - 2wwH," Error in Digital Computation, vol. II (Proc. Sympos. Math. Res.
+Center, U.S. Army, Univ. of Wisconsin, Madison, Wis., 1965), Wiley, New York, 1965,
+pp. 77-101. MR 32 #6711.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Error analysis of transformations based on the use of matrices of the form I - 2wwH</comment>
+               <fpage>77</fpage>
+               <volume>II</volume>
+               <source>Error in Digital Computation</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">103</volume>
+         <issue-id>i40192732</issue-id>
+         <article-id pub-id-type="jstor">44612348</article-id>
+         <title-group>
+            <article-title>Transient Air Flow Rate Estimation in a Natural Gas Engine Using a Nonlinear Observer</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Robert W.</given-names>
+                  <surname>Weeks</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>John J.</given-names>
+                  <surname>Moskwa</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>342</fpage>
+         <lpage>360</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 1995 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44612348"/>
+      
+      
+         <abstract>
+            <p>Stoichiometric air-fuel ratio control during transient operation requires an accurate estimate or measurement of the instantaneous air flow rate in an engine. Two methods are commonly used for determining engine air flow rate: air-mass sensing and conventional "speed-density." The lead air flow information provided by air-mass sensors helps compensate for manifold filling and other fuel system delays. However, the high cost (and sometimes lower reliability) of air-mass sensors has led many manufacturers to continue to use the less accurate speed-density method for determining air flow rate. This paper develops a model-based nonlinear manifold pressure observer that estimates the flow rates at the throttle and the intake ports of an engine using speed-density type sensors. The throttle flow rate estimate can be used instead of an air-mass sensor to provide the lead information necessary for accurate transient air-fuel control on TBI engines. The intake port flow rate estimate can be used on PFI engines to provide filtered approximations of port flow rates that do not contain phase lag. The estimates are achieved by embedding a simplified throttle and intake manifold model into the controller. Flow estimates are corrected in real-time by comparing a prediction of manifold pressure to measured manifold pressure. The observer's performance is simulated on a mean value, throttle-body-injected, natural-gas engine model. The elimination of wall wetting dynamics in this type of engine makes it an ideal candidate for the nonlinear observer presented here. Similar results could be expected with gasoline engines, although compensation for liquid fuel dynamics poses additional difficulties. Simulation results indicate that air-fuel control similar to that of a fast air-mass sensor can be achieved using the nonlinear observer. Although not presented here, versions of the observer have been successfully implemented on V8 engines with significantly different manifold filling characteristics. The computational complexity of the observer is simple enough to allow implementation on current eight bit engine controllers.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d218e566a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d218e573" publication-type="other">
+Hendricks, E., Vesterholm, T. and Sorenson, S. C.,
+"Nonlinear, Closed-loop, SI Engine Control
+Observers," SAE paper No. 920237, 1992.</mixed-citation>
+        </ref>
+        <ref id="d218e586a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d218e593" publication-type="other">
+Kaidantzis, P., et al., "Advanced Nonlinear Observer
+Control of SI Engines," SAE paper 930768, 1993.</mixed-citation>
+        </ref>
+        <ref id="d218e603a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d218e610" publication-type="other">
+Chang, C., Fekete, N.P. and Powell, J.D., "Engine Air-
+Fuel Ratio Control Using an Event-Based Observer,"
+SAE paper 930766, 1993.</mixed-citation>
+        </ref>
+        <ref id="d218e623a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d218e630" publication-type="other">
+Kao, M.H. and Moskwa, J.J., "Nonlinear Sliding
+Engine Load and Equivalence Ratio Observers,"
+submitted for presentation at the 1994 American
+Control Conference, Baltimore, MD, June 1994.</mixed-citation>
+        </ref>
+        <ref id="d218e647a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d218e654" publication-type="other">
+Shiao, Y.J. and Moskwa, J.J., "Cylinder Pressure and
+Combustion Heat Release Estimation for SI Engine
+Diagnostics Using Nonlinear Sliding Observers,"
+submitted for presentation at the 1994 American
+Control Conference, Baltimore, MD, June 1994.</mixed-citation>
+        </ref>
+        <ref id="d218e673a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d218e680" publication-type="other">
+Kao, M.H. and Moskwa, J.J., "Nonlinear Cylinder and
+Intake Manifold Pressure Observers for Engine Control
+and Diagnostics," submitted for publication at the 1994
+SAE International Congress and Exposition, Detroit,
+MI, February 1994.</mixed-citation>
+        </ref>
+        <ref id="d218e699a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d218e706" publication-type="other">
+Kao, M.H. and Moskwa, J.J., "Nonlinear Diesel Engine
+Control and Cylinder Pressure Observation," ASME J.
+of Dynamic Systems, Measurement and Control
+(submitted March 1993), and 1993 ASME Winter
+Annual Meeting, New Orleans, LA, November 1993.</mixed-citation>
+        </ref>
+        <ref id="d218e725a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d218e732" publication-type="other">
+Taylor, C.F., The Internal Combustion Engine in
+Theory and Practice, 2nd ed., M.I.T. Press, 1985.</mixed-citation>
+        </ref>
+        <ref id="d218e742a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d218e749" publication-type="other">
+Moskwa, J.J., "Automotive Engine Modeling for Real-
+time Control," Department of Mechanical Engineering,
+M.I.T., Ph.D. thesis, 1988.</mixed-citation>
+        </ref>
+        <ref id="d218e762a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d218e769" publication-type="other">
+Cho, D., "Nonlinear Control Methods for Automotive
+Powertrain Systems," Department of Mechanical
+Engineering, M.I.T., Ph.D. thesis, 1987.</mixed-citation>
+        </ref>
+        <ref id="d218e783a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d218e790" publication-type="other">
+Moskwa, J.J. and Hedrick, J.K., "Automotive Engine
+Modeling for Real-time Control Application," in Proc.
+American Contr. Conf., pp. 341-346, 1987.</mixed-citation>
+        </ref>
+        <ref id="d218e803a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d218e810" publication-type="other">
+Moskwa, J. J. and Hedrick, J.K., "Modeling and
+Validation of Automotive Engines for Control
+Algorithm Development," ASME WAM, Advanced
+Automotive Technologies, DSC - Vol.13, Ed. Karmel,
+A.M., et. al, 1989.</mixed-citation>
+        </ref>
+        <ref id="d218e829a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d218e836" publication-type="other">
+Cho, D. and Hedrick, J.K., "Automotive Powertrain
+Modeling for Control," ASME J. of Dynamic Systems,
+Measurement and Control, 114(4), pp. 568-576, 1989.</mixed-citation>
+        </ref>
+        <ref id="d218e849a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d218e856" publication-type="other">
+Weeks, R.W., "Implementation Issues in Sliding Mode
+Automotive Powertrain Controllers," Department of
+Mechanical Engineering, M.I.T., Sc.M. thesis, 1988.</mixed-citation>
+        </ref>
+        <ref id="d218e869a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d218e876" publication-type="other">
+Moskwa, J.J. and Hedrick, J.K., "Sliding Mode Control
+of Automotive Engines," in Proc. American Contr.
+Conf., Vol. 2, pp. 1040-1045, 1989.</mixed-citation>
+        </ref>
+        <ref id="d218e889a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d218e896" publication-type="other">
+Green, J.H. and Hedrick, J.K., "Nonlinear Speed
+Control for Automotive Engines," Proc. American
+Contr. Conf., 1990.</mixed-citation>
+        </ref>
+        <ref id="d218e910a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d218e917" publication-type="other">
+Choi,S-B., and Hedrick, J.K., "Experimental
+Implementation of Sliding Controls on Automotive
+Engines," in Proc. American Contr. Conf., 1992.</mixed-citation>
+        </ref>
+        <ref id="d218e930a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d218e937" publication-type="other">
+McMahon, D.H., et al., "Longitudinal Vehicle
+Controllers for IVHS: Theory and Experiment," in
+Proc. American Contr. Conf., 1992.</mixed-citation>
+        </ref>
+        <ref id="d218e950a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d218e957" publication-type="other">
+Heywood, J.B., Internal Combustion Engine
+Fundamentals, McGraw-Hill, 1988.</mixed-citation>
+        </ref>
+        <ref id="d218e967a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d218e974" publication-type="other">
+Åström, K.J., and Wittenmark, B., Computer
+Controlled Systems Theory and Design, Prentice-Hall,
+1984.</mixed-citation>
+        </ref>
+        <ref id="d218e987a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d218e994" publication-type="other">
+Chow, E.Y., and Willsky, A.S., "Analytic Redundancy
+and the Design of Robust Failure Detection Systems,"
+IEEE Trans, on Auto-Control, AC-29(7), pp. 603-614,
+1984.</mixed-citation>
+        </ref>
+        <ref id="d218e1010a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d218e1017" publication-type="other">
+SIMULINE User's Guide, The MathWorks, Inc., April,
+1993.</mixed-citation>
+        </ref>
+        <ref id="d218e1028a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d218e1035" publication-type="other">
+Dobner, D.J., "A Mathematical Engine Model for
+Development of Dynamic Engine Control," SAE paper
+800054, 1980.</mixed-citation>
+        </ref>
+        <ref id="d218e1048a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d218e1055" publication-type="other">
+Hendricks, E. and Sorenson, S.C., "Mean Value
+Modeling of Spark Ignition Engines," SAE paper No.
+900616, 1990.</mixed-citation>
+        </ref>
+        <ref id="d218e1068a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d218e1075" publication-type="other">
+Hendricks, E. and Vesterholm, T., "The Analysis of
+Mean Value SI Engine Models," SAE paper No.
+920682, 1992.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

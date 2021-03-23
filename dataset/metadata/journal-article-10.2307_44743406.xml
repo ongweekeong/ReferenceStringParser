@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, INC.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">108</volume>
+         <issue-id>i40199663</issue-id>
+         <article-id pub-id-type="jstor">44743406</article-id>
+         <title-group>
+            <article-title>Fast Algorithm for On-Board Torque Estimation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nicolò</given-names>
+                  <surname>Cavina</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Nocolò</given-names>
+                  <surname>Cavina</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Fabrizio</given-names>
+                  <surname>Ponti</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Giorgio</given-names>
+                  <surname>Rizzoni</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>738</fpage>
+         <lpage>745</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2000 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44743406"/>
+      
+      
+         <abstract>
+            <p>Electronic Throttle Control systems substitute the driver in commanding throttle position, with the driver acting on a potentiometer connected to the accelerator pedal. Such strategies allow precise control of air-fuel ratio and of other parameters, e.g. engine efficiency or vehicle driveability, but require detailed information about the engine operating conditions, in order to be implemented inside the Electronic Control Unit (ECU). In order to determine throttle position, an interpretation of the driver desire (revealed by the accelerator pedal position) is performed by the ECU. In our approach, such interpretation is carried out in terms of a torque request that can be appropriately addressed knowing the actual engine-vehicle operating conditions, which depend on the acting torques. Estimates of the torque due to in-cylinder pressure (indicated torque), as well as the torque required by the vehicle (load torque), must then be available to the control module. The estimation procedure should be at the same time sufficiently precise and fast in order to comply with the driver requests in real time. In this paper we present a signal processing procedure to estimate the cycle mean values of both the indicated and load torque, based on a frequency analysis of the engine block vibrations signal. The algorithm that has been developed tries to meet the precision and quickness requirements for on board implementation; this goal has been reached using only two frequency components of the engine block vibrations. The quality of the estimation methodology has been initially tested on an engine test cell, using a two cylinder small diesel engine and showing a good agreement between measurements and estimations, even under strong speed and load transients. The procedure is scheduled to be validated on-board a production vehicle.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d526e281a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d526e288" publication-type="other">
+Streib, H. M., Bischof, H., -"Electronic Throttle Control
+(ETC): A Cost Effective System for Improved Emissions,
+Fuel Economy, and Driveability" -SAE Technical Paper
+960338-1996.</mixed-citation>
+        </ref>
+        <ref id="d526e304a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d526e311" publication-type="other">
+Harada, J., Tornita, T., Mizuno, H., Mashiki, Z., Ito, Y., -
+"Development of Direct Injection Gasoline Engine" -SAE
+Technical Paper 970540 -1997.</mixed-citation>
+        </ref>
+        <ref id="d526e324a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d526e331" publication-type="other">
+Wirth, M., Piock, W. F., Fraidl, G. K., Schoeggl, P., Winkl-
+hofer, E., -"Gasoline DI Engines: The Complete System
+Approach by Interaction of Advanced Development Tools" -
+SAE Technical Paper 980492 -1998.</mixed-citation>
+        </ref>
+        <ref id="d526e347a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d526e354" publication-type="other">
+Iwamoto, Y., Noma, K., Nakayama, O., Yamuchi, T., Ando,
+H., -"Development of Gasoline Direct Injection Engine" -
+SAE Technical Paper 970541 -1997.</mixed-citation>
+        </ref>
+        <ref id="d526e368a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d526e375" publication-type="other">
+Kuragaki, S., Minowa, T., Kuroda, H., -"An Adaptive Cruise
+Control System Using Wheel Torque Management Tech-
+nique" -SAE Technical Paper 980606 -1998</mixed-citation>
+        </ref>
+        <ref id="d526e388a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d526e395" publication-type="other">
+Azzoni, P., Moro, D., Ponti, F., Rizzoni, G., -"Engine and
+Load Torque Estimation with Application to Electronic
+Throttle Control" -SAE Technical Paper 980795 -1998</mixed-citation>
+        </ref>
+        <ref id="d526e408a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d526e415" publication-type="other">
+Azzoni, P., -"Reconstruction of Indicated Pressure Wave-
+form in a Spark-ignition Engine from Block Vibration Mea-
+surements" -ASME Transactions, Journal of Dynamic
+Systems, Measurement and Control -pp. 614-619 -
+December 1997.</mixed-citation>
+        </ref>
+        <ref id="d526e434a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d526e441" publication-type="other">
+Stearns, S. D., -"Digital Signal Analysis" -Hayden Book
+Company -1975.</mixed-citation>
+        </ref>
+        <ref id="d526e451a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d526e458" publication-type="other">
+Braun, S., -"Mechanical Signature Analysis, Theory and
+Applications" -Academic Press -1986.</mixed-citation>
+        </ref>
+        <ref id="d526e468a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d526e475" publication-type="other">
+Oppenheim, A. K., -"Signals and Systems" -Prentice Hall.</mixed-citation>
+        </ref>
+        <ref id="d526e483a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d526e490" publication-type="other">
+Moskwa, J. J., Wang, W., Bucheger, D. J., -"A New Meth-
+odology for Engine Diagnostics and Control utilizing 'Syn-
+thetic' Engine Variables: Theoretical and Experimental
+Results" -Proceedings of the ASME Dynamics Systems
+and Control Division, DSC Vol. 64, ASME 1998.</mixed-citation>
+        </ref>
+        <ref id="d526e509a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d526e516" publication-type="other">
+Rizzoni, G., -"Estimate of Indicated Torque from Crank-
+shaft Speed Fluctuations: A Model for the Dynamics of the
+IC Engine" -IEEE Transactions on Vehicular Technology,
+Vol. 38 No. 3, August 1989.</mixed-citation>
+        </ref>
+        <ref id="d526e532a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d526e539" publication-type="other">
+Ciulli, E., Rizzoni, G., Dawson, J., -"Numerical and Experi-
+mental Study of Friction on a Single Cylinder CFR Engine"
+-SAE Technical Paper 960357.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

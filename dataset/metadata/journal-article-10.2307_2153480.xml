@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">64</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">211</issue>
+         <issue-id>i337667</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153480</article-id>
+         
+         <title-group>
+            <article-title>Balancing Domain Decomposition for Mixed Finite Elements</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Lawrence C.</given-names>
+                  <surname>Cowsar</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jan</given-names>
+                  <surname>Mandel</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mary F.</given-names>
+                  <surname>Wheeler</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>989</fpage>
+         <lpage>1015</lpage>
+         <page-range>989-1015</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1995 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153480"/>
+         
+         
+         <abstract>
+            <p>The rate of convergence of the Balancing Domain Decomposition method applied to the mixed finite element discretization of second-order elliptic equations is analyzed. The Balancing Domain Decomposition method, introduced recently by Mandel, is a substructuring method that involves at each iteration the solution of a local problem with Dirichlet data, a local problem with Neumann data, and a "coarse grid" problem to propagate information globally and to insure the consistency of the Neumann problems. It is shown that the condition number grows at worst like the logarithm squared of the ratio of the subdomain size to the element size, in both two and three dimensions and for elements of arbitrary order. The bounds are uniform with respect to coefficient jumps of arbitrary size between subdomains. The key component of our analysis is the demonstration of an equivalence between the norm induced by the bilinear form on the interface and the H&lt;sup&gt;1/2&lt;/sup&gt;-norm of an interpolant of the boundary data. Computational results from a message-passing parallel implementation on an INTEL-Delta machine demonstrate the scalability properties of the method and show almost optimal linear observed speed-up for up to 64 processors.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N55</kwd>
+            <kwd>Mixed finite elements</kwd>
+            <kwd>domain decomposition</kwd>
+            <kwd>parallel computing</kwd>
+            <kwd>second-order elliptic boundary value problems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3927817e180a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3927817e187" publication-type="book">
+R. Adams, Sobolev spaces, Academic Press, New York, 1975.<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e209a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3927817e216" publication-type="journal">
+D. N. Arnold and F. Brezzi, Mixed and nonconforming finite element methods:
+Implementation, postprocessing and error estimates, RAIRO Modél. Math. Anal. Numér.
+19 (1985), 7-32.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>7</fpage>
+               <volume>19</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e251a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3927817e258" publication-type="journal">
+S. F. Ashby, T. A. Manteuffel, and P. E. Saylor, A taxonomy for conjugate gradient methods,
+SIAM J. Numer. Anal.27 (1990), 1542-1568.<object-id pub-id-type="jstor">10.2307/2157770</object-id>
+               <fpage>1542</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e274a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3927817e281" publication-type="conference">
+J. F. Bourgat, R. Glowinski, P. Le Tallec, and M. Vidrascu, Variational formulation and
+algorithm for trace operator in domain decomposition calculations, Proc. Second Internat.
+Sympos. on Domain Decomposition Methods for Partial Differential Equations (T. Chan
+et al., eds.), SIAM, Philadelphia, PA, 1988, pp. 3-16.<person-group>
+                     <string-name>
+                     <surname>Bourgat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variational formulation and algorithm for trace operator in domain decomposition calculations</comment>
+               <fpage>3</fpage>
+               <source>Proc. Second Internat. Sympos. on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e320a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3927817e327" publication-type="journal">
+J. H. Bramble, J. E. Pasciak, and A. H. Schatz, The construction of preconditioners for elliptic
+problems by substructuring. I, Math. Comp.47 (1986), 103-134.<object-id pub-id-type="doi">10.2307/2008084</object-id>
+               <fpage>103</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e343a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3927817e350" publication-type="journal">
+— The construction of preconditioners for elliptic problems by substructuring. IV, Math.
+Comp.53 (1989), 1-24.<object-id pub-id-type="doi">10.2307/2008346</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e366a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3927817e373" publication-type="journal">
+S. C. Brenner, A multigrid alorithm for the lowest order Raviart-Thomas mixed triangular
+finite element method, SIAM J. Numer. Anal.29 (1992), 647-678.<object-id pub-id-type="jstor">10.2307/2158272</object-id>
+               <fpage>647</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e389a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3927817e396" publication-type="journal">
+F. Brezzi, On the existence, uniqueness and approximation of saddle point problems arising
+for Lagrangian multipliers, RAIRO Anal. Numér.8 (1974), 129-151.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>8</volume>
+               <source>RAIRO Anal. Numér.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e428a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3927817e435" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., R. Duran, and M. Fortin, Mixed finite elements for second order
+elliptic problems in three variables, Numer. Math.51 (1987), 237-250.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>51</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e467a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3927817e474" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., M. Fortin, and L. D. Marini, Efficient rectangular mixed finite
+elements in two and three space variables, RAIRO Modél. Math. Anal. Numér.21 (1987),
+581-604.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>581</fpage>
+               <volume>21</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e510a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3927817e517" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., and L. D. Marini, Two families of mixed finite elements for second
+order elliptic problems, Numer. Math.47 (1985), 217-235.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>47</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e549a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3927817e556" publication-type="book">
+F. Brezzi and M. Fortin, Mixed and hybrid finite element methods, Springer Series in
+Comput. Math., vol. 15, Springer-Verlag, New York, 1991.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <volume>15</volume>
+               <source>Mixed and hybrid finite element methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e585a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3927817e592" publication-type="book">
+P. G. Ciarlet, The finite element method for elliptic problems, Stud. Math. Appl., vol. 4,
+North-Holland, New York, 1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <volume>4</volume>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e621a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3927817e628" publication-type="conference">
+L. C. Cowsar, Domain decomposition methods for nonconforming finite element spaces of
+Lagrange-type, Sixth Copper Mountain Conference on Multigrid Methods (N. D. Nelson,
+T. A. Manteuffel, and Si. F. McCormick, eds.), NASA CP 3224, Hampton, VA, 1993, pp.
+93-109.<person-group>
+                     <string-name>
+                     <surname>Cowsar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition methods for nonconforming finite element spaces of Lagrange-type</comment>
+               <fpage>93</fpage>
+               <source>Sixth Copper Mountain Conference on Multigrid Methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e666a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3927817e673" publication-type="other">
+—, Dual-variable Schwarz, methods for mixed finite elements, Numer. Math., submitted.</mixed-citation>
+            </ref>
+            <ref id="d3927817e680a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3927817e687" publication-type="other">
+L. C. Cowsar and M. F. Wheeler, Parallel domain decomposition method for mixed finite
+elements for elliptic partial differential equations, in Glowinski et al. [21], pp. 358-372.</mixed-citation>
+            </ref>
+            <ref id="d3927817e698a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3927817e705" publication-type="other">
+Y.-H. De Roeck and P. Le Tallec, Analysis and test of a local domain decomposition
+preconditioner, in Glowinski et al. [21], pp. 112-128</mixed-citation>
+            </ref>
+            <ref id="d3927817e715a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3927817e722" publication-type="conference">
+L. J. Durlofsky and M. C. H. .Chien, Development of a mixed finite-element based
+compositional reservoir simulator, Proceedings 12th SPE Symposium on Reservoir
+Simulation, SPE, Inc., 1993, Society of Petroleum Engineers, pp. 221-231.<person-group>
+                     <string-name>
+                     <surname>Durlofsky</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Development of a mixed finite-element based compositional reservoir simulator</comment>
+               <fpage>221</fpage>
+               <source>Proceedings 12th SPE Symposium on Reservoir Simulation, SPE, Inc.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e757a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3927817e764" publication-type="book">
+G. A. Geist, M. T. Heath, B. W. Peyton, and P. H. Worley, A users' guide to PICL: A
+portable instrumented communication library, Tech. Rep. ORNL/TM-1 1616, Oak Ridge
+National Laboratory, Aug. 1990.<person-group>
+                     <string-name>
+                     <surname>Geist</surname>
+                  </string-name>
+                  </person-group>
+               <source>A users' guide to PICL: A portable instrumented communication library</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e793a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3927817e800" publication-type="conference">
+R. Glowinski et al., eds., Proceedings of the First International Symposium on Domain
+Decomposition Methods for Partial Differential Equations, SIAM, Philadelphia, PA, Jan.
+1987.<person-group>
+                     <string-name>
+                     <surname>Glowinski</surname>
+                  </string-name>
+                  </person-group>
+               <source>Proceedings of the First International Symposium on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e829a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3927817e836" publication-type="conference">
+— eds., Proceedings of the Fourth International Symposium on Domain Decomposition
+Methods for Partial Differential Equations, SIAM, Philadelphia, PA, 1991.<person-group>
+                     <string-name>
+                     <surname>Glowinski</surname>
+                  </string-name>
+                  </person-group>
+               <source>Proceedings of the Fourth International Symposium on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e861a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3927817e868" publication-type="other">
+R. Glowinski and M. F. Wheeler, Domain decomposition and mixed finite element methods
+for elliptic problems, in Glowinski et al. [20], pp. 144-172.</mixed-citation>
+            </ref>
+            <ref id="d3927817e879a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3927817e886" publication-type="book">
+J. L. Lions and E. Magenes, Non-homogeneous boundary value problems and applications,
+Springer-Verlag, Berlin and New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <source>Non-homogeneous boundary value problems and applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e911a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3927817e918" publication-type="journal">
+J. Mandel, Balancing domai-h decomposition, Comm. Appl. Numer. Methods9 (1993), 233-
+241.<person-group>
+                     <string-name>
+                     <surname>Mandel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>233</fpage>
+               <volume>9</volume>
+               <source>Comm. Appl. Numer. Methods</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e950a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3927817e957" publication-type="book">
+J. Mandel and M. Brezina, Balancing domain decomposition: theory and performance in two
+and three dimensions, Report No. 2, Center for Computational Mathematics, University of
+Colorado at Denver, 1993.<person-group>
+                     <string-name>
+                     <surname>Mandel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Balancing domain decomposition: theory and performance in two and three dimensions</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e986a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d3927817e993" publication-type="book">
+J. Necas, Les méthodes directes en théorie des équations elliptiques, Academia, Prague, 1967.<person-group>
+                     <string-name>
+                     <surname>Necas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Les méthodes directes en théorie des équations elliptiques</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1015a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d3927817e1022" publication-type="journal">
+J. Nedelec, Mixed finite elements in JR , Numer. Math.35 (1980), 315-341.<person-group>
+                     <string-name>
+                     <surname>Nedelec</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>35</volume>
+               <source>Numer. Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1051a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d3927817e1058" publication-type="book">
+P. A. Raviart and J. M. Thomas, A mixed finite element method for second order elliptic
+problems, Mathematical Aspects of Finite Element Methods (I. Galligani and E. Magenes,
+eds.), Lecture Notes in Math., vol. 606, Springer-Verlag, Berlin, 1977, pp. 292-315.<person-group>
+                     <string-name>
+                     <surname>Raviart</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A mixed finite element method for second order elliptic problems</comment>
+               <fpage>292</fpage>
+               <volume>606</volume>
+               <source>Mathematical Aspects of Finite Element Methods</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1097a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d3927817e1104" publication-type="book">
+T. F. Russell and M. F. Wheeler, Finite element and finite difference methods for continuous
+flows in porous media,4 Mathematics of Reservoir Simulation (R. E. Ewing, ed.), SIAM,
+Philadelphia, PA, 1983, ch. II, pp. 35-106.<person-group>
+                     <string-name>
+                     <surname>Russell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite element and finite difference methods for continuous flows in porous media</comment>
+               <fpage>35</fpage>
+               <source>Mathematics of Reservoir Simulation</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1139a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d3927817e1146" publication-type="other">
+J. M. Thomas, Sur l'analyse numérique des méthodes d'éléments finis hybrides et mixtes,
+thèse d'état, Université Pierre et Marie Curie, Paris, 1977.</mixed-citation>
+            </ref>
+            <ref id="d3927817e1156a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d3927817e1163" publication-type="journal">
+A. Weiser and M. Wheeler, On convergence of block-centered finite difjerences for elliptic
+problems, SIAM J. Numer. Anal.25 (1988), 351-357.<object-id pub-id-type="jstor">10.2307/2157321</object-id>
+               <fpage>351</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1179a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d3927817e1186" publication-type="book">
+0. B. Widlund, An extension theorem for finite element spaces with three applications,
+Numerical Techniques in Continuum Mechanics (W. Hackbusch and K. Witsch, eds.),
+GAMM, 1987, pp. 110-122.<person-group>
+                     <string-name>
+                     <surname>Widlund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An extension theorem for finite element spaces with three applications</comment>
+               <fpage>110</fpage>
+               <source>Numerical Techniques in Continuum Mechanics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3927817e1221a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d3927817e1228" publication-type="other">
+—, Iterative substructuring methods: Algorithms and theory for problems in the plane, in
+Glowinski et al. [20], pp. 113-128.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

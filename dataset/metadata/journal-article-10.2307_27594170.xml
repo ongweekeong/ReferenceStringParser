@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i27594160</issue-id>
+         <article-id pub-id-type="jstor">27594170</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X100434</article-id>
+         <title-group>
+            <article-title>Conditionally Specified Space-Time Models for Multivariate Processes</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Michael J.</given-names>
+                  <surname>Daniels</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Zhigang</given-names>
+                  <surname>Zhou</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hui</given-names>
+                  <surname>Zou</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>157</fpage>
+         <lpage>177</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594170"/>
+      
+      
+         <abstract>
+            <p>This article proposes a class of conditionally specified models for the analysis of multivariate space-time processes. Such models are useful in situations where there is sparse spatial coverage of one of the processes and much more dense coverage of the other process(es). The dependence structure across processes and over space, and time is completely specified through a neighborhood structure. These models are applicable to both point and block sources; for example, multiple pollutant monitors (point sources) or several county-level exposures (block sources). We introduce several computational tricks that are integral for model fitting, give some simple sufficient and necessary conditions for the space-time covariance matrix to be positive definite, and implement a Gibbs sampler, using Hybrid MC steps, to sample from the posterior distribution of the parameters. Model fit is assessed via the DIC. Predictive accuracy, over both time and space, is assessed both relatively and absolutely via mean squared prediction error and coverage probabilities. As an illustration of these models, we fit them to particulate matter and ozone data collected in the Los Angeles, CA, area in 1995 over a three-month period. In these data, the spatial coverage of particulate matter was sparse relative to that of ozone.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Bayesian inference</kwd>
+            <kwd>CAR models</kwd>
+            <kwd>Markov random field model</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d24968e153a1310">
+          
+            <mixed-citation id="d24968e157" publication-type="other">
+Anderson, T. W. (1984), An Introduction to Multivariate Statistical Analysis, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d24968e164a1310">
+          
+            <mixed-citation id="d24968e168" publication-type="other">
+Besag, J. E. (1974), "Spatial Interaction and the Statistical Analysis of Lattice Systems" (with discussion), Journal
+of the Royal Statistical Society, Series B, 36, 192–225.</mixed-citation>
+        </ref>
+        <ref id="d24968e178a1310">
+          
+            <mixed-citation id="d24968e182" publication-type="other">
+Best, N. G., Arnold, R. A., Thomas, A., Waller, L. A., and Conlon, E. M. (1999), "Bayesian Models for Spatially
+Correlated Disease and Exposure Data," in Bayesian Statistics 6, Oxford: Oxford University Press, pp.
+131–156.</mixed-citation>
+        </ref>
+        <ref id="d24968e195a1310">
+          
+            <mixed-citation id="d24968e199" publication-type="other">
+Brown, P. E., Diggle, P. J., Lord, M. E., and Young, P. C. (2001), "Space-Time Calibration of Radar Rainfall Data,"
+Applied Statistics, 50, 221–241.</mixed-citation>
+        </ref>
+        <ref id="d24968e210a1310">
+          
+            <mixed-citation id="d24968e214" publication-type="other">
+Carlin, B. P., and Banerjee, S. (2003), "Hierarchical Multivariate CAR Models for Spatially Correlated Survival
+Data," in Bayesian Statistics 7, Oxford: Oxford University Press, pp. 45–64.</mixed-citation>
+        </ref>
+        <ref id="d24968e224a1310">
+          
+            <mixed-citation id="d24968e228" publication-type="other">
+Carroll, R. J., Chen, R., George, E. I., Li, T. H., Newton, H. J., Schmiediche, H., and Wang, N. (1997), "Ozone
+Exposure and Population Density in Harris County, Texas" (with discussion), Journal of the American
+Statistical Association, 92, 392–415.</mixed-citation>
+        </ref>
+        <ref id="d24968e241a1310">
+          
+            <mixed-citation id="d24968e245" publication-type="other">
+Conlon, E., and Waller, L. (1998), "Flexible Neighborhood Structures in Hierarchical Models for Disease Map-
+ping," University of Minnesota Biostatistics Research Report, No. rr98-018.</mixed-citation>
+        </ref>
+        <ref id="d24968e255a1310">
+          
+            <mixed-citation id="d24968e259" publication-type="other">
+Cressie, N. A. C, and Chan, N. H. (1989), "Spatial Modeling of Regional Variables," Journal of the American
+Statistical Association, 84, 393–401.</mixed-citation>
+        </ref>
+        <ref id="d24968e269a1310">
+          
+            <mixed-citation id="d24968e273" publication-type="other">
+Cressie, N., Kaiser, M. S., Daniels, M. J., Aldworth, J., Lee, J., Lahiri, S. N., and Cox, L. H. (1999), "Spatial
+Analysis of Particulate Matter in an Urban Environment," in geoENV II—Geostatistics for Environmental
+Applications, eds. J. Gomez-Hernandez, A. Soares, and R. Froidevaux, Dordrecht: Kluwer, pp. 41–52.</mixed-citation>
+        </ref>
+        <ref id="d24968e286a1310">
+          
+            <mixed-citation id="d24968e290" publication-type="other">
+Dietrich, C. R. (1991), "Computationally Efficient Cholesky Factorization of a Covariance Matrix with Block
+Toeplitz Structure," Journal of Statistical Computation and Simulation, 45, 210–218.</mixed-citation>
+        </ref>
+        <ref id="d24968e301a1310">
+          
+            <mixed-citation id="d24968e305" publication-type="other">
+Gelfand, A. E., and Smith, A. F. M. (1990), "Sampling Based Approaches to Calculating Marginal Densities,"
+Journal of the American Statistical Association, 85, 398–409.</mixed-citation>
+        </ref>
+        <ref id="d24968e315a1310">
+          
+            <mixed-citation id="d24968e319" publication-type="other">
+Gelfand, A. E., and Vounatsou, P. (2003), "Proper Multivariate Conditional Autoregressive Models for Spatial
+Data Analysis," Biostatistics, 4, 11–25.</mixed-citation>
+        </ref>
+        <ref id="d24968e329a1310">
+          
+            <mixed-citation id="d24968e333" publication-type="other">
+Gelfand, A. E., Zhu, L., and Carlin, B. P. (2001), "On the Change of Support Problem for Spatio-Temporal Data,"
+Biostatistics, 2, 31–45.</mixed-citation>
+        </ref>
+        <ref id="d24968e343a1310">
+          
+            <mixed-citation id="d24968e347" publication-type="other">
+Gelman, A., Carlin, J. B, Stern, H., and Rubin, D. (2003), Bayesian Data Analysis (2nd ed.), Boca Raton: Chapman
+and Hall/CRC.</mixed-citation>
+        </ref>
+        <ref id="d24968e357a1310">
+          
+            <mixed-citation id="d24968e361" publication-type="other">
+Handcock, M. S., and Wallis, J. R. (1994), "An Approach to Statistical Spatial-Temporal Modeling of Meteoro-
+logical Fields," Journal of the American Statistical Association, 89, 368–378.</mixed-citation>
+        </ref>
+        <ref id="d24968e371a1310">
+          
+            <mixed-citation id="d24968e375" publication-type="other">
+Haas, T. C. ( 1995), "Local Prediction of a Spatio-Temporal Process with an Application to Wet Sulfate Deposition,"
+Journal of the American Statistical Association, 90, 1189–1199.</mixed-citation>
+        </ref>
+        <ref id="d24968e386a1310">
+          
+            <mixed-citation id="d24968e390" publication-type="other">
+—(2002), "New Systems for Estimating, and Predicting a Multivariate Spatio-Temporal Process," Environ-
+Metrics, 13, 311–332.</mixed-citation>
+        </ref>
+        <ref id="d24968e400a1310">
+          
+            <mixed-citation id="d24968e404" publication-type="other">
+Hrafnkelsson, B., and Cressie, N. (2003), "Hierarchical Modeling of Count Data with Application to Nuclear
+Fall-Out," Environmental and Ecological Statistics, 10, 179–200.</mixed-citation>
+        </ref>
+        <ref id="d24968e414a1310">
+          
+            <mixed-citation id="d24968e418" publication-type="other">
+Ilk, O., and Daniels, M. J. (2005), "Marginalized Transition Random Effects Models for Multivariate Longitudinal
+Binary Data," submitted.</mixed-citation>
+        </ref>
+        <ref id="d24968e428a1310">
+          
+            <mixed-citation id="d24968e432" publication-type="other">
+Kaiser, M. S., Daniels, M. J., Furakawa, K., and Dixon, P. (2002), "Analysis of Particulate Matter Air Pollution
+Using Markov Random Field Models of Spatial Dependence," Environmetrics, 13, 615–628.</mixed-citation>
+        </ref>
+        <ref id="d24968e442a1310">
+          
+            <mixed-citation id="d24968e446" publication-type="other">
+Kaiser, M. S., and Cressie, N. (2000), "The Construction of Multivariate Distributions from Markov Random
+Fields," Journal of Multivariate Analysis, 73, 199–220.</mixed-citation>
+        </ref>
+        <ref id="d24968e456a1310">
+          
+            <mixed-citation id="d24968e460" publication-type="other">
+Kibria, B., Golam, M., Sun, L., Zidek, J.V., and Le, N.D. (2002), "Bayesian Spatial Prediction of Random Space-
+Time Fields with Application to Mapping PM2.5 Exposure," Journal of the American Statistical Association,
+97,112–124.</mixed-citation>
+        </ref>
+        <ref id="d24968e474a1310">
+          
+            <mixed-citation id="d24968e478" publication-type="other">
+Kim, H., Sun, D., and Tsutakawa, R. K. (2001), "A Bivariate Bayes Method for Improving the Estimates of
+Mortality Rates with a Two-Fold Conditional Autoregressive Model," Journal of the American Statistical
+Association, 96, 1506–1521.</mixed-citation>
+        </ref>
+        <ref id="d24968e491a1310">
+          
+            <mixed-citation id="d24968e495" publication-type="other">
+Knorr-Held, L. (2000), "Bayesian Modeling of Inseparable Space-Time Variation in Disease Risk," Statistics in
+Medicine, 19, 2555–2567.</mixed-citation>
+        </ref>
+        <ref id="d24968e505a1310">
+          
+            <mixed-citation id="d24968e509" publication-type="other">
+Knorr-Held, L., and Rue, H. (2002), "On Block Updating of Markov Random Field Models for Disease Mapping,"
+Scandinavian Journal of Statistics, 29, 597–614.</mixed-citation>
+        </ref>
+        <ref id="d24968e519a1310">
+          
+            <mixed-citation id="d24968e523" publication-type="other">
+Le, N. D., Sun, W., Zidek, J. V. (1997), "Bayesian Multivariate Spatial Interpolation with Data Missing by Design,"
+59, 501–510.</mixed-citation>
+        </ref>
+        <ref id="d24968e533a1310">
+          
+            <mixed-citation id="d24968e537" publication-type="other">
+Mardia, K. V. (1988), "Multi-Dimensional Multivariate Gaussian Markov Random Fields with Application to
+Image Processing," Journal of Multivariate Analysis, 24, 265-284.</mixed-citation>
+        </ref>
+        <ref id="d24968e547a1310">
+          
+            <mixed-citation id="d24968e551" publication-type="other">
+Mardia, K. V., Goodall, C, Redfern, E. J., and Alonso, F. J. (1998), "The Kriged Kaiman Filter" (with discussion),
+TEST, 1, 217–285.</mixed-citation>
+        </ref>
+        <ref id="d24968e562a1310">
+          
+            <mixed-citation id="d24968e566" publication-type="other">
+Neal, R. M. (1994), "An Improved Acceptance Procedure for the Hybrid Monte-Carlo Algorithm," Journal of
+Computational Physics, 111, 194–203.</mixed-citation>
+        </ref>
+        <ref id="d24968e576a1310">
+          
+            <mixed-citation id="d24968e580" publication-type="other">
+Niu, X.-F, McKeague, I. W., and Eisner, J. B. (2003), "Seasonal Space-Time Models for Climate Systems,"
+Statistical Inference for Stochastic Processes, 6, 111–133.</mixed-citation>
+        </ref>
+        <ref id="d24968e590a1310">
+          
+            <mixed-citation id="d24968e594" publication-type="other">
+Sampson, P. D., and Guttorp, P. ( 1992), "Nonparametric Estimation of Nonstationary Spatial Covariance Structure,"
+Journal of the American Statistical Association, 87, 108–119.</mixed-citation>
+        </ref>
+        <ref id="d24968e604a1310">
+          
+            <mixed-citation id="d24968e608" publication-type="other">
+Shaddick, G., and Wakefield, J. (2002), "Modelling Daily Multivariate Pollutant Data at Multiple Sites," Applied
+Statistics, 51, 351–372.</mixed-citation>
+        </ref>
+        <ref id="d24968e618a1310">
+          
+            <mixed-citation id="d24968e622" publication-type="other">
+Spiegelhalter, D. J., Best, N. G., Carlin, B. P., and van der Linde, A. (2002), "Bayesian Measures of Model
+Complexity and Fit," Journal of the Royal Statistical Society, Series B, 64, 583–616.</mixed-citation>
+        </ref>
+        <ref id="d24968e632a1310">
+          
+            <mixed-citation id="d24968e636" publication-type="other">
+Stein, M. L. (2003), "Space Time Covariance Functions," The University of Chicago, Center for Integrating
+Statistical and Environmental Science Technical Report, No. 4.</mixed-citation>
+        </ref>
+        <ref id="d24968e647a1310">
+          
+            <mixed-citation id="d24968e651" publication-type="other">
+Stroud, J. R., Müller, P., and Sanso, B. (2001), "Dynamic Models for Spatiotemporal Data," Journal of the Royal
+Statistical Society, Series B, 63, 673–689.</mixed-citation>
+        </ref>
+        <ref id="d24968e661a1310">
+          
+            <mixed-citation id="d24968e665" publication-type="other">
+Sun, D., Tsutakawa, R. K., and Speckman, P. L. (1999), "Posterior Distribution of Hierarchical Models using
+CAR(l) Distributions," Biometrika, 86, 341–350.</mixed-citation>
+        </ref>
+        <ref id="d24968e675a1310">
+          
+            <mixed-citation id="d24968e679" publication-type="other">
+Van den Eeden, S. (2001), "Air Pollution and Morbidity and Mortality Among California Kaiser Permanente
+members," Kaiser Permanente Research Report.</mixed-citation>
+        </ref>
+        <ref id="d24968e689a1310">
+          
+            <mixed-citation id="d24968e693" publication-type="other">
+Wikle, C. K., Berliner, L. M., and Cressie, N. (1998), "Hierarchical Bayesian Space-Time Models," Environmental
+and Ecological Statistics, 5, 117–154.</mixed-citation>
+        </ref>
+        <ref id="d24968e703a1310">
+          
+            <mixed-citation id="d24968e707" publication-type="other">
+Wikle, C. K., and Cressie, N. (1999), "A Dimension-Reduced Approach to Space-Time Kaiman Filtering,"
+Biometrika, 86, 815–829.</mixed-citation>
+        </ref>
+        <ref id="d24968e717a1310">
+          
+            <mixed-citation id="d24968e721" publication-type="other">
+Zhu, L., Gelfand, A. E., and Carlin, B. P. (2003), "Hierarchical Regression with Misaligned Spatial Data: Relating
+Ambient Ozone and Pédiatrie Asthma ER Visits in Atlanta," Environmetrics, 14, 537–557.</mixed-citation>
+        </ref>
+        <ref id="d24968e732a1310">
+          
+            <mixed-citation id="d24968e736" publication-type="other">
+Zidek, J. V., Sun, W., and Le, N. D. (2001), "Designing and Integrating Composite Networks for Monitoring
+Multivariate Gaussian Pollution Fields," Applied Statistics, 49, 63–79.</mixed-citation>
+        </ref>
+        <ref id="d24968e746a1310">
+          
+            <mixed-citation id="d24968e750" publication-type="other">
+Zidek, J. V, Sun, W., Le, N. D., and Ozkaynak, H. (2002), "Contending with Space-Time Interaction in the Spatial
+Prediction of Pollutions: Vancouver's Hourly ambient PMio Field," Environmetrics, 13, 595–613.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

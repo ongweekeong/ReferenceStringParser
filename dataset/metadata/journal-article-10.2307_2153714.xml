@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">216</issue>
+         <issue-id>i337672</issue-id>
+         <article-id pub-id-type="jstor">2153714</article-id>
+         
+         <title-group>
+            <article-title>The p and hp Versions of the Finite Element Method for Problems with Boundary Layers</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Christoph</given-names>
+                  <surname>Schwab</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Manil</given-names>
+                  <surname>Suri</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1403</fpage>
+         <lpage>1429</lpage>
+         <page-range>1403-1429</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153714"/>
+         
+         
+         <abstract>
+            <p>We study the uniform approximation of boundary layer functions exp(-x/d) for x ∈ (0, 1), d ∈ (0, 1], by the p and hp versions of the finite element method. For the p version (with fixed mesh), we prove super-exponential convergence in the range &lt;latex&gt;$p + 1/2 &gt; e/(2d)$&lt;/latex&gt;. We also establish, for this version, an overall convergence rate of &lt;tex-math&gt;$\mathcal{O}(p^{-1} \sqrt{\ln p})$&lt;/tex-math&gt; in the energy norm error which is uniform in d, and show that this rate is sharp (up to the &lt;tex-math&gt;$\sqrt{\ln p}$&lt;/tex-math&gt; term) when robust estimates uniform in d ∈ (0, 1] are considered. For the p version with variable mesh (i.e., the hp version), we show that exponential convergence, uniform in d ∈ (0, 1], is achieved by taking the first element at the boundary layer to be of size O(pd). Numerical experiments for a model elliptic singular perturbation problem show good agreement with our convergence estimates, even when few degrees of freedom are used and when d is as small as, e.g., 10&lt;sup&gt;-8&lt;/sup&gt;. They also illustrate the superiority of the hp approach over other methods, including a low-order h version with optimal "exponential" mesh refinement. The estimates established in this paper are also applicable in the context of corresponding spectral element methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>35B30</kwd>
+            <kwd>65N15</kwd>
+            <kwd>Boundary layer</kwd>
+            <kwd>singularly perturbed problem</kwd>
+            <kwd>p version</kwd>
+            <kwd>hp version</kwd>
+            <kwd>spectral element method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d762264e160a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d762264e167" publication-type="journal">
+D. N. Arnold and R. S. Falk. Asymptotic analysis of the boundary layer for the Reissner-
+Mindlin plate model. SIAM J. Math. Anal.27: 486-514, 1996.<person-group>
+                     <string-name>
+                     <surname>Arnold</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>486</fpage>
+               <volume>27</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e199a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d762264e206" publication-type="journal">
+I. Babuška and M. Suri. On locking and robustness in the finite element method. SIAM
+J. Numer. Anal., 29:1261-1293, 1992. MR 94c:65128<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1261</fpage>
+               <volume>29</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e238a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d762264e245" publication-type="other">
+I. Babuška and B. A. Szabo. Lecture notes on finite element analysis, (to appear).</mixed-citation>
+            </ref>
+            <ref id="d762264e252a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d762264e259" publication-type="journal">
+I. A. Blatov and V. V. Strygin. On estimates best possible in order in the Galerkin
+finite element method for singularly perturbed boundary value problems. Russian
+Acad. Sci. Dokl. Math., 47:93-96, 1993.<person-group>
+                     <string-name>
+                     <surname>Blatov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>47</volume>
+               <source>Russian Acad. Sci. Dokl. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e295a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d762264e302" publication-type="journal">
+C. Canuto. Spectral methods and a maximum principle. Math. Comp., 51:615-629, 1988. MR
+89d:65099<object-id pub-id-type="doi">10.2307/2008766</object-id>
+               <fpage>615</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e318a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d762264e325" publication-type="journal">
+E. C. Gartland. Uniform high-order difference schemes for a singularly perturbed two-point
+boundary value problem. Math. Comp., 48:551-564, 1987. MR 89a:65116<object-id pub-id-type="doi">10.2307/2007827</object-id>
+               <fpage>551</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e341a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d762264e348" publication-type="book">
+W. B. Liu and J. Shen. A new efficient spectral Galerkin method for singular perturbation
+problems, Preprint, Department of Mathematics, Penn State University, State College Pa
+(1994).<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <source>A new efficient spectral Galerkin method for singular perturbation problems</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e377a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d762264e384" publication-type="journal">
+W. B. Liu and T. Tang. Boundary layer resolving methods for singularly perturbed problems,
+submitted to I.M.A. J. Numer. Anal.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <source>I.M.A. J. Numer. Anal.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e406a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d762264e413" publication-type="journal">
+F. W. J. Olver. Error bounds for the Liouville-Green (or WKB) approximation. Proc. Cam-
+bridge Philos. Soc., 57:790-810, 1961. MR 24:A313<person-group>
+                     <string-name>
+                     <surname>Olver</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>790</fpage>
+               <volume>57</volume>
+               <source>Proc. Cambridge Philos. Soc.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e445a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d762264e452" publication-type="book">
+I. S. Gradshteyn and I. M. Ryzhik. Table of Series, Integrals and Products, enlarged edition.
+Wiley, New York, 1980. MR 81g:33001 /<person-group>
+                     <string-name>
+                     <surname>Gradshteyn</surname>
+                  </string-name>
+                  </person-group>
+               <source>Table of Series, Integrals and Products, enlarged edition</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e478a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d762264e485" publication-type="journal">
+H. Hakula, Y. Leino, and J. Pitkdranta. Scale resolution, layers and high-order numerical
+modeling of shells, to appear in Comp. Meth. Appl. Mech. Eng., 1996.<person-group>
+                     <string-name>
+                     <surname>Hakula</surname>
+                  </string-name>
+                  </person-group>
+               <source>Comp. Meth. Appl. Mech. Eng.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e510a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d762264e517" publication-type="book">
+H. Kraus. Thin elastic shells: an introduction to the theoretical foundations and the analysis
+of their static and dynamic behavior. New York, Wiley 1967.<person-group>
+                     <string-name>
+                     <surname>Kraus</surname>
+                  </string-name>
+                  </person-group>
+               <source>Thin elastic shells: an introduction to the theoretical foundations and the analysis of their static and dynamic behavior</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e542a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d762264e549" publication-type="journal">
+A. H. Schatz and L. B. Wahlbin. On the finite element method for singularly perturbed
+reaction-diffusion problems in two and one dimensions. Math. Comp., 40:47-89, 1983. MR
+84c:65137<object-id pub-id-type="doi">10.2307/2007363</object-id>
+               <fpage>47</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e568a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d762264e575" publication-type="journal">
+K. Scherer. On optimal global error bounds obtained by scaled local error estimates. Nu-
+mer. Math, 36:151-176, 1981. MR 82e:65053<person-group>
+                     <string-name>
+                     <surname>Scherer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>151</fpage>
+               <volume>36</volume>
+               <source>Numer. Math</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e607a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d762264e614" publication-type="conference">
+C. Schwab and M. Suri. Locking and boundary layer effects in the finite element approxima-
+tion of the Reissner-Mindlin plate model. Proc. Symp. Appl. Math., 48:367-371, 1994. MR
+95m:65195<person-group>
+                     <string-name>
+                     <surname>Schwab</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Locking and boundary layer effects in the finite element approximation of the Reissner-Mindlin plate model</comment>
+               <fpage>367</fpage>
+               <volume>48</volume>
+               <source>Proc. Symp. Appl. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e652a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d762264e659" publication-type="other">
+C. Schwab, M. Suri, and C. Xenophontos. The hp finite element method for problems in
+mechanics with boundary layers (to appear).</mixed-citation>
+            </ref>
+            <ref id="d762264e670a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d762264e677" publication-type="journal">
+C. Schwab and S. Wright. Boundary layers in hierarchical beam and plate models, report.
+Journal of Elasticity38 (1995), 1-40. MR 96d:73044<person-group>
+                     <string-name>
+                     <surname>Schwab</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>38</volume>
+               <source>Journal of Elasticity</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e709a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d762264e716" publication-type="journal">
+G.I. Shishkin. Grid approximation of singularly perturbed parabolic equations with internal
+layers. Soviet J. Numer. Anal. Math. Modelling, 3:393-407, 1988. MR 89k:65109<person-group>
+                     <string-name>
+                     <surname>Shishkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>393</fpage>
+               <volume>3</volume>
+               <source>Soviet J. Numer. Anal. Math. Modelling</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e748a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d762264e755" publication-type="journal">
+R. Vulanović, D. Herceg, and N. Petrovi6. On the extrapolation for a singularly perturbed
+boundary value problem. Computing, 36:69-79, 1986. MR 88a:65008<person-group>
+                     <string-name>
+                     <surname>Vulanović</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>36</volume>
+               <source>Computing</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d762264e787a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d762264e794" publication-type="other">
+C. A. Xenophontos. The hp version of the finite element method for singularly perturbed
+problems in unsmooth domains. Ph.D. Dissertation, UMBC, 1996.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

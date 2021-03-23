@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260290</issue-id>
+         <article-id pub-id-type="doi">10.2307/1391090</article-id>
+         
+         <title-group>
+            <article-title>Graphical Exploratory Analysis of Survival Data</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Thomas</given-names>
+                  <surname>Lumley</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Patrick</given-names>
+                  <surname>Heagerty</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>738</fpage>
+         <lpage>749</lpage>
+         <page-range>738-749</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391090"/>
+         
+         
+         <abstract>
+            <p>We present dynamic and static graphs for exploratory analysis of survival data. These graphs are based on a smooth semiparametric estimate of the survival probability as a function of time and a covariate. We overlay a contour plot of the conditional survival distribution on a scatterplot of time and covariate. This is augmented by plots of the estimated survival function at particular covariate values and the receiver operating characteristic curve at particular time points. In our XLisp-Stat implementation these plots are linked and the time and covariate values for the augmenting plots can be varied dynamically. The methods are illustrated on data from a clinical study of liver disease.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Dynamic graphics</kwd>
+            <kwd>Kernel smoothing</kwd>
+            <kwd>Receiver operating characteristic curve</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d674116e153a1310">
+               
+               <mixed-citation id="d674116e157" publication-type="journal">
+Akritas, M.G. (1994), "Nearest Neighbor Estimation of a Bivariate Distribution Under Random Censoring,"
+The Annals of Statistics, 22, 1299-1327.<object-id pub-id-type="jstor">10.2307/2242227</object-id>
+               <fpage>1299</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e173a1310">
+               
+               <mixed-citation id="d674116e177" publication-type="journal">
+Atkinson, E.N. (1995), "Interactive Dynamic Graphics for Exploratory Survival Analysis," The American
+Statistician, 49, 77-84.<person-group>
+                     <string-name>
+                     <surname>Atkinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>49</volume>
+               <source>The American Statistician</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e209a1310">
+               
+               <mixed-citation id="d674116e213" publication-type="journal">
+Begg, C.G. (1991), "Advances in Statistical Methodology for Diagnostic Medicine in the 1980s," Statistics
+in Medicine, 10, 1887-1895.<person-group>
+                     <string-name>
+                     <surname>Begg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1887</fpage>
+               <volume>10</volume>
+               <source>Statistics in Medicine</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e245a1310">
+               
+               <mixed-citation id="d674116e249" publication-type="book">
+Fleming, T.R., and Harrington, D.P. (1991), Counting Processes and Survival Analysis, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Fleming</surname>
+                  </string-name>
+                  </person-group>
+               <source>Counting Processes and Survival Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e272a1310">
+               
+               <mixed-citation id="d674116e276" publication-type="journal">
+Gentleman, R., and Crowley, J. (1991), "Graphical Methods for Censored Data," Journal of the American
+Statistical Association, 86, 678-683.<object-id pub-id-type="doi">10.2307/2290397</object-id>
+               <fpage>678</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e292a1310">
+               
+               <mixed-citation id="d674116e296" publication-type="book">
+Heagerty, P.J., Lumley, T., and Pepe, M.S. (1998), "Time-Dependent ROC Curves for Censored Survival Data
+and a Diagnostic Marker," Technical Report 160, Department of Biostatistics, University of Washington.<person-group>
+                     <string-name>
+                     <surname>Heagerty</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time-Dependent ROC Curves for Censored Survival Data and a Diagnostic Marker</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e321a1310">
+               
+               <mixed-citation id="d674116e325" publication-type="journal">
+Hyndman, R.J., Bashtannyk, D.M., and Grunwald, G.K. (1996), "Estimating and Visualizing Conditional
+Densities," Journal of Computational and Graphical Statistics, 5, 315-336.<object-id pub-id-type="doi">10.2307/1390887</object-id>
+               <fpage>315</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e341a1310">
+               
+               <mixed-citation id="d674116e345" publication-type="journal">
+Lumley, T. (1998), "Survival Analysis in XLISP-Stat: A Semiliterate Program," Journal of Statistical Software,
+3, 1-90.<person-group>
+                     <string-name>
+                     <surname>Lumley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>3</volume>
+               <source>Journal of Statistical Software</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e377a1310">
+               
+               <mixed-citation id="d674116e381" publication-type="journal">
+Schemper, M., and Stare, J. (1996), "Explained Variation in Survival Analysis," Statistics in Medicine, 15,
+1999-2012.<person-group>
+                     <string-name>
+                     <surname>Schemper</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1999</fpage>
+               <volume>15</volume>
+               <source>Statistics in Medicine</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e413a1310">
+               
+               <mixed-citation id="d674116e417" publication-type="book">
+Swets, J.A., and Pickett, R.M. (1982), Evaluation of Diagnostic Systems: Methods from Signal Detection
+Theory, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Swets</surname>
+                  </string-name>
+                  </person-group>
+               <source>Evaluation of Diagnostic Systems: Methods from Signal Detection Theory</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e443a1310">
+               
+               <mixed-citation id="d674116e447" publication-type="book">
+Tierney, L. (1990), LISP-STAT: An Object-oriented Environmentfor Statistical Computing and Dynamic Graph-
+ics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Tierney</surname>
+                  </string-name>
+                  </person-group>
+               <source>LISP-STAT: An Object-oriented Environmentfor Statistical Computing and Dynamic Graphics</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d674116e469a1310">
+               
+               <mixed-citation id="d674116e473" publication-type="book">
+Tufte, E.R. (1997), Visual Explanations, Cheshire, CT: Graphics Press.<person-group>
+                     <string-name>
+                     <surname>Tufte</surname>
+                  </string-name>
+                  </person-group>
+               <source>Visual Explanations</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

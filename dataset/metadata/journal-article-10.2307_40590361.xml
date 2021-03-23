@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">78</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">268</issue>
+         <issue-id>i40025496</issue-id>
+         <article-id pub-id-type="jstor">40590361</article-id>
+         <title-group>
+            <article-title>
+          MULTILEVEL FINITE ELEMENT PRECONDITIONING FOR
+          <tex-math>$\sqrt 3 $</tex-math>
+          REFINEMENT
+        </article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>JAN</given-names>
+                  <surname>MAES</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>PETER</given-names>
+                  <surname>OSWALD</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>1869</fpage>
+         <lpage>1890</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/40590361"/>
+      
+      
+         <abstract>
+            <p>We develop a BPX-type multilevel method for the numerical solution of second order elliptic equations in ℝ² using piecewise linear polynomials on a sequence of triangulations given by regular
+              $\sqrt 3 $
+              refinement. A multilevel splitting of the finest grid space is obtained from the nonnested sequence of spaces on the coarser triangulations using prolongation operators based on simple averaging procedures. The main result is that the condition number of the corresponding BPX preconditioned linear system is uniformly bounded independent of the size of the problem. The motivation to consider
+              $\sqrt 3 $
+              refinement stems from the fact that it is a slower topological refinement than the usual dyadic refinement, and that it alternates the orientation of the refined triangles. Therefore we expect a reduction of the amount of work when compared to the classical BPX preconditioner, although both methods have the same asymptotical complexity. Numerical experiments confirm this statement.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d987344e317a1310">
+            <label>[1]</label>
+          
+            <mixed-citation id="d987344e324" publication-type="other">
+B. Aksoylu and M. Holst, Optimality of multilevel preconditioners for local mesh refinement
+in three dimensions, SIAM J. Num. Anal. 44 (2006), 1005-1025. MR2231853 (2007d:65029)</mixed-citation>
+        </ref>
+        <ref id="d987344e334a1310">
+            <label>[2]</label>
+          
+            <mixed-citation id="d987344e341" publication-type="other">
+J. H. Bramble, Multigrid methods. Pitman Research Notes in Mathematics Series, vol. 294,
+Longman Scientific, 1993. MR1247694 (95b:65002)</mixed-citation>
+        </ref>
+        <ref id="d987344e351a1310">
+            <label>[3]</label>
+          
+            <mixed-citation id="d987344e358" publication-type="other">
+
+              J. H. Bramble, J. E. Pasciak, and O. Steinbach, On the stability of the L
+              
+              projection in
+            
+H‗(Ω), Math. Comp. 71 (2002), 147-156. MR1862992 (2002h:65175)</mixed-citation>
+        </ref>
+        <ref id="d987344e371a1310">
+            <label>[4]</label>
+          
+            <mixed-citation id="d987344e378" publication-type="other">
+J. H. Bramble, J. E. Pasciak, and J. Xu, Parallel multilevel preconditioned, Math. Comp.
+55 (1990), 1-22. MR1023042 (90k:65170)</mixed-citation>
+        </ref>
+        <ref id="d987344e389a1310">
+            <label>[5]</label>
+          
+            <mixed-citation id="d987344e396" publication-type="other">
+S. C. Brenner, An optimal-order multigrid method for PI nonconforming finite elements,
+Math. Comp. 52 (1989), 1-15. MR946598 (89f:65119)</mixed-citation>
+        </ref>
+        <ref id="d987344e406a1310">
+            <label>[6]</label>
+          
+            <mixed-citation id="d987344e413" publication-type="other">
+--- , An optimal-order nonconforming multigrid method for the biharmonic equation,
+SIAM J. Numer. Anal. 26 (1989), 1124-1138. MR1014877 (90i:65189)</mixed-citation>
+        </ref>
+        <ref id="d987344e423a1310">
+            <label>[7]</label>
+          
+            <mixed-citation id="d987344e430" publication-type="other">
+--- , Convergence of nonconforming multigrid methods without full elliptic regularity,
+Math. Comp. 68 (1999), 25-53. MR1620215 (99c:65229)</mixed-citation>
+        </ref>
+        <ref id="d987344e440a1310">
+            <label>[8]</label>
+          
+            <mixed-citation id="d987344e447" publication-type="other">
+Z. Chen and P. Oswald, Multigrid and multilevel methods for nonconforming Q₁ elements,
+Math. Comp. 67 (1998), no. 222, 667-693. MR1451319 (98g:65118)</mixed-citation>
+        </ref>
+        <ref id="d987344e457a1310">
+            <label>[9]</label>
+          
+            <mixed-citation id="d987344e464" publication-type="other">
+W. Dahmen, Wavelet and multiscale methods for operator equations, Acta Numerica 6 (1997),
+55-228. MR1489256 (98m:65102)</mixed-citation>
+        </ref>
+        <ref id="d987344e474a1310">
+            <label>[10]</label>
+          
+            <mixed-citation id="d987344e481" publication-type="other">
+
+              L. Kobbelt,
+              
+              -subdivision, Computer Graphics Proceedings, Annual Conference Series,
+            
+ACM SIGGRAPH, 2000, pp. 103-112.</mixed-citation>
+        </ref>
+        <ref id="d987344e495a1310">
+            <label>[11]</label>
+          
+            <mixed-citation id="d987344e502" publication-type="other">
+
+              U. Labsik and G. Greiner, Interpolatory
+              
+              -subdivision, Comput. Graph. Forum 19 (2000),
+            
+no. 3, 131-138.</mixed-citation>
+        </ref>
+        <ref id="d987344e515a1310">
+            <label>[12]</label>
+          
+            <mixed-citation id="d987344e522" publication-type="other">
+P. Oswald, On a hierarchical basis multilevel method with nonconforming P1 elements, Nu-
+mer. Math. 62 (1992), 189-212. MR1165910 (93b:65059)</mixed-citation>
+        </ref>
+        <ref id="d987344e532a1310">
+            <label>[13]</label>
+          
+            <mixed-citation id="d987344e539" publication-type="other">
+--- , On discrete norm estimates related to multilevel preconditioners in the finite element
+method, Constructive Theory of Functions (K. G. Ivanov, P. Petrushev, and B. Sendov, eds.),
+Proc. Int. Conf. Varna, 1991, Bulg. Acad. Sci., Sofia, 1992, pp. 203-214.</mixed-citation>
+        </ref>
+        <ref id="d987344e552a1310">
+            <label>[14]</label>
+          
+            <mixed-citation id="d987344e559" publication-type="other">
+--- , Multilevel finite element approximation: Theory and applications, B.G. Teubner,
+Stuttgart, 1994. MR1312165 (95k:65110)</mixed-citation>
+        </ref>
+        <ref id="d987344e569a1310">
+            <label>[15]</label>
+          
+            <mixed-citation id="d987344e576" publication-type="other">
+--- , Preconditioners for nonconforming elements, Math. Comp. 65 (1996), 923-941.
+MR1333322 (96j:65056)</mixed-citation>
+        </ref>
+        <ref id="d987344e586a1310">
+            <label>[16]</label>
+          
+            <mixed-citation id="d987344e593" publication-type="other">
+--- , Intergrid transfer operators and multilevel preconditioners for nonconforming dis-
+cretizations, Appl. Numer. Math. 23 (1997), 139-158. MR1438084 (98g:65110)</mixed-citation>
+        </ref>
+        <ref id="d987344e604a1310">
+            <label>[17]</label>
+          
+            <mixed-citation id="d987344e611" publication-type="other">
+--- , Optimality of multilevel preconditioning for nonconforming P1 finite elements, Nu-
+mer. Math. 111 (2008), no. 2, 267-291. MR2456833</mixed-citation>
+        </ref>
+        <ref id="d987344e621a1310">
+            <label>[18]</label>
+          
+            <mixed-citation id="d987344e628" publication-type="other">
+H. Yserentant, On the multi-level splitting of finite element spaces, Numer. Math. 49 (1986),
+379-412. MR853662 (88d:65068a)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

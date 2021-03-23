@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">223</issue>
+         <issue-id>i344563</issue-id>
+         <article-id pub-id-type="jstor">2585178</article-id>
+         
+         <title-group>
+            <article-title>Subquadratic-Time Factoring of Polynomials over Finite Fields</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Erich</given-names>
+                  <surname>Kaltofen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Victor</given-names>
+                  <surname>Shoup</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1179</fpage>
+         <lpage>1197</lpage>
+         <page-range>1179-1197</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585178"/>
+         
+         
+         <abstract>
+            <p>New probabilistic algorithms are presented for factoring univariate polynomials over finite fields. The algorithms factor a polynomial of degree n over a finite field of constant cardinality in time O (n&lt;sup&gt;1.815&lt;/sup&gt;). Previous algorithms required time &lt;tex-math&gt;$\circleddash(n^{2+o(1)}$&lt;/tex-math&gt;). The new algorithms rely on fast matrix multiplication techniques. More generally, to factor a polynomial of degree n over the finite field  F&lt;sub&gt;q&lt;/sub&gt; with q elements, the algorithms use O(n&lt;sup&gt;1.815&lt;/sup&gt; log q) arithmetic operations in  F&lt;sub&gt;q&lt;/sub&gt;. The new "baby step/giant step" techniques used in our algorithms also yield new fast practical algorithms at super-quadratic asymptotic running time, and subquadratic-time methods for manipulating normal bases of finite fields.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00944-2</kwd>
+            <kwd>12E20</kwd>
+            <kwd>13P05</kwd>
+            <kwd>68Q40</kwd>
+            <kwd>Factoring</kwd>
+            <kwd>Polynomials</kwd>
+            <kwd>Finite Fields</kwd>
+            <kwd>Randomized Algorithms</kwd>
+            <kwd>Normal Bases</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d1291591e163a1310">
+               
+               <p>
+               <mixed-citation id="d1291591e167" publication-type="conference">
+A preliminary version of this paper appears in the Proc. 27th Annual ACM Symp. Theory of
+Computing, ACM Press, pp. 398-406 (1995).<fpage>398</fpage>
+                  <source>Proc. 27th Annual ACM Symp. Theory of Computing</source>
+                  <year>1995</year>
+               </mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1291591e195a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1291591e202" publication-type="book">
+Aho, A., Hopcroft, J. and Ullman, J., Design and Analysis of Computer Algorithms, Addison
+and Wesley, Reading, MA, 1974. MR 54:1706<person-group>
+                     <string-name>
+                     <surname>Aho</surname>
+                  </string-name>
+                  </person-group>
+               <source>Design and Analysis of Computer Algorithms</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e227a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1291591e234" publication-type="journal">
+Baur, W. and Strassen, V., The complexity of partial derivatives, Theoretical Comp. Sci., vol.
+22, 317-330, 1983. MR 84c:68027<person-group>
+                     <string-name>
+                     <surname>Baur</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>22</volume>
+               <source>Theoretical Comp. Sci.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e266a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1291591e273" publication-type="conference">
+Ben-Or, M., Probabilistic algorithms in finite fields, Proc. 22nd IEEE Symp. Foundations
+Comp. Sci., 394-398, 1981.<person-group>
+                     <string-name>
+                     <surname>Ben-Or</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Probabilistic algorithms in finite fields</comment>
+               <fpage>394</fpage>
+               <source>Proc. 22nd IEEE Symp. Foundations Comp. Sci.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e305a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1291591e312" publication-type="journal">
+Berlekamp, E. R., Factoring polynomials over large finite fields, Math. Comp., 24, 1970, 713-
+735. MR 43:1948<object-id pub-id-type="doi">10.2307/2004849</object-id>
+               <fpage>713</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e329a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1291591e336" publication-type="journal">
+Brent, R. P., Gustavson, F. G., and Yun, D. Y. Y., Fast solution of Toeplitz systems of
+equations and computation of Pade approximants, J. Algorithms, vol. 1, 259-295, 1980. MR
+82d:65033<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>259</fpage>
+               <volume>1</volume>
+               <source>J. Algorithms</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e371a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1291591e378" publication-type="journal">
+Brent, R. P. and Kung, H. T., Fast algorithms for manipulating formal power series, J. ACM,
+vol. 25, no. 4, 581-595, 1978. MR 58:25090<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>581</fpage>
+               <volume>25</volume>
+               <source>J. ACM</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e413a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1291591e420" publication-type="conference">
+Canny, J., Kaltofen, E. and Lakshman Yagati, Solving systems of non-linear polynomial equa-
+tions faster, Proc. ACM-SIGSAM 1989 Internat. Symp. Symbolic Algebraic Comput., 121-
+128, ACM Press, 1989.<person-group>
+                     <string-name>
+                     <surname>Canny</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Solving systems of non-linear polynomial equations faster</comment>
+               <fpage>121</fpage>
+               <source>Proc. ACM-SIGSAM 1989 Internat. Symp. Symbolic Algebraic Comput.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e455a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1291591e462" publication-type="journal">
+Cantor, D. G. and Kaltofen, E., Orl fast multiplication of polynomials over arbitrary algebras,
+Acta Inform., vol. 28, no. 7, 693-701, 1991. MR 92i:68068<person-group>
+                     <string-name>
+                     <surname>Cantor</surname>
+                  </string-name>
+                  </person-group>
+               <issue>7</issue>
+               <fpage>693</fpage>
+               <volume>28</volume>
+               <source>Acta Inform.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e497a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1291591e504" publication-type="journal">
+Cantor, D. G. and Zassenhaus, H., A new algorithm for factoring polynomials over finite fields,
+Math. Comp., vol. 36, 587-592, 1981. MR 82e:12020<object-id pub-id-type="doi">10.2307/2007663</object-id>
+               <fpage>587</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e520a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1291591e527" publication-type="journal">
+Coppersmith, D., Rapid multiplication of rectangular matrices, SIAM J. Comput., vol. 11,
+no. 3, 467-471, 1982. MR 83j:68047a<person-group>
+                     <string-name>
+                     <surname>Coppersmith</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>467</fpage>
+               <volume>11</volume>
+               <source>SIAM J. Comput.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e563a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1291591e570" publication-type="journal">
+Coppersmith, D. and Winograd, S., Matrix multiplication via arithmetic progressions, J.
+Symbolic Comput., vol. 9, no. 3, 251-280, 1990. MR 91i:68058<person-group>
+                     <string-name>
+                     <surname>Coppersmith</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>251</fpage>
+               <volume>9</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e605a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1291591e612" publication-type="journal">
+Dornstetter, J. L., On the equivalence between Berlekamp's and Euclid's algorithms, IEEE
+Trans. Inf. Theory, vol. 33, no. 3, 428-431, 1987. MR 88j:94018<person-group>
+                     <string-name>
+                     <surname>Dornstetter</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>428</fpage>
+               <volume>33</volume>
+               <source>IEEE Trans. Inf. Theory</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e647a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1291591e654" publication-type="book">
+Fiduccia, C. M., On obtaining upper bounds on the complexity of matrix multiplication,
+Complexity of Computer Computations, (R. E. Miller and J. W. Thatcher), Plenum Press,
+New York, 1972, 31-40. MR 52:12398<person-group>
+                     <string-name>
+                     <surname>Fiduccia</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On obtaining upper bounds on the complexity of matrix multiplication</comment>
+               <fpage>31</fpage>
+               <source>Complexity of Computer Computations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e689a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1291591e696" publication-type="other">
+Fiduccia, C. M., On the Algebraic Complexity of Matrix Multiplication, Ph.D. Thesis, Center
+Comput. Inform. Sci., Div. Engin., Brown Univ., Providence, Rhode Island, June 1973.</mixed-citation>
+            </ref>
+            <ref id="d1291591e706a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1291591e713" publication-type="journal">
+Fleischmann, P., Connections between the algorithms of Berlekamp and Niederreiter for fac-
+toring polynomials over Fq, Linear Algebra and Applications, vol. 192, 101-108, 1993. MR
+94f: 11129<person-group>
+                     <string-name>
+                     <surname>Fleischmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>192</volume>
+               <source>Linear Algebra and Applications</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e748a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1291591e755" publication-type="journal">
+von zur Gathen, J., and Giesbrecht, M., Constructing normal bases in finite fields, J. Symbolic
+Comput., vol. 10, no. 6, 547-570, 1990. MR 92e:11142<person-group>
+                     <string-name>
+                     <surname>von zur Gathen</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>547</fpage>
+               <volume>10</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e791a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1291591e798" publication-type="journal">
+von zur Gathen, J., and Shoup, V., Computing Frobenius maps and factoring polynomials,
+Comput. Complexity, vol. 2, 187-224, 1992. MR 94d:12011<person-group>
+                     <string-name>
+                     <surname>von zur Gathen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>2</volume>
+               <source>Comput. Complexity</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e830a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1291591e837" publication-type="other">
+Giesbrecht, M., Nearly optimal algorithms for canonical matrix forms, Ph.D. Thesis, Dept.
+Comput. Science, University of Toronto, Toronto, Canada, 1993.</mixed-citation>
+            </ref>
+            <ref id="d1291591e847a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1291591e854" publication-type="journal">
+Griewank, A., Achieving logarithmic growth of temporal and spatial complexity in reverse
+automatic differentiation, Optimization Methods and Software, Gordon and Breach Science
+Publishers, vol. 1, 35-54, 1992.<person-group>
+                     <string-name>
+                     <surname>Griewank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>35</fpage>
+               <volume>1</volume>
+               <source>Gordon and Breach Science Publishers</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e889a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1291591e896" publication-type="conference">
+Kaltofen, E., and Lobo, A., Factoring high-degree polynomials by the black box Berlekamp
+algorithm, Proc. Internat. Symp. Symbolic Algebraic Comput. ISSAC '94, (J. von zur Gathen
+and M. Giesbrecht), ACM Press, New York, N. Y., 90-98, 1994.<person-group>
+                     <string-name>
+                     <surname>Kaltofen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Factoring high-degree polynomials by the black box Berlekamp algorithm</comment>
+               <fpage>90</fpage>
+               <source>Proc. Internat. Symp. Symbolic Algebraic Comput. ISSAC '94</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e931a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1291591e938" publication-type="conference">
+Kaltofen, E., and Pan, V., Processor efficient parallel solution of linear systems over an ab-
+stract field, Proc. 3rd Ann. ACM Symp. Parallel Algor. Architecture, ACM Press, 1991,
+180-191.<person-group>
+                     <string-name>
+                     <surname>Kaltofen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Processor efficient parallel solution of linear systems over an abstract field</comment>
+               <fpage>180</fpage>
+               <source>Proc. 3rd Ann. ACM Symp. Parallel Algor. Architecture</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e973a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1291591e980" publication-type="journal">
+Kaminski, M., Kirkpatrick, D. G. and Bshouty, N. H., Addition requirements for matrix and
+transposed matrix products, J. Algorithms, vol. 9, 354-364, 1988. MR 89m:68061<person-group>
+                     <string-name>
+                     <surname>Kaminski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>354</fpage>
+               <volume>9</volume>
+               <source>J. Algorithms</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1013a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1291591e1020" publication-type="book">
+Knuth, D. E., The Art of Computer Programming, Vol. 2, Seminumerical Algorithms, Ed. 2,
+Addison Wesley, Reading, MA, 1981. MR 83i:68003<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>2</volume>
+               <source>The Art of Computer Programming</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1052a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1291591e1059" publication-type="book">
+Lidl, R. and Niederreiter, H., Finite Fields, Addison-Wesley, Reading, MA, 1983. MR
+86c: 11106<person-group>
+                     <string-name>
+                     <surname>Lidl</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Fields</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1084a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1291591e1091" publication-type="journal">
+Linnainmaa, S., Taylor expansion of the accumulated rounding error, BIT, vol. 16, 146-160,
+1976. MR 54:9070<person-group>
+                     <string-name>
+                     <surname>Linnainmaa</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>146</fpage>
+               <volume>16</volume>
+               <source>BIT</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1123a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1291591e1130" publication-type="journal">
+Lotti, G., and Romani, F., On the asymptotic complexity of rectangular matrix multiplication,
+Theoretical Comput. Sci.,, vol. 23, 171-185, 1983. MR 84g:68029<person-group>
+                     <string-name>
+                     <surname>Lotti</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>171</fpage>
+               <volume>23</volume>
+               <source>Theoretical Comput. Sci.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1162a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1291591e1169" publication-type="journal">
+Massey, J. L., Shift-register synthesis and BCH decoding, IEEE Trans. Inf. Theory, vol. 15,
+122-127, 1969. MR 39:3887<person-group>
+                     <string-name>
+                     <surname>Massey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>122</fpage>
+               <volume>15</volume>
+               <source>IEEE Trans. Inf. Theory</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1201a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1291591e1208" publication-type="journal">
+Niederreiter, H., A new efficient factorization algorithm for polynomials over small finite fields,
+Applic. Algebra Engin., Commun. Comput., vol. 4, 81-87, 1993. MR 94h:11112<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>4</volume>
+               <source>Applic. Algebra Engin., Commun. Comput.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1241a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1291591e1248" publication-type="journal">
+Niederreiter, H. and G6ttfert, R., Factorization of polynomials over finite fields and charac-
+teristic sequences, J. Symbolic Comput., vol. 16, no. 5, 401-412, 1993. MR 95d:68072<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>401</fpage>
+               <volume>16</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1283a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1291591e1290" publication-type="journal">
+Ostrowski, G. M., Wolin, Ju. M. and Borisow, W. W., Uber die Berechnung von Ableitungen,
+Wissenschaftliche Zeitschrift Techn. Hochsch. Chem. Leuna-Merseburg, vol. 13, no. 4, 382-
+384, 1971.<person-group>
+                     <string-name>
+                     <surname>Ostrowski</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>382</fpage>
+               <volume>13</volume>
+               <source>Wissenschaftliche Zeitschrift Techn. Hochsch. Chem. Leuna-Merseburg</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1328a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1291591e1335" publication-type="journal">
+Rabin, M. O., Probabilistic algorithms in finite fields, SIAM J. Comp., vol. 9, 273-280, 1980.
+MR 81g:12002<person-group>
+                     <string-name>
+                     <surname>Rabin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>273</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Comp.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1367a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1291591e1374" publication-type="journal">
+Schwarz, St., On the reducibility of polynomials over a finite field, Quart. J. Math. Oxford
+Ser. (2), vol. 7, 110-124, 1956. MR 20:3162<person-group>
+                     <string-name>
+                     <surname>Schwarz</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>110</fpage>
+               <volume>7</volume>
+               <source>Quart. J. Math. Oxford Ser.</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1409a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1291591e1416" publication-type="journal">
+Shoup, V., On the deterministic complexity of factoring polynomials over finite fields, Inform.
+Process. Letters, vol. 33, no. 5, 261-267, 1990. MR 91f:11088<person-group>
+                     <string-name>
+                     <surname>Shoup</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>261</fpage>
+               <volume>33</volume>
+               <source>Inform. Process. Letters</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1451a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1291591e1458" publication-type="journal">
+Shoup, V., Fast construction of irreducible polynomials over finite fields, J. Symbolic Comput.,
+vol. 17, no. 5, 371-391, 1994. MR 95k:11156<person-group>
+                     <string-name>
+                     <surname>Shoup</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>371</fpage>
+               <volume>17</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1494a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1291591e1501" publication-type="journal">
+Shoup, V., A new polynomial factorization algorithm and its implementation, J. Symbolic
+Comput., vol. 20, 363-397, 1995. MR 97d:12011<person-group>
+                     <string-name>
+                     <surname>Shoup</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>20</volume>
+               <source>J. Symbolic Comput.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1533a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1291591e1540" publication-type="journal">
+Wiedemann, D., Solving sparse linear equations over finite fields, IEEE Trans. Inf. Theory,
+vol. 32, 54-62, 1986. MR 87g:11166<person-group>
+                     <string-name>
+                     <surname>Wiedemann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>54</fpage>
+               <volume>32</volume>
+               <source>IEEE Trans. Inf. Theory</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1572a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1291591e1579" publication-type="book">
+Bürgisser, P., Clausen, M. and Shokrollahi, M. A., Algebraic Complexity Theory, Springer-
+Verlag, Heidelberg, Germany, 1997. CMP 97:10<person-group>
+                     <string-name>
+                     <surname>Bürgisser</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algebraic Complexity Theory</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1604a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1291591e1611" publication-type="conference">
+Huang, X. and Pan, V., Fast rectangular matrix multiplications and improving parallel matrix
+computations, In Proc. Second Internat. Symp. Parallel Symbolic Comput. PASCO '97, M.
+Hitz and E. Kaltofen, editors, pages 11-23, New York, N.Y., 1997. ACM Press.<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast rectangular matrix multiplications and improving parallel matrix computations</comment>
+               <fpage>11</fpage>
+               <source>Proc. Second Internat. Symp. Parallel Symbolic Comput. PASCO '97</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1291591e1646a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1291591e1653" publication-type="conference">
+Kaltofen, E. and Shoup, V., Fast polynomial factorization over high algebraic extensions
+of finite fields. In ISSAC 97 Proc. 1997 Internat. Symp. Symbolic Algebraic Comput., W.
+Kuchlin, editor, pages 184-188, New York, N.Y., 1997. ACM Press.<person-group>
+                     <string-name>
+                     <surname>Kaltofen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast polynomial factorization over high algebraic extensions of finite fields</comment>
+               <fpage>184</fpage>
+               <source>ISSAC 97 Proc. 1997 Internat. Symp. Symbolic Algebraic Comput.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

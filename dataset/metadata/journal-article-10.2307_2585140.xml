@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">222</issue>
+         <issue-id>i344562</issue-id>
+         <article-id pub-id-type="jstor">2585140</article-id>
+         
+         <title-group>
+            <article-title>Numerical Conformal Mapping Based on the Generalised Conjugation Operator</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bao Cheng</given-names>
+                  <surname>Li</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Stavros</given-names>
+                  <surname>Syngellakis</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>619</fpage>
+         <lpage>639</lpage>
+         <page-range>619-639</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585140"/>
+         
+         
+         <abstract>
+            <p>An iterative procedure for numerical conformal mapping is presented which imposes no restriction on the boundary complexity. The formulation involves two analytically equivalent boundary integral equations established by applying the conjugation operator to the real and the imaginary parts of an analytical function. The conventional approach is to use only one and ignore the other equation. However, the discrete version of the operator using the boundary element method (BEM) leads to two non-equivalent sets of linear equations forming an over-determined system. The generalised conjugation operator is introduced so that both sets of equations can be utilised and their least-square solution determined without any additional computational cost, a strategy largely responsible for the stability and efficiency of the proposed method. Numerical tests on various samples including problems with cracked domains suggest global convergence, although this cannot be proved theoretically. The computational efficiency appears significantly higher than that reported earlier by other investigators.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00957-0</kwd>
+            <kwd>30C30</kwd>
+            <kwd>65N38</kwd>
+            <kwd>Numerical Conformal Mapping</kwd>
+            <kwd>Conjugation Operator</kwd>
+            <kwd>Boundary Integral Equation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1982411e209a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1982411e216" publication-type="journal">
+W. H. Chu, Development of a general finite difference approximation for a general domain.
+Part I: Machine Transformation, J. Comp. Phys.8 (1971), 392-408.<person-group>
+                     <string-name>
+                     <surname>Chu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>392</fpage>
+               <volume>8</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e248a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1982411e255" publication-type="journal">
+C. W. Mastin and J. F. Thompson, Transformation of three-dimensional regions onto rect-
+angular regions by elliptic systems, Numer. Math.29 (1978), 397-407. MR 57:14491<person-group>
+                     <string-name>
+                     <surname>Mastin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>397</fpage>
+               <volume>29</volume>
+               <source>Numer. Math.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e287a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1982411e294" publication-type="journal">
+H. J. Haussling and R. M. Coleman, A method for generation of orthogonal and nearly orthog-
+onal boundary-fitted coordinate systems, J. Comp. Phys.43 (1981), 373-381. MR 82m:65026<person-group>
+                     <string-name>
+                     <surname>Haussling</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>373</fpage>
+               <volume>43</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e326a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1982411e333" publication-type="journal">
+C. I. Christov, Orthogonal coordinate meshes with manageable Jacobian, Appl. Math. Comp.
+10 (1982), 885-894. CMP 15:03<person-group>
+                     <string-name>
+                     <surname>Christov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>885</fpage>
+               <volume>10</volume>
+               <source>Appl. Math. Comp.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e366a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1982411e373" publication-type="journal">
+J. F. Thompson, Z. U. A. Warsi, and C. W. Mastin, Boundary-fitted coordinate systems
+for numerical solution of partial differential equations-a review, J. Comp. Phys.47 (1982),
+1-108. MR 84e:65120<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>47</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e408a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1982411e415" publication-type="journal">
+P. D. Sparis, A method for generating boundary-orthogonal curvilinear coordinate systems
+using a biharmonic equation, J. Comp. Phys.61 (1985), 445-462. MR 87b:65218<person-group>
+                     <string-name>
+                     <surname>Sparis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <volume>61</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e447a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1982411e454" publication-type="journal">
+D. C. Ives, A modern look at conformal mapping including multiply connected regions, AIAA
+J.14 (1976), 1006-1011. MR 58:3956<person-group>
+                     <string-name>
+                     <surname>Ives</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1006</fpage>
+               <volume>14</volume>
+               <source>AIAA J.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e486a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1982411e493" publication-type="journal">
+0. Hübner, The Newton method for solving the Theodorsen equation, J. Comp. Appl. Math.
+14 (1986), 19-30. MR 87c:30012<person-group>
+                     <string-name>
+                     <surname>Hübner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>19</fpage>
+               <volume>14</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e525a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1982411e532" publication-type="journal">
+D. I. Meiron, S. A. Orszag, and M. Israeli, Applications of numerical conformal mapping, J.
+Comput. Phys.40 (1981), 345-360. MR 83e:30011<person-group>
+                     <string-name>
+                     <surname>Meiron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>345</fpage>
+               <volume>40</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e564a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1982411e571" publication-type="book">
+Z. Nehari, Conformal Mapping, Dover Publications, New York, 1975. MR 51:13206<person-group>
+                     <string-name>
+                     <surname>Nehari</surname>
+                  </string-name>
+                  </person-group>
+               <source>Conformal Mapping</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e594a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1982411e601" publication-type="journal">
+G. T. Symm, An integral equation method in conformal mapping, Numer. Math.9 (1966),
+250-258. MR 34:7056<person-group>
+                     <string-name>
+                     <surname>Symm</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>250</fpage>
+               <volume>9</volume>
+               <source>Numer. Math.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e633a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1982411e640" publication-type="journal">
+—, Numerical mapping of exterior domains, Numer. Math.10 (1967), 437-445. MR
+36:3525<person-group>
+                     <string-name>
+                     <surname>Symm</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>437</fpage>
+               <volume>10</volume>
+               <source>Numer. Math.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e672a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1982411e679" publication-type="book">
+M. A. Jaswon and G. T. Symm, Integral Equation Methods in Potential Theory, Academic
+Press, London, 1971.<person-group>
+                     <string-name>
+                     <surname>Jaswon</surname>
+                  </string-name>
+                  </person-group>
+               <source>Integral Equation Methods in Potential Theory</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e704a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1982411e711" publication-type="journal">
+D. M. Hough and N. Papamichael, The use of splines and sin'gular functions in an integral
+equation method for conformal mapping, Numer. Math.37 (1981), 133-147. MR 82e:30012<person-group>
+                     <string-name>
+                     <surname>Hough</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>37</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e743a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1982411e750" publication-type="journal">
+J. P. Berrut, A Fredholm integral equation of the second kind for conformal mapping, J.
+Comp. Appl. Math.14 (1986), 99-110. MR 87d:30011<person-group>
+                     <string-name>
+                     <surname>Berrut</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>14</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e782a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1982411e789" publication-type="book">
+T. Theodorsen, Theory of Wing Sections of Arbitrary Shape, NACA Report 411, 1931.<person-group>
+                     <string-name>
+                     <surname>Theodorsen</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of Wing Sections of Arbitrary Shape</source>
+               <year>1931</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e812a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1982411e819" publication-type="book">
+T. Theodorsen and I. E. Garrick, General Potential Theory of Arbitrary Wing Sections,
+NACA Report 452, 1933.<person-group>
+                     <string-name>
+                     <surname>Theodorsen</surname>
+                  </string-name>
+                  </person-group>
+               <source>General Potential Theory of Arbitrary Wing Sections</source>
+               <year>1933</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e844a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1982411e851" publication-type="book">
+R. Timman, The direct and the inverse problem of aerofoil theory, a method to obtain nu-
+merical solutions, Nat. Luchtiv. Labor., Report F.16, Amsterdam, 1951.<person-group>
+                     <string-name>
+                     <surname>Timman</surname>
+                  </string-name>
+                  </person-group>
+               <source>The direct and the inverse problem of aerofoil theory, a method to obtain numerical solutions</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e876a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1982411e883" publication-type="other">
+M. S. Friberg, A new method for the effective determination of conformal maps, Ph.D. Thesis,
+Univ. of Minnesota, 1951.</mixed-citation>
+            </ref>
+            <ref id="d1982411e893a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1982411e900" publication-type="book">
+H. Bergström, An approximation of the analytic function mapping: a given domain inside or
+outside the unit circle, Mem. Publ. Soc. Sci. Arts Lettr. Hainant, Volume Hors Serie (1958),
+193-198. MR 22:8112<person-group>
+                     <string-name>
+                     <surname>Bergström</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <source>An approximation of the analytic function mapping: a given domain inside or outside the unit circle</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e932a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1982411e939" publication-type="journal">
+B. A. Vertgeim, Approximate construction of some conformal mappings (in Russian), Dok-
+lady Akad. Nauk SSSR119 (1958), 12-14. MR 20:5854<person-group>
+                     <string-name>
+                     <surname>Vertgeim</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>12</fpage>
+               <volume>119</volume>
+               <source>Doklady Akad. Nauk SSSR</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e971a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1982411e978" publication-type="journal">
+R. Wegmann, Ein Iterationsverfahren zur komformen Abbildung, Numer. Math.30 (1978),
+453-466. MR 58:11345<person-group>
+                     <string-name>
+                     <surname>Wegmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>453</fpage>
+               <volume>30</volume>
+               <source>Numer. Math.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1011a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1982411e1018" publication-type="journal">
+— , On Fornberg's numerical method for conformal mapping, SIAM J. Numer. Anal.23
+(1986), 1199-1213. MR 87m:30012<object-id pub-id-type="jstor">10.2307/2157422</object-id>
+               <fpage>1199</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1034a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1982411e1041" publication-type="journal">
+— An iterative method for the conformal mapping of doubly connected regions, J. Comp.
+Appl. Math.14 (1986), 79-98. MR 87e:30008<person-group>
+                     <string-name>
+                     <surname>Wegmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>79</fpage>
+               <volume>14</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1073a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1982411e1080" publication-type="journal">
+B. Fornberg, A numerical method for conformal mappings, SIAM J. Sci. Stat. Comput.1
+(1980), 386-400. MR 81m:30009<person-group>
+                     <string-name>
+                     <surname>Fornberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>386</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1112a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1982411e1119" publication-type="journal">
+— A numerical method for conformal mapping of doubly connected regions, SIAM J.
+Sci. Stat. Comput.5 (1984), 771-783. MR 86b:30009<person-group>
+                     <string-name>
+                     <surname>Fornberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>771</fpage>
+               <volume>5</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1151a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1982411e1158" publication-type="journal">
+D. Howe, The application of numerical methods to the conformal transformation of polygonal
+boundaries, J. Inst. Math. Appl.12 (1973), 125-136. MR 49:8297<person-group>
+                     <string-name>
+                     <surname>Howe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>125</fpage>
+               <volume>12</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1190a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1982411e1197" publication-type="journal">
+V. V. Vecheslavov and V. I. Kokoulin, Determination of the parameters of the conformal
+mapping of simply connected polygonal regions, U.S.S.R. Comp. Math. and Math. Phys.13
+(1974), 57-65.<person-group>
+                     <string-name>
+                     <surname>Vecheslavov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>13</volume>
+               <source>Comp. Math. and Math. Phys.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1233a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1982411e1240" publication-type="journal">
+L. N. Trefethen, Numerical computation of the Schwarz-Christoffel transformation, SIAM J.
+Sci. Stat. Comput.1 (1980), 82-102. MR 81g:30012a<person-group>
+                     <string-name>
+                     <surname>Trefethen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>82</fpage>
+               <volume>1</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1272a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1982411e1279" publication-type="book">
+F. D. Gakhov, Boundary Value Problems, Pergamon Press, Oxford, 1966. MR 33:6311<person-group>
+                     <string-name>
+                     <surname>Gakhov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Boundary Value Problems</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1301a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1982411e1308" publication-type="journal">
+M. H. Gutknecht, Numerical conformal mapping methods based on function conjugation, J.
+Comp. Appl. Math.14 (1986), 31-77. MR 87f:30015<person-group>
+                     <string-name>
+                     <surname>Gutknecht</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>14</volume>
+               <source>J. Comp. Appl. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1340a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1982411e1347" publication-type="book">
+P. K. Banerjee and R. Butterfield, Boundary Element Methods in Engineering Science,
+McGraw-Hill, London, 1981. MR 83j:65111<person-group>
+                     <string-name>
+                     <surname>Banerjee</surname>
+                  </string-name>
+                  </person-group>
+               <source>Boundary Element Methods in Engineering Science</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1372a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1982411e1379" publication-type="book">
+P. Henrici, Applied and Computational Complex Analysis, Vol. 3, John Wiley &amp; Sons, New
+York, 1986. MR 87h:30002<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <volume>3</volume>
+               <source>Applied and Computational Complex Analysis</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1408a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1982411e1415" publication-type="journal">
+R. Wegmann, An estimate for crowding in conformal mapping to elongated regions, Complex
+Variables18 (1992), 193-199. MR 93f:30007<person-group>
+                     <string-name>
+                     <surname>Wegmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>18</volume>
+               <source>Complex Variables</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1448a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1982411e1455" publication-type="journal">
+T. K. DeLillo, The accuracy of numerical conformal mapping methods: a survey of examples
+-and results, SIAM J. Numer. Anal.31 (1994), 788-812. MR 95a:30005<object-id pub-id-type="jstor">10.2307/2158031</object-id>
+               <fpage>788</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1982411e1471a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1982411e1478" publication-type="book">
+P. J. Davis, Circulant Matrices, John Wiley &amp; Sons, New York, 1979. MR 81a:15003<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Circulant Matrices</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

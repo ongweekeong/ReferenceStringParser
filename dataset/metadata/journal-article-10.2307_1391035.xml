@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260301</issue-id>
+         <article-id pub-id-type="jstor">1391035</article-id>
+         
+         <title-group>
+            <article-title>Logic Regression</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ingo</given-names>
+                  <surname>Ruczinski</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Charles</given-names>
+                  <surname>Kooperberg</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Michael</given-names>
+                  <surname>LeBlanc</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>475</fpage>
+         <lpage>511</lpage>
+         <page-range>475-511</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391035"/>
+         
+         
+         <abstract>
+            <p>Logic regression is an adaptive regression methodology that attempts to construct predictors as Boolean combinations of binary covariates. In many regression problems a model is developed that relates the main effects (the predictors or transformations thereof) to the response, while interactions are usually kept simple (two- to three-way interactions at most). Often, especially when all predictors are binary, the interaction between many predictors may be what causes the differences in response. This issue arises, for example, in the analysis of SNP microarray data or in some data mining problems. In the proposed methodology, given a set of binary predictors we create new predictors such as "X&lt;sub&gt;1&lt;/sub&gt;, X&lt;sub&gt;2&lt;/sub&gt;, X&lt;sub&gt;3&lt;/sub&gt;, and X&lt;sub&gt;4&lt;/sub&gt; are true," or "X&lt;sub&gt;5&lt;/sub&gt; or X&lt;sub&gt;6&lt;/sub&gt; but not X&lt;sub&gt;7&lt;/sub&gt; are true." In more specific terms: we try to fit regression models of the form g(E[Y])=b&lt;sub&gt;0&lt;/sub&gt;+b&lt;sub&gt;1&lt;/sub&gt;L&lt;sub&gt;1&lt;/sub&gt;+⋯ +b&lt;sub&gt;n&lt;/sub&gt;L&lt;sub&gt;n&lt;/sub&gt;, where L&lt;sub&gt;j&lt;/sub&gt; is any Boolean expression of the predictors. The L&lt;sub&gt;j&lt;/sub&gt; and b&lt;sub&gt;j&lt;/sub&gt; are estimated simultaneously using a simulated annealing algorithm. This article discusses how to fit logic regression models, how to carry out model selection for these models, and gives some examples.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Adaptive model selection</kwd>
+            <kwd>Boolean logic</kwd>
+            <kwd>Binary variables</kwd>
+            <kwd>Interactions</kwd>
+            <kwd>Simulated annealing</kwd>
+            <kwd>SNP data</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1022044e276a1310">
+               
+               <mixed-citation id="d1022044e280" publication-type="journal">
+Amit Y., and Geman, D. (1997), "Shape Quantization and Recognition with Randomized Trees," Neural Compu-
+tation, 9, 1545-1588.<person-group>
+                     <string-name>
+                     <surname>Amit</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1545</fpage>
+               <volume>9</volume>
+               <source>Neural Computation</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e312a1310">
+               
+               <mixed-citation id="d1022044e316" publication-type="book">
+Anthony, M. (2001), "Discrete Mathematics of Neural Networks: Selected Topics," SIAM Monographs on Discrete
+Mathematics and Applications, 8.<person-group>
+                     <string-name>
+                     <surname>Anthony</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Discrete Mathematics of Neural Networks: Selected Topics</comment>
+               <volume>8</volume>
+               <source>SIAM Monographs on Discrete Mathematics and Applications</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e348a1310">
+               
+               <mixed-citation id="d1022044e352" publication-type="journal">
+Apte, C., Damerau, F., and Weiss, S.M. (1994), "Towards Language Independent Automated Learning of Text
+Categorisation Models," Research and Development in Information Retrieval, 23-30.<person-group>
+                     <string-name>
+                     <surname>Apte</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <source>Research and Development in Information Retrieval</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e381a1310">
+               
+               <mixed-citation id="d1022044e385" publication-type="journal">
+Apte, C., and Weiss, S.M. (1997), "Data Mining with Decision Trees and Decision Rules," Future Generation
+Computer Systems, 13, 197-210.<person-group>
+                     <string-name>
+                     <surname>Apte</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>13</volume>
+               <source>Future Generation Computer Systems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e418a1310">
+               
+               <mixed-citation id="d1022044e422" publication-type="book">
+Bala, J., DeJong, K., and Pachowicz, P. (1991), "Learning Noise Tolerant Classification Procedures by Integrat-
+ing Inductive Learning and Genetic Algorithms," in Proceedings of the First International Workshop on
+Multistrategy Learning MSL-91, pp. 316-323.<person-group>
+                     <string-name>
+                     <surname>Bala</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Learning Noise Tolerant Classification Procedures by Integrating Inductive Learning and Genetic Algorithms</comment>
+               <fpage>316</fpage>
+               <source>Proceedings of the First International Workshop on Multistrategy Learning MSL-91</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e457a1310">
+               
+               <mixed-citation id="d1022044e461" publication-type="journal">
+Bayardo, R.J.Jr., and Agrawal, R. (1999), "Mining the Most Interesting Rules," Knowledge Discovery and Data
+Mining, 145-154.<person-group>
+                     <string-name>
+                     <surname>Bayardo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>145</fpage>
+               <source>Knowledge Discovery and Data Mining</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e490a1310">
+               
+               <mixed-citation id="d1022044e494" publication-type="journal">
+Breiman, L. (1996), "Bagging Predictors," Machine Learning, 24, 123-140.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>24</volume>
+               <source>Machine Learning</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e523a1310">
+               
+               <mixed-citation id="d1022044e527" publication-type="book">
+(1999), "Random Forests—Random Features," Technical report, Department of Statistics, University of
+California Berkeley.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random Forests—Random Features</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e552a1310">
+               
+               <mixed-citation id="d1022044e556" publication-type="book">
+Breiman, L., Friedman, J.H., Olshen, R.A., and Stone, C.J. (1984), Classification and Regression Trees, Belmont,
+CA: Wadsworth.<person-group>
+                     <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Classification and Regression Trees</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e581a1310">
+               
+               <mixed-citation id="d1022044e585" publication-type="journal">
+Bryan, R.N., Manolio, T.A., Schertz, L.D., Jungreis, C., Poirier, V.C., Elster, A.D., and Kronmal, R.A. (1994),
+"A Method for Using MR to Evaluate the Effects of Cardiovascular Disease on the Brain: the Cardiovascular
+Health Study", American Journal of Neuroradiology, 15, 1625-1633.<person-group>
+                     <string-name>
+                     <surname>Bryan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1625</fpage>
+               <volume>15</volume>
+               <source>American Journal of Neuroradiology</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e621a1310">
+               
+               <mixed-citation id="d1022044e625" publication-type="journal">
+Buntine, W. (1992), "Learning Classification Trees," Statistics and Computing, 2, 63-73.<person-group>
+                     <string-name>
+                     <surname>Buntine</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>63</fpage>
+               <volume>2</volume>
+               <source>Statistics and Computing</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e654a1310">
+               
+               <mixed-citation id="d1022044e658" publication-type="journal">
+Chipman, H., George, E., and McCulloch, R. (1998), "Bayesian CART Model Search" (with discussion), Journal
+of the American Statistical Association, 93, 935-960.<object-id pub-id-type="doi">10.2307/2669832</object-id>
+               <fpage>935</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e674a1310">
+               
+               <mixed-citation id="d1022044e678" publication-type="journal">
+——(2002), "Bayesian Treed Models," Machine Learning, 48, 299-320.<person-group>
+                     <string-name>
+                     <surname>Chipman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>299</fpage>
+               <volume>48</volume>
+               <source>Machine Learning</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e707a1310">
+               
+               <mixed-citation id="d1022044e711" publication-type="journal">
+Clark, P., and Niblett, T. (1989), "The CN2 Induction Algorithm," Machine Learning, 3, 261-283.<person-group>
+                     <string-name>
+                     <surname>Clark</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>261</fpage>
+               <volume>3</volume>
+               <source>Machine Learning</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e740a1310">
+               
+               <mixed-citation id="d1022044e744" publication-type="conference">
+Cohen, W. (1995), "Fast Effective Rule Induction," International Conference on Machine Learning, 115-123.<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast Effective Rule Induction</comment>
+               <fpage>115</fpage>
+               <source>International Conference on Machine Learning</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e773a1310">
+               
+               <mixed-citation id="d1022044e777" publication-type="conference">
+Cohen, W., and Singer, Y. (1999), "A Simple, Fast, and Effective Rule Learner," in Proceedings of Annual Con-
+ference of American Association for Artificial Intelligence, 335-342.<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Simple, Fast, and Effective Rule Learner</comment>
+               <fpage>335</fpage>
+               <source>Proceedings of Annual Conference of American Association for Artificial Intelligence</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e810a1310">
+               
+               <mixed-citation id="d1022044e814" publication-type="journal">
+Daly, M.J., Rioux, J.D., Schaffner, S.F., Hudson, T.J., and Lander, E.S. (2001), "High Resolution Haplotype
+Structure in the Human Genome," Nature Genetics, 29, 229-232.<person-group>
+                     <string-name>
+                     <surname>Daly</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>229</fpage>
+               <volume>29</volume>
+               <source>Nature Genetics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e846a1310">
+               
+               <mixed-citation id="d1022044e850" publication-type="journal">
+Denison, D., Mallick, B., and Smith, A.F.M. (1998), "A Bayesian CART Algorithm," Biometrika, 85, 363-377.<object-id pub-id-type="jstor">10.2307/2337363</object-id>
+               <fpage>363</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e863a1310">
+               
+               <mixed-citation id="d1022044e867" publication-type="journal">
+Deshpande, A.S., and Triantaphyllou, E. (1998), "A Greedy Randomized Adaptive Search Procedure," Mathe-
+matical Computer Modelling, 27, 75-99.<person-group>
+                     <string-name>
+                     <surname>Deshpande</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>75</fpage>
+               <volume>27</volume>
+               <source>Mathematical Computer Modelling</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e899a1310">
+               
+               <mixed-citation id="d1022044e903" publication-type="journal">
+Dietterich, T.G. (1999), "An Experimental Comparison of Three Methods for Constructing Ensembles of Decision
+Trees: Bagging, Boosting, and Randomization," Machine Learning, 40, 139-158.<person-group>
+                     <string-name>
+                     <surname>Dietterich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>40</volume>
+               <source>Machine Learning</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e935a1310">
+               
+               <mixed-citation id="d1022044e939" publication-type="journal">
+Domingos, P. (1996), "Linear-Time Rule Induction," Knowledge Discovery and Data Mining, 96-101.<person-group>
+                     <string-name>
+                     <surname>Domingos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>96</fpage>
+               <source>Knowledge Discovery and Data Mining</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e964a1310">
+               
+               <mixed-citation id="d1022044e968" publication-type="journal">
+Fleisher, H., Tavel, M., and Yeager, J. (1983), "Exclusive-OR Representations of Boolean Functions," IBM Journal
+of Research and Development, 27, 412-416.<person-group>
+                     <string-name>
+                     <surname>Fleisher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>412</fpage>
+               <volume>27</volume>
+               <source>IBM Journal of Research and Development</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1001a1310">
+               
+               <mixed-citation id="d1022044e1005" publication-type="conference">
+Fleisher, H., Giraldi, J., Martin, D.B., Phoenix, R.L., and Tavel, M.A. (1985), "Simulated Annealing as a
+Tool for Logic Optimization in a CAD Environment," in Proceedings of the International Conference on
+Computer-Aided Design, pp. 203-205.<person-group>
+                     <string-name>
+                     <surname>Fleisher</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulated Annealing as a Tool for Logic Optimization in a CAD Environment</comment>
+               <fpage>203</fpage>
+               <source>Proceedings of the International Conference on Computer-Aided Design</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1040a1310">
+               
+               <mixed-citation id="d1022044e1044" publication-type="other">
+Frean, M. (1990), "Small Nets and Short Paths: Optimising Neural Computation," PhD thesis, University of
+Edinburgh, Center for Cognitive Science.</mixed-citation>
+            </ref>
+            <ref id="d1022044e1054a1310">
+               
+               <mixed-citation id="d1022044e1058" publication-type="conference">
+Freund, Y, and Schapire, R. (1996), "Experiments With a New Boosting Algorithm," in Proceedings of the 13th
+International Conference on Machine Learning, pp. 148-156.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Experiments With a New Boosting Algorithm</comment>
+               <fpage>148</fpage>
+               <source>Proceedings of the 13th International Conference on Machine Learning</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1090a1310">
+               
+               <mixed-citation id="d1022044e1094" publication-type="journal">
+Fried, L.P., Borhani, N.O., Enright, P., Furberg, C.D., Gardin, J.M., Kronmal, R.A., Kuller, L.H., Manolio, T.
+A., Mittelmark, M.B., Newman, A.B., O'Leary, D.H., Psaty, B., Rautaharju, P., Tracy, R.P., and Weiler, P.
+G. (1991), "The Cardiovascular Health Study: Design and Rationale," Annals of Epidemiology, 1, 263-276.<person-group>
+                     <string-name>
+                     <surname>Fried</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>263</fpage>
+               <volume>1</volume>
+               <source>Annals of Epidemiology</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1129a1310">
+               
+               <mixed-citation id="d1022044e1133" publication-type="journal">
+Friedman, J.H. (1991), "Multivariate Adaptive Regression Splines" (with discussion), The Annals of Statistics,
+19, 1-141.<object-id pub-id-type="jstor">10.2307/2241837</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1149a1310">
+               
+               <mixed-citation id="d1022044e1153" publication-type="journal">
+Friedman, J.H., and Fisher, N.I. (1999), "Bump Hunting in High-Dimensional Data," Statistics and Computing,
+9, 123-162.<person-group>
+                     <string-name>
+                     <surname>Friedman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>123</fpage>
+               <volume>9</volume>
+               <source>Statistics and Computing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1186a1310">
+               
+               <mixed-citation id="d1022044e1190" publication-type="book">
+Giordana, A., and Saitta, L. (1993), "REGAL: An Integrated System for Learning Relations Using Genetic
+Algorithms," in Proceedings of the Second International Workshop on Multistrategy Learning (MSL-93),
+pp. 234-249.<person-group>
+                     <string-name>
+                     <surname>Giordana</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">REGAL: An Integrated System for Learning Relations Using Genetic Algorithms</comment>
+               <fpage>234</fpage>
+               <source>Proceedings of the Second International Workshop on Multistrategy Learning (MSL-93)</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1225a1310">
+               
+               <mixed-citation id="d1022044e1229" publication-type="journal">
+Gray, D.L., and Michel, A.N. (1992), "A Training Algorithm for Binary Feedforward Neural Networks," IEEE
+Transactions on Neural Networks, 3, 176-194.<person-group>
+                     <string-name>
+                     <surname>Gray</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>176</fpage>
+               <volume>3</volume>
+               <source>IEEE Transactions on Neural Networks</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1261a1310">
+               
+               <mixed-citation id="d1022044e1265" publication-type="journal">
+Hong, S. (1997), "R-MINI: An Iterative Approach for Generating Minimal Rules from Examples," IEEE Trans-
+actions on Knowledge and Data Engineering, 9, 709-717.<person-group>
+                     <string-name>
+                     <surname>Hong</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>709</fpage>
+               <volume>9</volume>
+               <source>IEEE Transactions on Knowledge and Data Engineering</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1297a1310">
+               
+               <mixed-citation id="d1022044e1301" publication-type="journal">
+Hong, S., Cain, R.G., and Ostapko, D.L. (1974), "MINI: A Heuristic Approach for Logic Minimization," IBM
+Journal of Research and Development, 18, 443-458.<person-group>
+                     <string-name>
+                     <surname>Hong</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>18</volume>
+               <source>IBM Journal of Research and Development</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1333a1310">
+               
+               <mixed-citation id="d1022044e1337" publication-type="journal">
+Jordan, M.I., and Jacobs, R.A. (1994), "Hierarchical Mixtures of Experts and the EM Algorithm," Neural
+Computation, 6, 181-214.<person-group>
+                     <string-name>
+                     <surname>Jordan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>181</fpage>
+               <volume>6</volume>
+               <source>Neural Computation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1369a1310">
+               
+               <mixed-citation id="d1022044e1373" publication-type="journal">
+Kooperberg, C., Ruczinski, I., LeBlanc, M.L., and Hsu, L. (2001), "Sequence Analysis using Logic Regression,"
+Genetic Epidemiology, 21, Supplement 1, 626-631.<person-group>
+                     <string-name>
+                     <surname>Kooperberg</surname>
+                  </string-name>
+                  </person-group>
+               <issue>Supplement 1</issue>
+               <fpage>626</fpage>
+               <volume>21</volume>
+               <source>Genetic Epidemiology</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1409a1310">
+               
+               <mixed-citation id="d1022044e1413" publication-type="conference">
+Liu, B., Hsu, W., and Ma, Y. (1998), "Integrating Classification and Association Rule Mining," Proceedings of
+International Conf on Knowledge Discovery and Data Mining, pp. 80-86.<person-group>
+                     <string-name>
+                     <surname>Liu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Integrating Classification and Association Rule Mining</comment>
+               <fpage>80</fpage>
+               <source>Proceedings of International Conf on Knowledge Discovery and Data Mining</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1445a1310">
+               
+               <mixed-citation id="d1022044e1449" publication-type="journal">
+Lucek, P.R., and Ott, J. (1997), "Neural Network Analysis of Complex Traits," Genetic Epidemiology, 14, 1101-
+1106.<person-group>
+                     <string-name>
+                     <surname>Lucek</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1101</fpage>
+               <volume>14</volume>
+               <source>Genetic Epidemiology</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1481a1310">
+               
+               <mixed-citation id="d1022044e1485" publication-type="book">
+Lutsko, J.F., and Kuijpers, B. (1994), "Simulated Annealing in the Construction of Near-Optimal Decision Trees,"
+in Selecting Models from Data: AI&amp;Statistics IV, New York: Springer, pp. 453-462.<person-group>
+                     <string-name>
+                     <surname>Lutsko</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulated Annealing in the Construction of Near-Optimal Decision Trees</comment>
+               <fpage>453</fpage>
+               <source>Selecting Models from Data: AI&amp;Statistics IV</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1517a1310">
+               
+               <mixed-citation id="d1022044e1521" publication-type="other">
+McClelland, R. (2000), "Regression Based Variable Clustering for Data Reduction," PhD thesis, University of
+Washington, Department of Biostatistics.</mixed-citation>
+            </ref>
+            <ref id="d1022044e1531a1310">
+               
+               <mixed-citation id="d1022044e1535" publication-type="conference">
+Mehta, M., Rissanen, J., and Agrawal, R. (1995), "MDL-Based Decision Tree Pruning," in Proceedings of the
+First International Conference on Knowledge Discovery and Data Mining KDD95, pp. 216-221.<person-group>
+                     <string-name>
+                     <surname>Mehta</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">MDL-Based Decision Tree Pruning</comment>
+               <fpage>216</fpage>
+               <source>Proceedings of the First International Conference on Knowledge Discovery and Data Mining KDD95</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1567a1310">
+               
+               <mixed-citation id="d1022044e1571" publication-type="journal">
+Mehta, M., Agrawal, R., and Rissanen, J. (1996), "SLIQ: A Fast Scalable Classifier for Data Mining,," Extending
+Database Technology, 18-32.<person-group>
+                     <string-name>
+                     <surname>Mehta</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>18</fpage>
+               <source>Extending Database Technology</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1601a1310">
+               
+               <mixed-citation id="d1022044e1605" publication-type="journal">
+Meretakis, D., and Wuthrich, B. (1999), "Extending Naive Bayes Classifiers Using Long Itemsets," Knowledge
+Discovery and Data Mining, 165-174.<person-group>
+                     <string-name>
+                     <surname>Meretakis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>165</fpage>
+               <source>Knowledge Discovery and Data Mining</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1634a1310">
+               
+               <mixed-citation id="d1022044e1638" publication-type="journal">
+Michalski, R., Mozetic, I., Hong, J., and Lavrac, N. (1986), "The Multi-Purpose Incremental Learning System
+AQ15 and its Testing Application to Three Medical Domains," Proceedings of the AAAI, pp. 1041-1045.<person-group>
+                     <string-name>
+                     <surname>Michalski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1041</fpage>
+               <source>Proceedings of the AAAI</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1667a1310">
+               
+               <mixed-citation id="d1022044e1671" publication-type="journal">
+Murthy, S.K., and Salzberg, S. (1995), "Decision Tree Induction: How Effective is the Greedy Heuristic?,"
+Knowledge Discovery and Data Mining, 222-227.<person-group>
+                     <string-name>
+                     <surname>Murthy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>222</fpage>
+               <source>Knowledge Discovery and Data Mining</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1700a1310">
+               
+               <mixed-citation id="d1022044e1704" publication-type="book">
+Otten, R.H., and Ginneken, L.P. (1989), The Annealing Algorithm, Boston: Kluwer Academic Publishers.<person-group>
+                     <string-name>
+                     <surname>Otten</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Annealing Algorithm</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1726a1310">
+               
+               <mixed-citation id="d1022044e1730" publication-type="journal">
+Quinlan, J. R. (1986), "Induction of Decision Trees," Machine Learning, 1, 81-106.<person-group>
+                     <string-name>
+                     <surname>Quinlan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>1</volume>
+               <source>Machine Learning</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1759a1310">
+               
+               <mixed-citation id="d1022044e1763" publication-type="conference">
+(1992), "Learning with Continuous Classes," 5th Australian Joint Conference on Artificial Intelligence,
+343-348.<person-group>
+                     <string-name>
+                     <surname>Quinlan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Learning with Continuous Classes</comment>
+               <fpage>343</fpage>
+               <source>5th Australian Joint Conference on Artificial Intelligence</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1796a1310">
+               
+               <mixed-citation id="d1022044e1800" publication-type="book">
+(1993), C4.5: Programs for Machine Learning, San Mateo, CA: Morgan Kaufmann.<person-group>
+                     <string-name>
+                     <surname>Quinlan</surname>
+                  </string-name>
+                  </person-group>
+               <source>C4.5: Programs for Machine Learning</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1822a1310">
+               
+               <mixed-citation id="d1022044e1826" publication-type="conference">
+(1996), "Bagging, Boosting and C4.5", in Proceedings of AAAI'96 National Conference on Artificial
+Intelligence, pp. 725-730.<person-group>
+                     <string-name>
+                     <surname>Quinlan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bagging, Boosting and C4.5</comment>
+               <fpage>725</fpage>
+               <source>Proceedings of AAAI'96 National Conference on Artificial Intelligence</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1858a1310">
+               
+               <mixed-citation id="d1022044e1862" publication-type="other">
+Ruczinski, I. (2000), "Logic Regression and Statistical Issues Related to the Protein Folding Problem," PhD thesis,
+University of Washington, Department of Statistics.</mixed-citation>
+            </ref>
+            <ref id="d1022044e1872a1310">
+               
+               <mixed-citation id="d1022044e1876" publication-type="conference">
+Sutton, C. (1991), "Improving Classification Trees with Simulated Annealing," in Proceedings of the 23rd Sym-
+posium on the Interface, ed. E. Kazimadas, Fairfax, VA: Interface Foundation of North America.<person-group>
+                     <string-name>
+                     <surname>Sutton</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Improving Classification Trees with Simulated Annealing</comment>
+               <source>Proceedings of the 23rd Symposium on the Interface</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1905a1310">
+               
+               <mixed-citation id="d1022044e1909" publication-type="journal">
+Teng, E.L., and Chui, H.C. (1987), "The Modified Mini-Mental State (3MS) Examination," Journal of Clinical
+Psychiatry, 48, 314-318.<person-group>
+                     <string-name>
+                     <surname>Teng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>314</fpage>
+               <volume>48</volume>
+               <source>Journal of Clinical Psychiatry</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1941a1310">
+               
+               <mixed-citation id="d1022044e1945" publication-type="conference">
+Thimm, G., and Fiesler, E. (1996), "A Boolean Approach to Construct Neural Networks for Non-Boolean Prob-
+lems," Proceedings of the Eighth International Conference on Tools with Artificial Intelligence (ICTAI), pp.
+458-459.<person-group>
+                     <string-name>
+                     <surname>Thimm</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Boolean Approach to Construct Neural Networks for Non-Boolean Problems</comment>
+               <fpage>458</fpage>
+               <source>Proceedings of the Eighth International Conference on Tools with Artificial Intelligence (ICTAI)</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e1981a1310">
+               
+               <mixed-citation id="d1022044e1985" publication-type="journal">
+Tibshirani, R., and Knight, K. (1999), "Model Search and Inference by Bootstrap 'Bumping'," Journal of Com-
+putational and Graphical Statistics', 8, 671-686.<object-id pub-id-type="doi">10.2307/1390820</object-id>
+               <fpage>671</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2001a1310">
+               
+               <mixed-citation id="d1022044e2005" publication-type="book">
+Torgo, L. (1995), "Data Fitting with Rule-based Regression," in Proceedings of the 2nd International Workshop
+on Artificial Intelligence Techniques (AIT'95), eds. J. Zizka, and P. Brazdil, Brno, Czech Republic.<person-group>
+                     <string-name>
+                     <surname>Torgo</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Data Fitting with Rule-based Regression</comment>
+               <source>Proceedings of the 2nd International Workshop on Artificial Intelligence Techniques (AIT'95)</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2034a1310">
+               
+               <mixed-citation id="d1022044e2038" publication-type="conference">
+Torgo, L., and Gama, J. (1996), "Regression by Classification," Brazilian Symposium on Artificial Intelligence,
+51-60.<person-group>
+                     <string-name>
+                     <surname>Torgo</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Regression by Classification</comment>
+               <fpage>51</fpage>
+               <source>Brazilian Symposium on Artificial Intelligence</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2070a1310">
+               
+               <mixed-citation id="d1022044e2074" publication-type="book">
+Vafaie, H., and DeJong, K. (1991), "Improving the Performance of a Rule Induction System Using Genetic
+Algorithms," in Proceedings of the First International Workshop on Multistrategy Learning MSL-91, pp.
+305-315.<person-group>
+                     <string-name>
+                     <surname>Vafaie</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Improving the Performance of a Rule Induction System Using Genetic Algorithms</comment>
+               <fpage>305</fpage>
+               <source>Proceedings of the First International Workshop on Multistrategy Learning MSL-91</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2109a1310">
+               
+               <mixed-citation id="d1022044e2113" publication-type="book">
+van Laarhoven, P.J., and Aarts, E.H. (1987), Simulated Annealing: Theory and Applications, Boston: Kluwer
+Academic Publishers.<person-group>
+                     <string-name>
+                     <surname>van Laarhoven</surname>
+                  </string-name>
+                  </person-group>
+               <source>Simulated Annealing: Theory and Applications</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2138a1310">
+               
+               <mixed-citation id="d1022044e2142" publication-type="conference">
+Webb, G. (2000), "Efficient Search for Association Rules," in Proceedings of the sixth International Conference
+on Knowledge Discovery and Data Mining KDD 2000, 99-107.<person-group>
+                     <string-name>
+                     <surname>Webb</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Efficient Search for Association Rules</comment>
+               <fpage>99</fpage>
+               <source>Proceedings of the sixth International Conference on Knowledge Discovery and Data Mining KDD 2000</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2175a1310">
+               
+               <mixed-citation id="d1022044e2179" publication-type="conference">
+(2001), "Discovering Associations with Numeric Variables," in Proceedings of the seventh International
+Conference on Knowledge Discovery and Data Mining KDD 2001, pp. 383-388.<person-group>
+                     <string-name>
+                     <surname>Webb</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Discovering Associations with Numeric Variables</comment>
+               <fpage>383</fpage>
+               <source>Proceedings of the seventh International Conference on Knowledge Discovery and Data Mining KDD 2001</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2211a1310">
+               
+               <mixed-citation id="d1022044e2215" publication-type="journal">
+Weiss, S.M., and Indurkhya, N. (1993a), "Optimized Rule Induction," IEEE Expert, December, 61-69.<person-group>
+                     <string-name>
+                     <surname>Weiss</surname>
+                  </string-name>
+                  </person-group>
+               <issue>December</issue>
+               <fpage>61</fpage>
+               <source>IEEE Expert</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2244a1310">
+               
+               <mixed-citation id="d1022044e2248" publication-type="conference">
+(1993b), "Rule-Based Regression," in Proceedings of the 13th International Joint Conference on Artificial
+Intelligence (IJCAI), pp. 1072-1078.<person-group>
+                     <string-name>
+                     <surname>Weiss</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Rule-Based Regression</comment>
+               <fpage>1072</fpage>
+               <source>Proceedings of the 13th International Joint Conference on Artificial Intelligence (IJCAI)</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2280a1310">
+               
+               <mixed-citation id="d1022044e2284" publication-type="journal">
+(1995), "Rule-Based Machine Learning Methods for Functional Prediction," Journal of Artificial Intelli-
+gence Research, 3, 383-403.<person-group>
+                     <string-name>
+                     <surname>Weiss</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>383</fpage>
+               <volume>3</volume>
+               <source>Journal of Artificial Intelligence Research</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2316a1310">
+               
+               <mixed-citation id="d1022044e2320" publication-type="journal">
+Wijsman, E.M., Almasy, L., Amos, C. I., Borecki, I., Falk, C. T., King, T. M., Martinez, M. M., Meyers, D.,
+Neuman, R., Olson, J. M., Rich, S., Spence, M. A., Thomas, D. C., Vieland, V. J., Witte, J. S., MacCluer,
+J. W. (2001), "Analysis of Complex Genetic Traits: Applications to Asthma and Simulated Data," Genetic
+Epidemiology, 21, Supplement 1.<person-group>
+                     <string-name>
+                     <surname>Wijsman</surname>
+                  </string-name>
+                  </person-group>
+               <issue>Supplement 1</issue>
+               <volume>21</volume>
+               <source>Genetic Epidemiology</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2358a1310">
+               
+               <mixed-citation id="d1022044e2362" publication-type="journal">
+Witte, J.S., and Fijal, B.A. (2001), "Introduction: Analysis of Sequence Data and Population Structure," Genetic
+Epidemiology, 21, Supplement 1, pp. 600-601.<person-group>
+                     <string-name>
+                     <surname>Witte</surname>
+                  </string-name>
+                  </person-group>
+               <issue>Supplement 1</issue>
+               <fpage>600</fpage>
+               <volume>21</volume>
+               <source>Genetic Epidemiology</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2398a1310">
+               
+               <mixed-citation id="d1022044e2402" publication-type="book">
+Wnek, J., and Michalski, R. (1994), "Comparing Symbolic and Subsymbolic Learning: Three Studies," Machine
+Learning: A Multistrategy Approach, eds. R. Michalski and G. Tecuci, 4, San Francisco: Morgan-Kaufmann.<person-group>
+                     <string-name>
+                     <surname>Wnek</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Comparing Symbolic and Subsymbolic Learning: Three Studies</comment>
+               <source>Machine Learning: A Multistrategy Approach</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1022044e2431a1310">
+               
+               <mixed-citation id="d1022044e2435" publication-type="journal">
+Zhang, J., and Michalski, R.S. (1989), "Rule Optimization via SG-Trunc Method," European Working Session
+on Learning, 251-262.<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>251</fpage>
+               <source>European Working Session on Learning</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

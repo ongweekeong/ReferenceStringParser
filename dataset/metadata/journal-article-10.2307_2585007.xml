@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">231</issue>
+         <issue-id>i344571</issue-id>
+         <article-id pub-id-type="jstor">2585007</article-id>
+         
+         <title-group>
+            <article-title>Local and Parallel Finite Element Algorithms Based on Two-Grid Discretizations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jinchao</given-names>
+                  <surname>Xu</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Aihui</given-names>
+                  <surname>Zhou</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>881</fpage>
+         <lpage>909</lpage>
+         <page-range>881-909</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585007"/>
+         
+         
+         <abstract>
+            <p>A number of new local and parallel discretization and adaptive finite element algorithms are proposed and analyzed in this paper for elliptic boundary value problems. These algorithms are motivated by the observation that, for a solution to some elliptic problems, low frequency components can be approximated well by a relatively coarse grid and high frequency components can be computed on a fine grid by some local and parallel procedure. The theoretical tools for analyzing these methods are some local a priori and a posteriori estimates that are also obtained in this paper for finite element solutions on general shape-regular grids. Some numerical experiments are also presented to support the theory.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01149-7</kwd>
+            <kwd>65N15</kwd>
+            <kwd>65N30</kwd>
+            <kwd>65N55</kwd>
+            <kwd>65F10</kwd>
+            <kwd>Adaptive</kwd>
+            <kwd>Finite Elements</kwd>
+            <kwd>Local a Priori and a Posteriori Error Estimates</kwd>
+            <kwd>Nonsymmetric</kwd>
+            <kwd>Parallel Algorithm</kwd>
+            <kwd>Two-Grid Method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d712888e242a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d712888e249" publication-type="book">
+Adams R.A.(1975): Sobolev Spaces, Academic Press, New York. MR 56:9247<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev Spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e271a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d712888e278" publication-type="journal">
+Ainsworth, M. and Oden, J.T.(1993): A unified approach to a posteriori error estimation
+using element residual methods, Numer. Math., 65, 23-50. MR 95a:65185<person-group>
+                     <string-name>
+                     <surname>Ainsworth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>65</volume>
+               <source>Numer. Math.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e310a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d712888e317" publication-type="journal">
+Axelsson, 0. and Layton, W.(1996): A two-level discretization of nonlinear boundary value
+problems, SIAM J. Numer. Anal., 33, 2359-2374. MR 98c:65181<object-id pub-id-type="jstor">10.2307/2158474</object-id>
+               <fpage>2359</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e333a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d712888e340" publication-type="journal">
+Babuska, I., Duran, R. and Rodriguez, R.(1992): Analysis of the efficiency of an posteriori
+error estimator for linear triangular finite elements, SIAM J. Numer. Anal., 29, 947-946. MR
+93d:65096<object-id pub-id-type="jstor">10.2307/2157985</object-id>
+               <fpage>947</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e360a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d712888e367" publication-type="journal">
+Babuska, I. and Rheinboldt, C.(1978): Error estimates for adaptive finite element computa-
+tions, SIAM J. Numer. Anal., 15, 736-754. MR 58:3400<object-id pub-id-type="jstor">10.2307/2156851</object-id>
+               <fpage>736</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e383a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d712888e390" publication-type="book">
+Babuska, I., Zienkiewicz, O.C., Gago, J. and Oliveira, E.R. de A. (eds.)(1986): Accuracy
+Estimates and Adaptive Refinements in Finite Element Computations, Wiley, New York.
+MR 87j:65004<person-group>
+                     <string-name>
+                     <surname>Babuska</surname>
+                  </string-name>
+                  </person-group>
+               <source>Accuracy Estimates and Adaptive Refinements in Finite Element Computations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e419a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d712888e426" publication-type="journal">
+Babuska, I., Strouboulis, T. and Gangaraj, S.K.(1997): A posteriori estimation of the error
+in the recovered derivatives of the finite element solution, Comput. Methods Appl. Mech.
+Engrg., 150, 369-396. CMP 98:06<person-group>
+                     <string-name>
+                     <surname>Babuska</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>150</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e461a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d712888e468" publication-type="journal">
+Babuska, I., Strouboulis, T., Gangaraj, S.K. and Upadhyay, C.S.(1997): Pollution error in
+the h-version of the finite element method and the local quality of the recovered derivatives,
+Comput. Methods Appl. Mech. Engrg., 140, 1-37. MR 97i:73092<person-group>
+                     <string-name>
+                     <surname>Babuska</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>140</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e503a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d712888e510" publication-type="journal">
+Babuska, I., Strouboulis, T. and Upadhyay, C.S.(1994): A model study of the quality of
+a posteriori error estimators for linear elliptic problems. Error estimation in the interior of
+patchwise uniform grids of triangles, Comput. Methods Appl.Mech. Engrg., 114, 307-378.
+MR 95d:65093<person-group>
+                     <string-name>
+                     <surname>Babuska</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>307</fpage>
+               <volume>114</volume>
+               <source>Comput. Methods Appl.Mech. Engrg.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e548a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d712888e555" publication-type="journal">
+Bank, R.E.(1996): Hierarchical bases and the finite element method, Acta Numerica, 5, 1-43.
+CMP 98:14<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>5</volume>
+               <source>Acta Numerica</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e588a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d712888e595" publication-type="journal">
+Bank, R.E.(1998): A simple analysis of some a posteriori error estimates, Appl. Numer.
+Math., 26, 153-164. CMP 98:08<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>153</fpage>
+               <volume>26</volume>
+               <source>Appl. Numer. Math.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e627a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d712888e634" publication-type="book">
+Bank, R.E. and Holst, M.(1998): A new paradigm for parallel adaptive meshing algorithms
+(manuscript) .<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <source>A new paradigm for parallel adaptive meshing algorithms</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e659a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d712888e666" publication-type="journal">
+Bank, R.E. and Smith, R.K.(1993): A posteriori error estimates based on hierarchical bases,
+SIAM J. Numer. Anal., 30, 921-935. MR 95f:65212<object-id pub-id-type="jstor">10.2307/2158183</object-id>
+               <fpage>921</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e682a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d712888e689" publication-type="journal">
+Bank, R.E. and Smith, R.K.(1997): Mesh smoothing using a posteriori error estimates, SIAM
+J. Numer. Anal., 34, 979-997. MR 98M:65162<object-id pub-id-type="jstor">10.2307/2951970</object-id>
+               <fpage>979</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e705a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d712888e712" publication-type="journal">
+Bank, R.E. and Weiser, A.(1985): Some a posteriori error estimates for elliptic partial differ-
+ential equations, Math. Comp., 44, 283-301. MR 86g:65207<object-id pub-id-type="doi">10.2307/2007953</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e728a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d712888e735" publication-type="journal">
+Bedivan, D.M.(1995): A two-grid method for solving elliptic problems with inhomogeneous
+boundary conditions, Comput. Math. Appl., 29, 59-66. MR 95k:65103<person-group>
+                     <string-name>
+                     <surname>Bedivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>59</fpage>
+               <volume>29</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e768a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d712888e775" publication-type="journal">
+Blum, H., Lin, Q. and Rannacher, R.(1986): Asymptotic error expansion and Richardson
+extrapolation for linear finite elements, Numer. Math., 49, 11-38. MR 87m:65172<person-group>
+                     <string-name>
+                     <surname>Blum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>11</fpage>
+               <volume>49</volume>
+               <source>Numer. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e807a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d712888e814" publication-type="journal">
+Bornemann, F.A., Erdmann, B. and Kornhuber, R.(1996): A posteriori error estimates for
+elliptic problems in two and three space dimensions, SIAM J. Numer. Anal., 33, 1188-1204.
+MR 98a:65161<object-id pub-id-type="jstor">10.2307/2158502</object-id>
+               <fpage>1188</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e833a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d712888e840" publication-type="book">
+Bramble, J.H.(1993): Multigrid Methods, Pitman Research Notes in Mathematics, 294, Lon-
+don Co-published in the USA with Wiley, New York. MR 95b:65002<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <volume>294</volume>
+               <source>Multigrid Methods, Pitman Research Notes in Mathematics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e869a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d712888e876" publication-type="journal">
+Bramble, J.H., Ewing, R.E., Parashkevov, R.R. and Pasciak, J.E.(1992): Domain decompo-
+sition methods for problems with partial refinement, SIAM J. Sci. Stat. Comp., 13, 397-410.
+MR 92i:65179<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>397</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Sci. Stat. Comp.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e911a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d712888e918" publication-type="journal">
+Bramble, J.H., Ewing, R.E., Pasciak, J.E. and Schatz, A.H.(1988): A preconditioning tech-
+nique for the efficient solution of problems with local grid refinement, Comp. Meth. Appl.
+Mech. Eng., 67, 149-159.<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>149</fpage>
+               <volume>67</volume>
+               <source>Comp. Meth. Appl. Mech. Eng.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e953a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d712888e960" publication-type="journal">
+Chan, T. and Mathew, T.(1994): Domain decomposition algorithms, Acta Numerica, 3,
+61-143. MR 95f:65214<person-group>
+                     <string-name>
+                     <surname>Chan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>61</fpage>
+               <volume>3</volume>
+               <source>Acta Numerica</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e993a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d712888e1000" publication-type="book">
+Ciarlet, P.G. and Lions J.L.(1991): Handbook of Numerical Analysis, Vol.II, Finite Element
+Methods (Part I), North-Holland. MR 92f:65001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <volume>II</volume>
+               <source>Handbook of Numerical Analysis</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1029a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d712888e1036" publication-type="journal">
+Dawson, C.N. and Wheeler, M.F.(1994): Two-grid methods for mixed finite element approx-
+imations of nonlinear parabolic equations, Contemp. Math., 180, 191-203. MR 95j:65117<person-group>
+                     <string-name>
+                     <surname>Dawson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>191</fpage>
+               <volume>180</volume>
+               <source>Contemp. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1068a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d712888e1075" publication-type="journal">
+Dawson, C.N., Wheeler, M.F. and Woodward, C.S.(1998): A two-grid finite difference scheme
+for nonlinear parabolic equations, SIAM J. Numer. Anal., 35, 435-452. MR 99b:65097<object-id pub-id-type="jstor">10.2307/2587136</object-id>
+               <fpage>435</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1091a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d712888e1098" publication-type="journal">
+Eriksson, K., Estep, D., Hansbo, P. and Johnson, C.(1995): Introduction to adaptive methods
+for differential equations, Acta Numerica, 105-158. MR 96k:65057<person-group>
+                     <string-name>
+                     <surname>Eriksson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>105</fpage>
+               <source>Acta Numerica</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1127a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d712888e1134" publication-type="book">
+Eriksson, K., Estep, D., Hansbo, P. and Johnson, C.(1996): Computational Differential
+Equations, Cambridge University Press. MR 97m:65006<person-group>
+                     <string-name>
+                     <surname>Eriksson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational Differential Equations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1159a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d712888e1166" publication-type="journal">
+Eriksson, K. and Johnson, C.(1991): Adaptive finite element methods for parabolic problems
+I: a linear model problem, SIAM J. Numer. Anal., 28, 43-77. MR 91m:65274<object-id pub-id-type="jstor">10.2307/2157933</object-id>
+               <fpage>43</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1183a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d712888e1190" publication-type="journal">
+Eriksson, K. and Johnson, C.(1995): Adaptive finite element methods for parabolic problems
+IV: Nonlinear problems, SIAM J. Numer. Anal., 32, 1729-1749. MR 96i:65081<object-id pub-id-type="jstor">10.2307/2158526</object-id>
+               <fpage>1729</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1206a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d712888e1213" publication-type="book">
+Grisvard, P.(1985): Elliptic Problems in Nonsmooth Domains, Pitman, Boston, MA. MR
+86m:35044<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic Problems in Nonsmooth Domains</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1238a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d712888e1245" publication-type="book">
+Hackbusch, W.(1985): Multigrid Methods and Applications, Springer, New York. MR
+87e:65082<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid Methods and Applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1270a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d712888e1277" publication-type="journal">
+Johnson, C.(1990): Adaptive finite element methods for diffusion and convection problems,
+Comp. Methods Appl. Mech. Engrg., 82, 301-322. MR 91k:65134<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>301</fpage>
+               <volume>82</volume>
+               <source>Comp. Methods Appl. Mech. Engrg.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1309a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d712888e1316" publication-type="journal">
+Layton, W. and Lenferink, W.(1995); Two-level Picard and modified Picard methods for the
+Navier-Stokes equations, Appl. Math. Comp., 69, 263-274. MR 95m:65191<person-group>
+                     <string-name>
+                     <surname>Layton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>263</fpage>
+               <volume>69</volume>
+               <source>Appl. Math. Comp.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1348a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d712888e1355" publication-type="journal">
+Marion, M. and Xu, J.(1995): Error estimates on a new nonlinear Galerkin method based on
+two-grid finite elements, SIAM J. Numer. Anal., 32, 1170-1184. MR 96f:65136<object-id pub-id-type="jstor">10.2307/2158514</object-id>
+               <fpage>1170</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1372a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d712888e1379" publication-type="journal">
+Nitsche, J. and Schatz, A.H.(1974): Interior estimates for Ritz-Galerkin methods, Math.
+Comp., 28, 937-955. MR 51:9525<object-id pub-id-type="doi">10.2307/2005356</object-id>
+               <fpage>937</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1395a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d712888e1402" publication-type="journal">
+Nochetto, R. H.(1995): Pointwise a posteriori error estimates for elliptic problems on highly
+graded meshes, Math. Comp., 64, 1-22. MR 95c:65172<object-id pub-id-type="doi">10.2307/2153320</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1418a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d712888e1425" publication-type="journal">
+Rannacher, R. and Scott, R.(1982): Some optimal error estimates for piecewise linear finite
+element approximations, Math. Comp., 38, 437-445. MR 83e:65180<object-id pub-id-type="doi">10.2307/2007280</object-id>
+               <fpage>437</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1441a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d712888e1448" publication-type="journal">
+Schatz, A.H.(1998): Pointwise error estimates and asymptotic error expansion inequalities
+for the finite element method on irregular grids: Part I. Global estimates, Math. Comp., 67,
+877-899. MR 98j:65082<object-id pub-id-type="jstor">10.2307/2585162</object-id>
+               <fpage>877</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1467a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d712888e1474" publication-type="journal">
+Schatz, A.H. and Wahlbin, L.B.(1977): Interior maximum-norm estimates for finite element
+methods, Math. Comp., 31, 414-442. MR 55:4748<object-id pub-id-type="doi">10.2307/2006424</object-id>
+               <fpage>414</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1490a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d712888e1497" publication-type="journal">
+Schatz, A.H. and Wahlbin, L.B.(1995): Interior maximum-norm estimates for finite element
+methods, Part II, Math. Comp., 64, 907-928. MR 95j:65143<object-id pub-id-type="doi">10.2307/2153476</object-id>
+               <fpage>907</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1514a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d712888e1521" publication-type="journal">
+Schatz, A.H. and Wang, J.(1996): Some new error estimates for Ritz-Galerkin methods with
+minimal regularity assumptions, Math. Comp., 65, 19-27. MR 96d:65190<object-id pub-id-type="jstor">10.2307/2153827</object-id>
+               <fpage>19</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1537a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d712888e1544" publication-type="journal">
+Utnes, T.(1997): Two-grid finite element formulations of the incompressible Navier-Stokes
+equations, Comm. Numer. Methods Engrg., 34, 675-684. MR 98d:76110<person-group>
+                     <string-name>
+                     <surname>Utnes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>675</fpage>
+               <volume>34</volume>
+               <source>Comm. Numer. Methods Engrg.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1576a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d712888e1583" publication-type="journal">
+Verfürth, R.(1994): A posteriori error estimates for nonlinear problems. Finite element dis-
+cretizations of elliptic equations, Math. Comp., 62, 445-475. MR 94j:65136<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <volume>62</volume>
+               <source>Math. Comp.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1615a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d712888e1622" publication-type="other">
+Verfürth, R.(1995): A posteriori error estimates for nonlinear problems. Finite element
+discretizations of parabolic equations, Bericht Nr. 180, Fakultät für Mathematik, Ruhr-
+Universität Bochum.</mixed-citation>
+            </ref>
+            <ref id="d712888e1635a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d712888e1642" publication-type="book">
+Verfürth, R.(1996): A Review of A-Posteriori Error Estimation and Adaptive Mesh Refine-
+ment, Wiley-Teubner.<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Review of A-Posteriori Error Estimation and Adaptive Mesh Refinement</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1667a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d712888e1674" publication-type="book">
+Wahlbin, L.B.(1991): Local behavior in finite element methods, in [23], pp. 355-522. MR
+92f:65001  <fpage>355</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1690a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d712888e1697" publication-type="book">
+Wahlbin, L.B.(1995): Superconvergence in Galerkin Finite Element Methods, Vol. 1605,
+Lecture Notes in Math., Springer. MR 98j:65083<person-group>
+                     <string-name>
+                     <surname>Wahlbin</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1605</volume>
+               <source>Superconvergence in Galerkin Finite Element Methods</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1726a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d712888e1733" publication-type="journal">
+Xu, J.(1992): A new class of iterative methods for nonselfadjoint or indefinite problems,
+SIAM J. Numer. Anal., 29, 303-319. MR 92k:65063<object-id pub-id-type="jstor">10.2307/2158127</object-id>
+               <fpage>303</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1749a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d712888e1756" publication-type="journal">
+Xu, J.(1992): Iterative methods by space decomposition and subspace correction, SIAM
+Review, 34, 4, 581-613. MR 93k:65029<object-id pub-id-type="jstor">10.2307/2132629</object-id>
+               <fpage>581</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1772a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d712888e1779" publication-type="journal">
+Xu, J.(1994): A novel two-grid method for semilinear equations, SIAM J. Sci. Comput., 15,
+231-237. MR 94m:65178<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1811a1310">
+               <label>51</label>
+               
+               <mixed-citation id="d712888e1818" publication-type="journal">
+Xu, J.(1996): Two-grid discretization techniques for linear and nonlinear PDEs, SIAM J.
+Numer. Anal., 33, 1759-1777. MR 97i:65169<object-id pub-id-type="jstor">10.2307/2158329</object-id>
+               <fpage>1759</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1834a1310">
+               <label>52</label>
+               
+               <mixed-citation id="d712888e1841" publication-type="journal">
+Xu, J. and Zou, J.(1998): Some non-overlapping domain decomposition methods, SIAM
+Review40, 4, 857-914.<object-id pub-id-type="jstor">10.2307/2653034</object-id>
+               <fpage>857</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1858a1310">
+               <label>53</label>
+               
+               <mixed-citation id="d712888e1865" publication-type="journal">
+Yserentant, H.(1993): Old and new proofs for multigrid algorithms, Acta Numerica, 2, 285-
+326. MR 94i:65128<person-group>
+                     <string-name>
+                     <surname>Yserentant</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <volume>2</volume>
+               <source>Acta Numerica</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712888e1897a1310">
+               <label>54</label>
+               
+               <mixed-citation id="d712888e1904" publication-type="journal">
+Zhou, A., Liem, C.L., Shih, T.M. and Lii, T.(1998): Error analysis on bi-parameter finite
+elements, Comput. Methods Appl. Mech. Engrg., 158, 329-339. CMP 98:14<person-group>
+                     <string-name>
+                     <surname>Zhou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>158</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

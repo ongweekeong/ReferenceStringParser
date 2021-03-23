@@ -1,0 +1,130 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejtransafe</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019983</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Transportation Safety</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">23275626</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">23275634</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26169295</article-id>
+         <title-group>
+            <article-title>Assessment of Similarity of a Set of Impact Response Time Histories</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Shi</surname>
+                  <given-names>Yibing</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Nusholtz</surname>
+                  <given-names>Guy</given-names>
+               </string-name>
+            </contrib>
+            <aff>FCA US LLC</aff>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2015</year>
+            <string-date>April 2015</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">3</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">1</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26169292</issue-id>
+         <fpage>28</fpage>
+         <lpage>38</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2015 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26169295"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>Two methods of assessing the similarity of a set of impact test signals have been proposed and used in the literature, which are cumulative variance-based and cross correlation-based. In this study, a normalized formulation unites these two approaches by establishing a relationship between the normalized cumulative variance metric (v), an overall similarity metric, and the normalized magnitude similarity metric (m) and shape similarity metric (s): v=1 − m · s. Each of these ranges between 0 and 1 (for the practical case of signals acquired with the same polarity), and they are independent of the physical unit of measurement. Under generally satisfied conditions, the magnitude similarity m is independent of the relative time shifts among the signals in the set; while the shape similarity s is a function of these. An optimal alignment is defined as the relative shifts corresponding to the minimum of the cumulative variance metric, or equivalently, to the maximum of the shape similarity metric. This system therefore quantifies the similarity of a given set of signals with an "as given" relative time alignment with the following: v = 1 − m(p + sₐ), i.e., its overall similarity is partitioned into the shift-invariant normalized magnitude metric m, and the inherent (optimally aligned) normalized shape metric sₐ, and a normalized phase metric p which reflects the alignment.</p>
+            <p>An algorithm is provided for automatic search of the optimal shifts for a given set of signals using the cumulative variance as the objective function. The shifts are treated as real numbers instead of integers so that standard continuous variable optimization functions can be used to treat the discrete signals. This is facilitated by an interpolation procedure for shifting a signal with a real-valued time shift. Numerical examples are presented to demonstrate the general effectiveness of the algorithm, and also specific limitations on consistent convergence to the global optimal. Practical measures that would mitigate the limitations and alternative numerical methods that would fundamentally remove these are suggested.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Morgan, R. M., Marcus, J. H., and Eppinger, R. H., “Correlation of Side Impact Dummy/Cadaver Tests”, Proceedings of Twenty-Fifth Stapp Car Crash Conference, pp.301-328, 1981.</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">Xu, L., Agaram, V., Rouhana, S., Hultman, R. et al., “Repeatability Evaluation of the Pre-Prototype NHTSA Advanced Dummy Compared to the Hybrid III,” SAE Technical Paper 2000-01-0165, 2000, doi:10.4271/2000-01-0165.</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Maltese, M. R. et al., “Response Corridors of Human Surrogates in Lateral Impacts”, Stapp Car Crash Journal Vol.46, pp. 321-351, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Nusholtz, G. S. et al., “Creating Representative Curves from Multiple Time Histories of Vehicle, ATD and Biomechanics Tests”, Proceedings of the 21st International Technical Conference on the Enhanced Safety of Vehicles”, Paper #09-0249, 2009.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">Donnelly, B. R. and Moorhouse, K., “Optimized Phasing of PMHS Response Curves for Biofidelity Targets”, IRCOBI Conference, Paper # IRC-12-51, 2012.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">Kang, Y.-S. et al., “Biomechanical Responses of PMHS in Moderate- Speed Rear Impacts and Development of Response Targets for Evaluating the Internal and External Biofidelity of ATDs”, Stapp Car Crash Journal, Vol. 56, pp. 105-170, 2012.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Moorhouse, K. et al., “Evaluation of the Internal and External Biofidelity of Current Rear Impact ATDs to Response Targets Developed from Moderate-Speed Rear Impacts of PMHS”, Stapp Car Crash Journal, Vol. 56, pp. 171-229, 2012.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">Gehre, C., Gades, H., and Wernicke, P., “Objective Rating of Signals Using Test and Simulation Responses”, Proceedings of the 21st International Technical Conference on the Enhanced Safety of Vehicles, Paper #09-0407, 2009.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Gehre, C., Stahlschmidt, S., “Assessment of Dummy Models by Using Objective Rating Methods”, Proceedings of the 22nd International Technical Conference on the Enhanced Safety of Vehicles, Paper # 11-0216, 2011.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Jovanovski, J., “Crash Data Analysis and Model Validation Using Correlation Techniques,” SAE Technical Paper 810471, 1981, doi:10.4271/810471.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Donnelly, B., Morgan, R., and Eppinger, R., “Durability, Repeatability and Reproducibility of the NHTSA Side Impact Dummy,” SAE Technical Paper 831624, 1983, doi:10.4271/831624.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Smith III, J. O., “Interpolated Delay Lines, Ideal Bandlimited Interpolation, and Fractional Delay Filter Design”, https://ccrma. stanford.edu/∼jos/Interpolation/Interpolation_4up.pdf, last accessed Feb. 2, 2015.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Zhang, Y., and Abdulla, W. H., “A Comparative Study of Time-Delay Estimation Techniques Using MicrophoneArrays”, http://homepages. engineering.auckland.ac.nz/∼wabd002/Technical%20Reports/Technical%20Report%20619_Yushi.pdf, last accessed Feb. 2, 2015.</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label>
+            <mixed-citation publication-type="other">Vu, T. N., and Laukens, K., “Getting Your Peaks in Line: A Review of Alignment Methods for NMR Spectral Data”, Metabolites, V3, 259-276, doi:10.3390, 2013.</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label>
+            <mixed-citation publication-type="other">Nusholtz, G. S., Hsu, T. P., and Byers, L. C., “A Proposed Side Impact ATD Bio-Fidelity Evaluation Scheme Using Cross-Correlation Approach”, Proceedings of the 20th International Technical Conference on the Enhanced Safety of Vehicles, Paper # 07-0399, 2007.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

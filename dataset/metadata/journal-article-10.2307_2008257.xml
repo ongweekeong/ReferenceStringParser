@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">49</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">179</issue>
+         <issue-id>i334597</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008257</article-id>
+         
+         <title-group>
+            <article-title>Abstract Generalized Bisection and a Cost Bound</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>R. Baker</given-names>
+                  <surname>Kearfott</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1987</year>
+         </pub-date>
+         <fpage>187</fpage>
+         <lpage>202</lpage>
+         <page-range>187-202</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1987 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008257"/>
+         
+         
+         <abstract>
+            <p>The purpose of this paper is to study desirable properties of binary search algorithms for isolating all solutions to nonlinear systems of equations $F(X) = 0$ within a given compact domain $\mathbf D \in \mathbf R^n$. We devise a general framework such that any algorithm fitting into the general framework will always isolate all solutions $Z \in \mathbf D$ such that $F(Z) = 0$; this framework contains a new idea for handling the occurrence of roots on boundaries. We then present and prove a bound on the total amount of computation which is valid for any algorithm in the class. Finally, we define a specific prototypical algorithm valid for $F$ satisfying certain natural smoothness properties; we show that it satisfies the hypotheses for the general framework. This algorithm is based on "bisection" of generalized rectangles, the Kantorovich theorem, and second-order Taylor type models for $F$. It is meant to provide further guidelines for the development of effective heuristics, etc., for actual implementations.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65H10</kwd>
+            <kwd>65K99</kwd>
+            <kwd>68B99</kwd>
+            <kwd>68C25</kwd>
+            <kwd>68E99</kwd>
+            <kwd>Nonlinear algebraic systems</kwd>
+            <kwd>global optimization</kwd>
+            <kwd>analysis of algorithms</kwd>
+            <kwd>generalized bisection</kwd>
+            <kwd>Kantorovich theorem</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d227720e154a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d227720e161" publication-type="journal">
+E. L. ALLGOWER &amp; K. GEORG, "Simplicial and continuation methods for approximating fixed
+points and solutions to systems of equations," SIAM Rev., v. 22, 1980, pp. 28-85.<object-id pub-id-type="jstor">10.2307/2029874</object-id>
+               <fpage>28</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e177a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d227720e184" publication-type="book">
+J. E. DENNIS &amp; R. B. SCHNABEL, Numerical Methods for Unconstrained Optimization and Nonlinear
+Least Squares, Prentice-Hall, Englewood Cliffs, N. J., 1983.<person-group>
+                     <string-name>
+                     <surname>Dennis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Methods for Unconstrained Optimization and Nonlinear Least Squares</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e209a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d227720e216" publication-type="journal">
+A. EIGER, K. SIKORSKI &amp; F. STENGER, "A method of bisections for solving n nonlinear equations,"
+ACM Trans. Math. Software, v. 10, 1984, pp. 367-377.<person-group>
+                     <string-name>
+                     <surname>Eiger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>367</fpage>
+               <volume>10</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e248a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d227720e255" publication-type="journal">
+C. B. GARCIA &amp; T. Y. Li, "On the number of solutions to polynomial systems of equations," SIAM
+J. Numer. Anal., v. 17, 1980, pp. 540-546.<object-id pub-id-type="jstor">10.2307/2156910</object-id>
+               <fpage>540</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e272a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d227720e279" publication-type="book">
+C. B. GARCIA &amp; W. I. ZANGWILL, Pathways to Solutions, Fixed Points, and Equilibria, Prentice-Hall,
+Englewood Cliffs, N. J., 1981.<person-group>
+                     <string-name>
+                     <surname>Garcia</surname>
+                  </string-name>
+                  </person-group>
+               <source>Pathways to Solutions, Fixed Points, and Equilibria</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e304a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d227720e311" publication-type="journal">
+E. HANSEN, "A globally convergent interval method for computing and bounding real roots," BIT,
+v. 18, 1978, pp. 415-424.<person-group>
+                     <string-name>
+                     <surname>Hansen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>415</fpage>
+               <volume>18</volume>
+               <source>BIT</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e343a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d227720e350" publication-type="journal">
+E. HANSEN, "Global optimization using interval analysis-The multidimensional case," Numer.
+Math., v. 34, 1980, pp. 247-270.<person-group>
+                     <string-name>
+                     <surname>Hansen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>247</fpage>
+               <volume>34</volume>
+               <source>Numer. Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e382a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d227720e389" publication-type="journal">
+E. HANSEN &amp; S. SENGUPTA, "Bounding solutions of systems of equations using interval analysis,"
+BIT, v. 21, 1981, pp. 203-211.<person-group>
+                     <string-name>
+                     <surname>Hansen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>203</fpage>
+               <volume>21</volume>
+               <source>BIT</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e421a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d227720e428" publication-type="other">
+E. HANSEN, private communication, 1984.</mixed-citation>
+            </ref>
+            <ref id="d227720e435a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d227720e442" publication-type="journal">
+C. HARVEY &amp; F. STENGER, "A two-dimensional analogue to the method of bisections for solving
+nonlinear equations," Quart. Appl. Math., v. 33, 1975, pp. 351-368.<person-group>
+                     <string-name>
+                     <surname>Harvey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>351</fpage>
+               <volume>33</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e475a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d227720e482" publication-type="book">
+F. B. HILDEBRAND, Introduction to Numerical Analysis, McGraw-Hill, New York, 1974.<person-group>
+                     <string-name>
+                     <surname>Hildebrand</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Numerical Analysis</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e504a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d227720e511" publication-type="other">
+R. B. KEARFOTT, Computing the Degree of Maps and a Generalized Method of Bisection, Ph.D.
+dissertation, University of Utah, 1977.</mixed-citation>
+            </ref>
+            <ref id="d227720e521a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d227720e528" publication-type="journal">
+R. B. KEARFOTT, "An efficient degree-computation method for a generalized method of bisection,"
+Numer. Math., v. 32, 1979, pp. 109-127.<person-group>
+                     <string-name>
+                     <surname>Kearfott</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>32</volume>
+               <source>Numer. Math.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e560a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d227720e567" publication-type="book">
+R. B. KEARFOTT, "On a general technique for finding directions proceeding from bifurcation
+points," in Numerical Methods for Bifurcation Problems (T. Ktipper, H. D. Mittelmann, and H. Weber,
+eds.), BirkhAuser, Basel, 1984, pp. 210-218.<person-group>
+                     <string-name>
+                     <surname>Kearfott</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On a general technique for finding directions proceeding from bifurcation points</comment>
+               <fpage>210</fpage>
+               <source>Numerical Methods for Bifurcation Problems</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e602a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d227720e609" publication-type="journal">
+R. E. MOORE &amp; S. T. JONES, "Safe starting regions for iterative methods," SIAM J. Numer. Anal.,
+v. 14, 1977, pp. 1051-1065.<object-id pub-id-type="jstor">10.2307/2156682</object-id>
+               <fpage>1051</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e625a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d227720e632" publication-type="journal">
+A. P. MORGAN, "A method for computing all solutions to systems of polynomial equations," ACM
+Trans. Math. Software, v. 9,1983, pp. 1-17.<person-group>
+                     <string-name>
+                     <surname>Morgan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>9</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e665a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d227720e672" publication-type="journal">
+W. C. RHEINBOLDT &amp; J. V. BURKARDT, "A program for a locally-parametrized continuation
+process," ACM Trans. Math. Software, v. 9, 1983, pp. 215-235.<person-group>
+                     <string-name>
+                     <surname>Rheinboldt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>215</fpage>
+               <volume>9</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e704a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d227720e711" publication-type="journal">
+K. SIKORSKI, "A three-dimensional analogue to the method of bisections for solving nonlinear
+equations," Math. Comp., v. 33, 1979, pp. 722-738.<object-id pub-id-type="doi">10.2307/2006307</object-id>
+               <fpage>722</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e727a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d227720e734" publication-type="journal">
+F. STENGER, "An algorithm for the topological degree of a mapping in RW," Numer. Math., v. 25,
+1976, pp. 23-28.<person-group>
+                     <string-name>
+                     <surname>Stenger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>23</fpage>
+               <volume>25</volume>
+               <source>Numer. Math.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e766a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d227720e773" publication-type="book">
+M. J. TODD, The Computation of Fixed Points and Applications, Springer-Verlag, Berlin and New
+York, 1976.<person-group>
+                     <string-name>
+                     <surname>Todd</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Computation of Fixed Points and Applications</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d227720e798a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d227720e805" publication-type="book">
+A. TUCKER, Applied Combinatorics, Wiley, New York, 1980.<person-group>
+                     <string-name>
+                     <surname>Tucker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied Combinatorics</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

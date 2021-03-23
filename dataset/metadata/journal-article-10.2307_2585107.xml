@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">225</issue>
+         <issue-id>i344565</issue-id>
+         <article-id pub-id-type="jstor">2585107</article-id>
+         
+         <title-group>
+            <article-title>A Fast Algorithm for Gaussian Type Quadrature Formulae with Mixed Boundary Conditions and Some Lumped Mass Spectral Approximations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Abdelkrim</given-names>
+                  <surname>Ezzirani</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Allal</given-names>
+                  <surname>Guessab</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>217</fpage>
+         <lpage>248</lpage>
+         <page-range>217-248</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585107"/>
+         
+         
+         <abstract>
+            <p>After studying Gaussian type quadrature formulae with mixed boundary conditions, we suggest a fast algorithm for computing their nodes and weights. It is shown that the latter are computed in the same manner as in the theory of the classical Gauss quadrature formulae. In fact, all nodes and weights are again computed as eigenvalues and eigenvectors of a real symmetric tridiagonal matrix. Hence, we can adapt existing procedures for generating such quadrature formulae. Comparative results with various methods now in use are given. In the second part of this paper, new algorithms for spectral approximations for second-order elliptic problems are derived. The key to the efficiency of our algorithms is to find an appropriate spectral approximation by using the most accurate quadrature formula, which takes the boundary conditions into account in such a way that the resulting discrete system has a diagonal mass matrix. Hence, our algorithms can be used to introduce explicit resolutions for the time-dependent problems. This is the so-called lumped mass method. The performance of the approach is illustrated with several numerical examples in one and two space dimensions.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01001-7</kwd>
+            <kwd>65D30</kwd>
+            <kwd>65D32</kwd>
+            <kwd>65N35</kwd>
+            <kwd>Quadrature Formulae</kwd>
+            <kwd>Gaussian Quadrature Formulae</kwd>
+            <kwd>Spectral Methods</kwd>
+            <kwd>Lumped Mass Methods</kwd>
+            <kwd>Quasi-Orthogonal Polynomials</kwd>
+            <kwd>Algorithms</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d326511e184a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d326511e191" publication-type="book">
+R. Askey, Positive quadrature methods and positive polynomial sums, Approximation Theory
+5 (C.K. Chui, L. L. Schumaker and J. D. Ward, eds.), Academic Press, New York, 1986,
+1-30. MR 88j:41065<person-group>
+                     <string-name>
+                     <surname>Askey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>5</volume>
+               <source>Positive quadrature methods and positive polynomial sums, Approximation Theory</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e226a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d326511e233" publication-type="book">
+P. Berckmann, Orthogonal polynomials for engineers and physzcists, The Golem Press, Boul-
+der, Colorado, 1973.<person-group>
+                     <string-name>
+                     <surname>Berckmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Orthogonal polynomials for engineers and physzcists</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e258a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d326511e265" publication-type="book">
+C. Bernardi and Y. Maday, Some spectral approximations of one-dimensional fourth-order
+problems, Progress in Approximation Theory, ( P. Nevai and A. Pinkus eds.) Academic Press,
+San Diego (1991), 43-116. MR 92j:65176<person-group>
+                     <string-name>
+                     <surname>Bernardi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>43</fpage>
+               <source>Some spectral approximations of one-dimensional fourth-order problems, Progress in Approximation Theory</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e297a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d326511e304" publication-type="book">
+C. Bernardi and Y. Maday, Approximations spectrales de problèmes aux limites elliptiques,
+Spinger-Verlag France, Paris, 1992. MR 94f:65112<person-group>
+                     <string-name>
+                     <surname>Bernardi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximations spectrales de problèmes aux limites elliptiques</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e330a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d326511e337" publication-type="journal">
+B. Bojanov, D. Braess and N. Dyn, Generalized Gaussian quadrature formulas, J. Approx.
+Theory, v. 48, 1986, pp. 335-353. MR 88c:41049<person-group>
+                     <string-name>
+                     <surname>Bojanov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>335</fpage>
+               <volume>48</volume>
+               <source>J. Approx. Theory</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e369a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d326511e376" publication-type="journal">
+B. Bojanov B. and G. Nikolov, Comparison of Birkhoff type quadrature formulae, Math.
+Comput., v. 54, 1990, pp. 627-648. MR 91e:65034<person-group>
+                     <string-name>
+                     <surname>Bojanov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>627</fpage>
+               <volume>54</volume>
+               <source>Math. Comput.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e408a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d326511e415" publication-type="book">
+B. Bojanov, G. Grozev and A. A. Zhensykbaev, Generalized Gaussian quadrature formulas
+for weak Chebychev systems, in Optimal Recovery of Functions, B. Bojanov and H. Wozni-
+akowski (Eds.), Nova Sciences, New York, 1992, pp. 115-140.<person-group>
+                     <string-name>
+                     <surname>Bojanov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>115</fpage>
+               <source>Generalized Gaussian quadrature formulas for weak Chebychev systems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e447a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d326511e454" publication-type="other">
+B. Bojanov and A. Guessab, Gaussian quadrature formula of Birkhoff's type, to appear.</mixed-citation>
+            </ref>
+            <ref id="d326511e461a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d326511e468" publication-type="book">
+C. Canuto, M.Y. Hussaini, A. Quarteroni and T. A. Zang, Spectral methods in fluid dynamics,
+Springer-Verlag New York, 1988. MR 89m:76004<person-group>
+                     <string-name>
+                     <surname>Canuto</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spectral methods in fluid dynamics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e493a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d326511e500" publication-type="book">
+Ph. G. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e526a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d326511e533" publication-type="book">
+Ph. J. Davis and Ph. Rabinowitz, Methods of numerical integration, Academic Press, London,
+1984. MR 86d:65004<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of numerical integration</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e558a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d326511e565" publication-type="journal">
+E. A. Van Doorn, Representation and bounds for zeros of orthogonal polynomials and eigen-
+values of sign-symmetric tri-diagonal matrices, J. Approx. Theory, v. 51, 1987, pp. 254-266.
+MR 88j:33018<person-group>
+                     <string-name>
+                     <surname>Van Doorn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>254</fpage>
+               <volume>51</volume>
+               <source>J. Approx. Theory</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e600a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d326511e607" publication-type="book">
+A. Ezzirani, Construction de formules de quadrature pour des systèmes de Chebychev avec
+applications aux méthodes spectrales, Thèse de l'Université de Pau, France, 1996.<person-group>
+                     <string-name>
+                     <surname>Ezzirani</surname>
+                  </string-name>
+                  </person-group>
+               <source>Construction de formules de quadrature pour des systèmes de Chebychev avec applications aux méthodes spectrales</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e632a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d326511e639" publication-type="book">
+A. Ezzirani and A. Guessab, A fast algorithm for Gaussian type quadrature formulae with
+mixed boundary conditions, and some lumped mass spectral approximations, U.A. CNRS
+1204. 6(1998).<person-group>
+                     <string-name>
+                     <surname>Ezzirani</surname>
+                  </string-name>
+                  </person-group>
+               <source>A fast algorithm for Gaussian type quadrature formulae with mixed boundary conditions, and some lumped mass spectral approximations</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e668a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d326511e675" publication-type="book">
+D. Funaro, Polynomial approximation of differential equations, Spinger-Verlag, Berlin, 1992.
+MR 94c:65078<person-group>
+                     <string-name>
+                     <surname>Funaro</surname>
+                  </string-name>
+                  </person-group>
+               <source>Polynomial approximation of differential equations</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e700a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d326511e707" publication-type="book">
+W. Gautschi, A survey of Gauss-Christoffel quadrature formulae, in E. B. Christoffel (P. L.
+Butzer and F. Feh6r, Eds.), Birkhauser, Basel, 1981, pp. 72-147. MR 83g:41031<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">E. B. Christoffel</comment>
+               <fpage>72</fpage>
+               <source>A survey of Gauss-Christoffel quadrature formulae</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e740a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d326511e747" publication-type="journal">
+W. Gautschi and S. Li, Gauss-Radau and Gauss-Lobatto quadrature with double end points,
+J. Comput. Appl. Math., v. 34, 1991, pp. 343-360. MR 92c:65032<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>343</fpage>
+               <volume>34</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e779a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d326511e786" publication-type="journal">
+W. Gautschi, Algorithm 726: ORTHPOL- A package of routines for generating orthogonal
+polynomials and Gauss-type quadrature rules, ACM Trans. Math. Software20(1994), 21-62.<person-group>
+                     <string-name>
+                     <surname>Gautschi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>21</fpage>
+               <volume>20</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e818a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d326511e825" publication-type="journal">
+G. H. Golub and J. H. Welsch, Calculation of Gauss quadrature rules, Math. Comp., v. 23,
+1969, pp. 221-230. MR 39:6513<object-id pub-id-type="doi">10.2307/2004418</object-id>
+               <fpage>221</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e841a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d326511e848" publication-type="journal">
+G. H. Golub, Some modified matrix eigenvalue problems, SIAM Rev., v. 15, 2(1973), pp.
+318-334. MR 48:7569<object-id pub-id-type="jstor">10.2307/2028604</object-id>
+               <fpage>318</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e864a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d326511e871" publication-type="journal">
+G. H. Golub and J. Kautsky, Calculation of Gauss quadratures with multiple free and fixed
+knots, Numer. Math., v. 41, 1983, pp. 147-162. MR 84i:65030<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>41</volume>
+               <source>Numer. Math.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e903a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d326511e910" publication-type="journal">
+A. Guessab and Q. I. Rahman, Quadrature formulae and polynomial inequalities, J. Approx.
+Theory, v. 90, 1997, pp. 255-282. CMP 97:16<person-group>
+                     <string-name>
+                     <surname>Guessab</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>90</volume>
+               <source>J. Approx. Theory</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e943a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d326511e950" publication-type="other">
+A. Guessab and G. V. Milovanović, An algorithm for Gauss-Birkhoff type quadrature formu-
+lae, to appear.</mixed-citation>
+            </ref>
+            <ref id="d326511e960a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d326511e967" publication-type="book">
+T. Hughes, The finite element method: linear static and dynamic finite element analysis,
+Prentice-Hall, 1987. MR 90i:65001<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method: linear static and dynamic finite element analysis</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e992a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d326511e999" publication-type="journal">
+K. Jetter, A new class of Gaussian quadrature formulae based on Birkhoff type data, SIAM
+J. Numer. Anal., v. 5, 1982, 1080-1089. MR 84d:41054<object-id pub-id-type="jstor">10.2307/2156995</object-id>
+               <fpage>1080</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1015a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d326511e1022" publication-type="book">
+S. Karlin and W. J. Studden, Tchebycheff systems: with applications in analysis and statis-
+tics, Wiley, 1966. MR 34:4757<person-group>
+                     <string-name>
+                     <surname>Karlin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tchebycheff systems: with applications in analysis and statistics</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1047a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d326511e1054" publication-type="journal">
+M. G. Krein, The ideas of P. L. Chebyshev and A. A. Markov in the theory of limiting
+values of integrals and their further developments, Uspekhi Mat. Nauk, v. 6, 1951, no. 4,
+3-120 (Russian)<person-group>
+                     <string-name>
+                     <surname>Krein</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>3</fpage>
+               <volume>6</volume>
+               <source>Uspekhi Mat. Nauk</source>
+               <year>1951</year>
+            </mixed-citation>
+               <mixed-citation id="d326511e1091" publication-type="journal">
+Amer. Math. Soc. Transl. Ser.2, 12 (1959), pp. 1-122. MR 13:445c; MR
+22:3947a<fpage>1</fpage>
+               <volume>2</volume>
+               <source>Amer. Math. Soc. Transl. Ser.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1114a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d326511e1121" publication-type="book">
+G. G. Lorentz, K. Jetter and S. D. Riemenschneider, Birkhoff interpolation, Encyclopedia of
+Mathematics and its Applications, 19, Addison-Wesley, Reading, Mass., 1983. MR 84g:41002<person-group>
+                     <string-name>
+                     <surname>Lorentz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Birkhoff interpolation</comment>
+               <volume>19</volume>
+               <source>Encyclopedia of Mathematics and its Applications</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1154a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d326511e1161" publication-type="journal">
+A. A. Melkman, Interpolation by splines satisfying mixed boundary conditions, Israel J.
+Math.,19 (1974), pp. 369-381. MR 51:8683<person-group>
+                     <string-name>
+                     <surname>Melkman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>19</volume>
+               <source>Israel J. Math.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1193a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d326511e1200" publication-type="journal">
+C. A. Micchelli and A. Pinkus, Moment theory for weak Chebyshev systems with applica-
+tions to monosplines, quadrature formulae and best one-sided L1 -approximation by spline
+functions with fixed knots, SIAM J. Math. Anal.8 (1977), pp. 206-230. MR 55:8627<person-group>
+                     <string-name>
+                     <surname>Micchelli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>206</fpage>
+               <volume>8</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1235a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d326511e1242" publication-type="journal">
+C. A. Micchelli and T. J. Rivlin, Numerical integration rules near Gaussian formulas, Israel
+J. Math., v. 16, 1973, pp. 267-299. MR 51:2255<person-group>
+                     <string-name>
+                     <surname>Micchelli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>267</fpage>
+               <volume>16</volume>
+               <source>Israel J. Math.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1274a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d326511e1281" publication-type="journal">
+C. A. Micchelli and T. J. Rivlin, Quadrature formulae and Hermite-Birkhoff interpolation,
+Advances in Mathematics, v. 11, 1973, pp. 93-112. MR 47:7289<person-group>
+                     <string-name>
+                     <surname>Micchelli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>11</volume>
+               <source>Advances in Mathematics</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1313a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d326511e1320" publication-type="book">
+G. V. Milovanović, Construction of s-orthogonal polynomials and Turán quadratures, in
+Approx. Theory III, Nis, 1987, (ed. G. V. Milovanovi6) Univ. Nis, 1988, pp. 311-328. MR
+89g:65023<person-group>
+                     <string-name>
+                     <surname>Milovanović</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Construction of s-orthogonal polynomials and Turán quadratures</comment>
+               <fpage>311</fpage>
+               <source>Approx. Theory III</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1355a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d326511e1362" publication-type="book">
+B. N. Parlett, The symmetric eigenvalue problem, Prentice-Hall, Englewood Cliffs, 1980. MR
+81j:65063<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <source>The symmetric eigenvalue problem</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1388a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d326511e1395" publication-type="journal">
+F. Peherstorfer, Characterization of positive quadrature formulae, SIAM J. Math. Anal., v.
+12, 1981, pp. 935-942. MR 82m:65021<person-group>
+                     <string-name>
+                     <surname>Peherstorfer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>935</fpage>
+               <volume>12</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1427a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d326511e1434" publication-type="journal">
+F. Peherstorfer, Characterization of positive quadrature formulae II, SIAM J. Math. Anal. v.
+15, 1984, pp. 1021-1030. MR 86a:65025<person-group>
+                     <string-name>
+                     <surname>Peherstorfer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1021</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Math. Anal. v.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1466a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d326511e1473" publication-type="book">
+A. Quarteroni and A. Valli, Numerical approximation of partial differential equations,
+Spinger-Verlag, Berlin, (1994). MR 95i:65005<person-group>
+                     <string-name>
+                     <surname>Quarteroni</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical approximation of partial differential equations</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1498a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d326511e1505" publication-type="book">
+T. J. Rivlin, " Chebyshev polynomials: From approximation theory to algebra and number
+theory," 2nd ed., Wiley, New York, 1990. MR 92a:41016<person-group>
+                     <string-name>
+                     <surname>Rivlin</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Chebyshev polynomials: From approximation theory to algebra and number theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1534a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d326511e1541" publication-type="journal">
+H. J. Schmid, A note on positive quadrature rules, Rocky Mountain J. Math., v. 19, 1989,
+pp. 395-404. MR 90k:41041<person-group>
+                     <string-name>
+                     <surname>Schmid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>395</fpage>
+               <volume>19</volume>
+               <source>Rocky Mountain J. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1573a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d326511e1580" publication-type="journal">
+D. D. Stancu, Sur quelques formules generales de quadrature du type Gauss-Christoffel, Mat.
+(Cluj), v. 1, 1959, pp. 167-182. MR 22:11078<person-group>
+                     <string-name>
+                     <surname>Stancu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>167</fpage>
+               <volume>1</volume>
+               <source>Mat. (Cluj)</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1613a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d326511e1620" publication-type="book">
+G. Szegö, Orthogonal Polynomials, Colloquium Publication, v. 23, 4th ed., Amer. Math.
+Soc., Providence, R. I., 1975. MR 51:8724<person-group>
+                     <string-name>
+                     <surname>Szegö</surname>
+                  </string-name>
+                  </person-group>
+               <edition>4</edition>
+               <volume>23</volume>
+               <source>Orthogonal Polynomials</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1652a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d326511e1659" publication-type="journal">
+D. S. Watkins, Some perspectives on the eigenvalue problem, SIAM Review, v. 35, 1993, pp.
+430-471. MR 94h:65039<object-id pub-id-type="jstor">10.2307/2132426</object-id>
+               <fpage>430</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1675a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d326511e1682" publication-type="journal">
+Y. Xu, Quasi-orthogonal polynomials, quadrature, and interpolation, J. Math. Anal. Appl.,
+v. 182, 1994, pp. 779-799. MR 95a:42035<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>779</fpage>
+               <volume>182</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326511e1714a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d326511e1721" publication-type="journal">
+Y. Xu, A characterization of positive quadrature formulae, Math. Comp., 62, 1994, pp. 703-
+718. MR 94h:41067<object-id pub-id-type="doi">10.2307/2153531</object-id>
+               <fpage>703</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260293</issue-id>
+         <article-id pub-id-type="jstor">1391100</article-id>
+         
+         <title-group>
+            <article-title>Hierarchical Model-Based Clustering for Large Datasets</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Christian</given-names>
+                  <surname>Posse</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>464</fpage>
+         <lpage>486</lpage>
+         <page-range>464-486</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391100"/>
+         
+         
+         <abstract>
+            <p>In recent years, hierarchical model-based clustering has provided promising results in a variety of applications. However, its use with large datasets has been hindered by a time and memory complexity that are at least quadratic in the number of observations. To overcome this difficulty, this article proposes to start the hierarchical agglomeration from an efficient classification of the data in many classes rather than from the usual set of singleton clusters. This initial partition is derived from a subgraph of the minimum spanning tree associated with the data. To this end, we develop graphical tools that assess the presence of clusters in the data and uncover observations difficult to classify. We use this approach to analyze two large, real datasets: a multiband MRI image of the human brain and data on global precipitation climatology. We use the real datasets to discuss ways of integrating the spatial information in the clustering analysis. We focus on two-stage methods, in which a second stage of processing using established methods is applied to the output from the algorithm presented in this article, viewed as a first stage.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Discrete ICM algorithm</kwd>
+            <kwd>Gaussian mixture</kwd>
+            <kwd>Hierarchical clustering</kwd>
+            <kwd>Image classification</kwd>
+            <kwd>Minimum spanning tree</kwd>
+            <kwd>Sequential uniform plot</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d726563e267a1310">
+               
+               <mixed-citation id="d726563e271" publication-type="book">
+Ambroise, C., Dang, M., and Govaert, G. (1997), "Clustering of Spatial Data by the EM Algorithm," in geoENV
+I-Geostatistics for Environmental Applications, eds. A. Soares et al., Netherlands: Kluwer Academic Pub-
+lishers, pp. 493-504.<person-group>
+                     <string-name>
+                     <surname>Ambroise</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Clustering of Spatial Data by the EM Algorithm</comment>
+               <fpage>493</fpage>
+               <source>geoENV I-Geostatistics for Environmental Applications</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e306a1310">
+               
+               <mixed-citation id="d726563e310" publication-type="journal">
+Banfield, J.D., and Raftery, A.E. (1993), "Model-Based Gaussian and Non-Gaussian Clustering," Biometrics,
+49, 803-821.<object-id pub-id-type="doi">10.2307/2532201</object-id>
+               <fpage>803</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e326a1310">
+               
+               <mixed-citation id="d726563e330" publication-type="journal">
+Besag, J. (1986), "On the Statistical Analysis of Dirty Pictures," Journal of the Royal Statistical Association, Ser.
+B, 48, 259-302.<person-group>
+                     <string-name>
+                     <surname>Besag</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>259</fpage>
+               <volume>48</volume>
+               <source>Journal of the Royal Statistical Association, Ser. B</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e362a1310">
+               
+               <mixed-citation id="d726563e366" publication-type="journal">
+Blashfield, R.K. (1976), "Mixture Model Tests of Cluster Analysis: Accuracy of Four Agglomerative Hierarchical
+Methods," Psychological Bulletin, 83, 377-388.<person-group>
+                     <string-name>
+                     <surname>Blashfield</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>377</fpage>
+               <volume>83</volume>
+               <source>Psychological Bulletin</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e399a1310">
+               
+               <mixed-citation id="d726563e403" publication-type="journal">
+Campbell, J.G., Fraley, C., Murtagh, F., and Raftery, A.E. (1997), "Linear Flaw Detection in Woven Textiles
+using Model-Based Clustering," Pattern Recognition Letters, 18, 1539-1548.<person-group>
+                     <string-name>
+                     <surname>Campbell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1539</fpage>
+               <volume>18</volume>
+               <source>Pattern Recognition Letters</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e435a1310">
+               
+               <mixed-citation id="d726563e439" publication-type="journal">
+Celeux, G., and Govaert, G. (1995), "Gaussian Parsimonious Clustering Models," Pattern Recognition, 28, 781-
+793.<person-group>
+                     <string-name>
+                     <surname>Celeux</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>781</fpage>
+               <volume>28</volume>
+               <source>Pattern Recognition</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e471a1310">
+               
+               <mixed-citation id="d726563e475" publication-type="journal">
+Dasgupta, A., and Raftery, A.E. (1998), "Detecting Features in Spatial Point Processes with Clutter via Model-
+Based Clustering," Journal of the American Statistical Association, 93, 294-302.<object-id pub-id-type="doi">10.2307/2669625</object-id>
+               <fpage>294</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e491a1310">
+               
+               <mixed-citation id="d726563e495" publication-type="journal">
+Dempster, A.P., Laird, N. M., Rubin, D. B. (1977), "Maximum-Likelihood from Incomplete Data via the EM
+Algorithm," Journal of the Royal Statistical Society, Series B, 39, 1-38.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e527a1310">
+               
+               <mixed-citation id="d726563e531" publication-type="book">
+Fayyad, U., and Smyth, P. (1996), "From Massive Datasets to Science Catalogs: Applications and Challenges,"
+in Statistics and Massive Data Sets, Report to the Committee on Applied and Theoretical Statistics, eds. J.
+Kettenring and D. Pregibon, Washington, DC: National Research Council.<person-group>
+                     <string-name>
+                     <surname>Fayyad</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">From Massive Datasets to Science Catalogs: Applications and Challenges</comment>
+               <source>Statistics and Massive Data Sets, Report to the Committee on Applied and Theoretical Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e563a1310">
+               
+               <mixed-citation id="d726563e567" publication-type="journal">
+Forbes, F., and Raftery, A.E. (1999), "Bayesian Morphology: Fast Unsupervised Bayesian Image Analysis,"
+Journal of the American Statistical Association, 94, 555-568.<object-id pub-id-type="doi">10.2307/2670176</object-id>
+               <fpage>555</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e584a1310">
+               
+               <mixed-citation id="d726563e588" publication-type="journal">
+Fovell, R.G. (1997), "Consensus Clustering of U.S. Temperature and Precipitation Data," Journal of Climate, 10,
+1405-1427.<person-group>
+                     <string-name>
+                     <surname>Fovell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1405</fpage>
+               <volume>10</volume>
+               <source>Journal of Climate</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e620a1310">
+               
+               <mixed-citation id="d726563e624" publication-type="journal">
+Fraley, C. (1998), "Algorithms for Model-Based Gaussian Hierarchical Clustering," SIAM Journal on Scientific
+Computing, 20, 270-281.<person-group>
+                     <string-name>
+                     <surname>Fraley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>270</fpage>
+               <volume>20</volume>
+               <source>SIAM Journal on Scientific Computing</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e656a1310">
+               
+               <mixed-citation id="d726563e660" publication-type="journal">
+Fraley, C., and Raftery, A.E. (1998), "How Many Clusters? Which Clustering Method? Answers via Model-Based
+Cluster Analysis," Computer Journal, 41, 578-588.<person-group>
+                     <string-name>
+                     <surname>Fraley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>578</fpage>
+               <volume>41</volume>
+               <source>Computer Journal</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e692a1310">
+               
+               <mixed-citation id="d726563e696" publication-type="journal">
+(1999), "MCLUST: Software for Model-Based Cluster Analysis," Journal of Classification, 16, 297-306.<person-group>
+                     <string-name>
+                     <surname>Fraley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>297</fpage>
+               <volume>16</volume>
+               <source>Journal of Classification</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e725a1310">
+               
+               <mixed-citation id="d726563e729" publication-type="journal">
+Friedman, J.H., and Rafsky, L.C. (1979), "Multivariate Generalizations of the Wald-Wolfowitz and Smirnov
+Two-Sample Tests," The Annals of Statistics, 7, 697-717.<object-id pub-id-type="jstor">10.2307/2958919</object-id>
+               <fpage>697</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e745a1310">
+               
+               <mixed-citation id="d726563e749" publication-type="journal">
+Gong, X., and Richman, M.B. (1995), "On the Application of Cluster Analysis to Growing Season Precipitation
+Data in North America East of the Rockies," Journal of Climate, 8, 897-931.<person-group>
+                     <string-name>
+                     <surname>Gong</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>897</fpage>
+               <volume>8</volume>
+               <source>Journal of Climate</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e782a1310">
+               
+               <mixed-citation id="d726563e786" publication-type="book">
+Gordon, A.D. (1986), "Links Between Clustering and Assignment Procedures," in Proceedings of Computational
+Statistics, Heidelberg: Physica-Verlag, pp. 149-156.<person-group>
+                     <string-name>
+                     <surname>Gordon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Links Between Clustering and Assignment Procedures</comment>
+               <fpage>149</fpage>
+               <source>Proceedings of Computational Statistics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e818a1310">
+               
+               <mixed-citation id="d726563e822" publication-type="journal">
+Hartigan, J.A., and Wong, M.A. (1979), "Algorithm AS 136: A k-means Clustering Algorithm,," Applied Statistics,
+28, 10-108.<object-id pub-id-type="doi">10.2307/2346830</object-id>
+               <fpage>10</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e838a1310">
+               
+               <mixed-citation id="d726563e842" publication-type="journal">
+Jamshidian, M., and Jennrich, R.I. (1997), "Acceleration of the EM Algorithm by Using Quasi-Newton Methods,"
+Journal of the Royal Statistical Society, Ser. B, 59, 569-587.<person-group>
+                     <string-name>
+                     <surname>Jamshidian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>569</fpage>
+               <volume>59</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e874a1310">
+               
+               <mixed-citation id="d726563e878" publication-type="journal">
+Kass, R.E., and Raftery, A.E. (1995), "Bayes Factors," Journal of the American Statistical Association, 90,
+773-795.<object-id pub-id-type="doi">10.2307/2291091</object-id>
+               <fpage>773</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e894a1310">
+               
+               <mixed-citation id="d726563e898" publication-type="journal">
+Kruskal, J.B.Jr., (1956), "On the Shortest Spanning Subtree of a Graph and the Travelling Salesman Problem,"
+in Proceedings of the American Mathematical Society, 7, pp. 48-50.<object-id pub-id-type="doi">10.2307/2033241</object-id>
+               <fpage>48</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e914a1310">
+               
+               <mixed-citation id="d726563e918" publication-type="journal">
+Legates, D.R., and Wilmott, C.J. (1990), "Mean Seasonal and Spatial Variability Gauge-Corrected, Global
+Precipitation," International Journal of Climatology, 10, 111-127.<person-group>
+                     <string-name>
+                     <surname>Legates</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>111</fpage>
+               <volume>10</volume>
+               <source>International Journal of Climatology</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e951a1310">
+               
+               <mixed-citation id="d726563e955" publication-type="journal">
+Leroux, M. (1992), "Consistent Estimation of a Mixing Distribution," The Annals of Statistics, 20, 1350-1360.<object-id pub-id-type="jstor">10.2307/2242015</object-id>
+               <fpage>1350</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e968a1310">
+               
+               <mixed-citation id="d726563e972" publication-type="book">
+Matheron, G. (1975), Random Sets and Integral Geometry, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Matheron</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random Sets and Integral Geometry</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e994a1310">
+               
+               <mixed-citation id="d726563e998" publication-type="book">
+McLachlan, G., and Basford, K. (1988), Mixture Models: Inference and Applications to Clustering, New York:
+Marcel Dekker.<person-group>
+                     <string-name>
+                     <surname>McLachlan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixture Models: Inference and Applications to Clustering</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1023a1310">
+               
+               <mixed-citation id="d726563e1027" publication-type="journal">
+Mukerjee, S., Feigelson, E.D., Babu, G., Murtagh, F., Fraley, C., and Raftery, A.E. (1998), "Three Types of
+Gamma Ray Burst," Astrophysical Journal, 508, 314-327.<person-group>
+                     <string-name>
+                     <surname>Mukerjee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>314</fpage>
+               <volume>508</volume>
+               <source>Astrophysical Journal</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1059a1310">
+               
+               <mixed-citation id="d726563e1063" publication-type="journal">
+Penrose, M.D. (1998), "Extremes for the Minimal Spanning Tree on Normally Distributed Points," Advances in
+Applied Probability, 30, 628-639.<object-id pub-id-type="jstor">10.2307/1428142</object-id>
+               <fpage>628</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1079a1310">
+               
+               <mixed-citation id="d726563e1083" publication-type="book">
+Raftery, A.E. (1993), "Time Series and Image Analysis," Transitions from ONR Contract N00014-91-J-1074,
+Department of Statistics, Univeristy of Washington.<person-group>
+                     <string-name>
+                     <surname>Raftery</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time Series and Image Analysis</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1109a1310">
+               
+               <mixed-citation id="d726563e1113" publication-type="journal">
+Roeder, K., and Wasserman, L. (1997), "Practical Bayesian Density Estimation using Mixtures of Normals,"
+Journal of the American Statistical Association, 92, 894-902.<object-id pub-id-type="doi">10.2307/2965553</object-id>
+               <fpage>894</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1129a1310">
+               
+               <mixed-citation id="d726563e1133" publication-type="journal">
+Schwarz, G. (1978), "Estimating the Dimension of a Model," The Annals of Statistics, 6, 461-464.<object-id pub-id-type="jstor">10.2307/2958889</object-id>
+               <fpage>461</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1146a1310">
+               
+               <mixed-citation id="d726563e1150" publication-type="book">
+Serra, J. (1982), Image Analysis and Mathematical Morphology, London: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Serra</surname>
+                  </string-name>
+                  </person-group>
+               <source>Image Analysis and Mathematical Morphology</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1172a1310">
+               
+               <mixed-citation id="d726563e1176" publication-type="journal">
+Spencer, R.W. (1993), "Global Oceanic Precipitation from the MSU duing 1979-1991 and Comparisons to Other
+Climatologies," Journal of Climate, 61301-1326.<person-group>
+                     <string-name>
+                     <surname>Spencer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1301</fpage>
+               <volume>6</volume>
+               <source>Journal of Climate</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1208a1310">
+               
+               <mixed-citation id="d726563e1212" publication-type="journal">
+Ward, J.H. (1963), "Hierarchical Grouping to Optimize an Objective Function," Journal of theAmerican Statistical
+Association, 58, 236-244.<person-group>
+                     <string-name>
+                     <surname>Ward</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>236</fpage>
+               <volume>58</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d726563e1244a1310">
+               
+               <mixed-citation id="d726563e1248" publication-type="journal">
+Zhang, T., Ramakrishnan, R., and Livny, M. (1997), "BIRCH: A New Data Clustering Algorithm and Its Appli-
+cations," Data Mining and Knowledge Discovery, 1, 126-153.<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>126</fpage>
+               <volume>1</volume>
+               <source>Data Mining and Knowledge Discovery</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

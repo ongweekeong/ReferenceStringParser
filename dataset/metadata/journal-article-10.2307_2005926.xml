@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">28</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">126</issue>
+         <issue-id>i334549</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005926</article-id>
+         
+         <title-group>
+            <article-title>A Characterization of Superlinear Convergence and Its Application to Quasi-Newton Methods</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. E.</given-names>
+                  <surname>Dennis,</surname>
+                  <suffix>Jr.</suffix>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Jorge J.</given-names>
+                     <surname>Moré</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1974</year>
+         </pub-date>
+         <fpage>549</fpage>
+         <lpage>560</lpage>
+         <page-range>549-560</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1974 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005926"/>
+         
+         
+         <abstract>
+            <p>
+               Let $F$ be a mapping from real $n$-dimensional Euclidean space into itself. Most practical algorithms for finding a zero of $F$ are of the form $$x_{k+1} = x_k - B_k^{-1}Fx_k,$$ where $\{B_k\}$ is a sequence of nonsingular matrices. The main result of this paper is a characterization theorem for the superlinear convergence to a zero of $F$ of sequences of the above form. This result is then used to give a unified treatment of the results on the superlinear convergence of the Davidon-Fletcher-Powell method obtained by Powell for the case in which exact line searches are used, and by Broyden, Dennis, and Moré for the case without line searches. As a by-product, several results on the asymptotic behavior of the sequence $\{B_k\}$ are obtained. An interesting aspect of these results is that superlinear convergence is obtained without any consistency conditions; i.e., without requiring that the sequence $\{B_k\}$ converge to the Jacobian matrix of $F$ at the zero. In fact, a modification of an example due to Powell shows that most of the known quasi-Newton methods are not, in general, consistent. Finally, it is pointed out that the above-mentioned characterization theorem applies to other single and double rank quasi-Newton methods, and that the results of this paper can be used to obtain their superlinear convergence. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>65H10</kwd>
+            <kwd>65K05</kwd>
+            <kwd>Quasi-Newton methods</kwd>
+            <kwd>variable metric methods</kwd>
+            <kwd>superlinear converge</kwd>
+            <kwd>iterative methods for nonlinear equations</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d601217e196a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d601217e203" publication-type="book">
+K. M. BROWN &amp; J. E. DENNIS, JR., "A new algorithm for nonlinear least-squares curve
+fitting," in Mathematical Software, John R. Rice, Editor, Academic Press, New York, 1971,
+pp. 391-396.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new algorithm for nonlinear least-squares curve fitting</comment>
+               <fpage>391</fpage>
+               <source>Mathematical Software</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e238a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d601217e245" publication-type="book">
+C. G. BROYDEN, J. E. DENNIS &amp; J. J. MORE', On the Local and Superlinear Conver-
+gence of Quasi-Newton Methods, Cornell Computer Science Technical Report 72-137, 1972<person-group>
+                     <string-name>
+                     <surname>Broyden</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the Local and Superlinear Convergence of Quasi-Newton Methods</source>
+               <year>1972</year>
+            </mixed-citation>
+               <mixed-citation id="d601217e269" publication-type="journal">
+J. Inst. Math. Appl. (To appear.)<source>J. Inst. Math. Appl.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e279a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d601217e286" publication-type="journal">
+R. FLETCHER, "A new approach to variable metric algorithms," Comput. J., v. 13,
+1970, pp. 317-322.<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>317</fpage>
+               <volume>13</volume>
+               <source>Comput. J.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e318a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d601217e325" publication-type="journal">
+A. GOLDSTEIN &amp; J. PRICE, "An effective algorithm for minimization," Numer. Math.,
+v. 10, 1967, pp. 184-189. MR 36 #1084.<person-group>
+                     <string-name>
+                     <surname>Goldstein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>184</fpage>
+               <volume>10</volume>
+               <source>Numer. Math.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e358a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d601217e365" publication-type="journal">
+H. Y. HUANG, "Unified approach to quadratically convergent algorithms for function
+minimization." J. Optimization Theory Appl., v. 5, 1970, pp. 405-423. MR 44 #6134.<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>405</fpage>
+               <volume>5</volume>
+               <source>J. Optimization Theory Appl.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e397a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d601217e404" publication-type="journal">
+G. MCCORMICK &amp; K. RITTER, "Methods of conjugate directions versus quasi-Newton
+methods," Math. Programming, v. 3, 1972, pp. 101-116. MR 46 # 1357.<person-group>
+                     <string-name>
+                     <surname>McCormick</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>3</volume>
+               <source>Math. Programming</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e436a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d601217e443" publication-type="book">
+J. M. ORTEGA &amp; W. C. RHEINBOLDT, Iterative Solution of Nonlinear Equations in
+Several Variables, Academic Press, New York, 1970. MR 42 #8686.<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e468a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d601217e475" publication-type="journal">
+M. J. D. POWELL, "On the convergence of the variable metric algorithm," J. Inst.
+Math. Appl., v. 7, 1971, pp. 21-36. MR 43 #5698.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>21</fpage>
+               <volume>7</volume>
+               <source>J. Inst. Math. Appl.</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e507a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d601217e514" publication-type="other">
+M. J. D. POWELL, Private communication, 1972.</mixed-citation>
+            </ref>
+            <ref id="d601217e521a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d601217e528" publication-type="book">
+K. RITTER, "Superlinearly convergent methods for unconstrained minimization prob-
+lems," Proc. ACM, Boston, 1972, pp. 1137-1145.<person-group>
+                     <string-name>
+                     <surname>Ritter</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Superlinearly convergent methods for unconstrained minimization problems</comment>
+               <fpage>1137</fpage>
+               <source>Proc. ACM</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d601217e561a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d601217e568" publication-type="other">
+R. VOIGT, Rates of Convergence for Iterative Methods for Nonlinear Systems of
+Equations, Ph.D. Thesis, University of Maryland, College Park, Md., 1969.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

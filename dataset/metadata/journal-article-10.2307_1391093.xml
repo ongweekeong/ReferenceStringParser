@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260290</issue-id>
+         <article-id pub-id-type="doi">10.2307/1391093</article-id>
+         
+         <title-group>
+            <article-title>Bayesian Inference with Missing Data Using Bound and Collapse</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paola</given-names>
+                  <surname>Sebastiani</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Marco</given-names>
+                  <surname>Ramoni</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>779</fpage>
+         <lpage>800</lpage>
+         <page-range>779-800</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391093"/>
+         
+         
+         <abstract>
+            <p>Current Bayesian methods to estimate conditional probabilities from samples with missing data pose serious problems of robustness and computational efficiency. This article introduces a new method, called bound and collapse (BC) to tackle these problems. BC first bounds the possible estimates consistent with the available information and then collapses these bounds to a point estimate using information about the pattern of missing data. Deterministic approximations of the variance and of the posterior distribution are proposed, and their accuracy is compared to stochastic approximations in a real dataset of polling data subject to nonresponse.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Bayesian inference</kwd>
+            <kwd>Gibbs sampling</kwd>
+            <kwd>Imputation</kwd>
+            <kwd>Missing data</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d674243e147a1310">
+               
+               <mixed-citation id="d674243e151" publication-type="book">
+Berger, J. 0. (1985), Statistical Decision Theory and Bayesian Analysis (2nd ed), New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Berger</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Statistical Decision Theory and Bayesian Analysis</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e176a1310">
+               
+               <mixed-citation id="d674243e180" publication-type="book">
+Bernardo, J.M., and Smith, A.F.M. (1994), Bayesian Theory, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Bernardo</surname>
+                  </string-name>
+                  </person-group>
+               <source>Bayesian Theory</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e202a1310">
+               
+               <mixed-citation id="d674243e206" publication-type="book">
+Butler, D., and Kavanagh, D. (1992), The British General Election of 1992, New York: St. Martins's Press.<person-group>
+                     <string-name>
+                     <surname>Butler</surname>
+                  </string-name>
+                  </person-group>
+               <source>The British General Election of 1992</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e228a1310">
+               
+               <mixed-citation id="d674243e232" publication-type="journal">
+Copas, J.B., and Li, H.G. (1997), "Inference in Non-random Samples" (with discussion), Journal of the
+Royal Statistical Society, Ser. B, 55-95.<person-group>
+                     <string-name>
+                     <surname>Copas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>55</fpage>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e262a1310">
+               
+               <mixed-citation id="d674243e266" publication-type="book">
+Cowell, R.G., Dawid, A.P., and Sebastiani, P. (1996), "A Comparison of Sequential Learning Methods for
+Incomplete Data," in Bayesian Statistics 5, Oxford: Oxford University Press, pp. 533-542.<person-group>
+                     <string-name>
+                     <surname>Cowell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Comparison of Sequential Learning Methods for Incomplete Data</comment>
+               <fpage>533</fpage>
+               <source>Bayesian Statistics 5</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e298a1310">
+               
+               <mixed-citation id="d674243e302" publication-type="journal">
+Dempster, A.P. (1968), "A Generalization of Bayesian Inference," Journal of the Royal Statistical Society,
+Ser. B, 30, 205-247.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>30</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e334a1310">
+               
+               <mixed-citation id="d674243e338" publication-type="journal">
+Dickey, J.M., Jiang, J.M., and Kadane, J.B. (1982), "Bayesian Methods for Censored Categorical Data,"
+Journal of the American Statistical Association, 82, 773-781.<object-id pub-id-type="doi">10.2307/2288786</object-id>
+               <fpage>773</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e354a1310">
+               
+               <mixed-citation id="d674243e358" publication-type="book">
+Fang, K.T., Kotz, S., and Ng, K.W. (1990), Symmetric Multivariate and Related Distributions, London:
+Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Fang</surname>
+                  </string-name>
+                  </person-group>
+               <source>Symmetric Multivariate and Related Distributions</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e383a1310">
+               
+               <mixed-citation id="d674243e387" publication-type="journal">
+Forster, J.J., and Smith, P.W.F. (1998), "Model-Based Inference for Categorical Survey Data Subject to
+Non-ignorable Non-response" (with discussion), Journal of the Royal Statistical Society, Ser. B, 60,
+57-70.<person-group>
+                     <string-name>
+                     <surname>Forster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>60</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e422a1310">
+               
+               <mixed-citation id="d674243e426" publication-type="journal">
+Forster, J.J., McDonald, J.W., and Smith, P.W.F. (1996), "Monte Carlo Exact Condidional Tests for
+Log-Linear and Logistic Models," Journal of the Royal Statistical Society, 58, 445-453.<person-group>
+                     <string-name>
+                     <surname>Forster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>445</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e459a1310">
+               
+               <mixed-citation id="d674243e463" publication-type="book">
+Gelman, A., Carlin, J.B., Stern, H.S., and Rubin, D.B. (1995), Bayesian Data Analysis, London: Chapman
+and Hall.<person-group>
+                     <string-name>
+                     <surname>Gelman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Bayesian Data Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e488a1310">
+               
+               <mixed-citation id="d674243e492" publication-type="journal">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and the Bayesian Restoration
+of Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721-741.<person-group>
+                     <string-name>
+                     <surname>Geman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>721</fpage>
+               <volume>6</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e524a1310">
+               
+               <mixed-citation id="d674243e528" publication-type="book">
+Good, I.J. (1962), "Subjective Probability as a Measure of a Non-Measurable Set," in Logic, Methodology
+and Philosophy of Science, eds. E. Nagel, P. Suppes, and A. Tarsky, Stanford, CA: Stanford University
+Press, pp. 319-329.<person-group>
+                     <string-name>
+                     <surname>Good</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Subjective Probability as a Measure of a Non-Measurable Set</comment>
+               <fpage>319</fpage>
+               <source>Logic, Methodology and Philosophy of Science</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e563a1310">
+               
+               <mixed-citation id="d674243e567" publication-type="book">
+(1968), The Estimation of Probability: An Essay on Modern Bayesian Methods, Cambridge, MA: MIT
+Press.<person-group>
+                     <string-name>
+                     <surname>Good</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Estimation of Probability: An Essay on Modern Bayesian Methods</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e592a1310">
+               
+               <mixed-citation id="d674243e596" publication-type="journal">
+Jiang, J.M., Kadane, J.B., and Dickey, J.M. (1992), "Computation of Carlson's Multiple Hypergeometric
+Function R," Journal of Statistical Computation and Graphics, 1, 231-251.<person-group>
+                     <string-name>
+                     <surname>Jiang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>1</volume>
+               <source>Journal of Statistical Computation and Graphics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e628a1310">
+               
+               <mixed-citation id="d674243e632" publication-type="journal">
+Kadane, J.B. (1993), "Subjective Bayesian Analysis for Surveys With Missing Data," The Statistician, 42,
+415-426.<object-id pub-id-type="doi">10.2307/2348475</object-id>
+               <fpage>415</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e649a1310">
+               
+               <mixed-citation id="d674243e653" publication-type="journal">
+Kadane, J.B., and Terrin, N. (1997), "Missing Data in the Forensic Context," Journal of the Royal Statistical
+Society, Ser. B, 160, 351-357.<person-group>
+                     <string-name>
+                     <surname>Kadane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>351</fpage>
+               <volume>160</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e685a1310">
+               
+               <mixed-citation id="d674243e689" publication-type="book">
+Kyburg, H.E. (1961), Probability and the Logic of Rational Belief, Middletown: Wesleyan University Press.<person-group>
+                     <string-name>
+                     <surname>Kyburg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Probability and the Logic of Rational Belief</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e711a1310">
+               
+               <mixed-citation id="d674243e715" publication-type="book">
+Little, R.J.A., and Rubin, D.B. (1987), Statistical Analysis with Missing Data, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Little</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis with Missing Data</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e737a1310">
+               
+               <mixed-citation id="d674243e741" publication-type="journal">
+Paulino, M.D.C., and deB. Pereira, C. A. (1992), "Bayesian Analysis of Categorical Data Informatively
+Censored," Communications in Statistics, Part A-Theory and Methods, 21, 2689-2705.<person-group>
+                     <string-name>
+                     <surname>Paulino</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2689</fpage>
+               <volume>21</volume>
+               <source>Communications in Statistics, Part A-Theory and Methods</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e773a1310">
+               
+               <mixed-citation id="d674243e777" publication-type="journal">
+(1995), "Bayesian Analysis of Categorical Data Under Informative General Censoring," Biometrika,
+82, 439-446.<object-id pub-id-type="doi">10.2307/2337423</object-id>
+               <fpage>439</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e793a1310">
+               
+               <mixed-citation id="d674243e797" publication-type="book">
+Ross, S.M. (1996), Stochastic Processes, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Ross</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stochastic Processes</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e820a1310">
+               
+               <mixed-citation id="d674243e824" publication-type="journal">
+Rubin, D.B. (1976), "Inference and Missing Data," Biometrika, 63, 581-592.<object-id pub-id-type="doi">10.2307/2335739</object-id>
+               <fpage>581</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e837a1310">
+               
+               <mixed-citation id="d674243e841" publication-type="book">
+Schafer, J.L. (1997), Analysis of Incomplete Multivariate Data, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Schafer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of Incomplete Multivariate Data</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e863a1310">
+               
+               <mixed-citation id="d674243e867" publication-type="journal">
+Smith, P.W.F., Forster, J.J., and McDonald, (1996), "Monte Carlo Exact Tests for Square Contingency
+Tables," Journal of the Royal Statistical Society, 159, 309-321.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>159</volume>
+               <source>Journal of the Royal Statistical Society</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e899a1310">
+               
+               <mixed-citation id="d674243e903" publication-type="book">
+Spiegelhalter, D.J., and Cowell, R.G. (1992), "Learning in Probabilistic Expert Systems," in Bayesian
+Statistics 4, Oxford: Clarendon Press, pp. 447-466.<person-group>
+                     <string-name>
+                     <surname>Spiegelhalter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>447</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e932a1310">
+               
+               <mixed-citation id="d674243e936" publication-type="journal">
+Spiegelhalter, D.J., and Lauritzen, S.L. (1990), "Sequential Updating of Conditional Probabilities on Directed
+Graphical Structures," Networks, 20, 157-224.<person-group>
+                     <string-name>
+                     <surname>Spiegelhalter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>20</volume>
+               <source>Networks</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e968a1310">
+               
+               <mixed-citation id="d674243e972" publication-type="book">
+Tanner, M.A. (1996), Tools for Statistical Inference (3rd ed.), New York: Springer Verlag.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Tools for Statistical Inference</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e998a1310">
+               
+               <mixed-citation id="d674243e1002" publication-type="journal">
+Tanner, M.A., and Wong, W.H. (1987), "The Calculation of Posterior Distributions by Data Augmentation"
+(with discussion), Jornal of the American Statistical Association, 82, 528-550.<person-group>
+                     <string-name>
+                     <surname>Tanner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>528</fpage>
+               <volume>82</volume>
+               <source>Jornal of the American Statistical Association</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e1034a1310">
+               
+               <mixed-citation id="d674243e1038" publication-type="book">
+Thomas, A., Spiegelhalter, D.J., and Gilks, W.R. (1992), "Bugs: A Program to Perform Bayesian Inference
+Using Gibbs Sampling," in Bayesian Statistics 4, Oxford: Clarendon Press, pp. 837-842.<person-group>
+                     <string-name>
+                     <surname>Thomas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bugs: A Program to Perform Bayesian Inference Using Gibbs Sampling</comment>
+               <fpage>837</fpage>
+               <source>Bayesian Statistics 4</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e1070a1310">
+               
+               <mixed-citation id="d674243e1074" publication-type="book">
+Titterington, D.M., Smith, A.F.M., and Makov, U.E. (1985), Statistical Analysis of Finite Mixture Distribu-
+tions, Chichester: Wiley.<person-group>
+                     <string-name>
+                     <surname>Titterington</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis of Finite Mixture Distributions</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e1099a1310">
+               
+               <mixed-citation id="d674243e1103" publication-type="book">
+Walley, P. (1991), Statistical Reasoning with Imprecise Probabilities, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Walley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Reasoning with Imprecise Probabilities</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d674243e1125a1310">
+               
+               <mixed-citation id="d674243e1129" publication-type="book">
+Wilks, S.S. (1963), Mathematical Statistics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Wilks</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical Statistics</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

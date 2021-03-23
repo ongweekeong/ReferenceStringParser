@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">225</issue>
+         <issue-id>i344565</issue-id>
+         <article-id pub-id-type="jstor">2585101</article-id>
+         
+         <title-group>
+            <article-title>On the Extraction Technique in Boundary Integral Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>C.</given-names>
+                  <surname>Schwab</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>W. L.</given-names>
+                  <surname>Wendland</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>91</fpage>
+         <lpage>122</lpage>
+         <page-range>91-122</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585101"/>
+         
+         
+         <abstract>
+            <p>In this paper we develop and analyze a bootstrapping algorithm for the extraction of potentials and arbitrary derivatives of the Cauchy data of regular three-dimensional second order elliptic boundary value problems in connection with corresponding boundary integral equations. The method rests on the derivatives of the generalized Green's representation formula, which are expressed in terms of singular boundary integrals as Hadamard's finite parts. Their regularization, together with asymptotic pseudohomogeneous kernel expansions, yields a constructive method for obtaining generalized jump relations. These expansions are obtained via composition of Taylor expansions of the local surface representation, the density functions, differential operators and the fundamental solution of the original problem, together with the use of local polar coordinates in the parameter domain. For boundary integral equations obtained by the direct method, this method allows the recursive numerical extraction of potentials and their derivatives near and up to the boundary surface.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01044-3</kwd>
+            <kwd>45F15</kwd>
+            <kwd>15N38</kwd>
+            <kwd>45K05</kwd>
+            <kwd>47G30</kwd>
+            <kwd>58G15</kwd>
+            <kwd>35J25</kwd>
+            <kwd>Boundary Integral Equation Methods</kwd>
+            <kwd>Derivatives of the Cauchy Data</kwd>
+            <kwd>Regularization of Hypersingular Potentials</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d326278e166a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d326278e173" publication-type="book">
+I. Babuška and A.K. Aziz: Survey lectures on the mathematical foundations of the finite
+element method. In: The Mathematical Foundation of the Finite Element Method with Ap-
+plications to Partial Differential Equations (ed. A. K. Aziz), Academic Press, New York
+(1972) 3-359. MR 54:9111<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Survey lectures on the mathematical foundations of the finite element method</comment>
+               <fpage>3</fpage>
+               <source>The Mathematical Foundation of the Finite Element Method with Applications to Partial Differential Equations</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e211a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d326278e218" publication-type="book">
+Yu.D. Burago and V.G. Maz'ja: Potential Theory and Function Theory for Irregular Re-
+gions. Seminars in Math., V.A. Steklov Math. Inst., Leningrad, Vol. 3 (1967), English Transl.
+Consultants Bureau, New York (1969). MR 37:3031; MR 39:1633<person-group>
+                     <string-name>
+                     <surname>Burago</surname>
+                  </string-name>
+                  </person-group>
+               <volume>3</volume>
+               <source>Potential Theory and Function Theory for Irregular Regions</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e250a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d326278e257" publication-type="book">
+M. Costabel: Starke Elliptizität von Randintegraloperatoren erster Art, Habilitationsschrift
+Technische Hochschule Darmstadt, Fachbereich Mathematik, Preprint No. 868 (1984).<person-group>
+                     <string-name>
+                     <surname>Costabel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Starke Elliptizität von Randintegraloperatoren erster Art</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e282a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d326278e289" publication-type="journal">
+M. Costabel: Boundary integral operators on Lipschitz domains - elementary results, SIAM
+J. Math. Anal.19 (1987) 613-626. MR 89h:35090<person-group>
+                     <string-name>
+                     <surname>Costabel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>613</fpage>
+               <volume>19</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e322a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d326278e329" publication-type="journal">
+M. Costabel and M.Dauge: On representation formulas and radiation conditions. Math.
+Methods Appl. Sci.20 (1997), 133-150. MR 97m:35031<person-group>
+                     <string-name>
+                     <surname>Costabel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>133</fpage>
+               <volume>20</volume>
+               <source>Math. Methods Appl. Sci.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e361a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d326278e368" publication-type="journal">
+M. Costabel and W. L. Wendland: Strong ellipticity of boundary integral operators, Journ.
+Reine Angew. Math.372 (1986) 34-63. MR 88c:35048<person-group>
+                     <string-name>
+                     <surname>Costabel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>34</fpage>
+               <volume>372</volume>
+               <source>Journ. Reine Angew. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e400a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d326278e407" publication-type="book">
+T.A. Cruse and J.D. Richardson: Continuity of the elastic BIE formulation, (Preprint Dept.
+Mech. Engrg. Vanderbilt Univ. 1995).<person-group>
+                     <string-name>
+                     <surname>Cruse</surname>
+                  </string-name>
+                  </person-group>
+               <source>Continuity of the elastic BIE formulation</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e432a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d326278e439" publication-type="journal">
+T.A. Cruse and Q. Huang: On the nonsingular traction-BIE in elasticity. Intern. J. Numer.
+Methods Engrg.37 (1994), 2041-2072. MR 95a:73074<person-group>
+                     <string-name>
+                     <surname>Cruse</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2041</fpage>
+               <volume>37</volume>
+               <source>Intern. J. Numer. Methods Engrg.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e471a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d326278e478" publication-type="book">
+R. Dautray and J.-L. Lions: Mathematical Analysis and Numerical Methods for Science and
+Technology, Vol. 4: Integral Equations and Numerical Methods. Springer-Verlag, Berlin 1990.
+MR 91h:00004b<person-group>
+                     <string-name>
+                     <surname>Dautray</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical Analysis and Numerical Methods for Science and Technology, Vol. 4: Integral Equations and Numerical Methods</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e507a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d326278e514" publication-type="book">
+C. Fiedler and L.Gaul: Limiting procedures and calculation of boundary stresses in three-
+dimenional boundary element method. In: Advances in Comp. Mechanics (M. Papadrakakis
+and B.H.V. Topping, eds.), Civil-Comp. Ltd., Edinburgh (1994), 311-322.<person-group>
+                     <string-name>
+                     <surname>Fiedler</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Limiting procedures and calculation of boundary stresses in three-dimenional boundary element method</comment>
+               <fpage>311</fpage>
+               <source>Advances in Comp. Mechanics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e550a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d326278e557" publication-type="conference">
+M. Guiggiani: "Accurate evaluation of stresses on the boundary using hypersingular integral
+equations" in: Proc. of the First European Conference on Numerical Methods in Engineering,
+Brussels, 7-11 Sept. 1992. Ch. Hirsch (Ed.), Elsevier Science Publishers.<person-group>
+                     <string-name>
+                     <surname>Guiggiani</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Accurate evaluation of stresses on the boundary using hypersingular integral equations</comment>
+               <source>Proc. of the First European Conference on Numerical Methods in Engineering, Brussels</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e589a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d326278e596" publication-type="journal">
+M. Guiggiani, G. Krishnasamy, T. J. Rudolphi and F. J. Rizzo: A general algorithm for
+the numerical solution of hypersingular boundary integral equations, Trans. ASME J. Appl.
+Mech.59 (1992), 604-614. MR 93f:73109<person-group>
+                     <string-name>
+                     <surname>Guiggiani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>604</fpage>
+               <volume>59</volume>
+               <source>Trans. ASME J. Appl. Mech.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e631a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d326278e638" publication-type="journal">
+F. Hartmann: Elastic potentials on piecewise smooth surfaces, J. Elasticity12 (1982) 31-50.
+MR 83f:73025b<person-group>
+                     <string-name>
+                     <surname>Hartmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>12</volume>
+               <source>J. Elasticity</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e670a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d326278e677" publication-type="journal">
+G. C. Hsiao and W. L. Wendland: A finite element method for some integral equations of
+the first kind, J. Math. Anal. Appl.58 (1977) 449-481. MR 57:1945<person-group>
+                     <string-name>
+                     <surname>Hsiao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>449</fpage>
+               <volume>58</volume>
+               <source>J. Math. Anal. Appl.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e709a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d326278e716" publication-type="journal">
+G. C. Hsiao and W. L. Wendland: The Aubin-Nitsche lemma for integral equations, J.
+Integral Equations3 (1981) 299-315. MR 83j:45019<person-group>
+                     <string-name>
+                     <surname>Hsiao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>299</fpage>
+               <volume>3</volume>
+               <source>J. Integral Equations</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e748a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d326278e755" publication-type="journal">
+G. C. Hsiao and W. L. Wendland: On a boundary integral method for some exterior problems
+in elasticity, Trudy Tbiliss. Univ. Mat. Mekh. Astr.18 (1985), 31-60. MR 88f:73019<person-group>
+                     <string-name>
+                     <surname>Hsiao</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>18</volume>
+               <source>Trudy Tbiliss. Univ. Mat. Mekh. Astr.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e788a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d326278e795" publication-type="other">
+G. C. Hsiao and W. L. Wendland: Variational Methods for Boundary Integral Equations. In
+preparation.</mixed-citation>
+            </ref>
+            <ref id="d326278e805a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d326278e812" publication-type="journal">
+0. Huber, A. Lang and G. Kuhn: Evaluation of the stress tensor in 3D elastostatics by direct
+solving of hypersingular integrals. Comp. Mechanics12 (1993) 39-50. MR 94e:73065<person-group>
+                     <string-name>
+                     <surname>Huber</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>39</fpage>
+               <volume>12</volume>
+               <source>Comp. Mechanics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e844a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d326278e851" publication-type="book">
+F. John: Plane Waves and Spherical Means Applied to Partial Differential Equations, Wiley
+Interscience, New York 1955. MR 17:746d<person-group>
+                     <string-name>
+                     <surname>John</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Plane Waves and Spherical Means Applied to Partial Differential Equations</comment>
+               <source>Wiley Interscience</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e880a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d326278e887" publication-type="journal">
+J.H. Kane and C. Balakrishna: Symmetric Galerkin boundary formulations employing curved
+elements. Intern. J. Numer. Methods Engrg.36 (1993) 2157-2187. MR 94c:73067<person-group>
+                     <string-name>
+                     <surname>Kane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2157</fpage>
+               <volume>36</volume>
+               <source>Intern. J. Numer. Methods Engrg.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e919a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d326278e926" publication-type="other">
+R. Kieser: Hypersinguläre Operatoren und einseitige Sprungrelationen in der Methode der
+Randelemente, Doctoral Dissertation, Stuttgart University 1991.</mixed-citation>
+            </ref>
+            <ref id="d326278e936a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d326278e943" publication-type="journal">
+R. Kieser, C. Schwab and W. L. Wendland: Numerical evaluation of singular and finite part
+integrals on curved surfaces using symbolic manipulation, Computing49 (1992), 279-301.
+MR 93i:76037<person-group>
+                     <string-name>
+                     <surname>Kieser</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>279</fpage>
+               <volume>49</volume>
+               <source>Computing</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e979a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d326278e986" publication-type="journal">
+J.C. Lachat and J.O. Watson: Effective numerical treatment of boundary integral equations:
+A formulation for three-dimensional elastostatics. Intern. J. Numer. Methods Engrg.10
+(1979) 991-1005.<person-group>
+                     <string-name>
+                     <surname>Lachat</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>991</fpage>
+               <volume>10</volume>
+               <source>Intern. J. Numer. Methods Engrg.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1021a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d326278e1028" publication-type="book">
+D. Laugwitz: Differentialgeometrie. B.G. Teubner, Stuttgart, 1960. MR 22:7061<person-group>
+                     <string-name>
+                     <surname>Laugwitz</surname>
+                  </string-name>
+                  </person-group>
+               <source>Differentialgeometrie</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1050a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d326278e1057" publication-type="book">
+J. L. Lions and E. Magenes: Non-Homogeneous Boundary Value Problems and Applications
+I, Springer-Verlag, Berlin, 1972. MR 50:2670<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Non-Homogeneous Boundary Value Problems and Applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1086a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d326278e1093" publication-type="journal">
+T. Matsumoto and M. Tanaka: Boundary stress calculation using regularized boundary in-
+tegral equation for displacement gradients. Intern. J. Numer. Methods Engrg.36 (1993)
+783-797.<person-group>
+                     <string-name>
+                     <surname>Matsumoto</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>783</fpage>
+               <volume>36</volume>
+               <source>Intern. J. Numer. Methods Engrg.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1128a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d326278e1135" publication-type="book">
+S.G. Mikhlin: Multidimensional Singular Integrals and Integral Equations. Pergamon Press,
+Oxford 1965. MR 32:2866<person-group>
+                     <string-name>
+                     <surname>Mikhlin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multidimensional Singular Integrals and Integral Equations</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1160a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d326278e1167" publication-type="book">
+C. Miranda: Partial Differential Equations of Elliptic Type. Springer-Verlag, Berlin 1970.
+MR 44:1924<person-group>
+                     <string-name>
+                     <surname>Miranda</surname>
+                  </string-name>
+                  </person-group>
+               <source>Partial Differential Equations of Elliptic Type</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1193a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d326278e1200" publication-type="book">
+C. B. Morrey, Jr.: Multiple Integrals in the Calculus of Variations, Springer-Verlag, Berlin,
+1966. MR 34:2380<person-group>
+                     <string-name>
+                     <surname>Morrey</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multiple Integrals in the Calculus of Variations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1225a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d326278e1232" publication-type="book">
+J. Nečas: Les Méthodes Directes en Théorie des Equations Elliptiques, Masson, Paris 1967.
+MR 37:3168<person-group>
+                     <string-name>
+                     <surname>Nečas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Les Méthodes Directes en Théorie des Equations Elliptiques</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1257a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d326278e1264" publication-type="journal">
+J.C. Nedelec and J. Planchard: Une methode variationelle d'6lements finis pour la r6solution
+numerique d'un probleme exterieur dans R3, Revue Franc. Automatique Inf. Rech. Opera-
+tionelle3 (1973) 105-129. MR 54:11992<person-group>
+                     <string-name>
+                     <surname>Nedelec</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>105</fpage>
+               <volume>3</volume>
+               <source>Automatique Inf. Rech. Operationelle</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1299a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d326278e1306" publication-type="book">
+H. Schulz, Ch. Schwab and W.L. Wendland: An extraction technique for BEM.
+In: Lecture Notes on Numerical Fluid Mechanics, Vol. 54 (W. Hackbusch &amp;
+G. Wittum, eds.), Vieweg Verlag (1996), pp. 219-231.<person-group>
+                     <string-name>
+                     <surname>Schulz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>219</fpage>
+               <volume>54</volume>
+               <source>An extraction technique for BEM</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1341a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d326278e1348" publication-type="journal">
+C. Schwab: Variable order composite quadrature of singular and nearly singular integrals.
+Computing53 (1994) 173-194. MR 96a:65035<person-group>
+                     <string-name>
+                     <surname>Schwab</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>53</volume>
+               <source>Computing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1380a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d326278e1387" publication-type="journal">
+C. Schwab and W. L. Wendland: Kernel properties and representations of boundary integral
+operators, Mathematische Nachrichten156 (1992) 187-218. MR 94g:65135<person-group>
+                     <string-name>
+                     <surname>Schwab</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>156</volume>
+               <source>Mathematische Nachrichten</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1420a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d326278e1427" publication-type="journal">
+C. Schwab and W. L. Wendland: On numerical cubatures of singular surface integrals in
+boundary element methods, Numerische Mathematik62 (1992) 343-369. MR 93h:65035<person-group>
+                     <string-name>
+                     <surname>Schwab</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>343</fpage>
+               <volume>62</volume>
+               <source>Numerische Mathematik</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1459a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d326278e1466" publication-type="book">
+L. Schwartz: Théorie des Distributions. Hermann, Paris 1966 (3rd. ed.). MR 35:730<person-group>
+                     <string-name>
+                     <surname>Schwartz</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Théorie des Distributions</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1491a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d326278e1498" publication-type="book">
+F. Treves: Pseudodifferential and Fourier Integral Operators. Vol. 1. Plenum Press, New York
+1980. MR 82i:35173<person-group>
+                     <string-name>
+                     <surname>Treves</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1</volume>
+               <source>Pseudodifferential and Fourier Integral Operators</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1527a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d326278e1534" publication-type="book">
+B.R. Vainberg: Asymptotic Methods in Equations of Mathematical Physics. Gordon &amp;
+Breach, New York 1989. MR 91h:35081<person-group>
+                     <string-name>
+                     <surname>Vainberg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Asymptotic Methods in Equations of Mathematical Physics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1559a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d326278e1566" publication-type="journal">
+W.L. Wendland: Die Behandlung von Randwertaufgaben im l3 mit Hilfe von Einfach- und
+Doppelschichtpotentialen. Numer. Math.11 (1968) 380-404. MR 37:7103<person-group>
+                     <string-name>
+                     <surname>Wendland</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>380</fpage>
+               <volume>11</volume>
+               <source>Numer. Math.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d326278e1598a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d326278e1605" publication-type="book">
+W.L. Wendland: Strongly elliptic boundary integral equations. In: The State of the Art in
+Numerical Analysis (eds. A. Iserles, M. Powell), Clarendon Press, Oxford (1987) 511-561.
+MR 88m:65209<person-group>
+                     <string-name>
+                     <surname>Wendland</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Strongly elliptic boundary integral equations</comment>
+               <fpage>511</fpage>
+               <source>The State of the Art in Numerical Analysis</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

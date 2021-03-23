@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260288</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390659</article-id>
+         
+         <title-group>
+            <article-title>Block Coordinate Relaxation Methods for Nonparametric Wavelet Denoising</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sylvain</given-names>
+                  <surname>Sardy</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Andrew G.</given-names>
+                  <surname>Bruce</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul</given-names>
+                  <surname>Tseng</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>361</fpage>
+         <lpage>379</lpage>
+         <page-range>361-379</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390659"/>
+         
+         
+         <abstract>
+            <p>An important class of nonparametric signal processing methods entails forming a set of predictors from an overcomplete set of basis functions associated with a fast transform (e.g., wavelet packets). In these methods, the number of basis functions can far exceed the number of sample values in the signal, leading to an ill-posed prediction problem. The "basis pursuit" denoising method of Chen, Donoho, and Saunders regularizes the prediction problem by adding an l&lt;sub&gt;1&lt;/sub&gt; penalty term on the coefficients for the basis functions. Use of an l&lt;sub&gt;1&lt;/sub&gt; penalty instead of l&lt;sub&gt;2&lt;/sub&gt; has significant benefits, including higher resolution of signals close in time/frequency and a more parsimonious representation. The l&lt;sub&gt;1&lt;/sub&gt; penalty, however, poses a challenging optimization problem that was solved by Chen, Donoho and Saunders using a novel application of interior-point algorithms (IP). This article investigates an alternative optimization approach based on block coordinate relaxation (BCR) for sets of basis functions that are the finite union of sets of orthonormal basis functions (e.g., wavelet packets). We show that the BCR algorithm is globally convergent, and empirically, the BCR algorithm is faster than the IP algorithm for a variety of signal denoising problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Basis pursuit</kwd>
+            <kwd>Block coordinate relaxation</kwd>
+            <kwd>Function estimation</kwd>
+            <kwd>Interior-point</kwd>
+            <kwd>Optimization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3068359e171a1310">
+               
+               <mixed-citation id="d3068359e175" publication-type="journal">
+Alliney, S., and Ruzinsky, S.A. (1994), "An Algorithm for the Minimization of Mixed il and ?2 Norms with
+Application to Bayesian Estimation," IEEE Transactions on Signal Processing, 42, 618-627.<person-group>
+                     <string-name>
+                     <surname>Alliney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>618</fpage>
+               <volume>42</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e207a1310">
+               
+               <mixed-citation id="d3068359e211" publication-type="book">
+Bishop, Y.M.M., Fienberg, S.E., and Holland, P.W. (1975), Discrete Multivariate Analysis: Theory and
+Practice, Cambridge, MA: MIT Press.<person-group>
+                     <string-name>
+                     <surname>Bishop</surname>
+                  </string-name>
+                  </person-group>
+               <source>Discrete Multivariate Analysis: Theory and Practice</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e236a1310">
+               
+               <mixed-citation id="d3068359e240" publication-type="book">
+Bruce, A.G., and Gao, H.-Y. (1994), S+ WAVELETS User's Manual, Seattle, WA: StatSci (Division of Math-
+Soft, Inc., 1700 Westlake Ave. N, 98109-9891).<person-group>
+                     <string-name>
+                     <surname>Bruce</surname>
+                  </string-name>
+                  </person-group>
+               <source>S+ WAVELETS User's Manual</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e265a1310">
+               
+               <mixed-citation id="d3068359e269" publication-type="journal">
+Chen, S., Donoho, D., and Saunders, M. (1999), "Atomic Decomposition by Basis Pursuit," SIAM Journal on
+Scientific Computing, 20, 33-61.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>20</volume>
+               <source>SIAM Journal on Scientific Computing</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e302a1310">
+               
+               <mixed-citation id="d3068359e306" publication-type="book">
+Clarke, F. (1990), Optimization and Nonsmooth Analysis, Philadelphia: Society for Industrial and Applied
+Mathematics.<person-group>
+                     <string-name>
+                     <surname>Clarke</surname>
+                  </string-name>
+                  </person-group>
+               <source>Optimization and Nonsmooth Analysis</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e331a1310">
+               
+               <mixed-citation id="d3068359e335" publication-type="book">
+Coifman, R.R., and Donoho, D.L. (1995), "Time-Invariant Wavelet Denoising," in Wavelets and Statistics,
+Lecture Notes in Statistics (vol. 103), Berlin/New York: Springer-Verlag, pp. 125-150.<person-group>
+                     <string-name>
+                     <surname>Coifman</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Time-Invariant Wavelet Denoising</comment>
+               <fpage>125</fpage>
+               <volume>103</volume>
+               <source>Wavelets and Statistics, Lecture Notes in Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e370a1310">
+               
+               <mixed-citation id="d3068359e374" publication-type="journal">
+Coifman, R., and Wickerhauser, V. (1992), "Entropy-Based Algorithms for Best Basis Selection," IEEE Trans-
+actions on Information Theory, 38, 713-718.<person-group>
+                     <string-name>
+                     <surname>Coifman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>713</fpage>
+               <volume>38</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e406a1310">
+               
+               <mixed-citation id="d3068359e410" publication-type="book">
+Daubechies, I. (1992), Ten Lectures on Wavelets, Philadelphia: Society for Industrial and Applied Mathematics.<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ten Lectures on Wavelets</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e432a1310">
+               
+               <mixed-citation id="d3068359e436" publication-type="journal">
+Donoho, D. L., and Johnstone, I. M. (1994), "Ideal Spatial Adaptation via Wavelet Shrinkage," Biometrika,
+81, 425-455.<object-id pub-id-type="doi">10.2307/2337118</object-id>
+               <fpage>425</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e452a1310">
+               
+               <mixed-citation id="d3068359e456" publication-type="journal">
+Fu, W. (1998), "Penalized Regression: The Bridge Versus the Lasso," Journal of Computational and Graphical
+Statistics, 7, 397-416.<object-id pub-id-type="doi">10.2307/1390712</object-id>
+               <fpage>397</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e473a1310">
+               
+               <mixed-citation id="d3068359e477" publication-type="book">
+Golub, G.H., and Van Loan, C.F. (1989), Matrix Computations, Baltimore, MD: Johns Hopkins University
+Press.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e502a1310">
+               
+               <mixed-citation id="d3068359e506" publication-type="book">
+Hastie, T., and Tibshirani, R. (1990), Generalized Additive Models, London: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Hastie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Additive Models</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e528a1310">
+               
+               <mixed-citation id="d3068359e532" publication-type="book">
+Herman, G.T. (1980), Image Reconstruction from Projections: The Fundamentals of Computerized Tomography,
+New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Herman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Image Reconstruction from Projections: The Fundamentals of Computerized Tomography</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e557a1310">
+               
+               <mixed-citation id="d3068359e561" publication-type="journal">
+Kojima, M., Megiddo, N., and Mizuno, S. (1993), "A Primal-Dual Exterior Point Algorithm for Linear Pro-
+gramming," Mathematical Programming, 61, 261-280.<person-group>
+                     <string-name>
+                     <surname>Kojima</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>261</fpage>
+               <volume>61</volume>
+               <source>Mathematical Programming</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e593a1310">
+               
+               <mixed-citation id="d3068359e597" publication-type="journal">
+Lina, J.-M., and Mayrand, M. (1995), "Complex Daubechies Wavelets," Applied and Computational Harmonic
+Analysis, 2, 219-229.<person-group>
+                     <string-name>
+                     <surname>Lina</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>219</fpage>
+               <volume>2</volume>
+               <source>Applied and Computational Harmonic Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e629a1310">
+               
+               <mixed-citation id="d3068359e633" publication-type="journal">
+Mann, S., and Haykin, S. (1992), "Adaptive 'Chirplet' Transform and Adaptive Generalization of the Wavelet
+Transform," Optical Engineering, 31, 1243-1256.<person-group>
+                     <string-name>
+                     <surname>Mann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1243</fpage>
+               <volume>31</volume>
+               <source>Optical Engineering</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e666a1310">
+               
+               <mixed-citation id="d3068359e670" publication-type="book">
+Meyer, F.G., and Coifman, R. (1997), "Brushlets: A Tool for Directional Image Analysis and Image Com-
+pression," in Applied and Computational Harmonic Analysis (vol. 4), New York: Academic Press, pp.
+147-187.<person-group>
+                     <string-name>
+                     <surname>Meyer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Brushlets: A Tool for Directional Image Analysis and Image Compression</comment>
+               <fpage>147</fpage>
+               <volume>4</volume>
+               <source>Applied and Computational Harmonic Analysis</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e708a1310">
+               
+               <mixed-citation id="d3068359e712" publication-type="book">
+Nason, G.P. (1995), "Wavelet Function Estimation Using Cross-Validation," in Wavelets and Statistics, eds.
+A. Antoniadis, and G. Oppenheim, New York: Springer-Verlag, pp. 261-280.<person-group>
+                     <string-name>
+                     <surname>Nason</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Wavelet Function Estimation Using Cross-Validation</comment>
+               <fpage>261</fpage>
+               <source>Wavelets and Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e744a1310">
+               
+               <mixed-citation id="d3068359e748" publication-type="journal">
+Nesterov, Y., and Todd, M. (1997), "Self-Scaled Barriers and Interior-Point Methods for Convex Programming,"
+Mathematics of Operations Research, 22, 1-42.<person-group>
+                     <string-name>
+                     <surname>Nesterov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>22</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e780a1310">
+               
+               <mixed-citation id="d3068359e784" publication-type="book">
+Osborne, M. (1995), Finite Algorithms in Optimization and Data Analysis, Chichester: Wiley.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite Algorithms in Optimization and Data Analysis</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e806a1310">
+               
+               <mixed-citation id="d3068359e810" publication-type="book">
+Osborne, M., Presnell, B., and Turlach, B. (1998), "Knot Selection for Regression Splines via the Lasso," in
+Dimension Reduction, Computational Complexity, and Information, ed. S. Weisberg, Vol. 30 of Computing
+Science and Statistics, Fairfax Station, VA: Interface Foundation of North America, Inc., pp. 44 49.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Knot Selection for Regression Splines via the Lasso</comment>
+               <fpage>44</fpage>
+               <volume>30</volume>
+               <source>Dimension Reduction, Computational Complexity, and Information</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e848a1310">
+               
+               <mixed-citation id="d3068359e852" publication-type="journal">
+Sardy, S. (2000), "Minimax Threshold for Denoising Complex Signals with WaveShrink," IEEE Transactions
+on Signal Processing, 48, 1023-1028.<person-group>
+                     <string-name>
+                     <surname>Sardy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1023</fpage>
+               <volume>48</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e885a1310">
+               
+               <mixed-citation id="d3068359e889" publication-type="book">
+Shiskin, J., Young, A. H., and Musgrave, J. C. (1967), "The X-11 Variant of the Census Method 11 Seasonal
+Adjustment Program," Technical Paper 15, U.S. Bureau of the Census, Washington, DC: U.S. Government
+Printing Office.<person-group>
+                     <string-name>
+                     <surname>Shiskin</surname>
+                  </string-name>
+                  </person-group>
+               <source>The X-11 Variant of the Census Method 11 Seasonal Adjustment Program</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e918a1310">
+               
+               <mixed-citation id="d3068359e922" publication-type="journal">
+Tibshirani, R. (1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical
+Society, Series B, 58, 267-288.<person-group>
+                     <string-name>
+                     <surname>Tibshirani</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>267</fpage>
+               <volume>58</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3068359e954a1310">
+               
+               <mixed-citation id="d3068359e958" publication-type="journal">
+Tseng, P. (1993), "Dual Coordinate Ascent Methods for Non-Strictly Convex Minimization," Mathematical
+Programming, 59, 231-247.<person-group>
+                     <string-name>
+                     <surname>Tseng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>59</volume>
+               <source>Mathematical Programming</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

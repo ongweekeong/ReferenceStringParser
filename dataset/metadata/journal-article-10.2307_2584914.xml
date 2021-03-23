@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">228</issue>
+         <issue-id>i344568</issue-id>
+         <article-id pub-id-type="jstor">2584914</article-id>
+         
+         <title-group>
+            <article-title>Canonical Construction of Finite Elements</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>R.</given-names>
+                  <surname>Hiptmair</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>1325</fpage>
+         <lpage>1346</lpage>
+         <page-range>1325-1346</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584914"/>
+         
+         
+         <abstract>
+            <p>
+               The mixed variational formulation of many elliptic boundary value problems involves vector valued function spaces, like, in three dimensions, H(curl; Ω) and H(Div; Ω). Thus finite element subspaces of these function spaces are indispensable for effective finite element discretization schemes. Given a simplicial triangulation of the computational domain Ω, among others, Raviart, Thomas and Nédélec have found suitable conforming finite elements for H(Div; Ω) and H(curl; Ω). At first glance, it is hard to detect a common guiding principle behind these approaches. We take a fresh look at the construction of the finite spaces, viewing them from the angle of differential forms. This is motivated by the well-known relationships between differential forms and differential operators: div, curl and grad can all be regarded as special incarnations of the exterior derivative of a differential form. Moreover, in the realm of differential forms most concepts are basically dimension-independent. Thus, we arrive at a fairly canonical procedure to construct conforming finite element subspaces of function spaces related to differential forms. In any dimension we can give a simple characterization of the local polynomial spaces and degrees of freedom underlying the definition of the finite element spaces. With unprecedented ease we can recover the familiar H(Div; Ω)- and H(curl; Ω)-conforming finite elements, and establish the unisolvence of degrees of freedom. In addition, the use of differential forms makes it possible to establish crucial algebraic properties of the canonical interpolation operators and representation theorems in a single sweep for all kinds of spaces. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01166-7</kwd>
+            <kwd>65N30</kwd>
+            <kwd>41A10</kwd>
+            <kwd>58A15</kwd>
+            <kwd>Finite Elements</kwd>
+            <kwd>Differential Forms</kwd>
+            <kwd>Raviart-Thomas Elements</kwd>
+            <kwd>
+               Nédélec Elements 
+            </kwd>
+            <kwd>Whitney Forms</kwd>
+            <kwd>Discrete Potentials</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1228856e193a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1228856e200" publication-type="journal">
+D. ARNOLD, R. FALK, AND R. WINTHER, Preconrditioning in H(div) and applications, Math.
+Comp., 66 (1997), pp. 957-984. MR 97i:65177<object-id pub-id-type="jstor">10.2307/2153753</object-id>
+               <fpage>957</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e216a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1228856e223" publication-type="journal">
+D. BALDOMIR, Differential forms and electromagnetism in 3-dimensional Euclidean space
+R3., IEE Proc. A, 133 (1986), pp. 139-143. CMP 18:17<person-group>
+                     <string-name>
+                     <surname>Baldomir</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>139</fpage>
+               <volume>133</volume>
+               <source>IEE Proc. A</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e255a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1228856e262" publication-type="journal">
+A. BOSSAVIT, A rationale for edge elements in 349 field computations, IEEE Trans. Mag., 24
+(1988), pp. 74-79.<person-group>
+                     <string-name>
+                     <surname>Bossavit</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>74</fpage>
+               <volume>24</volume>
+               <source>IEEE Trans. Mag.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e294a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1228856e301" publication-type="journal">
+— Whitney forms: A class of finite elements for three-dimensional computations in
+electromagnetism, IEE Proc. A, 135 (1988), pp. 493-500.<person-group>
+                     <string-name>
+                     <surname>Bossavit</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>493</fpage>
+               <volume>135</volume>
+               <source>IEE Proc. A</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e334a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1228856e341" publication-type="book">
+—A new viewpoint on mixed elements, Meccanica, 27 (1992), pp. 3-11.<person-group>
+                     <string-name>
+                     <surname>Bossavit</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>27</volume>
+               <source>A new viewpoint on mixed elements</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e370a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1228856e377" publication-type="book">
+—Électromagnétisme, en vue de la modélisation, Springer-Verlag, Paris, 1993. CMP
+98:11<person-group>
+                     <string-name>
+                     <surname>Bossavit</surname>
+                  </string-name>
+                  </person-group>
+               <source>Électromagnétisme, en vue de la modélisation</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e402a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1228856e409" publication-type="book">
+—Computational Electromagnetism. Variational Formulation, Complementarity, Edge
+Elements, no. 2 in Academic Press Electromagnetism Series, Academic Press, San Diego,
+1998. CMP 98:06<person-group>
+                     <string-name>
+                     <surname>Bossavit</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational Electromagnetism. Variational Formulation, Complementarity, Edge Elements</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e438a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1228856e445" publication-type="book">
+S. BRENNER AND R. SCOTT, Mathematical theory of finite element methods, Texts in Applied
+Mathematics, Springer-Verlag, New York, 1994. MR 95f:65001<person-group>
+                     <string-name>
+                     <surname>Brenner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mathematical theory of finite element methods</comment>
+               <source>Texts in Applied Mathematics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e474a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1228856e481" publication-type="journal">
+F. BREZZI, J. DOUGLAS, R. DURAN, AND M. FORTIN, Mixed finite elements for 2nd order
+elliptic problems in three variables, Numer. Math., 51 (1987), pp. 237-250. MR 88f:65190<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>51</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e513a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1228856e520" publication-type="journal">
+F. BREZZI, J. DOUGLAS, M. FORTIN, AND D. MARINI, Efficient rectangular mixed finite el-
+ements in two and three space variables, RAIRO Modél. Math. Anal. Numér.21 (1987),
+pp. 581-604. MR 88j:65249<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>581</fpage>
+               <volume>21</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e556a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1228856e563" publication-type="book">
+F. BREZZI AND M. FORTIN, Mixed and hybrid finite element methods, Springer-Verlag, New
+York, 1991. MR 92d:65187<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixed and hybrid finite element methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e588a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1228856e595" publication-type="conference">
+Z. CAI, R. PARASHKEVOV, T. RUSSEL, AND X. YE, Domain decomposition for a mixed finite
+element method in three dimensions, in Proc. 9th Internat. Conf. Domain Decomposition
+Methods, Bergen, Norway, 1996 (to appear).<person-group>
+                     <string-name>
+                     <surname>Cai</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition for a mixed finite element method in three dimensions</comment>
+               <source>Proc. 9th Internat. Conf. Domain Decomposition Methods, Bergen, Norway</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e627a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1228856e634" publication-type="book">
+H. CARTAN, Formes Différentielles, Hermann, Paris, 1967. MR 37:6858<person-group>
+                     <string-name>
+                     <surname>Cartan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Formes Différentielles</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e656a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1228856e663" publication-type="book">
+P. CIARLET, The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e688a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1228856e695" publication-type="journal">
+G. DESCHAMPS, Electromagnetics and differential forms, Proc IEEE, 69 (1981), pp. 676-695.<person-group>
+                     <string-name>
+                     <surname>Deschamps</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>676</fpage>
+               <volume>69</volume>
+               <source>Proc IEEE</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e724a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1228856e731" publication-type="journal">
+J. DOUGLAS AND J. ROBERTS, Global estimates for mixed methods for 2nd order elliptic
+equations, Math. Comp., 44 (1985), pp. 39-52. MR 86b:65122<object-id pub-id-type="doi">10.2307/2007791</object-id>
+               <fpage>39</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e748a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1228856e755" publication-type="journal">
+R. EWING AND J. WANG, Analysis of the Schwarz algorithm for mixed finite element methods,
+RAIRO Modél. Math. Anal. Numér., 26 (1992), pp. 739-756. MR 94c:65135<person-group>
+                     <string-name>
+                     <surname>Ewing</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>739</fpage>
+               <volume>26</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e787a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1228856e794" publication-type="book">
+V. GIRAULT, Curl-conforming finite element methods for Navier-Stokes equations with non-
+standard boundary conditions in R3, vol. 1431 of Lecture Notes in Mathematics, Springer-
+Verlag, Berlin, 1989, pp. 201-218. MR 91k:65143<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>1431</volume>
+               <source>Curl-conforming finite element methods for Navier-Stokes equations with nonstandard boundary conditions in R3</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e829a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1228856e836" publication-type="book">
+V. GIRAULT AND P. RAVIART, Finite element methods for Navier-Stokes equations, Springer-
+Verlag, Berlin, 1986. MR 88b:65129<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element methods for Navier-Stokes equations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e861a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1228856e868" publication-type="journal">
+R. HIPTMAIR, Multigrid method for Maxwell's equations, SIAM J. Numer. Anal.36 (1999),
+204-225. CMP 99:04<object-id pub-id-type="jstor">10.2307/2587241</object-id>
+               <fpage>204</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e884a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1228856e891" publication-type="journal">
+R. HIPTMAIR AND R. HOPPE, Multilevel preconditioning for mixed problems in three dimen-
+sions, Tech. Rep. 359, Mathematisches Institut, Universitat Augsburg, 1996. to appear in
+Numer. Math.<person-group>
+                     <string-name>
+                     <surname>Hiptmair</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numer. Math.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e916a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1228856e923" publication-type="book">
+R. HIPTMAIR AND A. TOSELLI, Overlapping and multilevel Schwarz methods for vector val-
+ued elliptic problems in three dimensions., in Parallel Solution of PDEs, IMA Volumes in
+Mathematics and its Applications, Springer, Berlin, 1998. to appear.<person-group>
+                     <string-name>
+                     <surname>Hiptmair</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Overlapping and multilevel Schwarz methods for vector valued elliptic problems in three dimensions</comment>
+               <source>Parallel Solution of PDEs</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e956a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1228856e963" publication-type="journal">
+R. HOPPE AND B. WOHLMUTH, A comparison of a posteriori error estimators for mixed
+finite elements, Tech. Rep. 350, Math.-Nat. Fakultat, Universitat Augsburg, 1996. to appear
+in Math. Comp.<person-group>
+                     <string-name>
+                     <surname>Hoppe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Math. Comp.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e988a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1228856e995" publication-type="journal">
+E. KAASSCHIETER AND A. HUIJBEN, Mixed-hybrid finite element and streamline computa-
+tion for the potential flow problem, Numer. Methods Partial Differential Equations8 (1992),
+pp. 221-266. MR 93b:65169<person-group>
+                     <string-name>
+                     <surname>Kaasschieter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>8</volume>
+               <source>Numer. Methods Partial Differential Equations</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1030a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1228856e1037" publication-type="journal">
+K. MAHADEVAN AND R. MITTA, Use of Whitney's edge and face elements for efficient finite
+element time domain solution of Maxwell's equations, J. Electromagn. Waves Appl., 8 (1994),
+pp. 1173-1191.<person-group>
+                     <string-name>
+                     <surname>Mahadevan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1173</fpage>
+               <volume>8</volume>
+               <source>J. Electromagn. Waves Appl.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1072a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1228856e1079" publication-type="journal">
+J. NÉDÉLEC, Mixed finite elements in R3, Numer. Math., 35 (1980), pp. 315-341. MR
+81k:65125<person-group>
+                     <string-name>
+                     <surname>Nédélec</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>35</volume>
+               <source>Numer. Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1111a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1228856e1118" publication-type="journal">
+— A new family of mixed finite elements in R3, Numer. Math., 50 (1986), pp. 57-81.
+MR 88e:65145<person-group>
+                     <string-name>
+                     <surname>Nédélec</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1150a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1228856e1157" publication-type="book">
+P. A. RAVIART AND J. M. THOMAS, A Mixed Finite Element Method for Second Order Elliptic
+Problems, vol. 606 of Springer Lecture Notes in Mathematics, Springer-Verlag, New York,
+1977, pp. 292-315. MR 58:3547<person-group>
+                     <string-name>
+                     <surname>Raviart</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>292</fpage>
+               <volume>606</volume>
+               <source>A Mixed Finite Element Method for Second Order Elliptic Problems</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1193a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1228856e1200" publication-type="journal">
+P. VASSILEVSKI AND J. WANG, Multilevel iterative methods for mixed finite element discretiza-
+tions of elliptic problems, Numer. Math., 63 (1992), pp. 503-520. MR 93j:65187<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>503</fpage>
+               <volume>63</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228856e1232a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1228856e1239" publication-type="other">
+A. WALSLEBEN, Whitney Elemente zur Diskretisierung der Maxwell-Gleichungen, Master's
+thesis, Institut für Mathematik I, Freie Universität Berlin, 1996.</mixed-citation>
+            </ref>
+            <ref id="d1228856e1249a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1228856e1256" publication-type="book">
+H. WHITNEY, Geometric Integration Theory, Princeton Univ. Press, Princeton, 1957. MR
+19:309c<person-group>
+                     <string-name>
+                     <surname>Whitney</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geometric Integration Theory</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

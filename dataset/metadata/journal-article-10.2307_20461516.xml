@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i20461513</issue-id>
+         <article-id pub-id-type="jstor">20461516</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-007-9023-0</article-id>
+         <title-group>
+            <article-title>EXTRA: A System for Example-Based Translation Assistance</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Federica</given-names>
+                  <surname>Mandreoli</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Riccardo</given-names>
+                  <surname>Martoglia</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Paolo</given-names>
+                  <surname>Tiberio</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>167</fpage>
+         <lpage>197</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2007 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/20461516"/>
+         
+         
+         <abstract>
+            <p>In this paper we present EXTRA (EXample-based TRanslation Assistant), a translation memory (TM) system. EXTRA is able to propose effective translation suggestions by relying on syntactic analysis of the text and on a rigorous, language-independent measure; the search is performed efficiently in large amounts of bilingual texts thanks to its advanced retrieval techniques. EXTRA does not use external knowledge requiring the intervention of users and is completely customizable and portable as it has been implemented on top of a standard DataBase Management System. The paper provides a thorough evaluation of both the effectiveness and the efficiency of our system. In particular, in order to quantify the benefits offered by EXTRA assisted translation over manual translation, we introduce a simulator implementing specifically devised statistical, process-oriented, discrete-event models. As far as we know, this is the first time statistical simulation experiments have been used to face the nontrivial problem of evaluating TM systems, particularly for comparing the time that could be saved by performing assisted translation versus "manual" translation and for optimally tuning the system behaviour with respect to differently skilled users. In our experiments, we considered three scenarios, manual translation with one or two translators and assisted translation with one translator. The time needed for one translator to do an assisted translation is significantly closer to that of a team of two translators than to that of the single translator. The mean sentence translation time is by far the lowest for this scenario, corresponding to the highest per translator productivity. We also estimate the total translation time when the number of query sentences, the maximum number of suggestions to be read, and the probability of look up are varied: the best trade-off is given by reading (and presenting) four or five suggestions at the most.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Textual data management</kwd>
+            <kwd>Text search and retrieval</kwd>
+            <kwd>Translation memory</kwd>
+            <kwd>Effectiveness and efficiency of translation assistance</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2397475e229a1310">
+               
+               <mixed-citation id="d2397475e233" publication-type="other">
+Agrawal R, Faloutsos C, Swami AN (1993) Efficient similarity search in sequence databases. In: Lomet
+DB (ed) Foundations of data organization and algorithms, 4th international conference, FODO'93,
+Chicago, Illinois. Springer, Berlin, pp 69-84</mixed-citation>
+            </ref>
+            <ref id="d2397475e246a1310">
+               
+               <mixed-citation id="d2397475e250" publication-type="other">
+Agrawal R, Lin KI, Sawhney HS, Shim K (1995) Fast similarity search in the presence of noise, scaling,
+and translation in time-series databases. In: VLDB'95, proceedings of 21st international conference
+on very large data bases, Zurich, Switzerland, pp 490-501</mixed-citation>
+            </ref>
+            <ref id="d2397475e263a1310">
+               
+               <mixed-citation id="d2397475e267" publication-type="other">
+Baeza-Yates RA, Gonnet GH (1999) A fast algorithm on average for all-against-all sequence matching. In:
+SPIRE, proceedings of the string processing and information retrieval symposium and international
+workshop on Groupware, Cancún, Mexico, pp 16-23</mixed-citation>
+            </ref>
+            <ref id="d2397475e280a1310">
+               
+               <mixed-citation id="d2397475e284" publication-type="other">
+Baeza-Yates RA, Navarro G (2002) New and faster filters for multiple approximate string matching.
+Random Struct Algor 20:23-49</mixed-citation>
+            </ref>
+            <ref id="d2397475e295a1310">
+               
+               <mixed-citation id="d2397475e299" publication-type="other">
+Baeza-Yates R, Ribeiro-Neto B (1999) Modern information retrieval. Addison Wesley, New York</mixed-citation>
+            </ref>
+            <ref id="d2397475e306a1310">
+               
+               <mixed-citation id="d2397475e310" publication-type="other">
+Baldwin T, Tanaka H (2000) The effects of word order and segmentation on translation retrieval perfor-
+mance. In: The 18th international conference on computational linguistics, COLING 2000 in Europe,
+Saarbrücken, Germany, pp 35-40</mixed-citation>
+            </ref>
+            <ref id="d2397475e323a1310">
+               
+               <mixed-citation id="d2397475e327" publication-type="other">
+Banerjee S, Lavie A (2005) METEOR: an automatic metric for MT evaluation with improved correlation
+with human judgements. In: Intrinsic and extrinsic evaluation measures for MT and/or summarization,
+proceedings of the ACL-05 workshop, Ann Arbor, MI, pp 65-72</mixed-citation>
+            </ref>
+            <ref id="d2397475e340a1310">
+               
+               <mixed-citation id="d2397475e344" publication-type="other">
+Brown PF, Delia Pietra SA, Delia Pietra V, Mercer RL (1993) The mathematics of statistical machine
+translation: Parameter estimation. Comput Ling 19:263-311</mixed-citation>
+            </ref>
+            <ref id="d2397475e354a1310">
+               
+               <mixed-citation id="d2397475e358" publication-type="other">
+Brown RD (1996) Example-based machine translation in the Pangloss system. In: COLING-96, the 16th
+international conference on computational linguistics, Copenhagen, Denmark, pp 169-174</mixed-citation>
+            </ref>
+            <ref id="d2397475e368a1310">
+               
+               <mixed-citation id="d2397475e372" publication-type="other">
+Callison-Burch C, Talbot D, Osbome M (2004) Statistical machine translation with word- and sentence-
+aligned parallel corpora. In: 42nd annual meeting of the association for computational linguistics,
+Barcelona, Spain, pp 175-182</mixed-citation>
+            </ref>
+            <ref id="d2397475e386a1310">
+               
+               <mixed-citation id="d2397475e390" publication-type="other">
+Chan KP, Fu AWC (1999) Efficient time series matching by wavelets. In: Proceedings of the 15th
+international conference on data engineering (ICDE '99), Sydney, Australia, pp 126-133</mixed-citation>
+            </ref>
+            <ref id="d2397475e400a1310">
+               
+               <mixed-citation id="d2397475e404" publication-type="other">
+Chavez E, Navarro G (2002) A metric index for approximate string matching. In: Rajsbaum S (ed) LATIN
+2002, theoretical informatics, 5th Latin American symposium, Cancún, Mexico, Springer, Berlin,
+Germany, pp 181-195</mixed-citation>
+            </ref>
+            <ref id="d2397475e417a1310">
+               
+               <mixed-citation id="d2397475e421" publication-type="other">
+Cheng L, Cheung DW, Yiu S (2003) Approximate string matching in DNA sequences. In: 8th international
+conference on database systems for advanced applications DASFAA 2003, Kyoto, Japan, pp 303-310</mixed-citation>
+            </ref>
+            <ref id="d2397475e431a1310">
+               
+               <mixed-citation id="d2397475e435" publication-type="other">
+Cobbs A (1995) Fast approximate matching using suffix trees. In: Galil Z, Ukkonen E (eds) Combinatorial
+pattern matching, 6th annual symposium on combinatorial pattern matching, Espoo, Finland. Springer,
+Berlin, Germany, pp 41-54</mixed-citation>
+            </ref>
+            <ref id="d2397475e448a1310">
+               
+               <mixed-citation id="d2397475e452" publication-type="other">
+Collins P, Cunningham P (1996) Adaptation guided retrieval in EBMT: A case-based approach to machine
+translation. In: Smith I, Faltings B (eds) Advances in case-based reasoning: third European workshop,
+EWCBR-96, Lausanne, Switzerland. Springer, Berlin, Germany, pp 91-104</mixed-citation>
+            </ref>
+            <ref id="d2397475e465a1310">
+               
+               <mixed-citation id="d2397475e469" publication-type="other">
+Cranias L, Papageorgiou H, Piperidis S (1994) A matching technique in example-based machine translation.
+In: COLING 94, The 15th international conference on computational linguistics, Kyoto, Japan, pp
+100-104</mixed-citation>
+            </ref>
+            <ref id="d2397475e483a1310">
+               
+               <mixed-citation id="d2397475e487" publication-type="other">
+Doi T, Sumita E, Yamamoto H (2003) Adaptation using out-of-domain corpus within EBMT. In:
+HLT-NAACL: Human language technology conference of the North American Chapter of the
+Association for Computational Linguistics Companion Volume: Short Papers, Student Research
+Workshop, Demonstrations, Tutorials Abstracts, Edmonton, Alberta, Canada, pp 16-18</mixed-citation>
+            </ref>
+            <ref id="d2397475e503a1310">
+               
+               <mixed-citation id="d2397475e507" publication-type="other">
+Dorr B, Jordan P, Benoit J (1999) A survey of current research in machine translation. Adv Comput 49:1-68</mixed-citation>
+            </ref>
+            <ref id="d2397475e514a1310">
+               
+               <mixed-citation id="d2397475e518" publication-type="other">
+Faloutsos C, Ranganathan M, Manolopoulos Y (1994) Fast subsequence matching in time-series databases.
+In: Proceedings of the 1994 ACM SIGMOD international conference on management of data,
+Minneapolis, Minnesota, pp 419-429</mixed-citation>
+            </ref>
+            <ref id="d2397475e531a1310">
+               
+               <mixed-citation id="d2397475e535" publication-type="other">
+Giegerich R, Hischke F, Kurtz S, Ohlebusch E (1997) A general technique to improve filter algorithms
+for approximate string matching. In: Proceedings of the fourth South American workshop on string
+processing, Valparaiso, Chile, pp 38-52</mixed-citation>
+            </ref>
+            <ref id="d2397475e548a1310">
+               
+               <mixed-citation id="d2397475e552" publication-type="other">
+Gotti F, Langlais P, Macklovitch E, Bourigault D, Robichaud B, Coulombe C (2005) 3GTM: A third-gener-
+ation translation memory. In: CLiNE 05, 3rd Computational Linguistics in the North-East Workshop,
+Gatineau, Québec, Canada, pp 8-15</mixed-citation>
+            </ref>
+            <ref id="d2397475e565a1310">
+               
+               <mixed-citation id="d2397475e569" publication-type="other">
+Gravano L, Ipeirotis PG, Jagadish HV, Koudas N, Muthukrishnan S, Srivastava D (2001) Approximate
+string joins in a database (almost) for free. In: Proceedings of 27th international conference on very
+large data bases, Roma, Italy, pp 491-500</mixed-citation>
+            </ref>
+            <ref id="d2397475e583a1310">
+               
+               <mixed-citation id="d2397475e587" publication-type="other">
+Hyyro H, Fredriksson K, Navarro G (2004) Increased bit-parallelism for approximate string matching. In:
+Ribeiro CC, Martins SL (eds) Experimental and efficient algorithms: third international workshop,
+WEA 2004, Angra dos Reis, Brazil, Springer, Berlin, Germany, pp 285-298</mixed-citation>
+            </ref>
+            <ref id="d2397475e600a1310">
+               
+               <mixed-citation id="d2397475e604" publication-type="other">
+Kahveci T, Singh AK (2001) Variable length queries for time series data. In: Proceedings of the 17th
+international conference on data engineering (ICDE 2001), Heidelberg, Germany, pp 273-282</mixed-citation>
+            </ref>
+            <ref id="d2397475e614a1310">
+               
+               <mixed-citation id="d2397475e618" publication-type="other">
+Leplus T, Langlais P, Lapalme G (2004) Weather report translation using a translation memory. In:
+Frederking RE, Taylor KB (eds) Machine translation: from real users to research, 6th conference of
+the association for machine translation in the Americas, AMTA 2004, Washington, DC, Springer,
+Berlin, Germany, pp 154-163</mixed-citation>
+            </ref>
+            <ref id="d2397475e634a1310">
+               
+               <mixed-citation id="d2397475e638" publication-type="other">
+Levenshtein VI [[Unrepresented Characters]] (1965) [Unrepresented Characters]
+[Unrepresented Characters] CCCP 163, 845-848; appeared
+as Binary codes capable of correcting deletions, insertions and reversals, Sov Phys Dokl 10 (1966),
+707-710</mixed-citation>
+            </ref>
+            <ref id="d2397475e654a1310">
+               
+               <mixed-citation id="d2397475e658" publication-type="other">
+Mandreoli F, Martoglia R, Tiberio P (2002a) Searching similar (sub)sentences for example based machine
+translation. In: Decimo Convegno Nazionale su Sistemi Evoluti per Basi di Dati (SEBD 2002),
+Portoferraio, Isola d'Elba, Italy, pp 208-221</mixed-citation>
+            </ref>
+            <ref id="d2397475e671a1310">
+               
+               <mixed-citation id="d2397475e675" publication-type="other">
+Mandreoli F, Martoglia R, Tiberio P (2002b) A syntactic approach for searching similarities within
+sentences. In: CIKM 2002, Eleventh international conference of information and knowledge
+management, McLean, VA, pp 635-637</mixed-citation>
+            </ref>
+            <ref id="d2397475e689a1310">
+               
+               <mixed-citation id="d2397475e693" publication-type="other">
+Mandreoli F, Martoglia R, Tiberio P (2003) Exploiting multi-lingual text potentialities in EBMT sys-
+tems. In: RIDE MLM 2003, 13th international workshop on research issues on data engineering:
+multi-lingual information management, Hyderabad, India, pp 9-15</mixed-citation>
+            </ref>
+            <ref id="d2397475e706a1310">
+               
+               <mixed-citation id="d2397475e710" publication-type="other">
+Melamed ID (1995) Automatic evaluation and uniform filter cascades for inducing w-best translation
+lexicons. In: Proceedings of the third workshop on very large Corpora, Cambridge, Massachusetts,
+pp 184-198</mixed-citation>
+            </ref>
+            <ref id="d2397475e723a1310">
+               
+               <mixed-citation id="d2397475e727" publication-type="other">
+Mihov S, Schulz KU (2004) Fast approximate search in large dictionaries. Comput Ling 30:451-477</mixed-citation>
+            </ref>
+            <ref id="d2397475e734a1310">
+               
+               <mixed-citation id="d2397475e738" publication-type="other">
+Nagao M (1984) A framework of a mechanical translation between Japanese and English by analogy
+principle. In: Elithorn A, Banerji R (eds) Artificial and human intelligence (Edited review papers
+presented at the international NATO symposium on artificial and human intelligence), North-Holland,
+Amsterdam, The Netherlands, pp 173-180</mixed-citation>
+               <mixed-citation id="d2397475e753" publication-type="other">
+repr. in Nirenburg S, Somers H, Wilks Y (eds) Readings
+in machine translation. MIT Press, Cambridge, MA (2003), pp 351-354</mixed-citation>
+            </ref>
+            <ref id="d2397475e763a1310">
+               
+               <mixed-citation id="d2397475e767" publication-type="other">
+Navarro G (2001) A guided tour to approximate string matching. ACM Comput Surv 33:31-88</mixed-citation>
+            </ref>
+            <ref id="d2397475e774a1310">
+               
+               <mixed-citation id="d2397475e778" publication-type="other">
+Navarro G, Baeza-Yates R (1999) Very fast and simple approximate string matching. Inform Proc Lett
+72:65-70</mixed-citation>
+            </ref>
+            <ref id="d2397475e789a1310">
+               
+               <mixed-citation id="d2397475e793" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W (2002) Bleu: a method for automatic evaluation of machine
+translation. In: 40th Annual meeting of the association for computational linguistics, Philadelphia,
+Pennsylvania, pp 311-318</mixed-citation>
+            </ref>
+            <ref id="d2397475e806a1310">
+               
+               <mixed-citation id="d2397475e810" publication-type="other">
+Planas E, Furuse O (2000) Multi-level similar segment matching algorithm for translation memories
+and example-based machine translation. In: The 18th international conference on computational
+linguistics, COLING 2000 in Europe, Saarbrücken, Germany, pp 621-627</mixed-citation>
+            </ref>
+            <ref id="d2397475e823a1310">
+               
+               <mixed-citation id="d2397475e827" publication-type="other">
+Sato S, Nagao M (1990) Toward memory-based translation. In: COLING-90, Papers presented to the 13th
+international conference on computational linguistics, Helsinki, Finland, vol 3, pp 247-252</mixed-citation>
+            </ref>
+            <ref id="d2397475e837a1310">
+               
+               <mixed-citation id="d2397475e841" publication-type="other">
+Simard M, Langlais P (2001) Sub-sentential exploitation of translation memories. In: MT Summit VIII,
+Machine translation in the information age, Santiago de Compostela, Spain, pp 335-339</mixed-citation>
+            </ref>
+            <ref id="d2397475e851a1310">
+               
+               <mixed-citation id="d2397475e855" publication-type="other">
+Somers H (1999) Review article: example-based machine translation. Mach Translat 14:113-157</mixed-citation>
+            </ref>
+            <ref id="d2397475e862a1310">
+               
+               <mixed-citation id="d2397475e866" publication-type="other">
+Sumita E, Iida H (1991) Experiments and prospects of example-based machine translation. In: 29th annual
+meeting of the association for computational linguistics, Berkeley, California, pp 185-192</mixed-citation>
+            </ref>
+            <ref id="d2397475e877a1310">
+               
+               <mixed-citation id="d2397475e881" publication-type="other">
+Sutinen E, Tarhio J (1995) On using q-gram locations in approximate string matching. In: Spirakis PG
+(ed) Algorithms—ESA '95, third annual European symposium, Corfu, Greece, Springer, Berlin,
+Germany, pp 327-340</mixed-citation>
+            </ref>
+            <ref id="d2397475e894a1310">
+               
+               <mixed-citation id="d2397475e898" publication-type="other">
+Sutinen E, Tarhio J (1996) Filtration with q-samples in approximate string matching. In: Hirschberg DS,
+Myers EW (eds) Combinatorial pattern matching, 7th annual symposium, CPM 96, Laguna Beach,
+California, Springer, Berlin, Germany, pp 50-63</mixed-citation>
+            </ref>
+            <ref id="d2397475e911a1310">
+               
+               <mixed-citation id="d2397475e915" publication-type="other">
+Whyman EK, Somers HL (1999) Evaluation metrics for a translation memory system. Softw Prac Exp
+29:1265-1284</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

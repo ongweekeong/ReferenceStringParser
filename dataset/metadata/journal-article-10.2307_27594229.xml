@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">16</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i27594225</issue-id>
+         <article-id pub-id-type="jstor">27594229</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186007X180426</article-id>
+         <title-group>
+            <article-title>Bayesian CART: Prior Specification and Posterior Simulation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Yuhong</given-names>
+                  <surname>Wu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Håkon</given-names>
+                  <surname>Tjelmeland</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Mike</given-names>
+                  <surname>West</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2007</year>
+         </pub-date>
+         <fpage>44</fpage>
+         <lpage>66</lpage>
+      
+         <permissions>
+            <copyright-statement>Copyright 2007 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/27594229"/>
+      
+      
+         <abstract>
+            <p>We present advances in Bayesian modeling and computation for CART (classification and regression tree) models. The modeling innovations include a formal prior distributional structure for tree generation—the pinball prior—that allows for the combination of an explicit specification of a distribution for both the tree size and the tree shape. The core computational innovations involve a novel Metropolis—Hastings method that can dramatically improve the convergence and mixing properties of MCMC methods of Bayesian CART analysis. Earlier MCMC methods have simulated Bayesian CART models using very local MCMC moves, proposing only small changes to a "current" CART model. Our new Metropolis—Hastings move makes large changes in the CART tree, but is at the same time local in that it leaves unchanged the partition of observations into terminal nodes. We evaluate the effectiveness of the proposed algorithm in two examples, one with a constructed data set and one concerning analysis of a published breast cancer dataset.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Pinball prior</kwd>
+            <kwd>Restructure moves</kwd>
+            <kwd>Tree prior specification</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1110366e164a1310">
+          
+            <mixed-citation id="d1110366e168" publication-type="other">
+Breiman, L., Friedman, J., Olshen, R., and Stone, C. (1984), Classification and Regression Trees, Belmont CA:
+Wads worth.</mixed-citation>
+        </ref>
+        <ref id="d1110366e178a1310">
+          
+            <mixed-citation id="d1110366e182" publication-type="other">
+Brooks, S. P., and Roberts, C. P. (1998), "Convergence Assessment Techniques for Markov Chain Monte Carlo,"
+Statistics and Computing, 8, 319–335.</mixed-citation>
+        </ref>
+        <ref id="d1110366e192a1310">
+          
+            <mixed-citation id="d1110366e196" publication-type="other">
+Chipman, H., George, E., and McCulloch, R. (1998), "Bayesian CART Model Search" (with discussion), Journal
+of the American Statistical Association, 93, 935–960.</mixed-citation>
+        </ref>
+        <ref id="d1110366e206a1310">
+          
+            <mixed-citation id="d1110366e210" publication-type="other">
+—(2000), "Hierarchical Priors for Bayesian CART Shrinkage," Statistics and Computing, 10, 17-24.</mixed-citation>
+        </ref>
+        <ref id="d1110366e218a1310">
+          
+            <mixed-citation id="d1110366e222" publication-type="other">
+Clark, L., and Pregibon, D. (1992), "Tree-Based Models," in Statistical Models in S, eds. J. Chambers and
+T. Hastie, Pacific Grove, CA: Wadsworth.</mixed-citation>
+        </ref>
+        <ref id="d1110366e232a1310">
+          
+            <mixed-citation id="d1110366e236" publication-type="other">
+Conover, W. (1971), Practical Nonparametric Statistics, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d1110366e243a1310">
+          
+            <mixed-citation id="d1110366e247" publication-type="other">
+Cowles, M. K., and Carlin, B. P. (1996), "Markov Chain Monte-Carlo Convergence Diagnostics: A Comparative
+Review," Journal of the American Statistical Association, 91, 883–904.</mixed-citation>
+        </ref>
+        <ref id="d1110366e257a1310">
+          
+            <mixed-citation id="d1110366e261" publication-type="other">
+Denison, D., Mallick, B., and Smith, A. (1998), "A Bayesian CART Algorithm," Biometrika, 85, 363–377.</mixed-citation>
+        </ref>
+        <ref id="d1110366e268a1310">
+          
+            <mixed-citation id="d1110366e272" publication-type="other">
+Green, P. J. (1995), "Reversible Jump MCMC Computation and Bayesian Model Determination," Biometrika,
+82, 711–732.</mixed-citation>
+        </ref>
+        <ref id="d1110366e282a1310">
+          
+            <mixed-citation id="d1110366e286" publication-type="other">
+Huang, E., Chen, S., Dressman, H., Pittman, J., Tsou, M., Horng, C, Bild, A., Iversen, E., Liao, M., Chen, C,
+West, M., Nevins, J., and Huang, A. (2003), "Gene Expression Predictors of Breast Cancer Outcomes," The
+Lancet, 361, 1590–1596.</mixed-citation>
+        </ref>
+        <ref id="d1110366e300a1310">
+          
+            <mixed-citation id="d1110366e304" publication-type="other">
+Liu, J. S., Liang, F. M., and Wong, W. H. (2000), "The Multiple-Try Method and Local Optimization in Metropolis
+Sampling," Journal of the American Statistical Association, 95, 121–134.</mixed-citation>
+        </ref>
+        <ref id="d1110366e314a1310">
+          
+            <mixed-citation id="d1110366e318" publication-type="other">
+Pittman, J., Huang, E., Dressman, H., Horng, C, Cheng, S., Tsou, M., Chen, C, Bild, A., Iversen, E., Huang,
+A., Nevins, J., and West, M. (2004a), "Integrated Modeling of Clinical and Gene Expression Information
+for Personalized Prediction of Disease Outcomes," Proceedings of the National Academy of Sciences, 101,
+8431–8436.</mixed-citation>
+        </ref>
+        <ref id="d1110366e334a1310">
+          
+            <mixed-citation id="d1110366e338" publication-type="other">
+Pittman, J., Huang, E., Nevins, J., and West, M. (2003), "Prediction Tree Models in Clinico-Genomics," Bulletin
+of the International Statistical Institute, 54, 76.</mixed-citation>
+        </ref>
+        <ref id="d1110366e348a1310">
+          
+            <mixed-citation id="d1110366e352" publication-type="other">
+Pittman, J., Huang, E., Wang, Q., Nevins, J., and West, M. (2004b), "Binary Analysis of Binary Prediction Tree
+Models for Retrospectively Sampled Outcomes," Biostatistics, 5, 587–601.</mixed-citation>
+        </ref>
+        <ref id="d1110366e362a1310">
+          
+            <mixed-citation id="d1110366e366" publication-type="other">
+Qin, Z. S., and Liu, J. S. (2001), "Multi-point Metropolis Method with Application to Hybrid Monte Carlo,"
+Journal of Computational Physics, 172, 827–840.</mixed-citation>
+        </ref>
+        <ref id="d1110366e376a1310">
+          
+            <mixed-citation id="d1110366e380" publication-type="other">
+Tjelmeland, H. (2004), "Using all Metropolis-Hastings Proposals to Estimate Mean Values," Technical report,
+Statistics no. 4, Department of Mathematical Sciences, Norwegian University of Science and Technology,
+Trondheim, Norway.</mixed-citation>
+        </ref>
+        <ref id="d1110366e394a1310">
+          
+            <mixed-citation id="d1110366e398" publication-type="other">
+Wolberg, W., and Mangasarian, O. (1990), "Multisurface Method of Pattern Separation for Medical Diagnosis
+Applied to Breast Cytology," Proceedings of the National Academy of Sciences, 87, 9193–9196.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

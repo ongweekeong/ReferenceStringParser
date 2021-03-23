@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">19</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i25651294</issue-id>
+         <article-id pub-id-type="jstor">25651308</article-id>
+         <title-group>
+            <article-title>Fast Computation of Kernel Estimators</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Vikas C.</given-names>
+                  <surname>Raykar</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ramani</given-names>
+                  <surname>Duraiswami</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Linda H.</given-names>
+                  <surname>Zhao</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>205</fpage>
+         <lpage>220</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651308"/>
+      
+      
+         <abstract>
+            <p>The computational complexity of evaluating the kernel density estimate (or its derivatives) at m evaluation points given n sample points scales quadratically as O (nm)—making it prohibitively expensive for large datasets. While approximate methods like binning could speed up the computation, they lack a precise control over the accuracy of the approximation. There is no straightforward way of choosing the binning parameters a priori in order to achieve a desired approximation error. We propose a novel computationally efficient ε-exact approximation algorithm for the univariate Gaussian kernel-based density derivative estimation that reduces the computational complexity from O (nm) to linear O (n + m). The user can specify a desired accuracy ε. The algorithm guarantees that the actual error between the approximation and the original kernel estimate will always be less than ε. We also apply our proposed fast algorithm to speed up automatic bandwidth selection procedures. We compare our method to the best available binning methods in terms of the speed and the accuracy. Our experimental results show that the proposed method is almost twice as fast as the best binning methods and is around five orders of magnitude more accurate. The software for the proposed method is available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d265115e228a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d265115e235" publication-type="other">
+http://www.unc.edu/~marron/marron_software.html.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d265115e251a1310">
+          
+            <mixed-citation id="d265115e255" publication-type="other">
+Bhattacharya, P. K. (1967), "Estimation of a Probability Density Function and Its Derivatives," Sankhya, Ser. A,
+29, 373-382. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e265a1310">
+          
+            <mixed-citation id="d265115e269" publication-type="other">
+Fan, J., and Marron, J. (1994), "Fast Implementations of Nonparametric Curve Estimators," Journal of Computa-
+tional and Graphical Statistics, 3 (1), 35-56. [206,207]</mixed-citation>
+        </ref>
+        <ref id="d265115e279a1310">
+          
+            <mixed-citation id="d265115e283" publication-type="other">
+Fukunaga, K., and Hostetler, L. (1975), "The Estimation of the Gradient of a Density Function, With Applications
+in Pattern Recognition," IEEE Transactions on Information Theory, 21 (1), 32-40. [208]</mixed-citation>
+        </ref>
+        <ref id="d265115e293a1310">
+          
+            <mixed-citation id="d265115e297" publication-type="other">
+Gonzalez-Manteiga, W., Sanchez Sellero, C, and Wand, M. P. (1996), "Accuracy of Binned Kernel Functional
+Approximations," Computational Statistics and Data Analysis, 22, 1-16. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e308a1310">
+          
+            <mixed-citation id="d265115e312" publication-type="other">
+Greengard, G. (1994), "Fast Algorithms for Classical Physics," Science, 265 (5174), 909-914. [207]</mixed-citation>
+        </ref>
+        <ref id="d265115e319a1310">
+          
+            <mixed-citation id="d265115e323" publication-type="other">
+Hall, P. (1982), "The Influence of Rounding Errors on Some Nonprametric Estimators of a Density and Its Deriv-
+atives," SIAM Journal of Applied Mathematics, 42, 390-399. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e333a1310">
+          
+            <mixed-citation id="d265115e337" publication-type="other">
+Hall, P., and Wand, M. (1996), "On the Accuracy of Binned Kernel Density Estimators," Journal of Multivariate
+Analysis, 56 (2), 165-184. [206,207]</mixed-citation>
+        </ref>
+        <ref id="d265115e347a1310">
+          
+            <mixed-citation id="d265115e351" publication-type="other">
+Hardle, W., and Scott, D. W. (1992), "Smoothing in Low and High Dimensions by Weighted Averaging Using
+Rounded Points," Computational Statistics, 1, 97-128. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e361a1310">
+          
+            <mixed-citation id="d265115e365" publication-type="other">
+Huber, P. J. (1985), "Projection Pursuit," The Annals of Statistics, 13, 435-475. [208]</mixed-citation>
+        </ref>
+        <ref id="d265115e372a1310">
+          
+            <mixed-citation id="d265115e376" publication-type="other">
+Jones, M. C. (1989), "Discretrized and Interpolated Kernel Density Estimates," Journal of the American Statisti-
+cal Association, 84, 733-741. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e387a1310">
+          
+            <mixed-citation id="d265115e391" publication-type="other">
+Jones, M. C, and Lotwick, H. W. (1983), "On the Errors Involved in Computing the Empirical Characteristic
+Function," Journal of Statistical and Computer Simulation, 17, 133-149. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e401a1310">
+          
+            <mixed-citation id="d265115e405" publication-type="other">
+Jones, M. C, Marron, J. S., and Sheather, S. J. (1996), "A Brief Survey of Bandwidth Selection for Density
+Estimation," Journal of the American Statistical Association, 91 (433), 401^07. [206,212,214,217]</mixed-citation>
+        </ref>
+        <ref id="d265115e415a1310">
+          
+            <mixed-citation id="d265115e419" publication-type="other">
+Marron, J. S., and Wand, M. P. (1992), "Exact Mean Integrated Squared Error" The Annals of Statistics, 20
+(2), 712-736. [208,213-217]</mixed-citation>
+        </ref>
+        <ref id="d265115e429a1310">
+          
+            <mixed-citation id="d265115e433" publication-type="other">
+Potts, D., and Steidl, G. (2003), "Fast Summation at Nonequispaced Knots by NFFTs," SIAM Journal of Scientific
+Computing, 24, 2013-2037. [208]</mixed-citation>
+        </ref>
+        <ref id="d265115e443a1310">
+          
+            <mixed-citation id="d265115e447" publication-type="other">
+Schuster, E. F. (1969), "Estimation of a Probability Density Function and Its Derivatives," The Annals of Mathe-
+matical Statistics, 40 (4), 1187-1195. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e457a1310">
+          
+            <mixed-citation id="d265115e461" publication-type="other">
+Scott, D. (1981), "Using Computer-Binned Data For Density Estimation," in Computer Science and Statistics:
+Proceedings of the 13th Symposium on the Interface, ed. W. Eddy, New York: Springer-Verlag, pp. 282-294.
+[206]</mixed-citation>
+        </ref>
+        <ref id="d265115e475a1310">
+          
+            <mixed-citation id="d265115e479" publication-type="other">
+Scott, D. W., and Sheather, S. J. (1985), "Kernel Density Estimation With Binned Data," Communications in
+Statistics—Theory and Methods, 14, 1353-1359. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e489a1310">
+          
+            <mixed-citation id="d265115e493" publication-type="other">
+Seifert, B., Brockmann, M., Engel, J., and Gasser, T. (1994), "Fast Algorithms for Nonparametric Curve Estima-
+tion," Journal of Computational and Graphical Statistics, 3 (2), 192-213. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e503a1310">
+          
+            <mixed-citation id="d265115e507" publication-type="other">
+Sheather, S., and Jones, M. (1991), "A Reliable Data-Based Bandwidth Selection Method for Kernel Density
+Estimation," Journal of Royal Statistical Society, Ser. B, 53 (3), 683-690. [212,218]</mixed-citation>
+        </ref>
+        <ref id="d265115e517a1310">
+          
+            <mixed-citation id="d265115e521" publication-type="other">
+Silverman, B. (1982), "Algorithm AS 176: Kernel Density Estimation Using the Fast Fourier Transform," Applied
+Statistics, 31 (1), 93-97. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e531a1310">
+          
+            <mixed-citation id="d265115e535" publication-type="other">
+Singh, R. S. (1977), "Applications of Estimators of a Density and Its Derivatives to Certain Statistical Problems,"
+Journal of the Royal Statistical Society, Ser. B, 39 (3), 357-363. [208]</mixed-citation>
+        </ref>
+        <ref id="d265115e545a1310">
+          
+            <mixed-citation id="d265115e549" publication-type="other">
+Turlach, B. (1994), "Fast Implementation of Density-Weighted Average Derivative Estimation," in Computation-
+ally Intensive Statistical Methods. Computing Science and Statistics, Vol. 26, eds. J. Sail and A. Lehman,
+Fairfax Station, VA: Interface Foundation of North America, pp. 28-33. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e563a1310">
+          
+            <mixed-citation id="d265115e567" publication-type="other">
+Turlach, B., and Wand, M. (1996), "Fast Computation of Auxiliary Quantities in Local Polynomial Regression,"
+Journal of Computational and Graphical Statistics, 5 (4), 337-350. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e577a1310">
+          
+            <mixed-citation id="d265115e581" publication-type="other">
+Wand, M. (1994), "Fast Computation of Multivariate Kernel Estimators," Journal of Computational and Graphi-
+cal Statistics, 3 (4), 433^45. [206]</mixed-citation>
+        </ref>
+        <ref id="d265115e591a1310">
+          
+            <mixed-citation id="d265115e595" publication-type="other">
+Wand, M. P., and Jones, M. C. (1995), Kernel Smoothing, London: Chapman &amp;amp; Hall. [205,212]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

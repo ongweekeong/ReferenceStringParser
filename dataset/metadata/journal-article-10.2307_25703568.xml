@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">19</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i25703565</issue-id>
+         <article-id pub-id-type="jstor">25703568</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Markov Chain Monte Carlo</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Adaptive Mixture Modeling Metropolis Methods for Bayesian Analysis of Nonlinear State-Space Models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Jarad</given-names>
+                  <surname>Niemi</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Mike</given-names>
+                  <surname>West</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>260</fpage>
+         <lpage>280</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25703568"/>
+      
+      
+         <abstract>
+            <p>We describe a strategy for Markov chain Monte Carlo analysis of nonlinear, non-Gaussian state-space models involving batch analysis for inference on dynamic, latent state variables and fixed model parameters. The key innovation is a Metropolis—Hastings method for the time series of state variables based on sequential approximation of filtering and smoothing densities using normal mixtures. These mixtures are propagated through the nonlinearities using an accurate, local mixture approximation method, and we use a regenerating procedure to deal with potential degeneracy of mixture components. This provides accurate, direct approximations to sequential filtering and retrospective smoothing distributions, and hence a useful construction of global Metropolis proposal distributions for simulation of posteriors for the set of states. This analysis is embedded within a Gibbs sampler to include uncertain fixed parameters. We give an example motivated by an application in systems biology. Supplemental materials provide an example based on a stochastic volatility model as well as MATLAB code.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1736331e326a1310">
+          
+            <mixed-citation id="d1736331e330" publication-type="other">
+Alspach, D. L., and Sorenson, H. W. (1972), "Non-Linear Bayesian Estimation Using Gaussian Sum Approxi-
+mations," IEEE Transactions on Automatic Control, AC-17, 439-448. [263]</mixed-citation>
+        </ref>
+        <ref id="d1736331e340a1310">
+          
+            <mixed-citation id="d1736331e344" publication-type="other">
+Andrade Netto, M. L., Gimeno, L., and Mendes, M. J. (1978), "A New Spline Algorithm for Non-Linear Fil-
+tering of Discrete Time Systems," in Proceedings of the 4th IFAC Symposium on Identification and System
+Parameter Estimation, Tbilisi, U.S.S.R., pp. 2123-2130. [269]</mixed-citation>
+        </ref>
+        <ref id="d1736331e357a1310">
+          
+            <mixed-citation id="d1736331e361" publication-type="other">
+Bild, A. H., Yao, G., Chang, J. T., Wang, Q., Potti, A., Chasse, D., Joshi, M, Harpole, D., Lancaster, J. M.,
+Berchuck, A., Olson, J. A., Marks, J. R., Dressman, H. K., West, M., and Nevins, J. (2006), "Oncogenic
+Pathway Signatures in Human Cancers as a Guide to Targeted Therapies," Nature, 439, 353-357. [273]</mixed-citation>
+        </ref>
+        <ref id="d1736331e374a1310">
+          
+            <mixed-citation id="d1736331e378" publication-type="other">
+Carlin, B. P., Poison, N. G., and Staffer, D. S. (1992), "A Monte Carlo Approach to Nonnormal and Nonlinear
+State-Space Modeling," Journal of the American Statistical Association, 87, 493-500. [261,270,271,276]</mixed-citation>
+        </ref>
+        <ref id="d1736331e389a1310">
+          
+            <mixed-citation id="d1736331e393" publication-type="other">
+Carter, C. K., and Kohn, R. (1994), "On Gibbs Sampling for State-Space Models," Biometrika, 81, 541-553.
+[261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e403a1310">
+          
+            <mixed-citation id="d1736331e407" publication-type="other">
+Chen, R., and Liu, J. S. (2000), "Mixture Kalman Filters," Journal of the Royal Statistical Society, Ser. B, 62,
+493-508. [261,276,277]</mixed-citation>
+        </ref>
+        <ref id="d1736331e417a1310">
+          
+            <mixed-citation id="d1736331e421" publication-type="other">
+Doucet, A., de Freitas, N., and Gordon, N. (eds.) (2001), Sequential Monte Carlo Methods in Practice, New York:
+Springer-Verlag. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e431a1310">
+          
+            <mixed-citation id="d1736331e435" publication-type="other">
+Doucet, A., Godsill, S., and Andrieu, C. (2000), "On Sequential Monte Carlo Sampling Methods for Bayesian
+Filtering," Statistics and Computing, 10, 197-208. [261,269]</mixed-citation>
+        </ref>
+        <ref id="d1736331e445a1310">
+          
+            <mixed-citation id="d1736331e449" publication-type="other">
+Fearnhead, P., and Meligkotsidou, L. (2007), "Filtering Methods for Mixture Models," Journal of Computational
+and Graphical Statistics, 16, 586-607. [263]</mixed-citation>
+        </ref>
+        <ref id="d1736331e459a1310">
+          
+            <mixed-citation id="d1736331e463" publication-type="other">
+Friihwirth-Schnatter, S. (1994), "Data Augmentation and Dynamic Linear Models," Journal of Time Series Analy-
+sis, 15, 183-202. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e474a1310">
+          
+            <mixed-citation id="d1736331e478" publication-type="other">
+Gadkar, K. G., Gunawan, R., and Doyle, F. J. (2005), "Iterative Approach to Model Identification of Biological
+Networks," BMC Bioinformatics, 6, 155. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e488a1310">
+          
+            <mixed-citation id="d1736331e492" publication-type="other">
+Gadkar, K. G., Varner, J., and Doyle, F. J. (2005), "Model Identification of Signal Transduction Networks From
+Data Using a State Regulator Problem," IEE Systems Biology, 2, 17-30. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e502a1310">
+          
+            <mixed-citation id="d1736331e506" publication-type="other">
+Geweke, J., and Tanizaki, H. (1999), "On Markov Chain Monte Carlo Methods for Nonlinear and Non-Gaussian
+State-Space Models," Communications in Statistics: Simulation and Computation, 28, 867-894. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e516a1310">
+          
+            <mixed-citation id="d1736331e520" publication-type="other">
+Godsill, S. J., Doucet, A., and West, M. (2004), "Monte Carlo Smoothing for Nonlinear Time Series," Journal of
+the American Statistical Association, 99, 156-168. [261,271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e530a1310">
+          
+            <mixed-citation id="d1736331e534" publication-type="other">
+Golightly, A., and Wilkinson, D. J. (2005), "Bayesian Inference for Stochastic Kinetic Models Using a Diffusion
+Approximation," Biometrics, 61, 781-788. [261,271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e544a1310">
+          
+            <mixed-citation id="d1736331e548" publication-type="other">
+- (2006a), "Bayesian Sequential Inference for Nonlinear Multivariate Diffusions," Statistics and Comput-
+ing, 16, 323-338. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e559a1310">
+          
+            <mixed-citation id="d1736331e563" publication-type="other">
+- (2006b), "Bayesian Sequential Inference for Stochastic Kinetic Biochemical Network Models," Journal
+of Computational Biology, 13, 838-851. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e573a1310">
+          
+            <mixed-citation id="d1736331e577" publication-type="other">
+Gordon, N. J., Salmond, D. J., and Smith, A. F. M. (1993), "Novel Approach to Non-Linear/Non-Gaussian
+Bayesian State Estimation," IEE Proceedings Part F: Communications, Radar and Signal Processing, 140,
+107-113. [261,269]</mixed-citation>
+        </ref>
+        <ref id="d1736331e590a1310">
+          
+            <mixed-citation id="d1736331e594" publication-type="other">
+Harrison, P., and Stevens, C. (1971), "A Bayesian Approach to Short-Term Forecasting," Operations Research
+Quarterly, 22, 341-362. [263]</mixed-citation>
+        </ref>
+        <ref id="d1736331e604a1310">
+          
+            <mixed-citation id="d1736331e608" publication-type="other">
+- (1976), "Bayesian Forecasting," Journal of the Royal Statistical Society, Ser. B, 38, 205-247. [263]</mixed-citation>
+        </ref>
+        <ref id="d1736331e615a1310">
+          
+            <mixed-citation id="d1736331e619" publication-type="other">
+He, F., Yeung, L. F, and Brown, M. (2007), "Discrete-Time Model Representation for Biochemical Pathway
+Systems," IAENG International Journal of Computer Science, 34, 111-118. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e629a1310">
+          
+            <mixed-citation id="d1736331e633" publication-type="other">
+- (2008), "Discrete-Time Model Representations for Biochemical Pathways," in Trends in Intelligent
+Systems and Computer Engineering, New York: Springer, pp. 255-271. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e644a1310">
+          
+            <mixed-citation id="d1736331e648" publication-type="other">
+Hürzeler, M., and Kiinsch, H. R. (1998), "Monte Carlo Approximations for General State-Space Models," Journal
+of Computational and Graphical Statistics, 7, 175-193. [261,269]</mixed-citation>
+        </ref>
+        <ref id="d1736331e658a1310">
+          
+            <mixed-citation id="d1736331e662" publication-type="other">
+Kitagawa, G. (1987), "Non-Gaussian State-Space Modeling of Nonstationary Time Series (C/R: P1041-1063;
+C/R: V83 P1231)," Journal of the American Statistical Association, 82, 1032-1041. [269-271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e672a1310">
+          
+            <mixed-citation id="d1736331e676" publication-type="other">
+- (1996), "Monte Carlo Filter and Smoother for Non-Gaussian Non-Linear State Space Models," Journal
+of Computational and Graphical Statistics, 5, 1-25. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e686a1310">
+          
+            <mixed-citation id="d1736331e690" publication-type="other">
+Liu, J., and West, M. (2001), "Combined Parameter and State Estimation in Simulation-Based Filtering," in
+Sequential Monte Carlo Methods in Practice, eds. A. Doucet, J. De Freitas, and N. Gordon, New York:
+Springer-Verlag, pp. 197-217. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e703a1310">
+          
+            <mixed-citation id="d1736331e707" publication-type="other">
+Nevins, J. (1998), "Toward an Understanding of the Functional Complexity of the E2F and Retinoblastoma Fam-
+ilies," Cell Growth and Differentiation, 9, 585-593. [273]</mixed-citation>
+        </ref>
+        <ref id="d1736331e717a1310">
+          
+            <mixed-citation id="d1736331e721" publication-type="other">
+Niemi, J. (2009), "Bayesian Analysis and Computational Methods for Dynamic Modeling," Ph.D. thesis, Duke
+University. [271]</mixed-citation>
+        </ref>
+        <ref id="d1736331e732a1310">
+          
+            <mixed-citation id="d1736331e736" publication-type="other">
+Ravines, R. R., Migon, H. S., and Schmidt, A. M. (2007), "An Efficient Sampling Scheme for Dynamic General-
+ized Models," Technical Report 201/2007, Departamento de Metodos Estatfsticos, UFRJ. [261,267]</mixed-citation>
+        </ref>
+        <ref id="d1736331e746a1310">
+          
+            <mixed-citation id="d1736331e750" publication-type="other">
+Rosenfeld, N., Young, J., Alon, U., Swain, P., and Elowitz, M. (2005), "Gene Regulation at the Single-Cell Level,"
+Science, 307, 1962-1965. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e760a1310">
+          
+            <mixed-citation id="d1736331e764" publication-type="other">
+Sears, R., Ohtani, K., and Nevins, J. R. (1997), "Identification of Positively and Negatively Acting Elements
+Regulating Expression of the E2F2 Gene in Response to Cell Growth Signals," Molecular and Cellular
+Biology, 17, 5227-5235. [273]</mixed-citation>
+        </ref>
+        <ref id="d1736331e777a1310">
+          
+            <mixed-citation id="d1736331e781" publication-type="other">
+Sorenson, H. W., and Alspach, D. L. (1971), "Recursive Bayesian Estimation Using Gaussian Sums," Automatica,
+7, 465-479. [263]</mixed-citation>
+        </ref>
+        <ref id="d1736331e791a1310">
+          
+            <mixed-citation id="d1736331e795" publication-type="other">
+Stroud, J. R., Miiller, P., and Poison, N. G. (2003), "Nonlinear State-Space Models With State-Dependent Vari-
+ances," Journal of the American Statistical Association, 98, 377-386. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e805a1310">
+          
+            <mixed-citation id="d1736331e809" publication-type="other">
+Tan, C., Song, H., Niemi, J., and You, L. (2007), "A Synthetic Biology Challenge: Making Cells Compute,"
+Molecular BioSystems, 3, 343-353. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e820a1310">
+          
+            <mixed-citation id="d1736331e824" publication-type="other">
+Wang, Q., Niemi, J., Tan, C, You, L., and West, M. (2010), "Image Segmentation and Dynamic Lineage Analysis
+in Single-Cell Fluorescent Microscopy," Cytometry, Part A, 11, 101-110. [261]</mixed-citation>
+        </ref>
+        <ref id="d1736331e834a1310">
+          
+            <mixed-citation id="d1736331e838" publication-type="other">
+West, M. (1992), "Modelling With Mixtures" (with discussion), in Bayesian Statistics 4, eds. J. Bernardo,
+J. Berger, A. Dawid, and A. Smith, Oxford: Clarendon Press, pp. 503-524. [261,263,277]</mixed-citation>
+        </ref>
+        <ref id="d1736331e848a1310">
+          
+            <mixed-citation id="d1736331e852" publication-type="other">
+- (1993a), "Approximating Posterior Distributions by Mixtures," Journal of the Royal Statistical Society,
+Ser. B, 54, 553-568. [263,277]</mixed-citation>
+        </ref>
+        <ref id="d1736331e862a1310">
+          
+            <mixed-citation id="d1736331e866" publication-type="other">
+- (1993b), "Mixture Models, Monte Carlo, Bayesian Updating and Dynamic Models," Computing Science
+and Statistics, 24, 325-333. [261,263,269,277]</mixed-citation>
+        </ref>
+        <ref id="d1736331e876a1310">
+          
+            <mixed-citation id="d1736331e880" publication-type="other">
+West, M., and Harrison, J. (1997), Bayesian Forecasting and Dynamic Models (2nd ed.), New York: Springer-
+Verlag. [261-263,267,276]</mixed-citation>
+        </ref>
+        <ref id="d1736331e890a1310">
+          
+            <mixed-citation id="d1736331e894" publication-type="other">
+Wilkinson, D. (2006), Stochastic Modelling for Systems Biology, London: Chapman &amp; Hall/CRC. [261,271]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

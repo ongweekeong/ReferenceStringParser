@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i23240479</issue-id>
+         <article-id pub-id-type="jstor">23248844</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>If Monte Carlo Be a Food of Computing, Simulate on</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Efficient Interpolation of Computationally Expensive Posterior Densities With Variable Parameter Costs</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nikolay</given-names>
+                  <surname>Bliznyuk</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>David</given-names>
+                  <surname>Ruppert</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Christine A.</given-names>
+                  <surname>Shoemaker</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>636</fpage>
+         <lpage>655</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23248844"/>
+      
+      
+         <abstract>
+            <p>Markov chain Monte Carlo (MCMC) is nowadays a standard approach to numerical computation of integrals of the posterior density π of the parameter vector η. Unfortunately, Bayesian inference using MCMC is computationally intractable when the posterior density π is expensive to evaluate. In many such problems, it is possible to identify a minimal subvector β of η responsible for the expensive computation in the evaluation of π. We propose two approaches, DOSKA and INDA, that approximate π by interpolation in ways that exploit this computational structure to mitigate the curse of dimensionality. DOSKA interpolates π directly while INDA interpolates π indirectly by interpolating functions, for example, a regression function, upon which π depends. Our primary contribution is derivation of a Gaussian processes interpolant that provably improves over some of the existing approaches by reducing the effective dimension of the interpolation problem from dim(η) to dim(β). This allows a dramatic reduction of the number of expensive evaluations necessary to construct an accurate approximation of π when dim(η) is high but dim(β) is low. We illustrate the proposed approaches in a case study for a spatio-temporal linear model for air pollution data in the greater Boston area. Supplemental materials include proofs, details, and software implementation of the proposed procedures.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d753167e176a1310">
+          
+            <mixed-citation id="d753167e180" publication-type="other">
+Asmussen, S., and Glynn, P. (2007), Stochastic Simulation: Algorithms and Analysis, New York: Springer. [652]</mixed-citation>
+        </ref>
+        <ref id="d753167e187a1310">
+          
+            <mixed-citation id="d753167e191" publication-type="other">
+Banerjee, S., Carlin, B. P., andGelfand, A. E. (2004), Hierarchical Modeling and Analysis for Spatial Data, Boca
+Raton: Chapman &amp; Hall/CRC. [649]</mixed-citation>
+        </ref>
+        <ref id="d753167e201a1310">
+          
+            <mixed-citation id="d753167e205" publication-type="other">
+Bliznyuk, N., Ruppert, D., and Shoemaker, C. A. (2011), "Local Derivative-Free Approximation of Compu-
+tationally Expensive Posterior Densities," Journal of Computational and Graphical Statistics, to appear.
+[640,644,651]</mixed-citation>
+        </ref>
+        <ref id="d753167e218a1310">
+          
+            <mixed-citation id="d753167e222" publication-type="other">
+Bliznyuk, N., Ruppert, D., Shoemaker, C. A., Regis, R., Wild, S., and Mugunthan, P. (2008), "Bayesian Cal-
+ibration and Uncertainty Analysis for Computationally Expensive Models Using Optimization and Ra-
+dial Basis Function Approximation," Journal of Computational and Graphical Statistics, 17, 270-294.
+[638-640,644,651]</mixed-citation>
+        </ref>
+        <ref id="d753167e239a1310">
+          
+            <mixed-citation id="d753167e243" publication-type="other">
+Buhmann, M. D. (2003), Radial Basis Functions, New York: Cambridge University Press. [644,652]</mixed-citation>
+        </ref>
+        <ref id="d753167e250a1310">
+          
+            <mixed-citation id="d753167e254" publication-type="other">
+Christen, J. A., and Fox, C. (2005), "Markov Chain Monte Carlo Using an Approximation," Journal of Compu-
+tational and Graphical Statistics, 14, 795-810. [638]</mixed-citation>
+        </ref>
+        <ref id="d753167e264a1310">
+          
+            <mixed-citation id="d753167e268" publication-type="other">
+Cressie, N. (1991), Statistics for Spatial Data, New York: Wiley. [639,641]</mixed-citation>
+        </ref>
+        <ref id="d753167e275a1310">
+          
+            <mixed-citation id="d753167e279" publication-type="other">
+Furrer, R., Genton, M. G., and Nychka, D. (2006), "Covariance Tapering for Interpolation of Large Spatial
+Datasets," Journal of Computational and Graphical Statistics, 15, 502-523. [649]</mixed-citation>
+        </ref>
+        <ref id="d753167e289a1310">
+          
+            <mixed-citation id="d753167e293" publication-type="other">
+Gneiting, T. (2002a), "Compactly Supported Correlation Functions," Journal of Multivariate Analysis, 83, 493-
+508. [652]</mixed-citation>
+        </ref>
+        <ref id="d753167e303a1310">
+          
+            <mixed-citation id="d753167e307" publication-type="other">
+Gryparis, A., Coull, B. A., Schwartz, J., and Suh, H. (2007), "Semiparametric Latent Variable Regression Models
+for Spatiotemporal Modelling of Mobile Source Particles in the Greater Boston Area," Journal of the Royal
+Statistical Society, Ser. C, 56 (2), 183-209. [647,648]</mixed-citation>
+        </ref>
+        <ref id="d753167e321a1310">
+          
+            <mixed-citation id="d753167e325" publication-type="other">
+Haario, H., Saksman, E„ and Tamminen, J. (2001), "An Adaptive Metropolis Algorithm," Bernoulli, 7, 223-242.
+[650]</mixed-citation>
+        </ref>
+        <ref id="d753167e335a1310">
+          
+            <mixed-citation id="d753167e339" publication-type="other">
+Kennedy, M. C., and O'Hagan, A. (2001), "Bayesian Calibration of Computer Models," Journal of the Royal
+Statistical Society, Ser. B, 63,425-464. [637,638]</mixed-citation>
+        </ref>
+        <ref id="d753167e349a1310">
+          
+            <mixed-citation id="d753167e353" publication-type="other">
+Rasmussen, C. E. (2003), "Gaussian Processes to Speed Up Hybrid Monte Carlo for Expensive Bayesian Inte-
+grals," in Bayesian Statistics 7, eds. J. M. Bernardo, J. O. Berger, A. P. Berger, and A. F. M. Smith, Oxford:
+Clarendon Press, pp. 651-659. [638,640-642,644,654]</mixed-citation>
+        </ref>
+        <ref id="d753167e366a1310">
+          
+            <mixed-citation id="d753167e370" publication-type="other">
+Robert, C. P., and Casella, G. (1999), Monte Carlo Statistical Methods, New York: Springer. [642,650]</mixed-citation>
+        </ref>
+        <ref id="d753167e377a1310">
+          
+            <mixed-citation id="d753167e381" publication-type="other">
+Ruppert, D., Wand, M. P., and Carroll, R. J. (2003), Semiparametric Regression, Cambridge: Cambridge Univer-
+sity Press. [648]</mixed-citation>
+        </ref>
+        <ref id="d753167e391a1310">
+          
+            <mixed-citation id="d753167e395" publication-type="other">
+Scott, D. W. (1992), Multivariate Density Estimation: Theory, Practice, and Visualization, New York: Wiley.
+[640]</mixed-citation>
+        </ref>
+        <ref id="d753167e406a1310">
+          
+            <mixed-citation id="d753167e410" publication-type="other">
+Taddy, M. A., Lee, H. K. H„ and Sanso, B. (2009), "Fast Inference for Statistical Inverse Problems," Inverse
+Problems, 25, 085001 (online version). [652]</mixed-citation>
+        </ref>
+        <ref id="d753167e420a1310">
+          
+            <mixed-citation id="d753167e424" publication-type="other">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions," The Annals of Statistics, 22, 1701—
+1786. [645]</mixed-citation>
+        </ref>
+        <ref id="d753167e434a1310">
+          
+            <mixed-citation id="d753167e438" publication-type="other">
+Vanden Berghen, F., and Bersini, H. (2005), "CONDOR, a New Parallel, Constrained Extension of Powell's
+UOBYQA Algorithm: Experimental Results and Comparison With the DFO Algorithm," Journal of Compu-
+tational and Applied Mathematics, 181, 157-175. [651]</mixed-citation>
+        </ref>
+        <ref id="d753167e451a1310">
+          
+            <mixed-citation id="d753167e455" publication-type="other">
+Wood, S. N. (2006), Generalized Additive Models: An Introduction With R, Boca Raton: Chapman &amp; Hall/CRC.
+[648]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

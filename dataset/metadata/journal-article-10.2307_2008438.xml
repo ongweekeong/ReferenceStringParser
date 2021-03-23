@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">55</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">192</issue>
+         <issue-id>i334610</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008438</article-id>
+         
+         <title-group>
+            <article-title>
+               On the Numerical Condition of Bernstein-Bézier Subdivision Processes 
+            </article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>R. T.</given-names>
+                  <surname>Farouki</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>C. A.</given-names>
+                  <surname>Neff</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>637</fpage>
+         <lpage>647</lpage>
+         <page-range>637-647</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1990 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008438"/>
+         
+         
+         <abstract>
+            <p>
+               The linear map $\mathbf{M}$ that takes the Bernstein coefficients of a polynomial $P(t)$ on a given interval $\lbrack a, b\rbrack$ into those on any subinterval $\lbrack\bar a, \bar b\rbrack$ is specified by a stochastic matrix which depends only on the degree $n$ of $P(t)$ and the size and location of $\lbrack\bar a, \bar b\rbrack$ relative to $\lbrack a, b\rbrack$. We show that in the $\|\cdot\|_\infty$-norm, the condition number of $\mathbf{M}$ has the simple form $\kappa_\infty(\mathbf{M}) = \lbrack 2 f \max(u_{\bar m}, \nu_{\bar m})\rbrack^n$, where $u_{\bar m} = (\bar m - a)/(b - a)$ and $\nu_{\bar m}= (b - \bar m)/(b - a)$ are the barycentric coordinates of the subinterval midpoint $\bar m = \frac{1}{2} (\bar a + \bar b)$, and $f$ denotes the "zoom" factor $(b - a)/(\bar b - \bar a)$ of the subdivision map. This suggests a practical rule-of-thumb in assessing how far Bézier curves and surfaces may be subdivided without exceeding prescribed (worst-case) bounds on the typical errors in their control points. The exponential growth of $\kappa_\infty(\mathbf M)$ with $n$ also argues forcefully against the use of high-degree forms in computer-aided geometric design applications. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>15A12</kwd>
+            <kwd>68U05</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d4104972e171a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4104972e178" publication-type="journal">
+E. Cohen, T. Lyche, and R. Riesenfeld, Discrete B-splines and subdivision techniques in
+computer-aided geometric design and computer graphics, Comput. Graphics Image Process-
+ing14 (1980), 87-111.<person-group>
+                     <string-name>
+                     <surname>Cohen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>14</volume>
+               <source>Comput. Graphics Image Processing</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e213a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4104972e220" publication-type="book">
+M. Cotlar and R. Cignoli, An introduction to functional analysis, North-Holland, Amster-
+dam, 1974.<person-group>
+                     <string-name>
+                     <surname>Cotlar</surname>
+                  </string-name>
+                  </person-group>
+               <source>An introduction to functional analysis</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e245a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4104972e252" publication-type="other">
+P. de Casteljau, Courbes et surfaces à pôles, André Citroën Automobiles SA, Paris (unpub-
+lished notes), 1963.</mixed-citation>
+            </ref>
+            <ref id="d4104972e262a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4104972e269" publication-type="book">
+G. Farin, Curves and surfaces for computer aided geometric design, Academic Press, New
+York, 1988.<person-group>
+                     <string-name>
+                     <surname>Farin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Curves and surfaces for computer aided geometric design</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e295a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4104972e302" publication-type="journal">
+R. T. Farouki and V. T. Rajan, On the numerical condition of polynomials in Bernstein
+form, Comput. Aided Geom. Design4 (1987), 191-216.<person-group>
+                     <string-name>
+                     <surname>Farouki</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>191</fpage>
+               <volume>4</volume>
+               <source>Comput. Aided Geom. Design</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e334a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4104972e341" publication-type="journal">
+—, Algorithms for polynomials in Bernstein form, Comput. Aided Geom. Design5 (1988),
+1-26.<person-group>
+                     <string-name>
+                     <surname>Farouki</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>5</volume>
+               <source>Comput. Aided Geom. Design</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e373a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4104972e380" publication-type="book">
+W. Feller, An introduction to probability theory and its applications. Vol. I, Wiley, New
+York, 1950.<person-group>
+                     <string-name>
+                     <surname>Feller</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>An introduction to probability theory and its applications</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e409a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4104972e416" publication-type="journal">
+R. N. Goldman, Markov chains and computer-aided geometric design: Part I-problems and
+constraints, ACM Trans. Graphics3 (1984), 204-222.<person-group>
+                     <string-name>
+                     <surname>Goldman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>204</fpage>
+               <volume>3</volume>
+               <source>ACM Trans. Graphics</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e448a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4104972e455" publication-type="journal">
+—, Markov chains and computer-aided geometric design: Part II-examples and subdivi-
+sion matrices, ACM Trans. Graphics4 (1985), 12-40.<person-group>
+                     <string-name>
+                     <surname>Goldman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>12</fpage>
+               <volume>4</volume>
+               <source>ACM Trans. Graphics</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e487a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4104972e494" publication-type="book">
+P. Henrici, Elements of numerical analysis, Wiley, New York, 1964.<person-group>
+                     <string-name>
+                     <surname>Henrici</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elements of numerical analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e517a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4104972e524" publication-type="journal">
+J. M. Lane and R. F. Riesenfeld, A theoretical development for the computer generation and
+display of piecewise polynomial surfaces, IEEE Trans. Pattern Anal. Mach. Intell.2 (1980),
+35-46.<person-group>
+                     <string-name>
+                     <surname>Lane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>35</fpage>
+               <volume>2</volume>
+               <source>IEEE Trans. Pattern Anal. Mach. Intell.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e559a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4104972e566" publication-type="journal">
+—, Bounds on a polynomial, BIT21 (1981), 112-117.<person-group>
+                     <string-name>
+                     <surname>Lane</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>112</fpage>
+               <volume>21</volume>
+               <source>BIT</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e595a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4104972e602" publication-type="book">
+I. J. Schoenberg, On variation diminishing approximation methods, On Numerical Approx-
+imation (R. E. Langer, ed.), Univ. of Wisconsin Press, Madison, WI, 1959.<person-group>
+                     <string-name>
+                     <surname>Schoenberg</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On variation diminishing approximation methods</comment>
+               <source>On Numerical Approximation</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e631a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4104972e638" publication-type="book">
+E. M. Stein and G. L. Weiss, Introduction to Fourier analysis on Euclidean spaces, Princeton
+Univ. Press, Princeton, N.J., 1971.<person-group>
+                     <string-name>
+                     <surname>Stein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Fourier analysis on Euclidean spaces</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e663a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4104972e670" publication-type="book">
+G. W. Stewart, Introduction to matrix computations, Academic Press, New York, 1973.<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to matrix computations</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e692a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4104972e699" publication-type="book">
+J. H. Wilkinson, Rounding errors in algebraic processes, Prentice-Hall, Englewood Cliffs,
+N. J., 1963.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Rounding errors in algebraic processes</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4104972e725a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4104972e732" publication-type="book">
+—The algebraic eigenvalue problem, Oxford Univ. Press, 1988.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <source>The algebraic eigenvalue problem</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

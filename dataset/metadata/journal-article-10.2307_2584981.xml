@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">221</issue>
+         <issue-id>i344561</issue-id>
+         <article-id pub-id-type="jstor">2584981</article-id>
+         
+         <title-group>
+            <article-title>A New Class of Asynchronous Iterative Algorithms with Order Intervals</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. C.</given-names>
+                  <surname>Miellou</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>D.</given-names>
+                  <surname>El Baz</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>P.</given-names>
+                  <surname>Spiteri</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>237</fpage>
+         <lpage>255</lpage>
+         <page-range>237-255</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584981"/>
+         
+         
+         <abstract>
+            <p>This paper deals with a new class of parallel asynchronous iterative algorithms for the solution of nonlinear systems of equations. The main feature of the new class of methods presented here is the possibility of flexible communication between processors. In particular partial updates can be exchanged. Approximation of the associated fixed point mapping is also considered. A detailed convergence study is presented. A connection with the Schwarz alternating method is made for the solution of nonlinear boundary value problems. Computational results on a shared memory multiprocessor IBM 3090 are briefly presented.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00885-0</kwd>
+            <kwd>65N12</kwd>
+            <kwd>65N55</kwd>
+            <kwd>68Q10</kwd>
+            <kwd>68Q22</kwd>
+            <kwd>Parallel Iterative Methods</kwd>
+            <kwd>Asynchronous Iterations</kwd>
+            <kwd>Schwarz Alternating Method</kwd>
+            <kwd>Domain Decomposition Methods</kwd>
+            <kwd>Boundary Value Problems</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d748918e178a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d748918e185" publication-type="journal">
+M. Bahi, and J.-C. Miellou, Contractive mappings with maximum norms: comparisons of
+constants of contraction and application to asynchronous iterations, Parallel Computing19
+(1993), 511-523. MR 94c:65072<person-group>
+                     <string-name>
+                     <surname>Bahi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>511</fpage>
+               <volume>19</volume>
+               <source>Parallel Computing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e220a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d748918e227" publication-type="journal">
+R. H. Barlow and D. J. Evans, Synchronous and asynchronous iterative parallel algorithms
+for linear systems, Comput. J.25 (1982), 56-60.<person-group>
+                     <string-name>
+                     <surname>Barlow</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>56</fpage>
+               <volume>25</volume>
+               <source>Comput. J.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e259a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d748918e266" publication-type="journal">
+G. M. Baudet, Asynchronous iterative methods for multiprocessors, J. Assoc. Comput. Mach.
+25 (1978), 226-244. MR 58:13674<person-group>
+                     <string-name>
+                     <surname>Baudet</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>25</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e298a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d748918e305" publication-type="journal">
+D. P. Bertsekas, Distributed dynamic programming, IEEE Trans. Auto. Contr.27 (1982),
+610-616. MR 83k:90124<person-group>
+                     <string-name>
+                     <surname>Bertsekas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>610</fpage>
+               <volume>27</volume>
+               <source>IEEE Trans. Auto. Contr.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e338a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d748918e345" publication-type="journal">
+D. P. Bertsekas, Distributed asynchronous computation of fixed points, Mathematics Pro-
+gramming27 (1983), 107-120. MR 85a:68051<person-group>
+                     <string-name>
+                     <surname>Bertsekas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>107</fpage>
+               <volume>27</volume>
+               <source>Mathematics Programming</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e377a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d748918e384" publication-type="journal">
+D. P. Bertsekas and D. El Baz, Distributed asynchronous relaxation methods for convex
+network flow problems, SIAM J. Control Optim.25 (1987), 74-85. MR 88f:90061<person-group>
+                     <string-name>
+                     <surname>Bertsekas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>74</fpage>
+               <volume>25</volume>
+               <source>SIAM J. Control Optim.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e416a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d748918e423" publication-type="book">
+D. P. Bertsekas and J. Tsitsiklis, Parallel and distributed computation, Numerical Methods,
+Englewood Cliffs, Prentice Hall, 1989.<person-group>
+                     <string-name>
+                     <surname>Bertsekas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Parallel and distributed computation</comment>
+               <source>Numerical Methods</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e452a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d748918e459" publication-type="journal">
+D. Chazan and W. Miranker, Chaotic relaxation, Linear Algebra and Appl.2 (1969), 199-222.
+MR 40:5114<person-group>
+                     <string-name>
+                     <surname>Chazan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>2</volume>
+               <source>Linear Algebra and Appl.</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e491a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d748918e498" publication-type="book">
+P. Cousot, Méthodes itératives de construction et d'approximation de points fixes d'opérateurs
+monotones sur un treillis, analyse sémantique des programmes, These d'Etat, Universite de
+Grenoble (1978).<person-group>
+                     <string-name>
+                     <surname>Cousot</surname>
+                  </string-name>
+                  </person-group>
+               <source>Méthodes itératives de construction et d'approximation de points fixes d'opérateurs monotones sur un treillis, analyse sémantique des programmes</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e527a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d748918e534" publication-type="journal">
+D. El Baz, M-functions and parallel asynchronous algorithms, SIAM J. Numer. Anal.27
+(1990), 136-140. MR 91e:65165<object-id pub-id-type="jstor">10.2307/2157902</object-id>
+               <fpage>136</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e551a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d748918e558" publication-type="journal">
+D. El Baz, Asynchronous gradient algorithms for a class of convex separable network flow
+problems, Computational Optimization and Applications5 (1996), 187-205. CMP 96:12<person-group>
+                     <string-name>
+                     <surname>El Baz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>187</fpage>
+               <volume>5</volume>
+               <source>Computational Optimization and Applications</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e590a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d748918e597" publication-type="journal">
+D. El Baz, Asynchronous implementation of relaxation and gradient algorithms for convex
+network flow problems, Parallel Computing19 (1993), 1019-1028.<person-group>
+                     <string-name>
+                     <surname>El Baz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1019</fpage>
+               <volume>19</volume>
+               <source>Parallel Computing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e629a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d748918e636" publication-type="book">
+D. El Baz, Nonlinear systems of equations and parallel asynchronous iterative algorithms,
+Advances in Parallel Computing9, North-Holland, Amsterdam, 1994, 89-96.<person-group>
+                     <string-name>
+                     <surname>El Baz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Nonlinear systems of equations and parallel asynchronous iterative algorithms</comment>
+               <fpage>89</fpage>
+               <volume>9</volume>
+               <source>Advances in Parallel Computing</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e671a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d748918e678" publication-type="journal">
+D. El Baz, P. Spiteri, and J.-C. Miellou, Distributed asynchronous iterative methods with
+order intervals for a class of nonlinear optimization problems, Journal of Parallel and Dis-
+tributed Computing38 (1996), 1-15.<person-group>
+                     <string-name>
+                     <surname>El Baz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>38</volume>
+               <source>Journal of Parallel and Distributed Computing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e713a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d748918e720" publication-type="journal">
+M. N. El Tarazi, Some convergence results for asynchronous algorithms, Numerical Math.
+39 (1982), 325-340. MR 84a:65041<person-group>
+                     <string-name>
+                     <surname>El Tarazi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>325</fpage>
+               <volume>39</volume>
+               <source>Numerical Math.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e752a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d748918e759" publication-type="journal">
+M. N. El Tarazi, Algorithmes mixtes asynchrones, Etude de la convergence monotone, Numer.
+Math.44 (1984), 363-369. MR 86c:65042<person-group>
+                     <string-name>
+                     <surname>El Tarazi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>363</fpage>
+               <volume>44</volume>
+               <source>Numer. Math.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e792a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d748918e799" publication-type="journal">
+D. J. Evans and W. Deren, An asynchronous parallel algorithm for solving a class of nonlinear
+simultaneous equations, Parallel Computing17 (1991), 165-180. MR 92f:65166<person-group>
+                     <string-name>
+                     <surname>Evans</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>165</fpage>
+               <volume>17</volume>
+               <source>Parallel Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e831a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d748918e838" publication-type="journal">
+A. Frommer, On asynchronous iterations in partially ordered spaces, Numer. Funct. Anal.
+and Optimiz.12 (1991), 315-325. MR 92m:54060<person-group>
+                     <string-name>
+                     <surname>Frommer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>12</volume>
+               <source>Numer. Funct. Anal. and Optimiz.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e870a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d748918e877" publication-type="journal">
+A. Frommer and H. Schwandt, Asynchronous parallel methods for enclosing solutions of
+nonlinear equations, J. Comput. Appl. Math.60 (1995), 47-62. MR 96f:65062<person-group>
+                     <string-name>
+                     <surname>Frommer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>47</fpage>
+               <volume>60</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e909a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d748918e916" publication-type="journal">
+L. Giraud and P. Spiteri, Resolution parallele de problemes aux limites non line'aires, RAIRO
+Modél. Math. Anal. Numér.25 (1991), 73-100. MR 92d:65244<person-group>
+                     <string-name>
+                     <surname>Giraud</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>73</fpage>
+               <volume>25</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e948a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d748918e955" publication-type="book">
+L. Giraud and P. Spiteri, Implementations of parallel solutions for nonlinear boundary value
+problems, Parallel Computing '91, Advances in Parallel Computing (Evans, Joubert, Liddel,
+Editors), North-Holland, Amsterdam, 1992, 203-211. CMP 93:04<person-group>
+                     <string-name>
+                     <surname>Giraud</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Implementations of parallel solutions for nonlinear boundary value problems</comment>
+               <fpage>203</fpage>
+               <source>Parallel Computing '91, Advances in Parallel Computing</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e990a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d748918e997" publication-type="book">
+R. W. Hockney and C. R. Jesshope, Parallel Computers 2, Adam Hilger, Bristol, 1988.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <source>Parallel Computers 2</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1020a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d748918e1027" publication-type="journal">
+P. L. Lions and B. Mercier, Approximation numerique des equations de Hamilton-Jacobi-
+Bellman, RAIRO Analyse numérique14 (1980), 369-393. MR 82b:65055<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>14</volume>
+               <source>RAIRO Analyse numérique</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1059a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d748918e1066" publication-type="journal">
+J.-C. Miellou, It6rations chaotiques a retards, C.R. Acad. Sci. Paris278 (1974), 957-960.
+MR 50:15325<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>957</fpage>
+               <volume>278</volume>
+               <source>Acad. Sci. Paris</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1098a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d748918e1105" publication-type="journal">
+J.-C. Miellou, Iterations chaotiques a retards, 6tude de la convergence dans le cas d'espaces
+partiellement ordonn6s, C. R. Acad. Sci. Paris280 (1975), 233-236. MR 52:12320<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>233</fpage>
+               <volume>280</volume>
+               <source>C. R. Acad. Sci. Paris</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1137a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d748918e1144" publication-type="journal">
+J.-C. Miellou, Algorithmes de relaxation chaotique a retards, RAIRO R1, (1975), 55-82. MR
+55:13772<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>55</fpage>
+               <source>RAIRO R1</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1173a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d748918e1180" publication-type="book">
+J.-C. Miellou, Asynchronous iterations and order intervals, Parallel Algorithms (M. Cosnard
+et al., eds.) North-Holland, Amsterdam, 1986, 85-96. MR 88f:65083<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Asynchronous iterations and order intervals</comment>
+               <fpage>85</fpage>
+               <source>Parallel Algorithms</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1212a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d748918e1219" publication-type="book">
+J.-C. Miellou, Ph. Cortey-Dumont, and M. Boulbrachêne, Perturbation of fixed-point iterative
+methods, Advances in Parallel Computing 1, JAI Press Inc., 1990, 81-122.<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Boulbrachêne, Perturbation of fixed-point iterative methods</comment>
+               <fpage>81</fpage>
+               <source>Advances in Parallel Computing 1</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1252a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d748918e1259" publication-type="journal">
+J.-C. Miellou and P. Spiteri, Un critere de convergence pour des m6thodes g6n6rales de point
+fixe, RAIRO Modél. Math. Anal. Numér. (1985), 170-201. MR 87f:47098<person-group>
+                     <string-name>
+                     <surname>Miellou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>170</fpage>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1288a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d748918e1295" publication-type="book">
+J. M. Ortega, Introduction to Parallel and Vector Solution of Linear Systems, Plenum Press,
+New York, 1988. MR 92i:65220a<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Parallel and Vector Solution of Linear Systems</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1320a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d748918e1327" publication-type="book">
+J. M. Ortega and W. C. Rheinboldt, Iterative Solutions of Nonlinear Equations in Several
+Variables, Academic Press, New York, 1970. MR 42:8686<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solutions of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1352a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d748918e1359" publication-type="journal">
+W. C. Rheinboldt, On M-functions and their application to nonlinear Gauss-Seidel iterations
+and to network flows, J. Math. Anal. and Appl.32 (1970), 274-307. MR 42:3997<person-group>
+                     <string-name>
+                     <surname>Rheinboldt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>274</fpage>
+               <volume>32</volume>
+               <source>J. Math. Anal. and Appl.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1391a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d748918e1398" publication-type="journal">
+F. Robert, M. Charnay, and F. Musy, It6rations chaotiques serie parallele pour des 6quations
+non lin6aires de point fixe, Aplikace Math.20 (1975), 1-38. MR 51:9472<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>20</volume>
+               <source>Aplikace Math.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1430a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d748918e1437" publication-type="book">
+U. Schendel, Introduction to Numerical Methods for Parallel Computers, Ellis Horword,
+Chichester, 1984. MR 87j:65003<person-group>
+                     <string-name>
+                     <surname>Schendel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Numerical Methods for Parallel Computers</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1463a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d748918e1470" publication-type="book">
+P. Spiteri, Simulation d'exécutions parallèles pour la résolution d'inéquations varitionnelles
+stationnaires, ler Coll. Irit. GAMNI Methodes Vectorielles et Paralleles en Calcul Scientifique,
+Paris, Rev. EDF Ser. C (1) (1983), 149-159. MR 85b:65122<person-group>
+                     <string-name>
+                     <surname>Spiteri</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>149</fpage>
+               <source>Simulation d'exécutions parallèles pour la résolution d'inéquations varitionnelles stationnaires</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1502a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d748918e1509" publication-type="book">
+P. Spiteri, Parallel asynchronous algorithms for solving boundary value problems, in Par-
+allel Algorithms (M. Cosnard et al., eds.), North-Holland, Amsterdam, 1986, 73-84. MR
+88a:65158<person-group>
+                     <string-name>
+                     <surname>Spiteri</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Parallel asynchronous algorithms for solving boundary value problems</comment>
+               <fpage>73</fpage>
+               <source>Parallel Algorithms</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1544a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d748918e1551" publication-type="book">
+P. Spiteri, J.-C. Miellou and D. El Baz, Asynchronous alternating Schwarz method for the
+solution of nonlinear partial differential equations, IRIT report 95-17-R, LCS 195.10, LAAS
+Report 95309 (1995).<person-group>
+                     <string-name>
+                     <surname>Spiteri</surname>
+                  </string-name>
+                  </person-group>
+               <source>Asynchronous alternating Schwarz method for the solution of nonlinear partial differential equations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d748918e1580a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d748918e1587" publication-type="book">
+R. Varga, Matrix iterative analysis, Prentice Hall, Englewood Cliffs, 1962. MR 28:1725<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix iterative analysis</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">55</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">191</issue>
+         <issue-id>i334609</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008790</article-id>
+         
+         <title-group>
+            <article-title>Optimal-Order Nonnested Multigrid Methods for Solving Finite Element Equations I: On Quasi-Uniform Meshes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Shangyou</given-names>
+                  <surname>Zhang</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1990</year>
+         </pub-date>
+         <fpage>23</fpage>
+         <lpage>36</lpage>
+         <page-range>23-36</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1990 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008790"/>
+         
+         
+         <abstract>
+            <p>We prove that the multigrid method works with optimal computational order even when the multiple meshes are not nested. When a coarse mesh is not a submesh of the finer one, the coarse-level correction usually does not have the $a(\cdot, \cdot)$ projection property and does amplify the iterative error in some components. Nevertheless, the low-frequency components of the error can still be caught by the coarse-level correction. Since the (amplified) high-frequency errors will be damped out by the fine-level smoothing efficiently, the optimal work order of the standard multigrid method can still be maintained. However, unlike the case of nested meshes, a nonnested multigrid method with one smoothing does not converge in general, no matter whether it is a $V$-cycle or a $W$-cycle method. It is shown numerically that the convergence rates of nonnested multigrid methods are not necessarily worse than those of nested ones. Since nonnested multigrid methods accept quite arbitrarily related meshes, we may then combine the efficiencies of adaptive refinements and of multigrid algorithms.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>65F10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d4092456e129a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4092456e136" publication-type="journal">
+R. Bank and T. Dupont, An optimal order process.for solving finite element equations, Math.
+Comp.36 (1981), 35-51.<object-id pub-id-type="doi">10.2307/2007724</object-id>
+               <fpage>35</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e152a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4092456e159" publication-type="other">
+J. H. Bramble, J. E. Pasciak, and J. Xu, The Analysis of multigrid algorithms with nonnested
+spaces or non-inherited quadratic forms (preprint).</mixed-citation>
+            </ref>
+            <ref id="d4092456e169a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4092456e176" publication-type="journal">
+S. C. Brenner, An optimal-order multigrid method for P I nonconforming finite elements,
+Math. Comp.52 (1989), 1-15.<object-id pub-id-type="doi">10.2307/2008649</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e192a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4092456e199" publication-type="book">
+P. G. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+New York, Oxford, 1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e225a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4092456e232" publication-type="book">
+P. Grisvard, Elliptic problems in nonsmooth domains, PitmaIn, 1985.<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic problems in nonsmooth domains</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e254a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4092456e261" publication-type="book">
+W. Hackbusch and U. Trottenberg, Multigrid methods II, Lecture Notes in Math., vol. 1228,
+Springer-Verlag, Berlin and New York, 1986.<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1228</volume>
+               <source>Multigrid methods II</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e290a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4092456e297" publication-type="book">
+—Multigrid methods, Lecture Notes in Math., vol. 960, Springer-Verlag, Berlin and
+New York, 1982.<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <volume>960</volume>
+               <source>Multigrid methods</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e326a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4092456e333" publication-type="book">
+W. Hackbusch, Multigrid methods and applications, Springer, 1985.<person-group>
+                     <string-name>
+                     <surname>Hackbusch</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid methods and applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e355a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4092456e362" publication-type="journal">
+J. Mandel, Multigrid convergence for nonsymmetric, indefinite variational problems and one
+smoothing step, Appl. Math. Comput.19 (1986), 201-216.<person-group>
+                     <string-name>
+                     <surname>Mandel</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>19</volume>
+               <source>Appl. Math. Comput.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e394a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4092456e401" publication-type="book">
+S. F. McCormick, Multigrid Methods, Frontiers in Applied Mathematics, SIAM. Philade]
+phia, PA, 1987.<person-group>
+                     <string-name>
+                     <surname>McCormick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multigrid Methods</comment>
+               <source>Frontiers in Applied Mathematics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e431a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4092456e438" publication-type="journal">
+P. Peisker, A multilevel algorithm for the biharmonic problem, Numer. Math.46 (1985,
+623-634.<person-group>
+                     <string-name>
+                     <surname>Peisker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>623</fpage>
+               <volume>46</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e470a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4092456e477" publication-type="journal">
+P. Peisker and D. Braess, A4 conjugate gradient method and a multigrid algorithm for AMo,
+ley's finite element approximation of the biharmonic equation, Numer. Math.50 (1987)
+567-586.<person-group>
+                     <string-name>
+                     <surname>Peisker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e512a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4092456e519" publication-type="journal">
+J. Pitkaranta and T. Saarinen, A multigrid version of a simple hnite element method for th
+Stokes problem, Math. Comp.45 (1985), 1-14.<object-id pub-id-type="doi">10.2307/2008045</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e535a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4092456e542" publication-type="journal">
+L. R. Scott and S. Zhang, Finite element interpolation of nonsmooth functions satisfyinA
+boundary conditions, Math. Comp.54 (1990), (to appear).<object-id pub-id-type="doi">10.2307/2008497</object-id>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e555a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4092456e562" publication-type="other">
+—, A nonnested multigrid method for three dimensional boundary value problems: An
+introduction to NMGTM code, in preparation.</mixed-citation>
+            </ref>
+            <ref id="d4092456e572a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4092456e579" publication-type="journal">
+R. Verfurth, A multilevel algorithm for mixed problems, SIAM J. Numer. Anal.21 (1984)
+264-271.<object-id pub-id-type="jstor">10.2307/2157300</object-id>
+               <fpage>264</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e596a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4092456e603" publication-type="journal">
+— A combined conjugate gradient-multigrid algorithm for the numerical solution of the
+Stokes problem, IMA J. Numer. Anal.4 (1984), 441-455.<person-group>
+                     <string-name>
+                     <surname>Verfurth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>441</fpage>
+               <volume>4</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e635a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4092456e642" publication-type="journal">
+— Multilevel algorithms for mixed problems. II. Treatment of the mini-element, SIAM
+J. Numer. Anal.25 (1988), 285-293.<object-id pub-id-type="jstor">10.2307/2157316</object-id>
+               <fpage>285</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e658a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4092456e665" publication-type="other">
+S. Zhang, Multi-level iterative techniques, Ph. D. thesis, Pennsylvania State University, 1988.</mixed-citation>
+            </ref>
+            <ref id="d4092456e672a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4092456e679" publication-type="other">
+—, Successive subdivisions of tetrahedra and multigrid methods on tetrahedral meshes,
+submitted, also in [19].</mixed-citation>
+            </ref>
+            <ref id="d4092456e689a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4092456e696" publication-type="journal">
+— Multigrid methods for solving biharmonic, Cl finite element equations, Numer.
+Math.56 (1989), 613-624.<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>613</fpage>
+               <volume>56</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4092456e728a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4092456e735" publication-type="other">
+—, An optimal order interpolation operator from H10 to piecewise linear functions S10
+on polygons, §6.3 in [19].</mixed-citation>
+            </ref>
+            <ref id="d4092456e746a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4092456e753" publication-type="journal">
+— Optimal-order nonnested multigrid methods for solving finite element equations II:
+Non-quasiuniform meshes, Math. Comp.55 (1990), (to appear).<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <volume>55</volume>
+               <source>Math. Comp.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

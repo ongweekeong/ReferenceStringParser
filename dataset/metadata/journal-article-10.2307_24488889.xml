@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">293</issue>
+         <issue-id>i24488833</issue-id>
+         <article-id pub-id-type="doi">10.2307/24488889</article-id>
+         <title-group>
+            <article-title>EFFECTIVE TOPOLOGICAL DEGREE COMPUTATION BASED ON INTERVAL ARITHMETIC</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>PETER</given-names>
+                  <surname>FRANEK</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>STEFAN</given-names>
+                  <surname>RATSCHAN</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>5</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>1265</fpage>
+         <lpage>1290</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488889"/>
+      
+      
+         <abstract>
+            <p>We describe a new algorithm for calculating the topological degree deg (f, B, 0) where B ⊆ ℝn is a product of closed real intervals and f : B → ℝn is a real-valued continuous function given in the form of arithmetical expressions. The algorithm cleanly separates numerical from combinatorial computation. Based on this, the numerical part provably computes only the information that is strictly necessary for the following combinatorial part, and the combinatorial part may optimize its computation based on the numerical information computed before. We present computational experiments based on an implementation of the algorithm. In contrast to previous work, the algorithm does not assume knowledge of a Lipschitz constant of the function f, and works for arbitrary continuous functions for which some notion of interval arithmetic can be defined.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3066e211a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d3066e218" publication-type="other">
+Oliver Aberth, Computation of topological degree using interval arithmetic, and applications,
+Math. Comp. 62 (1994), no. 205, 171-178, DOI 10.2307/2153402. MR1203731 (94d:65031)</mixed-citation>
+        </ref>
+        <ref id="d3066e228a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d3066e235" publication-type="other">
+G. E. Alefeld, F. A. Potra, and Z. Shen, On the existence theorems of Kantorovich, Moore
+and Miranda, Topics in numerical analysis, Comput. Suppl., vol. 15, Springer, Vienna, 2001,
+pp. 21-28, DOI 10.1007/978-3-7091-6217-0JJ. MR1874501</mixed-citation>
+        </ref>
+        <ref id="d3066e248a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d3066e255" publication-type="other">
+Thomas Beelitz, Andreas Frommer, Bruno Lang, and Paul Willems, A framework for exis-
+tence tests based on the topological degree and homotopy, Numer. Math. Ill (2009), no. 4,
+493-507, DOI 10.1007/s00211-008-0193-3. MR2471608 (2010f:65107)</mixed-citation>
+        </ref>
+        <ref id="d3066e268a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d3066e275" publication-type="other">
+T. Boult and K. Sikorski, Complexity of computing topological degree of Lipschitz functions
+in n dimensions, J. Complexity 2 (1986), no. 1, 44-59, DOI 10.1016/0885-064X(86)90022-1.
+MR925343 (89i:65051)</mixed-citation>
+        </ref>
+        <ref id="d3066e289a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d3066e296" publication-type="other">
+L. E. J. Brouwer, Uber Abbildung von Mannigfaltigkeiten (German), Math. Ann. 71 (1911),
+no. 1, 97-115, DOI 10.1007/BF01456931. MR1511644</mixed-citation>
+        </ref>
+        <ref id="d3066e306a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d3066e313" publication-type="other">
+Robert F. Brown, A Topological Introduction to Nonlinear Analysis, 2nd ed., Birkhauser
+Boston Inc., Boston, MA, 2004. MR2020421 (2004i:47125)</mixed-citation>
+        </ref>
+        <ref id="d3066e323a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d3066e330" publication-type="other">
+A. Bruckner, J. Bruckner, and B. Thomson, Real Analysis. Prentice Hall PTR, 1997.</mixed-citation>
+        </ref>
+        <ref id="d3066e337a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d3066e344" publication-type="other">
+Pieter Collins, Computability and representations of the zero set, Proceedings of the Fifth
+International Conference on Computability and Complexity in Analysis (CCA 2008), Elec-
+tron. Notes Theor. Comput. Sci., vol. 221, Elsevier Sci. B. V., Amsterdam, 2008, pp. 37—43,
+DOI 10.1016/j.entcs.2008.12.005. MR2873345 (2012m:03155)</mixed-citation>
+        </ref>
+        <ref id="d3066e360a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d3066e367" publication-type="other">
+Jane Cronin, Fixed Points and Topological Degree in Nonlinear Analysis, Mathematical Sur-
+veys, No. 11, American Mathematical Society, Providence, R.I., 1964. MR0164101 (29 #1400)</mixed-citation>
+        </ref>
+        <ref id="d3066e377a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d3066e384" publication-type="other">
+Jianwei Dian and R. Baker Kearfott, Existence verification for singular and nonsmooth zeros
+of real nonlinear systems, Math. Comp. 72 (2003), no. 242, 757—766, DOI 10.1090/S0025-
+5718-02-01427-8. MR1954966 (2004a:65056)</mixed-citation>
+        </ref>
+        <ref id="d3066e398a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d3066e405" publication-type="other">
+Pavel Drabek and Jaroslav Milota, Methods of Nonlinear Analysis, Birkhauser Advanced
+Texts: Basler Lehrbiicher. [Birkhauser Advanced Texts: Basel Textbooks], Birkhauser Verlag,
+Basel, 2007. Applications to differential equations. MR2323436 (2008i:47134)</mixed-citation>
+        </ref>
+        <ref id="d3066e418a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d3066e425" publication-type="other">
+P. J. Erdelsky, Computing the Brouwer degree in R2, Math. Comp. 27 (1973), 133-137.
+MR0326990 (48 #5332)</mixed-citation>
+        </ref>
+        <ref id="d3066e435a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d3066e442" publication-type="other">
+Irene Fonseca and Wilfrid Gangbo, Degree Theory in Analysis and Applications, Oxford
+Lecture Series in Mathematics and its Applications, vol. 2, The Clarendon Press Oxford
+University Press, New York, 1995. Oxford Science Publications. MR1373430 (96k:47100)</mixed-citation>
+        </ref>
+        <ref id="d3066e455a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d3066e462" publication-type="other">
+P. Franek, S. Ratschan, and P. Zgliczynski, Quasi-decidability of a fragment of the first-order
+theory of real numbers, http://www2.cs.cas.cz/-ratschan/papers/quasidec_constr.pdf,
+2012 (preprint).</mixed-citation>
+        </ref>
+        <ref id="d3066e475a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d3066e482" publication-type="other">
+Andreas Frommer and Bruno Lang, Existence tests for solutions of nonlinear equations using
+Borsuk's theorem, SIAM J. Numer. Anal. 43 (2005), no. 3, 1348-1361 (electronic), DOI
+10.1137/S0036142903438148. MR2177808 (2006g:65081)</mixed-citation>
+        </ref>
+        <ref id="d3066e495a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d3066e502" publication-type="other">
+A. Frommer, B. Lang, and M. Schnurr, A comparison of the Moore and Miranda existence
+tests, Computing 72 (2004), no. 3-4, 349-354, DOI 10.1007/s00607-004-0064-4. MR2081828
+(2005i:65079)</mixed-citation>
+        </ref>
+        <ref id="d3066e516a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d3066e523" publication-type="other">
+Massimo Furi, Maria Patrizia Pera, and Marco Spadini, A set of axioms for the degree of a
+tangent vector field on differentiable manifolds, Fixed Point Theory Appl. (2010), Art. ID
+845631, 11. MR2645107 (2011d:55003)</mixed-citation>
+        </ref>
+        <ref id="d3066e536a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d3066e543" publication-type="other">
+T. J. Hickey. smathlib. http://interval.sourceforge.net/interval/prolog/clip/clip/
+smath/README.html.</mixed-citation>
+        </ref>
+        <ref id="d3066e553a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d3066e560" publication-type="other">
+Morris W. Hirsch, Differential Topology, Springer-Verlag, New York, 1976, Graduate Texts
+in Mathematics, No. 33. MR0448362 (56 #6669)</mixed-citation>
+        </ref>
+        <ref id="d3066e570a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d3066e577" publication-type="other">
+Anatole Katok and Boris Hasselblatt, Introduction to the Modern Theory of Dynamical
+Systems, Encyclopedia of Mathematics and its Applications, vol. 54, Cambridge University
+Press, Cambridge, 1995. With a supplementary chapter by Katok and Leonardo Mendoza.
+MR1326374 (96c:58055)</mixed-citation>
+        </ref>
+        <ref id="d3066e593a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d3066e600" publication-type="other">
+Baker Kearfott, An efficient degree-computation method for a generalized method of bisection,
+Numer. Math. 32 (1979), no. 2, 109-127, DOI 10.1007/BF01404868. MR529902 (80g:65062)</mixed-citation>
+        </ref>
+        <ref id="d3066e610a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d3066e617" publication-type="other">
+R. Baker Kearfott, Jianwei Dian, and A. Neumaier, Existence verification for singular ze-
+ros of complex nonlinear systems, SIAM J. Numer. Anal. 38 (2000), no. 2, 360—379, DOI
+10.1137/S0036142999361074. MR1770053 (2001e:65078)</mixed-citation>
+        </ref>
+        <ref id="d3066e631a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d3066e638" publication-type="other">
+R. Baker Kearfott and Jianwei Dian, Existence verification for higher degree singular
+zeros of nonlinear systems, SIAM J. Numer. Anal. 41 (2003), no. 6, 2350-2373, DOI
+10.1137/S0036142901386057. MR2034619 (2004i:65045)</mixed-citation>
+        </ref>
+        <ref id="d3066e651a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d3066e658" publication-type="other">
+Wieslaw Krawcewicz and Jianhong Wu, Theory of Degrees with Applications to Bifurcations
+and Differential Equations, Canadian Mathematical Society Series of Monographs and Ad-
+vanced Texts, John Wiley &amp; Sons Inc., New York, 1997. A Wiley-Interscience Publication.
+MR1426128 (97j:47083)</mixed-citation>
+        </ref>
+        <ref id="d3066e674a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d3066e681" publication-type="other">
+J. Mawhin, Topological Degree Methods in Nonlinear Boundary Value Problems, CBMS Re-
+gional Conference Series in Mathematics, vol. 40, American Mathematical Society, Provi-
+dence, R.I., 1979. Expository lectures from the CBMS Regional Conference held at Harvey
+Mudd College, Claremont, Calif., June 9-15, 1977. MR525202 (80c:47055)</mixed-citation>
+        </ref>
+        <ref id="d3066e697a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d3066e704" publication-type="other">
+John W. Milnor, Topology from the Differentiable Viewpoint, Princeton Landmarks in Mathe-
+matics, Princeton University Press, Princeton, NJ, 1997. Based on notes by David W. Weaver;
+Revised reprint of the 1965 original. MR1487640 (98h:57051)</mixed-citation>
+        </ref>
+        <ref id="d3066e717a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d3066e724" publication-type="other">
+Carlo Miranda, Un'osservazione su un teorema di Brouwer (French), Boll. Un. Mat. Ital. (2)
+3 (1940), 5-7. MR0004775 (3,60b)</mixed-citation>
+        </ref>
+        <ref id="d3066e734a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d3066e741" publication-type="other">
+Ramon E. Moore, R. Baker Kearfott, and Michael J. Cloud, Introduction to Interval Analysis,
+Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 2009. MR2482682
+(2010d:65106)</mixed-citation>
+        </ref>
+        <ref id="d3066e755a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d3066e762" publication-type="other">
+K. Nakakura and S. Murashige, Numerical Computation of the Mapping Degree Using Com-
+putational Homology. In Proceedings of the 12th GAMM - IMACS International Symposium
+on Scientific Computing, Computer Arithmetic and Validated Numerics, SCAN '06, page 34,
+Washington, DC, USA, 2006. IEEE Computer Society.</mixed-citation>
+        </ref>
+        <ref id="d3066e778a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d3066e785" publication-type="other">
+Arnold Neumaier, Interval Methods for Systems of Equations, Encyclopedia of Mathematics
+and its Applications, vol. 37, Cambridge University Press, Cambridge, 1990. MR1100928
+(92b:65004)</mixed-citation>
+        </ref>
+        <ref id="d3066e798a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d3066e805" publication-type="other">
+T. O'Neil and J. W. Thomas, The calculation of the topological degree by quadrature, SIAM
+J. Numer. Anal. 12 (1975), no. 5, 673-680. MR0411134 (53 #14873)</mixed-citation>
+        </ref>
+        <ref id="d3066e815a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d3066e822" publication-type="other">
+Donal O'Regan, Yeol Je Cho, and Yu-Qing Chen, Topological Degree Theory and Applica-
+tions, Series in Mathematical Analysis and Applications, vol. 10, Chapman &amp; Hall/CRC,
+Boca Raton, FL, 2006. MR2223854 (2007b:47168)</mixed-citation>
+        </ref>
+        <ref id="d3066e835a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d3066e842" publication-type="other">
+L. B. Rail, A comparison of the existence theorems of Kantorovich and Moore, SIAM J.
+Numer. Anal. 17 (1980), no. 1, 148-161, DOI 10.1137/0717015. MR559469 (81k:65052)</mixed-citation>
+        </ref>
+        <ref id="d3066e852a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d3066e859" publication-type="other">
+Siegfried M. Rump, Verification methods: rigorous results using floating-point arith-
+metic, Acta Numer. 19 (2010), 287-449, DOI 10.1017/S096249291000005X. MR2652784
+(2011j:65093)</mixed-citation>
+        </ref>
+        <ref id="d3066e873a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d3066e880" publication-type="other">
+F. Sauvigny, Brouwer's degree of mapping with geometric applications. In Partial Differential
+Equations 1, Universitext, pages 175-214. Springer Berlin Heidelberg, 2006.</mixed-citation>
+        </ref>
+        <ref id="d3066e890a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d3066e897" publication-type="other">
+Prank Stenger, Computing the topological degree of a mapping in R™, Numer. Math. 25
+(1975/76), no. 1, 23-38. MR0394639 (52 #15440)</mixed-citation>
+        </ref>
+        <ref id="d3066e907a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d3066e914" publication-type="other">
+Martin Stynes, A simplification of Stenger's topological degree formula, Numer. Math. 33
+(1979), no. 2, 147-155, DOI 10.1007/BF01399550. MR549445 (80m:55002)</mixed-citation>
+        </ref>
+        <ref id="d3066e924a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d3066e931" publication-type="other">
+H. Tietze, Uber Funktionen, die auf einer abgeschlossenen Menge stetig sind, Journal fur
+Die Reine und Angewandte Mathematik, 145:9-14, 1915.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i24736739</issue-id>
+         <article-id pub-id-type="jstor">24737289</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Lasso and Related Methodologies</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>An Iterative Coordinate Descent Algorithm for High-Dimensional Nonconvex Penalized Quantile Regression</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Bo</given-names>
+                  <surname>Peng</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Lan</given-names>
+                  <surname>Wang</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>676</fpage>
+         <lpage>694</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737289"/>
+      
+      
+         <abstract>
+            <p>We propose and study a new iterative coordinate descent algorithm (QICD) for solving nonconvex penalized quantile regression in high dimension. By permitting different subsets of covariates to be relevant for modeling the response variable at different quantiles, nonconvex penalized quantile regression provides a flexible approach for modeling high-dimensional data with heterogeneity. Although its theory has been investigated recently, its computation remains highly challenging when p is large due to the nonsmoothness of the quantile loss function and the nonconvexity of the penalty function. Existing coordinate descent algorithms for penalized least-squares regression cannot be directly applied. We establish the convergence property of the proposed algorithm under some regularity conditions for a general class of nonconvex penalty functions including popular choices such as SCAD (smoothly clipped absolute deviation) and MCP (minimax concave penalty). Our Monte Carlo study confirms that QICD substantially improves the computational speed in the p ≫ n setting. We illustrate the application by analyzing a microarray dataset.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1376e184a1310">
+          
+            <mixed-citation id="d1376e188" publication-type="other">
+Bazaraa, M. S., Sherali, H. D., and Shetty, C. M. (2006), Nonlinear Programming, Hoboken, NJ: Wiley.
+[685,691]</mixed-citation>
+        </ref>
+        <ref id="d1376e198a1310">
+          
+            <mixed-citation id="d1376e202" publication-type="other">
+Belloni, A., and Chernozhukov, V. (2011), "LI-Penalized Quantile Regression in High-Dimensional Sparse
+Models," The Annals of Statistics, 39, 82-130. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e212a1310">
+          
+            <mixed-citation id="d1376e216" publication-type="other">
+Bickel, P., and Li, B. (2006), "Regularization in Statistics" (with discussion), Sociedad de Estadistica e Investi-
+gation Operativa Test, 15, 271-344. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e226a1310">
+          
+            <mixed-citation id="d1376e230" publication-type="other">
+Breheny, P., and Huang, J. (2011), "Coordinate Descent Algorithms for Nonconvex Penalized Regression, With
+Applications to Biological Feature Selection," The Annals of Applied Statistics, 5, 232-253. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e241a1310">
+          
+            <mixed-citation id="d1376e245" publication-type="other">
+Chen, J., and Chen, Z. (2008), "Extended Bayesian Information Criterion for Model Selection With Large Model
+Space," Biometrika, 95,759-771. [684]</mixed-citation>
+        </ref>
+        <ref id="d1376e255a1310">
+          
+            <mixed-citation id="d1376e259" publication-type="other">
+Daubechies, I., Défrisé, M., and De Mol, C. (2004), "An Iterative Thresholding Algorithm for Linear Inverse
+Problems With a Sparsity Constraint," Communications on Pure and Applied Mathematics, 57, 1413-1457.
+[678]</mixed-citation>
+        </ref>
+        <ref id="d1376e272a1310">
+          
+            <mixed-citation id="d1376e276" publication-type="other">
+Fan, J., and Li, R. (2001), "Variable Selection Using MM Algorithms," The Annals of Statistics, 33, 1617-1642.
+[677,679]</mixed-citation>
+        </ref>
+        <ref id="d1376e286a1310">
+          
+            <mixed-citation id="d1376e290" publication-type="other">
+Fan, J., and Lv, J. (2010), "A Selective Overview of Variable Selection in High Dimensional Feature Space,"
+Statistica Sinica, 20, 101-148. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e300a1310">
+          
+            <mixed-citation id="d1376e304" publication-type="other">
+Friedman, J. H., Hastie, T., Höfling, H., and Tibshirani, R. (2007), "Pathwise Coordinate Optimization," The
+Annals of Applied Statistics, 1, 302-332. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e314a1310">
+          
+            <mixed-citation id="d1376e318" publication-type="other">
+Fu, W. J. ( 1998), "Penalized Regressions: The Bridge Versus the Lasso," Journal of Computational and Graphical
+Statistics, 1, 397-416. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e329a1310">
+          
+            <mixed-citation id="d1376e333" publication-type="other">
+Huang, J., Ma, S., and Zhang, C. H. (2008), "Adaptive Lasso for Sparse High-Dimensional Regression Models,"
+Statistica Sinica, 18, 1603-1618. [687]</mixed-citation>
+        </ref>
+        <ref id="d1376e343a1310">
+          
+            <mixed-citation id="d1376e347" publication-type="other">
+Hunter, D. R., and Lange, K. (2000), "Quantile Regression via an MM Algorithm," Journal of Computational
+and Graphical Statistics, 9, 60-77. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e357a1310">
+          
+            <mixed-citation id="d1376e361" publication-type="other">
+-(2004), "A Tutorial on MM Algorithms," The American Statistician, 58, 30-37. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e368a1310">
+          
+            <mixed-citation id="d1376e372" publication-type="other">
+Hunter, D. R., and Li, R. (2005), "Variable Selection Using MM Algorithms," The Annals of Statistics, 33,
+1617-1642. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e382a1310">
+          
+            <mixed-citation id="d1376e386" publication-type="other">
+Jiang, D., and Huang, J. (2012), "Majorization Minimization by Coordinate Descent for Concave Penal-
+ized Generalized Linear Models," Department of Biostatistics, University of Iowa, Report No. 412. 37p.
+[678,681]</mixed-citation>
+        </ref>
+        <ref id="d1376e399a1310">
+          
+            <mixed-citation id="d1376e403" publication-type="other">
+Kai, B., Li, R., and Zou, H. (2011), "New Efficient Estimation and Variable Selection Methods for Semiparametric
+Varying-Coefficient Partially Linear Models," The Annals of Statistics, 39, 305-332. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e414a1310">
+          
+            <mixed-citation id="d1376e418" publication-type="other">
+Kim, Y., Kwon, S., and Choi, H. (2012), "Consistent Model Selection Criteria on High Dimensions," Journal of
+Machine Learning Research, 13, 1037-1057. [684]</mixed-citation>
+        </ref>
+        <ref id="d1376e428a1310">
+          
+            <mixed-citation id="d1376e432" publication-type="other">
+Koenker, R. (2005), Quantile Regression, Cambridge University Press. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e439a1310">
+          
+            <mixed-citation id="d1376e443" publication-type="other">
+Koenker, R., and Bassett, G. (1978), "Regression Quantiles," Econometrica, 46, 33-50. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e450a1310">
+          
+            <mixed-citation id="d1376e454" publication-type="other">
+Koenker, R., and Park, B. J. (1996), "An Interior Point Algorithm for Nonlinear Quantile Regression," Journal of
+Econometrics, 71, 265-283. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e464a1310">
+          
+            <mixed-citation id="d1376e468" publication-type="other">
+Lange, K. (2004), Optimization, New York: Springer. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e475a1310">
+          
+            <mixed-citation id="d1376e479" publication-type="other">
+Lee, E. R., Noh, H., and Park, B. U. (2014), "Model Selection via Bayesian Information Criterion for Quantile
+Regression Models," Journal of the American Statistical Association, 109,216-229. [684]</mixed-citation>
+        </ref>
+        <ref id="d1376e490a1310">
+          
+            <mixed-citation id="d1376e494" publication-type="other">
+Li, Y. J., and Zhu. J., (2008), "L j -Norm Quantile Regression," Journal of Computational and Graphical Statistics,
+17, 163-185. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e504a1310">
+          
+            <mixed-citation id="d1376e508" publication-type="other">
+Mazumder, R., Friedman, J. H., and Hastie, T. (2011), "SparseNet: Coordinate Descent With NonConvex Penal-
+ties," Journal of American Statistical Association, 106, 1125-1138. [678]</mixed-citation>
+        </ref>
+        <ref id="d1376e518a1310">
+          
+            <mixed-citation id="d1376e522" publication-type="other">
+Scheetz, T. E., Kim, K.-Y. A., Swiderski, R. E., Philp, A. R., Braun, T. A., Knudtson, K. L., Dorrance, A. M.,
+DiBona, G. F., Huang, J., Casavant, T. L., Sheffield, V. C., and Stone, E. M. (2006), "Regulation of Gene
+Expression in the Mammalian Eye and Its Relevance to Eye Disease," Proceedings of the National Academy
+of Sciences, 103, 14429-14434. [687]</mixed-citation>
+        </ref>
+        <ref id="d1376e538a1310">
+          
+            <mixed-citation id="d1376e542" publication-type="other">
+Schifano, E. D., Strawderman, R. L., and Wells, M. T. (2010), "Majorization-Minimization Algorithms for
+Nonsmoothly Penalized Objective Functions," Electronic Journal of Statistics, 4, 1258-1299. [688]</mixed-citation>
+        </ref>
+        <ref id="d1376e552a1310">
+          
+            <mixed-citation id="d1376e556" publication-type="other">
+Tseng, P. (2001), "Convergence of a Block Coordinate Descent Method for Nondifferentiable Minimization,"
+Journal of Optimization Theory and Applications, 109,475-494, [678,682,684,688,690]</mixed-citation>
+        </ref>
+        <ref id="d1376e566a1310">
+          
+            <mixed-citation id="d1376e570" publication-type="other">
+Wang, H., Li, B., and Leng, C. (2009), "Shrinkage Tuning Parameter Selection With a Diverging Number of
+Parameters," Journal of Royal Statistical Society, Series B, 71, 671-683. [683]</mixed-citation>
+        </ref>
+        <ref id="d1376e581a1310">
+          
+            <mixed-citation id="d1376e585" publication-type="other">
+Wang, H., Li, R., and Tsai, C. L. (2007), "Tuning Parameter Selectors for the Smoothly Clipped Absolute Deviation
+Method," Biometrika, 94, 553-568. [683]</mixed-citation>
+        </ref>
+        <ref id="d1376e595a1310">
+          
+            <mixed-citation id="d1376e599" publication-type="other">
+Wang, L., Kim, Y. D„ and Li, R. (2013), "Calibrating NonConvex Penalized Regression in Ultra-High Dimension,"
+The Annals of Statistics, 41, 2505-2536. [684]</mixed-citation>
+        </ref>
+        <ref id="d1376e609a1310">
+          
+            <mixed-citation id="d1376e613" publication-type="other">
+Wang, L., Wu, Y„ and Li, R. (2012), "Quantile Regression for Analyzing Heterogeneity in Ultra-High Dimension,"
+Journal of American Statistical Association, 107, 214-222. [677,679,680,686]</mixed-citation>
+        </ref>
+        <ref id="d1376e623a1310">
+          
+            <mixed-citation id="d1376e627" publication-type="other">
+Wu, T. T„ and Lange, K. (2008), "Coordinate Descent Algorithms for Lasso Penalized Regression," The Annals
+of Applied Statistics, 2, 224-244. [677,678,683]</mixed-citation>
+        </ref>
+        <ref id="d1376e637a1310">
+          
+            <mixed-citation id="d1376e641" publication-type="other">
+Wu, Y., and Liu, Y. (2009), "Variable Selection in Quantile Regression," Statistica Sinica, 19, 801-817. [677]</mixed-citation>
+        </ref>
+        <ref id="d1376e648a1310">
+          
+            <mixed-citation id="d1376e652" publication-type="other">
+Zhang, C. H. (2010), "Nearly Unbiased Variable Selection Under Minimax Concave Penalty," The Annals of
+Statistics, 38, 894-942. [677,679]</mixed-citation>
+        </ref>
+        <ref id="d1376e663a1310">
+          
+            <mixed-citation id="d1376e667" publication-type="other">
+Zou, H., and Li, R. (2008), "One-Step Sparse Estimates in Nonconcave Penalized Likelihood Models," The Annals
+of Statistics, 36, 1509-1533. [677,680]</mixed-citation>
+        </ref>
+        <ref id="d1376e677a1310">
+          
+            <mixed-citation id="d1376e681" publication-type="other">
+Zou, H., and Yuan, M. (2008), "Composite Quantile Regression and the Oracle Model Selection Theory," The
+Annals of Statistics, 36, 1108-1126. [677]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260300</issue-id>
+         <article-id pub-id-type="jstor">1391196</article-id>
+         
+         <title-group>
+            <article-title>Monte Carlo Methods for Bayesian Analysis of Survival Data Using Mixtures of Dirichlet Process Priors</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Hani</given-names>
+                  <surname>Doss</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Fred W.</given-names>
+                  <surname>Huffer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>282</fpage>
+         <lpage>307</lpage>
+         <page-range>282-307</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391196"/>
+         
+         
+         <abstract>
+            <p>Consider the model in which the data consist of possibly censored lifetimes, and one puts a mixture of Dirichlet process priors on the common survival distribution. The exact computation of the posterior distribution of the survival function is in general impossible to obtain. This article develops and compares the performance of several simulation techniques, based on Markov chain Monte Carlo and sequential importance sampling, for approximating this posterior distribution. One scheme, whose derivation is based on sequential importance sampling, gives an exactly iid sample from the posterior for the case of right censored data. A second contribution of this article is a battery of programs that implement the various schemes discussed here. The programs and methods are illustrated on a dataset of interval-censored times arising from two treatments for breast cancer.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Interval censoring</kwd>
+            <kwd>MCMC</kwd>
+            <kwd>Sequential importance sampling</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d2000818e144a1310">
+               
+               <mixed-citation id="d2000818e148" publication-type="journal">
+Antoniak, C. (1974), "Mixtures of Dirichlet Processes With Applications to Bayesian Nonparametric Problems,"
+The Annals of Statistics, 2, 1152-1174.<object-id pub-id-type="jstor">10.2307/2958336</object-id>
+               <fpage>1152</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e164a1310">
+               
+               <mixed-citation id="d2000818e168" publication-type="journal">
+Athreya, K.B., Doss, H., and Sethuraman, J. (1996), "On the Convergence of the Markov Chain Simulation
+Method," The Annals of Statistics, 24, 69-100.<object-id pub-id-type="jstor">10.2307/2242609</object-id>
+               <fpage>69</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e184a1310">
+               
+               <mixed-citation id="d2000818e188" publication-type="journal">
+Beadle, G., Come, S., Henderson, C., Silver, B., and Hellman, S. (1984a), "The Effect of Adjuvant Chemotherapy
+on the Cosmetic Results After Primary Radiation Treatment for Early Stage Breast Cancer," International
+Journal of Radiation Oncology, Biology and Physics, 10, 2131-2137.<person-group>
+                     <string-name>
+                     <surname>Beadle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2131</fpage>
+               <volume>10</volume>
+               <source>International Journal of Radiation Oncology, Biology and Physics</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e223a1310">
+               
+               <mixed-citation id="d2000818e227" publication-type="journal">
+Beadle, G., Harris, J., Silver, B., Botnick, L., and Hellman, S. (1984b), "Cosmetic Results Following Primary
+Radiation Therapy for Early Breast Cancer," Cancer, 54, 2911-2918.<person-group>
+                     <string-name>
+                     <surname>Beadle</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2911</fpage>
+               <volume>54</volume>
+               <source>Cancer</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e260a1310">
+               
+               <mixed-citation id="d2000818e264" publication-type="journal">
+Blackwell, D., and MacQueen, J.B. (1973), "Ferguson Distributions via P6lya Urn Schemes," The Annals of
+Statistics, 1, 353-355.<object-id pub-id-type="jstor">10.2307/2958020</object-id>
+               <fpage>353</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e280a1310">
+               
+               <mixed-citation id="d2000818e284" publication-type="journal">
+Bush, C., and MacEachern, S.N. (1996), "A Semi-Parametric Bayesian Model for Randomized Block Designs,"
+Biometrika, 83, 275-285.<object-id pub-id-type="jstor">10.2307/2337600</object-id>
+               <fpage>275</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e300a1310">
+               
+               <mixed-citation id="d2000818e304" publication-type="journal">
+Doksum, K. (1974), "Tailfree and Neutral Random Probabilities and their Posterior Distributions," The Annals of
+Probability, 2, 183-201.<object-id pub-id-type="jstor">10.2307/2959219</object-id>
+               <fpage>183</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e320a1310">
+               
+               <mixed-citation id="d2000818e324" publication-type="journal">
+Doss, H. (1994), "Bayesian Nonparametric Estimation for Incomplete Data via Successive Substitution Sampling,"
+The Annals of Statistics, 221763-1786.<object-id pub-id-type="jstor">10.2307/2242483</object-id>
+               <fpage>1763</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e340a1310">
+               
+               <mixed-citation id="d2000818e344" publication-type="book">
+Doss, H., and Huffer, F. (2000), "Monte Carlo Methods for Bayesian Analysis of Survival Data Using Mixtures
+of Dirichlet Priors," Technical Report, Department of Statistics, Florida State University.<person-group>
+                     <string-name>
+                     <surname>Doss</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo Methods for Bayesian Analysis of Survival Data Using Mixtures of Dirichlet Priors</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e369a1310">
+               
+               <mixed-citation id="d2000818e373" publication-type="other">
+Escobar, M. D. (1988), "Estimating the Means of Several Normal Populations by Nonparametric Estimation of
+the Distribution of the Means," unpublished Ph.D. dissertation, Yale University, Department of Statistics.</mixed-citation>
+            </ref>
+            <ref id="d2000818e384a1310">
+               
+               <mixed-citation id="d2000818e388" publication-type="journal">
+(1994), "Estimating Normal Means with a Dirichlet Process Prior," Journal of the American Statistical
+Association, 89, 268-277.<object-id pub-id-type="doi">10.2307/2291223</object-id>
+               <fpage>268</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e404a1310">
+               
+               <mixed-citation id="d2000818e408" publication-type="journal">
+Escobar, M.D., and West, M. (1995), "Bayesian Density Estimation and Inference using Mixtures," Journal of
+the American Statistical Association, 90, 577-588.<object-id pub-id-type="doi">10.2307/2291069</object-id>
+               <fpage>577</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e424a1310">
+               
+               <mixed-citation id="d2000818e428" publication-type="book">
+(1998), "Computing Bayesian Nonparametric Hierarchical Models," in Practical Nonparametric and
+Semiparametric Bayesian Statistics, eds. D. Dey, P. Muller, and D. Sinha, New York: Springer-Verlag, pp.
+63-87.<person-group>
+                     <string-name>
+                     <surname>Escobar</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computing Bayesian Nonparametric Hierarchical Models</comment>
+               <fpage>63</fpage>
+               <source>Practical Nonparametric and Semiparametric Bayesian Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e463a1310">
+               
+               <mixed-citation id="d2000818e467" publication-type="journal">
+Fay, M.P. (1999), "Comparing Several Score Tests for Interval Censored Data," Statistics in Medicine, 18,273-285.<person-group>
+                     <string-name>
+                     <surname>Fay</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>273</fpage>
+               <volume>18</volume>
+               <source>Statistics in Medicine</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e496a1310">
+               
+               <mixed-citation id="d2000818e500" publication-type="journal">
+Ferguson, T.S. (1973), "A Bayesian Analysis of Some Nonparametric Problems," The Annals of Statistics, 1,
+209-230.<object-id pub-id-type="jstor">10.2307/2958008</object-id>
+               <fpage>209</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e516a1310">
+               
+               <mixed-citation id="d2000818e520" publication-type="journal">
+(1974), "Prior Distributions on Spaces of Probability Measures," The Annals of Statistics, 2, 615-629.<object-id pub-id-type="jstor">10.2307/2958401</object-id>
+               <fpage>615</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e534a1310">
+               
+               <mixed-citation id="d2000818e538" publication-type="journal">
+Ferguson, T.S., and Phadia (1979), "Bayesian Nonparametric Estimation Based on Censored Data," The Annals
+of Statistics, 7, 163-186.<object-id pub-id-type="jstor">10.2307/2958840</object-id>
+               <fpage>163</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e554a1310">
+               
+               <mixed-citation id="d2000818e558" publication-type="journal">
+Finkelstein, D.M., and Wolfe, R.A. (1985), "A Semiparametric Model for Regression Analysis of Interval-
+Censored Failure Time Data," Biometrics, 41, 933-945.<object-id pub-id-type="doi">10.2307/2530965</object-id>
+               <fpage>933</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e574a1310">
+               
+               <mixed-citation id="d2000818e578" publication-type="journal">
+Gehan, E.A. (1965), "A Generalized Wilcoxon Test for Comparing Arbitrarily Single-Censored Samples,"
+Biometrika, 52, 203-233.<object-id pub-id-type="doi">10.2307/2333825</object-id>
+               <fpage>203</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e594a1310">
+               
+               <mixed-citation id="d2000818e598" publication-type="book">
+Hanson, T.E., and Johnson, W. 0. (2001), "A Bayesian Semiparametric AFT Model for Interval Censored Data,"
+preprint.<person-group>
+                     <string-name>
+                     <surname>Hanson</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Bayesian Semiparametric AFT Model for Interval Censored Data</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e623a1310">
+               
+               <mixed-citation id="d2000818e627" publication-type="book">
+Ibrahim, J.G., Chen, M.-H., and Sinha, D. (2001), Bayesian Survival Analysis, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Ibrahim</surname>
+                  </string-name>
+                  </person-group>
+               <source>Bayesian Survival Analysis</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e649a1310">
+               
+               <mixed-citation id="d2000818e653" publication-type="book">
+Klein, J., and Moeschberger, M. (1997), Survival Analysis, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Klein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Survival Analysis</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e676a1310">
+               
+               <mixed-citation id="d2000818e680" publication-type="journal">
+Kong, A., Liu, J.S., and Wong, W.H. (1994), "Sequential Imputations and Bayesian Missing Data Problems,"
+Journal of the American Statistical Association, 89, 278-288.<object-id pub-id-type="doi">10.2307/2291224</object-id>
+               <fpage>278</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e696a1310">
+               
+               <mixed-citation id="d2000818e700" publication-type="book">
+Kuo, L., and Smith, A.F.M. (1992), "Bayesian Computations in Survival Models via the Gibbs Sampler," in
+Survival Analysis: State of the Art, eds. J. P. Klein and P. K. Goel, Boston: Kluwer Academic, pp. 11-24.<person-group>
+                     <string-name>
+                     <surname>Kuo</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Bayesian Computations in Survival Models via the Gibbs Sampler</comment>
+               <fpage>11</fpage>
+               <source>Survival Analysis: State of the Art</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e732a1310">
+               
+               <mixed-citation id="d2000818e736" publication-type="journal">
+Liu, J.S. (1996), "Nonparametric Hierarchical Bayes via Sequential Imputations," The Annals of Statistics, 24,
+911-930.<object-id pub-id-type="jstor">10.2307/2242574</object-id>
+               <fpage>911</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e752a1310">
+               
+               <mixed-citation id="d2000818e756" publication-type="journal">
+MacEachern, S.N. (1994), "Estimating Normal Means with a Conjugate Style Dirichlet Process Prior," Commu-
+nications in Statistics, Part B-Simulation and Computation, 23, 727-741.<person-group>
+                     <string-name>
+                     <surname>MacEachern</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>727</fpage>
+               <volume>23</volume>
+               <source>Communications in Statistics, Part B-Simulation and Computation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e788a1310">
+               
+               <mixed-citation id="d2000818e792" publication-type="journal">
+MacEachern, S. N., Clyde, M., and Liu, J. S. (1999), "Sequential Importance Sampling for Nonparametric Bayes
+Models: The Next Generation," Canadian Journal of Statistics, 27, 251-267.<person-group>
+                     <string-name>
+                     <surname>MacEachern</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>251</fpage>
+               <volume>27</volume>
+               <source>Canadian Journal of Statistics</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e824a1310">
+               
+               <mixed-citation id="d2000818e828" publication-type="journal">
+Neal, R.M. (2000), "Markov Chain Sampling Methods for Dirichlet Process Mixture Models," Journal of Com-
+putational and Graphical Statistics, 9, 249-265.<object-id pub-id-type="doi">10.2307/1390653</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e845a1310">
+               
+               <mixed-citation id="d2000818e849" publication-type="journal">
+Newton, M.A., and Zhang, Y. (1999), "A Recursive Algorithm for Nonparametric Analysis With Missing Data,"
+Biometrika, 86, 15-26.<object-id pub-id-type="jstor">10.2307/2673533</object-id>
+               <fpage>15</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e865a1310">
+               
+               <mixed-citation id="d2000818e869" publication-type="book">
+Ripley, B.D. (1987), Stochastic Simulation, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Ripley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Stochastic Simulation</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e891a1310">
+               
+               <mixed-citation id="d2000818e895" publication-type="journal">
+Sethuraman, J. (1994), "A Constructive Definition of Dirichlet Priors," Statistica Sinica, 4, 639-650.<person-group>
+                     <string-name>
+                     <surname>Sethuraman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>639</fpage>
+               <volume>4</volume>
+               <source>Statistica Sinica</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e924a1310">
+               
+               <mixed-citation id="d2000818e928" publication-type="journal">
+Sinha, D., and Dey, D. (1997), "Semiparametric Bayesian Analysis of Survival Data," Journal of the American
+Statistical Association, 92, 1195-1212.<object-id pub-id-type="doi">10.2307/2965586</object-id>
+               <fpage>1195</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e944a1310">
+               
+               <mixed-citation id="d2000818e948" publication-type="journal">
+Susarla, V., and Van Ryzin, J. (1976), "Nonparametric Bayesian Estimation of Survival Curves from Incomplete
+Observations," Journal of the American Statistical Association, 71, 897-902.<object-id pub-id-type="doi">10.2307/2286858</object-id>
+               <fpage>897</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e964a1310">
+               
+               <mixed-citation id="d2000818e968" publication-type="journal">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions," The Annals of Statistics, 22, 1701-1727.<object-id pub-id-type="jstor">10.2307/2242477</object-id>
+               <fpage>1701</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e982a1310">
+               
+               <mixed-citation id="d2000818e986" publication-type="journal">
+Turnbull, B.W. (1974), "Nonparametric Estimation of a Survivorship Function with Doubly Censored Data,"
+Journal of the American Statistical Association, 69, 169-173.<object-id pub-id-type="doi">10.2307/2285518</object-id>
+               <fpage>169</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e1002a1310">
+               
+               <mixed-citation id="d2000818e1006" publication-type="journal">
+(1976), "The Empirical Distribution Function With Arbitrarily Grouped, Censored, and Truncated Data,"
+Journal of the Royal Statistical Society, Series B, 38, 290-295.<person-group>
+                     <string-name>
+                     <surname>Turnbull</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>290</fpage>
+               <volume>38</volume>
+               <source>Journal of the Royal Statistical Society, Series B</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2000818e1038a1310">
+               
+               <mixed-citation id="d2000818e1042" publication-type="book">
+West, M., Muuller, P., and Escobar, M.D. (1994), "Hierarchical Priors and Mixture Models, With Application in
+Regression and Density Estimation," in Aspects of Uncertainty: A Tribute to D. V. Lindley, eds. P. Freeman
+and A. F. M. Smith, New York: Wiley, pp. 363-386.<person-group>
+                     <string-name>
+                     <surname>West</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Hierarchical Priors and Mixture Models, With Application in Regression and Density Estimation</comment>
+               <fpage>363</fpage>
+               <source>Aspects of Uncertainty: A Tribute to D. V. Lindley</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

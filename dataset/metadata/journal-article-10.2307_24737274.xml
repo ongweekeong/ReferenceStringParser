@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15372715</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i24737208</issue-id>
+         <article-id pub-id-type="doi">10.2307/24737274</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Penalized Modeling for Regression and Classification</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Sparse Regression by Projection and Sparse Discriminant Analysis</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Xin</given-names>
+                  <surname>Qi</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ruiyan</given-names>
+                  <surname>Luo</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Raymond J.</given-names>
+                  <surname>Carroll</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hongyu</given-names>
+                  <surname>Zhao</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>416</fpage>
+         <lpage>438</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737274"/>
+      
+      
+         <abstract>
+            <p>Recent years have seen active developments of various penalized regression methods, such as LASSO and elastic net, to analyze high-dimensional data. In these approaches, the direction and length of the regression coefficients are determined simultaneously. Due to the introduction of penalties, the length of the estimates can be far from being optimal for accurate predictions. We introduce a new framework, regression by projection, and its sparse version to analyze high-dimensional data. The unique nature of this framework is that the directions of the regression coefficients are inferred first, and the lengths and the tuning parameters are determined by a cross-validation procedure to achieve the largest prediction accuracy. We provide a theoretical result for simultaneous model selection consistency and parameter estimation consistency of our method in high dimension. This new framework is then generalized such that it can be applied to principal components analysis, partial least squares, and canonical correlation analysis. We also adapt this framework for discriminant analysis. Compared with the existing methods, where there is relatively little control of the dependency among the sparse components, our method can control the relationships among the components. We present efficient algorithms and related theory for solving the sparse regression by projection problem. Based on extensive simulations and real data analysis, we demonstrate that our method achieves good predictive performance and variable selection in the regression setting, and the ability to control relationships between the sparse components leads to more accurate classification. In supplementary materials available online, the details of the algorithms and theoretical proofs, and R codes for all simulation studies are provided.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1423e287a1310">
+          
+            <mixed-citation id="d1423e291" publication-type="other">
+Bair, E., Hastie, T., Paul, D., and Tibshirani, R. (2006), "Prediction by Supervised Principal Components," Journal
+of the American Statistical Association, 101, 119-137. [417,427,429]</mixed-citation>
+        </ref>
+        <ref id="d1423e301a1310">
+          
+            <mixed-citation id="d1423e305" publication-type="other">
+Barretina, J., et al. (2012), "The Cancer Cell Line Encyclopedia Enables Predictive Modelling of Anticancer Drug
+Sensitivity," Nature, 483,603-607. [435]</mixed-citation>
+        </ref>
+        <ref id="d1423e315a1310">
+          
+            <mixed-citation id="d1423e319" publication-type="other">
+Bickel, P., and Levina, E. (2004), "Some Theory for Fisher's Linear Discriminant Function, 'Naive Bayes,' and
+Some Alternatives When There are Many More Variables Than Observations," Bernoulli, 6,989-1010. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e329a1310">
+          
+            <mixed-citation id="d1423e333" publication-type="other">
+Cho, H., and Fryzlewicz, P. (2012), "High Dimensional Variable Selection via Tilting," Journal of the Royal
+Statistical Society, Series B, 74, 593-622. [417]</mixed-citation>
+        </ref>
+        <ref id="d1423e344a1310">
+          
+            <mixed-citation id="d1423e348" publication-type="other">
+Chun, H., and Keles, S. (2010), "Sparse Partial Least Squares Regression for Simultaneous Dimension Reduction
+and Variable Selection," Journal of the Royal Statistical Society, Series B, 72, 3-25. [417,426,429]</mixed-citation>
+        </ref>
+        <ref id="d1423e358a1310">
+          
+            <mixed-citation id="d1423e362" publication-type="other">
+Clemmensen, L., Hastie, T., Witten, D., and Ersbll, B. (2011), "Sparse Discriminant Analysis," Technometrics,
+53,406-413. [425,432]</mixed-citation>
+        </ref>
+        <ref id="d1423e372a1310">
+          
+            <mixed-citation id="d1423e376" publication-type="other">
+Dudoit, S., Fridlyand, J., and Speed, T. (2001), "Comparison of Discrimination Methods for the Classification of
+Tumors Using Gene Expression Data," Journal of the American Statistical Association, 96,1151-1160. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e386a1310">
+          
+            <mixed-citation id="d1423e390" publication-type="other">
+Fan, J., and Li, R. (2001), "Variable Selection via Nonconcave Penalized Likelihood and its Oracle Properties,"
+Journal of the American Statistical Association, 96, 1348-1360. [417,426]</mixed-citation>
+        </ref>
+        <ref id="d1423e400a1310">
+          
+            <mixed-citation id="d1423e404" publication-type="other">
+Friedman, J. (1989), "Regularized Discriminant Analysis," Journal of the American Statistical Association, 84,
+165-175.[425]</mixed-citation>
+        </ref>
+        <ref id="d1423e414a1310">
+          
+            <mixed-citation id="d1423e418" publication-type="other">
+Guo, Y., Hastie, T., and Tibshirani, R. (2007), "Regularized Linear Discriminant Analysis and its Applications in
+Microarrays," Biostatistics, 8, 86-100. [425,432]</mixed-citation>
+        </ref>
+        <ref id="d1423e429a1310">
+          
+            <mixed-citation id="d1423e433" publication-type="other">
+Hoerl, A. E., and Kennard, R. W. (1970), "Ridge Regression: Biased Estimation for Nonorthogonal Problems,"
+Technometrics, 12,55-67. [417,426]</mixed-citation>
+        </ref>
+        <ref id="d1423e443a1310">
+          
+            <mixed-citation id="d1423e447" publication-type="other">
+Krzanowski, W., Jonathan, P., McCarthy, W., and Thomas, M. (1995), "Discriminant Analysis With Singular
+Covariance Matrices: Methods and Applications to Spectroscopic Data," Journal of the Royal Statistical
+Society, Series C, 44, 101-115. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e460a1310">
+          
+            <mixed-citation id="d1423e464" publication-type="other">
+Miller, L. D., et al. (2005), "An Expression Signature for p53 Status in Human Breast Cancer Predicts Mutation
+Status, Transcriptional Effects, and Patient Survival," Proceedings of the National Academy of Sciences of
+the United States of America, 102, 13550-13555. [435]</mixed-citation>
+        </ref>
+        <ref id="d1423e477a1310">
+          
+            <mixed-citation id="d1423e481" publication-type="other">
+Shao, J., Wang, Y., Deng, X., and Wang, S. (2011), "Sparse Linear Discriminant Analysis by Thresholding for
+High Dimensional Data," The Annals of Statistics, 39, 1241-1265. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e491a1310">
+          
+            <mixed-citation id="d1423e495" publication-type="other">
+Tibshirani, R. (1996), "Regression Shrinkage and Selection via the Lasso," Journal of the Royal Statistical Society,
+Series B, 58,267-288. [417,426]</mixed-citation>
+        </ref>
+        <ref id="d1423e505a1310">
+          
+            <mixed-citation id="d1423e509" publication-type="other">
+Tibshirani, R., Hastie, T., Narasimhan, B., and Chu, G. (2002), "Diagnosis of Multiple Cancer Types by Shrunken
+Centroids of Gene Expression," Proceedings of the National Academy of Sciences of the United States of
+America, 99, 6567-6572. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e523a1310">
+          
+            <mixed-citation id="d1423e527" publication-type="other">
+vant Veer, L. J., Dai, H., van de Vijver, M. J., He, Y. D., Hart, A. A,, Mao, M., Peterse, H. L., van der Kooy, K.,
+Marton, M. J., Witteveen, A. T., Schreiber, G. J., Kerkhoven, R. M., Roberts, C., Rene Bernards, P. S. L., and
+Friend, S. H. (2002), "Gene Expression Profiling Predicts Clinical Outcome of Breast Cancer," Nature, 415,
+530-536. [435]</mixed-citation>
+        </ref>
+        <ref id="d1423e543a1310">
+          
+            <mixed-citation id="d1423e547" publication-type="other">
+Witten, D., and Tibshirani, R. (2011), "Penalized Classification Using Fisher's Linear Discriminant," Journal of
+the Royal Statistical Society, Series B, 73, 753-772. [425,432]</mixed-citation>
+        </ref>
+        <ref id="d1423e557a1310">
+          
+            <mixed-citation id="d1423e561" publication-type="other">
+Xu, P., Brock, G., and Parrish, R. (2009), "Modified Linear Discriminant Analysis Approaches for Classification
+of High-Dimensional Microarray Data," Computational Statistics and Data Analysis, 53, 1674-1687. [425]</mixed-citation>
+        </ref>
+        <ref id="d1423e571a1310">
+          
+            <mixed-citation id="d1423e575" publication-type="other">
+Yujin, H., Jean-Philippe, B., Pablo, T., Todd, G., and Jill, M. (2007), "Subclass Mapping: Identifying Common
+Subtypes in Independent Disease Data Sets," PLoS ONE, 2, el 195. [436]</mixed-citation>
+        </ref>
+        <ref id="d1423e585a1310">
+          
+            <mixed-citation id="d1423e589" publication-type="other">
+Zhang, C.-H. (2010), "Nearly Unbiased Variable Selection Under Minimax Concave Penalty," The Annals of
+Statistics, 38, 894-942. [417,426]</mixed-citation>
+        </ref>
+        <ref id="d1423e599a1310">
+          
+            <mixed-citation id="d1423e603" publication-type="other">
+Zhao, P., and Yu, B. (2006), "On Model Selection Consistency of Lasso," The Journal of Machine Learning
+Research, 7, 2541-2563. [417,423,424]</mixed-citation>
+        </ref>
+        <ref id="d1423e614a1310">
+          
+            <mixed-citation id="d1423e618" publication-type="other">
+Zou, H., and Hastie, T. (2005), "Regularization and Variable Selection via the Elastic Net," Journal of the Royal
+Statistical Society, Series B, 67, 301-320. [417,426]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article article-type="research-article" dtd-version="3.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejengi</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019980</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Engines</journal-title>
+         </journal-title-group>
+
+
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">19463936</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19463944</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <article-id pub-id-type="jstor">26285056</article-id>
+         <title-group>
+            <article-title>Side Impact Pressure Sensor Predictions with Computational Gas and Fluid Dynamic Methods</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Tyan</surname>
+                  <given-names>Tau</given-names>
+               </string-name>
+               <aff>Ford Motor Company</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Shaner</surname>
+                  <given-names>Leonard</given-names>
+               </string-name>
+               <aff>Ford Motor Company</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Niesluchowski</surname>
+                  <given-names>Matt</given-names>
+               </string-name>
+               <aff>Ford Motor Company</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Kochhar</surname>
+                  <given-names>Nand</given-names>
+               </string-name>
+               <aff>Ford Motor Company</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Bhalsod</surname>
+                  <given-names>Dilip</given-names>
+               </string-name>
+               <aff>Livermore Software Technology Corp.</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <surname>Wang</surname>
+                  <given-names>Jason</given-names>
+               </string-name>
+               <aff>Livermore Software Technology Corp.</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2017</year>
+            <string-date>April 2017</string-date>
+         </pub-date>
+         <volume>10</volume>
+         <issue>2</issue>
+         <issue-id>e26285020</issue-id>
+         <fpage>420</fpage>
+         <lpage>456</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2017 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/26285056"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>Three computational gas and fluid dynamic methods, CV/UP (Control Volume/Uniform Pressure), CPM (Corpuscular Particle Method), and ALE (Arbitrary Lagrangian and Eulerian), were investigated in this research in an attempt to predict the responses of side crash pressure sensors. Acceleration-based crash sensors have been used extensively in the automotive industry to determine the restraint system firing time in the event of a vehicle crash. The prediction of acceleration-based crash pulses by using computer simulations has been very challenging due to the high frequency and noisy responses obtained from the sensors, especially those installed in crush zones. As a result, the sensor algorithm developments for acceleration-based sensors are largely based on prototype testing. With the latest advancement in the crash sensor technology, side crash pressure sensors have emerged recently and are gradually replacing acceleration-based sensor for side crash applications. Unlike the acceleration-based crash sensors, the data recorded by the side crash pressure sensors exhibits lower frequency and less noisy responses. The lower frequency and less noisy response characteristics are more suitable for CAE (Computer Aided Engineering) predictions.</p>
+            <p>Fifteen benchmark tests, in three groups, were designed and conducted to better understand the pressure sensor responses under different impact conditions and to provide data for the evaluation of the three computational gas and fluid dynamic methods. The first group of benchmark tests included a piston compression test with two different gases being compressed in a rectangular container. The second group of benchmark tests consisted of a rigid impactor or a deformable barrier hitting a rectangular steel box with and without a hole as well as at different impact speeds. The third group of benchmark tests involved a rigid impactor or a deformable barrier hitting a vehicle side door with different openings and at different impact speeds. To ensure the robustness of CAE predictions for different test conditions, variables such as, structural design, hole size, hole location, sensor location, impactor type, and impact speed, were considered when designing the fifteen benchmark tests.</p>
+            <p>To choose appropriate approaches for side crash pressure sensor predictions, three computational gas and fluid dynamic methods available for SFI (Structure-Fluid Interaction) applications were evaluated in this research. The three methods, including two computational gas dynamic methods, the CV/UP and CPM methods, and one computational fluid dynamic method, the ALE method, were employed to simulate the fifteen benchmark tests and to understand their corresponding numerical performances. The predictions of the benchmark tests including the structure deformation mode and the pressure response are compared to those of the tests. The advantages and limitations of each method for the different variables are discussed in details based on the results obtained from the numerical simulations. In addition, computation efficiency and user-friendliness for the three methods are also compared. In addition, four full vehicle tests were selected to assure that the pressure sensor prediction capability can be used in the full vehicle test environments. The main objective of this research is to identify the most appropriate methods to predict pressure sensor responses and to enable computer simulations for the development of restraint deployment algorithms associated with the side crash pressure sensors. It is also hoped that the enhancements and developments made throughout this research would allow the three methods to be applied to a broader range of SFI problems.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label> 
+            <mixed-citation publication-type="other">Nefske, D., "A Basic Airbag Model," SAE Technical Paper 720426, 1972, doi:10.4271/720426.</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label> 
+            <mixed-citation publication-type="other">Wang, J. and Nefske, D., "A New CAL3D Airbag Inflation Model," SAE Technical Paper 880654, 1988, doi:10.4271/880654.</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label> 
+            <mixed-citation publication-type="other">Malvern L.W. Introduction t the Mechanics of a Continuous Medium. Prentice-Hall: Englewood Cliffs, 1969.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label> 
+            <mixed-citation publication-type="other">Noh W.F., CEL: A time-dependent two-space dimensional coupled Eulerian-Lagrangian code. In Methods in Computational Physics, Alder B., Fernbach S., and Rotenberg M. vol. 3. Academic Press: New York, 1964: 117-179.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label> 
+            <mixed-citation publication-type="other">Frank R.M. and Lazarus R.B. Mixed Eulerian-Lagrangian Method. In Methods in Computational Physics, Vol. 3: Fundamental Methods in Hydrodynamics, Alder B., Fernback S., and Rotenberg M. (eds). Academic Press: New York, 1964: 47-67.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label> 
+            <mixed-citation publication-type="other">Trulio J.G. Theory and Structure of the AFTON Codes. Report AFWLTR- 66-19, Air Force Weapons Laboratory: Kirtland Air Force Base, 1966.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label> 
+            <mixed-citation publication-type="other">Hirt C. W., Amsden A.A., and Cook J.L. An arbitrary Lagrangian and Eulerian Computing Method for all Flow Speeds. J. Comput. Phys. 1974; 14:227-253. Reprinted in J. Comput. Phys. 1997; 135(2): 203-216.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label> 
+            <mixed-citation publication-type="other">Donea J., Fasoli-Stella P. and Giuliani S., Lagrangian and Eulerian Finite Element Techniques for Transient Fluid-Structure Interaction Problems. In Trans. 4th Int. Conf. on Structural Mechanics in Reactor Technology, Paper B 1/2, San Francisco, 1977.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label> 
+            <mixed-citation publication-type="other">Belytschko T., Kennedy J.M., and Schoeberle D.F., Quasi-Eulerian Finite Element Formulation for Fluid-Structure Interaction. Proceedings of Joint ASME/CSME Pressure Vessels and Piping Conference. ASME: New Youk, 1978:p. 13, ASME paper 78-PVP-60.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label> 
+            <mixed-citation publication-type="other">Belytschko T., and Kennedy J.M., Computer Method for Subassembly simulation. Nucl. Eng. Des. 1978: 49:17-38.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label> 
+            <mixed-citation publication-type="other">Hughes, T.J.R., Liu, W.K., and Zimmerman T, “Lagrangian Eulerian Finite Element Formulation for Viscous Flows”, Computer Methods in Applied Mechanics and Engineering Vol. 29 (1981), pp 329-349; Presented at the U.S.-Japan Conference on Interdisciplinary Finite Element Analysis, Cornell University, August 7-11, 1978.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label> 
+            <mixed-citation publication-type="other">Bensor, D. J., “Computational Methods in Lagrangian and Eulerian hydrocodes”, Computer Methods in Applied Mechanics and Engineering, Vol. 99 (1991), pp 235-394.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label> 
+            <mixed-citation publication-type="other">Olovsson, L., “On the Arbitrary Lagrangian-Eulerian Finite Element Method”, Ph.D. Thesis, Linkoping University, 2000.</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label> 
+            <mixed-citation publication-type="other">Hirth, A., Haufe, A., and Olovsson, L., “Airbag Simulation with LSDYNA Past-Present-Future”, 6th European LS-DYNA User Conference, Gothenburg, Sweden May 29th &amp; 30th, 2007.</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label> 
+            <mixed-citation publication-type="other">Ma, J. and Usman, M., : “Modeling of Fuel Sloshing Phenomena Considering Solid-Fluid Interaction”, 8th International LS-DYNA User Conference, Detroit, Michigan, 2004.</mixed-citation>
+         </ref>
+         <ref id="ref16">
+            <label>16.</label> 
+            <mixed-citation publication-type="other">Tang, B., Guha, S., Tyan, T., Doong, J. et al., "Simulation of Sloshing and Ballooning in Fuel Tanks for High Speed Impacts," SAE Technical Paper 2006-01-0314, 2006, doi:10.4271/2006-01-0314.</mixed-citation>
+         </ref>
+         <ref id="ref17">
+            <label>17.</label> 
+            <mixed-citation publication-type="other">Craig, R., Qu, T., Pan, L., Tyan, T. et al., "Crash Performance Simulation of a Multilayer Thermoplastic Fuel Tank with Manufacturing and Assembly Consideration," SAE Int. J. Mater. Manuf. 4(1):27-39, 2011, doi:10.4271/2011-01-0009.</mixed-citation>
+         </ref>
+         <ref id="ref18">
+            <label>18.</label> 
+            <mixed-citation publication-type="other">Souli, M. and Olovsson, L., “Fluid-Structure Interaction in LSDYNA: Industrial Applications”, 4th European LS-DYNA Users Conference, Ulm, 2003.</mixed-citation>
+         </ref>
+         <ref id="ref19">
+            <label>19.</label> 
+            <mixed-citation publication-type="other">Souli, M. and Olovsson, L, “ALE and Fluid-Structure Interaction Capabilities in LS-DYNA”, 7th International LSDYNA Users Conference, Dearborn, Michigan, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref20">
+            <label>20.</label> 
+            <mixed-citation publication-type="other">McCallum, S.C. and Constantinou, C., “The Influence of Bird-Shape in Bird-Strike Analysis”, 5th European LS-DYNA Users Conference, Birmingham, 2005.</mixed-citation>
+         </ref>
+         <ref id="ref21">
+            <label>21.</label> 
+            <mixed-citation publication-type="other">Anghileri, M., Castelletti, L.-M., Invernizzi, F., and Mascheroni, M., “Birdstrike onto the Composite Intake of a Turbofan Engine”, 5th European LS-DYNA Users Conference, Birmingham, 2005.</mixed-citation>
+         </ref>
+         <ref id="ref22">
+            <label>22.</label> 
+            <mixed-citation publication-type="other">Gadala, M.S. and Wang, J., “ALE Formulation and its Application in Solid Mechanics”, Computer Methods in Applied Mechanics and Engineering, 1998, PP 33-55</mixed-citation>
+         </ref>
+         <ref id="ref23">
+            <label>23.</label> 
+            <mixed-citation publication-type="other">Movahhedy, M., Gadala, M.S. and Altintas, Y., “Simulation of the Orthogonal Metal Cutting Process using an Arbitrary Lagrangian- Eulerian Finite-Element Method”, Journal of Materials Processing Technology (2000), pp267-275.</mixed-citation>
+         </ref>
+         <ref id="ref24">
+            <label>24.</label> 
+            <mixed-citation publication-type="other">Slavik, T., “A Coupling of Empirical Explosive Blast Loads to ALE Air Domains in LS-DYNA”, 7th European LS-DYNA Users Conference, Dearborn, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref25">
+            <label>25.</label> 
+            <mixed-citation publication-type="other">Lapoujade, V., Van Dorsselaer, N., Kevorkian, S., and Cheval, K., “A Study of Mapping Technique for Air Blast Modeling”, 11th International LS-DYNA Users Conference, Dearborn, 2010.</mixed-citation>
+         </ref>
+         <ref id="ref26">
+            <label>26.</label> 
+            <mixed-citation publication-type="other">Tabiei, A. and Chowdhury, M.R., “Transient Response of a Projectile in Gun Launch Simulation Using Lagrangian and ALE Methods”, 8th International LS-DYNA Users Conference, Dearborn, 2004.</mixed-citation>
+         </ref>
+         <ref id="ref27">
+            <label>27.</label> 
+            <mixed-citation publication-type="other">Hsieh, C., Vunnam M., Bhalsod, D., and Chen, H., “Comparative Study Using LS=DYNA ALE and S-ALE Methods for under body Mine Blast Simulations”, 2016 NDIA Ground Vehicle Systems Engineering and Technology Symposium, Novi, Michigan, August 2-4, 2016.</mixed-citation>
+         </ref>
+         <ref id="ref28">
+            <label>28.</label> 
+            <mixed-citation publication-type="other">Marklund, P. O., “Finite Element Simulation of Airbag Deployment and Optimization in Crashworthiness Design”, Ph.D. Thesis, Linkoping University, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref29">
+            <label>29.</label> 
+            <mixed-citation publication-type="other">Marklund, P. O., and Nilsson, L., “Simulation of Airbag Deployment Using A Coupled Fluid-Structure Approach”, 7th International LSDYNA Users Conference, Dearborn, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref30">
+            <label>30.</label> 
+            <mixed-citation publication-type="other">Fokin, D., Lokhande, N., and Fredriksson, L., “On Airbag Simulation in LS-DYNA with the use of the Arbitrary Lagrangian-Eulerian Method”, 4th European LS-DYNA User Conference, Ulm, 2003.</mixed-citation>
+         </ref>
+         <ref id="ref31">
+            <label>31.</label> 
+            <mixed-citation publication-type="other">Haufe, A. and Weimar, K., “Fluid-Structure-Interaction Effects in Airbag Out-of-Position Load Cases: An Introduction to the ALE-framework in LSDYNA”, 5th European LS-DYNA User Conference., Birmingham, 2005.</mixed-citation>
+         </ref>
+         <ref id="ref32">
+            <label>32.</label> 
+            <mixed-citation publication-type="other">Lian, W., "Development of a Benchmark Problem Set for Assessing Out-of-Position Simulation Capabilities," SAE Technical Paper 2004- 01-1628, 2004, doi:10.4271/2004-01-1628.</mixed-citation>
+         </ref>
+         <ref id="ref33">
+            <label>33.</label> 
+            <mixed-citation publication-type="other">Olovsson, L., “Corpuscular Method for Airbag Deployment Simulation in LS-DYNA”, Publications ISBN 978-82-997587-0-3 and Impetus Report R32S-1 May, 2007.</mixed-citation>
+         </ref>
+         <ref id="ref34">
+            <label>34.</label> 
+            <mixed-citation publication-type="other">Feng, B., and Coleman, D., “Gas Dynamic Simulation of Curtain Airbag Deployment through Interior Trims”, 10th International LS-DYNA Users Conference, Dearborn, 2008.</mixed-citation>
+         </ref>
+         <ref id="ref35">
+            <label>35.</label> 
+            <mixed-citation publication-type="other">Lian, W., Bhalsod, D., and Olovsson, L., “Benchmark Study of the AIRBAG PARTICLE Method for Out-Of-Position Applications”, 10th International LS-DYNA Users Conference, Dearborn, 2008.</mixed-citation>
+         </ref>
+         <ref id="ref36">
+            <label>36.</label> 
+            <mixed-citation publication-type="other">Teng, H., Wang, J., and Bhalsod, D., “The Recent Progress and Potential Applications of Corpuscular Method in LS-DYNA”, 11th International LS-DYNA Users Conference, Dearborn, 2010.</mixed-citation>
+         </ref>
+         <ref id="ref37">
+            <label>37.</label> 
+            <mixed-citation publication-type="other">Lin, C. H., Cheng, Y. P., and Wang, J., “Evaluation of LSDYNA Corpuscular Particle Method for Side Impact Airbag Deployment Application”, 13th International LS-DYNA Users Conference, Dearborn, 2014.</mixed-citation>
+         </ref>
+         <ref id="ref38">
+            <label>38.</label> 
+            <mixed-citation publication-type="other">Machens, M., and Wessels, T., “Investigation Into The Rising Air Pressure Inside The Door During Side Impacts”, 6th European LSDYNA User Conference, Gothenburg, Sweden May 29th &amp; 30th, 2007.</mixed-citation>
+         </ref>
+         <ref id="ref39">
+            <label>39.</label> 
+            <mixed-citation publication-type="other">Lin, C. and Jerinsky, M., "Pressure Sensor Simulation Capability for Side Impact Sensing Calibration," SAE Technical Paper 2011-01-0105, 2011, doi:10.4271/2011-01-0105.</mixed-citation>
+         </ref>
+         <ref id="ref40">
+            <label>40.</label> 
+            <mixed-citation publication-type="other">Tyan, T., McClain, B., Arthurs, K., Rupp, J. et al., "Side Crash Pressure Sensor Prediction: An ALE Approach," SAE Int. J. Mater. Manf. 5(2):314-332, 2012, doi:10.4271/2012-01-0046.</mixed-citation>
+         </ref>
+         <ref id="ref41">
+            <label>41.</label> 
+            <mixed-citation publication-type="other">Tyan, T., McClain, B., Arthurs, K., Rupp, J. et al., "Side Crash Pressure Sensor Prediction: An Improved Corpuscular Particle Method," SAE Int. J. Mater. Manf. 5(2):285-303, 2012, doi:10.4271/2012-01-0043.</mixed-citation>
+         </ref>
+         <ref id="ref42">
+            <label>42.</label> 
+            <mixed-citation publication-type="other">Tyan, T., Arthurs, K., Rupp, J., Ko, C. et al., "Side Crash Pressure Sensor Prediction for Body-on-Frame Vehicles: An ALE Approach," SAE Int. J. Mater. Manf. 6(2):209-231, 2013, doi:10.4271/2013-01-0666.</mixed-citation>
+         </ref>
+         <ref id="ref43">
+            <label>43.</label> 
+            <mixed-citation publication-type="other">Tyan, T., Arthurs, K., Rupp, J., Parks, M. et al., "Side Crash Pressure Sensor Prediction for Unitized Vehicles: An ALE Approach," SAE Int. J. Mater. Manf. 6(2):184-208, 2013, doi:10.4271/2013-01-0657.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

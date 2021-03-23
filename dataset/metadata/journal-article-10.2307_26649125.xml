@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article dtd-version="1.0" article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019980</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jcode">saeintejengi</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Engines</journal-title>
+         </journal-title-group>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">19463936</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19463944</issn>
+         <publisher>
+            <publisher-name specific-use="jstor-licensing-publisher">SAE International</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26649125</article-id>
+         <title-group>
+            <article-title>Virtual Full Engine Development</article-title>
+            <subtitle>3D-CFD Simulations of Turbocharged Engines under Transient Load Conditions</subtitle>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Kaechele</surname>
+                  <given-names>Andreas</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Chiodi</surname>
+                  <given-names>Marco</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Bargende</surname>
+                  <given-names>Michael</given-names>
+               </string-name>
+            </contrib>
+         </contrib-group>
+
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                   xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">
+            <day>1</day>
+            <month>1</month>
+            <year>2018</year>
+            <string-date>2018</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">11</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">6</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26649117</issue-id>
+         <fpage>697</fpage>
+         <lpage>714</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2018 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26649125"/>
+         <abstract xml:lang="eng">
+            <p>The simulation of transient engine behavior has gained importance mainly due to stringent emission limits, measured under real driving conditions and the concurrently demanded vehicle performance. This is especially true for turbocharged engines, as the coupling of the combustion engine and the turbocharger forms a complex system in which the components influence each other remarkably causing, for example, the well-known turbo lag. Because of this strong interaction, during a transient load case, the components should not be analyzed separately since they mutually determine their boundary conditions.</p> 
+            <p>Three-dimensional computational fluid dynamics (3D-CFD) simulations of full engines in stationary operating points have become practicable several years ago and will remain a valuable tool in virtual engine development; however, the next logical step is to extend this approach into the transient domain. This article evaluates the potential of different turbocharger models being included in 3D-CFD engine models, starting from a map-based approach ranging up to a fully discretized 3D-CFD turbocharger.</p> 
+            <p>The approach presented in this article combines a three-dimensional representation of the entire engine, including the turbine and compressor housing, but replacing the turbocharger rotors with performance maps. Several numeric investigations were conducted to reduce calculation time and improve the system stability.</p> 
+            <p>A virtual hot gas test bench is set up in three different simulation environments to compare the map-based turbocharger against a conventional zero-dimensional (0D)/one-dimensional (1D) modeling and a 3D-CFD turbine. The analysis focuses on differences in stationary behavior and the response to pressure pulses.</p> 
+            <p>The modeling approach, validated on the virtual hot gas test bench, is used to model a two-cylinder engine. It is analyzed under stationary load conditions showing the interaction between turbocharger and engine within a working cycle. In a second step, transient load conditions over multiple working cycles are applied to the engine model, and the results are compared to the respective measurements obtained at the test bench.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>References</title>
+         <ref id="r1">
+            <label>1.</label> 
+            <mixed-citation id="c1">Police, G., Diana, S., Giglio, V., Iorio, B. et al., “Downsizing of SI Engines by Turbo-Charging,” ESDA2006-95215, Proceedings of ESDA2006, 8th Biennial ASME Conference on Engineering Systems Design and Analysis, Torino, Italy, July 4-7, 2006.</mixed-citation>
+         </ref>
+         <ref id="r2">
+            <label>2.</label> 
+            <mixed-citation id="c2">Leduc, P., Dubar, B., Ranini, A., and Monnier, G., “Downsizing of Gasoline Engines: An Efficient Way to Reduce CO2 Emissions,” Oil and Gas Science and Technology - Rev. IFP 58(1):115-127, 2003.</mixed-citation>
+         </ref>
+         <ref id="r3">
+            <label>3.</label> 
+            <mixed-citation id="c3">Wallace, F.J. and Adgey, J., “Theoretical Assessment of the Non-Steady Flow Performance of Inward Radial Flow Turbines,” Proceedings of the Institution of Mechanical Engineers 182(8):22-36, 1967.</mixed-citation>
+         </ref>
+         <ref id="r4">
+            <label>4.</label> 
+            <mixed-citation id="c4">Copeland, C.D., Newton, P., Martinez-Botas, R.F., and Seiler, M., “A Comparison of Timescales within a Pulsed Flow Turbocharger Turbine,” Proceedings 10th International Conference on Turbochargers and Turbocharging of the IMechE, 2012, ISBN:978-0-85709-209-0.</mixed-citation>
+         </ref>
+         <ref id="r5">
+            <label>5.</label> 
+            <mixed-citation id="c5">Aymanns, R., Scharf, J., Uhlmann, T., and Luckmann, D., “A Revision of Quasi Steady Modelling of Turbocharger Turbines in the Simulation of Pulse Charged Engines,” Proceedings 16th Supercharging Conference, Dresden, 2011.</mixed-citation>
+         </ref>
+         <ref id="r6">
+            <label>6.</label> 
+            <mixed-citation id="c6">Padzillah, M.H., Rajoo, S., and Martinez-Botas, R.F., “Influence of Speed and Frequency towards the Automotive Turbocharger Turbine Performance under Pulsating Flow Conditions,” Energy Conversion and Management, 2014, doi:10.1016/2014-01-047.</mixed-citation>
+         </ref>
+         <ref id="r7">
+            <label>7.</label> 
+            <mixed-citation id="c7">Baines, N.C., “Turbocharger Turbine Pulse Flow Performance and Modeling - 25 Years On,” 9thInternational Conference on Turbochargers and Turbocharging, 2010, Vol. 7, 347-362.</mixed-citation>
+         </ref>
+         <ref id="r8">
+            <label>8.</label> 
+            <mixed-citation id="c8">Galindo, J., Fajardo, P., Navarro, R., and Garcia-Cuevas, L.M., “Characterization of a Radial Turbocharger Turbine in Pulsating Flow by Means of CFD and Its Application to Engine Modeling,” Applied Energy 103, 2013, doi:10.1016/2012-09-013.</mixed-citation>
+         </ref>
+         <ref id="r9">
+            <label>9.</label> 
+            <mixed-citation id="c9">Wentsch, M., Perrone, A., Chiodi, M., Bargende, M. et al., “Enhanced Investigations of High-Performance SI-Engines by Means of 3D-CFD Simulations,” SAE Technical Paper 2015-24-2469, 2015, doi:10.4271/2015-24-2469.</mixed-citation>
+         </ref>
+         <ref id="r10">
+            <label>10.</label> 
+            <mixed-citation id="c10">Chiodi, M., “An Innovative 3D-CFD-Approach towards Virtual Development of Internal Combustion Engines,” Dissertation (Ph.D. thesis), Universitat Stuttgart, Vieweg+Teubner Research Verlag, June 2010.</mixed-citation>
+         </ref>
+         <ref id="r11">
+            <label>11.</label> 
+            <mixed-citation id="c11">Gunther, T., Grill, M., Kaechele, A., Chiodi, M. et al., “Nachoxidation zur Drehmomentsteigerung und Erfullung der Emissionen wahrend des spulenden Ladungswechsels am turboaufgeladenen Ottomotor,” Aufladetechnische Konferenz, Dresden, 2017.</mixed-citation>
+         </ref>
+         <ref id="r12">
+            <label>12.</label> 
+            <mixed-citation id="c12">Winterbone, D., Nikpour, B., and Alexander, G., “Measurement of the Performance of a Radial Inflow Turbine in Conditional Steady and Unsteady Flow,” 4th Proceedings Institution of Mechanical Engineering Conference on Turbocharging and Turbochargers, IMeshE-Paper C405/05, London, 1990, 153-162.</mixed-citation>
+         </ref>
+         <ref id="r13">
+            <label>13.</label> 
+            <mixed-citation id="c13">Pischinger, F. and Wunsche, A., “The Characteristic Behavior of Radial Turbines and Its Influence on the Turbocharging Process,” Proceedings CIMAC Congress, Tokyo, 1977.</mixed-citation>
+         </ref>
+         <ref id="r14">
+            <label>14.</label> 
+            <mixed-citation id="c14">Luddecke, B., “Stationares und instationares Betriebsverhalten von Abgasturboladern,” Dissertation (Ph.D. thesis), Universitat Stuttgart Springer Vieweg, 2015, doi:10.1007/978-3-658-12781-7.</mixed-citation>
+         </ref>
+         <ref id="r15">
+            <label>15.</label> 
+            <mixed-citation id="c15">Jensen, J.-P., Kristensen, A.F., Sorenson, S.C., Houbak, N. et al., “Mean Value Modeling of a Small Turbocharged Diesel Engine,” SAE Technical Paper 910070, 1991, doi:10.4271/910070.</mixed-citation>
+         </ref>
+         <ref id="r16">
+            <label>16.</label> 
+            <mixed-citation id="c16">El Hadef, J., Colin, G., Talon, V., and Chamaillard, Y., “New Physics Based Turbocharger Data Maps Extrapolation Algorithms: Validation on a Spark-Ignited Engine,” IFAC Workshop on Engine and Powertrain Control, Simulation and Modeling (ECOSM), Oct. 2012.</mixed-citation>
+         </ref>
+         <ref id="r17">
+            <label>17.</label> 
+            <mixed-citation id="c17">Copeland, C.D., Newton, P., Martinez-Botas, R.F., Seiler, M. et al., “A Comparison of Timescales within a Pulsed Flow Turbocharger Turbine,” Proceedings 10th International Conference on Turbochargers and Turbocharging of the IMechE, 2012.</mixed-citation>
+         </ref>
+         <ref id="r18">
+            <label>18.</label> 
+            <mixed-citation id="c18">Costall, A., Szymko, S., Martinez-Botas, R.F., Filsinger, D. et al., “Assessment of Unsteady Behavior in Turbocharger Turbines,” ASME Turbo Expo 2006: Power for Land, Sea, and Air, 2006.</mixed-citation>
+         </ref>
+         <ref id="r19">
+            <label>19.</label> 
+            <mixed-citation id="c19">Eder, J., Berner, H.-J., and Bargende, M., “Experimental Investigation of HP-CNG Direct Injection against Gasoline Direct Injection,” Proceedings 11th Conference on Gaseous Fuel Powered Vehicles, Stuttgart, 2017.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+   <floats-group>
+      <fig>
+         <label>TABLE 1</label>
+         <caption id="ca-1">
+            <p>General simulation models. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 1</label>
+         <caption id="ca-2">
+            <p>Naturally aspirated engine (left) and turbocharged engine without turbocharger (right). © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 2</label>
+         <caption id="ca-3">
+            <p>Different possible approaches for a 3D-CFD simulation of combustion engines with integrated turbochargers. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 2</label>
+         <caption id="ca-4">
+            <p>Turbocharged five-cylinder engine with 0D turbocharger and complete representation of intake and exhaust manifold including air filter, intercooler, and exhaust gas after treatment. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 3</label>
+         <caption id="ca-5">
+            <p>Calculation time of a working cycle for a twocylinder engine at full load. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 3</label>
+         <caption id="ca-6">
+            <p>Overview concept of 3D-CFD simulation with an integrated map-based turbocharger. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 4</label>
+         <caption id="ca-7">
+            <p>Full 3D-CFD mesh for the virtual engine hot gas test bench. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 4</label>
+         <caption id="ca-8">
+            <p>Results of turbine steady-state analysis. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 5</label>
+         <caption id="ca-9">
+            <p>Pressure traces for engines with different numbers of cylinders and operating points (full load). © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 5</label>
+         <caption id="ca-10">
+            <p>Characteristic coefficients for the chosen frequency range at 2 bar amplitude. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 6</label>
+         <caption id="ca-11">
+            <p>Mass flow traces at the system inlet for a 50 Hz pressure pulse. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 7</label>
+         <caption id="ca-12">
+            <p>Pressure traces at the housing inlet for a 50 Hz pulse. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 8</label>
+         <caption id="ca-13">
+            <p>Pressure traces at the housing inlet for a 400 Hz pulse. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 9</label>
+         <caption id="ca-14">
+            <p>Total pressure traces at the rotor inlet for a 50 Hz pulse. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 10</label>
+         <caption id="ca-15">
+            <p>Total pressure traces at the rotor inlet for a 400 Hz pulse. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 11</label>
+         <caption id="ca-16">
+            <p>Torque traces for 50 Hz pulses. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 12</label>
+         <caption id="ca-17">
+            <p>Torque traces for 400 Hz pulses. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 13</label>
+         <caption id="ca-18">
+            <p>Turbocharged two-cylinder engine with intake and exhaust manifold in test bench configuration. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 6</label>
+         <caption id="ca-19">
+            <p>Deviation between test bench, 1D simulation, and QS results. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 7</label>
+         <caption id="ca-20">
+            <p>Performance improvements for the calculation of one working cycle of the two-cylinder in full load. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 14</label>
+         <caption id="ca-21">
+            <p>Calibration procedure for a QS model with map-based turbocharger. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 15</label>
+         <caption id="ca-22">
+            <p>Intake and exhaust valve timing of the two-cylinder engine. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 16</label>
+         <caption id="ca-23">
+            <p>Comparison of the intake pressure traces (absolute), measured in the runners, between test bench, 1D simulation, and QS. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 17</label>
+         <caption id="ca-24">
+            <p>Exhaust pressure traces, measured in the exhaust channels, of the test bench, 1D simulation, and QS. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 18</label>
+         <caption id="ca-25">
+            <p>Turbocharger speed and rotor power for one working cycle calculated at 3000 rpm and low part load with QS for an inertia of 1.7E−5 kg*m². © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 19</label>
+         <caption id="ca-26">
+            <p>Reduced mass flow versus pressure ratio points over one working cycle in part load. Including the reduced speed lines from the performance map. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 20</label>
+         <caption id="ca-27">
+            <p>Pressure traces at the exhaust manifold (turbine rotor inlet) for QS models with and without turbocharger. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 21</label>
+         <caption id="ca-28">
+            <p>Mass flow traces at the turbine rotor inlet for QS models with and without turbocharger. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 22</label>
+         <caption id="ca-29">
+            <p>Test bench and adapted QS turbocharger speed during the first phase of the load change. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 23</label>
+         <caption id="ca-30">
+            <p>Simulation of the turbine enthalpy for the measured turbocharger speed trace. © SAE International</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 24</label>
+         <caption id="ca-31">
+            <p>Turbocharger speed traces with constant wall temperature in the exhaust manifolds for QS. © SAE International</p>
+         </caption>
+      </fig>
+   </floats-group>
+</article>

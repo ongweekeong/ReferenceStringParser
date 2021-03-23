@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15372715</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i24737208</issue-id>
+         <article-id pub-id-type="doi">10.2307/24737282</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Gaussian Processes</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>A Multiresolution Gaussian Process Model for the Analysis of Large Spatial Datasets</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Douglas</given-names>
+                  <surname>Nychka</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Soutir</given-names>
+                  <surname>Bandyopadhyay</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Dorit</given-names>
+                  <surname>Hammerling</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Finn</given-names>
+                  <surname>Lindgren</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Stephan</given-names>
+                  <surname>Sain</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>579</fpage>
+         <lpage>599</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737282"/>
+      
+      
+         <abstract>
+            <p>We develop a multiresolution model to predict two-dimensional spatial fields based on irregularly spaced observations. The radial basis functions at each level of resolution are constructed using a Wendland compactly supported correlation function with the nodes arranged on a rectangular grid. The grid at each finer level increases by a factor of two and the basis functions are scaled to have a constant overlap. The coefficients associated with the basis functions at each level of resolution are distributed according to a Gaussian Markov random field (GMRF) and take advantage of the fact that the basis is organized as a lattice. Several numerical examples and analytical results establish that this scheme gives a good approximation to standard covariance functions such as the Matérn and also has flexibility to fit more complicated shapes. The other important feature of this model is that it can be applied to statistical inference for large spatial datasets because key matrices in the computations are sparse. The computational efficiency applies to both the evaluation of the likelihood and spatial predictions.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1479e217a1310">
+          
+            <mixed-citation id="d1479e221" publication-type="other">
+Banerjee, S., Gelfand, A. E., and Carlin, B. P. (2003), Hierarchical Modeling and Analysis for Spatial Data, Boca
+Raton, FL: CRC Press. [579]</mixed-citation>
+        </ref>
+        <ref id="d1479e231a1310">
+          
+            <mixed-citation id="d1479e235" publication-type="other">
+Caragea, P. C., and Smith, R. L. (2007), "Asymptotic Properties of Computationally Efficient Alterna-
+tive Estimators for a Class of Multivariate Normal Models," Journal of Multivariate Analysis, 98,
+1417-1440. [582]</mixed-citation>
+        </ref>
+        <ref id="d1479e248a1310">
+          
+            <mixed-citation id="d1479e252" publication-type="other">
+Cressie, N. A. C., and Johannesson, G. (2008), "Fixed Rank Kriging for Very Large Spatial Data Sets," Journal
+of the Royal Statistical Society, Series B. 70, 209-226. [580,581]</mixed-citation>
+        </ref>
+        <ref id="d1479e262a1310">
+          
+            <mixed-citation id="d1479e266" publication-type="other">
+Cressie, N., and Wikle, C. K. (2011), Statistics for Spatio-Temporal Data, New York: Wiley. [579]</mixed-citation>
+        </ref>
+        <ref id="d1479e274a1310">
+          
+            <mixed-citation id="d1479e278" publication-type="other">
+Eidsvik, J., Finley, A. O., Banerjee, S., and Rue, H. (2010), "Approximate Bayesian Inference for Large Spatial
+Datasets Using Predictive Process Models," Computational Statistics &amp; Data Analysis, 56,1362-1380. [581]</mixed-citation>
+        </ref>
+        <ref id="d1479e288a1310">
+          
+            <mixed-citation id="d1479e292" publication-type="other">
+Fuentes, M. (2007), "Approximate Likelihood for Large Irregularly Spaced Spatial Data," Journal of the American
+Statistical Association, 102, 321. [582]</mixed-citation>
+        </ref>
+        <ref id="d1479e302a1310">
+          
+            <mixed-citation id="d1479e306" publication-type="other">
+Furrer, R., Nychka, D., and Sain, S. (2012), "Fields: Tools for Spatial Data," available at http.V/www.image.
+ucar.edu/Software/Fields. R package version 6.6.4. [587]</mixed-citation>
+        </ref>
+        <ref id="d1479e316a1310">
+          
+            <mixed-citation id="d1479e320" publication-type="other">
+Henderson, H. V„ and Searle, S. R. (1981), "On Deriving the Inverse of a Sum of Matrices," SI AM Review, 23,
+53-60. [586]</mixed-citation>
+        </ref>
+        <ref id="d1479e330a1310">
+          
+            <mixed-citation id="d1479e334" publication-type="other">
+Higdon, D. M. (1998), "A Process-Convolution Approach to Modelling Temperatures in the North Atlantic
+Ocean," Environmental and Ecological Statistics, 5, 173-190. [589]</mixed-citation>
+        </ref>
+        <ref id="d1479e344a1310">
+          
+            <mixed-citation id="d1479e348" publication-type="other">
+Katzfuss, M., and Cressie, N. (2011), "Spatio-Temporal Smoothing and Em Estimation for Massive Remote-
+Sensing Data Sets," Journal of Time Series Analysis, 32, 430-446. [580]</mixed-citation>
+        </ref>
+        <ref id="d1479e359a1310">
+          
+            <mixed-citation id="d1479e363" publication-type="other">
+Lindgren, F., and Rue, H. (2007), "Explicit Construction of gmrf Approximations to Generalized
+Matérn Fields on Irregular Grids," Technical Report, Lund Institute of Technology. Available at
+http://lup. lub.lu. se/record/912688. [580]</mixed-citation>
+        </ref>
+        <ref id="d1479e376a1310">
+          
+            <mixed-citation id="d1479e380" publication-type="other">
+Lindgren, F., Rue, H., and Lindström, J. (2011), "An Explicit Link Between Gaussian Fields and Gaussian Markov
+Random Fields: The Stochastic Partial Differential Equation Approach," Journal of the Royal Statistical
+Society, Series B, 73, 423^198. [580]</mixed-citation>
+        </ref>
+        <ref id="d1479e393a1310">
+          
+            <mixed-citation id="d1479e397" publication-type="other">
+NOAA/NCDC (2011), available at http://www.ncdc.noaa.gov/ghcnm [592]</mixed-citation>
+        </ref>
+        <ref id="d1479e404a1310">
+          
+            <mixed-citation id="d1479e408" publication-type="other">
+Nychka, D., Bandyopadhyay, S., Hammerling, D., Lindgren, F., and Sain, S. (2013), "A Multi-
+Resolution Gaussian Process Model for the Analysis of Large Spatial Data Sets," available at
+http://www.ucar.eduAibrary/collections/technotes. NCAR Tech Note. [586]</mixed-citation>
+        </ref>
+        <ref id="d1479e421a1310">
+          
+            <mixed-citation id="d1479e425" publication-type="other">
+Nychka, D., Hammerling, D., Sain, S., and Lerud, T. (2012), "LatticeKrig: Multiresolution Kriging Based on
+Markov Random Fields," available at http://www.image.ucar.edu/Software/MRKriging. R package version
+2.3. [587]</mixed-citation>
+        </ref>
+        <ref id="d1479e438a1310">
+          
+            <mixed-citation id="d1479e442" publication-type="other">
+R Development Core Team (2011), R: A Language and Environment for Statistical Computing, Vienna, Austria:
+R Foundation for Statistical Computing, available at http://www.R-project.org/. [587]</mixed-citation>
+        </ref>
+        <ref id="d1479e453a1310">
+          
+            <mixed-citation id="d1479e457" publication-type="other">
+Rue, H., and Held, L. (2005), Gaussian Markov Random Fields: Theory and Applications (Vol. 104), Boca Raton,
+FL: Chapman &amp; Hall/CRC. [580]</mixed-citation>
+        </ref>
+        <ref id="d1479e467a1310">
+          
+            <mixed-citation id="d1479e471" publication-type="other">
+Sang, H., and Huang, J. Z. (2011), "A Full Scale Approximation of Covariance Functions for Large Spatial Data
+Sets," Journal of the Royal Statistical Society, Series B, 74,111-132. [581]</mixed-citation>
+        </ref>
+        <ref id="d1479e481a1310">
+          
+            <mixed-citation id="d1479e485" publication-type="other">
+Stein, M. L. (2008), "A Modeling Approach for Large Spatial Datasets," Journal of the Korean Statistical Society,
+37,3. [581]</mixed-citation>
+        </ref>
+        <ref id="d1479e495a1310">
+          
+            <mixed-citation id="d1479e499" publication-type="other">
+Stein, M. L., Welty, L. J., and Chi, Z. (2004), "Approximating Likelihoods for Large Spatial Data Sets," Journal
+of the Royal Statistical Society, Series B, 66, 275-296. [582]</mixed-citation>
+        </ref>
+        <ref id="d1479e509a1310">
+          
+            <mixed-citation id="d1479e513" publication-type="other">
+Wendland, H. (1995), "Piecewise Polynomial, Positive Definite and Compactly Supported Radial Functions of
+Minimal Degree," AICM, 4, 389-396. [584]</mixed-citation>
+        </ref>
+        <ref id="d1479e523a1310">
+          
+            <mixed-citation id="d1479e527" publication-type="other">
+-(1998), "Error Estimates for Interpolation by Compactly Supported Radial Basis Functions of Minimal
+Degree," Journal of Approximation Theory, 93, 258-272. [596]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">230</issue>
+         <issue-id>i344570</issue-id>
+         <article-id pub-id-type="jstor">2584887</article-id>
+         
+         <title-group>
+            <article-title>Computational Scales of Sobolev Norms with Application to Preconditioning</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James H.</given-names>
+                  <surname>Bramble</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Joseph E.</given-names>
+                  <surname>Pasciak</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Panayot S.</given-names>
+                  <surname>Vassilevski</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>463</fpage>
+         <lpage>480</lpage>
+         <page-range>463-480</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584887"/>
+         
+         
+         <abstract>
+            <p>This paper provides a framework for developing computationally efficient multilevel preconditioners and representations for Sobolev norms. Specifically, given a Hilbert space V and a nested sequence of subspaces V&lt;tex-math&gt;$_1 \subset$&lt;/tex-math&gt; V&lt;sub&gt;2&lt;/sub&gt; &lt;tex-math&gt;$\subset$&lt;/tex-math&gt; V... &lt;tex-math&gt;$\subset$&lt;/tex-math&gt; V, we construct operators which are spectrally equivalent to those of the form A = ∑&lt;sub&gt;k&lt;/sub&gt; μ&lt;sub&gt;k&lt;/sub&gt; (Q&lt;sub&gt;k&lt;/sub&gt; - Q&lt;sub&gt;k-1&lt;/sub&gt;). Here μ&lt;sub&gt;k&lt;/sub&gt;, k = 1, 2,..., are positive numbers and Q&lt;sub&gt;k&lt;/sub&gt; is the orthogonal projector onto V&lt;sub&gt;k&lt;/sub&gt; with Q&lt;sub&gt;0&lt;/sub&gt; = 0. We first present abstract results which show when &lt;tex-math&gt;$\mathcal{A} is spectrally equivalent to a similarly constructed operator \tilde{\mathcal{A}}$&lt;/tex-math&gt; defined in terms of &lt;tex-math&gt;$an approximation \tilde{Q}_k of Q_k, fork = 1,2,....$&lt;/tex-math&gt; We show that these results lead to efficient preconditioners for discretizations of differential and pseudo-differential operators of positive and negative order. These results extend to sums of operators. For example, singularly perturbed problems such as I - εΔ can be preconditioned uniformly independently of the parameter ε. We also show how to precondition an operator which results from Tikhonov regularization of a problem with noisy data. Finally, we describe how the technique provides computationally efficient bounded discrete extensions which have applications to domain decomposition.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01106-0</kwd>
+            <kwd>65F10</kwd>
+            <kwd>65N20</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Interpolation Spaces</kwd>
+            <kwd>Equivalent Norms</kwd>
+            <kwd>Finite Elements</kwd>
+            <kwd>Preconditioning</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3106715e172a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3106715e179" publication-type="journal">
+J. H. Bramble and J. E. Pasciak New estimates for multigrid algorithms including the V-cycle
+Math. Comp.60(1993),447-471. MR 94a:65064<object-id pub-id-type="doi">10.2307/2153097</object-id>
+               <fpage>447</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e195a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3106715e202" publication-type="journal">
+J.H. Bramble, Z. Leyk, and J.E. Pasciak, Iterative schemes for non-symmetric and indefinite
+elliptic boundary value problems, Math. Comp.60 (1993) 1-22. MR 93d:65034<object-id pub-id-type="doi">10.2307/2153154</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e218a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3106715e225" publication-type="journal">
+J. H. Bramble, J. E. Pasciak and J. Xu, Parallel multilevel preconditioners, Math. Comp.
+55(1990), 1-22. MR 90k:65170<object-id pub-id-type="doi">10.2307/2008789</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e241a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3106715e248" publication-type="other">
+J. H. Bramble and P. S. Vassilevski, Wavelet-like extension operators in interface domain
+decomposition methods, (unpublished manuscript) 1997.</mixed-citation>
+            </ref>
+            <ref id="d3106715e259a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3106715e266" publication-type="journal">
+J. M. Carnicer, W. Dahmen, and J. M. Pefia, Local decompositions of refinable spaces and
+wavelets, Appl. Comp. Harm. Anal.3(1996), 127-153. MR 97f:42050<person-group>
+                     <string-name>
+                     <surname>Carnicer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>127</fpage>
+               <volume>3</volume>
+               <source>Appl. Comp. Harm. Anal.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e298a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3106715e305" publication-type="book">
+P.G. Ciarlet, The Finite Element Method for Elliptic Problems, North-Holland,New York,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e330a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3106715e337" publication-type="book">
+P. Grisvard, Elliptic Problems in Nonsmooth Domains, Pitman, Boston, 1985. MR
+86m:35004<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic Problems in Nonsmooth Domains</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e362a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3106715e369" publication-type="journal">
+G. Haase, U. Langer, A. Meyer, and S. V. Nepomnyaschikh, Hierarchical extension operators
+and local multigrid methods in domain decomposition preconditioners, East-West J. Numer.
+Math.2(1994), 173-193. MR 95g:65171<person-group>
+                     <string-name>
+                     <surname>Haase</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>2</volume>
+               <source>East-West J. Numer. Math.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e404a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3106715e411" publication-type="book">
+U. Kotyczka and P. Oswald, Piecewise linear prewavelets of small support, in: Approximation
+Theory VIII, vol. 2 (wavelets and multilevel approximation), C. Chui, L.L. Schumaker, eds.,
+World Scientific, Singapore, 1995, 235-242. MR 98e:42035<person-group>
+                     <string-name>
+                     <surname>Kotyczka</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Piecewise linear prewavelets of small support</comment>
+               <fpage>235</fpage>
+               <volume>2</volume>
+               <source>Approximation Theory VIII</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e449a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3106715e456" publication-type="conference">
+R. Lorentz and P. Oswald, Constructing economical Riesz bases for Sobolev spaces, Proceed-
+ings of the Domain Decomposition Conference held in Bergen, Norway, June 3-8, 1996.<person-group>
+                     <string-name>
+                     <surname>Lorentz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Constructing economical Riesz bases for Sobolev spaces</comment>
+               <source>Proceedings of the Domain Decomposition Conference held in Bergen, Norway, June 3-8</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e486a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3106715e493" publication-type="journal">
+F. Natterer, Error bounds for Tikhonov regularization in Hilbert scales, Appl. Anal.18(1984),
+29-37. MR 86e:65081<person-group>
+                     <string-name>
+                     <surname>Natterer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>29</fpage>
+               <volume>18</volume>
+               <source>Appl. Anal.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e525a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3106715e532" publication-type="book">
+S. V. Nepomnyaschikh, Optimal multilevel extension operators, Report SPC 95-3, Jan, 1995,
+Technische Universitat Chemnitz-Zwickau, Germany.<person-group>
+                     <string-name>
+                     <surname>Nepomnyaschikh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Optimal multilevel extension operators</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e557a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3106715e564" publication-type="conference">
+P. Oswald, On discrete norm estimates related to multilevel preconditioners in the finite
+element method, Constructive Theory of Functions, Proc. Int. Conf. Varna 1992, Bulg.
+Acad. Sci., Sofia, 1992, 203-214.<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On discrete norm estimates related to multilevel preconditioners in the finite element method, Constructive Theory of Functions</comment>
+               <fpage>203</fpage>
+               <source>Proc. Int. Conf. Varna 1992, Bulg. Acad. Sci., Sofia</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e599a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3106715e606" publication-type="book">
+P. Oswald, Multilevel Finite Element Approximation, Theory and Applications B. G. Teubner
+Stuttgart, Germany 1994. MR 95k:65110<person-group>
+                     <string-name>
+                     <surname>Oswald</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multilevel Finite Element Approximation</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e631a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3106715e638" publication-type="journal">
+R. Stevenson, A robust hierarchical basis preconditioner on general meshes, Numer. Math.
+78 (1997), 269-303. CMP 98:05<person-group>
+                     <string-name>
+                     <surname>Stevenson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>269</fpage>
+               <volume>78</volume>
+               <source>Numer. Math.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e670a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3106715e677" publication-type="book">
+R. Stevenson, Piecewise linear (pre-) wavelets on non-uniform meshes, Report # 9701, De-
+partment of Mathematics, University of Nijmegen, Nijmegen, The Netherlands, 1997.<person-group>
+                     <string-name>
+                     <surname>Stevenson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Piecewise linear (pre-) wavelets on non-uniform meshes</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e703a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3106715e710" publication-type="journal">
+U. Tautenhahn, Error estimates for regularization methods in Hilbert scales, SIAM J. Numer.
+Anal.33(1996), 2120-2130.<object-id pub-id-type="jstor">10.2307/2158462</object-id>
+               <fpage>2120</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e726a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3106715e733" publication-type="journal">
+P.. S. Vassilevski and J. Wang, Stabilizing the hierarchical basis by approximate wavelets, I:
+Theory, Numer. Linear Alg. Appl.4(1997), 103-126. MR 98c:65197<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>4</volume>
+               <source>Numer. Linear Alg. Appl.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e765a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3106715e772" publication-type="journal">
+P. S. Vassilevski and J. Wang, Stabilizing the hierarchical basis by approximate wavelets,
+II: Implementation and numerical experiments, SIAM J. Sci. Comput.20 (1999), 490-514.
+CMP 98:17<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>490</fpage>
+               <volume>20</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106715e807a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3106715e814" publication-type="journal">
+X. Zhang, Multi-level Additive Schwarz Methods, Courant Inst. Math. Sci., Dept. Comp.
+Sci. Rep.1991.<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <source>Courant Inst. Math. Sci., Dept. Comp. Sci. Rep.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

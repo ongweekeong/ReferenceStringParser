@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">19</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i25765353</issue-id>
+         <article-id pub-id-type="jstor">25765356</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Nonparametric Regression and Correlation</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Combining an Additive and Tree-Based Regression Model Simultaneously: STIMA</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Elise</given-names>
+                  <surname>Dusseldorp</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Claudio</given-names>
+                  <surname>Conversano</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Bart Jan</given-names>
+                  <surname>Van Os</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>514</fpage>
+         <lpage>530</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25765356"/>
+      
+      
+         <abstract>
+            <p>Additive models and tree-based regression models are two main classes of statistical models used to predict the scores on a continuous response variable. It is known that additive models become very complex in the presence of higher order interaction effects, whereas some tree-based models, such as CART, have problems capturing linear main effects of continuous predictors. To overcome these drawbacks, the regression trunk model has been proposed: a multiple regression model with main effects and a parsimonious amount of higher order interaction effects. The interaction effects can be represented by a small tree: a regression trunk. This article proposes a new algorithm—Simultaneous Threshold Interaction Modeling Algorithm (STIMA)—to estimate a regression trunk model that is more general and more efficient than the initial one (RTA) and is implemented in the R-package stima. Results from a simulation study show that the performance of STIMA is satisfactory for sample sizes of 200 or higher. For sample sizes of 300 or higher, the 0.50 SE rule is the best pruning rule for a regression trunk in terms of power and Type I error. For sample sizes of 200, the 0.80 SE rule is recommended. Results from a comparative study of eight regression methods applied to ten benchmark datasets suggest that STIMA and GUIDE are the best performers in terms of cross-validated prediction error. STIMA appeared to be the best method for datasets containing many categorical variables. The characteristics of a regression trunk model are illustrated using the Boston house price dataset. Supplemental materials for this article, including the R-package stima, are available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1751200e204a1310">
+          
+            <mixed-citation id="d1751200e208" publication-type="other">
+Alexander, W. P., and Grimshaw, S. D. (1996), "Treed Regression," Journal of Computational and Graphical
+Statistics, 5, 156-175. [516]</mixed-citation>
+        </ref>
+        <ref id="d1751200e218a1310">
+          
+            <mixed-citation id="d1751200e222" publication-type="other">
+Asuncion, A., and Newman, D. J. (2007), "UCI Machine Learning Repository," available at http://www.ics.uci.
+edu/~mlearn/MLRepository. html. [522]</mixed-citation>
+        </ref>
+        <ref id="d1751200e232a1310">
+          
+            <mixed-citation id="d1751200e236" publication-type="other">
+Breiman, L., Friedman, J. H., Olshen, R. A., and Stone, C. J. (1984), Classification and Regression Trees, London:
+Chapman &amp; Hall. [515,518]</mixed-citation>
+        </ref>
+        <ref id="d1751200e246a1310">
+          
+            <mixed-citation id="d1751200e250" publication-type="other">
+Cohen, J. (1988), Statistical Power Analysis for the Behavioral Sciences (2nd ed.), Hillsdale, NJ: Lawrence Erl-
+baum. [517,520]</mixed-citation>
+        </ref>
+        <ref id="d1751200e261a1310">
+          
+            <mixed-citation id="d1751200e265" publication-type="other">
+Cohen, J., Cohen, P., West, S. G., and Aiken, L. S. (2003), Applied Multiple Regression/Correlation Analysis for
+the Behavioral Sciences (3rd ed.), Mahwah, NJ: Lawrence Erlbaum. [515,528]</mixed-citation>
+        </ref>
+        <ref id="d1751200e275a1310">
+          
+            <mixed-citation id="d1751200e279" publication-type="other">
+Dusseldorp, E., and Meulman, J. J. (2004), "The Regression Trunk Approach to Discover Treatment Covariate
+Interaction," Psychometrika, 69, 355-374. [516,517,519,528]</mixed-citation>
+        </ref>
+        <ref id="d1751200e289a1310">
+          
+            <mixed-citation id="d1751200e293" publication-type="other">
+Dusseldorp, E., Spinhoven, R, Bakker, A., Van Dyck, R., and Van Balkom, A. J. L. M. (2007), "Which Panic
+Disorder Patients Benefit From Which Treatment: Cognitive Therapy or Antidepressants?" Psychotherapy
+and Psychosomatics, 76, 154-161. [517]</mixed-citation>
+        </ref>
+        <ref id="d1751200e306a1310">
+          
+            <mixed-citation id="d1751200e310" publication-type="other">
+Foster, D. P., Stine, R. A., and Waterman, R. P. (1998), Business Analysis Using Regression: A Casebook, New
+York: Springer. [522]</mixed-citation>
+        </ref>
+        <ref id="d1751200e320a1310">
+          
+            <mixed-citation id="d1751200e324" publication-type="other">
+Friedman, J. H. (1991), "Multivariate Adaptive Regression Splines" (with discussion), The Annals of Statistics,
+19, 1-141. [516]</mixed-citation>
+        </ref>
+        <ref id="d1751200e334a1310">
+          
+            <mixed-citation id="d1751200e338" publication-type="other">
+Harrel, F. E., Jr. (2001), Regression Modeling Strategies: With Applications to Linear Models, Logistic Regression,
+and Survival Analysis, New York: Springer. [515]</mixed-citation>
+        </ref>
+        <ref id="d1751200e349a1310">
+          
+            <mixed-citation id="d1751200e353" publication-type="other">
+Hastie, T. J. (2009), "GAM: Generalized Additive Models," R package version 1.0.1, available at http://CRAN.
+R-project.org/package-gam. [523]</mixed-citation>
+        </ref>
+        <ref id="d1751200e363a1310">
+          
+            <mixed-citation id="d1751200e367" publication-type="other">
+Hastie, T. J., and Tibshirani, R. J. (1990), Generalized Additive Models, London: Chapman &amp; Hall. [515]</mixed-citation>
+        </ref>
+        <ref id="d1751200e374a1310">
+          
+            <mixed-citation id="d1751200e378" publication-type="other">
+Hastie, T. J., Tibshirani, R. J., and Friedman, J. H. (2001), The Elements of Statistical Learning, New York:
+Springer. [515]</mixed-citation>
+        </ref>
+        <ref id="d1751200e388a1310">
+          
+            <mixed-citation id="d1751200e392" publication-type="other">
+Leisch, E, Hornik, K., and Ripley, B. D. (2009), "MDA: Mixture and Flexible Discriminant Analysis," R package
+version 0.4-1, available at http://CRAN.R-project.org/package-mda. [523]</mixed-citation>
+        </ref>
+        <ref id="d1751200e402a1310">
+          
+            <mixed-citation id="d1751200e406" publication-type="other">
+Loh, W Y. (2002), "Regression Trees With Unbiased Variable Selection and Interaction Detection," Statistica
+Sinica, 12, 361-386. [516,523]</mixed-citation>
+        </ref>
+        <ref id="d1751200e416a1310">
+          
+            <mixed-citation id="d1751200e420" publication-type="other">
+Morgan, J. N., and Sonquist, J. A. (1963), "Problems in the Analysis of Survey Data, and a Proposal," Journal of
+the American Statistical Association, 58, 415^34. [515]</mixed-citation>
+        </ref>
+        <ref id="d1751200e431a1310">
+          
+            <mixed-citation id="d1751200e435" publication-type="other">
+Quinlan, J. R. (1992), "Learning With Continuous Classes," in AT92: Proceedings of the 5th Australian Joint
+Conference on Artificial Intelligence, eds. A. Adams and L. Sterling, Singapore: World Scientific, pp. 343-
+348. [516]</mixed-citation>
+        </ref>
+        <ref id="d1751200e448a1310">
+          
+            <mixed-citation id="d1751200e452" publication-type="other">
+R Development Core Team (2009), R: A Language and Environment for Statistical Computing, Vienna, Austria:
+R Foundation for Statistical Computing. Available at http://www.R-project.org. [519]</mixed-citation>
+        </ref>
+        <ref id="d1751200e462a1310">
+          
+            <mixed-citation id="d1751200e466" publication-type="other">
+Therneau, T. M., and Atkinson, E. J. (1997), "An Introduction to Recursive Partioning Using the rpart Routines,"
+available at http://mayoresearch.mayo.edu/mayo/research/biostat/upload/61.pdf. [523]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

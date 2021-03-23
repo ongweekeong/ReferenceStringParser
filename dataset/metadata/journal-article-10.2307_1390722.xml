@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">6</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260275</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390722</article-id>
+         
+         <title-group>
+            <article-title>Generalized Cross-Validation for Large-Scale Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Gene H.</given-names>
+                  <surname>Golub</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Urs</given-names>
+                  <surname>von Matt</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>34</lpage>
+         <page-range>1-34</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390722"/>
+         
+         
+         <abstract>
+            <p>Although generalized cross-validation is a popular tool for calculating a regularization parameter, it has been rarely applied to large-scale problems until recently. A major difficulty lies in the evaluation of the cross-validation function that requires the calculation of the trace of an inverse matrix. In the last few years stochastic trace estimators have been proposed to alleviate this problem. This article demonstrates numerical approximation techniques that further reduce the computational complexity. The new approach employs Gauss quadrature to compute lower and upper bounds on the cross-validation function. It only requires the operator form of the system matrix--that is, a subroutine to evaluate matrix-vector products. Thus, the factorization of large matrices can be avoided. The new approach has been implemented in MATLAB. Numerical experiments confirm the remarkable accuracy of the stochastic trace estimator. Regularization parameters are computed for ill-posed problems with 100, 1,000, and 10,000 unknowns.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Gauss quadrature</kwd>
+            <kwd>Generalized cross-validation</kwd>
+            <kwd>Ill-posed problems</kwd>
+            <kwd>Lanczos algorithm</kwd>
+            <kwd>Stochastic trace estimator</kwd>
+            <kwd>Tikhonov regularization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4495355e154a1310">
+               
+               <mixed-citation id="d4495355e158" publication-type="journal">
+Bai, Z., Fahey, M., and Golub, G.H. (1996), "Some Large Scale Matrix Computation Problems," Journal of
+Computational and Applied Mathematics, 74, 71-89.<person-group>
+                     <string-name>
+                     <surname>Bai</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>71</fpage>
+               <volume>74</volume>
+               <source>Journal of Computational and Applied Mathematics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e190a1310">
+               
+               <mixed-citation id="d4495355e194" publication-type="journal">
+Berman, M. (1994), "Automated Smoothing of Image and Other Regularly Spaced Data," IEEE Transactions
+on Pattern Analysis and Machine Intelligence, 16, 460-468.<person-group>
+                     <string-name>
+                     <surname>Berman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>460</fpage>
+               <volume>16</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e226a1310">
+               
+               <mixed-citation id="d4495355e230" publication-type="journal">
+Bernardson, S., McCarty, P., and Thron, C. (1994), "Monte Carlo Methods for Estimating Linear Combinations
+of Inverse Matrix Entries in Lattice QCD," Computer Physics Communications, 78, 256-264.<person-group>
+                     <string-name>
+                     <surname>Bernardson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>256</fpage>
+               <volume>78</volume>
+               <source>Computer Physics Communications</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e262a1310">
+               
+               <mixed-citation id="d4495355e266" publication-type="book">
+Burrage, K., Williams, A., Erhel, J., and Pohl, B. (1994), "The Implementation of a Generalized Cross
+Validation Algorithm Using Deflation Techniques for Linear Systems," Technical Report No. 94-05,
+Seminar fUir Angewandte Mathematik, Eidgenossische Technische Hochschule, Zurich, Switzerland.<person-group>
+                     <string-name>
+                     <surname>Burrage</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Implementation of a Generalized Cross Validation Algorithm Using Deflation Techniques for Linear Systems</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e296a1310">
+               
+               <mixed-citation id="d4495355e300" publication-type="journal">
+Craven, P., and Wahba, G. (1979), "Smoothing Noisy Data with Spline Functions," Numerische Mathematik,
+31, 377-403.<person-group>
+                     <string-name>
+                     <surname>Craven</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>377</fpage>
+               <volume>31</volume>
+               <source>Numerische Mathematik</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e332a1310">
+               
+               <mixed-citation id="d4495355e336" publication-type="book">
+Davis, P.J., and Rabinowitz, P. (1984), Methods of Numerical Integration, Orlando, FL: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of Numerical Integration</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e358a1310">
+               
+               <mixed-citation id="d4495355e362" publication-type="journal">
+Eldèn, L. (1977), "Algorithms for the Regularization of Ill-Conditioned Least Squares Problems," BIT, 17,
+134-145.<person-group>
+                     <string-name>
+                     <surname>Eldèn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>134</fpage>
+               <volume>17</volume>
+               <source>BIT</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e394a1310">
+               
+               <mixed-citation id="d4495355e398" publication-type="journal">
+- (1984), "A Note on the Computation of the Generalized Cross-Validation Function for Ill-Conditioned
+Least Squares Problems," BIT, 24, 467-472.<person-group>
+                     <string-name>
+                     <surname>Eldèn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>467</fpage>
+               <volume>24</volume>
+               <source>BIT</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e430a1310">
+               
+               <mixed-citation id="d4495355e434" publication-type="book">
+Gander, W. (1978), "On the Linear Least Squares Problem with a Quadratic Constraint," Habilitationsschrift
+ETH Zürich, STAN-CS-78-697, Stanford University.<person-group>
+                     <string-name>
+                     <surname>Gander</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the Linear Least Squares Problem with a Quadratic Constraint</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e459a1310">
+               
+               <mixed-citation id="d4495355e463" publication-type="journal">
+Girard, D.A. (1989), "A Fast 'Monte-Carlo Cross-Validation' Procedure for Large Least Squares Problems
+with Noisy Data," Numerische Mathematik, 56, 1-23.<person-group>
+                     <string-name>
+                     <surname>Girard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>56</volume>
+               <source>Numerische Mathematik</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e496a1310">
+               
+               <mixed-citation id="d4495355e500" publication-type="journal">
+(1991), "Asymptotic Optimality of the Fast Randomized Versions of GCV and CL in Ridge Regression
+and Regularization," The Annals of Statistics, 19, 1950-1963.<object-id pub-id-type="jstor">10.2307/2241913</object-id>
+               <fpage>1950</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e516a1310">
+               
+               <mixed-citation id="d4495355e520" publication-type="journal">
+(1995), "The Fast Monte-Carlo Cross-Validation and CL Procedures: Comments, New Results and
+Application to Image Recovery Problems," Computational Statistics, 10, 205-231.<person-group>
+                     <string-name>
+                     <surname>Girard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>10</volume>
+               <source>Computational Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e552a1310">
+               
+               <mixed-citation id="d4495355e556" publication-type="journal">
+Golub, G.H. (1973), "Some Modified Matrix Eigenvalue Problems," SIAM Review, 15, 318-334.<object-id pub-id-type="jstor">10.2307/2028604</object-id>
+               <fpage>318</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e569a1310">
+               
+               <mixed-citation id="d4495355e573" publication-type="journal">
+Golub, G.H., Heath, M., and Wahba, G. (1979), "Generalized Cross-Validation as a Method for Choosing a
+Good Ridge Parameter," Technometrics, 21, 215-223.<object-id pub-id-type="doi">10.2307/1268518</object-id>
+               <fpage>215</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e589a1310">
+               
+               <mixed-citation id="d4495355e593" publication-type="journal">
+Golub, G.H., and Kahan, W. (1965), "Calculating the Singular Values and Pseudo-Inverse of a Matrix," SIAM
+Journal on Numerical Analysis, 2, 205-224.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>2</volume>
+               <source>SIAM Journal on Numerical Analysis</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e625a1310">
+               
+               <mixed-citation id="d4495355e629" publication-type="book">
+Golub, G.H., and Van Loan, C.F. (1989), Matrix Computations (2nd ed.), Baltimore, MD: The Johns Hopkins
+University Press.<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Matrix Computations</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e659a1310">
+               
+               <mixed-citation id="d4495355e663" publication-type="journal">
+Golub, G.H., and Welsch, J.H. (1969), "Calculation of Gauss Quadrature Rules," Mathematics of Computation,
+23, 221-230.<object-id pub-id-type="doi">10.2307/2004418</object-id>
+               <fpage>221</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e679a1310">
+               
+               <mixed-citation id="d4495355e683" publication-type="journal">
+Gu, C., Bates, D.M., Chen, Z., and Wahba, G. (1989), "The Computation of Generalized Cross-Validation
+Functions Through Householder Tridiagonalization With Applications to the Fitting of Interaction Spline
+Models," SIAM Journal on Matrix Analysis and Applications, 10, 457-480.<person-group>
+                     <string-name>
+                     <surname>Gu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>457</fpage>
+               <volume>10</volume>
+               <source>SIAM Journal on Matrix Analysis and Applications</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e718a1310">
+               
+               <mixed-citation id="d4495355e722" publication-type="journal">
+Hansen, P.C. (1994), "Regularization Tools: A Matlab Package for Analysis and Solution of Discrete Ill-Posed
+Problems," Numerical Algorithms, 6, 1-35.<person-group>
+                     <string-name>
+                     <surname>Hansen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>6</volume>
+               <source>Numerical Algorithms</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e754a1310">
+               
+               <mixed-citation id="d4495355e758" publication-type="journal">
+Hutchinson, M.F. (1986), "Algorithm 642: A Fast Procedure for Calculating Minimum Cross-Validation Cubic
+Smoothing Splines," ACM Transactions on Mathematical Software, 12, 150-153.<person-group>
+                     <string-name>
+                     <surname>Hutchinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>150</fpage>
+               <volume>12</volume>
+               <source>ACM Transactions on Mathematical Software</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e790a1310">
+               
+               <mixed-citation id="d4495355e794" publication-type="journal">
+- (1990), "A Stochastic Estimator of the Trace of the Influence Matrix for Laplacian Smoothing Splines,"
+Communications in Statistics, Simulation and Computation, 19, 433-450.<person-group>
+                     <string-name>
+                     <surname>Hutchinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>433</fpage>
+               <volume>19</volume>
+               <source>Communications in Statistics, Simulation and Computation</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e826a1310">
+               
+               <mixed-citation id="d4495355e830" publication-type="journal">
+Hutchinson, M.F., and de Hoog, F.R. (1985), "Smoothing Noisy Data with Spline Functions," Numerische
+Mathematik, 47, 99-106.<person-group>
+                     <string-name>
+                     <surname>Hutchinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>99</fpage>
+               <volume>47</volume>
+               <source>Numerische Mathematik</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e863a1310">
+               
+               <mixed-citation id="d4495355e867" publication-type="journal">
+Jagiello, J. (1994), "Stable Numerical Solution of the Adsorption Integral Equation Using Splines," Langmuir,
+10, 2778-2785.<person-group>
+                     <string-name>
+                     <surname>Jagiello</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2778</fpage>
+               <volume>10</volume>
+               <source>Langmuir</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e899a1310">
+               
+               <mixed-citation id="d4495355e903" publication-type="book">
+Krylov, V.I. (1962), Approximate Calculation of Integrals, translated by A. H. Stroud, New York: Macmillan.<person-group>
+                     <string-name>
+                     <surname>Krylov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximate Calculation of Integrals</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e925a1310">
+               
+               <mixed-citation id="d4495355e929" publication-type="journal">
+Lu, H., and Mathis, F.H. (1992), "Surface Approximation by Spline Smoothing and Generalized Cross-
+Validation," Mathematics and Computers in Simulation, 34, 541-549.<person-group>
+                     <string-name>
+                     <surname>Lu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>541</fpage>
+               <volume>34</volume>
+               <source>Mathematics and Computers in Simulation</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e961a1310">
+               
+               <mixed-citation id="d4495355e965" publication-type="book">
+Morozov, V.A. (1984), Methods for Solving Incorrectly Posed Problems, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Morozov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods for Solving Incorrectly Posed Problems</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e987a1310">
+               
+               <mixed-citation id="d4495355e991" publication-type="journal">
+O'Sullivan, F. (1991), "Sensitivity Analysis for Regularized Estimation in Some System Identification Prob-
+lems," SIAM Journal on Scientific and Statistical Computing, 12, 1266-1283.<person-group>
+                     <string-name>
+                     <surname>O'Sullivan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1266</fpage>
+               <volume>12</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1023a1310">
+               
+               <mixed-citation id="d4495355e1027" publication-type="journal">
+Schumaker, L.L., and Utreras, F.I. (1990), "On Generalized Cross Validation for Tensor Smoothing Splines,"
+SIAM Journal on Scientific and Statistical Computing, 11, 713-731.<person-group>
+                     <string-name>
+                     <surname>Schumaker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>713</fpage>
+               <volume>11</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1060a1310">
+               
+               <mixed-citation id="d4495355e1064" publication-type="journal">
+Shahraray, B., and Anderson, D.J. (1989), "Optimal Estimation of Contour Properties by Cross-Validated
+Regularization," IEEE Transactions on Pattern Analysis and Machine Intelligence, 11, 600-610.<person-group>
+                     <string-name>
+                     <surname>Shahraray</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>600</fpage>
+               <volume>11</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1096a1310">
+               
+               <mixed-citation id="d4495355e1100" publication-type="journal">
+Sidje, R., and Williams, A. (in press), "Fast Generalised Cross Validation," SIAM Journal of Numerical
+Analysis.<person-group>
+                     <string-name>
+                     <surname>Sidje</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM Journal of Numerical Analysis</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1122a1310">
+               
+               <mixed-citation id="d4495355e1126" publication-type="book">
+Stewart, G.W. (1993), "Determining Rank in the Presence of Error," in Linear Algebra for Large Scale and
+Real-Time Applications, eds. M. S. Moonen, G. H. Golub, and B. L. R. De Moor, NATO ASI Series,
+Series E: Applied Sciences, Vol. 232, Kluwer, pp. 275-291.<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Determining Rank in the Presence of Error</comment>
+               <fpage>275</fpage>
+               <volume>232</volume>
+               <source>Linear Algebra for Large Scale and Real-Time Applications</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1164a1310">
+               
+               <mixed-citation id="d4495355e1168" publication-type="book">
+Stieltjes, T.J. (1914), "Quelques recherches sur la thèorie des quadratures dites mecaniques," in Oeuvres
+Complètes de Thomas Jan Stieltjes, (Vol. 1), Societe Mathematique d'Amsterdam, pp. 377-394.<person-group>
+                     <string-name>
+                     <surname>Stieltjes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Quelques recherches sur la thÃ©orie des quadratures dites mÃ©caniques</comment>
+               <fpage>377</fpage>
+               <volume>1</volume>
+               <source>Oeuvres Complètes de Thomas Jan Stieltjes</source>
+               <year>1914</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1203a1310">
+               
+               <mixed-citation id="d4495355e1207" publication-type="book">
+Stroud, A.H., and Secrest, D. (1966), Gaussian Quadrature Formulas, Englewood Cliffs, NJ: Prentice-Hall.<person-group>
+                     <string-name>
+                     <surname>Stroud</surname>
+                  </string-name>
+                  </person-group>
+               <source>Gaussian Quadrature Formulas</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1229a1310">
+               
+               <mixed-citation id="d4495355e1233" publication-type="book">
+The MathWorks Inc. (1992), MATLAB, High-Performance Numeric Computation and Visualization Software,
+Natick, MA: author.<person-group>
+                     <string-name>
+                     <surname>The MathWorks Inc.</surname>
+                  </string-name>
+                  </person-group>
+               <source>MATLAB, High-Performance Numeric Computation and Visualization Software</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1259a1310">
+               
+               <mixed-citation id="d4495355e1263" publication-type="journal">
+Thompson, A.M. (1992), "Estimating the Sun's Rotation From Solar Oscillations by Regularisation," Astron-
+omy and Astrophysics, 265, 289-295.<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>289</fpage>
+               <volume>265</volume>
+               <source>Astronomy and Astrophysics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1295a1310">
+               
+               <mixed-citation id="d4495355e1299" publication-type="journal">
+Thompson, A.M., Brown, J.C., Kay, J.W., and Titterington, D.M. (1991), "A Study of Methods of Choosing
+the Smoothing Parameter in Image Restoration by Regularization," IEEE Transactions on Pattern Analysis
+and Machine Intelligence, 13, 326-339.<person-group>
+                     <string-name>
+                     <surname>Thompson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>326</fpage>
+               <volume>13</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1334a1310">
+               
+               <mixed-citation id="d4495355e1338" publication-type="journal">
+Utreras, F.I. (1980), "Sur le choix du parametre d'ajustement dans le lissage par fonctions spline," Numerische
+Mathematik, 34, 15-28.<person-group>
+                     <string-name>
+                     <surname>Utreras</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>15</fpage>
+               <volume>34</volume>
+               <source>Numerische Mathematik</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1370a1310">
+               
+               <mixed-citation id="d4495355e1374" publication-type="journal">
+(1981), "Optimal Smoothing of Noisy Data Using Spline Functions," SIAM Journal on Scientific and
+Statistical Computing, 2, 349-362.<person-group>
+                     <string-name>
+                     <surname>Utreras</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>349</fpage>
+               <volume>2</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1406a1310">
+               
+               <mixed-citation id="d4495355e1410" publication-type="journal">
+Varah, J.M. (1983), "Pitfalls in the Numerical Solution of Linear Ill-Posed Problems," SIAM Journal on
+Scientific and Statistical Computing, 4, 164-176.<person-group>
+                     <string-name>
+                     <surname>Varah</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>164</fpage>
+               <volume>4</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1442a1310">
+               
+               <mixed-citation id="d4495355e1446" publication-type="book">
+von Matt, U. (1993), Large Constrained Quadratic Problems, Züurich: Verlag der Fachvereine.<person-group>
+                     <string-name>
+                     <surname>von Matt</surname>
+                  </string-name>
+                  </person-group>
+               <source>Large Constrained Quadratic Problems</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1469a1310">
+               
+               <mixed-citation id="d4495355e1473" publication-type="journal">
+Wahba, G. (1978), "Improper Priors, Spline Smoothing and the Problem of Guarding Against Model Errors in
+Regression," Journal of the Royal Statistical Society, Ser. B, 40, 364-372.<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>364</fpage>
+               <volume>40</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1505a1310">
+               
+               <mixed-citation id="d4495355e1509" publication-type="book">
+(1980), "Spline Bases, Regularization, and Generalized Cross Validation for Solving Approximation
+Problems With Large Quantities of Noisy Data," in Approximation Theory III, ed. E. W. Cheney, New
+York: Academic Press, pp. 905-912.<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Spline Bases, Regularization, and Generalized Cross Validation for Solving Approximation Problems With Large Quantities of Noisy Data</comment>
+               <fpage>905</fpage>
+               <source>Approximation Theory III</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1544a1310">
+               
+               <mixed-citation id="d4495355e1548" publication-type="conference">
+(1990), "Spline Models for Observational Data," CBMS-NSF, Regional Conference Series in Applied
+Mathematics (Vol. 59), Philadelphia, PA: SIAM.<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Spline Models for Observational Data</comment>
+               <volume>59</volume>
+               <source>CBMS-NSF, Regional Conference Series in Applied Mathematics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1580a1310">
+               
+               <mixed-citation id="d4495355e1584" publication-type="journal">
+Wahba, G., Johnson, D. R., Gao, F., and Gong, J. (1995), "Adaptive Tuning of Numerical Weather Prediction
+Models: Randomized GCV in Three- and Four-Dimensional Data Assimilation," Monthly Weather Review,
+123, 3358-3369 (also available by anonymous ftp from ftp.stat.wisc.edu in pub/wahba).<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3358</fpage>
+               <volume>123</volume>
+               <source>Monthly Weather Review</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4495355e1619a1310">
+               
+               <mixed-citation id="d4495355e1623" publication-type="journal">
+Wahba, G., and Wendelberger, J. (1980), "Some New Mathematical Methods for Variational Objective Analysis
+Using Splines and Cross Validation," Monthly Weather Review, 108, 1122-1143.<person-group>
+                     <string-name>
+                     <surname>Wahba</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1122</fpage>
+               <volume>108</volume>
+               <source>Monthly Weather Review</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

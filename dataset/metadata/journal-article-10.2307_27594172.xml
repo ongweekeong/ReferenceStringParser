@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">15</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i27594160</issue-id>
+         <article-id pub-id-type="jstor">27594172</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186006X97817</article-id>
+         <title-group>
+            <article-title>Estimation of Binary Markov Random Fields Using Markov Chain Monte Carlo</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Daniel</given-names>
+                  <surname>Smith</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Michael</given-names>
+                  <surname>Smith</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>207</fpage>
+         <lpage>227</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2006 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594172"/>
+      
+      
+         <abstract>
+            <p>This article compares three binary Markov random fields (MRFs) which are popular Bayesian priors for spatial smoothing. These are the Ising prior and two priors based on latent Gaussian MRFs. Concern is given to the selection of a suitable Markov chain Monte Carlo (MCMC) sampling scheme for each prior. The properties of the three priors and sampling schemes are investigated in the context of three empirical examples. The first is a simulated dataset, the second involves a confocal fluorescence microscopy dataset, while the third is based on the analysis of functional magnetic resonance imaging (fMRI) data. In the case of the Ising prior, single site and multi-site Swendsen-Wang sampling schemes are both considered. The single site scheme is shown to work consistently well, while it is shown that the Swendsen-Wang algorithm can have convergence problems. The sampling schemes for the priors are extended to generate the smoothing parameters, so that estimation becomes fully automatic. Although this works well, it is found that for highly contiguous images fixing smoothing parameters to very high values can improve results by injecting additional prior information concerning the level of contiguity in the image. The relative properties of the three binary MRFs are investigated, and it is shown how the Ising prior in particular defines sharp edges and encourages clustering. In addition, one of the latent Gaussian MRF priors is shown to be unable to distinguish between higher levels of smoothing. In the context of the fMRI example we also undertake a simulation study.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Ising Prior</kwd>
+            <kwd>Conditional Autoregression</kwd>
+            <kwd>Swendsen-Wang</kwd>
+            <kwd>Bayesian Image Analysis</kwd>
+            <kwd>Functional Magnetic Resonance Imaging</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d24949e174a1310">
+          
+            <mixed-citation id="d24949e178" publication-type="other">
+Abramowitz, M., and Stegun, I. (1964), Handbook of Mathematical Functions, New York: Dover Publications.</mixed-citation>
+        </ref>
+        <ref id="d24949e185a1310">
+          
+            <mixed-citation id="d24949e189" publication-type="other">
+Albert, J., and Chib S. (1993), "Bayesian Analysis of Binary and Polychotomous Response Data," Journal of the
+American Statistical Association, 88, 669–670.</mixed-citation>
+        </ref>
+        <ref id="d24949e199a1310">
+          
+            <mixed-citation id="d24949e203" publication-type="other">
+Baddeley, A. J. (1992), "An Error Metric for Binary Images," in Robust Computer Vision: Quality of Vision
+Algorithms, eds. W. Forstner and S. Ruwiedel, pp. 59–78.</mixed-citation>
+        </ref>
+        <ref id="d24949e213a1310">
+          
+            <mixed-citation id="d24949e217" publication-type="other">
+Besag, J. (1974), "Spatial Interaction and the Statistical Analysis of Lattice Systems," Journal of the Royal
+Statistical Society, Series B, 36, 192–236.</mixed-citation>
+        </ref>
+        <ref id="d24949e228a1310">
+          
+            <mixed-citation id="d24949e232" publication-type="other">
+Besag, J., and Green, P. (1993), "Spatial Statistics and Bayesian Computation," Journal of the Royal Statistical
+Society, Series B, 55, 25–27.</mixed-citation>
+        </ref>
+        <ref id="d24949e242a1310">
+          
+            <mixed-citation id="d24949e246" publication-type="other">
+Besag, J., and Kooperberg, C. (1995), "On Conditional and Intrinsic Autoregressions," Biometrika, 82, 733–746.</mixed-citation>
+        </ref>
+        <ref id="d24949e253a1310">
+          
+            <mixed-citation id="d24949e257" publication-type="other">
+Cipra, B. A., (1987), "An Introduction to the Ising Model," American Mathematical Monthly, 94, 10, 937–959.</mixed-citation>
+        </ref>
+        <ref id="d24949e264a1310">
+          
+            <mixed-citation id="d24949e268" publication-type="other">
+Descombes, X., Kruggel, F., and von Cramon, (1998), "fMRI Signal Restoration Using a Spatio-Temporal Markov
+Random Field, Preserving Transitions," Neuroimage, 8, 340–349.</mixed-citation>
+        </ref>
+        <ref id="d24949e278a1310">
+          
+            <mixed-citation id="d24949e282" publication-type="other">
+Fahrmeir, L., Gössl, C., and Hennerfeind, A. (2002), "Robust Spatial Smoothing in functional MRI," in Exploratory
+Data Analysis in Empirical Research, eds. M. Schwaiger and O. Optiz, Berlin: Springer-Verlag, pp. 50–57.</mixed-citation>
+        </ref>
+        <ref id="d24949e292a1310">
+          
+            <mixed-citation id="d24949e296" publication-type="other">
+Fricker, M., and White, N. (1992), "Application of Confocal Microscopy and Three-Dimensional Image Analysis
+to Plant and Microbial Cells," Binary, 4, 44–49.</mixed-citation>
+        </ref>
+        <ref id="d24949e307a1310">
+          
+            <mixed-citation id="d24949e311" publication-type="other">
+Friston, K., Ashburner, J., Frith, C., Poline, J., Heather, J., and Frackowiak, R. (1995), "Spatial Registration and
+Normalization of Images," Human Brain Mapping, 2, 165–189.</mixed-citation>
+        </ref>
+        <ref id="d24949e321a1310">
+          
+            <mixed-citation id="d24949e325" publication-type="other">
+Gelman, A., and Meng, X. L. (1998), "Simulating Normalizing Constants: From Importance Sampling to Bridge
+Sampling to Path Sampling," Statistical Science, 13, 163–185.</mixed-citation>
+        </ref>
+        <ref id="d24949e335a1310">
+          
+            <mixed-citation id="d24949e339" publication-type="other">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions and Bayesian Restoration of
+Images," IEEE Transactions on PAMI, 6, 721–741.</mixed-citation>
+        </ref>
+        <ref id="d24949e349a1310">
+          
+            <mixed-citation id="d24949e353" publication-type="other">
+Gössl, C. (2001), Bayesian Models in Functional Magnetic Resonance Imaging: Approaches for Human Brain
+Mapping, Aachen: Shaker-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d24949e363a1310">
+          
+            <mixed-citation id="d24949e367" publication-type="other">
+Graybill, F. (1983), Matrices with Applications in Statistics (2nd ed.), California: Wadsworth.</mixed-citation>
+        </ref>
+        <ref id="d24949e374a1310">
+          
+            <mixed-citation id="d24949e378" publication-type="other">
+Green, P. ( 1995), "Reversible Jump Markov Chain Monte Carlo Computation and Bayesian Model Determination,"
+Biometrika, 82, 711–732.</mixed-citation>
+        </ref>
+        <ref id="d24949e389a1310">
+          
+            <mixed-citation id="d24949e393" publication-type="other">
+Green, P., and Richardson, S. (2002), "Hidden Markov Models and Disease Mapping," Journal of the American
+Statistical Association, 97, 1055–1070.</mixed-citation>
+        </ref>
+        <ref id="d24949e403a1310">
+          
+            <mixed-citation id="d24949e407" publication-type="other">
+Higdon, D. (1994), "Spatial Applications of Markov Chain Monte Carlo for Bayesian Inference," unpublished
+Ph.D. Thesis, Department of Statistics, University of Washington, Seattle.</mixed-citation>
+        </ref>
+        <ref id="d24949e417a1310">
+          
+            <mixed-citation id="d24949e421" publication-type="other">
+—(1998), "Auxiliary Variable Methods for Markov Chain Monte Carlo with Applications," Journal of the
+American Statistical Association, 93, 585–595.</mixed-citation>
+        </ref>
+        <ref id="d24949e431a1310">
+          
+            <mixed-citation id="d24949e435" publication-type="other">
+Hura, M. (1997), "Difficulties in the Use of Auxilary Variables in Markov Chain Monte Carlo," Statistics and
+Computing, 7, 35–44.</mixed-citation>
+        </ref>
+        <ref id="d24949e445a1310">
+          
+            <mixed-citation id="d24949e449" publication-type="other">
+—(1998), "Confocal Fluorescence Microscopy of Leaf Cells: An Application of Bayesian Image Analysis,"
+Applied Statistics, 47, 361–377.</mixed-citation>
+        </ref>
+        <ref id="d24949e459a1310">
+          
+            <mixed-citation id="d24949e463" publication-type="other">
+Kohn, R., Smith M., and Chan, D. (2001), "Nonparametric Regression Using Linear Combinations of Basis
+Functions," Statistics and Computing, 11, 313–332.</mixed-citation>
+        </ref>
+        <ref id="d24949e474a1310">
+          
+            <mixed-citation id="d24949e478" publication-type="other">
+Pettitt, A., Weir, I., and Hart, A. (2002), "A Conditional Autoregressive Gaussian Process for Irregularly Spaced
+Multivariate Data with Application to Modelling Large Sets of Binary Data," Statistics and Computing, 12,
+353–367.</mixed-citation>
+        </ref>
+        <ref id="d24949e491a1310">
+          
+            <mixed-citation id="d24949e495" publication-type="other">
+Raftery, A. (1996), "Hypothesis Testing and Model Selection," in Markov Chain Monte Carlo in Practice, eds.
+W. Gilks, S. Richardson, and D. Spiegelhalter, London: Chapman and Hall, pp. 165–187.</mixed-citation>
+        </ref>
+        <ref id="d24949e505a1310">
+          
+            <mixed-citation id="d24949e509" publication-type="other">
+Rue, H. (1996), "An Introduction to Baddeley's Delta metric," preprint, Department of Mathematical Sciences,
+The Norwegian University of Science and Technology, Trondheim, Norway.</mixed-citation>
+        </ref>
+        <ref id="d24949e519a1310">
+          
+            <mixed-citation id="d24949e523" publication-type="other">
+—(2001), "Fast Sampling of Gaussian Markov Random Fields," Journal of the Royal Statistical Society,
+Series B, 63, 325–338.</mixed-citation>
+        </ref>
+        <ref id="d24949e533a1310">
+          
+            <mixed-citation id="d24949e537" publication-type="other">
+Rue, H., and Syversveen, A. (1995), "Bayesian Object Recognition with Baddeley's Delta Loss," working paper
+number 8, Department of Mathematics, The University of Trondheim, Norway.</mixed-citation>
+        </ref>
+        <ref id="d24949e547a1310">
+          
+            <mixed-citation id="d24949e551" publication-type="other">
+Smith, M., Pütz, B., Auer, D., and Fahrmeir, L. (2003), "Assessing Brain Activity Through Spatial Bayesian
+Variable Selection," Neurolmage, 20, 802–815.</mixed-citation>
+        </ref>
+        <ref id="d24949e562a1310">
+          
+            <mixed-citation id="d24949e566" publication-type="other">
+Swendsen, R., and Wang, J., (1987), "Non-universal Critical Dynamics in Monte Carlo Simulations," Physical
+Review Letters, 58, 86–88.</mixed-citation>
+        </ref>
+        <ref id="d24949e576a1310">
+          
+            <mixed-citation id="d24949e580" publication-type="other">
+Weir, I., and Pettit, A. (2000), "Binary Probability Maps and Using a Hidden Conditional Autoregressive Gaussian
+Process with an Application to Finnish Common Toad Data," Applied Statistics, 49, 473–484.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

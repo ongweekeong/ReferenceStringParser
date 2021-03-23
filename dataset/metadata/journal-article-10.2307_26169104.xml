@@ -1,0 +1,131 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejaltepowe</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019979</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Alternative Powertrains</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">21674191</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">21674205</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26169104</article-id>
+         <title-group>
+            <article-title>A Linear Parameter Varying Combined with Divide-and-Conquer Approach to Thermal System Modeling of Battery Modules</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Asgari</surname>
+                  <given-names>Saeed</given-names>
+               </string-name>
+               <aff>ANSYS Inc.</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Kaushik</surname>
+                  <given-names>Shailendra</given-names>
+               </string-name>
+               <aff>General Motors Co</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>5</month>
+            <year>2016</year>
+            <string-date>May 2016</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">5</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">1</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26169099</issue-id>
+         <fpage>41</fpage>
+         <lpage>49</lpage>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26169104"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>A linear parameter varying (LPV) reduced order model (ROM) is used to approximate the volume-averaged temperature of battery cells in one of the modules of the battery pack with varying mass flow rate of cooling fluid using uniform heat source as inputs. The ROM runs orders of magnitude faster than the original CFD model. To reduce the time it takes to generate training data, used in building LPV ROM, a divide-and-conquer approach is introduced. This is done by dividing the battery module into a series of mid-cell and end-cell units. A mid-cell unit is composed of a cooling channel sandwiched in between two half -cells. A half-cell has half as much heat capacity as a full-cell. An end-cell unit is composed of a cooling channel sandwiched in between full-cell and a half-cell. A mass flow rate distribution look-up-table is generated from a set of steady-state simulations obtained by running the full CFD model at different inlet manifold mass flow rate samples. This look-up-table is used to build a series of mid-cell and end-cell LPV ROMs that are used to approximate the thermal behavior of the battery module. The use of divide-and conquer system modeling combined with the LPV ROM will provide a good approximation to the thermal behavior of the battery module while significantly reducing the time required to generate the training data.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Amsallem David and Farhat Charbel, “Stabilization of Projection-Based Reduced-Order Models”, International Journal for Numerical Methods in Engineering, 2011; 00:1-22.</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">Asgari, S., Hu, X., Tsuk, M., and Kaushik, S., “Application of POD plus LTI ROM to Battery Thermal Modeling: SISO Case,” SAE Int. J. Commer. Veh. 7(1):278-285, 2014, doi:10.4271/2014-01-1843.</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Asgari S., Lalgudi S., Tsuk M., and Kher S., “Fast and Reliable Macromodeling for Heat Flows Under the Linear Time-Invariant Assumption,” NAFEMS World Conference Proceedings, May, 2011.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Bamieh B. and Giarré L., “Identification of linear parameter varying models,” Int. J. Robust Nonlinear Control, vol. 12, no. 9, pp. 841-853, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">De Caigny, J., Camino, J., Swevers, J.: “Interpolating model identification for SISO linear parameter-varying systems,” Mech. Syst. Signal Process., 2009, 23, pp. 2395-2417.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">De Caigny J., Camino J. F., and Swevers J., “Identification of MIMO LPV models based on interpolation,” in Proc. Int. Conf. Noise Vibration Eng., Leuven, Belgium, Sep. 2008, pp. 2631-2644.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Chaturantabut S. and Sorensen D. C., “Nonlinear model reduction via discrete empirical interpolation,” SIAM Journal on Scientific Computing, vol. 32, no. 5, pp. 2737-2764, 2010.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">Chen M. and Rincon-Mora G. A., “Accurate Electrical Battery Model Capable of Predicting Runtime and I-V Performance” IEEE Trans. On Energy Conversion, Vol. 21, No.2, June 2006.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Coelho C. P., Phillips J. R., Silveira L. M., “Robust Rational Function Approximation Algorithm for Model Generation,” Proceedings of the 36th ACM/IEEE DAC Conference, 1-58113-109-7, 1999.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Goethals, I., Pelckmans, K., Suykens, J., Moor, B., “Identification of MIMO Hammerstein models using least squares support vector machines,” Automatica 41, 1263-1272, 2005.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Gustavsen B., Semlyen A., “Rational Approximation of Frequency Domain Responses by Vector Fitting,” IEEE Trans. Power Del., vol. 14, no. 3, p. 1052-1061, Jul. 1999.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Hendrickx W., and Dhaene T., “A Discussion of Rational Approximation of Frequency Domain Responses by Vector Fitting,” IEEE Trans. Power Syst., vol. 21, no. 1, pp. 441-443 Feb. 2006.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Laub A., Heath M., Paige C., and Ward R., “Computation of system balancing transformations and other applications of simultaneous diagonalization algorithms,” IEEE Trans. Automatic Control, vol. 32, no. 2, pp. 115-122, Feb. 1987.</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label>
+            <mixed-citation publication-type="other">Lovera M. and Mercere G., “Identification for gain-scheduling: A balanced subspace approach,” in Proc. Amer. Control Conf., New York, Jul. 2007, pp. 858-863.</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label>
+            <mixed-citation publication-type="other">Toth R., “Modeling and identification of linear parameter-varying systems: an orthonormal basis function approach,” PhD thesis, Delft University of Technology Delft, The Netherlands, 2008.</mixed-citation>
+         </ref>
+         <ref id="ref16">
+            <label>16.</label>
+            <mixed-citation publication-type="other">http://web.stanford.edu/class/archive/ee/ee392m/ee392m.1056/Lecture2_LinearSystems.pdf.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

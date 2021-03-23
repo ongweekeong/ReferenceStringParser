@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i40000371</issue-id>
+         <article-id pub-id-type="jstor">40006951</article-id>
+         <title-group>
+            <article-title>A Controlled Skip Parser</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Kenji</given-names>
+                  <surname>Yamada</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>15</lpage>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1998 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40006951"/>
+         
+         
+         <abstract>
+            <p>Real-world natural language sentences are often long and complex, and contain unexpected grammatical constructions. They even include noise and ungrammaticality. This paper describes the Controlled Skip Parser, a program that parses such real-world sentences by skipping some of the words in the sentence. The new feature of this parser is that it controls its behavior by finding out which words to skip, without using domain-specific knowledge. The parser is a priority- based chart parser. By assigning appropriate priority levels to the constituents in the chart, the parser's behavior is controlled. Statistical information is used for assigning priority levels. The statistical information (n-grams) can be thought of as a generalized approximation of the grammar learned from past successful experiences. The control mechanism gives a great speed-up and reduction in memory usage. Experiments on real newspaper articles are shown, and our experience with this parser in a machine translation system is described.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>syntactic parser</kwd>
+            <kwd>skip parser</kwd>
+            <kwd>robust processing</kwd>
+            <kwd>statistical natural language processing</kwd>
+            <kwd>bigrams</kwd>
+            <kwd>n-grams</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <ref-list>
+            <title>Notes</title>
+            <ref id="d364211e154a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d364211e161" publication-type="other">
+Rabiner &amp; Juang (1993).</mixed-citation>
+            </ref>
+            <ref id="d364211e168a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d364211e175" publication-type="other">
+JUMAN (Matsumoto et al., 1993)</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d364211e191a1310">
+               
+               <mixed-citation id="d364211e195" publication-type="other">
+Ayuso, D.M. and the PLUM Research Group: 1994, 'Pattern Matching in a Linguistically-Motivated
+Text Understanding System', in Proceedings of the ARPA Human Language Technology
+Workshop, Plainsboro, NJ, pp. 182-186.</mixed-citation>
+            </ref>
+            <ref id="d364211e208a1310">
+               
+               <mixed-citation id="d364211e212" publication-type="other">
+Brown, P.F., J. Cocke, S.A. Delia Pietra, VJ. Delia Pietra, F. Jelinek, J.D. Lafferty, R.L. Mercer, and
+PS. Roossin: 1990, 'A Statistical Approach to Machine Translation', Computational Linguistics
+16, 79-85.</mixed-citation>
+            </ref>
+            <ref id="d364211e225a1310">
+               
+               <mixed-citation id="d364211e229" publication-type="other">
+Brown, PR, S.A. Delia Pietra, VJ. Delia Pietra, and R.L. Mercer: 1993, 'The Mathematics of
+Statistical Machine Translation: Parameter Estimation', Computational Linguistics 19, 263-31 1.</mixed-citation>
+            </ref>
+            <ref id="d364211e239a1310">
+               
+               <mixed-citation id="d364211e243" publication-type="other">
+Hobbs, J.R., D.E. Appelt, J. Bear, and M. Tyson: 1992, 'Robust Processing of Real-World Natural
+Language Texts', in Third Conference on Applied Natural Language Processing, Trento, Italy,
+pp. 186-192.</mixed-citation>
+            </ref>
+            <ref id="d364211e257a1310">
+               
+               <mixed-citation id="d364211e261" publication-type="other">
+Jackson, E., D. Appelt, J. Bear, R Moore, and A. Podlozny: 1991, 'A Template Matcher for Ro-
+bust NL Interpretation', in Workshop on Speech and Natural Language Processing, Asilomar,
+California, pp. 190-194.</mixed-citation>
+            </ref>
+            <ref id="d364211e274a1310">
+               
+               <mixed-citation id="d364211e278" publication-type="other">
+Kay, M.: 1980, Algorithm Schemata and Data Structures in Syntactic Processing, Technical Report,
+CSL-80-12, Xerox Palo Alto Research Center.</mixed-citation>
+            </ref>
+            <ref id="d364211e288a1310">
+               
+               <mixed-citation id="d364211e292" publication-type="other">
+Knight, K., I. Chander, M. Haines, V. Hatzivassiloglou, E.H. Hovy, M. Iida, S.K. Luk, R.A. Whit-
+ney, and K. Yamada: 1995, 'Filling Knowledge Gaps in a Broad-Coverage Machine Translation
+System', in 14th International Joint Conference on Artificial Intelligence, Montreal, Canada,
+pp. 1390-1396.</mixed-citation>
+            </ref>
+            <ref id="d364211e308a1310">
+               
+               <mixed-citation id="d364211e312" publication-type="other">
+Lavie, A.: 1994, 'An Integrated Heuristic Scheme for Partial Parse Evaluation', in 32rd Annual
+Meeting of the Association for Computational Linguistics, Las Cruces, NM, pp. 316-318.</mixed-citation>
+            </ref>
+            <ref id="d364211e322a1310">
+               
+               <mixed-citation id="d364211e326" publication-type="other">
+Lavie, A., L. Levin, A. Waibel, D. Gates, M. Gavalda, and L. Mayfleld: 1996, 'System Description
+JANUS, Multilingual Translation of Spontaneous Speech in a Limited Domain', in Expanding
+MT Horizons: Proceedings of the Second Conference of the Association for Machine Translation
+in the Americas, Montreal, Quebec, pp. 252-255.</mixed-citation>
+            </ref>
+            <ref id="d364211e342a1310">
+               
+               <mixed-citation id="d364211e346" publication-type="other">
+Lavie, A. and M. Tomita: 1993, 'GLR* - An Efficient Noise- skipping Parsing Algorithm for Con-
+text Free Grammars', in Proceedings of the 3rd International Workshop on Parsing Technology,
+Tilburg, The Netherlands and Durbuy, Belgium, pp. 123-134.</mixed-citation>
+            </ref>
+            <ref id="d364211e360a1310">
+               
+               <mixed-citation id="d364211e364" publication-type="other">
+Matsumoto, Y., S. Kurohashi, T. Utsuro, Y. Myoki, and M. Nagao: 1993, Japanese Morphological
+Analysis System JUMAN Manual, Kyoto University.</mixed-citation>
+            </ref>
+            <ref id="d364211e374a1310">
+               
+               <mixed-citation id="d364211e378" publication-type="other">
+McDonald, D.D.: 1992, 'An Efficient Chart-based Algorithm for Partial-Parsing of Unrestricted
+Texts', in Third Conference on Applied Natural Language Processing, Trento, Italy, pp. 193-200.</mixed-citation>
+            </ref>
+            <ref id="d364211e388a1310">
+               
+               <mixed-citation id="d364211e392" publication-type="other">
+Mellish, C.S.: 1989, 'Some Chart-based Techniques for Parsing Ill-formed Input', in 27th An-
+nual Meeting of the Association for Computational Linguistics, Vancouver, British Columbia,
+pp. 102-109.</mixed-citation>
+            </ref>
+            <ref id="d364211e405a1310">
+               
+               <mixed-citation id="d364211e409" publication-type="other">
+Pereira, F.C., Y. Singer, and N. Tishby: 1995, 'Beyond Word N-grams', in 33rd Annual Meeting of
+the Association for Computational Linguistics, Cambridge, Mass., pp. 95-106.</mixed-citation>
+            </ref>
+            <ref id="d364211e419a1310">
+               
+               <mixed-citation id="d364211e423" publication-type="other">
+Rabiner, L. and B. Juang: 1993, Fundamentals of Speech Recognition. Prentice Hall, New Jersey.</mixed-citation>
+            </ref>
+            <ref id="d364211e430a1310">
+               
+               <mixed-citation id="d364211e434" publication-type="other">
+Seneff, S.: 1992, 'A Relaxation Method for Understanding Spontaneous Speech Utterances', in
+Proceedings: Speech and Natural Language Workshop, Harriman, NY, pp. 299-304.</mixed-citation>
+            </ref>
+            <ref id="d364211e445a1310">
+               
+               <mixed-citation id="d364211e449" publication-type="other">
+Stallard, D. and R. Bobrow: 1993, 'The Semantic Linker - A New Fragment Combining Method', in
+Proceedings of the ARPA Human Language Technology Workshop, Princeton, NJ, pp. 37-42.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

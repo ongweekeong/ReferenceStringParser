@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">115</volume>
+         <issue-id>i40197108</issue-id>
+         <article-id pub-id-type="jstor">44700044</article-id>
+         <title-group>
+            <article-title>Development of Ground Level Simulation Tool for Automotive Applications</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Seungjae</given-names>
+                  <surname>Lee</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Junwan</given-names>
+                  <surname>Tak</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Sunsuk</given-names>
+                  <surname>Ok</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jangdon</given-names>
+                  <surname>Choi</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Sangki</given-names>
+                  <surname>Kim</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Taeyeon</given-names>
+                  <surname>Lee</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ealgoo</given-names>
+                  <surname>Kim</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Hakbong</given-names>
+                  <surname>Kim</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jaehong</given-names>
+                  <surname>Park</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>234</fpage>
+         <lpage>239</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2007 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44700044"/>
+      
+      
+         <abstract>
+            <p>This paper describes the ground system model and algorithm for a ground level simulation tool. First, the modeling of an automotive ground system will be discussed and the algorithm for a simulation tool will be explained. We divided the model into a ground tree and a ground body. The ground tree model consists of resistance formed by the wires that connect the load to ground point with various structures and the ground body model consists of resistance between ground points in the car body. The wires with large current, such as engine ground cable, was modeled in detail by dividing the resistance into wire, bolt, and clamping resistance, in order to simulate the effect of increased contact resistance after durability test. The algorithm of the ground level simulation tool was designed to adjust the currents of the alternator, battery, and ground points in order to evaluate the various driving and load conditions. The simulation tool uses a SPICE engine to simulate the model and calculate current and voltage at loads and ground points. Using a data base of actual vehicle measurements for inputs to in the simulation tool comparisons of the results of simulation to actual measurements were enabled. The average difference was 1.95% and maximum difference was 6.9%.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCE</title>
+        <ref id="d862e302a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d862e309" publication-type="other">
+H. Huang, J. M. Miller and P. R. Nicastri,
+"Automotive Electrical System in the New
+Millennium", SAE 2000 World Congress, 2000.</mixed-citation>
+        </ref>
+        <ref id="d862e322a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d862e329" publication-type="other">
+W. J. Liao, B. A. Baertlein, W. Gilmore, "The Role of
+Grounding in Automotive EMC", IEEE International
+symposium on Electromagnetic Compatibility, 1 999</mixed-citation>
+        </ref>
+        <ref id="d862e342a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d862e349" publication-type="other">
+A. Englmaier, B. Scholl, R. Weigel, P. Russer, "EMC
+Modelling Strategy For Automotive Applications",
+29th European Microwave Conference, 1999.</mixed-citation>
+        </ref>
+        <ref id="d862e362a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d862e369" publication-type="other">
+SAE International, "Electrical Grounding Practice",
+J 1908, 2002.</mixed-citation>
+        </ref>
+        <ref id="d862e380a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d862e387" publication-type="other">
+H. W. Ott, "Noise Reduction Techniques in
+Electronic Systems", John Wiley and Sons, New
+York, 1988.</mixed-citation>
+        </ref>
+        <ref id="d862e400a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d862e407" publication-type="other">
+A. P. Meliopoulos, "Power System Grounding and
+Transients", Marcel Dekker, Inc., New York and
+Basel, 1988.</mixed-citation>
+        </ref>
+        <ref id="d862e420a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d862e427" publication-type="other">
+H. Wu, J. W. Meyer, K. Lee, A. Baber, "Accurate
+Power Supply and Ground Plane Pair Models", IEEE
+Transactions on Advanced Package, Vol. 22, No. 3,
+1999.</mixed-citation>
+        </ref>
+        <ref id="d862e443a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d862e450" publication-type="other">
+F. Y. Yuan, T. K. Postel, L. M. Rubin, "Analysis and
+Modelling of Power Distribution Networks and Plane
+Structures in Multichip Modules and PCB's", IEEE
+International Symposium on Electromagnetic
+Compatibility, 1995.</mixed-citation>
+        </ref>
+        <ref id="d862e469a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d862e476" publication-type="other">
+I. Novak, J. R. Miller, E. Blomberg, "Simulation
+Complex Power-Ground Plane Shapes with
+Variable-Size Cell SPICE Grids", Proceedings of the
+11th Topical Meeting on Electrical Performance of
+Electronic Packaging, 2002.</mixed-citation>
+        </ref>
+        <ref id="d862e495a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d862e502" publication-type="other">
+Robert Bosch GmbH, "Automotive Electric/Electronic
+Systems", SAE, 1988.</mixed-citation>
+        </ref>
+        <ref id="d862e513a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d862e520" publication-type="other">
+Donghwan Lee, Hansang Lim, Jaehong Park,
+Soonseock Ok, Junwan Tak, Euibong Kim, "Analysis
+of An Automotive Ground System Based on a
+Ground Model and Current Distribution in It", SAE
+2004 World Congress &amp; Exhibition, Detroit, Ml, USA,
+March 2004</mixed-citation>
+        </ref>
+        <ref id="d862e543a1310">
+            <label>12</label>
+          
+          
+            <mixed-citation id="d862e552" publication-type="other">
+XueFeng Jin, et al., " Durability analysis of ground
+point voltages in automotive ground system using
+the equivalent resistor model", 13th International
+Pacific Conference on Automotive Engineering, April
+2005</mixed-citation>
+        </ref>
+        <ref id="d862e571a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d862e578" publication-type="other">
+Shiva Ram Krishna, et al., " Study and Analysis on
+the affect of different operating conditions on
+automotive ground voltages", 13th International
+Pacific Conference on Automotive Engineering, April
+2005</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">17</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i27594304</issue-id>
+         <article-id pub-id-type="jstor">27594314</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186008X319854</article-id>
+         <title-group>
+            <article-title>Posterior Simulation in the Generalized Linear Mixed Model with Semiparametric Random Effects</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Subharup</given-names>
+                  <surname>Guha</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>410</fpage>
+         <lpage>425</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2008 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/27594314"/>
+      
+      
+         <abstract>
+            <p>Generalized linear mixed models with semiparametric random effects are useful in a wide variety of Bayesian applications. When the random effects arise from a mixture of Dirichlet process (MDP) model with normal base measure, Gibbs sampling algorithms based on the Pólya urn scheme are often used to simulate posterior draws in conjugate models (essentially, linear regression models and models for binary outcomes). In the nonconjugate case, some common problems associated with existing simulation algorithms include convergence and mixing difficulties. This article proposes an algorithm for MDP models with exponential family likelihoods and normal base measures. The algorithm proceeds by making a Laplace approximation to the likelihood function, thereby matching the proposal with that of the Gibbs sampler. The proposal is accepted or rejected via a Metropolis—Hastings step. For conjugate MDP models, the algorithm is identical to the Gibbs sampler. The performance of the technique is investigated using a Poisson regression model with semiparametric random effects. The algorithm performs efficiently and reliably, even in problems where large-sample results do not guarantee the success of the Laplace approximation. This is demonstrated by a simulation study where most of the count data consist of small numbers. The technique is associated with substantial benefits relative to existing methods, both in terms of convergence properties and computational cost.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Dirichlet process models</kwd>
+            <kwd>Laplace approximation</kwd>
+            <kwd>MCMC</kwd>
+            <kwd>Nonconjugate models</kwd>
+            <kwd>Pólya urn scheme</kwd>
+            <kwd>Semiparametric Bayesian methods</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3602404e141a1310">
+          
+            <mixed-citation id="d3602404e145" publication-type="other">
+Antoniak, C. E. (1974), "Mixtures of Dirichlet Processes with Applications to Bayesian Nonparametric Prob-
+lems," The Annals of Statistics, 2, 1152–1174.</mixed-citation>
+        </ref>
+        <ref id="d3602404e155a1310">
+          
+            <mixed-citation id="d3602404e159" publication-type="other">
+Blackwell, D., and MacQueen, J. B. (1973), "Ferguson Distributions via Pólya Urn Schemes," The Annals of
+Statistics, 1,353–355.</mixed-citation>
+        </ref>
+        <ref id="d3602404e169a1310">
+          
+            <mixed-citation id="d3602404e173" publication-type="other">
+Breslow, N., and Day, N. E. (1987), Statistical Methods in Cancer Research, Volume 2: The Design and Analysis
+of Cohort Studies, Lyon: International Agency for Research on Cancer.</mixed-citation>
+        </ref>
+        <ref id="d3602404e183a1310">
+          
+            <mixed-citation id="d3602404e187" publication-type="other">
+Burden S., Guha, S., Morgan, G., Ryan, L., and Young, L. (2005), "Spatio-Temporal Analysis of Ischémie Heart
+Disease in NSW, Australia," Environmental and Ecological Statistics, 12, 427–448.</mixed-citation>
+        </ref>
+        <ref id="d3602404e198a1310">
+          
+            <mixed-citation id="d3602404e202" publication-type="other">
+Bush, C. A., and MacEachern S. N. (1996), "A Semiparametric Bayesian Model for Randomized Block Designs,"
+Biometrika, 83, 275–285.</mixed-citation>
+        </ref>
+        <ref id="d3602404e212a1310">
+          
+            <mixed-citation id="d3602404e216" publication-type="other">
+Chib, S., and Greenberg, E. (1994), "Bayes Inference in Regression Models with ARMA(/?, q) Errors," Journal
+of Econometrics, 64, 183–206.</mixed-citation>
+        </ref>
+        <ref id="d3602404e226a1310">
+          
+            <mixed-citation id="d3602404e230" publication-type="other">
+Chib, S., Greenberg, E., and Winkelmann, R. (1998), "Posterior Simulation and Bayes Factors in Panel Count
+Data Models," Journal of Econometrics, 86, 33–54.</mixed-citation>
+        </ref>
+        <ref id="d3602404e240a1310">
+          
+            <mixed-citation id="d3602404e244" publication-type="other">
+Dey, D., Müller, P., and Sinha, D. (1998), Practical Nonparametric and Semiparametric Bayesian Statistics, New
+York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d3602404e254a1310">
+          
+            <mixed-citation id="d3602404e258" publication-type="other">
+Escobar, M. D. (1994), "Estimating Normal Means with a Dirichlet Process Prior," Journal of the American
+Statistical Association, 89, 268–277.</mixed-citation>
+        </ref>
+        <ref id="d3602404e268a1310">
+          
+            <mixed-citation id="d3602404e272" publication-type="other">
+Escobar, M. D., and West, M. (1995), "Bayesian Density Estimation and Inference Using Mixtures," Journal of
+the American Statistical Association, 90, 577–588.</mixed-citation>
+        </ref>
+        <ref id="d3602404e283a1310">
+          
+            <mixed-citation id="d3602404e287" publication-type="other">
+Ferguson, T. S. (1973), "Estimating Normal Means With a Dirichlet Process Prior," The Annals of Statistics, 1,
+209–230.</mixed-citation>
+        </ref>
+        <ref id="d3602404e297a1310">
+          
+          
+            <mixed-citation id="d3602404e303" publication-type="other">
+Guha, S., Ryan, L. M., and Morara, M. (2008), "Gauss-Seidel Estimation of Generalized Linear Mixed Models
+with Application to Poisson Modeling of Spatially Varying Disease Rates," Journal of Computational and
+Graphical Statistics, tentatively accepted.</mixed-citation>
+        </ref>
+        <ref id="d3602404e316a1310">
+          
+            <mixed-citation id="d3602404e320" publication-type="other">
+Guha, S., Ryan, L. M, Morgan, G., and Beard, J. (2007), "Age and Gender Modify the Association Between
+Socio-economic Factors and Heart Disease in New South Wales, Australia," in preparation.</mixed-citation>
+        </ref>
+        <ref id="d3602404e330a1310">
+          
+            <mixed-citation id="d3602404e334" publication-type="other">
+Harville, D. A. (1977), "Maximum Likelihood Approaches to Variance Component Estimation and to Related
+Problems," Journal of the American Statistical Association, 72, 320–340.</mixed-citation>
+        </ref>
+        <ref id="d3602404e344a1310">
+          
+            <mixed-citation id="d3602404e348" publication-type="other">
+Ishwaran, H., and James, L. (2001), "Gibbs Sampling Methods for Stick-Breaking Priors," Journal of the Ameri-
+can Statistical Association, 96, 161–173.</mixed-citation>
+        </ref>
+        <ref id="d3602404e358a1310">
+          
+            <mixed-citation id="d3602404e362" publication-type="other">
+Ishwaran, H., and Zarepour, M. (2002), "Dirichlet Orior Sieves in Finite Normal Mixtures," Statistica Sinica, 12,
+941–963.</mixed-citation>
+        </ref>
+        <ref id="d3602404e373a1310">
+          
+            <mixed-citation id="d3602404e377" publication-type="other">
+Kleinman, K. P., and Ibrahim, J. G. (1998a), "A Semiparametric Bayesian Approach to the Random Effects
+Model," Biometrics, 54, 921–938.</mixed-citation>
+        </ref>
+        <ref id="d3602404e387a1310">
+          
+            <mixed-citation id="d3602404e391" publication-type="other">
+—(1998b), "A Semi-parametric Bayesian Approach to Generalized Linear Mixed Models," Statistics in
+Medicine, 17, 2579–2596.</mixed-citation>
+        </ref>
+        <ref id="d3602404e401a1310">
+          
+            <mixed-citation id="d3602404e405" publication-type="other">
+Laird, N. M., and Ware, J. H. (1982), "Random-Effects Models for Longitudinal Data," Biometrics, 38, 963–974.</mixed-citation>
+        </ref>
+        <ref id="d3602404e412a1310">
+          
+            <mixed-citation id="d3602404e416" publication-type="other">
+MacEachern, S. N. (1994), "Estimating Normal Means with a Conjugate Style Dirichlet Process Prior," Commu-
+nications in Statistics: Simulation and Computation, 23, 121–141.</mixed-citation>
+        </ref>
+        <ref id="d3602404e426a1310">
+          
+            <mixed-citation id="d3602404e430" publication-type="other">
+—(1998), "Computational Methods for Mixture of Dirichlet Process Models," in Practical Nonparametric
+and Semiparametric Bayesian Statistics, eds. D. Dey, P. Müller, and D. Sinha, New York: Springer-Verlag,
+pp. 23–43.</mixed-citation>
+        </ref>
+        <ref id="d3602404e443a1310">
+          
+            <mixed-citation id="d3602404e447" publication-type="other">
+MacEachern, S. N., and Müller, P. (1998), "Estimating Mixture of Dirichlet Process Models," Journal of Compu-
+tational and Graphical Statistics, 1, 223–238.</mixed-citation>
+        </ref>
+        <ref id="d3602404e458a1310">
+          
+            <mixed-citation id="d3602404e462" publication-type="other">
+Marmot, M. G., Bosma H., Hemingway H., et al. (1997). "Contribution of Job Control and Other Risk Factors to
+Social Variations in Coronary Heart Disease Incidence," Lancet, 350, 235–239.</mixed-citation>
+        </ref>
+        <ref id="d3602404e472a1310">
+          
+            <mixed-citation id="d3602404e476" publication-type="other">
+McCullagh, P., and Neider, J. A. (1999), Generalized Linear Models (2nd ed.), Boca Raton, FL: CRC Press.</mixed-citation>
+        </ref>
+        <ref id="d3602404e483a1310">
+          
+            <mixed-citation id="d3602404e487" publication-type="other">
+Neal, R. M. (2000), "Markov Chain Sampling Methods for Dirichlet Process Mixture Models," Journal of Com-
+putational and Graphical Statistics, 9, 283–297.</mixed-citation>
+        </ref>
+        <ref id="d3602404e497a1310">
+          
+            <mixed-citation id="d3602404e501" publication-type="other">
+Papaspiliopoulos, O., and Roberts, G. (2008), "Retrospective MCMC for Dirichlet Process Hierarchical Models,"
+Biometrika, 95, 169–186.</mixed-citation>
+        </ref>
+        <ref id="d3602404e511a1310">
+          
+            <mixed-citation id="d3602404e515" publication-type="other">
+Ripley, B. D. (1987), Stochastic Simulation, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d3602404e522a1310">
+          
+            <mixed-citation id="d3602404e526" publication-type="other">
+Roberts, G. O., Gelman, A., and Gilks, W. R. (1997), "Weak Convergence and Optimal Scaling of Random Walk
+Metropolis Algorithms," Annals of Applied Probability, 1, 110–120.</mixed-citation>
+        </ref>
+        <ref id="d3602404e537a1310">
+          
+            <mixed-citation id="d3602404e541" publication-type="other">
+Sethuraman, J. (1994), "A Constructive Definition of Dirichlet Priors," Statistica Sinica, 4, 639–650.</mixed-citation>
+        </ref>
+        <ref id="d3602404e548a1310">
+          
+            <mixed-citation id="d3602404e552" publication-type="other">
+Sethuraman, J., and Tiwari, R. C. (1982), "Convergence of Dirichlet Measures and the Interpretation of their
+Parameter," in Statistical Decision Theory and Related Topics III, in two volumes, eds. S. S. Gupta and J. O.
+Berger, 2, New York: Academic Press, pp. 305–315.</mixed-citation>
+        </ref>
+        <ref id="d3602404e565a1310">
+          
+            <mixed-citation id="d3602404e569" publication-type="other">
+Tierney, L. (1994), "Markov Chains for Exploring Posterior Distributions," The Annals of Statistics, 22, 1701–
+1728.</mixed-citation>
+        </ref>
+        <ref id="d3602404e579a1310">
+          
+            <mixed-citation id="d3602404e583" publication-type="other">
+Walker, S. G., Damien, P., Laud, P. W., and Smith, A. F. M. (1999), "Bayesian Nonparametric Inference for
+Random Distributions and Related Functions," Journal of the Royal Statistical Society, Series B, 61, 485–
+527.</mixed-citation>
+        </ref>
+        <ref id="d3602404e596a1310">
+          
+            <mixed-citation id="d3602404e600" publication-type="other">
+West, M., Müller, P., and Escobar, M. D. (1994), "Hierarchical Priors and Mixture Models, With Application in
+Regression and Density Estimation," in Aspects of Uncertainty: A Tribute to D. V. Lindley, eds. A. F. M.
+Smith and P. Freeman, New York: Wiley, pp. 363–368.</mixed-citation>
+        </ref>
+        <ref id="d3602404e613a1310">
+          
+            <mixed-citation id="d3602404e617" publication-type="other">
+Zeger, S. L., and Karim, M. R. (1991), "Generalized Linear Models with Random Effects: A Gibbs Sampling
+Approach," Journal of the American Statistical Association, 86, 79–86.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">223</issue>
+         <issue-id>i344563</issue-id>
+         <article-id pub-id-type="jstor">2585164</article-id>
+         
+         <title-group>
+            <article-title>Nonconforming Finite Element Approximation of Crystalline Microstructure</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bo</given-names>
+                  <surname>Li</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Mitchell</given-names>
+                  <surname>Luskin</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>917</fpage>
+         <lpage>946</lpage>
+         <page-range>917-946</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585164"/>
+         
+         
+         <abstract>
+            <p>We consider a class of nonconforming finite element approximations of a simply laminated microstructure which minimizes the nonconvex variational problem for the deformation of martensitic crystals which can undergo either an orthorhombic to monoclinic (double well) or a cubic to tetragonal (triple well) transformation. We first establish a series of error bounds in terms of elastic energies for the L&lt;sup&gt;2&lt;/sup&gt; approximation of derivatives of the deformation in the direction tangential to parallel layers of the laminate, for the L&lt;sup&gt;2&lt;/sup&gt; approximation of the deformation, for the weak approximation of the deformation gradient, for the approximation of volume fractions of deformation gradients, and for the approximation of nonlinear integrals of the deformation gradient. We then use these bounds to give corresponding convergence rates for quasi-optimal finite element approximations.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00941-7</kwd>
+            <kwd>49M15</kwd>
+            <kwd>65C20</kwd>
+            <kwd>65N30</kwd>
+            <kwd>73C50</kwd>
+            <kwd>73K20</kwd>
+            <kwd>Finite Element</kwd>
+            <kwd>Nonconforming</kwd>
+            <kwd>Microstructure</kwd>
+            <kwd>Martensitic Transformation</kwd>
+            <kwd>Error Estimate</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1292129e169a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1292129e176" publication-type="book">
+Robert Adams, Sobolev spaces, Academic Press, New York, 1975. MR 56:9247<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e198a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1292129e205" publication-type="journal">
+Todd Arbogast and Zhangxin Chen, On the implementation of mixed methods as noncon-
+forming methods for second-order elliptic problems, Math. Comp.64 (1995), 943-972. MR
+95k:65102<object-id pub-id-type="doi">10.2307/2153478</object-id>
+               <fpage>943</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e224a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1292129e231" publication-type="journal">
+John Ball and Richard James, Fine phase mixtures as minimizers of energy, Arch. Rat.
+Mech. Anal.100 (1987), 13-52. MR 89c:80005<person-group>
+                     <string-name>
+                     <surname>Ball</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>13</fpage>
+               <volume>100</volume>
+               <source>Arch. Rat. Mech. Anal.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e263a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1292129e270" publication-type="journal">
+—, Proposed experimental tests of a theory of fine microstructure and the two-well
+problem, Phil. Trans. R. Soc. Lond. A338 (1992), 389-450.<person-group>
+                     <string-name>
+                     <surname>Ball</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>389</fpage>
+               <volume>338</volume>
+               <source>Phil. Trans. R. Soc. Lond. A</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e303a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1292129e310" publication-type="journal">
+Carsten Carstensen and Petr Plechac, Numerical solution of the scalar double-well problem
+allowing microstructure, Math. Comp.66 (1997), 997-1026. MR 97i:65163<object-id pub-id-type="jstor">10.2307/2153755</object-id>
+               <fpage>997</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e326a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1292129e333" publication-type="journal">
+Michel Chipot, Numerical analysis of oscillations in nonconvex problems, Numer. Math.59
+(1991), 747-767. MR 92h:65164<person-group>
+                     <string-name>
+                     <surname>Chipot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>747</fpage>
+               <volume>59</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e365a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1292129e372" publication-type="journal">
+Michel Chipot and Charles Collins, Numerical approximations in variational problems with
+potential wells, SIAM J. Numer. Anal.29 (1992), 1002-1019. MR 93j:65171<object-id pub-id-type="jstor">10.2307/2157988</object-id>
+               <fpage>1002</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e388a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1292129e395" publication-type="journal">
+Michel Chipot, Charles Collins, and David Kinderlehrer, Numerical analysis of oscillations
+in multiple well problems, Numer. Math.70 (1995), 259-282. MR 96e:65067<person-group>
+                     <string-name>
+                     <surname>Chipot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>259</fpage>
+               <volume>70</volume>
+               <source>Numer. Math.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e427a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1292129e434" publication-type="journal">
+Michel Chipot and David Kinderlehrer, Equilibrium configurations for crystals, Arch. Rat.
+Mech. Anal.103 (1988), 237-277. MR 90a:73037<person-group>
+                     <string-name>
+                     <surname>Chipot</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>103</volume>
+               <source>Arch. Rat. Mech. Anal.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e466a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1292129e473" publication-type="book">
+Philippe Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e499a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1292129e506" publication-type="book">
+Charles Collins, Computation of. twinning, Microstructure and Phase Transitions (Jerald
+Ericksen, Richard James, David Kinderlehrer, and Mitchel Luskin, eds.), Springer-Verlag,
+1993, IMA Volumes in Mathematics and Its Applications, vol. 54, pp. 39-50. MR 95m:73019<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computation of. twinning</comment>
+               <fpage>39</fpage>
+               <volume>54</volume>
+               <source>Microstructure and Phase Transitions</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e544a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1292129e551" publication-type="journal">
+—, Convergence of a reduced integration method for computing microstructures, SIAM
+J. Numer. Anal.35 (1998) (to appear).<object-id pub-id-type="jstor">10.2307/2587133</object-id>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e564a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1292129e571" publication-type="journal">
+Charles Collins, David Kinderlehrer, and Mitchell Luskin, Numerical approximation of the
+solution of a variational problem with a double well potential, SIAM J. Numer. Anal.28
+(1991), 321-332. MR 92c:73015<object-id pub-id-type="jstor">10.2307/2157816</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e590a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1292129e597" publication-type="book">
+Charles Collins and Mitchell Luskin, The computation of the austenitic-martensitic phase
+transition, Partial Differential Equations and Continuum Models of Phase Transitions (Michel
+Rascle, Denis Serre, and Marshall Slemrod, eds.), Springer-Verlag, 1989, Lecture Notes in
+Physics, vol. 344, pp. 34-50. MR 90k:80007<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The computation of the austenitic-martensitic phase transition</comment>
+               <fpage>34</fpage>
+               <volume>344</volume>
+               <source>Partial Differential Equations and Continuum Models of Phase Transitions</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e638a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1292129e645" publication-type="conference">
+—Numerical modeling of the microstructure of crystals with symmetry-related vari-
+ants, Proceedings of the US-Japan Workshop on Smart/Intelligent Materials and Systems
+(Lancaster, Pennsylvania) (I. Ahmad, , M. Aizawa, A. Crowson, and C. Rogers, eds.), Tech-
+nomic Publishing Co., 1990, pp. 309-318.<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical modeling of the microstructure of crystals with symmetry-related variants</comment>
+               <fpage>309</fpage>
+               <source>Proceedings of the US-Japan Workshop on Smart/Intelligent Materials and Systems (Lancaster, Pennsylvania)</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e683a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1292129e690" publication-type="journal">
+—, Optimal order estimates for the finite element approximation of the solution of a
+nonconvex variational problem, Math. Comp.57 (1991), 621-637. MR 92a:65276<object-id pub-id-type="doi">10.2307/2938708</object-id>
+               <fpage>621</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e707a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1292129e714" publication-type="book">
+Charles Collins, Mitchell Luskin, and James Riordan, Computational images of crystalline
+microstructure, Computing Optimal Geometries (Jean Taylor, ed.), Amer. Math. Soc., 1991,
+AMS Special Lectures in Mathematics and AMS Videotape Library, pp. 16-18.<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational images of crystalline microstructure</comment>
+               <fpage>16</fpage>
+               <source>Computing Optimal Geometries</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e749a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1292129e756" publication-type="book">
+—Computational results for a two-dimensional model of crystalline microstructure,
+Microstructure and Phase Transitions (Jerald Ericksen, Richard James, David Kinderlehrer,
+and Mitchell Luskin, eds.), Springer-Verlag, 1993, IMA Volumes in Mathematics and Its
+Applications, vol. 54, pp. 51-56. MR 95m:73020<person-group>
+                     <string-name>
+                     <surname>Collins</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational results for a two-dimensional model of crystalline microstructure</comment>
+               <fpage>51</fpage>
+               <volume>54</volume>
+               <source>Microstructure and Phase Transitions</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e797a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1292129e804" publication-type="journal">
+Jerald Ericksen, Constitutive theory for some constrained elastic crystals, Int. J. Solids and
+Structures22 (1986), 951-964.<person-group>
+                     <string-name>
+                     <surname>Ericksen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>951</fpage>
+               <volume>22</volume>
+               <source>Int. J. Solids and Structures</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e836a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1292129e843" publication-type="journal">
+Donald French, On the convergence of finite element approximations of a relaxed variational
+problem, SIAM J. Numer. Anal.27 (1990), 419-436. MR 91f:65167<object-id pub-id-type="jstor">10.2307/2157970</object-id>
+               <fpage>419</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e859a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1292129e866" publication-type="journal">
+Pierre Gremaud, Numerical analysis of a nonconvex variational problem related to solid-solid
+phase transitions, SIAM J. Numer. Anal.31 (1994), 111-127. MR 94m:73023<object-id pub-id-type="jstor">10.2307/2158154</object-id>
+               <fpage>111</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e882a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1292129e889" publication-type="journal">
+—, Numerical optimization and quasiconvexity, Euro. J. of Applied Mathematics6
+(1995), 69-82. MR 95m:49003<person-group>
+                     <string-name>
+                     <surname>Gremaud</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>6</volume>
+               <source>Euro. J. of Applied Mathematics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e922a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1292129e929" publication-type="book">
+Richard James and David Kinderlehrer, Theory of diffusionless phase transitions, Partial
+differential equations and continuum models of phase transitions (M. Rascle, D. Serre, and
+M. Slemrod, eds.), Springer-Verlag, 1989, Lecture Notes in Physics, vol. 344, pp. 51-84. MR
+91e:73011<person-group>
+                     <string-name>
+                     <surname>James</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Theory of diffusionless phase transitions</comment>
+               <fpage>51</fpage>
+               <volume>344</volume>
+               <source>Partial differential equations and continuum models of phase transitions</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e970a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1292129e977" publication-type="journal">
+Petr Klouček, Bo Li, and Mitchell Luskin, Analysis of a class of nonconforming finite ele-
+ments for crystalline microstructures, Math. Comp.65 (1996), 1111-1135. MR 97a:73076<person-group>
+                     <string-name>
+                     <surname>Klouček</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1111</fpage>
+               <volume>65</volume>
+               <source>Math. Comp.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1009a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1292129e1016" publication-type="journal">
+Petr Klouček and Mitchell Luskin, The computation of the dynamics of the martensitic
+transformation, Continuum Mech. Thermodyn.6 (1994), 209-240. MR 95d:73009<person-group>
+                     <string-name>
+                     <surname>Klouček</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>209</fpage>
+               <volume>6</volume>
+               <source>Continuum Mech. Thermodyn.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1048a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1292129e1055" publication-type="journal">
+Robert Kohn, The relaxation of a double-well energy, Continuum Mech. Thermodyn.3
+(1991), 193-236. MR 93d:73014<person-group>
+                     <string-name>
+                     <surname>Kohn</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>3</volume>
+               <source>Continuum Mech. Thermodyn.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1087a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1292129e1094" publication-type="other">
+Bo Li, Analysis and computation of martensitic microstructure, Ph.D. thesis, University of
+Minnesota, 1996.</mixed-citation>
+            </ref>
+            <ref id="d1292129e1104a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1292129e1111" publication-type="book">
+Bo Li and Mitchell Luskin, Finite element approximation of a laminate with varying volume
+fraction, Tech. Report 1471, IMA, 1997, manuscript.<person-group>
+                     <string-name>
+                     <surname>Li</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element approximation of a laminate with varying volume fraction</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1137a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1292129e1144" publication-type="journal">
+—, Finite element analysis of microstructure for the cubic to tetragonal transformation,
+SIAM J. Numer. Anal.35 (1998) (to appear).<person-group>
+                     <string-name>
+                     <surname>Li</surname>
+                  </string-name>
+                  </person-group>
+               <volume>35</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1173a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1292129e1180" publication-type="book">
+Mitchell Luskin, Numerical analysis of microstructure for crystals with a nonconvex en-
+ergy density, Progress in Partial Differential Equations: the Metz Surveys (M. Chipot and
+J. Saint Jean Paulin, eds.), Longman House, 1991, pp. 156-165. MR 94i:73022<person-group>
+                     <string-name>
+                     <surname>Luskin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical analysis of microstructure for crystals with a nonconvex energy density</comment>
+               <fpage>156</fpage>
+               <source>Progress in Partial Differential Equations: the Metz Surveys</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1215a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1292129e1222" publication-type="journal">
+—, On the computation of crystalline microstructure, Acta Numerica5 (1996), 191-258.<person-group>
+                     <string-name>
+                     <surname>Luskin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>191</fpage>
+               <volume>5</volume>
+               <source>Acta Numerica</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1251a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1292129e1258" publication-type="journal">
+—, Approximation of a laminated microstructure for a rotationally invariant, double
+well energy density, Numer. Math.75 (1996), 205-221. CMP 97:04<person-group>
+                     <string-name>
+                     <surname>Luskin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>75</volume>
+               <source>Numer. Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1290a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1292129e1297" publication-type="journal">
+Mitchell Luskin and Ling Ma, Analysis of the finite element approximation of microstructure
+in micromagnetics, SIAM J. Numer. Anal.29 (1992), 320-331. MR 92m:65147<object-id pub-id-type="jstor">10.2307/2158128</object-id>
+               <fpage>320</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1313a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1292129e1320" publication-type="journal">
+Ling Ma and Noel Walkington, On algorithms for non-convex optimization in the calculus
+of variations, SIAM J. Numer. Anal.32 (1995), 900-923. MR 96b:49050<object-id pub-id-type="jstor">10.2307/2158454</object-id>
+               <fpage>900</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1337a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1292129e1344" publication-type="journal">
+Roy Nicolaides and Noel Walkington, Strong convergence of numerical solutions to degenerate
+variational problems, Math. Comp.64 (1995), 117-127. MR 95m:65183<object-id pub-id-type="doi">10.2307/2153325</object-id>
+               <fpage>117</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1360a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1292129e1367" publication-type="journal">
+P. Pedregal, Numerical approximation of parametrized measures, Num. Funct. Anal. Opt.16
+(1995), 1049-1066. MR 96h:49023<person-group>
+                     <string-name>
+                     <surname>Pedregal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1049</fpage>
+               <volume>16</volume>
+               <source>Num. Funct. Anal. Opt.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1399a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1292129e1406" publication-type="journal">
+—, On the numerical analysis of non-convex variational problems, Numer. Math.74
+(1996), 325-336. CMP 97:01<person-group>
+                     <string-name>
+                     <surname>Pedregal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>325</fpage>
+               <volume>74</volume>
+               <source>Numer. Math.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1438a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1292129e1445" publication-type="book">
+Alfio Quarteroni and Alberto Valli, Numerical approximation of partial differential equations,
+Springer-Verlag, Berlin, 1994. MR 95i:65006<person-group>
+                     <string-name>
+                     <surname>Quarteroni</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical approximation of partial differential equations</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1470a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1292129e1477" publication-type="journal">
+Rolf Rannacher and Stefan Turek, Simple nonconforming quadrilateral Stokes element, Nu-
+mer. Meth. for PDEs8 (1992), 97-111. MR 92i:65170<person-group>
+                     <string-name>
+                     <surname>Rannacher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>8</volume>
+               <source>Numer. Meth. for PDEs</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1509a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1292129e1516" publication-type="book">
+Tomas Roubíček,A note about relaxation of vectorial variational problems, Calculus of vari-
+ations, applications and computations (C. Bandle,. J. Bemelmans, M. Chipot, J. Saint Jean
+Paulin, and I. Shafrir, eds.), Longman, 1995, Pitman research notes in mathematical sciences,
+vol. 326, pp. 208-214. CMP 97:04<person-group>
+                     <string-name>
+                     <surname>Roubíček</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A note about relaxation of vectorial variational problems</comment>
+               <fpage>208</fpage>
+               <volume>326</volume>
+               <source>Calculus of variations, applications and computations</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1558a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1292129e1565" publication-type="journal">
+—, Numerical approximation of relaxed variational problems, J. Convex Analysis3
+(1996), 329-347. CMP 97:12<person-group>
+                     <string-name>
+                     <surname>Roubíček</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>329</fpage>
+               <volume>3</volume>
+               <source>J. Convex Analysis</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1597a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1292129e1604" publication-type="book">
+W. Rudin, Real and complex analysis, 3rd ed., McGraw-Hill, New York, 1987. MR 88k:00002<person-group>
+                     <string-name>
+                     <surname>Rudin</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Real and complex analysis</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1629a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1292129e1636" publication-type="book">
+Gilbert Strang and George Fix, An analysis of the finite element method, Prentice-Hall,
+Englewood Cliffs, N.J., 1973. MR 56:1747<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <source>An analysis of the finite element method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1292129e1661a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1292129e1668" publication-type="book">
+Joseph Wloka, Partial differential equations, Cambridge University Press, Cambridge, 1987.
+MR 88d:35004<person-group>
+                     <string-name>
+                     <surname>Wloka</surname>
+                  </string-name>
+                  </person-group>
+               <source>Partial differential equations</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

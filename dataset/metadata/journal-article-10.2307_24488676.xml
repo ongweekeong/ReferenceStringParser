@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">83</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">290</issue>
+         <issue-id>i24488616</issue-id>
+         <article-id pub-id-type="jstor">24488676</article-id>
+         <title-group>
+            <article-title>METHOD OF LINES TRANSPOSE: AN IMPLICIT SOLUTION TO THE WAVE EQUATION</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>MATTHEW</given-names>
+                  <surname>CAUSLEY</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>ANDREW</given-names>
+                  <surname>CHRISTLIEB</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>BENJAMIN</given-names>
+                  <surname>ONG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>LEE</given-names>
+                  <surname>VAN GRONINGEN</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>11</month>
+            <year>2014</year>
+         </pub-date>
+         <fpage>2763</fpage>
+         <lpage>2786</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2014 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24488676"/>
+      
+      
+         <abstract>
+            <p>We present a new method for solving the wave equation implicitly in one spatial dimension. Our approach is to discretize the wave equation in time, following the method of lines transpose, sometimes referred to as the transverse method of lines, or Rothe's method. We then solve the resulting system of partial differential equations using boundary integral methods. Our algorithm extends to higher spatial dimensions using an alternating direction implicit (ADI) framework. Thus we develop a boundary integral solution that is competitive with explicit finite difference methods, both in terms of accuracy and speed. However, it provides more flexibility in the treatment of source functions and complex boundaries. We provide the analytical details of our one-dimensional method herein, along with a proof of the convergence of our schemes in free space and on a bounded domain. We find that the method is unconditionally stable and achieves second order accuracy. Upon examining the discretization error, we derive a novel optimal quadrature method, which can be viewed as a Lax-type correction.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d688980e223a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d688980e230" publication-type="other">
+Uri M. Ascher, Robert M. M. Mattheij, and Robert D. Russell, Numerical solution of bound-
+ary value problems for ordinary differential equations, Classics in Applied Mathematics,
+vol. 13, Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, 1995.
+Corrected reprint of the 1988 original. MR1351005 (96f:65075)</mixed-citation>
+        </ref>
+        <ref id="d688980e246a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d688980e253" publication-type="other">
+H. Cheng, L. Greengard, and V. Rokhlin, A fast adaptive multipole algorithm in three
+dimensions, J. Comput. Phys. 155 (1999), no. 2, 468-498, DOI 10.1006/jcph.1999.6355.
+MR1723309 (2000h:65178)</mixed-citation>
+        </ref>
+        <ref id="d688980e266a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d688980e273" publication-type="other">
+R. Coifman, V. Rokhlin, and S. Wandzura, The fast multipole method for the wave equation:
+A pedestrian prescription, IEEE Trans. Antennas and Propagation 35 (1993), no. 3, 7-12.</mixed-citation>
+        </ref>
+        <ref id="d688980e283a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d688980e290" publication-type="other">
+Zydrunas Gimbutas and Vladimir Rokhlin, A generalized fast multipole method for nonoscil-
+latory kernels, SIAM J. Sci. Comput. 24 (2002), no. 3, 796-817 (electronic), DOI
+10.1137/S1064827500381148. MR1950512 (2004a:65176)</mixed-citation>
+        </ref>
+        <ref id="d688980e304a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d688980e311" publication-type="other">
+L. Greengard and V. Rokhlin, A fast algorithm for particle simulations, J. Comput. Phys.
+73 (1987), no. 2, 325-348, DOI 10.1016/0021-9991(87)90140-9. MR918448 (88k:82007)</mixed-citation>
+        </ref>
+        <ref id="d688980e321a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d688980e328" publication-type="other">
+Ulrich Hornung, A parabolic elliptic variational inequality, Manuscripta Math. 39 (1982),
+no. 2-3, 155-172, DOI 10.1007/BF01165783. MR675536 (83m:49010)</mixed-citation>
+        </ref>
+        <ref id="d688980e338a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d688980e345" publication-type="other">
+S.D. Jackson and P.H. Muir, Theory and numerical simulation of nth-order cascaded Raman
+fiber lasers, JOSA B 18 (2001), no. 9, 1297-1306.</mixed-citation>
+        </ref>
+        <ref id="d688980e355a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d688980e362" publication-type="other">
+Jun Jia and Jingfang Huang, Krylov deferred correction accelerated method of lines
+transpose for parabolic problems, J. Comput. Phys. 227 (2008), no. 3, 1739—1753, DOI
+10.1016/j.jcp.2007.09.018. MR2450970 (2009k:65175)</mixed-citation>
+        </ref>
+        <ref id="d688980e375a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d688980e382" publication-type="other">
+Leon Lapidus and George F. Pinder, Numerical solution of partial differential equations in
+science and engineering, A Wiley-Interscience Publication, John Wiley &amp; Sons Inc., New
+York, 1999. MR1718868</mixed-citation>
+        </ref>
+        <ref id="d688980e395a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d688980e402" publication-type="other">
+Peijun Li, Hans Johnston, and Robert Krasny, A Cartesian treecode for screened Coulomb
+interactions, J. Comput. Phys. 228 (2009), no. 10, 3858—3868, DOI 10.1016/j.jcp.2009.02.022.
+MR2511077 (2010d:78012)</mixed-citation>
+        </ref>
+        <ref id="d688980e416a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d688980e423" publication-type="other">
+Annamaria Mazzia and Francesca Mazzia, High-order transverse schemes for the numerical
+solution of PDEs, J. Comput. Appl. Math. 82 (1997), no. 1-2, 299-311, DOI 10.1016/S0377-
+0427(97)00090-3. 7th ICCAM 96 Congress (Leuven). MR1473548 (98e:65072)</mixed-citation>
+        </ref>
+        <ref id="d688980e436a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d688980e443" publication-type="other">
+N. Muthiyalu and S. Usha, Eigenvalues of centrosymmetric matrices (English, with German
+summary), Computing 48 (1992), no. 2, 213-218, DOI 10.1007/BF02310535. MR1169141
+(93g: 15008)</mixed-citation>
+        </ref>
+        <ref id="d688980e456a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d688980e463" publication-type="other">
+Xiaodi Sun and Michael J. Ward, Dynamics and coarsening of interfaces for the viscous
+Cahn-Hilliard equation in one spatial dimension, Stud. Appl. Math. 105 (2000), no. 3, 203-
+234, DOI 10.1111/1467-9590.00149. MR1783547 (2001e:74069)</mixed-citation>
+        </ref>
+        <ref id="d688980e476a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d688980e483" publication-type="other">
+Wen-Chyuan Yueh and Sui Sun Cheng, Explicit eigenvalues and inverses of tridiagonal
+Toeplitz matrices with four perturbed corners, ANZIAM J. 49 (2008), no. 3, 361-387, DOI
+10.1017/S1446181108000102. MR2440234 (2009f:15023)</mixed-citation>
+        </ref>
+        <ref id="d688980e496a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d688980e503" publication-type="other">
+A. Zafarullah, Application of the method of lines to parabolic partial differential equations
+with error estimates, J. Assoc. Comput. Mach. 17 (1970), 294-302. MR0280025 (43 #5746)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

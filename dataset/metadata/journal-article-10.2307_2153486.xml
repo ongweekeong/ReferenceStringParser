@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">64</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">211</issue>
+         <issue-id>i337667</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153486</article-id>
+         
+         <title-group>
+            <article-title>Continuous Explicit Runge-Kutta Methods of Order 5</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. H.</given-names>
+                  <surname>Verner</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>M.</given-names>
+                  <surname>Zennaro</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>1123</fpage>
+         <lpage>1146</lpage>
+         <page-range>1123-1146</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1995 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153486"/>
+         
+         
+         <abstract>
+            <p>A continuous explicit Runge-Kutta (CERK) method provides a continuous approximation to an initial value problem. Such a method may be obtained by appending additional stages to a discrete method, or alternatively by solving the appropriate order conditions directly. Owren and Zennaro have shown for order 5 that the latter approach yields some CERK methods that require fewer derivative evaluations than methods obtained by appending stages. In contrast, continuous methods of order 6 that require the minimum number of stages can be obtained by appending additional stages to certain discrete methods. This article begins a study to understand why this occurs. By making no assumptions to simplify solution of the order conditions, the existence of other types of CERK methods of order 5 is established. While methods of the new families may not be as good for implementation as the Owren-Zennaro methods, the structure is expected to lead to a better understanding of how to construct families of methods of higher order.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65L06</kwd>
+            <kwd>Interpolants</kwd>
+            <kwd>continuous explicit Runge-Kutta methods</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3926334e144a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3926334e151" publication-type="book">
+J. C. Butcher, The numerical analysis of ordinary differential equations, Wiley, Chichester,
+1987.<person-group>
+                     <string-name>
+                     <surname>Butcher</surname>
+                  </string-name>
+                  </person-group>
+               <source>The numerical analysis of ordinary differential equations</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e176a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3926334e183" publication-type="journal">
+J.R. Dormand and P.J. Prince, A family of embedded Runge-Kutta formulae, J. Comput.
+Appl. Math.6 (1980), 19-26.<person-group>
+                     <string-name>
+                     <surname>Dormand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>19</fpage>
+               <volume>6</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e215a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3926334e222" publication-type="journal">
+W.H. Enright, K.R. Jackson, S.P. N0rsett, and P.G. Thomsen, Interpolants for Runge-Kutta
+formulas, ACM Trans. Math. Software12 (1986), 193-218.<person-group>
+                     <string-name>
+                     <surname>Enright</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>193</fpage>
+               <volume>12</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e254a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3926334e261" publication-type="journal">
+E. Fehlberg, Klassische Runge-Kutta-Formeln fiinfter und siebenter Ordnung mit Schritt-
+weiten-Kontrolle, Computing4 (1969), 93-106.<person-group>
+                     <string-name>
+                     <surname>Fehlberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>4</volume>
+               <source>Computing</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e294a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3926334e301" publication-type="journal">
+B. Owren and M. Zennaro, Order barriers for continuous explicit Runge-Kutta methods,
+Math. Comp.56 (1991), 645-661.<object-id pub-id-type="doi">10.2307/2008399</object-id>
+               <fpage>645</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e317a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3926334e324" publication-type="journal">
+—, Derivation ofefficient continuous explicit Runge-Kutta methods, SIAM J. Sci. Statist.
+Comput.13 (1992), 1488-1501.<person-group>
+                     <string-name>
+                     <surname>Owren</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1488</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e356a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3926334e363" publication-type="journal">
+P.J. Prince and J.R. Dormand, High order embedded Runge-Kutta formulae, J. Comput.
+Appl. Math.7 (1981), 67-76.<person-group>
+                     <string-name>
+                     <surname>Prince</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>67</fpage>
+               <volume>7</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e395a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3926334e402" publication-type="other">
+M. Santo, Metodi continui ad un passo per la risoluzione numerica di equazioni differenziali
+ordinarie, Ph.D. thesis, Univ. of Udine, Italy, 1991.</mixed-citation>
+            </ref>
+            <ref id="d3926334e412a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3926334e419" publication-type="journal">
+J.H. Verner, Explicit Runge-Kutta methods with estimates of the local truncation error,
+SIAM J. Numer. Anal.15 (1978), 772-790.<object-id pub-id-type="jstor">10.2307/2156853</object-id>
+               <fpage>772</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e435a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3926334e442" publication-type="journal">
+—, Differentiable interpolants for high-order Runge-Kutta methods, SIAM J. Numer.
+Anal.30 (1993), 1446-1466.<object-id pub-id-type="jstor">10.2307/2158246</object-id>
+               <fpage>1446</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3926334e459a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3926334e466" publication-type="book">
+J.H. Verner and M. Zennaro, Continuous explicit Runge-Kutta methods of order 5, Re-
+port 1993-08, Department of Mathematics and Statistics, Queen's University, Kingston,
+Ontario, Canada (1993), 1-32.<person-group>
+                     <string-name>
+                     <surname>Verner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <source>Continuous explicit Runge-Kutta methods of order</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

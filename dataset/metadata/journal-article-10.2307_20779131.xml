@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">79</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">272</issue>
+         <issue-id>i20779128</issue-id>
+         <article-id pub-id-type="jstor">20779131</article-id>
+         <title-group>
+            <article-title>A NEW MULTISCALE FINITE ELEMENT METHOD FOR HIGH-CONTRAST ELLIPTIC INTERFACE PROBLEMS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>C.-C.</given-names>
+                  <surname>CHU</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>I. G.</given-names>
+                  <surname>GRAHAM</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>T.-Y.</given-names>
+                  <surname>HOU</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2010</year>
+         </pub-date>
+         <fpage>1915</fpage>
+         <lpage>1955</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2010 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/20779131"/>
+      
+      
+         <abstract>
+            <p>We introduce a new multiscale finite element method which is able to accurately capture solutions of elliptic interface problems with high contrast coefficients by using only coarse quasiuniform meshes, and without resolving the interfaces. A typical application would be the modelling of flow in a porous medium containing a number of inclusions of low (or high) permeability embedded in a matrix of high (respectively low) permeability. Our method is H¹- conforming, with degrees of freedom at the nodes of a triangular mesh and requiring the solution of subgrid problems for the basis functions on elements which straddle the coefficient interface but which use standard linear approximation otherwise. A key point is the introduction of novel coefficient-dependent boundary conditions for the subgrid problems. Under moderate assumptions, we prove that our methods have (optimal) convergence rate of O(h) in the energy norm and O(h²) in the L₂ norm where h is the (coarse) mesh diameter and the hidden constants in these estimates are independent of the "contrast" (i.e. ratio of largest to smallest value) of the PDE coefficient. For standard elements the best estimate in the energy norm would be
+              ${\cal O}(h^{1/2-\varepsilon \})$
+              with a hidden constant which in general depends on the contrast. The new interior boundary conditions depend not only on the contrast of the coefficients, but also on the angles of intersection of the interface with the element edges.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2742825e365a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2742825e372" publication-type="other">
+L. Adams, Z.L. Li, The immersed interface/multigrid methods for interface problems, SIAM
+J. Sci. Comput. 24 (2002), 463-479. MR1951051 (2004f:65109)</mixed-citation>
+        </ref>
+        <ref id="d2742825e382a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2742825e389" publication-type="other">
+M. Ainsworth, Robust a posteriori error estimation for nonconforming finite element approx-
+imation, SIAM J. Numer. Anal. 42 (2005), 2320-2341. MR2139395 (2006j:65331)</mixed-citation>
+        </ref>
+        <ref id="d2742825e399a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2742825e406" publication-type="other">
+I. Babuška, The finite element method for elliptic equations with discontinuous coefficients,
+Computing 5 (1970), 207-213. MR0277119 (43:2856)</mixed-citation>
+        </ref>
+        <ref id="d2742825e416a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2742825e423" publication-type="other">
+I. Babuška, G. Caloz, and J.E. Osborn, Special finite element methods for a class of second
+order elliptic problems with rough coefficients, SIAM J. Numer. Anal. 31 (1994), 945-981.
+MR1286212 (95g:65146)</mixed-citation>
+        </ref>
+        <ref id="d2742825e437a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2742825e444" publication-type="other">
+I. Babuška and J.E. Osborn. Generalized finite element methods: Their performance and
+their relation to mixed methods, SIAM J. Numer. Anal. 20 (1983), 510-536. MR701094
+(84h:65076)</mixed-citation>
+        </ref>
+        <ref id="d2742825e457a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2742825e464" publication-type="other">
+J.W. Barrett and C.M. Elliott, Fitted and unfitted finite element methods for elliptic-equations
+with smooth interfaces, IMA J. Numer. Anal. 7 (1987), 283-300. MR968524 (90a:65231)</mixed-citation>
+        </ref>
+        <ref id="d2742825e474a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2742825e481" publication-type="other">
+C. Bernardi and R. Verfürth, Adaptive finite element methods for elliptic equations with
+non-smooth coefficients, Numer. Math. 85 (2000), 579-608. MR1771781 (2001e:65177)</mixed-citation>
+        </ref>
+        <ref id="d2742825e491a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2742825e498" publication-type="other">
+I.-L. Chern and Y.-C. Shu, A coupling interface method for elliptic interface problems, J.
+Comput. Phys. 225 (2007), 2138-2174. MR2349699 (2008k:65221)</mixed-citation>
+        </ref>
+        <ref id="d2742825e508a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2742825e515" publication-type="other">
+Z. Chen and J. Zou, Finite element methods and their convergence for elliptic and parabolic
+interface problems, Numer. Math. 79 (1998), 175-202. MR1622502 (99d:65313)</mixed-citation>
+        </ref>
+        <ref id="d2742825e525a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2742825e532" publication-type="other">
+M. Dryja, On discontinuous Galerkin methods for elliptic problems with discontinuous co-
+efficients, Computational Methods in Applied Mathematics 3 (2003), 76-85. MR2002258
+(2004i:65120)</mixed-citation>
+        </ref>
+        <ref id="d2742825e546a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2742825e553" publication-type="other">
+M.A. Dumett and J.P. Keener, An immersed interface method for solving anisotropie elliptic
+boundary value problems in three dimensions, SIAM J. Sci. Comput. 25 (2003), 348-367.
+MR2047209 (2005g:65157)</mixed-citation>
+        </ref>
+        <ref id="d2742825e566a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2742825e573" publication-type="other">
+Y. Efendiev and T.Y. Hou, Multiscale Finite Element Methods: Theory and Applications,
+Springer Pubi., February, 2009. MR2477579</mixed-citation>
+        </ref>
+        <ref id="d2742825e583a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2742825e590" publication-type="other">
+R.P. Fedkiw, T. Aslam, B, Merriman and S. Osher, A non-oscillatory Eulerian approach to
+interfaces in multimaterial flows (the ghost fluid method), J. Comput. Phys. 152 (1999),
+457-492. MR1699710 (2000c:76061)</mixed-citation>
+        </ref>
+        <ref id="d2742825e603a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2742825e610" publication-type="other">
+D.Gilbarg and N.S. Trudinger, Elliptic Partial Differential Equations of Second Order,
+Springer-Verlag, Berlin, 1977. MR0473443 (57:13109)</mixed-citation>
+        </ref>
+        <ref id="d2742825e620a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2742825e627" publication-type="other">
+I.G. Graham, P. Lechner and R. Scheichl, Domain decomposition for multiscale PDEs, Numer.
+Math. 106 (2007), 589-626. MR2317926 (2008f:65242)</mixed-citation>
+        </ref>
+        <ref id="d2742825e637a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2742825e644" publication-type="other">
+I.G. Graham and R. Scheichl, Robust domain decomposition algorithms for multiscale PDEs,
+Numerical Methods for Partial Differential Equations 23 (2007), 859-878. MR2326197
+(2008c:65367)</mixed-citation>
+        </ref>
+        <ref id="d2742825e658a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2742825e665" publication-type="other">
+P. Grisvard, Elliptic Problems in Nonsmooth Domains, Pitman, Boston, 1985. MR775683
+(86m:35044)</mixed-citation>
+        </ref>
+        <ref id="d2742825e675a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2742825e682" publication-type="other">
+T.Y. Hou, Z.L. Li, S. Osher and H. Zhao, A hybrid method for moving interface problems
+with application to the Hele-Shaw flow, J. Comp. Phys. 134 (1997), 236-252. MR1458828
+(98d:76128)</mixed-citation>
+        </ref>
+        <ref id="d2742825e695a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2742825e702" publication-type="other">
+T.Y. Hou and X.-H. Wu, A multiscale finite element method for elliptic problems in composite
+materials and porous media, J. Comp. Phys. 134 (1997), 169-189. MR1455261 (98e:73132)</mixed-citation>
+        </ref>
+        <ref id="d2742825e712a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2742825e719" publication-type="other">
+T.Y. Hou, X.-H. Wu and Z. Cai, Convergence of a multiscale finite element method for elliptic
+problems with rapidly oscillating coefficients, Math. Comp. 68 (1999), 913-943. MR1642758
+(99i:65126)</mixed-citation>
+        </ref>
+        <ref id="d2742825e732a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2742825e739" publication-type="other">
+J. Huang and J. Zou, Some new a priori estimates for second-order elliptic and parabolic
+interface problems, Journal of Differential Equations 184 (2002), 570-586. MR1929889
+(2003h:35026)</mixed-citation>
+        </ref>
+        <ref id="d2742825e752a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2742825e759" publication-type="other">
+B.C. Khoo, T.G. Liu and C.W. Wang, The ghost fluid method for compressible gas-water
+simulation, J. Comput. Phys. 204 (2005), 193-221. MR2121909 (2005j:76079)</mixed-citation>
+        </ref>
+        <ref id="d2742825e770a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2742825e777" publication-type="other">
+B.C. Khoo, T.G. Liu and K.S. Yeo, Ghost fluid method for strong shock impacting on material
+interface, J. Comput. Phys. 190 (2003), 651-681.</mixed-citation>
+        </ref>
+        <ref id="d2742825e787a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2742825e794" publication-type="other">
+R.J. LeVeque and Z.L. Li, The immersed interface method for elliptic equations with dis-
+continuous coefficients and singular sources, SIAM J. Numer. Anal. 31 (1994), 1019-1044.
+MR1286215 (95g:65139)</mixed-citation>
+        </ref>
+        <ref id="d2742825e807a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2742825e814" publication-type="other">
+J. Li, J.M. Melenk, B. Wohlmuth and J. Zou, Optimal a priori estimates for higher order finite
+element methods for elliptic interface problems, Applied Numerical Mathematics (in press)
+(2009).</mixed-citation>
+        </ref>
+        <ref id="d2742825e827a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d2742825e834" publication-type="other">
+Z.L. Li, A fast iterative algorithm for elliptic interface problems, SIAM J. Numer. Anal. 35
+(1998), 230-254. MR1618460 (99b:65126)</mixed-citation>
+        </ref>
+        <ref id="d2742825e844a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d2742825e851" publication-type="other">
+Z.L. Li and K. Ito, Maximum principle preserving schemes for interface problems with discon-
+tinuous coefficients, SIAM J. Sci. Comput. 23 (2001), 339-361. MR1860918 (2002h:65166)</mixed-citation>
+        </ref>
+        <ref id="d2742825e861a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d2742825e868" publication-type="other">
+Z.L. Li, T. Lin and X. Wu, New Cartesian grid methods for interface problems using the finite
+element formulation, Numer. Math. 96 (2003), 61-98. MR2018791 (2005c:65104)</mixed-citation>
+        </ref>
+        <ref id="d2742825e879a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d2742825e886" publication-type="other">
+J.L. Lions and E. Magenes, Non-Homogeneous Boundary Value Problems and Applications,
+Springer-Verlag, Berlin, 1972.</mixed-citation>
+        </ref>
+        <ref id="d2742825e896a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d2742825e903" publication-type="other">
+X.D. Liu, R.P. Fedkiw and M.J. Kang, A boundary condition capturing method for Pois-
+son's equation on irregular domains, J. Comput. Phys. 160 (2000), 151-178. MR1756763
+(2001a:65152)</mixed-citation>
+        </ref>
+        <ref id="d2742825e916a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d2742825e923" publication-type="other">
+X.D. Liu and T. C. Sideris, Convergence of the ghost fluid method for elliptic equations with
+interfaces, Math. Comput. 72 (2003), 1731-1746. MR1986802 (2004h:65107)</mixed-citation>
+        </ref>
+        <ref id="d2742825e933a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d2742825e940" publication-type="other">
+H. Kang and J.K. Seo, The layer potential technique for the inverse conductivity problem,
+Inverse Problems 12 (1996) 267-278. MR1391539 (97d:35242)</mixed-citation>
+        </ref>
+        <ref id="d2742825e950a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d2742825e957" publication-type="other">
+H. Kang, J.K. Seo and D. Sheen, Numerical identification of discontinuous conductivity coef-
+ficients, Inverse Problems 13 (1997) 113-123. MR1435871 (98k:78052)</mixed-citation>
+        </ref>
+        <ref id="d2742825e967a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d2742825e974" publication-type="other">
+W. McLean, Strongly elliptic systems and boundary integral equations, Cambridge University
+Press, Cambridge, UK (2000). MR1742312 (2001a:35051)</mixed-citation>
+        </ref>
+        <ref id="d2742825e985a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d2742825e992" publication-type="other">
+H. Owhadi and L. Zhang, Metric based up-scaling, Comm. Pure Appl. Math 60 (2007) 675-
+723. MR2292954 (2008c:35041)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1002a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d2742825e1009" publication-type="other">
+C. Pechstein and R. Scheichl, Analysis of FETI methods for multiscale PDEs, Numer. Math.
+111 (2008), 293-333. MR2456834</mixed-citation>
+        </ref>
+        <ref id="d2742825e1019a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d2742825e1026" publication-type="other">
+C.S. Peskin, Numerical study of blood flow in the heart, J. Comput. Phys. 25 (1977), 220-252.
+MR0490027 (58:9389)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1036a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d2742825e1043" publication-type="other">
+C.S. Peskin, The immersed boundary method, Acta Numerica 11 (2002), 479-517.
+MR2009378 (2004h:74029)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1053a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d2742825e1060" publication-type="other">
+M. Plum and C. Wieners, Optimal a priori estimates for interface problems, Numer. Math.
+95 (2003), 735-759. MR2013126 (2004i:65126)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1070a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d2742825e1077" publication-type="other">
+M.E. Taylor, Partial Differential Equations, Volume I, Springer-Verlag, Berlin, 1996.
+MR1395147 (98b:35002a)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1088a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d2742825e1095" publication-type="other">
+A. Toselli and O. Widlund, Domain Decomposition Methods Algorithms and Theory, Springer-
+Verlag, Berlin-Heidelberg-New York, 2005. MR2104179 (2005g:65006)</mixed-citation>
+        </ref>
+        <ref id="d2742825e1105a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d2742825e1112" publication-type="other">
+S.O. Unverdi and G. Tryggvason, A front-tracking method for viscous, incompressible, multi-
+fluid flows, J. Comput. Phys. 100 (1992), 25-37.</mixed-citation>
+        </ref>
+        <ref id="d2742825e1122a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d2742825e1129" publication-type="other">
+T. von Petersdorff, Randwertprobleme der Elastizitätstheorie für Polyeder Singularitätaten
+und Approximation mit Randelementmethoden, Ph.D. Thesis, T.U. Darmstadt, German,
+1989.</mixed-citation>
+        </ref>
+        <ref id="d2742825e1142a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d2742825e1149" publication-type="other">
+M. Vohralik, Guaranteed and fully robust a posteriori error estimates for conforming dis-
+cretizations of diffusion problems with discontinuous coefficients, preprint, University of Paris
+VI, 2008. MR2451464</mixed-citation>
+        </ref>
+        <ref id="d2742825e1162a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d2742825e1169" publication-type="other">
+Y.C Zhou, S. Zhao, M. Feig and G.W. Wei, High order matched interface and boundary
+method for elliptic equations with discontinuous coefficients and singular sources, J. Comp.
+Phys. 213 (2006), 1-30. MR2186592 (2007e:65137)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

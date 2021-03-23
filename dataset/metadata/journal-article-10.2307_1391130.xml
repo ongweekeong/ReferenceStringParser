@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">11</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260295</issue-id>
+         <article-id pub-id-type="jstor">1391130</article-id>
+         
+         <title-group>
+            <article-title>Comparison of Methods for Image Analysis on cDNA Microarray Data</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Yee Hwa</given-names>
+                  <surname>Yang</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Michael J.</given-names>
+                  <surname>Buckley</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sandrine</given-names>
+                  <surname>Dudoit</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Terence P.</given-names>
+                  <surname>Speed</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>108</fpage>
+         <lpage>136</lpage>
+         <page-range>108-136</page-range>
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2002 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391130"/>
+         
+         
+         <abstract>
+            <p>Microarrays are part of a new class of biotechnologies which allow the monitoring of expression levels for thousands of genes simultaneously. Image analysis is an important aspect of microarray experiments, one that can have a potentially large impact on subsequent analyses such as clustering or the identification of differentially expressed genes. This article reviews a number of existing image analysis approaches for cDNA microarray experiments and proposes new addressing, segmentation, and background correction methods for extracting information from microarray scanned images. The segmentation component uses a seeded region growing algorithm which makes provision for spots of different shapes and sizes. The background estimation approach is based on an image analysis technique known as morphological opening. These new image analysis procedures are implemented in a software package named Spot, built on the R environment for statistical computing. The statistical properties of the different segmentation and background adjustment methods are examined using microarray data from a study of lipid metabolism in mice. It is shown that in some cases background adjustment can substantially reduce the precision--that is, increase the variability--of low-intensity spot values. In contrast, the choice of segmentation procedure has a smaller impact. The comparison further suggests that seeded region growing segmentation with morphological background correction provides precise and accurate estimates of foreground and background intensities.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Automatic addressing</kwd>
+            <kwd>Background correction</kwd>
+            <kwd>Gene expression</kwd>
+            <kwd>Image processing</kwd>
+            <kwd>Seeded region growing</kwd>
+            <kwd>Segmentation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d253015e233a1310">
+               
+               <mixed-citation id="d253015e237" publication-type="journal">
+The Chipping Forecast (1999), Volume 21, January 1999, Supplement to Nature Genetics.<person-group>
+                     <string-name>
+                     <surname>The Chipping Forecast</surname>
+                  </string-name>
+                  </person-group>
+               <issue>January</issue>
+               <volume>21</volume>
+               <source>Supplement to Nature Genetics</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e266a1310">
+               
+               <mixed-citation id="d253015e270" publication-type="journal">
+Adams, R., and Bischof, L. (1994), "Seeded Region Growing," IEEE Transactions on Pattern Analysis and
+Machine Intelligence, 16, 641-647.<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>641</fpage>
+               <volume>16</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e302a1310">
+               
+               <mixed-citation id="d253015e306" publication-type="journal">
+Alizadeh, A.A., Eisen, M.B., Davis, R.E., Ma, C., Lossos, I.S., Rosenwald, A., Boldrick, J.C., Sabet, H., Tran,
+T., Yu, X., Powell, J.I., Yang, L., Marti, G.E., Moore, T., Hudson Jr, J., Lu, L., Lewis, D.B., Tibshirani,
+R., Sherlock, G., Chan, W.C., Greiner, T.C., Weisenburger, D.D., Armitage, J.O., Warnke, R., Levy, R.,
+Wilson, W., Grever, M.R., Byrd, J.C., Botstein, D., Brown, P.O., and Staudt, L.M. (2000), "Different Types
+of Diffuse Large B-cell Lymphoma Identified by Gene Expression Profiling," Nature, 403, 503-511.<person-group>
+                     <string-name>
+                     <surname>Alizadeh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>503</fpage>
+               <volume>403</volume>
+               <source>Nature</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e347a1310">
+               
+               <mixed-citation id="d253015e351" publication-type="journal">
+Alon, U., Barkai, N., Notterman, D.A., Gish, K., Ybarra, S., Mack, D., and Levine, A.J. (1999), "Broad
+Patterns of Gene Expression Revealed by Clustering Analysis of Tumor and Normal Colon Tissues Probed
+by Oligonucleotide Arrays," Proceedings of the National Academy of Sciences, 96, 6745-6750.<person-group>
+                     <string-name>
+                     <surname>Alon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>6745</fpage>
+               <volume>96</volume>
+               <source>Proceedings of the National Academy of Sciences</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e387a1310">
+               
+               <mixed-citation id="d253015e391" publication-type="other">
+Axon Instruments, Inc. (1999) GenePix 4000A User's Guide, http://www.axon.com/GN-GenePix-File-Formats.
+html.</mixed-citation>
+            </ref>
+            <ref id="d253015e401a1310">
+               
+               <mixed-citation id="d253015e405" publication-type="journal">
+Bartosiewicz, M., Trounstine, M., Barker, D., Johnston, R., and Buckpitt, A. (2000), "Development of a Toxicolog-
+ical Gene Array and Quantitative Assessment of this Technology," Archives of Biochemistry and Biophysics,
+376, 66-73.<person-group>
+                     <string-name>
+                     <surname>Bartosiewicz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>66</fpage>
+               <volume>376</volume>
+               <source>Archives of Biochemistry and Biophysics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e440a1310">
+               
+               <mixed-citation id="d253015e444" publication-type="book">
+Beucher, S., and Meyer, F. (1993), "The Morphological Approach to Segmentation: The Watershed Transforma-
+tion," in Mathematical Morphology in Image Processing, volume 34 of Optical Engineering, New York:
+Marcel Dekker, pp. 433-481.<person-group>
+                     <string-name>
+                     <surname>Beucher</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Optical Engineering</comment>
+               <fpage>433</fpage>
+               <volume>34</volume>
+               <source>Mathematical Morphology in Image Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e482a1310">
+               
+               <mixed-citation id="d253015e486" publication-type="other">
+Buckley, M. J. (2000), The Spot User's Guide, CSIRO Mathematical and Information Sciences, http://www.cmis.
+csiro.au/IAP/Spot/spotmanual.htm.</mixed-citation>
+            </ref>
+            <ref id="d253015e496a1310">
+               
+               <mixed-citation id="d253015e500" publication-type="journal">
+Callow, M.J., Dudoit, S., Gong, E.L., Speed, T.P., and Rubin, E.M. (2000), "Microarray Expression Profiling
+Identifies Genes With Altered Expression in HDL Deficient Mice," Genome Research, 10, 2022-2029.<person-group>
+                     <string-name>
+                     <surname>Callow</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2022</fpage>
+               <volume>10</volume>
+               <source>Genome Research</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e532a1310">
+               
+               <mixed-citation id="d253015e536" publication-type="journal">
+Chen, J.W., Wu, R., Yang, P. C., Huang, J. Y., Sher, Y. P., Han, M. H., Kao, W. C., Lee, P. J., Chiu, T. F, Chang,
+F., Chu, C. W., Wu, C. W., and Peck, K. (1998), "Profiling Expression Patterns and Isolating Differentially
+Expressed Genes by cDNA Microarray System With Colorimetry Detection," Genomics, 51, 313-324.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>313</fpage>
+               <volume>51</volume>
+               <source>Genomics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e572a1310">
+               
+               <mixed-citation id="d253015e576" publication-type="journal">
+Chen, Y., Dougherty, E.R., and Bittner, M.L. (1997), "Ratio-Based Decisions and the Quantitative Analysis of
+cDNA Microarray Images," Journal of Biomedical Optics, 2, 364-374.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>364</fpage>
+               <volume>2</volume>
+               <source>Journal of Biomedical Optics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e608a1310">
+               
+               <mixed-citation id="d253015e612" publication-type="journal">
+Chu, S., DeRisi, J., Eisen, M., Mulholland, J., Botstein, D., Brown, P.O., and Herskowitz, I. (1998), "The
+Transcriptional Program of Sporulation in Budding Yeast," Science, 282, 699-705.<object-id pub-id-type="jstor">10.2307/2899256</object-id>
+               <fpage>699</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e628a1310">
+               
+               
+               <mixed-citation id="d253015e634" publication-type="journal">
+DeRisi, J., Penland, L., Brown, P.O., Bittner, M.L., Meltzer, P.S., Ray, M., Chen, Y., Su, Y.A., and Trent,
+J.M. (1996), "Use of a cDNA Microarray to Analyse Gene Expression Patterns in Human Cancer," Nature
+Genetics, 14, 457-460.<person-group>
+                     <string-name>
+                     <surname>DeRisi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>457</fpage>
+               <volume>14</volume>
+               <source>Nature Genetics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e669a1310">
+               
+               <mixed-citation id="d253015e673" publication-type="journal">
+DeRisi, J.L., Iyer, V.R., and Brown, P. 0. (1997), "Exploring the Metabolic and Genetic Control of Gene
+Expression on a Genomic Scale," Science, 278, 680-685.<object-id pub-id-type="jstor">10.2307/2901172</object-id>
+               <fpage>680</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e689a1310">
+               
+               <mixed-citation id="d253015e693" publication-type="journal">
+Dudoit, S., Yang, Y.H., Callow, M.J., and Speed, T.P. (in press), "Statistical Methods for Identifying Differentially
+Expressed Genes in Replicated cDNA Microarray Experiments," Statistica Sinica<person-group>
+                     <string-name>
+                     <surname>Dudoit</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistica Sinica</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e715a1310">
+               
+               <mixed-citation id="d253015e719" publication-type="other">
+Eisen, M. B. (1999), ScanAlyze, http://rana.Stanford.EDU/software/ for software and documentation.</mixed-citation>
+            </ref>
+            <ref id="d253015e727a1310">
+               
+               <mixed-citation id="d253015e731" publication-type="journal">
+Eisen, M.B., and Brown, P. 0. (1999), "DNA Arrays for Analysis of Gene Expression," Methods in Enzymology,
+303, 179-205.<person-group>
+                     <string-name>
+                     <surname>Eisen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>303</volume>
+               <source>Methods in Enzymology</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e763a1310">
+               
+               <mixed-citation id="d253015e767" publication-type="journal">
+Golub, T.R., Slonim, D.K., Tamayo, P., Huard, C., Gaasenbeek, M., Mesirov, J.P., Coller, H., Loh, M.L.,
+Downing, J.R., Caligiuri, M.A., Bloomfield, C.D., and Lander, E.S. (1999), "Molecular Classification of
+Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring," Science, 286, 531-537.<object-id pub-id-type="jstor">10.2307/2899325</object-id>
+               <fpage>531</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e786a1310">
+               
+               <mixed-citation id="d253015e790" publication-type="book">
+GSI Lumonics, (1999), QuantArray Analysis Software, Operator's Manual.<source>QuantArray Analysis Software, Operator's Manual</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e803a1310">
+               
+               <mixed-citation id="d253015e807" publication-type="journal">
+Hughes, T.R., Marton, M.J., Jones, A.R., Roberts, C.J., Stoughton, R., Armour, C.D., Bennett, H.A., Coffey,
+E., Dai, H., He, Y.D., Kidd, M.J., King, A.M., Meyer, M.R., Slade, D., Lum, P.Y., Stepaniants, S.B.,
+Shoemaker, D.D., Gachotte, D., Chakraburtty, K., Simon, J., Bard, M., and Friend, S.H. (2000), "Functional
+Discovery via a Compendium of Expression Profiles," Cell, 102, 109-126.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>102</volume>
+               <source>Cell</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e845a1310">
+               
+               <mixed-citation id="d253015e849" publication-type="journal">
+Ihaka, R., and Gentleman, R. (1996), "R: A Language for Data Analysis and Graphics," Journal of Computational
+and Graphical Statistics, 5, 299-314.<object-id pub-id-type="doi">10.2307/1390807</object-id>
+               <fpage>299</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e865a1310">
+               
+               <mixed-citation id="d253015e869" publication-type="book">
+Lou, X.J. (1999), "Human Primary Cell Gene Expression Monitoring Using cDNA Microarrays," abstract for
+Microarray Algorithms and Statistical Analysis: Methods and Standards, Lake Tahoe Center.<person-group>
+                     <string-name>
+                     <surname>Lou</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Human Primary Cell Gene Expression Monitoring Using cDNA Microarrays</comment>
+               <source>Microarray Algorithms and Statistical Analysis: Methods and Standards</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e899a1310">
+               
+               <mixed-citation id="d253015e903" publication-type="journal">
+Marton, M.J., DeRisi, J.L., Bennettand, H.A., Iyer, V.R., Meyer, M.R., Roberts, C.J., Stoughton, R., Burchard,
+J., Slade, D., Dai, H., Bassett, D.E., Hartwell, L.H., Brown, P.O., and Friend, S.H. (1998), "Drug Target
+Validation and Identification of Secondary Drug Target Effects Using DNA Microarrays," Nature Medicine,
+4, 1293-1301.<person-group>
+                     <string-name>
+                     <surname>Marton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1293</fpage>
+               <volume>4</volume>
+               <source>Nature Medicine</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e941a1310">
+               
+               <mixed-citation id="d253015e945" publication-type="journal">
+Newton, M.A., Kendziorski, C.M., Richmond, C.S., Blattner, F.R., and Tsui, K.W. (2001), "On Differential
+Variability of Expression Ratios: Improving Statistical Inference About Gene Expression Changes From
+Microarray Data," Journal of Computational Biology, 8, 37-52.<person-group>
+                     <string-name>
+                     <surname>Newton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>37</fpage>
+               <volume>8</volume>
+               <source>Journal of Computational Biology</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e980a1310">
+               
+               <mixed-citation id="d253015e984" publication-type="journal">
+Perou, C.M., Jeffrey, S.S., van de Rijn, M., Rees, C.A., Eisen, M.B., Ross, D.T., Pergamenschikov, A., Williams,
+C.F., Zhu, S.X., Lee, J.C.F., Lashkari, D., Shalon, D., Brown, P.O., and Botstein, D. (1999), "Distinctive
+Gene Expression Patterns in Human Mammary Epithelial Cells and Breast Cancers," Proceedings of the
+National Academy of Sciences, 96, pp. 9212-9217.<person-group>
+                     <string-name>
+                     <surname>Perou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>9212</fpage>
+               <volume>96</volume>
+               <source>Proceedings of the National Academy of Sciences</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1022a1310">
+               
+               <mixed-citation id="d253015e1026" publication-type="book">
+Rahnenfuhrer, J., Yang, Y.H., Peng, V., Ngai, J., and Speed, T.P. (in press), "Reduction of PMT Value Efects in
+Microarray Experiments Through Normalization methods."<person-group>
+                     <string-name>
+                     <surname>Rahnenfuhrer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Reduction of PMT Value Efects in Microarray Experiments Through Normalization methods</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1048a1310">
+               
+               <mixed-citation id="d253015e1052" publication-type="journal">
+Ross, D.T., Scherf, U., Eisen, M.B., Perou, C.M., Spellman, P., Iyer, V., Jeffrey, S.S., Van de Rijn, M., Waltham,
+M., Pergamenschikov, A., Lee, J.C.F., Lashkari, D., Shalon, D., Myers, T.G., Weinstein, J.N., Botstein,
+D., and Brown, P. 0. (2000), "Systematic Variation in Gene Expression Patterns in Human Cancer Cell
+Lines," Nature Genetics, 24, 227-234.<person-group>
+                     <string-name>
+                     <surname>Ross</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>24</volume>
+               <source>Nature Genetics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1090a1310">
+               
+               <mixed-citation id="d253015e1094" publication-type="book">
+Schena, M. (ed.) (1999), DNA Microarrays: A Practical Approach, Cambridge, MA: Oxford University Press.<person-group>
+                     <string-name>
+                     <surname>Schena</surname>
+                  </string-name>
+                  </person-group>
+               <source>DNA Microarrays: A Practical Approach, Cambridge</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1117a1310">
+               
+               <mixed-citation id="d253015e1121" publication-type="book">
+(2000), Microarray Biochip Technology, Eaton.<person-group>
+                     <string-name>
+                     <surname>Schena</surname>
+                  </string-name>
+                  </person-group>
+               <source>Microarray Biochip Technology</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1143a1310">
+               
+               <mixed-citation id="d253015e1147" publication-type="book">
+Soille, P. (1999), Morphological Image Analysis: Principles and Applications, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Soille</surname>
+                  </string-name>
+                  </person-group>
+               <source>Morphological Image Analysis: Principles and Applications</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1169a1310">
+               
+               <mixed-citation id="d253015e1173" publication-type="journal">
+Spellman, P.T., Sherlock, G., Zhang, M.Q., Iyer, V.R., Anders, K., Eisen, M.B., Brown, P.O., Botstein,
+D., and Futcher, B. (1998), "Comprehensive Identification of Cell Cycle-Regulated Genes of the Yeast
+Saccharomyces Cerevisiae by Microarray Hybridization," Molecular Biology of the Cell, 9, 3273-3297.<person-group>
+                     <string-name>
+                     <surname>Spellman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3273</fpage>
+               <volume>9</volume>
+               <source>Molecular Biology of the Cell</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1208a1310">
+               
+               <mixed-citation id="d253015e1212" publication-type="journal">
+Vincent, L., and Soille, P. (1991), "Watersheds in Digital Spaces: An Efficient Algorithm Based on Immersion
+Simulations," IEEE Transactions on Pattern Analysis and Machine Intelligence, 13, 583-598.<person-group>
+                     <string-name>
+                     <surname>Vincent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>583</fpage>
+               <volume>13</volume>
+               <source>IEEE Transactions on Pattern Analysis and Machine Intelligence</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d253015e1244a1310">
+               
+               <mixed-citation id="d253015e1248" publication-type="book">
+Yang, Y.H., Dudoit, S., Luu, P., and Speed, T.P. (2001), "Normalization for cDNA Microarray Data," in
+Microarrays: Optical Technologies and Informatics, volume 4266 of Proceedings of SPIE eds. Michael L.
+Bittner, Yidong Chen, Andreas N. Dorsel, and Edward R. Dougherty, pp. 141-152.<person-group>
+                     <string-name>
+                     <surname>Yang</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Proceedings of SPIE</comment>
+               <fpage>141</fpage>
+               <volume>4266</volume>
+               <source>Microarrays: Optical Technologies and Informatics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

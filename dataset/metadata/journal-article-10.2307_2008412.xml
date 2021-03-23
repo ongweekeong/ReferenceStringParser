@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">56</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">194</issue>
+         <issue-id>i334612</issue-id>
+         <article-id pub-id-type="doi">10.2307/2008412</article-id>
+         
+         <title-group>
+            <article-title>Generation of Elements with Small Modular Squares and Provably Fast Integer Factoring Algorithms</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Brigitte</given-names>
+                     <surname>Vallée</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1991</year>
+         </pub-date>
+         <fpage>823</fpage>
+         <lpage>849</lpage>
+         <page-range>823-849</page-range>
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1991 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2008412"/>
+         
+         
+         <abstract>
+            <p>Finding small modular squares, when the modulus is a large composite number of unknown factorization, is almost certainly a computationally hard problem. This problem arises in a natural way when factoring the modulus by the use of congruences of squares. We study here, with the help of lattices, the set of elements whose squares $\operatorname{mod} n$ are small enough, less than $O(n^{n2/3})$. We obtain a precise description of the gaps between such elements, and we develop two polynomial-time algorithms that find elements with small modular squares. The first is a randomized algorithm that generates such elements in a near uniform way. We use it to derive a class of integer factorization algorithms, the fastest of which provides the best rigorously established probabilistic complexity bound for integer factorization algorithms. The second algorithm is deterministic and often finds, amongst the neighbors of a given point, the nearest one that has a small modular square.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11Y05</kwd>
+            <kwd>11Y16</kwd>
+            <kwd>11B57</kwd>
+            <kwd>11Hxx</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3757739e235a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3757739e242" publication-type="book">
+T. M. Apostol, Modular functions and Dirichlet series in number theory, Springer, New
+York, 1976.<person-group>
+                     <string-name>
+                     <surname>Apostol</surname>
+                  </string-name>
+                  </person-group>
+               <source>Modular functions and Dirichlet series in number theory</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e267a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3757739e274" publication-type="book">
+H. Davenport, Multiplicative number theory, 2nd ed., Springer-Verlag, New York, 1980.<person-group>
+                     <string-name>
+                     <surname>Davenport</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Multiplicative number theory</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e299a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3757739e306" publication-type="journal">
+J. D. Dixon, Asymptotically fast factorization of integers, Math. Comp.36 (1981), 255-260.<object-id pub-id-type="doi">10.2307/2007743</object-id>
+               <fpage>255</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e319a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3757739e326" publication-type="journal">
+M. A. Morrison and J. Brillhart, A method offactoring and the factorization of F7, Math.
+Comp.29 (1975), 183-205.<object-id pub-id-type="doi">10.2307/2005475</object-id>
+               <fpage>183</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e343a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3757739e350" publication-type="other">
+C. Pomerance, Analysis and comparison of some integer factoring algorithms, Computational
+Methods in Number Theory: Part I, Math. Centre Tract, no. 154, 1982, pp. 89-139.</mixed-citation>
+            </ref>
+            <ref id="d3757739e360a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3757739e367" publication-type="conference">
+C. Pomerance, Fast, rigorous factorization and discrete logarithm algorithms, Proc. Japan-
+U.S. Joint Seminar, Discrete Algorithms and Complexity, Academic Press, 1987, pp. 119-
+143.<person-group>
+                     <string-name>
+                     <surname>Pomerance</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Fast, rigorous factorization and discrete logarithm algorithms</comment>
+               <fpage>119</fpage>
+               <source>Proc. Japan-U.S. Joint Seminar, Discrete Algorithms and Complexity</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e402a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3757739e409" publication-type="book">
+—The quadratic sieve factoring algorithm, Advances in Cryptology, Proc. Eurocrypt 84,
+Paris 1984 (T. Beth, N. Cot, and I. Ingemarsson, eds.), Lecture Notes in Comput. Sci., vol.
+209, Springer, 1985, pp. 67-79.<person-group>
+                     <string-name>
+                     <surname>Pomerance</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The quadratic sieve factoring algorithm</comment>
+               <fpage>67</fpage>
+               <volume>209</volume>
+               <source>Advances in Cryptology, Proc. Eurocrypt 84</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e447a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3757739e454" publication-type="book">
+B. Vallée, M. Girault, and Ph. Toffin, How to guess l-th roots modulo n by reducing lattice
+bases, Proc. AAECC-6, Roma 1988, Lecture Notes in Comput. Sci., vol. 357, Springer,
+1989, pp. 427-442.<person-group>
+                     <string-name>
+                     <surname>Vallée</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">How to guess l-th roots modulo n by reducing lattice bases</comment>
+               <fpage>427</fpage>
+               <volume>357</volume>
+               <source>Proc. AAECC-6, Roma 1988</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3757739e492a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3757739e499" publication-type="conference">
+B. Vallée, Provably fast integer factoring with quasi-uniform small quadratic residues, Proc.
+21st ACM Sympos. on Theory of Computing, Seattle, 1989, pp. 98-106.<person-group>
+                     <string-name>
+                     <surname>Vallée</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Provably fast integer factoring with quasi-uniform small quadratic residues</comment>
+               <fpage>98</fpage>
+               <source>Proc. 21st ACM Sympos. on Theory of Computing, Seattle</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

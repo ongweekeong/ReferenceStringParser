@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">296</issue>
+         <issue-id>i40218556</issue-id>
+         <article-id pub-id-type="jstor">45106641</article-id>
+         <title-group>
+            <article-title>A TIME CONTINUATION BASED FAST APPROXIMATE ALGORITHM FOR COMPRESSED SENSING RELATED OPTIMIZATION</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>FARZIN</given-names>
+                  <surname>BAREKAT</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>STANLEY</given-names>
+                  <surname>OSHER</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>11</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>2791</fpage>
+         <lpage>2822</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/45106641"/>
+      
+      
+         <abstract>
+            <p>In this paper we introduce a fast approximate algorithm to optimize an augmented version of the Basis Pursuit problem and subsequently find the solution to the compressed sensing problem. Our methodology is to first solve the Lagrangian dual formulation of the problem and then use the result to find an approximate solution to the primal problem. Although we emphasize that our algorithm finds an approximate solution, numerical experiments show that our algorithm perfectly recovers the solution when the solution is relatively sparse with respect to the number of measurements. In these scenarios, the recovery is extremely fast compared to other available methods. Numerical experiments also demonstrate that the algorithm exhibits a sharp phase transition in success rate of recovery of the solution to compressed sensing problems as sparsity of solution varies. The algorithm proposed here is parameter free (except a tolerance parameter due to numerical machine precision), and very easy to implement.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2273e208a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2273e215" publication-type="other">
+J. Barzilai and J. M. Borwein, Two-point step size gradient methods, IMA J. Numer. Anal.
+8 (1988), no. 1, 141-148, DOI 10. 1093/imanum/8. 1.141. MR967848 (90h:65113)</mixed-citation>
+        </ref>
+        <ref id="d2273e225a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2273e232" publication-type="other">
+A. Beck and M. Teboulle, A fast iterative shrinkage-thresholding algorithm for linear in-
+verse problems, SIAM J. Imaging Sci. 2 (2009), no. 1, 183-202, DOI 10.1137/080716542.
+MR2486527 (2010d:35390)</mixed-citation>
+        </ref>
+        <ref id="d2273e245a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2273e252" publication-type="other">
+S. R. Becker, E. J. Candes, and M. C. Grant, Templates for convex cone problems with
+applications to sparse signal recovery, Math. Program. Comput. 3 (2011), no. 3, 165-218,
+DOI 10. 1007/sl2532-01 1-0029-5. MR2833262 (2012h:90107)</mixed-citation>
+        </ref>
+        <ref id="d2273e265a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2273e272" publication-type="other">
+M. Burger, M. Möller, M. Benning, and S. Osher, An adaptive inverse scale space method
+for compressed sensing, Math. Comp. 82 (2013), no. 281, 269-299, DOI 10.1090/S0025-5718-
+2012-02599-3. MR2983025</mixed-citation>
+        </ref>
+        <ref id="d2273e286a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2273e293" publication-type="other">
+E. J. Candes and T. Tao, Decoding by linear programming, IEEE Trans. Inform. Theory 51
+(2005), no. 12, 4203-4215, DOI 10.1109/TIT.2005.858979. MR2243152 (2007b:94313)</mixed-citation>
+        </ref>
+        <ref id="d2273e303a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2273e310" publication-type="other">
+S. Chen and D. Donoho, Basis Pursuit, Conference on Signals, Systems and Computers., vi,
+(1994), pp. 41-44.</mixed-citation>
+        </ref>
+        <ref id="d2273e320a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2273e327" publication-type="other">
+S. S. Chen, D. L. Donoho, and M. A. Saunders, Atomic decomposition by basis pursuit SIAM
+Rev. 43 (2001), no. 1, 129-159, DOI 10.1137/S003614450037906X. Reprinted from SIAM J.
+Sci. Comput. 20 (1998), no. 1, 33-61 (electronic) [MR1639094 (99h:94013)l. MR1854649</mixed-citation>
+        </ref>
+        <ref id="d2273e340a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2273e347" publication-type="other">
+J. Darbon, On convex finite-dimensional variational methods in imaging sciences and
+Hamilton-J acobi equations, UCLA CAM report 13-59, (2013).</mixed-citation>
+        </ref>
+        <ref id="d2273e357a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2273e364" publication-type="other">
+J. Darbon and S. Osher, Initial Value Problems for Hamilton-J acobi Equations and Sparsity
+for Linear Systems ma i1 Related Optimization, (2013), preprint.</mixed-citation>
+        </ref>
+        <ref id="d2273e374a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2273e381" publication-type="other">
+B. Efron, T. Hastie, I. Johnstone, and R. Tibshirani, Least angle regression, Ann. Statist. 32
+(2004), no. 2, 407-499, DOI 10.1214/009053604000000067. With discussion, and a rejoinder
+by the authors. MR2060166 (2005d:62116)</mixed-citation>
+        </ref>
+        <ref id="d2273e395a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2273e402" publication-type="other">
+M. P. Friedlander and P. Tseng, Exact regularization of convex programs, SIAM J. Optim.
+18 (2007), no. 4, 1326-1350, DOI 10.1137/060675320. MR2373304 (2008k:90092)</mixed-citation>
+        </ref>
+        <ref id="d2273e412a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2273e419" publication-type="other">
+E. T. Hale, W. Yin, and Y. Zhang, Fixed-point continuation for l' -minimization: methodology
+and convergence, SIAM J. Optim. 19 (2008), no. 3, 1107-1130, DOI 10.1137/070698920.
+MR2460734 (2009j:90070)</mixed-citation>
+        </ref>
+        <ref id="d2273e432a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2273e439" publication-type="other">
+M.-J. Lai and W. Yin, Augmented l' and nuclear-norm models with a globally linearly con-
+vergent algorithm, SIAM J. Imaging Sci. 6 (2013), no. 2, 1059-1091, DOI 10.1137/120863290.
+MR3062582</mixed-citation>
+        </ref>
+        <ref id="d2273e452a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2273e459" publication-type="other">
+S. G. Mallat, Z. Zhang, Matching pursuits with time-frequency dictionaries, IEEE Transac-
+tions on Signal Processing, Issue 12, (1993), pp. 3397-3415.</mixed-citation>
+        </ref>
+        <ref id="d2273e469a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2273e476" publication-type="other">
+Yu. E. Nesterov, A method for solving the convex programming problem with convergence
+rate 0(l/fc2) (Russian), Doki. Akad. Nauk SSSR 269 (1983), no. 3, 543-547. MR701288
+(84i:90119)</mixed-citation>
+        </ref>
+        <ref id="d2273e489a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2273e496" publication-type="other">
+Y. C. Pati, R. Rezaiifar, P. S. Krishnaprasad, Orthogonal matching pursuit: recursive function
+approximation with applications to wavelet decomposition, Proceedings of the 27th Annual
+Asilomar Conference on Signals, Systems, and Computers, (1993), pp. 40-44.</mixed-citation>
+        </ref>
+        <ref id="d2273e510a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2273e517" publication-type="other">
+F. Schöpfer, Exact regularization of polyhedral norms, SIAM J. Optim. 22 (2012), no. 4,
+1206-1223, DOI 10.1137/11085236X. MR3023770</mixed-citation>
+        </ref>
+        <ref id="d2273e527a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2273e534" publication-type="other">
+R. Tibshirani, Regression shrinkage and selection via the lasso, J. Roy. Statist. Soc. Ser. B
+58 (1996), no. 1, 267-288. MR1379242 (96j:62134)</mixed-citation>
+        </ref>
+        <ref id="d2273e544a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2273e551" publication-type="other">
+J. A. Tropp and A. C. Gilbert, Signal recovery from random measurements via orthog-
+onal matching pursuit, IEEE Trans. Inform. Theory 53 (2007), no. 12, 4655-4666, DOI
+10. 1109/TIT. 2007.909108. MR2446929 (2009h:94042)</mixed-citation>
+        </ref>
+        <ref id="d2273e564a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2273e571" publication-type="other">
+D. L. Donoho and Y. Tsaig, Fast solution of h -norm minimization problems when the
+solution may be sparse, IEEE Trans. Inform. Theory 54 (2008), no. 11, 4789-4812, DOI
+10.1 109/TIT. 2008. 929958. MR2589865 (2011a:94027)</mixed-citation>
+        </ref>
+        <ref id="d2273e584a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2273e591" publication-type="other">
+L. T. Watson, Theory of globally convergent probability-one homotopies for nonlin-
+ear programming, SIAM J. Optim. 11 (2000/01), no. 3, 761-780 (electronic), DOI
+10.1137/S105262349936121X. MR1814041 (2001m:90106)</mixed-citation>
+        </ref>
+        <ref id="d2273e604a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2273e611" publication-type="other">
+L. T. Watson and R. T. Haftka, Modern homotopy methods in optimization, Comput. Meth-
+ods Appl. Mech. Engrg. 74 (1989), no. 3, 289-305, DOI 10.1016/0045-7825(89)90053-4.
+MR1020627 (90j:90130)</mixed-citation>
+        </ref>
+        <ref id="d2273e625a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2273e632" publication-type="other">
+Y. Yang, M. Möller, and S. Osher, A dual split Bregman method for fast £l minimiza-
+tion, Math. Comp. 82 (2013), no. 284, 2061-2085, DOI 10.1090/S0025-5718-2013-02700-7.
+MR3073192</mixed-citation>
+        </ref>
+        <ref id="d2273e645a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2273e652" publication-type="other">
+W. Yin, Analysis and generalizations of the linearized Bregman model, SIAM J. Imaging Sci.
+3 (2010), no. 4, 856-877, DOI 10.1137/090760350. MR2735964 (2011j:68172)</mixed-citation>
+        </ref>
+        <ref id="d2273e662a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2273e669" publication-type="other">
+M. R. Osborne, B. Presnell, and B. A. Turlach, A new approach to variable selec-
+tion in least squares problems, IMA J. Numer. Anal. 20 (2000), no. 3, 389-403, DOI
+10.1093/imanum/20.3.389. MR1773265 (2001g:65054)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">60</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">201</issue>
+         <issue-id>i337657</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153161</article-id>
+         
+         <title-group>
+            <article-title>Finite Volume Solutions of Convection-Diffusion Test Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. A.</given-names>
+                  <surname>Mackenzie</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>K. W.</given-names>
+                  <surname>Morton</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1993</year>
+         </pub-date>
+         <fpage>189</fpage>
+         <lpage>220</lpage>
+         <page-range>189-220</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1993 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153161"/>
+         
+         
+         <abstract>
+            <p>The cell-vertex formulation of the finite volume method has been developed and widely used to model inviscid flows in aerodynamics: more recently, one of us has proposed an extension for viscous flows. The purpose of the present paper is two-fold: first we have applied this scheme to a well-known convection-diffusion model problem, involving flow around a 180&lt;sup&gt;⚬&lt;/sup&gt; bend, which highlights some of the issues concerning the application of the boundary conditions in such cell-based schemes. The results are remarkably good when the boundary conditions are applied in an appropriate manner. In our efforts to explain the high quality of the results we were led to a detailed analysis of the corresponding one-dimensional problem. Our second purpose is thus to gather together various approaches to the analysis of this problem and to draw attention to the supra-convergence phenomena enjoyed by the proposed methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N99</kwd>
+            <kwd>65L10</kwd>
+            <kwd>76M25</kwd>
+            <kwd>76R05</kwd>
+            <kwd>Convection-diffusion</kwd>
+            <kwd>finite volume</kwd>
+            <kwd>cell-vertex</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3871585e175a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3871585e182" publication-type="journal">
+J. W. Barrett and K. W. Morton, Approximate symmetrization and Petrov-Galerkin methods
+for diffusion-convection problems, Comput. Methods Appl. Mech. Engrg.45 (1984), 97-122.<person-group>
+                     <string-name>
+                     <surname>Barrett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>45</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e214a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3871585e221" publication-type="book">
+E. P. Doolan, J. J. H. Miller, and W. H. A. Schilders, Uniform numerical methods for
+problems with initial and boundary layers, Boole Press, Dublin, 1980.<person-group>
+                     <string-name>
+                     <surname>Doolan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Uniform numerical methods for problems with initial and boundary layers</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e246a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3871585e253" publication-type="book">
+B. Garcia-Archilla and J. A. Mackenzie, Analysis of a supraconvergent cell vertex finite volume
+method for one-dimensional convection-diffusion problems, Technical Report NA91/13,
+Oxford University Computing Laboratory, 11 Keble Road, Oxford, OX 1 3QD, 1991.
+(Submitted for publication)<person-group>
+                     <string-name>
+                     <surname>Garcia-Archilla</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of a supraconvergent cell vertex finite volume method for one-dimensional convection-diffusion problems</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e285a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3871585e292" publication-type="journal">
+V. A. Gushchin and V. V. Shchennikov, A monotonic difference scheme of second order
+accuracy, U.S.S.R. Comput. Math. and Math. Phys.14 (1974), 252-256.<person-group>
+                     <string-name>
+                     <surname>Gushchin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>252</fpage>
+               <volume>14</volume>
+               <source>U.S.S.R. Comput. Math. and Math. Phys.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e325a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3871585e332" publication-type="journal">
+J. C. Heinrich, P. S. Huyakorn, A. R. Mitchell, and 0. C. Zienkiewicz, An upwind finite
+element scheme for two-dimensional convective transport equations, Internat. J. Numer.
+Methods Engrg.11 (1977), 131-143.<person-group>
+                     <string-name>
+                     <surname>Heinrich</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>11</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e367a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3871585e374" publication-type="book">
+T. J. R. Hughes and A. N. Brooks, A multi-dimensional upwind scheme with no crosswind
+diffusion, Finite Element Methods for Convection Dominated Flows (T. J. R. Hughes, ed.),
+ASME, New York, 1985, pp. 19-35.<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A multi-dimensional upwind scheme with no crosswind diffusion</comment>
+               <fpage>19</fpage>
+               <source>Finite Element Methods for Convection Dominated Flows</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e409a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3871585e416" publication-type="book">
+A. Jameson, W. Schmidt, and E. Turkel, Numerical solutions of the Euler equations by finite
+volume methods using Runge-Kutta time stepping, AIAA Paper No. 81-1259, 1981.<person-group>
+                     <string-name>
+                     <surname>Jameson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical solutions of the Euler equations by finite volume methods using Runge-Kutta time stepping</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e441a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3871585e448" publication-type="journal">
+R. B. Kellogg and A. Tsan, Analysis of some difference approximations for a singular
+perturbation problem without turning points, Math. Comp.32 (1978), 1025-1039.<object-id pub-id-type="doi">10.2307/2006331</object-id>
+               <fpage>1025</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e464a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3871585e471" publication-type="journal">
+H. 0. Kreiss, T. A. Manteuffel, B. Swartz, B. Wendroff, and A. B. White, Supra-convergent
+schemes on irregular grids, Math. Comp.47 (1986), 537-554.<object-id pub-id-type="doi">10.2307/2008171</object-id>
+               <fpage>537</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e487a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3871585e494" publication-type="journal">
+J. E. Lavery, Nonoscillatory solution of the steady inviscid Burgers'equation by mathematical
+programming, J. Comput. Phys.79 (1988), 436-448.<person-group>
+                     <string-name>
+                     <surname>Lavery</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>436</fpage>
+               <volume>79</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e527a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3871585e534" publication-type="book">
+R. W. MacCormack and A. J. Paullay, Computational efficiency achieved by time splitting of
+finite difference operators, AIAA Paper No. 72-154, 1972.<person-group>
+                     <string-name>
+                     <surname>MacCormack</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational efficiency achieved by time splitting of finite difference operators</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e559a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3871585e566" publication-type="book">
+J. A. Mackenzie, The cell vertex method for viscous transport problems, Technical Report
+NA89/4, Oxford University Computing Laboratory, 11 Keble Road, Oxford, OX 1 3QD,
+1989.<person-group>
+                     <string-name>
+                     <surname>Mackenzie</surname>
+                  </string-name>
+                  </person-group>
+               <source>The cell vertex method for viscous transport problems</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e595a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3871585e602" publication-type="journal">
+T. A. Manteuffel and A. B. White, Jr., The numerical solution of second-order boundary value
+problems on nonuniform meshes, Math. Comp.47 (1986), 511-535.<object-id pub-id-type="doi">10.2307/2008170</object-id>
+               <fpage>511</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e618a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3871585e625" publication-type="book">
+P. W. McDonald, The computation of transonic flow through two-dimensional gas turbine
+cascades, Paper 71-GT-89, ASME, New York, 1971.<person-group>
+                     <string-name>
+                     <surname>McDonald</surname>
+                  </string-name>
+                  </person-group>
+               <source>The computation of transonic flow through two-dimensional gas turbine cascades</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e650a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3871585e657" publication-type="conference">
+J. Moore and J. Moore, Calculation of horseshoe vortex flow without numerical mixing,
+Technical Report JM/83-1 1, Virginia Polytechnic Inst. and State University, Blacksburg,
+Virginia 24061, 1983. Prepared for presentation at the 1984 Gas Turbine Conference,
+Amsterdam.<person-group>
+                     <string-name>
+                     <surname>Moore</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Calculation of horseshoe vortex flow without numerical mixing</comment>
+               <source>1984 Gas Turbine Conference, Amsterdam</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e692a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3871585e699" publication-type="journal">
+K. W. Morton, Generalised Galerkin methods for hyperbolic problems, Comput. Methods
+Appl. Mech. Engrg.52 (1985), 847-871.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>847</fpage>
+               <volume>52</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1985</year>
+            </mixed-citation>
+               <mixed-citation id="d3871585e730" publication-type="conference">
+Presented at FENOMECH '84, Part III, IV,
+Stuttgart, 1984.<source>FENOMECH '84, Part III, IV, Stuttgart</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e747a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3871585e754" publication-type="book">
+—Finite volume methods and their analysis, The Mathematics of Finite Elements and
+Applications, VII MAFELAP 1990 (J. R. Whiteman, ed.), Academic Press, London and
+New York, 1991, pp. 189-214.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite volume methods and their analysis</comment>
+               <fpage>189</fpage>
+               <source>The Mathematics of Finite Elements and Applications</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e789a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3871585e796" publication-type="journal">
+K. W. Morton and M. F. Paisley, A finite volume scheme with shock fitting for the steady
+Euler equations, J. Comput. Phys.80 (1989), 168-203.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>168</fpage>
+               <volume>80</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e828a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3871585e835" publication-type="book">
+K. W. Morton and B. W. Scotney, Petrov-Galerkin methods and diffusion-convection problems
+in 2D, The Mathematics of Finite Elements and Applications, V MAFELAP 1984 (J. R.
+Whiteman, ed.), Academic Press, London and New York, 1985, pp. 343-366.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Petrov-Galerkin methods and diffusion-convection problems in 2D</comment>
+               <fpage>343</fpage>
+               <source>The Mathematics of Finite Elements and Applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e870a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3871585e877" publication-type="book">
+K. W. Morton and E. Suili, Finite volume methods and their analysis, Technical Report
+NA90/14, Oxford University Computing Laboratory, 11 Keble Road, Oxford, OXI 3QD,
+1989.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite volume methods and their analysis</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e906a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3871585e913" publication-type="journal">
+R. H. Ni, A multiple grid method for solving the Euler equations, AIAA J.20 (1982), 1565-
+1571.<person-group>
+                     <string-name>
+                     <surname>Ni</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1565</fpage>
+               <volume>20</volume>
+               <source>AIAA J.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e945a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3871585e952" publication-type="journal">
+E. O'Riordan and M. Stynes, An analysis of a superconvergence result for a singularly
+perturbed boundary value problem, Math. Comp.46 (1986), 81-92.<object-id pub-id-type="doi">10.2307/2008216</object-id>
+               <fpage>81</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e969a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3871585e976" publication-type="journal">
+R. M. Smith and A. G. Hutton, The numerical treatment of convection-a perfor-
+mance/comparison of current methods, Numer. Heat Transfer5 (1982), 439-461.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>439</fpage>
+               <volume>5</volume>
+               <source>Numer. Heat Transfer</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871585e1008a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3871585e1015" publication-type="other">
+M. N. Spijker, Stability and convergence offinite-difference methods, PhD thesis, Leiden,
+Rijksuniversiteit, 1968.</mixed-citation>
+            </ref>
+            <ref id="d3871585e1025a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3871585e1032" publication-type="book">
+F. Stummel, Biconvergence, bistability and consistency of one-step methods for the numerical
+solution of initial value problems in ordinary differential equations, Topics in Numerical
+Analysis II (J. J. H. Miller, ed.), Academic Press, London, 1975, pp. 197-211.<person-group>
+                     <string-name>
+                     <surname>Stummel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Biconvergence, bistability and consistency of one-step methods for the numerical solution of initial value problems in ordinary differential equations</comment>
+               <fpage>197</fpage>
+               <source>Topics in Numerical Analysis II</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">59</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">200</issue>
+         <issue-id>i337656</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153062</article-id>
+         
+         <title-group>
+            <article-title>The Accuracy of Cell Vertex Finite Volume Methods on Quadrilateral Meshes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Endre</given-names>
+                     <surname>Süli</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>359</fpage>
+         <lpage>382</lpage>
+         <page-range>359-382</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1992 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153062"/>
+         
+         
+         <abstract>
+            <p>For linear first-order hyperbolic equations in two dimensions we restate the cell vertex finite volume scheme as a finite element method. On structured meshes consisting of distorted quadrilaterals, the global error is shown to be of second order in various mesh-dependent norms, provided that the quadrilaterals are close to parallelograms in the sense that the distance between the midpoints of the diagonals is of the same order as the measure of the quadrilateral. On tensor product nonuniform meshes, the cell vertex scheme coincides with the familiar box scheme. In this case, second-order accuracy is shown without any additional assumption on the regularity of the mesh, which explains the insensitivity of the cell vertex scheme to mesh stretching in the coordinate directions, observed in practice.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N06</kwd>
+            <kwd>65N12</kwd>
+            <kwd>65N15</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Finite volume methods</kwd>
+            <kwd>stability</kwd>
+            <kwd>error estimates</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d519788e169a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d519788e176" publication-type="book">
+R. A. Adams, Sobolev spaces, Academic Press, New York, 1975.<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e198a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d519788e205" publication-type="book">
+J.-P. Aubin and I. Ekeland, Applied nonlinear analysis, Wiley-Interscience, New York, 1988.<person-group>
+                     <string-name>
+                     <surname>Aubin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applied nonlinear analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e227a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d519788e234" publication-type="book">
+P. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam, New
+York, Oxford, 1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e259a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d519788e266" publication-type="conference">
+M. Giles, Accuracy of node based solutions on irregular meshes, Proceedings of the 11th
+International Conference on Numerical Methods in Fluid Dynamics (D. L. Dwoyer, M. Y.
+Hussaini, and R. G. Voigt, eds.), Springer-Verlag, Berlin, 1988, pp. 273-277.<person-group>
+                     <string-name>
+                     <surname>Giles</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Accuracy of node based solutions on irregular meshes</comment>
+               <fpage>273</fpage>
+               <source>Proceedings of the 11th International Conference on Numerical Methods in Fluid Dynamics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e302a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d519788e309" publication-type="book">
+A. Jameson, W. Schmidt, and E. Turkel, Numerical solutions of the Euler equations by finite
+volume methods using Runge-Kutta time-marching schemes, Paper 81-1259, AIAA, New
+York, 1981.<person-group>
+                     <string-name>
+                     <surname>Jameson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical solutions of the Euler equations by finite volume methods using Runge-Kutta time-marching schemes</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e338a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d519788e345" publication-type="journal">
+P. Lesaint and P.-A. Raviart, Finite element collocation methods for first order systems,
+Math. Comp.33 (1979), 891-918.<object-id pub-id-type="doi">10.2307/2006067</object-id>
+               <fpage>891</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e361a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d519788e368" publication-type="book">
+R. W. MacCormack and A. J. Paullay, Computational efficiency achieved by time splitting
+of finite difference operators, Paper 72-154, AIAA, New York, 1972.<person-group>
+                     <string-name>
+                     <surname>MacCormack</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational efficiency achieved by time splitting of finite difference operators</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e393a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d519788e400" publication-type="book">
+P. W. McDonald, The computation of transonic flow through two-dimensional gas turbine
+cascades, Paper 71-GT-89, ASME, New York, 1971.<person-group>
+                     <string-name>
+                     <surname>McDonald</surname>
+                  </string-name>
+                  </person-group>
+               <source>The computation of transonic flow through two-dimensional gas turbine cascades</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e425a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d519788e432" publication-type="journal">
+K. W. Morton and M. F. Paisley, 'A finite volume scheme with shock fitting for the steady
+Euler equations, J. Comp. Phys.80 (1989), 168-203.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>168</fpage>
+               <volume>80</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e464a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d519788e471" publication-type="journal">
+K. W. Morton and E. Suli, Finite volume methods and their analysis, IMA J. Numer. Anal.
+11 (1991), 241-260.<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>241</fpage>
+               <volume>11</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e504a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d519788e511" publication-type="journal">
+R.-H. Ni, A multiple grid scheme for solving the Euler equations, AIAA J.20 (1981), 1565-
+1571.<person-group>
+                     <string-name>
+                     <surname>Ni</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1565</fpage>
+               <volume>20</volume>
+               <source>AIAA J.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e543a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d519788e550" publication-type="book">
+A. Pazy, Semigroups of linear operators and applications to partial differential equations,
+Springer-Verlag, New York, 1983.<person-group>
+                     <string-name>
+                     <surname>Pazy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Semigroups of linear operators and applications to partial differential equations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e575a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d519788e582" publication-type="book">
+P. Roe, The influence of mesh quality on solution accuracy, preprint, Cranfield Institute of
+Technology, 1989.<person-group>
+                     <string-name>
+                     <surname>Roe</surname>
+                  </string-name>
+                  </person-group>
+               <source>The influence of mesh quality on solution accuracy</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e607a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d519788e614" publication-type="book">
+—Error estimates for cell-vertex solutions of the compressible Euler equations, ICASE
+Report, No. 87-6, 1987.<person-group>
+                     <string-name>
+                     <surname>Roe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Error estimates for cell-vertex solutions of the compressible Euler equations</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e639a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d519788e646" publication-type="book">
+E. Süli, The accuracy of finite volume methods on distorted partitions, Mathematics of Finite
+Elements and ApplicationsVII (J. R. Whiteman, ed.), Academic Press, 1991, pp. 253-260.<person-group>
+                     <string-name>
+                     <surname>Süli</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The accuracy of finite volume methods on distorted partitions</comment>
+               <fpage>253</fpage>
+               <volume>VII</volume>
+               <source>Mathematics of Finite Elements and Applications</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e681a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d519788e688" publication-type="journal">
+—, Convergence of finite volume schemes for Poisson's equation on nonuniform meshes,
+SIAM J. Numer. Anal.28 (1991), 1419-1430.<person-group>
+                     <string-name>
+                     <surname>Süli</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1419</fpage>
+               <volume>28</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d519788e721a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d519788e728" publication-type="journal">
+M. Zlámal, Superconvergence and reduced integration in the finite element method, Math.
+Comp.32 (1978), 663-685.<person-group>
+                     <string-name>
+                     <surname>Zlámal</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>663</fpage>
+               <volume>32</volume>
+               <source>Math. Comp.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

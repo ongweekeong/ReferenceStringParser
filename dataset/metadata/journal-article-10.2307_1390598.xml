@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260255</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390598</article-id>
+         
+         <title-group>
+            <article-title>Exact Stratified Linear Rank Tests for Ordered Categorical and Binary Data</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Cyrus R.</given-names>
+                  <surname>Mehta</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Nitin</given-names>
+                  <surname>Patel</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Pralay</given-names>
+                  <surname>Senchaudhuri</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>21</fpage>
+         <lpage>40</lpage>
+         <page-range>21-40</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1992 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390598"/>
+         
+         
+         <abstract>
+            <p>
+               We present an efficient algorithm for generating exact permutational distributions for linear rank statistics defined on stratified 2 × c contingency tables. The algorithm can compute exact p values and confidence intervals for a rich class of nonparametric problems. These include exact p values for stratified two-population Wilcoxon, Logrank, and Van der Waerden tests, exact p values for stratified tests of trend across several binomial populations, exact p values for stratified permutation tests with arbitrary scores, and exact confidence intervals for odds ratios embedded in stratified 2 × c tables. The algorithm uses network-based recursions to generate stratum-specific distributions and then combines them into an overall permutation distribution by convolution. Where only the tail area of a permutation distribution is desired, additional efficiency gains are achieved by backward induction and branch-and-bound processing of the network. The algorithm is especially efficient for highly imbalanced categorical data, a situation where the asymptotic theory is unreliable. The backward induction component of the algorithm can also be used to evaluate the conditional maximum likelihood, and its higher order derivatives, for the logistic regression model with grouped data. We illustrate the techniques with an analysis of two data sets: The leukemia data on survivors of the Hiroshima atomic bomb and data from an animal toxicology experiment provided by the U.S. Food and Drug Administration. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Categorical data</kwd>
+            <kwd>Contingency tables</kwd>
+            <kwd>Dose response</kwd>
+            <kwd>Logistic regression</kwd>
+            <kwd>Nonparametrics</kwd>
+            <kwd>Permutation test</kwd>
+            <kwd>Randomization test</kwd>
+            <kwd>Trend test</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d907341e187a1310">
+               
+               <mixed-citation id="d907341e191" publication-type="book">
+Agresti, A. (1990), Categorical Data Analysis, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Agresti</surname>
+                  </string-name>
+                  </person-group>
+               <source>Categorical Data Analysis</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e213a1310">
+               
+               <mixed-citation id="d907341e217" publication-type="journal">
+Barnard, G.A. (1949), "Statistical Inference," Journal of the Royal Statistical Society, Ser. B, 11, 115-139.<person-group>
+                     <string-name>
+                     <surname>Barnard</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>115</fpage>
+               <volume>11</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1949</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e246a1310">
+               
+               <mixed-citation id="d907341e250" publication-type="journal">
+Bedrick, E.J., and Hill, J.R. (1990), "Outlier Tests for Logistic Regression: A Conditional Approach,"
+Biometrika, 77, 815-827.<object-id pub-id-type="doi">10.2307/2337104</object-id>
+               <fpage>815</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e266a1310">
+               
+               <mixed-citation id="d907341e270" publication-type="book">
+Breslow, N.E., and Day, N.E. (1980), The Analysis of Case-Control Studies, Lyon, France: IARC Scientific
+Publications.<person-group>
+                     <string-name>
+                     <surname>Breslow</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Analysis of Case-Control Studies</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e296a1310">
+               
+               <mixed-citation id="d907341e300" publication-type="journal">
+Chernoff, H., and Savage, I.R. (1958), "Asymptotic Normality and Efficiency of Certain Nonparametnc Test
+Statistics," The Annals of Mathematical Statistics, 29, 972-994.<object-id pub-id-type="jstor">10.2307/2236941</object-id>
+               <fpage>972</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e316a1310">
+               
+               <mixed-citation id="d907341e320" publication-type="book">
+Cox, D.R. (1970), The Analysis of Binary Data, London: Methuen.<person-group>
+                     <string-name>
+                     <surname>Cox</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Analysis of Binary Data</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e342a1310">
+               
+               <mixed-citation id="d907341e346" publication-type="journal">
+Edwards, D.E., and Kreiner, S. (1983), "The Analysis of Contingency Tables by Graphical Models,"
+Biometrika, 70, 553-565.<object-id pub-id-type="doi">10.2307/2336491</object-id>
+               <fpage>553</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e362a1310">
+               
+               <mixed-citation id="d907341e366" publication-type="book">
+EGRET (1988), State of the Art Epidemiological Computing, Seattle, WA: Statistics and Epidemiological
+Research Corporation.<person-group>
+                     <string-name>
+                     <surname>EGRET</surname>
+                  </string-name>
+                  </person-group>
+               <source>State of the Art Epidemiological Computing</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e391a1310">
+               
+               <mixed-citation id="d907341e395" publication-type="journal">
+Fisher, R.A. (1935), "The Logic of Inductive Inference," Journal of the Royal Statistical Society, 98, 39-54.<object-id pub-id-type="doi">10.2307/2342435</object-id>
+               <fpage>39</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e408a1310">
+               
+               <mixed-citation id="d907341e412" publication-type="journal">
+Gail, M.H., Lubin, J.H., and Rubinstein, L.V. (1981), "Likelihood Calculations for Matched Case-Control
+Studies and Survival Studies With Tied Death Tumes," Biometrika, 68, 703-777.<object-id pub-id-type="doi">10.2307/2335457</object-id>
+               <fpage>703</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e429a1310">
+               
+               <mixed-citation id="d907341e433" publication-type="journal">
+Gail, M.H., and Mantel, N. (1977), "Counting the Number of r x c Contingency Tables With Fixed Margins,"
+Journal of the American Statistical Association, 72, 859-862.<object-id pub-id-type="doi">10.2307/2286475</object-id>
+               <fpage>859</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e449a1310">
+               
+               <mixed-citation id="d907341e453" publication-type="journal">
+Graubard, B.L., and Korn, E.L. (1987), "Choice of Column Scores for Testing Independence in Ordered
+2 x K Contingency Tables," Biometrics, 43, 471-476.<object-id pub-id-type="doi">10.2307/2531828</object-id>
+               <fpage>471</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e469a1310">
+               
+               <mixed-citation id="d907341e473" publication-type="journal">
+Hirji, K.F., Mehta, C.R., and Patel, N.R. (1988), "Exact Inference for Matched Case-Control Studies,"
+Biometrics, 44, 803-814.<object-id pub-id-type="doi">10.2307/2531592</object-id>
+               <fpage>803</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e489a1310">
+               
+               <mixed-citation id="d907341e493" publication-type="journal">
+Hollander, M., and Pena, D. (1988), "Nonparametric Tests Under Restricted Treatment Assignment Rules,"
+Journal of the American Statistical Association, 83, 1144-1151.<object-id pub-id-type="doi">10.2307/2290147</object-id>
+               <fpage>1144</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e509a1310">
+               
+               <mixed-citation id="d907341e513" publication-type="book">
+Kalbfleisch, J.D., and Prentice, R.L. (1980), The Statistical Analysis of Failure Time Data, New York: John
+Wiley.<person-group>
+                     <string-name>
+                     <surname>Kalbfleisch</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Statistical Analysis of Failure Time Data</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e538a1310">
+               
+               <mixed-citation id="d907341e542" publication-type="journal">
+Kreiner, S. (1987), "Analysis of Multi-Dimensional Contingency Tables by Exact Conditional Tests," Scandi-
+navian Journal of Statistics, 14, 97-112.<person-group>
+                     <string-name>
+                     <surname>Kreiner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>14</volume>
+               <source>Scandinavian Journal of Statistics</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e575a1310">
+               
+               <mixed-citation id="d907341e579" publication-type="journal">
+Landis, R., Heyman, E.R., and Koch, G.G. (1978), "Average Partial Association in Three-Way Contingency
+Tables: A Review and Discussion of Alternative Tests," International Statistical Review, 46, 237-254.<person-group>
+                     <string-name>
+                     <surname>Landis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>46</volume>
+               <source>International Statistical Review</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e611a1310">
+               
+               <mixed-citation id="d907341e615" publication-type="journal">
+Little, R.J.A. (1989), "Testing the Equality of Two Independent Binomial Proportions," American Statistician,
+43, 283-288.<object-id pub-id-type="doi">10.2307/2685390</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e631a1310">
+               
+               <mixed-citation id="d907341e635" publication-type="journal">
+Mehta, C.R., Patel, N.R., and Gray, R. (1985), "On Computing an Exact Confidence Interval for the Common
+Odds Ratio in Several 2 x 2 Contingency Tables," Journal of the American Statistical Association, 80,
+969-973.<object-id pub-id-type="doi">10.2307/2288562</object-id>
+               <fpage>969</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e654a1310">
+               
+               <mixed-citation id="d907341e658" publication-type="journal">
+Mehta, C.R., Patel, N.R., and Tsiatis, A.A. (1984), "Exact Significance Testing to Establish Treatment
+Equivalence for Ordered Categorical Data," Biometrics, 40, 819-825.<object-id pub-id-type="doi">10.2307/2530927</object-id>
+               <fpage>819</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e674a1310">
+               
+               <mixed-citation id="d907341e678" publication-type="journal">
+Mehta, C.R., Patel, N.R., and Wei, L.J. (1988), "Computing Exact Significance Tests with Restricted
+Randomization Rules," Biometrika, 75, 295-302.<object-id pub-id-type="doi">10.2307/2336177</object-id>
+               <fpage>295</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e694a1310">
+               
+               <mixed-citation id="d907341e698" publication-type="journal">
+Pagano, M., and Tritchler, D. (1983), "On Obtaining Permutation Distributions in Polynomial Time," Journal
+of the American Statistical Association, 78, 435-441.<object-id pub-id-type="doi">10.2307/2288653</object-id>
+               <fpage>435</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e715a1310">
+               
+               <mixed-citation id="d907341e719" publication-type="book">
+Sedgewick, R. (1983), Algorithms, Reading, MA: Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Sedgewick</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithms</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e741a1310">
+               
+               <mixed-citation id="d907341e745" publication-type="book">
+StatXact (1991), A Statistical Package for Exact Nonparametric Inference: Volume 2, Cambridge, MA: Cytel
+Software Corporation.<person-group>
+                     <string-name>
+                     <surname>StatXact</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Statistical Package for Exact Nonparametric Inference: Volume 2</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e770a1310">
+               
+               <mixed-citation id="d907341e774" publication-type="journal">
+Streitberg, B., and Rohmel, R. (1986), "Exact Distributions for Permutation and Rank Tests," Statistical
+Software Newsletter, 12, 10-17.<person-group>
+                     <string-name>
+                     <surname>Streitberg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>10</fpage>
+               <volume>12</volume>
+               <source>Statistical Software Newsletter</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e806a1310">
+               
+               <mixed-citation id="d907341e810" publication-type="journal">
+Tritchler, D. (1984), "An Algorithm for Exact Logistic Regression," Journal of the American Statistical
+Association, 79, 709-711.<object-id pub-id-type="doi">10.2307/2288420</object-id>
+               <fpage>709</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e826a1310">
+               
+               <mixed-citation id="d907341e830" publication-type="book">
+Whittaker, J. (1990), Graphical Models in Applied Multivariate Statistics, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Whittaker</surname>
+                  </string-name>
+                  </person-group>
+               <source>Graphical Models in Applied Multivariate Statistics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d907341e852a1310">
+               
+               <mixed-citation id="d907341e856" publication-type="journal">
+Yates, F. (1984), "Test of Significance for 2 x 2 Contingency Tables," Journal of the Royal Statistical Society,
+Ser. A, 147, 426-463.<person-group>
+                     <string-name>
+                     <surname>Yates</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>426</fpage>
+               <volume>147</volume>
+               <source>Journal of the Royal Statistical Society, Ser. A</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

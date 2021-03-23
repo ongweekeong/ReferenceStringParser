@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">42</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">166</issue>
+         <issue-id>i334584</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007601</article-id>
+         
+         <title-group>
+            <article-title>Preconditioning By Incomplete Block Cyclic Reduction</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Garry</given-names>
+                  <surname>Rodrigue</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Donald</given-names>
+                  <surname>Wolitzer</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1984</year>
+         </pub-date>
+         <fpage>549</fpage>
+         <lpage>565</lpage>
+         <page-range>549-565</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1984 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007601"/>
+         
+         
+         <abstract>
+            <p>Iterative methods for solving linear systems arising from the discretization of elliptic/parabolic partial differential equations require the use of preconditioners to gain increased rates of convergence. Preconditioners arising from incomplete factorizations have been shown to be very effective. However, the recursiveness of these methods can offset these gains somewhat on a vector processor. In this paper, an incomplete factorization based on block cyclic reduction is developed. It is shown that under block diagonal dominance conditions the off-diagonal terms decay quadratically, yielding more effective algorithms.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+            <kwd>65N20</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d218677e141a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d218677e148" publication-type="journal">
+0. AXELSSON, "A generalized SSOR method," BIT, v. 13, 1972, pp. 443-467.<person-group>
+                     <string-name>
+                     <surname>Axelsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>13</volume>
+               <source>BIT</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e177a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d218677e184" publication-type="book">
+P. CONCUS, G. GOLUB &amp; D. P. O'LEARY, "A generalized conjugate gradient method for the
+numerical solution of elliptic partial differential equations," in Sparse Matrix Computations (J. R. Bunch
+and D. J. Rose, eds.), Academic Press, New York, 1976, pp. 309-332.<person-group>
+                     <string-name>
+                     <surname>Concus</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A generalized conjugate gradient method for the numerical solution of elliptic partial differential equations</comment>
+               <fpage>309</fpage>
+               <source>Sparse Matrix Computations</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e219a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d218677e226" publication-type="book">
+P. DUBOIS &amp; G. RODRIGUE, An Analysis of the Recursive Doubling Algorithm, Proceedings of High
+Speed Computer and Algorithm Organization, Academic Press, New York, 1977.<person-group>
+                     <string-name>
+                     <surname>Dubois</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">An Analysis of the Recursive Doubling Algorithm</comment>
+               <source>Proceedings of High Speed Computer and Algorithm Organization</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e255a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d218677e262" publication-type="conference">
+J. EHREL, A. LICHNEWSKY &amp; F. THOMASSET, Parallelism in Finite Element Computation, Proceedings
+of I.B.M. Symposium on Vector Computers and Scientific Computation, Rome, 1982.<person-group>
+                     <string-name>
+                     <surname>Ehrel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Parallelism in Finite Element Computation</comment>
+               <source>Proceedings of I.B.M. Symposium on Vector Computers and Scientific Computation, Rome</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e292a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d218677e299" publication-type="book">
+A. GREENBAUM &amp; G. RODRIGUE, The Incomplete Cholesky Conjugate Gradient Method for the STAR
+(5-Point Operator), LLNL Report UCID- 17574, 1977.<person-group>
+                     <string-name>
+                     <surname>Greenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Incomplete Cholesky Conjugate Gradient Method for the STAR (5-Point Operator)</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e324a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d218677e331" publication-type="journal">
+I. GUSTAFSSON, A class of first order factorization methods," BIT, v. 18, 1978, pp. 142-156.<person-group>
+                     <string-name>
+                     <surname>Gustafsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>142</fpage>
+               <volume>18</volume>
+               <source>BIT</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e360a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d218677e367" publication-type="journal">
+D. HELLER, "Some aspects of the cyclic reduction algorithm for block tridiagonal linear systems,"
+SIAM J. Numer. Anal., v. 13, no. 4, Sept. 1976, pp. 484-496.<object-id pub-id-type="jstor">10.2307/2156240</object-id>
+               <fpage>484</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e383a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d218677e390" publication-type="book">
+T. JORDAN, "A guide to parallel computation and some CRAY-1 experiences," Parallel Computa-
+tions (G. Rodrigue, ed.), Academic Press, New York, 1982.<person-group>
+                     <string-name>
+                     <surname>Jordan</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A guide to parallel computation and some CRAY-1 experiences</comment>
+               <source>Parallel Computations</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e419a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d218677e426" publication-type="book">
+D. KERSHAW, "Solution of single tridiagonal linear systems and vectorization of the ICCG
+algorithm on the CRAY-1," Parallel Computations (G. Rodrigue, ed.), Academic Press, New York, 1982.<person-group>
+                     <string-name>
+                     <surname>Kershaw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Solution of single tridiagonal linear systems and vectorization of the ICCG algorithm on the CRAY-1</comment>
+               <source>Parallel Computations</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e455a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d218677e462" publication-type="journal">
+D. KERSHAW, "The incomplete Cholesky-conjugate gradient method for the iterative solution of
+systems of linear equations," J. Comput. Phys., v. 26, 1978, pp. 43-65.<person-group>
+                     <string-name>
+                     <surname>Kershaw</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>43</fpage>
+               <volume>26</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e495a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d218677e502" publication-type="book">
+J. J. LAMBIOTTE &amp; R. G. VOIGT, The Solution of Tridiagonal Linear Systems on the CDC-STAR-100
+Computer, ICASE Report, NASA Langley Research Center, Hampton, Virgina, 1974.<person-group>
+                     <string-name>
+                     <surname>Lambiotte</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Solution of Tridiagonal Linear Systems on the CDC-STAR-100 Computer</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e527a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d218677e534" publication-type="book">
+N. K. MADSEN &amp; G. H. RODRIGUE, A Comparison of Direct Methods for Tridiagonal Systems on the
+CDC-STAR-100, Report UCRL-76993, Lawrence Livermore Laboratory, July 1975.<person-group>
+                     <string-name>
+                     <surname>Madsen</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Comparison of Direct Methods for Tridiagonal Systems on the CDC-STAR-100</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e559a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d218677e566" publication-type="journal">
+N. MADSEN, G. RODRIGUE &amp; J. KARUSH, "Matrix multiplication by diagonals on a vector parallel
+processor," J. Inform. Process., v. 5, No. 2, June 1976.<person-group>
+                     <string-name>
+                     <surname>Madsen</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <volume>5</volume>
+               <source>J. Inform. Process</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e598a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d218677e605" publication-type="book">
+T. A. MANTEUFFEL, "The shifted incomplete-Cholesky factorization," Sparse Matrix Proceedings
+(Iain S. Duff and G. W. Stewart, eds.), SIAM, Philadelphia, Pa., 1978.<person-group>
+                     <string-name>
+                     <surname>Manteuffel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The shifted incomplete-Cholesky factorization</comment>
+               <source>Sparse Matrix Proceedings</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e634a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d218677e641" publication-type="journal">
+J. A. MEIJERINCK &amp; H. A. VAN DER VORST, "An iterative solution method for linear systems of
+which the coefficient matrix is a symmetric M-matrix," Math. Comp., v. 31, 1977, pp. 148-162.<person-group>
+                     <string-name>
+                     <surname>Meijerinck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>148</fpage>
+               <volume>31</volume>
+               <source>Math. Comp.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e673a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d218677e680" publication-type="book">
+G. RODRIGUE, C. HENDRICKSON &amp; M. PRATr, "The numerical solution of the Lagrangian diffusion
+equation on a vector processor," Parallel Computation (G. Rodrigue, ed.), Academic Press, New York,
+1982.<person-group>
+                     <string-name>
+                     <surname>Rodrigue</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The numerical solution of the Lagrangian diffusion equation on a vector processor</comment>
+               <source>Parallel Computation</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e713a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d218677e720" publication-type="journal">
+G. RODRIGUE, N. K. MADSEN &amp; J. T. KARUSH, " Odd-even reduction for banded linear systems," J.
+Assoc. Comput. Mach., v. 26, no. 1, January 1979, pp. 72-81.<person-group>
+                     <string-name>
+                     <surname>Rodrigue</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>72</fpage>
+               <volume>26</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e755a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d218677e762" publication-type="book">
+H. A. VAN DER VORST &amp; J. M. VAN KATS, Manteuffel's Algorithm with Preconditioning for the
+Iterative Solution of Certain Sparse Linear Systems with a Non-Symmetric Matrix, Technical Report
+TR- 11, ACCU-Reeks No. 29, Academic Computer Centre, University of Utrecht, The Netherlands, Aug.
+1979.<person-group>
+                     <string-name>
+                     <surname>van der Vorst</surname>
+                  </string-name>
+                  </person-group>
+               <source>Manteuffel's Algorithm with Preconditioning for the Iterative Solution of Certain Sparse Linear Systems with a Non-Symmetric Matrix</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e794a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d218677e801" publication-type="book">
+R. S. VARGA, Matrix Iterative Analysis, Prentice-Hall, Englewood Cliffs, N.J., 1962.<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Iterative Analysis</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e823a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d218677e830" publication-type="book">
+R. S. VARGA, "Factorization and normalized iterative methods," Boundary Problems in Differential
+Equations (R. E. Langer, ed.), Univ. of Wisconsin Press, Madison, 1960, pp. 121-142.<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Factorization and normalized iterative methods</comment>
+               <fpage>121</fpage>
+               <source>Boundary Problems in Differential Equations</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d218677e862a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d218677e869" publication-type="book">
+D. YOUNG, Iterative Solution of Large Linear Systems, Academic Press, New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Young</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Large Linear Systems</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

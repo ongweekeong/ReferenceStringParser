@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i24736739</issue-id>
+         <article-id pub-id-type="jstor">24737291</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Regression Methods</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Fast and Stable Multiple Smoothing Parameter Selection in Smoothing Spline Analysis of Variance Models With Large Samples</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Nathaniel E.</given-names>
+                  <surname>Helwig</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ping</given-names>
+                  <surname>Ma</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>715</fpage>
+         <lpage>732</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24737291"/>
+      
+      
+         <abstract>
+            <p>The current parameterization and algorithm used to fit a smoothing spline analysis of variance (SSANOVA) model are computationally expensive, making a generalized additive model (GAM) the preferred method for multivariate smoothing. In this article, we propose an efficient reparameterization of the smoothing parameters in SSANOVA models, and a scalable algorithm for estimating multiple smoothing parameters in SSANOVAs. To validate our approach, we present two simulation studies comparing our reparameterization and algorithm to implementations of SSANOVAs and GAMs that are currently available in R. Our simulation results demonstrate that (a) our scalable SSANOVA algorithm outperforms the currently used SSANOVA algorithm, and (b) SSANOVAs can be a fast and reliable alternative to GAMs. We also provide an example with oceanographic data that demonstrates the practical advantage of our SSANOVA framework. Supplementary materials that are available online can be used to replicate the analyses in this article.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1432e220a1310">
+          
+            <mixed-citation id="d1432e224" publication-type="other">
+Bache, K., and Lichman, M. (2013), UCI Machine Learning Repository. Available at http://archive.ics.
+uci.edu/ml/citation_policy.html. [727]</mixed-citation>
+        </ref>
+        <ref id="d1432e234a1310">
+          
+            <mixed-citation id="d1432e238" publication-type="other">
+Craven, P., and Wahba, G. (1979), "Smoothing Noisy Data With Spline Functions: Estimating the Correct Degree
+of Smoothing by the Method of Generalized Cross-Validation," Numerische Mathematik, 31, 377-403. [719]</mixed-citation>
+        </ref>
+        <ref id="d1432e248a1310">
+          
+            <mixed-citation id="d1432e252" publication-type="other">
+Dennis, J. E., and Schnabel, R. B. (1996), Numerical Methods for Unconstrained Optimization and Nonlinear
+Equations, Philadelphia, PA: Society for Industrial and Applied Mathematics. [721]</mixed-citation>
+        </ref>
+        <ref id="d1432e262a1310">
+          
+            <mixed-citation id="d1432e266" publication-type="other">
+Gu, C. (2013a), gss: General Smoothing Splines, R package version 2.1-0. [723,725]</mixed-citation>
+        </ref>
+        <ref id="d1432e274a1310">
+          
+            <mixed-citation id="d1432e278" publication-type="other">
+-(2013b), Smoothing Spline ANOVA Models (2nd ed.), New York: Springer-Verlag. [716,719,730]</mixed-citation>
+        </ref>
+        <ref id="d1432e285a1310">
+          
+            <mixed-citation id="d1432e289" publication-type="other">
+Gu, C., and Wahba, G. (1991), "Minimizing GCV/GML Scores With Multiple Smoothing Parameters via the
+Newton Method," SIAM Journal on Scientific and Statistical Computing, 12, 383-398. [719,720,721,722]</mixed-citation>
+        </ref>
+        <ref id="d1432e299a1310">
+          
+            <mixed-citation id="d1432e303" publication-type="other">
+Helwig, N. E. (2013, May), "Fast and Stable Smoothing Spline Analysis of Variance Models for Large Samples
+With Applications to Electroencephalography Data Analysis," Ph.D. thesis, University of Illinois at Urbana-
+Champaign. [718,720]</mixed-citation>
+        </ref>
+        <ref id="d1432e316a1310">
+          
+            <mixed-citation id="d1432e320" publication-type="other">
+-(2014), bigsplines: Big Splines (Smoothing Splines for Large Samples), R package version 1.0-0. [723,725]</mixed-citation>
+        </ref>
+        <ref id="d1432e327a1310">
+          
+            <mixed-citation id="d1432e331" publication-type="other">
+Kim, Y.-J., and Gu, C. (2004), "Smoothing Spline Gaussian Regression: More Scalable Computation via Efficient
+Approximation," Journal of the Royal Statistical Society, Series B, 66, 337-356. [716,719,721,722,723,724]</mixed-citation>
+        </ref>
+        <ref id="d1432e341a1310">
+          
+            <mixed-citation id="d1432e345" publication-type="other">
+Li, K.-C. (1986), "Asymptotic Optimality for Cp, Cl, Cross-Validation and Generalized Cross-Validation: Dis-
+crete Index Set," The Annals of Statistics, 15, 958-975. [719]</mixed-citation>
+        </ref>
+        <ref id="d1432e356a1310">
+          
+            <mixed-citation id="d1432e360" publication-type="other">
+Lin, Y„ and Zhang, H. H. (2006), "Component Selection and Smoothing in Multivariate Nonparametric Regres-
+sion," The Annals of Statistics, 34, 2272-2297. [718]</mixed-citation>
+        </ref>
+        <ref id="d1432e370a1310">
+          
+            <mixed-citation id="d1432e374" publication-type="other">
+NOAA (2014), Tropical Atmosphere Ocean Project. Available at http://www.pmel.noaa.gov/tao/. [727]</mixed-citation>
+        </ref>
+        <ref id="d1432e381a1310">
+          
+            <mixed-citation id="d1432e385" publication-type="other">
+Wahba, G. (1990), Spline Models for Observational Data, Philadelphia, PA: Society for Industrial and Applied
+Mathematics. [716]</mixed-citation>
+        </ref>
+        <ref id="d1432e395a1310">
+          
+            <mixed-citation id="d1432e399" publication-type="other">
+Wood, S. N. (2004), "Stable and Efficient Multiple Smoothing Parameter Estimation for Generalized Additive
+Models," Journal of the American Statistical Association, 99, 673-686. [716,722,725]</mixed-citation>
+        </ref>
+        <ref id="d1432e409a1310">
+          
+            <mixed-citation id="d1432e413" publication-type="other">
+-(2006), Generalized Additive Models: An Introduction With R, Chapman &amp; Hall: Boca Raton. [716,725]</mixed-citation>
+        </ref>
+        <ref id="d1432e420a1310">
+          
+            <mixed-citation id="d1432e424" publication-type="other">
+-(2014), mgcv: Mixed GAM Computation Vehicle With GCV/AIC/REML Smoothness Estimation and
+GAMMs by REMUPQL, R package version 1.7-28. [725]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

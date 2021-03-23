@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Kluwer Academic Publishers</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40000476</issue-id>
+         <article-id pub-id-type="jstor">40009030</article-id>
+         <title-group>
+            <article-title>A Technical Word- and Term-Translation Aid Using Noisy Parallel Corpora across Language Groups</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Pascale</given-names>
+                  <surname>Fung</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kathleen</given-names>
+                  <surname>McKeown</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>53</fpage>
+         <lpage>87</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1997 Kluwer Academic Publishers</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/40009030"/>
+         
+         
+         <abstract>
+            <p>Technical-term translation represents one of the most difficult tasks for human translators since (1) most translators are not familiar with terms and domain-specific terminology and (2) such terms are not adequately covered by printed dictionaries. This paper describes an algorithm for translating technical words and terms from noisy parallel corpora across language groups. Given any word which is part of a technical term in the source language, the algorithm produces a ranked candidate match for it in the target language. Potential translations for the term are compiled from the matched words and are also ranked. We show how this ranked list helps translators in technical-term translation. Most algorithms for lexical and term translation focus on Indo-European language pairs, and most use a sentence-aligned clean parallel corpus without insertion, deletion or OCR noise. Our algorithm is language- and character-set-independent, and is robust to noise in the corpus. We show how our algorithm requires minimum preprocessing and is able to obtain technical-word translations without sentence-boundary identification or sentence alignment, from the English-Japanese AWK manual corpus with noise arising from text insertions or deletions and on the English-Chinese HKUST bilingual corpus. We obtain a precision of 55.35% from the AWK corpus for word translation including rare words, counting only the best candidate and direct translations. Translation precision of the best-candidate translation is 89.93% from the HKUST corpus. Potential term translations produced by the program help bilingual speakers to get a 47% improvement in translating technical terms.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Technical terms</kwd>
+            <kwd>translation aid</kwd>
+            <kwd>noisy corpora</kwd>
+            <kwd>alignment</kwd>
+            <kwd>Chinese</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      
+         <ref-list>
+            <title>Notes</title>
+            <ref id="d3301872e281a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3301872e288" publication-type="other">
+Kay and Röscheisen (1993).</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      
+         <ref-list>
+            <title>References</title>
+            <ref id="d3301872e304a1310">
+               
+               <mixed-citation id="d3301872e308" publication-type="other">
+Aho, A., B. Kernighan, and P. Weinberger: 1980, The AWK Programming Language. Addison-Wesley,
+Reading, Massachusetts.</mixed-citation>
+            </ref>
+            <ref id="d3301872e318a1310">
+               
+               <mixed-citation id="d3301872e322" publication-type="other">
+Brown, P.F., J. Cocke, S.A. Della Pietra, V.J. Della Pietra, F. Jelinek, J.D. Lafferty, R.L. Mercer, and
+P. Roosin: 1990, 'A Statistical Approach to Machine Translation', Computational Linguistics 16,
+79-85.</mixed-citation>
+            </ref>
+            <ref id="d3301872e335a1310">
+               
+               <mixed-citation id="d3301872e339" publication-type="other">
+Brown, P.F., S.A. Della Pietra, V.J. Della Pietra, and R.L. Mercer: 1993, 'The Mathematics of Machine
+Translation: Parameter Estimation', Computational Linguistics 19, 263-311.</mixed-citation>
+            </ref>
+            <ref id="d3301872e349a1310">
+               
+               <mixed-citation id="d3301872e353" publication-type="other">
+Brown, P., J. Lai, and R. Mercer: 1991, 'Aligning Sentences in Parallel Corpora', in 29th Annual
+Conference of the Association for Computational Linguistics, Berkeley, Calif., pp. 169-176.</mixed-citation>
+            </ref>
+            <ref id="d3301872e364a1310">
+               
+               <mixed-citation id="d3301872e368" publication-type="other">
+Chen, S.: 1993, 'Aligning Sentences in Bilingual Corpora using Lexical Information', in 31st Annual
+Conference of the Association for Computational Linguistics, Columbus, Ohio, pp. 9-16.</mixed-citation>
+            </ref>
+            <ref id="d3301872e378a1310">
+               
+               <mixed-citation id="d3301872e382" publication-type="other">
+Church, K.: 1988, 'A Stochastic Parts Program and Noun Phrase Parser for Unrestricted Text', in 2nd
+Conference on Applied Natural Language Processing, Austin, Texas, pp. 136-143.</mixed-citation>
+            </ref>
+            <ref id="d3301872e392a1310">
+               
+               <mixed-citation id="d3301872e396" publication-type="other">
+Church, K.: 1993, 'Char_align: A Program for Aligning Parallel Texts at the Character Level', in 31st
+Annual Conference of the Association for Computational Linguistics, Columbus, Ohio, pp. 1-8.</mixed-citation>
+            </ref>
+            <ref id="d3301872e406a1310">
+               
+               <mixed-citation id="d3301872e410" publication-type="other">
+Church, K., I. Dagan, W. Gale, P. Fung, J. Helfman, and B. Satish: 1993, 'Aligning Parallel Texts:
+Do Methods Developed for English-French Generalize to Asian Languages?', in Proceedings of
+Pacific Asia Conference on Formal and Computational Linguistics.</mixed-citation>
+            </ref>
+            <ref id="d3301872e423a1310">
+               
+               <mixed-citation id="d3301872e427" publication-type="other">
+Dagan, I. and K. Church: 1997, 'Termight: Coordinating Humans and Machines in Bilingual Termi-
+nology Acquisition', this issue, pp. 89-107.</mixed-citation>
+            </ref>
+            <ref id="d3301872e437a1310">
+               
+               <mixed-citation id="d3301872e441" publication-type="other">
+Dagan, I., K. W. Church, and W.A. Gale: 1993, 'Robust Bilingual Word Alignment for Machine Aided
+Translation', in Proceedings of the Workshop on Very Large Corpora: Academic and Industrial
+Perspectives, Columbus, Ohio, pp. 1-8.</mixed-citation>
+            </ref>
+            <ref id="d3301872e455a1310">
+               
+               <mixed-citation id="d3301872e459" publication-type="other">
+Fung, P.: 1995, 'A Pattern Matching Method for Finding Noun and Proper Noun Translations from
+Noisy Parallel Corpora', in 33rd Annual Conference of the Association for Computational Lin-
+guistics, Boston, Massachusettes, pp. 236-243.</mixed-citation>
+            </ref>
+            <ref id="d3301872e472a1310">
+               
+               <mixed-citation id="d3301872e476" publication-type="other">
+Fung, P. and K. Church: 1994, 'Kvec: A New Approach for Aligning Parallel Texts', in COLING 94:
+The 15th International Conference on Computational Linguistics, Kyoto, Japan, pp. 1096-1102.</mixed-citation>
+            </ref>
+            <ref id="d3301872e486a1310">
+               
+               <mixed-citation id="d3301872e490" publication-type="other">
+Fung, P., M-Y. Kan, and Y. Horita: 1996, 'Extracting Japanese Domain and Technical Terms is
+Relatively Easy', in NeMLaP-2: Proceedings of the Second International Conference on New
+Methods in Language Processing, Ankara, Turkey, pp. 148-159.</mixed-citation>
+            </ref>
+            <ref id="d3301872e503a1310">
+               
+               <mixed-citation id="d3301872e507" publication-type="other">
+Fung, P. and K. McKeown: 1994, 'Aligning Noisy Parallel Corpora Across Language Groups: Word
+Pair Feature Matching by Dynamic Time Warping', in Technology Partnerships for Crossing
+the Language Barrier: Proceedings of the First Conference of the Association for Machine
+Translation in the Americas, Columbia, Maryland, pp. 81-88.</mixed-citation>
+            </ref>
+            <ref id="d3301872e523a1310">
+               
+               <mixed-citation id="d3301872e527" publication-type="other">
+Fung, P. and D. Wu: 1994, 'Statistical Augmentation of a Chinese Machine-Readable Dictionary', in
+Second Annual Workshop on Very Large Corpora (WVLC2), Kyoto, Japan, pp. 69-85.</mixed-citation>
+            </ref>
+            <ref id="d3301872e537a1310">
+               
+               <mixed-citation id="d3301872e541" publication-type="other">
+Gale, W. and K. Church: 1991, 'Identifying Word Correspondences in Parallel Text', in Proceedings
+of the Fourth DARPA Workshop on Speech and Natural Language, Asilomar, Calif.</mixed-citation>
+            </ref>
+            <ref id="d3301872e552a1310">
+               
+               <mixed-citation id="d3301872e556" publication-type="other">
+Gale, W.A. and K.W. Church: 1993, 'A Program for Aligning Sentences in Bilingual Corpora',
+Computational Linguistics 19, 75-102.</mixed-citation>
+            </ref>
+            <ref id="d3301872e566a1310">
+               
+               <mixed-citation id="d3301872e570" publication-type="other">
+Justeson, J.S. and S.M. Katz: 1995, 'Technical Terminology: Some Linguistic Properties and an
+Algorithm for Identification in Text', Natural Language Engineering 1, 9-27.</mixed-citation>
+            </ref>
+            <ref id="d3301872e580a1310">
+               
+               <mixed-citation id="d3301872e584" publication-type="other">
+Kay, M. and M. Röscheisen: 1993, 'Text-Translation Alignment', Computational Linguistics 19,
+121-142.</mixed-citation>
+            </ref>
+            <ref id="d3301872e594a1310">
+               
+               <mixed-citation id="d3301872e598" publication-type="other">
+Kupiec, J.: 1993, 'An Algorithm for Finding Noun Phrase Correspondences in Bilingual Corpora', in
+31st Annual Conference of the Association for Computational Linguistics, Columbus, Ohio, pp.
+17-22.</mixed-citation>
+            </ref>
+            <ref id="d3301872e611a1310">
+               
+               <mixed-citation id="d3301872e615" publication-type="other">
+Matsumoto, Y. and M. Nagao: 1994, 'Improvements of Japanese Morphological Analyzer JUMAN', in
+Proceedings of the International Workshop on Sharable Natural Language Resources, pp. 22-28.</mixed-citation>
+            </ref>
+            <ref id="d3301872e625a1310">
+               
+               <mixed-citation id="d3301872e629" publication-type="other">
+Rabiner, L. and B.-H. Juang: 1993, Fundamentals of Speech Recognition, Prentice-Hall, Englewood
+Cliffs, NJ.</mixed-citation>
+            </ref>
+            <ref id="d3301872e640a1310">
+               
+               <mixed-citation id="d3301872e644" publication-type="other">
+Shemtov, H.: 1993, 'Text Alignment in a Tool for Translating Revised Documents', in Sixth Con-
+ference of the European Chapter of the Association for Computational Linguistics, Utrecht, The
+Netherlands, pp. 449-453.</mixed-citation>
+            </ref>
+            <ref id="d3301872e657a1310">
+               
+               <mixed-citation id="d3301872e661" publication-type="other">
+Simard, M., G. Foster, and P. Isabelle: 1992, 'Using Cognates to Align Sentences in Bilingual Cor-
+pora', in Fourth International Conference on Theoretical and Methodological Issues in Machine
+Translation: Empiricist vs. Rationalist Methods in MT, Montreal, Canada, pp. 67-82.</mixed-citation>
+            </ref>
+            <ref id="d3301872e674a1310">
+               
+               <mixed-citation id="d3301872e678" publication-type="other">
+Smadja, F. and K. McKeown: 1993, 'Translating Collocations for Use in Bilingual Lexicons', in
+Proceedings of the ARPA Human Language Technology Workshop 94, Plainsboro, New Jersey.</mixed-citation>
+            </ref>
+            <ref id="d3301872e688a1310">
+               
+               <mixed-citation id="d3301872e692" publication-type="other">
+Smadja, F., K. McKeown, and V. Hatzsivassiloglou: 1996, 'Translating Collocations for Bilingual
+Lexicons: A Statistical Approach', Computational Linguistics 22, 1-38.</mixed-citation>
+            </ref>
+            <ref id="d3301872e702a1310">
+               
+               <mixed-citation id="d3301872e706" publication-type="other">
+van der Eijk, P.: 1993, 'Automating the Acquisition of Bilingual Terminology', in Sixth Conference of
+the European Chapter of the Association for Computational Linguistics, Utrecht, The Netherlands,
+pp. 113-119.</mixed-citation>
+            </ref>
+            <ref id="d3301872e719a1310">
+               
+               <mixed-citation id="d3301872e723" publication-type="other">
+Warwick-Armstrong, S. and G. Russell: 1990, 'Bilingual Concordancing and Bilingual Lexicogra-
+phy', in Euralex.</mixed-citation>
+            </ref>
+            <ref id="d3301872e734a1310">
+               
+               <mixed-citation id="d3301872e738" publication-type="other">
+Wu, Dekai: 1994, 'Aligning a Parallel English-Chinese Corpus Statistically with Lexical Criteria',
+in 32nd Annual Conference of the Association for Computational Linguistics, Las Cruces, New
+Mexico, pp. 80-87.</mixed-citation>
+            </ref>
+            <ref id="d3301872e751a1310">
+               
+               <mixed-citation id="d3301872e755" publication-type="other">
+Wu, D. and P. Fung: 1994, 'Improving Chinese Tokenization with Linguistic Filters on Statistical
+Lexical Acquisition', in 4th Conference on Applied Natural Language Processing, Stuttgart,
+Germany, pp. 180-181.</mixed-citation>
+            </ref>
+            <ref id="d3301872e768a1310">
+               
+               <mixed-citation id="d3301872e772" publication-type="other">
+Wu, D. and X. Xia: 1994, 'Learning an English-Chinese Lexicon from a Parallel Corpus', in Tech-
+nology Partnerships for Crossing the Language Barrier: Proceedings of the First Conference of
+the Association for Machine Translation in the Americas, Columbia, Maryland, pp. 206-213.</mixed-citation>
+            </ref>
+         </ref-list>
+      
+   </back>
+</article>

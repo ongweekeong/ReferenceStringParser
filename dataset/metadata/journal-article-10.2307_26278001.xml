@@ -1,0 +1,153 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejengi</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019980</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Engines</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">19463936</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19463944</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26278001</article-id>
+         <title-group>
+            <article-title>A Model-Based Injection-Timing Strategy for Combustion-Timing Control</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Ingesson</surname>
+                  <given-names>Gabriel</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Yin</surname>
+                  <given-names>Lianhao</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Johansson</surname>
+                  <given-names>Rolf</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Tunestal</surname>
+                  <given-names>Per</given-names>
+               </string-name>
+            </contrib>
+            <aff>Lund University</aff>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2015</year>
+            <string-date>June 2015</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">8</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">3</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26277995</issue-id>
+         <fpage>1012</fpage>
+         <lpage>1020</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2015 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26278001"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>The combustion timing in internal combustion engines affects the fuel consumption, in-cylinder peak pressure, engine noise and emission levels. The combination of an in-cylinder pressure sensor together with a direct injection fuel system lends itself well for cycle-to-cycle control of the combustion timing.</p>
+            <p>This paper presents a method of controlling the combustion timing by the use of a cycle-to-cycle injection-timing algorithm. At each cycle the currently estimated heat-release rate is used to predict the in-cylinder pressure change due to a combustion-timing shift.</p>
+            <p>The prediction is then used to obtain a cycle-to-cycle model that relates combustion timing to gross indicated mean effective pressure, max pressure and max pressure derivative. Then the injection timing that controls the combustion timing is decided by solving an optimization problem involving the model obtained.</p>
+            <p>The controller was experimentally tested on a Scania D13 heavy-duty diesel engine in the lower load range with a fuel mixture of 80 volume % gasoline and 20 volume % n-heptane.</p>
+            <p>Controller-performance test results are presented for different controller and model parameter settings at three different operating points. The results show that the controller was consistent in converging to a combustion timing point that was dependent on the magnitude of the modeled heat transfer rate but not necessarily the same as the experimentally found most efficient point. The convergence rate of the controller could be set by varying a design parameter<italic>β</italic>, which is the controller resistance to changing the injection timing when moving towards a more efficient operating point. Choosing<italic>β</italic>was shown to be a trade-off between controller convergence speed and cycle-to-cycle variation. The controller was also able to fulfill predefined constraints on max pressure and max pressure derivative.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Heywood J.B., (1988): “Internal Combustion Engine Fundamentals”, McGraw-Hill, New York, ISBN 0-07-100499-8</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">Nielsen L., Kiencke U., (2005): “Automotive Control Systems, For Engine Driveline, and Vehicle, 2nd edition”, Springer, Berlin, ISBN: 3-540-23139-0</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Eriksson L., Nielsen L., (2014): “Modeling and Control of Engines and Drivelines”. Wiley, ISBN: 978-1-118-47999-5.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Olsson, J., Tunestål, P., Johansson, B., Fiveland, S. et al., “Compression Ratio Influence on Maximum Load of a Natural Gas Fueled HCCI Engine,” SAE Technical Paper 2002-01-0111, 2002, doi:10.4271/2002- 01-0111.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">Bengtsson J., Strandh P., Johansson R., Tunestål P. et al., “Closed-loop combustion control of homogeneous charge compression ignition (HCCI) engine dynamics.” Adaptive Control and Signal Processing, 18, pp. 167-179, 2004.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">Widd A., Tunestål P., Johansson R.. “Physical Modeling and Control of Homogeneous Charge Compression Ignition (HCCI)Engines,” in 47th IEEE Conference on Decision and Control(CDC2008), Cancun, Mexico, pp.5615-5620, December 2008.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Shaver G. M., Gerdes J. C., Roelle M. (2006): “Physics-based-closedloop control of phasing, peak pressure and work output in HCCI engines utilizing variable valve actuation.” In Proc. American Control Conference (ACC 2004), Jun 30-Jul 2, Boston, MA, USA, pp. 150-155.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">Willems, F., Doosje, E., Engels, F., and Seykens, X., “Cylinder Pressure- Based Control in Heavy-Duty EGR Diesel Engines Using a Virtual Heat Release and Emission Sensor,” SAE Technical Paper 2010-01-0564, 2010, doi:10.4271/2010-01-0564.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Nakayama, S., Ibuki, T., Hosaki, H., and Tominaga, H., “An Application of Model Based Combustion Control to Transient Cycle-by-Cycle Diesel Combustion,” SAE Int. J. Engines 1(1):850-860, 2009, doi:10.4271/2008-01-1311.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Karlsson M., Ekholm J., Strandh P., Johansson R.. et al., “Multiple-Input Multiple-Output Model Predictive Control of a Diesel Engine.” 6th IFAC Symposium on Advances in Automotive Control (AAC 2010), pp.131- 136, Jul 12-14.Munich, Germany.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Lewander M., Widd A., Johansson B., Tunestål Per. “Steady State Fuel Consumption Optimization through Feedback Control of Estimated Cylinder Individual Efficiency.” American Control Conference, Montréal, Canada, June 2012.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Hellström E., Lee D., Jiang L., et al., (2013): “On-Board Calibration of Spark-Timing by Extremum Seeking for Flex-Fuel Engines”. Control Systems Technology, IEEE Transactionson, 21:6 pp. 2273-2279.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Killingsworth N., Aceves S., Flowers D., et al., (2009): “HCCI engine combustion-timing control: Optimization gains and fuel consumption via extremum seeking.” Control Systems Technology, IEEE Transaction on, 17:6 pp. 1350-1361.</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label>
+            <mixed-citation publication-type="other">Woschni, G., “A Universally Applicable Equation for the Instantaneous Heat Transfer Coefficient in the Internal Combustion Engine,” SAE Technical Paper 670931, 1967, doi:10.4271/670931.</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label>
+            <mixed-citation publication-type="other">Johansson, R. (1993) : System Modeling and Identification. Prentice Hall, Englewood Cliffs, New Jersey.</mixed-citation>
+         </ref>
+         <ref id="ref16">
+            <label>16.</label>
+            <mixed-citation publication-type="other">Rasmussen C.E., Williams C. K. I.. (2006): “Gaussian Processes for Machine Learning”, The MIT Press, Cambridge, ISBN: 0-262-18253-X</mixed-citation>
+         </ref>
+         <ref id="ref17">
+            <label>17.</label>
+            <mixed-citation publication-type="other">Casella G., Berger R. L. (2002): Statistical Inference, 2nd edition. Duxbury, Pacific Grove, CA, USA.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

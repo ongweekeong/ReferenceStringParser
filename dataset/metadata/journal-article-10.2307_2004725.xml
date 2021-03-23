@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">26</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">117</issue>
+         <issue-id>i334540</issue-id>
+         <article-id pub-id-type="doi">10.2307/2004725</article-id>
+         
+         <title-group>
+            <article-title>A Quasi-Newton Method with No Derivatives</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>John</given-names>
+                  <surname>Greenstadt</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1972</year>
+         </pub-date>
+         <fpage>145</fpage>
+         <lpage>166</lpage>
+         <page-range>145-166</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1972 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2004725"/>
+         
+         
+         <abstract>
+            <p>The Davidon formula and others of the "quasi-Newton" class, which are used in the unconstrained minimization of a function f, provide a (generally) convergent sequence of approximations to the Hessian of f. These formulas, however, require the independent calculation of the gradient of f. In this paper, a set of new formulas is derived--using a previously described variational approach--which successively approximates the gradient as well as the Hessian, and uses only function values. These formulas are incorporated into an algorithm which, although still crude, works quite well for various standard test functions. Extensive numerical results are presented.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>90C30</kwd>
+            <kwd>Quasi-Newton methods</kwd>
+            <kwd>gradient-free nonlinear optimization</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d525103e132a1310">
+               <label>*</label>
+               
+               <p>
+               <mixed-citation id="d525103e139" publication-type="journal">
+Stewart [4]  </mixed-citation>
+            </p>
+            </fn>
+            <fn id="d525103e148a1310">
+               <label>***</label>
+               
+               <p>
+               <mixed-citation id="d525103e155" publication-type="book">
+Fiacco and McCormick [16]  </mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d525103e173a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d525103e180" publication-type="book">
+W. C. DAVIDON, Variable Metric Method for Minimization, Argonne National Lab.,
+ANL-5990 Rev., 1959.<person-group>
+                     <string-name>
+                     <surname>Davidon</surname>
+                  </string-name>
+                  </person-group>
+               <source>Variable Metric Method for Minimization</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e205a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d525103e212" publication-type="journal">
+R. FLETCHER &amp; M. J. D. POWELL, "A rapidly convergent descent method for minimi-
+zation," Comput. J., v. 6, 1963/64, pp. 163-168. MR 27 #2096.<person-group>
+                     <string-name>
+                     <surname>Fletcher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>163</fpage>
+               <volume>6</volume>
+               <source>Comput. J.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e244a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d525103e251" publication-type="journal">
+C. G. BROYDEN, "Quasi-Newton methods and their application to function minimiza-
+tion," Math. Comp., v. 21, 1967, pp. 368-381. MR 36 #7317.<object-id pub-id-type="doi">10.2307/2003239</object-id>
+               <fpage>368</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e267a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d525103e274" publication-type="journal">
+G. W. STEWART III, "A modification of Davidon's minimization method to accept
+difference approximations of derivatives," J. Assoc. Comput. Mach., v. 14, 1967, pp. 72-83.
+MR 35 #7566.<person-group>
+                     <string-name>
+                     <surname>Stewart</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>72</fpage>
+               <volume>14</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e310a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d525103e317" publication-type="book">
+D. GOLDFARB, "Sufficient conditions for the convergence of a variable-metric algo-
+rithm," in Optimization, R. Fletcher (Editor), Academic Press, New York, 1969.<person-group>
+                     <string-name>
+                     <surname>Goldfarb</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Sufficient conditions for the convergence of a variable-metric algorithm</comment>
+               <source>Optimization</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e346a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d525103e353" publication-type="book">
+G. P. MCCORMICK &amp; J. D. PEARSON, "Variable metric methods and unconstrained
+optimization," in Optimization, R. Fletcher (Editor), Academic Press, New York, 1969.<person-group>
+                     <string-name>
+                     <surname>McCormick</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variable metric methods and unconstrained optimization</comment>
+               <source>Optimization</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e382a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d525103e389" publication-type="journal">
+J. GREENSTADT, "Variations on variable-metric methods," Math. Comp., v. 24, 1970,
+pp. 1-22. MR 41 #2895.<object-id pub-id-type="doi">10.2307/2004872</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e405a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d525103e412" publication-type="journal">
+H. H. ROSENBROCK, "An automatic method for finding the greatest or least value of
+a function," Comput. J., v. 3, 1960/61, pp. 175-184. MR 24 #B2081.<person-group>
+                     <string-name>
+                     <surname>Rosenbrock</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>175</fpage>
+               <volume>3</volume>
+               <source>Comput. J.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e444a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d525103e451" publication-type="book">
+E. M. L. BEALE, On an Iterative Method for Finding a Local Minimum of a Func-
+tion of More than One Variable, Stat. Tech. Res. Grp., Technical Report #25, Princeton
+University, Princeton, N. J., 1958.<person-group>
+                     <string-name>
+                     <surname>Beale</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On an Iterative Method for Finding a Local Minimum of a Function of More than One Variable</comment>
+               <source>Stat. Tech. Res. Grp.</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e483a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d525103e490" publication-type="journal">
+M. J. D. POWELL, "An iterative method for finding stationary values of a function of
+several variables," Comput. J., v. 5, 1962, pp. 147-151.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>147</fpage>
+               <volume>5</volume>
+               <source>Comput. J.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e523a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d525103e530" publication-type="journal">
+M. J. D. POWELL, "An efficient method for finding the minimum of a function of
+several variables without calculating derivatives," Comput. J., v. 7, 1964, pp. 155-162. MR
+32 #4828.<person-group>
+                     <string-name>
+                     <surname>Powell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>7</volume>
+               <source>Comput. J.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e565a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d525103e572" publication-type="book">
+A. LEON, "A comparison among eight known optimizing procedures," in Recent
+Advances in Optimization Techniques, A. Lavi and T. P. Vogl (Editors), Wiley, New York,
+1960.<person-group>
+                     <string-name>
+                     <surname>Leon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A comparison among eight known optimizing procedures</comment>
+               <source>Recent Advances in Optimization Techniques</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e604a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d525103e611" publication-type="journal">
+D. GOLDFARB, "A family of variable-metric methods derived by variational means,"
+Math. Comp., v. 24, 1970, pp. 23-26. MR 41 #2896.<object-id pub-id-type="doi">10.2307/2004873</object-id>
+               <fpage>23</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e627a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d525103e634" publication-type="book">
+J. KOWALIK &amp; M. R. OSBORNE, Methods for Unconstrained Optimization Problems,
+American Elsevier, New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Kowalik</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods for Unconstrained Optimization Problems</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e659a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d525103e666" publication-type="book">
+A. R. COLVILLE, A Comparative Study of Non-Linear Programming Codes, IBM
+Tech. Rep. #320-2949, 1968.<person-group>
+                     <string-name>
+                     <surname>Colville</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Comparative Study of Non-Linear Programming Codes</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d525103e691a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d525103e698" publication-type="book">
+A. V. FIACCO N G. P. MCCORMICK, Nonlinear Programming: Sequential Uncon-
+strained Minimization Techniques, Wiley, New York, 1968, p. 175 et seq. MR 39 #5152.<person-group>
+                     <string-name>
+                     <surname>Fiacco</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>175</fpage>
+               <source>Nonlinear Programming: Sequential Unconstrained Minimization Techniques</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

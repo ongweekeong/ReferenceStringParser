@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">21</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i23241031</issue-id>
+         <article-id pub-id-type="jstor">23248828</article-id>
+         <title-group>
+            <article-title>Simulation of Gaussian Random Fields With One Derivative</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Michael L.</given-names>
+                  <surname>Stein</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>155</fpage>
+         <lpage>173</lpage>
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23248828"/>
+      
+      
+         <abstract>
+            <p>Circulant embedding provides a fast and exact algorithm for simulating stationary Gaussian random fields on grids. However, the method tends to work poorly for differentiable processes with correlation ranges comparable to the size of the simulation domain. This work describes an algorithm for simulating differentiable stationary Gaussian processes, with the focus on processes possessing exactly one derivative. The algorithm works by first simulating a filtered version of the process using circulant embedding and then recovering the original process from the filtered version. This recovery step is the slowest part of the computation, requiring many solutions of large systems of linear equations. Preconditioned conjugate gradient provides a viable method for obtaining essentially exact solutions to these linear equations. The memory requirements are linear in the number of simulation points and if more than one simulation under a model is needed, subsequent simulations are much faster than the first. The algorithm can be modified to simulate certain differentiable nonstationary intrinsic random functions, to which existing approaches to circulant embedding do not apply. A supplemental file contains code for simulating these intrinsic random functions.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d1620604e161a1310">
+          
+            <mixed-citation id="d1620604e165" publication-type="other">
+Ammar, G., and Gragg, W. B. (1988), "Superfast Solution of Real Positive Definite Toeplitz Systems," SIAM
+Journal of Matrix Analysis and Applications, 9, 61-76. [166]</mixed-citation>
+        </ref>
+        <ref id="d1620604e175a1310">
+          
+            <mixed-citation id="d1620604e179" publication-type="other">
+Banerjee, S., Gelfand, A. E., Finley, A. O., and Sang, H. (2008), "Gaussian Predictive Process Models for Large
+Spatial Data Sets," Journal of the Royal Statistical Society, Ser. B, 70, 825-848. [170]</mixed-citation>
+        </ref>
+        <ref id="d1620604e189a1310">
+          
+            <mixed-citation id="d1620604e193" publication-type="other">
+Briggs, W. L., Henson, V. E., and McCormick, S. E (2000), A Multigrid Tutorial (2nd ed.), Philadelphia: SIAM.
+[169]</mixed-citation>
+        </ref>
+        <ref id="d1620604e203a1310">
+          
+            <mixed-citation id="d1620604e207" publication-type="other">
+Chan, R. H.-F., and Jin, X.-Q. (2007), An Introduction to Iterative Toeplitz Solvers, Philadelphia: SIAM. [160,
+163,168]</mixed-citation>
+        </ref>
+        <ref id="d1620604e218a1310">
+          
+            <mixed-citation id="d1620604e222" publication-type="other">
+Chen. K. (2005), Matrix Preconditioning Techniques and Applications, Cambridge: Cambridge University Press.
+[161,163]</mixed-citation>
+        </ref>
+        <ref id="d1620604e232a1310">
+          
+            <mixed-citation id="d1620604e236" publication-type="other">
+Chesnokov, A., and Van Barel, M. (2010), "A Direct Method to Solve Block Banded Block Toeplitz Systems
+With Non-Banded Toeplitz Blocks," Journal of Computational and Applied Mathematics, 234, 1485-1491.
+[163]</mixed-citation>
+        </ref>
+        <ref id="d1620604e249a1310">
+          
+            <mixed-citation id="d1620604e253" publication-type="other">
+Chiles, J., and Delfiner, P. (1999), Geostatistics: Modeling Spatial Uncertainty, New York: Wiley. [156,166]</mixed-citation>
+        </ref>
+        <ref id="d1620604e260a1310">
+          
+            <mixed-citation id="d1620604e264" publication-type="other">
+Dietrich, C., and Newsam, G., (1993), "A Fast and Exact Method for Multidimensional Gaussian Stochastic
+Simulations," Water Resources Research, 29, 2861-2869. [155]</mixed-citation>
+        </ref>
+        <ref id="d1620604e274a1310">
+          
+            <mixed-citation id="d1620604e278" publication-type="other">
+-(1997), "A Fast and Exact Simulation of Stationary Gaussian Processes Through Circulant Embedding
+of the Covariance Matrix," SIAM Journal of Scientific Computing, 18, 1088-1107. [155]</mixed-citation>
+        </ref>
+        <ref id="d1620604e288a1310">
+          
+            <mixed-citation id="d1620604e292" publication-type="other">
+Emery, X., and Lantuejoul, C. (2008), "A Spectral Approach to Simulating Intrinsic Random Fields With Power
+and Spline Generalized Covariances," Computational Geosciences, 12, 121-132. [171]</mixed-citation>
+        </ref>
+        <ref id="d1620604e303a1310">
+          
+            <mixed-citation id="d1620604e307" publication-type="other">
+Frigo, M.. and Johnson, S. G. (2005), "The Design and Implementation of FFTW3," Proceedings of the IEEE,
+93,216-231. [165,169]</mixed-citation>
+        </ref>
+        <ref id="d1620604e317a1310">
+          
+            <mixed-citation id="d1620604e321" publication-type="other">
+Gneiting, T., Sevctkova, H., Percival, D. B., Schlather, M., and Jiang, Y. D. (2006), "Fast and Exact Simulation
+
+              of Large Gaussian Lattice Systems in K
+              
+              : Exploring the Limits," Journal of Computational and Graphical
+            
+Statistics, 15,483-501. [156,166]</mixed-citation>
+        </ref>
+        <ref id="d1620604e337a1310">
+          
+            <mixed-citation id="d1620604e341" publication-type="other">
+Golub, G. H., and van Loan, C. F. (1996), Matrix Computations (3rd ed.), Baltimore: The Johns Hopkins Univer-
+sity Press. [163,169]</mixed-citation>
+        </ref>
+        <ref id="d1620604e351a1310">
+          
+            <mixed-citation id="d1620604e355" publication-type="other">
+Kincaid, D., and Cheney, W. (2009), Numerical Analysis: Mathematics of Scientific Computing (3rd ed.), Provi-
+dence, RI: American Mathematical Society. [165]</mixed-citation>
+        </ref>
+        <ref id="d1620604e365a1310">
+          
+            <mixed-citation id="d1620604e369" publication-type="other">
+Noutsos, D., Serra Capizzano, S., and Vassalos, P. (2004), "Matrix Algebra Preconditioners for Multilevel
+Toeplitz Systems Do Not Insure Optimal Convergence Rate," Theoretical Computer Science, 315, 557-579.
+[163,169]</mixed-citation>
+        </ref>
+        <ref id="d1620604e382a1310">
+          
+            <mixed-citation id="d1620604e386" publication-type="other">
+-(2006), "Block Band Toeplitz Preconditioners Derived From Generating Function Approximation: Anal-
+ysis and Applications," Numerische Mathematik, 104, 339-376. [163]</mixed-citation>
+        </ref>
+        <ref id="d1620604e397a1310">
+          
+            <mixed-citation id="d1620604e401" publication-type="other">
+Olshevsky, V., Oseledets, I., and Tyrtyshnikov, E. (2007), "Superfast Inversion of Two-Level Toeplitz Matrices
+Using Newton Iteration and Tensor-Displacement Structure," Operator Theory: Advances and Applications,
+179, 229-240. [163]</mixed-citation>
+        </ref>
+        <ref id="d1620604e414a1310">
+          
+            <mixed-citation id="d1620604e418" publication-type="other">
+Pan, V. Y. (2001), Structured Matrices and Polynomials: Unified Superfast Algorithms, Boston: Birkhauser. [166]</mixed-citation>
+        </ref>
+        <ref id="d1620604e425a1310">
+          
+            <mixed-citation id="d1620604e429" publication-type="other">
+Press, W. H., Flannery, B. P., Teukolsky, S. A., and Vetterling, W. T. (2007), Numerical Recipes (3rd ed.), New
+York: Cambridge University Press. [165]</mixed-citation>
+        </ref>
+        <ref id="d1620604e439a1310">
+          
+            <mixed-citation id="d1620604e443" publication-type="other">
+R Development Core Team (2010), R: A Language and Environment for Statistical Computing, Vienna: R Foun-
+dation for Statistical Computing. Available at http://www.R-project.org. [159]</mixed-citation>
+        </ref>
+        <ref id="d1620604e453a1310">
+          
+            <mixed-citation id="d1620604e457" publication-type="other">
+Ritsche, M. T. (2008), "Surface Meteorological Observation System Handbook," DOE SC-ARM TR-031, At-
+mospheric Radiation Measurement Program, U.S. Dept. of Energy, available at www.arm.gov/publications/
+tech_reports/handhooks/smos handhook.pdf [156]</mixed-citation>
+        </ref>
+        <ref id="d1620604e470a1310">
+          
+            <mixed-citation id="d1620604e474" publication-type="other">
+Stein. M. L. (1999), Interpolation of Spatial Data: Some Theory for Kriging, New York: Springer. [157]</mixed-citation>
+        </ref>
+        <ref id="d1620604e482a1310">
+          
+            <mixed-citation id="d1620604e486" publication-type="other">
+-(2002), "Fast and Exact Simulation of Fractional Brownian Surfaces," Journal of Computational and
+Graphical Statistics, 11, 587-599. [156]</mixed-citation>
+        </ref>
+        <ref id="d1620604e496a1310">
+          
+            <mixed-citation id="d1620604e500" publication-type="other">
+-(2009), "Spatial Interpolation of High-Frequency Monitoring Data," The Annals of Applied Statistics, 3,
+272-291. [156,157]</mixed-citation>
+        </ref>
+        <ref id="d1620604e510a1310">
+          
+            <mixed-citation id="d1620604e514" publication-type="other">
+Stewart, M. (2002), "A Superfast Toeplitz Solver With Improved Numerical Stability," SIAM Journal of Matrix
+Analysis and Applications, 25, 669-693. [166]</mixed-citation>
+        </ref>
+        <ref id="d1620604e524a1310">
+          
+            <mixed-citation id="d1620604e528" publication-type="other">
+
+              Wood, A. T. A., and Chan, G. (1994), "Simulation of Stationary Gaussian Processes in [0, 1]
+              
+              Journal of
+            
+Computational and Graphical Statistics, 3, 409-432. [155,156,159,161,169]</mixed-citation>
+        </ref>
+        <ref id="d1620604e541a1310">
+          
+            <mixed-citation id="d1620604e545" publication-type="other">
+Zimmerman. D. L. (1989), "Computationally Efficient Restricted Maximum Likelihood Estimation of General-
+ized Covariance Functions," Mathematical Geology, 21, 1573-8868. [166]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

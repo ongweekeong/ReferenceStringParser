@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">229</issue>
+         <issue-id>i344569</issue-id>
+         <article-id pub-id-type="jstor">2584835</article-id>
+         
+         <title-group>
+            <article-title>A Parallel Method for Time-Discretization of Parabolic Problems Based on Contour Integral Representation and Quadrature</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Dongwoo</given-names>
+                  <surname>Sheen</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ian H.</given-names>
+                  <surname>Sloan</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Vidar</given-names>
+                     <surname>Thomée</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>177</fpage>
+         <lpage>195</lpage>
+         <page-range>177-195</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584835"/>
+         
+         
+         <abstract>
+            <p>We treat the time discretization of an initial-value problem for a homogeneous abstract parabolic equation by first using a representation of the solution as an integral along the boundary of a sector in the right half of the complex plane, then transforming this into a real integral on the finite interval [0, 1], and finally applying a standard quadrature formula to this integral. The method requires the solution of a finite set of elliptic problems with complex coefficients, which are independent and may therefore be done in parallel. The method is combined with spatial discretization by finite elements.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01098-4</kwd>
+            <kwd>65M12</kwd>
+            <kwd>65M15</kwd>
+            <kwd>65M99</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1018606e183a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1018606e190" publication-type="book">
+P. J. Davis and P. Rabinowitz, Methods of Numerical Integration, Academic Press, New York,
+1975. MR 56:7119<person-group>
+                     <string-name>
+                     <surname>Davis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of Numerical Integration</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e215a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1018606e222" publication-type="journal">
+J. Douglas, Jr., J. E. Santos, D. Sheen, and L. S. Bennethum, Frequency domain treatment of
+one-dimensional scalar waves, Math. Mod. Meth. Appl. Sci.3 (1993), 171-194. MR 94g:65111<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>171</fpage>
+               <volume>3</volume>
+               <source>Math. Mod. Meth. Appl. Sci.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e254a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1018606e261" publication-type="journal">
+J. Douglas, Jr., J. E. Santos, and D. Sheen, Approximation of scalar waves in the space-
+frequency domain, Math. Mod. Meth. Appl. Sci4 (1994), 509-531. MR 95e:65089<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>509</fpage>
+               <volume>4</volume>
+               <source>Math. Mod. Meth. Appl. Sci</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e293a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1018606e300" publication-type="book">
+S. C. Eisenstat, Jr., H. E. Elman, N. H. Schultz, and A. H. Sherman, The (new) Yale Sparse
+Matrix Package, Elliptic Problem Solvers II (A. L. Schoenstadt and G. Birkhoff, eds.), Aca-
+demic Press, New York, 1983, pp. 45-52. MR 85g:65007<person-group>
+                     <string-name>
+                     <surname>Eisenstat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The (new) Yale Sparse Matrix Package</comment>
+               <fpage>45</fpage>
+               <source>Elliptic Problem Solvers II</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e336a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1018606e343" publication-type="journal">
+E. Gallopoulos and Y. Saad, Efficient solution of parabolic equations by Krylov approximation
+methods, SIAM J. Sci. Statist. Comput.13 (1992), 1236-1264. MR 93d:65085<person-group>
+                     <string-name>
+                     <surname>Gallopoulos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1236</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e375a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1018606e382" publication-type="journal">
+M. Hochbruck and C. Lubich, On Krylov Subspace Approximations to the Matrix Exponential
+Operator, SIAM J. Numer. Anal.34 (1997), 1911-1925. MR 98h:65018<object-id pub-id-type="jstor">10.2307/2952023</object-id>
+               <fpage>1911</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e398a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1018606e405" publication-type="book">
+C.-O. Lee, J. Lee, and D. Sheen, A frequency-domain method for finite element solutions of
+parabolic problems, RIM-GARC Preprint 97-41, Department of Mathematics, Seoul National
+University, 1997.<person-group>
+                     <string-name>
+                     <surname>Lee</surname>
+                  </string-name>
+                  </person-group>
+               <source>A frequency-domain method for finite element solutions of parabolic problems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e434a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1018606e441" publication-type="book">
+A. Pazy, Semigroups of Linear Operators and Applications to Partial Differential Equations,
+Springer-Verlag, New York, 1983. MR 85g:47061<person-group>
+                     <string-name>
+                     <surname>Pazy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Semigroups of Linear Operators and Applications to Partial Differential Equations</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e466a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1018606e473" publication-type="book">
+D. Sheen and Y. Yeom, A frequency-domain parallel method for the numerical approxima-
+tion of parabolic problems, RIM-GARC Preprint 96-38, Department of Mathematics, Seoul
+National University, 1996.<person-group>
+                     <string-name>
+                     <surname>Sheen</surname>
+                  </string-name>
+                  </person-group>
+               <source>A frequency-domain parallel method for the numerical approximation of parabolic problems</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e502a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1018606e509" publication-type="book">
+V. Thomée, Galerkin Finite Element Methods for Parabolic Problems, Springer Series in
+Computational Mathematics, Vol. 25, Springer-Verlag, Berlin Heidelberg New York, 1997.
+MR 98m:65007<person-group>
+                     <string-name>
+                     <surname>Thomée</surname>
+                  </string-name>
+                  </person-group>
+               <volume>25</volume>
+               <source>Galerkin Finite Element Methods for Parabolic Problems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018606e542a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1018606e549" publication-type="book">
+R. S. Varga, Functional Analysis and Approximation Theory in Numerical Analysis, Confer-
+ence Board of the Mathematical Sciences Regional Conferences Series in Applied Mathematics,
+No. 3, SIAM, Philadelphia, PA, 1971. MR 46:9602<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <source>Functional Analysis and Approximation Theory in Numerical Analysis</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

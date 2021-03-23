@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">275</issue>
+         <issue-id>i23075006</issue-id>
+         <article-id pub-id-type="jstor">23075367</article-id>
+         <title-group>
+            <article-title>DIFFERENTIATION OF MATRIX FUNCTIONALS USING TRIANGULAR FACTORIZATION</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>F. R.</given-names>
+                  <surname>DE HOOG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>R. S.</given-names>
+                  <surname>ANDERSSEN</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>M. A.</given-names>
+                  <surname>LUKAS</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>1585</fpage>
+         <lpage>1600</lpage>
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075367"/>
+      
+      
+         <abstract>
+            <p>In various applications, it is necessary to differentiate a matrix functional w(A(x)), where A(x) is a matrix depending on a parameter vector x. Usually, the functional itself can be readily computed from a triangular factorization of A(x). This paper develops several methods that also use the triangular factorization to efficiently evaluate the first and second derivatives of the functional. Both the full and sparse matrix situations are considered. There are similarities between these methods and algorithmic differentiation. However, the methodology developed here is explicit, leading to new algorithms. It is shown how the methods apply to several applications where the functional is a log determinant, including spline smoothing, covariance selection and restricted maximum likelihood.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1948705e140a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1948705e147" publication-type="other">
+R. P. Barry and R. K. Pace. Monte Carlo estimates of the log determinant of large sparse
+matrices. J. Linear Algebra Appl., 28:41-54, 1999. MR1670972</mixed-citation>
+        </ref>
+        <ref id="d1948705e157a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1948705e164" publication-type="other">
+R. A. Berk. Statistical Learning from a Regression Perspective. Springer-Verlag, New York,
+2008.</mixed-citation>
+        </ref>
+        <ref id="d1948705e174a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1948705e181" publication-type="other">
+A. Dempster. Covariance selection. Biometrics, 28:57-175, 1972.</mixed-citation>
+        </ref>
+        <ref id="d1948705e188a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1948705e195" publication-type="other">
+J. J. Dongarra, I. S. Duff, D. C. Jorensen, and H. A. van der Vorst. Numerical Linear
+Algebra for High-Performance Computers. SIAM Press, Philidelphia, 1998. MR1654239
+(2000a:65002)</mixed-citation>
+        </ref>
+        <ref id="d1948705e209a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1948705e216" publication-type="other">
+A. M. Erisman and W. F. Tinney. On computing certain elements of the inverse of a sparse
+matrix. Communications ACM, 18:177-179, 1975. MR0378372 (51:14540)</mixed-citation>
+        </ref>
+        <ref id="d1948705e226a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1948705e233" publication-type="other">
+A. George and J. Li. The evolution of the minimum degree ordering algorithm. SIAM Review,
+31:1-19, 1989. MR986480 (90g:65033)</mixed-citation>
+        </ref>
+        <ref id="d1948705e243a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1948705e250" publication-type="other">
+G. H. Golub and R. H. Plemmons. Large-scale geodetic least-squares adjustment by dissection
+and orthogonal decomposition. Lin. Algebra Appl., 34:3-27, 1980. MR591422 (81k:86010)</mixed-citation>
+        </ref>
+        <ref id="d1948705e260a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1948705e267" publication-type="other">
+A. Griewank. Evaluating Derivatives. SIAM, Philadelphia, 2000. MR1753583 (2001b:65003)</mixed-citation>
+        </ref>
+        <ref id="d1948705e274a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1948705e281" publication-type="other">
+D. A. Harville. Matrix Algebra from a Statistician's Perspective. Springer, New York, 1997.
+MR1467237 (98k: 15001)</mixed-citation>
+        </ref>
+        <ref id="d1948705e291a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1948705e298" publication-type="other">
+T. J. Hastie and R. J. Tibshirani. Generalized Additive Models. Chapman and Hall, London,
+1990. MR1082147 (92e:62117)</mixed-citation>
+        </ref>
+        <ref id="d1948705e309a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1948705e316" publication-type="other">
+M. F. Hutchinson and F. R. de Hoog. Smoothing noisy data with spline functions. Numer.
+Math., 47:99-106, 1985. MR797880 (86j:65020)</mixed-citation>
+        </ref>
+        <ref id="d1948705e326a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1948705e333" publication-type="other">
+K. Kubota. Matrix inversion algorithms by means of automatic differentiation. Appl. Math.
+Lett., 7:19-22, 1994. MR1350388</mixed-citation>
+        </ref>
+        <ref id="d1948705e343a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1948705e350" publication-type="other">
+S. L. Lauritzen. Graphical Models. Oxford University Press, New York, 1996. MR1419991
+(98g:62001)</mixed-citation>
+        </ref>
+        <ref id="d1948705e360a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1948705e367" publication-type="other">
+M. A. Lukas. Robust generalized cross-validation for choosing the regularization parameter.
+Inverse Problems, 22:1883-1902, 2006. MR2261272 (2007j:62051)</mixed-citation>
+        </ref>
+        <ref id="d1948705e377a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1948705e384" publication-type="other">
+M. A. Lukas, F. R. de Hoog, and R. S. Anderssen. Efficient algorithms for robust generalized
+cross-validation spline smoothing, J. Comput. Appl. Math., 235:102—107, 2010. MR2671036</mixed-citation>
+        </ref>
+        <ref id="d1948705e394a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1948705e401" publication-type="other">
+H. M. Markowitz. The elimination form of the inverse and its application to linear program-
+ming. Management Sci., 3:255-269, 1957. MR0112244 (22:3098)</mixed-citation>
+        </ref>
+        <ref id="d1948705e412a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1948705e419" publication-type="other">
+S. G. Nash. A survey of truncated-Newton methods. J. Comp. Appl. Math., 124:45-59, 2000.
+MR1803293</mixed-citation>
+        </ref>
+        <ref id="d1948705e429a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1948705e436" publication-type="other">
+H. Niessner and K. Reichert. On computing the inverse of a sparse matrix. Inter. J. Numer.
+Methods Eng., 19:1513-1526, 1983.</mixed-citation>
+        </ref>
+        <ref id="d1948705e446a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1948705e453" publication-type="other">
+P. Ravikumar, M. J. Wainwright, G. Raskutti, and B. Yu. High-dimensional covariance esti-
+mation by minimizing -penalized log-determinant divergence. IEEE, 2008.</mixed-citation>
+        </ref>
+        <ref id="d1948705e463a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1948705e470" publication-type="other">
+S. D. Silvey. Optimal Design. Chapman and Hall, London, 1980. MR606742 (82d:62123)</mixed-citation>
+        </ref>
+        <ref id="d1948705e477a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1948705e484" publication-type="other">
+S. P. Smith. Differentiation of the Cholesky algorithm. J. Comp. Graph. Stat., 4:134-147,
+1995.</mixed-citation>
+        </ref>
+        <ref id="d1948705e494a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1948705e501" publication-type="other">
+K. Takahashi, J. Fagan, and M. S. Chin. Formation of a sparse bus impedance matrix and
+its application to short circuit study. Power Industry Computer Applications Conf. Proc.
+Minneapolis, Minn., 8:63-69, June 4-6, 1973.</mixed-citation>
+        </ref>
+        <ref id="d1948705e515a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1948705e522" publication-type="other">
+G. Wahba. Bayesian confidence intervals for the cross-validated smoothing spline. J.R. Stat.
+Soc., Ser. B, 45:133-150, 1983. MR701084 (84k:62054)</mixed-citation>
+        </ref>
+        <ref id="d1948705e532a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1948705e539" publication-type="other">
+F. V. Waugh and P. S. Dwyer. Compact computation of the inverse of a matrix. Annals
+Math. Stat., 16:259-271, 1945. MR0013919 (7:218d)</mixed-citation>
+        </ref>
+        <ref id="d1948705e549a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1948705e556" publication-type="other">
+J. Whittaker. Graphical Models in Applied Multivariate Statistics. Wiley, Chichester, 1990.
+MR1112133 (93f:62002)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

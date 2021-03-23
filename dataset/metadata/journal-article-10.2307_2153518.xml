@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">62</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">206</issue>
+         <issue-id>i337662</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153518</article-id>
+         
+         <title-group>
+            <article-title>A Posteriori Error Estimates for Nonlinear Problems. Finite Element Discretizations of Elliptic Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>R.</given-names>
+                     <surname>Verfürth</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1994</year>
+         </pub-date>
+         <fpage>445</fpage>
+         <lpage>475</lpage>
+         <page-range>445-475</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1994 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153518"/>
+         
+         
+         <abstract>
+            <p>We give a general framework for deriving a posteriori error estimates for approximate solutions of nonlinear problems. In a first step it is proven that the error of the approximate solution can be bounded from above and from below by an appropriate norm of its residual. In a second step this norm of the residual is bounded from above and from below by a similar norm of a suitable finite-dimensional approximation of the residual. This quantity can easily be evaluated, and for many practical applications sharp explicit upper and lower bounds are readily obtained. The general results are then applied to finite element discretizations of scalar quasi-linear elliptic partial differential equations of 2nd order, the eigenvalue problem for scalar linear elliptic operators of 2nd order, and the stationary incompressible Navier-Stokes equations. They immediately yield a posteriori error estimates, which can easily be computed from the given data of the problem and the computed numerical solution and which give global upper and local lower bounds on the error of the numerical solution.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>65N15</kwd>
+            <kwd>65J15</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d335121e156a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d335121e163" publication-type="book">
+R. A. Adams, Sobolev spaces, Academic Press, New York, 1975.<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e185a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d335121e192" publication-type="book">
+I. Babuška, Feedback, adaptivity, and a posteriori estimates in finite elements: aims, theory,
+and experience, Accuracy Estimates and Adaptive Refinements in Finite Element Compu-
+tation (I. Babuska et al., eds.), Wiley, New York, 1986, pp. 3-23.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Feedback, adaptivity, and a posteriori estimates in finite elements: aims, theory, and experience</comment>
+               <fpage>3</fpage>
+               <source>Accuracy Estimates and Adaptive Refinements in Finite Element Computation</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e227a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d335121e234" publication-type="journal">
+I. Babuška and W. Gui, Basic principles offeedback and adaptive approaches in the finite
+element method, Comput. Methods Appl. Mech. Engrg.55 (1986), 27-42.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>27</fpage>
+               <volume>55</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e266a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d335121e273" publication-type="journal">
+I. Babuška and W. C. Rheinboldt, Error estimates for adaptive finite element computations,
+SIAM J. Numer. Anal.15 (1978), 736-754.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>736</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e306a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d335121e313" publication-type="journal">
+—, A posteriori error estimatesfor the finite element method, Internat. J. Numer. Methods
+Engrg.12 (1978), 1597-1615.<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1597</fpage>
+               <volume>12</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e345a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d335121e352" publication-type="journal">
+I. Babuška and R. Rodriguez, The problem of the selection of an a-posteriori error indicator
+based on smoothing techniques, Internat. J. Numer. Methods. Engrg. (to appear).<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <source>Internat. J. Numer. Methods. Engrg.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e374a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d335121e381" publication-type="journal">
+R. E. Bank and A. Weiser, Some a posteriori error estimators for elliptic partial differential
+equations, Math. Comp.44 (1985), 283-301.<object-id pub-id-type="doi">10.2307/2007953</object-id>
+               <fpage>283</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e397a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d335121e404" publication-type="journal">
+R. E. Bank and D. B. Welfert, A posteriori error estimates for the Stokes equations: a
+comparison, Comput. Methods Appl. Mech. Engrg.87 (1990), 323-340.<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>323</fpage>
+               <volume>87</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e436a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d335121e443" publication-type="journal">
+J. Baranger and H. El Amri, Estimateur a posteriori d'erreur pour le calcul adaptif d'coule-
+ments quasi-Newtoniens, RAIRO Modél. Math. Anal. Numér.25 (1991), 31-48.<person-group>
+                     <string-name>
+                     <surname>Baranger</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>25</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e475a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d335121e482" publication-type="book">
+Ph. G. Ciarlet, The finite element method for elliptic problems, North-Holland, Amsterdam,
+1978.<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e508a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d335121e515" publication-type="journal">
+Ph. Clément, Approximation by finite element functions using local regularization, RAIRO
+Modél. Math. Anal. Numér.2 (1975), 77-84.<person-group>
+                     <string-name>
+                     <surname>Clément</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>2</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e547a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d335121e554" publication-type="book">
+M. Crouzeix and J. Rappaz, On numerical approximation in bifurcation theory, Research
+in Appl. Math., vol. 13, Masson, Paris; Springer-Verlag, Berlin, 1990.<person-group>
+                     <string-name>
+                     <surname>Crouzeix</surname>
+                  </string-name>
+                  </person-group>
+               <volume>13</volume>
+               <source>On numerical approximation in bifurcation theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e583a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d335121e590" publication-type="journal">
+R. Duran, M. A. Muschietti, and R. Rodriguez, On the asymptotic exactness of error esti-
+mators for linear triangular elements, Numer. Math.59 (1991), 107-127.<person-group>
+                     <string-name>
+                     <surname>Duran</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>107</fpage>
+               <volume>59</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e622a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d335121e629" publication-type="journal">
+R. Duran and R. Rodriguez, On the asymptotic exactness of Bank- Weiser's estimator, Nu-
+mer. Math.62 (1992), 297-303.<person-group>
+                     <string-name>
+                     <surname>Duran</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>297</fpage>
+               <volume>62</volume>
+               <source>Numer. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e661a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d335121e668" publication-type="journal">
+K. Eriksson, Improved accuracy by adapted mesh-refinements in the finite element method,
+Math. Comp.44 (1985), 321-343.<object-id pub-id-type="doi">10.2307/2007955</object-id>
+               <fpage>321</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e684a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d335121e691" publication-type="journal">
+K. Eriksson and C. Johnson, An adaptive finite element method for linear elliptic problems,
+Math. Comp.50 (1988), 361-383.<object-id pub-id-type="doi">10.2307/2008613</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e708a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d335121e715" publication-type="book">
+V. Girault and P.-A. Raviart, Finite element methods for Navier-Stokes equations: Theory
+and algorithms, Springer Ser. Comput. Math., vol. 5, Springer, Berlin, 1986.<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <volume>5</volume>
+               <source>Finite element methods for Navier-Stokes equations: Theory and algorithms</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e744a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d335121e751" publication-type="journal">
+J. T. Oden, L. Demkowicz, W. Rachowicz, and T. A. Westermann, Toward a universal h -p
+adaptive finite element strategy, Part 2. A posteriori error estimation, Comput. Methods Appl.
+Mech. Engrg.77 (1989), 113-180.<person-group>
+                     <string-name>
+                     <surname>Oden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>113</fpage>
+               <volume>77</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e786a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d335121e793" publication-type="book">
+J. Pousin and J. Rappaz, Consistency, stability, a priori and a posteriori errors for Petrov-
+Galerkin methods applied to nonlinear problems (Report), EPFL, Lausanne, 1992.<person-group>
+                     <string-name>
+                     <surname>Pousin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Consistency, stability, a priori and a posteriori errors for Petrov-Galerkin methods applied to nonlinear problems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e818a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d335121e825" publication-type="journal">
+W. C. Rheinboldt, On a theory of mesh-refinement processes, SIAM J. Numer. Anal.17
+(1980), 766-778.<object-id pub-id-type="jstor">10.2307/2156798</object-id>
+               <fpage>766</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e841a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d335121e848" publication-type="journal">
+T. Strouboulis and K. A. Hague, Recent experiences with error estimation and adaptivity I:
+Review of error estimators for scalar elliptic problems, Comput. Methods Appl. Mech. Engrg.
+97 (1992), 399-436.<person-group>
+                     <string-name>
+                     <surname>Strouboulis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>399</fpage>
+               <volume>97</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e883a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d335121e890" publication-type="journal">
+T. Strouboulis and J. T. Oden, A posteriori error estimation offinite element approximations
+in fluid mechanics, Comput. Methods Appl. Mech. Engrg.78 (1990), 201-242.<person-group>
+                     <string-name>
+                     <surname>Strouboulis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>201</fpage>
+               <volume>78</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e923a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d335121e930" publication-type="book">
+L. Tobiska and R. Verfiirth, Analysis of a streamline diffusion finite element method for the
+Stokes and Navier-Stokes equations (Report), Universities Magdeburg-Zurich, 1991.<person-group>
+                     <string-name>
+                     <surname>Tobiska</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of a streamline diffusion finite element method for the Stokes and Navier-Stokes equations</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e955a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d335121e962" publication-type="journal">
+R. Verfürth, Finite element approximation of incompressible Navier-Stokes equations with
+slip boundary conditions, Numer. Math.50 (1987), 697-721.<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>697</fpage>
+               <volume>50</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e994a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d335121e1001" publication-type="journal">
+—, A posteriori error estimators for the Stokes equations, Numer. Math.55 (1989),
+309-325.<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>309</fpage>
+               <volume>55</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e1033a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d335121e1040" publication-type="journal">
+—, Finite element approximation of incompressible Navier-Stokes equations with slip
+boundary conditions. II, Numer. Math.59 (1991), 615-636.<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>615</fpage>
+               <volume>59</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e1072a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d335121e1079" publication-type="book">
+—A posteriori error estimators and adaptive mesh-refinement techniques for the Navier-
+Stokes equations, Incompressible CFD-Trends and Advances (M. D. Gunzburger and R. A.
+Nicolaides, eds.), Cambridge Univ Press, Cambridge, 1993, pp. 447-477.<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A posteriori error estimators and adaptive mesh-refinement techniques for the Navier-Stokes equations</comment>
+               <fpage>447</fpage>
+               <source>Incompressible CFD-Trends and Advances</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e1114a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d335121e1121" publication-type="journal">
+—, A posteriori error estimation and adaptive mesh-refinement techniques, J. Comput.
+Appl. Math. (to appear).<person-group>
+                     <string-name>
+                     <surname>Verfürth</surname>
+                  </string-name>
+                  </person-group>
+               <source>J. Comput. Appl. Math.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e1144a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d335121e1151" publication-type="journal">
+J. Z. Zhu and 0. C. Zienkiewicz, Adaptive techniques in the finite element method, Comm.
+Appl. Numer. Methods4 (1988), 197-204.<person-group>
+                     <string-name>
+                     <surname>Zhu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>4</volume>
+               <source>Comm. Appl. Numer. Methods</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d335121e1183a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d335121e1190" publication-type="journal">
+O. C. Zienkiewicz and J. Z. Zhu, A simple error estimator and adaptive procedure for prac-
+tical engineering analysis, Internat. J. Numer. Methods Engrg.24 (1987), 337-357.<person-group>
+                     <string-name>
+                     <surname>Zienkiewicz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>337</fpage>
+               <volume>24</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

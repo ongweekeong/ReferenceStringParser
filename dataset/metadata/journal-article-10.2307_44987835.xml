@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">31</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40211882</issue-id>
+         <article-id pub-id-type="jstor">44987835</article-id>
+         <title-group>
+            <article-title>The representational geometry of word meanings acquired by neural machine translation models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Felix</given-names>
+                  <surname>Hill</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Kyunghyun</given-names>
+                  <surname>Cho</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Sébastien</given-names>
+                  <surname>Jean</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Yoshua</given-names>
+                  <surname>Bengio</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2017</year>
+         </pub-date>
+         <fpage>3</fpage>
+         <lpage>18</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media 2017</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44987835"/>
+      
+      
+         <abstract>
+            <p>This work is the first comprehensive analysis of the properties of word embeddings learned by neural machine translation (NMT) models trained on bilingual texts. We show the word representations of NMT models outperform those learned from monolingual text by established algorithms such as Skipgram and CBOW on tasks that require knowledge of semantic similarity and/or lexical-syntactic role. These effects hold when translating from English to French and English to German, and we argue that the desirable properties of NMT word embeddings should emerge largely independently of the source and target languages. Further, we apply a recently-proposed heuristic method for training NMT models with very large vocabularies, and show that this vocabulary expansion method results in minimal degradation of embedding quality. This allows us to make a large vocabulary of NMT embeddings available for future research and applications. Overall, our analyses indicate that NMT embeddings should be used in applications that require word concepts to be organised according to similarity and/or lexical function, while monolingual embeddings are better suited to modelling (nonspecific) inter-word relatedness.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d3440e223a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d3440e230" publication-type="other">
+Hill and
+Korhonen 2014;</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3440e239" publication-type="other">
+Levy and Goldberg 2014</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e246a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d3440e253" publication-type="other">
+Chandar et al. (2014)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3440e259" publication-type="other">
+Hermann and Blunsom (2014)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e266a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d3440e273" publication-type="other">
+Kalchbrenner and Blunsom (2013)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3440e279" publication-type="other">
+Devlin et al. (2014)</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d3440e285" publication-type="other">
+Sutskever
+et al. (2014).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e295a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d3440e302" publication-type="other">
+Cho et al. (2014).</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e310a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d3440e317" publication-type="other">
+Available from http://www.cs.cmu.edu/mfaruqui/soft.html.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e324a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d3440e331" publication-type="other">
+Hill et al. (2014)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e338a1310">
+            <label>9</label>
+          
+            <p>
+               <mixed-citation id="d3440e345" publication-type="other">
+Available online at http://www.cl.cam.ac.uk/fh295/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e352a1310">
+            <label>11</label>
+          
+            <p>
+               <mixed-citation id="d3440e359" publication-type="other">
+Faruqui and Dyer
+(2014)</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3440e369a1310">
+            <label>12</label>
+          
+            <p>
+               <mixed-citation id="d3440e376" publication-type="other">
+Luong et al. (2014).</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3440e392a1310">
+          
+            <mixed-citation id="d3440e396" publication-type="other">
+Agirre E, Alfonseca E, Hall K, Kravalova J, Pasca M, Soroa A (2009) A study on similarity and relatedness
+using distributional and wordnet-based approaches. In: Proceedings of NAACL-HLT 2009</mixed-citation>
+        </ref>
+        <ref id="d3440e406a1310">
+          
+            <mixed-citation id="d3440e410" publication-type="other">
+Bahdanau D, Cho K, Bengio Y (2015) Neural machine translation by jointly learning to align and translate.
+In: Proceedings of ICLR</mixed-citation>
+        </ref>
+        <ref id="d3440e420a1310">
+          
+            <mixed-citation id="d3440e424" publication-type="other">
+Baroni M, Dinu G, Kruszewski G (2014) Dont count, predict! a systematic comparison of context-counting
+vs. context-predicting semantic vectors. In: Proceedings of the 52nd annual meeting of the association
+for computational linguistics, vol 1</mixed-citation>
+        </ref>
+        <ref id="d3440e437a1310">
+          
+            <mixed-citation id="d3440e441" publication-type="other">
+Bengio Y, Sénécal JS (2003) Quick training of probabilistic neural nets by importance sampling. In: Pro-
+ceedings of AISTATS 2003</mixed-citation>
+        </ref>
+        <ref id="d3440e452a1310">
+          
+            <mixed-citation id="d3440e456" publication-type="other">
+Bengio Y, Ducharme R, Vincent P, Janvin C (2003) A neural probabilistic language model. J Mach Learn
+Res 3:1137-1155</mixed-citation>
+        </ref>
+        <ref id="d3440e466a1310">
+          
+            <mixed-citation id="d3440e470" publication-type="other">
+Bruni E, Tran NK, Baroni M (2014) Multimodal distributional semantics. J Artif Intell Res(JAIR) 49:1-47</mixed-citation>
+        </ref>
+        <ref id="d3440e477a1310">
+          
+            <mixed-citation id="d3440e481" publication-type="other">
+Chandar S, Lauly S, Larochelle H, Khapra MM, Ravindran B, Raykar V, Saha A (2014) An autoencoder
+approach to learning bilingual word representations. In: NIPS</mixed-citation>
+        </ref>
+        <ref id="d3440e491a1310">
+          
+            <mixed-citation id="d3440e495" publication-type="other">
+Cho K, van Merrienboer B, Gulcehre C, Bougares F, Schwenk H, Bengio Y (2014) Learning phrase rep-
+resentations using RNN encoder-decoder for statistical machine translation. In: Proceedings of the
+empirical methods in natural language processing (EMNLP 2014), to appear</mixed-citation>
+        </ref>
+        <ref id="d3440e508a1310">
+          
+            <mixed-citation id="d3440e512" publication-type="other">
+Collobert R, Weston J (2008) A unified architecture for natural language processing: deep neural networks
+with multitask learning. In: Proceedings of the 25th international conference on machine learning,
+ACM, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d3440e525a1310">
+          
+            <mixed-citation id="d3440e529" publication-type="other">
+Collobert R, Weston J, Bottou L, Karlen M, Kavukcuoglu K, Kuksa P (201 1) Natural language processing
+(almost) from scratch. J Mach Learn Res 12:2493-2537</mixed-citation>
+        </ref>
+        <ref id="d3440e540a1310">
+          
+            <mixed-citation id="d3440e544" publication-type="other">
+Devlin J, Zbib R, Huang Z, Lamar T, Schwartz R, Makhoul J (2014) Fast and robust neural network joint
+models for statistical machine translation. In: 52nd annual meeting of the association for computational
+linguistics, Baltimore, June</mixed-citation>
+        </ref>
+        <ref id="d3440e557a1310">
+          
+            <mixed-citation id="d3440e561" publication-type="other">
+Faruqui M, Dyer C (2014) Improving vector space word representations using multilingual correlation. In:
+Proceedings of E ACL, vol 2014</mixed-citation>
+        </ref>
+        <ref id="d3440e571a1310">
+          
+            <mixed-citation id="d3440e575" publication-type="other">
+Firth RJ (1957) A synopsis of linguistic theory 1930-1955. Philological Society, Oxford, pp 1-32</mixed-citation>
+        </ref>
+        <ref id="d3440e582a1310">
+          
+            <mixed-citation id="d3440e586" publication-type="other">
+Haghighi A, Liang P, Berg-Kirkpatrick T, Klein D (2008) Learning bilingual lexicons from monolingual
+corpora. In: ACL, vol 2008, pp 771-779</mixed-citation>
+        </ref>
+        <ref id="d3440e596a1310">
+          
+            <mixed-citation id="d3440e600" publication-type="other">
+Hermann KM, Blunsom P (2014) Multilingual distributed representations without word alignment. In:
+Proceedings of ICLR</mixed-citation>
+        </ref>
+        <ref id="d3440e610a1310">
+          
+            <mixed-citation id="d3440e614" publication-type="other">
+Hill F, Korhonen A (2014) Learning abstract concepts from multi-modal data: since you probably can't see
+what i mean. In: Proceedings of the empirical methods in natural language processing (EMNLP 2014)</mixed-citation>
+        </ref>
+        <ref id="d3440e625a1310">
+          
+            <mixed-citation id="d3440e629" publication-type="other">
+Hill F, Reichart R, Korhonen A (2014) Simlex-999: evaluating semantic models with (genuine) similarity
+estimation. arXiv preprint arXiv: 1408.3456</mixed-citation>
+        </ref>
+        <ref id="d3440e639a1310">
+          
+            <mixed-citation id="d3440e643" publication-type="other">
+Jean S, Cho K, Memisevic R, Bengio Y (2015) On using very large target vocabulary for neural machine
+translation. In: Proceedings of NAACL</mixed-citation>
+        </ref>
+        <ref id="d3440e653a1310">
+          
+            <mixed-citation id="d3440e657" publication-type="other">
+Kalchbrenner N, Blunsom P (2013) Recurrent continuous translation models. In: Proceedings of the 2013
+conference on empirical methods in natural language processing, Association for Computational Lin-
+guistics, Seattle</mixed-citation>
+        </ref>
+        <ref id="d3440e670a1310">
+          
+            <mixed-citation id="d3440e674" publication-type="other">
+Klementiev A, Titov I, Bhattarai B (2012a) Inducing crosslingual distributed representations of words.
+COLING</mixed-citation>
+        </ref>
+        <ref id="d3440e684a1310">
+          
+            <mixed-citation id="d3440e688" publication-type="other">
+Klementiev A, Titov I, Bhattarai B (2012b) Inducing crosslingual distributed representations of words. In:
+COLING</mixed-citation>
+        </ref>
+        <ref id="d3440e698a1310">
+          
+            <mixed-citation id="d3440e702" publication-type="other">
+Kočiský T, Hermann KM, Blunsom P (2014) Learning bilingual word representations by marginalizing
+alignments. In: Proceedings of ACL</mixed-citation>
+        </ref>
+        <ref id="d3440e713a1310">
+          
+            <mixed-citation id="d3440e717" publication-type="other">
+Kusner M, Sun Y, Kolkin N, Weinberger KQ (2015) From word embeddings to document distances. In:
+Proceedings of the 32nd international conference on machine learning (ICML-15), pp 957-966</mixed-citation>
+        </ref>
+        <ref id="d3440e727a1310">
+          
+            <mixed-citation id="d3440e731" publication-type="other">
+Landauer TK, Dumais ST (1997) A solution to plato's problem: the latent semantic analysis theory of
+acquisition, induction, and representation of knowledge. Psychol Rev 104(2):211</mixed-citation>
+        </ref>
+        <ref id="d3440e741a1310">
+          
+            <mixed-citation id="d3440e745" publication-type="other">
+Levy O, Goldberg Y (2014) Dependency-based word embeddings. In: Proceedings of the 52nd annual
+meeting of the association for computational linguistics, vol 2</mixed-citation>
+        </ref>
+        <ref id="d3440e755a1310">
+          
+            <mixed-citation id="d3440e759" publication-type="other">
+Luong T, Sutskever I, Le QV, Vinyals O, Zaremba W (2014) Addressing the rare word problem in neural
+machine translation. arXiv preprint arXiv: 1410.8206</mixed-citation>
+        </ref>
+        <ref id="d3440e769a1310">
+          
+            <mixed-citation id="d3440e773" publication-type="other">
+Mikolov T, Le QV, Sutskever I (2013a) Exploiting similarities among languages for machine translation.
+In: CORR</mixed-citation>
+        </ref>
+        <ref id="d3440e783a1310">
+          
+            <mixed-citation id="d3440e787" publication-type="other">
+Mikolov T, Sutskever I, Chen K, Corrado GS, Dean J (2013b) Distributed representations of words
+and phrases and their compositionality. In: Advances in neural information processing systems,
+pp 3111-3119</mixed-citation>
+        </ref>
+        <ref id="d3440e801a1310">
+          
+            <mixed-citation id="d3440e805" publication-type="other">
+Mnih A, Hinton GE (2009) A scalable hierarchical distributed language model. In: Advances in neural
+information processing systems, pp 1081-1088</mixed-citation>
+        </ref>
+        <ref id="d3440e815a1310">
+          
+            <mixed-citation id="d3440e819" publication-type="other">
+Morin F, Bengio Y (2005) Hierarchical probabilistic neural network language model. AISTATS, Citeseer
+5:246-252</mixed-citation>
+        </ref>
+        <ref id="d3440e829a1310">
+          
+            <mixed-citation id="d3440e833" publication-type="other">
+Nelson DL, McEvoy CL, Schreiber TA (2004) The university of south florida free association, rhyme, and
+word fragment norms. Behav Res Methods Instrum Comput 36(3):402-407</mixed-citation>
+        </ref>
+        <ref id="d3440e843a1310">
+          
+            <mixed-citation id="d3440e847" publication-type="other">
+Pennington J, Socher R, Manning C (2014) Glove: global vectors for word representation. In: Proceedings
+of the empirical methods in natural language processing (EMNLP 2014)</mixed-citation>
+        </ref>
+        <ref id="d3440e857a1310">
+          
+            <mixed-citation id="d3440e861" publication-type="other">
+Sutskever I, Vinyals O, Le QV (2014) Sequence to sequence learning with neural networks. In: Proceedings
+of NIPS</mixed-citation>
+        </ref>
+        <ref id="d3440e871a1310">
+          
+            <mixed-citation id="d3440e875" publication-type="other">
+Turney PD, Pantel P (2010) From frequency to meaning: vector space models of semantics. J Artif Intell
+Res 37(1): 141-188</mixed-citation>
+        </ref>
+        <ref id="d3440e886a1310">
+          
+            <mixed-citation id="d3440e890" publication-type="other">
+Vulič I, De Smet W, Moens MF (201 1) Identifying word translations from comparable corpora using latent
+topic models. In: Proceedings of the 49th annual meeting of the association for computational linguis-
+tics: human language technologies: short papers, Vol 2, Association for Computational Linguistics,
+pp 479-484</mixed-citation>
+        </ref>
+        <ref id="d3440e906a1310">
+          
+            <mixed-citation id="d3440e910" publication-type="other">
+Weston J, Bengio S, Usunier N (2010) Laige scale image annotation: learning to rank with joint word-image
+embeddings. Mach Learn 81(1):21-35</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

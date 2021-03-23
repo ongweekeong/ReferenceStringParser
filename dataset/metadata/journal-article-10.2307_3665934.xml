@@ -1,0 +1,765 @@
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">finamana</journal-id>
+         <journal-id journal-id-type="jstor">j100419</journal-id>
+         <journal-title-group>
+            <journal-title>Financial Management</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>Financial Management Association</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00463892</issn>
+         <issn pub-type="epub">1755053X</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="jstor">3665934</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Financial Distress Special Issue</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Recognizing Financial Distress Patterns Using a Neural Network Tool</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>Pamela K.</given-names>
+                  <surname>Coats</surname>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name>
+                  <given-names>L. Franklin</given-names>
+                  <surname>Fant</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date>
+            <day>1</day>
+            <month>10</month>
+            <year>1993</year>
+         </pub-date>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">22</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i284589</issue-id>
+         <fpage>142</fpage>
+         <lpage>155</lpage>
+         <page-range>142-155</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1993 Financial Management Association</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/3665934"/>
+         <abstract>
+            <p>This study builds neural networks (NNs) which estimate the future financial health of firms. A neural network is a relatively new mathematical approach for recognizing discriminating patterns in data. We use NNs here to identify financial data patterns which consistently distinguish generally healthy firms from distressed ones. The purpose is to detect early warning signals of distressful conditions in currently viable firms. Being able to form highly reliable early forecasts of the future health of firms is critical to bank lending officers, investors, market analysis, portfolio managers, insurers, and many others in the field of finance. The traditional approach and present standard for predicting financial distress uses multiple discriminant analyses (MDA), MDA is a statistical means of weighting the relative value of information provided by a combination of financial ratios. But MDA has been sharply criticized because the validity of its results hinges on restrictive assumptions. These restrictions are, in many cases, incompatible with the complex nature, boundaries and interrelationships of financial ratios. In such cases, the power of MDA is compromised and the results may be erroneous. Other studies have suggested alternatives to MDA, including logit, probit, recursive partitioning, expert systems, and nonparametric models. However, none of these approaches has replaced MDA as the standard for comparison. We show that NNs are a promising alternative to MDA. The paper presents Cascade-Correlation, the particular NN used in our comparison study of NN and MDA models for predicting financial distress. We discuss how the NN computer-implemented training process works, how it autonomously gleans relationships from the data, and how it builds a unique neural network structure. The completely flexible NN method for capturing and communicating knowledge about the data allows a neural network to uncover complex, imbedded patterns that other techniques cannot detect or describe. Our study examines 282 firms which were in operation during the period 1970-1989. Ninety-four of the firms were formally identified and reported by their auditors as (at some point over the period) being financially distressed. The remainder (188 firms) were reported by their auditors to be healthy and viable. Specifically, we looked at five ratios widely considered to be prime determinants of financial health: working capital/total assets, retained earnings/total assets, earnings before interest and taxes/total assets, market value of equity/book value of total debt, and sales/total assets. Half of the firms of each type were used to develop NN and MDA models and the rest served as a test sample. Our decision to use auditors' reports rather than the traditional bankruptcy filing as our indicator of financial distress was based on a desire to focus on the "practical" relevance of a correct prediction. Bankruptcy of a firm may occur after a prolonged period of financial distress. If so, there is little practical use for a predictive model since the distressed nature of the firm is obvious to virtually all of the firm's stakeholders, i.e., shareholders, employees, vendors, etc. On the other hand, the published auditors' reports we used are expected to precede bankruptcy, perhaps quite substantially. In addition, bankruptcy is only one outcome of financial distress. Others include reorganization, liquidation, and acquisition by a viable firm. Regardless of the outcome, losses and risks preceding the final resolution are likely to be incurred by stakeholders. Bad audit reports can cause bond ratings to be lowered, lines of credit to dry up, and other business relationships to be disrupted. Thus, the use of auditors' reports as the prediction criterion covers a broader range of events than does the bankruptcy filing and should have more relevance to decision-makers. The test results suggest that the NN approach is more effective than MDA for the early detection of financial distress developing in firms. The NN models consistently correctly predicted auditors' findings of distress at least 80% of the time over an effective lead time of up to four years. A statistical comparison of results showed that the NNs were always better than the MDA models for identifying firms which eventually received bad audit reports. Thus, NNs appear to be reliable forecasting tools, whose use may be particularly warranted when the costs associated with misclassifying a distressed firm as healthy are high.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <fn-group>
+         <title>[Footnotes]</title>
+         <fn id="d106e150a1310">
+            <label>1</label>
+            <p>
+               <mixed-citation id="d106e157" publication-type="other">
+McFadden [22]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e163" publication-type="other">
+Goss et al [15]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e169" publication-type="other">
+McFadden [22]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e176" publication-type="other">
+Breiman et al [6]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e182" publication-type="other">
+Frydman, Altman, and Kao [14]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e188" publication-type="other">
+Elmer and Borowski [12]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e194" publication-type="other">
+Barniv
+and Raveh [5]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e204a1310">
+            <label>4</label>
+            <p>
+               <mixed-citation id="d106e211" publication-type="other">
+Selfridge and
+Biggs [30]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e221a1310">
+            <label>5</label>
+            <p>
+               <mixed-citation id="d106e228" publication-type="other">
+Fahlman and Lebiere [13]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e235a1310">
+            <label>6</label>
+            <p>
+               <mixed-citation id="d106e242" publication-type="other">
+Utans and Moody [33]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e248" publication-type="other">
+footnote 17</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e256a1310">
+            <label>7</label>
+            <p>
+               <mixed-citation id="d106e263" publication-type="other">
+Hawley, Johnson, and Raina [16]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e270a1310">
+            <label>8</label>
+            <p>
+               <mixed-citation id="d106e277" publication-type="other">
+Lorentz [21]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e284a1310">
+            <label>12</label>
+            <p>
+               <mixed-citation id="d106e291" publication-type="other">
+Fahlman and Lebiere [13]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e297" publication-type="other">
+Fahlman and Lebiere [13]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e303" publication-type="other">
+Lacher [19]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e310" publication-type="other">
+Minskey and Papert [23]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e316" publication-type="other">
+Rumelhart and McClelland [28]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e322" publication-type="other">
+Lippman [20]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e328" publication-type="other">
+Wasserman and
+Schwartz [34], [35]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e337" publication-type="other">
+Knight [18]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e343" publication-type="other">
+Lacher [19]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e350a1310">
+            <label>14</label>
+            <p>
+               <mixed-citation id="d106e357" publication-type="other">
+Frydman et al [14, p. 279]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e364a1310">
+            <label>17</label>
+            <p>
+               <mixed-citation id="d106e371" publication-type="other">
+Odom and Sharda [25]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d106e377" publication-type="other">
+Utans and Moody [33]</mixed-citation>
+            </p>
+         </fn>
+         <fn id="d106e384a1310">
+            <label>18</label>
+            <p>
+               <mixed-citation id="d106e391" publication-type="other">
+Zellner [40, Ch. 10]</mixed-citation>
+            </p>
+         </fn>
+      </fn-group>
+      <ref-list>
+         <title>References</title>
+         <ref id="d106e407a1310">
+            <label>1</label>
+            <mixed-citation id="d106e414" publication-type="journal">
+E.I. Altman, "Financial Ratios, Discriminant Analysis, and the Pre-
+diction of Corporate Bankruptcy," Journal of Finance (September
+1968), pp. 589-609.<object-id pub-id-type="doi">10.2307/2978933</object-id>
+               <fpage>589</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e433a1310">
+            <label>2</label>
+            <mixed-citation id="d106e440" publication-type="book">
+E.I. Altman, Corporate Distress: A Complete Guide to Predicting,
+Avoiding, and Dealing with Bankruptcy, New York, NY, John Wiley
+&amp; Sons, 1983.<person-group>
+                  <string-name>
+                     <surname>Altman</surname>
+                  </string-name>
+               </person-group>
+               <source>Corporate Distress: A Complete Guide to Predicting, Avoiding, and Dealing with Bankruptcy</source>
+               <year>1983</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e469a1310">
+            <label>3</label>
+            <mixed-citation id="d106e476" publication-type="journal">
+E.I. Altman and R.A. Eisenbeis, "Financial Discriminant Analysis:
+A Clarification," Journal of Financial and Quantitative Analysis
+(March 1978), pp. 185-195.<object-id pub-id-type="doi">10.2307/2330534</object-id>
+               <fpage>185</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e495a1310">
+            <label>4</label>
+            <mixed-citation id="d106e502" publication-type="journal">
+E.I. Altman and T.P. McGough, "Evaluation of a Company as a
+Going Concern," Journal of Accounting (December 1974), pp. 50-
+57.<person-group>
+                  <string-name>
+                     <surname>Altman</surname>
+                  </string-name>
+               </person-group>
+               <issue>December</issue>
+               <fpage>50</fpage>
+               <source>Journal of Accounting</source>
+               <year>1974</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e538a1310">
+            <label>5</label>
+            <mixed-citation id="d106e545" publication-type="journal">
+R. Barniv and A. Raveh, "Identifying Financial Distress: A New
+Nonparametric Approach," Journal of Business Financing and Ac-
+counting (Summer 1989), pp. 361-383.<person-group>
+                  <string-name>
+                     <surname>Barniv</surname>
+                  </string-name>
+               </person-group>
+               <issue>Summer</issue>
+               <fpage>361</fpage>
+               <source>Journal of Business Financing and Accounting</source>
+               <year>1989</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e580a1310">
+            <label>6</label>
+            <mixed-citation id="d106e587" publication-type="book">
+L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone, Classifica-
+tion and Regression Trees, Belmont, Wadsworth, 1984.<person-group>
+                  <string-name>
+                     <surname>Breiman</surname>
+                  </string-name>
+               </person-group>
+               <source>Classification and Regression Trees</source>
+               <year>1984</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e612a1310">
+            <label>7</label>
+            <mixed-citation id="d106e619" publication-type="journal">
+M. Caudill, "Neural Networks Primer, Part III," Al E.pert (June
+1988), pp. 53-59.<person-group>
+                  <string-name>
+                     <surname>Caudill</surname>
+                  </string-name>
+               </person-group>
+               <issue>June</issue>
+               <fpage>53</fpage>
+               <source>Al E.pert</source>
+               <year>1988</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e651a1310">
+            <label>8</label>
+            <mixed-citation id="d106e658" publication-type="book">
+M. Caudill, "Neural Networks Primer," The Magazine of Arti-ficial
+Intelligence in Practice, Miller Freeman Publications, 1989.<person-group>
+                  <string-name>
+                     <surname>Caudill</surname>
+                  </string-name>
+               </person-group>
+               <comment content-type="section">Neural Networks Primer</comment>
+               <source>The Magazine of Arti-ficial Intelligence in Practice</source>
+               <year>1989</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e687a1310">
+            <label>9</label>
+            <mixed-citation id="d106e694" publication-type="journal">
+G.W. Cottrel, A. Munro, and D. Zipser, "Learning Internal Repre-
+sentations from Gray-Scale Images: An Example of Extensional
+Programming," Proceedings of the 9th Annual Conference of the
+Cognitive Science Society, 1987, pp. 461-473.<person-group>
+                  <string-name>
+                     <surname>Cottrel</surname>
+                  </string-name>
+               </person-group>
+               <source>Proceedings of the 9th Annual Conference of the Cognitive Science Society, 1987</source>
+               <year>1987</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e726a1310">
+            <label>10</label>
+            <mixed-citation id="d106e733" publication-type="journal">
+R.S. Crowder, "Software Implementing the Cascade-Correlation
+Learning Algorithm in C," Carnegie Mellon University, June 1990.<person-group>
+                  <string-name>
+                     <surname>Crowder</surname>
+                  </string-name>
+               </person-group>
+               <issue>June</issue>
+               <source>Software Implementing the Cascade-Correlation Learning Algorithm in C</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e763a1310">
+            <label>11</label>
+            <mixed-citation id="d106e770" publication-type="journal">
+R.A. Eisenbeis, "Pitfalls in the Application of Discriminant Analysis
+in Business Finance and Analysis, Journal of Finance (June 1977),
+pp. 875-900.<object-id pub-id-type="doi">10.2307/2326320</object-id>
+               <fpage>875</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e789a1310">
+            <label>12</label>
+            <mixed-citation id="d106e796" publication-type="journal">
+P.J. Elmer and D.M. Borowski, "An Expert System Approach to
+Financial Analysis: The Case of S&amp;L Bankruptcy," Financial Man-
+agement (Autumn 1988), pp. 66-76.<object-id pub-id-type="doi">10.2307/3666073</object-id>
+               <fpage>66</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e815a1310">
+            <label>13</label>
+            <mixed-citation id="d106e822" publication-type="book">
+S.E. Fahlman and C. Lebiere, The Cascade-Correlation Learning
+Architecture, Technical Report: CMU-CS-90-100, Carnegie Mellon
+University, February 1990.<person-group>
+                  <string-name>
+                     <surname>Fahlman</surname>
+                  </string-name>
+               </person-group>
+               <source>The Cascade-Correlation Learning Architecture</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e851a1310">
+            <label>14</label>
+            <mixed-citation id="d106e858" publication-type="journal">
+H. Frydman, E.I. Altman, and D. Kao, "Introducing Recursive
+Partitioning for Financial Classification: The Case of Financial
+Distress," Journal of Finance (March 1985), pp. 269-291.<object-id pub-id-type="doi">10.2307/2328060</object-id>
+               <fpage>269</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e877a1310">
+            <label>15</label>
+            <mixed-citation id="d106e884" publication-type="journal">
+E. Goss, A. Whitten, and V. Sundaraiyer, "Forecasting with Lotus-
+based Logit Regression Models," Journal of Business Forecasting
+(Spring 1991), pp. 19-22.<person-group>
+                  <string-name>
+                     <surname>Goss</surname>
+                  </string-name>
+               </person-group>
+               <issue>Spring</issue>
+               <fpage>19</fpage>
+               <source>Journal of Business Forecasting</source>
+               <year>1991</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e919a1310">
+            <label>16</label>
+            <mixed-citation id="d106e926" publication-type="journal">
+D.D. Hawley, J.D. Johnson, and D. Raina, "Artificial Neural Sys-
+tems: A New Tool for Financial Decision-Making," Financial Ana-
+lysts Journal (November/December 1990), pp. 63-72.<person-group>
+                  <string-name>
+                     <surname>Hawley</surname>
+                  </string-name>
+               </person-group>
+               <issue>November</issue>
+               <fpage>63</fpage>
+               <source>Financial Analysts Journal</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e962a1310">
+            <label>17</label>
+            <mixed-citation id="d106e969" publication-type="journal">
+G.V. Karels and A. Prakash, "Multivariate Normality and Forecast-
+ing of Business Bankruptcy," Journal of Business Finance and
+Accounting (Winter 1987), pp. 573-593.<person-group>
+                  <string-name>
+                     <surname>Karels</surname>
+                  </string-name>
+               </person-group>
+               <issue>Winter</issue>
+               <fpage>573</fpage>
+               <source>Journal of Business Finance and Accounting</source>
+               <year>1987</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1004a1310">
+            <label>18</label>
+            <mixed-citation id="d106e1011" publication-type="journal">
+K. Knight, "Connectionist Ideas and Algorithms" Coimmunications
+of the ACM (November 1990), pp. 59-74.<person-group>
+                  <string-name>
+                     <surname>Knight</surname>
+                  </string-name>
+               </person-group>
+               <issue>November</issue>
+               <fpage>59</fpage>
+               <source>Coimmunications of the ACM</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1043a1310">
+            <label>19</label>
+            <mixed-citation id="d106e1050" publication-type="book">
+R.C. Lacher, "Artificial Neural Networks: An Introduction to the
+Theory and Practice," Monograph in progress, Department of Com-
+puter Science, Florida State University, 1992.<person-group>
+                  <string-name>
+                     <surname>Lacher</surname>
+                  </string-name>
+               </person-group>
+               <source>Artificial Neural Networks: An Introduction to the Theory and Practice</source>
+               <year>1992</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1079a1310">
+            <label>20</label>
+            <mixed-citation id="d106e1086" publication-type="journal">
+R.P. Lippmann, "An Introduction to Computing with Neural Nets,"
+IEEE ASSP Magazine (April 1987), pp. 4-22.<person-group>
+                  <string-name>
+                     <surname>Lippmann</surname>
+                  </string-name>
+               </person-group>
+               <issue>April</issue>
+               <fpage>4</fpage>
+               <source>IEEE ASSP Magazine</source>
+               <year>1987</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1118a1310">
+            <label>21</label>
+            <mixed-citation id="d106e1125" publication-type="book">
+G.G. Lorentz, "The 13th Problem of Hilbert," in Mathematical
+Developments Arising from Hilbert Problems, F.E. Browder (ed.),
+Providence, RI, American Mathematical Society, 1976.<person-group>
+                  <string-name>
+                     <surname>Lorentz</surname>
+                  </string-name>
+               </person-group>
+               <comment content-type="section">The 13th Problem of Hilbert</comment>
+               <source>Mathematical Developments Arising from Hilbert Problems</source>
+               <year>1976</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1157a1310">
+            <label>22</label>
+            <mixed-citation id="d106e1164" publication-type="journal">
+D. McFadden, "A Comment on Discriminant Analysis Versus Logit
+Analysis," Annals of Economic and Social Measurement (1976), pp.
+511-523.<person-group>
+                  <string-name>
+                     <surname>McFadden</surname>
+                  </string-name>
+               </person-group>
+               <fpage>511</fpage>
+               <source>Annals of Economic and Social Measurement</source>
+               <year>1976</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1197a1310">
+            <label>23</label>
+            <mixed-citation id="d106e1204" publication-type="book">
+M. Minsky and S. Papert, Perceptions, Cambridge, MA, MIT Press,
+1969.<person-group>
+                  <string-name>
+                     <surname>Minsky</surname>
+                  </string-name>
+               </person-group>
+               <source>Perceptions</source>
+               <year>1969</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1229a1310">
+            <label>24</label>
+            <mixed-citation id="d106e1236" publication-type="book">
+Neural Computing, Users manual to accompany NeuralWorks Pro-
+fessional II/PLUS neural network software, Pittsburgh, PA,
+NeuralWare, Inc., 1990.<source>Neural Computing</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1255a1310">
+            <label>25</label>
+            <mixed-citation id="d106e1262" publication-type="book">
+M.D. Odom and R. Sharda, "A Neural Network Model for Bank-
+ruptcy Prediction," in Proceedings of the International Joint Con-
+ference on Neural Networks, 1990.<person-group>
+                  <string-name>
+                     <surname>Odom</surname>
+                  </string-name>
+               </person-group>
+               <comment content-type="section">A Neural Network Model for Bankruptcy Prediction</comment>
+               <source>Proceedings of the International Joint Conference on Neural Networks, 1990</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1294a1310">
+            <label>26</label>
+            <mixed-citation id="d106e1301" publication-type="journal">
+J.A. Ohlson, "Financial Ratios and the Probabilistic Prediction of
+Bankruptcy," Journal of Accounting Research (Spring 1980), pp.
+109-131.<object-id pub-id-type="doi">10.2307/2490395</object-id>
+               <fpage>109</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1320a1310">
+            <label>27</label>
+            <mixed-citation id="d106e1327" publication-type="journal">
+G.E. Pinches, "Factors Influencing Classification Results from Mul-
+tiple Discriminant Analysis,"Journal of Business Research (Decem-
+ber 1980), pp. 429-456.<person-group>
+                  <string-name>
+                     <surname>Pinches</surname>
+                  </string-name>
+               </person-group>
+               <issue>December</issue>
+               <fpage>429</fpage>
+               <source>Journal of Business Research</source>
+               <year>1980</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1362a1310">
+            <label>28</label>
+            <mixed-citation id="d106e1369" publication-type="book">
+D.E. Rumelhart and J.L. McClelland, Parallel Distributed Process-
+ing.: Explorations in the Microstructure of Cognition, Cambridge,
+MA and London, England, MIT Press, 1986.<person-group>
+                  <string-name>
+                     <surname>Rumelhart</surname>
+                  </string-name>
+               </person-group>
+               <source>Parallel Distributed Processing.: Explorations in the Microstructure of Cognition</source>
+               <year>1986</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1399a1310">
+            <label>29</label>
+            <mixed-citation id="d106e1406" publication-type="journal">
+E. Scott, "On the Financial Application of Discriminant Analysis:
+Comment," Journal of Financial and Quantitative Analysis (March
+1978), pp. 201-205.<object-id pub-id-type="doi">10.2307/2330536</object-id>
+               <fpage>201</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1425a1310">
+            <label>30</label>
+            <mixed-citation id="d106e1432" publication-type="journal">
+M. Selfridge and F. Biggs, "The Architecture of Expertise: The
+Auditor's Going-Concern Judgment," Expert Systems Review (Vol.
+2, No. 3, 1990), pp. 3-18.<person-group>
+                  <string-name>
+                     <surname>Selfridge</surname>
+                  </string-name>
+               </person-group>
+               <issue>3</issue>
+               <fpage>3</fpage>
+               <volume>2</volume>
+               <source>Expert Systems Review</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1470a1310">
+            <label>31</label>
+            <mixed-citation id="d106e1477" publication-type="book">
+J.N. Sheth, "How to Get the Most Out of Multivariate Methods," in
+Multivariate Data Analysis, Hair, Anderson, Tatham, and
+Grablowsky (eds.), Tulsa, OK, Petroleum Publishing Company,
+1979, Ch. 1.<person-group>
+                  <string-name>
+                     <surname>Sheth</surname>
+                  </string-name>
+               </person-group>
+               <comment content-type="section">Ch. 1 How to Get the Most Out of Multivariate Methods</comment>
+               <source>Multivariate Data Analysis</source>
+               <year>1979</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1512a1310">
+            <label>32</label>
+            <mixed-citation id="d106e1519" publication-type="journal">
+J.O. Tollefson and O.M. Joy, "Some Clarifying Comments on Dis-
+criminant Analysis," Journal of Financial and Quantitative Analysis
+(March 1978), pp. 197-200.<object-id pub-id-type="doi">10.2307/2330535</object-id>
+               <fpage>197</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1538a1310">
+            <label>33</label>
+            <mixed-citation id="d106e1545" publication-type="journal">
+J. Utans and J. Moody, "Selecting Neural Network Architectures Via
+the Prediction Risk: Application to Corporate Bond Rating Predic-
+tion," IEEE (June 1991), pp. 35-41.<person-group>
+                  <string-name>
+                     <surname>Utans</surname>
+                  </string-name>
+               </person-group>
+               <issue>June</issue>
+               <fpage>35</fpage>
+               <source>IEEE</source>
+               <year>1991</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1580a1310">
+            <label>34</label>
+            <mixed-citation id="d106e1587" publication-type="journal">
+P.D. Wasserman and T. Schwartz, "Neural Networks, Part 1," IEEE
+Expert (Winter 1987), pp. 10-12.<person-group>
+                  <string-name>
+                     <surname>Wasserman</surname>
+                  </string-name>
+               </person-group>
+               <issue>Winter</issue>
+               <fpage>10</fpage>
+               <source>IEEE Expert</source>
+               <year>1987</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1620a1310">
+            <label>35</label>
+            <mixed-citation id="d106e1627" publication-type="journal">
+P.D. Wasserman and T. Schwartz, "Neural Networks, Part 2," IEEE
+Expert (Spring 1988), pp. 10-15.<person-group>
+                  <string-name>
+                     <surname>Wasserman</surname>
+                  </string-name>
+               </person-group>
+               <issue>Spring</issue>
+               <fpage>10</fpage>
+               <source>IEEE Expert</source>
+               <year>1988</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1659a1310">
+            <label>36</label>
+            <mixed-citation id="d106e1666" publication-type="journal">
+A.R. Webb and D. Lowe, "The Optimized Internal Representation
+of Multilayer Classifier Networks Performs Nonlinear Discriminant
+Analysis," Neural Networks (Vol. 3, 1990), pp. 367-375.<person-group>
+                  <string-name>
+                     <surname>Webb</surname>
+                  </string-name>
+               </person-group>
+               <fpage>367</fpage>
+               <volume>3</volume>
+               <source>Neural Networks</source>
+               <year>1990</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1701a1310">
+            <label>37</label>
+            <mixed-citation id="d106e1708" publication-type="other">
+P.J. Werbos, "Beyond Regression: New Tools for Prediction and
+Analysis in the Behavioral Sciences," Ph.D Dissertation, Harvard
+University, 1974.</mixed-citation>
+         </ref>
+         <ref id="d106e1721a1310">
+            <label>38</label>
+            <mixed-citation id="d106e1728" publication-type="book">
+R.J. Williams, Learning Internal Representatives by Error Propaga-
+tion, Institute for Cognitive Science Report 8506, San Diego, Uni-
+versity of California, 1985.<person-group>
+                  <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+               </person-group>
+               <source>Learning Internal Representatives by Error Propagation</source>
+               <year>1985</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1757a1310">
+            <label>39</label>
+            <mixed-citation id="d106e1764" publication-type="journal">
+C.V. Zavgren, "The Prediction of Corporate Failure: The State of the
+Art," Journal of Accounting Literature (Spring 1983), pp. 1-38.<person-group>
+                  <string-name>
+                     <surname>Zavgren</surname>
+                  </string-name>
+               </person-group>
+               <issue>Spring</issue>
+               <fpage>1</fpage>
+               <source>Journal of Accounting Literature</source>
+               <year>1983</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1796a1310">
+            <label>40</label>
+            <mixed-citation id="d106e1803" publication-type="book">
+A. Zellner, An Introduction to Bayesian Inference in Econometrics,
+New York, NY, John Wiley &amp; Sons, 1971.<person-group>
+                  <string-name>
+                     <surname>Zellner</surname>
+                  </string-name>
+               </person-group>
+               <source>An Introduction to Bayesian Inference in Econometrics</source>
+               <year>1971</year>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1829a1310">
+            <label>41</label>
+            <mixed-citation id="d106e1836" publication-type="journal">
+M.E. Zmijewski, "Methodological Issues Related to the Estimation
+of Financial Distress Prediction Models," Journal of Accounting
+Research (Supplement 1984), pp. 59-82.<object-id pub-id-type="doi">10.2307/2490859</object-id>
+               <fpage>59</fpage>
+            </mixed-citation>
+         </ref>
+         <ref id="d106e1855a1310">
+            <label>20</label>
+            <mixed-citation id="d106e1862" publication-type="other">
+Fahlman and Lebiere [13]</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

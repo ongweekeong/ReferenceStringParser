@@ -1,0 +1,164 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejengi</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019980</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Engines</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">19463936</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">19463944</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26278004</article-id>
+         <title-group>
+            <article-title>Feedforward Control Approach for Digital Combustion Rate Shaping Realizing Predefined Combustion Processes</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Jörg</surname>
+                  <given-names>Christian</given-names>
+               </string-name>
+               <aff>VKA, RWTH University Aachen</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Schnorbus</surname>
+                  <given-names>Thorsten</given-names>
+               </string-name>
+               <aff>FEV GmbH</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Jarvis</surname>
+                  <given-names>Simon</given-names>
+               </string-name>
+               <aff>Jaguar Land Rover</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Neaves</surname>
+                  <given-names>Ben</given-names>
+               </string-name>
+               <aff>Jaguar Land Rover</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Bandila</surname>
+                  <given-names>Kiran</given-names>
+               </string-name>
+               <aff>Jaguar Land Rover</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Neumann</surname>
+                  <given-names>Daniel</given-names>
+               </string-name>
+               <aff>VKA, RWTH University Aachen</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2015</year>
+            <string-date>June 2015</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">8</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">3</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26277995</issue-id>
+         <fpage>1041</fpage>
+         <lpage>1054</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2015 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26278004"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>The aim of this research collaboration focuses on the realization of a novel Diesel combustion control strategy, known as Digital Combustion Rate Shaping (DiCoRS) for transient engine operation. Therefore, this paper presents an initial, 3D-CFD simulation based evaluation of a physical model-based feedforward controller, considered as a fundamental tool to apply real-time capable combustion rate shaping to a future engine test campaign.</p>
+            <p>DiCoRS is a promising concept to improve noise, soot and HC/CO emissions in parallel, without generating drawbacks in NOx emission and combustion efficiency. Instead of controlling distinct combustion characteristics, DiCoRS aims at controlling the full combustion process and therefore represents the highest possible degree of freedom for combustion control. The manipulated variable is the full injection profile, generally consisting of multiple injection events. So far, however, DiCoRS was only realized by feedback-based iterative learning control, lacking sufficient control speed. Thus, an additional feedforward control unit is required to transfer the benefits of DiCoRS also to the dominating transient engine operation condition in passenger car applications.</p>
+            <p>Therefore, a new model-based feedforward control concept is developed and initially investigated in this paper. Desired combustion rates and therefore the desired in-cylinder gas state traces are formulated based on energy- and mass conservation equations. An inverse 0-D heat release model calculates the required injection profile, taking into account hardware related boundaries of the fuel injection system. Each submodule of the feedforward controller, such as the ignition delay model, is calibrated offline via steady-state engine test cell data. The overall functionality of the feedforward control concept is finally demonstrated based on a 3D-CFD combustion simulation study.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Rottmann M., “Untersuchung von Einspritzratenformung am schnelllaufenden DI Dieselmotor”, Dissertation RWTH Aachen, 2011</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">Zeh, D., Hammer, J, Uhr, C., Rückle, M. et al., “Bosch Diesel Injection Technology - Response for Every Vehicle Class” 23rd Aachen Colloquium Automobile and Engine Technology 2014: Page 757 - 772</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Hinkelbein J., Kremer F., Lamping M., Körfer T., Schaub J., Pischinger S.., “Experimental realisation of predefined diesel combustion processes using advanced closed-loop combustion control and injection rate shaping”, International Journal of Engine Research Paper, 2012, doi:0.1177/1468087412439262</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Alt N., Nehl J., Heuer S., “Combustion Sound Prediction within Combustion System Development”, SIA Vehicle Comfort, Le Mans, France, 2004</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">Kremer F., “Untersuchungen zur Verbrennungsratenregelung durch Mehrfacheinspritzung im Dieselmotor”, Dissertation RWTH Aachen, 2013</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">Woschni, G., “Die Berechnung der Wandverluste der thermischen Belastung der Bauteile von Diesel motoren”, MTZ 31 (1970) 12, S. 491- 499</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Chmela, F. and Orthaber, G., “Rate of Heat Release Prediction for Direct Injection Diesel Engines Based on Purely Mixing Controlled Combustion,” SAE Technical Paper 1999-01-0186, 1999, doi:10.4271/1999-01-0186.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">Naidja A., Krishna C.R., Butcher T., Mahajan D., “Oxidation of Fuels in the Cool Flame Regime for Combustion and Reforming for Fuel Cells”, Progress in Energy and Combustion Science Paper, Brookhaven National Laboratory, August 2002</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Pischinger, F. et. al., “Sonderforschungsbereich 224 Motorische Verbrennung”, Final Report, Chapter 4.3, RWTH Aachen</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Rebecchi P., “Fundamentals of Thermodynamic for Pressure-based Low Temperature Premixed Diesel Combustion Control”, Ph.D Paper, Institut für Verbrennungsmotoren und Kraftfahrwesen der Universität Stuttgart, 2013</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Goodwin G D., “Cantera User's Guide: Fortran Version”, Division of Engineering and Applied Science, California Institute of Technology, 2001</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Curran J H., Gaffuri P., Pitz J W., Westbrook K C., “A Comprehensive Modelling Study of n-Heptane Oxidation”, Lawrence Livermore National Laboratory, CA, 1997</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Kneer R., “Motorische Sprühstrahlen und Gemischbildung”, Lecture book, RWTH Aachen, 2012</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label>
+            <mixed-citation publication-type="other">Barba C., “Erarbeitung von Verbrennungskennwerten aus Indizierdaten zur verbesserten Prognose und rechnerischen Simulation des Verbrennungsablaufes bei Pkw-DE-Dieselmotoren Common-Rail- Einspritzung”, Zürich, 2001</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label>
+            <mixed-citation publication-type="other">Janssen J A., “Maßgeschneiderte Biokraftstoffe für die dieselmotorische Verbrennung”, Lecture Book, RWTH Aachen</mixed-citation>
+         </ref>
+         <ref id="ref16">
+            <label>16.</label>
+            <mixed-citation publication-type="other">Beduneau J-L., Cardon C., Meissonnier G., Bona Uberti M., Voigt P., “Delphi new Diesel Common Rail System Family”, Delphi Automotive, 35. Internationales Wiener Motorensymposium 2014</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

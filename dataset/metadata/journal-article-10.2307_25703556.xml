@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i25703548</issue-id>
+         <article-id pub-id-type="jstor">25703556</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Smoothing</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Full Time or Part Time Reemployment: A Competing Risk Model With Frailties and Smooth Effects Using a Penalty Based Approach</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Göran</given-names>
+                  <surname>Kauermann</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Pavel</given-names>
+                  <surname>Khomski</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>106</fpage>
+         <lpage>125</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25703556"/>
+      
+      
+         <abstract>
+            <p>The article discusses duration time models with multiple duration observations per individual and different competing events marking the end of a duration time. The dependence between two (or more) duration times observed for each individual is incorporated in a mixed model approach including frailty effects for each individual. The frailties are multivariate, with a separate component for each competing risk. As frailty distribution the article suggests a flexible and numerically handy mixture of gamma distributions. The model itself is based on the classical Cox approach by modeling the hazard functions. Instead of assuming proportional hazards, however, we allow covariate effects to vary functionally with time. The latter are fitted using penalized splines in combination with mixed models technology. The modeling exercise allows to analyze data on unemployment, where duration time is the length of an unemployment spell and the competing events are the different reasons for leaving the state of unemployment, for example, full time or half time reemployment, respectively. The R code to compute the competing risk model and some other useful functions along with documentation are available in the online supplements.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2385998e213a1310">
+          
+            <mixed-citation id="d2385998e217" publication-type="other">
+Abbring, J., and van den Berg, G. (2003), "The Identifiability of the Mixed Proportional Hazards Competing
+Risks Model," Journal of the Royal Statistical Society, Ser. B, 65, 701-710.</mixed-citation>
+        </ref>
+        <ref id="d2385998e227a1310">
+          
+            <mixed-citation id="d2385998e231" publication-type="other">
+Andersen, P., Steen, Z., and Rosthoj, S. (2002), "Competing Risks as a Multi-State Model," Statistical and Med-
+ical Research, 11,203-215.</mixed-citation>
+        </ref>
+        <ref id="d2385998e241a1310">
+          
+            <mixed-citation id="d2385998e245" publication-type="other">
+Breslow, N. E., and Clayton, D. G. (1993), "Approximate Inference in Generalized Linear Mixed Model," Journal
+of the American Statistical Association, 88, 9-25.</mixed-citation>
+        </ref>
+        <ref id="d2385998e255a1310">
+          
+            <mixed-citation id="d2385998e259" publication-type="other">
+Cai, T., Hyndman, R., and Wand, M. (2002), "Mixed Model-Based Hazard Estimation," Journal of Computational
+and Graphical Statistics, 11, 784-798.</mixed-citation>
+        </ref>
+        <ref id="d2385998e270a1310">
+          
+            <mixed-citation id="d2385998e274" publication-type="other">
+Canals-Cerda, J., and Gurmu, S. (2007), "Semiparametric Competing Risks Analysis," Econometrics Journal,
+10, 193-215.</mixed-citation>
+        </ref>
+        <ref id="d2385998e284a1310">
+          
+            <mixed-citation id="d2385998e288" publication-type="other">
+Chen, B., Kramer, J., Greene, M., and Rosenberg, P. (2008), "Competing Risk Analysis of Correlated Failure
+Time Data," Biometrics, 64, 172-179.</mixed-citation>
+        </ref>
+        <ref id="d2385998e298a1310">
+          
+            <mixed-citation id="d2385998e302" publication-type="other">
+Cox, D. (1962), Renewal Theory, London: Methuen.</mixed-citation>
+        </ref>
+        <ref id="d2385998e309a1310">
+          
+            <mixed-citation id="d2385998e313" publication-type="other">
+Cox, D. R. (1972), "Regression Models and Life Tables" (with discussion), Journal of the Royal Statistical
+Society, Ser. B, 34, 187-220.</mixed-citation>
+        </ref>
+        <ref id="d2385998e323a1310">
+          
+            <mixed-citation id="d2385998e327" publication-type="other">
+Cox, D. R., and Oakes, D. (1984), Analysis of Survival Data, London: Chapman and Hall.</mixed-citation>
+        </ref>
+        <ref id="d2385998e334a1310">
+          
+            <mixed-citation id="d2385998e338" publication-type="other">
+Crowder, M. (2001), Classical Competing Risks, London: Chapman and Hall.</mixed-citation>
+        </ref>
+        <ref id="d2385998e346a1310">
+          
+            <mixed-citation id="d2385998e350" publication-type="other">
+Duchateau, L., and Janssen, P. (2004), "Penalized Partial Likelihood for Frailties and Smoothing Splines in Time
+to First Insemination Models for Dairy Cows," Biometrics, 60, 608-614.</mixed-citation>
+        </ref>
+        <ref id="d2385998e360a1310">
+          
+            <mixed-citation id="d2385998e364" publication-type="other">
+Eilers, P. H. C, and Marx, B. D. (1996), "Flexible Smoothing With B-Splines and Penalties," Statistical Science,
+11,89-121.</mixed-citation>
+        </ref>
+        <ref id="d2385998e374a1310">
+          
+            <mixed-citation id="d2385998e378" publication-type="other">
+Ghidey, W., Lesaffre, P., and Eilers, P. H. C. (2004), "P-Spline Smoothing of the Random Effects Distribution in
+a Linear Mixed Model," Biometrics, 60, 945-953.</mixed-citation>
+        </ref>
+        <ref id="d2385998e388a1310">
+          
+            <mixed-citation id="d2385998e392" publication-type="other">
+Gray, R. J. (1994), "Spline-Based Tests in Survival Analysis," Biometrics, 50, 640-652.</mixed-citation>
+        </ref>
+        <ref id="d2385998e399a1310">
+          
+            <mixed-citation id="d2385998e403" publication-type="other">
+Hastie, T., and Tibshirani, R. (1993), "Varying-Coefficient Models," Journal of the Royal Statistical Society,
+Ser. B, 55, 757-796.</mixed-citation>
+        </ref>
+        <ref id="d2385998e413a1310">
+          
+            <mixed-citation id="d2385998e417" publication-type="other">
+Heckman, J., and Honore, B. (1989), "The Identifiability of the Competing Risks Model," Biometrika, 76, 325-
+330.</mixed-citation>
+        </ref>
+        <ref id="d2385998e428a1310">
+          
+            <mixed-citation id="d2385998e432" publication-type="other">
+Hougaard, P. (2000), Analysis of Multivariate Survival Data, New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d2385998e439a1310">
+          
+            <mixed-citation id="d2385998e443" publication-type="other">
+Kauermann, G. (2005), "Penalised Spline Fitting in Multivariable Survival Models With Varying Coefficients,"
+Computational Statistics and Data Analysis, 49, 169-186.</mixed-citation>
+        </ref>
+        <ref id="d2385998e453a1310">
+          
+            <mixed-citation id="d2385998e457" publication-type="other">
+Klein, J. (1992), "Semiparametric Estimation of Random Effects Using the Cox Model Based on the EM Algo-
+rithm," Biometrics, 38, 795-806.</mixed-citation>
+        </ref>
+        <ref id="d2385998e467a1310">
+          
+            <mixed-citation id="d2385998e471" publication-type="other">
+Komarek, A., Lesaffre, P., and Hilton, J. (2005), "Accelerated Failure Time Model for Arbitrary Censored Data
+With Smoothed Error Distribution," Journal of Computational and Graphical Statistics, 14, 726-745.</mixed-citation>
+        </ref>
+        <ref id="d2385998e481a1310">
+          
+            <mixed-citation id="d2385998e485" publication-type="other">
+Kooperberg, C, Stone, C, and Troung, Y. (1995), "Hazard Regression," Journal of the American Statistical
+Association, 90, 78-94.</mixed-citation>
+        </ref>
+        <ref id="d2385998e495a1310">
+          
+            <mixed-citation id="d2385998e499" publication-type="other">
+Lambert, P., and Eilers, P. (2005), "Bayesian Proportional Hazards Model With Time Varying Regression Coeffi-
+cients: A Penalized Poisson Regression Approach," Statistics in Medicine, 24, 3977-3989.</mixed-citation>
+        </ref>
+        <ref id="d2385998e510a1310">
+          
+            <mixed-citation id="d2385998e514" publication-type="other">
+Lancaster, T. (1979), "Econometric Methods for the Duration of Unemployment," Econometrica, 47, 939-956.</mixed-citation>
+        </ref>
+        <ref id="d2385998e521a1310">
+          
+            <mixed-citation id="d2385998e525" publication-type="other">
+Lawless, J. (2003), Statistical Models and Methods for Lifetime Data, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d2385998e532a1310">
+          
+            <mixed-citation id="d2385998e536" publication-type="other">
+Louis, T. (1982), "Finding Observed Information Using the EM Algorithm," Journal of the Royal Statistical
+Society, Ser. B, 44, 98-130.</mixed-citation>
+        </ref>
+        <ref id="d2385998e546a1310">
+          
+            <mixed-citation id="d2385998e550" publication-type="other">
+McCall, B. (1996), "Unemployment Insurance Rules, Joblessness, and Part-Time Work," Econometrica, 64,647-
+682.</mixed-citation>
+        </ref>
+        <ref id="d2385998e560a1310">
+          
+            <mixed-citation id="d2385998e564" publication-type="other">
+Naskar, M., Das, K., and Ibrahim, J. (2005), "A Semiparametric Mixture Model for Analyzing Clustered Com-
+peting Risks Data," Biometrics, 61, 729-737.</mixed-citation>
+        </ref>
+        <ref id="d2385998e574a1310">
+          
+            <mixed-citation id="d2385998e578" publication-type="other">
+O'Sullivan, F. (1986), "A Statistical Perspective on Ill-Posed Inverse Problems," Statistical Science, 1, 502-518.</mixed-citation>
+        </ref>
+        <ref id="d2385998e586a1310">
+          
+            <mixed-citation id="d2385998e590" publication-type="other">
+R Development Core Team (2006), R: A Language and Environment for Statistical Computing, Vienna, Austria:
+R Foundation for Statistical Computing, URL http://www.R-project.org.</mixed-citation>
+        </ref>
+        <ref id="d2385998e600a1310">
+          
+            <mixed-citation id="d2385998e604" publication-type="other">
+Rondeau, V., Commenges, D., and Joly, P. (2003), "Maximum Penalized Likelihood Estimation in a Gamma-
+Frailty Model," Lifetime Data Analysis, 9, 139-153.</mixed-citation>
+        </ref>
+        <ref id="d2385998e614a1310">
+          
+            <mixed-citation id="d2385998e618" publication-type="other">
+Ruppert, R., Wand, M., and Carroll, R. (2003), Semiparametric Regression, Cambridge: Cambridge University
+Press.</mixed-citation>
+        </ref>
+        <ref id="d2385998e628a1310">
+          
+            <mixed-citation id="d2385998e632" publication-type="other">
+Searle, S., Casella, G., and McCulloch, C. (1992), Variance Components, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d2385998e639a1310">
+          
+            <mixed-citation id="d2385998e643" publication-type="other">
+Stewart, M., and Narendranathan, W. (1993), "Modelling the Probability of Leaving Unemployment—Competing
+Risks Models With Flexible Base-Line Hazards," Journal of the Royal Statistical Society, Ser. C, 42, 63-83.</mixed-citation>
+        </ref>
+        <ref id="d2385998e653a1310">
+          
+            <mixed-citation id="d2385998e657" publication-type="other">
+Therneau, T. M., Grambsch, P. M., and Pankratz, V. S. (2003), "Penalized Survival Models and Frailty," Journal
+of Computational and Graphical Statistics, 12, 156-175.</mixed-citation>
+        </ref>
+        <ref id="d2385998e668a1310">
+          
+            <mixed-citation id="d2385998e672" publication-type="other">
+Tsiatis, A. (1975), "A Nonidentifiability Aspect of the Problem of Competing Risks," Proceedings of the National
+Academy of Sciences, 72, 20-22.</mixed-citation>
+        </ref>
+        <ref id="d2385998e682a1310">
+          
+            <mixed-citation id="d2385998e686" publication-type="other">
+Vaida, F., and Xu, R. (2000), "Proportional Hazards Model With Random Effects," Statistics in Medicine, 19,
+3309-3324.</mixed-citation>
+        </ref>
+        <ref id="d2385998e696a1310">
+          
+            <mixed-citation id="d2385998e700" publication-type="other">
+van den Berg, G., and Lindeboom, M. (1998), "Attrition in Panel Survey Data and the Estimation of Multi-State
+Labor Market Models," Journal of Human Resources, 33, 458-478.</mixed-citation>
+        </ref>
+        <ref id="d2385998e710a1310">
+          
+            <mixed-citation id="d2385998e714" publication-type="other">
+Wand, M. (2003), "Smoothing and Mixed Models," Computational Statistics, 18, 223-249.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

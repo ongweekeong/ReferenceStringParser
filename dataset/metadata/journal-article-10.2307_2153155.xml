@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">60</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">201</issue>
+         <issue-id>i337657</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153155</article-id>
+         
+         <title-group>
+            <article-title>Substructure Preconditioners for Elliptic Saddle Point Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Torgeir</given-names>
+                  <surname>Rusten</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ragnar</given-names>
+                  <surname>Winther</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1993</year>
+         </pub-date>
+         <fpage>23</fpage>
+         <lpage>48</lpage>
+         <page-range>23-48</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1993 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153155"/>
+         
+         
+         <abstract>
+            <p>Domain decomposition preconditioners for the linear systems arising from mixed finite element discretizations of second-order elliptic boundary value problems are proposed. The preconditioners are based on subproblems with either Neumann or Dirichlet boundary conditions on the interior boundary. The preconditioned systems have the same structure as the nonpreconditioned systems. In particular, we shall derive a preconditioned systems with conditioning independent of the mesh parameter h. The application of the minimum residual method to the preconditioned systems is also discussed.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Second-order elliptic equations</kwd>
+            <kwd>mixed finite element methods</kwd>
+            <kwd>domain decomposition</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d3871409e208a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3871409e215" publication-type="book">
+0. Axelsson and V. A. Barker, Finite element solution of boundary value problems. Theory
+and computation, Academic Press, Orlando, FL, 1984.<person-group>
+                     <string-name>
+                     <surname>Axelsson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element solution of boundary value problems. Theory and computation</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e240a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3871409e247" publication-type="book">
+K. Aziz and A. Settari, Petroleum reservoir simulation, Appl. Sci. Publ., London, 1979.<person-group>
+                     <string-name>
+                     <surname>Aziz</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Petroleum reservoir simulation</comment>
+               <source>Appl. Sci. Publ.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e272a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3871409e279" publication-type="journal">
+P. E. Bjørstad and 0. B. Widlund, Iterative methods for the solution of elliptic problems on
+regions partitioned into substructures, SIAM J. Numer. Anal.23 (1986), 1097-1120.<person-group>
+                     <string-name>
+                     <surname>Bjørstad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1097</fpage>
+               <volume>23</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e311a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3871409e318" publication-type="journal">
+J. H. Bramble, R. E. Ewing, J. E. Pasciak, and A. H. Schatz, A preconditioning technique for
+the efficient solution of problems with local grid refinement, Comput. Methods Appl. Mech.
+Engrg.67 (1988), 149-159.<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>149</fpage>
+               <volume>67</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e354a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3871409e361" publication-type="journal">
+J. H. Bramble and J. E. Pasciak, A preconditioned technique for indefinite systems resulting
+from mixed approximations of elliptic problems, Math. Comp.50 (1988), 1-17.<object-id pub-id-type="doi">10.2307/2007912</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e377a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3871409e384" publication-type="journal">
+J. H. Bramble, J. E. Pasciak, and A. H. Schatz, The construction ofpreconditioners for elliptic
+problems by substructuring. I, Math. Comp.47 (1986), 103-134.<object-id pub-id-type="doi">10.2307/2008084</object-id>
+               <fpage>103</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e400a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3871409e407" publication-type="journal">
+—, An iterative method for elliptic problems on regions partitioned into substructures,
+Math. Comp.46 (1986), 361-369.<object-id pub-id-type="doi">10.2307/2007981</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e423a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3871409e430" publication-type="journal">
+F. Brezzi, On the existence, uniqueness and approximation of saddle-point problems arising
+from Lagrangian multipliers, RAIRO Numer. Anal.8 (1974), 129-151.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>129</fpage>
+               <volume>8</volume>
+               <source>RAIRO Numer. Anal.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e462a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3871409e469" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., R. Duran, and M. Fortin, Mixed finite elements for second order
+elliptic problems in three variables, Numer. Math.51 (1987), 237-250.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>51</volume>
+               <source>Numer. Math.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e501a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3871409e508" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., M. Fortin, and L. D. Marini, Efficient rectangular mixed finite
+elements in two and three space variables, RAIRO Modél. Math. Anal. Numér.21 (1987),
+581-604.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>581</fpage>
+               <volume>21</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e544a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3871409e551" publication-type="journal">
+F. Brezzi, J. Douglas, Jr., and L. D. Marini, Two families of mixed finite elements for second
+order elliptic problems, Numer. Math.47 (1985), 217-235.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>47</volume>
+               <source>Numer. Math.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e583a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3871409e590" publication-type="journal">
+T. F. Chan and H. C. Elman, Fourier analysis of iterative methods for elliptic problems,
+SIAM Rev.31 (1989), 20-49.<object-id pub-id-type="jstor">10.2307/2030846</object-id>
+               <fpage>20</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e606a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3871409e613" publication-type="journal">
+J. Douglas, Jr., R. E. Ewing, and M. F. Wheeler, The approximation of the pressure by a
+mixed method in the simulation of miscible displacement, RAIRO Numer. Anal.17 (1983),
+17-23.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>17</fpage>
+               <volume>17</volume>
+               <source>RAIRO Numer. Anal.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e648a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3871409e655" publication-type="book">
+J. Douglas, Jr. and P. Pietra, A description of some alternating-direction iterative techniques
+for mixed finite element methods, Mathematical and Computational Methods in Seismic
+Exploration and Reservoir Modeling (W. E. Fitzgibbon, ed.), SIAM, Philadelphia, PA,
+1986, pp. 37-53.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A description of some alternating-direction iterative techniques for mixed finite element methods</comment>
+               <fpage>37</fpage>
+               <source>Mathematical and Computational Methods in Seismic Exploration and Reservoir Modeling</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e693a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d3871409e700" publication-type="book">
+R. E. Ewing and M. F. Wheeler, Computational aspects of mixed finite element methods,
+Numerical Methods for Scientific Computing (R. S. Stepleman, ed.), North-Holland, Am-
+sterdam, 1983, pp. 163-172.<person-group>
+                     <string-name>
+                     <surname>Ewing</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational aspects of mixed finite element methods</comment>
+               <fpage>163</fpage>
+               <source>Numerical Methods for Scientific Computing</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e735a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d3871409e742" publication-type="journal">
+M. Fortin, An analysis of the convergence of mixed finite element methods, RAIRO Numer.
+Anal.11 (1977), 341-354.<person-group>
+                     <string-name>
+                     <surname>Fortin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>341</fpage>
+               <volume>11</volume>
+               <source>RAIRO Numer. Anal.</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e775a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d3871409e782" publication-type="book">
+M. Fortin and R. Glowinski, Augmented Lagrangian methods: Applications to the numerical
+solution of boundary value problems, North-Holland, Amsterdam, 1983.<person-group>
+                     <string-name>
+                     <surname>Fortin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Augmented Lagrangian methods: Applications to the numerical solution of boundary value problems</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e807a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d3871409e814" publication-type="book">
+V. Girault and P. A. Raviart, Finite element methods for Navier-Stokes equations, Springer-
+Verlag, Berlin, 1986.<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element methods for Navier-Stokes equations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e839a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d3871409e846" publication-type="conference">
+R. Glowinski and M. F. Wheeler, Domain decomposition and mixed finite element methods
+for elliptic problems, Proc. 1st Internat. Sympos. on Domain Decomposition Methods for
+Partial Differential Equations (R. Glowinski, G. H. Golub, G. A. Meurant, and J. Periaux,
+eds.), SIAM, Philadelphia, PA, 1988, pp. 144-172.<person-group>
+                     <string-name>
+                     <surname>Glowinski</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition and mixed finite element methods for elliptic problems</comment>
+               <fpage>144</fpage>
+               <source>Proc. 1st Internat. Sympos. on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e884a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d3871409e891" publication-type="book">
+J. L. Lions and E. Magenes, Non-homogeneous boundary value problems and applications,
+vol. I, Springer, New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Non-homogeneous boundary value problems and applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e920a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d3871409e927" publication-type="conference">
+P. L. Lions, On the Schwarz alternating method, Proc. 1st Internat. Sympos. on Domain
+Decomposition Methods for Partial Differential Equations (R. Glowinski, G. H. Golub, G.
+A. Meurant, and J. Periaux, eds.), SIAM, Philadelphia, PA, 1988, pp. 1-42.<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the Schwarz alternating method</comment>
+               <fpage>1</fpage>
+               <source>Proc. 1st Internat. Sympos. on Domain Decomposition Methods for Partial Differential Equations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e962a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d3871409e969" publication-type="other">
+T. P. Mathew, Domain decomposition and iterative refinement methods for mixed finite
+element discretizations of elliptic problems, Ph.D. thesis, Department of Computer Science,
+Courant Institute of Mathematical Sciences, 1989.</mixed-citation>
+            </ref>
+            <ref id="d3871409e983a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d3871409e990" publication-type="journal">
+J. A. Meijerink and H. A. van der Vorst, An iterative solution method for linear systems of
+which the coefficient matrix is a symmetric M-matrix, Math. Comp.31 (1977), 148-162.<object-id pub-id-type="doi">10.2307/2005786</object-id>
+               <fpage>148</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e1006a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d3871409e1013" publication-type="journal">
+C. C. Paige and M. A. Saunders, Solution of sparse indefinite systems of linear equations,
+SIAM J. Numer. Anal.12 (1975), 617-629.<object-id pub-id-type="jstor">10.2307/2156178</object-id>
+               <fpage>617</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e1029a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d3871409e1036" publication-type="book">
+P. A. Raviart and J. M. Thomas, A mixed finite element method for 2-nd order elliptic
+problems, Mathematical Aspects of Finite Element Methods (I. Galligani and E. Magenes,
+eds.), Lecture Notes in Math., vol. 606, Springer-Verlag, Berlin, 1977, pp. 292-315.<person-group>
+                     <string-name>
+                     <surname>Raviart</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A mixed finite element method for 2-nd order elliptic problems</comment>
+               <fpage>292</fpage>
+               <volume>606</volume>
+               <source>Mathematical Aspects of Finite Element Methods</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e1074a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d3871409e1081" publication-type="book">
+T. F. Russel and M. F. Wheeler, Finite element and finite difference methods for continuous
+flow in porous media, The Mathematics of Reservoir Simulation (R. E. Ewing, ed.), SIAM,
+Philadelphia, PA, 1983.<person-group>
+                     <string-name>
+                     <surname>Russel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finite element and finite difference methods for continuous flow in porous media</comment>
+               <source>The Mathematics of Reservoir Simulation</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3871409e1113a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d3871409e1120" publication-type="journal">
+T. Rusten and R. Winther, A preconditioned iterative method for saddlepoint problems,
+SIAM J. Matrix Anal. Appl.13 (1992), 887-904.<person-group>
+                     <string-name>
+                     <surname>Rusten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>887</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

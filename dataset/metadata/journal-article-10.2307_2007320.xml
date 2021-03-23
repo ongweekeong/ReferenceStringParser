@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">39</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">160</issue>
+         <issue-id>i334578</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007320</article-id>
+         
+         <title-group>
+            <article-title>Error Estimates for the Multidimensional Two-Phase Stefan Problem</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Joseph W.</given-names>
+                  <surname>Jerome</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Michael E.</given-names>
+                  <surname>Rose</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1982</year>
+         </pub-date>
+         <fpage>377</fpage>
+         <lpage>414</lpage>
+         <page-range>377-414</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1982 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007320"/>
+         
+         
+         <abstract>
+            <p>In this paper we derive rates of convergence for regularizations of the multidimensional two-phase Stefan problem and use the regularized problems to define backward-difference in time and $C^0$ piecewise-linear in space Galerkin approximations. We find an $L^2$ rate of convergence of order $\sqrt\varepsilon$ in the $\varepsilon$-regularization and an $L^2$ rate of convergence of order $(h^2/\varepsilon + \Delta t/\sqrt\varepsilon)$ in the Galerkin estimates which leads to the natural choices $\varepsilon \sim h^{4/3}, \Delta t \sim h^{4/3}$, and a resulting $O(h^{2/3}) L^2$ rate of convergence of the numerical scheme to the solution of the differential equation. An essentially $O(h)$ rate is demonstrated when $\varepsilon = 0$ and $\Delta t \sim h^2$ in our Galerkin scheme under a boundedness hypothesis on the Galerkin approximations. The latter result is consistent with computational experience.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N15</kwd>
+            <kwd>65N30</kwd>
+            <kwd>35K55</kwd>
+            <kwd>35K65</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1668391e147a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1668391e154" publication-type="journal">
+S. AGMON, A. DOUGLAS &amp; L. NIRENBERG, "Estimates near the boundary for solutions of elliptic
+partial differential equations satisfying general boundary conditions," Comm. Pure Appl. Math., v. 12,
+1959, pp. 623-727<person-group>
+                     <string-name>
+                     <surname>Agmon</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>623</fpage>
+               <volume>12</volume>
+               <source>Comm. Pure Appl. Math.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e189a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1668391e196" publication-type="book">
+O. B. ANDERSLAND &amp; D. M. ANDERSON (eds.), Geotechnical Engineering for Cold Regions,
+McGraw-Hill, New York, 1978.<person-group>
+                     <string-name>
+                     <surname>Andersland</surname>
+                  </string-name>
+                  </person-group>
+               <source>Geotechnical Engineering for Cold Regions</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e221a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1668391e228" publication-type="conference">
+D. M. ANDERSON &amp; N. R. MORGENSTERN, "Physics, chemistry and mechanics of frozen ground," in
+Proc. North American Permafrost Second International Conf., Nat. Acad. Sciences, Washington, D. C.,
+1973, pp. 257-295<person-group>
+                     <string-name>
+                     <surname>Anderson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Physics, chemistry and mechanics of frozen ground</comment>
+               <fpage>257</fpage>
+               <source>Proc. North American Permafrost Second International Conf., Nat. Acad. Sciences, Washington, D. C.</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e263a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1668391e270" publication-type="journal">
+J. H. BRAMBLE, A. H. SCHATZ, V. THOMtE &amp; L. B. WAHLBIN, "Some convergence estimates for
+semi-discrete Galerkin type approximations for parabolic equations," SIAM J. Numer. Anal., v. 14, 1977,
+pp. 218-241<object-id pub-id-type="jstor">10.2307/2156783</object-id>
+               <fpage>218</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e290a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1668391e297" publication-type="book">
+H. BREZIS, Operateurs Maximaux Monotones et Semi-groupes de Contractions dans les Espaces de
+Hilbert, North-Holland/American Elsevier, Amsterdam/New York, 1973<person-group>
+                     <string-name>
+                     <surname>Brezis</surname>
+                  </string-name>
+                  </person-group>
+               <source>Operateurs Maximaux Monotones et Semi-groupes de Contractions dans les Espaces de Hilbert</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e322a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1668391e329" publication-type="journal">
+H. BREZIS &amp; W. STRAUSS, "Semilinear elliptic equations in L'," J. Math. Soc. Japan, v. 25, 1973,
+pp. 565-590<person-group>
+                     <string-name>
+                     <surname>Brezis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>565</fpage>
+               <volume>25</volume>
+               <source>J. Math. Soc. Japan</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e361a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1668391e368" publication-type="journal">
+B. M. BUDAK, E. N. SOLOV'EVA &amp; A. B. USPENSKII, "A difference method with smoothing of
+coefficients for the solution of the Stefan problem," Ž. Vyčisl. Mat. i Mat. Fiz., v. 5, 1965, pp. 828-840.
+(Russian)<person-group>
+                     <string-name>
+                     <surname>Budak</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>828</fpage>
+               <volume>5</volume>
+               <source>Ž. Vyčisl. Mat. i Mat. Fiz.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e403a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1668391e410" publication-type="journal">
+L. CAFFARELLI &amp; L. C. EVANS, "Continuity of the temperature in the two-phase Stefan problem,"
+Arch. Rational Mech. Anal. (To appear.)<person-group>
+                     <string-name>
+                     <surname>Caffarelli</surname>
+                  </string-name>
+                  </person-group>
+               <source>Arch. Rational Mech. Anal.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e432a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1668391e439" publication-type="book">
+P. G. CIARLET, The Finite Element Method for Elliptic Problems, North-Holland/American Elsevier,
+Amsterdam/New York, 1978<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e464a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1668391e471" publication-type="journal">
+J. F. CIAVALDINI, "Analyse numerique d'un probleme de Stefan a deux phases par une methode
+l'elments finis," SIAM J. Numer. Anal., v. 12, 1975, pp. 464-487<object-id pub-id-type="jstor">10.2307/2156059</object-id>
+               <fpage>464</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e488a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1668391e495" publication-type="journal">
+A. DAMLAMIAN, "Some results on the multi-phase Stefan problem," Comm. Partial Differential
+Equations, v. 2, 1977, pp. 1017-1044<person-group>
+                     <string-name>
+                     <surname>Damlamian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1017</fpage>
+               <volume>2</volume>
+               <source>Comm. Partial Differential Equations</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e527a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1668391e534" publication-type="book">
+E. DI BENEDETTO, Continuity of Weak Solutions to Certain Singular Parabolic Equations, MRC
+Tech. Report 2124, Madison, Wisc., 1980<person-group>
+                     <string-name>
+                     <surname>Di Benedetto</surname>
+                  </string-name>
+                  </person-group>
+               <source>Continuity of Weak Solutions to Certain Singular Parabolic Equations</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e559a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1668391e566" publication-type="journal">
+J. DOUGLAS, JR., T. DUPONT &amp; L. WAHLBIN, "Optimal L' error estimates for Galerkin
+approximations to solutions of two-point boundary value problems," Math. Comp., v. 29, 1975, pp.
+475-483<object-id pub-id-type="doi">10.2307/2005565</object-id>
+               <fpage>475</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e585a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1668391e592" publication-type="book">
+N. DUNFORD &amp; J. SCHWARTZ, Linear Operators, Vol. I, Wiley, New York, 1957.<person-group>
+                     <string-name>
+                     <surname>Dunford</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Linear Operators</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e617a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1668391e624" publication-type="journal">
+A. FRIEDMAN, "The Stefan problem in several space variables," Trans. Amer. Math. Soc., v. 133,
+1968, pp. 51-87<object-id pub-id-type="doi">10.2307/1994932</object-id>
+               <fpage>51</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e640a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1668391e647" publication-type="book">
+E. HILLE &amp; R. S. PHILLIPS, Functional Analysis and Semigroups, Amer. Math. Soc. Colloq. Publ.,
+vol. 31, Amer. Math. Soc., Providence, R. I., 1957<person-group>
+                     <string-name>
+                     <surname>Hille</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Functional Analysis and Semigroups</comment>
+               <volume>31</volume>
+               <source>Amer. Math. Soc. Colloq. Publ.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e680a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1668391e687" publication-type="journal">
+J. JEROME, "Nonlinear equations of evolution and a generalized Stefan problem," J. Differential
+Equations, v. 26, 1977, pp. 240-261<person-group>
+                     <string-name>
+                     <surname>Jerome</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>240</fpage>
+               <volume>26</volume>
+               <source>J. Differential Equations</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e719a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1668391e726" publication-type="journal">
+J. JEROME, "Existence and approximation of weak solutions of nonlinear Dirichlet problems with
+discontinuous coefficients," SIAM J. Math. Anal., v. 9, 1978, pp. 730-742<person-group>
+                     <string-name>
+                     <surname>Jerome</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>730</fpage>
+               <volume>9</volume>
+               <source>SIAM J. Math. Anal.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e758a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1668391e765" publication-type="journal">
+C. JOHNSON &amp; V. THOMtE, "Error estimates for some mixed finite element methods for parabolic
+type problems," RAIRO Anal. Numér., v. 15, 1981, pp. 41-78<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>41</fpage>
+               <volume>15</volume>
+               <source>RAIRO Anal. Numér.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e797a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1668391e804" publication-type="journal">
+S. KAMENOMOSTSKAJA, "On the Stefan problem," Mat. Sb., v. 53, 1961, pp. 489-514. (Russian)<person-group>
+                     <string-name>
+                     <surname>Kamenomostskaja</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>489</fpage>
+               <volume>53</volume>
+               <source>Mat. Sb.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e833a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1668391e840" publication-type="journal">
+T. KATO, "Linear evolution equations of hyperbolic type II," J. Math. Soc. Japan, v. 25, 1973, pp.
+648-666<person-group>
+                     <string-name>
+                     <surname>Kato</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>648</fpage>
+               <volume>25</volume>
+               <source>J. Math. Soc. Japan</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e872a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1668391e879" publication-type="journal">
+S. N. KRUZHKOV, "First order quasilinear equations in several independent variables," Math.
+USSR Sb., v. 10, 1970, pp. 217-243<person-group>
+                     <string-name>
+                     <surname>Kruzhkov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>10</volume>
+               <source>Math. USSR Sb.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e912a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1668391e919" publication-type="book">
+0. LADYZHENSKAYA, V. SOLONNIKOV &amp; N. URAL'CEVA, Linear and Quasilinear Equations of
+Parabolic Type, Transl. Math. Monographs, vol. 23, Amer. Math. Soc., Providence, R. I., 1968.<person-group>
+                     <string-name>
+                     <surname>Ladyzhenskaya</surname>
+                  </string-name>
+                  </person-group>
+               <volume>23</volume>
+               <source>Linear and Quasilinear Equations of Parabolic Type</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e948a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1668391e955" publication-type="journal">
+A. LAZARIDIS, "A numerical solution of the multidimensional solidification (or melting) problem,"
+Internat. J. Heat Mass Transfer, v. 13, 1970, pp. 1459-1477<person-group>
+                     <string-name>
+                     <surname>Lazaridis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1459</fpage>
+               <volume>13</volume>
+               <source>Internat. J. Heat Mass Transfer</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e987a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1668391e994" publication-type="book">
+J. L. LIONS, Quelques Méthodes de Resolution des Problèmes aux Limites non Linéaires, Dunod,
+Paris, 1969<person-group>
+                     <string-name>
+                     <surname>Lions</surname>
+                  </string-name>
+                  </person-group>
+               <source>Quelques Méthodes de Resolution des Problèmes aux Limites non Linéaires</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1019a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1668391e1026" publication-type="journal">
+G. H. MEYER, "Multidimensional Stefan problems," SIAM J. Numer. Anal., v. 10, 1973, pp.
+522-538<object-id pub-id-type="jstor">10.2307/2156119</object-id>
+               <fpage>522</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1042a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1668391e1049" publication-type="conference">
+J. NITSCHE, L∞ Convergence of Finite Element Approximations, Proc. Second Conf. on Finite
+Elements, Rennes, France, 1975<person-group>
+                     <string-name>
+                     <surname>Nitsche</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">L∞ Convergence of Finite Element Approximations</comment>
+               <source>Proc. Second Conf. on Finite Elements, Rennes, France</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1078a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1668391e1085" publication-type="journal">
+R. RANNACHER, "Zur L?-Konvergenz linearer Finiter Elemente," Math. Z., v. 149, 1976, pp.
+69-77<person-group>
+                     <string-name>
+                     <surname>Rannacher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>69</fpage>
+               <volume>149</volume>
+               <source>Math. Z.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1118a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1668391e1125" publication-type="journal">
+MICHAEL E. ROSE, "Numerical methods for flows through porous media. I," Math. Comp.
+(submitted). Also available as Argonne National Laboratory Report<person-group>
+                     <string-name>
+                     <surname>Rose</surname>
+                  </string-name>
+                  </person-group>
+               <source>Math. Comp.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1147a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1668391e1154" publication-type="journal">
+MILTON E. ROSE, "A method for calculating solutions of parabolic equations with a free
+boundary," Math. Comp., v. 14, 1960, pp. 249-256<object-id pub-id-type="doi">10.2307/2003164</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1170a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1668391e1177" publication-type="book">
+L. RUBENSTEIN, The Stefan Problem, Transl. Math. Monographs, vol. 27, Amer. Math. Soc.,
+Providence, R. I. 1971<person-group>
+                     <string-name>
+                     <surname>Rubenstein</surname>
+                  </string-name>
+                  </person-group>
+               <volume>27</volume>
+               <source>The Stefan Problem</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1206a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1668391e1213" publication-type="journal">
+A. A. SAMARSKIĬ &amp; B. D. MOISEENKO, "An efficient scheme for (the) thorough computation in a
+many dimensional Stefan problem," Ž. Vyčisl. Mat. i Mat. Fiz., v. 5, 1965, pp. 816-827<person-group>
+                     <string-name>
+                     <surname>Samarskiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>816</fpage>
+               <volume>5</volume>
+               <source>Ž. Vyčisl. Mat. i Mat. Fiz.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1245a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1668391e1252" publication-type="journal">
+A. H. SCHATZ &amp; L. B. WAHLBIN, "On the quasi-optimality in L,,) of the ft-projection into finite
+element spaces," Math. Comp., v. 38, 1982, pp. 1-22.<object-id pub-id-type="doi">10.2307/2007461</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1268a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1668391e1275" publication-type="journal">
+R. SCOTT, "Optimal L' estimates for the finite element method on irregular meshes," Math.
+Comp., v. 30, 1976, pp. 681-697<object-id pub-id-type="doi">10.2307/2005390</object-id>
+               <fpage>681</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1292a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1668391e1299" publication-type="book">
+S. L. SOBOLEV, Applications of Functional Analysis in Mathematical Physics, Transl. Math. Mono-
+graphs, vol. 7, Amer. Math. Soc., Providence, R. I. 1963<person-group>
+                     <string-name>
+                     <surname>Sobolev</surname>
+                  </string-name>
+                  </person-group>
+               <volume>7</volume>
+               <source>Applications of Functional Analysis in Mathematical Physics</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1328a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1668391e1335" publication-type="journal">
+A. SOLOMON, "Some remarks on the Stefan problem," Math. Comp., v. 20, 1966, pp. 347-360<object-id pub-id-type="doi">10.2307/2003588</object-id>
+               <fpage>347</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1348a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1668391e1355" publication-type="journal">
+G. STRANG, "Approximation in the finite element method," Numer. Math., v. 19, 1972, pp. 81-98<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>19</volume>
+               <source>Numer. Math.</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1384a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1668391e1391" publication-type="book">
+G. STRANG &amp; G. Fix, Analysis of the Finite Element Method, Prentice-Hall, Englewood Cliffs, N. J.,
+1973<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of the Finite Element Method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1416a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1668391e1423" publication-type="conference">
+J. A. WHEELER, JR., Simulation of Heat Transfer from a Warm Pipeline Buried in Permafrost, Proc.
+74th National Meeting AIChE, March 1973<person-group>
+                     <string-name>
+                     <surname>Wheeler</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Simulation of Heat Transfer from a Warm Pipeline Buried in Permafrost</comment>
+               <source>Proc. 74th National Meeting AIChE</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1452a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1668391e1459" publication-type="book">
+J. A. WHEELER, JR., "Permafrost thermal design for the trans-Alaska pipeline," in Moving Boundary
+Problems (Wilson, Solomon, Boggs, eds.), Academic Press, New York, 1978, pp. 267-284<person-group>
+                     <string-name>
+                     <surname>Wheeler</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Permafrost thermal design for the trans-Alaska pipeline</comment>
+               <fpage>267</fpage>
+               <source>Moving Boundary Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1668391e1492a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1668391e1499" publication-type="other">
+J. A. WHEELER, JR., Personal communication</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">232</issue>
+         <issue-id>i344572</issue-id>
+         <article-id pub-id-type="jstor">2585082</article-id>
+         
+         <title-group>
+            <article-title>A Lanczos-Type Method for Multiple Starting Vectors</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>J. I.</given-names>
+                  <surname>Aliaga</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>D. L.</given-names>
+                  <surname>Boley</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>R. W.</given-names>
+                  <surname>Freund</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>V.</given-names>
+                     <surname>Hernández</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>1577</fpage>
+         <lpage>1601</lpage>
+         <page-range>1577-1601</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2585082"/>
+         
+         
+         <abstract>
+            <p>Given a square matrix and single right and left starting vectors, the classical nonsymmetric Lanczos process generates two sequences of biorthogonal basis vectors for the right and left Krylov subspaces induced by the given matrix and vectors. In this paper, we propose a Lanczos-type algorithm that extends the classical Lanczos process for single starting vectors to multiple starting vectors. Given a square matrix and two blocks of right and left starting vectors, the algorithm generates two sequences of biorthogonal basis vectors for the right and left block Krylov subspaces induced by the given data. The algorithm can handle the most general case of right and left starting blocks of arbitrary sizes, while all previously proposed extensions of the Lanczos process are restricted to right and left starting blocks of identical sizes. Other features of our algorithm include a built-in deflation procedure to detect and delete linearly dependent vectors in the block Krylov sequences, and the option to employ look-ahead to remedy the potential breakdowns that may occur in nonsymmetric Lanczos-type methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01163-1</kwd>
+            <kwd>65F10</kwd>
+            <kwd>65F15</kwd>
+            <kwd>65F25</kwd>
+            <kwd>65F30</kwd>
+            <kwd>Lanczos Algorithm</kwd>
+            <kwd>Nonsymmetric Matrix</kwd>
+            <kwd>Block Krylov Subspaces</kwd>
+            <kwd>Biorthogonalization</kwd>
+            <kwd>Oblique Projection</kwd>
+            <kwd>Deflation</kwd>
+            <kwd>Breakdown</kwd>
+            <kwd>Look-Ahead</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d4070054e224a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4070054e231" publication-type="other">
+J. I. Aliaga, Algoritmos paralelos basados en el método de Lanczos. Aplicaciones en prob-
+lemas de control, Doctoral Thesis, Departamento de Sistemas Informáticos y Computación,
+Universidad Politécnica de Valencia, Valencia, Spain, 1995.</mixed-citation>
+            </ref>
+            <ref id="d4070054e244a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4070054e251" publication-type="book">
+J. I. Aliaga, D. L. Boley, R. W. Freund, and V. Hernández, A Lanczos-type algorithm for mul-
+tiple starting vectors, Numerical Analysis Manuscript No. 96-18, Bell Laboratories, Murray
+Hill, NJ, 1996. Also available online from http://cm.bell-labs.com/cs/doc/96.<person-group>
+                     <string-name>
+                     <surname>Aliaga</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Lanczos-type algorithm for multiple starting vectors</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e280a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4070054e287" publication-type="conference">
+J. I. Aliaga, D. L. Boley, and V. Hernández, A block clustered Lanczos algorithm, Presentation
+at the workshop on "Numerical Linear Algebra with Applications", Oberwolfach, Germany,
+April 1994.<person-group>
+                     <string-name>
+                     <surname>Aliaga</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A block clustered Lanczos algorithm</comment>
+               <source>workshop on "Numerical Linear Algebra with Applications", Oberwolfach, Germany</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e319a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4070054e326" publication-type="book">
+Z. Bai, D. Day, and Q. Ye, ABLE: an adaptive block Lanczos method for non-Hermitian
+eigenvalue problems, Research Report 95-04, Department of Mathematics, University of Ken-
+tucky, Lexington, KY, 1995.<person-group>
+                     <string-name>
+                     <surname>Bai</surname>
+                  </string-name>
+                  </person-group>
+               <source>ABLE: an adaptive block Lanczos method for non-Hermitian eigenvalue problems</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e356a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4070054e363" publication-type="journal">
+D. L. Boley, Krylov space methods on state-space control models, Circuits Systems Signal
+Process.13 (1994), 733-758. MR 95e:93036<person-group>
+                     <string-name>
+                     <surname>Boley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>733</fpage>
+               <volume>13</volume>
+               <source>Circuits Systems Signal Process.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e395a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4070054e402" publication-type="journal">
+D. L. Boley and G. H. Golub, The nonsymmetric Lanczos algorithm and controllability,
+Systems Control Lett.16 (1991), 97-105. MR 92e:93004<person-group>
+                     <string-name>
+                     <surname>Boley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>16</volume>
+               <source>Systems Control Lett.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e434a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4070054e441" publication-type="journal">
+O. H. Bosgra and A. J. J. Van der Weiden, Input-output invariants for linear multivariable
+systems, IEEE Trans. Automat. ControlAC-25 (1980), 20-36. MR 81m:93022<person-group>
+                     <string-name>
+                     <surname>Bosgra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>20</fpage>
+               <volume>AC-25</volume>
+               <source>IEEE Trans. Automat. Control</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e473a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4070054e480" publication-type="journal">
+A. Bultheel, Recursive algorithms for the matrix Pade' problem, Math. Comp.35 (1980),
+875-892. MR 81h:41017<object-id pub-id-type="doi">10.2307/2006200</object-id>
+               <fpage>875</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e496a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d4070054e503" publication-type="conference">
+J. K. Cullum and W. E. Donath, A block Lanczos algorithm for computing the q algebraically
+largest eigenvalues and a corresponding eigenspace for large, sparse symmetric matrices,
+Proc.1974 IEEE Conference on Decision and Control, IEEE Press, New York, 1974, pp. 505-
+509.<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A block Lanczos algorithm for computing the q algebraically largest eigenvalues and a corresponding eigenspace for large, sparse symmetric matrices</comment>
+               <fpage>505</fpage>
+               <source>Proc.1974 IEEE Conference on Decision and Control</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e541a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d4070054e548" publication-type="book">
+J. K. Cullum and R. A. Willoughby, Lanczos algorithms for large symmetric eigenvalue
+computations, Volume 1, Theory, Birkhauser, Basel, 1985. MR 87h:65064a<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lanczos algorithms for large symmetric eigenvalue computations, Volume 1, Theory</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e574a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d4070054e581" publication-type="book">
+—A practical procedure for computing eigenvalues of large sparse nonsymmetric matri-
+ces, Large Scale Eigenvalue Problems (J. Cullum and R. A. Willoughby, eds.), North-Holland,
+Amsterdam, The Netherlands, 1986, pp. 193-240. MR 88a:65040<person-group>
+                     <string-name>
+                     <surname>Cullum</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A practical procedure for computing eigenvalues of large sparse nonsymmetric matrices</comment>
+               <fpage>193</fpage>
+               <source>Large Scale Eigenvalue Problems</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e616a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d4070054e623" publication-type="journal">
+P. Feldmann and R. W. Freund, Efficient linear circuit analysis by Pade approximation via
+the Lanczos process, IEEE Trans. Computer-Aided Design14 (1995), 639-649.<person-group>
+                     <string-name>
+                     <surname>Feldmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>639</fpage>
+               <volume>14</volume>
+               <source>IEEE Trans. Computer-Aided Design</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e655a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d4070054e662" publication-type="conference">
+—Reduced-order modeling of large linear subcircuits via a block Lanczos algorithm,
+Proc. 32nd Design Automation Conference, ACM, New York, 1995, pp. 474-479.<person-group>
+                     <string-name>
+                     <surname>Feldmann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Reduced-order modeling of large linear subcircuits via a block Lanczos algorithm</comment>
+               <fpage>474</fpage>
+               <source>Proc. 32nd Design Automation Conference, ACM</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e694a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d4070054e701" publication-type="conference">
+R. W. Freund, The look-ahead Lanczos process for nonsymmetric matrices and its applica-
+tions, Proceedings of the Cornelius Lanczos International Centenary Conference (J. D. Brown
+et al., eds.), SIAM, Philadelphia, 1994, pp. 33-47. MR 95f:65076<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The look-ahead Lanczos process for nonsymmetric matrices and its applications</comment>
+               <fpage>33</fpage>
+               <source>Proceedings of the Cornelius Lanczos International Centenary Conference</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e736a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d4070054e743" publication-type="book">
+—Computation of matrix Padé approximations of transfer functions via a Lanczos-
+type process, Approximation Theory VIII, Vol. 1: Approximation and Interpolation (C. K.
+Chui and L. L. Schumaker, eds.), World Scientific Publishing Co., Inc., Singapore, 1995,
+pp. 215-222. MR 98d:41001<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computation of matrix Padé approximations of transfer functions via a Lanczostype process</comment>
+               <fpage>215</fpage>
+               <source>Approximation Theory VIII, Vol. 1: Approximation and Interpolation</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e781a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d4070054e788" publication-type="conference">
+R. W. Freund and P. Feldmann, Efficient circuit analysis by Pade approximation via the
+Lanczos process, Presentation at the workshop on "Numerical Linear Algebra with Applica-
+tions", Oberwolfach, Germany, April 1994.<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Efficient circuit analysis by Pade approximation via the Lanczos process</comment>
+               <source>workshop on "Numerical Linear Algebra with Applications", Oberwolfach, Germany</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e821a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d4070054e828" publication-type="journal">
+R. W. Freund, M. H. Gutknecht, and N. M. Nachtigal, An implementation of the look-ahead
+Lanczos algorithm for non-Hermitian matrices, SIAM J. Sci. Comput.14 (1993), 137-158.
+MR 93h:65048<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>137</fpage>
+               <volume>14</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e863a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d4070054e870" publication-type="journal">
+R. W. Freund and M. Malhotra, A block QMR algorithm for non-Hermitian linear systems
+with multiple right-hand sides, Linear Algebra Appl.254 (1997), 119-157. MR 98g:65027<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>119</fpage>
+               <volume>254</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e902a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d4070054e909" publication-type="journal">
+R. W. Freund and N. M. Nachtigal, QMR: a quasi-minimal residual method for non-
+Hermitian linear systems, Numer. Math.60 (1991), 315-339. MR 92g:65034<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>60</volume>
+               <source>Numer. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e941a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d4070054e948" publication-type="journal">
+— An implementation of the QMR method based on coupled two-term recurrences,
+SIAM J. Sci. Comput.15 (1994), 313-337. MR 95f:65067<person-group>
+                     <string-name>
+                     <surname>Freund</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>313</fpage>
+               <volume>15</volume>
+               <source>SIAM J. Sci. Comput.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e980a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d4070054e987" publication-type="book">
+G. H. Golub and R. Underwood, The block Lanczos method for computing eigenvalues, Math-
+ematical Software III (J. R. Rice, ed.), Academic Press, New York, 1977, pp. 361-377. MR
+57:14376<person-group>
+                     <string-name>
+                     <surname>Golub</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The block Lanczos method for computing eigenvalues</comment>
+               <fpage>361</fpage>
+               <source>Mathematical Software III</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1022a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d4070054e1029" publication-type="journal">
+W. B. Gragg, Matrix interpretations and applications of the continued fraction algorithm,
+Rocky Mountain J. Math.4 (1974), 213-225. MR 49:6576<person-group>
+                     <string-name>
+                     <surname>Gragg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>213</fpage>
+               <volume>4</volume>
+               <source>Rocky Mountain J. Math.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1062a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d4070054e1069" publication-type="journal">
+W. B. Gragg and A. Lindquist, On the partial realization problem, Linear Algebra Appl.50
+(1983), 277-319. MR 84h:93020<person-group>
+                     <string-name>
+                     <surname>Gragg</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>277</fpage>
+               <volume>50</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1101a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d4070054e1108" publication-type="journal">
+M. H. Gutknecht, A completed theory of the unsymmetric Lanczos process and related algo-
+rithms, part I, SIAM J. Matrix Anal. Appl.13 (1992), 594-639. MR 93e:65053<person-group>
+                     <string-name>
+                     <surname>Gutknecht</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>594</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1140a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d4070054e1147" publication-type="journal">
+H. M. Kim and R. R. Craig, Jr., Structural dynamics analysis using an unsymmetric block
+Lanczos algorithm, Internat. J. Numer. Methods Engrg.26 (1988), 2305-2318.<person-group>
+                     <string-name>
+                     <surname>Kim</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2305</fpage>
+               <volume>26</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1179a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d4070054e1186" publication-type="journal">
+— Computational enhancement of an unsymmetric block Lanczos algorithm, Internat.
+J. Numer. Methods Engrg.30 (1990), 1083-1089. CMP 91:01<person-group>
+                     <string-name>
+                     <surname>Kim</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1083</fpage>
+               <volume>30</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1218a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d4070054e1225" publication-type="journal">
+C. Lanczos, An iteration method for the solution of the eigenvalue problem of linear differ-
+ential and integral operators, J. Res. Nat. Bur. Standards45 (1950), 255-282. MR 13:163d<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>45</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1257a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d4070054e1264" publication-type="journal">
+— Solution of systems of linear equations by minimized iterations, J. Res. Nat. Bur.
+Standards49 (1952), 33-53. MR 14:501g<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>49</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1297a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d4070054e1304" publication-type="journal">
+M. Malhotra, R. W. Freund, and P. M. Pinsky, Iterative solution of multiple radiation and
+scattering problems in structural acoustics using a block quasi-minimal residual algorithm,
+Comput. Methods Appl. Mech. Engrg.146 (1997), 173-196. MR 98d:76104<person-group>
+                     <string-name>
+                     <surname>Malhotra</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>173</fpage>
+               <volume>146</volume>
+               <source>Comput. Methods Appl. Mech. Engrg.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1339a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d4070054e1346" publication-type="journal">
+A. A. Nikishin and A. Yu. Yeremin, Variable block CG algorithms for solving large sparse
+symmetric positive definite linear systems on parallel computers, I: general iterative scheme,
+SIAM J. Matrix Anal. Appl.16 (1995), 1135-1153. MR 97e:65032<person-group>
+                     <string-name>
+                     <surname>Nikishin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1135</fpage>
+               <volume>16</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1381a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d4070054e1388" publication-type="journal">
+D. P. O'Leary, The block conjugate gradient algorithm and related methods, Linear Algebra
+Appl.29 (1980), 293-322. MR 81i:65027<person-group>
+                     <string-name>
+                     <surname>O'Leary</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>293</fpage>
+               <volume>29</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1420a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d4070054e1427" publication-type="journal">
+B. N. Parlett, Reduction to tridiagonal form and minimal realizations, SIAM J. Matrix Anal.
+Appl.13 (1992), 567-593. MR 93c:65059<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>13</volume>
+               <source>SIAM J. Matrix Anal. Appl.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1459a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d4070054e1466" publication-type="journal">
+B. N. Parlett, D. R. Taylor, and Z. A. Liu, A look-ahead Lanczos algorithm for unsymmetric
+matrices, Math. Comp.44 (1985), 105-124. MR 86f:65072<object-id pub-id-type="doi">10.2307/2007796</object-id>
+               <fpage>105</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1482a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d4070054e1489" publication-type="journal">
+J. Rissanen, Algorithms for triangular decomposition of block Hankel and Toeplitz matrices
+with application to factoring positive matrix polynomials, Math. Comp.27 (1973), 147-154.
+MR 48:7577<object-id pub-id-type="doi">10.2307/2005257</object-id>
+               <fpage>147</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1509a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d4070054e1516" publication-type="journal">
+A. Ruhe, Implementation aspects of band Lanczos algorithms for computation of eigenvalues
+of large sparse symmetric matrices, Math. Comp.33 (1979), 680-687. MR 81b:65034<object-id pub-id-type="doi">10.2307/2006302</object-id>
+               <fpage>680</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1532a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d4070054e1539" publication-type="other">
+T.-J. Su, A decentralized linear quadratic control design method for flexible structures, Ph.D.
+Thesis, Department of Aerospace and Engineering Mechanics, The University of Texas at
+Austin, Austin, TX, 1989.</mixed-citation>
+            </ref>
+            <ref id="d4070054e1552a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d4070054e1559" publication-type="journal">
+T.-J. Su and R. R. Craig, Jr., Model reduction and control of flexible structures using Krylov
+vectors, J. Guidance Control Dynamics14 (1991), 260-267.<person-group>
+                     <string-name>
+                     <surname>Su</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>260</fpage>
+               <volume>14</volume>
+               <source>J. Guidance Control Dynamics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1591a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d4070054e1598" publication-type="other">
+D. R. Taylor, Analysis of the look ahead Lanezos algorithm, Ph.D. Thesis, Department of
+Mathematics, University of California, Berkeley, CA, 1982.</mixed-citation>
+            </ref>
+            <ref id="d4070054e1608a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d4070054e1615" publication-type="other">
+R. Underwood, An iterative block Lanczos method for the solution of large sparse symmetric
+eigenproblems, Ph.D. Thesis, Computer Science Department, Stanford University, Stanford,
+CA, 1975.</mixed-citation>
+            </ref>
+            <ref id="d4070054e1628a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d4070054e1635" publication-type="journal">
+A. J. J. Van der Weiden and 0. H. Bosgra, The determination of structural properties of a
+linear multivariable system by operations of system similarity, Internat. J. Control32 (1980),
+489-537. MR 81j:93036<person-group>
+                     <string-name>
+                     <surname>Van der Weiden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>489</fpage>
+               <volume>32</volume>
+               <source>Internat. J. Control</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4070054e1671a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d4070054e1678" publication-type="journal">
+G.-L. Xu and A. Bultheel, Matrix Pade' approximation: definitions and properties, Linear
+Algebra Appl.137/138 (1990), 67-136. MR 91g:41020<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>67</fpage>
+               <volume>137</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

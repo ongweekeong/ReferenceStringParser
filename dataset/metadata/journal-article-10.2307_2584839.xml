@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">229</issue>
+         <issue-id>i344569</issue-id>
+         <article-id pub-id-type="jstor">2584839</article-id>
+         
+         <title-group>
+            <article-title>Improving the Convergence of Non-Interior Point Algorithms for Nonlinear Complementarity Problems</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Liqun</given-names>
+                  <surname>Qi</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Defeng</given-names>
+                  <surname>Sun</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>283</fpage>
+         <lpage>304</lpage>
+         <page-range>283-304</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584839"/>
+         
+         
+         <abstract>
+            <p>Recently, based upon the Chen-Harker-Kanzow-Smale smoothing function and the trajectory and the neighbourhood techniques, Hotta and Yoshise proposed a noninterior point algorithm for solving the nonlinear complementarity problem. Their algorithm is globally convergent under a relatively mild condition. In this paper, we modify their algorithm and combine it with the superlinear convergence theory for nonlinear equations. We provide a globally linearly convergent result for a slightly updated version of the Hotta-Yoshise algorithm and show that a further modified Hotta-Yoshise algorithm is globally and superlinearly convergent, with a convergence Q-order 1 + t, under suitable conditions, where t ∈ (0, 1) is an additional parameter.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01082-0</kwd>
+            <kwd>90C33</kwd>
+            <kwd>90C30</kwd>
+            <kwd>65H10</kwd>
+            <kwd>Nonlinear Complementarity Problem</kwd>
+            <kwd>Noninterior Point</kwd>
+            <kwd>Approximation</kwd>
+            <kwd>Superlinear Convergence</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1018820e160a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1018820e167" publication-type="journal">
+J. Burke and S. Xu, "The global linear convergence of a non-interior path-following algorithm
+for linear complementarity problem", to appear in Mathematics of Operations Research.<person-group>
+                     <string-name>
+                     <surname>Burke</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematics of Operations Research.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e189a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1018820e196" publication-type="book">
+J. Burke and S. Xu, "A non-interior predictor-corrector path following algorithm for the mono-
+tone linear complementarity problem", Preprint, Department of Mathematics, University of
+Washington, Seattle, WA 98195, September, 1997.<person-group>
+                     <string-name>
+                     <surname>Burke</surname>
+                  </string-name>
+                  </person-group>
+               <source>A non-interior predictor-corrector path following algorithm for the monotone linear complementarity problem</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e225a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1018820e232" publication-type="book">
+J. Burke and S. Xu, "A non-interior predictor-corrector path following method for LCP", in:
+M. Fukushima and L. Qi, eds., Reformulation - Nonsmooth, Piecewise Smooth, Semismooth
+and Smoothing Methods, Kluwer Academic Publisher, Nowell, Maryland, pp. 45-64, 1998.<person-group>
+                     <string-name>
+                     <surname>Burke</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A non-interior predictor-corrector path following method for LCP</comment>
+               <fpage>45</fpage>
+               <source>Reformulation - Nonsmooth, Piecewise Smooth, Semismooth and Smoothing Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e267a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1018820e274" publication-type="book">
+B. Chen and X. Chen, "A global linear and local quadratic continuation smoothing method
+for variational inequalities with box constraints", Preprint, Department of Management and
+Systems, Washington State University, Pullman, March 1997.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <source>A global linear and local quadratic continuation smoothing method for variational inequalities with box constraints</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e304a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1018820e311" publication-type="journal">
+B. Chen and X. Chen, "A global and local superlinear continuation-smoothing method for
+Po + Ro and monotone NCP", to. appear in SIAM Journal on Optimization.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM Journal on Optimization.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e333a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1018820e340" publication-type="journal">
+B. Chen and P.T. Harker, "A non-interior-point continuation method for linear complemen-
+tarity problems", SIAM Journal on Matrix Analysis and Applications, 14 (1993), 1168-1190.
+MR 94g:90139<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1168</fpage>
+               <volume>14</volume>
+               <source>SIAM Journal on Matrix Analysis and Applications</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e375a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1018820e382" publication-type="journal">
+B. Chen and P.T. Harker, "A continuation method for monotone variational inequalities",
+Mathematical Programming, 69 (1995), 237-253. MR 96m:90101<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>69</volume>
+               <source>Mathematical Programming</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e414a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1018820e421" publication-type="journal">
+B. Chen and P.T. Harker, "Smooth approximations to nonlinear complementarity problems",
+SIAM Journal on Optimization, 7 (1997), 403-420. MR 98e:90192<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>403</fpage>
+               <volume>7</volume>
+               <source>SIAM Journal on Optimization</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e453a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1018820e460" publication-type="journal">
+B. Chen and N. Xiu, "A global linear and local quadratic non-interior continuation method
+for nonlinear complementarity problems based on Chen-Mangasarian smoothing function", to
+appear in SIAM Journal on Optimization.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM Journal on Optimization.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e485a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1018820e492" publication-type="journal">
+C. Chen and O.L. Mangasarian, "Smoothing methods for convex inequalities and linear com-
+plementarity problems", Mathematical Programming, 71 (1995), 51-69. MR 96j:90082<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>51</fpage>
+               <volume>71</volume>
+               <source>Mathematical Programming</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e525a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1018820e532" publication-type="journal">
+C. Chen and O.L. Mangasarian, "A class of smoothing functions for nonlinear and mixed
+complementarity problems", Computational Optimization and Applications, 5 (1996), 97-
+138. MR 96m:90102<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>97</fpage>
+               <volume>5</volume>
+               <source>Computational Optimization and Applications</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e567a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1018820e574" publication-type="journal">
+X. Chen, L. Qi, and D. Sun, "Global and superlinear convergence of the smoothing Newton
+method and its application to general box constrained variational inequalities", Mathematics
+of Computation, 67 (1998), 519-540. MR 98g:90034<object-id pub-id-type="jstor">10.2307/2585135</object-id>
+               <fpage>519</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e593a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1018820e600" publication-type="journal">
+X. Chen and Y. Ye, "On homotopy-smoothing methods for variational inequalities", to appear
+in SIAM Journal on Control and Optimization.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM Journal on Control and Optimization.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e622a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1018820e629" publication-type="book">
+F.H. Clarke, Optimization and Nonsmooth Analysis, Wiley, New York, 1983. MR 85m:49002<person-group>
+                     <string-name>
+                     <surname>Clarke</surname>
+                  </string-name>
+                  </person-group>
+               <source>Optimization and Nonsmooth Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e651a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1018820e658" publication-type="journal">
+F. Facchinei, H. Jiang, and L. Qi, "A smoothing method for mathematical programming with
+equilibrium constraints", to appear in Mathematical Programming.<person-group>
+                     <string-name>
+                     <surname>Facchinei</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mathematical Programming.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e680a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1018820e687" publication-type="journal">
+M.C. Ferris and J.-S. Pang, "Engineering and economic applications of complementarity prob-
+lems", SIAM Review, 39 (1997), 669-713. CMP 98:06<object-id pub-id-type="jstor">10.2307/2132696</object-id>
+               <fpage>669</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e704a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1018820e711" publication-type="journal">
+M. Fukushima, Z.-Q. Luo, and J.-S. Pang, "A globally convergent sequential quadratic pro-
+gramming algorithm for mathematical programming problems with linear complementarity
+constraints", Computational Optimization and Applications, 10 (1998), 5-34. CMP 98:09<person-group>
+                     <string-name>
+                     <surname>Fukushima</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>5</fpage>
+               <volume>10</volume>
+               <source>Computational Optimization and Applications</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e746a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1018820e753" publication-type="journal">
+P.T. Harker and J.-S. Pang, "Finite-dimensional variational inequality and nonlinear comple-
+mentarity problem: A survey of theory, algorithms and applications", Mathematical Program-
+ming, 48 (1990) 161-220. MR 91g:90166<person-group>
+                     <string-name>
+                     <surname>Harker</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>161</fpage>
+               <volume>48</volume>
+               <source>Mathematical Programming</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e788a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1018820e795" publication-type="book">
+K. Hotta and A. Yoshise "Global convergence of a class of non-interior-point algorithms using
+Chen-Harker-Kanzow functions for nonlinear complementarity problems", Discussion Paper
+Series No. 708, Institute of Policy and Planning Sciences, University of Tsukuba, Tsukuba,
+Ibaraki 305, Japan, December 1996. CMP 98:13<person-group>
+                     <string-name>
+                     <surname>Hotta</surname>
+                  </string-name>
+                  </person-group>
+               <source>Global convergence of a class of non-interior-point algorithms using Chen-Harker-Kanzow functions for nonlinear complementarity problems</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e827a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1018820e834" publication-type="journal">
+C. Kanzow, "Some noninterior continuation methods for linear complementarity problems",
+SIAM Journal on Matrix Analysis and Applications, 17 (1996), 851-868. MR 97g:90148<person-group>
+                     <string-name>
+                     <surname>Kanzow</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>851</fpage>
+               <volume>17</volume>
+               <source>SIAM Journal on Matrix Analysis and Applications</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e866a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1018820e873" publication-type="journal">
+C. Kanzow and H. Jiang, "A continuation method for (strongly) monotone variational in-
+equalities", Mathematical Programming81 (1998), 103-125. CMP 98:11<person-group>
+                     <string-name>
+                     <surname>Kanzow</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>81</volume>
+               <source>Mathematical Programming</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e905a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1018820e912" publication-type="journal">
+M. Kojima, N. Megiddo, and T. Noma, "Homotopy continuation methods for nonlinear
+complementarity problems", Mathematics of Operations Research, 16 (1991), 754-774. MR
+93b:90097<person-group>
+                     <string-name>
+                     <surname>Kojima</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>754</fpage>
+               <volume>16</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e948a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1018820e955" publication-type="book">
+M. Kojima, N. Megiddo, T. Noma, and A. Yoshise, "A unified approach to interior point
+algorithms for linear complementarity problems", Lecture Notes in Computer Science538,
+Springer-Verlag, Berlin, Germany, 1991. MR 94e:90004<person-group>
+                     <string-name>
+                     <surname>Kojima</surname>
+                  </string-name>
+                  </person-group>
+               <source>A unified approach to interior point algorithms for linear complementarity problems</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e984a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1018820e991" publication-type="book">
+J.M. Ortega and W.C. Rheinboldt, Iterative Solution of Nonlinear Equations in Several Vari-
+ables, Academic Press, Inc., San Diego, 1970. MR 42:8686<person-group>
+                     <string-name>
+                     <surname>Ortega</surname>
+                  </string-name>
+                  </person-group>
+               <source>Iterative Solution of Nonlinear Equations in Several Variables</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1016a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1018820e1023" publication-type="book">
+J.-S. Pang, "Complementarity problems," in: R. Horst and P. Pardalos, eds., Handbook of
+Global Optimization, Kluwer Academic Publishers, Boston, pp. 271-338, 1995. MR 97a:90095<person-group>
+                     <string-name>
+                     <surname>Pang</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Complementarity problems</comment>
+               <fpage>271</fpage>
+               <source>Handbook of Global Optimization</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1055a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1018820e1062" publication-type="journal">
+L. Qi, "Convergence analysis of some algorithms for solving nonsmooth equations", Mathe-
+matics of Operations Research, 18 (1993), 227-244. MR 95f:65109<person-group>
+                     <string-name>
+                     <surname>Qi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>18</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1094a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1018820e1101" publication-type="journal">
+L. Qi and X. Chen, "A globally convergent successive approximation method for severely
+nonsmooth equations", SIAM Journal on Control and Optimization, 33 (1995), 402-418.
+MR 96a:90035<person-group>
+                     <string-name>
+                     <surname>Qi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>402</fpage>
+               <volume>33</volume>
+               <source>SIAM Journal on Control and Optimization</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1136a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1018820e1143" publication-type="journal">
+L. Qi and J. Sun, "A nonsmooth version of Newton's method", Mathematical Programming,
+58 (1993), 353-367. MR 94b:90077<person-group>
+                     <string-name>
+                     <surname>Qi</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>353</fpage>
+               <volume>58</volume>
+               <source>Mathematical Programming</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1176a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1018820e1183" publication-type="book">
+S.M. Robinson, "Generalized equations", in: A. Bachem, M. Grotschel and B. Korte, eds.,
+Mathematical Programming: The State of the Art, Springer-Verlag, Berlin, pp. 346-347, 1983.
+MR 85d:90074<person-group>
+                     <string-name>
+                     <surname>Robinson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Generalized equations</comment>
+               <fpage>346</fpage>
+               <source>Mathematical Programming: The State of the Art</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1218a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1018820e1225" publication-type="conference">
+S. Smale, "Algorithms for solving equations", Proceedings of the International Congress of
+Mathematicians (1986), Berkeley, California, pp. 172-195. MR 89d:65060<person-group>
+                     <string-name>
+                     <surname>Smale</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Algorithms for solving equations</comment>
+               <fpage>172</fpage>
+               <source>Proceedings of the International Congress of Mathematicians</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1257a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1018820e1264" publication-type="journal">
+P. Tseng, "An infeasible path-following method for monotone complementarity problem",
+SIAM Journal on Optimization, 7 (1997), 386-402. MR 98c:90169<person-group>
+                     <string-name>
+                     <surname>Tseng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>386</fpage>
+               <volume>7</volume>
+               <source>SIAM Journal on Optimization</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1296a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1018820e1303" publication-type="book">
+P. Tseng, "Analysis of a non-interior continuation method based on Chen-Mangasarian func-
+tions for complementarity problems", in: M. Fukushima and L. Qi, eds., Reformulation -
+Nonsmooth, Piecewise Smooth, Semismooth and Smoothing Methods, Kluwer Academic Pub-
+lisher, Nowell, Maryland, pp. 381-404, 1998.<person-group>
+                     <string-name>
+                     <surname>Tseng</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Analysis of a non-interior continuation method based on Chen-Mangasarian functions for complementarity problems</comment>
+               <fpage>381</fpage>
+               <source>Reformulation Nonsmooth, Piecewise Smooth, Semismooth and Smoothing Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1341a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1018820e1348" publication-type="book">
+S. Wright, Primal-Dual Interior Point Methods, SIAM, Philadelphia, PA, 1997. MR
+98a:90004<person-group>
+                     <string-name>
+                     <surname>Wright</surname>
+                  </string-name>
+                  </person-group>
+               <source>Primal-Dual Interior Point Methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1373a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1018820e1380" publication-type="journal">
+S. Wright and D. Ralph, "A superlinear infeasible-interior-point algorithm for monotone
+complementarity problems", Mathematics of Operations Research, 21 (1996), 815-838. MR
+97j:90076<person-group>
+                     <string-name>
+                     <surname>Wright</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>815</fpage>
+               <volume>21</volume>
+               <source>Mathematics of Operations Research</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1416a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1018820e1423" publication-type="book">
+S. Xu, "The global linear convergence of an infeasible non-interior path-following algorithm for
+complementarity problems with uniform P-functions", Preprint, Department of Mathematics,
+University of Washington, Seattle, WA 98195, December 1996.<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <source>The global linear convergence of an infeasible non-interior path-following algorithm for complementarity problems with uniform P-functions</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1018820e1452a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1018820e1459" publication-type="book">
+S. Xu, "The global linear convergence and complexity of a non-interior path-following algo-
+rithm for monotone LCP based on Chen-Harker-Kanzow-Smale smooth functions", Preprint,
+Department of Mathematics, University of Washington, Seattle, WA 98195, February 1997.<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <source>The global linear convergence and complexity of a non-interior path-following algorithm for monotone LCP based on Chen-Harker-Kanzow-Smale smooth functions</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

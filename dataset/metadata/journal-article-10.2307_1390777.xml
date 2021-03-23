@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">5</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260272</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390777</article-id>
+         
+         <article-categories>
+            <subj-group>
+               <subject>Special Section: Selected Contributions to the "Workshop on Design and Implementation of Data Analysis Systems"</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>The Visual Design and Control of Trellis Display</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Richard A.</given-names>
+                  <surname>Becker</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>William S.</given-names>
+                  <surname>Cleveland</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ming-Jen</given-names>
+                  <surname>Shyu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>123</fpage>
+         <lpage>155</lpage>
+         <page-range>123-155</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390777"/>
+         
+         
+         <abstract>
+            <p>Trellis display is a framework for the visualization of data. Its most prominent aspect is an overall visual design, reminiscent of a garden trelliswork, in which panels are laid out into rows, columns, and pages. On each panel of the trellis, a subset of the data is graphed by a display method such as a scatterplot, curve plot, boxplot, 3-D wireframe, normal quantile plot, or dot plot. Each panel shows the relationship of certain variables conditional on the values of other variables. A number of display methods employed in the visual design of Trellis display enable it to succeed in uncovering the structure of data even when the structure is quite complicated. For example, Trellis display provides a powerful mechanism for understanding interactions in studies of how a response depends on explanatory variables. Three examples demonstrate this; in each case, we make important discoveries not appreciated in the original analyses. Several control methods are also essential to Trellis display. A control method is a technique for specifying information so that a display can be drawn. The control methods of Trellis display form a basic conceptual framework that can be used in designing software. We have demonstrated the viability of the control methods by implementing them in the S/S-PLUS system for graphics and data analysis, but they can be implemented in any software system with a basic capability for drawing graphs.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Aspect ratio control by banking</kwd>
+            <kwd>Conditioning plots</kwd>
+            <kwd>Multipanel graphs</kwd>
+            <kwd>Shingle data structure</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1363701e388a1310">
+               
+               <mixed-citation id="d1363701e392" publication-type="book">
+Anscombe, F. J (1981), Computing in Statistical Science through APL, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Anscombe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computing in Statistical Science through APL</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e414a1310">
+               
+               <mixed-citation id="d1363701e418" publication-type="book">
+(1983), "Looking at Two-Way Tables," technical report, Yale University, Department of Statistics.<person-group>
+                     <string-name>
+                     <surname>Anscombe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Looking at Two-Way Tables</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e440a1310">
+               
+               <mixed-citation id="d1363701e444" publication-type="book">
+Becker, R.A., Chambers, J.M., and Wilks, A.R. (1988), The New S Language: A Programming Environment
+for Data Analysis and Graphics, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <source>The New S Language: A Programming Environment for Data Analysis and Graphics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e469a1310">
+               
+               <mixed-citation id="d1363701e473" publication-type="book">
+Cleveland, W.S. (1993), Visualizing Data, Summit, NJ: Hobart Press.<person-group>
+                     <string-name>
+                     <surname>Cleveland</surname>
+                  </string-name>
+                  </person-group>
+               <source>Visualizing Data</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e496a1310">
+               
+               <mixed-citation id="d1363701e500" publication-type="journal">
+Cleveland, W.S., and Devlin, S.J. (1988), "Locally-Weighted Regression: An Approach to Regression Analysis
+by Local Fitting," Journal of the American Statistical Association, 83, 596-610.<object-id pub-id-type="doi">10.2307/2289282</object-id>
+               <fpage>596</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e516a1310">
+               
+               <mixed-citation id="d1363701e520" publication-type="book">
+Daniel, C. (1976), Applications of Statistics to Industrial Experimentation, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Daniel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Applications of Statistics to Industrial Experimentation</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e542a1310">
+               
+               <mixed-citation id="d1363701e546" publication-type="book">
+Daniel, C., and Wood, F. (1971), Fitting Equations to Data, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Daniel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fitting Equations to Data</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e568a1310">
+               
+               <mixed-citation id="d1363701e572" publication-type="book">
+Ezekiel, M., and Fox, K.A. (1959), Methods of Correlation and Regression Analysis, New York: John Wiley.<person-group>
+                     <string-name>
+                     <surname>Ezekiel</surname>
+                  </string-name>
+                  </person-group>
+               <source>Methods of Correlation and Regression Analysis</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e594a1310">
+               
+               <mixed-citation id="d1363701e598" publication-type="conference">
+Feiner, S., and Beshers, C. (1990), "Worlds Within Worlds: Metaphors for Exploring n-Dimensional Worlds,"
+in Proceedings of UIST '90 (ACM Symposium on User Interface Software), pp. 76-83.<person-group>
+                     <string-name>
+                     <surname>Feiner</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Worlds Within Worlds: Metaphors for Exploring n-Dimensional Worlds</comment>
+               <fpage>76</fpage>
+               <source>Proceedings of UIST '90 (ACM Symposium on User Interface Software)</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e630a1310">
+               
+               <mixed-citation id="d1363701e634" publication-type="book">
+Fisher, R.A. (1971), The Design of Experiments (9th ed.), New York: Hafner.<person-group>
+                     <string-name>
+                     <surname>Fisher</surname>
+                  </string-name>
+                  </person-group>
+               <edition>9</edition>
+               <source>The Design of Experiments</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e660a1310">
+               
+               <mixed-citation id="d1363701e664" publication-type="journal">
+Immer, F.R., Hayes, H.K., and Powers, Le Roy (1934), "Statistical Determination of Barley Varietal Adaption,"
+Journal of the American Society of Agronomy, 26, 403-419.<person-group>
+                     <string-name>
+                     <surname>Immer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>403</fpage>
+               <volume>26</volume>
+               <source>Journal of the American Society of Agronomy</source>
+               <year>1934</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e696a1310">
+               
+               <mixed-citation id="d1363701e700" publication-type="book">
+LeBlanc, J., Ward, M.O., and Wittels, N. (1990), "Exploring N-Dimensional Databases," in Proceedings of
+Visualization '90, Los Alamitos, CA: IEEE Computer Society Press, pp. 230-237.<person-group>
+                     <string-name>
+                     <surname>LeBlanc</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Exploring N-Dimensional Databases</comment>
+               <fpage>230</fpage>
+               <source>Proceedings of Visualization '90</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e732a1310">
+               
+               <mixed-citation id="d1363701e736" publication-type="book">
+Mihalisin, T., Timlin, J., and Schwegler, J. (1991a), "Visualization and Analysis of Multi-variate Data: A
+Technique for All Fields,", in Proceedings of Visualization '91, eds. G. M. Nielson and L. Rosenblum,
+Los Alamitos, CA: IEEE Computer Society Press, pp. 171-178.<person-group>
+                     <string-name>
+                     <surname>Mihalisin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Visualization and Analysis of Multi-variate Data: A Technique for All Fields</comment>
+               <fpage>171</fpage>
+               <source>Proceedings of Visualization '91</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e771a1310">
+               
+               <mixed-citation id="d1363701e775" publication-type="journal">
+(1991b), "Visualizing Multivariate Functions, Data, and Distributions," Computer Graphics and Its
+Applications, 11, 28-35.<person-group>
+                     <string-name>
+                     <surname>Mihalisin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>28</fpage>
+               <volume>11</volume>
+               <source>Computer Graphics and Its Applications</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e807a1310">
+               
+               <mixed-citation id="d1363701e811" publication-type="book">
+Mihalisin, T., Timlin, J., Schwegler, J., Gawlinski, E., and Mihalisin, J. (in press), "Visual Analysis of Very
+Large Multivariate Databases," in Proceedings of the Statistical Graphics Section, Fairfax, VA: American
+Statistical Association.<person-group>
+                     <string-name>
+                     <surname>Mihalisin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Visual Analysis of Very Large Multivariate Databases</comment>
+               <source>Proceedings of the Statistical Graphics Section</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e840a1310">
+               
+               <mixed-citation id="d1363701e844" publication-type="book">
+Sheesley, J.H. (1985), "Use of Factorial Designs in the Development of Lighting Products," in Experiments
+in Industry, eds. R. D. Snee, L. B. Hare, and J. R. Trout, Milwaukee, WI: American Society for Quality
+Control, pp. 47-57.<person-group>
+                     <string-name>
+                     <surname>Sheesley</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Use of Factorial Designs in the Development of Lighting Products</comment>
+               <fpage>47</fpage>
+               <source>Experiments in Industry</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e880a1310">
+               
+               <mixed-citation id="d1363701e884" publication-type="book">
+Tufte, E.R. (1983), The Visual Display of Quantitative Information, Cheshire, CT: Graphics Press.<person-group>
+                     <string-name>
+                     <surname>Tufte</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Visual Display of Quantitative Information</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e906a1310">
+               
+               <mixed-citation id="d1363701e910" publication-type="book">
+(1990), Envisioning Infonnation, Cheshire, CT: Graphics Press.<person-group>
+                     <string-name>
+                     <surname>Tufte</surname>
+                  </string-name>
+                  </person-group>
+               <source>Envisioning Information</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e932a1310">
+               
+               <mixed-citation id="d1363701e936" publication-type="book">
+Tukey, J.W. (1977), Exploratory Data Analysis, Reading, MA: Addison-Wesley.<person-group>
+                     <string-name>
+                     <surname>Tukey</surname>
+                  </string-name>
+                  </person-group>
+               <source>Exploratory Data Analysis</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e958a1310">
+               
+               <mixed-citation id="d1363701e962" publication-type="book">
+(1984), The Collected Works of John W. Tukey, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>Tukey</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Collected Works of John W. Tukey</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1363701e984a1310">
+               
+               <mixed-citation id="d1363701e988" publication-type="book">
+Tukey, P.A., and Tukey, J.W. (1981), "Graphical Display of Data Sets in 3 or More Dimensions," in
+Interpreting Multivariate Data, ed. V. Barnett, Chichester, UK: John Wiley, pp. 189-275.<person-group>
+                     <string-name>
+                     <surname>Tukey</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Graphical Display of Data Sets in 3 or More Dimensions</comment>
+               <fpage>189</fpage>
+               <source>Interpreting Multivariate Data</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

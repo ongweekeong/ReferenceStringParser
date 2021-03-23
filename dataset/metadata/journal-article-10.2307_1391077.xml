@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260299</issue-id>
+         <article-id pub-id-type="jstor">1391077</article-id>
+         
+         <title-group>
+            <article-title>Efficiency of Monte Carlo EM and Simulated Maximum Likelihood in Two-Stage Hierarchical Models</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Wolfgang</given-names>
+                  <surname>Jank</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James</given-names>
+                  <surname>Booth</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>214</fpage>
+         <lpage>229</lpage>
+         <page-range>214-229</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391077"/>
+         
+         
+         <abstract>
+            <p>Likelihood estimation in hierarchical models is often complicated by the fact that the likelihood function involves an analytically intractable integral. Numerical approximation to this integral is an option but it is generally not recommended when the integral dimension is high. An alternative approach is based on the ideas of Monte Carlo integration, which approximates the intractable integral by an empirical average based on simulations. This article investigates the efficiency of two Monte Carlo estimation methods, the Monte Carlo EM (MCEM) algorithm and simulated maximum likelihood (SML). We derive the asymptotic Monte Carlo errors of both methods and show that, even under the optimal SML importance sampling distribution, the efficiency of SML decreases rapidly (relative to that of MCEM) as the missing information about the unknown parameter increases. We illustrate our results in a simple mixed model example and perform a simulation study which shows that, compared to MCEM, SML can be extremely inefficient in practical applications.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Importance sampling</kwd>
+            <kwd>Generalized linear mixed model</kwd>
+            <kwd>Linear mixed model</kwd>
+            <kwd>Missing information</kwd>
+            <kwd>Monte Carlo error</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1075053e150a1310">
+               
+               <mixed-citation id="d1075053e154" publication-type="journal">
+Booth, J.G., and Hobert, J.P. (1999), "Maximizing Generalized Linear Mixed Model Likelihoods With an
+Automated Monte Carlo EM Algorithm," Journal of the Royal Statistical Society, Ser. B, 61, 265-285.<person-group>
+                     <string-name>
+                     <surname>Booth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>265</fpage>
+               <volume>61</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e186a1310">
+               
+               <mixed-citation id="d1075053e190" publication-type="journal">
+Booth, J.G., Hobert, J.P., and Jank, W.S. (2001), "A Survey of Monte Carlo Algorithms for Maximizing the
+Likelihood of a Two-Stage Hierarchical Model," Statistical Modeling, 4, 333-349.<person-group>
+                     <string-name>
+                     <surname>Booth</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>333</fpage>
+               <volume>4</volume>
+               <source>Statistical Modeling</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e222a1310">
+               
+               <mixed-citation id="d1075053e226" publication-type="journal">
+Breslow, N.E., and Clayton, D.G. (1993), "Approximate Inference in Generalized Linear Mixed Models," Journal
+of the American Statistical Association, 88, 9-25.<object-id pub-id-type="doi">10.2307/2290687</object-id>
+               <fpage>9</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e242a1310">
+               
+               <mixed-citation id="d1075053e246" publication-type="journal">
+Caffo, B.S., Booth, J.G., and Davison, A.C. (in press), "Empirical Sup Rejection Sampling," Biometrika.<person-group>
+                     <string-name>
+                     <surname>Caffo</surname>
+                  </string-name>
+                  </person-group>
+               <source>Biometrika.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e266a1310">
+               
+               <mixed-citation id="d1075053e270" publication-type="journal">
+Chan, K.S., and Ledolter, J. (1995), "Monte Carlo EM Estimation for Time Series Models Involving Counts,"
+Journal of the American Statistical Association, 90, 242-252.<object-id pub-id-type="doi">10.2307/2291149</object-id>
+               <fpage>242</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e286a1310">
+               
+               <mixed-citation id="d1075053e290" publication-type="journal">
+Danielsson, J. (1994), "Stochastic Volatility in Asset Prices. Estimation With Simulated Maximum Likelihood,"
+Journal of Econometrics, 64, 375-400.<person-group>
+                     <string-name>
+                     <surname>Danielsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>375</fpage>
+               <volume>64</volume>
+               <source>Journal of Econometrics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e322a1310">
+               
+               <mixed-citation id="d1075053e326" publication-type="journal">
+Dempster, A.P., Laird, N.M., and Rubin, D.B. (1977), "Maximum Likelihood from Incomplete Data via the EM
+Algorithm," Journal of the Royal Statistical Society, Ser. B, 39, 1-22.<person-group>
+                     <string-name>
+                     <surname>Dempster</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>39</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e358a1310">
+               
+               <mixed-citation id="d1075053e362" publication-type="journal">
+Evans, M., and Swartz, T. (1995), "Methods for Approximating Integrals in Statistics With Special Emphasis on
+Bayesian Integration Problems," Statistical Science, 10, 254-272.<object-id pub-id-type="jstor">10.2307/2246014</object-id>
+               <fpage>254</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e378a1310">
+               
+               <mixed-citation id="d1075053e382" publication-type="journal">
+Gelfand, A.E., and Carlin, B.P. (1993), "Maximum-Likelihood Estimation for Constrained- or Missing-Data
+Models," Canadian Journal of Statistics, 21, 303-311.<person-group>
+                     <string-name>
+                     <surname>Gelfand</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>303</fpage>
+               <volume>21</volume>
+               <source>Canadian Journal of Statistics</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e414a1310">
+               
+               <mixed-citation id="d1075053e418" publication-type="journal">
+Geweke, J. (1989), "Bayesian Inference in Econometric Models Using Monte Carlo Integration," Econometrica,
+57, 1317-1339.<object-id pub-id-type="doi">10.2307/1913710</object-id>
+               <fpage>1317</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e435a1310">
+               
+               <mixed-citation id="d1075053e439" publication-type="journal">
+Geyer, C.J., and Thompson, E.A. (1992), "Constrained Monte Carlo Maximum Likelihood for Dependent Data,"
+Journal of the Royal Statistical Society, Ser. B, 54, 657-683.<person-group>
+                     <string-name>
+                     <surname>Geyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>657</fpage>
+               <volume>54</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e471a1310">
+               
+               <mixed-citation id="d1075053e475" publication-type="journal">
+Hobert, J.P. (2000), "Hierarchical Models: A Current Computational Perspective," Journal of the American
+Statistical Association, 95, 1312-1316.<object-id pub-id-type="doi">10.2307/2669778</object-id>
+               <fpage>1312</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e491a1310">
+               
+               <mixed-citation id="d1075053e495" publication-type="journal">
+Inkmann, J. (2000), "Misspecified Heteroskedasticity in the Panel Probit Model: A Small Sample Comparison of
+GMM and SML Estimators," Journal of Econometrics, 97, 227-259.<person-group>
+                     <string-name>
+                     <surname>Inkmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>97</volume>
+               <source>Journal of Econometrics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e527a1310">
+               
+               <mixed-citation id="d1075053e531" publication-type="journal">
+Karim, M.R., and Zeger, S.L. (1992), "Generalized Linear Models With Random Effects; Salamander Mating
+Revisited," Biometrics, 48, 631-644.<object-id pub-id-type="doi">10.2307/2532317</object-id>
+               <fpage>631</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e547a1310">
+               
+               <mixed-citation id="d1075053e551" publication-type="journal">
+Lee, L.-F. (1992), "On Efficiency of Methods of Simulated Moments and Maximum Simulated Likelihood Esti-
+mation of Discrete Response Models," Econometric Theory, 8, 518-552.<person-group>
+                     <string-name>
+                     <surname>Lee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>518</fpage>
+               <volume>8</volume>
+               <source>Econometric Theory</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e583a1310">
+               
+               <mixed-citation id="d1075053e587" publication-type="journal">
+(1995), "Asymptotic Bias in Simulated Maximum Likelihood Estimation of Discrete Choice Models,"
+Econometric Theory, 11, 437-483.<person-group>
+                     <string-name>
+                     <surname>Lee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>437</fpage>
+               <volume>11</volume>
+               <source>Econometric Theory</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e620a1310">
+               
+               <mixed-citation id="d1075053e624" publication-type="journal">
+(1998), "Simulated Maximum Likelihood Estimation of Dynamic Discrete Choice Statistical Models:
+Some Monte Carlo Results," Journal of Econometrics, 82, 1-35.<person-group>
+                     <string-name>
+                     <surname>Lee</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>82</volume>
+               <source>Journal of Econometrics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e656a1310">
+               
+               <mixed-citation id="d1075053e660" publication-type="journal">
+Liu, C., Rubin, D.B., and Wu, Y.N. (1998), "Parameter Expansion to Accelerate EM: The PX-EM Algorithm,"
+Biometrika, 85, 755-770.<object-id pub-id-type="jstor">10.2307/2337481</object-id>
+               <fpage>755</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e676a1310">
+               
+               <mixed-citation id="d1075053e680" publication-type="journal">
+Louis, T.A. (1982), "Finding the Observed Information Matrix When Using the EM Algorithm," Journal of the
+Royal Statistical Society, Ser. B, 44, 226-233.<person-group>
+                     <string-name>
+                     <surname>Louis</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>44</volume>
+               <source>Journal of the Royal Statistical Society, Ser. B</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e712a1310">
+               
+               <mixed-citation id="d1075053e716" publication-type="book">
+McCullagh, P., and Nelder, J.A. (1989), Generalized Linear Models, New York: Chapman and Hall.<person-group>
+                     <string-name>
+                     <surname>McCullagh</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized Linear Models</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e738a1310">
+               
+               <mixed-citation id="d1075053e742" publication-type="journal">
+McCulloch, C.E. (1994), "Maximum Likelihood Variance Components Estimation for Binary Data," Journal of
+the American Statistical Association, 89, 330-335.<object-id pub-id-type="doi">10.2307/2291229</object-id>
+               <fpage>330</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e758a1310">
+               
+               <mixed-citation id="d1075053e762" publication-type="journal">
+(1997), "Maximum Likelihood Algorithms for Generalized Linear Mixed Models," Journal of the Amer-
+ican Statistical Association, 92, 162-170.<object-id pub-id-type="doi">10.2307/2291460</object-id>
+               <fpage>162</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e779a1310">
+               
+               <mixed-citation id="d1075053e783" publication-type="journal">
+Meng, X.-L. (1994), "On the Rate of Convergence of the ECM Algorithm," The Annals of Statistics, 22,,326-339.<object-id pub-id-type="jstor">10.2307/2242456</object-id>
+               <fpage>326</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e796a1310">
+               
+               <mixed-citation id="d1075053e800" publication-type="journal">
+Meng, X.-L., and Rubin, D.B. (1991), "Using EM to Obtain Asymptotic Variance-Covariance Matrices: The SEM
+Algorithm," Journal of the American Statistical Association, 86, 899-909.<object-id pub-id-type="doi">10.2307/2290503</object-id>
+               <fpage>899</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e816a1310">
+               
+               <mixed-citation id="d1075053e820" publication-type="journal">
+(1994), "On the Global and Componentwise Rates of Convergence of the EM Algorithm," Linear Algebra
+and its Applications, 199, 413-425.<person-group>
+                     <string-name>
+                     <surname>Meng</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>413</fpage>
+               <volume>199</volume>
+               <source>Linear Algebra and its Applications</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e852a1310">
+               
+               <mixed-citation id="d1075053e856" publication-type="journal">
+Nielsen, S. (2000a), "The Stochastic EM Algorithm: Estimation and Asymptotic Results," Bernoulli, 6,,457-489.<object-id pub-id-type="doi">10.2307/3318671</object-id>
+               <fpage>457</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e869a1310">
+               
+               <mixed-citation id="d1075053e873" publication-type="journal">
+(2000b), "On Simulated EM Algorithms," Journal of Econometrics, 96, 267-292.<person-group>
+                     <string-name>
+                     <surname>Nielsen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>267</fpage>
+               <volume>96</volume>
+               <source>Journal of Econometrics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e902a1310">
+               
+               <mixed-citation id="d1075053e906" publication-type="conference">
+Orchard, T., and Woodbury, M.A. (1972), "A Missing Information Principle: Theory and Applications," in Pro-
+ceedings of the Sixth Berkeley Symposium on Mathematical Statistics and Probability, Vol. 1: Theory of
+Statistics, Univ. California Press, pp. 697-715.<person-group>
+                     <string-name>
+                     <surname>Orchard</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Missing Information Principle: Theory and Applications</comment>
+               <fpage>697</fpage>
+               <volume>1</volume>
+               <source>Proceedings of the Sixth Berkeley Symposium on Mathematical Statistics and Probability</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e945a1310">
+               
+               <mixed-citation id="d1075053e949" publication-type="journal">
+Owen, A.B., and Zhou, Y (2000), "Safe and Effective Importance Sampling," Journal of the American Statistical
+Association, 95, 135-143.<object-id pub-id-type="doi">10.2307/2669533</object-id>
+               <fpage>135</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e965a1310">
+               
+               <mixed-citation id="d1075053e969" publication-type="book">
+Robert, C.P., and Casella, G. (1999), Monte Carlo Statistical Methods, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Robert</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo Statistical Methods</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e991a1310">
+               
+               <mixed-citation id="d1075053e995" publication-type="book">
+Searle, S.R., Casella, G., and McCulloch, C.E. (1992), Variance Components, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Searle</surname>
+                  </string-name>
+                  </person-group>
+               <source>Variance Components</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e1017a1310">
+               
+               <mixed-citation id="d1075053e1021" publication-type="journal">
+Wei, G.C.G., and Tanner, M.A. (1990), "A Monte Carlo Implementation of the EM Algorithm and the Poor
+Man's Data Augmentation Algorithms," Journal of the American Statistical Association, 85, 699-704.<object-id pub-id-type="doi">10.2307/2290005</object-id>
+               <fpage>699</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e1037a1310">
+               
+               <mixed-citation id="d1075053e1041" publication-type="journal">
+Wu, C.F.J. (1983), "On the Convergence Properties of the EM Algorithm," The Annals of Statistics, 11, 95-103.<object-id pub-id-type="jstor">10.2307/2240463</object-id>
+               <fpage>95</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1075053e1054a1310">
+               
+               <mixed-citation id="d1075053e1058" publication-type="journal">
+Zhang, P. (1996), "Nonparametric Importance Sampling," Journal of the American Statistical Association, 91,
+1245-1253.<object-id pub-id-type="doi">10.2307/2291743</object-id>
+               <fpage>1245</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

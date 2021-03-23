@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260304</issue-id>
+         <article-id pub-id-type="jstor">1391185</article-id>
+         
+         <title-group>
+            <article-title>Variable Length Markov Chains: Methodology, Computing, and Software</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Martin</given-names>
+                     <surname>Mächler</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Peter</given-names>
+                     <surname>Bühlmann</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>435</fpage>
+         <lpage>455</lpage>
+         <page-range>435-455</page-range>
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391185"/>
+         
+         
+         <abstract>
+            <p>This article presents a tutorial and new, publicly available computational tools for variable length Markov chains (VLMC). VLMCs are Markov chains with the additional attractive structure that their memories depend on a variable number of lagged values, depending on what the actual past (the lagged values) looks like. They build a very flexible class of tree-structured models for categorical time series. Fitting VLMCs from data is a nontrivial computational task. We provide an efficient implementation of the so-called context algorithm which requires only O(n log(n)) operations. The implementation, which is publicly available, includes additional important new features and options: diagnostics, goodness of fit, simulation and bootstrap, residuals, and tuning the context algorithm. Our tutorial is presented with a version in R which is available from the Comprehensive R Archive Network (CRAN). The exposition is self-contained, gives rigorous and partly new mathematical descriptions, and is illustrated by analyzing a DNA sequence from the Epstein-Barr virus.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>AIC</kwd>
+            <kwd>Bootstrap</kwd>
+            <kwd>Categorical time series</kwd>
+            <kwd>Classification</kwd>
+            <kwd>Comprehensive R archive network</kwd>
+            <kwd>Context algorithm</kwd>
+            <kwd>Diagnostics</kwd>
+            <kwd>DNA sequence</kwd>
+            <kwd>Simulation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d432159e239a1310">
+               
+               <mixed-citation id="d432159e243" publication-type="journal">
+Büihlmann, P. (1999), "Efficient and Adaptive Post-Model-Selection Estimators," Journal of Statistical Planning
+and Inference, 79, 1-9.<person-group>
+                     <string-name>
+                     <surname>Büihlmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>79</volume>
+               <source>Journal of Statistical Planning and Inference</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e275a1310">
+               
+               <mixed-citation id="d432159e279" publication-type="journal">
+(2000), "Model Selection for Variable Length Markov Chains and Tuning the Context Algorithm," Annals
+of the Institute of Statistical Mathematics, 52, 287-315.<person-group>
+                     <string-name>
+                     <surname>Büihlmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>287</fpage>
+               <volume>52</volume>
+               <source>Annals of the Institute of Statistical Mathematics</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e311a1310">
+               
+               <mixed-citation id="d432159e315" publication-type="journal">
+(2002), "Sieve Bootstrap With Variable Length Markov Chains for Stationary Categorical Time Series"
+(with discussion) Journal of the American Statistical Association, 97, 443-471.<person-group>
+                     <string-name>
+                     <surname>Büihlmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>443</fpage>
+               <volume>97</volume>
+               <source>Journal of the American Statistical Association</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e347a1310">
+               
+               <mixed-citation id="d432159e351" publication-type="journal">
+Büihlmann, P., and Wyner, A.J. (1999), "Variable Length Markov Chains," The Annals of Statistics, 27, 480-513.<person-group>
+                     <string-name>
+                     <surname>Büihlmann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>480</fpage>
+               <volume>27</volume>
+               <source>The Annals of Statistics</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e381a1310">
+               
+               <mixed-citation id="d432159e385" publication-type="other">
+CRAN (1997 ff.), The Comprehensive R Archive Network, http://cran.R-project.org/.</mixed-citation>
+            </ref>
+            <ref id="d432159e392a1310">
+               
+               <mixed-citation id="d432159e396" publication-type="journal">
+Ferrari, F., and Wyner, A.J. (2003), "Estimation of General Stationary Processes by Variable Length Markov
+Chains," Scandinavian Journal of Statistics, 30, 459-480.<person-group>
+                     <string-name>
+                     <surname>Ferrari</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>459</fpage>
+               <volume>30</volume>
+               <source>Scandinavian Journal of Statistics</source>
+               <year>2003</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e428a1310">
+               
+               <mixed-citation id="d432159e432" publication-type="journal">
+Friedman, J.H., Hastie, T., and Tibshirani, R. (2000), "Boosting Additive Logistic Regression: A Statistical View
+of Boosting," The Annals of Statistics, 28, 400-407; Rejoinder.<object-id pub-id-type="jstor">10.2307/2674034</object-id>
+               <fpage>400</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e448a1310">
+               
+               <mixed-citation id="d432159e452" publication-type="journal">
+Fukuchi, J.-I. (1999), "Subsampling and Model Selection in Time Series Analysis," Biometrika, 86, 591-604.<object-id pub-id-type="jstor">10.2307/2673656</object-id>
+               <fpage>591</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e465a1310">
+               
+               <mixed-citation id="d432159e469" publication-type="journal">
+Künsch, H.R. (1989), "The Jackknife and the Bootstrap for General Stationary Observations," The Annals of
+Statistics, 17, 1217-1241.<person-group>
+                     <string-name>
+                     <surname>Künsch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1217</fpage>
+               <volume>17</volume>
+               <source>The Annals of Statistics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e501a1310">
+               
+               <mixed-citation id="d432159e505" publication-type="journal">
+Rissanen, J. (1983), "A Universal Data Compression System," IEEE Transactions on Information Theory, IT-
+29, 656-664.<person-group>
+                     <string-name>
+                     <surname>Rissanen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>656</fpage>
+               <volume>29</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e538a1310">
+               
+               <mixed-citation id="d432159e542" publication-type="journal">
+Ron, D., Singer, Y., and Tishby, N. (1996), "The Power of Amnesia: Learning Probabilistic Automata with Variable
+Memory Length," Machine Learning, 25, 117-150.<person-group>
+                     <string-name>
+                     <surname>Ron</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>117</fpage>
+               <volume>25</volume>
+               <source>Machine Learning</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e574a1310">
+               
+               <mixed-citation id="d432159e578" publication-type="journal">
+Shibata, R. (1997), "Bootstrap Estimate of Kullback-Leibler Information for Model Selection," Statistica Sinica,
+7, 375-394.<person-group>
+                     <string-name>
+                     <surname>Shibata</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>375</fpage>
+               <volume>7</volume>
+               <source>Statistica Sinica</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e610a1310">
+               
+               <mixed-citation id="d432159e614" publication-type="book">
+Shumway, R.H., and Stoffer, D.S. (2000), Time Series Analysis and Its Applications, New York: Springer Texts
+in Statistics.<person-group>
+                     <string-name>
+                     <surname>Shumway</surname>
+                  </string-name>
+                  </person-group>
+               <source>Time Series Analysis and Its Applications</source>
+               <year>2000</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432159e639a1310">
+               
+               <mixed-citation id="d432159e643" publication-type="journal">
+Willems, F., Shtarkov, Y., and Tjalkens, T. (1996), "Context Weighting for General Finite-Context Sources," IEEE
+Transactions on Information Theory, IT-42, 1514-1520.<person-group>
+                     <string-name>
+                     <surname>Willems</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1514</fpage>
+               <volume>42</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

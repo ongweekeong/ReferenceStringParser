@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">276</issue>
+         <issue-id>i23074956</issue-id>
+         <article-id pub-id-type="jstor">23075263</article-id>
+         <title-group>
+            <article-title>hp-DISCONTINUOUS GALERKIN METHODS FOR THE HELMHOLTZ EQUATION WITH LARGE WAVE NUMBER</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>XIAOBING</given-names>
+                  <surname>FENG</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>HAIJUN</given-names>
+                  <surname>WU</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>1997</fpage>
+         <lpage>2024</lpage>
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075263"/>
+      
+      
+         <abstract>
+            <p>In this paper we develop and analyze some interior penalty hp-discontinuous Galerkin (hp-DG) methods for the Helmholtz equation with first order absorbing boundary condition in two and three dimensions. The proposed hp-DG methods are defined using a sesquilinear form which is not only mesh-dependent (or h-dependent) but also degree-dependent (or p-dependent). In addition, the sesquilinear form contains penalty terms which not only penalize the jumps of the function values across the element edges but also the jumps of the first order tangential derivatives as well as jumps of all normal derivatives up to order p. Furthermore, to ensure the stability, the penalty parameters are taken as complex numbers with positive imaginary parts, so essentially and practically no constraint is imposed on the penalty parameters. It is proved that the proposed hp-discontinuous Galerkin methods are stable (hence, well-posed) without any mesh constraint. For each fixed wave number k, sub-optimal order (with respect to h and p) error estimates in the broken H
+              1
+              -norm and the L
+              2
+              -norm are derived without any mesh constraint. The error estimates as well as the stability estimates are improved to optimal order under the mesh condition k
+              3
+              h
+              2
+              p
+              -2
+              ≤ C
+              0
+              by utilizing these stability and error estimates and using a stability-error iterative procedure, where C
+              0
+              is some constant independent of k, h, p, and the penalty parameters. To overcome the difficulty caused by strong indefiniteness (and non-Hermitian nature) of the Helmholtz problems in the stability analysis for numerical solutions, our main ideas for stability analysis are to make use of a local version of the Rellich identity (for the Laplacian) and to mimic the stability analysis for the PDE solutions given in [19, 20, 33], which enable us to derive stability estimates and error bounds with explicit dependence on the mesh size h, the polynomial degree p, the wave number k, as well as all the penalty parameters for the numerical solutions.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d81204e128a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d81204e135" publication-type="other">
+M. Ainsworth, P. Monk, and W. Muniz. Dispersive and dissipative properties of discontinuous
+Galerkin finite element methods for the second-order wave equation. J. Sci. Comput., 27:5-40,
+2006. MR2285764 (2009b:65244)</mixed-citation>
+        </ref>
+        <ref id="d81204e148a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d81204e155" publication-type="other">
+G. B. Alvarez, A. F. D. Loula, E. G. Dutra do Carmo, F. A. Rochinha. A discontinuous
+finite element formulation for Helmholtz equation. Comput. Methods Appl. Mech. Engrg.,
+195:4018-4035, 2006. MR2229833 (2006m:65252)</mixed-citation>
+        </ref>
+        <ref id="d81204e168a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d81204e175" publication-type="other">
+D. Arnold. An interior penalty finite element method with discontinuous elements. SIAM J.
+Numer. Anal., 19:742-760, 1982. MR664882 (83f:65173)</mixed-citation>
+        </ref>
+        <ref id="d81204e185a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d81204e192" publication-type="other">
+D. Arnold, F. Brezzi, B. Cockburn, and D. Marini. Unified analysis of discontinuous Galerkin
+methods for elliptic problems. SIAM J. Numer. Anal., 39:1749-1779, 2001. MR1885715
+(2002k:65183)</mixed-citation>
+        </ref>
+        <ref id="d81204e206a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d81204e213" publication-type="other">
+A. K. Aziz and R. B. Kellogg. A scattering problem for the Helmholtz equation. In Advances
+in computer methods for partial differential equations, III (Proc. Third IMACS Intemat.
+Sympos., Lehigh Univ., Bethlehem, Pa., 1979), pages 93-95. IMACS, New Brunswick, N.J.,
+1979. MR603460 (82h:65078)</mixed-citation>
+        </ref>
+        <ref id="d81204e229a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d81204e236" publication-type="other">
+A. K. Aziz and A. Werschulz. On the numerical solutions of Helmholtz's equation by the
+finite element method. SIAM J. Numer. Anal., 17(5):681-686, 1980. MR588754 (82k:65059)</mixed-citation>
+        </ref>
+        <ref id="d81204e246a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d81204e253" publication-type="other">
+I. Babuska and B. Guo. Approximation properties of the h-p version of the finite element
+method. Comput. Methods Appl. Mech. Engrg., 133:319-346, 1996. MR1399640 (98k:73063)</mixed-citation>
+        </ref>
+        <ref id="d81204e263a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d81204e270" publication-type="other">
+I. Babuska and M. Suri. The h-p version of the finite element method with quasiuniform
+meshes. Math. Modeling Numer. Anal., 21:199-238, 1987. MR896241 (88d:65154)</mixed-citation>
+        </ref>
+        <ref id="d81204e280a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d81204e287" publication-type="other">
+G. A. Baker, Finite element methods for elliptic equations using nonconforming elements.
+Math. Comp., 31:44-59, 1977. MR0431742 (55:4737)</mixed-citation>
+        </ref>
+        <ref id="d81204e297a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d81204e304" publication-type="other">
+G. Bao. Finite element approximation of time harmonic waves in periodic structures. SIAM
+J. Numer. Anal., 32(4):1155-1169, 1995. MR1342287 (96i:78016)</mixed-citation>
+        </ref>
+        <ref id="d81204e315a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d81204e322" publication-type="other">
+S. Brenner and R. Scott, The Mathematical Theory of Finite Element Methods, Springer-
+Verlag, New York, 1994. MR1278258 (95f:65001)</mixed-citation>
+        </ref>
+        <ref id="d81204e332a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d81204e339" publication-type="other">
+E. Burman and A. Ern. Continuous interior penalty fop-finite element methods for advection
+and advection-diffusion equations. Math. Comp., 76(259):1119-1140, 2007. MR2299768
+(2008g:76074)</mixed-citation>
+        </ref>
+        <ref id="d81204e352a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d81204e359" publication-type="other">
+C. L. Chang. A least-squares finite element method for the Helmholtz equation. Comput.
+Methods Appl. Mech. Engrg., 83(l):l-7, 1990. MR1078694 (91j:65166)</mixed-citation>
+        </ref>
+        <ref id="d81204e369a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d81204e376" publication-type="other">
+E. T. Chung, and B. Engquist. Optimal discontinuous Galerkin methods for wave propaga-
+tion. SIAM J. Numer. Anal, 44(5):2131-2158, 2006. MR2263043 (2008e:65297)</mixed-citation>
+        </ref>
+        <ref id="d81204e386a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d81204e393" publication-type="other">
+P. G. Ciarlet, The Finite Element Method for Elliptic Problems. North-Holland, Amsterdam,
+1978. MR0520174 (58:25001)</mixed-citation>
+        </ref>
+        <ref id="d81204e403a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d81204e410" publication-type="other">
+B. Cockburn, G. E. Karniadakis, C.-W. Shu, Discontinuous Galerkin Methods, Theory, Com-
+putation, and Applications, Springer lecture Notes in Computational Science and Engineer-
+ing, vol. 11, Springer-Verlag, 2000. MR1842160 (2002b:65004)</mixed-citation>
+        </ref>
+        <ref id="d81204e424a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d81204e431" publication-type="other">
+B. Cockburn and C. -W. Shu, The local discontinuous Galerkin method for convection-
+diffusion systems, SIAM J. Numer. Anal, (35), 1998, pp. 2440-2463. MR1655854 (99j:65163)</mixed-citation>
+        </ref>
+        <ref id="d81204e441a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d81204e448" publication-type="other">
+D. Colton and P. Monk. The numerical solution of the three-dimensional inverse scattering
+problem for time harmonic acoustic waves. SIAM J. Sci. Statist. Comput., 8(3):278-291,
+1987. MR883771 (88i:65151)</mixed-citation>
+        </ref>
+        <ref id="d81204e461a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d81204e468" publication-type="other">
+P. Cummings. Analysis of Finite Element Based Numerical Methods for Acoustic Waves,
+Elastic Waves and Fluid-Solid Interactions in the Frequency Domain. PhD thesis, The Uni-
+versity Tennessee, 2001.</mixed-citation>
+        </ref>
+        <ref id="d81204e481a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d81204e488" publication-type="other">
+P. Cummings and X. Feng. Sharp regularity coefficient estimates for complex-valued acoustic
+
+              and elastic Helmholtz equations. M
+              
+              AS, 16:139-160, 2006. MR2194984 (2007d:35030)
+            </mixed-citation>
+        </ref>
+        <ref id="d81204e501a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d81204e508" publication-type="other">
+J. Douglas, Jr. and T. Dupont. Interior penalty procedures for elliptic and parabolic Galerkin
+methods. Lecture Notes In Physics 58, Springer-Verlag, Berlin, 1976. MR0440955 (55:13823)</mixed-citation>
+        </ref>
+        <ref id="d81204e518a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d81204e525" publication-type="other">
+J. Douglas, Jr., D. Sheen, and J. E. Santos. Approximation of scalar waves in the space-
+frequency domain. Math. Models Methods Appl. Sci., 4(4):509—531, 1994. MR1291136
+(95e:65089)</mixed-citation>
+        </ref>
+        <ref id="d81204e539a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d81204e546" publication-type="other">
+B. Engquist and A. Majda. Radiation boundary conditions for acoustic and elastic wave
+calculations. Comm. Pure Appl. Math., 32(3):314-358, 1979. MR517938 (80e:76041)</mixed-citation>
+        </ref>
+        <ref id="d81204e556a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d81204e563" publication-type="other">
+B. Engquist, and O. Runborg. Computational high frequency wave propagation. Acta Numer.,
+12:181-266, 2003. MR2249156 (2007f:65043)</mixed-citation>
+        </ref>
+        <ref id="d81204e573a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d81204e580" publication-type="other">
+E. J. Kubatko, J. J. Westerink, and C. Dawson, /ip-discontinuous Galerkin methods for
+advection dominated problems in shallow water flow. Comput. Methods Appl. Mech. Engrg.,
+196:437-451, 2006.</mixed-citation>
+        </ref>
+        <ref id="d81204e593a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d81204e600" publication-type="other">
+X. Feng and O. A. Karakashian. Fully discrete dynamic mesh discontinuous Galerkin meth-
+ods for the Cahn-Hilliard equation of phase transition. Math. Comp., 76:1093-1117, 2007.
+MR2299767 (2008a:74048)</mixed-citation>
+        </ref>
+        <ref id="d81204e613a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d81204e620" publication-type="other">
+X. Feng and H. Wu. Discontinuous Galerkin methods for the Helmholtz equation with
+large wave numbers. SIAM J. Numer. Anal., 47:2872-2896, 2009, also downloadable at
+http://arXiv.org/abs/0810.1475. MR2551150</mixed-citation>
+        </ref>
+        <ref id="d81204e633a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d81204e640" publication-type="other">
+E. H. Georgoulis and A. Siili. Optimal error estimates for the /tp-version interior penalty
+discontinuous Galerkin finite element method. IMA J. Numer. Anal., 25:205-220, 2005.
+MR2110241 (2005i:65187)</mixed-citation>
+        </ref>
+        <ref id="d81204e654a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d81204e661" publication-type="other">
+C. I. Goldstein. The finite element method with nonuniform mesh sizes applied to the exterior
+Helmholtz problem. Numer. Math., 38(l):61-82, 1981. MR634753 (82k:65062)</mixed-citation>
+        </ref>
+        <ref id="d81204e671a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d81204e678" publication-type="other">
+B. Guo. Approximation theory for the p-version of the finite element method in three di-
+mensions. part 1: approximabilities of singular functions in the framework of the Jacobi-
+weighted Besov and sobolev spaces. SIAM J. Numer. Anal., 44:246—269, 2006. MR2217381
+(2007b:65121)</mixed-citation>
+        </ref>
+        <ref id="d81204e694a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d81204e701" publication-type="other">
+B. Guo. and W. Sun. The optimal convergence of the h-p version of the finite element
+method with quasi-uniform meshes. SIAM J. Numer. Anal., 45:698—730, 2007. MR2300293
+(2008c:65325)</mixed-citation>
+        </ref>
+        <ref id="d81204e714a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d81204e721" publication-type="other">
+I. Harari and T. J. R. Hughes. Analysis of continuous formulations underlying the computa-
+tion of time-harmonic acoustics in exterior domains. Comput. Methods Appl. Mech. Engrg.,
+97(1):103—124, 1992. MR1182436 (93h:76068)</mixed-citation>
+        </ref>
+        <ref id="d81204e734a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d81204e741" publication-type="other">
+U. Hetmaniuk. Stability estimates for a class of Helmholtz problems. Commun. Math. Sci.,
+5(3):665~678, 2007. MR2352336 (2008m:35050)</mixed-citation>
+        </ref>
+        <ref id="d81204e751a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d81204e758" publication-type="other">
+P. Houston, C. Schwab, and E. Siili. Discontinuous hp-finite element methods for advection-
+diffusion-reaction problems. SIAM J. Numer. Anal., 39:2133—2163, 2002. MR1897953
+(2003d:65108)</mixed-citation>
+        </ref>
+        <ref id="d81204e772a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d81204e779" publication-type="other">
+P. Houston, M. Jensen, and E. Siili. hp-discontinuous Galerkin finite element methods with
+least-squares stabilization. J. Scient. Comput., 17:3—25, 2002. MR1910549</mixed-citation>
+        </ref>
+        <ref id="d81204e789a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d81204e796" publication-type="other">
+F. Ihlenburg and I. Babuska. Finite element solution of the Helmholtz equation with high
+wave number. II. The h-p version of the FEM. SIAM J. Numer. Anal., 34(1):315—358, 1997.
+MR1445739 (98f:65109)</mixed-citation>
+        </ref>
+        <ref id="d81204e809a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d81204e816" publication-type="other">
+J.M. Melenk and S. Sauter. Convergence analysis for finite element discretizations of the
+Helmholtz equation with Dirichlet-to-Neumann boundary condition. Math. Comp., 79:1871-
+1914, 2010. MR2684350</mixed-citation>
+        </ref>
+        <ref id="d81204e829a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d81204e836" publication-type="other">
+J.M. Melenk and S. Sauter. Wave-Number Explicit Convergence Analysis for Galerkin Dis-
+cretizations of the Helmholtz Equation (extended version). Preprint 09-2009, University of
+Zurich, (2009).</mixed-citation>
+        </ref>
+        <ref id="d81204e849a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d81204e856" publication-type="other">
+I. Perugia. A note on the discontinuous Galerkin approximation of the Helmholtz equation.
+Lecture Notes, ETH Zurich, 2006.</mixed-citation>
+        </ref>
+        <ref id="d81204e866a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d81204e873" publication-type="other">
+J. Shen and L. Wang. Analysis of a spectral-Galerkin approximation to the Helmholtz
+equation in exterior domains. SIAM J. Numer. Anal, 45:1954-1978, 2007. MR2346366
+(2008i:65267)</mixed-citation>
+        </ref>
+        <ref id="d81204e887a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d81204e894" publication-type="other">
+N. A. Kampanis, J. Ekaterinaris, and V. Dougalis. Effective Computational Methods for Wave
+Propagation, Chapman &amp; Hall/CRC, 2008. MR2406004 (2009a:65004)</mixed-citation>
+        </ref>
+        <ref id="d81204e904a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d81204e911" publication-type="other">
+B. Riviere, M. F. Wheeler, and V. Girault. Improved energy estimates for interior penalty,
+constrained and discontinuous Galerkin methods for elliptic problems. I. Comput. Geosci.,
+3(3-4):337-360, 1999. MR1750076 (2001d:65145)</mixed-citation>
+        </ref>
+        <ref id="d81204e924a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d81204e931" publication-type="other">
+C. Schwab. P- and /ip-Finite Element Methods. Oxford University Press, 1998. MR1695813
+(2000d:65003)</mixed-citation>
+        </ref>
+        <ref id="d81204e941a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d81204e948" publication-type="other">
+P. Solin, K. Segeth, and I. Dolezel. Higher-order Finite Element Methods. Chapman &amp;
+Hall/CRC, 2004. MR2000261 (2004h:65004)</mixed-citation>
+        </ref>
+        <ref id="d81204e958a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d81204e965" publication-type="other">
+B. Stamm and T. P. Wihler. hp-optimal discontinuous Galerkin methods for linear elliptic
+problems. CMCS-REPORT-2007-006.</mixed-citation>
+        </ref>
+        <ref id="d81204e975a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d81204e982" publication-type="other">
+T. Warburton and J.S. Hesthaven. On the constants in /ip-finite element trace inverse inequali-
+ties. Comput. Methods Appl. Mech. Engrg., 192:2765-2773, 2003. MR1986022 (2004d:65146)</mixed-citation>
+        </ref>
+        <ref id="d81204e993a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d81204e1000" publication-type="other">
+M. F. Wheeler. An elliptic collocation-finite element method with interior penalties. SIAM
+J. Numer. Anal, 15:152-161, 1978. MR0471383 (57:11117)</mixed-citation>
+        </ref>
+        <ref id="d81204e1010a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d81204e1017" publication-type="other">
+O. C. Zienkiewicz. Achievements and some unsolved problems of the finite element method.
+Internat. J. Numer. Methods Engrg, 47:9-28, 2000. MR1744287 (2000m:65002)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

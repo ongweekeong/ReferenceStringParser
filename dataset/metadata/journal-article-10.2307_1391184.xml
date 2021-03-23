@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">13</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260304</issue-id>
+         <article-id pub-id-type="jstor">1391184</article-id>
+         
+         <title-group>
+            <article-title>Optimal Pair Matching with Two Control Groups</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bo</given-names>
+                  <surname>Lu</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul R.</given-names>
+                  <surname>Rosenbaum</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>422</fpage>
+         <lpage>434</lpage>
+         <page-range>422-434</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2004 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391184"/>
+         
+         
+         <abstract>
+            <p>In an effort to detect hidden biases due to failure to control for an unobserved covariate, some observational or nonrandomized studies include two control groups selected to systematically vary the unobserved covariate. Comparisons of the treated group and two control groups must, of course, control for imbalances in observed covariates. Using the three groups, we form pairs optimally matched for observed covariates--that is, we optimally construct from observational data an incomplete block design. The incomplete block design may use all available data, or it may use data selectively to produce a balanced incomplete block design, or it may be the basis for constructing a matched sample when expensive outcome information is to be collected only for sampled individuals. The problem of optimal pair matching with two control groups is shown by a series of transformations to be equivalent to a particular form of optimal nonbipartite matching, a problem for which polynomial time algorithms exist. In our examples, we implement the procedure using a nonbipartite matching algorithm due to Derigs. We illustrate the method with data from an observational study of the employment effects of the minimum wage.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Assignment algorithm</kwd>
+            <kwd>Balanced incomplete block design</kwd>
+            <kwd>Bipartite matching</kwd>
+            <kwd>Multiple control groups</kwd>
+            <kwd>Nonbipartite matching</kwd>
+            <kwd>Observational studies</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d432193e154a1310">
+               
+               <mixed-citation id="d432193e158" publication-type="book">
+Ahuja, R.K., Magnanti, T.L., and Orlin, J.B. (1993), Network Flows: Theory, Algorithms, and Applications,
+New York: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Ahuja</surname>
+                  </string-name>
+                  </person-group>
+               <source>Network Flows: Theory, Algorithms, and Applications</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e183a1310">
+               
+               <mixed-citation id="d432193e187" publication-type="book">
+Angrist, J.D., and Krueger, A.B. (1999), "Empirical Strategies in Labor Economics," in Handbook of Labor
+Economics, III, New York: Elsevier, sec. 23.<person-group>
+                     <string-name>
+                     <surname>Angrist</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Empirical Strategies in Labor Economics</comment>
+               <source>Handbook of Labor Economics, III</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e216a1310">
+               
+               <mixed-citation id="d432193e220" publication-type="journal">
+Bergstralh, E.J., Kosanke, J.L., and Jacobsen, S.L. (1996), "Software for Optimal Matching in Observational
+Studies," Epidemiology, 7, 331-332; http://www.mayo.edu/hsr/sasmac.html.<person-group>
+                     <string-name>
+                     <surname>Bergstralh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>7</volume>
+               <source>Epidemiology</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e252a1310">
+               
+               <mixed-citation id="d432193e256" publication-type="book">
+Bertsekas, D.P. (1991), Linear Network Optimization,Cambridge, MA: MIT Press; http://www.mit.edu:8001/
+/people/dimitrib/home.html.<person-group>
+                     <string-name>
+                     <surname>Bertsekas</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Network Optimization</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e282a1310">
+               
+               <mixed-citation id="d432193e286" publication-type="book">
+Campbell, D. (1969), "Artifact and Control," in Artifact in Behavioral Research, eds. R. Rosenthal and R. Rosnow,
+New York: Academic, pp. 351-382.<person-group>
+                     <string-name>
+                     <surname>Campbell</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Artifact and Control</comment>
+               <fpage>351</fpage>
+               <source>Artifact in Behavioral Research</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e318a1310">
+               
+               <mixed-citation id="d432193e322" publication-type="journal">
+Card, D., and Krueger, A. (1994), "Minimum Wages and Employment: A Case Study of the Fast-Food Industry
+in New Jersey and Pennsylvania," American Economic Review, 84, 772-793.<object-id pub-id-type="jstor">10.2307/2118030</object-id>
+               <fpage>772</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e338a1310">
+               
+               <mixed-citation id="d432193e342" publication-type="journal">
+Chang, W.P., Hwang, B., Wang, D., and Wang, J. (1997), "Cytogenetic Effect of Chronic Low-Dose, Low-Dose-
+Rate Gamma-Radiation in Residents of Irradiated Buildings," Lancet, 350, 330-333.<person-group>
+                     <string-name>
+                     <surname>Chang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>330</fpage>
+               <volume>350</volume>
+               <source>Lancet</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e374a1310">
+               
+               <mixed-citation id="d432193e378" publication-type="journal">
+Cochran, W.G. (1965), "The Planning of Observational Studies of Human Populations," Journal of the Royal
+Statistical Society, Series A, 128, 134-155.<person-group>
+                     <string-name>
+                     <surname>Cochran</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>134</fpage>
+               <volume>128</volume>
+               <source>Journal of the Royal Statistical Society, Series A</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e410a1310">
+               
+               <mixed-citation id="d432193e414" publication-type="journal">
+Dehejia, R.H., and Wahba, S. (1999), "Causal Effects in Nonexperimental Studies: Reevaluating the Evaluation
+of Training Programs," Journal of the American Statistical Association, 94, 1053-1062.<object-id pub-id-type="doi">10.2307/2669919</object-id>
+               <fpage>1053</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e430a1310">
+               
+               <mixed-citation id="d432193e434" publication-type="journal">
+Derigs, U. (1988), "Solving Non-bipartite Matching Problems via Shortest Path Techniques," Annals of Operations
+Research, 13, 225-261.<person-group>
+                     <string-name>
+                     <surname>Derigs</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>225</fpage>
+               <volume>13</volume>
+               <source>Annals of Operations Research</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e467a1310">
+               
+               <mixed-citation id="d432193e471" publication-type="journal">
+Douglas, D., and Carney, G. (1998), "Exposure to Asphalt or Bitumen Fume and Renal Disease," Occupational
+and Environmental Medicine, 55, 645-646.<person-group>
+                     <string-name>
+                     <surname>Douglas</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>645</fpage>
+               <volume>55</volume>
+               <source>Occupational and Environmental Medicine</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e503a1310">
+               
+               <mixed-citation id="d432193e507" publication-type="journal">
+Ghavamian, R., Bergstralh, E.J., Blute, M.L., Slezak, J., and Zincke, H. (1999), "Radical Retropubic Prostatectomy
+Plus Orchectomy Versus Orchietomy for pTxN+ Prostate Cancer," Journal of Urology, 161, 1223-1227.<person-group>
+                     <string-name>
+                     <surname>Ghavamian</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1223</fpage>
+               <volume>161</volume>
+               <source>Journal of Urology</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e539a1310">
+               
+               <mixed-citation id="d432193e543" publication-type="book">
+Lehmann, E.L. (1998), Nonparametrics, New Jersey: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Lehmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nonparametrics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e565a1310">
+               
+               <mixed-citation id="d432193e569" publication-type="journal">
+Lu, B., Zanutto, E., Homik, R., and Rosenbaum, P.R. (2001), "Matching With Doses in an Observational Study of
+a Media Campaign Against Drug Abuse," Journal of the American Statistical Association, 96, 1245-1253.<object-id pub-id-type="jstor">10.2307/3085887</object-id>
+               <fpage>1245</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e585a1310">
+               
+               <mixed-citation id="d432193e589" publication-type="journal">
+Meyer, B.D. (1995), "Natural and Quasi-Experiments in Economics," Journal ofBusiness and Economic Statistics,
+13, 151-161.<person-group>
+                     <string-name>
+                     <surname>Meyer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>151</fpage>
+               <volume>13</volume>
+               <source>Journal ofBusiness and Economic Statistics</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e621a1310">
+               
+               <mixed-citation id="d432193e625" publication-type="journal">
+Nuako, K.W., Ahlquist, D.A., Sandborn, W.J., Mahoney, D.W., Siems, D.M., and Zinsmeister, A.R. (1998),
+"Primary Sclerosing Cholangitis and Colorectal Carcinoma in Patients With Chronic Ulcerative Colitis,"
+Cancer, 82, 822-826.<person-group>
+                     <string-name>
+                     <surname>Nuako</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>822</fpage>
+               <volume>82</volume>
+               <source>Cancer</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e661a1310">
+               
+               <mixed-citation id="d432193e665" publication-type="book">
+Papadimitriou, C., and Steiglitz, K. (1982), Combinatorial Optimization, Englewood Cliffs, NJ: Prentice-Hall.<person-group>
+                     <string-name>
+                     <surname>Papadimitriou</surname>
+                  </string-name>
+                  </person-group>
+               <source>Combinatorial Optimization</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e687a1310">
+               
+               <mixed-citation id="d432193e691" publication-type="journal">
+Reinisch, J.M., Sanders, S.A., Mortensen, E.L., and Rubin, D.B. (1995), "In Utero Exposure to Phenobarbital
+and Intelligence Deficits in Adult Men," Journal of the American Medical Association, 274, 1518-1525.<person-group>
+                     <string-name>
+                     <surname>Reinisch</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1518</fpage>
+               <volume>274</volume>
+               <source>Journal of the American Medical Association</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e723a1310">
+               
+               <mixed-citation id="d432193e727" publication-type="journal">
+Rephann, T., and Isserman, A. (1994), "New Highways as Economic Development Tools-An Evaluation Using
+Quasi-Experimental Matching Methods," Regional Science and Urban Economics, 24, 723-751.<person-group>
+                     <string-name>
+                     <surname>Rephann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>723</fpage>
+               <volume>24</volume>
+               <source>Regional Science and Urban Economics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e759a1310">
+               
+               <mixed-citation id="d432193e763" publication-type="journal">
+Roghmann, K., and Sodeur, W. (1972), "The Impact of Military Service on Authoritarian Attitudes," American
+Journal of Sociology, 78, 418-433.<object-id pub-id-type="jstor">10.2307/2776504</object-id>
+               <fpage>418</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e779a1310">
+               
+               <mixed-citation id="d432193e783" publication-type="journal">
+Rosenbaum, P.R. (1987), "The Role of a Second Control Group in an Observational Study" (with discussion),
+Statistical Science, 2, 292-316.<object-id pub-id-type="jstor">10.2307/2245766</object-id>
+               <fpage>292</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e799a1310">
+               
+               <mixed-citation id="d432193e803" publication-type="journal">
+- (1989), "Optimal Matching in Observational Studies," Journal of the American Statistical Association,
+84, 1024-1032.<object-id pub-id-type="doi">10.2307/2290079</object-id>
+               <fpage>1024</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e820a1310">
+               
+               <mixed-citation id="d432193e824" publication-type="journal">
+-( (1999a), "Using Combined Quantile Averages in Matched Observational Studies," Applied Statistics, 48,
+63-78.<object-id pub-id-type="jstor">10.2307/2680819</object-id>
+               <fpage>63</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e840a1310">
+               
+               <mixed-citation id="d432193e844" publication-type="book">
+(2002a), Observational Studies, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Rosenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <source>Observational Studies</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e866a1310">
+               
+               <mixed-citation id="d432193e870" publication-type="journal">
+(2002b), "Covariance Adjustment in Randomized Experiments and Observational Studies," Statistical
+Science (with discussion), 17, 286-327.<object-id pub-id-type="jstor">10.2307/3182790</object-id>
+               <fpage>286</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e886a1310">
+               
+               <mixed-citation id="d432193e890" publication-type="journal">
+Rosenbaum, P., and Rubin, D. (1985), "Constructing a Control Group Using Multivariate Matched Sampling
+Methods that Incorporate the Propensity Score," The American Statistician, 39, 33-38.<person-group>
+                     <string-name>
+                     <surname>Rosenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>33</fpage>
+               <volume>39</volume>
+               <source>The American Statistician</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e922a1310">
+               
+               <mixed-citation id="d432193e926" publication-type="journal">
+Rosenbaum, P.R., and Silber, J.H. (2001), "Matching and Thick Description in an Observational Study of Mortality
+After Surgery," Biostatistics, 2, 217-232.<person-group>
+                     <string-name>
+                     <surname>Rosenbaum</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>2</volume>
+               <source>Biostatistics</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e958a1310">
+               
+               <mixed-citation id="d432193e962" publication-type="journal">
+Rubin, D.B. (1973), "The Use of Matched Sampling and Regression Adjustment to Remove Bias in Observational
+Studies," Biometrics, 29, 185-203.<object-id pub-id-type="doi">10.2307/2529685</object-id>
+               <fpage>185</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e979a1310">
+               
+               <mixed-citation id="d432193e983" publication-type="journal">
+- (1979), "Using Multivariate Matched Sampling and Regression Adjustment to Control Bias in Observa-
+tional Studies," Journal of the American Statistical Association, 74, 318-328.<object-id pub-id-type="doi">10.2307/2286330</object-id>
+               <fpage>318</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e999a1310">
+               
+               <mixed-citation id="d432193e1003" publication-type="journal">
+- (1980), "Bias Reduction Using Mahalanobis Metric Matching," Biometrics, 36, 293-298.<object-id pub-id-type="doi">10.2307/2529981</object-id>
+               <fpage>293</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1016a1310">
+               
+               <mixed-citation id="d432193e1020" publication-type="journal">
+Seltser, R., and Sartwell, P (1965), "The Influence of Occupational Exposure to Radiation on the Mortality of
+American Radiologists and Other Medical Specialists," American Journal of Epidemiology, 81, 2-22.<person-group>
+                     <string-name>
+                     <surname>Seltser</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <volume>81</volume>
+               <source>American Journal of Epidemiology</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1052a1310">
+               
+               <mixed-citation id="d432193e1056" publication-type="book">
+Shadish, W.R., Cook, T.D., and Campbell, D.T. (2002), Experimental and Quasi-Experimental Designs for
+Generalized Causal Inference, Boston: Houghton-Mifflin.<person-group>
+                     <string-name>
+                     <surname>Shadish</surname>
+                  </string-name>
+                  </person-group>
+               <source>Experimental and Quasi-Experimental Designs for Generalized Causal Inference</source>
+               <year>2002</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1081a1310">
+               
+               <mixed-citation id="d432193e1085" publication-type="journal">
+Silber, J.H., Rosenbaum, P.R., Trudeau, M.E., Even-Shoshan, O., Chen, W., Zhang, X., and Mosher, R.E. (2001),
+"Multivariate Matching and Bias Reduction in the Surgical Outcomes Study," Medical Care, 39, 1048-1064.<person-group>
+                     <string-name>
+                     <surname>Silber</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1048</fpage>
+               <volume>39</volume>
+               <source>Medical Care</source>
+               <year>2001</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1117a1310">
+               
+               
+               <mixed-citation id="d432193e1123" publication-type="journal">
+Smith, H. (1997), "Matching With Multiple Controls to Estimate Treatment Effects in Observational Studies,"
+Sociological Methodology, 27, 325-353.<object-id pub-id-type="jstor">10.2307/271109</object-id>
+               <fpage>325</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1140a1310">
+               
+               <mixed-citation id="d432193e1144" publication-type="journal">
+Smith, A., Kark, J., Cassel, J., and Spears, G. (1977), "Analysis of Prospective Epidemiologic Studies by Minimum
+Distance Case-Control Matching," American Journal of Epidemiology, 105, 567-574.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>567</fpage>
+               <volume>105</volume>
+               <source>American Journal of Epidemiology</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1176a1310">
+               
+               <mixed-citation id="d432193e1180" publication-type="journal">
+Snyder, T.L., and Steele, J.M. (1990), "Worst Case Greedy Matching in the Unit d-cube," Networks, 20,779-800.<person-group>
+                     <string-name>
+                     <surname>Snyder</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>779</fpage>
+               <volume>20</volume>
+               <source>Networks</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1209a1310">
+               
+               <mixed-citation id="d432193e1213" publication-type="journal">
+Warner, D.O., Warner, M.A., Offord, K.P., Schroeder, D.R., Maxson, P., and Scanlon, P.D. (1999), "Airway
+Obstruction and Perioperative Complications in Smokers Undergoing Abdominal Surgery," Anesthesiology,
+90, 372-379.<person-group>
+                     <string-name>
+                     <surname>Warner</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>372</fpage>
+               <volume>90</volume>
+               <source>Anesthesiology</source>
+               <year>1999</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1248a1310">
+               
+               <mixed-citation id="d432193e1252" publication-type="journal">
+Wei, L.J. (1982), "Interval Estimation of Location Difference with Incomplete Data," Biometrika, 69, 249-251.<object-id pub-id-type="doi">10.2307/2335879</object-id>
+               <fpage>249</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1265a1310">
+               
+               <mixed-citation id="d432193e1269" publication-type="journal">
+Wells, K.E., Roberts, C., Daniels, S.M., Hann, D., Clement, V., Reintgen, D., and Cox, C.E. (1997), "Comparison
+of Psychological Symptoms of Woman Requesting Removal of Breast Implants with Those of Breast Cancer
+Patients and Healthy Controls," Plastic and Reconstructive Surgery, 99, 680-685.<person-group>
+                     <string-name>
+                     <surname>Wells</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>680</fpage>
+               <volume>99</volume>
+               <source>Plastic and Reconstructive Surgery</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1304a1310">
+               
+               <mixed-citation id="d432193e1308" publication-type="journal">
+Weston, J.F., and Mansinghka, S.K. (1971), "Tests of the Efficiency Performance of Conglomerate Firms,"
+Journal of Finance, 26, 919-936.<object-id pub-id-type="doi">10.2307/2325241</object-id>
+               <fpage>919</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d432193e1325a1310">
+               
+               <mixed-citation id="d432193e1329" publication-type="journal">
+Zabin, L.S., Hirsch, M.B., and Emerson, M.R. (1989), "When Urban Adolescents Choose Abortion: Effects on
+Education, Psychological Status, and Subsequent Pregnancy," Family Planning Perspectives, 21, 248-255.<object-id pub-id-type="doi">10.2307/2135377</object-id>
+               <fpage>248</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

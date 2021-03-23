@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">24</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">112</issue>
+         <issue-id>i334535</issue-id>
+         <article-id pub-id-type="doi">10.2307/2004627</article-id>
+         
+         <title-group>
+            <article-title>Some Results on Sparse Matrices</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Robert K.</given-names>
+                  <surname>Brayton</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Fred G.</given-names>
+                  <surname>Gustavson</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ralph A.</given-names>
+                  <surname>Willoughby</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1970</year>
+         </pub-date>
+         <fpage>937</fpage>
+         <lpage>954</lpage>
+         <page-range>937-954</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1971 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2004627"/>
+         
+         
+         <abstract>
+            <p>A comparison in the context of sparse matrices is made between the Product Form of the Inverse PFI (a form of Gauss-Jordan elimination) and the Elimination Form of the Inverse EFI (a form of Gaussian elimination). The precise relation of the elements of these two forms of the inverse is given in terms of the nontrivial elements of the three matrices L, U, U&lt;sup&gt;-1&lt;/sup&gt; associated with the triangular factorization of the coefficient matrix A; i.e., A = L · U, where L is lower triangular and U is unit upper triangular. It is shown that the zero-nonzero structure of the PFI always has more nonzeros than the EFI. It is proved that Gaussian elimination is a inimal algorithm with respect to preserving sparseness if the diagonal elements of the matrix A are nonzero. However, Gaussian elimination is not necessarily minimal if A has some zero diagonal elements. The same statements hold for the PFI as well. A probabilistic study of fill-in and computing times for the PFI and EFI sparse matrix algorithms is presented. This study suggests quantitatively how rapidly sparse matrices fill up for increasing densities, and emphasizes the necessity for reordering to minimize fill-in.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>6535</kwd>
+            <kwd>9050</kwd>
+            <kwd>1515</kwd>
+            <kwd>Sparse matrices</kwd>
+            <kwd>elimination form of inverse</kwd>
+            <kwd>product form of inverse</kwd>
+            <kwd>fill-in</kwd>
+            <kwd>symbolic and numerical zeros</kwd>
+            <kwd>minimal algorithms</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1325553e175a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1325553e182" publication-type="book">
+R. S. VARGA, Matrix Iterative Analysis, Prentice-Hall, Englewood Cliffs, N. J., 1962.
+MR 28 #1725.<person-group>
+                     <string-name>
+                     <surname>Varga</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Iterative Analysis</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e207a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1325553e214" publication-type="book">
+T. KOOPMANS (Editor), Activity Analysis of Production and Allocation, Cowles Commission
+Monograph, no. 13, Wiley, New York and Chapman &amp; Hall, London, 1951. MR 13, 670.<person-group>
+                     <string-name>
+                     <surname>Koopmans</surname>
+                  </string-name>
+                  </person-group>
+               <source>Activity Analysis of Production and Allocation</source>
+               <year>1951</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e239a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1325553e246" publication-type="book">
+V. RILEY &amp; R. L. ALLEN, Interindustry Economic Studies, Johns Hopkins Press, Baltimore,
+Md., 1955.<person-group>
+                     <string-name>
+                     <surname>Riley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Interindustry Economic Studies</source>
+               <year>1955</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e271a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1325553e278" publication-type="book">
+Linear Inequalities and Related Systems, Ann. of Math. Studies, no. 38, Princeton Univ.
+Press, Princeton, N. J., 1956.<source>Linear Inequalities and Related Systems</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e295a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1325553e302" publication-type="book">
+S. 1. GASS, Linear Programming: Methods and Applications, McGraw-Hill, New York,
+1958. MR 20 #3037.<person-group>
+                     <string-name>
+                     <surname>Gass</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Programming: Methods and Applications</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e327a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1325553e334" publication-type="book">
+V. RILEY &amp; S. I. GASS, Linear Programming and Associated Techniques, Bibliographic
+Reference Series, no. 5, Johns Hopkins Press, Baltimore, Md., 1958. MR 19, 1197.<person-group>
+                     <string-name>
+                     <surname>Riley</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Programming and Associated Techniques</source>
+               <year>1958</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e359a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1325553e366" publication-type="journal">
+G. B. DANTZIG &amp; P. WOLFE, "Decomposition principle for linear programs," Operations
+Res., v. 8, 1960, pp. 101-111.<person-group>
+                     <string-name>
+                     <surname>Dantzig</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>8</volume>
+               <source>Operations Res.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e398a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1325553e405" publication-type="journal">
+G. B. DANTZIG&amp; P. WOLFE, "The decomposition algorithm for linear programs,"
+Econometrica, v. 29, 1961, pp. 767-778. MR 25 #1953.<object-id pub-id-type="doi">10.2307/1911818</object-id>
+               <fpage>767</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e421a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1325553e428" publication-type="book">
+G. B. DANTZIG, Linear Programming and Extensions, Princeton Univ. Press, Princeton,
+N. J., 1963.<person-group>
+                     <string-name>
+                     <surname>Dantzig</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Programming and Extensions</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e453a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1325553e460" publication-type="book">
+R. L. GRAVES &amp; P. WOLFE (Editors), Recent Advances in Mathematical Programming,
+McGraw-Hill, New York, 1963.<person-group>
+                     <string-name>
+                     <surname>Graves</surname>
+                  </string-name>
+                  </person-group>
+               <source>Recent Advances in Mathematical Programming</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e486a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1325553e493" publication-type="book">
+P. WOLFE &amp; L. CUTLER, Experiments in Linear Programming, Recent Advances in Mathe-
+matical Programming, McGraw-Hill, New York, 1963, pp. 177-200.<person-group>
+                     <string-name>
+                     <surname>Wolfe</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Experiments in Linear Programming</comment>
+               <fpage>177</fpage>
+               <source>Recent Advances in Mathematical Programming</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e525a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1325553e532" publication-type="book">
+D. M. SMITH &amp; W. ORCHARD-HAYS, Computational Efficiency in Product Form LP Codes,
+Recent Advances in Mathematical Programming, McGraw-Hill, New York, 1963, pp. 211-218.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Computational Efficiency in Product Form LP Codes</comment>
+               <fpage>211</fpage>
+               <source>Recent Advances in Mathematical Programming</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e564a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1325553e571" publication-type="book">
+M. SIMONNARD, Linear Programming, Prentice-Hall, Englewood Cliffs, N. J., 1966.<person-group>
+                     <string-name>
+                     <surname>Simonnard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear Programming</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e593a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1325553e600" publication-type="book">
+W. ORCHARD-HAYS, Advanced Linear Programming Computing Techniques, McGraw-Hill,
+New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Orchard-hays</surname>
+                  </string-name>
+                  </person-group>
+               <source>Advanced Linear Programming Computing Techniques</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e625a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1325553e632" publication-type="journal">
+R. L. WEIL, JR., "The decomposition of economic production systems," Econometrica,
+v. 36, 1968, pp. 260-278.<object-id pub-id-type="doi">10.2307/1907489</object-id>
+               <fpage>260</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e648a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1325553e655" publication-type="journal">
+G. B. DANTZIG &amp; W. ORCHARD-HAYS, "The product form of the inverse in the simplex
+method," MTAC, v. 8, 1954, pp. 64-67. MR 15, 831.<person-group>
+                     <string-name>
+                     <surname>Dantzig</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>64</fpage>
+               <volume>8</volume>
+               <source>MTAC</source>
+               <year>1954</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e688a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1325553e695" publication-type="journal">
+L. J. LARSON, "A modified inversion procedure for product form of inverse in linear
+programming codes," Comm. ACM, v. 5, 1962, pp. 382-383.<person-group>
+                     <string-name>
+                     <surname>Larson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>382</fpage>
+               <volume>5</volume>
+               <source>Comm. ACM</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e727a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1325553e734" publication-type="journal">
+R. P. TEWARSON, "On the product form of inverses of sparse matrices," SIAM Rev., v. 8,
+1966, pp. 336-342. MR 34 #8631.<object-id pub-id-type="jstor">10.2307/2028210</object-id>
+               <fpage>336</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e750a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1325553e757" publication-type="journal">
+R. P. TEWARSON, "On the product form of inverses of sparse matrices and graph theory,"
+SIAM Rev., v. 9, 1967, pp. 91-99. MR 36 #1092.<object-id pub-id-type="jstor">10.2307/2027412</object-id>
+               <fpage>91</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e773a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1325553e780" publication-type="journal">
+H. M. MARKOWITZ, "The elimination form of the inverse and its application to linear
+programming," Management Sci., v. 3, 1957, pp. 255-269. MR 22 #3098.<person-group>
+                     <string-name>
+                     <surname>Markowitz</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>3</volume>
+               <source>Management Sci.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e812a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1325553e819" publication-type="book">
+G. B. DANTZIG, Compact Basis Triangularization for the Simplex Method, Recent Advances
+in Mathematical Programming, McGraw-Hill, New York, 1963, pp. 125-132. MR 32 #1010.<person-group>
+                     <string-name>
+                     <surname>Dantzig</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Compact Basis Triangularization for the Simplex Method</comment>
+               <fpage>125</fpage>
+               <source>Recent Advances in Mathematical Programming</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e851a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1325553e858" publication-type="journal">
+A. M. TURING, "Rounding-off errors in matrix processes," Quart. J. Mech. Appl. Math.,
+v. 1, 1948, pp. 287-308. MR 10, 405.<person-group>
+                     <string-name>
+                     <surname>Turing</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>287</fpage>
+               <volume>1</volume>
+               <source>Quart. J. Mech. Appl. Math.</source>
+               <year>1948</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e891a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1325553e898" publication-type="journal">
+L. J. PAIGE &amp; 0. TAUSSKY (Editors), "Simultaneous linear equations and the determination
+of eigenvalues," Nat. Bur. Standards Appl. Math. Ser., v. 29, 1953.<person-group>
+                     <string-name>
+                     <surname>Paige</surname>
+                  </string-name>
+                  </person-group>
+               <volume>29</volume>
+               <source>Nat. Bur. Standards Appl. Math. Ser.</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e927a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1325553e934" publication-type="journal">
+G. E. FORSYTHE &amp; E. G. STRAUS, "On best conditioned matrices," Proc. Amer. Math. Soc.,
+v. 6, 1955, pp. 340-345. MR 16, 1054.<object-id pub-id-type="doi">10.2307/2032772</object-id>
+               <fpage>340</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e950a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1325553e957" publication-type="book">
+E. BODEWIG, Matrix Calculus, North-Holland, Amsterdam, 1956. MR 18, 235.<person-group>
+                     <string-name>
+                     <surname>Bodewig</surname>
+                  </string-name>
+                  </person-group>
+               <source>Matrix Calculus</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e979a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1325553e986" publication-type="journal">
+E. KOSKO, "Matrix inversion by partitioning," Aero. Quart., v. 8, 1957, pp. 157-184.
+MR 19, 769.<person-group>
+                     <string-name>
+                     <surname>Kosko</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>8</volume>
+               <source>Aero. Quart.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1018a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1325553e1025" publication-type="journal">
+A. S. HOUSEHOLDER, "A survey of some closed methods for inverting matrices," J. Soc.
+Indust. Appl. Math., v. 5, 1957, pp. 155-169. MR 19, 982.<person-group>
+                     <string-name>
+                     <surname>Householder</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>155</fpage>
+               <volume>5</volume>
+               <source>J. Soc. Indust. Appl. Math.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1057a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1325553e1064" publication-type="journal">
+L. B. WILSON, "Solution of certain large sets of equations on Pegasus using matrix methods,"
+Comput. J., v. 2, 1959, pp. 130-133. MR 21 #6084.<person-group>
+                     <string-name>
+                     <surname>Wilson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>130</fpage>
+               <volume>2</volume>
+               <source>Comput. J.</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1097a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1325553e1104" publication-type="journal">
+E. E. OSBORNE, "On pre-conditioning of matrices," J. Assoc. Comput. Mach., v. 7, 1960,
+pp. 338-345. MR 26 #892.<person-group>
+                     <string-name>
+                     <surname>Osborne</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>338</fpage>
+               <volume>7</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1136a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1325553e1143" publication-type="journal">
+G. E. FORSYTHE, "Crout with pivoting," Comm. ACM, v. 3, 1960, p. 507.<person-group>
+                     <string-name>
+                     <surname>Forsythe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>507</fpage>
+               <volume>3</volume>
+               <source>Comm. ACM</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1172a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1325553e1179" publication-type="book">
+A. ORDEN, Matrix Inversion and Related Topics by Direct Methods, Mathematical Methods
+for Digital Computers, vol. 1, Wiley, New York, 1960, pp. 39-55. MR 22 #8682.<person-group>
+                     <string-name>
+                     <surname>Orden</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>39</fpage>
+               <volume>1</volume>
+               <source>Matrix Inversion and Related Topics by Direct Methods</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1211a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1325553e1218" publication-type="journal">
+D. L. ELLIOTT, "A note on systems of linear equations," SIAM Rev., v. 3, 1961, pp. 66-69.
+MR 22 #12702.<object-id pub-id-type="jstor">10.2307/2027250</object-id>
+               <fpage>66</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1234a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1325553e1241" publication-type="journal">
+S. PARTER, "The use of linear graphs in Gauss elimination," SIAM Rev., v. 3, 1961,
+pp. 119-130. MR 26 #908.<object-id pub-id-type="jstor">10.2307/2027387</object-id>
+               <fpage>119</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1257a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d1325553e1264" publication-type="journal">
+J. H. WILKINSON, "Error analysis of direct methods of matrix inversion," J. Assoc. Comput.
+Mach., v. 8, 1961, pp. 281-330. MR 31 #874.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>8</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1297a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d1325553e1304" publication-type="journal">
+F. HARARY, "A graph theoretic approach to matrix inversion by partitioning," Numer.
+Math., v. 4, 1962, pp. 128-135. MR 25 #2977.<person-group>
+                     <string-name>
+                     <surname>Harary</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>128</fpage>
+               <volume>4</volume>
+               <source>Numer. Math.</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1336a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d1325553e1343" publication-type="journal">
+D. R. FULKERSON &amp; P. WOLFE, "An algorithm for scaling matrices," SIAM Rev., v. 4,
+1962, pp. 142-146. MR 25 #1039.<object-id pub-id-type="jstor">10.2307/2028367</object-id>
+               <fpage>142</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1359a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d1325553e1366" publication-type="journal">
+A. L. DULMAGE &amp; N. S. MENDELSOHN, "On the inversion of sparse matrices," Math. Comp.,
+v. 16, 1962, pp. 494-496. MR 27 #6375.<object-id pub-id-type="doi">10.2307/2003143</object-id>
+               <fpage>494</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1382a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d1325553e1389" publication-type="journal">
+W. M. MCKEEMAN, "Crout with equilibration and iteration," Comm. ACM, v. 5, 1962,
+pp. 553-555.<person-group>
+                     <string-name>
+                     <surname>McKeeman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>553</fpage>
+               <volume>5</volume>
+               <source>Comm. ACM</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1421a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d1325553e1428" publication-type="journal">
+F. L. BAUER, "Optimally scaled matrices," Numer. Math., v. 5, 1963, pp. 73087. MR 28
+#2629.<person-group>
+                     <string-name>
+                     <surname>Bauer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>73087</fpage>
+               <volume>5</volume>
+               <source>Numer. Math.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1460a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d1325553e1467" publication-type="book">
+D. K. FADDEEV &amp; V. N. FADDEEVA, Computational Methods in Linear Algebra, Fizmatgiz,
+Moscow, 1960<person-group>
+                     <string-name>
+                     <surname>Faddeev</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computational Methods in Linear Algebra</source>
+               <year>1960</year>
+            </mixed-citation>
+               <mixed-citation id="d1325553e1491" publication-type="other">
+English transl. of 1st ed., Freeman, San Francisco, Calif., 1963. MR 28 #1742;
+MR 28 #4659.</mixed-citation>
+            </ref>
+            <ref id="d1325553e1502a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d1325553e1509" publication-type="journal">
+A. L. DULMAGE &amp; N. S. MENDELSOHN, "Two algorithms for bipartite graphs," J. Soc.
+Indust. Appl. Math., v. 11, 1963, pp. 183-194. MR 27 #4224.<person-group>
+                     <string-name>
+                     <surname>Dulmage</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>183</fpage>
+               <volume>11</volume>
+               <source>J. Soc. Indust. Appl. Math.</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1541a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d1325553e1548" publication-type="book">
+J. CARPENTIER, "Éliminations ordonnées," un processus diminuant le volume des calculs
+dans la résolutions des systèmes linéaires à matrice creuse, Troisieme Congr. de Calcul etdeTraitement
+de l'Information AFCALTI, Dunod, Paris, 1965, pp. 63-71. MR 32 #1896.<person-group>
+                     <string-name>
+                     <surname>Carpentier</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>63</fpage>
+               <source>"Éliminations ordonnées," un processus diminuant le volume des calculs dans la résolutions des systèmes linéaires à matrice creuse</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1580a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d1325553e1587" publication-type="book">
+L. FOX, An Introduction to Numerical Linear Algebra, Clarendon Press, Oxford, 1964.
+MR 29 #1733.<person-group>
+                     <string-name>
+                     <surname>Fox</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Introduction to Numerical Linear Algebra</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1612a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d1325553e1619" publication-type="book">
+A. S. HOUSEHOLDER, The Theory of Matrices in Numerical Analysis, Blaisdell, Waltham,
+Mass., 1964. MR 30 #5475.<person-group>
+                     <string-name>
+                     <surname>Householder</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Theory of Matrices in Numerical Analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1644a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d1325553e1651" publication-type="journal">
+W.-K. CHEN, "The inversion of matrices by flow graphs," J. Soc. Indust. Appl. Math.,
+v. 12, 1964, PP. 676-685. MR 30 #2023.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>676</fpage>
+               <volume>12</volume>
+               <source>J. Soc. Indust. Appl. Math.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1683a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d1325553e1690" publication-type="journal">
+F. H. BRANIN, JR., et al., "An interpretive program for matrix arithmetic," IBM Systems
+J., v. 4, 1965, pp. 2-24.<person-group>
+                     <string-name>
+                     <surname>Branin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2</fpage>
+               <volume>4</volume>
+               <source>IBM Systems J.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1723a1310">
+               <label>47</label>
+               
+               <mixed-citation id="d1325553e1730" publication-type="conference">
+J. C. DICKSON, Finding Permutation Operations to Produce a Large Triangular Sub-Matrix,
+Twenty-eighth National Meeting Operations Research Society of America, Houston, Texas, 1965.<person-group>
+                     <string-name>
+                     <surname>Dickson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finding Permutation Operations to Produce a Large Triangular Sub-Matrix</comment>
+               <source>Twenty-eighth National Meeting Operations Research Society of America, Houston, Texas</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1759a1310">
+               <label>48</label>
+               
+               <mixed-citation id="d1325553e1766" publication-type="journal">
+B. H. MAYOH, "A graph technique for inverting certain matrices," Math. Comp., v. 19,
+1965, pp. 644-646. MR 33 #5108.<object-id pub-id-type="doi">10.2307/2003946</object-id>
+               <fpage>644</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1782a1310">
+               <label>49</label>
+               
+               <mixed-citation id="d1325553e1789" publication-type="journal">
+W. OETTLIE, W. PRAGER &amp; J. H. WILKINSON, "Admissible solutions of linear systems with
+not sharply defined coefficients," J. Soc. Indust. Appl. Math. Ser. B. Numer. Anal., v. 2, 1965, pp.
+291-299. MR 32 #1888.<person-group>
+                     <string-name>
+                     <surname>Oettlie</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>291</fpage>
+               <volume>2</volume>
+               <source>J. Soc. Indust. Appl. Math. Ser. B. Numer. Anal.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1824a1310">
+               <label>50</label>
+               
+               <mixed-citation id="d1325553e1831" publication-type="other">
+D. BREE, JR., Some Remarks on the Application of Graph Theory to the Solution of Sparse
+Systems of Linear Equations, Thesis, Dept. of Mathematics, Princeton University, Princeton, N. J.,
+1965.</mixed-citation>
+            </ref>
+            <ref id="d1325553e1844a1310">
+               <label>51</label>
+               
+               <mixed-citation id="d1325553e1851" publication-type="conference">
+H. EDELMANN, Ordered Triangular Factorization of Matrices, Proc. Power System Compu-
+tation Conference, Stockholm, 1966.<person-group>
+                     <string-name>
+                     <surname>Edelmann</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Ordered Triangular Factorization of Matrices</comment>
+               <source>Proc. Power System Computation Conference, Stockholm</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1880a1310">
+               <label>52</label>
+               
+               <mixed-citation id="d1325553e1887" publication-type="journal">
+G. G. ALWAY &amp; D. W. MARTIN, "An algorithm for reducing the bandwidth of a matrix
+of symmetrical configuration," Comput. J., v. 8, 1965/66, pp. 264-272.<person-group>
+                     <string-name>
+                     <surname>Alway</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>264</fpage>
+               <volume>8</volume>
+               <source>Comput. J.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1920a1310">
+               <label>53</label>
+               
+               <mixed-citation id="d1325553e1927" publication-type="journal">
+W. KAHAN, "Numerical linear algebra," Canad. Math. Bull., v. 9, 1966, pp. 757-801.<person-group>
+                     <string-name>
+                     <surname>Kahan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>757</fpage>
+               <volume>9</volume>
+               <source>Canad. Math. Bull.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1956a1310">
+               <label>54</label>
+               
+               <mixed-citation id="d1325553e1963" publication-type="journal">
+A. JENNINGS, "A compact storage scheme for the solution of symmetric linear simultaneous
+equations," Comput. J., v. 9, 1966/67, pp. 281-285.<person-group>
+                     <string-name>
+                     <surname>Jennings</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>9</volume>
+               <source>Comput. J.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e1995a1310">
+               <label>55</label>
+               
+               <mixed-citation id="d1325553e2002" publication-type="journal">
+H. J. BOWDLER, R. S. MARTIN, G. PETERS &amp; J. H. WILKINSON, "Solution of real and
+complex systems of linear equations," Numer. Math., v. 8, 1966, pp. 217-234.<person-group>
+                     <string-name>
+                     <surname>Bowdler</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>217</fpage>
+               <volume>8</volume>
+               <source>Numer. Math.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2034a1310">
+               <label>56</label>
+               
+               <mixed-citation id="d1325553e2041" publication-type="conference">
+A. M. HERSHDORFER, et al., On the Efficient Inversion of Large Structured Matrices, Proc.
+ASCE Engineering Mechanics Division Specialty Conference, Washington, D. C., 1966.<person-group>
+                     <string-name>
+                     <surname>Hershdorfer</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the Efficient Inversion of Large Structured Matrices</comment>
+               <source>Proc. ASCE Engineering Mechanics Division Specialty Conference, Washington, D. C.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2070a1310">
+               <label>57</label>
+               
+               <mixed-citation id="d1325553e2077" publication-type="journal">
+B. A. CHARTRES &amp; J. C. GEUDER, "Computable error bounds for direct solution of linear
+equations," J. Assoc. Comput. Mach., v. 14, 1967, pp. 63-71. MR 35 #6390.<person-group>
+                     <string-name>
+                     <surname>Chartres</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>63</fpage>
+               <volume>14</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2109a1310">
+               <label>58</label>
+               
+               <mixed-citation id="d1325553e2116" publication-type="book">
+G. FORSYTHE &amp; C. B. MOLER, Computer Solution of Linear Algebraic Equations, Prentice-
+Hall, Englewood Cliffs, N. J., 1967. MR 36 #2306.<person-group>
+                     <string-name>
+                     <surname>Forsythe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Solution of Linear Algebraic Equations</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2142a1310">
+               <label>59</label>
+               
+               <mixed-citation id="d1325553e2149" publication-type="book">
+J. H. WILKINSON, The Solution of Ill-Conditioned Linear Equations, Mathematical Methods
+for Digital Computers, vol. 2, Wiley, New York, 1967, pp. 65-93.<person-group>
+                     <string-name>
+                     <surname>Wilkinson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>65</fpage>
+               <volume>2</volume>
+               <source>The Solution of Ill-Conditioned Linear Equations</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2181a1310">
+               <label>60</label>
+               
+               <mixed-citation id="d1325553e2188" publication-type="journal">
+R. P. TEWARSON, "Solution of a system of simultaneous linear equations with a sparse
+coefficient matrix by elimination methods," Nordisk Tidskr. Informations-Behandling, v. 7, 1967,
+pp. 226-239. MR 36 #2308.<person-group>
+                     <string-name>
+                     <surname>Tewarson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>226</fpage>
+               <volume>7</volume>
+               <source>Nordisk Tidskr. Informations-Behandling</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2223a1310">
+               <label>61</label>
+               
+               <mixed-citation id="d1325553e2230" publication-type="journal">
+F. HARARY, "Graphs and matrices," SIAM Rev., v. 9, 1967, pp. 83-90. MR 35 #1501.<object-id pub-id-type="jstor">10.2307/2027411</object-id>
+               <fpage>83</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2243a1310">
+               <label>62</label>
+               
+               <mixed-citation id="d1325553e2250" publication-type="journal">
+G. E. FORSYTHE, "Today's computational methods of linear algebra," SIAM Rev., v. 9,
+1967, pp. 489-515. MR 36 #1089.<object-id pub-id-type="jstor">10.2307/2027993</object-id>
+               <fpage>489</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2266a1310">
+               <label>63</label>
+               
+               <mixed-citation id="d1325553e2273" publication-type="journal">
+W. F. TINNEY &amp; J. W. WALKER, "Direct solutions of sparse network equations by optimally
+ordered triangular factorization," Proc. IEEE, v. 55, 1967, pp. 1801-1809.<person-group>
+                     <string-name>
+                     <surname>Tinney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1801</fpage>
+               <volume>55</volume>
+               <source>Proc. IEEE</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2305a1310">
+               <label>64</label>
+               
+               <mixed-citation id="d1325553e2312" publication-type="journal">
+A. NATHAN &amp; R. K. EVEN, "The inversion of sparse matrices by a strategy derived from
+their graphs," Comput. J., v. 10, 1967, pp. 190-194. MR 35 #5128.<person-group>
+                     <string-name>
+                     <surname>Nathan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>190</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2345a1310">
+               <label>65</label>
+               
+               <mixed-citation id="d1325553e2352" publication-type="journal">
+R. P. TEWARSON, "Row-column permutation of sparse matrices," Comput. J., v. 10, 1967,
+pp. 300-305. MR 36 #1091.<person-group>
+                     <string-name>
+                     <surname>Tewarson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>300</fpage>
+               <volume>10</volume>
+               <source>Comput. J.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2384a1310">
+               <label>66</label>
+               
+               <mixed-citation id="d1325553e2391" publication-type="book">
+J. R. WESTLAKE, A Handbook of Numerical Matrix Inversion and Solution of Linear Systems,
+Wiley, New York, 1968. MR 36 #4794.<person-group>
+                     <string-name>
+                     <surname>Westlake</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Handbook of Numerical Matrix Inversion and Solution of Linear Systems</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2416a1310">
+               <label>67</label>
+               
+               <mixed-citation id="d1325553e2423" publication-type="journal">
+R. P. TEWARSON, "Solution of linear equations with coefficient matrix in band from"
+Nordisk Tidskr. Informations-Behandling, v. 8, 1968, pp. 53-58. MR 37 #2425.<person-group>
+                     <string-name>
+                     <surname>Tewarson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>53</fpage>
+               <volume>8</volume>
+               <source>Nordisk Tidskr. Informations-Behandling</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2455a1310">
+               <label>68</label>
+               
+               <mixed-citation id="d1325553e2462" publication-type="journal">
+W. R. SPILLERS &amp; N. HICKERSON, "Optimal elimination for sparse symmetric systems as
+a graph problem," Quart. Appl. Math., v. 26, 1968, pp. 425-432. MR 38 #1818.<person-group>
+                     <string-name>
+                     <surname>Spillers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>425</fpage>
+               <volume>26</volume>
+               <source>Quart. Appl. Math.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2494a1310">
+               <label>69</label>
+               
+               <mixed-citation id="d1325553e2501" publication-type="journal">
+G. LOIZOU, "An empirical estimate of the relative error of the computed solution x of
+Ax = b," Comput. J., v. 11, 1968/69, pp. 91-94. MR 37 #1067.<person-group>
+                     <string-name>
+                     <surname>Loizou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>91</fpage>
+               <volume>11</volume>
+               <source>Comput. J.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2533a1310">
+               <label>70</label>
+               
+               <mixed-citation id="d1325553e2540" publication-type="conference">
+RICHARD ROSEN, Matrix Band Width Minimization, ACM National Conference, Las
+Vegas, Nevada, 1968.<person-group>
+                     <string-name>
+                     <surname>Rosen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Matrix Band Width Minimization</comment>
+               <source>ACM National Conference, Las Vegas, Nevada</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2570a1310">
+               <label>71</label>
+               
+               <mixed-citation id="d1325553e2577" publication-type="other">
+System/360 Matrix Language (MATLAN), Application Description, IBM H20-0479</mixed-citation>
+               <mixed-citation id="d1325553e2583" publication-type="other">
+Program Description Manual, IBM H20-0564</mixed-citation>
+               <mixed-citation id="d1325553e2589" publication-type="other">
+Operations Manual, IBM H20-0559</mixed-citation>
+               <mixed-citation id="d1325553e2596" publication-type="other">
+System Manual,
+IBM Y20-0261.</mixed-citation>
+            </ref>
+            <ref id="d1325553e2606a1310">
+               <label>72</label>
+               
+               <mixed-citation id="d1325553e2613" publication-type="conference">
+G. B. DANTZIG, R. P. HARVEY, R. D. MCKNIGHT &amp; S. S. SMITH, Sparse Matrix Techniques
+in Two Mathematical Programming Codes, Proc. Sparse Matrix Sympos., IBM Watson Research
+Center, Yorktown Heights, New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Dantzig</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Sparse Matrix Techniques in Two Mathematical Programming Codes</comment>
+               <source>Proc. Sparse Matrix Sympos.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2645a1310">
+               <label>73</label>
+               
+               <mixed-citation id="d1325553e2652" publication-type="book">
+G. KRON, Tensor Analysis of Networks, Wiley, New York, 1939.<person-group>
+                     <string-name>
+                     <surname>Kron</surname>
+                  </string-name>
+                  </person-group>
+               <source>Tensor Analysis of Networks</source>
+               <year>1939</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2674a1310">
+               <label>74</label>
+               
+               <mixed-citation id="d1325553e2681" publication-type="journal">
+P. M. HUNT, "The electronic digital computer in aircraft structural analysis. The pro-
+gramming of the Argyris matrix formulation of structural theory for an electronic digital computer.
+I: A description of a matrix interpretive scheme and its application to a particular example," Aircraft
+Engrg., v. 28, 1956, pp. 70-76. MR 17, 902.<person-group>
+                     <string-name>
+                     <surname>Hunt</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>70</fpage>
+               <volume>28</volume>
+               <source>Aircraft Engrg.</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2719a1310">
+               <label>75</label>
+               
+               <mixed-citation id="d1325553e2726" publication-type="journal">
+J. B. WARD &amp; H. W. HALE, "Digital computer solution of power flow problems," Trans.
+AIEE, v. PAS-75, 1956, part III, pp. 398-404.<person-group>
+                     <string-name>
+                     <surname>Ward</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>398</fpage>
+               <volume>PAS-75</volume>
+               <source>Trans. AIEE</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2761a1310">
+               <label>76</label>
+               
+               <mixed-citation id="d1325553e2768" publication-type="journal">
+R. J. BROWN &amp; W. F. TINNEY, "Digital solutions for large power networks," Trans. AIEE,
+v. PAS-76, 1957, part III, p. 347.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>347</fpage>
+               <volume>PAS-76</volume>
+               <source>Trans. AIEE</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2804a1310">
+               <label>77</label>
+               
+               <mixed-citation id="d1325553e2811" publication-type="journal">
+J. E. VAN NESS, "Iteration methods for digital load flow studies," Trans. AIEE, v.
+PAS-78A, 1959, part III, pp. 583-588.<person-group>
+                     <string-name>
+                     <surname>van Ness</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>583</fpage>
+               <volume>PAS-78A</volume>
+               <source>Trans. AIEE</source>
+               <year>1959</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2846a1310">
+               <label>78</label>
+               
+               <mixed-citation id="d1325553e2853" publication-type="journal">
+R. LIVESLEY, "The analysis of large structural systems," Comput. J., v. 3, 1960/61, pp. 34-39.
+MR 22 #3195.<person-group>
+                     <string-name>
+                     <surname>Livesley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>34</fpage>
+               <volume>3</volume>
+               <source>Comput. J.</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2885a1310">
+               <label>79</label>
+               
+               <mixed-citation id="d1325553e2892" publication-type="book">
+C. H. NORRIS &amp; J. B. WILBUR, Elementary Structural Analysis, 2nd ed., McGraw-Hill,
+New York, 1960.<person-group>
+                     <string-name>
+                     <surname>Norris</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Elementary Structural Analysis</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2921a1310">
+               <label>80</label>
+               
+               <mixed-citation id="d1325553e2928" publication-type="journal">
+J. E. VAN NESS, "Convergence of iterative load-flow studies," Trans. AIEE, v. PAS-79,
+1960, part III, pp. 1590-1597.<person-group>
+                     <string-name>
+                     <surname>van Ness</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>1590</fpage>
+               <volume>PAS-79</volume>
+               <source>Trans. AIEE</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2963a1310">
+               <label>81</label>
+               
+               <mixed-citation id="d1325553e2970" publication-type="book">
+A. S. HALL &amp; R. W. WOODHEAD, Frame Analysis, Wiley, New York, 1961.<person-group>
+                     <string-name>
+                     <surname>Hall</surname>
+                  </string-name>
+                  </person-group>
+               <source>Frame Analysis</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e2992a1310">
+               <label>82</label>
+               
+               <mixed-citation id="d1325553e2999" publication-type="journal">
+J. E. VAN NESS &amp; J. H. GRIFFIN, "Elimination methods for loadflow studies," Trans. AIEE,
+v. PAS-80, 1961, part III, pp. 299-304.<person-group>
+                     <string-name>
+                     <surname>van Ness</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>299</fpage>
+               <volume>PAS-80</volume>
+               <source>Trans. AIEE</source>
+               <year>1961</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3035a1310">
+               <label>83</label>
+               
+               <mixed-citation id="d1325553e3042" publication-type="conference">
+F. H. BRANIN, JR., D-C and Transient Analysis of Networks Using a Digital Computer,
+IRE Internat. Conference Rec., part 2, 1962, pp. 236-256.<person-group>
+                     <string-name>
+                     <surname>Branin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">D-C and Transient Analysis of Networks Using a Digital Computer</comment>
+               <fpage>236</fpage>
+               <source>IRE Internat. Conference Rec., part 2</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3074a1310">
+               <label>84</label>
+               
+               <mixed-citation id="d1325553e3081" publication-type="journal">
+H. E. BROWN, G. K. CARTER, H. H. HAPP &amp; C. E. PERSON, "Power flow solution by
+matrix iterative method," Trans. AIEE, v. PAS-82, 1963, part III, p. 1.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <issue>III</issue>
+               <fpage>1</fpage>
+               <volume>PAS-82</volume>
+               <source>Trans. AIEE</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3116a1310">
+               <label>85</label>
+               
+               <mixed-citation id="d1325553e3123" publication-type="journal">
+H. E. BROWN, H. H. HAPP, G. K. CARTER &amp; C. E. PERSON, "Power flow solution by
+impedance matrix iterative method," Trans. AIEE, v. PAS-82, 1963, pp. 561-564.<person-group>
+                     <string-name>
+                     <surname>Brown</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>561</fpage>
+               <volume>PAS-82</volume>
+               <source>Trans. AIEE</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3155a1310">
+               <label>86</label>
+               
+               <mixed-citation id="d1325553e3162" publication-type="journal">
+R. W. CLOUGH, E. L. WILSON &amp; 1. P. KING, "Large capacity multistory frame analysis
+programs," ASCE J. Structural Division, v. 89, 1963, p. 179.<person-group>
+                     <string-name>
+                     <surname>Clough</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>89</volume>
+               <source>ASCE J. Structural Division</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3194a1310">
+               <label>87</label>
+               
+               <mixed-citation id="d1325553e3201" publication-type="journal">
+S. J. FENVES &amp; F. BRANIN, "A network-topological formulation of structural analysis,"
+ASCE J. Structural Division, v. 89, 1963, pp. 483-514.<person-group>
+                     <string-name>
+                     <surname>Fenves</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>483</fpage>
+               <volume>89</volume>
+               <source>ASCE J. Structural Division</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3233a1310">
+               <label>88</label>
+               
+               <mixed-citation id="d1325553e3240" publication-type="book">
+S. J. FENVES, STRESS (Structural Engineering System Solver) A Computer Programming
+System for Structural Engineering Problems, M.I.T. Technical Report T63-2, 1963.<person-group>
+                     <string-name>
+                     <surname>Fenves</surname>
+                  </string-name>
+                  </person-group>
+               <source>STRESS (Structural Engineering System Solver) A Computer Programming System for Structural Engineering Problems</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3266a1310">
+               <label>89</label>
+               
+               <mixed-citation id="d1325553e3273" publication-type="book">
+G. KRON, Diakoptics, Macdonald, London, 1963.<person-group>
+                     <string-name>
+                     <surname>Kron</surname>
+                  </string-name>
+                  </person-group>
+               <source>Diakoptics</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3295a1310">
+               <label>90</label>
+               
+               <mixed-citation id="d1325553e3302" publication-type="journal">
+W. R. SPILLERS, "Network analogy for linear structures," Proc. ASCE J. Engrg. Mech.
+Division, v. 89, 1963, no. EM-4, pp. 21-29.<person-group>
+                     <string-name>
+                     <surname>Spillers</surname>
+                  </string-name>
+                  </person-group>
+               <issue>EM-4</issue>
+               <fpage>21</fpage>
+               <volume>89</volume>
+               <source>Proc. ASCE J. Engrg. Mech. Division</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3337a1310">
+               <label>91</label>
+               
+               <mixed-citation id="d1325553e3344" publication-type="journal">
+W. R. SPILLERS, "Applications of topology in structural analysis," Proc. ASCE J. Structural
+Division, v. 89, 1963, no. ST-4, pp. 301-313.<person-group>
+                     <string-name>
+                     <surname>Spillers</surname>
+                  </string-name>
+                  </person-group>
+               <issue>ST-4</issue>
+               <fpage>301</fpage>
+               <volume>89</volume>
+               <source>Proc. ASCE J. Structural Division</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3379a1310">
+               <label>92</label>
+               
+               <mixed-citation id="d1325553e3386" publication-type="journal">
+M. A. LAUGHTON &amp; M. W. H. DAVIES, "Numerical techniques in solution of power-system
+load-flow problems," Proc. IEEE, v. 111, 1964, p. 1575.<person-group>
+                     <string-name>
+                     <surname>Laughton</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1575</fpage>
+               <volume>111</volume>
+               <source>Proc. IEEE</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3418a1310">
+               <label>93</label>
+               
+               <mixed-citation id="d1325553e3425" publication-type="journal">
+W. R. SPILLERS, "Network techniques applied to structures," Matrix Tensor Quart., v. 15,
+1964, pp. 31-41.<person-group>
+                     <string-name>
+                     <surname>Spillers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>15</volume>
+               <source>Matrix Tensor Quart.</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3457a1310">
+               <label>94</label>
+               
+               <mixed-citation id="d1325553e3464" publication-type="journal">
+R. BAUMANN, "Some new aspects on load-flow calculation: 1-impedance matrix generation
+controlled by network topology," AIEE Trans., v. PAS-85, 1966, pp. 1164-1176.<person-group>
+                     <string-name>
+                     <surname>Baumann</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1164</fpage>
+               <volume>PAS-85</volume>
+               <source>AIEE Trans.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3497a1310">
+               <label>95</label>
+               
+               <mixed-citation id="d1325553e3504" publication-type="conference">
+F. H. BRANIN, JR., The Algebraic-Topological Basis for Network Analogies and the Vector
+Calculus, Proc. Sympos. on Generalized Networks, vol. 16, Microwave Res. Inst. Sympos. Ser.
+Poly. Inst. of Brooklyn, 1963, pp. 453-491.<person-group>
+                     <string-name>
+                     <surname>Branin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Algebraic-Topological Basis for Network Analogies and the Vector Calculus</comment>
+               <fpage>453</fpage>
+               <volume>16</volume>
+               <source>Proc. Sympos. on Generalized Networks</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3542a1310">
+               <label>96</label>
+               
+               <mixed-citation id="d1325553e3549" publication-type="journal">
+F. F. KUO, "Network analysis by digital computer," Proc. IEEE, v. 54, 1966, pp. 820-829.<person-group>
+                     <string-name>
+                     <surname>Kuo</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>820</fpage>
+               <volume>54</volume>
+               <source>Proc. IEEE</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3578a1310">
+               <label>97</label>
+               
+               <mixed-citation id="d1325553e3585" publication-type="book">
+F. F. KUO &amp; J. F. KAISER (Editors), System Analysis by Digital Computer, Wiley, New
+York, 1966.<person-group>
+                     <string-name>
+                     <surname>Kuo</surname>
+                  </string-name>
+                  </person-group>
+               <source>System Analysis by Digital Computer</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3610a1310">
+               <label>98</label>
+               
+               <mixed-citation id="d1325553e3617" publication-type="journal">
+F. H. BRANIN, JR., "Computer methods of network analysis," Proc. IEEE, v. 55, 1967,
+pp. 1787-1801.<person-group>
+                     <string-name>
+                     <surname>Branin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1787</fpage>
+               <volume>55</volume>
+               <source>Proc. IEEE</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3649a1310">
+               <label>99</label>
+               
+               <mixed-citation id="d1325553e3656" publication-type="journal">
+G. H. JENSEN, "Efficient matrix techniques applied to transmission tower design," Proc.
+IEEE, v. 55, 1967, pp. 1997-2000.<person-group>
+                     <string-name>
+                     <surname>Jensen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1997</fpage>
+               <volume>55</volume>
+               <source>Proc. IEEE</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3688a1310">
+               <label>100</label>
+               
+               <mixed-citation id="d1325553e3695" publication-type="conference">
+G. H. JENSEN, Designing Self-Supporting Transmission Towers with the Digital Computer,
+PICA Conference, 1967, pp. 303-319.<person-group>
+                     <string-name>
+                     <surname>Jensen</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Designing Self-Supporting Transmission Towers with the Digital Computer</comment>
+               <fpage>303</fpage>
+               <source>PICA Conference</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3728a1310">
+               <label>101</label>
+               
+               <mixed-citation id="d1325553e3735" publication-type="journal">
+W. F. TINNEY &amp; C. E. HART, "Power flow solution by Newton's method," Trans. AIEE,
+v. PAS-86, 1967, pp. 1449-1460.<person-group>
+                     <string-name>
+                     <surname>Tinney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1449</fpage>
+               <volume>PAS-86</volume>
+               <source>Trans. AIEE</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3767a1310">
+               <label>102</label>
+               
+               <mixed-citation id="d1325553e3774" publication-type="conference">
+A. T. TRIHAUS &amp; R. ZIMERING, A Digital Computer Program for an Exhaustive Fault Study
+of a Large Power System Network, IEEE Power Industry Computer Applications Conference Rec.,
+Pittsburgh, 1967, pp. 343-349.<person-group>
+                     <string-name>
+                     <surname>Trihaus</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A Digital Computer Program for an Exhaustive Fault Study of a Large Power System Network</comment>
+               <fpage>343</fpage>
+               <source>IEEE Power Industry Computer Applications Conference Rec., Pittsburgh</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3809a1310">
+               <label>103</label>
+               
+               <mixed-citation id="d1325553e3816" publication-type="book">
+W. WEAVER, JR., Computer Programs for Structural Analysis, Van Nostrand, Princeton,
+N. J., 1967.<person-group>
+                     <string-name>
+                     <surname>Weaver</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Programs for Structural Analysis</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3841a1310">
+               <label>104</label>
+               
+               <mixed-citation id="d1325553e3848" publication-type="book">
+0. C. ZIENKIEWICZ, The Finite Element Method in Structural and Continuum Mechanics,
+McGraw-Hill, New York, 1967.<person-group>
+                     <string-name>
+                     <surname>Zienkiewicz</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method in Structural and Continuum Mechanics</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3873a1310">
+               <label>105</label>
+               
+               <mixed-citation id="d1325553e3880" publication-type="book">
+J. S. PRZEMIENIECKI, Theory of Matrix Structural Analysis, McGraw-Hill, New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Przemieniecki</surname>
+                  </string-name>
+                  </person-group>
+               <source>Theory of Matrix Structural Analysis</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3902a1310">
+               <label>106</label>
+               
+               <mixed-citation id="d1325553e3909" publication-type="journal">
+W. R. SPILLERS, "Analysis of large structures: Kron's methods and more recent work,"
+Proc. ASCE (To appear.)<person-group>
+                     <string-name>
+                     <surname>Spillers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Proc. ASCE</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3932a1310">
+               <label>107</label>
+               
+               <mixed-citation id="d1325553e3939" publication-type="book">
+G. W. STAGG &amp; A. H. EL-ABIAD, Computer Methods in Power System Analysis, McGraw-
+Hill, New York, 1968.<person-group>
+                     <string-name>
+                     <surname>Stagg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Methods in Power System Analysis</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e3964a1310">
+               <label>108</label>
+               
+               <mixed-citation id="d1325553e3971" publication-type="journal">
+N. SATO &amp; W. F. TINNEY, "Techniques for exploiting the sparsity of the network admittance
+matrix," Trans. AIEE, v. PAS-82, 1963, pp. 944-950.<person-group>
+                     <string-name>
+                     <surname>Sato</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>944</fpage>
+               <volume>PAS-82</volume>
+               <source>Trans. AIEE</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4003a1310">
+               <label>109</label>
+               
+               <mixed-citation id="d1325553e4010" publication-type="journal">
+F. GUSTAVSON, W. LINIGER &amp; R. WILLOUGHBY, "Symbolic generation of an optimal Crout
+algorithm for sparse systems of linear equations," J. Assoc. Comput. Mach., v. 17, 1970, pp. 87-109.<person-group>
+                     <string-name>
+                     <surname>Gustavson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>87</fpage>
+               <volume>17</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4042a1310">
+               <label>110</label>
+               
+               <mixed-citation id="d1325553e4049" publication-type="journal">
+A. BJÖRCK, "Solving linear least squares problems by Gram-Schmidt orthogonalization,"
+Nordisk Tidskr. Informations-Behandling, v. 7, 1967, pp. 1-21. MR 35 #5126.<person-group>
+                     <string-name>
+                     <surname>Björck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>7</volume>
+               <source>Nordisk Tidskr. Informations-Behandling</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4081a1310">
+               <label>111</label>
+               
+               <mixed-citation id="d1325553e4088" publication-type="conference">
+T. S. MOTZKIN, The Assignment Problem, Proc. Sympos. Appl. Math., vol. 6, Amer. Math
+Soc., Providence, R. I., 1956, pp. 109-125. MR 19, 822.<person-group>
+                     <string-name>
+                     <surname>Motzkin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>109</fpage>
+               <volume>6</volume>
+               <source>The Assignment Problem</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4120a1310">
+               <label>112</label>
+               
+               <mixed-citation id="d1325553e4127" publication-type="journal">
+J. MUNKRES, "Algorithms for the assignment and transportation problems," J. Soc.
+Indust. Appl. Math., v. 5, 1957, pp.32-38. MR 19, 1244.<person-group>
+                     <string-name>
+                     <surname>Munkres</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>32</fpage>
+               <volume>5</volume>
+               <source>J. Soc. Indust. Appl. Math.</source>
+               <year>1957</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4160a1310">
+               <label>113</label>
+               
+               <mixed-citation id="d1325553e4167" publication-type="book">
+L. R. FORD, JR. &amp; D. R. FULKERSON, Flows in Networks, Princeton Univ. Press, Princeton,
+N. J., 1962. MR 28 #2917.<person-group>
+                     <string-name>
+                     <surname>Ford</surname>
+                  </string-name>
+                  </person-group>
+               <source>Flows in Networks</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4192a1310">
+               <label>114</label>
+               
+               <mixed-citation id="d1325553e4199" publication-type="journal">
+A. YASPAN, "On finding a maximal assignment," Operations Res., v. 14, 1966, pp. 646-651.<person-group>
+                     <string-name>
+                     <surname>Yaspan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>646</fpage>
+               <volume>14</volume>
+               <source>Operations Res.</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4228a1310">
+               <label>115</label>
+               
+               <mixed-citation id="d1325553e4235" publication-type="book">
+V. V. KLYUYEV &amp; N. I. KOKOVKIN-SHCHERBAK, On the Minimization of the Number of
+Arithmetic Operations for the Solution of Linear Algebraic Systems, Stanford Comput. Sci. Report
+CS-24, 1965.<person-group>
+                     <string-name>
+                     <surname>Klyuyev</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the Minimization of the Number of Arithmetic Operations for the Solution of Linear Algebraic Systems</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1325553e4264a1310">
+               <label>116</label>
+               
+               <mixed-citation id="d1325553e4271" publication-type="book">
+S. WINOGRAD, On the Number of Multiplications Necessary to Compute Certain Functions,
+IBM Watson Research Center, RC 2285, 1968.<person-group>
+                     <string-name>
+                     <surname>Winograd</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the Number of Multiplications Necessary to Compute Certain Functions</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

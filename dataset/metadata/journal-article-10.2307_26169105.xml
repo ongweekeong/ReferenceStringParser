@@ -1,0 +1,188 @@
+<article article-type="research-article" dtd-version="1.0" xml:lang="eng">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="publisher-id">saeintejaltepowe</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019979</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Alternative Powertrains</journal-title>
+         </journal-title-group>
+         <publisher>
+            <publisher-name>SAE International</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">21674191</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">21674205</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26169105</article-id>
+         <title-group>
+            <article-title>A Load Spectrum Data based Data Mining System for Identifying Different Types of Vehicle Usage of a Hybrid Electric Vehicle Fleet</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Bergmeir</surname>
+                  <given-names>Philipp</given-names>
+               </string-name>
+               <aff>Esslingen University of Applied Sciences</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Nitsche</surname>
+                  <given-names>Christof</given-names>
+               </string-name>
+               <aff>Daimler AG</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Nonnast</surname>
+                  <given-names>Jürgen</given-names>
+               </string-name>
+               <aff>Esslingen University of Applied Sciences</aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Bargende</surname>
+                  <given-names>Michael</given-names>
+               </string-name>
+               <aff>University of Stuttgart</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">
+            <day>1</day>
+            <month>5</month>
+            <year>2016</year>
+            <string-date>May 2016</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">5</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">1</issue>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26169099</issue-id>
+         <fpage>50</fpage>
+         <lpage>57</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2016 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26169105"/>
+         <abstract>
+            <label>ABSTRACT</label>
+            <p>In order to achieve high customer satisfaction and to avoid high warranty costs caused by component failures of the power-train of hybrid electric vehicles (HEV), car manufacturers have to optimize the dimensioning of these elements. Hence, it is obligatory for them to gain knowledge about the different types of vehicle usage being predominant all over the world. Therefore, in this paper we present a Data Mining system that employs a Random Forest (RF) based dissimilarity measure in the dimensionality reduction technique t-Distributed Stochastic Neighbor Embedding (t-SNE) to automatically identify and visualize different types of vehicle usage by applying these methods to aggregated logged on-board data, i.e., load spectrum data. This kind of data is calculated and recorded directly on the control units of the vehicles and consists of aggregated numerical data, like the histogram of the velocity signal or the traveled distance of a vehicle. We empirically demonstrate the performance of the proposed Data Mining system by carrying out a real-world case study using load spectrum data of a HEV fleet, containing the logged on-board data of 6670 passenger cars. The results show that the system is able to learn from approximately 700 variables, which describe the usage of each vehicle, a two- or three-dimensional embedding, making it possible to visualize the different types of vehicle usage.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>REFERENCES</title>
+         <ref id="ref1">
+            <label>1.</label>
+            <mixed-citation publication-type="other">Han, J., Kamber, M. and Pei, J., “Data Mining: Concepts and Techniques, Third Edition,” (Boston, Morgan Kaufmann, 2011), 1-38, doi:10.1016/B978-0-12-381479-1.00016-2.</mixed-citation>
+         </ref>
+         <ref id="ref2">
+            <label>2.</label>
+            <mixed-citation publication-type="other">van der Maaten, L.J.P., and Hinton, G.E., “Visualizing High- Dimensional Data Using t-SNE,” Journal of Machine Learning Research 9:2579-2605, 2008.</mixed-citation>
+         </ref>
+         <ref id="ref3">
+            <label>3.</label>
+            <mixed-citation publication-type="other">Tenenbaum, J.B., de Silva, V., and Langford, J.C., “A Global Geometric Framework for Nonlinear Dimensionality Reduction,” Science 290(5500):2319-2323, 2000.</mixed-citation>
+         </ref>
+         <ref id="ref4">
+            <label>4.</label>
+            <mixed-citation publication-type="other">Breiman, L., and Cutler, A., “Random Forests Manual v4.0,” 2003, https://www.stat.berkeley.edu/∼breiman/Using_random_forests_v4.0.pdf, accessed Oct. 2015.</mixed-citation>
+         </ref>
+         <ref id="ref5">
+            <label>5.</label>
+            <mixed-citation publication-type="other">Köhler, M., Jenne, S., Pötter, K. and Zenner, H., “Zählverfahren und Lastannahme in der Betriebsfestigkeit”, (Berlin, Springer, 2012), 1-212, doi:10.1007/978-3-642-13164-6.</mixed-citation>
+         </ref>
+         <ref id="ref6">
+            <label>6.</label>
+            <mixed-citation publication-type="other">Bergmeir, P., Nitsche, C., Nonnast, J., Bargende, M. et al., „Klassifikationsverfahren zur Identifikation von Korrelationen zwischen Antriebsstrangbelastungen und Hybridkomponentenfehlern einer Hybridfahrzeugflotte,” Tag des Promotionskollegs HYBRID, 2014.</mixed-citation>
+         </ref>
+         <ref id="ref7">
+            <label>7.</label>
+            <mixed-citation publication-type="other">Bergmeir, P., Nitsche, C., Nonnast, J., Bargende, M. et al., “Using Balanced Random Forests on Load Spectrum Data for Classifying Component Failures of a Hybrid Electric Vehicle Fleet,” Proceedings of 13th International Conference on Machine Learning and Applications (ICMLA):397-404, 2014, doi: 10.1109/ICMLA.2014.71.</mixed-citation>
+         </ref>
+         <ref id="ref8">
+            <label>8.</label>
+            <mixed-citation publication-type="other">Bergmeir, P., Nitsche, C., Nonnast, J., and Bargende M., “Classifying component failures of a hybrid electric vehicle fleet based on load spectrum,” Neural Computing and Applications: 1-16, 2015, doi:10.1007/s00521-015-2065-y.</mixed-citation>
+         </ref>
+         <ref id="ref9">
+            <label>9.</label>
+            <mixed-citation publication-type="other">Breiman, L., “Random forests,” Machine Learning 45(1):5-32, 2001,doi: 10.1023/A:1010933404324.</mixed-citation>
+         </ref>
+         <ref id="ref10">
+            <label>10.</label>
+            <mixed-citation publication-type="other">Frisk, E., Krysander, M., and Larsson, E., “Data-Driven Lead-Acid Battery Prognostics Using Random Survival Forests,” Proceedings of Annual Conference of the Prognostics and Health Management Society 2014, Texas, Sept. 27-Oct. 3, 2014.</mixed-citation>
+         </ref>
+         <ref id="ref11">
+            <label>11.</label>
+            <mixed-citation publication-type="other">Prytz, R., Nowaczyk, S., Rögnvaldsson, T., and Byttner, S., “Predicting the need for vehicle compressor repairs using maintenance records and logged vehicle data,” Engineering Applications of Artificial Intelligence 41:139-150, 2015.</mixed-citation>
+         </ref>
+         <ref id="ref12">
+            <label>12.</label>
+            <mixed-citation publication-type="other">Hotelling, H., “Analysis of a complex of statistical variable into principal components,” Educational Psychology 24(6):417-441, 1933, doi:10.1037/h0071325.</mixed-citation>
+         </ref>
+         <ref id="ref13">
+            <label>13.</label>
+            <mixed-citation publication-type="other">Torgerson, W.S., “Multidimensional scaling I: Theory and method,” Psychometrika 17(4):401-419, 1952, doi:10.1007/BF02288916.</mixed-citation>
+         </ref>
+         <ref id="ref14">
+            <label>14.</label>
+            <mixed-citation publication-type="other">Mardia, K.V., Kent, J.T., and Bibby, J.M., “Multivariate Analysis,” (London, Academic Press, 1979), ISBN: 0-12-471250-9.</mixed-citation>
+         </ref>
+         <ref id="ref15">
+            <label>15.</label>
+            <mixed-citation publication-type="other">Sammon, J.W., “A nonlinear mapping for data structure analysis,” IEEE Transactions on Computers C-18(5):401-409, 1969, doi:10.1109/T-C.1969.222678.</mixed-citation>
+         </ref>
+         <ref id="ref16">
+            <label>16.</label>
+            <mixed-citation publication-type="other">Roweis, S.T., and Saul, L.K., “Nonlinear dimensionality reduction by Locally Linear Embedding,” Science 290(5500): 2323-2326, 2000, doi:10.1126/science.290.5500.2323.</mixed-citation>
+         </ref>
+         <ref id="ref17">
+            <label>17.</label>
+            <mixed-citation publication-type="other">Ji, S., “Computational genetic neuroanatomy of the developing mouse brain: dimensionality reduction, visualization, and clustering,” BMC Bioinformatics 14(222):1-14, 2013.</mixed-citation>
+         </ref>
+         <ref id="ref18">
+            <label>18.</label>
+            <mixed-citation publication-type="other">Laczny, C.C., Pinel, N., Vlassis, N., and Wilmes, P., “Alignmentfree Visualization of Metagenomic Data by Nonlinear Dimension Reduction,” Scientific Reports 4:1-12, 2014, doi:10.1038/srep04516.</mixed-citation>
+         </ref>
+         <ref id="ref19">
+            <label>19.</label>
+            <mixed-citation publication-type="other">Hinton, G.E., and Roweis, S.T., “Stochastic Neighbor Embedding,” Advances in Neural Information Processing Systems 15:833-840, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref20">
+            <label>20.</label>
+            <mixed-citation publication-type="other">van der Maaten, L.J.P., “Accelerating t-SNE using Tree-Based Algorithms,” Journal of Machine Learning Research 15:3221-3245, 2014.</mixed-citation>
+         </ref>
+         <ref id="ref21">
+            <label>21.</label>
+            <mixed-citation publication-type="other">Shi, T., and Horvath, S., “Unsupervised Learning With Random Forest Predictors,” Journal of Computational and Graphical Statistics 15(1):118-138, 2006, doi:10.1198/106186006X94072.</mixed-citation>
+         </ref>
+         <ref id="ref22">
+            <label>22.</label>
+            <mixed-citation publication-type="other">Krijthe, J., Rtsne: T-Distributed Stochastic Neighbor Embedding using Barnes-Hut Implementation (R package version 0.10), Computer Software, 2015.</mixed-citation>
+         </ref>
+         <ref id="ref23">
+            <label>23.</label>
+            <mixed-citation publication-type="other">Oksanen, J., Blanchet, F.G., Kindt, R., and Legendre, P. et al., vegan: Community Ecology Package (R package version 2.3-0), Computer Software, 2015.</mixed-citation>
+         </ref>
+         <ref id="ref24">
+            <label>24.</label>
+            <mixed-citation publication-type="other">Diedrich, H., and Abel, M., lle: Locally linear embedding (R package version 1.1), Computer Software, 2012.</mixed-citation>
+         </ref>
+         <ref id="ref25">
+            <label>25.</label>
+            <mixed-citation publication-type="other">Liaw, A., and Wiener, M., “Classification and Regression by randomForest,” R News 2(3):18-22, 2002.</mixed-citation>
+         </ref>
+         <ref id="ref26">
+            <label>26.</label>
+            <mixed-citation publication-type="other">TomTom International BV, “TomTom Traffic Index -Measuring Congestion Worldwide,” https://www.tomtom.com/en_gb/trafficindex/#/ list, accessed Oct. 2015.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

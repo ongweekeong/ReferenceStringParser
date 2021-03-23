@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article dtd-version="1.0" article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019979</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jcode">saeintejaltepowe</journal-id>
+         <journal-title-group>
+            <journal-title>SAE International Journal of Alternative Powertrains</journal-title>
+         </journal-title-group>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">21674191</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">21674205</issn>
+         <publisher>
+            <publisher-name specific-use="jstor-licensing-publisher">SAE International</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id xmlns:xlink="http://www.w3.org/1999/xlink" pub-id-type="jstor">26789702</article-id>
+         <title-group>
+            <article-title>Predictive Multi-Objective Operation Strategy Considering Battery Cycle Aging for Hybrid Electric Vehicles</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Li</surname>
+                  <given-names>Jiao</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Huber</surname>
+                  <given-names>Thomas</given-names>
+               </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+               <string-name xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <surname>Beidl</surname>
+                  <given-names>Christian</given-names>
+               </string-name>
+            </contrib>
+         </contrib-group>
+
+         <pub-date xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                   xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">
+            <day>1</day>
+            <month>1</month>
+            <year>2018</year>
+            <string-date>2018</string-date>
+         </pub-date>
+         <volume xmlns:xlink="http://www.w3.org/1999/xlink">7</volume>
+         <issue xmlns:xlink="http://www.w3.org/1999/xlink">3</issue>
+         <issue-title xmlns:xlink="http://www.w3.org/1999/xlink">WCX18 Best Papers Special Issue</issue-title>
+         <issue-id xmlns:xlink="http://www.w3.org/1999/xlink">e26789698</issue-id>
+         <fpage>217</fpage>
+         <lpage>232</lpage>
+         <permissions>
+            <copyright-statement>Copyright © 2018 SAE International</copyright-statement>
+         </permissions>
+         <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="https://www.jstor.org/stable/26789702"/>
+         <abstract xml:lang="eng">
+            <p>Due to the new CO₂ targets for vehicles, electrification of powertrains and operation strategies for electrified powertrains have drawn more attention. This article presents a predictive multi-objective operation strategy for hybrid electric vehicles (HEVs), which simultaneously minimizes the fuel consumption and the cycle aging of traction batteries. This proposed strategy shows better performance by using predictive information and high robustness to inaccuracy of predictive information.</p>
+            <p>In this work, the benefits of the developed operation strategies are demonstrated in a strong hybrid electric vehicle (sHEV) with P2-configuration. For the cycle aging of a lithium-ion battery, an empirical model is built up with Gaussian processes based on experimental data. Two different optimization algorithms “Deterministic Dynamic Programming” (DDP) and extended “Multi-Objective Equivalent Consumption Minimization Strategy” (MO-ECMS) are carried out with a priori knowledge of cycle information to obtain the Pareto front between fuel consumption and battery cycle aging. In Worldwide harmonized Light vehicles Test Cycle (WLTC), halved battery cycle aging leads to 4% more fuel consumption compared with the original Equivalent Consumption Minimization Strategy (ECMS).</p>
+            <p>In order to achieve the maximal potential of the multi-objective operation strategy for in-vehicle optimization, two variants of predictive Multi-Objective Equivalent Consumption Minimization Strategy (pMO-ECMS), i.e., adaptive and causal MO-ECMS, are further developed based on the MO-ECMS. Different methods are considered to incorporate predictive information into the operation strategies. For example, the navigation-based road information is used to modify parameters of the pMO-ECMS; a reference State of Charge (SoC) trajectory is generated with estimated vehicle speed and road slope. The performance of the pMO-ECMS with respect to the MO-ECMS is evaluated with ideally and roughly estimated speed profile. In further development, the simulation results will be validated in an experimental vehicle.</p>
+         </abstract>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+      <ref-list content-type="unparsed-citations">
+         <title>References</title>
+         <ref id="r1">
+            <label>1.</label>
+            <mixed-citation id="c1">European Union, “Regulation (EC) No. 443/2009 of the European Parliament and of the Council of 23 April 2009 Setting Emission Performance Standards for New Passenger Cars as Part of the Community’s Integrated Approach to Reduce CO2 Emissions from Light-Duty Vehicles,” Official Journal of the European Union, Sept. 2009.</mixed-citation>
+         </ref>
+         <ref id="r2">
+            <label>2.</label>
+            <mixed-citation id="c2">Guzzella, L. and Sciarretta, A., Vehicle Propulsion Systems: Introduction to Modeling and Optimization Third Edition (Berlin: Springer-Verlag, 2013), doi:10.1007/978-3-642-35913-2.</mixed-citation>
+         </ref>
+         <ref id="r3">
+            <label>3.</label>
+            <mixed-citation id="c3">Vadamalu, R. and Beidl, C., “Online Optimization Based Predictive Energy Management Functionality of Plug-in Hybrid Powertrain Using Trajectory Planning Methods,” SAE Technical Paper 2017-01-1254, 2017, doi:10.4271/2017-01-1254.</mixed-citation>
+         </ref>
+         <ref id="r4">
+            <label>4.</label>
+            <mixed-citation id="c4">Zhou, B., Burl, J., and Rezaei, A., “Hybrid Electric Vehicle Battery Aging Estimation and Economic Analysis Based on Equivalent Consumption Minimization Strategy,” SAE Technical Paper 2017-01-1251, 2017, doi:10.4271/2017-01-1251.</mixed-citation>
+         </ref>
+         <ref id="r5">
+            <label>5.</label>
+            <mixed-citation id="c5">Serrao, L., Sciarretta, A., Grondin, O., Chasse, A. et al., “Open Issues in Supervisory Control of Hybrid Electric Vehicles: A Unified Approach Using Optimal Control Methods,” Oil &amp; Gas Science and Technology-Revue d’IFP Energies nouvelles 68(1):23-33, 2013, doi:10.2516/ogst/2012080.</mixed-citation>
+         </ref>
+         <ref id="r6">
+            <label>6.</label>
+            <mixed-citation id="c6">Barré, A., Deguilhem, B., Grolleau, S., Gérard, M. et al., “A Review on Lithium-Ion Battery Aging Mechanisms and Estimations for Automotive Applications,” Journal of Power Sources 241:680-689, 2013, doi:10.1016/j. jpowsour.2013.05.040.</mixed-citation>
+         </ref>
+         <ref id="r7">
+            <label>7.</label>
+            <mixed-citation id="c7">Vetter, J., Novák, P., Wagner, M.R., Veit, C. et al., “Aging Mechanisms in Lithium-Ion Batteries,” Journal of Power Sources 147(1-2):269-281, 2005, doi:10.1016/j. jpowsour.2005.01.006.</mixed-citation>
+         </ref>
+         <ref id="r8">
+            <label>8.</label>
+            <mixed-citation id="c8">Farmann, A., Waag, W., Marongiu, A., and Sauer, D.U., “Critical Review of On-Board Capacity Estimation Techniques for Lithium-Ion Batteries in Electric and Hybrid Electric Vehicles,” Journal of Power Sources 281:114-130, 2015, doi:10.1016/j.jpowsour.2015.01.129.</mixed-citation>
+         </ref>
+         <ref id="r9">
+            <label>9.</label>
+            <mixed-citation id="c9">Zou, C.F., Hu, X.S., Dey, S., Zhang, L. et al., “Nonlinear Fractional-Order Estimator with Guaranteed Robustness and Stability for Lithium-Ion Batteries,” IEEE Transactions on Industrial Electronics 65-7:5951-5961, 2018, doi:10.1109/TIE.2017.2782691.</mixed-citation>
+         </ref>
+         <ref id="r10">
+            <label>10.</label>
+            <mixed-citation id="c10">Zou, C.F., Hu, X.S., Wei, Z.B., and Tang, X.L., “Electrothermal Dynamics-Conscious Lithium-Ion Battery Cell-Level Charging Management via State-Monitored Predictive Control,” Energy 141:250-259, 2017, doi:10.1016/j. energy.2017.09.048.</mixed-citation>
+         </ref>
+         <ref id="r11">
+            <label>11.</label>
+            <mixed-citation id="c11">Mohajer, S., Sabatier, J., Lanusse, P., and Cois, O., “A Fractional-Order Electro-Thermal Aging Model for Lifetime Enhancement of Lithium-Ion Batteries,” IFACPapersOnLine 51-2:220-225, 2018, doi:10.1016/j. ifacol.2018.03.038.</mixed-citation>
+         </ref>
+         <ref id="r12">
+            <label>12.</label>
+            <mixed-citation id="c12">Liu, G.M., Ouyang, M.G., Lu, L.G., Li, J.Q. et al., “Online Estimation of Lithium-Ion Battery Remaining Discharge Capacity through Differential Voltage Analysis,” Journal of Power Sources 274:971-989, 2015, doi:10.1016/j. jpowsour.2014.10.132.</mixed-citation>
+         </ref>
+         <ref id="r13">
+            <label>13.</label>
+            <mixed-citation id="c13">Li, S., Maiterth, J.M., Senft, S., Hülshorst, T. et al., “Considering the Aging of Lithium-Ion Battery in the Operation Strategy for Hybrid Commercial Vehicles,” Presented at Automobile and Engine Technology: 25. Aachen Colloquium, Aachen, Germany, Oct. 10-12, 2016.</mixed-citation>
+         </ref>
+         <ref id="r14">
+            <label>14.</label>
+            <mixed-citation id="c14">Vadamalu, R. and Beidl, C., “Online Optimization Based Energy Management of Hybrid Electric Vehicles Using Direct Optimal Control,” Proceedings of 16. Internationales Stuttgarter Symposium, 2016, 855-871, doi:10.1007/978-3-658-13255-2_63.</mixed-citation>
+         </ref>
+         <ref id="r15">
+            <label>15.</label>
+            <mixed-citation id="c15">Serrao, L., Onori, S., Sciarretta, A., Guezennec, Y. et al., “Optimal Energy Management of Hybrid Electric Vehicles Including Battery Aging,” Proceedings of the 2011 American Control Conference, San Francisco, CA, 2011, 2125-2130, doi:10.1109/ACC.2011.5991576.</mixed-citation>
+         </ref>
+         <ref id="r16">
+            <label>16.</label>
+            <mixed-citation id="c16">Ebbesen, S., Elbert, P., and Guzzella, L., “Battery State-of- Health Perceptive Energy Management for Hybrid Electric Vehicles,” IEEE Transactions on Vehicular Technology 61(7):2893-2900, 2012, doi:10.1109/TVT.2012.2203836.</mixed-citation>
+         </ref>
+         <ref id="r17">
+            <label>17.</label>
+            <mixed-citation id="c17">Moura, S.J., Stein, J.L., and Fathy, H.K., “Battery-Health Conscious Power Management in Plug-In Hybrid Electric Vehicles via Electrochemical Modeling and Stochastic Control,” IEEE Transactions on Control Systems Technology 21(3):679-694, 2013, doi:10.1109/TCST.2012.2189773.</mixed-citation>
+         </ref>
+         <ref id="r18">
+            <label>18.</label>
+            <mixed-citation id="c18">Ambühl, D., “Energy Management Strategies for Hybrid Electric Vehicles,” Ph.D. thesis, Department of Mechanical and Process Engineering, Institute for Dynamic Systems and Control, ETH Zurich, Zürich, 2009.</mixed-citation>
+         </ref>
+         <ref id="r19">
+            <label>19.</label>
+            <mixed-citation id="c19">Cassebaum, O. and Bäker, B., “Predictive Supervisory Control Strategy for Parallel HEVs Using Former Velocity Trajectories,” IEEE Vehicle Power and Propulsion Conference, 2011, 1-6, doi:10.1109/VPPC.2011.6043003.</mixed-citation>
+         </ref>
+         <ref id="r20">
+            <label>20.</label>
+            <mixed-citation id="c20">Zhang, C., Vahidi, A., Pisu, P., Li, X. et al., “Role of Terrain Preview in Energy Management of Hybrid Electric Vehicles,” IEEE Transactions on Vehicular Technology 59(3):1139-1147, 2010, doi:10.1109/TVT.2009.2038707.</mixed-citation>
+         </ref>
+         <ref id="r21">
+            <label>21.</label>
+            <mixed-citation id="c21">Mohd Zulkefli, M.A., Zheng, J., Sun, Z., and Liu, H.X., “Hybrid Powertrain Optimization with Trajectory Prediction Based on Inter-Vehicle-Communication and Vehicle-Infrastructure-Integration,” Transportation Research Part C: Emerging Technologies 45:41-63, 2014, doi:10.1016/j. trc.2014.04.011.</mixed-citation>
+         </ref>
+         <ref id="r22">
+            <label>22.</label>
+            <mixed-citation id="c22">Kutter, S., “Eine Prädiktive und Optimierungsbasierte Betriebsstrategie für Autarke und Extern Nachladbare Hybridfahrzeuge,” Ph.D. thesis, “Friedrich List” Faculty of Transport and Traffic Sciences, TU Dresden, Dresden, 2013.</mixed-citation>
+         </ref>
+         <ref id="r23">
+            <label>23.</label>
+            <mixed-citation id="c23">Bleek, A., “Nutzung Prädiktiver Daten zum Optimalen Betrieb eines Antriebsstrangs,” Master thesis, Fakultät für Maschinenbau und Schiffstechnik, University of Rostock, Rostock, 2016.</mixed-citation>
+         </ref>
+         <ref id="r24">
+            <label>24.</label>
+            <mixed-citation id="c24">Li, J., “Senkung des Energieverbrauchs von Hybridfahrzeugen durch Berücksichtigung dynamischer Verkehrsinformationen,” Master thesis, Institute for Automotive Engineering (IKA), RWTH Aachen University, Aachen, 2015.</mixed-citation>
+         </ref>
+         <ref id="r25">
+            <label>25.</label>
+            <mixed-citation id="c25">Li, L., You, S., Yang, C., Yan, B. et al., “Driving-Behavior- Aware Stochastic Model Predictive Control for Plug-In Hybrid Electric Buses,” Applied Energy 162:868-879, 2016, doi:10.1016/j.apenergy.2015.10.152.</mixed-citation>
+         </ref>
+         <ref id="r26">
+            <label>26.</label>
+            <mixed-citation id="c26">Beck, R., Bollig, A., and Abel, D., “Comparison of Two Real- Time Predictive Strategies for the Optimal Energy Management of a Hybrid Electric Vehicle,” Oil &amp; Gas Science and Technology-Revue de l’IFP 62(4):635-643, 2007, doi:10.2516/ogst:2007038.</mixed-citation>
+         </ref>
+         <ref id="r27">
+            <label>27.</label>
+            <mixed-citation id="c27">White, L. and Herzhauser, E., “Documentation of Powertrain Model Porsche Panamera S Hybrid,” Unpublished internal document, Robert Bosch GmbH, Stuttgart, 2013.</mixed-citation>
+         </ref>
+         <ref id="r28">
+            <label>28.</label>
+            <mixed-citation id="c28">Schmalstieg, J., Käbitz, S., Ecker, M., and Sauer, D.U., “A Holistic Aging Model for Li(NiMnCo)O2 Based 18650 Lithium-Ion Batteries,” Journal of Power Sources 257:325-334, 2014, doi:10.1016/j.jpowsour.2014.02.012.</mixed-citation>
+         </ref>
+         <ref id="r29">
+            <label>29.</label>
+            <mixed-citation id="c29">ETAS, “ETAS ASCMO Static V5.1: User’s Guide,” 2015, Retrieved from https://www.etas.com/download-center-files/products_ASCMO/ETAS_ASCMO_Static_V5.1_EN.pdf.</mixed-citation>
+         </ref>
+         <ref id="r30">
+            <label>30.</label>
+            <mixed-citation id="c30">Behr, L. et al., “Increased Efficiency in the Calibration Process of Automotive Li-Ion Battery Systems,” Proceedings of 16. Internationales Stuttgarter Symposium, 2016, 101-115, doi:10.1007/978-3-658-13255-2_9.</mixed-citation>
+         </ref>
+         <ref id="r31">
+            <label>31.</label>
+            <mixed-citation id="c31">Cho, Y., Huber, T., Lauff, U., and Reddy, R., “Optimisation of Gasoline Engines - Automation and Machine Learning Techniques in Calibration,” ATZelektronik Worldwide 3, 2017, doi:10.1007/s38314-017-0031-4.</mixed-citation>
+         </ref>
+         <ref id="r32">
+            <label>32.</label>
+            <mixed-citation id="c32">Sundstrom, O. and Guzzella, L., “A Generic Dynamic Programming Matlab Function,” IEEE Control Applications, (CCA) &amp; Intelligent Control, (ISIC) 1625-1630, 2009, doi:10.1109/CCA.2009.5281131.</mixed-citation>
+         </ref>
+         <ref id="r33">
+            <label>33.</label>
+            <mixed-citation id="c33">Pontryagin, L.S., Mathematical Theory of Optimal Processes (CRC Press, 1987). ISBN:9782881240775.</mixed-citation>
+         </ref>
+         <ref id="r34">
+            <label>34.</label>
+            <mixed-citation id="c34">Geering, H.P., Optimal Control with Engineering Applications (Berlin: Springer-Verlag, 2007), doi:10.1007/978-3-540-69438-0.</mixed-citation>
+         </ref>
+         <ref id="r35">
+            <label>35.</label>
+            <mixed-citation id="c35">Hu, X.S., Wang, H., and Tang, X.L., “Cyber-Physical Control for Energy-Saving Vehicle Following with Connectivity,” IEEE Transactions on Industrial Electronics 64-11:8578-8587, 2017, doi:10.1109/TIE.2017.2703673.</mixed-citation>
+         </ref>
+         <ref id="r36">
+            <label>36.</label>
+            <mixed-citation id="c36">Monica, T., Pierre, B., Biagio, C., Takahiro, H. et al., “Development of the World-Wide Harmonized Light Duty Test Cycle (WLTC) and a Possible Pathway for its Introduction in the European Legislation,” Transportation Research Part D Transport and Environment 40:61-75, 2015, doi:10.1016/j.trd.2015.07.011.</mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+   <floats-group>
+      <fig>
+         <label>TABLE 1</label>
+         <caption id="ca-1">
+            <p>Major parameters of the vehicle model.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 1</label>
+         <caption id="ca-2">
+            <p>The signal flow in the simulation model.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 2</label>
+         <caption id="ca-3">
+            <p>The heuristic shift strategy in the simulation model.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 3</label>
+         <caption id="ca-4">
+            <p>The friction and pump loss map of transmission.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 4</label>
+         <caption id="ca-5">
+            <p>The specific fuel consumption map of ICE.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 5</label>
+         <caption id="ca-6">
+            <p>The efficiency map of E-Drive.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 6</label>
+         <caption id="ca-7">
+            <p>The equivalent circuit model of battery.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 7</label>
+         <caption id="ca-8">
+            <p>The severity factor under the operating conditions with the temperature 35°C, the charging C-rate 1C, and the SoC swing 40%.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 8</label>
+         <caption id="ca-9">
+            <p>The speed profile of WLTC.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 2</label>
+         <caption id="ca-10">
+            <p>The value of different weighting factors for capacity loss β.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 9</label>
+         <caption id="ca-11">
+            <p>The Pareto fronts between fuel consumption and capacity loss-based battery cycle aging for WLTC by DDP and MO-ECMS.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 10</label>
+         <caption id="ca-12">
+            <p>The electrical energy distribution for different β in MO-ECMS.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 11</label>
+         <caption id="ca-13">
+            <p>The impact of β on electrical power from load point shift and recuperation over time.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 12</label>
+         <caption id="ca-14">
+            <p>The impact of β on all the operation modes (0, stand; 1, brake; 2, recuperation with brake; 3, recuperation; 4, load point shift; 5, ICE-driving; 6, boost; 7, pure e-driving).</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 13</label>
+         <caption id="ca-15">
+            <p>The operation modes for positive power demand from the global optimal MO-ECMS with β₁ in WLTC (ED: pure e-driving).</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 3</label>
+         <caption id="ca-16">
+            <p>The empirical value of s₀ for different road types.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 14</label>
+         <caption id="ca-17">
+            <p>The flow diagram for generating SoC<sub>ref</sub>.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 4</label>
+         <caption id="ca-18">
+            <p>The default parameters for (multi-objective) operation strategies without predictive information.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 15</label>
+         <caption id="ca-19">
+            <p>The ideally and roughly estimated speed profile for WLTC and corresponding s₀ as well as SoC<sub>ref</sub> from the prediction module.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 5</label>
+         <caption id="ca-20">
+            <p>The explanation of symbols for different variants in Figure 16.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>FIGURE 16</label>
+         <caption id="ca-21">
+            <p>Simulation results of different predictive (multi-objective) operation strategies.</p>
+         </caption>
+      </fig>
+      <fig>
+         <label>TABLE 6</label>
+         <caption id="ca-22">
+            <p>Comparison results of different variants with respect to MO-ECMS.</p>
+         </caption>
+      </fig>
+   </floats-group>
+</article>

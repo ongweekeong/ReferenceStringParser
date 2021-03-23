@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">67</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">221</issue>
+         <issue-id>i344561</issue-id>
+         <article-id pub-id-type="jstor">2584973</article-id>
+         
+         <title-group>
+            <article-title>Total Variation Diminishing Runge-Kutta Schemes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Sigal</given-names>
+                  <surname>Gottlieb</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Chi-Wang</given-names>
+                  <surname>Shu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1998</year>
+         </pub-date>
+         <fpage>73</fpage>
+         <lpage>85</lpage>
+         <page-range>73-85</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1998 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584973"/>
+         
+         
+         <abstract>
+            <p>In this paper we further explore a class of high order TVD (total variation diminishing) Runge-Kutta time discretization initialized in a paper by Shu and Osher, suitable for solving hyperbolic conservation laws with stable spatial discretizations. We illustrate with numerical examples that non-TVD but linearly stable Runge-Kutta time discretization can generate oscillations even for TVD (total variation diminishing) spatial discretization, verifying the claim that TVD Runge-Kutta methods are important for such applications. We then explore the issue of optimal TVD Runge-Kutta methods for second, third and fourth order, and for low storage Runge-Kutta methods.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(98)00913-2</kwd>
+            <kwd>65M20</kwd>
+            <kwd>65L06</kwd>
+            <kwd>Runge-Kutta Method</kwd>
+            <kwd>High Order</kwd>
+            <kwd>TVD</kwd>
+            <kwd>Low Storage</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d749336e157a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d749336e164" publication-type="book">
+M. Carpenter and C. Kennedy, Fourth-order 2N-storage Runge-Kutta schemes, NASA TM
+109112, NASA Langley Research Center, June 1994.<person-group>
+                     <string-name>
+                     <surname>Carpenter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fourth-order 2N-storage Runge-Kutta schemes</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e189a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d749336e196" publication-type="journal">
+B. Cockburn and C.-W. Shu, TVB Runge-Kutta local projection discontinuous Galerkin finite
+element method for conservation laws II: general framework, Math. Comp., v52, 1989, pp.411-
+435. MR 90k:65160<object-id pub-id-type="doi">10.2307/2008474</object-id>
+               <fpage>411</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e215a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d749336e222" publication-type="journal">
+B. Cockburn, S. Hou and C.-W. Shu, TVB Runge-Kutta local projection discontinuous
+Galerkin finite element method for conservation laws IV: the multidimensional case, Math.
+Comp., v54, 1990, pp.545-581. MR 90k:65162<object-id pub-id-type="doi">10.2307/2008501</object-id>
+               <fpage>545</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e241a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d749336e248" publication-type="journal">
+A. Harten, High resolution schemes for hyperbolic conservation laws, J. Comput. Phys., v49,
+1983, pp.357-393. MR 84g:65115<person-group>
+                     <string-name>
+                     <surname>Harten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>357</fpage>
+               <volume>v49</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e281a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d749336e288" publication-type="journal">
+A. Harten, B. Engquist, S. Osher and S. Chakravarthy, Uniformly high order accurate essen-
+tially non-oscillatory schemes, III, J. Comput. Phys., v71, 1987, pp.231-303. MR 90a:65199<person-group>
+                     <string-name>
+                     <surname>Harten</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>231</fpage>
+               <volume>v71</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e320a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d749336e327" publication-type="journal">
+Z. Jackiewicz, R. Renaut and A. Feldstein, Two-step Runge-Kutta methods, SIAM J. Numer.
+Anal, v28, 1991, pp.1165-1182. MR 92f:65083<object-id pub-id-type="jstor">10.2307/2157792</object-id>
+               <fpage>1165</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e343a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d749336e350" publication-type="journal">
+M. Nakashima, Embedded pseudo-Runge-Kutta methods, SIAM J. Numer. Anal, v28, 1991,
+pp.1790-1802. MR 92h:65112<object-id pub-id-type="jstor">10.2307/2157960</object-id>
+               <fpage>1790</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e366a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d749336e373" publication-type="journal">
+S. Osher and S. Chakravarthy, High resolution schemes and the entropy condition, SIAM J.
+Numer. Anal., v21, 1984, pp.955-984. MR 86a:65086<object-id pub-id-type="jstor">10.2307/2156937</object-id>
+               <fpage>955</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e389a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d749336e396" publication-type="book">
+A. Ralston, A First Course in Numerical Analysis, McGraw-Hill, New York, 1965. MR
+32:8479<person-group>
+                     <string-name>
+                     <surname>Ralston</surname>
+                  </string-name>
+                  </person-group>
+               <source>A First Course in Numerical Analysis</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e421a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d749336e428" publication-type="journal">
+C.-W. Shu, TVB uniformly high order schemes for conservation laws, Math. Comp., v49,
+1987, pp.105-121. MR 89b:65208<object-id pub-id-type="doi">10.2307/2008252</object-id>
+               <fpage>105</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e445a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d749336e452" publication-type="journal">
+C.-W. Shu, Total-variation-diminishing time discretizations, SIAM J. Sci. Stat. Comput., v9,
+1988, pp.1073-1084. MR 90a:65196<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1073</fpage>
+               <volume>v9</volume>
+               <source>SIAM J. Sci. Stat. Comput.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e484a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d749336e491" publication-type="journal">
+C.-W. Shu and S. Osher, Efficient implementation of essentially non-oscillatory shock-
+capturing schemes, J. Comput. Phys., v77, 1988, pp.439-471. MR 89g:65113<person-group>
+                     <string-name>
+                     <surname>Shu</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>439</fpage>
+               <volume>v77</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e523a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d749336e530" publication-type="journal">
+P.K. Sweby, High resolution schemes using flux limiters for hyperbolic conservation laws,
+SIAM J. Numer. Anal., v21, 1984, pp.995-1011. MR 85m:65085<object-id pub-id-type="jstor">10.2307/2156939</object-id>
+               <fpage>995</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e546a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d749336e553" publication-type="journal">
+B. van Leer, Towards the ultimate conservative difference scheme V. A second order sequel
+to Godunov's method, J. Comput. Phys., v32, 1979, pp.101-136.<person-group>
+                     <string-name>
+                     <surname>van Leer</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>101</fpage>
+               <volume>v32</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d749336e585a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d749336e592" publication-type="journal">
+J.H. Williamson, Low-storage Runge-Kutta schemes,J. Comput. Phys., v35, 1980, pp.48-56.
+MR 81a:65070<person-group>
+                     <string-name>
+                     <surname>Williamson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>48</fpage>
+               <volume>v35</volume>
+               <source>J. Comput. Phys.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

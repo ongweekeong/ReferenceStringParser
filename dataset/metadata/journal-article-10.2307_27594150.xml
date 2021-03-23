@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">14</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i27594145</issue-id>
+         <article-id pub-id-type="jstor">27594150</article-id>
+         <article-id pub-id-type="pub-doi">10.1198/106186005X76983</article-id>
+         <title-group>
+            <article-title>Markov Chain Monte Carlo Using an Approximation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>J. Andrés</given-names>
+                  <surname>Christen</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Colin</given-names>
+                  <surname>Fox</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2005</year>
+         </pub-date>
+         <fpage>795</fpage>
+         <lpage>810</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2005 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/27594150"/>
+      
+      
+         <abstract>
+            <p>This article presents a method for generating samples from an unnormalized posterior distribution f(·) using Markov chain Monte Carlo (MCMC) in which the evaluation of f(·) is very difficult or computationally demanding. Commonly, a less computationally demanding, perhaps local, approximation to f(·) is available, say $f_{x}^{\ast}\ $(·). An algorithm is proposed to generate an MCMC that uses such an approximation to calculate acceptance probabilities at each step of a modified Metropolis–Hastings algorithm. Once a proposal is accepted using the approximation, f(·) is calculated with full precision ensuring convergence to the desired distribution. We give sufficient conditions for the algorithm to converge to f(·) and give both theoretical and practical justifications for its usage. Typical applications are in inverse problems using physical data models where computing time is dominated by complex model simulation. We outline Bayesian inference and computing for inverse problems. A stylized example is given of recovering resistor values in a network from electrical measurements made at the boundary. Although this inverse problem has appeared in studies of underground reservoirs, it has primarily been chosen for pedagogical value because model simulation has precisely the same computational structure as a finite element method solution of the complete electrode model used in conductivity imaging, or "electrical impedance tomography." This example shows a dramatic decrease in CPU time, compared to a standard Metropolis—Hastings algorithm.</p>
+         </abstract>
+         <kwd-group>
+            <kwd>Conductivity imaging</kwd>
+            <kwd>Impedance tomography</kwd>
+            <kwd>Inverse problems</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d932504e168a1310">
+          
+            <mixed-citation id="d932504e172" publication-type="other">
+Andersen, K. E., Brooks, S. P., and Hansen, M. B. (2003), "Bayesian Inversion of Geoelectrical Resistivity Data,"
+Journal of the Royal Statistical Society, Series B, 65, 619–642.</mixed-citation>
+        </ref>
+        <ref id="d932504e182a1310">
+          
+            <mixed-citation id="d932504e186" publication-type="other">
+Arridge, S. R. (1999), "Optical Tomography in Medical Imaging," Inverse Problems, 15, R41—R93.</mixed-citation>
+        </ref>
+        <ref id="d932504e193a1310">
+          
+            <mixed-citation id="d932504e197" publication-type="other">
+Cornford, D., Csató, L., Evans, D. J., and Opper, M. (2004), "Bayesian Analysis of the Scatterometer Wind
+Retrieval Inverse Problems: Some New Approaches," Journal of the Royal Statistical Society, Series B, 66,
+609–626.</mixed-citation>
+        </ref>
+        <ref id="d932504e210a1310">
+          
+            <mixed-citation id="d932504e214" publication-type="other">
+Fox, C., and Nicholls, G. (1997), "Sampling Conductivity Images via MCMC," in The Art and Science of Bayesian
+Image Analysis, eds. K. V. Mardia, C. A. Gill, and dR. G. Aykroyd, Proceedings of the Leeds Annual Statistical
+Research Workshop (LASR), July 1997, Leeds University Press, pp. 91–100.</mixed-citation>
+        </ref>
+        <ref id="d932504e228a1310">
+          
+            <mixed-citation id="d932504e232" publication-type="other">
+—(1998), "Physically-Based Likelihood for Ultrasound Imaging," in Bayesian Inference for Inverse Prob-
+lems, Proceedings of SPIE 3459, pp. 92–99.</mixed-citation>
+        </ref>
+        <ref id="d932504e242a1310">
+          
+            <mixed-citation id="d932504e246" publication-type="other">
+Geman, S., and Geman, D. (1984), "Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of
+Images," IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, 721–741.</mixed-citation>
+        </ref>
+        <ref id="d932504e256a1310">
+          
+            <mixed-citation id="d932504e260" publication-type="other">
+Green, P. J., and Mira, A. (2001), "Delayed Rejection in Reversible Jump Metropolis-Hastings," Biometrika, 88,
+1035–1053.</mixed-citation>
+        </ref>
+        <ref id="d932504e270a1310">
+          
+            <mixed-citation id="d932504e274" publication-type="other">
+Greenleaf, J. F. (1983), "Computerized Tomography with Ultrasound," Proceedings of the IEEE, 71, pp. 330–337.</mixed-citation>
+        </ref>
+        <ref id="d932504e281a1310">
+          
+            <mixed-citation id="d932504e285" publication-type="other">
+Grenander, U., and Miller, M. (1994), "Representations of Knowledge in Complex Systems," Journal of the Royal
+Statistical Society, Series B, 56, 549–603.</mixed-citation>
+        </ref>
+        <ref id="d932504e295a1310">
+          
+            <mixed-citation id="d932504e299" publication-type="other">
+Haario, H., Laine, M., Lehtinen, M., Saksman, E., and Tamminen, J. (2004), "Markov Chain Monte Carlo Methods
+for High Dimensional Inversion in Remote Sensing," Journal of the Royal Statistical Society, Series B, 66,
+591–608.</mixed-citation>
+        </ref>
+        <ref id="d932504e313a1310">
+          
+            <mixed-citation id="d932504e317" publication-type="other">
+Higdon, D., Lee, H., and Holloman, C. (2003), "Markov Chain Monte Carlo-Based Approaches for Inference in
+Computationally Intensive Inverse Problems," in Bayesian Statistics 7, eds. J. M. Bernardo, M. J. Bayarri, J.
+O. Berger, A. P. Dawid, D. Heckerman, A. F. M. Smith, and M. West, Cambridge, MA: Oxford University
+Press.</mixed-citation>
+        </ref>
+        <ref id="d932504e333a1310">
+          
+            <mixed-citation id="d932504e337" publication-type="other">
+Huttunen, T., Malinen, M., Kaipio, J. P., White, P. J., and Hynynen, K. (2005), "A Full-Wave Helmholtz Model
+for Continuous-Wave Ultrasound Transmission," IEEE Transactions on Ultrasonics, Ferroelectrics and
+Frequency Control, 52, 397–409.</mixed-citation>
+        </ref>
+        <ref id="d932504e350a1310">
+          
+            <mixed-citation id="d932504e354" publication-type="other">
+Kaipio, J. P., Kolehmainen, V., Somersalo, E., and Vauhkonen, M. (2000), "Statistical Inversion and Monte Carlo
+Sampling Methods in Electrical Impedance Tomography," Inverse Problems, 16, 1487–1522.</mixed-citation>
+        </ref>
+        <ref id="d932504e364a1310">
+          
+            <mixed-citation id="d932504e368" publication-type="other">
+Kaipio, J. P., and Somersalo, E. (2004), Statistical and Computational Inverse Problems, Applied Mathematical
+Sciences 160, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d932504e378a1310">
+          
+            <mixed-citation id="d932504e382" publication-type="other">
+Kolehmainen, V., Nicholls, G., and Fox, C. (2005), "MCMC Inversion of Measured EIT Data," in preparation.</mixed-citation>
+        </ref>
+        <ref id="d932504e389a1310">
+          
+            <mixed-citation id="d932504e393" publication-type="other">
+Kress, R., and Rundell, W. (1998), "Inverse Obstacle Scattering Using Reduced Data," SIAM Journal on Applied
+Mathematics, 59, 442–454.</mixed-citation>
+        </ref>
+        <ref id="d932504e404a1310">
+          
+            <mixed-citation id="d932504e408" publication-type="other">
+Kuo, F. F. (1962), Network Analysis and Synthesis, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d932504e415a1310">
+          
+            <mixed-citation id="d932504e419" publication-type="other">
+Liu, J. S. (2001), Monte Carlo Strategies in Scientific Computing, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d932504e426a1310">
+          
+            <mixed-citation id="d932504e430" publication-type="other">
+McKeague, I., Nicholls, G. K., Speer, K., and Herbei, R. (2005), "Statistical Inversion of South Atlantic Circulation
+in an Abyssal Neutral Density Layer," Journal of Marine Research, in preparation (still).</mixed-citation>
+        </ref>
+        <ref id="d932504e440a1310">
+          
+            <mixed-citation id="d932504e444" publication-type="other">
+Nicholls, G. K. (1998), "Bayesian Image Analysis with Markov Chain Monte Carlo and Coloured Continuum
+Triangulation Mosaics," Journal of the Royal Statistical Society, Series B, 60, 643–659.</mixed-citation>
+        </ref>
+        <ref id="d932504e454a1310">
+          
+            <mixed-citation id="d932504e458" publication-type="other">
+Nocedal, J., and Wright, S. J. (1999), Numerical Optimization, New York: Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d932504e465a1310">
+          
+            <mixed-citation id="d932504e469" publication-type="other">
+Peskun, P. H. (1973), "Optimum Monte-Carlo Sampling Using Markov Chains," Biometrika, 60, 607–612.</mixed-citation>
+        </ref>
+        <ref id="d932504e477a1310">
+          
+            <mixed-citation id="d932504e481" publication-type="other">
+Robert, C. P., and Casella, G. (1999), Monte Carlo Statistical Methods, Springer Texts in Statistics, New York:
+Springer-Verlag.</mixed-citation>
+        </ref>
+        <ref id="d932504e491a1310">
+          
+            <mixed-citation id="d932504e495" publication-type="other">
+Tierney, L. (1998), "A Note on Metropolis-Hastings Kernels for General State Spaces," Annals of Applied Prob-
+ability, 8, 1–9.</mixed-citation>
+        </ref>
+        <ref id="d932504e505a1310">
+          
+            <mixed-citation id="d932504e509" publication-type="other">
+Tierney, L., and Mira, A. (1999), "Some Adaptive Monte Carlo Methods for Bayesian Inference," Statistics in
+Medicine, 18, 2507–2515.</mixed-citation>
+        </ref>
+        <ref id="d932504e519a1310">
+          
+            <mixed-citation id="d932504e523" publication-type="other">
+Vauhkonen, P., Vauhkonen, M., Savolainen, T., and Kaipio, J. (1999), "Three-Dimensional Electrical Impedance
+Tomography Based on the Complete Electrode Model," IEEE Transactions on Biomédical Engineering, 46,
+1150–1160.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

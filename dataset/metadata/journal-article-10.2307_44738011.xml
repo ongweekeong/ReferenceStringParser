@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">113</volume>
+         <issue-id>i40199461</issue-id>
+         <article-id pub-id-type="jstor">44738011</article-id>
+         <title-group>
+            <article-title>A Robust Method of Countersink Inspection Using Machine Vision</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Philip</given-names>
+                  <surname>Freeman</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2004</year>
+         </pub-date>
+         <fpage>1427</fpage>
+         <lpage>1430</lpage>
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2005 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44738011"/>
+      
+      
+         <abstract>
+            <p>An automated system drills the outer moldline holes on a military aircraft wing. Currently, the operator manually checks countersink diameter every ten holes as a process quality check. The manual method of countersink inspection (using a counter sink gauge with a dial readout) is prone to errors both in measurement and transcription, and is time consuming since the operator must stop the automated equipment before measuring the hole. Machine vision provides a fast, non-contact method for measuring countersink diameter, however, data from machine vision systems is frequently corrupted by non-gaussian noise which causes traditional model fitting methods, such as least squares, to fail miserably. We present a solution for circle measurement using a statistically robust fitting technique that does an exceptional job of identifying the countersink even in the presence of large amounts of structured and non-structured noise such as tear-out, scratches, surface defects, salt-and-pepper, etc. The method is based on an easy to implement iterative algorithm using edge detection. Convergence takes less than one second. Using this technique, we have been able to repeatably identify countersink diameters to better than 0.1 pixels of the image (&lt; 0.02mm for a 30mm field of view) in factory environments.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d3544766e178a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d3544766e185" publication-type="other">
+Li, S.Z. "Robustizing robust M-estimation using deter-
+ministic annealing". Pattern Recognition. v29 n1 p159-
+166. 1996</mixed-citation>
+        </ref>
+        <ref id="d3544766e198a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d3544766e205" publication-type="other">
+Press, W.H.; Teukolsky, S.A.; Vetterling, W.T.; Flannery,
+B.P. Numerical Recipies in C, the Art of Scientific Comput-
+ing. 2ed. chapter 15.7 Cambridge University Press, 2002.</mixed-citation>
+        </ref>
+        <ref id="d3544766e218a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d3544766e225" publication-type="other">
+Zhang, Z. "Parameter estimation techniques: a tutorial
+with application to conic fitting". Image and Vision Com-
+puting Journal v15 n1 p59-76. 1997</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

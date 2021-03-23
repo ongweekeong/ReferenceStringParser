@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i20461501</issue-id>
+         <article-id pub-id-type="jstor">20461505</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-006-9016-4</article-id>
+         <title-group>
+            <article-title>Example-Based Machine Translation Based on Tree-String Correspondence and Statistical Generation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Zhanyi</given-names>
+                  <surname>Liu</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Haifeng</given-names>
+                  <surname>Wang</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Hua</given-names>
+                  <surname>Wu</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2006</year>
+         </pub-date>
+         <fpage>25</fpage>
+         <lpage>41</lpage>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2006 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/20461505"/>
+         
+         
+         <abstract>
+            <p>This paper describes an example-based machine translation (EBMT) method based on tree-string correspondence (TSC) and statistical generation. In this method, the translation example is represented as a TSC, which is a triple consisting of a parse tree in the source language, a string in the target language, and the correspondence between the leaf node of the source-language tree and the substring of the target-language string. For an input sentence to be translated, it is first parsed into a tree. Then the TSC forest which best matches the input tree is searched for. Finally the translation is generated using a statistical generation model to combine the target-language strings of the TSCs. The generation model consists of three features: the semantic similarity between the tree in the TSC and the input tree, the translation probability of translating the source word into the target word, and the language-model probability for the target-language string. Based on the above method, we build an English-to-Chinese MT system. Experimental results indicate that the performance of our system is comparable with phrase-based statistical MT systems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Example-based machine translation</kwd>
+            <kwd>Translation example</kwd>
+            <kwd>Tree-string correspondence</kwd>
+            <kwd>Statistical generation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d404884e238a1310">
+               
+               <mixed-citation id="d404884e242" publication-type="other">
+Akiba Y, Watanabe T, Sumita E (2002) Using language and translation models to select the best
+among outputs from multiple MT systems. In: Proceedings of the 19th international conference on
+computational linguistics. Taipei, Taiwan, pp 8-14</mixed-citation>
+            </ref>
+            <ref id="d404884e255a1310">
+               
+               <mixed-citation id="d404884e259" publication-type="other">
+Al-Adhaileh MH, Kong TE (1999) Example-based machine translation based on the synchronous
+SSTC annotation schema. In: Proceedings of machine translation summit VII, "MT in the great
+translation era". Singapore, pp 244-249</mixed-citation>
+            </ref>
+            <ref id="d404884e272a1310">
+               
+               <mixed-citation id="d404884e276" publication-type="other">
+Al-Adhaileh MH, Kong TE, Zaharin Y (2002) A synchronization structure of SSTC and its appli-
+cations in machine translation. In: Proceedings of the Coling-2002 post-conference workshop on
+machine translation in Asia. Taipei, Taiwan, pp 1-8</mixed-citation>
+            </ref>
+            <ref id="d404884e289a1310">
+               
+               <mixed-citation id="d404884e293" publication-type="other">
+Aramaki E, Kurohashi S (2004) Example-based machine translation using structural translation exam-
+ples. In: Proceedings of the IWSLT2004: International workshop on spoken language translation —
+Evaluation campaign on spoken language translation. Kyoto, Japan, pp 91-94</mixed-citation>
+            </ref>
+            <ref id="d404884e307a1310">
+               
+               <mixed-citation id="d404884e311" publication-type="other">
+Aramaki E, Kurohashi S, Kashioka H, Tanaka H (2003) Word selection for EBMT based on monolin-
+gual similarity and translation confidence. In: Proceedings of the HLT/NAACL 2003 workshop on
+building and using parallel texts: Data driven machine translation and beyond. Edmonton, Canada,
+pp 57-64</mixed-citation>
+            </ref>
+            <ref id="d404884e327a1310">
+               
+               <mixed-citation id="d404884e331" publication-type="other">
+Bikel D (2004) Intricacies in Collins' parsing model. Comput Linguist 30:479-511</mixed-citation>
+            </ref>
+            <ref id="d404884e338a1310">
+               
+               <mixed-citation id="d404884e342" publication-type="other">
+Brown PF, Delia Pietra SA, Delia Pietra VJ, Mercer RL (1993) The mathematics of statistical machine
+translation: Parameter estimation. Comput Linguist 19:263-311</mixed-citation>
+            </ref>
+            <ref id="d404884e352a1310">
+               
+               <mixed-citation id="d404884e356" publication-type="other">
+Callison-Burch C, Flournoy RS (2001) A program for automatically selecting the best output from
+multiple machine translation engines. In: Machine translation summit VIII, "machine translation
+in the information age". Santiago de Compostela, Spain, pp 63-66</mixed-citation>
+            </ref>
+            <ref id="d404884e369a1310">
+               
+               <mixed-citation id="d404884e373" publication-type="other">
+Collins M (1999) Head-driven statistical models for natural language parsing. PhD Thesis, University
+of Pennsylvania, Philadelphia, PA</mixed-citation>
+            </ref>
+            <ref id="d404884e383a1310">
+               
+               <mixed-citation id="d404884e387" publication-type="other">
+Doddington G (2002) Automatic evaluation of machine translation quality using n-gram
+co-occurrence statistics. In: Proceedings of the ARPA workshop on human language technology
+notebook proceedings. San Diego, CA, pp 128-132</mixed-citation>
+            </ref>
+            <ref id="d404884e401a1310">
+               
+               <mixed-citation id="d404884e405" publication-type="other">
+Fellbaum C (ed) (1998) WordNet: an electronic lexical database. MIT Press, Cambridge, MA</mixed-citation>
+            </ref>
+            <ref id="d404884e412a1310">
+               
+               <mixed-citation id="d404884e416" publication-type="other">
+Germann U (2003) Greedy decoding for statistical machine translation in almost linear time.
+In: HLT-NAACL: Human language technology conference of the North American chapter of
+the Association for Computational Linguistics. Edmonton, Alta, Canada, pp 72-79</mixed-citation>
+            </ref>
+            <ref id="d404884e429a1310">
+               
+               <mixed-citation id="d404884e433" publication-type="other">
+Imamura K, Okuma H, Watanabe T, Sumita E (2004) Example-based machine translation based on
+syntactic transfer with statistical models. In: Coling: 20th international conference on computa-
+tional linguistics. Geneva, Switzerland, pp 99-105</mixed-citation>
+            </ref>
+            <ref id="d404884e446a1310">
+               
+               <mixed-citation id="d404884e450" publication-type="other">
+Kaki S, Yamada S, Sumita E (1999) Scoring multiple translations using character N-gram. In:
+Proceedings of the 5th natural language processing Pacific rim symposium "Closing the
+milliennium" [sic]. Beijing, China, pp 298-302</mixed-citation>
+            </ref>
+            <ref id="d404884e463a1310">
+               
+               <mixed-citation id="d404884e467" publication-type="other">
+Koehn P (2004) Pharaoh: a beam search decoder for phrase-based statistical machine translation
+models. In: Frederking RE, Taylor KB (eds) Machine translation: from real users to research; 6th
+conference of the Association for Machine Translation in the Americas, AMTA 2004, Washington,
+DC, USA, September/October 2004. Springer, Berlin, Germany, pp 115-124</mixed-citation>
+            </ref>
+            <ref id="d404884e483a1310">
+               
+               <mixed-citation id="d404884e487" publication-type="other">
+Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. In: HLT-NAACL: Human lan-
+guage technology conference of the North American chapter of the Association for Computational
+Linguistics. Edmonton, Alta, Canada, pp 127-133</mixed-citation>
+            </ref>
+            <ref id="d404884e501a1310">
+               
+               <mixed-citation id="d404884e505" publication-type="other">
+Langlais P, Gotti F (2006) EBMT by tree-phrasing. Mach Translat 20:1-25</mixed-citation>
+            </ref>
+            <ref id="d404884e512a1310">
+               
+               <mixed-citation id="d404884e516" publication-type="other">
+Lin D (1998) An information-theoretic definition of similarity. In: Machine learning: Proceedings of
+the fifteenth international conference (ICML '98). Madison, Wisconsin, pp 296-304</mixed-citation>
+            </ref>
+            <ref id="d404884e526a1310">
+               
+               <mixed-citation id="d404884e530" publication-type="other">
+Matsumoto Y, Ishimoto H, Utsuro T (1993) Structural matching of parallel texts. In: Proceedings
+of the 31st annual meeting of the Association for Computational Linguistics. Columbus, OH, pp
+23-30</mixed-citation>
+            </ref>
+            <ref id="d404884e543a1310">
+               
+               <mixed-citation id="d404884e547" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: Proceedings of the
+41st annual meeting of the Association for Computational Linguistics. Sapporo, Japan, pp 160-167</mixed-citation>
+            </ref>
+            <ref id="d404884e557a1310">
+               
+               <mixed-citation id="d404884e561" publication-type="other">
+Och FJ, Ney H (2000) Improved statistical alignment models. In: Proceedings of the 38th annual
+meeting of the Association for Computational Linguistics. Hong Kong, China, pp 440-447</mixed-citation>
+            </ref>
+            <ref id="d404884e571a1310">
+               
+               <mixed-citation id="d404884e575" publication-type="other">
+Poutsma A (2000) Data-oriented translation. In: Proceedings of the 18th international conference on
+computational linguistics: COLING 2000 in Europe. Saarbrücken, Germany, pp 635-641</mixed-citation>
+            </ref>
+            <ref id="d404884e586a1310">
+               
+               <mixed-citation id="d404884e590" publication-type="other">
+Shieber SM (1994) Restricting the weak generative capacity of synchronous tree adjoining grammar.
+Comput lntell 10:371-385</mixed-citation>
+            </ref>
+            <ref id="d404884e600a1310">
+               
+               <mixed-citation id="d404884e604" publication-type="other">
+Somers H (1999) Review article: example-based machine translation. Mach Translat 14:113-157</mixed-citation>
+            </ref>
+            <ref id="d404884e611a1310">
+               
+               <mixed-citation id="d404884e615" publication-type="other">
+Stolcke A (2002) SRILM — An extensible language modeling toolkit. In: Proceedings of the 7th inter-
+national conference on spoken language processing (ICSLP2002 — interspeech 2002). Denver, CO,
+pp 901-904</mixed-citation>
+            </ref>
+            <ref id="d404884e628a1310">
+               
+               <mixed-citation id="d404884e632" publication-type="other">
+Utsuro T, Uchimoto K, Matsumoto M, Nagao M (1994) Thesaurus-based efficient example retrieval by
+generating retrieval queries from similarities. In: Proceedings of the 15th international conference
+on computational linguistics. Kyoto, Japan, pp 1044-1048</mixed-citation>
+            </ref>
+            <ref id="d404884e645a1310">
+               
+               <mixed-citation id="d404884e649" publication-type="other">
+Watanabe H (1992) A similarity-driven transfer system. In: Proceedings of the fifteenth [sic] interna-
+tional conference on computational linguistics. Nantes, France, pp 770-776</mixed-citation>
+            </ref>
+            <ref id="d404884e659a1310">
+               
+               <mixed-citation id="d404884e663" publication-type="other">
+Watanabe H (1995) A model of a bi-directional transfer mechanism using rule combinations. Mach
+Translat 10:269-291</mixed-citation>
+            </ref>
+            <ref id="d404884e674a1310">
+               
+               <mixed-citation id="d404884e678" publication-type="other">
+Way A (2003) Machine translation using LFG-DOP. In: Bod R, Scha R, Sima'an K (eds) Data-oriented
+parsing. CSLI Publications, Stanford, CA, pp 359-384</mixed-citation>
+            </ref>
+            <ref id="d404884e688a1310">
+               
+               <mixed-citation id="d404884e692" publication-type="other">
+Yamada K, Knight K (2002) A decoder for syntax-based statistical MT. In: 40th annual meeting of
+the Association for Computational Linguistics. Philadelphia, PA, pp 303-310</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

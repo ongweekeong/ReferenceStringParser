@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">111</volume>
+         <issue-id>i40197102</issue-id>
+         <article-id pub-id-type="jstor">44699434</article-id>
+         <title-group>
+            <article-title>Digital Filtering for J211 Requirements using a Fast Fourier Transform Based Filter</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Brian D.</given-names>
+                  <surname>Grenke</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>359</fpage>
+         <lpage>401</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2003 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44699434"/>
+      
+      
+         <abstract>
+            <p>The need for low pass filters stems from a need to eliminate high frequency noise from raw data (the output of the data acquisition system). As an example, consider the frame of a vehicle used in a crash test. The frame will exhibit high frequency vibrations, which do not affect the vehicles movement in space. The use of filters has since been expanded to include such things as the calculation of potential injury. Phaseless filters are now required for all FMVSS-208 injury calculations (see references). A single filter formula can not allow all test facilities to comply with the J211 CFC corridors. Even the SAE J211 recommended Butterworth filter may not comply with the J211 requirements. A new, universal, filtering system is required to harmonize the data processing at all testing facilities. The use of Fourier series for filtering provides a very powerful, yet overlooked, solution to today's filtering problems. The focus of this article is with the SAE J211 CFC filter boundaries and the role of FFT filters to meet these requirements. The use of FFT filters provides a simple method to derive a set of custom filters for each data acquisition system. These custom filters will replace the SAE J211 recommended four-pole phaseless filter formula. This new filtering scheme will allow all testing facilities to meet the J211 corridors and improve compatibility between testing facilities.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d365e471a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d365e478" publication-type="other">
+FMVSS 208 rule requirement for phaseless filter for all
+injury calculations. Referto Department of Transportation
+/Part II /NHTSA /49 CFR Part 552 et al. Federal
+Register /Vol. 65, No. 93 /Friday, May 12, 2000 /Rules
+and Regulations. Page 30748, section S4.13 data
+channels.</mixed-citation>
+        </ref>
+        <ref id="d365e501a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d365e508" publication-type="other">
+DIGITAL FILTERS second edition by R.W. Hamming.
+Prentice-Hall Signal processing series. Copyright 1983,
+1977 by Prentice-Hall, Inc.</mixed-citation>
+        </ref>
+        <ref id="d365e521a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d365e528" publication-type="other">
+Continuous and Discrete Signal and System Analysis by
+Clare D. McGillem /George R. Cooper. The Holt,
+Rinehart, and Winston (HRW) Series in Electrical
+Engineering, Electronics, and Systems. Copyright 1974
+by The Holt, Rinehart, and Winston, Inc.</mixed-citation>
+        </ref>
+        <ref id="d365e547a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d365e554" publication-type="other">
+Fourier Transforms of Mathematical Operations.
+Provided in Appendix A, Table A-6 of Continuous and
+Discrete Signal and System Analysis by Clare D.
+McGillem / George R. Cooper.</mixed-citation>
+        </ref>
+        <ref id="d365e571a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d365e578" publication-type="other">
+Real Fourier transform. The Fourier transform used for
+calculations in this article is the FFT(v) function of
+MathCad 8. This transform has the form (non-optimized):
+where L is the power of two length of data vector (D), TD
+is the transformed data vector, and i is the imaginary unit,
+k and j begin at 0 in this formula.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

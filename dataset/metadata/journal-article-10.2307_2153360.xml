@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">64</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">212</issue>
+         <issue-id>i337668</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153360</article-id>
+         
+         <title-group>
+            <article-title>Domain Decomposition with Nonmatching Grids: Augmented Lagrangian Approach</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Patrick</given-names>
+                  <surname>Le Tallec</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Taoufik</given-names>
+                  <surname>Sassi</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1995</year>
+         </pub-date>
+         <fpage>1367</fpage>
+         <lpage>1396</lpage>
+         <page-range>1367-1396</page-range>
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1995 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153360"/>
+         
+         
+         <abstract>
+            <p>We propose and study a domain decomposition method which treats the constraint of displacement continuity at the interfaces by augmented Lagrangian techniques and solves the resulting problem by a parallel version of the Peaceman-Rachford algorithm. We prove that this algorithm is equivalent to the fictitious overlapping method introduced by P.L. Lions. We also prove its linear convergence independently of the discretization step h, even if the finite element grids do not match at the interfaces. A new preconditioner using fictitious overlapping and well adapted to three-dimensional elasticity problems is also introduced and is validated on several numerical examples.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N30</kwd>
+            <kwd>65M55</kwd>
+            <kwd>65F10</kwd>
+            <kwd>73G05</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d2048670e211a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2048670e218" publication-type="conference">
+C. Bernardi, Y. Maday, and T. Patera, A new nonconforming approach to domain
+decomposition: the mortar element method, Nonlinear Partial Differential Equations and
+their Applications, Collège de France Seminar, Pitman, 1990<person-group>
+                     <string-name>
+                     <surname>Bernardi</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A new nonconforming approach to domain decomposition: the mortar element method</comment>
+               <source>Nonlinear Partial Differential Equations and their Applications, Collège de France Seminar, Pitman</source>
+               <year>1990</year>
+            </mixed-citation>
+               <mixed-citation id="d2048670e249" publication-type="other">
+report 89027 of
+Laboratoire d'Analyse Numérique, Univ. Paris 6.</mixed-citation>
+            </ref>
+            <ref id="d2048670e259a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2048670e266" publication-type="journal">
+P.E. Bjørstad and 0. B. Widlund, Iterative methods for the solution of elliptic problems on
+regions partitioned into substructures, SIAM J. Numer. Anal.23 (1986), 1097-1120.<person-group>
+                     <string-name>
+                     <surname>Bjørstad</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1097</fpage>
+               <volume>23</volume>
+               <source>SIAM J. Numer. Anal.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e298a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2048670e305" publication-type="conference">
+J.F. Bourgat, R. Glowinski, P. Le Tallec, and M. Vidrascu, Variational formulation and
+algorithm for trace operator in domain decomposition calculations, Proc. 2nd Internat.
+Sympos. on Domain Decomposition Methods (Los Angeles, CA, January 1988), SIAM,
+Philadelphia, PA, 1989.<person-group>
+                     <string-name>
+                     <surname>Bourgat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Variational formulation and algorithm for trace operator in domain decomposition calculations</comment>
+               <source>Proc. 2nd Internat. Sympos. on Domain Decomposition Methods (Los Angeles, CA, January 1988)</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e340a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2048670e347" publication-type="journal">
+J.H. Bramble, J.E. Pasciak, and A.H. Schatz, An iterative method for elliptic problems on
+regions partitioned into substructures, Math. Comp.46 (1986), 361-369.<object-id pub-id-type="doi">10.2307/2007981</object-id>
+               <fpage>361</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e364a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2048670e371" publication-type="journal">
+— The construction of preconditioners for elliptic problems by substructuring IV, Math.
+Comp.53 (1989), 1-24.<object-id pub-id-type="doi">10.2307/2008346</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e387a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2048670e394" publication-type="book">
+F. Brezzi and M. Fortin, Mixed and hybrid finite element methods, Springer-Verlag, New
+York, 1991.<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Mixed and hybrid finite element methods</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e419a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2048670e426" publication-type="journal">
+P. Clement, Approximation by finite element functions using local regularization, R.A.I.R.O.
+Anal. Numér.9 (1974), 77-84.<person-group>
+                     <string-name>
+                     <surname>Clement</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>77</fpage>
+               <volume>9</volume>
+               <source>Anal. Numér.</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e458a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2048670e465" publication-type="journal">
+Y.H. De Roeck, P. Le Tallec, and M. Vidrascu, Domain decomposition methods for large
+linearly elliptic three dimensional problems, J. Comput. Appl. Math.34 (1991), 93-117.<person-group>
+                     <string-name>
+                     <surname>De Roeck</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>34</volume>
+               <source>J. Comput. Appl. Math.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e497a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2048670e504" publication-type="journal">
+M. Dryja, B.:Smith, and 0. Widlund, Schwarz analysis of iterative substructuring algorithms
+for elliptic problems in three dimensions, SIAM J. Numer. Anal.31 (1994), 1662-1694.<object-id pub-id-type="jstor">10.2307/2158372</object-id>
+               <fpage>1662</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e520a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2048670e527" publication-type="conference">
+M. Dryja and 0. Widlund, Towards a unified theory of domain decomposition algorithms
+for elliptic problems, Proc. Third Internat. Sympos. on Domain Decomposition Methods
+(Houston), SIAM, Philadelphia, PA, 1990.<person-group>
+                     <string-name>
+                     <surname>Dryja</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Towards a unified theory of domain decomposition algorithms for elliptic problems</comment>
+               <source>Proc. Third Internat. Sympos. on Domain Decomposition Methods (Houston)</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e560a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2048670e567" publication-type="book">
+C. Farhat and F.X. Roux, Implicit parallel processing in structural mechanics, Computational
+Mechanics Advance (J. T. Oden, ed.), Vol. 2, North-Holland, Amsterdam, 1994, pp 1-124.<person-group>
+                     <string-name>
+                     <surname>Farhat</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Implicit parallel processing in structural mechanics</comment>
+               <fpage>1</fpage>
+               <volume>2</volume>
+               <source>Computational Mechanics Advance</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e602a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2048670e609" publication-type="book">
+M. Fortin and R. Glowinski, Augmented Lagrangian methods, North-Holland, Amsterdam,
+1983.<person-group>
+                     <string-name>
+                     <surname>Fortin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Augmented Lagrangian methods</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e634a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2048670e641" publication-type="book">
+D. Gabay, Application of the methods of multipliers to variational inequalities (in [11]).  </mixed-citation>
+            </ref>
+            <ref id="d2048670e650a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2048670e657" publication-type="book">
+V. Girault and P.A. Raviart, Finite element methods for Navier-Stokes equations. Theory and
+algorithms, Springer-Verlag, Berlin, Heidelberg, New York, Tokyo, 1986.<person-group>
+                     <string-name>
+                     <surname>Girault</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite element methods for Navier-Stokes equations. Theory and algorithms</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e682a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2048670e689" publication-type="other">
+E. Givois, Ph.D. Thesis, Univ. Paris Dauphine, Paris, 1992 (In French) .</mixed-citation>
+            </ref>
+            <ref id="d2048670e696a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2048670e703" publication-type="book">
+R. Glowinski and P. Le Tallec, Augmented Lagrangian and operator splitting methods in
+nonlinear mechanics, SIAM, Philadelphia, PA, 1989.<person-group>
+                     <string-name>
+                     <surname>Glowinski</surname>
+                  </string-name>
+                  </person-group>
+               <source>Augmented Lagrangian and operator splitting methods in nonlinear mechanics</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e729a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2048670e736" publication-type="book">
+P. Le Tallec, Domain decomposition method in computational mechanics, Computational
+Mechanics Advance (J. T. Oden, ed.), Vol. 1, North-Holland, Amsterdam, 1994.<person-group>
+                     <string-name>
+                     <surname>Le Tallec</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition method in computational mechanics</comment>
+               <volume>1</volume>
+               <source>Computational Mechanics Advance</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e768a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d2048670e775" publication-type="book">
+P. Le Tallec and T. Sassi, Domain decomposition with nonmatching grids: Schur complement
+approach, Cahiers de mathématiques de la décision, n 9323, CEREMADE, Univ. Paris
+Dauphine, 1993.<person-group>
+                     <string-name>
+                     <surname>Le Tallec</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Domain decomposition with nonmatching grids: Schur complement approach</comment>
+               <source>Cahiers de mathématiques de la décision</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e807a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d2048670e814" publication-type="conference">
+P. Le Tallec, T. Sassi, and M. Vidrascu, Three-dimensional domain decomposition methods
+with nonmatching grids and unstructured coarse solvers, Proc. Seventh Internat. Sympos. on
+Domain Decomposition Methods, (D. Keyes and J. Xu, eds.), Contemp. Math., vol. 180,
+Amer. Math. Soc., Providence, RI, 1994, pp. 61-74.<person-group>
+                     <string-name>
+                     <surname>Le Tallec</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Three-dimensional domain decomposition methods with nonmatching grids and unstructured coarse solvers</comment>
+               <fpage>61</fpage>
+               <volume>180</volume>
+               <source>Proc. Seventh Internat. Sympos. on Domain Decomposition Methods</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e855a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d2048670e862" publication-type="conference">
+P.L. Lions, On the Schwarz alternating method III: A variant for nonoverlapping subdomains,
+In same proceedings as [10].  </mixed-citation>
+            </ref>
+            <ref id="d2048670e874a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d2048670e881" publication-type="journal">
+P.L. Lions and B. Mercier, Splitting algorithms for the sum of two nonlinear operators, SIAM
+J. Numer. Anal.16 (1979), 964-979 .<object-id pub-id-type="jstor">10.2307/2156649</object-id>
+               <fpage>964</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2048670e897a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d2048670e904" publication-type="journal">
+S.V. Nepomnyaschikh, Mesh theorems on traces, normalizations offunction traces and their
+inversion, Soviet J. Numer. Anal. Math. Modelling6 (1991), 223-242.<person-group>
+                     <string-name>
+                     <surname>Nepomnyaschikh</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>223</fpage>
+               <volume>6</volume>
+               <source>Soviet J. Numer. Anal. Math. Modelling</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">48</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">178</issue>
+         <issue-id>i334596</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007835</article-id>
+         
+         <title-group>
+            <article-title>How to Implement the Spectral Transformation</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Bahram</given-names>
+                  <surname>Nour-Omid</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Beresford N.</given-names>
+                  <surname>Parlett</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Thomas</given-names>
+                  <surname>Ericsson</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Paul S.</given-names>
+                  <surname>Jensen</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1987</year>
+         </pub-date>
+         <fpage>663</fpage>
+         <lpage>673</lpage>
+         <page-range>663-673</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1987 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007835"/>
+         
+         
+         <abstract>
+            <p>The general, linear eigenvalue equations $(\mathbf H - \lambda\mathbf M)\mathbf z = 0$, where $\mathbf H$ and $\mathbf M$ are real symmetric matrices with $\mathbf M$ positive semidefinite, must be transformed if the Lanczos algorithm is to be used to compute eigenpairs $(\lambda, \mathbf z)$. When the matrices are large and sparse (but not diagonal) some factorization must be performed as part of the transformation step. If we are interested in only a few eigenvalues $\lambda$ near a specified shift, then the spectral transformation of Ericsson and Ruhe [1] proved itself much superior to traditional methods of reduction. The purpose of this note is to show that a small variant of the spectral transformation is preferable in all respects. Perhaps the lack of symmetry in our formulation deterred previous investigators from choosing it. It arises in the use of inverse iteration. A second goal is to introduce a systematic modification of the computed Ritz vectors, which improves the accuracy when $\mathbf M$ is ill-conditioned or singular. We confine our attention to the simple Lanczos algorithm, although the first two sections apply directly to the block algorithms as well.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F15</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2098185e162a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2098185e169" publication-type="journal">
+T. ERICSSON &amp; A. RUHE, " The spectral transformation Lanczos method for the numerical solution of
+large sparse generalized symmetric eigenvalue problems," Math. Comp., v. 35, 1980, pp. 1251-1268,<object-id pub-id-type="doi">10.2307/2006390</object-id>
+               <fpage>1251</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e185a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2098185e192" publication-type="journal">
+C. LANCZOS, "An iteration method for the solution of the eigenvalue problem of linear differential
+and integral operators," J. Res. Nat. Bur. Standards, v. 45, 1950, pp. 255-281.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>45</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e224a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2098185e231" publication-type="journal">
+B. NOUR-OMID, B. N. PARLETT &amp; R. L. TAYLOR, "Lanczos versus subspace iteration for solution of
+eigenvalue problems," Internat. J. Numer. Methods Engrg., v. 19, 1983, pp. 859-871.<person-group>
+                     <string-name>
+                     <surname>Nour-omid</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>859</fpage>
+               <volume>19</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e263a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2098185e270" publication-type="book">
+B. NOUR-OMID, The Lanczos Algorithm for the Solution of Large Generalized Eigenproblems, Tech.
+Rep. UCB/SESM-84/04, Dept. of Civil Engineering, University of California, Berkeley, 1984.<person-group>
+                     <string-name>
+                     <surname>Nour-omid</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Lanczos Algorithm for the Solution of Large Generalized Eigenproblems</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e296a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2098185e303" publication-type="book">
+B. N. PARLETT, The Symmetric Eigenvalue Problem, Prentice-Hall, Englewood Cliffs, N. J., 1980.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Symmetric Eigenvalue Problem</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e325a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2098185e332" publication-type="journal">
+B. N. PARLETT &amp; B. NOUR-OMID, "The use of refined error bounds when updating eigenvalues of
+tridiagonals," Linear Algebra Appl., v. 68, 1985, pp. 179-219.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>179</fpage>
+               <volume>68</volume>
+               <source>Linear Algebra Appl.</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2098185e364a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2098185e371" publication-type="journal">
+D. S. SCOTT, "The advantages of inverted operators in Rayleigh-Ritz approximations," SIAM J. Sci.
+Statist. Comput., v. 3, 1982, pp. 68-75.<person-group>
+                     <string-name>
+                     <surname>Scott</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>68</fpage>
+               <volume>3</volume>
+               <source>SIAM J. Sci. Statist. Comput.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

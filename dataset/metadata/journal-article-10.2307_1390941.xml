@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">9</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i260289</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390941</article-id>
+         
+         <title-group>
+            <article-title>
+               Linking ArcView™ and XGobi: Insight behind the Front End 
+            </article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Jürgen</given-names>
+                     <surname>Symanzik</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Dianne</given-names>
+                  <surname>Cook</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Nicholas</given-names>
+                  <surname>Lewin-Koh</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>James J.</given-names>
+                  <surname>Majure</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Inna</given-names>
+                  <surname>Megretskaia</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>470</fpage>
+         <lpage>490</lpage>
+         <page-range>470-490</page-range>
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2000 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390941"/>
+         
+         
+         <abstract>
+            <p>
+               This article presents aspects of the implementation of a bidirectional link between the Geographic Information System (GIS) ArcView™ and the interactive dynamic statistical graphics program XGobi. We describe the main functionality of the link, the underlying remote procedure call (RPC) mechanism, and internal data structures, and discuss topics such as security, concurrency, and linked brushing. We think that these topics are of particular interest to software authors intending to link similar software packages, and software users learning about strengths (and weaknesses) of the implementation of our link. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Cartographic data</kwd>
+            <kwd>Dynamic statistical graphics</kwd>
+            <kwd>Geographic information system</kwd>
+            <kwd>Interprocess communication</kwd>
+            <kwd>Multivariate spatial data</kwd>
+            <kwd>Spatial cumulative distribution function</kwd>
+            <kwd>Spatially lagged scatterplot</kwd>
+            <kwd>Spatial statistics</kwd>
+            <kwd>Variogram-cloud plot</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d6312440e290a1310">
+               
+               <mixed-citation id="d6312440e294" publication-type="book">
+Alexandrov, V., and Dongarra, J. (eds) (1998), Recent Advances in Parallel Virtual Machine and Message
+Passing Interface, Lecture Notes in Computer Science (vol. 1497), Berlin: Springer.<person-group>
+                     <string-name>
+                     <surname>Alexandrov</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1497</volume>
+               <source>Recent Advances in Parallel Virtual Machine and Message Passing Interface, Lecture Notes in Computer Science</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e323a1310">
+               
+               <mixed-citation id="d6312440e327" publication-type="book">
+Anselin, L., and Bao, S. (1996), "Exploratory Spatial Data Analysis Linking SpaceStat and ArcView," Technical
+Report 9618, West Virginia University, Morgantown, WV.<person-group>
+                     <string-name>
+                     <surname>Anselin</surname>
+                  </string-name>
+                  </person-group>
+               <source>Exploratory Spatial Data Analysis Linking SpaceStat and ArcView</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e352a1310">
+               
+               <mixed-citation id="d6312440e356" publication-type="book">
+(1997), "Exploratory Spatial Data Analysis Linking SpaceStat and ArcView," in Recent Developments
+in Spatial Analysis, eds. M. M. Fischer and A. Getis, Berlin: Springer, pp. 35-59.<person-group>
+                     <string-name>
+                     <surname>Anselin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Exploratory Spatial Data Analysis Linking SpaceStat and ArcView</comment>
+               <fpage>35</fpage>
+               <source>Recent Developments in Spatial Analysis</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e388a1310">
+               
+               <mixed-citation id="d6312440e392" publication-type="journal">
+Anselin, L., Dodson, R.F., and Hudak, S. (1993), "Linking GIS and Spatial Data Analysis in Practice,"
+Geographical Systems, 1, 3-23.<person-group>
+                     <string-name>
+                     <surname>Anselin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3</fpage>
+               <volume>1</volume>
+               <source>Geographical Systems</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e425a1310">
+               
+               <mixed-citation id="d6312440e429" publication-type="journal">
+Asimov, D. (1985), "The Grand Tour: A Tool for Viewing Multidimensional Data," SIAM Journal on Scientific
+and Statistical Computing, 6, 128-143.<person-group>
+                     <string-name>
+                     <surname>Asimov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>128</fpage>
+               <volume>6</volume>
+               <source>SIAM Journal on Scientific and Statistical Computing</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e461a1310">
+               
+               <mixed-citation id="d6312440e465" publication-type="book">
+Bao, S. (1997), User's Reference for the S+Grassland Link, Seattle, WA: Mathsoft, Inc.<person-group>
+                     <string-name>
+                     <surname>Bao</surname>
+                  </string-name>
+                  </person-group>
+               <source>User's Reference for the S+Grassland Link</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e487a1310">
+               
+               <mixed-citation id="d6312440e491" publication-type="book">
+Bao, S., and Anselin, L. (1997), "Linking Spatial Statistics with GIS: Operational Issues in the SpaceStat-
+ArcView Link and the S+Grassland Link," in 1997 Proceedings of the Section on Statistical Graphics,
+Alexandria, VA: American Statistical Association, pp. 61-66.<person-group>
+                     <string-name>
+                     <surname>Bao</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Linking Spatial Statistics with GIS: Operational Issues in the SpaceStat-ArcView Link and the S+Grassland Link</comment>
+               <fpage>61</fpage>
+               <source>1997 Proceedings of the Section on Statistical Graphics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e526a1310">
+               
+               <mixed-citation id="d6312440e530" publication-type="book">
+Becker, R., Chambers, J., and Wilks, A. (1988), The New S Language—A Programming Environment for Data
+Analysis and Graphics, Pacific Grove, CA: Wadsworth and Brooks/Cole.<person-group>
+                     <string-name>
+                     <surname>Becker</surname>
+                  </string-name>
+                  </person-group>
+               <source>The New S Language—A Programming Environment for Data Analysis and Graphics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e555a1310">
+               
+               <mixed-citation id="d6312440e559" publication-type="book">
+Bode, A., Dongarra, J., Ludwig, T., and Sunderam, V. (eds.) (1996), Parallel Virtual Machine—EuroPVM'96,
+Lecture Notes in Computer Science, (vol. 1156), Berlin: Springer.<person-group>
+                     <string-name>
+                     <surname>Bode</surname>
+                  </string-name>
+                  </person-group>
+               <volume>1156</volume>
+               <source>Parallel Virtual Machine—EuroPVM'96, Lecture Notes in Computer Science</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e588a1310">
+               
+               <mixed-citation id="d6312440e592" publication-type="conference">
+Bradley, R., and Haslett, J. (1992), "Interactive Graphics for the Exploratory Analysis of Spatial Data—The
+Interactive Variogram Cloud," in 2nd CODATA Conference on Geomathematics and Geostatistics, Sci. de
+la Terre, Ser. Inf. (vol, 31), eds. P. A. Dowd, and J. J. Royer, Nancy, France, pp. 373-386.<person-group>
+                     <string-name>
+                     <surname>Bradley</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Interactive Graphics for the Exploratory Analysis of Spatial Data—The Interactive Variogram Cloud</comment>
+               <fpage>373</fpage>
+               <volume>31</volume>
+               <source>2nd CODATA Conference on Geomathematics and Geostatistics, Sci. de la Terre, Ser. Inf.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e631a1310">
+               
+               <mixed-citation id="d6312440e635" publication-type="book">
+Brunsdon, C., and Charlton, M. (1996), "Developing an Exploratory Spatial Analysis System in XLisp-Stat,"
+in Innovations in GIS 3, ed. D. Parker, London: Taylor and Francis, pp. 135-145.<person-group>
+                     <string-name>
+                     <surname>Brunsdon</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Developing an Exploratory Spatial Analysis System in XLisp-Stat</comment>
+               <fpage>135</fpage>
+               <source>Innovations in GIS 3</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e667a1310">
+               
+               <mixed-citation id="d6312440e671" publication-type="journal">
+Buja, A., and Asimov, D. (1986), "Grand Tour Methods: An Outline," Computing Science and Statistics, 17,
+63-67.<person-group>
+                     <string-name>
+                     <surname>Buja</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>63</fpage>
+               <volume>17</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e703a1310">
+               
+               <mixed-citation id="d6312440e707" publication-type="journal">
+Buja, A., Cook, D., and Swayne, D.F. (1996), "Interactive High-Dimensional Data Visualization," Journal of
+Computational and Graphical Statistics, 5, 78-99.<object-id pub-id-type="doi">10.2307/1390754</object-id>
+               <fpage>78</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e723a1310">
+               
+               <mixed-citation id="d6312440e727" publication-type="journal">
+Carr, D.B., Littlefield, R.J., Nicholson, W.L., and Littlefield, J.S. (1987), "Scatterplot Matrix Techniques
+for Large N," Journal of the American Statistical Association, 82, 424-436.<object-id pub-id-type="doi">10.2307/2289444</object-id>
+               <fpage>424</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e743a1310">
+               
+               <mixed-citation id="d6312440e747" publication-type="journal">
+Carr, D.B., Olsen, A.R., and White, D. (1992), "Hexagon Mosaic Maps for Displays of Univariate and
+Bivariate Geographical Data," Cartography and Geographic Information Systems, 19, 228-236, 271.<person-group>
+                     <string-name>
+                     <surname>Carr</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>228</fpage>
+               <volume>19</volume>
+               <source>Cartography and Geographic Information Systems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e779a1310">
+               
+               <mixed-citation id="d6312440e783" publication-type="journal">
+Chambers, J.M. (1997), "Evolution of the S Language," Computing Science and Statistics, 28, 331-337.<person-group>
+                     <string-name>
+                     <surname>Chambers</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>331</fpage>
+               <volume>28</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e813a1310">
+               
+               <mixed-citation id="d6312440e817" publication-type="book">
+(1998), Programming with Data: A Guide to the S Language, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Chambers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Programming with Data: A Guide to the S Language</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e839a1310">
+               
+               <mixed-citation id="d6312440e843" publication-type="conference">
+Chauvet, P. (1982), "The Variogram Cloud," in 17th International Symposium on the Application of Computers
+and Operations Research in the Mineral Industry, eds. T. B. Johnson, and R. J. Barnes, New York: Society
+of Mining Engineers of the American Institute of Mining, Metallurgical, and Petroleum Engineers, Inc.
+(Colorado School of Mines), pp. 757-764.<person-group>
+                     <string-name>
+                     <surname>Chauvet</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Variogram Cloud</comment>
+               <fpage>757</fpage>
+               <source>17th International Symposium on the Application of Computers and Operations Research in the Mineral Industry</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e881a1310">
+               
+               <mixed-citation id="d6312440e885" publication-type="book">
+Cook, D., Cressie, N., Majure, J., and Symanzik, J. (1994), "Some Dynamic Graphics for Spatial Data (with
+Multiple Attributes) in a GIS," in COMPSTAT 1994: Proceedings in Computational Statistics, eds. R.
+Dutter and W. Grossmann, Heidelberg: Physica-Verlag, pp. 105-119.<person-group>
+                     <string-name>
+                     <surname>Cook</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Some Dynamic Graphics for Spatial Data (with Multiple Attributes) in a GIS</comment>
+               <fpage>105</fpage>
+               <source>COMPSTAT 1994: Proceedings in Computational Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e920a1310">
+               
+               <mixed-citation id="d6312440e924" publication-type="journal">
+Cook, D., Majure, J.J., Symanzik, J., and Cressie, N. (1996), "Dynamic Graphics in a GIS: Exploring and
+Analyzing Multivariate Spatial Data Using Linked Software," Computational Statistics: Special Issue on
+Computeraided Analysis of Spatial Data, 11, 467-480.<person-group>
+                     <string-name>
+                     <surname>Cook</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>467</fpage>
+               <volume>11</volume>
+               <source>Computational Statistics: Special Issue on Computeraided Analysis of Spatial Data</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e959a1310">
+               
+               <mixed-citation id="d6312440e963" publication-type="journal">
+Cook, D., Symanzik, J., Majure, J.J., and Cressie, N. (1997), "Dynamic Graphics in a GIS: More Exam-
+ples Using Linked Software," Computers and Geosciences: Special Issue on Exploratory Cartographic
+Visualization, 23, 371-385;<person-group>
+                     <string-name>
+                     <surname>Cook</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>371</fpage>
+               <volume>23</volume>
+               <source>Computers and Geosciences: Special Issue on Exploratory Cartographic Visualization</source>
+               <year>1997</year>
+            </mixed-citation>
+               <mixed-citation id="d6312440e997" publication-type="other">
+paper, CD, and http://www.elsevier.nl/locate/cgvis.</mixed-citation>
+            </ref>
+            <ref id="d6312440e1004a1310">
+               
+               <mixed-citation id="d6312440e1008" publication-type="book">
+Corbin, J.R. (1991), The Art of Distributed Applications: Programming Techniques for Remote Procedure
+Calls, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Corbin</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Art of Distributed Applications: Programming Techniques for Remote Procedure Calls</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1034a1310">
+               
+               <mixed-citation id="d6312440e1038" publication-type="book">
+Cressie, N. (1984), "Towards Resistant Geostatistics," in Geostatistics for Natural Resources Characterization,
+Part 1, eds. G. Verly, M. David, A. G. Journel, and A. Marechal, Dordrecht: Reidel, pp. 21-44.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Towards Resistant Geostatistics</comment>
+               <fpage>21</fpage>
+               <source>Geostatistics for Natural Resources Characterization, Part 1</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1070a1310">
+               
+               <mixed-citation id="d6312440e1074" publication-type="book">
+(1993), Statistics for Spatial Data (revised ed.), New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistics for Spatial Data</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1096a1310">
+               
+               <mixed-citation id="d6312440e1100" publication-type="book">
+DiBiase, D., Reeves, C., MacEachren, A.M., von Wyss, M., Krygier, J.B., Sloan, J.L., and Detweiler,
+M.C. (1994), "Multivariate Display of Geographic Data: Applications in Earth System Science," in
+Visualization in Modern Cartography, eds. A. M. MacEachren, and D. R. F. Taylor, Oxford: Pergamon
+(Elsevier), pp. 287-312.<person-group>
+                     <string-name>
+                     <surname>DiBiase</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multivariate Display of Geographic Data: Applications in Earth System Science</comment>
+               <fpage>287</fpage>
+               <source>Visualization in Modern Cartography</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1138a1310">
+               
+               <mixed-citation id="d6312440e1142" publication-type="book">
+Dykes, J. (1996), "Dynamic Maps for Spatial Science: A Unified Approach to Cartographic Visualization," in
+Innovations in GIS 3, ed. D. Parker, London: Taylor and Francis, pp. 177-187.<person-group>
+                     <string-name>
+                     <surname>Dykes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Dynamic Maps for Spatial Science: A Unified Approach to Cartographic Visualization</comment>
+               <fpage>177</fpage>
+               <source>Innovations in GIS 3</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1174a1310">
+               
+               <mixed-citation id="d6312440e1178" publication-type="book">
+Eddon, G., and Eddon, H. (1998), Inside Distributed COM, Redmond, WA: Microsoft Press.<person-group>
+                     <string-name>
+                     <surname>Eddon</surname>
+                  </string-name>
+                  </person-group>
+               <source>Inside Distributed COM</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1200a1310">
+               
+               <mixed-citation id="d6312440e1204" publication-type="book">
+Environmental Systems Research Institute, Inc. (1996), ArcView 3.0 On-Line Help: RPCServer Page, Redlands,
+CA.<person-group>
+                     <string-name>
+                     <surname>Environmental Systems Research Institute, Inc.</surname>
+                  </string-name>
+                  </person-group>
+               <source>ArcView 3.0 On-Line Help: RPCServer Page</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1230a1310">
+               
+               <mixed-citation id="d6312440e1234" publication-type="journal">
+Goodchild, M.F., Haining, R.P., and Wise, S. (1992), "Integrating GIS and Spatial Data Analysis: Problems
+and Possibilities," International Journal of Geographical Information Systems, 6, 407-423.<person-group>
+                     <string-name>
+                     <surname>Goodchild</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>407</fpage>
+               <volume>6</volume>
+               <source>International Journal of Geographical Information Systems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1266a1310">
+               
+               <mixed-citation id="d6312440e1270" publication-type="book">
+Günther, 0. (1998), Environmental Information Systems, Berlin: Springer.<person-group>
+                     <string-name>
+                     <surname>Günther</surname>
+                  </string-name>
+                  </person-group>
+               <source>Environmental Information Systems</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1292a1310">
+               
+               <mixed-citation id="d6312440e1296" publication-type="journal">
+Günther, O., Müller, R., Schmidt, P., Bhargava, H.K., and Krishnan, R. (1997), "MMM: A Web-Based
+System for Sharing Statistical Computing Modules," IEEE Internet Computing, 1, 59-68;<person-group>
+                     <string-name>
+                     <surname>Günther</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>59</fpage>
+               <volume>1</volume>
+               <source>IEEE Internet Computing</source>
+               <year>1997</year>
+            </mixed-citation>
+               <mixed-citation id="d6312440e1327" publication-type="other">
+paper and
+http://computer.org/internet/ic1997/w3toc.htm.</mixed-citation>
+            </ref>
+            <ref id="d6312440e1337a1310">
+               
+               <mixed-citation id="d6312440e1341" publication-type="journal">
+Haining, R., Ma, J., and Wise, S. (1996), "Design of a Software System for Interactive Spatial Statistical
+Analysis Linked to a GIS," Computational Statistics: Special Issue on Computeraided Analysis of Spatial
+Data, 11, 449-466.<person-group>
+                     <string-name>
+                     <surname>Haining</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>449</fpage>
+               <volume>11</volume>
+               <source>Computational Statistics: Special Issue on Computeraided Analysis of Spatial Data</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1376a1310">
+               
+               <mixed-citation id="d6312440e1380" publication-type="book">
+Härdle, W., Klinke, S., and Turlach, B.A. (1995), XploRe: An Interactive Statistical Computing Environment,
+New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Härdle</surname>
+                  </string-name>
+                  </person-group>
+               <source>XploRe: An Interactive Statistical Computing Environment</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1405a1310">
+               
+               <mixed-citation id="d6312440e1409" publication-type="journal">
+Haslett, J., and Bradley, R. (1991), "Dynamic Graphics: Linked Points, Lines and Regions with Applications
+to Spatial Data Modelling," Computing Science and Statistics, 23, 425-429.<person-group>
+                     <string-name>
+                     <surname>Haslett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>425</fpage>
+               <volume>23</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1442a1310">
+               
+               <mixed-citation id="d6312440e1446" publication-type="journal">
+Haslett, J., Bradley, R., Craig, P., Unwin, A., and Wills, G. (1991), "Dynamic Graphics for Exploring Spatial
+Data with Application to Locating Global and Local Anomalies," The American Statistician, 45, 234-242.<person-group>
+                     <string-name>
+                     <surname>Haslett</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>234</fpage>
+               <volume>45</volume>
+               <source>The American Statistician</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1478a1310">
+               
+               <mixed-citation id="d6312440e1482" publication-type="book">
+Klein, R., and Moreira, R.I. (1994), "Exploratory Analysis of Agricultural Images via Dynamic Graphics,"
+Technical Report 9/94; Rio de Janeiro, Brazil: Laborat6rio Nacional de Computaqao Cientifica.<person-group>
+                     <string-name>
+                     <surname>Klein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Exploratory Analysis of Agricultural Images via Dynamic Graphics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1507a1310">
+               
+               <mixed-citation id="d6312440e1511" publication-type="journal">
+Littman, M., Swayne, D.F., Dean, N., and Buja, A. (1992), "Visualizing the Embedding of Objects in Euclidean
+Space," Computing Science and Statistics, 24, 208-217.<person-group>
+                     <string-name>
+                     <surname>Littman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>208</fpage>
+               <volume>24</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1543a1310">
+               
+               <mixed-citation id="d6312440e1547" publication-type="journal">
+MacDougall, E.B. (1992), "Exploratory Analysis, Dynamic Statistical Visualization, and Geographic Infor-
+mation Systems," Cartography and Geographic Information Systems, 19, 237-246.<person-group>
+                     <string-name>
+                     <surname>MacDougall</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>237</fpage>
+               <volume>19</volume>
+               <source>Cartography and Geographic Information Systems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1579a1310">
+               
+               <mixed-citation id="d6312440e1583" publication-type="book">
+Majure, J. J., Cook, D., Cressie, N., Kaiser, M., Lahiri, S., and Symanzik, J. (1995), Spatial CDF Estimation
+and Visualization with Applications to Forest Health Monitoring, ASA Statistical Graphics Video Lending
+Library (contact: dfs@research.att.com).<person-group>
+                     <string-name>
+                     <surname>Majure</surname>
+                  </string-name>
+                  </person-group>
+               <source>Spatial CDF Estimation and Visualization with Applications to Forest Health Monitoring</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1612a1310">
+               
+               <mixed-citation id="d6312440e1616" publication-type="journal">
+(1996a), "Spatial CDF Estimation and Visualization with Applications to Forest Health Monitoring,"
+Computing Science and Statistics, 27, 93-101.<person-group>
+                     <string-name>
+                     <surname>Majure</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>93</fpage>
+               <volume>27</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1649a1310">
+               
+               <mixed-citation id="d6312440e1653" publication-type="book">
+Majure, J. J., Cook, D., Symanzik, J., and Megretskaia, I. (1996b), An Interactive Environment	for the Graphical
+Analysis of Spatial Data, ASA Statistical Graphics Video Lending Library (contact: dfs@research.att.com).<person-group>
+                     <string-name>
+                     <surname>Majure</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Interactive Environment for the Graphical Analysis of Spatial Data</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1678a1310">
+               
+               <mixed-citation id="d6312440e1682" publication-type="journal">
+Majure, J.J., and Cressie, N. (1998), "Dynamic Graphics for Exploring Spatial Dependence in Multivariate
+Spatial Data," Geographical Systems, 4, 131-158.<person-group>
+                     <string-name>
+                     <surname>Majure</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>131</fpage>
+               <volume>4</volume>
+               <source>Geographical Systems</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1714a1310">
+               
+               <mixed-citation id="d6312440e1718" publication-type="conference">
+Majure, J.J., Cressie, N., Cook, D., and Symanzik, J. (1996c), "GIS, Spatial Statistical Graphics, and Forest
+Health," in Proceedings of the Third International Conference/Workshop on Integrating GIS and Environ-
+mental Modeling, Santa Fe, NM, January 21-26, 1996, Santa Barbara, CA. National Center for Geographic
+Information and Analysis. CD and http://www.ncgia.ucsb.edu/conf/SANTA-FE-CD-ROM/main.html.<person-group>
+                     <string-name>
+                     <surname>Majure</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">GIS, Spatial Statistical Graphics, and Forest Health</comment>
+               <source>Proceedings of the Third International Conference/Workshop on Integrating GIS and Environmental Modeling, Santa Fe, NM, January 21-26, 1996</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1753a1310">
+               
+               <mixed-citation id="d6312440e1757" publication-type="book">
+MathSoft (1996), S+GISLink, Seattle, WA: MathSoft, Inc.<person-group>
+                     <string-name>
+                     <surname>MathSoft</surname>
+                  </string-name>
+                  </person-group>
+               <source>S+GISLink</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1779a1310">
+               
+               <mixed-citation id="d6312440e1783" publication-type="book">
+McDonald, J. A., and Willis, S. (1987), Use of the Grand Tour in Remote Sensing, ASA Statistical Graphics
+Video Lending Library (contact: dfs@research.att.com).<person-group>
+                     <string-name>
+                     <surname>McDonald</surname>
+                  </string-name>
+                  </person-group>
+               <source>Use of the Grand Tour in Remote Sensing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1808a1310">
+               
+               <mixed-citation id="d6312440e1812" publication-type="book">
+Monmonier, M. (1988), "Geographical Representations in Statistical Graphics: A Conceptual Framework," in
+1988 Proceedings of the Section on Statistical Graphics, Alexandria, VA: American Statistical Association,
+pp. 1-10.<person-group>
+                     <string-name>
+                     <surname>Monmonier</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Geographical Representations in Statistical Graphics: A Conceptual Framework</comment>
+               <fpage>1</fpage>
+               <source>Proceedings of the Section on Statistical Graphics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1848a1310">
+               
+               <mixed-citation id="d6312440e1852" publication-type="journal">
+(1989), "Geographic Brushing: Enhancing Exploratory Analysis of the Scatterplot Matrix," Geograph-
+ical Analysis, 21, 81-84.<person-group>
+                     <string-name>
+                     <surname>Monmonier</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>81</fpage>
+               <volume>21</volume>
+               <source>Geographical Analysis</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1884a1310">
+               
+               <mixed-citation id="d6312440e1888" publication-type="book">
+Nye, A. (1992), Xlib Programming Manual (Third Edition, for Version 11 of the X Window System), Sebastopol,
+CA: O'Reilly and Associates, Inc.<person-group>
+                     <string-name>
+                     <surname>Nye</surname>
+                  </string-name>
+                  </person-group>
+               <source>Xlib Programming Manual (Third Edition, for Version 11 of the X Window System)</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1913a1310">
+               
+               <mixed-citation id="d6312440e1917" publication-type="book">
+Openshaw, S., and Perree, T. (1996), "User-Centred Intelligent Spatial Analysis of Point Data," in Innovations
+in GIS 3, ed. D. Parker, London: Taylor and Francis, pp. 119-134.<person-group>
+                     <string-name>
+                     <surname>Openshaw</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">User-Centred Intelligent Spatial Analysis of Point Data</comment>
+               <fpage>119</fpage>
+               <source>Innovations in GIS 3</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1949a1310">
+               
+               <mixed-citation id="d6312440e1953" publication-type="book">
+Otte, R., Patrick, P., and Roy, M. (1996), Understanding CORBA: The Common Object Request Broker
+Architecture, Upper Saddle River, NJ: Prentice Hall.<person-group>
+                     <string-name>
+                     <surname>Otte</surname>
+                  </string-name>
+                  </person-group>
+               <source>Understanding CORBA: The Common Object Request Broker Architecture</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e1978a1310">
+               
+               <mixed-citation id="d6312440e1982" publication-type="book">
+Pajarola, R. B. (1998), "Access to Large Scale Terrain and Image Databases in Geoinformation Systems,"
+unpublished Ph.D. thesis, Diss. ETH No. 12729, Department of Computer Science, ETH Zürich.<person-group>
+                     <string-name>
+                     <surname>Pajarola</surname>
+                  </string-name>
+                  </person-group>
+               <source>Access to Large Scale Terrain and Image Databases in Geoinformation Systems</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2007a1310">
+               
+               <mixed-citation id="d6312440e2011" publication-type="book">
+Pannatier, Y. (1996), VARIOWIN: Software for Spatial Data Analysis in 2D, New York: Springer.<person-group>
+                     <string-name>
+                     <surname>Pannatier</surname>
+                  </string-name>
+                  </person-group>
+               <source>VARIOWIN: Software for Spatial Data Analysis in 2D</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2034a1310">
+               
+               <mixed-citation id="d6312440e2038" publication-type="journal">
+Rossi, R.E., Mulla, D.J., Journel, A.G., and Franz, E.H. (1992), "Geostatistical Tools for Modeling and
+Interpreting Ecological Spatial Dependence," Ecological Monographs, 62, 277-314.<object-id pub-id-type="doi">10.2307/2937096</object-id>
+               <fpage>277</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2054a1310">
+               
+               <mixed-citation id="d6312440e2058" publication-type="journal">
+Scott, L.M. (1994), "Identification of a GIS Attribute Error Using Exploratory Data Analysis," The Professional
+Geographer, 46, 378-386.<person-group>
+                     <string-name>
+                     <surname>Scott</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>378</fpage>
+               <volume>46</volume>
+               <source>The Professional Geographer</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2090a1310">
+               
+               <mixed-citation id="d6312440e2094" publication-type="book">
+Stevens, W.R. (1990), UNIX Network Programming, Englewood Cliffs, NJ: Prentice-Hall.<person-group>
+                     <string-name>
+                     <surname>Stevens</surname>
+                  </string-name>
+                  </person-group>
+               <source>UNIX Network Programming</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2116a1310">
+               
+               <mixed-citation id="d6312440e2120" publication-type="journal">
+Swayne, D.F., Cook, D., and Buja, A. (1998), "XGobi: Interactive Dynamic Graphics in the X Window
+System," Journal of Computational and Graphical Statistics, 7, 113-130.<object-id pub-id-type="doi">10.2307/1390772</object-id>
+               <fpage>113</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2136a1310">
+               
+               <mixed-citation id="d6312440e2140" publication-type="conference">
+Symanzik, J., Cook, D., Klinke, S., and Lewin, N. (1998a), "Exploration of Satellite Images in the Dynamically
+Linked ArcView/XGobi/XploRe Environment," in Proceedings of the Third Annual U.S. Army Conference
+on Applied Statistics, 22-24 October 1997, ed. B. A. Bodt, Aberdeen Proving Ground, MD: Army Research
+Laboratory ARL-SR-74, pp. 23-33.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Exploration of Satellite Images in the Dynamically Linked ArcView/XGobi/XploRe Environment</comment>
+               <fpage>23</fpage>
+               <source>Proceedings of the Third Annual U.S. Army Conference on Applied Statistics, 22-24 October 1997</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2178a1310">
+               
+               <mixed-citation id="d6312440e2182" publication-type="book">
+Symanzik, J., Klinke, S., Schmelzer, S., Cook, D., and Lewin, N. (1997a), "The ArcView/XGobi/XploRe
+Environment: Technical Details and Applications for Spatial Data Analysis," in 1997 Proceedings of the
+Section on Statistical Graphics, Alexandria, VA: American Statistical Association, pp. 73-78.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The ArcView/XGobi/XploRe Environment: Technical Details and Applications for Spatial	Data Analysis</comment>
+               <fpage>73</fpage>
+               <source>1997 Proceedings of the Section on Statistical Graphics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2218a1310">
+               
+               <mixed-citation id="d6312440e2222" publication-type="journal">
+Symanzik, J., Kotter, T., Schmelzer, S., Klinke, S., Cook, D., and Swayne, D. (1998b), "Spatial Data Analysis
+in the Dynamically Linked ArcView/XGobi/XploRe Environment," Computing Science and Statistics, 29
+(1), 561-569.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>561</fpage>
+               <volume>29</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2260a1310">
+               
+               <mixed-citation id="d6312440e2264" publication-type="journal">
+Symanzik, J., Majure, J., Cook, D., and Cressie, N. (1994), "Dynamic Graphics in a GIS: A Link between
+ARC/INFO and XGobi," Computing Science and Statistics, 26, 431-435.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>431</fpage>
+               <volume>26</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2296a1310">
+               
+               <mixed-citation id="d6312440e2300" publication-type="book">
+Symanzik, J., Majure, J. J., and Cook, D. (1995), Dynamic Graphics in a GIS: Analyzing and Exploring Mul-
+tivariate Spatial Data, ASA Statistical Graphics Video Lending Library (contact: dfs@research.att.com).<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <source>Dynamic Graphics in a GIS: Analyzing and Exploring Multivariate Spatial Data</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2325a1310">
+               
+               <mixed-citation id="d6312440e2329" publication-type="journal">
+(1996), "Dynamic Graphics in a GIS: A Bidirectional Link between ArcView 2.0 and XGobi," Com-
+puting Science and Statistics, 27, 299-303.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>299</fpage>
+               <volume>27</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2361a1310">
+               
+               <mixed-citation id="d6312440e2365" publication-type="journal">
+(1997b), "Dynamic Graphics in a GIS: A Bidirectional Link between ArcView 2.1 and XGobi - An
+Update," Computing Science and Statistics, 29 (2), 35-40.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>35</fpage>
+               <volume>29</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2400a1310">
+               
+               <mixed-citation id="d6312440e2404" publication-type="conference">
+(1997c), "The Linked ArcView 2.1 and XGobi Environment—GIS, Dynamic Statistical Graphics, and
+Spatial Data," in Proceedings of the Fourth ACM Workshop on Advances in Geographic Information
+Systems, Rockville, Maryland, November 15-16, 1996, eds. S. Shekhar, and P. Bergougnoux, New York:
+ACM, pp. 147-154.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Linked ArcView 2.1 and XGobi Environment—GIS, Dynamic Statistical Graphics, and Spatial Data</comment>
+               <fpage>147</fpage>
+               <source>Proceedings of the Fourth ACM Workshop on Advances in Geographic Information Systems, Rockville, Maryland, November 15-16, 1996</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2443a1310">
+               
+               <mixed-citation id="d6312440e2447" publication-type="journal">
+Symanzik, J., Megretskaia, I., Majure, J.J., and Cook, D. (1997d), "Implementation Issues of Variogram Cloud
+Plots and Spatially Lagged Scatterplots in the Linked ArcView 2.1 and XGobi Environment," Computing
+Science and Statistics, 28, 369-374.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>369</fpage>
+               <volume>28</volume>
+               <source>Computing Science and Statistics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2482a1310">
+               
+               <mixed-citation id="d6312440e2486" publication-type="book">
+Symanzik, J., Pajarola, R., and Widmayer, P. (1998c), "XGobi and XploRe Meet ViRGIS," in 1998 Proceedings
+of the Section on Statistical Graphics, Alexandria, VA: American Statistical Association, pp. 50-55.<person-group>
+                     <string-name>
+                     <surname>Symanzik</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">XGobi and XploRe Meet ViRGIS</comment>
+               <fpage>50</fpage>
+               <source>1998 Proceedings of the Section on Statistical Graphics</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2518a1310">
+               
+               <mixed-citation id="d6312440e2522" publication-type="book">
+Unwin, A., Wills, G., and Haslett, J. (1990), "REGARD — Graphical Analysis of Regional Data," in 1990
+Proceedings of the Section on Statistical Graphics, Alexandria, VA: American Statistical Association, pp.
+36-41.<person-group>
+                     <string-name>
+                     <surname>Unwin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">REGARD — Graphical Analysis of Regional Data</comment>
+               <fpage>36</fpage>
+               <source>1990 Proceedings of the Section on Statistical Graphics</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2557a1310">
+               
+               <mixed-citation id="d6312440e2561" publication-type="book">
+Williams, I., Limp, W.F., and Briuer, F.L. (1990), "Using Geographic Information Systems and Exploratory
+Data Analysis for Archaeological Site Classification and Analysis," in Interpreting Space: GIS and
+Archaeology, eds. K. M. S. Allen, S. W. Green, and E. B. W. Zubrow, London: Taylor and Francis, pp.
+2391273.<person-group>
+                     <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Using Geographic Information Systems and Exploratory Data Analysis for Archaeological Site Classification and Analysis</comment>
+               <fpage>239</fpage>
+               <source>Interpreting Space: GIS and Archaeology</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d6312440e2599a1310">
+               
+               <mixed-citation id="d6312440e2603" publication-type="journal">
+Zhang, Z., -and Griffith, D. A. (1997), "Developing User-Friendly Spatial Statistical Analysis Modules for
+GIS: An-Example using ArcView," Computers, Environment and Urban Systems, 21, 5-29.<person-group>
+                     <string-name>
+                     <surname>Zhang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>5</fpage>
+               <volume>21</volume>
+               <source>Computers, Environment and Urban Systems</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

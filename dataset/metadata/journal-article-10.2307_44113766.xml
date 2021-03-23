@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">28</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i40172063</issue-id>
+         <article-id pub-id-type="jstor">44113766</article-id>
+         <title-group>
+            <article-title>Online discriminative learning for machine translation with binary-valued feedback</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Avneesh</given-names>
+                  <surname>Saluja</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ying</given-names>
+                  <surname>Zhang</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>2014</year>
+         </pub-date>
+         <fpage>69</fpage>
+         <lpage>90</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media 2014</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44113766"/>
+      
+      
+         <abstract>
+            <p>Viewing machine translation (MT) as a structured classification problem has provided a gateway for a host of structured prediction techniques to enter the field. In particular, large-margin methods for discriminative training of feature weights, such as the structured perceptron or MIRA, have started to match or exceed the performance of existing methods such as MERT. One issue with these problems in general is the difficulty in obtaining fully structured labels, e.g. in MT, obtaining reference translations or parallel sentence corpora for arbitrary language pairs. Another issue, more specific to the translation domain, is the difficulty in online training and updating of MT systems, since existing methods often require bilingual knowledge to correct translation outputs online. The problem is an important one, especially with the usage of MT in the mobile domain: in the process of translating user inputs, these systems can also receive feedback from the user on the quality of the translations produced. We propose a solution to these two problems, by demonstrating a principled way to incorporate binary-labeled feedback (i.e. feedback on whether a translation hypothesis is a "good" or understandable one or not), a form of supervision that can be easily integrated in an online and monolingual manner, into an MT framework. Experimental results on Chinese-English and Arabic-English corpora for both sparse and dense feature sets show marked improvements by incorporating binary feedback on unseen test data, with gains in some cases exceeding 5.5 BLEU points. Experiments with human evaluators providing feedback present reasonable correspondence with the larger-scale, synthetic experiments and underline the relative ease by which binary feedback for translation hypotheses can be collected, in comparison to parallel data.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d3159674e217a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d3159674e224" publication-type="other">
+The implementations of these algorithms are available at https://github.com/redpony/cdec.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3159674e240a1310">
+          
+            <mixed-citation id="d3159674e244" publication-type="other">
+Callison-Burch C, Osborne M, Koehn P (2006) Re-evaluating the role of BLEU in machine translation
+research. In: EACL-2006: 11th conference of the European chapter of the association for computational
+linguistics, Trento, Italy, pp 249-256</mixed-citation>
+        </ref>
+        <ref id="d3159674e257a1310">
+          
+            <mixed-citation id="d3159674e261" publication-type="other">
+Chang MW, Srikumar V, Goldwasser D, Roth D (2010) Structured output learning with indirect supervision.
+In: Proceedings of the 27th annual international conference on machine learning (HICML10), Haifa,
+Israel, pp 199-206</mixed-citation>
+        </ref>
+        <ref id="d3159674e274a1310">
+          
+            <mixed-citation id="d3159674e278" publication-type="other">
+Chen SF, Goodman J (1999) An empirical study of smoothing techniques for language modeling. Comput
+Speech Lang 4(13):359-393</mixed-citation>
+        </ref>
+        <ref id="d3159674e288a1310">
+          
+            <mixed-citation id="d3159674e292" publication-type="other">
+Cherry C, Foster G (2012) Batch tuning strategies for statistical machine translation. In: Proceedings of the
+2012 conference of the North American chapter of the association for computational linguistics: human
+language technologies, Montréal, Canada, pp 427-436</mixed-citation>
+        </ref>
+        <ref id="d3159674e306a1310">
+          
+            <mixed-citation id="d3159674e310" publication-type="other">
+Chiang D (2012) Hope and fear for discriminative training of statistical translation models. J Mach Learn
+Res 13:1159-1187</mixed-citation>
+        </ref>
+        <ref id="d3159674e320a1310">
+          
+            <mixed-citation id="d3159674e324" publication-type="other">
+Chiang D, Marton Y, Resnik P (2008) Online large-margin training of syntactic and structural translation
+features. In: EMNLP 2008: Proceedings of the 2008 conference on empirical methods in natural language
+processing, Honolulu, Hawaii, USA, pp 224-233</mixed-citation>
+        </ref>
+        <ref id="d3159674e337a1310">
+          
+            <mixed-citation id="d3159674e341" publication-type="other">
+Chiang D, Knight K, Wang W (2009) 11, 001 new features for statistical machine translation. In: NAACL
+HLT 2009: Human language technologies: the 2009 annual conference of the North American Chapter
+of the ACL, Boulder, Colorado, pp 218-226</mixed-citation>
+        </ref>
+        <ref id="d3159674e354a1310">
+          
+            <mixed-citation id="d3159674e358" publication-type="other">
+Crammer K, Dekel O, Keshet J, Shalev-Shwartz S, Singer Y (2006) Online passive-aggressive algorithms.
+J Mach Learn Res 7:551-585</mixed-citation>
+        </ref>
+        <ref id="d3159674e368a1310">
+          
+            <mixed-citation id="d3159674e372" publication-type="other">
+Crammer K, Kulesza A, Dredze M (2009) Adaptive regularization of weight vectors. Advances in neural
+information processing systems, vol. 22. Vancouver, Canada, pp 414-422</mixed-citation>
+        </ref>
+        <ref id="d3159674e382a1310">
+          
+            <mixed-citation id="d3159674e386" publication-type="other">
+Dyer C, Lopez A, Ganitkevitch J, Weese J, Ture F, Blunsom P, Setiawan H, Eidelman V, Resnik P (2010)
+cdec: a decoder, alignment, and learning framework for finite-state and context-free translation models.
+In: Proceedings of the ACL 2010 system demonstrations. Uppsala, Sweden, pp 7-12</mixed-citation>
+        </ref>
+        <ref id="d3159674e400a1310">
+          
+            <mixed-citation id="d3159674e404" publication-type="other">
+Fleiss JL (1971) Measuring nominal scale agreement among many raters. Psychol Bull 76(5):378-382</mixed-citation>
+        </ref>
+        <ref id="d3159674e411a1310">
+          
+            <mixed-citation id="d3159674e415" publication-type="other">
+Gimpel K, Smith NA (2012) Structured ramp loss minimization for machine translation. In: Proceedings
+of the 2012 conference of the North American chapter of the association for computational linguistics:
+human language technologies, Montréal, Canada, pp 221-231</mixed-citation>
+        </ref>
+        <ref id="d3159674e428a1310">
+          
+            <mixed-citation id="d3159674e432" publication-type="other">
+Hall K, McDonald RT, Katz-Brown J, Ringgaard M (2011) Training dependency parsers by jointly opti-
+mizing multiple objectives. In: Proceedings of the 2011 conference on empirical methods in natural
+language processing. Edinburgh, Scotland, pp 1489-1499</mixed-citation>
+        </ref>
+        <ref id="d3159674e445a1310">
+          
+            <mixed-citation id="d3159674e449" publication-type="other">
+Heafield K (201 1) KenLM: faster and smaller language model queries. In: WMT 2011: Proceedings of the
+6th workshop on statistical machine translation. Edinburgh, Scotland, pp 187-197</mixed-citation>
+        </ref>
+        <ref id="d3159674e459a1310">
+          
+            <mixed-citation id="d3159674e463" publication-type="other">
+Jiao F, Wang S, Lee CH, Greiner R, Schuurmans D (2006) Semi-supervised conditional random fields for
+improved sequence segmentation and labeling. In: Proceedings of the 21st international conference on
+computational linguistics and the 44th annual meeting of the association for computational linguistics.
+Australia, Sydney, pp 209-216</mixed-citation>
+        </ref>
+        <ref id="d3159674e479a1310">
+          
+            <mixed-citation id="d3159674e483" publication-type="other">
+Liang P, Bouchard-Côté A, Klein D, Taskar B (2006) An end-to-end discriminative approach to machine
+translation. Proceedings of the 21st international conference on computational linguistics and the 44th
+annual meeting of the association for computational linguistics. Australia, Sydney, pp 761-768</mixed-citation>
+        </ref>
+        <ref id="d3159674e497a1310">
+          
+            <mixed-citation id="d3159674e501" publication-type="other">
+Lin CY, Och FJ (2004) ORANGE: a method for evaluating automatic evaluation metrics for machine
+translation. Coling 2004: proceedings of the 20th international conference on computational linguistics.
+Geneva, Switzerland, pp 501-507</mixed-citation>
+        </ref>
+        <ref id="d3159674e514a1310">
+          
+            <mixed-citation id="d3159674e518" publication-type="other">
+López-Salcedo FJ, Sanchis-Trilles G, CasacubertaF (2012) Online learning of log-linear weights in interac-
+tive machine translation. In: IberSPEECH: VII Jornadas en Tecnología del Habla and III Iberian SLTech
+Workshop, Madrid, Spain, pp 277-286</mixed-citation>
+        </ref>
+        <ref id="d3159674e531a1310">
+          
+            <mixed-citation id="d3159674e535" publication-type="other">
+Madnani N, Resnik P, Dorr BJ, Schwartz R (2008) Are multiple reference translations necessary? Investi-
+gating the value of paraphrased reference translations in parameter optimization. In: AMTA-2008. MT
+at work: proceedings of the eighth conference of the association for machine translation in the Americas,
+Waikiki, Hawai'i, pp 143-152</mixed-citation>
+        </ref>
+        <ref id="d3159674e551a1310">
+          
+            <mixed-citation id="d3159674e555" publication-type="other">
+Mann GS, McCallum A (2008) Generalized expectation criteria for semi-supervised learning of conditional
+random fields. In: ACL-08: HLT 46th annual meeting of the association for computational linguistics:
+Human language technologies, proceedings of the conference, Columbus, Ohio, USA, pp 870-878</mixed-citation>
+        </ref>
+        <ref id="d3159674e568a1310">
+          
+            <mixed-citation id="d3159674e572" publication-type="other">
+Och FJ (2003) Minimum error rate training in statistical machine translation. In: ACL-2003: 41st annual
+meeting of the association for computational linguistics. Sapporo, Japan, pp 160-167</mixed-citation>
+        </ref>
+        <ref id="d3159674e582a1310">
+          
+            <mixed-citation id="d3159674e586" publication-type="other">
+Och FJ, Ney H (2003) A systematic comparison of various statistical alignment models. Comput Linguist
+29(1): 19-51</mixed-citation>
+        </ref>
+        <ref id="d3159674e597a1310">
+          
+            <mixed-citation id="d3159674e601" publication-type="other">
+Ortiz-Martinez D, García-Varea I, Casacuberta F (2010) Online Learning for interactive statistical machine
+translation. In: NAACL HLT 20 10 human language technologies: the 20 10 annual conference of the North
+American chapter of the association for computational linguistics, proceedings of the main conference,
+Los Angeles, California, pp 546-554</mixed-citation>
+        </ref>
+        <ref id="d3159674e617a1310">
+          
+            <mixed-citation id="d3159674e621" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu WJ (2002) BLEU: a method for automatic evaluation of machine
+translation. In: 40th annual meeting of the association for computational linguistics, proceedings of the
+conference, Philadelphia, PA, USA, pp 311-318</mixed-citation>
+        </ref>
+        <ref id="d3159674e634a1310">
+          
+            <mixed-citation id="d3159674e638" publication-type="other">
+Paul M (2009) Overview of the IWSLT 2009 evaluation campaign. In: IWSLT 2009: Proceedings of the
+international workshop on spoken language translation. Tokyo, Japan, pp 1-18</mixed-citation>
+        </ref>
+        <ref id="d3159674e648a1310">
+          
+            <mixed-citation id="d3159674e652" publication-type="other">
+Ratliff ND, Bagnell JA, Zinkevich MA (2007) (Online) Subgradient methods for structured prediction.
+In: Eleventh international conference on artificial intelligence and statistics. San Juan, Puerto Rico, pp
+380-387</mixed-citation>
+        </ref>
+        <ref id="d3159674e665a1310">
+          
+            <mixed-citation id="d3159674e669" publication-type="other">
+Saluja A, Lane I, Zhang Y (2012) Machine translation with binary feedback: a large-margin approach. In:
+AMTA-2012: Proceedings of the tenth biennial conference of the association for machine translation in
+the Americas, San Diego, California</mixed-citation>
+        </ref>
+        <ref id="d3159674e682a1310">
+          
+            <mixed-citation id="d3159674e686" publication-type="other">
+Smith NA (2011) Linguistic structure prediction. Synthesis lectures on human language technologies, vol.
+4, No. 2, Morgan and Claypool, San Rafael, CA</mixed-citation>
+        </ref>
+        <ref id="d3159674e697a1310">
+          
+            <mixed-citation id="d3159674e701" publication-type="other">
+Stoické A (2002) SRILM -an extensible language modeling toolkit. In: Proceedings of the seventh inter-
+national conference of spoken language processing (ICSLP2002). Denver, Colorado, USA, pp 901-904</mixed-citation>
+        </ref>
+        <ref id="d3159674e711a1310">
+          
+            <mixed-citation id="d3159674e715" publication-type="other">
+Taskar B, Guestrin C, Koller D (2003) Max-margin Markov networks. In: Advances in neural information
+processing systems, vol. 16. Vancouver, Canada, pp 25-32</mixed-citation>
+        </ref>
+        <ref id="d3159674e725a1310">
+          
+            <mixed-citation id="d3159674e729" publication-type="other">
+Tsochantaridis I, Joachims T, Hofmann T, Altun Y (2005) Large margin methods for structured and inter-
+dependent output variables. J Mach Learn Res 6:1453-1484</mixed-citation>
+        </ref>
+        <ref id="d3159674e739a1310">
+          
+            <mixed-citation id="d3159674e743" publication-type="other">
+Watanabe T, Suzuki J, Tsukada H, Isozaki H (2007) Online large-margin training for statistical machine
+translation. In: Proceedings of the 2007 joint conference on empirical methods in natural language
+processing and computational natural language learning (EMNLP-CoNLL). Czech Republic, Prague,
+pp 764-773</mixed-citation>
+        </ref>
+        <ref id="d3159674e759a1310">
+          
+            <mixed-citation id="d3159674e763" publication-type="other">
+Weese J, Ganitkevitch J, Callison-Burch C, Post M, Lopez A (2011) Joshua 3.0: syntax-based machine
+translation with the thrax grammar extractor. In: WMT 2011: Proceedings of the 6th workshop on
+statistical machine translation, Edinburgh, Scotland, pp 478-484</mixed-citation>
+        </ref>
+        <ref id="d3159674e776a1310">
+          
+            <mixed-citation id="d3159674e780" publication-type="other">
+Witten IH, Frank E (2005) Data mining: practical machine learning tools and techniques, 2nd edn. Morgan
+Kaufmann Publishers Inc., San Francisco</mixed-citation>
+        </ref>
+        <ref id="d3159674e791a1310">
+          
+            <mixed-citation id="d3159674e795" publication-type="other">
+Yu CNJ, Joachims T (2009) Learning structural SVMs with latent variables. In: ICML '09: Proceedings of
+the 26th annual international conference on machine learning. Montréal, Canada, pp 1169-1176</mixed-citation>
+        </ref>
+        <ref id="d3159674e805a1310">
+          
+            <mixed-citation id="d3159674e809" publication-type="other">
+Yuille AL, Rangarajan A (2003) The concave-convex procedure. Neural Comput 15(4):915-936</mixed-citation>
+        </ref>
+        <ref id="d3159674e816a1310">
+          
+            <mixed-citation id="d3159674e820" publication-type="other">
+Zhu X (2008) Semi-supervised learning literature survey. Tech. Rep. 1530, Computer Sciences, University
+of Wisconsin-Madison, Madison, WI</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">69</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">230</issue>
+         <issue-id>i344570</issue-id>
+         <article-id pub-id-type="jstor">2584889</article-id>
+         
+         <title-group>
+            <article-title>The Convergence of the Cascadic Conjugate-Gradient Method Applied to Elliptic Problems in Domains with Re-Entrant Corners</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Vladimir</given-names>
+                  <surname>Shaidurov</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Lutz</given-names>
+                  <surname>Tobiska</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>2000</year>
+         </pub-date>
+         <fpage>501</fpage>
+         <lpage>520</lpage>
+         <page-range>501-520</page-range>
+         <permissions>
+            <copyright-statement>Copyright 2000 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584889"/>
+         
+         
+         <abstract>
+            <p>
+               We study the convergence properties of the cascadic conjugate-gradient method (CCG-method), which can be considered as a multilevel method without coarse-grid correction. Nevertheless, the CCG-method converges with a rate that is independent of the number of unknowns and the number of grid levels. We prove this property for two-dimensional elliptic second-order Dirichlet problems in a polygonal domain with an interior angle greater than π. For piecewise linear finite elements we construct special nested triangulations that satisfy the conditions of a "triangulation of type (h, γ, L)" in the sense of I. Babuška, R. B. Kellogg and J. Pitkäranta. In this way we can guarantee both the same order of accuracy in the energy norm of the discrete solution and the same convergence rate of the CCG-method as in the case of quasiuniform triangulations of a convex polygonal domain. 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01138-2</kwd>
+            <kwd>65F10</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Multigrid</kwd>
+            <kwd>Cascadic Algorithm</kwd>
+            <kwd>Conjugate-Gradient Method</kwd>
+            <kwd>Finite Element Method</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d3106901e172a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d3106901e179" publication-type="journal">
+I. Babuška, R.B. Kellogg, and J. Pitkaranta, Direct and inverse error estimates for finite
+elements with mesh refinements, Numer. Math.33 (1979), 447-471. MR 81c:65054<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>447</fpage>
+               <volume>33</volume>
+               <source>Numer. Math.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e211a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d3106901e218" publication-type="book">
+F.A. Bornemann, On the convergence of cascadic iterations for elliptic problems, Tech. Report
+SC 94-8, Konrad-Zuse-Zentrum Berlin (ZIB), 1994.<person-group>
+                     <string-name>
+                     <surname>Bornemann</surname>
+                  </string-name>
+                  </person-group>
+               <source>On the convergence of cascadic iterations for elliptic problems</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e243a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d3106901e250" publication-type="book">
+P. Ciarlet, The Finite Element Method for Elliptic Problems, North-Holland, Amsterdam,
+1978. MR 58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Finite Element Method for Elliptic Problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e275a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d3106901e282" publication-type="book">
+P. Deuflhard, Cascadic Conjugate Gradient Methods for Elliptic Partial Differential Equa-
+tions I. Algorithm and Numerical Results, Tech. Report SC 93-23, Konrad-Zuse-Zentrum
+Berlin (ZIB), 1993.<person-group>
+                     <string-name>
+                     <surname>Deuflhard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Cascadic Conjugate Gradient Methods for Elliptic Partial Differential Equations I. Algorithm and Numerical Results</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e312a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d3106901e319" publication-type="conference">
+—Cascadic conjugate gradient methods for elliptic partial differential equations. Al-
+gorithm and numerical results, Domain decomposition methods in scientific and engineering
+computing. Proceedings of the 7th international conference on domain decomposition, Octo-
+ber 27-30, 1993, Pennsylvania State University, (D. Keyes and J. Xu, eds.), Contemp. Math.,
+vol. 180, Providence, RI: American Mathematical Society, 1994, pp. 29-42. MR 95i:65008<person-group>
+                     <string-name>
+                     <surname>Deuflhard</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Cascadic conjugate gradient methods for elliptic partial differential equations. Algorithm and numerical results</comment>
+               <fpage>29</fpage>
+               <volume>180</volume>
+               <source>Proceedings of the 7th international conference on domain decomposition, October 27-30, 1993</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e363a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d3106901e370" publication-type="book">
+P. Grisvard, Singularities in Boundary Value Problems, Springer-Verlag, Berlin, and Masson,
+Paris, 1992. MR 93h:35004<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Singularities in Boundary Value Problems</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e395a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d3106901e402" publication-type="journal">
+V.A. Kondrat'ev, Boundary problems for elliptic equations in domains with conical or angular
+points, Trans. Mosc. Math. Soc.16 (1967), 227-313. MR 37:1777<person-group>
+                     <string-name>
+                     <surname>Kondrat'ev</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>227</fpage>
+               <volume>16</volume>
+               <source>Trans. Mosc. Math. Soc.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e434a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d3106901e441" publication-type="book">
+O.A. Ladyzhenskaya and N.N. Uraltseva, Linear and quasilinear elliptic equations, Academic
+Press, New York, 1968. MR 39:5941<person-group>
+                     <string-name>
+                     <surname>Ladyzhenskaya</surname>
+                  </string-name>
+                  </person-group>
+               <source>Linear and quasilinear elliptic equations</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e466a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d3106901e473" publication-type="book">
+L.A. Oganesjan and L.A. Rukhovets, Variational Difference Methods of Solving the Elliptic
+Equations (in Russian), Acad. Sci. of the Armenian SSR, Erevan, 1979. MR 92m:65101<person-group>
+                     <string-name>
+                     <surname>Oganesjan</surname>
+                  </string-name>
+                  </person-group>
+               <source>Variational Difference Methods of Solving the Elliptic Equations (in Russian)</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e498a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d3106901e505" publication-type="book">
+A.A. Samarskii and E.S. Nikolaev, Numerical Methods for Grid Equations. Vol. II, Iterative
+Methods, Birkhauser, Basel, 1989. MR 90m:65003<person-group>
+                     <string-name>
+                     <surname>Samarskii</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Methods for Grid Equations. Vol. II, Iterative Methods</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e531a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d3106901e538" publication-type="book">
+V.V. Shaidurov, The convergence of the cascadic conjugate-gradient method under a deficient
+regularity, Problems and Methods in Mathematical Physics (L.Jentsch and F.Troltzsch, eds.),
+Teubner, Stuttgart, 1994, 185-194. MR 95f:65217<person-group>
+                     <string-name>
+                     <surname>Shaidurov</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The convergence of the cascadic conjugate-gradient method under a deficient regularity</comment>
+               <fpage>185</fpage>
+               <source>Problems and Methods in Mathematical Physics</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e573a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d3106901e580" publication-type="journal">
+—, Some estimates of the rate of convergence for the cascadic conjugate-gradient method,
+Comput. Math. Appl.31 (1996), No. 4-5, 161-171. MR 96j:65003<person-group>
+                     <string-name>
+                     <surname>Shaidurov</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>161</fpage>
+               <volume>31</volume>
+               <source>Comput. Math. Appl.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e615a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d3106901e622" publication-type="book">
+—Multigrid methods for finite elements, Kluwer Academic Publishers, Dordrecht, 1995.
+MR 97e:65142<person-group>
+                     <string-name>
+                     <surname>Shaidurov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multigrid methods for finite elements</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d3106901e647a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d3106901e654" publication-type="journal">
+H. Yserentant, The convergence of multi-level methods for solving finite-element equations in
+the presence of singularities, Math. Comp.47 (1986), 399-409. MR 88d:65149<object-id pub-id-type="doi">10.2307/2008163</object-id>
+               <fpage>399</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

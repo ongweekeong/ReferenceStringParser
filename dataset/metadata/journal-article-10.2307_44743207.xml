@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">saetransactions</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50019997</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>SAE Transactions</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Society of Automotive Engineers, Inc.</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">0096736X</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">25771531</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">111</volume>
+         <issue-id>i40199659</issue-id>
+         <article-id pub-id-type="jstor">44743207</article-id>
+         <title-group>
+            <article-title>An Unstructured Parallel Solver for Engine Intake and Combustion Stroke Simulation</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>M.</given-names>
+                  <surname>Zolver</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>D.</given-names>
+                  <surname>Klahr</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>A.</given-names>
+                  <surname>Torres</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2002</year>
+         </pub-date>
+         <fpage>1919</fpage>
+         <lpage>1929</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>Copyright 2003 Society of Automotive Engineers, Inc.</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44743207"/>
+      
+      
+         <abstract>
+            <p>KIFP, an hexahedral unstructured version of KIVA-MB (KMB), the current CFD code for engines at IFP, has been developed. Based on KIVA algorithms (finite volume on staggered grids, time-splitting, SIMPLE loop, sub-cycled advection...), the new solver has been built step by step with a strong control on the numerical results. This paper shows the different phases of this work. The numerical approaches and developments are discussed. Several moving grids algorithms have been tested without the flow and results are presented. The flow with its physical properties has been implemented step by step. Some academic examples are shown and compared with KMB or analytical results, like scalar advection or multi-species diffusion. Better precision and convergence in the physical fields are observed. Iterative loops and advective sub-cycles are also reduced thanks to the unstructured formalism. Super-scalar machines being widely used and developed, KIFP is dedicated for them. Because of its low cost of implementation, the OPEN-MP paradigm is used to parallelize the code. The paper gives results on performance and speed-up (more than 3 for 4 processors in the best case). A helical port on a steady state bench has been computed and compared with KMB and measurements. A part of an intake stroke is also shown for a pent roof engine. Temporal interpolation is successfully used for moving the grid. At last, combustion is computed for the same engine with the extended coherent flame model (ECFM) implemented in the new solver. Pressure curves are compared with experiments.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d453914e358a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d453914e365" publication-type="other">
+Heel, H., Maly, R., Weiler, H. G., Gosman A.D.,
+"Validation of SI Combustion Model over Range of
+Speed, Load, Equivalence Ratio and Spark Timing",
+COMODIA, 1998.</mixed-citation>
+        </ref>
+        <ref id="d453914e381a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d453914e388" publication-type="other">
+O'Rourke, P.J., Zhang, S., Sahota, M.S., "A Parallel,
+Unstructured-Mesh Methodology for Device-Scale
+Combustion Calculations", Oil &amp; Gas Science and
+Technology -Rev. IFP, Vol. 54, 1999.</mixed-citation>
+        </ref>
+        <ref id="d453914e404a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d453914e411" publication-type="other">
+Tatsehl, R., Gabriel, H.P., Priesching, P., "FIRE -A
+Genetic CFD Platform for DID Engine Mixture
+Formation and Combustion Simulation", 11th
+International Multidimensional Engine Modeling
+User's Group Meeting at the SAE Congress, 2001.</mixed-citation>
+        </ref>
+        <ref id="d453914e430a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d453914e437" publication-type="other">
+Amsden, A.A., O'Rourke, P.J., Butler, T.D., "KIVA-II,
+a Computer Program for Chemically Reactiv Flows
+with Sprays", Report LA-11560-MS, Los Alamos
+National Laboratory, 1 989.</mixed-citation>
+        </ref>
+        <ref id="d453914e454a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d453914e461" publication-type="other">
+Habchi, C., Torres, A., "A 3D Multi-Block Structured
+Version of the KIVA-II code", First European CFD
+Conference proceedings, pp 502-512,1992.</mixed-citation>
+        </ref>
+        <ref id="d453914e474a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d453914e481" publication-type="other">
+Torres, A., Henriot, S., "Modeling the Effects of EGR
+Inhomogeneities Induced by Intake Systems in a
+Four-Valve Engine", SAE paper 961959, 1996.</mixed-citation>
+        </ref>
+        <ref id="d453914e494a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d453914e501" publication-type="other">
+Henriot, S., Chaouche, A., Cheve, E., Duelos, Ü.M.,
+Leduc, P., Menegazzi, P., Monnier, G., Ranini, A.,
+"NSDI-3: A small bore GDI Engine", SAE paper
+1999-01-0172, 1999.</mixed-citation>
+        </ref>
+        <ref id="d453914e517a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d453914e524" publication-type="other">
+Duelos, J.M., Zolver, M., "3D Modeling of Intake,
+Injection and Combustion in a DI-SI Engine under
+Homogeneous and Stratified Operating Conditions",
+COMODIA, 1998.</mixed-citation>
+        </ref>
+        <ref id="d453914e540a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d453914e547" publication-type="other">
+Beard, P., Duelos, ü.M., Habchi, C., Bruneaux,
+G.,Mokkadem, K, Baritaud, T., "Extension of
+Lagrangian-Eulerian Spray Modeling: Application to
+high Pressure Evaporating Diesel Sprays", SAE
+paper 2000-01-1893, 2000.</mixed-citation>
+        </ref>
+        <ref id="d453914e566a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d453914e573" publication-type="other">
+Patankar, S.V., Numerical Heat Transfer and Fluid
+Flow, Hemisphere Publishing Corp., Washington
+D.C., 1980.</mixed-citation>
+        </ref>
+        <ref id="d453914e587a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d453914e594" publication-type="other">
+O'Rourke, P.J., Amsden, A.A., "Implementation of a
+Conjugate Residual Iteration in the KIVA Computer
+Program", Report LA-10849-MS, Los Alamos
+National Laboratory, 1 986.</mixed-citation>
+        </ref>
+        <ref id="d453914e610a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d453914e617" publication-type="other">
+Sinha, N., Cavallo, P.A., Lee, R.A., Hosangadi, A.,
+Kenzakowski, D.C, Dash, S.M, Affes, H, and Chu,
+D., "Novel CFD Techniques for In-Cylinder Flows on
+Tetrahedral Grids", SAE paper 980138, 1998.</mixed-citation>
+        </ref>
+        <ref id="d453914e633a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d453914e640" publication-type="other">
+Torres, A., Henriot, S., "3D Modeling of Combustion
+in Lean Burn Four-Valve Engines: Influence of Intake
+Configuration", COMODIA, 1994.</mixed-citation>
+        </ref>
+        <ref id="d453914e653a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d453914e660" publication-type="other">
+Leveque, R.J., "Numerical Methods for Conservation
+Laws", Lectures in Mathematics, ETH Zürich,
+Birkhäuser Verlag, 1992.</mixed-citation>
+        </ref>
+        <ref id="d453914e673a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d453914e680" publication-type="other">
+Gresho, P.M., "On the theory of semi-implicit
+projection methods for viscous incompressible flow
+and its implementation via a finite element method
+that also introduces a nearly consistent mass matrix,
+part 2: applications", Int. Journal of Numerical
+Methods for Fluids 1 1, 621, 1990.</mixed-citation>
+        </ref>
+        <ref id="d453914e703a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d453914e710" publication-type="other">
+O'Rourke, P. J., Sahota, M.S., "A Variable
+Explicit/Implicit Method for calculating Advection on
+Unstructured Meshes, Journal of Computational
+Physics 143, pp31 2-345, 1998.</mixed-citation>
+        </ref>
+        <ref id="d453914e727a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d453914e734" publication-type="other">
+Angelberger, C., Poinsot, T., Delhaye, B., "Improving
+Near-Wall Combustion and Wall Heat Transfer
+Modeling in SI Engine Computations", SAE paper
+972881, 1997.</mixed-citation>
+        </ref>
+        <ref id="d453914e750a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d453914e757" publication-type="other">
+Duelos, J. M., Zolver, M., Baritaud, T., "3D Modeling
+of Combustion for DI-SI Engines", Oil &amp; gas science
+and technology-Rev. IFP, Vol. 54, n°2, pp259-264,
+1999.</mixed-citation>
+        </ref>
+        <ref id="d453914e773a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d453914e780" publication-type="other">
+Baritaud, T., "Combustion and Fluid dynamic
+measurements in a spark ignition engine: effects of
+thermochemistry and velocity fields; turbulent flame
+speed" SAE paper 892098, 1 989.</mixed-citation>
+        </ref>
+        <ref id="d453914e796a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d453914e803" publication-type="other">
+Heywood, J.B., "Internal Combustion Engines
+Fundamentals", Me Graw Hill Publication, 1988.</mixed-citation>
+        </ref>
+        <ref id="d453914e813a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d453914e820" publication-type="other">
+http://www.openmp.org</mixed-citation>
+        </ref>
+        <ref id="d453914e827a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d453914e834" publication-type="other">
+Zolver, M., Torres, A., Klahr, D., "CFD and
+Combustion in Engines with an Unstructured Parallel
+Solver Based on KIVA", paper (1-14), COMODIA
+2001, July 2001, Nagoya, Japan.</mixed-citation>
+        </ref>
+        <ref id="d453914e851a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d453914e858" publication-type="other">
+Duelos J-M, Colin O., "Arc Kernel Tracking Ignition
+Model for 3D Spark-Ignition Engine Calculations",
+paper (2-25), COMODIA 2001, July 2001 Nagoya,
+Japan.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

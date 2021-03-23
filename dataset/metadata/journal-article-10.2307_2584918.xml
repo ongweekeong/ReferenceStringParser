@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">68</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">228</issue>
+         <issue-id>i344568</issue-id>
+         <article-id pub-id-type="jstor">2584918</article-id>
+         
+         <title-group>
+            <article-title>A Monotone Finite Element Scheme for Convection-Diffusion Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Jinchao</given-names>
+                  <surname>Xu</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Ludmil</given-names>
+                  <surname>Zikatanov</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1999</year>
+         </pub-date>
+         <fpage>1429</fpage>
+         <lpage>1446</lpage>
+         <page-range>1429-1446</page-range>
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1999 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2584918"/>
+         
+         
+         <abstract>
+            <p>A simple technique is given in this paper for the construction and analysis of a class of finite element discretizations for convection-diffusion problems in any spatial dimension by properly averaging the PDE coefficients on element edges. The resulting finite element stiffness matrix is an M-matrix under some mild assumption for the underlying (generally unstructured) finite element grids. As a consequence the proposed edge-averaged finite element scheme is particularly interesting for the discretization of convection dominated problems. This scheme admits a simple variational formulation, it is easy to analyze, and it is also suitable for problems with a relatively smooth flux variable. Some simple numerical examples are given to demonstrate its effectiveness for convection dominated problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>S 0025-5718(99)01148-5</kwd>
+            <kwd>65N30</kwd>
+            <kwd>65N15</kwd>
+            <kwd>Convection Dominated Problems</kwd>
+            <kwd>Finite Element Method</kwd>
+            <kwd>Monotone Schemes</kwd>
+            <kwd>Up-Winding</kwd>
+            <kwd>Scharfetter-Gummel Discretization</kwd>
+            <kwd>Error Bounds</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d1228764e200a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1228764e207" publication-type="book">
+R. Adams, Sobolev spaces, Academic Press Inc., 1975. MR 56:9247<person-group>
+                     <string-name>
+                     <surname>Adams</surname>
+                  </string-name>
+                  </person-group>
+               <source>Sobolev spaces</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e229a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1228764e236" publication-type="journal">
+I. Babuška and J. Osborn, Generalized finite element methods: their performance, and their
+relation to the mixed methods, SIAM J. Num. Anal.20 (1983), no. 3, 510-536. MR 84h:65076<person-group>
+                     <string-name>
+                     <surname>Babuška</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>510</fpage>
+               <volume>20</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e271a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1228764e278" publication-type="journal">
+R. Bank, J. Burger, W. Fichtner, and R. Smith, Some up-winding techniques for finite element
+approximations of convection diffusion equations, Numer. Math.58 (1990), 185-202. MR
+91i:65175<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>185</fpage>
+               <volume>58</volume>
+               <source>Numer. Math.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e313a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1228764e320" publication-type="journal">
+R. Bank and D. Rose, Some error estimates for the box method, SIAM J. Num. Anal.24
+(1987), 777-787. MR 88j:65235<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>777</fpage>
+               <volume>24</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e353a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1228764e360" publication-type="book">
+T. Barth, Aspects of unstructured grids and finite-volume solvers for the Euler and Navier-
+Stokes equations, Tech. Report AGARD Report 787, AGARD, 1992, Special course on un-
+structured grids methods for advection dominated flows.<person-group>
+                     <string-name>
+                     <surname>Barth</surname>
+                  </string-name>
+                  </person-group>
+               <source>Aspects of unstructured grids and finite-volume solvers for the Euler and Navier-Stokes equations</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e389a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1228764e396" publication-type="book">
+M. Bern and D. Eppstein, Mesh generation and optimal triangulation, Computing in Euclidian
+Geometry, World Scientific, 1992, 23-90. MR 94i:68034<person-group>
+                     <string-name>
+                     <surname>Bern</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Mesh generation and optimal triangulation</comment>
+               <fpage>23</fpage>
+               <source>Computing in Euclidian Geometry, World Scientific</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e428a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1228764e435" publication-type="journal">
+J. Bey and G. Wittum, Downwind Gauj3-Seidel smoothing for convection dominated problems,
+Numer. Linear Algebra Appl.4 (1997), no. 2, 85-102.<person-group>
+                     <string-name>
+                     <surname>Bey</surname>
+                  </string-name>
+                  </person-group>
+               <issue>2</issue>
+               <fpage>85</fpage>
+               <volume>4</volume>
+               <source>Numer. Linear Algebra Appl.</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e470a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1228764e477" publication-type="journal">
+—, Downwind numbering: A robust multigrid method for convection diffusion prob-
+lems on unstructured grids, Applied Numerical Mathematics23 (1997), no. 1, 177-192. MR
+97j:65192<person-group>
+                     <string-name>
+                     <surname>Bey</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <fpage>177</fpage>
+               <volume>23</volume>
+               <source>Applied Numerical Mathematics</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e515a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1228764e522" publication-type="journal">
+F. Brezzi, L. Marini, and P. Pietra, 2-dimensional exponential fitting and applications to
+drift-diffusion models, SIAM J. Num. Anal.26 (1989), no. 6, 1342-1355. MR 90m:65194<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>1342</fpage>
+               <volume>26</volume>
+               <source>SIAM J. Num. Anal.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e557a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1228764e564" publication-type="journal">
+—, Numerical simulation of semiconductor devices, Comp. Meth. Appl. Mech. Eng.75
+(1989), no. 3, 493-514. MR 91b:78023<person-group>
+                     <string-name>
+                     <surname>Brezzi</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>493</fpage>
+               <volume>75</volume>
+               <source>Comp. Meth. Appl. Mech. Eng.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e600a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1228764e607" publication-type="journal">
+A. Brooks and T. Hughes, Streamline upwind/Petrov-Galerkin formulations for convection
+dominated flows with particular emphasis on the incompressible Navier-Stokes equations,
+Comp. Meth. in Appl. Mech. Eng.32 (1982), 199-259. MR 83k:76005<person-group>
+                     <string-name>
+                     <surname>Brooks</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>199</fpage>
+               <volume>32</volume>
+               <source>Comp. Meth. in Appl. Mech. Eng.</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e642a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1228764e649" publication-type="book">
+P. Ciarlet, The finite element method for elliptic problems, North-Holland, 1978. MR
+58:25001<person-group>
+                     <string-name>
+                     <surname>Ciarlet</surname>
+                  </string-name>
+                  </person-group>
+               <source>The finite element method for elliptic problems</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e674a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1228764e681" publication-type="journal">
+L. Dorlofsky, B. Engquist, and S. Osher, Triangle based adaptive stencils for the solution of
+hyperbolic conservation laws, J. Comp. Phys.98 (1992), no. 1.<person-group>
+                     <string-name>
+                     <surname>Dorlofsky</surname>
+                  </string-name>
+                  </person-group>
+               <issue>1</issue>
+               <volume>98</volume>
+               <source>J. Comp. Phys.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e713a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1228764e720" publication-type="book">
+D. Gilbarg and N. Trudinger, Elliptic partial differential equations of second order, Springer-
+Verlag, 1983. MR 86c:35035<person-group>
+                     <string-name>
+                     <surname>Gilbarg</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic partial differential equations of second order</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e745a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1228764e752" publication-type="journal">
+M.D. Huang, The constant-flow patch test-a unique guideline for the evaluation of dis-
+cretization schemes for the current continuity equations, IEEE Trans. CAD4 (1985).<person-group>
+                     <string-name>
+                     <surname>Huang</surname>
+                  </string-name>
+                  </person-group>
+               <volume>4</volume>
+               <source>IEEE Trans. CAD</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e781a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1228764e788" publication-type="journal">
+T. Hughes, Multiscale phenomena: Greens functions, the Dirichlet-to-Neumann formulation,
+subgrid scale models, bubles and the origins of stabilized methods, Comp. Meth. in Appl.
+Mech. Eng.127 (1995), 387-401. MR 96h:65135<person-group>
+                     <string-name>
+                     <surname>Hughes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>387</fpage>
+               <volume>127</volume>
+               <source>Comp. Meth. in Appl. Mech. Eng.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e824a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d1228764e831" publication-type="book">
+C. Johnson, Numerical solution of partial differential equations by the finite element method,
+Cambridge University Press, Cambridge, 1987. MR 89b:65003a<person-group>
+                     <string-name>
+                     <surname>Johnson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical solution of partial differential equations by the finite element method</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e856a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d1228764e863" publication-type="journal">
+L. D. Marini and P. Pietra, New mixed finite element schemes for current continuity equations,
+COMPEL9 (1990), 257-268. MR 91m:78002<person-group>
+                     <string-name>
+                     <surname>Marini</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>257</fpage>
+               <volume>9</volume>
+               <source>COMPEL</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e895a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d1228764e902" publication-type="journal">
+P. Markowich and M. Zlamal, Inverse-average-type finite element discretizations of self-
+adjoint second order elliptic problems, Math. Comp.51 (1989), 431-449. MR 89a:65171<object-id pub-id-type="doi">10.2307/2008757</object-id>
+               <fpage>431</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e918a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d1228764e925" publication-type="journal">
+J.J.H. Miller and S. Wang, A triangular mixed finite element method for the stationary semi-
+conductor device equations, RAIRO Modél. Math. Anal. Numér.25 (1991), 441-463. MR
+92c:65138<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>441</fpage>
+               <volume>25</volume>
+               <source>RAIRO Modél. Math. Anal. Numér.</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e960a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d1228764e967" publication-type="journal">
+J.J.H. Miller, S. Wang, and C. Wu, A mixed finite element method for the stationary semi-
+conductor device equations, Engineering Computations5 (1988), 285-288.<person-group>
+                     <string-name>
+                     <surname>Miller</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>285</fpage>
+               <volume>5</volume>
+               <source>Engineering Computations</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e999a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d1228764e1006" publication-type="journal">
+M.S. Mock, Analysis of a discretization algorithm for stationary continuity equations in semi-
+conductor device models, COMPEL2 (1983), 117-139.<person-group>
+                     <string-name>
+                     <surname>Mock</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>117</fpage>
+               <volume>2</volume>
+               <source>COMPEL</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1039a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d1228764e1046" publication-type="book">
+K. W. Morton, Numerical solution of convection-diffusion problems, Chapman &amp; Hall, 1996.
+MR 98b:65004<person-group>
+                     <string-name>
+                     <surname>Morton</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical solution of convection-diffusion problems</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1071a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d1228764e1078" publication-type="book">
+H. Roos, M. Stynes, and L. Tobiska, Numerical methods for singularly perturbed differential
+equations, Springer, 1996. MR 99a:65134<person-group>
+                     <string-name>
+                     <surname>Roos</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical methods for singularly perturbed differential equations</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1103a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d1228764e1110" publication-type="journal">
+D. Scharfetter and H. Gummel, Large-signal analysis of a silicon read diode oscillator, IEEE
+Trans. Electron DevicesED-16 (1969), 64-77.<person-group>
+                     <string-name>
+                     <surname>Scharfetter</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>64</fpage>
+               <volume>ED-16</volume>
+               <source>IEEE Trans. Electron Devices</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1142a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d1228764e1149" publication-type="journal">
+A. Schatz, An observation concerning Ritz-Galerkcin methods with indefinite bilinear forms,
+Math. Comp.28 (1974), no. 205, 959-962. MR 51:9526<object-id pub-id-type="doi">10.2307/2005357</object-id>
+               <fpage>959</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1165a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d1228764e1172" publication-type="book">
+S. Selberherr, Analysis and simulation of semiconductor devices, Springer-Verlag, New York,
+1984.<person-group>
+                     <string-name>
+                     <surname>Selberherr</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis and simulation of semiconductor devices</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1197a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d1228764e1204" publication-type="book">
+G. Strang and G. Fix, An analysis of the finite element method, Prentice Hall, 1973. MR
+56:1747<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <source>An analysis of the finite element method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1230a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d1228764e1237" publication-type="journal">
+F. Wang and J. Xu, A cross-wind strip block iterative method for convection-dominated prob-
+lems, SIAM J. Comput. (submitted).<person-group>
+                     <string-name>
+                     <surname>Wang</surname>
+                  </string-name>
+                  </person-group>
+               <source>SIAM J. Comput.</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1259a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d1228764e1266" publication-type="conference">
+J. Xu, The EAFE scheme and CWDD method for convection dominated problems, The Pro-
+ceedings for Ninth International Conference on Domain Decomposition Methods (P. Bjorstad,
+M. Espedal, and D. Keyes, eds.), Domain Decomposition Press, Bergen, Norway, 1998, 619-
+625.<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The EAFE scheme and CWDD method for convection dominated problems</comment>
+               <fpage>619</fpage>
+               <source>The Proceedings for Ninth International Conference on Domain Decomposition Methods</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1304a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d1228764e1311" publication-type="journal">
+—, Two-grid discretization techniques for linear and nonlinear PDE, SIAM J. of Numer.
+Anal. 33 (1996), no. 5, 1759-1777. MR 97i:65169<person-group>
+                     <string-name>
+                     <surname>Xu</surname>
+                  </string-name>
+                  </person-group>
+               <issue>5</issue>
+               <fpage>1759</fpage>
+               <volume>33</volume>
+               <source>SIAM J. of Numer. Anal.</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1228764e1346a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d1228764e1353" publication-type="other">
+J. Xu and L. Ying, Convergence of an explicit upwinding schemes to conservation laws in
+any dimensions, (1997), preprint.</mixed-citation>
+            </ref>
+            <ref id="d1228764e1363a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d1228764e1370" publication-type="book">
+L. Zikatanov, Generalized finite element method and inverse-average-type discretisation for
+selfadjoint elliptic boundary value problems, Num. Meth. for PDEs (to appear).<person-group>
+                     <string-name>
+                     <surname>Zikatanov</surname>
+                  </string-name>
+                  </person-group>
+               <source>Generalized finite element method and inverse-average-type discretisation for selfadjoint elliptic boundary value problems</source>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

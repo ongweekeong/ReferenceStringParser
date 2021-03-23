@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">machtran</journal-id>
+         <journal-id journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group>
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">09226567</issn>
+         <issn pub-type="epub">15730573</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">22</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1/2</issue>
+         <issue-id>i40011373</issue-id>
+         <article-id pub-id-type="jstor">40285150</article-id>
+         <article-id pub-id-type="pub-doi">10.1007/s10590-008-9046-1</article-id>
+         <title-group>
+            <article-title>Regression for Machine Translation Evaluation at the Sentence Level</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib>
+              <string-name>
+                  <given-names>Joshua S.</given-names>
+                  <surname>Albrecht</surname>
+              </string-name>
+            </contrib>
+            <contrib>
+              <string-name>
+                  <given-names>Rebecca</given-names>
+                  <surname>Hwa</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2008</year>
+         </pub-date>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2008</year>
+         </pub-date>
+         <fpage>1</fpage>
+         <lpage>27</lpage>
+         <permissions>
+            <copyright-statement>Copyright 2008 Springer Science+Business Media B.V.</copyright-statement>
+         </permissions>
+         
+         <self-uri xlink:href="https://www.jstor.org/stable/40285150"/>
+         
+         
+         <abstract>
+            <p>Machine learning offers a systematic framework for developing metrics that use multiple criteria to assess the quality of machine translation (MT). However, learning introduces additional complexities that may impact on the resulting metric's effectiveness. First, a learned metric is more reliable for translations that are similar to its training examples; this calls into question whether it is as effective in evaluating translations from systems that are not its contemporaries. Second, metrics trained from different sets of training examples may exhibit variations in their evaluations. Third, expensive developmental resources (such as translations that have been evaluated by humans) may be needed as training examples. This paper investigates these concerns in the context of using regression to develop metrics for evaluating machine-translated sentences. We track a learned metric's reliability across a 5 year period to measure the extent to which the learned metric can evaluate sentences produced by other systems. We compare metrics trained under different conditions to measure their variations. Finally, we present an alternative formulation of metric training in which the features are based on comparisons against pseudo-references in order to reduce the demand on human produced resources. Our results confirm that regression is a useful approach for developing new metrics for MT evaluation at the sentence level.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Machine translation</kwd>
+            <kwd>Evaluation metrics</kwd>
+            <kwd>Machine learning</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <fn-group>
+            <title>[Footnotes]</title>
+            <fn id="d734698e155a1310">
+               <label>1</label>
+               
+               <p>
+               <mixed-citation id="d734698e162" publication-type="other">
+(Lavie and Agarwal 2007).</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e169a1310">
+               <label>2</label>
+               
+               <p>
+               <mixed-citation id="d734698e176" publication-type="other">
+Linguistic Data Consortium, Philadelphia PA, catalog number LDC2003T05.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e183a1310">
+               <label>4</label>
+               
+               <p>
+               <mixed-citation id="d734698e190" publication-type="other">
+METEOR proposed by Banerjee and Lavie (2005)</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e197a1310">
+               <label>7</label>
+               
+               <p>
+               <mixed-citation id="d734698e204" publication-type="other">
+(Albrecht and Hwa 2007a).</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e212a1310">
+               <label>8</label>
+               
+               <p>
+               <mixed-citation id="d734698e219" publication-type="other">
+(Albrecht and Hwa 2007a).</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e226a1310">
+               <label>10</label>
+               
+               <p>
+               <mixed-citation id="d734698e233" publication-type="other">
+http://www.systransoft.com/.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e240a1310">
+               <label>11</label>
+               
+               <p>
+               <mixed-citation id="d734698e247" publication-type="other">
+http://www.google.com/language_tools/.</mixed-citation>
+            </p>
+            </fn>
+            <fn id="d734698e254a1310">
+               <label>12</label>
+               
+               <p>
+               <mixed-citation id="d734698e261" publication-type="other">
+NIST 2003</mixed-citation>
+            </p>
+               <p>
+               <mixed-citation id="d734698e267" publication-type="other">
+NIST 2004</mixed-citation>
+            </p>
+            </fn>
+         </fn-group>
+      
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d734698e283a1310">
+               
+               <mixed-citation id="d734698e287" publication-type="other">
+Albrecht JS, Hwa R (2007a) A re-examination of machine learning approaches for sentence-level MT eval-
+uation. In: ACL 2007 Proceedings of the 45th annual meeting of the Association for Computational
+Linguistics, Prague, Czech Republic, pp 880-887</mixed-citation>
+            </ref>
+            <ref id="d734698e300a1310">
+               
+               <mixed-citation id="d734698e304" publication-type="other">
+Albrecht JS, Hwa R (2007b) Regression for sentence-level MT evaluation with pseudo references, in:
+ACL 2007 Proceedings of the 45th annual meeting of the Association for Computational Linguistics,
+Prague, Czech Republic, pp 296-303</mixed-citation>
+            </ref>
+            <ref id="d734698e317a1310">
+               
+               <mixed-citation id="d734698e321" publication-type="other">
+Al-Onaizan Y, Curin J, Jahr M, Knight K, Lafferty J, Melamed ID, Och F-J, Purdy D, Smith NA, Yarowsky D
+(1999) Statistical machine translation. Technical report natural language engineering workshop final
+report. Johns Hopkins University, Baltimore</mixed-citation>
+            </ref>
+            <ref id="d734698e334a1310">
+               
+               <mixed-citation id="d734698e338" publication-type="other">
+Banerjee S, Lavie A (2005) METEOR: an automatic metric for MT evaluation with improved correlation
+with human judgments. In: Proceedings of the workshop on intrinsic and extrinsic evaluation measures
+for machine translation and/or summarization, Ann Arbor, Michigan, pp 65-72</mixed-citation>
+            </ref>
+            <ref id="d734698e352a1310">
+               
+               <mixed-citation id="d734698e356" publication-type="other">
+Bishop CM (2006) Pattern recognition and machine learning. Springer– Verlag, New York</mixed-citation>
+            </ref>
+            <ref id="d734698e363a1310">
+               
+               <mixed-citation id="d734698e367" publication-type="other">
+Blatz J, Fitzgerald E, Foster G, Gandrabur S, Goutte C, Kulesza A, Sanchis A, Ueffing N (2003) Confi-
+dence estimation for machine translation. Technical report natural language engineering workshop
+final report. Johns Hopkins University, Baltimore</mixed-citation>
+            </ref>
+            <ref id="d734698e380a1310">
+               
+               <mixed-citation id="d734698e384" publication-type="other">
+Burbank A, Carpuat M, Clark S, Dreyer M, Groves D, Fox P, Hall K, Hearne M, Melamed ID, Shen Y, Way A,
+Wellington B, Wu D (2005) Final report of the 2005 language engineering workshop on statistical
+machine translation by parsing. Technical report natural language engineering workshop final report.
+Johns Hopkins University, Baltimore</mixed-citation>
+            </ref>
+            <ref id="d734698e400a1310">
+               
+               <mixed-citation id="d734698e404" publication-type="other">
+Carbonell JG, Cullingford RE, Gershman AV (1981) Steps toward knowledge-based machine translation.
+IEEE Trans Pattern Anal Mach Intell 3(4):376-392</mixed-citation>
+            </ref>
+            <ref id="d734698e414a1310">
+               
+               <mixed-citation id="d734698e418" publication-type="other">
+Corston-Oliver S, Gamon M, Brockett C (2001) A machine learning approach to the automatic evaluation
+of machine translation. In: Association for Computational Linguistics, 39th annual meeting and 10th
+conference of the European chapter, proceedings of the conference, Toulouse, France, pp 148-155</mixed-citation>
+            </ref>
+            <ref id="d734698e431a1310">
+               
+               <mixed-citation id="d734698e435" publication-type="other">
+Cortes C, Vapnik V (1995) Support-vector networks. Mach Learn 20(3):273-297</mixed-citation>
+            </ref>
+            <ref id="d734698e443a1310">
+               
+               <mixed-citation id="d734698e447" publication-type="other">
+Doddington G (2002) Automatic evaluation of machine translation quality using n-gram co-occurrence
+statistics. In: Proceedings of the second conference on human language technology (HLT-2002),
+San Diego, California, pp 128-132</mixed-citation>
+            </ref>
+            <ref id="d734698e460a1310">
+               
+               <mixed-citation id="d734698e464" publication-type="other">
+Dorr BJ, Jordan PW, Benoit JW (1999) A survey of current paradigms in machine translation. Adv Comput
+49:2-68</mixed-citation>
+            </ref>
+            <ref id="d734698e474a1310">
+               
+               <mixed-citation id="d734698e478" publication-type="other">
+Duh K (2008) Ranking vs. regression in machine translation evaluation. In: Proceedings ot the third
+workshop on statistical machine translation, Columbus, Ohio, pp 191-194</mixed-citation>
+            </ref>
+            <ref id="d734698e488a1310">
+               
+               <mixed-citation id="d734698e492" publication-type="other">
+Gamon M, Aue A, Smets M (2005) Sentence-level MT evaluation without reference translations: beyond
+language modeling. In: 10th EAMT conference, practical applications of machine translation,
+proceedings, Budapest, Hungary, pp 103-111</mixed-citation>
+            </ref>
+            <ref id="d734698e505a1310">
+               
+               <mixed-citation id="d734698e509" publication-type="other">
+Giménez J, Marquez L (2008) A smorgasbord of features for automatic MT evaluation. In: ACL-08: HLT
+third workshop on statistical machine translation, Columbus, Ohio, pp 195-198</mixed-citation>
+            </ref>
+            <ref id="d734698e519a1310">
+               
+               <mixed-citation id="d734698e523" publication-type="other">
+Gimpel K, Smith NA (2008) Rich source-side context for statistical machine translation. In: ACL-08: HLT
+third workshop on statistical machine translation, Columbus, Ohio, pp 9-17</mixed-citation>
+            </ref>
+            <ref id="d734698e534a1310">
+               
+               <mixed-citation id="d734698e538" publication-type="other">
+Goldberg Y, Elhadad M (2007) SVM model tampering and anchored learning: a case study in Hebrew NP
+chunking. In: ACL 2007 Proceedings of the 45th annual meeting of the Association for Computational
+Linguistics, Prague, Czech Republic, pp 224-231</mixed-citation>
+            </ref>
+            <ref id="d734698e551a1310">
+               
+               <mixed-citation id="d734698e555" publication-type="other">
+Hastie T, Tibshirani R, Friedman J (2001) The elements of statistical learning. Springer– Verlag, New York</mixed-citation>
+            </ref>
+            <ref id="d734698e562a1310">
+               
+               <mixed-citation id="d734698e566" publication-type="other">
+Hovy E, King M, Popescu-Belis A (2002) Principles of context-based machine translation evaluation. Mach
+Transi 17(1):43-75</mixed-citation>
+            </ref>
+            <ref id="d734698e576a1310">
+               
+               <mixed-citation id="d734698e580" publication-type="other">
+Joachims T (1999) Making large-scale SVM learning practical. In: Schöelkopf B, Burges C, Smola A (eds)
+Advances in kernel methods — support vector learning, MIT Press, Cambridge, pp 169-184</mixed-citation>
+            </ref>
+            <ref id="d734698e590a1310">
+               
+               <mixed-citation id="d734698e594" publication-type="other">
+Kauchak D, Barzilay R (2006) Paraphrasing for automatic evaluation. In: HLT-NAACL 2006 Human lan-
+guage technology conference of the North American chapter of the Association for Computational
+Linguistics, New York, NY, pp 455-462</mixed-citation>
+            </ref>
+            <ref id="d734698e607a1310">
+               
+               <mixed-citation id="d734698e611" publication-type="other">
+Koehn P (2004) Statistical significance tests for machine translation evaluation. In: Proceedings of the 2004
+conference on empirical methods in natural language processing, Barcelona, Spain, pp 388-395</mixed-citation>
+            </ref>
+            <ref id="d734698e622a1310">
+               
+               <mixed-citation id="d734698e626" publication-type="other">
+Kulesza A, Shieber SM (2004) A learning approach to improving sentence-level MT evaluation. In: TMI-
+2004: Proceedings of the tenth conference on theoretical and methodological issues in machine trans-
+lation, Baltimore, MD, pp 75-84</mixed-citation>
+            </ref>
+            <ref id="d734698e639a1310">
+               
+               <mixed-citation id="d734698e643" publication-type="other">
+Lavie A, Agarwal A (2007) METEOR: an automatic metric for MT evaluation with high levels of correlation
+with human judgments. In: ACL 2007: Proceedings of the second workshop on statistical machine
+translation, Prague, Czech Republic, pp 228-231</mixed-citation>
+            </ref>
+            <ref id="d734698e656a1310">
+               
+               <mixed-citation id="d734698e660" publication-type="other">
+Leusch G, Ueffing N, Ney H (2006) CDER: efficient MT evaluation using block movements. In:
+EACL-2006, 11th conference of the European chapter of the Association for Computational
+Linguistics, proceedings of the conference, Trento, Italy, pp 241-248</mixed-citation>
+            </ref>
+            <ref id="d734698e673a1310">
+               
+               <mixed-citation id="d734698e677" publication-type="other">
+Lin C-Y, Och FJ (2004a) Automatic evaluation of machine translation quality using longest common
+subsequence and Skip-Bigram statistics. In: ACL-04: 42nd annual meeting of the Association for
+Computational Linguistics, Barcelona, Spain, pp 605-612</mixed-citation>
+            </ref>
+            <ref id="d734698e690a1310">
+               
+               <mixed-citation id="d734698e694" publication-type="other">
+Lin C-Y, Och FJ (2004b) ORANGE: a method for evaluating automatic evaluation metrics for machine trans-
+lation. In: Coling, 20th international conference on computational linguistics, proceedings, Geneva,
+Switzerland, pp 501-507</mixed-citation>
+            </ref>
+            <ref id="d734698e707a1310">
+               
+               <mixed-citation id="d734698e711" publication-type="other">
+Lita LV, Rogad M, Lavie A (2005) Blanc: learning evaluation metrics for MT. In: HLT/EMNLP 2005
+Human language technology conference and conference on empirical methods in natural language
+processing, Vancouver, British Columbia, Canada, pp 740-747</mixed-citation>
+            </ref>
+            <ref id="d734698e725a1310">
+               
+               <mixed-citation id="d734698e729" publication-type="other">
+Liu D, Gildea D (2005) Syntactic features for evaluation of machine translation. In: Intrinsic and extrin-
+sic evaluation measures for machine translation and/or summarization, Proceedings of the ACL-05
+workshop, Ann Arbor, MI, pp 25-32</mixed-citation>
+            </ref>
+            <ref id="d734698e742a1310">
+               
+               <mixed-citation id="d734698e746" publication-type="other">
+Liu D, Gildea D (2006) Stochastic Iterative Alignment For Machine Translation Evaluation. In: COLING. ACL
+2006 21st international conference on computational linguistics and 44th annual meeting of the Asso-
+ciation for Computational Linguistics, Proceedings of the main conference poster sessions, Sydney,
+Australia, pp 539-546</mixed-citation>
+            </ref>
+            <ref id="d734698e762a1310">
+               
+               <mixed-citation id="d734698e766" publication-type="other">
+Liu D, Gildea D (2007) Source-language features and maximum correlation training for machine translation
+evaluation. In: NAACL HLT 2007 Human language technologies 2007: the conference of the North
+American chapter of the Association for Computational Linguistics, Rochester, NY, pp 41-48</mixed-citation>
+            </ref>
+            <ref id="d734698e779a1310">
+               
+               <mixed-citation id="d734698e783" publication-type="other">
+Melamed ID, Green R, Turian J (2003) Precision and recall of machine translation. In: HLT-NAACL 2003:
+conference combining human language technology conference series and the North American chap-
+ter of the Association for Computational Linguistics series, companion volume, Edmonton, Canada,
+pp 61-63</mixed-citation>
+            </ref>
+            <ref id="d734698e799a1310">
+               
+               <mixed-citation id="d734698e803" publication-type="other">
+Owczarzak K, Groves D, Van Genabith J, Way A (2006) Contextual bitext-derived paraphrases in automatic
+MT evaluation. In: HLT-NAACL 06 Statistical machine translation, Proceedings of the workshop, New
+York City, pp 86-93</mixed-citation>
+            </ref>
+            <ref id="d734698e816a1310">
+               
+               <mixed-citation id="d734698e820" publication-type="other">
+Owczarzak K, Van Genabith J, Way A (2007) Dependency-based automatic evaluation for machine trans-
+lation. In: Proceedings of SSST, NAACL-HLT 2007/AMTA workshop on syntax and structure in
+statistical translation, Rochester, NY, pp 80-87</mixed-citation>
+            </ref>
+            <ref id="d734698e834a1310">
+               
+               <mixed-citation id="d734698e838" publication-type="other">
+Papineni K, Roukos S, Ward T, Zhu W-J (2002) Bleu: a method for automatic evaluation of machine
+translation. In: 40th annual meeting of the Association for Computational Linguistics (ACL-2002),
+Philadelphia, PA, pp 311-318</mixed-citation>
+            </ref>
+            <ref id="d734698e851a1310">
+               
+               <mixed-citation id="d734698e855" publication-type="other">
+Quirk C (2004) Training a sentence-level machine translation confidence measure. In: Proceedings of
+the international conference on language resources and evaluation (LREC-2004), Lisbon, Portugal,
+pp 825-828</mixed-citation>
+            </ref>
+            <ref id="d734698e868a1310">
+               
+               <mixed-citation id="d734698e872" publication-type="other">
+Riezler S, Maxwell JT III (2005) On some pitfalls in automatic evaluation and significance testing for
+MT. In: Intrinsic and extrinsic evaluation measures for machine translation and/or summarization,
+Proceedings of the ACL-05 workshop, Ann Arbor, MI, pp 57-64</mixed-citation>
+            </ref>
+            <ref id="d734698e885a1310">
+               
+               <mixed-citation id="d734698e889" publication-type="other">
+Snover M, Dorr B, Schwartz R, Micciulla L, Makhoul J (2006) A study of translation edit rate with targeted
+human annotation. In: AMTA 2006: Proceedings of the 7th conference of the Association for Machine
+Translation in the Americas, visions of the future of machine translation, Cambridge, MA, pp 223-231</mixed-citation>
+            </ref>
+            <ref id="d734698e902a1310">
+               
+               <mixed-citation id="d734698e906" publication-type="other">
+Tillmann C, Vogel S, Ney H, Sawaf H, Zubiaga A (1997) Accelerated DP-based search for statistical trans-
+lation. In: Proceedings of the 5th European conference on speech communication and technology
+(EuroSpeech'97), Rhodes, Greece, pp 2667-2670</mixed-citation>
+            </ref>
+            <ref id="d734698e919a1310">
+               
+               <mixed-citation id="d734698e923" publication-type="other">
+Uchimoto K, Kotani K, Zhang Y, Isahara H (2007) Automatic evaluation of machine translation based on
+rate of accomplishment of sub-goals. In: NAACL HLT 2007 Human language technologies 2007:
+the conference of the North American chapter of the Association for Computational Linguistics,
+Rochester, New York, pp 33-40</mixed-citation>
+            </ref>
+            <ref id="d734698e940a1310">
+               
+               <mixed-citation id="d734698e944" publication-type="other">
+Witten IH, Frank E (2005) Data mining: practical machine learning tools and techniques, 2nd edn. Morgan
+Kaufmann, San Francisco</mixed-citation>
+            </ref>
+            <ref id="d734698e954a1310">
+               
+               <mixed-citation id="d734698e958" publication-type="other">
+Ye Y, Zhou M, Lin C-Y (2007) Sentence level machine translation evaluation as a ranking, in: ACL
+2007: Proceedings of the second workshop on statistical machine translation, Prague, Czech Republic,
+pp 240-247</mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">58</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">198</issue>
+         <issue-id>i337654</issue-id>
+         <article-id pub-id-type="doi">10.2307/2153198</article-id>
+         
+         <title-group>
+            <article-title>Hybrid V-Cycle Algebraic Multilevel Preconditioners</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>P. S.</given-names>
+                  <surname>Vassilevski</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1992</year>
+         </pub-date>
+         <fpage>489</fpage>
+         <lpage>512</lpage>
+         <page-range>489-512</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1992 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153198"/>
+         
+         
+         <abstract>
+            <p>We consider an algebraic derivation of multilevel preconditioners which are based on a sequence of finite element stiffness matrices. They correspond to a sequence of triangulations obtained by successive refinement and the associated finite element discretizations of second-order selfadjoint elliptic boundary value problems. The stiffness matrix at a given discretization level is partitioned into a natural hierarchical two-level two-by-two block form. Then it is factored into block triangular factors. The resulting Schur complement is then replaced (approximated) by the stiffness matrix on the preceding (coarser) level. This process is repeated successively for a fixed number k&lt;sub&gt;0&lt;/sub&gt; ≥ 1 of steps. After each k&lt;sub&gt;0&lt;/sub&gt; steps, the preconditioner so derived is corrected by a certain polynomial approximation, a properly scaled and shifted Chebyshev matrix polynomial which involves the preconditioner and the stiffness matrix at the considered level. The hybrid V-cycle preconditioner thus derived is shown to be of optimal order of complexity for 2-D and 3-D problem domains. The relative condition number of the preconditioner is bounded uniformly with respect to the number of levels and with respect to possible jumps of the coefficients of the considered elliptic bilinear form as long as they occur only across edges (faces in 3-D) of elements from the coarsest triangulation. In addition, an adaptive implementation of our hybrid V-cycle preconditioners is proposed, and its practical behavior is demonstrated on a number of test problems.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65F10</kwd>
+            <kwd>65N22</kwd>
+            <kwd>65N30</kwd>
+            <kwd>Multilevel methods</kwd>
+            <kwd>hybrid V-cycle recursion</kwd>
+            <kwd>approximate factorization</kwd>
+            <kwd>polynomial acceleration</kwd>
+            <kwd>finite elements</kwd>
+            <kwd>optimal-order preconditioners</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>Bibliography</title>
+            <ref id="d177581e151a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d177581e158" publication-type="book">
+0. Axelsson, On multigrid methods of the two-level type, Multigrid Methods (W. Hackbusch
+and U. Trottenberg, eds.) (Proceedings, Koln-Porz 1981), Lecture Notes in Math., vol. 960,
+Springer, 1982, pp. 352-367.<person-group>
+                     <string-name>
+                     <surname>Axelsson</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On multigrid methods of the two-level type</comment>
+               <fpage>352</fpage>
+               <volume>960</volume>
+               <source>Multigrid Methods</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e196a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d177581e203" publication-type="journal">
+0. Axelsson and I. Gustafsson, Preconditioning and two-level multigrid methods of arbitrary
+degree of approximations, Math. Comp.40 (1983), 219-242.<object-id pub-id-type="doi">10.2307/2007371</object-id>
+               <fpage>219</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e219a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d177581e226" publication-type="journal">
+0. Axelsson and P. S. Vassilevski, Algebraic multilevel preconditioning methods. I, Numer.
+Math.56 (1989), 157-177.<person-group>
+                     <string-name>
+                     <surname>Axelsson</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>157</fpage>
+               <volume>56</volume>
+               <source>Numer. Math.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e258a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d177581e265" publication-type="journal">
+—, Algebraic multilevel preconditioning methods. II, SIAM J. Numer. Anal.27 (1990),
+1569-1590.<object-id pub-id-type="jstor">10.2307/2157771</object-id>
+               <fpage>1569</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e282a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d177581e289" publication-type="book">
+R. Bank and T. Dupont, Analysis of a two-level scheme for solving finite element equations,
+Report CNA-159, Center for Numerical Analysis, The University of Texas at Austin, 1980.<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <source>Analysis of a two-level scheme for solving finite element equations</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e314a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d177581e321" publication-type="journal">
+R. Bank, T. Dupont, and H. Yserentant, The hierarchical basis multigrid method, Numer.
+Math.52 (1988), 427-458.<person-group>
+                     <string-name>
+                     <surname>Bank</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>427</fpage>
+               <volume>52</volume>
+               <source>Numer. Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e353a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d177581e360" publication-type="journal">
+D. Braess, The contraction number of a multigrid method for solving the Poisson equation,
+Numer. Math.37 (1981), 387-404.<person-group>
+                     <string-name>
+                     <surname>Braess</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>387</fpage>
+               <volume>37</volume>
+               <source>Numer. Math.</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e392a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d177581e399" publication-type="book">
+—, The convergence rate of a multigrid method with Gauss-Seidel relaxation for the Poisson
+equation, Multigrid Methods (W. Hackbusch and U. Trottenberg, eds.) (Proceedings, Koln-
+Porz 1981), Lecture Notes in Math., vol. 960, Springer, 1982, pp. 368-386.<person-group>
+                     <string-name>
+                     <surname>Braess</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The convergence rate of a multigrid method with Gauss-Seidel relaxation for the Poisson equation</comment>
+               <fpage>368</fpage>
+               <volume>960</volume>
+               <source>Multigrid Methods</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e437a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d177581e444" publication-type="book">
+R. Chandra, Conjugate gradient methods for partial differential equations, Research Report
+No. 119, Department of Computer Science, Yale University, 1978.<person-group>
+                     <string-name>
+                     <surname>Chandra</surname>
+                  </string-name>
+                  </person-group>
+               <source>Conjugate gradient methods for partial differential equations</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e469a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d177581e476" publication-type="book">
+P. Concus, G. H. Golub, and D. P. O'Leary, A generalized conjugate gradient method for
+the numerical solution of elliptic PDEs, Sparse Matrix Computations (J. R. Bunch and
+D. J. Rose, eds.), Academic Press, New York, 1976, pp. 309-332.<person-group>
+                     <string-name>
+                     <surname>Concus</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A generalized conjugate gradient method for the numerical solution of elliptic PDEs</comment>
+               <fpage>309</fpage>
+               <source>Sparse Matrix Computations</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e512a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d177581e519" publication-type="book">
+P. Grisvard, Elliptic problems in nonsmooth domains, Pitman, Boston-London-Melbourne,
+1985.<person-group>
+                     <string-name>
+                     <surname>Grisvard</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elliptic problems in nonsmooth domains</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e544a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d177581e551" publication-type="journal">
+Yu. A. Kuznetsov, Algebraic multigrid domain decomposition methods, Soviet J. Numer.
+Anal. Math. Modelling4 (1989), 351-380.<person-group>
+                     <string-name>
+                     <surname>Kuznetsov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>351</fpage>
+               <volume>4</volume>
+               <source>Soviet J. Numer. Anal. Math. Modelling</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e583a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d177581e590" publication-type="book">
+J. F. Maitre and F. Musy, The contraction number of a class of two-level methods; an exact
+evaluation for some finite element subspaces and model problems, Multigrid Methods (W.
+Hackbusch and U. Trottenberg, eds.) (Proceedings, Koln-Porz 1981), Lecture Notes in
+Math., vol. 960, Springer, 1982, pp. 535-544.<person-group>
+                     <string-name>
+                     <surname>Maitre</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The contraction number of a class of two-level methods; an exact evaluation for some finite element subspaces and model problems</comment>
+               <fpage>535</fpage>
+               <volume>960</volume>
+               <source>Multigrid Methods</source>
+               <year>1982</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e631a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d177581e638" publication-type="book">
+B. N. Parlett, The symmetric eigenvalue problem, Prentice-Hall, Englewood Cliffs, NJ, 1980.<person-group>
+                     <string-name>
+                     <surname>Parlett</surname>
+                  </string-name>
+                  </person-group>
+               <source>The symmetric eigenvalue problem</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e660a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d177581e667" publication-type="book">
+P. S. Vassilevski, Nearly optimal iterative methods for solving finite element elliptic equations
+based on the multilevel splitting of the matrix, Report #1989-09, Institute for Scientific
+Computation, University of Wyoming, Laramie.<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <source>Nearly optimal iterative methods for solving finite element elliptic equations based on the multilevel splitting of the matrix</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e692a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d177581e699" publication-type="journal">
+—, Algebraic multilevel preconditioners for elliptic problems with condensation of the finite
+element matrix, C. R. Acad. Bulgare Sci.43 (1990), no. 6, 25-28.<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>25</fpage>
+               <volume>43</volume>
+               <source>C. R. Acad. Bulgare Sci.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e735a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d177581e742" publication-type="journal">
+—, Hybrid V-cycle algebraic multilevel preconditioners, C. R. Acad. Bulgare Sci.43
+(1990), no. 8, 23-26.<person-group>
+                     <string-name>
+                     <surname>Vassilevski</surname>
+                  </string-name>
+                  </person-group>
+               <issue>8</issue>
+               <fpage>23</fpage>
+               <volume>43</volume>
+               <source>C. R. Acad. Bulgare Sci.</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d177581e777a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d177581e784" publication-type="journal">
+H. Yserentant, On the multilevel splitting offinite element spaces, Numer. Math.49 (1986),
+379-412.<person-group>
+                     <string-name>
+                     <surname>Yserentant</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>379</fpage>
+               <volume>49</volume>
+               <source>Numer. Math.</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

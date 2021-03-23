@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">213</issue>
+         <issue-id>i337669</issue-id>
+         <article-id pub-id-type="jstor">2153836</article-id>
+         
+         <title-group>
+            <article-title>A Multiple-Precision Division Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David M.</given-names>
+                  <surname>Smith</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>157</fpage>
+         <lpage>163</lpage>
+         <page-range>157-163</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153836"/>
+         
+         
+         <abstract>
+            <p>The classical algorithm for multiple-precision division normalizes digits during each step and sometimes makes correction steps when the initial guess for the quotient digit turns out to be wrong. A method is presented that runs faster by skipping most of the intermediate normalization and recovers from wrong guesses without separate correction steps.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65-04</kwd>
+            <kwd>65D15</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d712657e129a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d712657e136" publication-type="journal">
+D.H. Bailey, Algorithm 719: Multiprecision translation and execution of FORTRAN programs,
+ACM Trans. Math. Software19 (1993), 288-319.<person-group>
+                     <string-name>
+                     <surname>Bailey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>288</fpage>
+               <volume>19</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e168a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d712657e175" publication-type="journal">
+R.P. Brent, A Fortran multiple-precision arithmetic package, ACM Trans. Math. Software4
+(1978), 57-70.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>57</fpage>
+               <volume>4</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e207a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d712657e214" publication-type="book">
+D.E. Knuth, The art of computer programming, Vol. 2: Seminumerical algorithms, 2nd ed.,
+Addison-Wesley, Reading, MA, 1981. MR 83i:68003<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <volume>2</volume>
+               <source>The art of computer programming</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e246a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d712657e253" publication-type="journal">
+E.V. Krishnamurthy and S.K. Nandi, On the normalization requirement of divisor in divide-
+and-correct methods, Comm. ACM10 (1967), 809-813.<person-group>
+                     <string-name>
+                     <surname>Krishnamurthy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>809</fpage>
+               <volume>10</volume>
+               <source>Comm. ACM</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e286a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d712657e293" publication-type="journal">
+C.J. Mifsud, A multiple-precision division algorithm, Comm. ACM13 (1970), 666-668.<person-group>
+                     <string-name>
+                     <surname>Mifsud</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>666</fpage>
+               <volume>13</volume>
+               <source>Comm. ACM</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e322a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d712657e329" publication-type="journal">
+D.A. Pope and M.L. Stein, Multiple precision arithmetic, Comm. ACM3 (1960), 652-654. MR
+22:7277<person-group>
+                     <string-name>
+                     <surname>Pope</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>652</fpage>
+               <volume>3</volume>
+               <source>Comm. ACM</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e361a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d712657e368" publication-type="journal">
+D.M. Smith, Algorithm 693: A Fortran package forfloating-point multiple-precision arithmetic,
+ACM Trans. Math. Software17 (1991), 273-283.<person-group>
+                     <string-name>
+                     <surname>Smith</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>273</fpage>
+               <volume>17</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e400a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d712657e407" publication-type="journal">
+M.L. Stein, Divide-and-correct methods for multiple precision division, Comm. ACM7 (1964),
+472-474.<person-group>
+                     <string-name>
+                     <surname>Stein</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>472</fpage>
+               <volume>7</volume>
+               <source>Comm. ACM</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d712657e439a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d712657e446" publication-type="book">
+S. Wolfram, Mathematica: A system for doing mathematics by computer, 2nd ed., Addison-
+Wesley, Redwood City, CA, 1991.<person-group>
+                     <string-name>
+                     <surname>Wolfram</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Mathematica: A system for doing mathematics by computer</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

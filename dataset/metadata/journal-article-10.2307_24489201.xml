@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">84</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">295</issue>
+         <issue-id>i24488873</issue-id>
+         <article-id pub-id-type="doi">10.2307/24489201</article-id>
+         <title-group>
+            <article-title>ADAPTIVE FINITE ELEMENT METHODS FOR THE STOKES PROBLEM WITH DISCONTINUOUS VISCOSITY</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>ANDREA</given-names>
+                  <surname>BONITO</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>DENIS</given-names>
+                  <surname>DEVAUD</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2015</year>
+         </pub-date>
+         <fpage>2137</fpage>
+         <lpage>2162</lpage>
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2015 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/24489201"/>
+      
+      
+         <abstract>
+            <p>Discontinuity in viscosities is of interest in many applications. Classical adaptive numerical methods perform under the restricting assumption that the discontinuities of the viscosity are captured by the initial partition. This excludes applications where the jump of the viscosity takes place across curves, manifolds or at a priori unknown positions. We present a novel estimate measuring the distortion of the viscosity in Lq for a q &lt; ∞, thereby allowing for any type of discontinuities. This estimate requires the velocity u of the Stokes system to satisfy the extra regularity assumption ∇u ∈ Lr(Ω)d × d for some r &gt; 2. We show that the latter holds on any bounded Lipschitz domain provided the data belongs to a smaller class than those required to obtain well-posedness. Based on this theory, we introduce adaptive finite element methods which approximate the solution of Stokes equations with possible discontinuous viscosities. We prove that these algorithms are quasi-optimal in terms of error compared to the number of cells. Finally, the performance of the adaptive algorithm is numerically illustrated on insightful examples.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1908e153a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1908e160" publication-type="other">
+W. Bangerth, R. Hartmann, and G. Kanschat, deal.II—a general-purpose object-oriented
+finite element library, ACM Trans. Math. Software 33 (2007), no. 4, Art. 24, 27, DOI
+10.1145/1268776.1268779. MR2404402 (2009b:65292)</mixed-citation>
+        </ref>
+        <ref id="d1908e173a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1908e180" publication-type="other">
+E. Bansch, P. Morin, and R. H. Nochetto, An adaptive Uzawa FEM for the Stokes problem:
+convergence without the inf-sup condition, SIAM J. Numer. Anal. 40 (2002), no. 4, 1207—1229,
+DOI 10.1137/S0036142901392134. MR1951892 (2004e:65127)</mixed-citation>
+        </ref>
+        <ref id="d1908e193a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1908e200" publication-type="other">
+P. Binev, W. Dahmen, and R. DeVore, Adaptive finite element methods with convergence
+rates, Numer. Math. 97 (2004), no. 2, 219-268, DOI 10.1007/s00211-003-0492-7. MR2050077
+(2005d:65222)</mixed-citation>
+        </ref>
+        <ref id="d1908e213a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1908e220" publication-type="other">
+P. Binev, W. Dahmen, R. DeVore, and P. Petrushev, Approximation classes for adaptive
+methods, Serdica Math. J. 28 (2002), no. 4, 391-416. MR1965238 (2004b:65176)</mixed-citation>
+        </ref>
+        <ref id="d1908e231a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1908e238" publication-type="other">
+P. Binev and R. DeVore, Fast computation in adaptive tree approximation, Numer. Math. 97
+(2004), no. 2, 193-217, DOI 10.1007/s00211-003-0493-6. MR2050076 (2005e:65223)</mixed-citation>
+        </ref>
+        <ref id="d1908e248a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1908e255" publication-type="other">
+M. S. Birman and M. Z. Solomjak, Piecewise polynomial approximations of functions of
+classes Wpa (Russian), Mat. Sb. (N.S.) 73 (115) (1967), 331-355. MR0217487 (36 #576)</mixed-citation>
+        </ref>
+        <ref id="d1908e265a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1908e272" publication-type="other">
+A. Bonito, J. M. Cascon, P. Morin, and R. H. Nochetto, AFEM for geometric PDE: the
+Laplace-Beltrami operator, Analysis and numerics of partial differential equations, Springer
+INdAM Ser., vol. 4, Springer, Milan, 2013, pp. 257-306, DOI 10.1007/978-88-470-2592-9.15.
+MR3051405</mixed-citation>
+        </ref>
+        <ref id="d1908e288a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1908e295" publication-type="other">
+A. Bonito, R. A. DeVore, and R. H. Nochetto, Adaptive finite element methods for elliptic
+problems with discontinuous coefficients, SIAM J. Numer. Anal. 51 (2013), no. 6, 3106-3134,
+DOI 10.1137/130905757. MR3129757</mixed-citation>
+        </ref>
+        <ref id="d1908e308a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1908e315" publication-type="other">
+A. Bonito, J.-L. Guermond, and F. Luddens, Regularity of the Maxwell equations in hetero-
+geneous media and Lipschitz domains, J. Math. Anal. Appl. 408 (2013), no. 2, 498-512, DOI
+10.1016/j.jmaa.2013.06.018. MR3085047</mixed-citation>
+        </ref>
+        <ref id="d1908e328a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1908e335" publication-type="other">
+A. Bonito and R. H. Nochetto, Quasi-optimal convergence rate of an adaptive discontinuous
+Galerkin method, SIAM J. Numer. Anal. 48 (2010), no. 2, 734-771, DOI 10.1137/08072838X.
+MR2670003 (2011k:65152)</mixed-citation>
+        </ref>
+        <ref id="d1908e349a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1908e356" publication-type="other">
+A. Cohen, W. Dahmen, I. Daubechies, and R. DeVore, Tree approximation and optimal encod-
+ing, Appl. Comput. Harmon. Anal. 11 (2001), no. 2, 192—226, DOI 10.1006/acha.2001.0336.
+MR1848303 (2002g:42048)</mixed-citation>
+        </ref>
+        <ref id="d1908e369a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1908e376" publication-type="other">
+A. Cohen, R. DeVore, and R. H. Nochetto, Convergence rates of AFEM with H~x
+data, Found. Comput. Math. 12 (2012), no. 5, 671-718, DOI 10.1007/sl0208-012-9120-l.
+MR2970853</mixed-citation>
+        </ref>
+        <ref id="d1908e389a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1908e396" publication-type="other">
+S. Dahlke, W. Dahmen, and K. Urban, Adaptive wavelet methods for saddle point problems—
+optimal convergence rates, SIAM J. Numer. Anal. 40 (2002), no. 4, 1230-1262, DOI
+10.1137/S003614290139233X. MR1951893 (2004g:42039)</mixed-citation>
+        </ref>
+        <ref id="d1908e409a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1908e416" publication-type="other">
+R. A. DeVore, Nonlinear approximation, Acta numerica, 1998, Acta Numer., vol. 7,
+Cambridge Univ. Press, Cambridge, 1998, pp. 51-150, DOI 10.1017/S0962492900002816.
+MR1689432 (2001a:41034)</mixed-citation>
+        </ref>
+        <ref id="d1908e429a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1908e436" publication-type="other">
+W. Dorfler, A convergent adaptive algorithm for Poisson's equation, SIAM J. Numer. Anal.
+33 (1996), no. 3, 1106-1124, DOI 10.1137/0733054. MR1393904 (97e:65139)</mixed-citation>
+        </ref>
+        <ref id="d1908e446a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1908e453" publication-type="other">
+V. Girault and P.-A. Raviart, Finite Element Methods for Navier-Stokes Equations, Springer
+Series in Computational Mathematics, vol. 5, Springer-Verlag, Berlin, 1986. Theory and al-
+gorithms. MR851383 (88b:65129)</mixed-citation>
+        </ref>
+        <ref id="d1908e467a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1908e474" publication-type="other">
+J. Hu and J. Xu, Convergence and optimality of the adaptive nonconforming linear el-
+ement method for the Stokes problem, J. Sci. Comput. 55 (2013), no. 1, 125-148, DOI
+10.1007/sl0915-012-9625-4. MR3030706</mixed-citation>
+        </ref>
+        <ref id="d1908e487a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1908e494" publication-type="other">
+F. Jochmann, An Hs-regularity result for the gradient of solutions to elliptic equations
+with mixed boundary conditions, J. Math. Anal. Appl. 238 (1999), no. 2, 429-450, DOI
+10.1006/jmaa. 1999.6518. MR1715492 (2001b:35078)</mixed-citation>
+        </ref>
+        <ref id="d1908e507a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1908e514" publication-type="other">
+Y. Kondratyuk and R. Stevenson, An optimal adaptive finite element method for the
+Stokes problem, SIAM J. Numer. Anal. 46 (2008), no. 2, 747-775, DOI 10.1137/06066566X.
+MR2383210 (2009b:65312)</mixed-citation>
+        </ref>
+        <ref id="d1908e527a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1908e534" publication-type="other">
+V. Maz'ya and J. Rossmann, Lv estimates of solutions to mixed boundary value problems
+for the Stokes system in polyhedral domains, Math. Nachr. 280 (2007), no. 7, 751-793, DOI
+10.1002/mana.200610513. MR2321139 (2008m:35280)</mixed-citation>
+        </ref>
+        <ref id="d1908e547a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1908e554" publication-type="other">
+N. G. Meyers, An Lp e-estimate for the gradient of solutions of second order elliptic divergence
+equations, Ann. Scuola Norm. Sup. Pisa (3) 17 (1963), 189—206. MR0159110 (28 #2328)</mixed-citation>
+        </ref>
+        <ref id="d1908e564a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1908e571" publication-type="other">
+R. Stevenson, Optimality of a standard adaptive finite element method, Found. Comput.
+Math. 7 (2007), no. 2, 245-269, DOI 10.1007/sl0208-005-0183-0. MR2324418 (2008i:65272)</mixed-citation>
+        </ref>
+        <ref id="d1908e582a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1908e589" publication-type="other">
+R. Stevenson, The completion of locally refined simplicial partitions created by bisection,
+Math. Comp. 77 (2008), no. 261, 227-241 (electronic), DOI 10.1090/S0025-5718-07-01959-X.
+MR2353951 (2008j:65219)</mixed-citation>
+        </ref>
+        <ref id="d1908e602a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1908e609" publication-type="other">
+L. Tartar, An Introduction to Sobolev Spaces and Interpolation Spaces, Lecture Notes of the
+Unione Matematica Italiana, vol. 3, Springer, Berlin, 2007. MR2328004 (2008g:46055)</mixed-citation>
+        </ref>
+        <ref id="d1908e619a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1908e626" publication-type="other">
+R. Verfiirth, A posteriori error estimators for the Stokes equations, Numer. Math. 55 (1989),
+no. 3, 309-325, DOI 10.1007/BF01390056. MR993474 (90d:65187)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

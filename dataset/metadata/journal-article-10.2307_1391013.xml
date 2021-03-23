@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">10</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i260292</issue-id>
+         <article-id pub-id-type="jstor">1391013</article-id>
+         
+         <title-group>
+            <article-title>Computing Scan Statistic p Values Using Importance Sampling, with Applications to Genetics and Medical Image Analysis</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Daniel Q.</given-names>
+                  <surname>Naiman</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Carey E.</given-names>
+                  <surname>Priebe</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2001</year>
+         </pub-date>
+         <fpage>296</fpage>
+         <lpage>328</lpage>
+         <page-range>296-328</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2001 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1391013"/>
+         
+         
+         <abstract>
+            <p>
+               We present an importance sampling method for deciding, based on an observed random field, if a scan statistic provides significant evidence of increased activity in some localized region of time or space. Our method allows consideration of scan statistics based simultaneously on multiple scan geometries. Our approach yields an unbiased p value estimate whose variance is typically smaller than that of the naive hit-or-miss Monte Carlo technique when the p value is small. Furthermore, our p value estimate is often accurate for critical values that are not far enough in the tails of the null distribution to allow for accurate approximations via extreme value theory. The importance sampling approach unifies the analysis of various random field models, from (spatial) point processes to Gaussian random fields. For a scan statistic M, the method produces a p value of the form P[M ≥ τ] = Bρ , where B is the Bonferroni upper bound and the correction factor ρ measures the conservativeness of this upper bound. We present the application of our importance sampling estimator to multinomial sequences (molecular genetics), spatial point processes (digital mammography), and Gaussian random fields (PET scan brain imagery). 
+            </p>
+          </abstract>
+         <kwd-group>
+            <kwd>Multiple testing</kwd>
+            <kwd>Random fields</kwd>
+            <kwd>Simultaneous inference</kwd>
+            <kwd>Spatial point processes</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d879157e180a1310">
+               
+               <mixed-citation id="d879157e184" publication-type="book">
+Adler, R.J. (1981), The Geometry of Random Fields, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Adler</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Geometry of Random Fields</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e206a1310">
+               
+               <mixed-citation id="d879157e210" publication-type="journal">
+(1984), "The Supremum of a Particular Gaussian Field," Annals of Probability, 12, 436-444.<object-id pub-id-type="jstor">10.2307/2243481</object-id>
+               <fpage>436</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e223a1310">
+               
+               <mixed-citation id="d879157e227" publication-type="other">
+(1998), "On Excursion Sets, Tube Formulae, and Maxima of Random Fields," unpublished manuscript.</mixed-citation>
+            </ref>
+            <ref id="d879157e234a1310">
+               
+               <mixed-citation id="d879157e238" publication-type="book">
+Aldous, D. (1989), Probability Approximations via the Poisson Clumping Heuristic, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Aldous</surname>
+                  </string-name>
+                  </person-group>
+               <source>Probability Approximations via the Poisson Clumping Heuristic</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e261a1310">
+               
+               <mixed-citation id="d879157e265" publication-type="journal">
+Alm, S.E. (1997). "On the Distributions of Scan Statistics of a Two-Dimensional Poisson Process," Advances in
+Applied Probability, 29, 1-18.<object-id pub-id-type="doi">10.2307/1427857</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e281a1310">
+               
+               <mixed-citation id="d879157e285" publication-type="journal">
+Bonferroni, C.E. (1936a), Pubbl. 1st Sup. Sci. Econ. Communic. Firenze, 8, 1-62.<person-group>
+                     <string-name>
+                     <surname>Bonferroni</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1</fpage>
+               <volume>8</volume>
+               <source>Pubbl. 1st Sup. Sci. Econ. Communic. Firenze</source>
+               <year>1936</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e314a1310">
+               
+               <mixed-citation id="d879157e318" publication-type="book">
+(1936b), "II Calcolo delle assicurazioni su gruupi di teste," in Studii in onore del prof. S. 0. Carboni,
+Roma.<source>Studii in onore del prof. S. 0. Carboni</source>
+               <year>1936</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e334a1310">
+               
+               <mixed-citation id="d879157e338" publication-type="book">
+Bowyer, K.W., and Astley, S. (eds.) (1994), "State of the Art in Digital Mammographic Image Analysis: Proceed-
+ings of the 1 st International Workshop on Digital Mammography," San Jose, Singapore: World Scientific.<person-group>
+                     <string-name>
+                     <surname>Bowyer</surname>
+                  </string-name>
+                  </person-group>
+               <source>State of the Art in Digital Mammographic Image Analysis: Proceedings of the 1st International Workshop on Digital Mammography</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e363a1310">
+               
+               <mixed-citation id="d879157e367" publication-type="book">
+Castleman, K.R. (1996), Digital Image Processing, Englewood Cliffs, NJ: Prentice-Hall.<person-group>
+                     <string-name>
+                     <surname>Castleman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Digital Image Processing</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e389a1310">
+               
+               <mixed-citation id="d879157e393" publication-type="journal">
+Chen, J., and Glaz, J. (1996), "Two-Dimensional Discrete Scan Statistics," Statistics and Probability Letters, 31,
+59-68.<person-group>
+                     <string-name>
+                     <surname>Chen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>59</fpage>
+               <volume>31</volume>
+               <source>Statistics and Probability Letters</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e426a1310">
+               
+               <mixed-citation id="d879157e430" publication-type="book">
+Cho, Z.-H., Jones, J.P., and Singh, M. (1993), Foundations of Medical Imaging, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cho</surname>
+                  </string-name>
+                  </person-group>
+               <source>Foundations of Medical Imaging</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e452a1310">
+               
+               <mixed-citation id="d879157e456" publication-type="journal">
+Cressie, N. (1977), "On Some Properties of the Scan Statistic on the Circle and the Line," Journal of Applied
+Probability, 14, 272-283.<object-id pub-id-type="doi">10.2307/3212998</object-id>
+               <fpage>272</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e472a1310">
+               
+               <mixed-citation id="d879157e476" publication-type="journal">
+(1980), "The Asymptotic Distribution of the Scan Statistic Under Uniformity," Annals of Probability, 8,
+828-840.<object-id pub-id-type="jstor">10.2307/2242829</object-id>
+               <fpage>828</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e492a1310">
+               
+               <mixed-citation id="d879157e496" publication-type="book">
+(1993), Statistics for Spatial Data, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cressie</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistics for Spatial Data</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e518a1310">
+               
+               <mixed-citation id="d879157e522" publication-type="book">
+Diggle, P.J. (1983), Statistical Analysis of Spatial Point Patterns, New York: Academic Press.<person-group>
+                     <string-name>
+                     <surname>Diggle</surname>
+                  </string-name>
+                  </person-group>
+               <source>Statistical Analysis of Spatial Point Patterns</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e544a1310">
+               
+               <mixed-citation id="d879157e548" publication-type="book">
+Doi, K., Giger, M.L., Nishikawa, R.M., and Schmidt, R.A. (eds.) (1996), Digital Mammography '96: Proceedings
+of the 3rd International Workshop on Digital Mammography, Amsterdam: Elsevier<person-group>
+                     <string-name>
+                     <surname>Doi</surname>
+                  </string-name>
+                  </person-group>
+               <source>Digital Mammography '96: Proceedings of the 3rd International Workshop on Digital Mammography</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e574a1310">
+               
+               <mixed-citation id="d879157e578" publication-type="journal">
+Fisher, R.A., Thornton, H.G., and Mackenzie, W.A. (1922), "The Accuracy of the Plating Method of Estimating
+the Density of Bacterial Populations, with Particular Reference to the Use of Thornton's Agar Medium with
+Soil Samples," Annals of Applied Biology, 9, 325-359.<person-group>
+                     <string-name>
+                     <surname>Fisher</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>325</fpage>
+               <volume>9</volume>
+               <source>Annals of Applied Biology</source>
+               <year>1922</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e613a1310">
+               
+               <mixed-citation id="d879157e617" publication-type="book">
+Fishman, G. (1996), Monte Carlo: Concepts, Algorithms, and Applications, New York: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Fishman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Monte Carlo: Concepts, Algorithms, and Applications</source>
+               <year>1996</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e639a1310">
+               
+               <mixed-citation id="d879157e643" publication-type="book">
+Frigessi, A., and Vercellis, C. (1984), "An Analysis of Monte Carlo Algorithms for Counting Problems," IAMI-
+84.2, Department of Mathematics, University of Milan.<person-group>
+                     <string-name>
+                     <surname>Frigessi</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Analysis of Monte Carlo Algorithms for Counting Problems</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e668a1310">
+               
+               <mixed-citation id="d879157e672" publication-type="journal">
+Friston, K.J., Frith, C.D., Liddle, P.F., and Frackowiak, R.S.J. (1991), "Comparing Functional (PET) Images:
+The Assessment of Significant Change," Journal of Cerebral Blood Flow and Metabolism, 11, 690-699.<person-group>
+                     <string-name>
+                     <surname>Friston</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>690</fpage>
+               <volume>11</volume>
+               <source>Journal of Cerebral Blood Flow and Metabolism</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e704a1310">
+               
+               <mixed-citation id="d879157e708" publication-type="journal">
+Friston, K.J., Worsley, K.J., Frackowiak, R.S.J., Mazziotta, J.C., and Evans, A.C. (1994), "Statistical Parametric
+Maps in Functional Imaging: A General Linear Approach," Human Brain Mapping, 1, 214-220.<person-group>
+                     <string-name>
+                     <surname>Friston</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>214</fpage>
+               <volume>1</volume>
+               <source>Human Brain Mapping</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e740a1310">
+               
+               <mixed-citation id="d879157e744" publication-type="journal">
+Friston, K.J., Holmes, A.P., Worsley, K.J., Poline, J.-P., Frith, C.D., and Frackowiak, R.S.J. (1995), "Statistical
+Parametric Maps in Functional Imaging: A General Linear Approach," Human Brain Mapping, 2, 189-2 10.<person-group>
+                     <string-name>
+                     <surname>Friston</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>189</fpage>
+               <volume>2</volume>
+               <source>Human Brain Mapping</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e777a1310">
+               
+               <mixed-citation id="d879157e781" publication-type="book">
+Gail, A.G., Astley, S.M., Dance, A.R., and Cairns, A.Y. (eds.) (1994), Digital Mammography: Proceedings of
+the 2nd International Workshop on Digital Mammography, Amsterdam: Elsevier.<person-group>
+                     <string-name>
+                     <surname>Gail</surname>
+                  </string-name>
+                  </person-group>
+               <source>Digital Mammography: Proceedings of the 2nd International Workshop on Digital Mammography</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e806a1310">
+               
+               <mixed-citation id="d879157e810" publication-type="journal">
+Hotelling, H. (1939), "Tubes and Spheres in n-Spaces, and a Class of Statistical Problems," American Journal of
+Mathematics, 61,440-460.<object-id pub-id-type="doi">10.2307/2371512</object-id>
+               <fpage>440</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e826a1310">
+               
+               <mixed-citation id="d879157e830" publication-type="book">
+Jain, A.K. (1989), Fundamentals of Digital Image Processing, Englewood Cliffs, NJ: Prentice-Hall.<person-group>
+                     <string-name>
+                     <surname>Jain</surname>
+                  </string-name>
+                  </person-group>
+               <source>Fundamentals of Digital Image Processing</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e852a1310">
+               
+               <mixed-citation id="d879157e856" publication-type="journal">
+Johnstone, I., and Siegmund, D. (1989), "On Hotelling's Formula for the Volume of Tubes and Naiman's Inequal-
+ity," The Annals of Statistics, 17, 184-194.<object-id pub-id-type="jstor">10.2307/2241510</object-id>
+               <fpage>184</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e872a1310">
+               
+               <mixed-citation id="d879157e876" publication-type="journal">
+Karlin, S., and Altschul, S.F. (1990), "Methods for Assessing the Statistical Significance of Molecular Sequence
+Features by Using General Scoring Schemes," Proceedings of the National Academy of Science, 87, 2264
+2268.<object-id pub-id-type="jstor">10.2307/2354031</object-id>
+               <fpage>2264</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e895a1310">
+               
+               <mixed-citation id="d879157e899" publication-type="journal">
+Karlin, S., Blaisdell, B.E., Mocarski, E.S., and Brendel, V. (1989), "A Method to Identify Dinstinctive Charge
+Configurations in Protein Sequences, with Application to Human Herpesvirus Polypeptides," Journal of
+Molcecular Biology, 205, 165-177.<person-group>
+                     <string-name>
+                     <surname>Karlin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>165</fpage>
+               <volume>205</volume>
+               <source>Journal of Molcecular Biology</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e935a1310">
+               
+               <mixed-citation id="d879157e939" publication-type="journal">
+Karlin, S., Dembo, A., and Kawabata, T. (1990), "Statistical Composition of High-Scoring Segments from Molec-
+ular Sequences," The Annals of Statistics, 18, 571-581.<object-id pub-id-type="jstor">10.2307/2242124</object-id>
+               <fpage>571</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e955a1310">
+               
+               <mixed-citation id="d879157e959" publication-type="journal">
+Karlin, S., and Dembo, A. (1992), "Limit Distributions of Maximal Segmental Score Among Markov-Dependent
+Partial Sums," Advances in Applied Probability, 24, 113-140.<object-id pub-id-type="doi">10.2307/1427732</object-id>
+               <fpage>113</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e975a1310">
+               
+               <mixed-citation id="d879157e979" publication-type="book">
+Karssemeijer, N., Thijssen, M., Hendriks, J., and van Erning, L. (eds.) (1998), Digital Mammography '98: Pro-
+ceedings of the 4th International Workshop on Digital Mammography, Dordrecht, The Netherlands: Kluwer.<person-group>
+                     <string-name>
+                     <surname>Karssemeijer</surname>
+                  </string-name>
+                  </person-group>
+               <source>Digital Mammography '98: Proceedings of the 4th International Workshop on Digital Mammography, Dordrecht</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1004a1310">
+               
+               <mixed-citation id="d879157e1008" publication-type="journal">
+Karwe, V.V., and Naus, J.I. (1997), "New Recursive Methods for Scan Statistic Probabilities," Computational
+Statistics and Data Analysis, 23, 389-402.<person-group>
+                     <string-name>
+                     <surname>Karwe</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>389</fpage>
+               <volume>23</volume>
+               <source>Computational Statistics and Data Analysis</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1040a1310">
+               
+               <mixed-citation id="d879157e1044" publication-type="journal">
+Knowles, M., and Siegmund, D. (1989), "On Hotelling's Approach to Testing for a Nonlinear Parameter in
+Regression," International Statistics Review, 57, 205-220.<person-group>
+                     <string-name>
+                     <surname>Knowles</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>205</fpage>
+               <volume>57</volume>
+               <source>International Statistics Review</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1076a1310">
+               
+               <mixed-citation id="d879157e1080" publication-type="book">
+Kopans, D.B. (1998), Breast Imaging (2nd ed.), Philadelphia: Lippincott-Raven.<person-group>
+                     <string-name>
+                     <surname>Kopans</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Breast Imaging</source>
+               <year>1998</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1106a1310">
+               
+               <mixed-citation id="d879157e1110" publication-type="journal">
+Kulldorff, M. (1997), "A Spatial Scan Statistic," Communications in Statistics: Theory and Methods, 26, 1481-
+1496.<person-group>
+                     <string-name>
+                     <surname>Kulldorff</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1481</fpage>
+               <volume>26</volume>
+               <source>Communications in Statistics: Theory and Methods</source>
+               <year>1997</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1142a1310">
+               
+               <mixed-citation id="d879157e1146" publication-type="journal">
+Loader, C.R. (1991). "Large-Deviation Approximations to the Distribution of Scan Statistics," Advances inApplied
+Probability, 23, 751-77 1.<person-group>
+                     <string-name>
+                     <surname>Loader</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>751</fpage>
+               <volume>23</volume>
+               <source>Advances in Applied Probability</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1178a1310">
+               
+               <mixed-citation id="d879157e1182" publication-type="journal">
+McCann, M., and Edwards, D. (1996), "A Path Length Inequality for the Multivariate t Distribution with Appli-
+cations to Multiple Comparisons," Journal of the American Statistical Association, 91, 211-216.<object-id pub-id-type="doi">10.2307/2291397</object-id>
+               <fpage>211</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1198a1310">
+               
+               <mixed-citation id="d879157e1202" publication-type="journal">
+Naiman, D. (1986), "Conservative Confidence Bands in Curvilinear Regression," The Annals of Statistics, 14,
+896-906.<object-id pub-id-type="jstor">10.2307/3035548</object-id>
+               <fpage>896</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1218a1310">
+               
+               <mixed-citation id="d879157e1222" publication-type="journal">
+(1990), "Volumes of Tubular Neighborhoods of Spherical Polyhedra and Statistical Inference," The Annals
+of Statistics, 18, 685-716.<object-id pub-id-type="jstor">10.2307/2242129</object-id>
+               <fpage>685</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1238a1310">
+               
+               <mixed-citation id="d879157e1242" publication-type="journal">
+Naiman, D., and Wynn, H.P. (1992), "Inclusion-Exclusion-Bonferroni Identities and Inequalities for Discrete
+Tube-Like Problems via Euler Characteristics," The Annals of Statistics, 20, 43-76.<object-id pub-id-type="jstor">10.2307/2242150</object-id>
+               <fpage>43</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1259a1310">
+               
+               <mixed-citation id="d879157e1263" publication-type="journal">
+(1997), "Abstract Tubes, Improved Inclusion-Exclusion Identities and Inequalities, and Importance Sam-
+pling'" The Annals of Statistics, 25, 1954-1983.<object-id pub-id-type="jstor">10.2307/2959011</object-id>
+               <fpage>1954</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1279a1310">
+               
+               <mixed-citation id="d879157e1283" publication-type="journal">
+Naus, J.I. (1965), "Clustering of Random Points in Two Dimensions," Biometrika, 52, 263-267.<object-id pub-id-type="doi">10.2307/2333829</object-id>
+               <fpage>263</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1296a1310">
+               
+               <mixed-citation id="d879157e1300" publication-type="journal">
+Priebe, C.E., Olson, T., and Healy, D.M. (1997), "A Spatial Scan Statistic for Stochastic Scan Partitions," Journal
+of the American Statistical Association, 92, 1476-1484.<object-id pub-id-type="doi">10.2307/2965418</object-id>
+               <fpage>1476</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1316a1310">
+               
+               <mixed-citation id="d879157e1320" publication-type="book">
+Ross, S.H. (1990), A Course in Simulation, New York: MacMillan.<person-group>
+                     <string-name>
+                     <surname>Ross</surname>
+                  </string-name>
+                  </person-group>
+               <source>A Course in Simulation</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1342a1310">
+               
+               <mixed-citation id="d879157e1346" publication-type="book">
+Rudin, W. (1974), Real and Complex Analysis (2nd ed.), New York: McGraw-Hill.<person-group>
+                     <string-name>
+                     <surname>Rudin</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Real and Complex Analysis</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1371a1310">
+               
+               <mixed-citation id="d879157e1375" publication-type="book">
+Serfling, R.J. (1980), Approximation Theorems of Mathematical Statistics, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Serfling</surname>
+                  </string-name>
+                  </person-group>
+               <source>Approximation Theorems of Mathematical Statistics</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1398a1310">
+               
+               <mixed-citation id="d879157e1402" publication-type="journal">
+Siegmund, D., and Worsley, K. (1995), "Testing for a Signal with Unknown Location and Scale in a Stationary
+Gaussian Random Field," The Annals of Statistics, 23, 608-639.<object-id pub-id-type="jstor">10.2307/2242355</object-id>
+               <fpage>608</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1418a1310">
+               
+               <mixed-citation id="d879157e1422" publication-type="journal">
+Siegmund, D., and Zhang, H. (1993), "The Expected Number of Local Maxima of a Random Field and the Volume
+of Tubes," The Annals of Statistics, 21, 1948-1966.<object-id pub-id-type="jstor">10.2307/2242323</object-id>
+               <fpage>1948</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1438a1310">
+               
+               <mixed-citation id="d879157e1442" publication-type="journal">
+Sun, J. (1993), "Tail Probabilities of the Maxima of Gaussian Random Fields," The Annals of Probability, 21,
+34-71.<object-id pub-id-type="jstor">10.2307/2244750</object-id>
+               <fpage>34</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1458a1310">
+               
+               <mixed-citation id="d879157e1462" publication-type="book">
+Talairach, J., and Tournoux, P. (1988), Co-Planar Stereotaxic Atlas of the Human Brain, Stuttgart: Thieme.<person-group>
+                     <string-name>
+                     <surname>Talairach</surname>
+                  </string-name>
+                  </person-group>
+               <source>Co-Planar Stereotaxic Atlas of the Human Brain</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1484a1310">
+               
+               <mixed-citation id="d879157e1488" publication-type="book">
+Watson, J.D., Hopkins, N.H., Roberts, J.W., Steitz, J.A., and Weiner, A.A. (1987), Molecular Biology of the
+Gene (4th Ed.), Menlo-Park, CA: Benjamin/Cummings.<person-group>
+                     <string-name>
+                     <surname>Watson</surname>
+                  </string-name>
+                  </person-group>
+               <edition>4</edition>
+               <source>Molecular Biology of the Gene</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1517a1310">
+               
+               <mixed-citation id="d879157e1521" publication-type="journal">
+Weyl, H. (1939), "On the Volume of Tubes," American Journal of Mathematics, 61, 461-472.<object-id pub-id-type="doi">10.2307/2371513</object-id>
+               <fpage>461</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1535a1310">
+               
+               <mixed-citation id="d879157e1539" publication-type="journal">
+Worsley, K.J. (1982), "An Improved Bonferroni Inequality," Biometrika, 69, 297-302.<object-id pub-id-type="doi">10.2307/2335402</object-id>
+               <fpage>297</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1552a1310">
+               
+               <mixed-citation id="d879157e1556" publication-type="journal">
+(1985), "Bonferroni Wins Again," The American Statistician, 39, 235.<person-group>
+                     <string-name>
+                     <surname>Worsley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>235</fpage>
+               <volume>39</volume>
+               <source>The American Statistician</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1585a1310">
+               
+               <mixed-citation id="d879157e1589" publication-type="journal">
+(1 995a), "Boundary Corrections for the Expected Euler Characteristic of Excursion Sets of Random Fields,
+with an Application to Astrophysics," Advances in Applied Probability, 27, 943-959.<object-id pub-id-type="doi">10.2307/1427930</object-id>
+               <fpage>943</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1605a1310">
+               
+               <mixed-citation id="d879157e1609" publication-type="journal">
+(1995b), "Estimating the Number of Peaks in a Random Field Using the Hadwiger Characteristic of
+Excursion Sets, with Applications to Medical Images," The Annals of Statistics, 23, 640-669.<object-id pub-id-type="jstor">10.2307/2242356</object-id>
+               <fpage>640</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d879157e1625a1310">
+               
+               <mixed-citation id="d879157e1629" publication-type="journal">
+Worsley, K.J., Evans, A.C., Marrett, S., and Neelin, P. (1992), "A Three-Dimensional Statistical Analysis for
+rCBF Activation Studies in Human Brain," Journal of Cerebral Blood Flow and Metabolism, 12, 900-918.<person-group>
+                     <string-name>
+                     <surname>Worsley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>900</fpage>
+               <volume>12</volume>
+               <source>Journal of Cerebral Blood Flow and Metabolism</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">machtran</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j50000036</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Machine Translation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>Springer</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">09226567</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">15730573</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">31</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">3</issue>
+         <issue-id>i40211883</issue-id>
+         <article-id pub-id-type="jstor">44987845</article-id>
+         <title-group>
+            <article-title>A system for terminology extraction and translation equivalent detection in real time: Efficient use of statistical machine translation phrase tables</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Antoni</given-names>
+                  <surname>Oliver</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>9</month>
+            <year>2017</year>
+         </pub-date>
+         <fpage>147</fpage>
+         <lpage>161</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© Springer Science+Business Media B.V., part of Springer Nature 2017</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/44987845"/>
+      
+      
+         <abstract>
+            <p>In this paper we present a system for automatic terminology extraction and automatic detection of the equivalent terms in the target language to be used alongside a computer assisted translation (CAT) tool that provides term candidates and their translations in an automatic way each time the translator goes from one segment to the next one. The system uses several sources of information: the text from the segment being translated and from the whole translation project, the translation memories assigned to the project and a translation phrase table from a statistical machine translation system. It also uses the terminological database assigned to the project in order to avoid presenting already known terms. The use of translation phrase tables allows us to use very large parallel corpora in a very efficient way. We have used Moses to calculate and to consult the translation phrase tables. The program is written in Python and it can be used with any CAT tool. In our experiments we have used OmegaT, a well-known open source CAT tool. Evaluation results for English-Spanish and for three subjects (politics, finance, and medicine) are presented.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d3443e169a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d3443e176" publication-type="other">
+http://www.sdl.com.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e183a1310">
+            <label>2</label>
+          
+            <p>
+               <mixed-citation id="d3443e190" publication-type="other">
+http://www.wordfast.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e197a1310">
+            <label>3</label>
+          
+            <p>
+               <mixed-citation id="d3443e204" publication-type="other">
+https://www.memoq.com.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e211a1310">
+            <label>4</label>
+          
+            <p>
+               <mixed-citation id="d3443e218" publication-type="other">
+https://omegat.org/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e226a1310">
+            <label>5</label>
+          
+            <p>
+               <mixed-citation id="d3443e233" publication-type="other">
+https://www.star-group.net.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e240a1310">
+            <label>6</label>
+          
+            <p>
+               <mixed-citation id="d3443e247" publication-type="other">
+https://xtm-intl.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e254a1310">
+            <label>7</label>
+          
+            <p>
+               <mixed-citation id="d3443e261" publication-type="other">
+https://www.matecat.com.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e268a1310">
+            <label>8</label>
+          
+            <p>
+               <mixed-citation id="d3443e275" publication-type="other">
+https://www.memsource.com/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e282a1310">
+            <label>9</label>
+          
+            <p>
+               <mixed-citation id="d3443e289" publication-type="other">
+http://opus.lingfil.uu.se/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e296a1310">
+            <label>10</label>
+          
+            <p>
+               <mixed-citation id="d3443e303" publication-type="other">
+TonD: https://sourceforge.net/p/tond/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e311a1310">
+            <label>11</label>
+          
+            <p>
+               <mixed-citation id="d3443e318" publication-type="other">
+http://iate.europa.eu/.</mixed-citation>
+            </p>
+        </fn>
+        <fn id="d3443e325a1310">
+            <label>12</label>
+          
+            <p>
+               <mixed-citation id="d3443e332" publication-type="other">
+http://nactem.ac.uk.</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d3443e348a1310">
+          
+            <mixed-citation id="d3443e352" publication-type="other">
+Arcan M, Turchi M, Tonelli S, Buitelaar P (2014) Enhancing statistical machine translation with bilingual
+terminology in a cat environment. In: Proceedings of the 11th Biennial Conference of the Association
+for Machine Translation in the Americas (AMTA 2014), pp 54-68</mixed-citation>
+        </ref>
+        <ref id="d3443e365a1310">
+          
+            <mixed-citation id="d3443e369" publication-type="other">
+Astrakhantsev NA, Fedorenko DG, Turdakov DY (2015) Methods for automatic term recognition in domain-
+specific text collections: a survey. Program Comput Softw 41(6):336-349</mixed-citation>
+        </ref>
+        <ref id="d3443e379a1310">
+          
+            <mixed-citation id="d3443e383" publication-type="other">
+Bononno R (2000) Terminology for translators—an implementation of ISO 12620. Meta 45(4):646-669</mixed-citation>
+        </ref>
+        <ref id="d3443e390a1310">
+          
+            <mixed-citation id="d3443e394" publication-type="other">
+Bourigault D (1992) Surface grammatical analysis for the extraction of terminological noun phrases. In:
+Proceedings of the 14th conference on computational linguistics, vol 3. COLING '92, Association for
+Computational Linguistics, Stroudsburg, pp 977-981</mixed-citation>
+        </ref>
+        <ref id="d3443e408a1310">
+          
+            <mixed-citation id="d3443e412" publication-type="other">
+Cabré MT (2010) Terminology and translation. In: Gambier Y, van Doorslaer L (eds) Handbook of trans-
+lation studies. John Benjamins, Amsterdam, pp 356-365</mixed-citation>
+        </ref>
+        <ref id="d3443e422a1310">
+          
+            <mixed-citation id="d3443e426" publication-type="other">
+Cánovas M, Samson R (2011) Open source software in translator training. Tradumática: traducció i tec-
+nologies de la informació i la comunicació 9:46-56</mixed-citation>
+        </ref>
+        <ref id="d3443e436a1310">
+          
+            <mixed-citation id="d3443e440" publication-type="other">
+Cram D, Daiļie B (2016) Termsuite: terminology extraction with term variant detection. In: Proceedings of
+the 54th annual meeting of the association from computational linguistics -system demonstrations,
+pp 13-18</mixed-citation>
+        </ref>
+        <ref id="d3443e453a1310">
+          
+            <mixed-citation id="d3443e457" publication-type="other">
+Dagan I, Church K (1994) Termight: identifying and translating technical terminology. In: Proceedings of
+the 4th conference on applied natural language processing, ANLC '94, Association for Computational
+Linguistics, Stroudsburg, pp 34-40</mixed-citation>
+        </ref>
+        <ref id="d3443e470a1310">
+          
+            <mixed-citation id="d3443e474" publication-type="other">
+Daiļie B, Gaussier E, Langé J-M (1994) Towards automatic extraction of monolingual and bilingual ter-
+minology. In: Proceedings of the 15th conference on computational linguistics, vol 1. COLING '94,
+Association for Computational Linguistics, Stroudsburg, pp 515-521</mixed-citation>
+        </ref>
+        <ref id="d3443e487a1310">
+          
+            <mixed-citation id="d3443e491" publication-type="other">
+Earl LL (1970) Experiments in automatic extracting and indexing. Inf Storage Retr 6(4): 313-330</mixed-citation>
+        </ref>
+        <ref id="d3443e499a1310">
+          
+            <mixed-citation id="d3443e503" publication-type="other">
+Eckl M, Haselbeck S (2006) Survey of the global translators community 2014. Technical report, LingoIO</mixed-citation>
+        </ref>
+        <ref id="d3443e510a1310">
+          
+            <mixed-citation id="d3443e514" publication-type="other">
+Eijk P (1993) Automating the acquisition of bilingual terminology. In: Proceedings of the 6th conference
+on European Chapter of the Association for Computational Linguistics, EACL '93, Association for
+Computational Linguistics, Stroudsburg, pp 113-119</mixed-citation>
+        </ref>
+        <ref id="d3443e527a1310">
+          
+            <mixed-citation id="d3443e531" publication-type="other">
+Evans DA, Zhai C (1996) Noun-phrase analysis in unrestricted text for information retrieval. In: Proceedings
+of the 34th annual meeting on association for computational linguistics, ACL '96, Association for
+Computational Linguistics, Stroudsbuig, pp 17-24</mixed-citation>
+        </ref>
+        <ref id="d3443e544a1310">
+          
+            <mixed-citation id="d3443e548" publication-type="other">
+Federico M, Bertoldi N, Cettolo M, Negri M, Turchi M, Trombetti M, Cattelan A, Farina A, Lupinetti D,
+Martines A et al (2014) The matecat tool. In: COLING (Demos), pp 129-132</mixed-citation>
+        </ref>
+        <ref id="d3443e558a1310">
+          
+            <mixed-citation id="d3443e562" publication-type="other">
+Frantzi K, Ananiadou S, Mima H (2000) Automatic recognition of multi-word terms: the c-value/nc-value
+method. Int J Digital Libr 3(2):115-130</mixed-citation>
+        </ref>
+        <ref id="d3443e572a1310">
+          
+            <mixed-citation id="d3443e576" publication-type="other">
+Fung P (1998) A statistical view on bilingual lexicon extraction: from parallel corpora to non-parallel
+corpora. In: Machine translation and the information soup: 3rd conference of the association for
+machine translation in the Americas AMTA'98. Springer, Langhorne, pp 28-31</mixed-citation>
+        </ref>
+        <ref id="d3443e590a1310">
+          
+            <mixed-citation id="d3443e594" publication-type="other">
+Gaussier E (2001) General considerations on bilingual terminology extraction. In: Bourigault D, Jacquemin
+C, L'Homme M-C (eds) Recent advances in computational terminology. John Benjamins Publishing
+Company, Amsterdam/Philadelphia, pp 167-183</mixed-citation>
+        </ref>
+        <ref id="d3443e607a1310">
+          
+            <mixed-citation id="d3443e611" publication-type="other">
+Gornostay T, Vodopiyanova O, Vasijevs A, Schmitz K-D (2013) Cloud-based terminology services for
+acquiring, sharing and reusing multilingual terminology for human and machine users. In: Proceedings
+of the TRALOGY II conference "The quest for meaning: where are our weak points and what do we
+need?, Paris</mixed-citation>
+        </ref>
+        <ref id="d3443e627a1310">
+          
+            <mixed-citation id="d3443e631" publication-type="other">
+Gupta R, Oräsan C, Zampieri M, Vela M, van Genabith J, Mitkov R (2016) Improving translation memory
+matching and retrieval using paraphrases. Mach Transi 30(1-2): 19-40</mixed-citation>
+        </ref>
+        <ref id="d3443e641a1310">
+          
+            <mixed-citation id="d3443e645" publication-type="other">
+Heylen K, Hertog DD (2015) Automatic term extraction. In: Kockaert HJ, Steurs F (eds) Handbook of
+Terminology, vol 1. John Benjamins Publishing Company, Amsterdam/Philadelphia, pp 203-221</mixed-citation>
+        </ref>
+        <ref id="d3443e655a1310">
+          
+            <mixed-citation id="d3443e659" publication-type="other">
+Hjelm H (2007) Identifying cross language term equivalents using statistical machine translation and dis-
+tributional association measures. In: Proceedings of NODALIDA. Citeseer, pp 97-104</mixed-citation>
+        </ref>
+        <ref id="d3443e669a1310">
+          
+            <mixed-citation id="d3443e673" publication-type="other">
+Hodász G, Pohl G (2005) Metamorpho tm: a linguistically enriched translation memory. In: International
+workshop, modern approaches in translation technologies</mixed-citation>
+        </ref>
+        <ref id="d3443e684a1310">
+          
+            <mixed-citation id="d3443e688" publication-type="other">
+Ideue M, Yamamoto K, Utiyama M, Sumita E (2011) A comparison of unsupervised bilingual term extraction
+methods using phrase tables. In: Proceedings of the MT Summit XIII, Xiamen</mixed-citation>
+        </ref>
+        <ref id="d3443e698a1310">
+          
+            <mixed-citation id="d3443e702" publication-type="other">
+Isabelle P (1992) Bi-textual aids for translators. In: Proceedings of the annual conference of the UW Center
+for the New OED and Text Research</mixed-citation>
+        </ref>
+        <ref id="d3443e712a1310">
+          
+            <mixed-citation id="d3443e716" publication-type="other">
+Johnson I, MacPhail A (2000) Iate-inter-agency terminology exchange: development of a single central
+terminology database for the institutions and agencies of the european union. In: Workshop on termi-
+nology resources and computation</mixed-citation>
+        </ref>
+        <ref id="d3443e729a1310">
+          
+            <mixed-citation id="d3443e733" publication-type="other">
+Junczys-Dowmunt M (2012) Phrasal rank-encoding: exploiting phrase redundancy and translational rela-
+tions for phrase table compression. Prague Bull Math Linguist 98:63-74</mixed-citation>
+        </ref>
+        <ref id="d3443e743a1310">
+          
+            <mixed-citation id="d3443e747" publication-type="other">
+Justeson JS, Katz SM (1995) Technical terminology: some linguistic properties and an algorithm for iden-
+tification in text. Nat Lang Eng 1(01):9-27</mixed-citation>
+        </ref>
+        <ref id="d3443e757a1310">
+          
+          
+            <mixed-citation id="d3443e763" publication-type="other">
+Koehn P, Hoang H, Birch A, Callison-Burch C, Federico M, Bertoldi N, Cowan B., Shen W, Moran C,
+Zens R, Dyer C, Bojar O, Constantin A, Herbst E (2007) Moses: Open source toolkit for statistical
+machine translation. In: Proceedings of the 45th annual meeting of the ACL on interactive poster
+and demonstration sessions, ACL '07. Association for Computational Linguistics, Stroudsburg, pp
+177-180</mixed-citation>
+        </ref>
+        <ref id="d3443e783a1310">
+          
+            <mixed-citation id="d3443e787" publication-type="other">
+Macken L, Lefever E, Hoste V (2013) Texsis: bilingual terminology extraction from parallel corpora using
+chunk-based alignment. Terminology 19(1):1-30</mixed-citation>
+        </ref>
+        <ref id="d3443e797a1310">
+          
+            <mixed-citation id="d3443e801" publication-type="other">
+Macklovitch E, Russell G (2000) What's been forgotten in translation memory. In: Conference of the
+association for machine translation in the Americas, Springer, pp 137-146</mixed-citation>
+        </ref>
+        <ref id="d3443e811a1310">
+          
+            <mixed-citation id="d3443e815" publication-type="other">
+Och FJ, Ney H (2003) A systematic comparison of various statistical alignment models. Comput Linguist
+29(1): 19-51</mixed-citation>
+        </ref>
+        <ref id="d3443e825a1310">
+          
+            <mixed-citation id="d3443e829" publication-type="other">
+Oliver A, Vázquez M (2015) TBXTools: a free, fast and flexible tool for automatic terminology extraction.
+In: Proceedings of recent advances in natural language processing (RANLP-2015), pp 473-479</mixed-citation>
+        </ref>
+        <ref id="d3443e839a1310">
+          
+            <mixed-citation id="d3443e843" publication-type="other">
+Padró L, Stanilovsky E (2012, May). Freeling 3.0: Towards wider multilinguality. In: Proceedings of the
+language resources and evaluation conference (LREC 2012). ELRA, Istanbul</mixed-citation>
+        </ref>
+        <ref id="d3443e853a1310">
+          
+            <mixed-citation id="d3443e857" publication-type="other">
+Pal S, Zampieri M, Naskar, SK, Nayak T, Vela M, van Genabith J (2016) Catalog online: porting a post-
+editing tool to the web. In: Proceedings of LREC</mixed-citation>
+        </ref>
+        <ref id="d3443e868a1310">
+          
+            <mixed-citation id="d3443e872" publication-type="other">
+Pazienza MT, Pennacchiotti M, Zanzotto FM (2005) Terminology extraction: an analysis of linguistic and
+statistical approaches. In: Sirmakessis S (ed) Knowledge mining. Springer, Heidelberg, pp 255-279</mixed-citation>
+        </ref>
+        <ref id="d3443e882a1310">
+          
+            <mixed-citation id="d3443e886" publication-type="other">
+Pekar V, Mitkov R (2007) New generation translation memory: content-sensivite matching. In: Proceedings
+of the 40th anniversary congress of the swiss association of translators, terminologists and interpreters</mixed-citation>
+        </ref>
+        <ref id="d3443e896a1310">
+          
+            <mixed-citation id="d3443e900" publication-type="other">
+Planas E, Furuse O (1999) Formalizing translation memories. Machine Translation Summit VII, Singapore,
+pp 331-339</mixed-citation>
+        </ref>
+        <ref id="d3443e910a1310">
+          
+            <mixed-citation id="d3443e914" publication-type="other">
+Saltón G, Yang C-S, Yu CT (1975) A theory of term importance in automatic text analysis. J Am Soc Inf
+Sci 26(1): 33-44</mixed-citation>
+        </ref>
+        <ref id="d3443e924a1310">
+          
+            <mixed-citation id="d3443e928" publication-type="other">
+Tiedemann J (2012) Parallel data, tools and interfaces in opus. In: Proceedings of the 8th international
+conference on language resources and evaluation (LREC' 20 12), pp 2214-2218</mixed-citation>
+        </ref>
+        <ref id="d3443e938a1310">
+          
+            <mixed-citation id="d3443e942" publication-type="other">
+Utiyama M, Neubig G, Onishi T, Sumita E (2011) Searching translation memories for paraphrases. In
+Machine Translation Summit pp 13:325-331</mixed-citation>
+        </ref>
+        <ref id="d3443e953a1310">
+          
+            <mixed-citation id="d3443e957" publication-type="other">
+Varga D, Halácsy P, Kornai A, Nagy V, Németh L, Trón V (2005) Parallel corpora for medium density
+languages. In Proceedings of RANLP, pp 590-596</mixed-citation>
+        </ref>
+        <ref id="d3443e967a1310">
+          
+            <mixed-citation id="d3443e971" publication-type="other">
+Vivaldi J, Rodriguez H (2007) Evaluation of terms and term extraction systems: a practical approach.
+Terminology 13(2):225-248</mixed-citation>
+        </ref>
+        <ref id="d3443e981a1310">
+          
+            <mixed-citation id="d3443e985" publication-type="other">
+Weitz M (2017) Improving retrieval performance of translation memories using morphosyntactic analyses
+and generalized suffix arrays. Mach Transi, 1-30</mixed-citation>
+        </ref>
+        <ref id="d3443e995a1310">
+          
+            <mixed-citation id="d3443e999" publication-type="other">
+Xiong D, Meng F, Liu Q (2016) Topic-based term translation models for statistical machine translation.
+Artif Intell 232:54-75</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

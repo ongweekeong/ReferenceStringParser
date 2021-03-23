@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">5</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i260271</issue-id>
+         <article-id pub-id-type="doi">10.2307/1390751</article-id>
+         
+         <title-group>
+            <article-title>Wavelet Analysis and Synthesis of Stationary Long-Memory Processes</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>E. J.</given-names>
+                  <surname>McCoy</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>A. T.</given-names>
+                  <surname>Walden</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>26</fpage>
+         <lpage>56</lpage>
+         <page-range>26-56</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1996 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390751"/>
+         
+         
+         <abstract>
+            <p>The discrete wavelet transform (DWT) can be interpreted as a filtering of a time series by a set of octave band filters such that the width of each band as a proportion of its center frequency is constant. A long-memory process having a power spectrum that plots as a straight line on log-frequency/log-power scales over many octaves of frequency is intrinsically related to such a structure. As an example of such processes, we focus on one class of discrete-time, stationary, long-memory processes, the fractionally differenced Gaussian white noise processes (fdGn). We show how the DWT breaks down a fdGn, and show the exact correlation structure of the resulting coefficients for different wavelets (Daubechies' minimum-phase and least-asymmetric and Haar). The DWT is an impressive "whitening filter." A discrete wavelet-based scheme for simulating fdGn's is discussed and is shown to be equivalent to a spectral decomposition of the covariance matrix of the process; however, it can be carried out using only information on the nature of the spectrum of the process--that is, time-domain information is not required. It produces results comparable with the exact Hosking method. We then show that, using wavelet methods, the spectral slope parameter d can be estimated as well, or better, than when using the best Fourier-based method known to us, namely regression on multitaper spectral ordinates. Since wavelet analysis and synthesis methods can be applied to a much wider variety of empirical or theoretical long-memory processes, wavelet methods could prove a valuable tool in the future in the analysis and synthesis of stochastic processes.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Discrete wavelet transform</kwd>
+            <kwd>Fractionally differenced white noise</kwd>
+            <kwd>Long-memory processes</kwd>
+            <kwd>Maximum likelihood estimation</kwd>
+            <kwd>Simulation</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d293912e150a1310">
+               
+               <mixed-citation id="d293912e154" publication-type="conference">
+Abry, P., Gonçalès, P., and Flandrin, P. (1993), "Wavelet-Based Spectral Analysis of 1/f Processes," in
+Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 237-
+240.<person-group>
+                     <string-name>
+                     <surname>Abry</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Wavelet-Based Spectral Analysis of 1/f Processes</comment>
+               <fpage>237</fpage>
+               <source>Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e189a1310">
+               
+               <mixed-citation id="d293912e193" publication-type="journal">
+Allan, D.W. (1966), "Statistics of Atomic Frequency Clocks," in Proceedings of the IEEE, 31, pp. 221-230.<person-group>
+                     <string-name>
+                     <surname>Allan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>31</volume>
+               <source>Proceedings of the IEEE</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e222a1310">
+               
+               <mixed-citation id="d293912e226" publication-type="journal">
+Bradshaw, G.A., and Spies, T.A. (1992), "Characterizing Canopy Gap Structures in Forests using Wavelet
+Analysis," Journal of Ecology, 80, 205-215.<object-id pub-id-type="doi">10.2307/2261007</object-id>
+               <fpage>205</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e242a1310">
+               
+               <mixed-citation id="d293912e246" publication-type="journal">
+Daubechies, I. (1988), "Orthonormal Bases of Compactly Supported Wavelets," Communications in Pure and
+Applied Mathematics, 41, 909-996.<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>909</fpage>
+               <volume>41</volume>
+               <source>Communications in Pure and Applied Mathematics</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e279a1310">
+               
+               <mixed-citation id="d293912e283" publication-type="book">
+(1992), Ten Lectures on Wavelets, Philadelphia, PA: SIAM.<person-group>
+                     <string-name>
+                     <surname>Daubechies</surname>
+                  </string-name>
+                  </person-group>
+               <source>Ten Lectures on Wavelets</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e305a1310">
+               
+               <mixed-citation id="d293912e309" publication-type="journal">
+Dijkerman, R.W., and Mazumdar, R.R. (1994), "On the Correlation Structure of the Wavelet Coefficients of
+Fractional Brownian Motion," IEEE Transactions on Information Theory, 40, 1609-1612.<person-group>
+                     <string-name>
+                     <surname>Dijkerman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1609</fpage>
+               <volume>40</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e341a1310">
+               
+               <mixed-citation id="d293912e345" publication-type="journal">
+Flandrin, P. (1989), "On the Spectrum of Fractional Brownian Motions," IEEE Trans. on Information Theory,
+35, 197-199.<person-group>
+                     <string-name>
+                     <surname>Flandrin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>197</fpage>
+               <volume>35</volume>
+               <source>IEEE Trans. on Information Theory</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e377a1310">
+               
+               <mixed-citation id="d293912e381" publication-type="journal">
+(1992), "Wavelet Analysis and Synthesis of Fractional Brownian Motion," IEEE Transactions on In-
+formation Theory, 38, 910-917.<person-group>
+                     <string-name>
+                     <surname>Flandrin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>910</fpage>
+               <volume>38</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e413a1310">
+               
+               <mixed-citation id="d293912e417" publication-type="journal">
+Geweke, J., and Porter-Hudak, S. (1983), "The Estimation and Application of Long Memory Time Series
+Models," Journal of Time Series Analysis, 4, 221-238.<person-group>
+                     <string-name>
+                     <surname>Geweke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>221</fpage>
+               <volume>4</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e449a1310">
+               
+               <mixed-citation id="d293912e453" publication-type="journal">
+Haslett, J., and Raftery, A.E. (1989), "Space-Time Modelling with Long-Memory Dependence: Assessing
+Ireland's Wind Power Resource," Applied Statistics, 38, 1-50.<object-id pub-id-type="doi">10.2307/2347679</object-id>
+               <fpage>1</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e470a1310">
+               
+               <mixed-citation id="d293912e474" publication-type="book">
+Holden, A.V. (1976), Models of the Stochastic Activity of Neurones, Berlin: Springer-Verlag.<person-group>
+                     <string-name>
+                     <surname>Holden</surname>
+                  </string-name>
+                  </person-group>
+               <source>Models of the Stochastic Activity of Neurones</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e496a1310">
+               
+               <mixed-citation id="d293912e500" publication-type="journal">
+Hosking, J.R.M. (1981), "Fractional Differencing," Biometrika, 68, 165-176.<object-id pub-id-type="doi">10.2307/2335817</object-id>
+               <fpage>165</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e513a1310">
+               
+               <mixed-citation id="d293912e517" publication-type="journal">
+(1984), "Modeling Persistence in Hydrological Time Series using Fractional Differencing," Water Re-
+sources Research, 20, 1898-1908.<person-group>
+                     <string-name>
+                     <surname>Hosking</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1898</fpage>
+               <volume>20</volume>
+               <source>Water Resources Research</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e549a1310">
+               
+               <mixed-citation id="d293912e553" publication-type="journal">
+Kaplan, L.M., and Kuo, C.-C.J. (1993), " Fractal Estimation from Noisy Data via Discrete Fractional Gaussian
+Noise (DFGN) and the Haar Basis," IEEE Transactions on Signal Processing, 41, 3554-3562.<person-group>
+                     <string-name>
+                     <surname>Kaplan</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>3554</fpage>
+               <volume>41</volume>
+               <source>IEEE Transactions on Signal Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e585a1310">
+               
+               <mixed-citation id="d293912e589" publication-type="journal">
+Kashyap, R.L., and Eom, K.-B. (1988), "Estimation in Long-Memory Time Series Model," Journal of Time
+Series Analysis, 9, 35-41.<person-group>
+                     <string-name>
+                     <surname>Kashyap</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>35</fpage>
+               <volume>9</volume>
+               <source>Journal of Time Series Analysis</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e621a1310">
+               
+               <mixed-citation id="d293912e625" publication-type="journal">
+Masry, E. (1993), "The Wavelet Transform of Stochastic Processes with Stationary Increments and its Appli-
+cation to Fractional Brownian Motion," IEEE Transactions on Information Theory, 39, 260-264.<person-group>
+                     <string-name>
+                     <surname>Masry</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>260</fpage>
+               <volume>39</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e658a1310">
+               
+               <mixed-citation id="d293912e662" publication-type="book">
+McCoy, E. J. (1994), Some New Statistical Approaches to the Analysis of Long Memory Processes, unpublished
+PhD thesis, Imperial College, UK, Dept. of Mathematics.<person-group>
+                     <string-name>
+                     <surname>McCoy</surname>
+                  </string-name>
+                  </person-group>
+               <source>Some New Statistical Approaches to the Analysis of Long Memory Processes</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e687a1310">
+               
+               <mixed-citation id="d293912e691" publication-type="conference">
+McCoy, E.J., and Walden, A.T. (1993), " Multitaper Estimation and Long Memory Processes," in International
+Conference on Applications of Time Series Analysis in Astronomy and Meteorology, Extended Abstracts,
+pp. 103-106.<person-group>
+                     <string-name>
+                     <surname>McCoy</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multitaper Estimation and Long Memory Processes</comment>
+               <fpage>103</fpage>
+               <source>International Conference on Applications of Time Series Analysis in Astronomy and Meteorology, Extended Abstracts</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e726a1310">
+               
+               <mixed-citation id="d293912e730" publication-type="journal">
+McHardy, I., and Czemy, B. (1987), "Fractal X-ray Time Variability and Spectral Invariance of the Seyfert
+Galaxy NGC 5506," Nature, 325, 696-698.<person-group>
+                     <string-name>
+                     <surname>McHardy</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>696</fpage>
+               <volume>325</volume>
+               <source>Nature</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e762a1310">
+               
+               <mixed-citation id="d293912e766" publication-type="journal">
+McLeod, A.I., and Hipel, K.W. (1978), "Simulation Procedures for Box-Jenkins Models," Water Resources
+Research, 14, 969-975.<person-group>
+                     <string-name>
+                     <surname>McLeod</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>969</fpage>
+               <volume>14</volume>
+               <source>Water Resources Research</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e798a1310">
+               
+               <mixed-citation id="d293912e802" publication-type="book">
+Munk, W.H., and Macdonald, G.J.F. (1975), The Rotation of the Earth, Cambridge: Cambridge University
+Press.<person-group>
+                     <string-name>
+                     <surname>Munk</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Rotation of the Earth</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e827a1310">
+               
+               <mixed-citation id="d293912e831" publication-type="journal">
+Nason, G.P., and Silverman, B.W. (1994), "The Discrete Wavelet Transform in S," Journal of Computational
+and Graphical Statistics, 3, 163-191.<object-id pub-id-type="doi">10.2307/1390667</object-id>
+               <fpage>163</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e848a1310">
+               
+               <mixed-citation id="d293912e852" publication-type="book">
+Percival, D. B. (1983), The Statistics of Long Memory Processes, unpublished PhD thesis, University of Wash-
+ington, Dept. of Statistics.<person-group>
+                     <string-name>
+                     <surname>Percival</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Statistics of Long Memory Processes</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e877a1310">
+               
+               <mixed-citation id="d293912e881" publication-type="journal">
+(1995), "On Estimation of the Wavelet Variance," Biometrika, 82, 619-631.<object-id pub-id-type="doi">10.2307/2337538</object-id>
+               <fpage>619</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e894a1310">
+               
+               <mixed-citation id="d293912e898" publication-type="journal">
+Strang, G. (1993), "Wavelet Transforms versus Fourier Transforms," Bullettin of the American Mathematical
+Society, 28, 288-305.<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>288</fpage>
+               <volume>28</volume>
+               <source>Bullettin of the American Mathematical Society</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e930a1310">
+               
+               <mixed-citation id="d293912e934" publication-type="journal">
+Strichartz, R.S. (1993), "How to Make Wavelets," American Mathematical Monthly, 100, 539-556.<object-id pub-id-type="doi">10.2307/2324613</object-id>
+               <fpage>539</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e947a1310">
+               
+               <mixed-citation id="d293912e951" publication-type="journal">
+Tewfik, A.H., and Kim, M. (1992), "Correlation Structure of the Discrete Wavelet Coefficients of Fractional
+Brownian Motion," IEEE Transactions on Information Theory, 38, 904-909.<person-group>
+                     <string-name>
+                     <surname>Tewfik</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>904</fpage>
+               <volume>38</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e983a1310">
+               
+               <mixed-citation id="d293912e987" publication-type="book">
+Tewfik, A.H., Kim, M., and Deriche, M. (1993), "Multiscale Signal Processing Techniques: a Review," in
+Handbook of Statistics, Volume 10: Signal Processing, eds. N. K. Bose and C. R. Rao, Amsterdam:
+North-Holland, pp. 819-881.<person-group>
+                     <string-name>
+                     <surname>Tewfik</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Multiscale Signal Processing Techniques: a Review</comment>
+               <fpage>819</fpage>
+               <source>Handbook of Statistics, Volume 10: Signal Processing</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e1023a1310">
+               
+               <mixed-citation id="d293912e1027" publication-type="journal">
+Walden, A.T. (1994),"Interpretation of Geophysical Bore Hole Data via Interpolation of Fractionally Differ-
+enced White Noise," Applied Statistics, 43, 335-345.<object-id pub-id-type="doi">10.2307/2986024</object-id>
+               <fpage>335</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e1043a1310">
+               
+               <mixed-citation id="d293912e1047" publication-type="journal">
+Womell, G.W. (1990), "A Karhunen-Loève Expansion for 1/f Processes via Wavelets," IEEE Transactions
+on Information Theory, 36, 859-861.<person-group>
+                     <string-name>
+                     <surname>Wornell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>859</fpage>
+               <volume>36</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e1079a1310">
+               
+               <mixed-citation id="d293912e1083" publication-type="journal">
+(1993), "Wavelet-Based Representations for the 1/f Family of Fractal Processes," Proceedings of the
+IEEE, 81, 1428-1450.<person-group>
+                     <string-name>
+                     <surname>Wornell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1428</fpage>
+               <volume>81</volume>
+               <source>Proceedings of the IEEE</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d293912e1115a1310">
+               
+               <mixed-citation id="d293912e1119" publication-type="journal">
+Wornell, G.W., and Oppenheim, A.V. (1992), "Wavelet-Based Representations for a Class of Self-Similar
+Signals with Application to Fractal Modulation," IEEE Transactions on Information Theory, 38, 785-800.<person-group>
+                     <string-name>
+                     <surname>Wornell</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>785</fpage>
+               <volume>38</volume>
+               <source>IEEE Transactions on Information Theory</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

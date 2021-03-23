@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">30</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">135</issue>
+         <issue-id>i334558</issue-id>
+         <article-id pub-id-type="doi">10.2307/2005318</article-id>
+         
+         <title-group>
+            <article-title>On the Numerical Solution of Helmholtz's Equation by the Capacitance Matrix Method</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Wl̄odzimierz</given-names>
+                     <surname>Proskurowski</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Olof</given-names>
+                  <surname>Widlund</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>1976</year>
+         </pub-date>
+         <fpage>433</fpage>
+         <lpage>468</lpage>
+         <page-range>433-468</page-range>
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1976 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2005318"/>
+         
+         
+         <abstract>
+            <p>In recent years the usefulness of fast Laplace solvers has been extended to problems on arbitrary regions in the plane by the development of capacitance matrix methods. The solution of the Dirichlet and Neumann problems for Helmholtz's equation is considered. It is shown, that by an appropriate choice of the fast solver, the capacitance matrix can be generated quite inexpensively. An analogy between capacitance matrix methods and classical potential theory for the solution of Laplace's equation is explored. This analogy suggests a modification of the method in the Dirichlet case. This new formulation leads to well-conditioned capacitance matrix equations which can be solved quite efficiently by the conjugate gradient method. A highly accurate solution can, therefore, be obtained at an expense which grows no faster than that for a fast Laplace solver on a rectangle when the mesh size is decreased.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65N20</kwd>
+            <kwd>65F05</kwd>
+            <kwd>65F10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d2039826e201a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d2039826e208" publication-type="book">
+E. ANGEL &amp; R. BELLMAN, Dynamic Programming and Parital Differential Equations,
+Math. in Sci. and Engineering, vol. 88, Academic Press, New York and London, 1972. MR 50
+#11822.<person-group>
+                     <string-name>
+                     <surname>Angel</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Programming and Parital Differential Equations</comment>
+               <volume>88</volume>
+               <source>Math. in Sci. and Engineering</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e243a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d2039826e250" publication-type="conference">
+R. BARTELS &amp; J. W. DANIEL, "A conjugate gradient approach to nonlinear elliptic
+boundary value problems in irregular regions," Conference on the Numerical Solution of Differential
+Equations (Dundee, July 1973), Lecture Notes in Math., vol. 363, Springer-Verlag, Berlin and New
+York, 1974, pp. 1-11.<person-group>
+                     <string-name>
+                     <surname>Bartels</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A conjugate gradient approach to nonlinear elliptic boundary value problems in irregular regions</comment>
+               <fpage>1</fpage>
+               <volume>363</volume>
+               <source>Conference on the Numerical Solution of Differential Equations</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e291a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d2039826e298" publication-type="journal">
+J. H. BRAMBLE &amp; B. E. HUBBARD, "A theorem on error estimation for finite difference
+analogues of the Dirichlet problem for elliptic equations," Contributions to Differential Equations,
+v. 2, 1963, pp. 319-340. MR 27 #2114.<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>319</fpage>
+               <volume>2</volume>
+               <source>Contributions to Differential Equations</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e333a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d2039826e340" publication-type="journal">
+J. H. BRAMBLE &amp; B. E. HUBBARD, "Approximation of derivatives by finite difference
+methods in elliptic boundary value problems," Contributions to Differential Equations, v. 3, 1964,
+pp. 399-410. MR 29 #4208.<person-group>
+                     <string-name>
+                     <surname>Bramble</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>399</fpage>
+               <volume>3</volume>
+               <source>Contributions to Differential Equations</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e376a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d2039826e383" publication-type="book">
+0. BUNEMAN, ACompact Non-Iterative Poisson Solver, Report SUIPR-294, Inst. Plasma
+Research, Stanford University, 1969.<person-group>
+                     <string-name>
+                     <surname>Buneman</surname>
+                  </string-name>
+                  </person-group>
+               <source>Compact Non-Iterative Poisson Solver</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e408a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d2039826e415" publication-type="journal">
+B. L. BUZBEE &amp; F. W. DORR, "The direct solution of the biharmonic equation on rec-
+tangular regions and the Poisson equation on irregular regions," SIAM J. Numer. Anal., v. 11, 1974,
+pp. 753-763.<object-id pub-id-type="jstor">10.2307/2156129</object-id>
+               <fpage>753</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e434a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d2039826e441" publication-type="journal">
+B. L. BUZBEE, F. W. DORR, J. A. GEORGE &amp; G. H. GOLUB, "The direct solution of
+the discrete Poisson equation on irregular regions," SIAM J. Numer. Anal., v. 8, 1971, pp. 722-736.
+MR 45 #1403.<object-id pub-id-type="jstor">10.2307/2949602</object-id>
+               <fpage>722</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e460a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d2039826e467" publication-type="journal">
+B. L. BUZBEE, G. H. GOLUB &amp; C. W. NIELSON, "On direct methods for solving Poisson's
+equations," SIAM J. Numer. Anal., v. 7, 1970, pp. 627-656. MR 44 #4920.<object-id pub-id-type="jstor">10.2307/2949380</object-id>
+               <fpage>627</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e483a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d2039826e490" publication-type="book">
+L. COLLATZ, The Numerical Treatment of Differential Equations, Springer-Verlag, Berlin
+and New York, 1966.<person-group>
+                     <string-name>
+                     <surname>Collatz</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Numerical Treatment of Differential Equations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e515a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d2039826e522" publication-type="journal">
+P. CONCUS &amp; G. H. GOLUB, "Use of fast direct methods for efficient numerical solu-
+tion of nonseparable elliptic equations," SIAM J. Numer. Anal., v. 10, 1973, pp. 1103-1120. MR
+49 #6636.<object-id pub-id-type="jstor">10.2307/2156207</object-id>
+               <fpage>1103</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e542a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d2039826e549" publication-type="journal">
+J. W. COOLEY, P. A. W. LEWIS &amp; P. D. WELCH, "The fast Fourier transform algorithm:
+Programming considerations in the calculation of sine, cosine and Laplace transform," J. Sound Vib.,
+v. 12, 1970, pp. 315-337.<person-group>
+                     <string-name>
+                     <surname>Cooley</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>315</fpage>
+               <volume>12</volume>
+               <source>J. Sound Vib.</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e584a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d2039826e591" publication-type="book">
+R. COURANT &amp; D. HILBERT, Methods of Mathematical Physics. Vol. I, Interscience,
+New York, 1953. MR 16, 426.<person-group>
+                     <string-name>
+                     <surname>Courant</surname>
+                  </string-name>
+                  </person-group>
+               <volume>I</volume>
+               <source>Methods of Mathematical Physics</source>
+               <year>1953</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e620a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d2039826e627" publication-type="journal">
+J. W. DANIEL, "The conjugate gradient method for linear and nonlinear operator equa-
+tions," SIAM J. Numer. Anal., v. 4, 1967, pp. 10-26. MR 36 #1076.<object-id pub-id-type="jstor">10.2307/2949731</object-id>
+               <fpage>10</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e643a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d2039826e650" publication-type="journal">
+F. W. DORR, "The direct solution of the discrete Poisson equation on a rectangle,"
+SIAM Rev., v. 12, 1970, pp. 248-263. MR 42 #1353.<object-id pub-id-type="jstor">10.2307/2029223</object-id>
+               <fpage>248</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e666a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d2039826e673" publication-type="journal">
+D. FISCHER, G. GOLUB, 0. HALD, C. LEIVA &amp; 0. WIDLUND, "On Fourier-Toeplitz
+methods for separable elliptic problems," Math. Comp., v. 28, 1974, pp. 349-368.<object-id pub-id-type="doi">10.2307/2005913</object-id>
+               <fpage>349</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e689a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d2039826e696" publication-type="book">
+G. E. FORSYTHE &amp; W. R. WASOW, Finite-Difference Methods for Partial Differential
+Equations, Appl. Math. Ser., Wiley, New York, 1960. MR 23 #B3156.<person-group>
+                     <string-name>
+                     <surname>Forsythe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Finite-Difference Methods for Partial Differential Equations</source>
+               <year>1960</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e722a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d2039826e729" publication-type="book">
+P. R. GARABEDIAN, Partial Differential Equations, Wiley, New York, 1964. MR 28
+#5247.<person-group>
+                     <string-name>
+                     <surname>Garabedian</surname>
+                  </string-name>
+                  </person-group>
+               <source>Partial Differential Equations</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e754a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d2039826e761" publication-type="book">
+J. A. GEORGE, The Use of Direct Methods for the Solution of the Discrete Poisson
+Equation on Non-Rectangular Regions, Computer Science Department Report 159, Stanford Univer-
+sity, 1970.<person-group>
+                     <string-name>
+                     <surname>George</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Use of Direct Methods for the Solution of the Discrete Poisson Equation on Non-Rectangular Regions</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e790a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d2039826e797" publication-type="other">
+G. H. GOLUB, "An Algorithm for the Discrete Biharmonic Equation," (Unpublished.)</mixed-citation>
+            </ref>
+            <ref id="d2039826e804a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d2039826e811" publication-type="book">
+R. M. HAYES, "Iterative methods of solving linear problems on Hilbert space," Contri-
+butions to the Solution of Systems of Linear Equations and the Determination of Eigenvalues, Nat.
+Bur. Standards Appl. Math. Ser., no. 39, U. S. Government Printing Office, Washington, D. C.,
+1954, pp. 71-103. MR 16, 597.<person-group>
+                     <string-name>
+                     <surname>Hayes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Iterative methods of solving linear problems on Hilbert space</comment>
+               <fpage>71</fpage>
+               <source>Contributions to the Solution of Systems of Linear Equations and the Determination of Eigenvalues</source>
+               <year>1954</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e849a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d2039826e856" publication-type="conference">
+M. R. HESTENES, "The conjugate gradient method for solving linear systems," Proc.
+Sympos. Appl. Math., vol. 6, Numer. Anal., Amer. Math. Soc., Providence, R. I., 1956, pp. 83-102.
+MR 18, 824.<person-group>
+                     <string-name>
+                     <surname>Hestenes</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The conjugate gradient method for solving linear systems</comment>
+               <fpage>83</fpage>
+               <volume>6</volume>
+               <source>Proc. Sympos. Appl. Math.</source>
+               <year>1956</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e894a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d2039826e901" publication-type="journal">
+M. R. HESTENES &amp; E. STIEFEL, "Methods of conjugate gradients for solving linear
+systems," J. Res. Nat. Bur. Standards, v. 49, 1952, pp. 409-436. MR 15, 651.<person-group>
+                     <string-name>
+                     <surname>Hestenes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>409</fpage>
+               <volume>49</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1952</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e934a1310">
+               <label>23</label>
+               
+               <mixed-citation id="d2039826e941" publication-type="journal">
+R. W. HOCKNEY, "A fast direct solution of Poisson's equation using Fourier analy-
+sis," J. Assoc. Comput. Mach., v. 12, 1965, pp. 95-113. MR 35 #3913.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>95</fpage>
+               <volume>12</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e973a1310">
+               <label>24</label>
+               
+               <mixed-citation id="d2039826e980" publication-type="journal">
+R. W. HOCKNEY, "Formation and stability of virtual electrodes in a cylinder," J.
+Appl. Phys., v. 39, 1968, pp. 4166-4170.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4166</fpage>
+               <volume>39</volume>
+               <source>J. Appl. Phys.</source>
+               <year>1968</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1012a1310">
+               <label>25</label>
+               
+               <mixed-citation id="d2039826e1019" publication-type="book">
+R. W. HOCKNEY, The Potential Calculation and Some Applications, Methods in Com-
+putational Physics, vol. 9, Academic Press, New York, 1970.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">The Potential Calculation and Some Applications</comment>
+               <volume>9</volume>
+               <source>Methods in Computational Physics</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1051a1310">
+               <label>26</label>
+               
+               <mixed-citation id="d2039826e1058" publication-type="book">
+R. W. HOCKNEY, POT 4-A Fast Direct Poisson Solver for the Rectangle Allowing
+Some Mixed Boundary Conditions and Internal Electrodes, IBM Research, R. C. 2870, 1970.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <source>POT 4-A Fast Direct Poisson Solver for the Rectangle Allowing Some Mixed Boundary Conditions and Internal Electrodes</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1083a1310">
+               <label>27</label>
+               
+               <mixed-citation id="d2039826e1090" publication-type="book">
+R. W. HOCKNEY, Computers, Compilers and Poisson-Solvers, Computer Science Depart-
+ment Report, Reading University, 1972.<person-group>
+                     <string-name>
+                     <surname>Hockney</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computers, Compilers and Poisson-Solvers</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1115a1310">
+               <label>28</label>
+               
+               <mixed-citation id="d2039826e1122" publication-type="book">
+A. S. HOUSEHOLDER, The Theory of Matrices in Numerical Analysis, Blaisdell, New
+York, 1964. MR 30 #5475.<person-group>
+                     <string-name>
+                     <surname>Householder</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Theory of Matrices in Numerical Analysis</source>
+               <year>1964</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1148a1310">
+               <label>29</label>
+               
+               <mixed-citation id="d2039826e1155" publication-type="book">
+A. JAMESON, Accelerated Iteration Schemes for Transonic Flow Calculations Using
+Fast Poisson Solvers, N. Y. U. ERDA report C00-3077-82, 1975.<person-group>
+                     <string-name>
+                     <surname>Jameson</surname>
+                  </string-name>
+                  </person-group>
+               <source>Accelerated Iteration Schemes for Transonic Flow Calculations Using Fast Poisson Solvers</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1180a1310">
+               <label>30</label>
+               
+               <mixed-citation id="d2039826e1187" publication-type="journal">
+W. J. KAMMERER &amp; M. Z. NASHED, "On the convergence of the conjugate gradient
+method for singular operator equations," SIAM J. Numer. Anal., v. 9, 1972, pp. 165-181.<object-id pub-id-type="jstor">10.2307/2156348</object-id>
+               <fpage>165</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1203a1310">
+               <label>31</label>
+               
+               <mixed-citation id="d2039826e1210" publication-type="journal">
+S. KANIEL, "Estimates for some computational techniques in linear algebra," Math.
+Comp., v. 20, 1966, pp. 369-378. MR 38 #2934.<object-id pub-id-type="doi">10.2307/2003590</object-id>
+               <fpage>369</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1226a1310">
+               <label>32</label>
+               
+               <mixed-citation id="d2039826e1233" publication-type="book">
+L. V. KANTOROVIČ &amp; V. I. KRYLOV, Approximate Methods of Higher Analysis, 3rd
+ed., GITTL, Moscow, 1950<person-group>
+                     <string-name>
+                     <surname>Kantorovič</surname>
+                  </string-name>
+                  </person-group>
+               <edition>3</edition>
+               <source>Approximate Methods of Higher Analysis</source>
+               <year>1950</year>
+            </mixed-citation>
+               <mixed-citation id="d2039826e1261" publication-type="other">
+English transl., Interscience, New York; Noordhoff, Groningen, 1958.
+MR 13, 77; 21 #5268.</mixed-citation>
+            </ref>
+            <ref id="d2039826e1271a1310">
+               <label>33</label>
+               
+               <mixed-citation id="d2039826e1278" publication-type="journal">
+C. LANCZOS, "An iteration method for the solution of the eigenvalue problem of linear
+differential and integral operators," J. Res. Nat. Bur. Standards, v. 45, 1950, pp. 255-282. MR
+13, 163.<person-group>
+                     <string-name>
+                     <surname>Lanczos</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>255</fpage>
+               <volume>45</volume>
+               <source>J. Res. Nat. Bur. Standards</source>
+               <year>1950</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1313a1310">
+               <label>34</label>
+               
+               <mixed-citation id="d2039826e1320" publication-type="book">
+D. G. LUENBERGER, Introduction to Linear and Nonlinear Programming, Addison-
+Wesley, Reading, Mass., 1973.<person-group>
+                     <string-name>
+                     <surname>Luenberger</surname>
+                  </string-name>
+                  </person-group>
+               <source>Introduction to Linear and Nonlinear Programming</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1346a1310">
+               <label>35</label>
+               
+               <mixed-citation id="d2039826e1353" publication-type="journal">
+E. D. MARTIN, "A generalized-capacity-matrix technique for computing aerodynamic
+flows," Internat. J. Comput. &amp; Fluids, v. 2, 1974, pp. 79-97. MR 49 #11953.<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>79</fpage>
+               <volume>2</volume>
+               <source>Internat. J. Comput. &amp; Fluids</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1385a1310">
+               <label>36</label>
+               
+               <mixed-citation id="d2039826e1392" publication-type="book">
+E. D. MARTIN, "Progress in application of direct elliptic solvers for transonic flow com-
+putations," Aeordynamics Analyses Requiring Advanced Computers, NASA SP-347, 1975. (To ap-
+pear.)<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Progress in application of direct elliptic solvers for transonic flow computations</comment>
+               <source>Aeordynamics Analyses Requiring Advanced Computers</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1424a1310">
+               <label>37</label>
+               
+               <mixed-citation id="d2039826e1431" publication-type="conference">
+E. D. MARTIN, "A fast semidirect method for computing transonic aerodynamic flows,"
+Proceedings of the AIAA 2nd Computational Fluid Dynamics Conference, June 1975. (To appear.)<person-group>
+                     <string-name>
+                     <surname>Martin</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A fast semidirect method for computing transonic aerodynamic flows</comment>
+               <source>Proceedings of the AIAA 2nd Computational Fluid Dynamics Conference</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1460a1310">
+               <label>38</label>
+               
+               <mixed-citation id="d2039826e1467" publication-type="journal">
+C. C. PAIGE &amp; M. A. SAUNDERS, "Solutions of sparse indefinite systems of equa-
+tions," SIAM J. Numer. Anal., v. 12, 1975, pp. 617-629.<object-id pub-id-type="jstor">10.2307/2156178</object-id>
+               <fpage>617</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1483a1310">
+               <label>39</label>
+               
+               <mixed-citation id="d2039826e1490" publication-type="other">
+V. PEREYRA, W. PROSKUROWSKI &amp; O. WIDLUND, "On a family of elliptic differ-
+ence schemes suggested by Heinz-Otto Kreiss." (To appear.)</mixed-citation>
+            </ref>
+            <ref id="d2039826e1500a1310">
+               <label>40</label>
+               
+               <mixed-citation id="d2039826e1507" publication-type="other">
+C. S. PESKIN, Personal communication.</mixed-citation>
+            </ref>
+            <ref id="d2039826e1515a1310">
+               <label>41</label>
+               
+               <mixed-citation id="d2039826e1522" publication-type="book">
+I. G. PETROVSKIĬ, Lectures on Partial Differential Equations, GITTL, Moscow, 1950<person-group>
+                     <string-name>
+                     <surname>Petrovskiĭ</surname>
+                  </string-name>
+                  </person-group>
+               <source>Lectures on Partial Differential Equations</source>
+               <year>1950</year>
+            </mixed-citation>
+               <mixed-citation id="d2039826e1543" publication-type="other">
+English transl., Interscience, New York, 1954. MR 13, 241; 16, 478.</mixed-citation>
+            </ref>
+            <ref id="d2039826e1550a1310">
+               <label>42</label>
+               
+               <mixed-citation id="d2039826e1557" publication-type="other">
+A. SHIEH, Fast Poisson Solver on Nonrectangular Domains, Ph. D. Thesis, New York
+University, June 1976.</mixed-citation>
+            </ref>
+            <ref id="d2039826e1567a1310">
+               <label>43</label>
+               
+               <mixed-citation id="d2039826e1574" publication-type="book">
+G. STRANG &amp; G. J. FIX, An Analysis of the Finite Element Method, Prentice-Hall,
+Englewood Cliffs, N. J., 1973.<person-group>
+                     <string-name>
+                     <surname>Strang</surname>
+                  </string-name>
+                  </person-group>
+               <source>An Analysis of the Finite Element Method</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1599a1310">
+               <label>44</label>
+               
+               <mixed-citation id="d2039826e1606" publication-type="book">
+V. THOMÉE, "On the convergence of difference quotients in elliptic problems," Numer-
+ical Solution of Field Problems in Continuum Physics, SIAM-AMS Proc., vol. 2, Amer. Math. Soc.,
+Providence, R. I., 1970, pp. 186-200. MR 41 #4834.<person-group>
+                     <string-name>
+                     <surname>Thomée</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the convergence of difference quotients in elliptic problems</comment>
+               <fpage>186</fpage>
+               <volume>2</volume>
+               <source>Numerical Solution of Field Problems in Continuum Physics</source>
+               <year>1970</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1644a1310">
+               <label>45</label>
+               
+               <mixed-citation id="d2039826e1651" publication-type="book">
+J. TODD (Editor), Survey of Numerical Analysis, McGraw-Hill, New York, 1962. MR
+24 #B1271.<person-group>
+                     <string-name>
+                     <surname>Todd</surname>
+                  </string-name>
+                  </person-group>
+               <source>Survey of Numerical Analysis</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d2039826e1676a1310">
+               <label>46</label>
+               
+               <mixed-citation id="d2039826e1683" publication-type="book">
+0. WIDLUND, "On the use of fast methods for separable finite difference equations for
+the solution of general elliptic problems," Sparse Matrices and Their Applications, Edited by D. J.
+Rose and R. A. Willoughby, Plenum Press, New York, 1972.<person-group>
+                     <string-name>
+                     <surname>Widlund</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">On the use of fast methods for separable finite difference equations for the solution of general elliptic problems</comment>
+               <source>Sparse Matrices and Their Applications</source>
+               <year>1972</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

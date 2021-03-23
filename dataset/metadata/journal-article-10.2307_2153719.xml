@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">65</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">216</issue>
+         <issue-id>i337672</issue-id>
+         <article-id pub-id-type="jstor">2153719</article-id>
+         
+         <title-group>
+            <article-title>The 4-Triangles Longest-Side Partition of Triangles and Linear Refinement Algorithms</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>María-Cecilia</given-names>
+                     <surname>Rivara</surname>
+                  
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Gabriel</given-names>
+                  <surname>Iribarren</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>10</month>
+            <year>1996</year>
+         </pub-date>
+         <fpage>1485</fpage>
+         <lpage>1502</lpage>
+         <page-range>1485-1502</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 1996 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153719"/>
+         
+         
+         <abstract>
+            <p>In this paper we study geometrical properties of the iterative 4-triangles longest-side partition of triangles (and of a 3-triangles partition), as well as practical algorithms based on these partitions, used both directly for the triangulation refinement problem, and as a basis for point insertion strategies in Delaunay refinement algorithms. The 4-triangles partition is obtained by joining the midpoint of the longest side with the opposite vertex and the midpoints of the two remaining sides. By means of simple geometrical arguments we show that the iterative partition of obtuse triangles systematically improves the triangles (while they remain obtuse) in the following sense: the sequence of smallest angles monotonically increases while the sequence of largest angles monotonically decreases in an amount (at least) equal to the smallest angle of each iteration. This allows us to improve the known bound on the smallest angle (without making use of previous results), and to obtain a better a priori bound on the number of similarly distinct triangles, as a function of the geometry of the initial triangle. Numerical evidence, showing that the practical behavior of the 4-triangles partition is in complete agreement with this theory, is included. A 4-triangles refinement algorithm is also discussed and illustrated. Furthermore, we show that the time cost of the algorithm is linear independently of the size of the triangulation.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65M50</kwd>
+            <kwd>65N50</kwd>
+            <kwd>65M60</kwd>
+            <kwd>65N30</kwd>
+            <kwd>51N30</kwd>
+            <kwd>51M15</kwd>
+            <kwd>65Y25</kwd>
+            <kwd>68U05</kwd>
+            <kwd>65M55</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d761404e315a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d761404e322" publication-type="book">
+I. Babus̆ka, O.C. Zienkiewcz, J. Gago and E. R. de A. Oliveira (eds.), Accuracy estimates and
+adaptive refinements in finite element computations, John Wiley &amp; Sons, Chichester (1986).
+MR 87j:65004<person-group>
+                     <string-name>
+                     <surname>Babus̆ka</surname>
+                  </string-name>
+                  </person-group>
+               <source>Accuracy estimates and adaptive refinements in finite element computations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e351a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d761404e358" publication-type="journal">
+S.W. Bova and G. F. Carey, Mesh generation/refinement using fractal concepts and iterated
+function systems, Internat. J. Numer. Meth. in Engrg., 33 (1992), 287-305. MR 92j:65137<person-group>
+                     <string-name>
+                     <surname>Bova</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>287</fpage>
+               <volume>33</volume>
+               <source>Internat. J. Numer. Meth. in Engrg.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e390a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d761404e397" publication-type="journal">
+P. Dierckx, S. Van Leemput and T. Vermeire, Algorithms for surface fitting using Powell-
+Sabin splines, IMA J. Numer. Anal., 12(1992), 271-299. MR 93b:65026<person-group>
+                     <string-name>
+                     <surname>Dierckx</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>271</fpage>
+               <volume>12</volume>
+               <source>IMA J. Numer. Anal.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e429a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d761404e436" publication-type="book">
+W. Hackbush, Multi-grid methods and applications, Springer-Verlag, Berlin (1985). MR
+87e:65082<person-group>
+                     <string-name>
+                     <surname>Hackbush</surname>
+                  </string-name>
+                  </person-group>
+               <source>Multi-grid methods and applications</source>
+               <year>1985</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e462a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d761404e469" publication-type="journal">
+H. Kim, S. Hong, K. Choi, H. Jung and S. Hahn, A three dimensional adaptive finite element
+method for magnetostatic problems, IEEE Trans. Magnetics, 27(1991), 4081-4084.<person-group>
+                     <string-name>
+                     <surname>Kim</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>4081</fpage>
+               <volume>27</volume>
+               <source>IEEE Trans. Magnetics</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e501a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d761404e508" publication-type="book">
+L. Freitag, M. Jones and P. Plassmann, New techniques for parallel simulation of high-
+temperature superconductors, Argonne National Laboratory 1994 Preprint MCS-P44-0594.<person-group>
+                     <string-name>
+                     <surname>Freitag</surname>
+                  </string-name>
+                  </person-group>
+               <source>New techniques for parallel simulation of hightemperature superconductors</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e533a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d761404e540" publication-type="journal">
+S.N. Muthukrishnan, P.S. Shiakolas, R. V. Nambiar and K.L. Lawrence, A simple algorithm
+for the adaptive refinement of three dimensional finite element tetrahedral meshes, to appear
+AIAA Journal.<person-group>
+                     <string-name>
+                     <surname>Muthukrishnan</surname>
+                  </string-name>
+                  </person-group>
+               <source>AIAA Journal</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e565a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d761404e572" publication-type="journal">
+R.V. Nambiar, R.S. Valera, K.L. Lawrence, R. B. Morgan and D. Amil, An algorithm for
+adaptive refinement of triangular meshes, Internat. J. Numer. Meth. Engrg.36 (1993), 499-
+509.<person-group>
+                     <string-name>
+                     <surname>Nambiar</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>499</fpage>
+               <volume>36</volume>
+               <source>Internat. J. Numer. Meth. Engrg.</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e607a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d761404e614" publication-type="journal">
+J. O'Rourke, Computational Geometry Column 23, Internat. J. Comput. Geom. Appl.
+4(1994), 239-242. MR 95j:52030<person-group>
+                     <string-name>
+                     <surname>O'Rourke</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>239</fpage>
+               <volume>4</volume>
+               <source>Internat. J. Comput. Geom. Appl.</source>
+               <year>1994</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e646a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d761404e653" publication-type="journal">
+J. Penman and M.D. Grieve, Self-adaptive mesh generation technique for the finite element
+method, IEE Proceedings, 134(1987), 634-650.<person-group>
+                     <string-name>
+                     <surname>Penman</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>634</fpage>
+               <volume>134</volume>
+               <source>IEE Proceedings</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e686a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d761404e693" publication-type="journal">
+M.-C. Rivara, Mesh refinement processes based on the generalized bisection of simplices, SIAM
+J. Numer. Anal.21(1984), 604-613. MR 85i:65159<object-id pub-id-type="jstor">10.2307/2157071</object-id>
+               <fpage>604</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e709a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d761404e716" publication-type="journal">
+—, Algorithms for refining triangular grids suitable for adaptive and multigrid tech-
+niques, Internat. J. Numer. Methods Engrg., 20(1984), 745-756. MR 85h:65258<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>745</fpage>
+               <volume>20</volume>
+               <source>Internat. J. Numer. Methods Engrg.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e748a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d761404e755" publication-type="journal">
+—, Design and data structure for fully adaptive, multigrid finite-element software, ACM
+Trans. Math. Software, 10(1984), 242-264. MR 86f:65207<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>242</fpage>
+               <volume>10</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e787a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d761404e794" publication-type="book">
+—Adaptive finite element refinement and fully irregular and conforming triangula-
+tions, In Accuracy Estimates and Adaptive Refinements in Finite Element Computations,
+I. Babuska, O.C. Zienkiewicz, J. Gago and E.R. de A. Oliveira (eds.), John Wiley &amp; Sons,
+Chichester (1986), pp. 359-370.<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Adaptive finite element refinement and fully irregular and conforming triangulations</comment>
+               <fpage>359</fpage>
+               <volume>I</volume>
+               <source>Accuracy Estimates and Adaptive Refinements in Finite Element Computations</source>
+               <year>1986</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e835a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d761404e842" publication-type="journal">
+—, A grid generator based on 4-triangles conforming mesh refinement algorithms, Inter-
+nat. J. Numer. Meth. Engrg., 24 (1987), 1343-1354.<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1343</fpage>
+               <volume>24</volume>
+               <source>J. Numer. Meth. Engrg.</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e874a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d761404e881" publication-type="journal">
+—, Selective refinement/derefinement algorithms for sequences of nested triangulations,
+Internat. J. Numer. Meth. Engrg., 28(1989), 2889-2906. MR 90j:57018<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>2889</fpage>
+               <volume>28</volume>
+               <source>Internat. J. Numer. Meth. Engrg.</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e914a1310">
+               <label>17</label>
+               
+               <mixed-citation id="d761404e921" publication-type="conference">
+—A discussion on the triangulation refinement problem, Proceedings of the Fifth Cana-
+dian Conference on Computational Geometry, University of Waterloo (1993), pp. 42-47.<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">A discussion on the triangulation refinement problem</comment>
+               <fpage>42</fpage>
+               <source>Proceedings of the Fifth Canadian Conference on Computational Geometry, University of Waterloo</source>
+               <year>1993</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e953a1310">
+               <label>18</label>
+               
+               <mixed-citation id="d761404e960" publication-type="journal">
+M.-C. Rivara and C. Levin, A 3D refinement algorithm for adaptive and multigrid techniques,
+Comm. Appl. Numer. Methods, 8 (1992), 281-290.<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>8</volume>
+               <source>Comm. Appl. Numer. Methods</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e992a1310">
+               <label>19</label>
+               
+               <mixed-citation id="d761404e999" publication-type="journal">
+M.-C. Rivara and M. Venere, Cost analysis of the longest-side (triangle bisection) refinement
+algorithms for triangulations (1994), to appear Engineering with Computers.<person-group>
+                     <string-name>
+                     <surname>Rivara</surname>
+                  </string-name>
+                  </person-group>
+               <source>Engineering with Computers</source>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e1021a1310">
+               <label>20</label>
+               
+               <mixed-citation id="d761404e1028" publication-type="journal">
+I. Rosenberg and F. Stenger, A lower bound on the angles of triangles constructed by bisecting
+the longest side, Math. Comp.29(1975), 390-395. MR 51:11264<object-id pub-id-type="doi">10.2307/2005558</object-id>
+               <fpage>390</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e1044a1310">
+               <label>21</label>
+               
+               <mixed-citation id="d761404e1051" publication-type="journal">
+M. Stynes, On faster convergence of the bisection method for all triangles, Math. of Comp.
+36 (1980), 1195-1201. MR 81j:51023<person-group>
+                     <string-name>
+                     <surname>Stynes</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>1195</fpage>
+               <volume>36</volume>
+               <source>Math. of Comp.</source>
+               <year>1980</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d761404e1083a1310">
+               <label>22</label>
+               
+               <mixed-citation id="d761404e1090" publication-type="book">
+R. Williams, Adaptive parallel meshes with complex geometry, In Numerical Grid Generation
+in Computational Fluid Dynamics and Related Fields (A.S.Arcilla, J.Hauser, P.R.Eiseman,
+J.F.Thompson, eds.), Elsevier Science Publishers B.V. (North-Holland) (1991). CMP 91:16<person-group>
+                     <string-name>
+                     <surname>Williams</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Adaptive parallel meshes with complex geometry</comment>
+               <source>Numerical Grid Generation in Computational Fluid Dynamics and Related Fields</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

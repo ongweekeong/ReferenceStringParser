@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">81</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">277</issue>
+         <issue-id>i23075137</issue-id>
+         <article-id pub-id-type="jstor">23075226</article-id>
+         <title-group>
+            <article-title>A FAMILY OF ANADROMIC NUMERICAL METHODS FOR MATRIX RICCATI DIFFERENTIAL EQUATIONS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>REN-CANG</given-names>
+                  <surname>LI</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>WILLIAM</given-names>
+                  <surname>KAHAN</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>2012</year>
+         </pub-date>
+         <fpage>233</fpage>
+         <lpage>265</lpage>
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2012 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075226"/>
+      
+      
+         <abstract>
+            <p>Matrix Riccati Differential Equations (MRDEs) X′ = A
+              21
+              - XA
+              11
+              + A
+              22
+              X - XA
+              12
+              X, X(0) = X0, where A
+              ij
+              ≡ A
+              ij
+              (t), appear frequently throughout applied mathematics, science, and engineering. Naturally, the existing conventional Runge-Kutta methods and linear multi-step methods can be adapted to solve MRDEs numerically. Indeed, they have been adapted. There are a few unconventional numerical methods, too, but they are suited more for time-invariant MRDEs than time-varying ones. For stiff MRDEs, existing implicit methods which are preferred to explicit ones require solving nonlinear systems of equations (of possibly much higher dimensions than the original problem itself of, for example, implicit Runge-Kutta methods), and thus they can pose implementation difficulties and also be expensive.
+             In the past, the property of an MRDE which has been most preserved is the symmetry property for a symmetric MRDE; many other crucial properties have been discarded. Besides the symmetry property, our proposed methods also preserve two other important properties — Bilinear Rational Dependence on the initial value, and a Generalized Inverse Relation between an MRDE and its complementary MRDE. By preserving the generalized inverse relation, our methods are accurately able to integrate an MRDE whose solution has singularities. By preserving the property of bilinear dependence on the initial value, our methods also conserve the rank of change to the initial value and a solution's monotonicity property. Our methods are anadromic, meaning if an MRDE is integrated by one of our methods from t=τ to τ+θ and then integrated backward from t=τ+θ to τ using the same method, the value at t=τ is recovered in the absence of rounding errors. This implies that our methods are necessarily of even order of convergence. For time-invariant MRDEs, methods of any even order of convergence are established, while for time-varying MRDEs, methods of order as high as 10 are established; but only methods of order up to 6 are stated in detail. Our methods are semi-implicit, in the sense that there are no nonlinear systems of matrix equations to solve, only linear ones, unlike any pre-existing implicit method. Given the availability of high quality codes for linear matrix equations, our methods can easily be implemented and embedded into any application software package that needs a robust MRDE solver. Numerical examples are presented to support our claims.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <fn-group xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>[Footnotes]</title>
+        <fn id="d2241582e208a1310">
+            <label>1</label>
+          
+            <p>
+               <mixed-citation id="d2241582e215" publication-type="other">
+[27</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d2241582e221" publication-type="other">
+28]</mixed-citation>
+            </p>
+            <p>
+               <mixed-citation id="d2241582e227" publication-type="other">
+[22]</mixed-citation>
+            </p>
+        </fn>
+      </fn-group>
+    
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2241582e243a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d2241582e250" publication-type="other">
+M. Abramowitz and I. A. Stegun (editors), Handbook of mathematical functions with formu-
+las, graphs, and mathematical tables, 9th printing ed., Dover Publications, Inc., New York,
+1970.</mixed-citation>
+        </ref>
+        <ref id="d2241582e263a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d2241582e270" publication-type="other">
+E. Anderson, Z. Bai, C. Bischof, J. Demmel, J. Dongarra, J. Du Croz, A. Greenbaum,
+S. Hammarling, A. McKenney, S. Ostrouchov, and D. Sorensen, LAPACK users' guide, 3rd
+ed., SIAM, Philadelphia, 1999.</mixed-citation>
+        </ref>
+        <ref id="d2241582e283a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d2241582e290" publication-type="other">
+U. M. Ascher, R. M. Mattheij, and R. D. Russell, Numerical solution of boundary value
+problems for ordinary differential equations, Prentice-Hall, Englewood Cliffs, NJ, 1988.
+MR1000177 (90h:65120)</mixed-citation>
+        </ref>
+        <ref id="d2241582e303a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d2241582e310" publication-type="other">
+I. Babuska and V. Majer, The factorization method for the numerical solution of two point
+boundary value problems for linear ODE's, SIAM J. Numer. Anal. 24 (1987), 1301-1334.
+MR917454 (88m:65114)</mixed-citation>
+        </ref>
+        <ref id="d2241582e324a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d2241582e331" publication-type="other">
+David Bindel, Private communication, 2003.</mixed-citation>
+        </ref>
+        <ref id="d2241582e338a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d2241582e345" publication-type="other">
+David L. Brown and Jens Lorenz, A high-order method for stiff boundary value problems
+with turning points, SIAM J. Sci. Statist. Comput. 8 (1987), no. 5, 790-805. MR902743
+(90a:34030)</mixed-citation>
+        </ref>
+        <ref id="d2241582e358a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d2241582e365" publication-type="other">
+R. Bulirsch and J. Stoer, Numerical treatment of ordinary differential equations by extrapo-
+lation methods, Numer. Math. 8 (1966), 1-13. MR0191095 (32:8504)</mixed-citation>
+        </ref>
+        <ref id="d2241582e375a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d2241582e382" publication-type="other">
+Philippe Chartier, Ernst Hairer, and Gilles Vilmart, Numerical integrators based on mod-
+ified differential equations, Math. Comp. 76 (2007), no. 260, 1941—1953. MR2336275
+(2008g:65082)</mixed-citation>
+        </ref>
+        <ref id="d2241582e395a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d2241582e402" publication-type="other">
+C. H. Choi and A. J. Laub, Constructing Riccati differential equations with known analytic
+solutions for numerical experiments, IEEE Trans. Automat. Control 35 (1990), 437—439.
+MR1047997</mixed-citation>
+        </ref>
+        <ref id="d2241582e415a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d2241582e422" publication-type="other">
+—, Efficient matrix-valued algorithm for solving stiff Riccati differential equations, IEEE
+Trans. Automat. Control 35 (1990), 770—776. MR1058361 (91f:93038)</mixed-citation>
+        </ref>
+        <ref id="d2241582e433a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d2241582e440" publication-type="other">
+Chia-Chun Chou and Robert E. Wyatt, Computational method for the quantum Hamilton-
+Jacobi equation: Bound states in one dimension, J. Chem. Phys. 125 (2006), no. 17, 174103.</mixed-citation>
+        </ref>
+        <ref id="d2241582e450a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d2241582e457" publication-type="other">
+E. J. Davison and M. C. Maki, The numerical solution of the matrix differential Riccati
+equation, IEEE Trans. Automat. Control AC-18 (1973), 71-73.</mixed-citation>
+        </ref>
+        <ref id="d2241582e467a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d2241582e474" publication-type="other">
+J. Demmel, Applied numerical linear algebra, SIAM, Philadelphia, PA, 1997. MR1463942
+(98m:65001)</mixed-citation>
+        </ref>
+        <ref id="d2241582e484a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d2241582e491" publication-type="other">
+P. Deuflhard, Recent progress in extrapolation methods for ordinary differential equations,
+SIAM Rev. 27 (1985), 505-535. MR812452 (86m:65075)</mixed-citation>
+        </ref>
+        <ref id="d2241582e501a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d2241582e508" publication-type="other">
+L. Dieci, Numerical integration of the differential Riccati equation and some related issues,
+SIAM J. Numer. Anal. 29 (1992), no. 3, 781-815. MR1163357 (93b:65093)</mixed-citation>
+        </ref>
+        <ref id="d2241582e518a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d2241582e525" publication-type="other">
+L. Dieci and T. Eirola, Positive definiteness in the numerical solution of Riccati differential
+equations, Numer. Math. 67 (1994), 303—313. MR1269499 (95b:65099)</mixed-citation>
+        </ref>
+        <ref id="d2241582e536a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d2241582e543" publication-type="other">
+—, Preserving monotonicity in the numerical solution of Riccati differential equations,
+Numer. Math. 74 (1996), 35-47. MR1400214 (97j:65114)</mixed-citation>
+        </ref>
+        <ref id="d2241582e553a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d2241582e560" publication-type="other">
+L. Dieci, M. R. Osborne, and R. D. Russell, A Riccati transformation method for solving
+linear BVPs. I: Theoretical aspects, SIAM J. Numer. Anal. 25 (1988), no. 5, 1055—1073.
+MR960866 (90b:65153)</mixed-citation>
+        </ref>
+        <ref id="d2241582e573a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d2241582e580" publication-type="other">
+—, A Riccati transformation method for solving linear B VPs. II: Computational aspects,
+SIAM J. Numer. Anal. 25 (1988), no. 5, 1074-1092. MR960867 (90b:65154)</mixed-citation>
+        </ref>
+        <ref id="d2241582e590a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d2241582e597" publication-type="other">
+G. H. Golub and C. F. Van Loan, Matrix computations, 3rd ed., Johns Hopkins University
+Press, Baltimore, Maryland, 1996. MR1417720 (97g:65006)</mixed-citation>
+        </ref>
+        <ref id="d2241582e607a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d2241582e614" publication-type="other">
+W. Gragg, On extrapolation methods for ordinary initial-value problems, SIAM J. Numer.
+Anal. 2 (1965), 384-403. MR0202318 (34:2191)</mixed-citation>
+        </ref>
+        <ref id="d2241582e624a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d2241582e631" publication-type="other">
+E. Hairer, S. P. N0rsett, and G. Wanner, Solving ordinary differential equations I, 2nd ed.,
+Springer-Verlag, New York, 1992.</mixed-citation>
+        </ref>
+        <ref id="d2241582e642a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d2241582e649" publication-type="other">
+Ernst Hairer, Private communication, December 10, 2009.</mixed-citation>
+        </ref>
+        <ref id="d2241582e656a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d2241582e663" publication-type="other">
+Ernst Hairer, Christian Lubich, and Gerhard Wanner, Geometric numerical integration:
+Structure-preserving algorithms for ordinary differential equations, 2nd ed., Springer Series
+in Computational Mathematics, no. 31, Springer, Berlin, 2006. MR2221614 (2006m:65006)</mixed-citation>
+        </ref>
+        <ref id="d2241582e676a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d2241582e683" publication-type="other">
+N. J. Higham, FORTRAN codes for estimating the one-norm of a real or complex matrix,
+with applications to condition estimation, ACM Trans. Math. Software 14 (1988), 381-396.
+MR1062484</mixed-citation>
+        </ref>
+        <ref id="d2241582e696a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d2241582e703" publication-type="other">
+—, Accuracy and stability of numerical algorithms, SIAM, Philadephia, 1996.
+MR1368629 (97a:65047)</mixed-citation>
+        </ref>
+        <ref id="d2241582e713a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d2241582e720" publication-type="other">
+W. Kahan and Ren-Cang Li, Composition constants for raising the orders of unconventional
+schemes for ordinary differential equations, Math. Comp. 66 (1997), 1089-1099. MR1423077
+(97m:65120)</mixed-citation>
+        </ref>
+        <ref id="d2241582e733a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d2241582e740" publication-type="other">
+—, Unconventional schemes for a class of ordinary differential equations-with appli-
+cations to the Korteweg-de Vries, J. Comput. Phys. 134 (1997), 316-331. MR1458831
+(98b:65078)</mixed-citation>
+        </ref>
+        <ref id="d2241582e754a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d2241582e761" publication-type="other">
+C. S. Kenney and R. B. Leipnik, Numerical integration of the differential matrix Riccati equa-
+tion, IEEE Trans. Automat. Control AC-30 (1985), no. 10, 962-970. MR804133 (87a:34018)</mixed-citation>
+        </ref>
+        <ref id="d2241582e771a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d2241582e778" publication-type="other">
+H. Kwakernaak and R. Sivan, Linear optimal control systems, Wiley Interscience, New York,
+1972. MR0406607 (53:10394)</mixed-citation>
+        </ref>
+        <ref id="d2241582e788a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d2241582e795" publication-type="other">
+D. G. Lainiotis, Generalized Chandrasekhar algorithms: Time-varying models, IEEE Trans.
+Automat. Control AC-21 (1976), 728-732. MR0421806 (54:9800)</mixed-citation>
+        </ref>
+        <ref id="d2241582e805a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d2241582e812" publication-type="other">
+—, Partitioned Riccati solutions and integration-free doubling algorithms, IEEE Trans.
+Automat. Control AC-21 (1976), 677-689. MR0421805 (54:9799)</mixed-citation>
+        </ref>
+        <ref id="d2241582e822a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d2241582e829" publication-type="other">
+A. J. Laub, Schur techniques for Riccati differential equations, Feedback Control of Linear
+and Nonlinear Systems (New York) (D. Hinrichsen and A. Isidori, eds.), Springer-Verlag,
+1982. MR837458</mixed-citation>
+        </ref>
+        <ref id="d2241582e842a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d2241582e849" publication-type="other">
+R. B. Leipnik, A canonical form and solution for the matrix Riccati differential equation,
+Bull. Australian Math. Soc. 26 (1985), 355-361. MR776321 (86f:34005)</mixed-citation>
+        </ref>
+        <ref id="d2241582e860a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d2241582e867" publication-type="other">
+Ren-Cang Li and William Kahan, A family of anadromic numerical methods for matrix
+riccati differential equations, Tech. Report 2009-20, Department of Mathematics, University
+of Texas at Arlington, 2009, Available at http://www.uta.edu/math/preprint/.</mixed-citation>
+        </ref>
+        <ref id="d2241582e880a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d2241582e887" publication-type="other">
+—, Modifying implicit midpoint rules for linear ordinary differential equation, Tech. Re-
+port 2010-02, Department of Mathematics, University of Texas at Arlington, 2010, Available
+at http://www.uta.edu/math/preprint/.</mixed-citation>
+        </ref>
+        <ref id="d2241582e900a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d2241582e907" publication-type="other">
+D. W. Rand and P. Winternitz, Nonlinear superposition principles: A new numerical
+method for solving matrix Riccati equations, Comput. Phys. Commun. 33 (1984), 305-328.
+MR770094 (86i:58118)</mixed-citation>
+        </ref>
+        <ref id="d2241582e920a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d2241582e927" publication-type="other">
+W. T. Reid, Monotoneity properties of solutions of Hermitian Riccati differential equations,
+SIAM J. Math. Anal. 1 (1970), no. 2, 195-213. MR0262596 (41:7202)</mixed-citation>
+        </ref>
+        <ref id="d2241582e937a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d2241582e944" publication-type="other">
+—, Riccati differential equations, Academic Press, New York, 1972. MR0357936
+(50:10401)</mixed-citation>
+        </ref>
+        <ref id="d2241582e954a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d2241582e961" publication-type="other">
+I. Rusnak, Almost analytic representation for the solution of the differential matrix Riccati
+equation, IEEE Trans. Automat. Control 33 (1988), 191-193. MR922796</mixed-citation>
+        </ref>
+        <ref id="d2241582e972a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d2241582e979" publication-type="other">
+Jeremy Schiff and S. Shnider, A natural approach to the numerical integration of Riccati
+differential equations, SIAM J. Numer. Anal. 36 (1999), no. 5, 1392-1413. MR1706774
+(2000d:34024)</mixed-citation>
+        </ref>
+        <ref id="d2241582e992a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d2241582e999" publication-type="other">
+M. Sorine and P. Winternitz, Superposition laws for solutions of differential matrix Riccati
+equations arising in control theory, IEEE Trans. Automat. Control AC-30 (1985), 266-272.
+MR778430 (86e:34013)</mixed-citation>
+        </ref>
+        <ref id="d2241582e1012a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d2241582e1019" publication-type="other">
+Lloyd N. Trefethen and David Bau, III, Numerical linear algebra, SIAM, Philadelphia, 1997.
+MR1444820 (98k:65002)</mixed-citation>
+        </ref>
+        <ref id="d2241582e1029a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d2241582e1036" publication-type="other">
+D. R. Vaughan, A negative exponential solution for the matrix Riccati equation, IEEE Trans.
+Automat. Control AC-14 (1969), 72-75. MR0250727 (40:3959)</mixed-citation>
+        </ref>
+        <ref id="d2241582e1046a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d2241582e1053" publication-type="other">
+D. S. Watkins, Fundamentals of matrix computations, 2nd ed., John Wiley &amp; Sons, New
+York, 2002. MR1899577 (2003a:65002)</mixed-citation>
+        </ref>
+        <ref id="d2241582e1063a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d2241582e1070" publication-type="other">
+M. I. Zelikin, Control theory and optimization i: Homogeneous spaces and the Riccati equa-
+tion in calculus of variations, Encyclopaedia of Mathematical Sciences, vol. 86, Springer,
+Berlin, 2000, Originally published in Russian in 1998 and translated into English by S. A.
+Vakhrameev. MR1739679 (2001a:49002)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

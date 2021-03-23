@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group>
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">10618600</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">12</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i260302</issue-id>
+         <article-id pub-id-type="jstor">1390977</article-id>
+         
+         <title-group>
+            <article-title>Semi-Streaming Quantization for Remote Sensing Data</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Amy</given-names>
+                  <surname>Braverman</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Eric</given-names>
+                  <surname>Fetzer</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Annmarie</given-names>
+                  <surname>Eldering</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Silvia</given-names>
+                  <surname>Nittel</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Kelvin</given-names>
+                  <surname>Leung</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2003</year>
+         </pub-date>
+         <fpage>759</fpage>
+         <lpage>780</lpage>
+         <page-range>759-780</page-range>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <permissions>
+            <copyright-statement>Copyright 2003 American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/1390977"/>
+         
+         
+         <abstract>
+            <p>We describe a strategy for reducing the size and complexity of very large, remote sensing datasets acquired from NASA's Earth Observing System. We apply the quantization paradigm from, and algorithms developed in, signal processing to the problem of summarization. Because data arrive in discrete chunks, we formulate a semi-streaming strategy that partially processes chunks as they become available and stores the results. At the end of the summary time period, we re-ingest the partial summaries and summarize them. We show that mean squared errors between the final summaries and the original data can be computed from the mean squared errors incurred at the two stages without directly accessing the original data. The procedure is demonstrated using data from JPL's Atmospheric Infrared Sounder.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>Cluster analysis</kwd>
+            <kwd>Data compression</kwd>
+            <kwd>Data reduction</kwd>
+            <kwd>Massive datasets</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            
+            
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d5231645e362a1310">
+               
+               <mixed-citation id="d5231645e366" publication-type="book">
+Ash, R.B. (1965), Information Theory, Dover, New York.<person-group>
+                     <string-name>
+                     <surname>Ash</surname>
+                  </string-name>
+                  </person-group>
+               <source>Information Theory</source>
+               <year>1965</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e388a1310">
+               
+               <mixed-citation id="d5231645e392" publication-type="journal">
+Braverman, A. (2002), "Compressing Massive Geophysical Datasets Using Vector Quantization," Journal of
+Computational and Graphical Statistics, 11, 44-62.<object-id pub-id-type="jstor">10.2307/1391127</object-id>
+               <fpage>44</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e408a1310">
+               
+               <mixed-citation id="d5231645e412" publication-type="journal">
+Chou, P.A., Lookabaugh, T., and Gray, R.M. (1989), "Entropy-constrained Vector Quantization," IEEE Trans-
+actions on Acoustics, Speech, and Signal Processing, 37, 31-42.<person-group>
+                     <string-name>
+                     <surname>Chou</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>31</fpage>
+               <volume>37</volume>
+               <source>IEEE Transactions on Acoustics, Speech, and Signal Processing</source>
+               <year>1989</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e444a1310">
+               
+               <mixed-citation id="d5231645e448" publication-type="book">
+Cover, T., and Thomas, J.A. (1991), Elements of Information Theory, New York: Wiley.<person-group>
+                     <string-name>
+                     <surname>Cover</surname>
+                  </string-name>
+                  </person-group>
+               <source>Elements of Information Theory</source>
+               <year>1991</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e471a1310">
+               
+               <mixed-citation id="d5231645e475" publication-type="book">
+Gray, R.M. (1990), Source Coding Theory, Norwell, MA: Kluwer Academic Publishers.<person-group>
+                     <string-name>
+                     <surname>Gray</surname>
+                  </string-name>
+                  </person-group>
+               <source>Source Coding Theory</source>
+               <year>1990</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e497a1310">
+               
+               <mixed-citation id="d5231645e501" publication-type="journal">
+MacQueen, J.B. (1967), "Some Methods for Classification and Analysis of Multivariate Observations," in Pro-
+ceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, 1, pp. 281-296.<person-group>
+                     <string-name>
+                     <surname>MacQueen</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>281</fpage>
+               <volume>1</volume>
+               <source>Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d5231645e533a1310">
+               
+               <mixed-citation id="d5231645e537" publication-type="journal">
+Tarpey, T., and Flury, B. (1996), "Self-Consistency: A Fundamental Concept in Statistics," Statistical Science, 1,
+3, 229-243.<object-id pub-id-type="jstor">10.2307/2246116</object-id>
+               <fpage>3</fpage>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">20</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">4</issue>
+         <issue-id>i23241032</issue-id>
+         <article-id pub-id-type="jstor">23248936</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Mining High-Dimensional Data</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Penalized Functional Regression</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Jeff</given-names>
+                  <surname>Goldsmith</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jennifer</given-names>
+                  <surname>Bobb</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Ciprian M.</given-names>
+                  <surname>Crainiceanu</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Brian</given-names>
+                  <surname>Caffo</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Daniel</given-names>
+                  <surname>Reich</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>12</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>830</fpage>
+         <lpage>851</lpage>
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23248936"/>
+      
+      
+         <abstract>
+            <p>We develop fast fitting methods for generalized functional linear models. The functional predictor is projected onto a large number of smooth eigenvectors and the coefficient function is estimated using penalized spline regression; confidence intervals based on the mixed model framework are obtained. Our method can be applied to many functional data designs including functions measured with and without error, sparsely or densely sampled. The methods also extend to the case of multiple functional predictors or functional predictors with a natural multilevel structure. The approach can be implemented using standard mixed effects software and is computationally fast. The methodology is motivated by a study of white-matter demyelination via diffusion tensor imaging (DTI). The aim of this study is to analyze differences between various cerebral white-matter tract property measurements of multiple sclerosis (MS) patients and controls. While the statistical developments proposed here were motivated by the DTI study, the methodology is designed and presented in generality and is applicable to many other areas of scientific research. An online appendix provides R implementations of all simulations.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>REFERENCES</title>
+        <ref id="d979889e267a1310">
+          
+            <mixed-citation id="d979889e271" publication-type="other">
+Basser, P., Mattiello, J., and LeBihan, D. (1994), "MR Diffusion Tensor Spectroscopy and Imaging," Biophysical
+Journal, 66, 259-267. [847]</mixed-citation>
+        </ref>
+        <ref id="d979889e281a1310">
+          
+            <mixed-citation id="d979889e285" publication-type="other">
+Basser, P., Pajevic, S., Pierpaoli, C., and Duda, J. (2000), "In vivo Fiber Tractography Using DT-MRI Data,"
+Magnetic Resonance in Medicine, 44, 625-632. [847]</mixed-citation>
+        </ref>
+        <ref id="d979889e295a1310">
+          
+            <mixed-citation id="d979889e299" publication-type="other">
+Bates, D., and Pinheiro, J. (1997), "Computational Methods for Multilevel Modelling," technical report. Bell
+Labs, New Jersey. [837]</mixed-citation>
+        </ref>
+        <ref id="d979889e309a1310">
+          
+            <mixed-citation id="d979889e313" publication-type="other">
+Cardot, H., and Sarda, P. (2005), "Estimation in Generalized Linear Model for Functional Data via Penalized
+Likelihood," Journal of Multivariate Analysis, 92, 24-41. [830,831,833]</mixed-citation>
+        </ref>
+        <ref id="d979889e324a1310">
+          
+            <mixed-citation id="d979889e328" publication-type="other">
+Cardot, H., Ferraty, F., and Sarda, P. (1999), "Functional Linear Model," Statistics and Probability Letters, 45,
+11-22. [833]</mixed-citation>
+        </ref>
+        <ref id="d979889e338a1310">
+          
+            <mixed-citation id="d979889e342" publication-type="other">
+— (2003), "Spline Estimators for the Functional Linear Model," Statistica Sinica, 13, 571-591. [830,833,
+843]</mixed-citation>
+        </ref>
+        <ref id="d979889e352a1310">
+          
+            <mixed-citation id="d979889e356" publication-type="other">
+Crainiceanu, C., and Goldsmith, J. (2010), "Bayesian Functional Data Analysis Using WinBUGS," Journal of
+Statistical Software, 32, 1-33. [835,837]</mixed-citation>
+        </ref>
+        <ref id="d979889e366a1310">
+          
+            <mixed-citation id="d979889e370" publication-type="other">
+Crainiceanu, C., Staicu, A., and Di, C. (2009), "Generalized Multilevel Functional Regression," Journal of the
+American Statistical Association, 104, 1550-1561. [831,833,835,839,840]</mixed-citation>
+        </ref>
+        <ref id="d979889e380a1310">
+          
+            <mixed-citation id="d979889e384" publication-type="other">
+Di, C., Crainiceanu, C., Caffo, B„ and Punjabi, N. (2009), "Multilevel Functional Principal Component Analysis,"
+The Annals of Applied Statistics, 4, 458-288. [833-835,839,840]</mixed-citation>
+        </ref>
+        <ref id="d979889e394a1310">
+          
+            <mixed-citation id="d979889e398" publication-type="other">
+Ferraty, F., and Vieu, P. (2006), Nonparametric Functional Data Analysis: Theory and Practice, New York:
+Springer. [830]</mixed-citation>
+        </ref>
+        <ref id="d979889e409a1310">
+          
+            <mixed-citation id="d979889e413" publication-type="other">
+Goldsmith, J., Crainiceanu, C. M., Caffo, B„ and Reich, D. (2010), "Longitudinal Penalized Functional Regres-
+sion," Working Paper 216, Johns Hopkins University, Dept. of Biostatistics. Available at http.V/www.bepress.
+com/jhubiostat/paper216. [835,837]</mixed-citation>
+        </ref>
+        <ref id="d979889e426a1310">
+          
+            <mixed-citation id="d979889e430" publication-type="other">
+James, G. (2002), "Generalized Linear Models With Functional Predictors," Journal of the Royal Statistical
+Society, Ser. B, 64, 411—432. [830]</mixed-citation>
+        </ref>
+        <ref id="d979889e440a1310">
+          
+            <mixed-citation id="d979889e444" publication-type="other">
+James, G., and Silverman, B. (2005), "Functional Adaptive Model Estimation," Journal of the American Statisti-
+cal Association, 100, 565-576. [830]</mixed-citation>
+        </ref>
+        <ref id="d979889e454a1310">
+          
+            <mixed-citation id="d979889e458" publication-type="other">
+James, G., Wang, J., and Zhu, J. (2009), "Functional Linear Regression That's Interpretable," The Annals of
+Statistics, 37, 2083-2108. [833]</mixed-citation>
+        </ref>
+        <ref id="d979889e468a1310">
+          
+            <mixed-citation id="d979889e472" publication-type="other">
+LeBihan, D., Mangin, J., Poupon, C., and Clark, C. (2001), "Diffusion Tensor Imaging: Concepts and Applica-
+tions," Journal of Magnetic Resonance Imaging, 13, 534-546. [847]</mixed-citation>
+        </ref>
+        <ref id="d979889e482a1310">
+          
+            <mixed-citation id="d979889e486" publication-type="other">
+Li, Y., and Ruppert, D. (2008), "On The Asymptotics Of Penalized Splines," Biometrika, 95, 415^-36. [832]</mixed-citation>
+        </ref>
+        <ref id="d979889e494a1310">
+          
+            <mixed-citation id="d979889e498" publication-type="other">
+McCullagh, P., and Nelder, J. (1989), Generalized Linear Models, London: Chapman &amp; Hall/CRC. [831]</mixed-citation>
+        </ref>
+        <ref id="d979889e505a1310">
+          
+            <mixed-citation id="d979889e509" publication-type="other">
+McCulloch, C., Searle, S., and Neuhaus, J. (2008), Generalized, Linear, and Mixed Models, Hoboken: Wiley.
+[836]</mixed-citation>
+        </ref>
+        <ref id="d979889e519a1310">
+          
+            <mixed-citation id="d979889e523" publication-type="other">
+Mori, S., and Barker, P. (1999), "Diffusion Magnetic Resonance Imaging: Its Principle and Applications," The
+Anatomical Record, 257, 102-109. [847]</mixed-citation>
+        </ref>
+        <ref id="d979889e533a1310">
+          
+            <mixed-citation id="d979889e537" publication-type="other">
+Miiller, H. (2005), "Functional Modelling and Classification of Longitudinal Data," Scandinavian Journal of
+Statistics, 32, 223-240. [830]</mixed-citation>
+        </ref>
+        <ref id="d979889e547a1310">
+          
+            <mixed-citation id="d979889e551" publication-type="other">
+Miiller, H„ and Stadtmiiller, U. (2005), "Generalized Functional Linear Models," The Annals of Statistics, 33,
+774-805. [831,833,834,842]</mixed-citation>
+        </ref>
+        <ref id="d979889e561a1310">
+          
+            <mixed-citation id="d979889e565" publication-type="other">
+O'Sullivan, F., Yandell, B., and Raynor, W. (1986), "Automatic Smoothing of Regression Functions in General-
+ized Linear Models," Journal of the American Statistical Association, 81, 96-103. [835]</mixed-citation>
+        </ref>
+        <ref id="d979889e576a1310">
+          
+            <mixed-citation id="d979889e580" publication-type="other">
+Pinheiro, J., Bates, D., DebRoy, S., Sarkar, D., and the R Core Team (2009), "nlme: Linear and Nonlinear Mixed
+Effects Models," R package version 3.1-96. [837]</mixed-citation>
+        </ref>
+        <ref id="d979889e590a1310">
+          
+            <mixed-citation id="d979889e594" publication-type="other">
+R Development Core Team (2009), "R: A Language and Environment for Statistical Computing," R Founda-
+tion for Statistical Computing, Vienna, Austria. ISBN 3-900051-07-0, available at http://www.R-project.org.
+[837]</mixed-citation>
+        </ref>
+        <ref id="d979889e607a1310">
+          
+            <mixed-citation id="d979889e611" publication-type="other">
+Ramsay, J., and Silverman, B. (2005), Functional Data Analysis, New York: Springer. [830,832,835]</mixed-citation>
+        </ref>
+        <ref id="d979889e618a1310">
+          
+            <mixed-citation id="d979889e622" publication-type="other">
+Reiss, P., and Ogden, R. (2007), "Functional Principal Component Regression and Functional Partial Least
+Squares," Journal of the American Statistical Association, 102, 984-996. [830,833,843]</mixed-citation>
+        </ref>
+        <ref id="d979889e632a1310">
+          
+            <mixed-citation id="d979889e636" publication-type="other">
+Ruppert, D. (2002), "Selecting the Number of Knots for Penalized Splines," Journal of Computational and
+Graphical Statistics, 11, 735-757. [832,836]</mixed-citation>
+        </ref>
+        <ref id="d979889e646a1310">
+          
+            <mixed-citation id="d979889e650" publication-type="other">
+Ruppert, D., Wand, M., and Carroll, R. (2003), Semiparametric Regression, Vol. 66, Cambridge: Cambridge
+University Press. [835,837]</mixed-citation>
+        </ref>
+        <ref id="d979889e661a1310">
+          
+            <mixed-citation id="d979889e665" publication-type="other">
+Staniswalis, J., and Lee, J. (1998), "Nonparametric Regression Analysis of Longitudinal Data," Journal of the
+American Statistical Association, 444, 1403-1418. [834]</mixed-citation>
+        </ref>
+        <ref id="d979889e675a1310">
+          
+            <mixed-citation id="d979889e679" publication-type="other">
+Wood, S. (2006), Generalized Additive Models: An Introduction With R, London: Chapman &amp; Hall. [835-837]</mixed-citation>
+        </ref>
+        <ref id="d979889e686a1310">
+          
+            <mixed-citation id="d979889e690" publication-type="other">
+Yao, F„ Miiller, H., Clifford, A., Dueker, S., Follett, J„ Lin, Y., Buchholz, B., and Vogel, J. (2003), "Shrinkage
+Estimation for Functional Principal Component Scores With Application to the Population," Biometrics, 59,
+676-685.[834]</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

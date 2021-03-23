@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">00255718</issn>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="epub">10886842</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">80</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">275</issue>
+         <issue-id>i23075006</issue-id>
+         <article-id pub-id-type="jstor">23075373</article-id>
+         <title-group>
+            <article-title>CIRCUMSCRIBED ELLIPSOID ALGORITHM FOR FIXED-POINT PROBLEMS</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>C.</given-names>
+                  <surname>BOONYASIRIWAT</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>K.</given-names>
+                  <surname>SIKORSKI</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>C.</given-names>
+                  <surname>TSAY</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>7</month>
+            <year>2011</year>
+         </pub-date>
+         <fpage>1703</fpage>
+         <lpage>1723</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2011 American Mathematical Society</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/23075373"/>
+      
+      
+         <abstract>
+            <p>We present a new implementation of the almost optimal Circumscribed Ellipsoid (CE) Algorithm for approximating fixed points of nonexpanding functions, as well as of functions that may be globally expanding, however, are nonexpanding/contracting in the direction of fixed points. Our algorithm is based only on function values, i.e., it does not require computing derivatives of any order. We utilize the absolute and residual termination criteria with respect to the second norm. The numerical results confirm that the CE algorithm is much more efficient than the simple iteration algorithm whenever the Lipschitz constant is close to 1. We also compare it with the Newton-Raphson method. In some tests the Newton-Raphson method is more efficient than the CE method, especially when the problem size is large. However, the CE algorithm is an excellent method for low dimensional functions with discontinuities and/or low regularity. Our implementation can be downloaded from http://www.cs.utah.edu/~sikorski/cea.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1948848e663a1310">
+            <label>1</label>
+          
+            <mixed-citation id="d1948848e670" publication-type="other">
+A. Ageev, V. Vassin, E.N. Bessonova, and V.M. Markusevich, Radiosounding ionosphere on
+two frequencies. Algorithmic analysis of fredholm-stiltjes integral equation, in: Theoretical
+problems in geophysics (in Russian), (1997), 100-118.</mixed-citation>
+        </ref>
+        <ref id="d1948848e683a1310">
+            <label>2</label>
+          
+            <mixed-citation id="d1948848e690" publication-type="other">
+E. L. Allgower, Application of a fixed point search algorithm to nonlinear boundary value
+problems having several solutions, Fixed Points Algorithms and Applications (New York)
+(S. Karamardian, ed.), Academic Press, 1977, pp. 87-111. MR0448858 (56:7163)</mixed-citation>
+        </ref>
+        <ref id="d1948848e703a1310">
+            <label>3</label>
+          
+            <mixed-citation id="d1948848e710" publication-type="other">
+E. L. Allgower and K. Georg, Numerical continuation methods, Springer-Verlag, New York,
+1990. MR1059455 (92a:65165)</mixed-citation>
+        </ref>
+        <ref id="d1948848e720a1310">
+            <label>4</label>
+          
+            <mixed-citation id="d1948848e727" publication-type="other">
+J. Andreas, Topological fixed point principles for boundary value problems, Kluwer Academic
+Publishers, 2003. MR1998968 (2005a:47102)</mixed-citation>
+        </ref>
+        <ref id="d1948848e738a1310">
+            <label>5</label>
+          
+            <mixed-citation id="d1948848e745" publication-type="other">
+S. Banach, Sur les operations dans les ensembles abstraits et leur application aux equations
+integrates, Fund. Math. 3 (1922), 133-181.</mixed-citation>
+        </ref>
+        <ref id="d1948848e755a1310">
+            <label>6</label>
+          
+            <mixed-citation id="d1948848e762" publication-type="other">
+R. G. Bland, D. Goldfarb, and M. Todd, The ellipsoid method: A survey, Operations Research
+6 (1981), 1039-1090. MR641676 (83e:90081)</mixed-citation>
+        </ref>
+        <ref id="d1948848e772a1310">
+            <label>7</label>
+          
+            <mixed-citation id="d1948848e779" publication-type="other">
+C. Boonyasiriwat, Circumscribed ellipsoid algorithm for fixed point problems, Master's thesis,
+University of Utah, Salt Lake City, UT, 2004.</mixed-citation>
+        </ref>
+        <ref id="d1948848e789a1310">
+            <label>8</label>
+          
+            <mixed-citation id="d1948848e796" publication-type="other">
+C. Boonyasiriwat, K. Sikorski, and C. Xiong, A note on two fixed point problems, J. Com-
+plexity 23 (2007), 952-961. MR2372002 (2008k:65107)</mixed-citation>
+        </ref>
+        <ref id="d1948848e806a1310">
+            <label>9</label>
+          
+            <mixed-citation id="d1948848e813" publication-type="other">
+K. C. Border, Fixed point theorems with applications to economics and game theory, Cam-
+bridge University Press, New York, 1985. MR790845 (86j:90002)</mixed-citation>
+        </ref>
+        <ref id="d1948848e823a1310">
+            <label>10</label>
+          
+            <mixed-citation id="d1948848e830" publication-type="other">
+A. Bouaricha and R. B. Schnabel, Algorithm 768: Tensolve: a software package for solving
+systems of nonlinear equations and nonlinear least-squares problems using tensor methods,
+ACM Trans. Math. Soft. 23 (1997), no. 2, 174-195. MR1671795</mixed-citation>
+        </ref>
+        <ref id="d1948848e844a1310">
+            <label>11</label>
+          
+            <mixed-citation id="d1948848e851" publication-type="other">
+L. E. Brouwer, Uber abbildungen von mannigfaltigkeiten, Mathematische Annalen (1912),
+no. 71, 97-115.</mixed-citation>
+        </ref>
+        <ref id="d1948848e861a1310">
+            <label>12</label>
+          
+            <mixed-citation id="d1948848e868" publication-type="other">
+J. R. Bunch, C. P. Nielsen, and D. C. Sorensen, Rank-one modification of the symmetric
+eigenproblem, Numer. Math. 31 (1978), 31-48. MR508586 (80g:65038)</mixed-citation>
+        </ref>
+        <ref id="d1948848e878a1310">
+            <label>13</label>
+          
+            <mixed-citation id="d1948848e885" publication-type="other">
+R. M. Corless, G. W. Frank, and J. G. Monroe, Chaos and continued fractions, Physica D 46
+(1990), 241-253. MR1083721 (92c:58074)</mixed-citation>
+        </ref>
+        <ref id="d1948848e895a1310">
+            <label>14</label>
+          
+            <mixed-citation id="d1948848e902" publication-type="other">
+X. Deng and Xi. Chen, On algorithms for discrete and approximate Brouwer fixed points,
+Proceedings of the 37th Annual ACM Symposium on Theory of Computing, Baltimore, MD,
+USA, May 22-24, 2005 (Harold N. Gabov and Ronald Fagin, eds.), ACM, 2005. MR2181632</mixed-citation>
+        </ref>
+        <ref id="d1948848e915a1310">
+            <label>15</label>
+          
+            <mixed-citation id="d1948848e922" publication-type="other">
+J. J. Dongarra and D. C. Sorensen, A fully parallel algorithm for the symmetric eigenvalue
+problem, SIAM J. Sci. Stat. Comput. 8 (1987), no. 2, 139-154. MR879400 (88f:65054)</mixed-citation>
+        </ref>
+        <ref id="d1948848e932a1310">
+            <label>16</label>
+          
+            <mixed-citation id="d1948848e939" publication-type="other">
+B. C. Eaves, Homotopies for computation of fixed points, Math. Programming 3 (1972), no. 1,
+1-12. MR0303953 (46:3089)</mixed-citation>
+        </ref>
+        <ref id="d1948848e950a1310">
+            <label>17</label>
+          
+            <mixed-citation id="d1948848e957" publication-type="other">
+B. C. Eaves and R. Saigal, Homotopies for computation of fixed points on unbounded regions,
+Math. Programming 3 (1972), no. 2, 225-237. MR0314028 (47:2580)</mixed-citation>
+        </ref>
+        <ref id="d1948848e967a1310">
+            <label>18</label>
+          
+            <mixed-citation id="d1948848e974" publication-type="other">
+C. B. Garcia, C. E. Lemke, and H. Luethi, Simplicial approximation of an equilibrium point
+for non-cooperative n-person games, Mathematical Programming (New York) (T. C. Hu and
+S. M. Robinson, eds.), Academic Press, 1973, pp. 227-260. MR0439238 (55:12135)</mixed-citation>
+        </ref>
+        <ref id="d1948848e987a1310">
+            <label>19</label>
+          
+            <mixed-citation id="d1948848e994" publication-type="other">
+G. H. Golub, Some modified matrix eigenvalue problems, SIAM Rev. 15 (1973), 318-334.
+MR0329227 (48:7569)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1004a1310">
+            <label>20</label>
+          
+            <mixed-citation id="d1948848e1011" publication-type="other">
+M. Gu and S. C. Eisenstat, A stable and efficient algorithm for the rank-one modification
+of the symmetric eigenproblem, SIAM J. Matrix Anal. Appl. 15 (1994), no. 4, 1266-1276.
+MR1293916 (96c:65057)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1024a1310">
+            <label>21</label>
+          
+            <mixed-citation id="d1948848e1031" publication-type="other">
+M. D. Hirsch, C. Papadimitriou, and S. Vavasis, Exponential lower bounds for finding Brouwer
+fixed points, Journal of Complexity 5 (1989), 379—416. MR1028904 (91c:90021)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1041a1310">
+            <label>22</label>
+          
+            <mixed-citation id="d1948848e1048" publication-type="other">
+J. L. Howland and R. Vaillancourt, Attractive cycle in the iteration of meromorphic functions,
+Numer. Math. 46 (1985), 323-337. MR791694 (86g:30034)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1059a1310">
+            <label>23</label>
+          
+            <mixed-citation id="d1948848e1066" publication-type="other">
+Z. Huang, L. Khachiyan, and K. Sikorski, Approximating fixed points of weakly contracting
+mappings, J. Complexity 15 (1999), 200-213. MR1693888 (2000e:65055)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1076a1310">
+            <label>24</label>
+          
+            <mixed-citation id="d1948848e1083" publication-type="other">
+M. M. Jeppson, A search for the fixed points of a continuous mapping, Mathematical Topics
+in Economic Theory and Computation (Philadelphia) (R. H. Day and S. M. Robinsons, eds.),
+SIAM, 1972, pp. 122-129. MR0408236 (53:12001)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1096a1310">
+            <label>25</label>
+          
+            <mixed-citation id="d1948848e1103" publication-type="other">
+L. Khachiyan, A polynomial algorithm in linear programming, Soviet Math. Dokl. 20 (1979),
+no. 1, 191-194. MR639296 (83h:90058)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1113a1310">
+            <label>26</label>
+          
+            <mixed-citation id="d1948848e1120" publication-type="other">
+—, Polynomial algorithms in linear programming, USSR Computational Mathematics
+and Mathematical Physics (1980), no. 20, 53-72. MR564776 (81j:90079)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1130a1310">
+            <label>27</label>
+          
+            <mixed-citation id="d1948848e1137" publication-type="other">
+O. H. Merril, Application and extensions of an algorithm that computes fixed points of a
+certain upper semi-continuous point of set mapping, Ph.D. thesis, University of Michigan,
+Ann Arbor, MI, 1972.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1150a1310">
+            <label>28</label>
+          
+            <mixed-citation id="d1948848e1157" publication-type="other">
+—, A summary of techniques for computing fixed points of continuous mapping, Math-
+ematical Topics in Economic Theory and Computation (Philadelphia, PA) (R. H. Day and
+S. M. Robinson, eds.), SIAM, 1972, pp. 130-149. MR0408235 (53:12000)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1171a1310">
+            <label>29</label>
+          
+            <mixed-citation id="d1948848e1178" publication-type="other">
+J. J. More, B. S. Garbow, and K. E. Hillstrom, User guide for minpack-1, Argonne National
+Laboratory Report ANL-80-74, Argonne, 1980.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1188a1310">
+            <label>30</label>
+          
+            <mixed-citation id="d1948848e1195" publication-type="other">
+A. Neumaier, A better estimate of fixed points of contractions, Z. Angew. Math. Mech. 62
+(1982), 627. MR694062 (84c:65076)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1205a1310">
+            <label>31</label>
+          
+            <mixed-citation id="d1948848e1212" publication-type="other">
+G. Perestonina, I.L. Prutkin, L.Ya. Timerkhanova, and V. Vassin, Solving three-dimensional
+inverse problems of gravimetry and magnetometry for three layer medium (in Russian), Math.
+Modeling 15 (2003), no. 2, 69-76.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1225a1310">
+            <label>32</label>
+          
+            <mixed-citation id="d1948848e1232" publication-type="other">
+J. Rutter, A serial implementation of cuppen's divide and conquer algorithm for the symmetric
+eigenvalue problem, Technical Report CS-94-225, Department of Computer Science, University
+of Tennessee, Knoxville, TN, USA, March 1994. LAPACK Working Note 69, 1994.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1245a1310">
+            <label>33</label>
+          
+            <mixed-citation id="d1948848e1252" publication-type="other">
+H. Scarf, The approximation of fixed point of a continuous mapping, SIAM J. Appl. Math.
+35 (1967), 1328-1343. MR0242483 (39:3814)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1262a1310">
+            <label>34</label>
+          
+            <mixed-citation id="d1948848e1269" publication-type="other">
+—, The core of an n person game, Econometrica 35 (1967), 50-69. MR0234735 (38:3051)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1277a1310">
+            <label>35</label>
+          
+            <mixed-citation id="d1948848e1284" publication-type="other">
+H. E. Scarf and T. Hansen, Computation of economic equilibria, Yale University Press, 1973.
+MR0391909 (52:12727)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1294a1310">
+            <label>36</label>
+          
+            <mixed-citation id="d1948848e1301" publication-type="other">
+S. Shellman and K. Sikorski, A two-dimensional bisection envelope algorithm for fixed points,
+J. Complexity 18 (2002), no. 2, 641-659. MR1919453 (2003g:65070)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1311a1310">
+            <label>37</label>
+          
+            <mixed-citation id="d1948848e1318" publication-type="other">
+—, Algorithm 825: A deep-cut bisection envelope algorithm for fixed points, ACM Trans.
+Math. Soft. 29 (2003), no. 3, 309-325. MR2002734 (2004h:65051)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1328a1310">
+            <label>38</label>
+          
+            <mixed-citation id="d1948848e1335" publication-type="other">
+—, A recursive algorithm for the infinity-norm fixed point problem, J. Complexity 19
+(2003), no. 6, 799-834. MR2040430 (2005a:65053)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1345a1310">
+            <label>39</label>
+          
+            <mixed-citation id="d1948848e1352" publication-type="other">
+—, Algorithm 848: A recursive fixed point algorithm for the infinity-norm case, ACM
+Trans. Math. Soft. 31 (2005), no. 4, 580-587. MR2272347 (2007j:65063)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1362a1310">
+            <label>40</label>
+          
+            <mixed-citation id="d1948848e1369" publication-type="other">
+K. Sikorski, Fast algorithms for the computation of fixed points, Robustness in Identification
+and Control (New York) (R. Tempo M. Milanese and A. Vicino, eds.), Plenum Press, 1989,
+pp. 49-59. MR1041089 (91d:65067)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1383a1310">
+            <label>41</label>
+          
+            <mixed-citation id="d1948848e1390" publication-type="other">
+—, Optimal solution of nonlinear equations, Oxford Press, New York, 2001. MR1827804
+(2002h:65002)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1400a1310">
+            <label>42</label>
+          
+            <mixed-citation id="d1948848e1407" publication-type="other">
+K. Sikorski, C. W. Tsay, and H. Wozniakowski, An ellipsoid algorithm for the computation
+of fixed points, J. Complexity 9 (1993), 181-200. MR1213495 (94b:65182)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1417a1310">
+            <label>43</label>
+          
+            <mixed-citation id="d1948848e1424" publication-type="other">
+K. Sikorski and H. Wozniakowski, Complexity of fixed points i., J. Complexity (1987), 388-405.
+MR919096 (89a:65100)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1434a1310">
+            <label>44</label>
+          
+            <mixed-citation id="d1948848e1441" publication-type="other">
+D. C. Sorensen and P. T. P. Tang, On the orthogonality of eigenvectors computed by
+divide-and-conquer techniques, SIAM J. Numer. Anal. 28 (1991), 1752-1775. MR1135764
+(92h:65065)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1454a1310">
+            <label>45</label>
+          
+            <mixed-citation id="d1948848e1461" publication-type="other">
+R. Szrednicki, A generalization of the lefschetz fixed point theorem and detection of chaos,
+Proc. Amer. Math. Soc. 128 (2000), 1231-1239. MR1691005 (2000i:55015)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1471a1310">
+            <label>46</label>
+          
+            <mixed-citation id="d1948848e1478" publication-type="other">
+F. Tisseur and J. Dongarra, Parallelizing the divide and conquer algorithm for the symmetric
+tridiagonal eigenvalue problem on distributed memory architectures, SIAM J. Sci. Comput.
+20 (1999), no. 6, 2223-2236. MR1703274 (2000e:65045)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1492a1310">
+            <label>47</label>
+          
+            <mixed-citation id="d1948848e1499" publication-type="other">
+C. W. Tsay, Fixed point computation and parallel algorithms for solving wave equations,
+Ph.D. thesis, University of Utah, Salt Lake City, UT, 1994.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1509a1310">
+            <label>48</label>
+          
+            <mixed-citation id="d1948848e1516" publication-type="other">
+V. Vassin, Ill-posed problems with a priori information: Methods and applications, Institute
+of Mathematics and Mechanics, Russian Academy of Sciences, Ural Subdivision, 2005.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1526a1310">
+            <label>49</label>
+          
+            <mixed-citation id="d1948848e1533" publication-type="other">
+V. Vassin and A.L. Ageev, Ill-posed problems with a priori information, VSP, Utrecht, The
+Netherlands, 1995. MR1374573 (97j:65100)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1543a1310">
+            <label>50</label>
+          
+            <mixed-citation id="d1948848e1550" publication-type="other">
+V. Vassin and E. Eremin, Feyer type operators and iterative processes (in Russian), Russian
+Academy of Sciences, Ural Subdivision, Ekaterinburg, 2005.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1560a1310">
+            <label>51</label>
+          
+            <mixed-citation id="d1948848e1567" publication-type="other">
+V. Vassin and T.I. Sereznikova, Two stage method for approximation of nonsmooth solutions
+and reconstruction of noisy images (in Russian), Automatica and Telemechanica (2004),
+no. 2.</mixed-citation>
+        </ref>
+        <ref id="d1948848e1580a1310">
+            <label>52</label>
+          
+            <mixed-citation id="d1948848e1587" publication-type="other">
+L. T. Watson, A globally convergent algorithm for computing fixed points of C2 maps, Appl.
+Math. Comput. 5 (1979), 297-311. MR544868 (81b:55006)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1598a1310">
+            <label>53</label>
+          
+            <mixed-citation id="d1948848e1605" publication-type="other">
+Z. B. Xu and X. Z. Shi, A comparision of point and ball iterations in the contractive mapping
+case, Computing 49 (1992), 75-85. MR1182443 (93h:65085)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1615a1310">
+            <label>54</label>
+          
+            <mixed-citation id="d1948848e1622" publication-type="other">
+N. Yamamoto, A numerical verification method for solutions of boundary value problems with
+local uniqueness by banach's fixed-point theorem, SIAM J. Num. Anal. 35 (1998), 2004-2013.
+MR1639986 (99f:65180)</mixed-citation>
+        </ref>
+        <ref id="d1948848e1635a1310">
+            <label>55</label>
+          
+            <mixed-citation id="d1948848e1642" publication-type="other">
+Z.Yang, Computing equilibria and fixed points: The solution of nonlinear inequalities, Kluwer
+Academic Publishers, Dordrecht, 1999. MR1788059 (2001h:90003)</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

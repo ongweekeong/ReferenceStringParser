@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">50</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">181</issue>
+         <issue-id>i334599</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007932</article-id>
+         
+         <title-group>
+            <article-title>The Computation of $\pi$ to 29,360,000 Decimal Digits Using Borweins' Quartically Convergent Algorithm</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>David H.</given-names>
+                  <surname>Bailey</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1988</year>
+         </pub-date>
+         <fpage>283</fpage>
+         <lpage>296</lpage>
+         <page-range>283-296</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1988 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007932"/>
+         
+         
+         <abstract>
+            <p>In a recent work [6], Borwein and Borwein derived a class of algorithms based on the theory of elliptic integrals that yield very rapidly convergent approximations to elementary constants. The author has implemented Borweins' quartically convergent algorithm for $1/\pi$, using a prime modulus transform multi-precision technique, to compute over 29,360,000 digits of the decimal expansion of $\pi$. The result was checked by using a different algorithm, also due to the Borweins, that converges quadratically to $\pi$. These computations were performed as a system test of the Cray-2 operated by the Numerical Aerodynamical Simulation (NAS) Program at NASA Ames Research Center. The calculations were made possible by the very large memory of the Cray-2. Until recently, the largest computation of the decimal expansion of $\pi$ was due to Kanada and Tamura [12] of the University of Tokyo. In 1983 they computed approximately 16 million digits on a Hitachi S-810 computer. Late in 1985 Gosper [9] reported computing 17 million digits using a Symbolics workstation. Since the computation described in this paper was performed, Kanada has reported extending the computation of $\pi$ to over 134 million digits (January 1987). This paper describes the algorithms and techniques used in the author's computation, both for converging to $\pi$ and for performing the required multi-precision arithmetic. The results of statistical analyses of the computed decimal expansion are also included.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>11-04</kwd>
+            <kwd>65-04</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d1344956e129a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d1344956e136" publication-type="journal">
+D. H. BAILEY, "A high-performance fast Fourier transform algorithm for the Cray-2," J.
+Supercomputing, v. 1, 1987, pp. 43-60.<person-group>
+                     <string-name>
+                     <surname>Bailey</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>43</fpage>
+               <volume>1</volume>
+               <source>J. Supercomputing</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e168a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d1344956e175" publication-type="book">
+P. BECKMANN, A History of Pi, Golem Press, Boulder, CO, 1971.<person-group>
+                     <string-name>
+                     <surname>Beckmann</surname>
+                  </string-name>
+                  </person-group>
+               <source>A History of Pi</source>
+               <year>1971</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e197a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d1344956e204" publication-type="book">
+A. BORODIN &amp; I. MUNRO, The Computational Complexity of Algebraic and Numeric Problems,
+American Elsevier, New York, 1975.<person-group>
+                     <string-name>
+                     <surname>Borodin</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Computational Complexity of Algebraic and Numeric Problems</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e229a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d1344956e236" publication-type="journal">
+J. M. BORWEIN &amp; P. B. BORWEIN, "The arithmetic-geometric mean and fast computation
+of elementary functions," SIAM Rev., v. 26, 1984, pp. 351-366.<object-id pub-id-type="jstor">10.2307/2031275</object-id>
+               <fpage>351</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e253a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d1344956e260" publication-type="journal">
+J. M. BORWEIN &amp; P. B. BORWEIN, "More quadratically converging algorithms for 7r,"
+Math. Comp., v. 46, 1986, pp. 247-253.<object-id pub-id-type="doi">10.2307/2008229</object-id>
+               <fpage>247</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e276a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d1344956e283" publication-type="book">
+J. M. BORWEIN &amp; P. B. BORWEIN, Pi and the AGM—A Study in Analytic Number Theory
+and Computational Complexity, Wiley, New York, 1987.<person-group>
+                     <string-name>
+                     <surname>Borwein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Pi and the AGM—A Study in Analytic Number Theory and Computational Complexity</source>
+               <year>1987</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e308a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d1344956e315" publication-type="journal">
+R. P. BRENT, "Fast multiple-precision evaluation of elementary functions," J. Assoc. Comput.
+Mach., v. 23, 1976, pp. 242-251.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>242</fpage>
+               <volume>23</volume>
+               <source>J. Assoc. Comput. Mach.</source>
+               <year>1976</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e347a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d1344956e354" publication-type="book">
+E. 0. BRIGHAM, The Fast Fourier Transform, Prentice-Hall, Englewood Cliffs, N. J., 1974.<person-group>
+                     <string-name>
+                     <surname>Brigham</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Fast Fourier Transform</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e376a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d1344956e383" publication-type="other">
+W. GOSPER, private communication.</mixed-citation>
+            </ref>
+            <ref id="d1344956e390a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d1344956e397" publication-type="book">
+EMIL GROSSWALD, Topics from the Theory of Numbers, Macmillan, New York, 1966.<person-group>
+                     <string-name>
+                     <surname>Grosswald</surname>
+                  </string-name>
+                  </person-group>
+               <source>Topics from the Theory of Numbers</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e420a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d1344956e427" publication-type="book">
+G. H. HARDY &amp; E. M. WRIGHT, An Introduction to the Theory of Numbers, 5th ed., Oxford
+Univ. Press, London, 1984.<person-group>
+                     <string-name>
+                     <surname>Hardy</surname>
+                  </string-name>
+                  </person-group>
+               <edition>5</edition>
+               <source>An Introduction to the Theory of Numbers</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e456a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d1344956e463" publication-type="book">
+Y. KANADA &amp; Y. TAMURA, Calculation of π to 10,013,395 Decimal Places Based on the
+Gauss-Legendre Algorithm and Gauss Arctangent Relation, Computer Centre, University of Tokyo,
+1983.<person-group>
+                     <string-name>
+                     <surname>Kanada</surname>
+                  </string-name>
+                  </person-group>
+               <source>Calculation of π to 10,013,395 Decimal Places Based on the Gauss-Legendre Algorithm and Gauss Arctangent Relation</source>
+               <year>1983</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e492a1310">
+               <label>13</label>
+               
+               <mixed-citation id="d1344956e499" publication-type="book">
+D. KNUTH, The Art of Computer Programming, Vol. 2: Seminumerical Algorithms, Addison-
+Wesley, Reading, Mass., 1981.<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Art of Computer Programming, Vol. 2: Seminumerical Algorithms</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e524a1310">
+               <label>14</label>
+               
+               <mixed-citation id="d1344956e531" publication-type="journal">
+E. SALAMIN, "Computation of ir using arithmetic-geometric mean," Math. Comp., v. 30,
+1976, pp. 565-570.<object-id pub-id-type="doi">10.2307/2005327</object-id>
+               <fpage>565</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e547a1310">
+               <label>15</label>
+               
+               <mixed-citation id="d1344956e554" publication-type="journal">
+D. SHANKS &amp; J. W. WRENCH, JR., "Calculation of 7r to 100,000 decimals," Math. Comp.,
+v. 16, 1962, pp. 76-99.<object-id pub-id-type="doi">10.2307/2003813</object-id>
+               <fpage>76</fpage>
+            </mixed-citation>
+            </ref>
+            <ref id="d1344956e570a1310">
+               <label>16</label>
+               
+               <mixed-citation id="d1344956e577" publication-type="journal">
+P. SWARZTRAUBER, "FFT algorithms for vector computers," Parallel Comput., v. 1, 1984,
+pp. 45-64.<person-group>
+                     <string-name>
+                     <surname>Swarztrauber</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>45</fpage>
+               <volume>1</volume>
+               <source>Parallel Comput.</source>
+               <year>1984</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

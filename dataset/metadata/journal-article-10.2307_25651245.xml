@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">2</issue>
+         <issue-id>i25651242</issue-id>
+         <article-id pub-id-type="jstor">25651245</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Bayesian Computation</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Reparameterized and Marginalized Posterior and Predictive Sampling for Complex Bayesian Geostatistical Models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Mary Kathryn</given-names>
+                  <surname>Cowles</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Jun</given-names>
+                  <surname>Yan</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Brian</given-names>
+                  <surname>Smith</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>6</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>262</fpage>
+         <lpage>282</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 The American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundation of North America</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25651245"/>
+      
+      
+         <abstract>
+            <p>This article proposes a four-pronged approach to efficient Bayesian estimation and prediction for complex Bayesian hierarchical Gaussian models for spatial and spatiotemporal data. The method involves reparameterizing the covariance structure of the model, reformulating the means structure, marginalizing the joint posterior distribution, and applying a simplex-based slice sampling algorithm. The approach permits fusion of point-source data and areal data measured at different resolutions and accomodates nonspatial correlation and variance heterogeneity as well as spatial and/or temporal correlation. The method produces Markov chain Monte Carlo samplers with low auto-correlation in the output, so that fewer iterations are needed for Bayesian inference than would be the case with other sampling algorithms. Supplemental materials are available online.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d1321595e259a1310">
+          
+            <mixed-citation id="d1321595e263" publication-type="other">
+Bates, D., and Maechler, M. (2008), "Matrix: A Matrix Package for R," R Package Version 0.999375-17.</mixed-citation>
+        </ref>
+        <ref id="d1321595e270a1310">
+          
+            <mixed-citation id="d1321595e274" publication-type="other">
+Brooks, S. P., and Gelman, A. (1998), "General Methods for Monitoring Convergence of Iterative Simulations,"
+Journal of Computational and Graphical Statistics, 1, 434-455.</mixed-citation>
+        </ref>
+        <ref id="d1321595e284a1310">
+          
+            <mixed-citation id="d1321595e288" publication-type="other">
+Coxeter, H. S. M. (1969), Introduction to Geometry (2nd ed.), New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d1321595e295a1310">
+          
+            <mixed-citation id="d1321595e299" publication-type="other">
+Davis, T. (2006), Direct Methods for Sparse Linear Systems, Philadelphia: SIAM.</mixed-citation>
+        </ref>
+        <ref id="d1321595e307a1310">
+          
+            <mixed-citation id="d1321595e311" publication-type="other">
+Devroye, L. (1986), Non-Uniform Random Variate Generation, New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d1321595e318a1310">
+          
+            <mixed-citation id="d1321595e322" publication-type="other">
+Hastings, W. K. (1970), "Monte Carlo Sampling Methods Using Markov Chains and Their Applications," Bio-
+metrika, 57, 97-109.</mixed-citation>
+        </ref>
+        <ref id="d1321595e332a1310">
+          
+            <mixed-citation id="d1321595e336" publication-type="other">
+He, Y., Hodges, J. S., and Carlin, B. P. (2007), "Re-Considering the Variance Parameterization in Multiple Preci-
+sion Models," Bayesian Analysis, 2, 529-556.</mixed-citation>
+        </ref>
+        <ref id="d1321595e346a1310">
+          
+            <mixed-citation id="d1321595e350" publication-type="other">
+Heidelberger, P., and Welch, P. (1983), "Simulation Run Length Control in the Presence of an Initial Transient,"
+Operations Research, 31, 1109-1144.</mixed-citation>
+        </ref>
+        <ref id="d1321595e360a1310">
+          
+            <mixed-citation id="d1321595e364" publication-type="other">
+Hodges, J. S. (1998), "Some Algebra and Geometry for Hierarchical Models, Applied to Diagnostics" (with
+discussion), Journal of the Royal Statistical Society, Ser. B, 60, 497-536.</mixed-citation>
+        </ref>
+        <ref id="d1321595e374a1310">
+          
+            <mixed-citation id="d1321595e378" publication-type="other">
+Hormann, W., Leydold, J., and Derflinger, G. (2004), Automatic Nonuniform Random Variate Generation, Berlin:
+Springer.</mixed-citation>
+        </ref>
+        <ref id="d1321595e389a1310">
+          
+            <mixed-citation id="d1321595e393" publication-type="other">
+Lunn, D., Thomas, A., Best, N., and Spiegelhalter, D. (2000), "WinBUGS—a Bayesian Modelling Framework:
+Concepts, Structure, and Extensibility," Statistics and Computing, 10, 325-337.</mixed-citation>
+        </ref>
+        <ref id="d1321595e403a1310">
+          
+            <mixed-citation id="d1321595e407" publication-type="other">
+Neal, R. M. (2003), "Slice Sampling," The Annals of Statistics, 31, 705-767.</mixed-citation>
+        </ref>
+        <ref id="d1321595e414a1310">
+          
+            <mixed-citation id="d1321595e418" publication-type="other">
+Plummer, M., Best, N., Cowles, M. K., and Vines, K. (2008), "coda: Output Analysis and Diagnostics for
+MCMC," R Package Version 0.13-3.</mixed-citation>
+        </ref>
+        <ref id="d1321595e428a1310">
+          
+            <mixed-citation id="d1321595e432" publication-type="other">
+Robert, C. P., and Casella, G. (2004), Monte Carlo Statistical Methods (2nd ed.), New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d1321595e439a1310">
+          
+            <mixed-citation id="d1321595e443" publication-type="other">
+Sargent, D. J., Hodges, J. S., and Carlin, B. P. (2000), "Structured Markov Chain Monte Carlo," Journal of
+Computational and Graphical Statistics, 9, 217-234.</mixed-citation>
+        </ref>
+        <ref id="d1321595e453a1310">
+          
+            <mixed-citation id="d1321595e457" publication-type="other">
+Smith, B. J. (2007), "boa: An R Package for MCMC Output Convergence Assessment and Posterior Inference,"
+Journal of Statistical Software, 11, 1-37.</mixed-citation>
+        </ref>
+        <ref id="d1321595e468a1310">
+          
+            <mixed-citation id="d1321595e472" publication-type="other">
+Smith, B. J., and Cowles, M. K. (2007), "Correlating Point-Referenced Radon and Areal Uranium Data Arising
+From a Common Spatial Process," Journal of the Royal Statistical Society, Ser. C, 56, 313-326.</mixed-citation>
+        </ref>
+        <ref id="d1321595e482a1310">
+          
+            <mixed-citation id="d1321595e486" publication-type="other">
+Smith, B. J., Yan, J., and Cowles, M. K. (2007), "ramps: Bayesian Geostatistical Modeling With RAMPS,"
+R Package Version 0.6-1.</mixed-citation>
+        </ref>
+        <ref id="d1321595e496a1310">
+          
+            <mixed-citation id="d1321595e500" publication-type="other">
+- (2008), "Unified Geostatistical Modeling for Data Fusion and Spatial Heteroskedasticity With R Pack-
+age ramps," Journal of Statistical Software, 25 (10), 1-21.</mixed-citation>
+        </ref>
+        <ref id="d1321595e510a1310">
+          
+            <mixed-citation id="d1321595e514" publication-type="other">
+Yan, J., Cowles, M., Wang, S., and Armstrong, M. (2007), "Parallelizing MCMC for Bayesian Spatiotemporal
+Geostatistical Models," Statistics and Computing, 17, 323-335.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+

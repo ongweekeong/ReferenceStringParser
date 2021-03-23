@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">66</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">218</issue>
+         <issue-id>i337674</issue-id>
+         <article-id pub-id-type="jstor">2153883</article-id>
+         
+         <title-group>
+            <article-title>On Quasi-Monte Carlo Simulation of Stochastic Differential Equations</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Norbert</given-names>
+                  <surname>Hofmann</surname>
+              </string-name>
+            </contrib>
+            <contrib contrib-type="author">
+              <string-name>
+                  
+                     <given-names>Peter</given-names>
+                     <surname>Mathé</surname>
+                  
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>4</month>
+            <year>1997</year>
+         </pub-date>
+         <fpage>573</fpage>
+         <lpage>589</lpage>
+         <page-range>573-589</page-range>
+         <permissions>
+            <copyright-statement>Copyright 1997 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2153883"/>
+         
+         
+         <abstract>
+            <p>In a number of problems of mathematical physics and other fields stochastic differential equations are used to model certain phenomena. Often the solution of those problems can be obtained as a functional of the solution of some specific stochastic differential equation. Then we may use the idea of weak approximation to carry out numerical simulation. We analyze some complexity issues for a class of linear stochastic differential equations (Langevin type), which can be given by &lt;tex-math&gt;$dX_t = -\alpha X_tdt + \beta(t)dW_t, X_0:= 0,$&lt;/tex-math&gt; where &lt;latex&gt;$\alpha &gt; 0$&lt;/latex&gt; and &lt;tex-math&gt;$\beta: \lbrack 0, T \rbrack \rightarrow \mathbb{R}$&lt;/tex-math&gt;. It turns out that for a class of input data which are not more than Lipschitz continuous the explicit Euler scheme gives rise to an optimal (by order) numerical method. Then we study numerical phenomena which occur when switching from (real) Monte Carlo simulation to quasi-Monte Carlo simulation, which is the case when we carry out the simulation on computers. It will easily be seen that completely uniformly distributed sequences yield good substitutes for random variates, while not all uniformly distributed (mod 1) sequences are suited. In fact we provide necessary conditions on a sequence in order to serve quasi-Monte Carlo purposes. This condition is expressed in terms of the measure of well-distributions. Numerical examples complement the theoretical analysis.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65C05</kwd>
+            <kwd>65C10</kwd>
+            <kwd>60H10</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>References</title>
+            <ref id="d546658e168a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d546658e175" publication-type="journal">
+N. N. Chentsov. Pseudo-random numbers for modeling Markov chains. Zh. Vychisl. Mat. i
+Mat. Fiz., 7:632 - 643, 1967.<person-group>
+                     <string-name>
+                     <surname>Chentsov</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>632</fpage>
+               <volume>7</volume>
+               <source>Zh. Vychisl. Mat. i Mat. Fiz.</source>
+               <year>1967</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e207a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d546658e214" publication-type="journal">
+J. N. Franklin. Deterministic simulation of random processes. Math. of Computation, 17:28
+- 59, 1963. MR 26:7125<person-group>
+                     <string-name>
+                     <surname>Franklin</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>28</fpage>
+               <volume>17</volume>
+               <source>Math. of Computation</source>
+               <year>1963</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e246a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d546658e253" publication-type="journal">
+E. Hlawka. Losung von Integralgleichungen mittels zahlentheoretischer Methoden. Österreich.
+Akad. Wiss. Math.-Natur. Kl. Sitzungsber. II, 171:103 - 123, 1962. MR 27:548<person-group>
+                     <string-name>
+                     <surname>Hlawka</surname>
+                  </string-name>
+                  </person-group>
+               <fpage>103</fpage>
+               <volume>171</volume>
+               <source>Österreich. Akad. Wiss. Math.-Natur. Kl. Sitzungsber. II</source>
+               <year>1962</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e285a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d546658e292" publication-type="other">
+N. Hofmann. Beiträge zur schwachen Approximation stochastischer Differentialgleichungen.
+Dissertation, HU Berlin, 1995.</mixed-citation>
+            </ref>
+            <ref id="d546658e303a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d546658e310" publication-type="book">
+I. Karatzas and S. E. Shreve. Brownian Motion and Stochastic Calculus, volume 113 of
+Graduate Texts in Math., Springer, New York, Berlin, Heidelberg, 1988. MR 89c:60096<person-group>
+                     <string-name>
+                     <surname>Karatzas</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Brownian Motion and Stochastic Calculus</comment>
+               <volume>113</volume>
+               <source>Graduate Texts in Math.</source>
+               <year>1988</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e342a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d546658e349" publication-type="book">
+P. E. Kloeden and E. Platen. Numerical Solution of Stochastic Differential Equations, vol-
+ume 23 of Applications of Math., Springer, Berlin, Heidelberg, New York, 1992. MR
+94b:60069<person-group>
+                     <string-name>
+                     <surname>Kloeden</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Numerical Solution of Stochastic Differential Equations</comment>
+               <volume>23</volume>
+               <source>Applications of Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e384a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d546658e391" publication-type="book">
+D. E. Knuth. The Art of Computer Programming, Vol. 2/ Seminumerical Algorithms.
+Addison-Wesley Publ. Co., Reading, Mass., 1969. MR 44:3531<person-group>
+                     <string-name>
+                     <surname>Knuth</surname>
+                  </string-name>
+                  </person-group>
+               <source>The Art of Computer Programming, Vol. 2/ Seminumerical Algorithms</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e416a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d546658e423" publication-type="book">
+L. Kuipers and H. Niederreiter. Uniform Distribution of Sequences. Wiley &amp; Sons, New York,
+London, Sydney, Toronto, 1974. MR 54:7415<person-group>
+                     <string-name>
+                     <surname>Kuipers</surname>
+                  </string-name>
+                  </person-group>
+               <source>Uniform Distribution of Sequences</source>
+               <year>1974</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e448a1310">
+               <label>9</label>
+               
+               <mixed-citation id="d546658e455" publication-type="other">
+P. Mathé. Approximation theory of Monte Carlo methods. Habilitation thesis, 1994.</mixed-citation>
+            </ref>
+            <ref id="d546658e462a1310">
+               <label>10</label>
+               
+               <mixed-citation id="d546658e469" publication-type="book">
+G. N. Milstein. Numerical Integration of Stochastic Differential Equations, volume 313 of
+Mathematics and its Appl., Kluwer Acad. Publ., Dordrecht, Boston, London, 1995. MR
+96e:65003<person-group>
+                     <string-name>
+                     <surname>Milstein</surname>
+                  </string-name>
+                  </person-group>
+               <source>Numerical Integration of Stochastic Differential Equations, volume 313 of Mathematics and its Appl.</source>
+               <year>1995</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e499a1310">
+               <label>11</label>
+               
+               <mixed-citation id="d546658e506" publication-type="journal">
+H. Niederreiter. Quasi-Monte Carlo methods and pseudo-random numbers. Bull. Amer.
+Math. Soc., 84(6):957 - 1041, 1978. MR 80d:65016<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <issue>6</issue>
+               <fpage>957</fpage>
+               <volume>84</volume>
+               <source>Bull. Amer. Math. Soc.</source>
+               <year>1978</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d546658e541a1310">
+               <label>12</label>
+               
+               <mixed-citation id="d546658e548" publication-type="book">
+H. Niederreiter. Random Number Generation and Quasi-Monte Carlo Methods, volume 63 of
+CBMS-NSF Region. Conf. Series in Appl. Math. SIAM, Philadelphia, 1992. MR 93h:65008<person-group>
+                     <string-name>
+                     <surname>Niederreiter</surname>
+                  </string-name>
+                  </person-group>
+               <source>Random Number Generation and Quasi-Monte Carlo Methods, volume 63 of CBMS-NSF Region. Conf. Series in Appl. Math.</source>
+               <year>1992</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

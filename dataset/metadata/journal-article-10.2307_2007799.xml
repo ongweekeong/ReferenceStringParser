@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         dtd-version="1.0"
+         article-type="research-article">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="jstor">mathcomp</journal-id>
+         <journal-id journal-id-type="jstor">j100273</journal-id>
+         <journal-title-group>
+            <journal-title>Mathematics of Computation</journal-title>
+         </journal-title-group>
+         
+         <publisher>
+            <publisher-name>American Mathematical Society</publisher-name>
+         </publisher>
+         <issn pub-type="ppub">00255718</issn>
+         <issn pub-type="epub">10886842</issn>
+         <custom-meta-group/>
+      </journal-meta>
+      <article-meta>
+         <volume xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">44</volume>
+         <issue xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">169</issue>
+         <issue-id>i334587</issue-id>
+         <article-id pub-id-type="doi">10.2307/2007799</article-id>
+         
+         <title-group>
+            <article-title>A Rapid Robust Rootfinder</article-title>
+          </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+              <string-name>
+                  <given-names>Richard I.</given-names>
+                  <surname>Shrager</surname>
+              </string-name>
+            </contrib>
+          </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>1</month>
+            <year>1985</year>
+         </pub-date>
+         <fpage>151</fpage>
+         <lpage>165</lpage>
+         <page-range>151-165</page-range>
+         
+         <permissions>
+            <copyright-statement>Copyright 1985 American Mathematical Society</copyright-statement>
+         </permissions>
+         <self-uri xlink:href="https://www.jstor.org/stable/2007799"/>
+         
+         
+         <abstract>
+            <p>A numerical algorithm is presented for solving one nonlinear equation in one real variable. Given $F_X$ with brackets $A$ and $B$, i.e., $\text{sign}(F_A) = -\text{sign}(F_B) \neq 0$, the algorithm finds a zero of $F, A &lt; X &lt; B$. Alternately, a crossover pair is found, i.e., $(X, Y): \text{sign}(F_X) = -\text{sign}(F_Y) \neq 0$ where there is no floating-point number in the system between $X$ and $Y$. This feature allows full use of machine precision. Optionally, a tolerance $\mathrm{TOL} &gt; 0$ may be given, to permit termination when $|Y - X| &lt; \mathrm{TOL}$. The method, once rapid convergence sets in, is alternation of one linear interpolation or extrapolation with one inverse quadratic interpolation. The resulting asymptotic convergence rate is competitive with other methods that refine both brackets and do not require $dF/dX$. Other merits of the algorithm are: robust calculation, efficient three-point interpolation, and superior behavior in bad cases. The algorithm is tested and compared with others.</p>
+          </abstract>
+         <kwd-group>
+            <kwd>65H05</kwd>
+            <kwd>65-04</kwd>
+            <kwd>65D05</kwd>
+            <kwd>65G05</kwd>
+            <kwd>68E05</kwd>
+          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+              <meta-name>lang</meta-name>
+              <meta-value>eng</meta-value>
+            </custom-meta>
+          </custom-meta-group>
+      </article-meta>
+   </front>
+   <back>
+        
+         <ref-list>
+            <title>[Bibliography]</title>
+            <ref id="d4888468e147a1310">
+               <label>1</label>
+               
+               <mixed-citation id="d4888468e154" publication-type="book">
+R. P. BRENT, Algorithms for Minimization without Derivatives, Prentice-Hall, Englewood Cliffs, N. J.,
+1973.<person-group>
+                     <string-name>
+                     <surname>Brent</surname>
+                  </string-name>
+                  </person-group>
+               <source>Algorithms for Minimization without Derivatives</source>
+               <year>1973</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e179a1310">
+               <label>2</label>
+               
+               <mixed-citation id="d4888468e186" publication-type="journal">
+J. C. P. Bus &amp; T. J. DEKKER, "Two efficient algorithms with guaranteed convergence for finding a
+zero of a function," ACM Trans. Math. Software, v. 1, no. 4, 1975, pp. 330-345.<person-group>
+                     <string-name>
+                     <surname>Bus</surname>
+                  </string-name>
+                  </person-group>
+               <issue>4</issue>
+               <fpage>330</fpage>
+               <volume>1</volume>
+               <source>ACM Trans. Math. Software</source>
+               <year>1975</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e221a1310">
+               <label>3</label>
+               
+               <mixed-citation id="d4888468e228" publication-type="book">
+T. J. DEKKER, " Finding a zero by means of successive linear interpolation," in Constructive Aspects of
+the Fundamental Theorem of Algebra (B. Dejon and P. Henrici, eds.), Wiley-Interscience, London, 1969.<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Finding a zero by means of successive linear interpolation</comment>
+               <source>Constructive Aspects of the Fundamental Theorem of Algebra</source>
+               <year>1969</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e257a1310">
+               <label>4</label>
+               
+               <mixed-citation id="d4888468e264" publication-type="book">
+T. J. DEKKER, "Correctness proof and machine arithmetic," in Performance Evaluation of Numerical
+Software (L. D. Fosdick, ed.), Elsevier, New York, 1979.<person-group>
+                     <string-name>
+                     <surname>Dekker</surname>
+                  </string-name>
+                  </person-group>
+               <comment content-type="section">Correctness proof and machine arithmetic</comment>
+               <source>Performance Evaluation of Numerical Software</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e294a1310">
+               <label>5</label>
+               
+               <mixed-citation id="d4888468e301" publication-type="book">
+G. E. FORSYTHE, M. A. MALCOLM &amp; C. B. MOLER, Computer Methods for Mathematical Computa-
+tions, Prentice-Hall, Englewood Cliffs, N. J., 1977.<person-group>
+                     <string-name>
+                     <surname>Forsythe</surname>
+                  </string-name>
+                  </person-group>
+               <source>Computer Methods for Mathematical Computations</source>
+               <year>1977</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e326a1310">
+               <label>6</label>
+               
+               <mixed-citation id="d4888468e333" publication-type="journal">
+W. M. KAHAN, "Personal calculator has key to solve any equation f(x) = 0," Hewlett-Packard J.,
+Dec., 1979, pp. 20-26.<person-group>
+                     <string-name>
+                     <surname>Kahan</surname>
+                  </string-name>
+                  </person-group>
+               <issue>Dec.</issue>
+               <fpage>20</fpage>
+               <source>Hewlett-Packard J.</source>
+               <year>1979</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e365a1310">
+               <label>7</label>
+               
+               <mixed-citation id="d4888468e372" publication-type="book">
+A. M. OSTROWSKI, Solution of Equations and Systems of Equations, Academic Press, New York,
+1960; or 2nd ed., 1966.<person-group>
+                     <string-name>
+                     <surname>Ostrowski</surname>
+                  </string-name>
+                  </person-group>
+               <edition>2</edition>
+               <source>Solution of Equations and Systems of Equations</source>
+               <year>1966</year>
+            </mixed-citation>
+            </ref>
+            <ref id="d4888468e401a1310">
+               <label>8</label>
+               
+               <mixed-citation id="d4888468e408" publication-type="journal">
+D. STEVENSON &amp; IEEE TASK P754 (A WORKING GROUP), "A proposed standard for binary
+floating-point arithmetic," Computer, v. 12, no. 3, 1981, pp. 51-62.<person-group>
+                     <string-name>
+                     <surname>Stevenson</surname>
+                  </string-name>
+                  </person-group>
+               <issue>3</issue>
+               <fpage>51</fpage>
+               <volume>12</volume>
+               <source>Computer</source>
+               <year>1981</year>
+            </mixed-citation>
+            </ref>
+         </ref-list>
+      
+      </back>
+</article>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<article dtd-version="1.0" article-type="research-article">
+  <front>
+      <journal-meta>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">jcompgrapstat</journal-id>
+         <journal-id xmlns:xlink="http://www.w3.org/1999/xlink" journal-id-type="jstor">j100879</journal-id>
+         <journal-title-group xmlns:xlink="http://www.w3.org/1999/xlink">
+            <journal-title>Journal of Computational and Graphical Statistics</journal-title>
+         </journal-title-group>
+      
+         <publisher>
+            <publisher-name>JCGS Management Committee of the American Statistical Association, Institute of Mathematical Statistics, and Interface Foundation of North America</publisher-name>
+         </publisher>
+         <issn xmlns:xlink="http://www.w3.org/1999/xlink" pub-type="ppub">10618600</issn>
+         <custom-meta-group xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </journal-meta>
+      <article-meta xmlns:xlink="http://www.w3.org/1999/xlink">
+         <volume xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                 xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">18</volume>
+         <issue xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table">1</issue>
+         <issue-id>i25703548</issue-id>
+         <article-id pub-id-type="jstor">25703559</article-id>
+         <article-categories>
+            <subj-group>
+               <subject>Smoothing</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Smoothing Spline Semiparametric Nonlinear Regression Models</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib>
+               <string-name>
+                  <given-names>Yuedong</given-names>
+                  <surname>Wang</surname>
+               </string-name>
+            </contrib>
+            <contrib>
+               <string-name>
+                  <given-names>Chunlei</given-names>
+                  <surname>Ke</surname>
+               </string-name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="ppub">
+            <day>1</day>
+            <month>3</month>
+            <year>2009</year>
+         </pub-date>
+         <fpage>165</fpage>
+         <lpage>183</lpage>
+      
+      
+      
+      
+      
+      
+      
+      
+         <permissions>
+            <copyright-statement>© 2009 American Statistical Association, the Institute of Mathematical Statistics, and the Interface Foundat</copyright-statement>
+         </permissions>
+      
+         <self-uri xlink:href="https://www.jstor.org/stable/25703559"/>
+      
+      
+         <abstract>
+            <p>We consider the problem of modeling the mean function in regression. Often there is enough knowledge to model some components of the mean function parametrically. But for other vague and/or nuisance components, it is often desirable to leave them unspecified and to be modeled nonparametrically. In this article, we propose a general class of smoothing spline semiparametric nonlinear regression models (SNRMs) which assumes that the mean function depends on parameters and nonparametric functions through a known nonlinear functional. SNRMs are natural extensions of both parametric and nonparametric regression models. They include many popular nonparametric and semiparametric models such as the partial spline, varying coefficients, projection pursuit, single index, multiple index, and shape-invariant models as special cases. Building on reproducing kernel Hilbert spaces (RKHS), the SNRMs allow us to deal with many different situations in a unified fashion. We develop a unified estimation procedure based on minimizing penalized likelihood using Gauss—Newton and backfitting algorithms. Smoothing parameters are estimated using the generalized cross-validation (GCV) and generalized maximum likelihood (GML) methods. We derive Bayesian confidence intervals for the unknown functions. A generic and user-friendly R function is developed to implement our estimation and inference procedures. We illustrate our methods with analyses of two real datasets and evaluate finite-sample performance by simulations. Datasets, computer code and derivation of posterior covariances are available in the online supplements.</p>
+         </abstract>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>lang</meta-name>
+               <meta-value>eng</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+  </front>
+  <back>
+    
+      <ref-list>
+        <title>References</title>
+        <ref id="d2385918e216a1310">
+          
+            <mixed-citation id="d2385918e220" publication-type="other">
+Aronszajn, N. (1950), "Theory of Reproducing Kernels," Transactions of the American Mathematical Society,
+68, 337^04.</mixed-citation>
+        </ref>
+        <ref id="d2385918e230a1310">
+          
+            <mixed-citation id="d2385918e234" publication-type="other">
+Bates, D. M., and Watts, D. G. (1988), Nonlinear Regression Analysis and Its Applications, New York: Wiley.</mixed-citation>
+        </ref>
+        <ref id="d2385918e241a1310">
+          
+            <mixed-citation id="d2385918e245" publication-type="other">
+Carroll, R. J., Fan, J., Gijbels, I., and Wand, M. R (1997), "Generalized Partial Linear Single-Index Models,"
+Journal of the American Statistical Association, 92, 477-489.</mixed-citation>
+        </ref>
+        <ref id="d2385918e255a1310">
+          
+            <mixed-citation id="d2385918e259" publication-type="other">
+Chambers, J., and Hastie, T. (1992), Statistical Models in S, Pacific Grove, CA: Wadsworth and Brooks.</mixed-citation>
+        </ref>
+        <ref id="d2385918e267a1310">
+          
+            <mixed-citation id="d2385918e271" publication-type="other">
+Esedoglu, S. (2004), "Blind Deconvolution of Bar Code Signals," Inverse Problems, 20, 121-135.</mixed-citation>
+        </ref>
+        <ref id="d2385918e278a1310">
+          
+            <mixed-citation id="d2385918e282" publication-type="other">
+Flett, T. M. (1980), Differential Analysis, London: Cambridge University Press.</mixed-citation>
+        </ref>
+        <ref id="d2385918e289a1310">
+          
+            <mixed-citation id="d2385918e293" publication-type="other">
+Friedman, J. H., and Stuetzle, W. (1981), "Projection Pursuit Regression," Journal of the American Statistical
+Association, 76, 817-823.</mixed-citation>
+        </ref>
+        <ref id="d2385918e303a1310">
+          
+            <mixed-citation id="d2385918e307" publication-type="other">
+Genton, M. G., and Hall, P. (2007), "Statistical Inference for Evolving Periodic Functions," Journal of the Royal
+Statistical Society, Ser. B, 69, 643-657.</mixed-citation>
+        </ref>
+        <ref id="d2385918e317a1310">
+          
+            <mixed-citation id="d2385918e321" publication-type="other">
+Gu, C. (1989), "RKPACK and Its Applications: Fitting Smoothing Spline Models," Proceedings of the Statistical
+Computing Section, Alexandria, VA: ASA, pp. 42-51.</mixed-citation>
+        </ref>
+        <ref id="d2385918e331a1310">
+          
+            <mixed-citation id="d2385918e335" publication-type="other">
+- (2002), Smoothing Spline ANOVA Models, New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d2385918e343a1310">
+          
+            <mixed-citation id="d2385918e347" publication-type="other">
+Gu, C, and Wahba, G. (1993), "Smoothing Spline ANOVA With Component-Wise Bayesian Confidence Inter-
+vals," Journal of Computational and Graphical Statistics, 2, 97-117.</mixed-citation>
+        </ref>
+        <ref id="d2385918e357a1310">
+          
+            <mixed-citation id="d2385918e361" publication-type="other">
+Hardle, W., Liang, H., and Gao, J. (2000), Partial Linear Models, New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d2385918e368a1310">
+          
+            <mixed-citation id="d2385918e372" publication-type="other">
+Hastie, T., and Tibshirani, R. (1993), "Varying Coefficient Model," Journal of the Royal Statistical Society, Ser. B,
+55,757-796.</mixed-citation>
+        </ref>
+        <ref id="d2385918e382a1310">
+          
+            <mixed-citation id="d2385918e386" publication-type="other">
+Heckman, N., and Ramsay, J. O. (2000), "Penalized Regression With Model-Based Penalties," Canadian Journal
+of Statistics, 28, 241-258.</mixed-citation>
+        </ref>
+        <ref id="d2385918e396a1310">
+          
+            <mixed-citation id="d2385918e400" publication-type="other">
+Ke, C, and Wang, Y (2004), "Nonparametric Nonlinear Regression Models," Journal of the American Statistical
+Association, 99, 1166-1175.</mixed-citation>
+        </ref>
+        <ref id="d2385918e410a1310">
+          
+            <mixed-citation id="d2385918e414" publication-type="other">
+Lawton, W. H., Sylvestre, E. A., and Maggio, M. S. (1972), "Self-Modeling Nonlinear Regression," Technomet-
+rics, 13,513-532.</mixed-citation>
+        </ref>
+        <ref id="d2385918e425a1310">
+          
+            <mixed-citation id="d2385918e429" publication-type="other">
+Liu, A., and Wang, Y. (2004), "Hypothesis Testing in Smoothing Spline Models," Journal of Statistical Compu-
+tation and Simulation, 74, 581-597.</mixed-citation>
+        </ref>
+        <ref id="d2385918e439a1310">
+          
+            <mixed-citation id="d2385918e443" publication-type="other">
+Mammen, E., and Nielsen, J. P. (2003), "Generalised Structured Models," Biometrika, 90, 551-566.</mixed-citation>
+        </ref>
+        <ref id="d2385918e450a1310">
+          
+            <mixed-citation id="d2385918e454" publication-type="other">
+Pillonetto, G., and Bell, B. M. (2004), "Deconvolution of Non-Stationary Physical Signals: A Smooth Variance
+Model for Insulin Secretion Rate," Inverse Problems, 20, 367-383.</mixed-citation>
+        </ref>
+        <ref id="d2385918e464a1310">
+          
+            <mixed-citation id="d2385918e468" publication-type="other">
+Pinheiro, J., and Bates, D. M. (2000), Mixed-Effects Models in S and S-Plus, New York: Springer.</mixed-citation>
+        </ref>
+        <ref id="d2385918e475a1310">
+          
+            <mixed-citation id="d2385918e479" publication-type="other">
+Ramsay, J. O. (1998), "Estimating Smooth Monotone Functions," Journal of the Royal Statistical Society, Ser. B,
+60, 365-375.</mixed-citation>
+        </ref>
+        <ref id="d2385918e489a1310">
+          
+            <mixed-citation id="d2385918e493" publication-type="other">
+Ruppert, D., Wand, M. P., and Carroll, R. J. (2003), Semiparametric Regression, Cambridge, U.K.: Cambridge
+Univesity Press.</mixed-citation>
+        </ref>
+        <ref id="d2385918e504a1310">
+          
+            <mixed-citation id="d2385918e508" publication-type="other">
+Severini, T, and Staniswalis, J. (1994), "Quasi-Likelihood Estimation in Semiparametric Models," Journal of the
+American Statistical Association, 89, 501-511.</mixed-citation>
+        </ref>
+        <ref id="d2385918e518a1310">
+          
+            <mixed-citation id="d2385918e522" publication-type="other">
+Severini, T., and Wong, W. (1992), "Generalized Profile Likelihood and Conditional Parametric Models," Annals
+of Statistics, 20, 1768-1802.</mixed-citation>
+        </ref>
+        <ref id="d2385918e532a1310">
+          
+            <mixed-citation id="d2385918e536" publication-type="other">
+Speckman, P. (1988), "Kernel-Smoothing in Partial Linear Models," Journal of the Royal Statistical Society,
+Ser. B, 50, 413^36.</mixed-citation>
+        </ref>
+        <ref id="d2385918e546a1310">
+          
+            <mixed-citation id="d2385918e550" publication-type="other">
+Veldhuis, J. D., and Johnson, M. L. (1986), "Cluster Analysis: A Simple Versatile and Robust Algorithm for
+Endocrine Pulse Detection," American Journal of Physiology, 250, E486-E493.</mixed-citation>
+        </ref>
+        <ref id="d2385918e560a1310">
+          
+            <mixed-citation id="d2385918e564" publication-type="other">
+Wahba, G. (1978), "Improper Priors, Spline Smoothing, and the Problem of Guarding Against Model Errors in
+Regression," Journal of the Royal Statistical Society, Ser. B, 40, 364-372.</mixed-citation>
+        </ref>
+        <ref id="d2385918e574a1310">
+          
+            <mixed-citation id="d2385918e578" publication-type="other">
+- (1990), Spline Models for Observational Data. CBMS-NSF Regional Conference Series in Applied Math-
+ematics, Vol. 59, Philadelphia: SIAM.</mixed-citation>
+        </ref>
+        <ref id="d2385918e589a1310">
+          
+            <mixed-citation id="d2385918e593" publication-type="other">
+Wahba, G., Wang, Y, Gu, C, Klein, R., and Klein, B. (1995), "Smoothing Spline ANOVA for Exponential
+Families, With Application to the Wisconsin Epidemiological Study of Diabetic Retinopathy," Annals of
+Statistics, 23, 1865-1895.</mixed-citation>
+        </ref>
+        <ref id="d2385918e606a1310">
+          
+            <mixed-citation id="d2385918e610" publication-type="other">
+Wang, Y (1998), "Smoothing Spline Models With Correlated Random Errors," Journal of the American Statisti-
+cal Association, 93,341-348.</mixed-citation>
+        </ref>
+        <ref id="d2385918e620a1310">
+          
+            <mixed-citation id="d2385918e624" publication-type="other">
+Wang, Y, and Brown, M. B. (1996), "A Flexible Model for Human Circadian Rhythms," Biometrics, 52,588-596.</mixed-citation>
+        </ref>
+        <ref id="d2385918e631a1310">
+          
+            <mixed-citation id="d2385918e635" publication-type="other">
+Wang, Y., and Wahba, G. (1995), "Bootstrap Confidence Intervals for Smoothing Splines and Their Comparison
+to Bayesian Confidence Intervals," Journal of Statistical Computation and Simulation, 51, 263-279.</mixed-citation>
+        </ref>
+        <ref id="d2385918e645a1310">
+          
+            <mixed-citation id="d2385918e649" publication-type="other">
+Yang, Y, Liu, A., and Wang, Y. (2005), "Detecting Pulsatile Hormone Secretions Using Nonlinear Mixed Effects
+Partial Spline Models," Biometrics, 62, 230-238.</mixed-citation>
+        </ref>
+        <ref id="d2385918e659a1310">
+          
+            <mixed-citation id="d2385918e663" publication-type="other">
+Yu, Y, and Ruppert, D. (2002), "Penalized Spline Estimation for Partially Linear Single Index Models," Journal
+of the American Statistical Association, 97, 1042-1054.</mixed-citation>
+        </ref>
+        <ref id="d2385918e674a1310">
+          
+            <mixed-citation id="d2385918e678" publication-type="other">
+Zijlstra, A., Bedding, T., and Mattei, J. (2002), "The Evolution of the Mira Variable R Hydrae," Monthly Notices
+of the Royal Astronomical Society, 334, 498-510.</mixed-citation>
+        </ref>
+      </ref-list>
+    
+  </back>
+</article>
+
+
