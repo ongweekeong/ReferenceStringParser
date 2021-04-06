@@ -62,11 +62,11 @@ for dataset in dataset_paths:
             standardized_references.append(replaceTags(dataset_tags["cora"], tag_mapping[dataset], reference))
 
 labelled = "./dataset/standardized_dataset.txt"
-with open(labelled, 'w', errors='ignore') as f:
+with open(labelled, 'w', encoding="utf-8", errors='ignore') as f:
     f.write("\n".join(standardized_references))
     
 tag_file = "./utils/tags.txt"
-with open(tag_file, 'w', errors='ignore') as f:
+with open(tag_file, 'w', encoding="utf-8", errors='ignore') as f:
     f.write("\n".join(dataset_tags["cora"]))
 
 """
