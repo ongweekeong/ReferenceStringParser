@@ -19,7 +19,7 @@ Our experimentations have demonstrated that the identified features are useful i
 
 In addition, by simply using a vanilla LSTM model with no hyperparameter tuning, our results have shown that the generated features have the potential to greatly enhance parsing performance. For more information, refer to our poster below:
 
-![Poster](poster.PNG)
+![Poster](Poster.png)
 
 ## Useful Files
 ### `main.ipynb`
