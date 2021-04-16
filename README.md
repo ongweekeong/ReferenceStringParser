@@ -40,4 +40,3 @@ Reference strings formatted in 7 citation styles (ACM-Sig-Proceedings, American-
 
 ## References
 * A New Dataset for Fine-Grained Citation Field Extraction. Sam Anzaroot, Andrew McCallum. ICML Workshop on Peer Reviewing and Publishing Models (PEER), 2013.
-
