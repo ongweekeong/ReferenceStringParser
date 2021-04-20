@@ -14,13 +14,6 @@ The features that were experimented include:
 
 An ablation study was conducted using a vanilla LSTM model to assess the effectiveness of each feature on the overall parsing performance. In the final feature selection, all of the above features were combined and we obtained a micro F1 score of 0.92459 and macro F1 score of 0.76506. This is a significant improvement over our baseline model, which utilized word embeddings only. The baseline model only obtained a micro F1 score of 0.88379 and macro F1 score of 0.63426.
 
-## Overall Findings
-Our experimentations have demonstrated that the identified features are useful in improving the performance of a reference string parsing model. Our work highlights the importance of good feature engineering through understanding the characteristics of reference strings. Furthermore, we have shown how the advancements of NLP research in areas such as entity recognition and word representations, along with the development of deep learning techniques and the availability of pre-trained models,  has allowed us to generate useful features to achieve greater parsing accuracy, despite the limited amount of labelled reference data. 
-
-In addition, by simply using a vanilla LSTM model with no hyperparameter tuning, our results have shown that the generated features have the potential to greatly enhance parsing performance. For more information, refer to our poster below:
-
-![Poster](Poster.png)
-
 ## Useful Files
 ### `main.ipynb`
 This is the Jupyter notebook that was used to conduct experimentations using the various features. You can run the relevant cells to test the model on features of interest.
@@ -37,6 +30,14 @@ The adopted datasets include the [Cora information extraction dataset](https://p
 The jstor subdirectory contains collections of metadata from books and journal articles that were obtained from JSTOR using their Data For Research tool. The dataset contains XML files that include many details including the field tags, and others such as the Digital Object Identifier (DOI). The DOI of the books and articles were extracted and used to send Content Negotiation requests to a DOI Resolver (CrossRef’s API). 
 
 Reference strings formatted in 7 citation styles (ACM-Sig-Proceedings, American-Chemical-Society, APA, chicago-author-date, Harvard3, IEEE and MLA) can be found under the `cstyle_dataset` subdirectory.
+
+## Overall Findings
+Our experimentations have demonstrated that the identified features are useful in improving the performance of a reference string parsing model. Our work highlights the importance of good feature engineering through understanding the characteristics of reference strings. Furthermore, we have shown how the advancements of NLP research in areas such as entity recognition and word representations, along with the development of deep learning techniques and the availability of pre-trained models,  has allowed us to generate useful features to achieve greater parsing accuracy, despite the limited amount of labelled reference data. 
+
+In addition, by simply using a vanilla LSTM model with no hyperparameter tuning, our results have shown that the generated features have the potential to greatly enhance parsing performance. For more information, refer to our poster below:
+
+![Poster](Poster.png)
+
 
 ## References
 * A New Dataset for Fine-Grained Citation Field Extraction. Sam Anzaroot, Andrew McCallum. ICML Workshop on Peer Reviewing and Publishing Models (PEER), 2013.
